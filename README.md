@@ -22,9 +22,12 @@ To run my code:
 About Preprocessing:
 1. Download both Google [word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) and preprocessed [POS/NER file](https://drive.google.com/open?id=1_X7DZhxw4GKaCZ8_sfgrJcoPrSVe4DLq) (You can generate it by yourself by download latest Standford [CoreNLP toolkit](https://stanfordnlp.github.io/CoreNLP/) and put them in ./data/resource also.); put them in folder ./data/resource <br/>
 2. The PDTB v2.0 dataset raw files are already in the ./data/preprocess/dataset/ <br/>
-3.
+3. run ```python pdtb_preprocess_moreexpimp_paragraph.py``` <br/> 
 
 --------------------------------------------------------------------
-Version
-python == 2.7.10
-torch == 0.3.0
+Package Version:
+python == 2.7.10<br/>
+torch == 0.3.0<br/>
+nltk >= 3.2.2<br/>
+gensim >= 0.13.2<br/>
+numpy >= 1.13.1<br/>
