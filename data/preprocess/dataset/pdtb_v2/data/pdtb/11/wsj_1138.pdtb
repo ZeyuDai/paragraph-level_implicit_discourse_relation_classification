@@ -1,0 +1,241 @@
+________________________________________________________
+____EntRel____
+112
+1
+____Arg1____
+9..110
+0
+#### Text ####
+The Justice Department has distributed these new guidelines for U.S. Attorneys prosecuting RICO cases
+##############
+____Arg2____
+112..145
+1
+#### Text ####
+A related editorial appears today
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+305..310
+2,3,1,3,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+261..304
+2,3,1,3,0;2,3,1,3,1,0;2,3,1,3,1,1,0;2,3,1,3,1,1,1,0;2,3,1,3,1,1,1,1
+#### Text ####
+in order to preserve all forfeitable assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+311..354
+2,3,1,3,1,1,1,2,1
+#### Text ####
+the trial is completed and judgment entered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+334..337
+2,3,1,3,1,1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+305..333
+2,3,1,3,1,1,1,2,0;2,3,1,3,1,1,1,2,1,0
+#### Text ####
+until the trial is completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+338..354
+2,3,1,3,1,1,1,2,1,2
+#### Text ####
+judgment entered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+356
+3
+____Arg1____
+149..354
+2
+#### Text ####
+Under {RICO}, the government may seek a temporary restraining order (TRO) upon the filing of a RICO indictment, in order to preserve all forfeitable assets until the trial is completed and judgment entered
+##############
+____Arg2____
+356..532
+3
+#### Text ####
+Such orders can have a wide-ranging impact on third parties who do business with the defendants, including clients, vendors, banks, investors, creditors, dependents, and others
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+534
+4
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Expansion.Conjunction
+____Arg1____
+356..532
+3
+#### Text ####
+Such orders can have a wide-ranging impact on third parties who do business with the defendants, including clients, vendors, banks, investors, creditors, dependents, and others
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+534..643
+4,0;4,1,0;4,1,1,0;4,1,1,1;4,1,1,2;4,2
+#### Text ####
+Some highly publicized cases involving RICO TROs have been the subject of considerable criticism in the press
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+763
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+534..761
+4
+#### Text ####
+Some highly publicized cases involving RICO TROs have been the subject of considerable criticism in the press, because of a perception that pre-trial freezing of assets is tantamount to a seizure of property without due process
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+763..950
+5
+#### Text ####
+In order to ensure that the rights of all interested parties are protected, the Criminal Division has instituted the following requirements to control the use of TROs in RICO prosecutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+953
+6
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+763..950
+5
+#### Text ####
+In order to ensure that the rights of all interested parties are protected, the Criminal Division has instituted the following requirements to control the use of TROs in RICO prosecutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+953..1093
+6
+#### Text ####
+It should be noted that these requirements are in addition to any other existing requirements, such as review by the Asset Forfeiture Office
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1272
+8
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1102..1270
+7
+#### Text ####
+As part of the approval process for RICO prosecutions, the prosecutor must submit any proposed forfeiture TRO for review by the Organized Crime and Racketeering Section
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1272..1423
+8
+#### Text ####
+The prosecutor must show that less-intrusive remedies (such as bonds) are not likely to preserve the assets for forfeiture in the event of a conviction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1781
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1648..1779
+10,1
+#### Text ####
+In deciding whether forfeiture (and, hence, a TRO) is appropriate, the Section will consider the nature and severity of the offense
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1781..1941
+10,3
+#### Text ####
+the government's policy is not to seek the fullest forfeiture permissible under the law where that forfeiture would be disproportionate to the defendant's crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1948..1952
+11,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.General
+____Sup1____
+2189..2710
+11,4,1,4,1,1,2,1,2
+#### Text ####
+that is, in requesting the TRO, the government will not seek to disrupt the normal, legitimate business activities of the defendant; will not seek through use of the relation-back doctrine to take from third parties assets legitimately transferred to them; will not seek to vitiate legitimate business transactions occurring between the defendant and third parties; and will, in all other respects, assist the court in ensuring that the rights of third parties are protected, through proceeding under {RICO} and otherwise
+##############
+____Arg1____
+1981..2185
+11,0;11,2;11,3;11,4,0;11,4,1,0;11,4,1,1;11,4,1,2;11,4,1,3;11,4,1,4,0;11,4,1,4,1,0;11,4,1,4,1,1,0;11,4,1,4,1,1,1;11,4,1,4,1,1,2,0;11,4,1,4,1,1,2,1,0;11,4,1,4,1,1,2,1,1;11,5
+#### Text ####
+the prosecutor is required, at the earliest appropriate time, to state publicly that the government's request for a TRO, and eventual forfeiture, is made in full recognition of the rights of third parties
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1953..1979
+11,1,1
+#### Text ####
+a RICO TRO is being sought
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

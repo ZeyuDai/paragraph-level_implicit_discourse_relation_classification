@@ -1,0 +1,355 @@
+________________________________________________________
+____Explicit____
+229..241
+1,1,1,0;1,1,1,1
+#### Text ####
+a year after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+200..228
+1,0;1,1,0;1,2
+#### Text ####
+AMR's earnings decline comes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+242..337
+1,1,1,2
+#### Text ####
+the parent company of American Airlines and the rest of the airline industry set profit records
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+339
+2
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+200..337
+1
+#### Text ####
+AMR's earnings decline comes a year after the parent company of American Airlines and the rest of the airline industry set profit records
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+339..443
+2
+#### Text ####
+Some analysts say the latest results only seem pale by comparison with a spectacular second half of 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+447..452
+3,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+339..443
+2
+#### Text ####
+Some analysts say the latest results only seem pale by comparison with a spectacular second half of 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+454..514
+3,1;3,2;3,3;3,4
+#### Text ####
+AMR's stumble doesn't bode well for the rest of the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+516
+4
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+447..514
+3
+#### Text ####
+Still, AMR's stumble doesn't bode well for the rest of the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+516..607
+4,0
+#### Text ####
+The Fort Worth, Texas, company is generally regarded as one of the best-run in the business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+609..612
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+516..607
+4,0
+#### Text ####
+The Fort Worth, Texas, company is generally regarded as one of the best-run in the business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+613..749
+4,3
+#### Text ####
+its difficulties are likely to be reflected industrywide as other major carriers report third-quarter results over the next several days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+670..672
+4,3,1,1,1,1,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+609..669
+4,2;4,3,0;4,3,1,0;4,3,1,1,0;4,3,1,1,1,0;4,3,1,1,1,1,0;4,3,1,1,1,1,1,0;4,3,1,1,1,1,1,1,0;4,3,1,1,1,1,1,1,1;4,3,1,1,1,1,1,1,2;4,4
+#### Text ####
+and its difficulties are likely to be reflected industrywide
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+673..749
+4,3,1,1,1,1,1,1,3,1
+#### Text ####
+other major carriers report third-quarter results over the next several days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+753..762
+5,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+9..196
+0
+#### Text ####
+AMR Corp. posted an 8.8% drop in third-quarter net income and said the fourth quarter will be "disappointing" as well, primarily because of slimmer profit margins and increased fuel costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+764..783;894..1015
+5,1;5,2,0;5,2,1;5,2,3;5,3;5,4
+#### Text ####
+the company's board issued a statement condemning "ill-conceived and reckless" bids and saying it was "pleased" that Mr. Trump had backed out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1134
+7
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+1019..1132
+6
+#### Text ####
+In the third quarter, AMR said, net fell to $137 million, or $2.16 a share, from $150.3 million, or $2.50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1134..1201
+7
+#### Text ####
+Revenue rose 17% to $2.73 billion from $2.33 billion a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1579
+10
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+1415..1511
+9,1
+#### Text ####
+We think these trends will continue and will produce a very disappointing fourth quarter as well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1514..1521
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+he said
+##############
+____Arg2____
+1579..1619
+10,1,3
+#### Text ####
+The business turned faster than expected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1523..1576
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+Tim Pettee, an analyst with Merrill Lynch & Co., said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1621
+11
+#### Features ####
+Ot, Comm, Null, Null
+1523..1576
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+Tim Pettee, an analyst with Merrill Lynch & Co., said
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+1579..1619
+10,1,3
+#### Text ####
+The business turned faster than expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1621..1718
+11
+#### Text ####
+Costs are giving them a little bit of trouble, and the whole industry is having a pricing problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1668..1671
+11,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1523..1576
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+Tim Pettee, an analyst with Merrill Lynch & Co., said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1621..1666
+11,0
+#### Text ####
+Costs are giving them a little bit of trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1672..1718
+11,3
+#### Text ####
+the whole industry is having a pricing problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1839
+13
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1723..1837
+12
+#### Text ####
+For the nine months, AMR's net rose 15% to $415.9 million, or $6.59 a share, from $360.1 million, or $5.99 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1839..1893
+13
+#### Text ####
+Revenue jumped 22% to $7.89 billion from $6.46 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2147
+15
+#### Features ####
+Ot, Comm, Null, Null
+1897..1964
+14,0;14,1;14,2;14,3;14,4,0;14,4,1;14,4,2;14,5;14,6
+#### Text ####
+AMR's board, in a statement after a regular meeting yesterday, said
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+1967..2139
+14,4,3
+#### Text ####
+Ill-considered and reckless acquisition proposals adversely affect employee, financial and business relationships and are contrary to the best interests of AMR shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2147..2185
+15
+#### Text ####
+AMR has not been, and is not, for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,629 @@
+________________________________________________________
+____EntRel____
+367
+2
+____Arg1____
+194..365
+1
+#### Text ####
+Blue Arrow Chairman Mitchell Fromstein said in an interview that the two steps may be a prelude to reincorporating the world's biggest employment-services group in the U.S
+##############
+____Arg2____
+367..509
+2
+#### Text ####
+Mr. Fromstein disclosed the planned steps, expected within a few months, as Blue Arrow posted a 2.5% drop in its third-quarter pretax earnings
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+440..442
+2,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+367..438
+2,0;2,1,0;2,1,1;2,2
+#### Text ####
+Mr. Fromstein disclosed the planned steps, expected within a few months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+443..509
+2,1,2,1
+#### Text ####
+Blue Arrow posted a 2.5% drop in its third-quarter pretax earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+664..666
+3,1,1,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+630..663
+3,1,1,1,1,1;3,1,1,1,1,2
+#### Text ####
+and give it a more American image
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+667..744
+3,1,1,1,1,3,1
+#### Text ####
+U.S. investors turn jittery about foreign stocks after Friday's market plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+746
+4
+____Arg1____
+513..744
+3
+#### Text ####
+The name change and good will write-off could help solidify Blue Arrow's dominance of the U.S. temporary-help market and give it a more American image as U.S. investors turn jittery about foreign stocks after Friday's market plunge
+##############
+____Arg2____
+746..824
+4
+#### Text ####
+U.S. holders now own more than 60% of Blue Arrow compared with 9% last January
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+827
+5
+____Arg1____
+746..824
+4
+#### Text ####
+U.S. holders now own more than 60% of Blue Arrow compared with 9% last January
+##############
+____Arg2____
+827..943
+5
+#### Text ####
+In the U.S. market, the recognition of the Manpower name is infinitely stronger than Blue Arrow," Mr. Fromstein said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+957..961
+6,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+513..744
+3
+#### Text ####
+The name change and good will write-off could help solidify Blue Arrow's dominance of the U.S. temporary-help market and give it a more American image as U.S. investors turn jittery about foreign stocks after Friday's market plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+947..956;962..1036
+6,0;6,2;6,3
+#### Text ####
+The moves could erase shareholders' perception of Blue Arrow as a company in turmoil
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1039
+7
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+947..1036
+6
+#### Text ####
+The moves also could erase shareholders' perception of Blue Arrow as a company in turmoil
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1039..1111
+7,0
+#### Text ####
+It further reinforces the concept that Blue Arrow is a thing of the past
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1114..1178
+7,1;7,2;7,3
+#### Text ####
+said Doug Arthur, an analyst at Kidder Peabody & Co. in New York
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+1202..1205
+8,0,0,2
+#### Text ####
+all
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+1039..1111
+7,0
+#### Text ####
+It further reinforces the concept that Blue Arrow is a thing of the past
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1114..1178
+7,1;7,2;7,3
+#### Text ####
+said Doug Arthur, an analyst at Kidder Peabody & Co. in New York
+##############
+____Arg2____
+1180..1231
+8,0
+#### Text ####
+The proposed changes "all make a lot of sense to me
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1234..1242
+8,1;8,2;8,3
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1361..1374
+9,3,5,0;9,3,5,1
+#### Text ####
+a month after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1246..1359
+9,0;9,1;9,2;9,3,0;9,3,1;9,3,2;9,3,3;9,3,4;9,4
+#### Text ####
+In a widely publicized boardroom coup, Mr. Fromstein ousted Antony Berry as Blue Arrow chief executive in January
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1375..1472
+9,3,5,2
+#### Text ####
+Mr. Berry had forced Mr. Fromstein out as the $1 million-a-year chief of Milwaukee-based Manpower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1474
+10
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1246..1359
+9,0;9,1;9,2;9,3,0;9,3,1;9,3,2;9,3,3;9,3,4;9,4
+#### Text ####
+In a widely publicized boardroom coup, Mr. Fromstein ousted Antony Berry as Blue Arrow chief executive in January
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1474..1561
+10
+#### Text ####
+Mr. Fromstein solidified his control in April by taking over from Mr. Berry as chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1565..1568
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+947..1036
+6
+#### Text ####
+The moves also could erase shareholders' perception of Blue Arrow as a company in turmoil
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1569..1605
+11,1;11,2,0;11,2,1;11,2,2;11,2,3;11,2,4;11,3
+#### Text ####
+the Blue Arrow tumult isn't over yet
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1607..1609
+11,2,5,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1565..1605
+11,0;11,1;11,2,0;11,2,1;11,2,2;11,2,3;11,2,4;11,3
+#### Text ####
+But the Blue Arrow tumult isn't over yet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1610..1693
+11,2,5,1,0;11,2,5,1,1,0;11,2,5,1,1,1,0;11,2,5,1,1,1,1,0
+#### Text ####
+the British government is investigating a disputed #25 million ($39.4 million) loan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1842..1857
+12,1,2,0;12,1,2,1
+#### Text ####
+largely because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1763..1841
+12,0;12,1,0;12,1,1;12,2
+#### Text ####
+Blue Arrow was able to pull off the $1.34 billion takeover of Manpower in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1858..1964
+12,1,2,2
+#### Text ####
+different British and American accounting standards produce higher reported earnings for British companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1966
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1858..1964
+12,1,2,2
+#### Text ####
+different British and American accounting standards produce higher reported earnings for British companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1966..2232
+13;14
+#### Text ####
+Under British rules, Blue Arrow was able to write off at once the $1.15 billion in good will arising from the purchase.
+As a U.S.-based company, Blue Arrow would have to amortize the good will over as many as 40 years, creating a continuing drag on reported earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2086
+14
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1966..2084
+13
+#### Text ####
+Under British rules, Blue Arrow was able to write off at once the $1.15 billion in good will arising from the purchase
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2086..2232
+14
+#### Text ####
+As a U.S.-based company, Blue Arrow would have to amortize the good will over as many as 40 years, creating a continuing drag on reported earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2371..2374
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1966..2183
+13;14,0;14,1;14,2;14,3,0;14,3,1,0;14,3,1,1;14,3,1,2;14,4
+#### Text ####
+Under British rules, Blue Arrow was able to write off at once the $1.15 billion in good will arising from the purchase.
+As a U.S.-based company, Blue Arrow would have to amortize the good will over as many as 40 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2375..2507
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+with so many shares now held in the U.S., Blue Arrow reports its earnings two ways, based on both U.K. and U.S. accounting standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2510
+17
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2371..2507
+16
+#### Text ####
+But with so many shares now held in the U.S., Blue Arrow reports its earnings two ways, based on both U.K. and U.S. accounting standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2510..2572
+17,0
+#### Text ####
+Our balance sheets look like they came from Alice's wonderland
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2575..2593
+17,1;17,2;17,3
+#### Text ####
+Mr. Fromstein said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2595
+18
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2510..2572
+17,0
+#### Text ####
+Our balance sheets look like they came from Alice's wonderland
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2575..2593
+17,1;17,2;17,3
+#### Text ####
+Mr. Fromstein said
+##############
+____Arg2____
+2595..2819
+18
+#### Text ####
+The British version shows "a handful of pounds of net worth" following the 1987 write-off of good will, while the American version reflects "$1 billion of net worth because almost none of {the good will} has been written off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2699..2704
+18,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2575..2593
+17,1;17,2;17,3
+#### Text ####
+Mr. Fromstein said
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2595..2697
+18,0;18,1,0;18,1,1;18,1,2;18,1,3;18,2;18,3
+#### Text ####
+The British version shows "a handful of pounds of net worth" following the 1987 write-off of good will
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2705..2819
+18,1,4,1
+#### Text ####
+the American version reflects "$1 billion of net worth because almost none of {the good will} has been written off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2760..2767
+18,1,4,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2575..2593
+17,1;17,2;17,3
+#### Text ####
+Mr. Fromstein said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2699..2759
+18,1,4,0;18,1,4,1,0;18,1,4,1,1,0;18,1,4,1,1,1
+#### Text ####
+while the American version reflects "$1 billion of net worth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2768..2819
+18,1,4,1,1,2,1
+#### Text ####
+almost none of {the good will} has been written off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2969
+20
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2938..2967
+19,1,2;19,1,3;19,2
+#### Text ####
+but wouldn't specify how much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2969..3141
+20
+#### Text ####
+People close to Blue Arrow suggested the write-down would represent a sizable chunk, with executives claiming prior management overstated the extent of Manpower's good will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3290
+22
+____Arg1____
+3145..3288
+21
+#### Text ####
+That move, along with the return to the Manpower name, could bolster the company's prospects during possibly difficult times for temporary help
+##############
+____Arg2____
+3290..3407
+22,0
+#### Text ####
+The number of U.S. temporary workers fell about 1% in the 12 months ending Aug. 31, after sliding nearly 3.5% in July
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3374..3379
+22,0,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3409..3441
+22,1;22,2;22,3;22,4
+#### Text ####
+said Kidder Peabody's Mr. Arthur
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3290..3372
+22,0,0;22,0,1,0;22,0,1,1;22,0,1,2;22,0,1,3
+#### Text ####
+The number of U.S. temporary workers fell about 1% in the 12 months ending Aug. 31
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3380..3407
+22,0,1,4,1
+#### Text ####
+sliding nearly 3.5% in July
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3582..3589
+24,0
+#### Text ####
+Overall
+##############
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Restatement.Specification
+____Arg1____
+3445..3580
+23
+#### Text ####
+Blue Arrow blamed the pretax profit drop in the quarter ended July 31 partly on slower earnings growth of non-Manpower units in Britain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3591..3677
+24,1;24,2;24,3;24,4
+#### Text ####
+pretax profit slid to #18.49 million in the quarter from #18.98 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

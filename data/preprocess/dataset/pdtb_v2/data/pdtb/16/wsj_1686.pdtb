@@ -1,0 +1,368 @@
+________________________________________________________
+____Explicit____
+9..21
+0,0,0,0;0,0,0,1
+#### Text ####
+Just because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+171..192
+0,1;0,2;0,3;0,4
+#### Text ####
+a federal judge ruled
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+117..169
+0,0,1
+#### Text ####
+doesn't mean the city no longer owns the work of art
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+22..116
+0,0,0,2
+#### Text ####
+Stamford, Conn., High School did nothing when its valuable 1930s mural was thrown in the trash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+63..67
+0,0,0,2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+9..62
+0,0,0,0;0,0,0,1;0,0,0,2,0;0,0,0,2,1,0;0,0,0,2,1,1
+#### Text ####
+Just because Stamford, Conn., High School did nothing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+68..116
+0,0,0,2,1,2,1
+#### Text ####
+its valuable 1930s mural was thrown in the trash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+339
+2
+____Arg1____
+196..337
+1
+#### Text ####
+The mural, now valued at $1.3 million according to appraisers, was tossed in a trash heap in 1971 by workers who were renovating the building
+##############
+____Arg2____
+339..460
+2
+#### Text ####
+The 100-foot-long mural, painted by James Daugherty in 1934, was commissioned by the federal Works Project Administration
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+464..469
+3,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+553..628
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+it eventually was turned over to Hiram Hoelzer, a professional art restorer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+470..551
+3,0,1
+#### Text ####
+the discarded mural was found outside the school by a concerned Stamford graduate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+725
+5
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+632..723
+4
+#### Text ####
+Throughout the 1970s, Stamford school and city officials made no effort to locate the mural
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+725..799
+5,0;5,1;5,2,0;5,2,1;5,2,2;5,2,3,0;5,2,3,1;5,2,3,2,0;5,2,3,2,1,0;5,2,3,2,1,1;5,3
+#### Text ####
+Apparently the officials didn't even know the mural was missing until 1980
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1055..1062
+7,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+915..1040
+6
+#### Text ####
+In 1986, Stamford officials thanked Mr. Hoelzer for taking care of the mural -- and demanded he return it as soon as possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1042..1053;1064..1077
+7,0;7,1;7,3;7,4,0;7,4,1;7,4,2;7,5
+#### Text ####
+Mr. Hoelzer sued Stamford
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1079..1173
+7,4,3
+#### Text ####
+claiming that the city had abandoned the artwork and that it had waited too long to reclaim it
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1128..1131
+7,4,3,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1079..1087
+7,4,3,0;7,4,3,1,0
+#### Text ####
+claiming
+##############
+and, Expansion.Conjunction
+____Arg1____
+1088..1127
+7,4,3,1,1,0
+#### Text ####
+that the city had abandoned the artwork
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1132..1173
+7,4,3,1,1,2
+#### Text ####
+that it had waited too long to reclaim it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1177..1180
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1042..1173
+7
+#### Text ####
+Mr. Hoelzer, however, sued Stamford, claiming that the city had abandoned the artwork and that it had waited too long to reclaim it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1181..1381
+8,1;8,2;8,3
+#### Text ####
+Judge Louis L. Stanton of federal court in Manhattan ruled that the city couldn't be faulted for waiting too long because it didn't realize until 1986 that its ownership of the painting was in dispute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1295..1302
+8,2,1,1,1,2,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1181..1239
+8,1;8,2,0;8,3
+#### Text ####
+Judge Louis L. Stanton of federal court in Manhattan ruled
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1240..1294
+8,2,1,0;8,2,1,1,0;8,2,1,1,1,0;8,2,1,1,1,1;8,2,1,1,1,2,0;8,2,1,1,1,2,1,0;8,2,1,1,1,2,1,1;8,2,1,1,1,2,1,2
+#### Text ####
+that the city couldn't be faulted for waiting too long
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1303..1381
+8,2,1,1,1,2,1,3,1
+#### Text ####
+it didn't realize until 1986 that its ownership of the painting was in dispute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1393..1397
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1177..1381
+8
+#### Text ####
+But Judge Louis L. Stanton of federal court in Manhattan ruled that the city couldn't be faulted for waiting too long because it didn't realize until 1986 that its ownership of the painting was in dispute
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1383..1392;1398..1546
+9,0;9,2;9,3
+#### Text ####
+The judge ruled that the painting wasn't abandoned because officials didn't intend for it to be thrown away and were unaware that the workmen had discarded it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1439..1446
+9,2,1,1,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1383..1403
+9,0;9,1;9,2,0;9,3
+#### Text ####
+The judge also ruled
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1404..1438
+9,2,1,0;9,2,1,1,0;9,2,1,1,1,0;9,2,1,1,1,1;9,2,1,1,1,2,0;9,2,1,1,1,2,1
+#### Text ####
+that the painting wasn't abandoned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1447..1546
+9,2,1,1,1,2,2,1
+#### Text ####
+officials didn't intend for it to be thrown away and were unaware that the workmen had discarded it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1629
+11
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1550..1627
+10
+#### Text ####
+Mr. Hoelzer didn't return phone calls seeking comment on the judge's decision
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1629..1748
+11
+#### Text ####
+The judge ordered that a hearing be held Nov. 17 to determine how much the city should pay Mr. Hoelzer for his services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1943
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1805..1932
+12,1,1
+#### Text ####
+the city has discussed several possible plans for displaying the mural, which portrays various scenes from the Great Depression
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1752..1804
+12,0;12,1,0;12,2
+#### Text ####
+Mary E. Sommer, corporate counsel for Stamford, said
+##############
+____Arg2____
+1943..2039
+13,1,1
+#### Text ####
+the mural "preserves an era in Stamford and in our country when this type of work was being done
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1934..1942
+13,0;13,1,0;13,2
+#### Text ####
+She said
+##############
+________________________________________________________

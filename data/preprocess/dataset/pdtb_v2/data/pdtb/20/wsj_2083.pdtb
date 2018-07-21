@@ -1,0 +1,190 @@
+________________________________________________________
+____Implicit____
+262
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+163..260
+1
+#### Text ####
+Net fell to $40.1 million, or $1.50 a share, from $60.7 million, or $2.32 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+262..334
+2
+#### Text ####
+Sales for the quarter slipped 2.7% to $601.3 million from $618.1 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+388..391
+3,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+449..495
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+said John D. Ong, chairman and chief executive
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+338..387
+3,0,0
+#### Text ####
+Polyvinyl chloride capacity "has overtaken demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+392..446
+3,0,2
+#### Text ####
+we are experiencing reduced profit margins as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+435..446
+3,0,2,1,1,2
+#### Text ####
+as a result
+##############
+#### Features ####
+Ot, Comm, Null, Null
+449..495
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+said John D. Ong, chairman and chief executive
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+338..387
+3,0,0
+#### Text ####
+Polyvinyl chloride capacity "has overtaken demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+388..434
+3,0,1;3,0,2,0;3,0,2,1,0;3,0,2,1,1,0;3,0,2,1,1,1
+#### Text ####
+and we are experiencing reduced profit margins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+497
+4
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+338..446
+3,0
+#### Text ####
+Polyvinyl chloride capacity "has overtaken demand and we are experiencing reduced profit margins as a result
+##############
+#### Features ####
+Ot, Comm, Null, Null
+449..495
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+said John D. Ong, chairman and chief executive
+##############
+____Arg2____
+497..580
+4,0
+#### Text ####
+Prices for general-purpose PVC resin have dropped more than 15% since last December
+##############
+#### Features ####
+Ot, Comm, Null, Null
+582..589
+4,1;4,2;4,3;4,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+591
+5
+____Arg1____
+497..589
+4
+#### Text ####
+Prices for general-purpose PVC resin have dropped more than 15% since last December, he said
+##############
+____Arg2____
+591..699
+5
+#### Text ####
+The plastic resin is used in a wide range of products, including siding, pipe and electrical wire insulation
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+859
+7
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+703..857
+6
+#### Text ####
+Goodrich's vinyl-products segment reported operating profit for the quarter of $30.1 million, less than half the $64.1 million of the year-earlier quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+859..976
+7
+#### Text ####
+Third-quarter operating profit of the specialty-chemicals group declined slightly to $24.3 million from $24.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+978..981
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+859..976
+7
+#### Text ####
+Third-quarter operating profit of the specialty-chemicals group declined slightly to $24.3 million from $24.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+982..1072
+8,1;8,2;8,3
+#### Text ####
+operating profit from aerospace products rose nearly 50% to $15 million from $10.1 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

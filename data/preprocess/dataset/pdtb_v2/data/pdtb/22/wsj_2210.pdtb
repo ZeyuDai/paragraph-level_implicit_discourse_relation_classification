@@ -1,0 +1,1171 @@
+________________________________________________________
+____Explicit____
+99..102
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..97
+0,0
+#### Text ####
+Share prices plummeted across Europe yesterday in response to Friday's New York sell-off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+103..183
+0,3
+#### Text ####
+some issues staged a late comeback after Wall Street opened without another rout
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+138..143
+0,3,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+99..137
+0,2;0,3,0;0,3,1,0;0,3,1,1;0,4
+#### Text ####
+but some issues staged a late comeback
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+144..183
+0,3,1,2,1
+#### Text ####
+Wall Street opened without another rout
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+315..321
+2,0,2,1,1,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+302..314
+2,0,2,0;2,0,2,1,0;2,0,2,1,1,0
+#### Text ####
+which closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+322..351
+2,0,2,1,1,1,1
+#### Text ####
+the New York exchanges opened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+513..519
+3,3,2,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+441..512
+3,0;3,1;3,2;3,3,0;3,3,1;3,3,2,0;3,3,2,1;3,4
+#### Text ####
+In London, prices plummeted in early trading and were off as much as 9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+520..589
+3,3,2,2,1
+#### Text ####
+coming back strong after the New York opening to close down only 3.2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+712
+5
+#### Features ####
+Ot, Comm, Null, Null
+593..645
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+West German Economics Minister Helmut Haussmann said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+648..710
+4,1,3
+#### Text ####
+In my view, the stock market will stabilize relatively quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+712..813
+5
+#### Text ####
+There may be one or other psychological or technical reactions, but they aren't based on fundamentals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+776..779
+5,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+593..645
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+West German Economics Minister Helmut Haussmann said
+##############
+but, Comparison.Contrast
+____Arg1____
+712..774
+5,0
+#### Text ####
+There may be one or other psychological or technical reactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+780..813
+5,3
+#### Text ####
+they aren't based on fundamentals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+815
+6
+#### Features ####
+Ot, Comm, Null, Null
+593..645
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+West German Economics Minister Helmut Haussmann said
+##############
+in short, Expansion.Conjunction
+____Arg1____
+776..813
+5,2;5,3;5,4
+#### Text ####
+but they aren't based on fundamentals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+815..891
+6
+#### Text ####
+The economy of West Germany and the EC {European Community} is highly stable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+967..971
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+272..300;353..437;441..512
+2,0,0;2,0,1;2,0,3;2,1;2,2;3,0;3,1;3,2;3,3,0;3,3,1;3,3,2,0;3,3,2,1;3,4
+#### Text ####
+The Frankfurt Stock Exchange was the hardest hit of the major European markets, with the DAX Index dropping 12.8% In London, prices plummeted in early trading and were off as much as 9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+896..901;972..984
+7,0,0;7,0,1;7,0,3;7,2;7,3
+#### Text ####
+Paris was hard hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+986
+8
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+896..901;967..984
+7,0,0;7,0,1;7,0,3;7,1;7,2;7,3
+#### Text ####
+Paris also was hard hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+986..1053
+8
+#### Text ####
+Share prices fell in Milan, Amsterdam, Zurich, Madrid and Stockholm
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1121..1125
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+272..300;353..402;441..512;896..901;967..1053
+2,0,0;2,0,1;2,0,3;2,1,0;2,1,1;2,1,2;3,0;3,1;3,2;3,3,0;3,3,1;3,3,2,0;3,3,2,1;3,4;7,0,0;7,0,1;7,0,3;7,1;7,2;7,3;8
+#### Text ####
+The Frankfurt Stock Exchange was the hardest hit of the major European markets In London, prices plummeted in early trading and were off as much as 9% Paris also was hard hit.
+Share prices fell in Milan, Amsterdam, Zurich, Madrid and Stockholm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1055..1073;1126..1133
+9,0,0;9,0,1,0;9,0,1,1,0;9,0,1,1,1;9,0,1,1,3;9,2;9,3
+#### Text ####
+Prices in Brussels tumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+1135
+10
+____Arg1____
+1055..1133
+9
+#### Text ####
+Prices in Brussels, where a computer breakdown disrupted trading, also tumbled
+##############
+____Arg2____
+1135..1184
+10
+#### Text ####
+Following is a breakdown of major market activity
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1288
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1199..1286
+12
+#### Text ####
+One of the sharpest declines came in the financial center of Europe's strongest economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1288..1393
+13
+#### Text ####
+The DAX Index of 30 West German blue chips plunged 12.8%, a one-day record, wiping out the summer's gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1395
+14
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+1288..1393
+13
+#### Text ####
+The DAX Index of 30 West German blue chips plunged 12.8%, a one-day record, wiping out the summer's gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1395..1442
+14
+#### Text ####
+The index closed at 1385.72, down 203.56 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1446..1459
+15,0
+#### Text ####
+By comparison
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison
+____Arg1____
+1288..1393
+13
+#### Text ####
+The DAX Index of 30 West German blue chips plunged 12.8%, a one-day record, wiping out the summer's gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1461..1572
+15,1;15,2;15,3;15,4;15,5;15,6;15,7
+#### Text ####
+two years ago on Black Monday, the new index would have dropped 9.4%, according to a projection by the exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1574
+16
+____Arg1____
+1446..1572
+15
+#### Text ####
+By comparison, two years ago on Black Monday, the new index would have dropped 9.4%, according to a projection by the exchange
+##############
+____Arg2____
+1574..1762
+16
+#### Text ####
+Investors may have reacted so strongly to Friday's U.S. stock market loss because they had vivid memories of the Frankfurt exchange's losing 35% of its value in the 1987 crash and its wake
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1648..1655
+16,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1574..1647
+16,0;16,1,0;16,1,1,0;16,1,1,1,0;16,1,1,1,1;16,1,1,1,2;16,2
+#### Text ####
+Investors may have reacted so strongly to Friday's U.S. stock market loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1656..1762
+16,1,1,1,3,1
+#### Text ####
+they had vivid memories of the Frankfurt exchange's losing 35% of its value in the 1987 crash and its wake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1777..1784
+17,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1574..1762
+16
+#### Text ####
+Investors may have reacted so strongly to Friday's U.S. stock market loss because they had vivid memories of the Frankfurt exchange's losing 35% of its value in the 1987 crash and its wake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1766..1775;1786..1846
+17,0;17,1;17,3;17,4;17,5;17,6
+#### Text ####
+This time many small investors may have been hurt by acting so swiftly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1849
+18
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1766..1846
+17
+#### Text ####
+This time, however, many small investors may have been hurt by acting so swiftly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1849..1885
+18,1
+#### Text ####
+They all went in the wrong direction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1888..1978
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+said Andreas Insam, an investment adviser for the Bank in Liechtenstein's Frankfurt branch
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1988
+19
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+1849..1885
+18,1
+#### Text ####
+They all went in the wrong direction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1888..1978
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+said Andreas Insam, an investment adviser for the Bank in Liechtenstein's Frankfurt branch
+##############
+____Arg2____
+1988..2071
+19,1,1
+#### Text ####
+he told clients to buy selected West German blue chips after they fell by about 10%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1980..1987
+19,0;19,1,0;19,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2043..2048
+19,1,1,1,1,2,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1980..1987
+19,0;19,1,0;19,2
+#### Text ####
+He said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1988..2042
+19,1,1,0;19,1,1,1,0;19,1,1,1,1,0;19,1,1,1,1,1;19,1,1,1,1,2,0;19,1,1,1,1,2,1,0;19,1,1,1,1,2,1,1,0;19,1,1,1,1,2,1,1,1
+#### Text ####
+he told clients to buy selected West German blue chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2049..2071
+19,1,1,1,1,2,1,1,2,1
+#### Text ####
+they fell by about 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2075..2080
+20,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2153..2220
+20,1;20,2;20,3,0;20,3,1,0;20,3,1,1;20,3,1,2;20,4
+#### Text ####
+Frankfurt's normal two-hour trading session was extended 75 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2081..2151
+20,0,1
+#### Text ####
+the opening was delayed 30 minutes because of the crush of sell orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2250
+21
+____Arg1____
+2075..2247
+20
+#### Text ####
+After the opening was delayed 30 minutes because of the crush of sell orders, Frankfurt's normal two-hour trading session was extended 75 minutes to handle the heavy volume
+##############
+____Arg2____
+2250..2325
+21
+#### Text ####
+The beginning was chaotic," said Nigel Longley, a broker for Commerzbank AG
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2328
+22
+#### Features ####
+Ot, Comm, Null, Null
+2278..2325
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said Nigel Longley, a broker for Commerzbank AG
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2250..2275
+21,1
+#### Text ####
+The beginning was chaotic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2328..2433
+22
+#### Text ####
+It took three-quarters of an hour before enough prices could be worked out to get a reading on the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2362..2368
+22,2,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2278..2325
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said Nigel Longley, a broker for Commerzbank AG
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2328..2361
+22,0;22,1;22,2,0;22,2,1;22,3;22,4
+#### Text ####
+It took three-quarters of an hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2369..2433
+22,2,2,1
+#### Text ####
+enough prices could be worked out to get a reading on the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2637
+24
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Equivalence
+____Arg1____
+2438..2473;2558..2634
+23,0,0;23,0,1;23,0,3;23,1;23,2
+#### Text ####
+Institutional investors and bankers were cautiously optimistic after the mild 1.8% decline in Tokyo stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2637..2706
+24
+#### Text ####
+Everybody was still confident, including most institutional investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2812..2874
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+said Norbert Braeuer, a senior trader for Hessische Landesbank
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+2708..2719
+25,0,0;25,0,1,0;25,0,1,1,0
+#### Text ####
+That is why
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2812..2874
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+said Norbert Braeuer, a senior trader for Hessische Landesbank
+##############
+Contingency.Cause.Result
+____Arg1____
+2637..2706
+24
+#### Text ####
+Everybody was still confident, including most institutional investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2708..2809
+25,0
+#### Text ####
+That is why everybody was a little surprised by the storm of sell orders from small private investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2971..2974
+26,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2878..2969
+26,0
+#### Text ####
+Some big institutions, including banks, began picking up lower-priced shares late yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2975..3047
+26,3
+#### Text ####
+most investors wanted to see what would happen in New York before acting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3034..3040
+26,3,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2975..2996
+26,3,0;26,3,1,0
+#### Text ####
+most investors wanted
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2997..3033
+26,3,1,1,0;26,3,1,1,1,0;26,3,1,1,1,1,0;26,3,1,1,1,1,1
+#### Text ####
+to see what would happen in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3041..3047
+26,3,1,1,1,1,2,1
+#### Text ####
+acting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3051..3054
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3099..3116
+27,2;27,3;27,4,0;27,5
+#### Text ####
+analysts here say
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2971..3047
+26,2;26,3;26,4
+#### Text ####
+but most investors wanted to see what would happen in New York before acting
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+3055..3097;3117..3213
+27,1;27,4,1,0;27,4,1,1,0;27,4,1,1,1,0;27,4,1,1,1,1,0;27,4,1,1,1,1,1,0;27,4,1,1,1,1,1,1,0;27,4,1,1,1,1,1,1,1,0;27,4,1,1,1,1,1,1,1,1
+#### Text ####
+even if Wall Street continues to stabilize the latest blow to investor confidence could inhibit a swift recovery for the Frankfurt exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3215..3323
+27,4,1,1,1,1,1,1,1,2
+#### Text ####
+which already was showing signs of weakness after the DAX had slipped from a 1989 high of 1657.61 on Sept. 8
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3055..3062
+27,1,0;27,1,1
+#### Text ####
+even if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3099..3116
+27,2;27,3;27,4,0;27,5
+#### Text ####
+analysts here say
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3117..3213
+27,4,1,0;27,4,1,1,0;27,4,1,1,1,0;27,4,1,1,1,1,0;27,4,1,1,1,1,1,0;27,4,1,1,1,1,1,1,0;27,4,1,1,1,1,1,1,1,0;27,4,1,1,1,1,1,1,1,1
+#### Text ####
+the latest blow to investor confidence could inhibit a swift recovery for the Frankfurt exchange
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+3063..3097
+27,1,2
+#### Text ####
+Wall Street continues to stabilize
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3259..3264
+27,4,1,1,1,1,1,1,1,2,1,2,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3099..3116
+27,2;27,3;27,4,0;27,5
+#### Text ####
+analysts here say
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3215..3258
+27,4,1,1,1,1,1,1,1,2,0;27,4,1,1,1,1,1,1,1,2,1,0;27,4,1,1,1,1,1,1,1,2,1,1;27,4,1,1,1,1,1,1,1,2,1,2,0;27,4,1,1,1,1,1,1,1,2,1,2,1,0;27,4,1,1,1,1,1,1,1,2,1,2,1,1
+#### Text ####
+which already was showing signs of weakness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3265..3323
+27,4,1,1,1,1,1,1,1,2,1,2,1,2,1
+#### Text ####
+the DAX had slipped from a 1989 high of 1657.61 on Sept. 8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3394
+29
+____Arg1____
+3327..3392
+28
+#### Text ####
+Some of West Germany's bluest chips took some of the biggest hits
+##############
+____Arg2____
+3394..3590
+29
+#### Text ####
+A 16.3% drop for Mannesmann AG and Dresdner Bank AG's 9.6% decline were especially problematic for their respective boards, whose plans for major rights issues in November could now be in jeopardy
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3727..3730
+31,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison.Concession.Contra-expectation
+____Arg1____
+3624..3725
+30,2,1
+#### Text ####
+it hoped to raise 1.2 billion marks ($642.2 million) by issuing four million shares at 300 marks each
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3594..3623
+30,0;30,1;30,2,0;30,3
+#### Text ####
+Dresdner Bank last month said
+##############
+____Arg2____
+3731..3923
+31,1;31,2;31,3
+#### Text ####
+yesterday's market cropped Dresdner's share price by 33 marks to 309 marks a share, leaving little incentive for investors to subscribe to the standing price unless the market recovers quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3889..3895
+31,2,5,1,1,2,1,1,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+3815..3888
+31,2,5,0;31,2,5,1,0;31,2,5,1,1,0;31,2,5,1,1,1;31,2,5,1,1,2,0;31,2,5,1,1,2,1,0;31,2,5,1,1,2,1,1,0;31,2,5,1,1,2,1,1,1,0;31,2,5,1,1,2,1,1,1,1
+#### Text ####
+leaving little incentive for investors to subscribe to the standing price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3896..3923
+31,2,5,1,1,2,1,1,1,2,1
+#### Text ####
+the market recovers quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4392
+36
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4231..4390
+35
+#### Text ####
+It was big institutions such as Norwich Union Insurance Group, Scottish Amicable Investment Managers and Standard Life Assurance Co. that spearheaded the rally
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4392..4499
+36
+#### Text ####
+Attracted by low prices and encouraged by New York's performance, they scooped up equities across the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4661
+40
+#### Features ####
+Wr, Comm, Null, Null
+ultimately, Expansion.Conjunction
+____Arg1____
+4577..4659
+39
+#### Text ####
+Late buying gave the Paris Bourse a parachute after its free fall early in the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4661..4742
+40
+#### Text ####
+The CAC General Index ended down 5.4% at 523.6, a drop of 29.6 points from Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4880
+42
+#### Features ####
+Ot, Comm, Null, Null
+4816..4877
+41,0;41,2;41,3;41,4;41,5;41,6
+#### Text ####
+said Michel Vigier, a partner in brokerage firm Cholet Dupont
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+4747..4813
+41,1
+#### Text ####
+There was a volatility in the market that I have never seen before
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4880..4969
+42
+#### Text ####
+When Wall Street turned around shortly after the opening, there was panic buying in Paris
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4880..4884
+42,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4816..4877
+41,0;41,2;41,3;41,4;41,5;41,6
+#### Text ####
+said Michel Vigier, a partner in brokerage firm Cholet Dupont
+##############
+when, Temporal.Synchrony
+____Arg1____
+4938..4969
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+there was panic buying in Paris
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4885..4936
+42,1,1
+#### Text ####
+Wall Street turned around shortly after the opening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4992..4994
+43,1,1,1,0,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4974..4986
+43,0;43,1,0;43,2
+#### Text ####
+Brokers said
+##############
+as, Temporal.Synchrony
+____Arg1____
+4987..4991;5043..5148
+43,1,1,0;43,1,1,1,1;43,1,1,1,2;43,1,1,1,3
+#### Text ####
+that traders who had called to place sell orders changed their line in mid-conversation, ordering buys instead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4995..5041
+43,1,1,1,0,1
+#### Text ####
+the news spread that Wall Street was moving up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5141..5148
+43,1,1,1,3,4,1,2
+#### Text ####
+instead
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4974..4986
+43,0;43,1,0;43,2
+#### Text ####
+Brokers said
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+5066..5086
+43,1,1,1,2,1,1,1,1,1
+#### Text ####
+to place sell orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5127..5140
+43,1,1,1,3,4,0;43,1,1,1,3,4,1,0;43,1,1,1,3,4,1,1
+#### Text ####
+ordering buys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5289..5293
+45,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+5314..5376
+45,1;45,2;45,3;45,4;45,5;45,6
+#### Text ####
+however, the big boys entered the market, looking for bargains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5294..5312
+45,0,1
+#### Text ####
+Wall Street turned
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5314..5321
+45,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+5152..5287
+44
+#### Text ####
+Trading was driven primarily by small investors and speculators, with large institutions waiting on the sidelines until late in the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5289..5312;5323..5354
+45,0;45,1;45,3;45,4;45,5,0;45,5,1;45,5,2;45,6
+#### Text ####
+When Wall Street turned the big boys entered the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5356..5376
+45,5,3
+#### Text ####
+looking for bargains
+##############
+________________________________________________________

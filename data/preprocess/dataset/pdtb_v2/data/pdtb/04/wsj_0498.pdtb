@@ -1,0 +1,131 @@
+________________________________________________________
+____Implicit____
+464
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+327..462
+2
+#### Text ####
+Priam had a loss of $25.4 million for the fiscal year ended July 7, compared with year-earlier profit of $543,000, or two cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+464..511
+3
+#### Text ####
+Revenue for the year fell 13% to $122.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+720..724
+5,2
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+26..156
+0,1,0,1;0,1,1;0,1,2;0,2
+#### Text ####
+it filed for protection under Chapter 11 of the federal Bankruptcy Code and announced a 35% reduction in its world-wide employment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..25
+0,0;0,1,0,0;0,2
+#### Text ####
+Priam Corp. said
+##############
+____Arg2____
+730..798
+5,3,1,0;5,3,1,1,0;5,3,1,1,1,0;5,3,1,1,1,1,0;5,3,1,1,1,1,1,0;5,3,1,1,1,1,1,1;5,3,1,1,1,1,1,2,0;5,3,1,1,1,1,1,2,1
+#### Text ####
+it was scrapping one of its major new products, a 760-megabyte drive
+##############
+#### Features ####
+Ot, Comm, Null, Null
+698..719;725..729
+5,0;5,1;5,3,0;5,4
+#### Text ####
+The company yesterday said
+##############
+____Sup2____
+800..980
+5,3,1,1,1,1,1,2,2
+#### Text ####
+which, while technically proficient, didn't hold much promise of generating substantial orders because financing problems caused a nine-month delay in getting the product to market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+807..812
+5,3,1,1,1,1,1,2,2,1,1,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+698..729
+5,0;5,1;5,2;5,3,0;5,4
+#### Text ####
+The company yesterday also said
+##############
+while, Comparison.Contrast
+____Arg1____
+800..805;837..894
+5,3,1,1,1,1,1,2,2,0;5,3,1,1,1,1,1,2,2,1,2,0;5,3,1,1,1,1,1,2,2,1,2,1;5,3,1,1,1,1,1,2,2,1,2,2,0;5,3,1,1,1,1,1,2,2,1,2,2,1
+#### Text ####
+which didn't hold much promise of generating substantial orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+813..835
+5,3,1,1,1,1,1,2,2,1,1,1,1
+#### Text ####
+technically proficient
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+895..902
+5,3,1,1,1,1,1,2,2,1,2,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+698..729
+5,0;5,1;5,2;5,3,0;5,4
+#### Text ####
+The company yesterday also said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+800..805;837..894
+5,3,1,1,1,1,1,2,2,0;5,3,1,1,1,1,1,2,2,1,2,0;5,3,1,1,1,1,1,2,2,1,2,1;5,3,1,1,1,1,1,2,2,1,2,2,0;5,3,1,1,1,1,1,2,2,1,2,2,1
+#### Text ####
+which didn't hold much promise of generating substantial orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+903..980
+5,3,1,1,1,1,1,2,2,1,2,2,2,1
+#### Text ####
+financing problems caused a nine-month delay in getting the product to market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

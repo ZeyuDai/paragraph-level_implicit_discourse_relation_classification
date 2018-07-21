@@ -1,0 +1,195 @@
+________________________________________________________
+____Implicit____
+332
+2
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+186..330
+1
+#### Text ####
+The nation's largest software company earned $9.6 million, or five cents a share, compared with $28 million, or 16 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+332..383
+2
+#### Text ####
+Revenue rose 5% to $282 million from $268.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+459..462
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+387..457
+3,0
+#### Text ####
+The drop in earnings had been anticipated by most Wall Street analysts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+463..512
+3,3
+#### Text ####
+the results were reported after the market closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+489..494
+3,3,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+459..488
+3,2;3,3,0;3,3,1,0;3,3,1,1,0;3,3,1,1,1;3,4
+#### Text ####
+but the results were reported
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+495..512
+3,3,1,1,2,1
+#### Text ####
+the market closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+514
+4
+____Arg1____
+387..512
+3
+#### Text ####
+The drop in earnings had been anticipated by most Wall Street analysts, but the results were reported after the market closed
+##############
+____Arg2____
+514..619
+4
+#### Text ####
+Computer Associates closed at $13.625, down 25 cents, in composite trading on the New York Stock Exchange
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+772
+6
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+623..770
+5
+#### Text ####
+Anthony Wang, president, attributed the drop to the disruption of the company's business resulting from the prolonged process of acquiring Cullinet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+772..814
+6
+#### Text ####
+The acquisition was completed in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+898..901
+7,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+818..896
+7,0;7,1;7,2;7,3
+#### Text ####
+In August, the company warned investors that the acquisition was being delayed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+902..988
+7,5
+#### Text ####
+many customers were holding off on purchase decisions until the takeover was completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+956..961
+7,5,1,1,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+818..857
+7,0;7,1;7,2,0;7,2,1,0;7,2,1,1;7,3
+#### Text ####
+In August, the company warned investors
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+898..955
+7,4;7,5,0;7,5,1,0;7,5,1,1,0;7,5,1,1,1;7,5,1,1,2;7,6
+#### Text ####
+and many customers were holding off on purchase decisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+962..988
+7,5,1,1,3,1
+#### Text ####
+the takeover was completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+990
+8
+____Arg1____
+818..988
+7
+#### Text ####
+In August, the company warned investors that the acquisition was being delayed, and many customers were holding off on purchase decisions until the takeover was completed
+##############
+____Arg2____
+990..1171
+8
+#### Text ####
+The delays mainly affected sales of data base management products, a core area for both Computer Associates and Cullinet, as well as sales of other products as part of package sales
+##############
+________________________________________________________

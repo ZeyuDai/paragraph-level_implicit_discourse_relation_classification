@@ -1,0 +1,420 @@
+________________________________________________________
+____Explicit____
+56..61
+0,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Comparison.Contrast
+____Arg1____
+9..54
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+Merrill Lynch & Co. 's net income dropped 37%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+62..148
+0,1,3,1,0;0,1,3,1,1;0,1,3,1,2;0,1,3,1,3,0;0,1,3,1,3,1,0;0,1,3,1,3,1,1
+#### Text ####
+Bear Stearns Cos. posted a 7.5% gain in net, and PaineWebber Group Inc. 's profit fell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+150..204
+0,1,3,1,3,1,2;0,1,3,1,3,1,3
+#### Text ####
+but would have risen without a special gain a year ago
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+107..110
+0,1,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..105
+0,0;0,1,0;0,1,1;0,1,2;0,1,3,0;0,1,3,1,0;0,1,3,1,1;0,2
+#### Text ####
+Merrill Lynch & Co. 's net income dropped 37%, while Bear Stearns Cos. posted a 7.5% gain in net
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+111..148
+0,1,3,1,3,0;0,1,3,1,3,1,0;0,1,3,1,3,1,1
+#### Text ####
+PaineWebber Group Inc. 's profit fell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+339
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+208..337
+1
+#### Text ####
+At Merrill Lynch, third-period net was $41 million, or 34 cents a share, down from $65.6 million, or 58 cents a share, a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+339..401
+2
+#### Text ####
+Total revenue reached $2.83 billion, up 10% from $2.57 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+584
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+405..582
+3
+#### Text ####
+The firm's drop in net reflected weaker revenue in transactions for its own account -- a decline of 19% to $314.6 million on reduced revenue from trading fixed-income securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+584..681
+4
+#### Text ####
+Investment banking revenue fell 22% to $296.6 million on fewer equity and municipal underwritings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+730..737
+5,1,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+584..681
+4
+#### Text ####
+Investment banking revenue fell 22% to $296.6 million on fewer equity and municipal underwritings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+685..728;739..827
+5,0;5,1,0;5,1,1;5,1,2;5,1,4;5,1,5;5,1,6;5,1,7;5,2
+#### Text ####
+Merrill Lynch's commission revenue grew 21% to $462.8 million, on higher share prices and volume and on strong sales of mutual funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+829
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+685..827
+5
+#### Text ####
+Merrill Lynch's commission revenue grew 21%, however, to $462.8 million, on higher share prices and volume and on strong sales of mutual funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+829..899
+6
+#### Text ####
+Revenue derived from interest and dividends jumped 30% to $1.4 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+901
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+685..899
+5;6
+#### Text ####
+Merrill Lynch's commission revenue grew 21%, however, to $462.8 million, on higher share prices and volume and on strong sales of mutual funds.
+Revenue derived from interest and dividends jumped 30% to $1.4 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+901..954
+7
+#### Text ####
+Asset-management fee revenue grew 12% to $151 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+972..976
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+208..337
+1
+#### Text ####
+At Merrill Lynch, third-period net was $41 million, or 34 cents a share, down from $65.6 million, or 58 cents a share, a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+986..1129
+8,2,1;8,3
+#### Text ####
+a loss of $2.2 million from the discontinued operations and disposal of its Fine Homes International Limited Partnership real-estate subsidiary
+##############
+#### Features ####
+Ot, Comm, Null, Null
+958..971;977..985
+8,0;8,2,0;8,3
+#### Text ####
+The brokerage reported
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1305
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1133..1303
+9
+#### Text ####
+Bear Stearns said net in the first quarter ended Sept. 29 reached $22.1 million, or 23 cents a share, from $20.5 million, or 20 cents a share, in the year-earlier quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1305..1365
+10
+#### Text ####
+Gross revenue rose 21% to $580.4 million from $478.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1444
+12
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1369..1416
+11,0
+#### Text ####
+Profit from trading for its own account dropped
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1418..1442
+11,1;11,2;11,3;11,4
+#### Text ####
+the securities firm said
+##############
+____Arg2____
+1444..1549
+12
+#### Text ####
+Investment banking revenue climbed 25%, while commission revenue advanced 31% on a stronger retail market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1484..1489
+12,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition, Temporal.Synchrony
+____Arg1____
+1444..1482
+12,0;12,1,0;12,1,1;12,1,2;12,2
+#### Text ####
+Investment banking revenue climbed 25%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1490..1549
+12,1,3,1
+#### Text ####
+commission revenue advanced 31% on a stronger retail market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1551
+13
+____Arg1____
+1444..1549
+12
+#### Text ####
+Investment banking revenue climbed 25%, while commission revenue advanced 31% on a stronger retail market
+##############
+____Arg2____
+1551..1653
+13
+#### Text ####
+Bear Stearns is the holding company for Bear, Stearns & Co., the investment banking and brokerage firm
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1769..1779
+15,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+208..337;1133..1303
+1;9
+#### Text ####
+At Merrill Lynch, third-period net was $41 million, or 34 cents a share, down from $65.6 million, or 58 cents a share, a year ago Bear Stearns said net in the first quarter ended Sept. 29 reached $22.1 million, or 23 cents a share, from $20.5 million, or 20 cents a share, in the year-earlier quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1781..1870
+15,1;15,2;15,3,0;15,3,1;15,4
+#### Text ####
+PaineWebber posted net income for the third quarter of $16.8 million, or 41 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1945
+16
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1769..1870
+15,0;15,1;15,2;15,3,0;15,3,1;15,4
+#### Text ####
+Separately, PaineWebber posted net income for the third quarter of $16.8 million, or 41 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1945..2047
+16
+#### Text ####
+Retail profit surged, but the company said it was only a "modest contributor" to third-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1967..1970
+16,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1971..1987
+16,3,0;16,3,1,0
+#### Text ####
+the company said
+##############
+but, Comparison
+____Arg1____
+1945..1965
+16,0
+#### Text ####
+Retail profit surged
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1988..2047
+16,3,1,1
+#### Text ####
+it was only a "modest contributor" to third-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2272
+18
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2051..2270
+17
+#### Text ####
+A year ago, net at the New York investment banking firm was $20.9 million, or 50 cents a share, including a special pretax gain of $46.3 million from the sale of the company's interest in National Car Rental Systems Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2272..2357
+18
+#### Text ####
+Revenue was $444.9 million, including net interest, down slightly from $450.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

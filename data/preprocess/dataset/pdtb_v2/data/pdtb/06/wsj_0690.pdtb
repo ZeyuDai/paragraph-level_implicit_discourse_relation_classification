@@ -1,0 +1,429 @@
+________________________________________________________
+____EntRel____
+336
+2
+____Arg1____
+221..334
+1
+#### Text ####
+The United Kingdom reports came from Dr. Patrick Toseland, head of clinical chemistry at Guy's Hospital in London
+##############
+____Arg2____
+336..500
+2
+#### Text ####
+In a telephone interview Friday, Dr. Toseland said the number of sudden, unexplained deaths of diabetics he had seen this year was 17 compared with just two in 1985
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+502
+3
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+387..500
+2,4,1
+#### Text ####
+the number of sudden, unexplained deaths of diabetics he had seen this year was 17 compared with just two in 1985
+##############
+#### Features ####
+Ot, Comm, Null, Null
+336..386
+2,0;2,1;2,2;2,3;2,4,0;2,5
+#### Text ####
+In a telephone interview Friday, Dr. Toseland said
+##############
+____Arg2____
+502..637
+3,0
+#### Text ####
+At least six of the deaths occurred among relatively young diabetics who had switched from animal to human insulin within the past year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+639..646
+3,1;3,2;3,3;3,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+844..849
+5,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+943..957
+5,1;5,2;5,3,0;5,4
+#### Text ####
+Dr. Sobel said
+##############
+while, Comparison.Concession.Expectation
+____Arg1____
+958..1044
+5,3,1
+#### Text ####
+the FDA plans to examine Dr. Toseland's evidence and is considering its own study here
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+850..940
+5,0,1
+#### Text ####
+there have been no reports of similar sudden unexplained deaths among diabetics in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1208..1213
+6,1,1,1,1,1,3,1,1,2,1,1,1,1,1,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1048..1082
+6,0;6,1,0;6,2
+#### Text ####
+Dr. Toseland, a toxicologist, said
+##############
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1174..1207
+6,1,1,1,1,1,3,1,1,2,0;6,1,1,1,1,1,3,1,1,2,1,0;6,1,1,1,1,1,3,1,1,2,1,1,0;6,1,1,1,1,1,3,1,1,2,1,1,1,0;6,1,1,1,1,1,3,1,1,2,1,1,1,1,0
+#### Text ####
+that the deaths may have occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1214..1328
+6,1,1,1,1,1,3,1,1,2,1,1,1,1,1,1
+#### Text ####
+human insulin blunted critical warning signs indicating hypoglycemia, or low blood sugar, which can kill diabetics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1410
+8
+____Arg1____
+1332..1408
+7
+#### Text ####
+The usual warning signs of hypoglycemia include sweating, anxiety and cramps
+##############
+____Arg2____
+1410..1521
+8
+#### Text ####
+With proper warning, diabetics can easily raise their blood sugar to safe levels by eating sugar or sugary food
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1524
+9
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1410..1521
+8
+#### Text ####
+With proper warning, diabetics can easily raise their blood sugar to safe levels by eating sugar or sugary food
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1524..1632
+9,1
+#### Text ####
+The anecdotal data certainly shows that some of the people were not aware of the rapid onset of hypoglycemia
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1635..1652
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+Dr. Toseland said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1908..1915
+11,0
+#### Text ####
+However
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1917..1924
+11,1;11,2;11,3,0;11,4
+#### Text ####
+he said
+##############
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1767..1906
+10,3,1
+#### Text ####
+no evidence of unexpected deaths from hypoglycemia had shown up in a study of 1,500 diabetics that has been under way at NIH for five years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1656..1766
+10,0;10,1;10,2;10,3,0;10,4
+#### Text ####
+At the U.S. National Institutes of Health, Dr. Robert E. Silverman, chief of the diabetes program branch, said
+##############
+____Arg2____
+1925..2033
+11,3,1
+#### Text ####
+officials conducting the study hadn't been looking for signs of problems related to hypoglycemia unawareness
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2036
+12
+#### Features ####
+Ot, Comm, Null, Null
+2085..2092
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he said
+##############
+however, Comparison
+____Arg1____
+1925..2033
+11,3,1
+#### Text ####
+officials conducting the study hadn't been looking for signs of problems related to hypoglycemia unawareness
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1908..1924
+11,0;11,1;11,2;11,3,0;11,4
+#### Text ####
+However, he said
+##############
+____Arg2____
+2036..2082
+12,1
+#### Text ####
+We are now monitoring for it much more closely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2215
+14
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2097..2196
+13,1
+#### Text ####
+We do know there are slight differences in the way human and animal insulins drive down blood sugar
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2199..2213
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+Dr. Sobel said
+##############
+____Arg2____
+2215..2300
+14,0
+#### Text ####
+The human-based drug starts the blood sugar dropping sooner and drives it down faster
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2302..2309
+14,1;14,2;14,3;14,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2312..2315
+15,1,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2396..2410
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+Dr. Sobel said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2215..2300
+14,0
+#### Text ####
+The human-based drug starts the blood sugar dropping sooner and drives it down faster
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2302..2309
+14,1;14,2;14,3;14,4
+#### Text ####
+he said
+##############
+____Arg2____
+2333..2393
+15,1,2,2,1
+#### Text ####
+there is enough of a difference to be clinically significant
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+2316..2332
+15,1,1;15,1,2,0;15,1,2,1;15,1,2,2,0
+#### Text ####
+we don't believe
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2527
+17
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2414..2525
+16
+#### Text ####
+Reports of Dr. Toseland's findings in the British press have triggered widespread concern among diabetics there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2527..2754
+17
+#### Text ####
+Both the British Diabetic Association and the Committee on Safety in Medicines -- Britain's equivalent of the U.S. FDA -- recently issued statements noting the lack of hard scientific evidence to support Dr. Toseland's findings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3403
+22
+____Arg1____
+3269..3401
+21
+#### Text ####
+Eli Lilly & Co., the Indianapolis-based drug manufacturer, dominates the U.S. human insulin market with its product known as Humulin
+##############
+____Arg2____
+3403..3486
+22
+#### Text ####
+Lilly is building plants to make the insulin in Indianapolis and Fagershein, France
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3488
+23
+____Arg1____
+3403..3486
+22
+#### Text ####
+Lilly is building plants to make the insulin in Indianapolis and Fagershein, France
+##############
+____Arg2____
+3488..3570
+23
+#### Text ####
+In its latest annual report, Lilly said Humulin sales have shown "excellent growth
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3822
+25
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3596..3765
+24,1,0,1;24,1,1;24,1,2;24,1,3;24,2
+#### Text ####
+they had seen reports of hypoglycemic unawareness among some patients making the shift from animal to human insulin, but didn't know if the problem had caused any deaths
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3575..3595
+24,0;24,1,0,0;24,2
+#### Text ####
+Lilly officials said
+##############
+____Arg2____
+3822..3980
+25,1,1
+#### Text ####
+the company's clinical trials of both its animal and human-based insulins indicated no difference in the level of hypoglycemia between users of either product
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3767..3821
+25,0;25,1,0;25,2
+#### Text ####
+Dr. Leigh Thompson, a Lilly group vice president, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4124
+27
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+4002..4122
+26,1,1
+#### Text ####
+most of the British diabetics who died had been taking a human-based insulin made by Novo/Nordisk, a Danish manufacturer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3984..4001
+26,0;26,1,0;26,2
+#### Text ####
+Dr. Toseland said
+##############
+____Arg2____
+4124..4172
+27
+#### Text ####
+None of the diabetics were using Lilly's insulin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

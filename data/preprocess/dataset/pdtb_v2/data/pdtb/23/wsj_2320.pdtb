@@ -1,0 +1,965 @@
+________________________________________________________
+____Explicit____
+351..355
+3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+223..346
+2
+#### Text ####
+The move stems from lessons learned in Japan where local competitors have had phenomenal success with concentrated soapsuds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+348..350;356..473
+3,0;3,2;3,3
+#### Text ####
+It marks P&G's growing concern that its Japanese rivals, such as Kao Corp., may bring their superconcentrates to the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+666
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+477..663
+4
+#### Text ####
+The Cincinnati consumer-products giant got clobbered two years ago in Japan when Kao introduced a powerful detergent, called Attack, which quickly won a 30% stake in the Japanese markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+666..701
+5,1
+#### Text ####
+They don't want to get caught again
+##############
+#### Features ####
+Ot, Comm, Null, Null
+704..729
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+says one industry watcher
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+890
+7
+____Arg1____
+733..888
+6
+#### Text ####
+Retailers in Phoenix, Ariz., say P&G's new powdered detergent -- to be called Cheer with Color Guard -- will be on shelves in that market by early November
+##############
+____Arg2____
+890..967
+7
+#### Text ####
+A P&G spokeswoman confirmed that shipments to Phoenix started late last month
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+978
+8
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+918..967
+7,1,1
+#### Text ####
+that shipments to Phoenix started late last month
+##############
+#### Features ####
+Ot, Comm, Null, Null
+890..917
+7,0;7,1,0;7,2
+#### Text ####
+A P&G spokeswoman confirmed
+##############
+____Arg2____
+978..1052
+8,1,1
+#### Text ####
+the company will study results from this market before expanding to others
+##############
+#### Features ####
+Ot, Comm, Null, Null
+969..977
+8,0;8,1,0;8,2
+#### Text ####
+She said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1026..1032
+8,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+969..977
+8,0;8,1,0;8,2
+#### Text ####
+She said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+978..1025
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1,0;8,1,1,1,1,1,1
+#### Text ####
+the company will study results from this market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1033..1052
+8,1,1,1,1,1,2,1
+#### Text ####
+expanding to others
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1103
+10
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1056..1101
+9
+#### Text ####
+Superconcentrates aren't entirely new for P&G
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1103..1203
+10
+#### Text ####
+The company introduced a superconcentrated Lemon Cheer in Japan after watching the success of Attack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1167..1172
+10,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1103..1166
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+The company introduced a superconcentrated Lemon Cheer in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1173..1203
+10,1,3,1
+#### Text ####
+watching the success of Attack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1205
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1167..1203
+10,1,3
+#### Text ####
+after watching the success of Attack
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1205..1312
+11
+#### Text ####
+When Attack hit the shelves in 1987, P&G's share of the Japanese market fell to about 8% from more than 20%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1205..1209
+11,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1242..1312
+11,1;11,2;11,3;11,4
+#### Text ####
+P&G's share of the Japanese market fell to about 8% from more than 20%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1210..1240
+11,0,1
+#### Text ####
+Attack hit the shelves in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1314
+12
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1205..1312
+11
+#### Text ####
+When Attack hit the shelves in 1987, P&G's share of the Japanese market fell to about 8% from more than 20%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1314..1382
+12
+#### Text ####
+With the help of Lemon Cheer, P&G's share is now estimated to be 12%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1386..1391
+13,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+1483..1552
+13,1;13,2;13,3,0;13,3,1,0;13,3,1,1,0;13,3,1,1,1,0;13,3,1,1,1,1;13,4
+#### Text ####
+the true test for P&G will be in the $4 billion U.S. detergent market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1392..1481
+13,0,1
+#### Text ####
+the Japanese have embraced the compact packaging and convenience of concentrated products
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1575..1578
+13,3,1,1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1554..1574
+13,3,1,1,1,2,0;13,3,1,1,1,2,1,0
+#### Text ####
+where growth is slow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1579..1622
+13,3,1,1,1,2,1,2
+#### Text ####
+liquids have gained prominence over powders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1624
+14
+____Arg1____
+1386..1622
+13
+#### Text ####
+While the Japanese have embraced the compact packaging and convenience of concentrated products, the true test for P&G will be in the $4 billion U.S. detergent market, where growth is slow and liquids have gained prominence over powders
+##############
+____Arg2____
+1624..1821
+14
+#### Text ####
+The company may have chosen to market the product under the Cheer name since it's already expanded its best-selling Tide into 16 different varieties, including this year's big hit, Tide with Bleach
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1695..1700
+14,1,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1624..1694
+14,0;14,1,0;14,1,1,0;14,1,1,1,0;14,1,1,1,1;14,2
+#### Text ####
+The company may have chosen to market the product under the Cheer name
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1701..1821
+14,1,1,1,2,1
+#### Text ####
+it's already expanded its best-selling Tide into 16 different varieties, including this year's big hit, Tide with Bleach
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1847..1854
+15,0,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+1056..1312
+9;10;11
+#### Text ####
+Superconcentrates aren't entirely new for P&G.
+The company introduced a superconcentrated Lemon Cheer in Japan after watching the success of Attack.
+When Attack hit the shelves in 1987, P&G's share of the Japanese market fell to about 8% from more than 20%
+##############
+____Arg1____
+1314..1382
+12
+#### Text ####
+With the help of Lemon Cheer, P&G's share is now estimated to be 12%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1823..1845;1856..1916
+15,0,0;15,0,1;15,0,3;15,0,4;15,0,5
+#### Text ####
+With superconcentrates it isn't always easy to persuade consumers that less is more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1918
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1823..1916
+15,0
+#### Text ####
+With superconcentrates, however, it isn't always easy to persuade consumers that less is more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1918..1986
+15,2,0;15,2,1,0;15,2,1,1;15,2,1,2
+#### Text ####
+many people tend to dump too much detergent into the washing machine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2183..2186
+17,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2059..2181
+16
+#### Text ####
+In the early 1980s, P&G tried to launch here a concentrated detergent under the Ariel brand name that it markets in Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2187..2296
+17,1;17,2;17,3
+#### Text ####
+the product, which wasn't as concentrated as the new Cheer, bombed in a market test in Denver and was dropped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2315..2319
+18,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2059..2296
+16;17
+#### Text ####
+In the early 1980s, P&G tried to launch here a concentrated detergent under the Ariel brand name that it markets in Europe.
+But the product, which wasn't as concentrated as the new Cheer, bombed in a market test in Denver and was dropped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2300..2314;2320..2469
+18,0,0;18,0,2;18,1;18,2;18,3;18,4
+#### Text ####
+P&G and others have tried repeatedly to hook consumers on detergent and fabric softener combinations in pouches, but they haven't sold well, despite the convenience
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2418..2421
+18,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2300..2416
+18,0
+#### Text ####
+P&G and others also have tried repeatedly to hook consumers on detergent and fabric softener combinations in pouches
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2422..2469
+18,3
+#### Text ####
+they haven't sold well, despite the convenience
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2473..2476
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2418..2469
+18,2;18,3;18,4
+#### Text ####
+but they haven't sold well, despite the convenience
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2477..2587
+19,1;19,2;19,3
+#### Text ####
+P&G contends the new Cheer is a unique formula that also offers an ingredient that prevents colors from fading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2529..2533
+19,2,1,1,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2477..2489
+19,1;19,2,0;19,3
+#### Text ####
+P&G contends
+##############
+also, Expansion.Conjunction
+____Arg1____
+2490..2523
+19,2,1,0;19,2,1,1,0;19,2,1,1,1,0;19,2,1,1,1,1,0
+#### Text ####
+the new Cheer is a unique formula
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2524..2528;2534..2587
+19,2,1,1,1,1,1,0;19,2,1,1,1,1,1,1,0;19,2,1,1,1,1,1,1,2
+#### Text ####
+that offers an ingredient that prevents colors from fading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2589..2592
+20,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2490..2587
+19,2,1
+#### Text ####
+the new Cheer is a unique formula that also offers an ingredient that prevents colors from fading
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2477..2489
+19,1;19,2,0;19,3
+#### Text ####
+P&G contends
+##############
+____Arg2____
+2593..2688
+20,1;20,2;20,3
+#### Text ####
+retailers are expected to embrace the product, in part because it will take up less shelf space
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2640..2655
+20,2,1,3,0;20,2,1,3,1
+#### Text ####
+in part because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2589..2638
+20,0;20,1;20,2,0;20,2,1,0;20,2,1,1;20,2,1,2;20,3
+#### Text ####
+And retailers are expected to embrace the product
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2656..2688
+20,2,1,3,2
+#### Text ####
+it will take up less shelf space
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2691
+21
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+2656..2688
+20,2,1,3,2
+#### Text ####
+it will take up less shelf space
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2691..2736
+21,1
+#### Text ####
+When shelf space was cheap, bigger was better
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2739..2786
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+says Hugh Zurkuhlen, an analyst at Salomon Bros
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2691..2695
+21,1,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2739..2786
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+says Hugh Zurkuhlen, an analyst at Salomon Bros
+##############
+when, Temporal.Synchrony
+____Arg1____
+2719..2736
+21,1,1;21,1,2;21,1,3
+#### Text ####
+bigger was better
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2696..2717
+21,1,0,1
+#### Text ####
+shelf space was cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2788..2791
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2691..2736
+21,1
+#### Text ####
+When shelf space was cheap, bigger was better
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2739..2786
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+says Hugh Zurkuhlen, an analyst at Salomon Bros
+##############
+____Arg2____
+2792..2854
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+with so many brands vying for space, that's no longer the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2856
+23
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2788..2854
+22
+#### Text ####
+But with so many brands vying for space, that's no longer the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2856..2998
+23
+#### Text ####
+If the new Cheer sells well, the trend toward smaller packaging is likely to accelerate as competitors follow with their own superconcentrates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2856..2858
+23,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Sup1____
+2944..2998
+23,3,1,1,1,1,1
+#### Text ####
+as competitors follow with their own superconcentrates
+##############
+____Arg1____
+2885..2943
+23,1;23,2;23,3,0;23,3,1,0;23,3,1,1,0;23,3,1,1,1,0;23,3,1,1,1,1,0;23,4
+#### Text ####
+the trend toward smaller packaging is likely to accelerate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2859..2883
+23,0,1
+#### Text ####
+the new Cheer sells well
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2944..2946
+23,3,1,1,1,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+2885..2943
+23,1;23,2;23,3,0;23,3,1,0;23,3,1,1,0;23,3,1,1,1,0;23,3,1,1,1,1,0;23,4
+#### Text ####
+the trend toward smaller packaging is likely to accelerate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2947..2998
+23,3,1,1,1,1,1,1
+#### Text ####
+competitors follow with their own superconcentrates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3000..3004
+24,0,0
+#### Text ####
+Then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3082..3089
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+he says
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2856..2998
+23
+#### Text ####
+If the new Cheer sells well, the trend toward smaller packaging is likely to accelerate as competitors follow with their own superconcentrates
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+3005..3079
+24,0,1;24,0,2;24,0,3
+#### Text ####
+retailers "will probably push the {less-established} brands out altogether
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3129..3131
+25,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3093..3128
+25,0;25,1,0;25,1,1,0;25,1,1,1,0;25,1,1,1,1,0;25,1,1,1,1,1,0;25,1,1,1,1,1,1;25,2
+#### Text ####
+Competition is bound to get tougher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3132..3179
+25,1,1,1,1,1,2,1
+#### Text ####
+Kao introduces a product like Attack in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3181
+26
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+3093..3179
+25
+#### Text ####
+Competition is bound to get tougher if Kao introduces a product like Attack in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3181..3308
+26
+#### Text ####
+To be sure, Kao wouldn't have an easy time taking U.S. market share away from the mighty P&G, which has about 23% of the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3402..3405
+27,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3347..3399
+27,0,2,1,1
+#### Text ####
+they are interested in selling detergents in the U.S
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3312..3346
+27,0,0;27,0,1;27,0,2,0;27,0,2,1,0
+#### Text ####
+Kao officials previously have said
+##############
+____Arg2____
+3406..3536
+27,3
+#### Text ####
+so far the company has focused on acquisitions, such as last year's purchase of Andrew Jergens Co., a Cincinnati hand-lotion maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3541..3545
+28,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3402..3536
+27,2;27,3;27,4
+#### Text ####
+but so far the company has focused on acquisitions, such as last year's purchase of Andrew Jergens Co., a Cincinnati hand-lotion maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3538..3540;3546..3590
+28,0;28,2;28,3
+#### Text ####
+It has a product-testing facility in California
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3698
+30
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3594..3695
+29
+#### Text ####
+Some believe P&G's interest in a superconcentrated detergent goes beyond the concern for the Japanese
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3698..3769
+30
+#### Text ####
+This is something P&G would do with or without Kao," says Mr. Zurkuhlen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

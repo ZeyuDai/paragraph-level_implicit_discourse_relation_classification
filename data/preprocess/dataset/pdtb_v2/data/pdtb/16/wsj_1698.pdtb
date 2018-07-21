@@ -1,0 +1,1007 @@
+________________________________________________________
+____Explicit____
+237..243
+0,3,1,1,1,1,1,1,2,3,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+222..226
+0,3,1,1,1,1,1,1,2,0;0,3,1,1,1,1,1,1,2,1;0,3,1,1,1,1,1,1,2,2
+#### Text ####
+says
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+229..236
+0,3,1,1,1,1,1,1,2,3,0;0,3,1,1,1,1,1,1,2,3,1,0;0,3,1,1,1,1,1,1,2,3,1,1
+#### Text ####
+Stop me
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+244..256
+0,3,1,1,1,1,1,1,2,3,1,2,1
+#### Text ####
+I kill again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+259
+1
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+9..256
+0
+#### Text ####
+Watching Congress sweat and grimace through its annual budget labors, fighting the urge to spend more, we're reminded of those late-night movies in which the anguished serial killer turns himself in to police and says, "Stop me before I kill again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+259..352
+1
+#### Text ####
+The Members know they're doing wrong, but they need help to restrain their darker compulsions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+297..300
+1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+259..295
+1,0
+#### Text ####
+The Members know they're doing wrong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+301..352
+1,3
+#### Text ####
+they need help to restrain their darker compulsions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+437..442
+2,0,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+356..436
+2,0,0;2,0,1,0;2,0,1,1;2,0,1,2;2,0,1,3
+#### Text ####
+Arkansas Democrat David Pryor spilled his guts on the Senate floor the other day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+443..511
+2,0,1,4,1
+#### Text ####
+he'd joined the Finance Committee's early-morning pork-barrel revels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+621
+4
+#### Features ####
+Ot, Comm, Null, Null
+356..436
+2,0,0;2,0,1,0;2,0,1,1;2,0,1,2;2,0,1,3
+#### Text ####
+Arkansas Democrat David Pryor spilled his guts on the Senate floor the other day
+##############
+in short, Expansion.Restatement
+____Arg1____
+536..619
+3
+#### Text ####
+I come to the floor tonight as one who ended up with a busload of extraneous matter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+621..678
+4
+#### Text ####
+It was nothing more or nothing less than a feeding frenzy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+681
+5
+____Arg1____
+621..678
+4
+#### Text ####
+It was nothing more or nothing less than a feeding frenzy
+##############
+____Arg2____
+681..706
+5
+#### Text ####
+He was turning himself in
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+720..722
+6,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+981..988
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+he said
+##############
+as, Temporal.Synchrony
+____Arg1____
+711..718;760..978
+6,1,0;6,1,1;6,1,3;6,1,4;6,1,5
+#### Text ####
+Frankly I heard many, many people . . . opening champagne bottles and celebrating individual victories that some of us had accomplished in getting our little deal in the tax bill and winking at this person for slipping this in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+723..758
+6,1,2,1
+#### Text ####
+I was walking back to get in my car
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+991
+7
+#### Features ####
+Ot, Comm, Null, Null
+981..988
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+he said
+##############
+but, Comparison.Contrast
+____Arg1____
+720..978
+6,1,1;6,1,2;6,1,3;6,1,4;6,1,5
+#### Text ####
+as I was walking back to get in my car, I heard many, many people . . . opening champagne bottles and celebrating individual victories that some of us had accomplished in getting our little deal in the tax bill and winking at this person for slipping this in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+991..1051
+7
+#### Text ####
+As I was driving home, I did not feel very good about myself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+991..993
+7,1,0
+#### Text ####
+As
+##############
+#### Features ####
+Ot, Comm, Null, Null
+981..988
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+he said
+##############
+as, Temporal.Synchrony
+____Arg1____
+1014..1051
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+I did not feel very good about myself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+994..1012
+7,1,1
+#### Text ####
+I was driving home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1103..1110
+8,1,1,3,0;8,1,1,3,1
+#### Text ####
+even as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Comparison, Temporal.Synchrony
+____Arg1____
+1056..1101
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,1,1,2;8,2
+#### Text ####
+We can applaud Mr. Pryor's moment of epiphany
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1111..1186
+8,1,1,3,2
+#### Text ####
+we understand that he and his confreres need restraint lest they kill again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1166..1170
+8,1,1,3,2,1,1,1,1,2,0
+#### Text ####
+lest
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1103..1124
+8,1,1,3,0;8,1,1,3,1;8,1,1,3,2,0;8,1,1,3,2,1,0
+#### Text ####
+even as we understand
+##############
+lest, Expansion.Alternative.Disjunctive
+____Arg1____
+1125..1165
+8,1,1,3,2,1,1,0;8,1,1,3,2,1,1,1,0;8,1,1,3,2,1,1,1,1,0;8,1,1,3,2,1,1,1,1,1
+#### Text ####
+that he and his confreres need restraint
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1171..1186
+8,1,1,3,2,1,1,1,1,2,1
+#### Text ####
+they kill again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1188
+9
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1125..1186
+8,1,1,3,2,1,1
+#### Text ####
+that he and his confreres need restraint lest they kill again
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1103..1124
+8,1,1,3,0;8,1,1,3,1;8,1,1,3,2,0;8,1,1,3,2,1,0
+#### Text ####
+even as we understand
+##############
+____Arg2____
+1188..1314
+9
+#### Text ####
+A good place to start the rehabilitation is a "legislative line-item veto" bill now being offered by Indiana Senator Dan Coats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1316
+10
+____Arg1____
+1188..1314
+9
+#### Text ####
+A good place to start the rehabilitation is a "legislative line-item veto" bill now being offered by Indiana Senator Dan Coats
+##############
+____Arg2____
+1316..1446
+10
+#### Text ####
+The Coats bill, which already has 32 Senate co-sponsors, isn't a pure line-item veto because it would apply only to spending bills
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1401..1408
+10,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+1332..1371
+10,0,2
+#### Text ####
+which already has 32 Senate co-sponsors
+##############
+____Arg1____
+1316..1330;1373..1400
+10,0,0;10,0,1;10,0,3;10,1,0;10,1,1;10,1,2
+#### Text ####
+The Coats bill isn't a pure line-item veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1409..1446
+10,1,3,1
+#### Text ####
+it would apply only to spending bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1448..1455
+11,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Sup1____
+1401..1446
+10,1,3
+#### Text ####
+because it would apply only to spending bills
+##############
+____Arg1____
+1316..1330;1373..1400
+10,0,0;10,0,1;10,0,3;10,1,0;10,1,1;10,1,2
+#### Text ####
+The Coats bill isn't a pure line-item veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1456..1589
+11,1;11,2;11,3
+#### Text ####
+it's a form of "enhanced rescission," giving a President a chance to rescind, or strike, specific spending items that just go too far
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1781
+13
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1593..1779
+12
+#### Text ####
+Under the proposal, a President would have a chance twice each year to return a package of "rescissions" to the Hill -- once when he proposes his budget and again after Congress disposes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1781..1850
+13,0
+#### Text ####
+Congress would have 20 days to reject the package with a 50% majority
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1852..1855
+13,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1781..1850
+13,0
+#### Text ####
+Congress would have 20 days to reject the package with a 50% majority
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1856..1898
+13,3
+#### Text ####
+then a President could veto that rejection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1856..1860
+13,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1781..1850
+13,0
+#### Text ####
+Congress would have 20 days to reject the package with a 50% majority
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1852..1855;1861..1898
+13,2;13,3,1;13,3,2;13,4
+#### Text ####
+but a President could veto that rejection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1915..1919
+14,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1852..1898
+13,2;13,3;13,4
+#### Text ####
+but then a President could veto that rejection
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1900..1914;1920..1975
+14,0;14,1,0;14,1,2;14,2
+#### Text ####
+Congress would need the usual two-thirds majority to override any veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2086
+16
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+1979..2084
+15
+#### Text ####
+The proposal would restore some discipline erased from the budget process by the 1974 Budget "Reform" Act
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2086..2178
+16
+#### Text ####
+Before 1974, a President could "impound," or refuse to spend, funds appropriated by Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2180
+17
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2086..2178
+16
+#### Text ####
+Before 1974, a President could "impound," or refuse to spend, funds appropriated by Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2180..2340
+17
+#### Text ####
+Presidents Kennedy and Johnson were both big users of the impoundment power, but Congress saw its chance against a weakened President Nixon and stripped it away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2257..2260
+17,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2180..2255
+17,0
+#### Text ####
+Presidents Kennedy and Johnson were both big users of the impoundment power
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2261..2340
+17,3
+#### Text ####
+Congress saw its chance against a weakened President Nixon and stripped it away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2402..2405
+18,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2344..2400
+18,0;18,1;18,2
+#### Text ####
+Today a President can still send up spending rescissions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2406..2486
+18,4
+#### Text ####
+they're meaningless unless Congress has a guilty conscience and changes its mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2426..2432
+18,4,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+2402..2425
+18,3;18,4,0;18,4,1,0;18,4,1,1;18,5
+#### Text ####
+but they're meaningless
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2433..2486
+18,4,1,2,1
+#### Text ####
+Congress has a guilty conscience and changes its mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2488
+19
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2344..2486
+18
+#### Text ####
+Today a President can still send up spending rescissions, but they're meaningless unless Congress has a guilty conscience and changes its mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2488..2544
+19,0
+#### Text ####
+This is like asking foxes to feel remorse about chickens
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2546..2549
+19,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+2488..2544
+19,0
+#### Text ####
+This is like asking foxes to feel remorse about chickens
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2550..2597
+19,3
+#### Text ####
+naturally rescissions are almost never approved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2599
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2546..2597
+19,2;19,3;19,4
+#### Text ####
+and naturally rescissions are almost never approved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2599..2721
+20
+#### Text ####
+In 1987, President Reagan sent 73 rescissions back to the Hill, but only 3% of the spending total was approved by Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2663..2666
+20,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2599..2661
+20,0
+#### Text ####
+In 1987, President Reagan sent 73 rescissions back to the Hill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2667..2721
+20,3
+#### Text ####
+only 3% of the spending total was approved by Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2723
+21
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+2599..2721
+20
+#### Text ####
+In 1987, President Reagan sent 73 rescissions back to the Hill, but only 3% of the spending total was approved by Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2723..2830
+21
+#### Text ####
+Senator Coats's proposal would let the proposed spending cuts take place automatically unless Congress acts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2810..2816
+21,1,1,1,1,3,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+2785..2809
+21,1,1,1,1,0;21,1,1,1,1,1;21,1,1,1,1,2
+#### Text ####
+take place automatically
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2817..2830
+21,1,1,1,1,3,1
+#### Text ####
+Congress acts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2832
+22
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2723..2830
+21
+#### Text ####
+Senator Coats's proposal would let the proposed spending cuts take place automatically unless Congress acts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2832..3038
+22
+#### Text ####
+The Members could still try to serve their constituents with special-interest goodies, but the police (in the form of a President) would be there with a straitjacket if they really get crazy, as they do now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2919..2922
+22,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2832..2917
+22,0
+#### Text ####
+The Members could still try to serve their constituents with special-interest goodies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2923..3038
+22,3
+#### Text ####
+the police (in the form of a President) would be there with a straitjacket if they really get crazy, as they do now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2998..3000
+22,3,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+2919..2997
+22,2;22,3,0;22,3,1,0;22,3,1,1,0;22,3,1,1,1;22,3,1,1,2;22,4
+#### Text ####
+but the police (in the form of a President) would be there with a straitjacket
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3001..3022
+22,3,1,1,3,1,0;22,3,1,1,3,1,1;22,3,1,1,3,1,2,0;22,3,1,1,3,1,2,1;22,3,1,1,3,1,2,2
+#### Text ####
+they really get crazy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3167
+24
+____Arg1____
+3042..3165
+23
+#### Text ####
+Mr. Coats plans to offer his proposal as an amendment to a bill to raise the federal debt limit before the end of the month
+##############
+____Arg2____
+3167..3301
+24
+#### Text ####
+President Bush has endorsed the idea, and at least 50 sitting Senators have voted to support enhanced rescission authority in the past
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3205..3208
+24,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3167..3203
+24,0
+#### Text ####
+President Bush has endorsed the idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3209..3301
+24,3
+#### Text ####
+at least 50 sitting Senators have voted to support enhanced rescission authority in the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3352
+25
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3167..3301
+24
+#### Text ####
+President Bush has endorsed the idea, and at least 50 sitting Senators have voted to support enhanced rescission authority in the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3352..3441
+25,2;25,3;25,4
+#### Text ####
+but if he and his colleagues are serious about kicking their compulsions, they'll sign up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3352..3355
+25,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3303..3350
+25,0
+#### Text ####
+We're told Senator Pryor isn't yet a co-sponsor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3356..3441
+25,3
+#### Text ####
+if he and his colleagues are serious about kicking their compulsions, they'll sign up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3356..3358
+25,3,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3352..3355;3426..3441
+25,2;25,3,1;25,3,2;25,3,3;25,4
+#### Text ####
+but they'll sign up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3359..3424
+25,3,0,1
+#### Text ####
+he and his colleagues are serious about kicking their compulsions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

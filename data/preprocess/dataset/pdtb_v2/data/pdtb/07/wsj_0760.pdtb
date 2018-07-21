@@ -1,0 +1,171 @@
+________________________________________________________
+____Implicit____
+367
+3
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+321..365
+2
+#### Text ####
+The company had a tax credit of $1.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+367..427
+3
+#### Text ####
+In the year-earlier quarter, the tax credit was $3.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+429
+4
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+321..427
+2;3
+#### Text ####
+The company had a tax credit of $1.4 million.
+In the year-earlier quarter, the tax credit was $3.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+429..480
+4
+#### Text ####
+Sales rose 8% to $368.5 million from $340.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+545..550
+5,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+484..544
+5,0;5,1,0;5,1,1;5,2
+#### Text ####
+Operating profit in the company's abrasives segment rose 16%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..612
+5,1,2,1
+#### Text ####
+operating profit in the engineering materials segment rose 2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+614..621
+6,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+484..612
+5
+#### Text ####
+Operating profit in the company's abrasives segment rose 16% while operating profit in the engineering materials segment rose 2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+623..830
+6,1;6,2;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+the company's petroleum services segment, while profitable, was hurt by high financing costs associated with the company's buy-out of a 50% stake in Eastman Christensen Co. from Texas Eastern Corp. last June
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+665..670
+6,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison
+____Arg1____
+614..663;683..830
+6,0;6,1;6,2;6,3;6,5;6,6;6,7
+#### Text ####
+However, the company's petroleum services segment was hurt by high financing costs associated with the company's buy-out of a 50% stake in Eastman Christensen Co. from Texas Eastern Corp. last June
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+671..681
+6,4,1
+#### Text ####
+profitable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+832
+7
+____Arg1____
+614..830
+6
+#### Text ####
+However, the company's petroleum services segment, while profitable, was hurt by high financing costs associated with the company's buy-out of a 50% stake in Eastman Christensen Co. from Texas Eastern Corp. last June
+##############
+____Arg2____
+832..912
+7
+#### Text ####
+Norton and Texas Eastern had each held a 50% stake in Eastman in a joint venture
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1139
+10
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1033..1137
+9
+#### Text ####
+For the nine months, Norton had net of $81.2 million, or $3.87 a share, and a tax credit of $4.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1139..1255
+10
+#### Text ####
+In the year-earlier period, the company had net of $77.2 million, or $3.68 a share, and a tax credit of $7.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

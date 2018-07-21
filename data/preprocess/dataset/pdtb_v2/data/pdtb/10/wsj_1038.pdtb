@@ -1,0 +1,78 @@
+________________________________________________________
+____EntRel____
+383
+2
+____Arg1____
+222..381
+1
+#### Text ####
+The Portland, Ore., thrift said the restructuring should help it meet new capital standards from the Financial Institution Reform, Recovery and Enforcement Act
+##############
+____Arg2____
+383..460
+2
+#### Text ####
+A year ago, Benjamin Franklin had profit of $1.8 million, or 23 cents a share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+662
+5
+#### Features ####
+Ot, Comm, Null, Null
+547..563
+4,0;4,1,0;4,2
+#### Text ####
+The company said
+##############
+in particular, Expansion.Restatement.Specification
+____Arg1____
+564..660
+4,1,1
+#### Text ####
+the restructuring's initial phase will feature a gradual reduction in assets and staff positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+662..811
+5
+#### Text ####
+The plan may include selling branches, consolidating or eliminating departments, and winding down or disposing of unprofitable units within 18 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1021..1026
+7,0,1,2,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1095..1111
+7,1;7,2;7,3;7,4
+#### Text ####
+the company said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+972..1020
+7,0,0;7,0,1,0;7,0,1,1;7,0,1,2,0;7,0,1,2,1,0;7,0,1,2,1,1
+#### Text ####
+Details of the restructuring won't be made final
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1027..1093
+7,0,1,2,1,2,1
+#### Text ####
+regulators approve the regulations mandated by the new federal act
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

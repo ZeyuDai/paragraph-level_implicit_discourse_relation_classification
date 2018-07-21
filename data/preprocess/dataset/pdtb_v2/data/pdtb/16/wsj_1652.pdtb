@@ -1,0 +1,617 @@
+________________________________________________________
+____Explicit____
+101..103
+0,1,1,1,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..25
+0,0;0,1,0;0,2
+#### Text ####
+Amoco Corp. said
+##############
+as, Contingency.Cause.Reason, Temporal.Asynchronous.Succession
+____Arg1____
+26..99
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,1,1,1,1,2;0,1,1,1,1,3
+#### Text ####
+third-quarter net income plunged 39% to $336 million, or 65 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+104..196
+0,1,1,1,1,4,1
+#### Text ####
+gasoline refining and marketing profits lagged substantially behind last year's record level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+350
+2
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+200..331
+1
+#### Text ####
+A charge of $80 million related to projected environmental costs in its refining and marketing operations further depressed results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+350..456
+2,1,1
+#### Text ####
+Amoco completed an environmental analysis last quarter but that no single clean-up project was responsible
+##############
+#### Features ####
+Ot, Comm, Null, Null
+333..349
+2,0;2,1,0;2,2
+#### Text ####
+A spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+405..408
+2,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+333..349
+2,0;2,1,0;2,2
+#### Text ####
+A spokesman said
+##############
+but, Comparison.Contrast
+____Arg1____
+350..404
+2,1,1,0
+#### Text ####
+Amoco completed an environmental analysis last quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+409..456
+2,1,1,2
+#### Text ####
+that no single clean-up project was responsible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+556
+4
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+460..554
+3
+#### Text ####
+In the 1988 third quarter, the Chicago-based oil company earned $552 million, or $1.07 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+556..629
+4
+#### Text ####
+Revenue in the latest quarter rose 12% to $6.6 billion from $5.91 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+631..660
+5,0
+#### Text ####
+Aside from the special charge
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+556..629
+4
+#### Text ####
+Revenue in the latest quarter rose 12% to $6.6 billion from $5.91 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+631..717
+5
+#### Text ####
+Aside from the special charge, Amoco's results were in line with Wall Street estimates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+719
+6
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+631..717
+5
+#### Text ####
+Aside from the special charge, Amoco's results were in line with Wall Street estimates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+719..813
+6
+#### Text ####
+The company's stock ended at $48.375, up 25 cents in New York Stock Exchange composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+887
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+817..885
+7
+#### Text ####
+Amoco is the first major oil company to report third-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+887..935
+8
+#### Text ####
+Analysts expect others to show a similar pattern
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+937
+9
+____Arg1____
+887..935
+8
+#### Text ####
+Analysts expect others to show a similar pattern
+##############
+____Arg2____
+937..1041
+9
+#### Text ####
+Generally in the quarter, overproduction of gasoline and higher crude oil prices pressured profitability
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1043
+10
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+937..1041
+9
+#### Text ####
+Generally in the quarter, overproduction of gasoline and higher crude oil prices pressured profitability
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1043..1133
+10
+#### Text ####
+The industry's chemical profits also declined because excess capacity has depressed prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1075..1079
+10,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+937..1041
+9
+#### Text ####
+Generally in the quarter, overproduction of gasoline and higher crude oil prices pressured profitability
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1043..1074;1080..1133
+10,0;10,2;10,3
+#### Text ####
+The industry's chemical profits declined because excess capacity has depressed prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1089..1096
+10,2,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1043..1088
+10,0;10,1;10,2,0;10,3
+#### Text ####
+The industry's chemical profits also declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1097..1133
+10,2,1,1
+#### Text ####
+excess capacity has depressed prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1135
+11
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1043..1133
+10
+#### Text ####
+The industry's chemical profits also declined because excess capacity has depressed prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1135..1176;1207..1253
+11,0,0;11,2;11,3;11,4
+#### Text ####
+Gasoline margins may rebound this quarter but they believe chemical margins could worsen
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1178..1205
+11,0,1;11,0,2;11,0,3
+#### Text ####
+some industry officials say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1207..1210
+11,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1135..1176
+11,0,0
+#### Text ####
+Gasoline margins may rebound this quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1178..1205
+11,0,1;11,0,2;11,0,3
+#### Text ####
+some industry officials say
+##############
+____Arg2____
+1224..1253
+11,3,1,1
+#### Text ####
+chemical margins could worsen
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1211..1223
+11,3,0;11,3,1,0
+#### Text ####
+they believe
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1403
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1336..1389
+12,2,1
+#### Text ####
+its third-quarter earnings declined by more than half
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1331..1335
+12,2,0
+#### Text ####
+said
+##############
+____Arg2____
+1403..1485
+13,1,1;13,2
+#### Text ####
+lower chemical prices, reduced gasoline margins and refinery maintenance shutdowns
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1391..1402
+13,0;13,1,0;13,2
+#### Text ####
+Fina blamed
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1487
+14
+____Arg1____
+1391..1485
+13
+#### Text ####
+Fina blamed lower chemical prices, reduced gasoline margins and refinery maintenance shutdowns
+##############
+____Arg2____
+1487..1589
+14
+#### Text ####
+It said net income dropped to $15.1 million, or 98 cents a share, from $35.2 million, or $2.66 a share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1591
+15
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1495..1589
+14,1,1
+#### Text ####
+net income dropped to $15.1 million, or 98 cents a share, from $35.2 million, or $2.66 a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1487..1494
+14,0;14,1,0;14,2
+#### Text ####
+It said
+##############
+____Arg2____
+1591..1644
+15
+#### Text ####
+Sales rose 2.2% to $711.9 million from $696.1 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1741
+17
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1648..1739
+16
+#### Text ####
+Amoco's refining and marketing profit in the quarter fell to $134 million from $319 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1741..1822
+17
+#### Text ####
+Chemical earnings declined by one-third to $120 million last year's robust levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2054..2058
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1826..2012
+18,0;18,1,0;18,1,1;18,1,2;18,1,3;18,1,4;18,1,5;18,1,6;18,1,7;18,2
+#### Text ####
+Amoco's domestic oil and natural gas operations recorded a profit of $104 million in the quarter compared with a loss of $5 million, "primarily on the strength of higher crude oil prices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2015..2046
+18,1,8
+#### Text ####
+said Chairman Richard M. Morrow
+##############
+____Arg2____
+2048..2053;2059..2158
+19,0;19,2;19,3;19,4
+#### Text ####
+Amoco sharply boosted natural-gas output, part of it from properties acquired from Tenneco Inc. last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2162..2165
+20,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1826..2158
+18;19
+#### Text ####
+Amoco's domestic oil and natural gas operations recorded a profit of $104 million in the quarter compared with a loss of $5 million, "primarily on the strength of higher crude oil prices," said Chairman Richard M. Morrow.
+Amoco also sharply boosted natural-gas output, part of it from properties acquired from Tenneco Inc. last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2166..2255
+20,1;20,2;20,3
+#### Text ####
+foreign exploration and production earnings fell sharply, to $12 million from $95 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2257
+21
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2162..2255
+20
+#### Text ####
+But foreign exploration and production earnings fell sharply, to $12 million from $95 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2257..2428
+21
+#### Text ####
+Higher oil prices weren't enough to offset a roughly $20 million charge related to a 10% reduction in Amoco's Canadian work force as well as increased exploration expenses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2521..2524
+22,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2432..2520
+22,0
+#### Text ####
+For the nine months, Amoco said that net income fell to $1.29 billion from $1.69 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2525..2600
+22,2
+#### Text ####
+if unusual items are excluded, operations produced essentially flat results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2525..2527
+22,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2432..2463
+22,0,0;22,0,1;22,0,2;22,0,3,0
+#### Text ####
+For the nine months, Amoco said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2521..2524;2556..2600
+22,1;22,2,1;22,2,2;22,2,3;22,3
+#### Text ####
+but operations produced essentially flat results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2528..2554
+22,2,0,1
+#### Text ####
+unusual items are excluded
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2602
+23
+____Arg1____
+2432..2600
+22
+#### Text ####
+For the nine months, Amoco said that net income fell to $1.29 billion from $1.69 billion but if unusual items are excluded, operations produced essentially flat results
+##############
+____Arg2____
+2602..2656
+23
+#### Text ####
+Revenue rose 12% to $19.93 billion from $17.73 billion
+##############
+________________________________________________________

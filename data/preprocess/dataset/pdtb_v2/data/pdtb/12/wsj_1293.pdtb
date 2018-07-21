@@ -1,0 +1,421 @@
+________________________________________________________
+____Explicit____
+385..387
+3,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Sup1____
+408..495
+3,0,1,1,0,2;3,0,1,1,1;3,0,1,1,2
+#### Text ####
+to improve their capital-to-asset ratio, as required under the new law passed in August
+##############
+____Arg1____
+497..548
+3,1;3,2;3,3;3,4
+#### Text ####
+they must also reduce liabilities, such as deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+388..407
+3,0,1,0;3,0,1,1,0,0;3,0,1,1,0,1
+#### Text ####
+thrifts sell assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+507..511
+3,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+385..495
+3,0
+#### Text ####
+As thrifts sell assets to improve their capital-to-asset ratio, as required under the new law passed in August
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+497..506;512..548
+3,1;3,2;3,3,0;3,3,2;3,4
+#### Text ####
+they must reduce liabilities, such as deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+550
+4
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+385..548
+3
+#### Text ####
+As thrifts sell assets to improve their capital-to-asset ratio, as required under the new law passed in August, they must also reduce liabilities, such as deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+550..695
+4
+#### Text ####
+As interest rates paid depositors were lowered, thrift withdrawals exceeded deposits by $5.1 billion, not including interest credited to accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+550..552
+4,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+598..695
+4,1;4,2;4,3;4,4
+#### Text ####
+thrift withdrawals exceeded deposits by $5.1 billion, not including interest credited to accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+553..596
+4,0,1
+#### Text ####
+interest rates paid depositors were lowered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1080..1093
+8,1;8,2,0
+#### Text ####
+This suggests
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1022..1077
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+said Bert Ely, an industry consultant in Alexandria, Va
+##############
+Contingency.Cause.Result
+____Arg1____
+964..1019
+7,1
+#### Text ####
+The downsizing of the thrift industry is well under way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1080..1182
+8
+#### Text ####
+This suggests the bailout law is having a more dramatic effect than anyone would have imagined so soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1252..1256
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+964..1182
+7;8
+#### Text ####
+The downsizing of the thrift industry is well under way," said Bert Ely, an industry consultant in Alexandria, Va. "This suggests the bailout law is having a more dramatic effect than anyone would have imagined so soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1187..1251;1257..1307
+9,0;9,2;9,3
+#### Text ####
+James Barth, an economist with the Office of Thrift Supervision, attributed some of the outflow to seasonal factors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1310
+10
+#### Features ####
+Ot, Comm, Null, Null
+1368..1375
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+he said
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1268..1307
+9,2,1;9,2,2;9,3
+#### Text ####
+some of the outflow to seasonal factors
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1187..1267
+9,0;9,1;9,2,0;9,3
+#### Text ####
+James Barth, an economist with the Office of Thrift Supervision, also attributed
+##############
+____Arg2____
+1310..1365
+10,1
+#### Text ####
+August is a month when people are paying school tuition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1378
+11
+#### Features ####
+Ot, Comm, Null, Null
+1368..1375
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+he said
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1310..1365
+10,1
+#### Text ####
+August is a month when people are paying school tuition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1378..1453
+11
+#### Text ####
+That and adjustment to the new law were the biggest factors in the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1582..1585
+12,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1458..1580
+12,0;12,1;12,2;12,3
+#### Text ####
+Not including thrifts under government conservatorship, S&Ls reduced their assets by $10.1 billion from the previous month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1586..1623
+12,5
+#### Text ####
+deposit outflows totaled $3.9 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1739..1742
+13,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1627..1738
+13,0;13,1;13,2
+#### Text ####
+For the 264 insolvent thrifts under government management at the end of August, assets declined by $3.3 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1743..1788
+13,4
+#### Text ####
+withdrawals exceeded deposits by $1.2 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1942
+15
+____Arg1____
+1792..1940
+14
+#### Text ####
+Thrifts raised capital mostly by selling mortgages and mortgage-backed securities, which were reduced by $7.8 billion in August from the prior month
+##############
+____Arg2____
+1942..2012
+15
+#### Text ####
+As of Aug. 31, thrifts held $185 billion in mortgage-backed securities
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2175
+17
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2016..2173
+16
+#### Text ####
+The deposit numbers for August marked a swing back to huge outflows after a July net deposit inflow of $54 million -- the only net inflow in more than a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2175..2284
+17
+#### Text ####
+Deposits aren't expected to exceed withdrawals in the foreseeable future, as the industry continues to shrink
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2249..2251
+17,1,2,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2200..2247
+17,1,2,1
+#### Text ####
+to exceed withdrawals in the foreseeable future
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+2175..2199
+17,0;17,1,0;17,1,1;17,1,2,0;17,1,2,2;17,2
+#### Text ####
+Deposits aren't expected
+##############
+____Arg2____
+2252..2284
+17,1,2,3,1
+#### Text ####
+the industry continues to shrink
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2345..2351
+18,1,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2382..2394
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+Mr. Ely said
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+2297..2343
+18,1,1,1,0;18,1,1,1,1,0;18,1,1,1,1,1,0;18,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,1,1,1;18,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+we are going to see deposit shrinkage continue
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2289..2296
+18,1,0;18,1,1,0
+#### Text ####
+I think
+##############
+____Arg2____
+2352..2379
+18,1,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+we see big changes in rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2491
+20
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Opposition
+____Arg1____
+2398..2489
+19
+#### Text ####
+For the first eight months of 1989, thrifts' withdrawals exceeded deposits by $44.5 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2491..2556
+20
+#### Text ####
+For the prior year, deposits exceeded withdrawals by $8.8 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

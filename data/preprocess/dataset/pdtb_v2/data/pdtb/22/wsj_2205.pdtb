@@ -1,0 +1,1596 @@
+________________________________________________________
+____Explicit____
+243..246
+1,4
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+162..240
+1,0;1,1;1,2;1,3
+#### Text ####
+At Jefferies & Co., J. Francis Palamara didn't reach the office until 5:30 a.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+247..292
+1,5;1,6;1,7
+#### Text ####
+then he had been up most of the night at home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+247..251
+1,5
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Contingency.Cause.Reason
+____Arg1____
+162..240
+1,0;1,1;1,2;1,3
+#### Text ####
+At Jefferies & Co., J. Francis Palamara didn't reach the office until 5:30 a.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+243..246;252..292
+1,4;1,6;1,7
+#### Text ####
+but he had been up most of the night at home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+295
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+243..292
+1,4;1,5;1,6;1,7
+#### Text ####
+but then he had been up most of the night at home
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+295..337
+2,1
+#### Text ####
+I had calls all night long from the States
+##############
+#### Features ####
+Ot, Comm, Null, Null
+340..347
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+350
+3
+#### Features ####
+Ot, Comm, Null, Null
+340..347
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+he said
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+295..337
+2,1
+#### Text ####
+I had calls all night long from the States
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+350..401
+3
+#### Text ####
+I was woken up every hour -- 1:30, 2:30, 3:30, 4:30
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+403
+4
+____Arg1____
+350..401
+3
+#### Text ####
+I was woken up every hour -- 1:30, 2:30, 3:30, 4:30
+##############
+____Arg2____
+403..497
+4
+#### Text ####
+People are looking for possible opportunities to buy, but nobody wants to stick their chin out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+457..460
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+340..347
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+he said
+##############
+but, Comparison.Contrast
+____Arg1____
+403..455
+4,0
+#### Text ####
+People are looking for possible opportunities to buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+461..497
+4,3
+#### Text ####
+nobody wants to stick their chin out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+599
+6
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+502..597
+5
+#### Text ####
+For many of London's securities traders, it was a day that started nervously in the small hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+599..648
+6
+#### Text ####
+By lunchtime, the selling was at near-panic fever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+650..653
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+599..648
+6
+#### Text ####
+By lunchtime, the selling was at near-panic fever
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+654..746
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+as the day ended in a frantic Wall Street-inspired rally, the City breathed a sigh of relief
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+654..656
+7,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+650..653;712..746
+7,0;7,2;7,3;7,4;7,5
+#### Text ####
+But the City breathed a sigh of relief
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+657..710
+7,1,1
+#### Text ####
+the day ended in a frantic Wall Street-inspired rally
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+824
+9
+____Arg1____
+750..822
+8
+#### Text ####
+So it went yesterday in the trading rooms of London's financial district
+##############
+____Arg2____
+824..927
+9
+#### Text ####
+In the wake of Wall Street's plunge last Friday, the London market was considered especially vulnerable
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+929..932
+10,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+824..927
+9
+#### Text ####
+In the wake of Wall Street's plunge last Friday, the London market was considered especially vulnerable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+933..1071
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+before the opening of trading here yesterday, all eyes were on early trading in Tokyo for a clue as to how widespread the fallout might be
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+933..939
+10,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+929..932;979..1071
+10,0;10,2;10,3;10,4;10,5
+#### Text ####
+And all eyes were on early trading in Tokyo for a clue as to how widespread the fallout might be
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+940..977
+10,1,1
+#### Text ####
+the opening of trading here yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1158..1161
+12,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1075..1156
+11
+#### Text ####
+By the time trading officially got under way at 9 a.m., the news from Asia was in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1162..1194
+12,1;12,2;12,3
+#### Text ####
+it left mixed signals for London
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1196
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1158..1194
+12
+#### Text ####
+And it left mixed signals for London
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1196..1327
+13
+#### Text ####
+Tokyo stocks closed off a significant but less-than-alarming 1.8% on thin volume; Hong Kong stocks declined 6.5% in orderly trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1278
+13
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+1196..1276
+13,0
+#### Text ####
+Tokyo stocks closed off a significant but less-than-alarming 1.8% on thin volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1278..1327
+13,2
+#### Text ####
+Hong Kong stocks declined 6.5% in orderly trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1560
+15
+____Arg1____
+1331..1558
+14
+#### Text ####
+At Jefferies' trading room on Finsbury Circus, a stately circle at the edge of the financial district, desktop computer screens displayed the London market's major barometer -- the Financial Times-Stock Exchange 100 Share Index
+##############
+____Arg2____
+1560..1640
+15
+#### Text ####
+Red figures on the screens indicated falling stocks; blue figures, rising stocks
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1642
+16
+____Arg1____
+1560..1640
+15
+#### Text ####
+Red figures on the screens indicated falling stocks; blue figures, rising stocks
+##############
+____Arg2____
+1642..1750
+16
+#### Text ####
+Right away, the reds outnumbered the blues, 80 to 20, as the index opened at 2076.8, off 157.1 points, or 7%
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1696..1698
+16,3,5,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1642..1694
+16,0;16,1;16,2;16,3,0;16,3,1;16,3,2;16,3,3;16,3,4;16,4
+#### Text ####
+Right away, the reds outnumbered the blues, 80 to 20
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1699..1750
+16,3,5,1
+#### Text ####
+the index opened at 2076.8, off 157.1 points, or 7%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1770..1773
+17,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1798..1852
+17,0;17,2;17,3;17,4;17,5,0;17,5,1;17,5,2,0;17,6
+#### Text ####
+said Mr. Palamara, a big, good-humored New York native
+##############
+but, Comparison.Contrast
+____Arg1____
+1755..1768
+17,1,0
+#### Text ####
+I see concern
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1774..1795
+17,1,3
+#### Text ####
+I don't see any panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1998
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1886..1995
+18
+#### Text ####
+The Jefferies office, a branch of the Los Angeles-based firm, played it conservatively, seeking to avoid risk
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1998..2054
+19,1
+#### Text ####
+This is not the sort of market to have a big position in
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2057..2073
+19,0;19,2;19,3;19,4;19,5,0;19,5,1;19,6
+#### Text ####
+said David Smith
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2118
+20
+#### Features ####
+Ot, Comm, Null, Null
+2057..2115
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said David Smith, who heads trading in all non-U.S. stocks
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1998..2054
+19,1
+#### Text ####
+This is not the sort of market to have a big position in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2118..2150
+20
+#### Text ####
+We tend to run a very tight book
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2153
+21
+____Arg1____
+2118..2150
+20
+#### Text ####
+We tend to run a very tight book
+##############
+____Arg2____
+2153..2270
+21
+#### Text ####
+Jefferies spent most of its energies in the morning trying to match buyers and sellers, and there weren't many buyers
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2241..2244
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2205..2239
+21,0,1,3
+#### Text ####
+trying to match buyers and sellers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2245..2270
+21,3
+#### Text ####
+there weren't many buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2400
+23
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2275..2398
+22
+#### Text ####
+All the takeover stocks -- Scottish & Newcastle, B.A.T, DRG -- are getting pretty well pasted this morning," Mr. Smith said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2400..2474
+23
+#### Text ####
+Seconds later, a 7,500-share "sell" order for Scottish & Newcastle came in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2476
+24
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2400..2474
+23
+#### Text ####
+Seconds later, a 7,500-share "sell" order for Scottish & Newcastle came in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2476..2581
+24
+#### Text ####
+For the third time in 15 minutes, a trader next to Mr. Smith left the no-smoking area to have a cigarette
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2583
+25
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+2476..2581
+24
+#### Text ####
+For the third time in 15 minutes, a trader next to Mr. Smith left the no-smoking area to have a cigarette
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2583..2701
+25
+#### Text ####
+On the screens, only two forlorn blue figures remained, but the index had recovered a few points and was off about 140
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2639..2642
+25,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2583..2637
+25,0
+#### Text ####
+On the screens, only two forlorn blue figures remained
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2643..2701
+25,3
+#### Text ####
+the index had recovered a few points and was off about 140
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2706..2713
+26,1,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2768..2782
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+Mr. Smith said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2737..2765
+26,1,1;26,1,2;26,1,3
+#### Text ####
+let's pick up a little stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2714..2735
+26,1,0,1
+#### Text ####
+Tokyo didn't collapse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2784
+27
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2706..2782
+26
+#### Text ####
+Because Tokyo didn't collapse, let's pick up a little stock," Mr. Smith said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2784..2893
+27
+#### Text ####
+He targeted 7,500 shares of Reuters and punched a button to call up on his screen other dealers' price quotes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2895
+28
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2784..2893
+27
+#### Text ####
+He targeted 7,500 shares of Reuters and punched a button to call up on his screen other dealers' price quotes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2895..3016
+28
+#### Text ####
+The vivid yellow figures showed the best price at 845 pence, ($13.27) and Mr. Smith's traders started putting out feelers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2965..2968
+28,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+2895..2964
+28,0
+#### Text ####
+The vivid yellow figures showed the best price at 845 pence, ($13.27)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2969..3016
+28,2
+#### Text ####
+Mr. Smith's traders started putting out feelers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3018..3021
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2895..3016
+28
+#### Text ####
+The vivid yellow figures showed the best price at 845 pence, ($13.27) and Mr. Smith's traders started putting out feelers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3022..3133
+29,1;29,2;29,3;29,4;29,5
+#### Text ####
+the market sensed a serious buyer on a day dominated by selling, and the quotes immediately jumped to 850 pence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3087..3090
+29,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+3018..3085
+29,0;29,1;29,2
+#### Text ####
+But the market sensed a serious buyer on a day dominated by selling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3091..3133
+29,4
+#### Text ####
+the quotes immediately jumped to 850 pence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3138..3142
+30,1,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3213..3227
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+Mr. Smith said
+##############
+when, Contingency.Condition.General, Temporal.Synchrony
+____Arg1____
+3158..3210
+30,1,1;30,1,2;30,1,3;30,1,4
+#### Text ####
+they run from you -- they keep changing their prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3143..3156
+30,1,0,1
+#### Text ####
+I want to buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3230
+31
+#### Features ####
+Ot, Comm, Null, Null
+3213..3227
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+Mr. Smith said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3138..3210
+30,1
+#### Text ####
+When I want to buy, they run from you -- they keep changing their prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3230..3251
+31
+#### Text ####
+It's very frustrating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3254
+32
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3230..3251
+31
+#### Text ####
+It's very frustrating
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3213..3227
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+Mr. Smith said
+##############
+____Arg2____
+3254..3312
+32
+#### Text ####
+He temporarily abandoned his search for the Reuters shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3360..3363
+33,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3316..3358
+33,0;33,1;33,2;33,3
+#### Text ####
+By this time, it was 4:30 a.m. in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3364..3460
+33,5,0;33,5,1,0;33,5,1,1,0;33,5,1,1,1,0;33,5,1,1,1,1,0;33,5,1,1,1,1,1,0;33,5,1,1,1,1,1,1,0;33,5,1,1,1,1,1,1,1,0;33,5,1,1,1,1,1,1,1,1,0;33,5,1,1,1,1,1,1,1,1,1
+#### Text ####
+Mr. Smith fielded a call from a New York customer wanting an opinion on the British stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3775
+37
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3761..3773
+36
+#### Text ####
+He was right
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3775..3823
+37
+#### Text ####
+By midday, the London market was in full retreat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3826
+38
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3775..3823
+37
+#### Text ####
+By midday, the London market was in full retreat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3826..3851
+38,1
+#### Text ####
+It's falling like a stone
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3854..3962
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+said Danny Linger, a pit trader who was standing outside the London International Financial Futures Exchange
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3964
+39
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3826..3851
+38,1
+#### Text ####
+It's falling like a stone
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3854..3962
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+said Danny Linger, a pit trader who was standing outside the London International Financial Futures Exchange
+##############
+____Arg2____
+3964..4072
+39
+#### Text ####
+Only half the usual lunchtime crowd gathered at the tony Corney & Barrow wine bar on Old Broad Street nearby
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4074
+40
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3964..4072
+39
+#### Text ####
+Only half the usual lunchtime crowd gathered at the tony Corney & Barrow wine bar on Old Broad Street nearby
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4074..4165
+40
+#### Text ####
+Conversation was subdued as most patrons watched the latest market statistics on television
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4099..4101
+40,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4074..4098
+40,0;40,1,0;40,1,1;40,2
+#### Text ####
+Conversation was subdued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4102..4165
+40,1,2,1
+#### Text ####
+most patrons watched the latest market statistics on television
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4167
+41
+____Arg1____
+4074..4165
+40
+#### Text ####
+Conversation was subdued as most patrons watched the latest market statistics on television
+##############
+____Arg2____
+4167..4229
+41
+#### Text ####
+At 12:49 p.m., the index hit its low, 2029.7, off 204.2 points
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4281..4283
+42,1,1,3,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4336..4395
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+Mr. Clark, the Shearson trader, said early in the afternoon
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+4264..4280
+42,1,1,3,0;42,1,1,3,1
+#### Text ####
+off at least 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4284..4313
+42,1,1,3,2,1,0;42,1,1,3,2,1,1,0;42,1,1,3,2,1,1,1,0;42,1,1,3,2,1,1,1,1;42,1,1,3,2,1,1,1,2
+#### Text ####
+you could calculate the index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4398
+43
+#### Features ####
+Ot, Comm, Null, Null
+4336..4395
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+Mr. Clark, the Shearson trader, said early in the afternoon
+##############
+similarly, Expansion.Conjunction
+____Arg1____
+4234..4313
+42,1,0;42,1,1,0;42,1,1,1;42,1,1,2;42,1,1,3,0;42,1,1,3,1;42,1,1,3,2,0;42,1,1,3,2,1,0;42,1,1,3,2,1,1,0;42,1,1,3,2,1,1,1,0;42,1,1,3,2,1,1,1,1;42,1,1,3,2,1,1,1,2
+#### Text ####
+France opened the limit down, off at least 10% if you could calculate the index
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4398..4459
+43
+#### Text ####
+Spain is down 10% and suspended, Sweden's down 8%, Norway 11%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4461
+44
+#### Features ####
+Ot, Comm, Null, Null
+4336..4395
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+Mr. Clark, the Shearson trader, said early in the afternoon
+##############
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+4398..4459
+43
+#### Text ####
+Spain is down 10% and suspended, Sweden's down 8%, Norway 11%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4461..4500
+44
+#### Text ####
+This market has been very badly damaged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4505..4507
+45,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4559..4642
+45,1;45,2;45,3;45,4
+#### Text ####
+Shearson traders and salesmen traded bets on how low the New York market would open
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4508..4557
+45,0,1
+#### Text ####
+2:30 p.m. -- Wall Street's opening time -- neared
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4758..4768
+46,3,2,0;46,3,2,1,0
+#### Text ####
+as soon as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as soon as, Temporal.Synchrony
+____Arg1____
+4646..4757
+46,0;46,1;46,2;46,3,0;46,3,1;46,4
+#### Text ####
+In the center of the trading floor, chief trader Roger Streeter and two colleagues scrambled for the telephones
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4769..4795
+46,3,2,1,1,0;46,3,2,1,1,1,0;46,3,2,1,1,1,1
+#### Text ####
+the New York market opened
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4799..4854
+46,3,2,1,1,1,2
+#### Text ####
+plummeting more than 60 points in the first few minutes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4856
+47
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4646..4854
+46
+#### Text ####
+In the center of the trading floor, chief trader Roger Streeter and two colleagues scrambled for the telephones as soon as the New York market opened -- plummeting more than 60 points in the first few minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4856..4903
+47
+#### Text ####
+They saw an opportunity created by the sell-off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4905
+48
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4856..4903
+47
+#### Text ####
+They saw an opportunity created by the sell-off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4905..5044
+48
+#### Text ####
+As Wall Street traders dumped American Depositary Receipts in Jaguar PLC, Mr. Streeter and trader Sam Ruiz bought them to resell in the U.K
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4905..4907
+48,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4979..5044
+48,1;48,2;48,3;48,4
+#### Text ####
+Mr. Streeter and trader Sam Ruiz bought them to resell in the U.K
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4908..4977
+48,0,1
+#### Text ####
+Wall Street traders dumped American Depositary Receipts in Jaguar PLC
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5046
+49
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4905..5044
+48
+#### Text ####
+As Wall Street traders dumped American Depositary Receipts in Jaguar PLC, Mr. Streeter and trader Sam Ruiz bought them to resell in the U.K
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5046..5130
+49
+#### Text ####
+Investors here still expect Ford Motor Co. or General Motors Corp. to bid for Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5195
+51
+____Arg1____
+5134..5192
+50
+#### Text ####
+Suddenly, after about 45 minutes, the U.S. markets rallied
+##############
+____Arg2____
+5195..5338
+51
+#### Text ####
+The MMI has gone better," shouted one trader at about 3:15 London time, as the U.S. Major Markets Index contract suddenly indicated a turnabout
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5267..5269
+51,8,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Asynchronous.Succession
+____Arg1____
+5195..5265
+51,0;51,1;51,2;51,3;51,4;51,5;51,6;51,7;51,9
+#### Text ####
+The MMI has gone better," shouted one trader at about 3:15 London time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5270..5338
+51,8,1
+#### Text ####
+the U.S. Major Markets Index contract suddenly indicated a turnabout
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5342..5344
+52,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+5371..5404
+52,1;52,2;52,3;52,4
+#### Text ####
+the London trading room went wild
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5345..5369
+52,0,1
+#### Text ####
+Wall Street strengthened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5406
+53
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Restatement.Specification
+____Arg1____
+5342..5404
+52
+#### Text ####
+As Wall Street strengthened, the London trading room went wild
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5406..5483
+53
+#### Text ####
+Traders shouted as their screens posted an ever-narrowing loss on Wall Street
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5422..5424
+53,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+5406..5421
+53,0;53,1,0;53,2
+#### Text ####
+Traders shouted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5425..5483
+53,1,1,1
+#### Text ####
+their screens posted an ever-narrowing loss on Wall Street
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5485..5489
+54,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+5406..5421
+53,0;53,1,0;53,2
+#### Text ####
+Traders shouted
+##############
+____Arg1____
+5422..5483
+53,1,1
+#### Text ####
+as their screens posted an ever-narrowing loss on Wall Street
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5491..5562
+54,1;54,2;54,3;54,4;54,5;54,6;54,7
+#### Text ####
+nine minutes later, Wall Street suddenly rebounded to a gain on the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5565
+55
+____Arg1____
+5485..5562
+54
+#### Text ####
+Then, nine minutes later, Wall Street suddenly rebounded to a gain on the day
+##############
+____Arg2____
+5565..5649
+55
+#### Text ####
+Rally! Rally! Rally!" shouted Shearson trader Andy Rosen, selling more Jaguar shares
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5652
+56
+____Arg1____
+5565..5649
+55
+#### Text ####
+Rally! Rally! Rally!" shouted Shearson trader Andy Rosen, selling more Jaguar shares
+##############
+____Arg2____
+5652..5672
+56
+#### Text ####
+This is panic buying
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5677..5679
+57,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+5707..5782
+57,1;57,2;57,3;57,4
+#### Text ####
+some wondered whether the weekend of worrying and jitters had been worth it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5680..5705
+57,0,1
+#### Text ####
+the London market rallied
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5784
+58
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+5677..5782
+57
+#### Text ####
+As the London market rallied, some wondered whether the weekend of worrying and jitters had been worth it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5784..5864
+58
+#### Text ####
+The London index closed at 2163.4, its high for the day, off 70.5, or about 3.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

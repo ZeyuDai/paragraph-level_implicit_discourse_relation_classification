@@ -1,0 +1,437 @@
+________________________________________________________
+____EntRel____
+95
+1
+____Arg1____
+9..93
+0
+#### Text ####
+For the sixth time in as many years, Continental Airlines has a new senior executive
+##############
+____Arg2____
+95..202
+1
+#### Text ####
+Gone is D. Joseph Corr, the airline's chairman, chief executive and president, appointed only last December
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+278
+3
+____Arg1____
+206..276
+2
+#### Text ####
+Mr. Corr resigned to pursue other business interests, the airline said
+##############
+____Arg2____
+278..313
+3
+#### Text ####
+He could not be reached for comment
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+457
+5
+____Arg1____
+317..455
+4
+#### Text ####
+Succeeding him as chairman and chief executive will be Frank Lorenzo, chairman and chief executive of Continental's parent, Texas Air Corp
+##############
+____Arg2____
+457..544
+5
+#### Text ####
+Mr. Lorenzo, 49 years old, is reclaiming the job that was his before Mr. Corr signed on
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+519..525
+5,1,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+506..518
+5,1,1,1,1,0;5,1,1,1,1,1,0;5,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1
+#### Text ####
+that was his
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+526..544
+5,1,1,1,1,1,1,2,1
+#### Text ####
+Mr. Corr signed on
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+560..564
+6,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+317..455
+4
+#### Text ####
+Succeeding him as chairman and chief executive will be Frank Lorenzo, chairman and chief executive of Continental's parent, Texas Air Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+548..559;565..596
+6,0;6,2;6,3
+#### Text ####
+The airline named Mickey Foret as president
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+598
+7
+____Arg1____
+548..596
+6
+#### Text ####
+The airline also named Mickey Foret as president
+##############
+____Arg2____
+598..696
+7
+#### Text ####
+Mr. Foret, 44, is a 15-year veteran of Texas Air and Texas International Airlines, its predecessor
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+698
+8
+____Arg1____
+598..696
+7
+#### Text ####
+Mr. Foret, 44, is a 15-year veteran of Texas Air and Texas International Airlines, its predecessor
+##############
+____Arg2____
+698..786
+8
+#### Text ####
+Most recently he had been executive vice president for planning and finance at Texas Air
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+882..885
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+790..880
+9
+#### Text ####
+Top executives at Continental haven't lasted long, especially those recruited from outside
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+886..925
+10,1;10,2;10,3
+#### Text ####
+Mr. Corr's tenure was shorter than most
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+927
+11
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Contrast
+____Arg1____
+882..925
+10
+#### Text ####
+But Mr. Corr's tenure was shorter than most
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+927..1096
+11
+#### Text ####
+The 48-year-old Mr. Corr was hired largely because he was credited with returning Trans World Airlines Inc. to profitability while he was its president from 1986 to 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+962..977
+11,1,1,2,0;11,1,1,2,1
+#### Text ####
+largely because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+927..961
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,2
+#### Text ####
+The 48-year-old Mr. Corr was hired
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+978..1096
+11,1,1,2,2
+#### Text ####
+he was credited with returning Trans World Airlines Inc. to profitability while he was its president from 1986 to 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1052..1057
+11,1,1,2,2,1,1,2,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+994..1051
+11,1,1,2,2,1,1,2,0;11,1,1,2,2,1,1,2,1,0;11,1,1,2,2,1,1,2,1,1,0;11,1,1,2,2,1,1,2,1,1,1;11,1,1,2,2,1,1,2,1,1,2
+#### Text ####
+with returning Trans World Airlines Inc. to profitability
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1058..1096
+11,1,1,2,2,1,1,2,1,1,3,1
+#### Text ####
+he was its president from 1986 to 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1098
+12
+#### Features ####
+Wr, Comm, Null, Null
+and, Temporal.Asynchronous.Succession
+____Arg1____
+962..1096
+11,1,1,2
+#### Text ####
+largely because he was credited with returning Trans World Airlines Inc. to profitability while he was its president from 1986 to 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1098..1159
+12
+#### Text ####
+Before that, he was an executive with a manufacturing concern
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1098..1104
+12,0,0
+#### Text ####
+Before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1111..1159
+12,1;12,2;12,3;12,4
+#### Text ####
+he was an executive with a manufacturing concern
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1105..1109
+12,0,1
+#### Text ####
+that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1278..1281
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1163..1276
+13
+#### Text ####
+At Continental he cut money-losing operations, which helped produce a modest profit in this year's second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1282..1413
+14,1;14,2;14,3;14,4
+#### Text ####
+Mr. Corr, a stunt pilot in his spare time, was understood to be frustrated by what he regarded as limited freedom under Mr. Lorenzo
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1417..1422
+15,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+1492..1566
+15,1;15,2;15,3;15,4
+#### Text ####
+Mr. Lorenzo is known for keeping close tabs on Texas Air's operating units
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1423..1490
+15,0,1
+#### Text ####
+not officially an executive at Continental during Mr. Corr's tenure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1568
+16
+____Arg1____
+1417..1566
+15
+#### Text ####
+While not officially an executive at Continental during Mr. Corr's tenure, Mr. Lorenzo is known for keeping close tabs on Texas Air's operating units
+##############
+____Arg2____
+1568..1716
+16
+#### Text ####
+Continental is Texas Air's flagship and was built painfully to its present size under Mr. Lorenzo after emerging from bankruptcy proceedings in 1986
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1902..1909
+18,1,1,1
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1720..1857
+17
+#### Text ####
+It's unclear what role, if any, Mr. Lorenzo's recent exploration of a possible sale of a stake in Continental had in Mr. Corr's departure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1859..1900;1911..2026
+18,0;18,1,0;18,1,1,0;18,1,1,2;18,1,2;18,2
+#### Text ####
+One source familiar with the airline said that Mr. Corr wasn't informed in advance during the summer when Mr. Lorenzo began discussions with potential buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2448
+22
+____Arg1____
+2350..2446
+21
+#### Text ####
+Previously, he had served in financial planning positions at the company's Eastern Airlines unit
+##############
+____Arg2____
+2448..2548
+22
+#### Text ####
+Another longtime ally, Phil Bakes, currently heads Eastern, now in Chapter 11 bankruptcy proceedings
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2560..2570
+23,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+2448..2548
+22
+#### Text ####
+Another longtime ally, Phil Bakes, currently heads Eastern, now in Chapter 11 bankruptcy proceedings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2550..2559;2571..2604
+23,0;23,2;23,3
+#### Text ####
+Mr. Bakes had a turn at running Continental
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

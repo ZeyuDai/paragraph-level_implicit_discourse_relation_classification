@@ -1,0 +1,75 @@
+________________________________________________________
+____Implicit____
+213
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..211
+0
+#### Text ####
+ENGRAPH INC. recently reported third-quarter earnings, which were mistakenly shown in the Quarterly Earnings Surprises table in last Tuesday's edition to be lower than the average of analysts' estimates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+213..332
+1
+#### Text ####
+Zacks Investment Research didn't adjust one analyst's estimate for a stock split, which therefore was artificially high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+301..310
+1,1,2,1,3,1,0
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+213..293
+1,0;1,1,0;1,1,1;1,1,2,0;1,1,2,1,0;1,1,2,1,1;1,1,2,1,2;1,2
+#### Text ####
+Zacks Investment Research didn't adjust one analyst's estimate for a stock split
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+295..300;311..332
+1,1,2,1,3,0;1,1,2,1,3,1,1;1,1,2,1,3,1,2
+#### Text ####
+which was artificially high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+334
+2
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+213..332
+1
+#### Text ####
+Zacks Investment Research didn't adjust one analyst's estimate for a stock split, which therefore was artificially high
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+334..450
+2
+#### Text ####
+Engraph's third-quarter net income of 15 cents a share actually was 7% higher than the adjusted average of estimates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

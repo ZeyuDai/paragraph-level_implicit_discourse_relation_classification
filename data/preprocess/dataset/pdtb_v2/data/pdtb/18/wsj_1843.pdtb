@@ -1,0 +1,506 @@
+________________________________________________________
+____Explicit____
+105..107
+0,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..103
+0,0;0,1,0;0,1,1;0,1,2;0,1,3;0,2
+#### Text ####
+Money-market mutual fund assets grew at nearly three times their usual rate in the latest week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+108..162
+0,1,4,1
+#### Text ####
+investors opted for safety instead of the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+464
+3
+#### Features ####
+Ot, Comm, Null, Null
+407..461
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+said Brenda Malizia Negus, editor of Money Fund Report
+##############
+indeed, Expansion.Restatement
+____Arg1____
+346..404
+2,1
+#### Text ####
+We were expecting it, following the fall of the Dow Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+464..500
+3
+#### Text ####
+It's the proverbial flight to safety
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+627
+5
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+548..625
+4,1;4,2;4,3;4,4
+#### Text ####
+money funds continue to offer better yields than other comparable investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+627..760
+5
+#### Text ####
+The average seven-day compound yield on the 400 taxable funds tracked by IBC/Donoghue's was 8.55% in the latest week, down from 8.60%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+762
+6
+____Arg1____
+627..760
+5
+#### Text ####
+The average seven-day compound yield on the 400 taxable funds tracked by IBC/Donoghue's was 8.55% in the latest week, down from 8.60%
+##############
+____Arg2____
+762..854
+6
+#### Text ####
+Compound yields assume reinvestment of dividends and that current yields continue for a year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+944..947
+7,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+858..942
+7,0
+#### Text ####
+Most short-term certificates of deposit are yielding about 8% or less at major banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+948..1057
+7,3
+#### Text ####
+the yields on Treasury bills sold at Monday's auction fell to 7.61% for three months and 7.82% for six months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1211
+9
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1061..1154
+8,0;8,1,0;8,1,1,0;8,1,1,1,0;8,1,1,1,1;8,1,1,1,2;8,2
+#### Text ####
+Money-fund assets have been rising at an average rate of $1.6 billion a week in recent months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1156..1170
+8,1,1,1,3
+#### Text ####
+Ms. Negus said
+##############
+____Arg2____
+1211..1284
+9
+#### Text ####
+In the latest week, funds open to institutions alone grew by $1.8 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1457
+11
+____Arg1____
+1288..1454
+10
+#### Text ####
+Some fund managers say inflows could increase in coming days as a result of stock selling in the wake of Friday's 190.58point drop in the Dow Jones Industrial Average
+##############
+____Arg2____
+1457..1606
+11
+#### Text ####
+If you're selling equities, you don't start getting proceeds for five to seven days," said Frank Rachwalski, who manages the Kemper Money Market Fund
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1457..1459
+11,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1543..1606
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+said Frank Rachwalski, who manages the Kemper Money Market Fund
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1485..1540
+11,1,1;11,1,2;11,1,3
+#### Text ####
+you don't start getting proceeds for five to seven days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1460..1483
+11,1,0,1
+#### Text ####
+you're selling equities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1880..1893
+13,0,2,2
+#### Text ####
+in comparison
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast.Juxtaposition
+____Arg1____
+1680..1786
+12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1;12,1,1,1,1,2
+#### Text ####
+inflows Friday into Fidelity's Spartan and Cash Reserves money-market funds were about twice normal levels
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1610..1679
+12,0;12,1,0;12,2
+#### Text ####
+Neal Litvack, marketing vice president for Fidelity Investments, said
+##############
+____Arg2____
+1844..1893
+13,0
+#### Text ####
+Monday and Tuesday "were lackluster in comparison
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1896..1903
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1970
+15
+#### Features ####
+Ot, Comm, Null, Null
+1951..1967
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Mr. Litvack said
+##############
+rather, Expansion.Restatement.Specification
+____Arg1____
+1908..1948
+14,1
+#### Text ####
+People aren't necessarily running scared
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1970..2072
+15
+#### Text ####
+They're maintaining their attitude toward investing, which has leaned toward the conservative recently
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2127..2129
+16,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2077..2126
+16,0;16,1,0;16,1,1,0;16,1,1,1,0;16,1,1,1,1,0;16,1,1,1,1,1;16,2
+#### Text ####
+Money-fund yields tend to lag interestrate trends
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2130..2289
+16,1,1,1,1,2,1
+#### Text ####
+portfolio managers adjust the maturities of their investments -- short-term Treasury securities, commercial paper and the like -- to capture the highest yields
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2291
+17
+____Arg1____
+2077..2289
+16
+#### Text ####
+Money-fund yields tend to lag interestrate trends as portfolio managers adjust the maturities of their investments -- short-term Treasury securities, commercial paper and the like -- to capture the highest yields
+##############
+____Arg2____
+2291..2376
+17
+#### Text ####
+Maturities usually are shorter when rates are rising and longer when they are falling
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2322..2326
+17,2,0,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2291..2321
+17,0;17,1;17,2,0,0;17,2,0,1;17,3
+#### Text ####
+Maturities usually are shorter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2327..2343
+17,2,0,2,1
+#### Text ####
+rates are rising
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2355..2359
+17,2,2,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2344..2354
+17,2,1;17,2,2,0
+#### Text ####
+and longer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2360..2376
+17,2,2,1,1
+#### Text ####
+they are falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2492
+19
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2380..2490
+18
+#### Text ####
+The average maturity of the funds tracked by IBC/Donoghue's remained at 38 days for the third consecutive week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2492..2613
+19
+#### Text ####
+It was as short as 29 days at the start of this year, when rates were marching steadily upward, and hit 42 days in August
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2701
+21
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2617..2699
+20
+#### Text ####
+The average seven-day simple yield of the funds fell to 8.21% this week from 8.26%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2701..2835
+21
+#### Text ####
+The average 30-day simple yield was 8.26%, compared with 8.27% the week before, and the 30-day compound yield slid to 8.60% from 8.61%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2781..2784
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2701..2779
+21,0
+#### Text ####
+The average 30-day simple yield was 8.26%, compared with 8.27% the week before
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2785..2835
+21,3
+#### Text ####
+the 30-day compound yield slid to 8.60% from 8.61%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2898
+23
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2839..2896
+22
+#### Text ####
+Some funds are posting yields far higher than the average
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2898..3013
+23
+#### Text ####
+The highest yielding taxable fund this week was Harbor Money Market Fund, with a seven-day compound yield of 12.75%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3015
+24
+____Arg1____
+2898..3013
+23
+#### Text ####
+The highest yielding taxable fund this week was Harbor Money Market Fund, with a seven-day compound yield of 12.75%
+##############
+____Arg2____
+3015..3078
+24
+#### Text ####
+That included capital gains that were passed along to customers
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3203
+26
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3082..3201
+25
+#### Text ####
+Among the other high-yielding funds, Fidelity's Spartan Fund had a seven-day compound yield of 9.33% in the latest week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3203..3278
+26
+#### Text ####
+The seven-day compound yield of the Dreyfus Worldwide Dollar Fund was 9.51%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,336 @@
+________________________________________________________
+____Implicit____
+145
+1
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9..142
+0
+#### Text ####
+This is written to correct a misquotation in your Oct. 3 article "Deaths From Advanced Colon Cancer Can Be Reduced by Using Two Drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+145..382
+1;2
+#### Text ####
+In this article, I was alleged to have said, "Any patient with high-risk colon cancer is really getting short shrift if he's not getting this therapy." 
+
+I didn't say this, and I'm totally opposed to the philosophy expressed by the quote
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+262..264
+1,3,1,1,1,1,1,2,2,1,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Indet
+176..188
+1,3,1,1,0;1,3,1,1,1,0;1,3,1,1,1,1,0;1,3,1,1,1,1,1,0;1,3,1,1,1,1,1,1
+#### Text ####
+to have said
+##############
+if, Contingency.Condition.General
+____Arg1____
+191..261
+1,3,1,1,1,1,1,2,0;1,3,1,1,1,1,1,2,1;1,3,1,1,1,1,1,2,2,0;1,3,1,1,1,1,1,2,2,1,0;1,3,1,1,1,1,1,2,2,1,1;1,3,1,1,1,1,1,2,2,1,2,0;1,3,1,1,1,1,1,2,2,1,2,1
+#### Text ####
+Any patient with high-risk colon cancer is really getting short shrift
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+265..294
+1,3,1,1,1,1,1,2,2,1,2,2,1
+#### Text ####
+he's not getting this therapy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+318..321
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+299..316
+2,0
+#### Text ####
+I didn't say this
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+322..382
+2,3
+#### Text ####
+I'm totally opposed to the philosophy expressed by the quote
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+384
+3
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+299..382
+2
+#### Text ####
+I didn't say this, and I'm totally opposed to the philosophy expressed by the quote
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+384..523
+3
+#### Text ####
+I have not offered and will not offer routine therapy with the two drugs, levamisole and 5-fluorouracil, to any of my colon-cancer patients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+525
+4
+____Arg1____
+384..523
+3
+#### Text ####
+I have not offered and will not offer routine therapy with the two drugs, levamisole and 5-fluorouracil, to any of my colon-cancer patients
+##############
+____Arg2____
+525..664
+4
+#### Text ####
+With this treatment we have reduced deaths in high-risk colon cancer by one-third -- but this leaves the two-thirds who are dying of cancer
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+610..613
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+525..606
+4,0
+#### Text ####
+With this treatment we have reduced deaths in high-risk colon cancer by one-third
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+614..664
+4,3
+#### Text ####
+this leaves the two-thirds who are dying of cancer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+666
+5
+____Arg1____
+610..664
+4,2;4,3;4,4
+#### Text ####
+but this leaves the two-thirds who are dying of cancer
+##############
+____Arg2____
+666..696
+5
+#### Text ####
+This is not nearly good enough
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+708
+6
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+666..696
+5
+#### Text ####
+This is not nearly good enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+708..837
+6,1,1
+#### Text ####
+any physician who truly cares about cancer patients, both today and tomorrow, should offer the hope of something better than that
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+698..707
+6,0;6,1,0;6,2
+#### Text ####
+I believe
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+839
+7
+____Arg1____
+698..837
+6
+#### Text ####
+I believe any physician who truly cares about cancer patients, both today and tomorrow, should offer the hope of something better than that
+##############
+____Arg2____
+839..1068
+7
+#### Text ####
+My statement, read verbatim from a printed text available to all reporters attending the National Cancer Institute news conference, was the following: "New clinical trials are already in operation seeking to improve these results
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1070
+8
+____Arg1____
+991..1068
+7,1,1,3
+#### Text ####
+New clinical trials are already in operation seeking to improve these results
+##############
+____Arg2____
+1070..1222
+8
+#### Text ####
+These research protocols offer to the patient not only the very best therapy which we have established today but also the hope of something still better
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1224
+9
+____Arg1____
+1070..1222
+8
+#### Text ####
+These research protocols offer to the patient not only the very best therapy which we have established today but also the hope of something still better
+##############
+____Arg2____
+1224..1326
+9
+#### Text ####
+I feel any patient with high-risk cancer is getting short shrift if he is not offered this opportunity
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1289..1291
+9,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1224..1230
+9,0;9,1,0;9,2;9,3
+#### Text ####
+I feel
+##############
+if, Contingency.Condition.General
+____Arg1____
+1231..1288
+9,1,1,0;9,1,1,1,0;9,1,1,1,1,0;9,1,1,1,1,1,0;9,1,1,1,1,1,1
+#### Text ####
+any patient with high-risk cancer is getting short shrift
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1292..1326
+9,1,1,1,1,1,2,1
+#### Text ####
+he is not offered this opportunity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1476..1483
+11,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1331..1463
+10
+#### Text ####
+We have very exciting prospects for far more impressive advances in the treatment of colon cancer during the years immediately ahead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1465..1474;1485..1567
+11,0;11,1;11,3;11,4;11,5
+#### Text ####
+This hope will never be realized if we use levamisole and 5-fluorouracil as a stopping point
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1508..1510
+11,4,2,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1465..1507
+11,0;11,1;11,2;11,3;11,4,0;11,4,1;11,4,2,0;11,4,2,1,0;11,4,2,1,1;11,5
+#### Text ####
+This hope, however, will never be realized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1511..1567
+11,4,2,1,2,1
+#### Text ####
+we use levamisole and 5-fluorouracil as a stopping point
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

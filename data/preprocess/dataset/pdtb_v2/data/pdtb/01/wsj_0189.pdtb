@@ -1,0 +1,174 @@
+________________________________________________________
+____Implicit____
+285
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+157..283
+1
+#### Text ####
+The St. Louis company earned $45.2 million, or 65 cents a share, compared with $84.9 million, or $1.24 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+285..377
+2
+#### Text ####
+Sales in the latest period were $1.76 billion, a 13% increase from last year's $1.55 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+506
+4
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+381..504
+3
+#### Text ####
+For the year ended Sept. 30, Ralston earned $422.5 million, or $6.44 a share, up 8.9% from $387.8 million, or $5.63 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+506..596
+4
+#### Text ####
+This year's results included a gain of $70.2 million on the disposal of seafood operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+598
+5
+____Arg1____
+506..596
+4
+#### Text ####
+This year's results included a gain of $70.2 million on the disposal of seafood operations
+##############
+____Arg2____
+598..665
+5
+#### Text ####
+Sales for the full year were $6.6 billion, up 13% from $5.8 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+878
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+682..876
+6,1,1
+#### Text ####
+its restructuring costs include the phase-out of a battery facility in Greenville, N.C., the recent closing of a Hostess cake bakery in Cincinnati and a reduction in staff throughout the company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+669..681
+6,0;6,1,0;6,2
+#### Text ####
+Ralston said
+##############
+____Arg2____
+878..895;963..1002
+7,0,0,0;7,0,0,1;7,0,0,3;7,0,1
+#### Text ####
+The battery plant will be closed over the next year or so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1004..1020
+7,1;7,2;7,3;7,4
+#### Text ####
+a spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1209
+9
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1024..1163
+8,0;8,1,0;8,1,1;8,1,2,0;8,1,2,1;8,1,2,2,0;8,1,2,2,1;8,1,2,2,2,0;8,1,2,2,2,1;8,2
+#### Text ####
+Ralston attributed its fourth-quarter slump partly to higher costs of ingredients in the pet food business as well as competitive pressures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1209..1265
+9
+#### Text ####
+For the year, pet food volume was flat, the company said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1347..1351
+10,1,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1269..1341
+10,0;10,1,0;10,1,1
+#### Text ####
+Its cereal division realized higher operating profit on volume increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1343..1346;1352..1375
+10,1,2;10,1,4;10,2
+#### Text ####
+but spent more on promotion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1377
+11
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1269..1341
+10,0;10,1,0;10,1,1;10,2
+#### Text ####
+Its cereal division realized higher operating profit on volume increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1377..1475
+11,0
+#### Text ####
+The Continental Baking business benefited from higher margins on bread and on increased cake sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,143 @@
+________________________________________________________
+____Explicit____
+539..545
+3,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+365..537
+2
+#### Text ####
+The group led by Birmingham, Mich., publicist William D. McMaster didn't name an investment banker backing the deal or say how much its members will contribute to the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+547..728
+3,1;3,2;3,3;3,4
+#### Text ####
+some individuals identified with the group said they haven't committed any money to the bid and weren't aware of it until they heard about it in local news accounts over the weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+663..668
+3,3,1,1,1,2,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+547..594
+3,1;3,2;3,3,0;3,4
+#### Text ####
+some individuals identified with the group said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+639..662
+3,3,1,1,1,1;3,3,1,1,1,2,0;3,3,1,1,1,2,1;3,3,1,1,1,2,2
+#### Text ####
+and weren't aware of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+669..728
+3,3,1,1,1,2,3,1
+#### Text ####
+they heard about it in local news accounts over the weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+777
+5
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+732..775
+4
+#### Text ####
+Knight-Ridder wouldn't comment on the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+777..918
+5
+#### Text ####
+The company has said the paper isn't for sale, and has rebuffed Mr. McMaster's earlier requests for access to Free Press financial statements
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1186..1189
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+922..1182
+6
+#### Text ####
+In his letter to Knight-Ridder President James K. Batten, Mr. McMaster said he arrived at the $68 million figure using Knight-Ridder's corporate financial statements and comments by Knight-Ridder officials that the Free Press has a $50 million value in salvage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1190..1325
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+in an interview, Mr. McMaster said he and his investment banker would need access to full financial records before firming up the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1298..1304
+7,4,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1190..1224
+7,1;7,2;7,3;7,4,0;7,5
+#### Text ####
+in an interview, Mr. McMaster said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1225..1297
+7,4,1,0;7,4,1,1,0;7,4,1,1,1,0;7,4,1,1,1,1,0;7,4,1,1,1,1,1
+#### Text ####
+he and his investment banker would need access to full financial records
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1305..1325
+7,4,1,1,1,1,2,1
+#### Text ####
+firming up the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

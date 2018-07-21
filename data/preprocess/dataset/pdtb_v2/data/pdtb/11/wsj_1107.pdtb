@@ -1,0 +1,316 @@
+________________________________________________________
+____Implicit____
+215
+2
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+150..213
+1
+#### Text ####
+In Houston, we have seen how bad the housing problem can become
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+215..449
+2;3
+#### Text ####
+Unused houses deteriorate rapidly, affecting the value of nearby homes; in a domino effect, the entire neighborhood can fall victim.
+At this stage some people just "walk away" from homes where the mortgage exceeds current market value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+287
+2
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+215..285
+2,0
+#### Text ####
+Unused houses deteriorate rapidly, affecting the value of nearby homes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+287..346
+2,2
+#### Text ####
+in a domino effect, the entire neighborhood can fall victim
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+348..361
+3,0
+#### Text ####
+At this stage
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+287..346
+2,2
+#### Text ####
+in a domino effect, the entire neighborhood can fall victim
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+348..449
+3
+#### Text ####
+At this stage some people just "walk away" from homes where the mortgage exceeds current market value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+451..454
+4,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+348..449
+3
+#### Text ####
+At this stage some people just "walk away" from homes where the mortgage exceeds current market value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+455..513
+4,0,1;4,0,2
+#### Text ####
+most of them could have afforded to keep up their payments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+517..540
+4,2
+#### Text ####
+they chose not to do so
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+639
+6
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+544..637
+5
+#### Text ####
+The problem is so vast that we need to try innovative solutions -- in small-scale experiments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+639..658
+6
+#### Text ####
+Here are some ideas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+971..973
+8,4
+#### Text ####
+or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative
+____Arg1____
+846..969
+8,2
+#### Text ####
+Encourage long-term occupancy by forgiving one month's payment (off the tail end of the mortgage) for every six months paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+974..1135
+8,5;8,6;8,7
+#### Text ####
+perhaps have the down payment deferred to the end of the mortgage (balloon), but "forgiven" on a monthly pro-rata basis as long as the owner remains the occupant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1094..1104
+8,6,1,1,1,3,5,0;8,6,1,1,1,3,5,1,0
+#### Text ####
+as long as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as long as, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+1051..1093
+8,6,1,1,1,2;8,6,1,1,1,3,0;8,6,1,1,1,3,1;8,6,1,1,1,3,2;8,6,1,1,1,3,3;8,6,1,1,1,3,4
+#### Text ####
+but "forgiven" on a monthly pro-rata basis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1105..1135
+8,6,1,1,1,3,5,1,1
+#### Text ####
+the owner remains the occupant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1216
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1142..1214
+9
+#### Text ####
+Develop rental agreements with exclusive purchase options for the renter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1216..1313
+10
+#### Text ####
+An occupant will, in most every case, be better for the home and neighborhood than a vacant house
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1315
+11
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1216..1313
+10
+#### Text ####
+An occupant will, in most every case, be better for the home and neighborhood than a vacant house
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1315..1374
+11
+#### Text ####
+In this way, the house is not dumped on to a glutted market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1832..1836
+15,2,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1576..1621;1655..1682
+14,2,2,0;14,2,2,1;14,2,2,2,0;14,2,2,2,1,0,0;14,2,2,2,1,0,1;14,2,2,2,1,0,2;14,2,2,2,1,0,3,0;14,2,2,2,1,0,3,1,0;14,2,2,2,1,0,4,0;14,2,2,2,1,0,4,1,0;14,2,2,2,1,0,4,1,1
+#### Text ####
+by "buying in" to their foreclosed properties at an inflated "balance due
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1810..1831;1837..2047
+15,0;15,1;15,2,0;15,2,2;15,3
+#### Text ####
+Worse, the properties sit around deteriorating for maybe a year or so, but are resold eventually (because of the attractiveness of the low down payment, etc.) to a marginal buyer who can't afford both the mortgage and needed repairs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2049..2052
+15,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1810..2047
+15,0;15,1;15,2;15,3
+#### Text ####
+Worse, the properties then sit around deteriorating for maybe a year or so, but are resold eventually (because of the attractiveness of the low down payment, etc.) to a marginal buyer who can't afford both the mortgage and needed repairs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2053..2108
+15,5
+#### Text ####
+having little vested interest that buyer will walk away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2109..2112
+15,6
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+1810..2108
+15,0;15,1;15,2;15,3;15,4;15,5
+#### Text ####
+Worse, the properties then sit around deteriorating for maybe a year or so, but are resold eventually (because of the attractiveness of the low down payment, etc.) to a marginal buyer who can't afford both the mortgage and needed repairs; and having little vested interest that buyer will walk away
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2113..2160
+15,7
+#### Text ####
+the vicious cycle repeats itself all over again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

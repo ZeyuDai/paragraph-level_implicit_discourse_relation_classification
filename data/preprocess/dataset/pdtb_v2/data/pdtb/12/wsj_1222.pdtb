@@ -1,0 +1,351 @@
+________________________________________________________
+____Explicit____
+240..242
+2,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+131..238
+1
+#### Text ####
+Despite such famous tenants as oil magnate John D. Rockefeller, Lake View Cemetery has fallen on hard times
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+243..340
+2,1;2,2;2,3
+#### Text ####
+the inner-city burial ground is trying to resurrect itself with a television advertising campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+413
+4
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+344..411
+3
+#### Text ####
+The ads celebrate the achievements of some of Lake View's residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+413..542
+4
+#### Text ####
+A spot honoring Bill White, the inventor of chewing gum, shows a woman trying to extricate her high-heeled shoe from a wad of gum
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+627
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+546..625
+5
+#### Text ####
+Another focuses on Charles Brush, the first person to light a city electrically
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+627..672
+6
+#### Text ####
+It shows a boy hurling rocks at a street lamp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+674
+7
+____Arg1____
+627..672
+6
+#### Text ####
+It shows a boy hurling rocks at a street lamp
+##############
+____Arg2____
+674..765
+7
+#### Text ####
+Street lights, the ad points out, "helped sharpen the arm of many a budding baseball player
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+921
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+770..801;839..919
+8,0;8,1,0;8,1,1,0;8,1,1,1,0,0;8,1,1,1,0,1;8,1,1,1,0,3;8,1,1,1,1;8,2
+#### Text ####
+Cemetery officials hope the ads will not only draw visitors but bolster burials and endowment fund contributions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+921..1039
+9
+#### Text ####
+Lake View had an operating deficit last year and has a poor reputation as an out-of-repair and crime-infested cemetery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1198
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1043..1195
+10
+#### Text ####
+The private, non-profit cemetery has had trouble competing against its for-profit counterparts, which use direct mail and other advertising to sell lots
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1198..1244
+11,1
+#### Text ####
+We don't want to be known as ambulance chasers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1247..1291
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says William Garrison, Lake View's president
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1294
+12
+#### Features ####
+Ot, Comm, Null, Null
+1247..1291
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says William Garrison, Lake View's president
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1198..1244
+11,1
+#### Text ####
+We don't want to be known as ambulance chasers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1294..1379
+12
+#### Text ####
+We want people to think of Lake View as an historical park and educational experience
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1387
+13
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1294..1379
+12
+#### Text ####
+We want people to think of Lake View as an historical park and educational experience
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1387..1433
+13
+#### Text ####
+A pleasant place to come and spend a few hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1533..1540
+14,1,4
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1294..1433
+12;13
+#### Text ####
+We want people to think of Lake View as an historical park and educational experience. . . . A pleasant place to come and spend a few hours
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1247..1291
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says William Garrison, Lake View's president
+##############
+____Arg2____
+1438..1531
+14,0;14,1,0;14,1,1;14,1,2;14,1,3;14,2
+#### Text ####
+Not all of the cemetery's better-known tenants lend themselves to the promotional job at hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1542..1553
+15,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1438..1540
+14
+#### Text ####
+Not all of the cemetery's better-known tenants lend themselves to the promotional job at hand, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1555..1639
+15,1;15,2;15,3;15,4
+#### Text ####
+President James A. Garfield is entombed here, the victim of an assassination in 1881
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1662..1669
+16,2,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1438..1639
+14;15
+#### Text ####
+Not all of the cemetery's better-known tenants lend themselves to the promotional job at hand, however.
+For example, President James A. Garfield is entombed here, the victim of an assassination in 1881
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1671..1760
+16,2,4
+#### Text ####
+that the Garfield tomb is one of the nation's premier examples of Romanesque architecture
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1642..1645;1646..1660
+16,0;16,1;16,2,0;16,2,1;16,2,3;16,3;16,4
+#### Text ####
+Mr. Garrison notes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1866
+18
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1765..1864
+17
+#### Text ####
+Mr. Rockefeller, buried beneath a 180-foot-tall granite obelisk, didn't seem right for an ad either
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1866..1987
+18,0
+#### Text ####
+The oil magnate, who spent his later years passing out dimes to counter his penny-pinching image, "isn't terribly amusing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1990..2091
+18,1;18,2;18,3;18,4;18,5
+#### Text ####
+says Barry Olson, creative director at Innis-Maggiore-Olson, Canton, Ohio, which is producing the ads
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2093..2096
+19,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1542..1639;1765..1780;1830..1864
+15;17,0,0;17,0,1;17,0,3;17,1;17,2
+#### Text ####
+For example, President James A. Garfield is entombed here, the victim of an assassination in 1881 Mr. Rockefeller didn't seem right for an ad either
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2097..2155
+19,0,1;19,0,2
+#### Text ####
+there are plenty of other promising prospects at Lake View
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2157..2174
+19,1;19,2;19,3,0;19,3,1;19,3,2;19,4
+#### Text ####
+promoters believe
+##############
+________________________________________________________

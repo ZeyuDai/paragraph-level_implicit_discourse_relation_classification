@@ -1,0 +1,160 @@
+________________________________________________________
+____Explicit____
+101..103
+0,1,1,3,0
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+9..99
+0,0;0,1,0;0,1,1,0;0,1,1,1;0,1,1,2;0,2
+#### Text ####
+Congress has been critical of the Bush administration for not sending enough aid to Poland
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+104..165
+0,1,1,3,1
+#### Text ####
+it is getting ready to send its own version of a CARE package
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+167
+1
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+101..165
+0,1,1,3
+#### Text ####
+so it is getting ready to send its own version of a CARE package
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+167..314
+1
+#### Text ####
+Last month, the Senate voted to send a delegation of congressional staffers to Poland to assist its legislature, the Sejm, in democratic procedures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+316
+2
+____Arg1____
+167..314
+1
+#### Text ####
+Last month, the Senate voted to send a delegation of congressional staffers to Poland to assist its legislature, the Sejm, in democratic procedures
+##############
+____Arg2____
+316..384
+2
+#### Text ####
+Senator Pete Domenici calls this effort "the first gift of democracy
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+387
+3
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+316..384
+2
+#### Text ####
+Senator Pete Domenici calls this effort "the first gift of democracy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+387..441
+3
+#### Text ####
+The Poles might do better to view it as a Trojan Horse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+443
+4
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+387..441
+3
+#### Text ####
+The Poles might do better to view it as a Trojan Horse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+443..653
+4
+#### Text ####
+It is the vast shadow government of 15,000 congressional staffers that helps create such legislative atrocities as the 1,376 page, 13-pound reconciliation bill that claimed to be the budget of the United States
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+655
+5
+____Arg1____
+443..653
+4
+#### Text ####
+It is the vast shadow government of 15,000 congressional staffers that helps create such legislative atrocities as the 1,376 page, 13-pound reconciliation bill that claimed to be the budget of the United States
+##############
+____Arg2____
+655..783
+5
+#### Text ####
+Maybe after the staffers explain their work to the Poles, they'd be willing to come back and do the same for the American people
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+661..666
+5,1,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+655..660;713..783
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+Maybe they'd be willing to come back and do the same for the American people
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+667..711
+5,1,1
+#### Text ####
+the staffers explain their work to the Poles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

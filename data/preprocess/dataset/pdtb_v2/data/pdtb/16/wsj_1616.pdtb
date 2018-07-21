@@ -1,0 +1,993 @@
+________________________________________________________
+____Explicit____
+396..408
+2,1,2,0;2,1,2,1,0
+#### Text ####
+since before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Succession
+____Arg1____
+331..395
+2,0;2,1,0;2,1,1;2,2
+#### Text ####
+The report was the brightest news the financial markets had seen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+409..466
+2,1,2,1,1
+#### Text ####
+the stock market plunged more than 190 points last Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+468
+3
+____Arg1____
+331..466
+2
+#### Text ####
+The report was the brightest news the financial markets had seen since before the stock market plunged more than 190 points last Friday
+##############
+____Arg2____
+468..560
+3
+#### Text ####
+The Dow Jones Industrial Average rallied on the news, closing 39.55 points higher at 2683.20
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+574..578
+4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+522..560
+3,1,3
+#### Text ####
+closing 39.55 points higher at 2683.20
+##############
+____Arg1____
+468..520
+3,0;3,1,0;3,1,1;3,1,2;3,2
+#### Text ####
+The Dow Jones Industrial Average rallied on the news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+562..573;579..585
+4,0;4,2,0;4,3
+#### Text ####
+Bond prices jumped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+586..661
+4,2,1
+#### Text ####
+as traders appeared to read the data as a sign that interest rates may fall
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+586..588
+4,2,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+562..585
+4,0;4,1;4,2,0;4,3
+#### Text ####
+Bond prices also jumped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+589..661
+4,2,1,1
+#### Text ####
+traders appeared to read the data as a sign that interest rates may fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+665..668
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+562..661
+4
+#### Text ####
+Bond prices also jumped as traders appeared to read the data as a sign that interest rates may fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+669..712
+5,1;5,2;5,3
+#### Text ####
+many economists were not nearly as jubilant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+714
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+665..712
+5
+#### Text ####
+But many economists were not nearly as jubilant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+714..816
+6,0
+#### Text ####
+The climb in wholesale energy prices is certain to push up retail energy prices in the next few months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+818..829
+6,1;6,2;6,3;6,4
+#### Text ####
+they warned
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+836..840
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+714..829
+6
+#### Text ####
+The climb in wholesale energy prices is certain to push up retail energy prices in the next few months, they warned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+831..835;841..948
+7,0;7,2;7,3
+#### Text ####
+They said the dollar is leveling off after a rise this summer that helped to reduce the prices of imported goods
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1098
+9
+#### Features ####
+Ot, Comm, Null, Null
+1010..1095
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Joel Popkin, a specialist on inflation who runs an economic consulting firm here
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+953..1007
+8,1
+#### Text ####
+I think inflation is going to pick up through the fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1098..1172
+9
+#### Text ####
+It has been in what I would describe as a lull for the past several months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1266..1269
+10,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1325..1402
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Jay Woodworth, chief domestic economist at Bankers Trust Co. in New York
+##############
+and, Comparison.Contrast
+____Arg1____
+1178..1264
+10,1,0
+#### Text ####
+We've had whopping declines in consumer energy prices in each of the past three months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1270..1322
+10,1,3
+#### Text ####
+at the wholesale level those are fully behind us now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1406..1413
+11,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1474..1544
+11,1;11,2;11,3;11,4
+#### Text ####
+many analysts expected energy prices to rise at the consumer level too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1414..1472
+11,0,1
+#### Text ####
+wholesale energy prices shot up by a steep 6.5% last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1546..1557
+12,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+1406..1472
+11,0
+#### Text ####
+Because wholesale energy prices shot up by a steep 6.5% last month
+##############
+____Arg1____
+1474..1544
+11,1;11,2;11,3;11,4
+#### Text ####
+many analysts expected energy prices to rise at the consumer level too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1559..1657
+12,1;12,2;12,3;12,4
+#### Text ####
+many economists were expecting the consumer price index to increase significantly more than it did
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1661..1664
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1546..1657
+12
+#### Text ####
+As a result, many economists were expecting the consumer price index to increase significantly more than it did
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1665..1712
+13,1;13,2;13,3
+#### Text ####
+retail energy prices declined 0.9% in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1714
+14
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1661..1712
+13
+#### Text ####
+But retail energy prices declined 0.9% in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1714..1905
+14
+#### Text ####
+Though analysts say competition will probably hold down increases in retail energy prices, many expect some of the wholesale rise to be passed along to the consumer before the end of the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1714..1720
+14,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+1805..1905
+14,1;14,2;14,3;14,4
+#### Text ####
+many expect some of the wholesale rise to be passed along to the consumer before the end of the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1721..1803
+14,0,1
+#### Text ####
+analysts say competition will probably hold down increases in retail energy prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1909..1914
+15,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+1805..1905
+14,1;14,2;14,3;14,4
+#### Text ####
+many expect some of the wholesale rise to be passed along to the consumer before the end of the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1916..1980
+15,1;15,2;15,3;15,4
+#### Text ####
+some analysts insisted that the worst of the inflation is behind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1983
+16
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1909..1980
+15
+#### Text ####
+Still, some analysts insisted that the worst of the inflation is behind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1983..2193
+16
+#### Text ####
+It increasingly appears that 1987-88 was a temporary inflation blip and not the beginning of a cyclical inflation problem," argued Edward Yardeni, chief economist at Prudential-Bache Securities Inc. in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2247
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2197..2245
+17
+#### Text ####
+In both 1987 and 1988, consumer prices rose 4.4%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2247..2466
+18
+#### Text ####
+A run-up in world oil prices last winter sent consumer prices soaring at a 6.7% annual rate in the first five months of this year, but the subsequent decline in energy prices has pulled the annual rate back down to 4.4%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2378..2381
+18,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2247..2376
+18,0
+#### Text ####
+A run-up in world oil prices last winter sent consumer prices soaring at a 6.7% annual rate in the first five months of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2382..2466
+18,3
+#### Text ####
+the subsequent decline in energy prices has pulled the annual rate back down to 4.4%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2559
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2470..2556
+19
+#### Text ####
+Mr. Yardeni predicted that world business competition will continue to restrain prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2559..2680
+20,1
+#### Text ####
+The bottom line is, it seems to me that the economic environment has become very, very competitve for a lot of businesses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2683..2690
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2693
+21
+#### Features ####
+Ot, Comm, Null, Null
+2683..2690
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+by contrast, Comparison.Contrast
+____Arg1____
+2559..2680
+20,1
+#### Text ####
+The bottom line is, it seems to me that the economic environment has become very, very competitve for a lot of businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2693..2801
+21
+#### Text ####
+Back in 1987-88, business was operating at fairly tight capacity, so businesses felt they could raise prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2759..2761
+21,3
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2683..2690
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2693..2757
+21,1
+#### Text ####
+Back in 1987-88, business was operating at fairly tight capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2762..2801
+21,4
+#### Text ####
+businesses felt they could raise prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2804
+22
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2693..2801
+21
+#### Text ####
+Back in 1987-88, business was operating at fairly tight capacity, so businesses felt they could raise prices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2683..2690
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+____Arg2____
+2804..2807;2818..2870
+22,0;22,1;22,3;22,4;22,5
+#### Text ####
+Now a slowdown in economic activity has slackened demand
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2809..2816
+22,2
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2987
+24
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+2874..2985
+23
+#### Text ####
+The mild inflation figures renewed investors' hopes that the Federal Reserve will ease its interest-rate stance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2987..3147
+24
+#### Text ####
+The steep climb in producer prices reported last Friday fostered pessimism about lower interest rates and contributed to the stock market's 6.9% plunge that day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3175..3182
+25,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2987..3147
+24
+#### Text ####
+The steep climb in producer prices reported last Friday fostered pessimism about lower interest rates and contributed to the stock market's 6.9% plunge that day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3149..3173;3184..3288
+25,0;25,1;25,3;25,4;25,5;25,6
+#### Text ####
+In the past several days the U.S.'s central bank has allowed a key interest rate to fall slightly to try to stabilize the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3303
+26
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3149..3288
+25
+#### Text ####
+In the past several days, however, the U.S.'s central bank has allowed a key interest rate to fall slightly to try to stabilize the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3303..3441
+26,1,1
+#### Text ####
+Fed policy makers have been wary of relaxing credit too much because they were still uncertain about the level of inflation in the economy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3290..3302
+26,0;26,1,0;26,2
+#### Text ####
+Analysts say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3364..3371
+26,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3290..3302
+26,0;26,1,0;26,2
+#### Text ####
+Analysts say
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3303..3363
+26,1,1,0;26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1,0;26,1,1,1,1,1,1
+#### Text ####
+Fed policy makers have been wary of relaxing credit too much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3372..3441
+26,1,1,1,1,1,2,1
+#### Text ####
+they were still uncertain about the level of inflation in the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3578..3583
+27,3
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+3445..3558
+27,0;27,1
+#### Text ####
+Excluding the volatile categories of energy and food -- leaving what some economists call the core inflation rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3562..3577;3584..3611
+27,2;27,4;27,5
+#### Text ####
+consumer prices rose only 0.2% in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3613
+28
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3445..3497;3562..3611
+27,0;27,2;27,3;27,4;27,5
+#### Text ####
+Excluding the volatile categories of energy and food consumer prices still rose only 0.2% in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3613..3688
+28
+#### Text ####
+Transportation costs actually fell 0.5%, and housing costs gained only 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3654..3657
+28,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3613..3652
+28,0
+#### Text ####
+Transportation costs actually fell 0.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3658..3688
+28,3
+#### Text ####
+housing costs gained only 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3690
+29
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3613..3688
+28
+#### Text ####
+Transportation costs actually fell 0.5%, and housing costs gained only 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3690..3766
+29
+#### Text ####
+Apparel prices rocketed up 1.7%, but that was after three months of declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3723..3726
+29,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3690..3721
+29,0
+#### Text ####
+Apparel prices rocketed up 1.7%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3727..3766
+29,3
+#### Text ####
+that was after three months of declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3768
+30
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3690..3766
+29
+#### Text ####
+Apparel prices rocketed up 1.7%, but that was after three months of declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3768..3871
+30
+#### Text ####
+Medical costs continued their steep ascent, rising 0.8% after four consecutive months of 0.7% increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4015
+32
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3875..3885;3970..4013
+31,0,0;31,0,1;31,0,3;31,1;31,2;31,3
+#### Text ####
+Car prices still showed declines at the consumer level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4015..4091
+32
+#### Text ####
+They dropped 0.4% as dealers continued to offer rebates to attract customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4033..4035
+32,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4015..4032
+32,0;32,1,0;32,1,1;32,2
+#### Text ####
+They dropped 0.4%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4036..4091
+32,1,2,1
+#### Text ####
+dealers continued to offer rebates to attract customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4205..4215
+34,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..148
+0
+#### Text ####
+Consumer prices rose a surprisingly moderate 0.2% in September, pushed up mostly by a jump in clothing costs, the Labor Department reported
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4217..4365
+34,1;34,2;34,3;34,4
+#### Text ####
+the Labor Department reported that average weekly earnings rose 0.3% in September, after adjusting for inflation, following a 0.7% decline in August
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4300..4305
+34,3,1,1,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4217..4246
+34,1;34,2;34,3,0;34,4
+#### Text ####
+the Labor Department reported
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4247..4298
+34,3,1,0;34,3,1,1,0;34,3,1,1,1,0;34,3,1,1,1,1;34,3,1,1,1,2;34,3,1,1,1,3
+#### Text ####
+that average weekly earnings rose 0.3% in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4306..4365
+34,3,1,1,1,4,1;34,3,1,1,1,5;34,3,1,1,1,6
+#### Text ####
+adjusting for inflation, following a 0.7% decline in August
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

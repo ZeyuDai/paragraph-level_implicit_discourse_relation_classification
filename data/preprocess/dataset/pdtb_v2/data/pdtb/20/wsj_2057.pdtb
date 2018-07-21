@@ -1,0 +1,1765 @@
+________________________________________________________
+____Implicit____
+127
+1
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+57..125
+1,0;1,1;1,2;1,3,0;1,3,1;1,3,2;1,4
+#### Text ####
+Yesterday, the Dow Jones Industrial Average did a now familiar dance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+127..210
+1,3,3
+#### Text ####
+It plunged 60.25 points before lunch, with most of the drop occurring in 25 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+212..216
+2,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+127..163
+1,3,3,0;1,3,3,1,0;1,3,3,1,1;1,3,3,1,2;1,3,3,1,3
+#### Text ####
+It plunged 60.25 points before lunch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+218..263
+2,1;2,2;2,3;2,4
+#### Text ####
+it rebounded to finish down only 18.65 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+265..268
+3,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+57..263
+1;2
+#### Text ####
+Yesterday, the Dow Jones Industrial Average did a now familiar dance: It plunged 60.25 points before lunch, with most of the drop occurring in 25 minutes.
+Then, it rebounded to finish down only 18.65 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+269..357
+3,1;3,2;3,3
+#### Text ####
+those swings paled beside Friday's 190.58-point plunge and Monday's 88.12-point recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+513..516
+5,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+378..425
+4,1,1,3
+#### Text ####
+that in an hour you can whack off so much value
+##############
+____Arg1____
+362..374
+4,1,0;4,1,1,0;4,1,1,1;4,1,1,2
+#### Text ####
+It's madness
+##############
+#### Features ####
+Ot, Comm, Null, Null
+428..509
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+says Stanford Calderwood, chairman of Trinity Investment Management Corp., Boston
+##############
+____Arg2____
+518..548
+5,1;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+apparently, it is here to stay
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+550
+6
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+513..548
+5
+#### Text ####
+And, apparently, it is here to stay
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+550..687
+6
+#### Text ####
+Richard Bernstein, senior quantitative analyst at Merrill Lynch & Co, says, "My gut feel is that we'll live with those swings for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+876..879
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+692..874
+7
+#### Text ####
+There are many reasons for the market's jumpiness: new trading vehicles such as stock-index futures and options; computer-driven strategies like program trading; and crowd psychology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+880..979
+8,1;8,2;8,3
+#### Text ####
+most are linked by a single theme: liquidity -- the ability to get in and out of the market quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1021..1028
+9,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+983..1020
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,1,1,2;9,2
+#### Text ####
+Prices are moving up and down so fast
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1029..1133
+9,1,1,3,1
+#### Text ####
+investors are employing ways to turn over shares at ever-faster rates and increasingly acting in concert
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1268
+11
+#### Features ####
+Ot, Comm, Null, Null
+1173..1265
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Peter Anderson, who heads the pension-fund management arm of IDS Financial Services Inc
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+1138..1170
+10,1
+#### Text ####
+Institutions are herding animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1268..1335
+11
+#### Text ####
+We watch the same indicators and listen to the same prognosticators
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1337
+12
+#### Features ####
+Ot, Comm, Null, Null
+1173..1265
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Peter Anderson, who heads the pension-fund management arm of IDS Financial Services Inc
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1268..1335
+11
+#### Text ####
+We watch the same indicators and listen to the same prognosticators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1337..1402
+12
+#### Text ####
+Like lemmings, we tend to move in the same direction at same time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1405..1408
+13,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1337..1402
+12
+#### Text ####
+Like lemmings, we tend to move in the same direction at same time
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1173..1192
+10,0;10,2;10,3;10,4;10,5,0;10,5,1;10,6
+#### Text ####
+says Peter Anderson
+##############
+____Arg2____
+1409..1453
+13,1;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+that, naturally, exacerbates price movements
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1582..1585
+15,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+1473..1505
+14,0,1
+#### Text ####
+who now account for most trading
+##############
+____Arg1____
+1457..1469;1509..1580
+14,0,0;14,1;14,2
+#### Text ####
+Institutions count on being able to buy and sell big blocks of stock at an eye-blink
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1586..1674
+15,1;15,2;15,3;15,4;15,5
+#### Text ####
+when they discover that markets aren't always as liquid as they supposed -- markets jump
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1586..1590
+15,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1582..1585;1662..1674
+15,0;15,2;15,3;15,4;15,5
+#### Text ####
+But markets jump
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1591..1658
+15,1,1
+#### Text ####
+they discover that markets aren't always as liquid as they supposed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1689..1701
+16,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1582..1674
+15
+#### Text ####
+But when they discover that markets aren't always as liquid as they supposed -- markets jump
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1678..1687;1703..1904
+16,0;16,1;16,3;16,4;16,5;16,6;16,7;17
+#### Text ####
+On Monday Howard Ward, a principal at Scudder, Stevens & Clark, found that "you couldn't buy blue-chips at quoted prices without paying up." And when many firms had to "pay up," Monday's sudden rally was sparked
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1834..1837
+17,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1763..1831
+16,5,1
+#### Text ####
+that "you couldn't buy blue-chips at quoted prices without paying up
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1678..1762
+16,0;16,1;16,2;16,3;16,4;16,5,0;16,6;16,7
+#### Text ####
+On Monday, for instance, Howard Ward, a principal at Scudder, Stevens & Clark, found
+##############
+____Arg2____
+1838..1904
+17,1;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+when many firms had to "pay up," Monday's sudden rally was sparked
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1838..1842
+17,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1834..1837;1871..1904
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+And Monday's sudden rally was sparked
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1843..1868
+17,1,1
+#### Text ####
+many firms had to "pay up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1984
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1908..1938;1961..1982
+18,0;18,2;18,3
+#### Text ####
+Trading in futures and options can add to volatility
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1940..1959
+18,1
+#### Text ####
+some people believe
+##############
+____Arg2____
+1984..2123
+19,0
+#### Text ####
+Investors believe they can can rely on such derivative securities to get in and out of the stock market without actually selling any stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2158..2167
+19,2,1,2,0,1,1,1,2,0
+#### Text ####
+even when
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1984..2001
+19,0,0;19,0,1,0
+#### Text ####
+Investors believe
+##############
+when, Comparison.Concession.Expectation, Temporal.Synchrony
+____Arg1____
+2125..2157
+19,2,0;19,2,1,0;19,2,1,1;19,2,1,2,0,0;19,2,1,2,0,1,0;19,2,1,2,0,1,1,0;19,2,1,2,0,1,1,1,0;19,2,1,2,0,1,1,1,1
+#### Text ####
+that is, a way of staying liquid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2168..2183
+19,2,1,2,0,1,1,1,2,1
+#### Text ####
+they own stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2345
+21
+#### Features ####
+Ot, Comm, Null, Null
+2271..2342
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+says George Douglas, first vice president at Drexel Burnham Lambert Inc
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2187..2268
+20,0
+#### Text ####
+These and other modern trading methods "tend to promote dramatic shifts in assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2345..2399
+21,0;21,1;21,2,0;21,2,1,0;21,2,1,1;21,2,1,2,0;21,2,1,2,1,0;21,2,1,2,1,1,0;21,2,1,2,1,1,1,0;21,2,1,2,1,1,1,1;21,2,1,2,1,1,1,2;21,2,1,2,1,1,1,3;21,2,1,2,1,1,1,4;21,3
+#### Text ####
+It's the idea that what goes in easy can come out easy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2404..2411
+21,2,1,2,1,1,1,5,0;21,2,1,2,1,1,1,5,1
+#### Text ####
+so that
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2271..2342
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+says George Douglas, first vice president at Drexel Burnham Lambert Inc
+##############
+so that, Contingency.Cause.Result
+____Arg1____
+2345..2399
+21,0;21,1;21,2,0;21,2,1,0;21,2,1,1;21,2,1,2,0;21,2,1,2,1,0;21,2,1,2,1,1,0;21,2,1,2,1,1,1,0;21,2,1,2,1,1,1,1;21,2,1,2,1,1,1,2;21,2,1,2,1,1,1,3;21,2,1,2,1,1,1,4;21,3
+#### Text ####
+It's the idea that what goes in easy can come out easy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2412..2470
+21,2,1,2,1,1,1,5,2
+#### Text ####
+bouts of higher volatility get built into the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2584..2588
+22,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2474..2583
+22,0;22,1,0;22,1,1;22,1,2;22,2
+#### Text ####
+One new investment style called "asset allocation" shifts portfolio weightings between stocks, bonds and cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2589..2631
+22,1,3,1
+#### Text ####
+computer models say one is more attractive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2635..2647
+23,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2474..2631
+22
+#### Text ####
+One new investment style called "asset allocation" shifts portfolio weightings between stocks, bonds and cash when computer models say one is more attractive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2649..2845
+23,1;23,2;23,3;23,4
+#### Text ####
+First Quadrant Corp., an asset allocator based in Morristown, N.J., said it quickly boosted stock positions in its "aggressive" accounts to 75% from 55% to take advantage of plunging prices Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2847
+24
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2722..2845
+23,3,1
+#### Text ####
+it quickly boosted stock positions in its "aggressive" accounts to 75% from 55% to take advantage of plunging prices Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2635..2721
+23,0;23,1;23,2;23,3,0;23,4
+#### Text ####
+For instance, First Quadrant Corp., an asset allocator based in Morristown, N.J., said
+##############
+____Arg2____
+2847..2895
+24
+#### Text ####
+It added another 5% Monday before stocks rallied
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2874..2880
+24,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2847..2873
+24,0;24,1,0;24,1,1;24,1,2;24,2
+#### Text ####
+It added another 5% Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2881..2895
+24,1,3,1
+#### Text ####
+stocks rallied
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2897..2901
+25,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+2912..2962
+25,1;25,2;25,3;25,4
+#### Text ####
+the firm reduced those stock holdings to about 70%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2902..2910
+25,0,1
+#### Text ####
+they did
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2897..2910
+25,0,0;25,0,1,0;25,0,1,1,0
+#### Text ####
+When they did
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+2874..2895
+24,1,3
+#### Text ####
+before stocks rallied
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2897..2962
+25
+#### Text ####
+When they did, the firm reduced those stock holdings to about 70%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3070
+27
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+3046..3068
+26,1,1,1;26,1,1,2;26,1,1,3;26,2
+#### Text ####
+now widely discredited
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3070..3181
+27
+#### Text ####
+Before the 1987 crash, an estimated $60 billion in institutional money was managed under this hedging technique
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3183
+28
+____Arg1____
+3070..3181
+27
+#### Text ####
+Before the 1987 crash, an estimated $60 billion in institutional money was managed under this hedging technique
+##############
+____Arg2____
+3183..3277
+28,0;28,1,0;28,1,1,0;28,1,1,1,0;28,1,1,1,1;28,1,1,1,2,0;28,1,1,1,2,1;28,1,1,1,2,2;28,1,1,1,2,3,0;28,1,1,1,2,3,1,0;28,1,1,1,2,3,1,1,0;28,1,1,1,2,3,1,1,1;28,1,1,1,2,3,1,1,2;28,1,1,1,2,3,1,1,3;28,2
+#### Text ####
+The idea was to "insure" the value of a portfolio by selling futures when stock prices dropped
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3252..3256
+28,1,1,1,2,3,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3183..3191
+28,0;28,2
+#### Text ####
+The idea
+##############
+when, Contingency.Condition.General
+____Arg1____
+3233..3251
+28,1,1,1,2,3,0;28,1,1,1,2,3,1,0;28,1,1,1,2,3,1,1,0;28,1,1,1,2,3,1,1,1;28,1,1,1,2,3,1,1,3
+#### Text ####
+by selling futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3257..3277
+28,1,1,1,2,3,1,1,2,1
+#### Text ####
+stock prices dropped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3333..3336
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+3183..3331
+28
+#### Text ####
+The idea was to "insure" the value of a portfolio by selling futures when stock prices dropped -- eliminating the need to sell the stocks themselves
+##############
+____Arg1____
+3070..3181
+27
+#### Text ####
+Before the 1987 crash, an estimated $60 billion in institutional money was managed under this hedging technique
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3337..3462
+29,1;29,2;29,3;29,4;29,5;29,6;29,7
+#### Text ####
+in October 1987, when portfolio insurers rushed to sell at the same time, they overwhelmed both the stock and futures markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3466..3469
+30,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison.Contrast.Juxtaposition
+____Arg1____
+3333..3462
+29
+#### Text ####
+But in October 1987, when portfolio insurers rushed to sell at the same time, they overwhelmed both the stock and futures markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3470..3593
+30,1;30,2;30,3;30,4;30,5
+#### Text ####
+even today, institutions are quietly practicing forms of portfolio insurance by nervously rushing to and fro in the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3595
+31
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+3466..3593
+30
+#### Text ####
+Yet even today, institutions are quietly practicing forms of portfolio insurance by nervously rushing to and fro in the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3595..3709
+31
+#### Text ####
+Others are doing "index arbitrage"a strategy of taking advantage of price discrepancies between stocks and futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3875..3878
+33,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3879..3895
+33,1;33,2,0;33,3
+#### Text ####
+institutions say
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3713..3873
+32
+#### Text ####
+Unlike traditional buy-and-hold strategies, all of the above require that market makers be on hand to provide liquidity by buying and selling stocks in a crunch
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+3896..3956
+33,2,1
+#### Text ####
+Wall Street brokerage firms are less willing to make markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3985
+35
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3960..3983
+34
+#### Text ####
+Brokers don't deny that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3985..4156
+35
+#### Text ####
+Wall Street traders say that, with institutional brokerage commissions far lower than in the 1970s, securities firms can't afford to take the risk of buying too much stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4159
+36
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3985..4156
+35
+#### Text ####
+Wall Street traders say that, with institutional brokerage commissions far lower than in the 1970s, securities firms can't afford to take the risk of buying too much stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4159..4268
+36
+#### Text ####
+I think everyone's a little more leery," says Jack Baker, head of equity trading at Shearon Lehman Hutton Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4271
+37
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+4159..4268
+36
+#### Text ####
+I think everyone's a little more leery," says Jack Baker, head of equity trading at Shearon Lehman Hutton Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4271..4487
+37
+#### Text ####
+The institutions have driven (commission) rates down to the point where it makes no sense to commit capital," says Tom Gallagher, senior executive vice president in charge of institutional trading at Oppenheimer & Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4490
+38
+#### Features ####
+Ot, Comm, Null, Null
+4381..4487
+37,0;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+says Tom Gallagher, senior executive vice president in charge of institutional trading at Oppenheimer & Co
+##############
+in short, Expansion.Restatement.Equivalence
+____Arg1____
+4271..4378
+37,1
+#### Text ####
+The institutions have driven (commission) rates down to the point where it makes no sense to commit capital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4490..4562
+38
+#### Text ####
+Why should I risk money for a guy for who's paying me five cents a dance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4610..4614
+40,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+3782..3873
+32,3,1
+#### Text ####
+that market makers be on hand to provide liquidity by buying and selling stocks in a crunch
+##############
+____Arg1____
+3896..3956
+33,2,1
+#### Text ####
+Wall Street brokerage firms are less willing to make markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3879..3895
+33,1;33,2,0;33,3
+#### Text ####
+institutions say
+##############
+____Arg2____
+4588..4609;4615..4644
+40,0;40,1,0;40,1,2;40,2;40,3
+#### Text ####
+Lack of liquidity can result from exchange "reforms
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4664
+41
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4588..4644
+40
+#### Text ####
+Lack of liquidity can also result from exchange "reforms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4664..4806
+41,1,1
+#### Text ####
+that "circuit breakers" put in place to damp volatility after the 1987 crash actually added to volatility when the stock market plunged Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4647..4663
+41,0;41,1,0;41,2
+#### Text ####
+Many traders say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4770..4774
+41,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4647..4663
+41,0;41,1,0;41,2
+#### Text ####
+Many traders say
+##############
+when, Temporal.Synchrony
+____Arg1____
+4664..4769
+41,1,1,0;41,1,1,1,0;41,1,1,1,1,0;41,1,1,1,1,1;41,1,1,1,1,2
+#### Text ####
+that "circuit breakers" put in place to damp volatility after the 1987 crash actually added to volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4775..4806
+41,1,1,1,1,3,1
+#### Text ####
+the stock market plunged Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4808
+42
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4664..4806
+41,1,1
+#### Text ####
+that "circuit breakers" put in place to damp volatility after the 1987 crash actually added to volatility when the stock market plunged Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4647..4663
+41,0;41,1,0;41,2
+#### Text ####
+Many traders say
+##############
+____Arg2____
+4808..4949
+42
+#### Text ####
+The circuit breakers caused a 30-minute shutdown in trading in Standard & Poor's 500-stock index futures contract as the markets were falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4922..4924
+42,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4808..4921
+42,0;42,1,0;42,1,1;42,2
+#### Text ####
+The circuit breakers caused a 30-minute shutdown in trading in Standard & Poor's 500-stock index futures contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4925..4949
+42,1,2,1
+#### Text ####
+the markets were falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5067
+44
+#### Features ####
+Ot, Comm, Null, Null
+5044..5064
+43,0;43,2;43,3;43,4;43,5
+#### Text ####
+says a money manager
+##############
+and, Expansion.Conjunction
+____Arg1____
+4954..5042
+43,1
+#### Text ####
+With the futures-trading halt, you could only sell stocks" to cut exposure to the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5067..5138
+44
+#### Text ####
+It was scary to people thinking that they couldn't get their trades off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5280..5284
+46,1
+#### Text ####
+Then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5240..5277
+45,0;45,2;45,3;45,4;45,5;45,6
+#### Text ####
+said one Chicago-based futures trader
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5156..5237
+45,1,1,1,1
+#### Text ####
+they put you in a room with a gorilla and told you there were three doors to exit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5285..5336
+46,0;46,2;46,3;46,4;46,5;46,6
+#### Text ####
+they said, `By the way, two of the doors are locked
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5362..5366
+47,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4664..4806
+41,1,1
+#### Text ####
+that "circuit breakers" put in place to damp volatility after the 1987 crash actually added to volatility when the stock market plunged Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4647..4663
+41,0;41,1,0;41,2
+#### Text ####
+Many traders say
+##############
+____Arg2____
+5343..5361;5367..5385
+47,0;47,2;47,3
+#### Text ####
+The takeover mania adds to volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5397..5414
+48,1
+#### Text ####
+is a good example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+5343..5385
+47
+#### Text ####
+The takeover mania also adds to volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5387..5414
+48
+#### Text ####
+UAL Corp. is a good example
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5416
+49
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5387..5414
+48
+#### Text ####
+UAL Corp. is a good example
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5416..5576
+49;50
+#### Text ####
+Valued as a buy-out target, the airline stock was trading at nearly $280 a share.
+When the deal ran into trouble, the stock tumbled; it closed at $198 yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5498
+50
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5416..5496
+49
+#### Text ####
+Valued as a buy-out target, the airline stock was trading at nearly $280 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5498..5576
+50
+#### Text ####
+When the deal ran into trouble, the stock tumbled; it closed at $198 yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5498..5502
+50,0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+5530..5547
+50,0,1;50,0,2;50,0,3
+#### Text ####
+the stock tumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5503..5528
+50,0,0,1
+#### Text ####
+the deal ran into trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5549
+50
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5498..5547
+50,0
+#### Text ####
+When the deal ran into trouble, the stock tumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5549..5576
+50,2
+#### Text ####
+it closed at $198 yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5578
+51
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+5549..5576
+50,2
+#### Text ####
+it closed at $198 yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5578..5646
+51
+#### Text ####
+Presumably, UAL is now trading closer to its value based on earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5650..5661
+52,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Opposition
+____Arg1____
+692..874
+7
+#### Text ####
+There are many reasons for the market's jumpiness: new trading vehicles such as stock-index futures and options; computer-driven strategies like program trading; and crowd psychology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5663..5741
+52,1;52,2;52,3;52,4
+#### Text ####
+traditional buy-and-hold investors are unlikely to generate sudden price moves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5832
+53
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5650..5741
+52
+#### Text ####
+By contrast, traditional buy-and-hold investors are unlikely to generate sudden price moves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5832..5941
+53,1,2
+#### Text ####
+that for those who invest on fundamentals, "the value of a stock from day to day doesn't change all that much
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5743..5831
+53,0;53,1,0;53,1,1;53,2;53,3
+#### Text ####
+Scott Black, a value-oriented money manager who heads Delphi Management Inc., points out
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6070
+55
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+5963..6007
+54,1,1
+#### Text ####
+markets aren't as volatile as widely assumed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5946..5962
+54,0;54,1,0;54,2
+#### Text ####
+Some experts say
+##############
+____Arg2____
+6070..6141
+55,1,1,0;55,1,1,1,0;55,1,1,1,1,0;55,1,1,1,1,1,0;55,1,1,1,1,1,1,0;55,1,1,1,1,1,1,1,0;55,1,1,1,1,1,1,1,1,0;55,1,1,1,1,1,1,1,1,1
+#### Text ####
+the current volatility in U.S. markets pales in comparison to the 1930s
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6009..6069
+55,0;55,1,0;55,2
+#### Text ####
+Hans Stoll, finance professor at Vanderbilt University, says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6227
+56
+#### Features ####
+Ot, Comm, Null, Null
+6330..6337
+56,0;56,2;56,3;56,4;56,5;56,6
+#### Text ####
+he says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+6070..6224
+55,1,1
+#### Text ####
+the current volatility in U.S. markets pales in comparison to the 1930s, decades before derivative instruments such as options and futures were introduced
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6009..6069
+55,0;55,1,0;55,2
+#### Text ####
+Hans Stoll, finance professor at Vanderbilt University, says
+##############
+____Arg2____
+6227..6327
+56,1
+#### Text ####
+I just can't believe that the innovations in the financial market are causing any of this volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6341..6344
+57,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+6070..6224
+55,1,1
+#### Text ####
+the current volatility in U.S. markets pales in comparison to the 1930s, decades before derivative instruments such as options and futures were introduced
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6009..6069
+55,0;55,1,0;55,2
+#### Text ####
+Hans Stoll, finance professor at Vanderbilt University, says
+##############
+____Arg2____
+6414..6545
+57,2,1
+#### Text ####
+that before Friday's tailspin, daily volatility on the New York Stock Exchange in recent weeks had reached "historically low levels
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6345..6413
+57,1;57,2,0;57,3;57,4
+#### Text ####
+Robert D. Arnott, president of asset allocator First Quadrant, notes
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6638..6642
+58,1,1,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+6567..6576
+58,1,1,0;58,1,1,1,0;58,1,1,1,1,0
+#### Text ####
+to ignore
+##############
+when, Temporal.Synchrony
+____Arg1____
+6626..6637
+58,1,1,1,1,1,1,1,1,1,0;58,1,1,1,1,1,1,1,1,1,1,0;58,1,1,1,1,1,1,1,1,1,1,1,0;58,1,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+than it was
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6643..6669
+58,1,1,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+the stock market was lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6671
+59
+____Arg1____
+6550..6669
+58
+#### Text ####
+Some people tend to ignore that a 50-point move is less in percentage terms than it was when the stock market was lower
+##############
+____Arg2____
+6671..6814
+59
+#### Text ####
+John J. Phelan Jr., chairman of the Big Board, asserts that "1988 and 1989 have been two of the least volatile years in the last 30 or 40 years
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6819..6822
+60,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+6726..6814
+59,1,1
+#### Text ####
+that "1988 and 1989 have been two of the least volatile years in the last 30 or 40 years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6671..6725
+59,0;59,1,0;59,2;59,3
+#### Text ####
+John J. Phelan Jr., chairman of the Big Board, asserts
+##############
+____Arg2____
+6823..6954
+60,1;60,2;60,3
+#### Text ####
+the low average volatility Mr. Phelan is talking about isn't any comfort in a period of rapid stock-market moves like the past week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6956..6967
+61,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+6819..6954
+60
+#### Text ####
+But the low average volatility Mr. Phelan is talking about isn't any comfort in a period of rapid stock-market moves like the past week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7028..7214
+61,3,1
+#### Text ####
+volatile jumps in stock prices will continue as long as liquidity falls short of the voracious demands of institutions "who can go out and say `I have a billion dollars of stocks to sell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6969..7027
+61,1;61,2;61,3,0;61,4;61,5;61,6
+#### Text ####
+Sanford Grossman, a Wharton School finance professor, says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7073..7083
+61,3,1,1,1,1,1,0;61,3,1,1,1,1,1,1,0
+#### Text ####
+as long as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6969..7027
+61,1;61,2;61,3,0;61,4;61,5;61,6
+#### Text ####
+Sanford Grossman, a Wharton School finance professor, says
+##############
+as long as, Contingency.Condition.Factual present, Temporal.Synchrony
+____Arg1____
+7028..7072
+61,3,1,0;61,3,1,1,0;61,3,1,1,1,0;61,3,1,1,1,1,0
+#### Text ####
+volatile jumps in stock prices will continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7084..7214
+61,3,1,1,1,1,1,1,1
+#### Text ####
+liquidity falls short of the voracious demands of institutions "who can go out and say `I have a billion dollars of stocks to sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7278
+63
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+7221..7276
+62
+#### Text ####
+Some people think the search for liquidity is fruitless
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7278..7414
+63
+#### Text ####
+In 1936, John Maynard Keynes wrote that "of the maxims of orthodox finance none, surely, is more antisocial than the fetish of liquidity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7417
+64
+#### Features ####
+Ot, Comm, Null, Null
+7278..7312
+63,0;63,1;63,2;63,3,0;63,4;63,5
+#### Text ####
+In 1936, John Maynard Keynes wrote
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+7313..7414
+63,3,1
+#### Text ####
+that "of the maxims of orthodox finance none, surely, is more antisocial than the fetish of liquidity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7417..7474;7522..7568
+64,0;64,1,0;64,1,1;64,1,2,0;64,1,2,1,0;64,1,2,1,1,0;64,1,2,1,1,1,0,0;64,1,2,1,1,1,0,1,0;64,1,2,1,1,1,1;64,1,2,1,1,1,2;64,2
+#### Text ####
+It leads investors to focus on short-term price movements rather than on long-term fundamental valuation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

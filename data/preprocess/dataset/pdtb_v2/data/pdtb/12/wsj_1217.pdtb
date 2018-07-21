@@ -1,0 +1,446 @@
+________________________________________________________
+____Explicit____
+35..37
+0,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..34
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+STOCK PRICES SWUNG wildly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+38..137
+0,1,2,1
+#### Text ####
+the market reacted to an initial plunge by UAL shares, followed by a sharp rebound in the afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+139
+1
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Conjunction
+____Arg1____
+9..137
+0
+#### Text ####
+STOCK PRICES SWUNG wildly as the market reacted to an initial plunge by UAL shares, followed by a sharp rebound in the afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+139..229
+1
+#### Text ####
+The Dow Jones industrials, down over 80 points in the morning, closed off 3.69, at 2659.22
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+231
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Comparison.Contrast.Juxtaposition
+____Arg1____
+139..229
+1
+#### Text ####
+The Dow Jones industrials, down over 80 points in the morning, closed off 3.69, at 2659.22
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+231..338
+2
+#### Text ####
+Bond prices surged in reaction to the sell-off in stocks, then eased slightly during the afternoon recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+289..293
+2,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+231..287
+2,0;2,1,0;2,1,1
+#### Text ####
+Bond prices surged in reaction to the sell-off in stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+294..338
+2,1,3;2,2
+#### Text ####
+eased slightly during the afternoon recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+340
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+231..338
+2
+#### Text ####
+Bond prices surged in reaction to the sell-off in stocks, then eased slightly during the afternoon recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+340..365
+3
+#### Text ####
+The dollar finished lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+509
+5
+#### Features ####
+Wr, Comm, Null, Null
+eventually, Expansion.Restatement.Specification
+____Arg1____
+369..507
+4
+#### Text ####
+UAL's stock regained most of an early loss amid speculation one or more investors may challenge the airline's decision to stay independent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+509..575
+5
+#### Text ####
+The stock closed down $8.375, at $170, after plunging $33, to $145
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+548..553
+5,1,5,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+509..546
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,1,4;5,2
+#### Text ####
+The stock closed down $8.375, at $170
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+554..575
+5,1,5,1
+#### Text ####
+plunging $33, to $145
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+662
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+608..660
+6,1,1,3
+#### Text ####
+setting the stage for a possible bidding war with GM
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+662..746
+7
+#### Text ####
+Jaguar has been discussing an alliance with GM, but Ford's move may derail the talks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+710..713
+7,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+662..708
+7,0
+#### Text ####
+Jaguar has been discussing an alliance with GM
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+714..746
+7,3
+#### Text ####
+Ford's move may derail the talks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+796..798
+8,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+750..795
+8,0;8,1,0;8,1,1;8,1,2;8,2
+#### Text ####
+Car and truck sales slid 20.5% in mid-October
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+799..873
+8,1,3,1
+#### Text ####
+U.S. manufacturers paid the price for heavy incentives earlier in the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+875
+9
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+750..873
+8
+#### Text ####
+Car and truck sales slid 20.5% in mid-October as U.S. manufacturers paid the price for heavy incentives earlier in the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+875..917
+9
+#### Text ####
+General Motors continued to be hardest hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1047
+11
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+921..1045
+10
+#### Text ####
+Durable goods orders slipped 0.1% in September, reflecting weakening auto demand after a spurt of orders for new 1990 models
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1047..1095
+11
+#### Text ####
+Excluding transportation items, orders rose 1.8%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1201
+13
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Conjunction
+____Arg1____
+1099..1199
+12
+#### Text ####
+Norfolk Southern's board approved a buy-back of up to 45 million shares, valued at over $1.7 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1201..1303
+13
+#### Text ####
+The repurchase, coupled with an earlier buyback, will reduce the firm's shares outstanding by over 26%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1703
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1620..1701
+16
+#### Text ####
+Texaco said profit rose 11% in the quarter, partly due to a massive restructuring
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1703..1720
+17
+#### Text ####
+Sun posted a gain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1722
+18
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+1703..1720
+17
+#### Text ####
+Sun posted a gain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1722..1759
+18
+#### Text ####
+Mobil, Shell and Chevron had declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1915..1917
+20,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1867..1914
+20,0;20,1,0;20,1,1;20,2
+#### Text ####
+Sears posted a 16% drop in third-quarter profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1918..1983
+20,1,2,1
+#### Text ####
+U.S. retail operations recorded the first loss in over five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1985..2001
+21,0;21,1,0
+#### Text ####
+The results show
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+1867..1983
+20
+#### Text ####
+Sears posted a 16% drop in third-quarter profit as U.S. retail operations recorded the first loss in over five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1985..2041
+21
+#### Text ####
+The results show Sears is struggling to attract shoppers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2836
+30
+____Arg1____
+2801..2834
+29
+#### Text ####
+Stocks: Volume 237,960,000 shares
+##############
+____Arg2____
+2836..2938
+30
+#### Text ####
+Dow Jones industrials 2659.22, off 3.69; transportation 1210.70, off 25.96; utilities 215.04, off 0.31
+##############
+________________________________________________________

@@ -1,0 +1,124 @@
+________________________________________________________
+____Explicit____
+270..274
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+145..263
+1
+#### Text ####
+At the same time, shareholders approved the adoption of a rights plan and a super-majority voting approval requirement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+265..269;275..418
+2,0;2,2;2,3
+#### Text ####
+They approved the relocation of the company's registered office to Toronto from Vancouver and a name change to NHI Nelson Holdings International Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+593
+4
+____Arg1____
+422..591
+3
+#### Text ####
+Following the consolidation, the entertainment company, which has film and television operations in Beverly Hills, Calif., will have about 4.1 million shares outstanding
+##############
+____Arg2____
+593..658
+4
+#### Text ####
+The number of authorized common shares will remain at 100 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+660
+5
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+593..658
+4
+#### Text ####
+The number of authorized common shares will remain at 100 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+660..822
+5
+#### Text ####
+Under the rights plan, holders will have one right for each common share held, with each right entitling the purchase of one common share for 100 Canadian dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+824
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+660..822
+5
+#### Text ####
+Under the rights plan, holders will have one right for each common share held, with each right entitling the purchase of one common share for 100 Canadian dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+824..977
+6
+#### Text ####
+The rights plan would be triggered if a person or group acquires 20% or more of the common shares outstanding without making an offer to all shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+859..861
+6,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+660..681
+5,0;5,1;5,4
+#### Text ####
+Under the rights plan
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+824..858
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1;6,2
+#### Text ####
+The rights plan would be triggered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+862..977
+6,1,1,1,2,1
+#### Text ####
+a person or group acquires 20% or more of the common shares outstanding without making an offer to all shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

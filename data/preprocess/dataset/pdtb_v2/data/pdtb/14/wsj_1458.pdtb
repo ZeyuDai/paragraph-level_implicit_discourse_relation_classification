@@ -1,0 +1,124 @@
+________________________________________________________
+____Explicit____
+444..458
+1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,1,1,2,0;1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,1,1,2,1
+#### Text ####
+shortly before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+396..443
+1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,0;1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,1,0;1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,1,1,0;1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,1,1,1
+#### Text ####
+found hanged under London's Blackfriar's Bridge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+459..478
+1,1,2,1,1,1,1,1,3,1,1,1,1,2,1,1,1,2,1,1,1,2,2
+#### Text ####
+the bank's collapse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+593
+3
+____Arg1____
+482..591
+2
+#### Text ####
+Banco Ambrosiano, which was Italy's largest private-sector bank, collapsed in 1982 with $1.3 billion of debts
+##############
+____Arg2____
+593..736
+3
+#### Text ####
+Most of the money was lent to a series of shell companies in Panama and Luxembourg that were owned, directly or indirectly, by the Vatican bank
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+738
+4
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Temporal.Asynchronous.Precedence, Contingency.Cause.Result
+____Arg1____
+593..736
+3
+#### Text ####
+Most of the money was lent to a series of shell companies in Panama and Luxembourg that were owned, directly or indirectly, by the Vatican bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+738..749;780..859
+4,0,0;4,0,1;4,0,3;4,1;4,2
+#### Text ####
+The Vatican paid $250 million to the Milan bank's creditors as a "goodwill gesture" in 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+993
+6
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+863..991
+5
+#### Text ####
+Italian news reports said Mr. Carboni and a colleague obtained 1.2 billion lire in checks from a Vatican official, Pavel Hnilica
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+993..1252
+6
+#### Text ####
+Italian papers speculated the briefcase contained papers either exonerating the Vatican bank from blame in the scandal, or showing that the bank, known as the Istituto per le Opere di Religione, channeled funds to East bloc groups such as Solidarity in Poland
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1050..1056;1113..1115
+6,1,1,1,1,1,1,0;6,1,1,1,1,1,1,3
+#### Text ####
+either or
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+993..1018
+6,0;6,1,0;6,2
+#### Text ####
+Italian papers speculated
+##############
+either or, Expansion.Alternative.Conjunctive
+____Arg1____
+1043..1049;1057..1111
+6,1,1,1,1,1,0;6,1,1,1,1,1,1,1;6,1,1,1,1,1,1,2
+#### Text ####
+papers exonerating the Vatican bank from blame in the scandal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1116..1252
+6,1,1,1,1,1,1,4
+#### Text ####
+showing that the bank, known as the Istituto per le Opere di Religione, channeled funds to East bloc groups such as Solidarity in Poland
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

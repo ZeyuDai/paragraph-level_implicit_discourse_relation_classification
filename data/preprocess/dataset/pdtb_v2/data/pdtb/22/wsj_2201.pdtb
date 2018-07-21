@@ -1,0 +1,1276 @@
+________________________________________________________
+____AltLex____
+273..289
+2,0,1;2,1,0
+#### Text ####
+Their mission is
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+52..271
+1
+#### Text ####
+Hard on the heels of Friday's 190-point stock-market plunge and the uncertainty that's followed, a few big brokerage firms are rolling out new ads trumpeting a familiar message: Keep on investing, the market's just fine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+273..395
+2
+#### Text ####
+Their mission is to keep clients from fleeing the market, as individual investors did in droves after the crash in October
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+486
+4
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+398..484
+3
+#### Text ####
+Just days after the 1987 crash, major brokerage firms rushed out ads to calm investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..530
+4
+#### Text ####
+This time around, they're moving even faster
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+647
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+534..645
+5
+#### Text ####
+PaineWebber Inc. filmed a new television commercial at 4 p.m. EDT yesterday and had it on the air by last night
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+647..748
+6
+#### Text ####
+Fidelity Investments placed new ads in newspapers yesterday, and wrote another new ad appearing today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+750
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+534..748
+5;6
+#### Text ####
+PaineWebber Inc. filmed a new television commercial at 4 p.m. EDT yesterday and had it on the air by last night.
+Fidelity Investments placed new ads in newspapers yesterday, and wrote another new ad appearing today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+750..831
+7
+#### Text ####
+Shearson Lehman Hutton Inc. by yesterday afternoon had already written new TV ads
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+833
+8
+____Arg1____
+750..831
+7
+#### Text ####
+Shearson Lehman Hutton Inc. by yesterday afternoon had already written new TV ads
+##############
+____Arg2____
+833..961
+8
+#### Text ####
+It considered running them during tomorrow night's World Series broadcast but decided not to when the market recovered yesterday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+926..930
+8,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+907..925
+8,1,1;8,1,2,0;8,1,2,1
+#### Text ####
+but decided not to
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+931..961
+8,1,2,2,1
+#### Text ####
+the market recovered yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+963
+9
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+833..961
+8
+#### Text ####
+It considered running them during tomorrow night's World Series broadcast but decided not to when the market recovered yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+963..1062
+9
+#### Text ####
+Other brokerage firms, including Merrill Lynch & Co., were plotting out potential new ad strategies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1207
+11
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1066..1123
+10,0;10,1,0;10,1,1;10,1,2,0;10,1,2,1;10,1,2,2;10,2
+#### Text ####
+The brokerage firms learned a lesson the last time around
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1207..1238
+11
+#### Text ####
+This time, the firms were ready
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1250..1261
+12,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1207..1238
+11
+#### Text ####
+This time, the firms were ready
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1240..1248;1263..1321
+12,0;12,1;12,3;12,4;12,5
+#### Text ####
+Fidelity prepared ads several months ago in case of a market plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1323
+13
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1240..1321
+12
+#### Text ####
+Fidelity, for example, prepared ads several months ago in case of a market plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1323..1469
+13
+#### Text ####
+When the market went into its free fall Friday afternoon, the investment firm ordered full pages in the Monday editions of half a dozen newspapers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1323..1327
+13,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1381..1469
+13,1;13,2;13,3;13,4
+#### Text ####
+the investment firm ordered full pages in the Monday editions of half a dozen newspapers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1328..1379
+13,0,1
+#### Text ####
+the market went into its free fall Friday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1471
+14
+____Arg1____
+1323..1469
+13
+#### Text ####
+When the market went into its free fall Friday afternoon, the investment firm ordered full pages in the Monday editions of half a dozen newspapers
+##############
+____Arg2____
+1471..1577
+14
+#### Text ####
+The ads touted Fidelity's automated 800-number beneath the huge headline, "Fidelity Is Ready For Your Call
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1650..1653
+15,1,1,1,0,2,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1582..1607
+15,0;15,1,0;15,2
+#### Text ####
+A Fidelity spokesman says
+##############
+but, Comparison.Contrast
+____Arg1____
+1622..1649
+15,1,1,1,0,2,0
+#### Text ####
+which already was operating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1654..1690
+15,1,1,1,0,2,2
+#### Text ####
+which many clients didn't know about
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1759
+16
+____Arg1____
+1582..1756
+15
+#### Text ####
+A Fidelity spokesman says the 800-line, which already was operating but which many clients didn't know about, received about double the usual volume of calls over the weekend
+##############
+____Arg2____
+1759..1843
+16
+#### Text ####
+A lot of investor confidence comes from the fact that they can speak to us," he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1846
+17
+#### Features ####
+Ot, Comm, Null, Null
+1836..1843
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+he says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1759..1833
+16,1
+#### Text ####
+A lot of investor confidence comes from the fact that they can speak to us
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1846..1893
+17
+#### Text ####
+To maintain that dialogue is absolutely crucial
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1895
+18
+#### Features ####
+Ot, Comm, Null, Null
+1836..1843
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+he says
+##############
+but, Comparison.Contrast
+____Arg1____
+1846..1893
+17
+#### Text ####
+To maintain that dialogue is absolutely crucial
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1895..1947
+18
+#### Text ####
+It would have been too late to think about on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1949
+19
+#### Features ####
+Ot, Comm, Null, Null
+1836..1843
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+he says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1895..1947
+18
+#### Text ####
+It would have been too late to think about on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1949..1987
+19
+#### Text ####
+We had to think about it ahead of time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2077..2079
+20,1,3,1,1,1,1
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2033..2054
+20,1,3,0;20,1,3,1,0;20,1,3,1,1,0
+#### Text ####
+encouraging investors
+##############
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+2055..2076
+20,1,3,1,1,1,0
+#### Text ####
+to stay in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2080..2111
+20,1,3,1,1,1,2
+#### Text ####
+even to plunge in with Fidelity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2113
+21
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1992..2111
+20
+#### Text ####
+Today's Fidelity ad goes a step further, encouraging investors to stay in the market or even to plunge in with Fidelity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2113..2379
+21;22
+#### Text ####
+Underneath the headline "Diversification," it counsels, "Based on the events of the past week, all investors need to know their portfolios are balanced to help protect them against the market's volatility." It goes on to plug a few diversified Fidelity funds by name
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2320
+22
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2113..2317
+21
+#### Text ####
+Underneath the headline "Diversification," it counsels, "Based on the events of the past week, all investors need to know their portfolios are balanced to help protect them against the market's volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2320..2379
+22
+#### Text ####
+It goes on to plug a few diversified Fidelity funds by name
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2395..2399
+23,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1240..1321
+12
+#### Text ####
+Fidelity, for example, prepared ads several months ago in case of a market plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2383..2394;2400..2452
+23,0;23,2;23,3
+#### Text ####
+PaineWebber was able to gear up quickly thanks to the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2454
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2383..2452
+23
+#### Text ####
+PaineWebber also was able to gear up quickly thanks to the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2454..2671
+24
+#### Text ####
+In the aftermath of the 1987 debacle, the brokerage firm began taping commercials in-house, ultimately getting its timing down fast enough to tape a commercial after the market closed and rush it on the air that night
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2546..2556
+24,3,3,1
+#### Text ####
+ultimately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+ultimately, Temporal.Asynchronous.Precedence, Contingency.Cause.Result
+____Arg1____
+2454..2544
+24,0;24,1;24,2;24,3,0;24,3,1;24,3,2;24,4
+#### Text ####
+In the aftermath of the 1987 debacle, the brokerage firm began taping commercials in-house
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2557..2671
+24,3,3,0;24,3,3,2
+#### Text ####
+getting its timing down fast enough to tape a commercial after the market closed and rush it on the air that night
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2614..2619
+24,3,3,2,3,2,1,1,0,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2593..2613
+24,3,3,2,3,2,0;24,3,3,2,3,2,1,0;24,3,3,2,3,2,1,1,0,0;24,3,3,2,3,2,1,1,0,1
+#### Text ####
+to tape a commercial
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2620..2637
+24,3,3,2,3,2,1,1,0,2,1
+#### Text ####
+the market closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2676..2680
+25,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2454..2671
+24
+#### Text ####
+In the aftermath of the 1987 debacle, the brokerage firm began taping commercials in-house, ultimately getting its timing down fast enough to tape a commercial after the market closed and rush it on the air that night
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2673..2675;2681..2791
+25,0;25,2;25,3
+#### Text ####
+It negotiated an arrangement with Cable News Network under which CNN would agree to air its last-minute creations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2982
+27
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2795..2825;2873..2980
+26,0,0;26,0,1;26,0,3;26,1;26,2
+#### Text ####
+The new PaineWebber commercial features Mary Farrell, one of the firm's most visible investment strategists, sounding particularly bullish
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2982..3225
+27;28
+#### Text ####
+Taped just as the market closed yesterday, it offers Ms. Farrell advising, "We view the market here as going through a relatively normal cycle. . . . We continue to feel that the stock market is still the place to be for long-term appreciation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3132
+28
+#### Features ####
+Ot, Comm, Null, Null
+3025..3055
+27,1;27,2;27,3,0;27,3,1,0;27,3,1,1,0;27,3,1,1,1;27,3,1,1,2;27,4;27,5
+#### Text ####
+it offers Ms. Farrell advising
+##############
+and, Expansion.Conjunction
+____Arg1____
+3058..3124
+27,3,1,1,3
+#### Text ####
+We view the market here as going through a relatively normal cycle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3132..3225
+28
+#### Text ####
+We continue to feel that the stock market is still the place to be for long-term appreciation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3228
+29
+____Arg1____
+3132..3225
+28
+#### Text ####
+We continue to feel that the stock market is still the place to be for long-term appreciation
+##############
+____Arg2____
+3228..3290
+29
+#### Text ####
+The spot was scheduled to appear three times on CNN last night
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3368..3375
+31,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+3317..3366
+30,1,1;30,2
+#### Text ####
+an even harder sell, recommending specific stocks
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3294..3316
+30,0;30,1,0;30,2
+#### Text ####
+PaineWebber considered
+##############
+____Arg2____
+3377..3468
+31,1;31,2;31,3;31,4
+#### Text ####
+it settled on just urging the clients who are its lifeline to keep that money in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3672
+33
+#### Features ####
+Ot, Comm, Null, Null
+3615..3669
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+says John Lampe, PaineWebber's director of advertising
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+3473..3569
+32,1,0;32,1,1,0;32,1,1,1,0;32,1,1,1,1,0;32,1,1,1,1,1,0;32,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,1,1,1,1,1;32,1,1,1,1,1,1,1,1,1,1,1,2;32,1,1,1,1,1,1,1,1,1,1,1,3
+#### Text ####
+We're saying the worst thing that anyone can do is to see the market go down and dump everything
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3672..3738
+33
+#### Text ####
+If you owned it and liked it Friday, the true value hasn't changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3672..3674
+33,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3615..3669
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+says John Lampe, PaineWebber's director of advertising
+##############
+if, Contingency.Condition.Factual past
+____Arg1____
+3709..3738
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+the true value hasn't changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3675..3707
+33,1,1
+#### Text ####
+you owned it and liked it Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3751
+34
+#### Features ####
+Ot, Comm, Null, Null
+3741..3748
+34,0;34,1,0;34,1,1;34,1,2;34,2;34,3
+#### Text ####
+He adds
+##############
+in other words, Expansion.Conjunction
+____Arg1____
+3672..3738
+33
+#### Text ####
+If you owned it and liked it Friday, the true value hasn't changed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3615..3669
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+says John Lampe, PaineWebber's director of advertising
+##############
+____Arg2____
+3751..3776
+34,1,3
+#### Text ####
+This isn't 1987 revisited
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3813..3817
+35,0,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3781..3808
+35,0,0;35,0,1,0;35,0,1,1,0
+#### Text ####
+With the market fluctuating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3809..3812;3818..3858
+35,0,1,1,1;35,0,1,1,2,1;35,0,1,1,2,2;35,1;35,2;35,5
+#### Text ####
+and closing up more than 88 points yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3918
+36
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3781..3916
+35
+#### Text ####
+With the market fluctuating and then closing up more than 88 points yesterday, investment firms had to constantly revise their approach
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3918..4063
+36
+#### Text ####
+At Shearson Lehman, executives created potential new commercials Friday night and throughout the weekend, then had to regroup yesterday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4024..4028
+36,3,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3918..4022
+36,0;36,1;36,2;36,3,0;36,3,1
+#### Text ####
+At Shearson Lehman, executives created potential new commercials Friday night and throughout the weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4029..4063
+36,3,2,1;36,3,2,2;36,4
+#### Text ####
+had to regroup yesterday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4065
+37
+____Arg1____
+3918..4063
+36
+#### Text ####
+At Shearson Lehman, executives created potential new commercials Friday night and throughout the weekend, then had to regroup yesterday afternoon
+##############
+____Arg2____
+4065..4243
+37
+#### Text ####
+The plan had been to make one of Shearson's easy-to-film, black-and-white "Where We Stand" commercials, which have been running occasionally in response to news events since 1985
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4245
+38
+____Arg1____
+4065..4243
+37
+#### Text ####
+The plan had been to make one of Shearson's easy-to-film, black-and-white "Where We Stand" commercials, which have been running occasionally in response to news events since 1985
+##############
+____Arg2____
+4245..4385
+38
+#### Text ####
+The ad would have run during the World Series tomorrow, replacing the debut commercial of Shearson's new ad campaign, "Leadership by Example
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4390..4393
+39,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4245..4299
+38,0;38,1,0;38,1,1,0;38,1,1,1,0;38,1,1,1,1;38,1,1,1,2;38,1,1,1,3;38,2;38,3
+#### Text ####
+The ad would have run during the World Series tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4394..4510
+39,1;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+in a meeting after the market closed yesterday, Shearson executives decided not to go ahead with the stock-market ad
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4513
+40
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4390..4510
+39
+#### Text ####
+But in a meeting after the market closed yesterday, Shearson executives decided not to go ahead with the stock-market ad
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4513..4567
+40
+#### Text ####
+We don't think at this point anything needs to be said
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4650..4713
+41,1;41,2;41,3;41,4;41,5
+#### Text ####
+says Cathleen B. Stewart, executive vice president of marketing
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4569
+41
+#### Features ####
+Ot, Comm, Null, Null
+4650..4713
+41,1;41,2;41,3;41,4;41,5
+#### Text ####
+says Cathleen B. Stewart, executive vice president of marketing
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4513..4567
+40
+#### Text ####
+We don't think at this point anything needs to be said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4569..4609
+41,0,0
+#### Text ####
+The market seems to be straightening out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4611
+41
+#### Features ####
+Ot, Comm, Null, Null
+4650..4713
+41,1;41,2;41,3;41,4;41,5
+#### Text ####
+says Cathleen B. Stewart, executive vice president of marketing
+##############
+so, Contingency.Cause.Result
+____Arg1____
+4569..4609
+41,0,0
+#### Text ####
+The market seems to be straightening out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4611..4647
+41,0,2
+#### Text ####
+we're taking a wait-and-see attitude
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4829..4832
+43,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4717..4827
+42
+#### Text ####
+In any case, the brokerage firms are clearly moving faster to create new ads than they did in the fall of 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4833..4899
+43,1;43,2;43,3
+#### Text ####
+it remains to be seen whether their ads will be any more effective
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4901
+44
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4829..4899
+43
+#### Text ####
+But it remains to be seen whether their ads will be any more effective
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4901..5016
+44
+#### Text ####
+In 1987, despite a barrage of ads from most of the major investment firms, individuals ran from the market en masse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5018
+45
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4901..5016
+44
+#### Text ####
+In 1987, despite a barrage of ads from most of the major investment firms, individuals ran from the market en masse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5018..5106
+45
+#### Text ####
+Now the firms must try their hardest to prove that advertising can work this time around
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5328
+49
+____Arg1____
+5148..5326
+48
+#### Text ####
+Edward Eskandarian, former chairman of Della Femina, McNamee WCRS/Boston, reached an agreement in principle to acquire a majority stake in Arnold Advertising, a small Boston shop
+##############
+____Arg2____
+5328..5351
+49
+#### Text ####
+Terms weren't disclosed
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5353
+50
+____Arg1____
+5328..5351
+49
+#### Text ####
+Terms weren't disclosed
+##############
+____Arg2____
+5353..5465
+50
+#### Text ####
+Mr. Eskandarian, who resigned his Della Femina post in September, becomes chairman and chief executive of Arnold
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5467
+51
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Juxtaposition
+____Arg1____
+5353..5368;5419..5465
+50,0,0;50,0,1;50,0,3;50,1;50,2
+#### Text ####
+Mr. Eskandarian becomes chairman and chief executive of Arnold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5467..5558
+51
+#### Text ####
+John Verret, the agency's president and chief executive, will retain the title of president
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5560..5570
+52,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+5148..5326
+48
+#### Text ####
+Edward Eskandarian, former chairman of Della Femina, McNamee WCRS/Boston, reached an agreement in principle to acquire a majority stake in Arnold Advertising, a small Boston shop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5572..5707
+52,1;52,2;52,3;52,4
+#### Text ####
+McDonald's Corp., Oak Brook, Ill., named Arnold to handle its estimated $4 million cooperative ad account for the Hartford, Conn., area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5709
+53
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+5560..5707
+52
+#### Text ####
+Separately, McDonald's Corp., Oak Brook, Ill., named Arnold to handle its estimated $4 million cooperative ad account for the Hartford, Conn., area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5709..5768
+53
+#### Text ####
+That account had been handled by Della Femina, McNamee WCRS
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5953
+56
+____Arg1____
+5787..5951
+55
+#### Text ####
+A 142-page ad supplement to Business Week's special "Corporate Elite" issue calls on business leaders to use their clout to help solve the nation's education crisis
+##############
+____Arg2____
+5953..6109
+56
+#### Text ####
+The supplement, the largest ever for the magazine, includes ads from 52 corporate advertisers and kicks off a two-year Business Week initiative on education
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+6111
+57
+____Arg1____
+5953..6109
+56
+#### Text ####
+The supplement, the largest ever for the magazine, includes ads from 52 corporate advertisers and kicks off a two-year Business Week initiative on education
+##############
+____Arg2____
+6111..6218
+57
+#### Text ####
+The magazine will distribute 10% of the gross revenues from the supplement as grants to innovative teachers
+##############
+________________________________________________________

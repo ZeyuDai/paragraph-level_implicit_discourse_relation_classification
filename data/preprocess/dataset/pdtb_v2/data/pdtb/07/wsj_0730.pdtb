@@ -1,0 +1,1355 @@
+________________________________________________________
+____Implicit____
+108
+2
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+58..106
+1
+#### Text ####
+BEING A TRAVEL agent used to be pretty glamorous
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+108..144
+2
+#### Text ####
+Now it's getting downright dangerous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+296
+4
+____Arg1____
+148..294
+3
+#### Text ####
+In recent months, more than 25 agencies have been robbed, compared with only a handful all last year, according to police and travel-agency groups
+##############
+____Arg2____
+296..398
+4
+#### Text ####
+Most of the cases have been in California, where one agent was stabbed and another was shot and killed
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+367..370
+4,1,1,1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+339..366
+4,1,1,1,1,2,0;4,1,1,1,1,2,1,0
+#### Text ####
+where one agent was stabbed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+371..398
+4,1,1,1,1,2,1,2
+#### Text ####
+another was shot and killed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+528
+6
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+425..526
+5,1,1
+#### Text ####
+the thieves seem to be part of a crime network that knows how to convert blank tickets into real ones
+##############
+#### Features ####
+Ot, Comm, Null, Null
+402..424
+5,0;5,1,0;5,2
+#### Text ####
+Los Angeles police say
+##############
+____Arg2____
+528..601
+6
+#### Text ####
+Already, the stolen tickets have been used for flights all over the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+603
+7
+____Arg1____
+528..601
+6
+#### Text ####
+Already, the stolen tickets have been used for flights all over the world
+##############
+____Arg2____
+603..720
+7
+#### Text ####
+So far, the thieves have stolen 3,632 blank tickets, according to Airline Reporting Corp., a ticket processing center
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+878
+9
+____Arg1____
+724..875
+8
+#### Text ####
+Police say the robberies are usually pulled off by two to five men, who walk into the agencies near closing or lunch time, when few employees are there
+##############
+____Arg2____
+878..1051
+9
+#### Text ####
+They looked like ordinary vacationers at first," says Willy LLerena, owner of Travel Air Service in Monte Bello, Calif., describing five men who entered his agency last June
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1055..1058
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1065..1072
+10,2
+#### Text ####
+he says
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+878..924
+9,1
+#### Text ####
+They looked like ordinary vacationers at first
+##############
+#### Features ####
+Ot, Comm, Null, Null
+927..996
+9,0;9,2;9,3;9,4;9,5;9,6;9,8
+#### Text ####
+says Willy LLerena, owner of Travel Air Service in Monte Bello, Calif
+##############
+____Arg2____
+1059..1063;1074..1145
+10,1;10,3;10,4;10,5
+#### Text ####
+then they put two loaded pistols to his temple and demanded he open the safe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1059..1063
+10,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1065..1072
+10,2
+#### Text ####
+he says
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+878..924
+9,1
+#### Text ####
+They looked like ordinary vacationers at first
+##############
+#### Features ####
+Ot, Comm, Null, Null
+927..996
+9,0;9,2;9,3;9,4;9,5;9,6;9,8
+#### Text ####
+says Willy LLerena, owner of Travel Air Service in Monte Bello, Calif
+##############
+____Arg2____
+1055..1058;1074..1145
+10,0;10,3;10,4;10,5
+#### Text ####
+But they put two loaded pistols to his temple and demanded he open the safe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1147
+11
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1055..1063;1074..1145
+10,0;10,1;10,3;10,4;10,5
+#### Text ####
+But then they put two loaded pistols to his temple and demanded he open the safe
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1065..1072
+10,2
+#### Text ####
+he says
+##############
+____Arg2____
+1147..1172;1183..1258
+11,0;11,2;11,3;11,4
+#### Text ####
+When he initially refused they stabbed him in the back and made off with $2,000 and 280 blank tickets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1174..1181
+11,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1147..1151
+11,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1174..1181
+11,1
+#### Text ####
+he says
+##############
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1183..1258
+11,2;11,3;11,4
+#### Text ####
+they stabbed him in the back and made off with $2,000 and 280 blank tickets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1152..1172
+11,0,1
+#### Text ####
+he initially refused
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1271
+12
+#### Features ####
+Ot, Comm, Null, Null
+1318..1325
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1147..1172;1183..1211
+11,0;11,2;11,3,0;11,4
+#### Text ####
+When he initially refused they stabbed him in the back
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1174..1181
+11,1
+#### Text ####
+he says
+##############
+____Arg2____
+1271..1315
+12,1,1,1
+#### Text ####
+they wanted to show me how serious they were
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1261..1270
+12,1,0;12,1,1,0
+#### Text ####
+They said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1329..1331
+13,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1368..1426
+13,1;13,2;13,3;13,4
+#### Text ####
+many agents have started changing their open-door policies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1332..1366
+13,0,1
+#### Text ####
+word of the crime spree has spread
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1428
+14
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1329..1426
+13
+#### Text ####
+As word of the crime spree has spread, many agents have started changing their open-door policies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1428..1537
+14
+#### Text ####
+At El Monte Travel Center in El Monte, Calif., customers now can get in only through a buzzer and lock system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1540
+15
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison
+____Arg1____
+1428..1537
+14
+#### Text ####
+At El Monte Travel Center in El Monte, Calif., customers now can get in only through a buzzer and lock system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1540..1601
+15,1
+#### Text ####
+It's hard to deal with clients this way in a service business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1604..1707
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+says Ralph "Bud" Conner, owner of the agency, which was robbed of 180 blank tickets and $850 last month
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1710..1713
+16,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1604..1648
+15,0;15,2;15,3;15,4;15,5,0;15,5,1;15,5,2,0;15,5,2,1,0;15,5,2,1,1,0;15,5,2,1,1,1;15,6
+#### Text ####
+says Ralph "Bud" Conner, owner of the agency
+##############
+but, Comparison
+____Arg1____
+1540..1601
+15,1
+#### Text ####
+It's hard to deal with clients this way in a service business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1714..1736
+16,0;16,2;16,3;16,4;16,5
+#### Text ####
+we're just too nervous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1755..1759
+17,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1329..1426
+13
+#### Text ####
+As word of the crime spree has spread, many agents have started changing their open-door policies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1741..1754;1760..1809
+17,0;17,2;17,3
+#### Text ####
+The robberies have set off a controversy involving the airlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1811
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1741..1809
+17
+#### Text ####
+The robberies also have set off a controversy involving the airlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1811..2227
+18;19;20;21
+#### Text ####
+Agents say airlines, which track ticket numbers of all stolen tickets, should be doing more to catch the thieves by confiscating the tickets when they're used. "They have the most sophisticated computers in the world," says Mr. LLerena. "They ought to be able to do this." 
+
+But airlines say it would be too expensive and cause too many delays if they started using computerized scanners to check tickets at the gate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1952..1956
+18,1,1,1,1,1,1,2,1,1,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1811..1821
+18,0;18,1,0;18,2
+#### Text ####
+Agents say
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1924..1951
+18,1,1,1,1,1,1,2,1,1,2,0;18,1,1,1,1,1,1,2,1,1,2,1,0;18,1,1,1,1,1,1,2,1,1,2,1,1,0;18,1,1,1,1,1,1,2,1,1,2,1,1,1
+#### Text ####
+by confiscating the tickets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1957..1969
+18,1,1,1,1,1,1,2,1,1,2,1,1,2,1
+#### Text ####
+they're used
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1972
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1822..1830;1882..1969
+18,1,1,0;18,1,1,1,0,0;18,1,1,1,0,1;18,1,1,1,0,3;18,1,1,1,1
+#### Text ####
+airlines should be doing more to catch the thieves by confiscating the tickets when they're used
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1811..1821
+18,0;18,1,0;18,2
+#### Text ####
+Agents say
+##############
+____Arg2____
+1972..2027
+19,0
+#### Text ####
+They have the most sophisticated computers in the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2049
+20
+#### Features ####
+Ot, Comm, Null, Null
+2030..2046
+19,1;19,2;19,3
+#### Text ####
+says Mr. LLerena
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1972..2027
+19,0
+#### Text ####
+They have the most sophisticated computers in the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2049..2081
+20
+#### Text ####
+They ought to be able to do this
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2086..2089
+21,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+1972..2081
+19;20
+#### Text ####
+They have the most sophisticated computers in the world," says Mr. LLerena. "They ought to be able to do this
+##############
+____Arg1____
+1811..1969
+18
+#### Text ####
+Agents say airlines, which track ticket numbers of all stolen tickets, should be doing more to catch the thieves by confiscating the tickets when they're used
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2090..2227
+21,1;21,2;21,3
+#### Text ####
+airlines say it would be too expensive and cause too many delays if they started using computerized scanners to check tickets at the gate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2155..2157
+21,2,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2090..2102
+21,1;21,2,0;21,3
+#### Text ####
+airlines say
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+2103..2154
+21,2,1,0;21,2,1,1,0;21,2,1,1,1,0;21,2,1,1,1,1,0;21,2,1,1,1,1,1;21,2,1,1,1,1,2
+#### Text ####
+it would be too expensive and cause too many delays
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2158..2227
+21,2,1,1,1,1,3,1
+#### Text ####
+they started using computerized scanners to check tickets at the gate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2383
+24
+____Arg1____
+2278..2381
+23
+#### Text ####
+CONSUMER advocates have long claimed that car rental companies charge too much for car rental insurance
+##############
+____Arg2____
+2383..2438
+24
+#### Text ####
+Now, a new law in Texas seems to be providing the proof
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2590..2602
+26,0
+#### Text ####
+Specifically
+##############
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2442..2588
+25
+#### Text ####
+The law -- the first of its kind -- requires car rental companies in Texas to charge only "reasonable" rates for collision-damage waiver insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2604..2716
+26,1;26,2;26,3;26,4
+#### Text ####
+the law says the rates must closely reflect what the company's actual expenses have been to replace damaged cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2720..2726
+27,0,0
+#### Text ####
+Before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2764..2843
+27,1;27,2;27,3;27,4
+#### Text ####
+car rental companies were charging as much as $12 a day for the waiver in Texas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2727..2762
+27,0,1
+#### Text ####
+the law went into effect last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2845
+28
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+2720..2843
+27
+#### Text ####
+Before the law went into effect last month, car rental companies were charging as much as $12 a day for the waiver in Texas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2845..2885
+28
+#### Text ####
+Now, they're charging as little $3 a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2888
+29
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2845..2885
+28
+#### Text ####
+Now, they're charging as little $3 a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2888..2982
+29,0
+#### Text ####
+If they're telling the truth now, then they've been charging 300% more than what is reasonable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2985..3049
+29,1;29,2;29,3
+#### Text ####
+says Steve Gardner, an assistant state attorney general in Texas
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2888..2890;2922..2926
+29,0,1,0;29,0,3
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2985..3049
+29,1;29,2;29,3
+#### Text ####
+says Steve Gardner, an assistant state attorney general in Texas
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+2891..2920
+29,0,1,1
+#### Text ####
+they're telling the truth now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2927..2982
+29,0,0;29,0,2;29,0,4;29,0,5;29,0,6;29,0,7
+#### Text ####
+they've been charging 300% more than what is reasonable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3177..3180
+31,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3181..3197
+31,1;31,2,0;31,2,1;31,3
+#### Text ####
+Hertz points out
+##############
+but, Comparison
+____Arg1____
+3096..3174
+30,1,2
+#### Text ####
+The waiver isn't a source of protection for consumers, but a source of revenue
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3053..3093
+30,0;30,1,0;30,1,1;30,2;30,3
+#### Text ####
+A spokesman for Hertz Corp. acknowledges
+##############
+____Arg2____
+3198..3298
+31,2,2
+#### Text ####
+that at least it's now charging only $3.95 a day in Texas, while some competitors are charging $6.99
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3257..3262
+31,2,2,1,2,2,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3181..3197
+31,1;31,2,0;31,2,1;31,3
+#### Text ####
+Hertz points out
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+3198..3255
+31,2,2,0;31,2,2,1,0;31,2,2,1,1;31,2,2,1,2,0;31,2,2,1,2,1;31,2,2,1,2,2,0;31,2,2,1,2,2,1;31,2,2,1,2,2,2;31,2,2,1,2,2,3
+#### Text ####
+that at least it's now charging only $3.95 a day in Texas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3263..3298
+31,2,2,1,2,2,4,1
+#### Text ####
+some competitors are charging $6.99
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3300
+32
+____Arg1____
+3177..3298
+31
+#### Text ####
+But Hertz points out that at least it's now charging only $3.95 a day in Texas, while some competitors are charging $6.99
+##############
+____Arg2____
+3300..3406
+32
+#### Text ####
+The state attorney general's office is investigating rental car agencies charging noticeably higher prices
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3434..3440
+33,1,1,0
+#### Text ####
+Before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3410..3431
+33,0;33,1,0
+#### Text ####
+Flight Attendants Lag
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3441..3455
+33,1,1,1
+#### Text ####
+Jets Even Land
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3458..3460
+34,0,0
+#### Text ####
+IF
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3505..3567
+34,1;34,2;34,3;34,4
+#### Text ####
+it may be because he or she has been working 20 straight hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3461..3503
+34,0,1
+#### Text ####
+YOUR FLIGHT attendant seems a little weary
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3515..3522
+34,3,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3505..3514
+34,1;34,2;34,3,0;34,3,1,0;34,4
+#### Text ####
+it may be
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3523..3567
+34,3,1,1,1
+#### Text ####
+he or she has been working 20 straight hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3792
+36
+#### Features ####
+Ot, Ftv, Null, Null
+3867..3882
+36,1;36,2;36,3;36,4
+#### Text ####
+the study found
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+3637..3715
+35,1,1,1,0;35,1,1,1,1;35,1,1,1,2,0;35,1,1,1,2,1,0;35,1,1,1,2,1,1,0;35,1,1,1,2,1,1,1;35,1,1,1,2,1,1,2;35,1,1,1,2,1,1,3
+#### Text ####
+major airlines sometimes make flight attendants work 16 hours or more straight
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3571..3636
+35,0;35,1,0;35,1,1,0;35,2
+#### Text ####
+A recent study for the Federal Aviation Administration found that
+##############
+____Arg2____
+3792..3865
+36,0
+#### Text ####
+Some flight attendants on charter planes are putting in 20-hour work days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3899..3906
+37,0,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3886..3898
+37,0,0;37,0,1,0
+#### Text ####
+This happens
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3907..3972
+37,0,1,1,1
+#### Text ####
+the FAA doesn't have any rules on duty time for flight attendants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3974..3985
+37,2,0
+#### Text ####
+by contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+3899..3972
+37,0,1,1
+#### Text ####
+because the FAA doesn't have any rules on duty time for flight attendants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3987..4103
+37,2,1;37,2,2;37,2,3
+#### Text ####
+it strictly restricts duty time for pilots and air traffic controllers, usually to a maximum of 10 consecutive hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4346..4358
+40,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4295..4344
+39,1,1
+#### Text ####
+such long hours for attendants pose a safety risk
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4283..4294
+39,0;39,1,0;39,2
+#### Text ####
+Experts say
+##############
+____Arg2____
+4360..4445
+40,1;40,2;40,3;40,4
+#### Text ####
+tired flight attendants might not react quickly enough during an emergency evacuation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4448
+41
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4346..4445
+40
+#### Text ####
+For instance, tired flight attendants might not react quickly enough during an emergency evacuation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4448..4489
+41,0
+#### Text ####
+At the end of their day, they are zombies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4492..4601
+41,1;41,2;41,3
+#### Text ####
+says John Galipault, president of the Aviation Safety Institute, a public-interest group in Worthington, Ohio
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4604
+42
+#### Features ####
+Ot, Comm, Null, Null
+4492..4601
+41,1;41,2;41,3
+#### Text ####
+says John Galipault, president of the Aviation Safety Institute, a public-interest group in Worthington, Ohio
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4448..4489
+41,0
+#### Text ####
+At the end of their day, they are zombies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4604..4637
+42,1
+#### Text ####
+They have to work such long hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4638..4641
+42,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4492..4601
+41,1;41,2;41,3
+#### Text ####
+says John Galipault, president of the Aviation Safety Institute, a public-interest group in Worthington, Ohio
+##############
+and, Expansion.Conjunction
+____Arg1____
+4604..4637
+42,1
+#### Text ####
+They have to work such long hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4642..4699
+42,3;42,4;42,5;42,6
+#### Text ####
+then we expect them to be heroes if there's an evacuation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4642..4646
+42,3
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4492..4601
+41,1;41,2;41,3
+#### Text ####
+says John Galipault, president of the Aviation Safety Institute, a public-interest group in Worthington, Ohio
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4604..4637
+42,1
+#### Text ####
+They have to work such long hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4638..4641;4647..4699
+42,2;42,4;42,5;42,6
+#### Text ####
+and we expect them to be heroes if there's an evacuation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4675..4677
+42,4,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+4647..4656
+42,4,0;42,4,1,0
+#### Text ####
+we expect
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4657..4674
+42,4,1,1,0;42,4,1,1,1,0;42,4,1,1,1,1,0;42,4,1,1,1,1,1
+#### Text ####
+them to be heroes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4678..4699
+42,4,1,1,1,1,2,1
+#### Text ####
+there's an evacuation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4741
+43
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+4604..4699
+42
+#### Text ####
+They have to work such long hours and then we expect them to be heroes if there's an evacuation
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4492..4601
+41,1;41,2;41,3
+#### Text ####
+says John Galipault, president of the Aviation Safety Institute, a public-interest group in Worthington, Ohio
+##############
+____Arg2____
+4741..4778;4799..4819
+43,3,1,0;43,3,1,1,0;43,3,1,1,1,0;43,3,1,1,1,1,0;43,3,1,1,1,1,1,0;43,3,1,1,1,1,1,1,0;43,3,1,1,1,1,1,1,1,0;43,3,1,1,1,1,1,1,1,1,0;43,3,1,1,1,1,1,1,1,1,3;43,3,1,1,1,1,1,1,1,2
+#### Text ####
+it is considering changing its policy on flight attendants
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4728..4740
+43,1;43,2;43,3,0;43,4
+#### Text ####
+the FAA says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4821
+44
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+4741..4819
+43,3,1
+#### Text ####
+it is considering changing its policy -- or lack of it -- on flight attendants
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4728..4740
+43,1;43,2;43,3,0;43,4
+#### Text ####
+the FAA says
+##############
+____Arg2____
+4821..5026
+44
+#### Text ####
+The agency may not have much choice: A congressional bill has been introduced that would force the agency to limit flight attendant duty time to 14 hours on U.S. flights and 16 hours on international trips
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5121
+47
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+5046..5119
+46
+#### Text ####
+GOLF HAS BECOME the latest diversion for travelers stuck at some airports
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5121..5141;5186..5242
+47,0,0;47,0,1;47,0,3;47,1;47,2;47,3
+#### Text ####
+Simulated golf games have been installed at airports in Denver and Pittsburgh
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+5250
+48
+____Arg1____
+5121..5242
+47
+#### Text ####
+Simulated golf games, in which players hit golf balls into nets, have been installed at airports in Denver and Pittsburgh
+##############
+____Arg2____
+5250..5373
+48
+#### Text ####
+The average cost for breakfast at a "decent" hotel restaurant in New York is $17.12, according to Corporate Travel magazine
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5375
+49
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+5250..5373
+48
+#### Text ####
+The average cost for breakfast at a "decent" hotel restaurant in New York is $17.12, according to Corporate Travel magazine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5375..5443
+49
+#### Text ####
+The cheapest, among 100 cities surveyed, was $5.11 in El Paso, Texas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,963 @@
+________________________________________________________
+____EntRel____
+210
+2
+____Arg1____
+86..208
+1
+#### Text ####
+The Small Business Administration has received more than 5,000 formal requests for disaster loans because of the hurricane
+##############
+____Arg2____
+210..377
+2
+#### Text ####
+About 45% of requests for SBA relief loans, which also are available to homeowners, come from small businesses, compared with a 25% business share after most disasters
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+260..264
+2,0,1,1,1,1,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+210..252;294..377
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1,0;2,0,1,1,1,1,0;2,0,1,1,1,1,1;2,0,1,1,1,1,3;2,1;2,2
+#### Text ####
+About 45% of requests for SBA relief loans come from small businesses, compared with a 25% business share after most disasters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+254..259;265..292
+2,0,1,1,1,1,2,0;2,0,1,1,1,1,2,1,0;2,0,1,1,1,1,2,1,2
+#### Text ####
+which are available to homeowners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+379
+3
+____Arg1____
+210..377
+2
+#### Text ####
+About 45% of requests for SBA relief loans, which also are available to homeowners, come from small businesses, compared with a 25% business share after most disasters
+##############
+____Arg2____
+379..443
+3
+#### Text ####
+The SBA expects to make about $1 billion in Hurricane Hugo loans
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+445
+4
+____Arg1____
+379..443
+3
+#### Text ####
+The SBA expects to make about $1 billion in Hurricane Hugo loans
+##############
+____Arg2____
+445..496
+4
+#### Text ####
+The disaster fund is replenished by loan repayments
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+642
+6
+____Arg1____
+500..640
+5
+#### Text ####
+Hardest hit by Hugo in South Carolina were small retailers tied to the tourist industry and businesses in agriculture and cultivated seafood
+##############
+____Arg2____
+642..727
+6
+#### Text ####
+The State Development Board set up a Hugo Hotline to accept business-to-business help
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+729
+7
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+642..727
+6
+#### Text ####
+The State Development Board set up a Hugo Hotline to accept business-to-business help
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+729..828
+7
+#### Text ####
+After NBC weather man Willard Scott broadcast the hot-line number, it was flooded with 10,000 calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+729..734
+7,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+796..828
+7,1;7,2;7,3;7,4
+#### Text ####
+it was flooded with 10,000 calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+735..794
+7,0,1
+#### Text ####
+NBC weather man Willard Scott broadcast the hot-line number
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+830
+8
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+729..828
+7
+#### Text ####
+After NBC weather man Willard Scott broadcast the hot-line number, it was flooded with 10,000 calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+830..955
+8
+#### Text ####
+Last week, the U.S. Chamber of Commerce began using its national TV show to seek help, such as equipment, for business owners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1022
+10
+____Arg1____
+959..1019
+9
+#### Text ####
+Local bankers and accountants help applicants fill out forms
+##############
+____Arg2____
+1022..1133
+10
+#### Text ####
+It helps us, and people feel better talking to someone who's gone through the same thing," an SBA official says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1035..1038
+10,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1113..1133
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+an SBA official says
+##############
+and, Expansion.Conjunction
+____Arg1____
+1022..1033
+10,1,0
+#### Text ####
+It helps us
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1039..1110
+10,1,3
+#### Text ####
+people feel better talking to someone who's gone through the same thing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1187..1194
+11,1,3,0;11,1,3,1
+#### Text ####
+even as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1137..1185
+11,0;11,1,0;11,1,1;11,1,2;11,2
+#### Text ####
+HEALTH BENEFITS remain a central lobbying effort
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1195..1211
+11,1,3,2
+#### Text ####
+Section 89 fades
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1227..1232
+12,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1215..1225;1293..1442
+12,0;12,1;12,3;12,4;12,5;12,6
+#### Text ####
+The Senate still is expected to join the House in voting to kill the law, which forces companies to provide comparable benefits to laborers and executives alike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1233..1291
+12,2,1
+#### Text ####
+deleting Section 89 repeal from its deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1293..1298
+12,4
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+1227..1291
+12,2
+#### Text ####
+after deleting Section 89 repeal from its deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1215..1225;1299..1354
+12,0;12,1;12,3;12,5,0;12,5,1,0;12,5,1,1,0;12,5,1,1,1,0;12,5,1,1,1,1,0;12,5,1,1,1,1,1;12,5,1,1,1,1,2,0;12,5,1,1,1,1,2,1,0;12,5,1,1,1,1,2,1,1,0;12,5,1,1,1,1,2,1,1,1,0;12,5,1,1,1,1,2,1,1,1,1,0;12,5,1,1,1,1,2,1,1,1,1,1,0;12,5,1,1,1,1,2,1,1,1,1,1,1,0;12,5,1,1,1,1,2,1,1,1,1,1,1,1;12,6
+#### Text ####
+The Senate is expected to join the House in voting to kill the law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1444
+13
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1215..1442
+12
+#### Text ####
+The Senate, after deleting Section 89 repeal from its deficit-reduction bill, still is expected to join the House in voting to kill the law, which forces companies to provide comparable benefits to laborers and executives alike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1444..1671
+13
+#### Text ####
+In lobbying on other health-coverage topics, the National Federation of Independent Business will press for legislation that would give self-employed people a 100% tax deduction for their own health plans, up from 25% currently
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1673..1676
+14,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1444..1671
+13
+#### Text ####
+In lobbying on other health-coverage topics, the National Federation of Independent Business will press for legislation that would give self-employed people a 100% tax deduction for their own health plans, up from 25% currently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1677..1800
+14,1;14,2;14,3
+#### Text ####
+the group will urge that the federal government pre-empt state rules on what must be covered by employers' health insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1826..1830
+15,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1673..1800
+14
+#### Text ####
+And the group will urge that the federal government pre-empt state rules on what must be covered by employers' health insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1804..1825;1831..1918
+15,0;15,2;15,3
+#### Text ####
+Small-business groups will fight the medical-leave provision of legislation that would expand parental leaves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1920..1923
+16,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1804..1918
+15
+#### Text ####
+Small-business groups also will fight the medical-leave provision of legislation that would expand parental leaves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1924..2102
+16,1;16,2;16,3;16,4
+#### Text ####
+they still oppose as too costly an employer-paid health insurance bill sponsored by Sen. Edward Kennedy (D., Mass.) despite his proposal to phase in small business only gradually
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2113..2117
+17,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1920..2102
+16
+#### Text ####
+And they still oppose as too costly an employer-paid health insurance bill sponsored by Sen. Edward Kennedy (D., Mass.) despite his proposal to phase in small business only gradually
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2104..2112;2118..2237
+17,0;17,1,0;17,1,2;17,2
+#### Text ####
+There is worry that the Pepper Commission studying long-term health care will again push lawmakers toward employerpaid solutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2239
+18
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2104..2237
+17
+#### Text ####
+There is also worry that the Pepper Commission studying long-term health care will again push lawmakers toward employerpaid solutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2239..2283
+18,0;18,1,0;18,1,1,0;18,1,1,1;18,2
+#### Text ####
+The Section 89 victory could have a downside
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2605..2610
+21,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+2561..2604
+21,0;21,1,0;21,1,1;21,2
+#### Text ####
+Sen. Lloyd Bentsen (D., Texas) was outraged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2611..2817
+21,1,2,1
+#### Text ####
+a private word to John Motley, lobbyist for the National Federation of Independent Business, resulted in a news release saying that the Senate Finance Committee chairman would recommend repeal of Section 89
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2819
+22
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2561..2817
+21
+#### Text ####
+Sen. Lloyd Bentsen (D., Texas) was outraged after a private word to John Motley, lobbyist for the National Federation of Independent Business, resulted in a news release saying that the Senate Finance Committee chairman would recommend repeal of Section 89
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2819..2915
+22
+#### Text ####
+Even though the announcement was true in the end, it was issued without the senator's permission
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2819..2830
+22,0,0;22,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+2869..2915
+22,1;22,2;22,3;22,4
+#### Text ####
+it was issued without the senator's permission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2831..2867
+22,0,2
+#### Text ####
+the announcement was true in the end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2918
+23
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2819..2915
+22
+#### Text ####
+Even though the announcement was true in the end, it was issued without the senator's permission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2918..2927
+23,1
+#### Text ####
+I blew it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2930..2960
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+Mr. Motley says apologetically
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2963
+24
+____Arg1____
+2918..2960
+23
+#### Text ####
+I blew it," Mr. Motley says apologetically
+##############
+____Arg2____
+2963..2986
+24
+#### Text ####
+It was a timing mistake
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3203
+27
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3010..3201
+26
+#### Text ####
+Sen. Strom Thurmond (R., S.C.) protests pending legislation to end the preference that the federal prison system gets in selling prisoner-made furniture and other goods to government agencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3203..3342
+27
+#### Text ####
+Small-business suppliers want prisons to stop getting high priority, especially as prison production grows with swelling inmate populations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3272..3285
+27,1,3,0;27,1,3,1
+#### Text ####
+especially as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+3203..3270
+27,0;27,1,0;27,1,1;27,1,2;27,2
+#### Text ####
+Small-business suppliers want prisons to stop getting high priority
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3286..3342
+27,1,3,2
+#### Text ####
+prison production grows with swelling inmate populations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3344
+28
+____Arg1____
+3203..3342
+27
+#### Text ####
+Small-business suppliers want prisons to stop getting high priority, especially as prison production grows with swelling inmate populations
+##############
+____Arg2____
+3344..3410
+28
+#### Text ####
+Last year, the prisons' sales to the Pentagon totaled $336 million
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3661
+31
+____Arg1____
+3486..3657
+30
+#### Text ####
+Groups representing some independent auto-repair shops join a compromise on the Clean Air legislation worked out between environmentalists and Rep. Henry Waxman (D., Calif
+##############
+____Arg2____
+3661..3795
+31
+#### Text ####
+The plan would increase the warranty on auto-emission systems to eight years or 80,000 miles from five years or 50,000 for major parts
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3797..3800
+32,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3661..3795
+31
+#### Text ####
+The plan would increase the warranty on auto-emission systems to eight years or 80,000 miles from five years or 50,000 for major parts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3801..3876
+32,1;32,2;32,3
+#### Text ####
+the warranty on simpler parts would be lowered to two years or 24,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3900
+33
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+3797..3876
+32
+#### Text ####
+But the warranty on simpler parts would be lowered to two years or 24,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3900..4020
+33,1,1
+#### Text ####
+they would benefit because car owners would be less likely to go back to dealers for the simpler repairs after two years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3878..3899
+33,0;33,1,0;33,2
+#### Text ####
+The garage owners say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3919..3926
+33,1,1,1,1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3878..3899
+33,0;33,1,0;33,2
+#### Text ####
+The garage owners say
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3900..3918
+33,1,1,0;33,1,1,1,0;33,1,1,1,1,0;33,1,1,1,1,1,0
+#### Text ####
+they would benefit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3927..4020
+33,1,1,1,1,1,1,1
+#### Text ####
+car owners would be less likely to go back to dealers for the simpler repairs after two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4056..4063
+34,1,2,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+3878..4020
+33
+#### Text ####
+The garage owners say they would benefit because car owners would be less likely to go back to dealers for the simpler repairs after two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4024..4054
+34,0;34,1,0;34,1,1;34,1,2,0;34,1,2,1;34,2
+#### Text ####
+The repair shops aren't united
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4065
+35
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4024..4063
+34
+#### Text ####
+The repair shops aren't united, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4065..4218
+35
+#### Text ####
+Shops represented by the Automotive Service Industry Association and the Motor Equipment Manufacturers Association oppose any increase in warranty length
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4220
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4065..4218
+35
+#### Text ####
+Shops represented by the Automotive Service Industry Association and the Motor Equipment Manufacturers Association oppose any increase in warranty length
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4220..4394
+36
+#### Text ####
+They say the longer the warranty, the longer customers will automatically return to new-car dealers, which then find non-warranty work that might otherwise go to repair shops
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4327..4331
+36,1,1,1,4,1,2,1,2,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4220..4228
+36,0;36,1,0;36,2
+#### Text ####
+They say
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4229..4319
+36,1,1,0;36,1,1,1,0;36,1,1,1,1;36,1,1,1,2;36,1,1,1,3;36,1,1,1,4,0;36,1,1,1,4,1,0;36,1,1,1,4,1,1;36,1,1,1,4,1,2,0;36,1,1,1,4,1,2,1,0;36,1,1,1,4,1,2,1,1
+#### Text ####
+the longer the warranty, the longer customers will automatically return to new-car dealers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4321..4326;4332..4394
+36,1,1,1,4,1,2,1,2,0;36,1,1,1,4,1,2,1,2,1,0;36,1,1,1,4,1,2,1,2,1,2
+#### Text ####
+which find non-warranty work that might otherwise go to repair shops
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4366..4375
+36,1,1,1,4,1,2,1,2,1,2,1,1,1,1,1
+#### Text ####
+otherwise
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4220..4228
+36,0;36,1,0;36,2
+#### Text ####
+They say
+##############
+otherwise, Expansion.Alternative.Disjunctive
+____Arg1____
+4321..4354
+36,1,1,1,4,1,2,1,2,0;36,1,1,1,4,1,2,1,2,1,0;36,1,1,1,4,1,2,1,2,1,1;36,1,1,1,4,1,2,1,2,1,2,0;36,1,1,1,4,1,2,1,2,1,2,1,0
+#### Text ####
+which then find non-warranty work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4355..4365;4376..4394
+36,1,1,1,4,1,2,1,2,1,2,1,1,0;36,1,1,1,4,1,2,1,2,1,2,1,1,1,0;36,1,1,1,4,1,2,1,2,1,2,1,1,1,1,0;36,1,1,1,4,1,2,1,2,1,2,1,1,1,1,2
+#### Text ####
+that might go to repair shops
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4396
+37
+____Arg1____
+4220..4394
+36
+#### Text ####
+They say the longer the warranty, the longer customers will automatically return to new-car dealers, which then find non-warranty work that might otherwise go to repair shops
+##############
+____Arg2____
+4396..4461
+37
+#### Text ####
+The House Energy Committee will debate the issue later this month
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4747..4750
+40,2
+#### Text ####
+yet
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4787..4854
+40,4;40,5;40,6;40,7;40,8
+#### Text ####
+says a survey by the Foster McKay Group, a New York recruiting firm
+##############
+yet, Comparison.Concession.Contra-expectation
+____Arg1____
+4698..4745
+40,0,1,1
+#### Text ####
+they'd prefer to work in or own a small company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4635..4697
+40,0,0;40,0,1,0
+#### Text ####
+Some 70% of graduates who recently earned an M.B.A. degree say
+##############
+____Arg2____
+4751..4785
+40,3
+#### Text ####
+most take jobs with large concerns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+4862
+41
+____Arg1____
+4635..4854
+40
+#### Text ####
+Some 70% of graduates who recently earned an M.B.A. degree say they'd prefer to work in or own a small company, yet most take jobs with large concerns, says a survey by the Foster McKay Group, a New York recruiting firm
+##############
+____Arg2____
+4862..5016
+41
+#### Text ####
+Cardinal Scientific Inc. of Waldorf, Md., seeks a Small Business Innovation Research grant to produce a "nozzle assembly for an Army mass delousing outfit
+##############
+________________________________________________________

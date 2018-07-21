@@ -1,0 +1,957 @@
+________________________________________________________
+____Explicit____
+101..105
+0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+31..97
+0,0,1
+#### Text ####
+that's pushing down the price of New York office space and housing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9..30;98..100;106..152
+0,0,0;0,1,0;0,1,2;0,2
+#### Text ####
+The real estate slump is affecting the city's retail real estate market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+208..211
+1,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+156..207
+1,0;1,1;1,2
+#### Text ####
+In Manhattan, once-desirable store sites sit vacant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+212..257
+1,4
+#### Text ####
+newly constructed space has been slow to fill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+290
+2
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+156..257
+1
+#### Text ####
+In Manhattan, once-desirable store sites sit vacant and newly constructed space has been slow to fill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+290..454
+2,1,1
+#### Text ####
+tenants are reluctant to sign leases because of uncertainty about the local economy, turmoil in their own industries and a belief that rents have not yet hit bottom
+##############
+#### Features ####
+Ot, Comm, Null, Null
+259..289
+2,0;2,1,0;2,2
+#### Text ####
+Retail real estate brokers say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+599
+4
+#### Features ####
+Ot, Comm, Null, Null
+512..597
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+says Faith Consolo, senior vice president at Garrick-Aug Associates Store Leasing Inc
+##############
+for example, Expansion.Instantiation
+____Arg1____
+459..509
+3,1
+#### Text ####
+There is an unbelievable amount of space available
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+599..684
+4
+#### Text ####
+There are about 2,000 stores for rent, up from a more typical range of 1,200 to 1,500
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+687
+5
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+599..684
+4
+#### Text ####
+There are about 2,000 stores for rent, up from a more typical range of 1,200 to 1,500
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+687..718
+5,1
+#### Text ####
+This further confuses retailers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+721..729
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+732
+6
+#### Features ####
+Ot, Comm, Null, Null
+721..729
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+she says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+687..718
+5,1
+#### Text ####
+This further confuses retailers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+732..800
+6
+#### Text ####
+They wonder should they sign a lease if prices are still coming down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+769..771
+6,2,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+732..743
+6,0;6,1;6,2,0
+#### Text ####
+They wonder
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+744..768
+6,2,1,0;6,2,1,1;6,2,1,2;6,2,1,4
+#### Text ####
+should they sign a lease
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+772..800
+6,2,1,3,1
+#### Text ####
+prices are still coming down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+802
+7
+#### Features ####
+Ot, Comm, Null, Null
+721..729
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+she says
+##############
+and, Expansion.List
+____Arg1____
+732..800
+6
+#### Text ####
+They wonder should they sign a lease if prices are still coming down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+802..840
+7
+#### Text ####
+Is this the wrong time to open a store
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+842
+8
+#### Features ####
+Ot, Comm, Null, Null
+721..729
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+she says
+##############
+and, Expansion.List
+____Arg1____
+732..840
+6;7
+#### Text ####
+They wonder should they sign a lease if prices are still coming down?
+Is this the wrong time to open a store
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+842..883
+8
+#### Text ####
+Who is going to be in the space next door
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+888..899
+9,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+901..917
+9,1
+#### Text ####
+Ms. Consolo says
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+459..509
+3,1
+#### Text ####
+There is an unbelievable amount of space available
+##############
+#### Features ####
+Ot, Comm, Null, Null
+512..597
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+says Faith Consolo, senior vice president at Garrick-Aug Associates Store Leasing Inc
+##############
+____Arg2____
+919..1031
+9,2;9,3;9,4;9,5
+#### Text ####
+tenants usually can negotiate to pay rents that are about one-quarter lower than landlords' initial asking price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1193..1196
+11,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1035..1191
+10
+#### Text ####
+A handful of hot retail locations, such as the 57th Street and Madison and Fifth Avenue areas, have been able to sustain what many see as astronomical rents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1198..1252
+11,1;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+in some neighborhoods, rents have merely hit a plateau
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1254..1257
+12,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1347..1358
+12,1;12,2;12,3;12,4
+#### Text ####
+experts say
+##############
+but, Comparison.Contrast
+____Arg1____
+1035..1252
+10;11
+#### Text ####
+A handful of hot retail locations, such as the 57th Street and Madison and Fifth Avenue areas, have been able to sustain what many see as astronomical rents.
+And, in some neighborhoods, rents have merely hit a plateau
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1258..1345
+12,0,1;12,0,2;12,0,3;12,0,4
+#### Text ####
+on average, Manhattan retail rents have dropped 10% to 15% in the past six months alone
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1360
+13
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1254..1345
+12,0
+#### Text ####
+But on average, Manhattan retail rents have dropped 10% to 15% in the past six months alone
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1347..1358
+12,1;12,2;12,3;12,4
+#### Text ####
+experts say
+##############
+____Arg2____
+1360..1418
+13,0;13,1,0;13,1,1,0;13,1,1,1;13,1,1,2;13,2
+#### Text ####
+That follows a more subtle decline in the prior six months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1420..1425
+13,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1360..1418
+13,0;13,1,0;13,1,1,0;13,1,1,1;13,1,1,2;13,2
+#### Text ####
+That follows a more subtle decline in the prior six months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1426..1471
+13,1,1,3,1
+#### Text ####
+Manhattan rents had run up rapidly since 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1551
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1475..1548
+14
+#### Text ####
+The same factors limiting demand for office space have affected retailing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1551..1646
+15,1
+#### Text ####
+As businesses contract or depart, the number of employees who might use retail services shrinks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1649..1717
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+says Edward A. Friedman, senior vice president of Helmsley Spear Inc
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1551..1553
+15,1,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1649..1717
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+says Edward A. Friedman, senior vice president of Helmsley Spear Inc
+##############
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+1585..1646
+15,1,1;15,1,2;15,1,3
+#### Text ####
+the number of employees who might use retail services shrinks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1554..1583
+15,1,0,1
+#### Text ####
+businesses contract or depart
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1881
+17
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1721..1797;1847..1879
+16,0;16,1,0;16,1,1,0;16,1,1,1,0,0;16,1,1,1,0,1,0;16,1,1,1,0,1,1,0;16,1,1,1,0,1,1,1,0;16,1,1,1,0,1,1,1,2;16,1,1,1,1;16,2
+#### Text ####
+He says financial problems plaguing electronics, fur and furniture companies have further deflated the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1881..1972
+17
+#### Text ####
+Hardest hit are what he calls "secondary" sites that primarily serve neighborhood residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1974
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1881..1972
+17
+#### Text ####
+Hardest hit are what he calls "secondary" sites that primarily serve neighborhood residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1974..1992;2014..2127
+18,0;18,2;18,3;18,4;18,5;18,6;18,7
+#### Text ####
+In these locations Retailers are increasingly cautious about expanding and rents have remained steady or in some cases have declined
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1994..2011
+18,1
+#### Text ####
+Mr. Friedman says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2066..2069
+18,4
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1974..2011
+18,0;18,1;18,2
+#### Text ####
+In these locations, Mr. Friedman says
+##############
+and, Expansion.Conjunction
+____Arg1____
+2014..2065
+18,3
+#### Text ####
+Retailers are increasingly cautious about expanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2070..2127
+18,5
+#### Text ####
+rents have remained steady or in some cases have declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2130
+19
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1974..1992;2014..2127
+18,0;18,2;18,3;18,4;18,5;18,6;18,7
+#### Text ####
+In these locations Retailers are increasingly cautious about expanding and rents have remained steady or in some cases have declined
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1994..2011
+18,1
+#### Text ####
+Mr. Friedman says
+##############
+____Arg2____
+2130..2242
+19
+#### Text ####
+Weakness in the restaurant industry, which is leaving retail space vacant, exacerbates the problem for landlords
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2252..2256
+20,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2130..2165;2205..2242
+19,0,0;19,0,1,0;19,0,1,1,0;19,0,1,1,1;19,1;19,2
+#### Text ####
+Weakness in the restaurant industry exacerbates the problem for landlords
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2246..2251;2257..2353;2390..2402
+20,0;20,1,0;20,1,2;20,1,3,0;20,1,3,1,0,0;20,1,3,1,0,1,0;20,1,3,1,0,1,1,0;20,1,3,1,0,1,1,1;20,1,3,1,0,1,1,3;20,1,3,1,1;20,2
+#### Text ####
+It is no comfort to landlords and small New York retailers when the future of larger department stores are in doubt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2310..2314
+20,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2246..2309
+20,0;20,1,0;20,1,1;20,1,2;20,2
+#### Text ####
+It is also no comfort to landlords and small New York retailers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2315..2402
+20,1,3,1
+#### Text ####
+the future of larger department stores, which anchor retail neighborhoods, are in doubt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2404
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2246..2402
+20
+#### Text ####
+It is also no comfort to landlords and small New York retailers when the future of larger department stores, which anchor retail neighborhoods, are in doubt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2404..2551
+21
+#### Text ####
+Hooker Corp., parent of Bonwit Teller and B. Altman's, is mired in bankruptcy proceedings and Bloomingdale's is for sale by its owner, Campeau Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2494..2497
+21,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2404..2493
+21,0
+#### Text ####
+Hooker Corp., parent of Bonwit Teller and B. Altman's, is mired in bankruptcy proceedings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2498..2551
+21,2
+#### Text ####
+Bloomingdale's is for sale by its owner, Campeau Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2711..2714
+23,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2555..2709
+22
+#### Text ####
+The trend toward lower rents may seem surprising given that some communities in New York are bemoaning the loss of favorite local businesses to high rents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2716..2878
+23,1;23,2;23,3;23,4;23,5;23,6;23,7
+#### Text ####
+despite the recent softening, for many of these retailers there's still been too big a jump from the rental rates of the late 1970s, when their leases were signed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2955
+25
+#### Features ####
+Wr, Comm, Null, Null
+on the contrary, Comparison.Contrast.Opposition
+____Arg1____
+2882..2953
+24
+#### Text ####
+Certainly, the recent drop in prices doesn't mean Manhattan comes cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2955..3033
+25
+#### Text ####
+New York retail rents still run well above the going rate in other U.S. cities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3035
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2955..3033
+25
+#### Text ####
+New York retail rents still run well above the going rate in other U.S. cities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3035..3127
+26,0
+#### Text ####
+Madison and Fifth Avenues and East 57th Street can command rents of up to $500 a square foot
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3129..3132
+26,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3035..3127
+26,0
+#### Text ####
+Madison and Fifth Avenues and East 57th Street can command rents of up to $500 a square foot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3133..3153
+26,3
+#### Text ####
+$250 is not uncommon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3155
+27
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+3035..3153
+26
+#### Text ####
+Madison and Fifth Avenues and East 57th Street can command rents of up to $500 a square foot, and $250 is not uncommon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3155..3281
+27
+#### Text ####
+The thriving 34th Street area offers rents of about $100 a square foot, as do up-and-coming locations along lower Fifth Avenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3283..3294
+28,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+3035..3281
+26;27
+#### Text ####
+Madison and Fifth Avenues and East 57th Street can command rents of up to $500 a square foot, and $250 is not uncommon.
+The thriving 34th Street area offers rents of about $100 a square foot, as do up-and-coming locations along lower Fifth Avenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3296..3399
+28,1;28,2;28,3;28,4;28,5
+#### Text ####
+rentals in the best retail locations in Boston, San Francisco and Chicago rarely top $100 a square foot
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3401..3404
+29,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3283..3399
+28
+#### Text ####
+By contrast, rentals in the best retail locations in Boston, San Francisco and Chicago rarely top $100 a square foot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3405..3488
+29,1;29,2;29,3;29,4
+#### Text ####
+rents on Beverly Hills' Rodeo Drive generally don't exceed about $125 a square foot
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3664
+32
+____Arg1____
+3581..3662
+31
+#### Text ####
+Precision Castparts Corp., Portland, Ore., will begin trading with the symbol PCP
+##############
+____Arg2____
+3664..3724
+32
+#### Text ####
+It makes investment castings and has traded over-the-counter
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3906
+34
+____Arg1____
+3728..3904
+33
+#### Text ####
+Royal Bank of Scotland Group PLC, an Edinburgh, Scotland, financial services company, will list American depositary shares, representing preferred shares, with the symbol RBSPr
+##############
+____Arg2____
+3906..3975
+34
+#### Text ####
+It will continue to trade on the International Stock Exchange, London
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4164
+37
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+4041..4162
+36
+#### Text ####
+AIM Telephones Inc., a Parsippany, N.J., telecommunications equipment supply company, started trading with the symbol AIM
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4164..4194
+37
+#### Text ####
+It had traded over-the-counter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4268
+39
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+4198..4266
+38
+#### Text ####
+Columbia Laboratories Inc., Miami, began trading with the symbol COB
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4268..4321
+39
+#### Text ####
+The pharmaceuticals maker had traded over-the-counter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

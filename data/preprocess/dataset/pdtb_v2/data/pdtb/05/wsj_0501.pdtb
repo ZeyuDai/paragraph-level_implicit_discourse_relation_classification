@@ -1,0 +1,821 @@
+________________________________________________________
+____Explicit____
+89..92
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+9..87
+0
+#### Text ####
+Japanese companies have long been accused of sacrificing profit to boost sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+93..146
+1,1;1,2;1,3
+#### Text ####
+Fujitsu Ltd. has taken that practice to a new extreme
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+303
+3
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+150..301
+2
+#### Text ####
+Japan's biggest computer maker last week undercut seven competitors to win a contract to design a mapping system for the city of Hiroshima's waterworks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+303..346
+3
+#### Text ####
+Its bid: one yen, or less than a U.S. penny
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+447
+5
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+379..444
+4,1,1,1
+#### Text ####
+that Fujitsu said it is now offering to withdraw from the project
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+447..508
+5,1
+#### Text ####
+From a common-sense viewpoint, it was not socially acceptable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+511..547
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+a Fujitsu spokeswoman said yesterday
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+549
+6
+____Arg1____
+447..547
+5
+#### Text ####
+From a common-sense viewpoint, it was not socially acceptable," a Fujitsu spokeswoman said yesterday
+##############
+____Arg2____
+549..643
+6
+#### Text ####
+Hiroshima city officials couldn't be reached to find out whether they would drop Fujitsu's bid
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+682..689
+7,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+647..659
+7,0;7,1,0;7,2
+#### Text ####
+Fujitsu said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+660..681
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1
+#### Text ####
+it issued the low bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+690..752
+7,1,1,1,1,2,1
+#### Text ####
+it wanted a foot in the door of a potentially lucrative market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+792..799
+8,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+834..862
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the Fujitsu spokeswoman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+757..791
+8,1,0;8,1,1,0;8,1,1,1;8,1,1,2
+#### Text ####
+We desperately wanted the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+800..831
+8,1,1,3,1
+#### Text ####
+we want experience in the field
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+865
+9
+#### Features ####
+Ot, Comm, Null, Null
+834..862
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the Fujitsu spokeswoman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+792..831
+8,1,1,3
+#### Text ####
+because we want experience in the field
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+865..901
+9,0;9,1;9,2,0;9,2,1;9,2,2;9,2,3;9,3
+#### Text ####
+We expect a big market in the future
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+903..905
+9,2,4,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+834..862
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the Fujitsu spokeswoman said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+865..901
+9,0;9,1;9,2,0;9,2,1;9,2,2;9,2,3;9,3
+#### Text ####
+We expect a big market in the future
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+906..944
+9,2,4,1
+#### Text ####
+in the long term it will be profitable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+946
+10
+#### Features ####
+Ot, Comm, Null, Null
+834..862
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the Fujitsu spokeswoman said
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+865..944
+9
+#### Text ####
+We expect a big market in the future, so in the long term it will be profitable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+946..974
+10
+#### Text ####
+It's a kind of an investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1101
+12
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1014..1098
+11,1,1
+#### Text ####
+the municipal government had budgeted about 11 million yen ($77,500) for the project
+##############
+#### Features ####
+Ot, Comm, Null, Null
+979..1013
+11,0;11,1,0;11,2
+#### Text ####
+Hiroshima's waterworks bureau said
+##############
+____Arg2____
+1101..1120
+12,1
+#### Text ####
+I was flabbergasted
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1123..1203
+12,0;12,2;12,3;12,4;12,5;12,6;12,7
+#### Text ####
+Tatsuhara Yamane, head of the bureau, was quoted by Kyodo news service as saying
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1206
+13
+#### Features ####
+Ot, Comm, Null, Null
+1123..1203
+12,0;12,2;12,3;12,4;12,5;12,6;12,7
+#### Text ####
+Tatsuhara Yamane, head of the bureau, was quoted by Kyodo news service as saying
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1101..1120
+12,1
+#### Text ####
+I was flabbergasted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1206..1346
+13
+#### Text ####
+I understand the firm's enthusiasm in getting the deal, but such a large company would have been better off showing a little more discretion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1262..1265
+13,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1197..1203
+12,6,1,3,1
+#### Text ####
+saying
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1206..1260
+13,1
+#### Text ####
+I understand the firm's enthusiasm in getting the deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1266..1346
+13,4
+#### Text ####
+such a large company would have been better off showing a little more discretion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1351..1357
+14,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+1206..1346
+13
+#### Text ####
+I understand the firm's enthusiasm in getting the deal, but such a large company would have been better off showing a little more discretion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1197..1203
+12,6,1,3,1
+#### Text ####
+saying
+##############
+____Arg2____
+1359..1425
+14,1;14,2;14,3;14,4
+#### Text ####
+Fujitsu officials admitted they may have been a little overzealous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1456
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1386..1425
+14,3,1
+#### Text ####
+they may have been a little overzealous
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1351..1385
+14,0;14,1;14,2;14,3,0;14,4
+#### Text ####
+Indeed, Fujitsu officials admitted
+##############
+____Arg2____
+1456..1585
+15,1,1
+#### Text ####
+headquarter officials didn't approve the bid in advance and will take measures so this kind of thing doesn't happen in the future
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1427..1455
+15,0;15,1,0;15,2
+#### Text ####
+The Fujitsu spokeswoman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1535..1537
+15,1,1,1,1,2,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1427..1455
+15,0;15,1,0;15,2
+#### Text ####
+The Fujitsu spokeswoman said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1512..1534
+15,1,1,1,1,1;15,1,1,1,1,2,0;15,1,1,1,1,2,1,0;15,1,1,1,1,2,1,1
+#### Text ####
+and will take measures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1538..1585
+15,1,1,1,1,2,1,2,1
+#### Text ####
+this kind of thing doesn't happen in the future
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1588
+16
+#### Features ####
+Ot, Comm, Null, Null
+1620..1629
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+she added
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1512..1585
+15,1,1,1,1,1;15,1,1,1,1,2
+#### Text ####
+and will take measures so this kind of thing doesn't happen in the future
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1427..1455
+15,0;15,1,0;15,2
+#### Text ####
+The Fujitsu spokeswoman said
+##############
+____Arg2____
+1588..1617
+16,1
+#### Text ####
+It's contrary to common sense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1633..1645
+17,0
+#### Text ####
+Specifically
+##############
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+218..301
+2,2,2
+#### Text ####
+to win a contract to design a mapping system for the city of Hiroshima's waterworks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1647..1770
+17,1;17,2;17,3;17,4
+#### Text ####
+Fujitsu won the right to design the specifications for a computerized system that will show water lines throughout the city
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1772
+18
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1724..1770
+17,3,1,2,1,1,1,1,1,1
+#### Text ####
+that will show water lines throughout the city
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1772..1859
+18
+#### Text ####
+The system could be used in a fire or earthquake to locate problems, among other things
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1929..1931
+19,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1863..1889
+19,0;19,1,0;19,2
+#### Text ####
+A waterworks official said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1890..1928
+19,1,1,0;19,1,1,1,0;19,1,1,1,1,0;19,1,1,1,1,1,0;19,1,1,1,1,1,1,0;19,1,1,1,1,1,1,1,0;19,1,1,1,1,1,1,1,1,0;19,1,1,1,1,1,1,1,1,1
+#### Text ####
+Fujitsu will have to design the system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1932..1983
+19,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+it would be compatible with other makers' equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1985..1988
+20,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1863..1983
+19
+#### Text ####
+A waterworks official said Fujitsu will have to design the system so it would be compatible with other makers' equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1989..2119
+20,1;20,2;20,3
+#### Text ####
+industry officials expressed concern that the initial project might give Fujitsu an edge in winning more lucrative contracts later
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2221
+22
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+2145..2219
+21,1,1,1,1,1
+#### Text ####
+the Hiroshima contract will help it secure pacts with other municipalities
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2136..2144
+21,1,1,0;21,1,1,1,0;21,1,1,1,1,0
+#### Text ####
+it hopes
+##############
+____Arg2____
+2221..2391
+22
+#### Text ####
+Japanese local governments are expected to invest heavily in computer systems over the next few years, and many companies expect that field to provide substantial revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2324..2327
+22,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2221..2322
+22,0
+#### Text ####
+Japanese local governments are expected to invest heavily in computer systems over the next few years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2328..2391
+22,3
+#### Text ####
+many companies expect that field to provide substantial revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2394
+23
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+2261..2391
+22,0,1,1,1;22,1;22,2;22,3;22,4
+#### Text ####
+to invest heavily in computer systems over the next few years, and many companies expect that field to provide substantial revenue
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+2221..2260
+22,0,0;22,0,1,0;22,0,1,1,0
+#### Text ####
+Japanese local governments are expected
+##############
+____Arg2____
+2394..2491
+23,0
+#### Text ####
+In the near future, it will be a big market, not just for waterworks, but for all mapping systems
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2494..2522
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+the Fujitsu spokeswoman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2525
+24
+#### Features ####
+Ot, Comm, Null, Null
+2494..2522
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+the Fujitsu spokeswoman said
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2394..2491
+23,0
+#### Text ####
+In the near future, it will be a big market, not just for waterworks, but for all mapping systems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2525..2575
+24
+#### Text ####
+We can expect a hundreds-of-billions-of-yen market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2656..2659
+26,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Pragmatic contrast
+____Arg1____
+2580..2654
+25
+#### Text ####
+No foreign companies bid on the Hiroshima project, according to the bureau
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2631..2654
+25,1,2;25,1,3;25,2
+#### Text ####
+according to the bureau
+##############
+____Arg2____
+2660..2777
+26,1;26,2;26,3;26,4
+#### Text ####
+the Japanese practice of deep discounting often is cited by Americans as a classic barrier to entry in Japan's market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2779
+27
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2656..2777
+26
+#### Text ####
+But the Japanese practice of deep discounting often is cited by Americans as a classic barrier to entry in Japan's market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2779..2951
+27
+#### Text ####
+Earlier this year, the U.S. complained that Japan's supercomputer makers were effectively closing out foreign competitors by slashing prices as much as 90% for universities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3031
+29
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2955..3029
+28
+#### Text ####
+Fujitsu wasn't the only company willing to sacrifice profit on the project
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3031..3134
+29
+#### Text ####
+Three competitors bid between 300,000 yen and 500,000 yen, according to the Hiroshima government office
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3090..3134
+29,1,2;29,1,3;29,2
+#### Text ####
+according to the Hiroshima government office
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3136
+30
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+3031..3134
+29
+#### Text ####
+Three competitors bid between 300,000 yen and 500,000 yen, according to the Hiroshima government office
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3090..3134
+29,1,2;29,1,3;29,2
+#### Text ####
+according to the Hiroshima government office
+##############
+____Arg2____
+3136..3197
+30
+#### Text ####
+Other bids ranged from about 10 million yen to 29 million yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

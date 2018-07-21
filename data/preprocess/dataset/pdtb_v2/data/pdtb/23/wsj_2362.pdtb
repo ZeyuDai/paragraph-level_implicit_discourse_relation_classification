@@ -1,0 +1,665 @@
+________________________________________________________
+____EntRel____
+396
+2
+____Arg1____
+208..231;267..394
+1,0,0;1,0,1;1,0,3;1,1;1,2
+#### Text ####
+The 50-50 joint venture would have combined annual sales of at least #1.4 billion ($2.17 billion) and would be among the world's largest missile makers
+##############
+____Arg2____
+396..535
+2
+#### Text ####
+After two years of talks, plans for the venture are sufficiently advanced for the companies to seek French and British government clearance
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+537
+3
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+396..535
+2
+#### Text ####
+After two years of talks, plans for the venture are sufficiently advanced for the companies to seek French and British government clearance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+537..589
+3
+#### Text ####
+The companies hope for a final agreement by year-end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+742
+5
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+593..740
+4
+#### Text ####
+The venture would strengthen the rapidly growing ties between the two companies, and help make them a leading force in European defense contracting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+742..880
+5
+#### Text ####
+In recent months, a string of cross-border mergers and joint ventures have reshaped the once-balkanized world of European arms manufacture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1042
+7
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+884..1040
+6
+#### Text ####
+Already, British Aerospace and French government-controlled Thomson-CSF collaborate on a British missile contract and on an air-traffic control radar system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1042..1226
+7
+#### Text ####
+Just last week they announced they may make a joint bid to buy Ferranti International Signal PLC, a smaller British defense contractor rocked by alleged accounting fraud at a U.S. unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1437
+9
+____Arg1____
+1230..1435
+8
+#### Text ####
+The sudden romance of British Aerospace and Thomson-CSF -- traditionally bitter competitors for Middle East and Third World weapons contracts -- is stirring controversy in Western Europe's defense industry
+##############
+____Arg2____
+1437..1606
+9
+#### Text ####
+Most threatened by closer British Aerospace-Thomson ties would be their respective national rivals, including Matra S.A. in France and Britain's General Electric Co. PLC
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1608..1611
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1437..1606
+9
+#### Text ####
+Most threatened by closer British Aerospace-Thomson ties would be their respective national rivals, including Matra S.A. in France and Britain's General Electric Co. PLC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1612..1751
+10,1;10,2;10,3
+#### Text ####
+neither Matra nor GEC -- unrelated to Stamford, Conn.-based General Electric Co. -- are sitting quietly by as their competitors join forces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1719..1721
+10,2,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1608..1718
+10,0;10,1;10,2,0;10,2,1,0;10,2,1,1;10,2,1,2;10,3
+#### Text ####
+But neither Matra nor GEC -- unrelated to Stamford, Conn.-based General Electric Co. -- are sitting quietly by
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1722..1751
+10,2,1,3,1
+#### Text ####
+their competitors join forces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1935
+12
+____Arg1____
+1755..1933
+11
+#### Text ####
+Yesterday, a source close to GEC confirmed that his company may join the Ferranti fight, as part of a possible consortium that would bid against British Aerospace and Thomson-CSF
+##############
+____Arg2____
+1935..2111
+12
+#### Text ####
+Companies with which GEC has had talks about a possible joint Ferranti bid include Matra, Britain's Dowty Group PLC, West Germany's Daimler-Benz AG, and France's Dassault group
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2115..2118
+13,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2196..2216
+13,1;13,2;13,3;13,4
+#### Text ####
+the source indicated
+##############
+but, Comparison.Contrast
+____Sup1____
+1935..2111
+12
+#### Text ####
+Companies with which GEC has had talks about a possible joint Ferranti bid include Matra, Britain's Dowty Group PLC, West Germany's Daimler-Benz AG, and France's Dassault group
+##############
+____Arg1____
+1798..1933
+11,3,1
+#### Text ####
+that his company may join the Ferranti fight, as part of a possible consortium that would bid against British Aerospace and Thomson-CSF
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1755..1797
+11,0;11,1;11,2;11,3,0;11,4
+#### Text ####
+Yesterday, a source close to GEC confirmed
+##############
+____Arg2____
+2119..2194
+13,0,1;13,0,2
+#### Text ####
+it may be weeks before GEC and its potential partners decide whether to bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2218
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2115..2194
+13,0
+#### Text ####
+But it may be weeks before GEC and its potential partners decide whether to bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2196..2216
+13,1;13,2;13,3;13,4
+#### Text ####
+the source indicated
+##############
+____Arg2____
+2218..2272
+14,0;14,1,0;14,1,1;14,1,2,0;14,1,2,1,0;14,1,2,1,1,0;14,1,2,1,1,1,0;14,1,2,1,1,1,1;14,2
+#### Text ####
+GEC plans first to study Ferranti's financial accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2441..2445
+15,0,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2115..2194
+13,0
+#### Text ####
+But it may be weeks before GEC and its potential partners decide whether to bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2196..2216
+13,1;13,2;13,3;13,4
+#### Text ####
+the source indicated
+##############
+____Arg2____
+2447..2507
+15,0,1;15,0,2;15,0,3
+#### Text ####
+any GEC bid might be blocked by British antitrust regulators
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2509
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2441..2507
+15,0
+#### Text ####
+Also, any GEC bid might be blocked by British antitrust regulators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2509..2712
+15,2
+#### Text ####
+Ferranti is GEC's main competitor on several key defense-electronics contracts, and its purchase by GEC may heighten British Defense Ministry worries about concentration in the country's defense industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2589..2592
+15,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2509..2587
+15,2,0
+#### Text ####
+Ferranti is GEC's main competitor on several key defense-electronics contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2593..2712
+15,2,3
+#### Text ####
+its purchase by GEC may heighten British Defense Ministry worries about concentration in the country's defense industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2732..2739
+16,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2509..2712
+15,2
+#### Text ####
+Ferranti is GEC's main competitor on several key defense-electronics contracts, and its purchase by GEC may heighten British Defense Ministry worries about concentration in the country's defense industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2714..2730;2741..2835
+16,0;16,1;16,3;16,4;16,5
+#### Text ####
+A consortium bid would diminish GEC's direct role in Ferranti and might consequently appease ministry officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2796..2808
+16,4,2,1
+#### Text ####
+consequently
+##############
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2714..2785
+16,0;16,1;16,2;16,3;16,4,0
+#### Text ####
+A consortium bid, however, would diminish GEC's direct role in Ferranti
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2786..2795;2809..2835
+16,4,1;16,4,2,0;16,4,2,2;16,5
+#### Text ####
+and might appease ministry officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3078
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3044..3075
+18,1,1
+#### Text ####
+it isn't interested in Ferranti
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2993..3043
+18,0;18,1,0;18,2
+#### Text ####
+At least one potential GEC partner, Matra, insists
+##############
+____Arg2____
+3078..3175
+19
+#### Text ####
+We have nothing to say about this affair, which doesn't concern us," a Matra official said Sunday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3310
+21
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3179..3198;3240..3308
+20,0;20,2;20,3
+#### Text ####
+The missile venture is a needed response to the "new environment" in defense contracting
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3200..3238
+20,1
+#### Text ####
+the British Aerospace spokeswoman said
+##############
+____Arg2____
+3310..3455
+21,0
+#### Text ####
+For both Thomson and British Aerospace, earnings in their home markets have come under pressure from increasingly tight-fisted defense ministries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3457..3460
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3310..3455
+21,0
+#### Text ####
+For both Thomson and British Aerospace, earnings in their home markets have come under pressure from increasingly tight-fisted defense ministries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3461..3579
+21,3
+#### Text ####
+Middle East sales, a traditional mainstay for both companies' exports, have been hurt by five years of weak oil prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3644
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3583..3628
+22
+#### Text ####
+The venture's importance for Thomson is great
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3644..3731
+23,1,1
+#### Text ####
+the future of its defense business depends on building cooperation with other Europeans
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3630..3643
+23,0;23,1,0;23,2
+#### Text ####
+Thomson feels
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3733
+24
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3644..3731
+23,1,1
+#### Text ####
+the future of its defense business depends on building cooperation with other Europeans
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3630..3643
+23,0;23,1,0;23,2
+#### Text ####
+Thomson feels
+##############
+____Arg2____
+3733..3779
+24,0
+#### Text ####
+The European defense industry is consolidating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3781..3793
+24,2,0
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3733..3779
+24,0
+#### Text ####
+The European defense industry is consolidating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3795..3948
+24,2,1;24,2,2;24,2,3;24,2,4;24,2,5
+#### Text ####
+West Germany's Siemens AG recently joined GEC in a takeover of Britain's Plessey Co., and Daimler-Benz agreed to buy Messerschmitt-Boelkow Blohm G.m.b.
+H
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3881..3884
+24,2,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3781..3878
+24,2,0;24,2,1;24,2,2;24,2,3
+#### Text ####
+for instance, West Germany's Siemens AG recently joined GEC in a takeover of Britain's Plessey Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3885..3948
+24,2,5
+#### Text ####
+Daimler-Benz agreed to buy Messerschmitt-Boelkow Blohm G.m.b.
+H
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4069
+25
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+3952..4066
+25,0
+#### Text ####
+In missiles, Thomson is already overshadowed by British Aerospace and by its home rival, France's Aerospatiale S.A
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4069..4086;4111..4134
+25,2,0;25,2,2;25,2,3
+#### Text ####
+to better compete they need a partnership
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4088..4109
+25,2,1
+#### Text ####
+Thomson officials say
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4136
+26
+____Arg1____
+4069..4134
+25,2
+#### Text ####
+to better compete, Thomson officials say, they need a partnership
+##############
+____Arg2____
+4136..4241
+26
+#### Text ####
+To justify 50-50 ownership of the planned venture, Thomson would make a cash payment to British Aerospace
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4349
+28
+____Arg1____
+4245..4347
+27
+#### Text ####
+Annual revenue of British Aerospace's missile business is about #950 million, a Thomson spokesman said
+##############
+____Arg2____
+4349..4456
+28
+#### Text ####
+British Aerospace's chief missile products include its 17-year-old family of Rapier surface-to-air missiles
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4458
+29
+____Arg1____
+4349..4456
+28
+#### Text ####
+British Aerospace's chief missile products include its 17-year-old family of Rapier surface-to-air missiles
+##############
+____Arg2____
+4458..4585
+29
+#### Text ####
+Thomson missile products, with about half British Aerospace's annual revenue, include the Crotale surface-to-air missile family
+##############
+________________________________________________________

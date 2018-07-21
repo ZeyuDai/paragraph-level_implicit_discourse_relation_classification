@@ -1,0 +1,1458 @@
+________________________________________________________
+____Implicit____
+47
+1
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+9..45
+0
+#### Text ####
+The commercial was absolutely silent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+47..226
+1
+#### Text ####
+Breaking into the raucous Chicago Bears-Cleveland Browns match during last week's Monday night football game, it was nothing but simple block letters superimposed on the TV screen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+373
+3
+____Arg1____
+231..371
+2
+#### Text ####
+Due to the earthquake in San Francisco, Nissan is donating its commercial air time to broadcast American Red Cross Emergency Relief messages
+##############
+____Arg2____
+373..417
+3
+#### Text ####
+Please contribute what you can," the ad said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+419
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+373..417
+3
+#### Text ####
+Please contribute what you can," the ad said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+419..469
+4,0
+#### Text ####
+The Nissan logo flashed on the screen for a moment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+471..474
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+419..469
+4,0
+#### Text ####
+The Nissan logo flashed on the screen for a moment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+475..540
+4,3,0;4,3,1;4,3,2;4,3,3
+#### Text ####
+then came a taped plea for donations from former President Reagan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+475..479
+4,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+419..469
+4,0
+#### Text ####
+The Nissan logo flashed on the screen for a moment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+471..474;480..540
+4,2;4,3,1;4,3,2;4,3,3;4,4
+#### Text ####
+and came a taped plea for donations from former President Reagan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+604
+5
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+419..602
+4
+#### Text ####
+The Nissan logo flashed on the screen for a moment, and then came a taped plea for donations from former President Reagan -- followed by the silent print telling viewers where to call
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+604..687
+5
+#### Text ####
+Within two hours, viewers pledged over $400,000, according to a Red Cross executive
+##############
+#### Features ####
+Ot, Comm, Null, Null
+653..687
+5,3,1,1;5,3,2;5,3,3;5,4
+#### Text ####
+according to a Red Cross executive
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+719
+7
+____Arg1____
+691..717
+6
+#### Text ####
+Call it disaster marketing
+##############
+____Arg2____
+719..854
+7
+#### Text ####
+Nissan Motor is just one of a slew of advertisers that have hitched their ads to the devastating San Francisco quake and Hurricane Hugo
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+856
+8
+____Arg1____
+719..854
+7
+#### Text ####
+Nissan Motor is just one of a slew of advertisers that have hitched their ads to the devastating San Francisco quake and Hurricane Hugo
+##############
+____Arg2____
+856..897
+8,0
+#### Text ####
+Sometimes, the ads attempt to raise money
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+899
+8
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+856..897
+8,0
+#### Text ####
+Sometimes, the ads attempt to raise money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+899..934
+8,2
+#### Text ####
+always, they try to boost good will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+936
+9
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+899..934
+8,2
+#### Text ####
+always, they try to boost good will
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+936..1033
+9
+#### Text ####
+By advertising disaster relief, these companies are hoping to don a white hat and come out a hero
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1035..1038
+10,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+936..1033
+9
+#### Text ####
+By advertising disaster relief, these companies are hoping to don a white hat and come out a hero
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1039..1064
+10,0,1;10,0,2
+#### Text ####
+the strategy can backfire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1066..1184
+10,2
+#### Text ####
+if the ads appear too self-serving, the companies may end up looking like rank opportunists instead of good Samaritans
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1066
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1035..1064
+10,0
+#### Text ####
+But the strategy can backfire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1066..1184
+10,2
+#### Text ####
+if the ads appear too self-serving, the companies may end up looking like rank opportunists instead of good Samaritans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1066..1068
+10,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1102..1184
+10,2,1;10,2,2;10,2,3
+#### Text ####
+the companies may end up looking like rank opportunists instead of good Samaritans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1069..1100
+10,2,0,1
+#### Text ####
+the ads appear too self-serving
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1230
+12
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1188..1228
+11
+#### Text ####
+That hasn't deterred plenty of companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1230..1350
+12
+#### Text ####
+Along with Nissan, Grand Metropolitan PLC's Burger King and New York Life Insurance have tied ads to Red Cross donations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1352
+13
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+1230..1350
+12
+#### Text ####
+Along with Nissan, Grand Metropolitan PLC's Burger King and New York Life Insurance have tied ads to Red Cross donations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1395
+13,0
+#### Text ####
+Other ads don't bother with the fundraising
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1397
+13
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1352..1395
+13,0
+#### Text ####
+Other ads don't bother with the fundraising
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1397..1614
+13,2
+#### Text ####
+a touching, if self-congratulatory, American Telephone & Telegraph ad that aired Sunday intermixed footage of the devastation in San Francisco and Charleston, S.C., with interviews of people recounting how AT&T helped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1691..1694
+14,0,5
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1742..1803
+14,1;14,2;14,3
+#### Text ####
+explains Brooke Mitzel, a Nissan advertising creative manager
+##############
+and, Expansion.Conjunction
+____Arg1____
+1618..1689
+14,0,0;14,0,1;14,0,2;14,0,3;14,0,4
+#### Text ####
+At Nissan, "we felt we wanted to do something to help them gather money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1695..1739
+14,0,6
+#### Text ####
+we had this airtime on Monday Night Football
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1806
+15
+#### Features ####
+Ot, Comm, Null, Null
+1742..1803
+14,1;14,2;14,3
+#### Text ####
+explains Brooke Mitzel, a Nissan advertising creative manager
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1618..1739
+14,0
+#### Text ####
+At Nissan, "we felt we wanted to do something to help them gather money, and we had this airtime on Monday Night Football
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1806..1831
+15
+#### Text ####
+What did we get out of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1988
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1890..1986
+17
+#### Text ####
+The ads are just the latest evidence of how television advertising is getting faster on the draw
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1988..2152
+18
+#### Text ####
+While TV commercials typically take weeks to produce, advertisers in the past couple of years have learned to turn on a dime, to crash out ads in days or even hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1988..1993
+18,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+2042..2152
+18,1;18,2;18,3;18,4;18,5
+#### Text ####
+advertisers in the past couple of years have learned to turn on a dime, to crash out ads in days or even hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1994..2040
+18,0,1
+#### Text ####
+TV commercials typically take weeks to produce
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2154
+19
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1988..2152
+18
+#### Text ####
+While TV commercials typically take weeks to produce, advertisers in the past couple of years have learned to turn on a dime, to crash out ads in days or even hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2154..2330
+19
+#### Text ####
+The big brokerage houses learned the art of the instant commercial after the 1987 crash, when they turned out reassuring ads inviting investors right back into the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2332
+20
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+2243..2330
+19,1,4
+#### Text ####
+when they turned out reassuring ads inviting investors right back into the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2332..2428
+20
+#### Text ####
+They trotted out another crop of instant commercials after the sudden market dip a few weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2430
+21
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+2332..2428
+20
+#### Text ####
+They trotted out another crop of instant commercials after the sudden market dip a few weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2430..2470
+21
+#### Text ####
+Nissan created its quake ad in a weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2474..2477
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1890..1986
+17
+#### Text ####
+The ads are just the latest evidence of how television advertising is getting faster on the draw
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2478..2598
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+as advertisers latch onto disasters with increasing frequency, they risk hurting themselves as much as helping the cause
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2478..2480
+22,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2474..2477;2541..2598
+22,0;22,2;22,3;22,4;22,5
+#### Text ####
+But they risk hurting themselves as much as helping the cause
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2481..2539
+22,1,1
+#### Text ####
+advertisers latch onto disasters with increasing frequency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2600
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2474..2598
+22
+#### Text ####
+But as advertisers latch onto disasters with increasing frequency, they risk hurting themselves as much as helping the cause
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2600..2690
+23
+#### Text ####
+They chance alienating the customers they hope to woo by looking like opportunistic sharks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2693
+24
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2600..2690
+23
+#### Text ####
+They chance alienating the customers they hope to woo by looking like opportunistic sharks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2693..2874
+24,1
+#### Text ####
+People see extra messages in advertising, and if a manufacturer is clearly trying to get something out of it . . . if it's too transparent . . . then consumers will see through that
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2877..3011
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+warns John Philip Jones, chairman of the advertising department at the Newhouse School of Public Communications at Syracuse University
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2735..2738
+24,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2877..3011
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+warns John Philip Jones, chairman of the advertising department at the Newhouse School of Public Communications at Syracuse University
+##############
+and, Expansion.Conjunction
+____Arg1____
+2693..2733
+24,1,0
+#### Text ####
+People see extra messages in advertising
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2739..2874
+24,1,3
+#### Text ####
+if a manufacturer is clearly trying to get something out of it . . . if it's too transparent . . . then consumers will see through that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2739..2741;2838..2842
+24,1,3,0,0,0;24,1,3,2
+#### Text ####
+if then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2877..3011
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+warns John Philip Jones, chairman of the advertising department at the Newhouse School of Public Communications at Syracuse University
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+2742..2801
+24,1,3,0,0,1
+#### Text ####
+a manufacturer is clearly trying to get something out of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2735..2738;2843..2874
+24,1,2;24,1,3,1;24,1,3,3;24,1,3,4
+#### Text ####
+and consumers will see through that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2808..2810;2838..2842
+24,1,3,0,2,0;24,1,3,2
+#### Text ####
+if then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2877..3011
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+warns John Philip Jones, chairman of the advertising department at the Newhouse School of Public Communications at Syracuse University
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+2811..2831
+24,1,3,0,2,1
+#### Text ####
+it's too transparent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2735..2738;2843..2874
+24,1,2;24,1,3,1;24,1,3,3;24,1,3,4
+#### Text ####
+and consumers will see through that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3032..3039
+25,1,1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3106..3188
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+agrees Gary Stibel, a principal with New England Consulting Group, Westport, Conn.
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3016..3031
+25,1,0;25,1,1,0;25,1,1,1,0
+#### Text ####
+It can backfire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3040..3103
+25,1,1,1,1,1
+#### Text ####
+companies can step across the line and go too far, be too pushy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3190
+26
+#### Features ####
+Ot, Comm, Null, Null
+3106..3187
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+agrees Gary Stibel, a principal with New England Consulting Group, Westport, Conn
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+3016..3103
+25,1
+#### Text ####
+It can backfire because companies can step across the line and go too far, be too pushy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3190..3248
+26
+#### Text ####
+The ultimate form of charity is when you don't tell anyone
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3251..3256
+27,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Sup1____
+3190..3248
+26
+#### Text ####
+The ultimate form of charity is when you don't tell anyone
+##############
+____Arg1____
+3032..3103
+25,1,1,1,1
+#### Text ####
+because companies can step across the line and go too far, be too pushy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3106..3187
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+agrees Gary Stibel, a principal with New England Consulting Group, Westport, Conn
+##############
+____Arg2____
+3266..3416
+27,3,1
+#### Text ####
+that only a few of the quake-related campaigns have been "tasteless" and that "the majority have been truly beneficial to the people who need the help
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3258..3265
+27,1;27,2;27,3,0;27,4
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3335..3338
+27,3,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3258..3265
+27,1;27,2;27,3,0;27,4
+#### Text ####
+he says
+##############
+and, Expansion.Conjunction
+____Arg1____
+3266..3333
+27,3,1,0
+#### Text ####
+that only a few of the quake-related campaigns have been "tasteless
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3339..3416
+27,3,1,2
+#### Text ####
+that "the majority have been truly beneficial to the people who need the help
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3418
+28
+#### Features ####
+Ot, Comm, Null, Null
+3251..3265
+27,0;27,1;27,2;27,3,0;27,4
+#### Text ####
+Still, he says
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+3266..3416
+27,3,1
+#### Text ####
+that only a few of the quake-related campaigns have been "tasteless" and that "the majority have been truly beneficial to the people who need the help
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3418..3458
+28
+#### Text ####
+We don't consider that ambulance chasing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3563
+30
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3463..3561
+29
+#### Text ####
+The companies running the disaster ads certainly don't see themselves as ambulance chasers, either
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3563..3926
+30;31;32
+#### Text ####
+Burger King's chief executive officer, Barry Gibbons, stars in ads saying that the fast-food chain will donate 25 cents to the Red Cross for every purchase of a BK Doubles hamburger.
+The campaign, which started last week and runs through Nov. 23, with funds earmarked for both the quake and Hugo, "was Barry's idea," a spokeswoman says. "Barry felt very committed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3746
+31
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3563..3744
+30
+#### Text ####
+Burger King's chief executive officer, Barry Gibbons, stars in ads saying that the fast-food chain will donate 25 cents to the Red Cross for every purchase of a BK Doubles hamburger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3746..3877
+31,0
+#### Text ####
+The campaign, which started last week and runs through Nov. 23, with funds earmarked for both the quake and Hugo, "was Barry's idea
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3880..3898
+31,1;31,2;31,3
+#### Text ####
+a spokeswoman says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3901
+32
+#### Features ####
+Ot, Comm, Null, Null
+3880..3898
+31,1;31,2;31,3
+#### Text ####
+a spokeswoman says
+##############
+indeed, Expansion.Restatement.Equivalence
+____Arg1____
+3746..3877
+31,0
+#### Text ####
+The campaign, which started last week and runs through Nov. 23, with funds earmarked for both the quake and Hugo, "was Barry's idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3901..3926
+32
+#### Text ####
+Barry felt very committed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3928
+33
+#### Features ####
+Ot, Comm, Null, Null
+3880..3898
+31,1;31,2;31,3
+#### Text ####
+a spokeswoman says
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3901..3926
+32
+#### Text ####
+Barry felt very committed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3928..3970
+33
+#### Text ####
+He felt we should be giving something back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3975..3980
+34,0,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+4018..4052
+34,0,1;34,0,2;34,0,3;34,0,4;34,0,5
+#### Text ####
+however, he won't be paying for it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3981..4016
+34,0,0,1
+#### Text ####
+the campaign was Mr. Gibbons's idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4018..4025
+34,0,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+3563..3744
+30
+#### Text ####
+Burger King's chief executive officer, Barry Gibbons, stars in ads saying that the fast-food chain will donate 25 cents to the Red Cross for every purchase of a BK Doubles hamburger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3975..4016;4027..4052
+34,0,0;34,0,1;34,0,3;34,0,4;34,0,5
+#### Text ####
+While the campaign was Mr. Gibbons's idea he won't be paying for it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4054
+34
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+4027..4052
+34,0,1;34,0,3;34,0,4;34,0,5
+#### Text ####
+he won't be paying for it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4054..4160
+34,2
+#### Text ####
+The donations will come out of the chain's national advertising fund, which is financed by the franchisees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4162..4165
+35,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4054..4160
+34,2
+#### Text ####
+The donations will come out of the chain's national advertising fund, which is financed by the franchisees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4166..4331
+35,1;35,2;35,3;35,4;35,5
+#### Text ####
+by basing donations on BK Doubles, a new double-hamburger line the fast-food chain is trying to push, Burger King works a sales pitch into its public-service message
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4399..4403
+36,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3563..3744
+30
+#### Text ####
+Burger King's chief executive officer, Barry Gibbons, stars in ads saying that the fast-food chain will donate 25 cents to the Red Cross for every purchase of a BK Doubles hamburger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4335..4398;4404..4477
+36,0;36,2;36,3
+#### Text ####
+Toyota's upscale Lexus division, a sponsor of the World Series, put in a plug for Red Cross donations in a World Series game it sponsored
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4480
+37
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4335..4477
+36
+#### Text ####
+Toyota's upscale Lexus division, a sponsor of the World Series, also put in a plug for Red Cross donations in a World Series game it sponsored
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4480..4633
+37
+#### Text ####
+The World Series is brought to you by Lexus, who urges you to help relieve the suffering caused by the recent earthquake . . . ," the game announcer said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4635..4638
+38,0,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4335..4477
+36
+#### Text ####
+Toyota's upscale Lexus division, a sponsor of the World Series, also put in a plug for Red Cross donations in a World Series game it sponsored
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4639..4731
+38,0,1;38,0,2,0;38,0,2,1;38,0,2,2;38,0,2,3
+#### Text ####
+New York Life made a plea for Red Cross donations in newspaper ads in the San Francisco area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4857
+39
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4804..4855
+38,3
+#### Text ####
+The Red Cross has been helping people for 125 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4857..4913
+39
+#### Text ####
+New York Life has been doing the same for over 140 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5027..5030
+41,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4986..5024
+40,1,3
+#### Text ####
+they're piggybacking on our reputation
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4918..4984
+40,0;40,1,0;40,1,1;40,1,2;40,2;40,3
+#### Text ####
+Nancy Craig, advertising manager for the Red Cross, readily admits
+##############
+____Arg2____
+5031..5059
+41,1,0
+#### Text ####
+she has no problem with that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5072..5088
+41,4,0
+#### Text ####
+In the meanwhile
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5061..5069
+41,1,1;41,1,2;41,1,3
+#### Text ####
+she says
+##############
+meanwhile, Temporal.Synchrony
+____Arg1____
+4986..5024
+40,1,3
+#### Text ####
+they're piggybacking on our reputation
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4918..4984
+40,0;40,1,0;40,1,1;40,1,2;40,2;40,3
+#### Text ####
+Nancy Craig, advertising manager for the Red Cross, readily admits
+##############
+____Arg2____
+5090..5108
+41,4,1;41,4,2;41,4,3
+#### Text ####
+they're helping us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5111
+42
+____Arg1____
+5072..5108
+41,4
+#### Text ####
+In the meanwhile, they're helping us
+##############
+____Arg2____
+5111..5274
+42
+#### Text ####
+The Red Cross doesn't track contributions raised by the disaster ads, but it has amassed $46.6 million since it first launched its hurricane relief effort Sept. 23
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5181..5184
+42,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+5111..5179
+42,0
+#### Text ####
+The Red Cross doesn't track contributions raised by the disaster ads
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5185..5274
+42,3
+#### Text ####
+it has amassed $46.6 million since it first launched its hurricane relief effort Sept. 23
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5214..5219
+42,3,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+5181..5213
+42,2;42,3,0;42,3,1,0;42,3,1,1,0;42,3,1,1,1;42,4
+#### Text ####
+but it has amassed $46.6 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5220..5274
+42,3,1,1,2,1
+#### Text ####
+it first launched its hurricane relief effort Sept. 23
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5503..5513
+46,1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+5309..5485
+45
+#### Text ####
+Northrup King Co., Golden Valley, Minn., awarded its $4 million field-crop-seeds account to Creswell, Munsell, Fultz & Zirbel, a Cedar Rapids, Iowa, division of Young & Rubicam
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5487..5502;5514..5565
+46,0;46,1,0;46,1,2;46,2
+#### Text ####
+The account had been handled by Saatchi & Saatchi Wegener, New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5705
+49
+____Arg1____
+5579..5703
+48
+#### Text ####
+Wieden & Kennedy, Portland, Ore., was named to handle the News Corp. publication's $1 million to $2 million trade-ad account
+##############
+____Arg2____
+5705..5816
+49
+#### Text ####
+N W Ayer, the New York agency that had handled the account since 1963, resigned the account about two weeks ago
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5903
+52
+____Arg1____
+5832..5901
+51
+#### Text ####
+Miller Brewing Co. will introduce its first non-alcoholic beer Jan. 1
+##############
+____Arg2____
+5903..6019
+52
+#### Text ####
+The brew, called Miller Sharp's, will be supported by ads developed by Frankenberry, Laughlin & Constable, Milwaukee
+##############
+________________________________________________________

@@ -1,0 +1,258 @@
+________________________________________________________
+____AltLex____
+101..118
+1,0;1,1,0
+#### Text ####
+The decline broke
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+9..99
+0
+#### Text ####
+Dow Chemical Co. said third-quarter net income slipped 6.8% from a record year-ago quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+101..181
+1
+#### Text ####
+The decline broke a streak of 10 quarters in which Dow posted earnings increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+298
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+185..296
+2
+#### Text ####
+Dow's third-quarter net fell to $589 million, or $3.29 a share, from $632 million, or $3.36 a share, a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+298..384
+3
+#### Text ####
+Sales in the latest quarter rose 2% to $4.25 billion from $4.15 billion a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+678..681
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+499..676
+5,1,1
+#### Text ####
+Dow is comfortable with Wall Street expectations that full-year earnings will total about $14.60 a share, compared with last year's record net of $2.4 billion, or $12.76 a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+480..498
+5,0;5,1,0;5,2
+#### Text ####
+A spokeswoman said
+##############
+____Arg2____
+682..822
+6,1;6,2;6,3
+#### Text ####
+that signal on full-year profit casts doubt on whether Dow will improve on its year-ago fourth-quarter net of $3.44 a share, or $635 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+824
+7
+____Arg1____
+678..822
+6
+#### Text ####
+But that signal on full-year profit casts doubt on whether Dow will improve on its year-ago fourth-quarter net of $3.44 a share, or $635 million
+##############
+____Arg2____
+824..921
+7
+#### Text ####
+Dow would earn $14.85 a share for the year if it equaled that year-ago fourth-quarter performance
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+867..869
+7,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+824..866
+7,0;7,1,0;7,1,1,0;7,1,1,1;7,1,1,2;7,2
+#### Text ####
+Dow would earn $14.85 a share for the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+870..921
+7,1,1,3,1
+#### Text ####
+it equaled that year-ago fourth-quarter performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1014..1025
+8,1,1,2,0;8,1,1,2,1
+#### Text ####
+even before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+925..1013
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,2
+#### Text ####
+Dow officials were signaling that the company would earn less than $15 a share this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1026..1097
+8,1,1,2,2
+#### Text ####
+they announced in July a plan to acquire 67% of Marion Laboratories Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1099
+9
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+925..1097
+8
+#### Text ####
+Dow officials were signaling that the company would earn less than $15 a share this year even before they announced in July a plan to acquire 67% of Marion Laboratories Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1099..1165
+9,0
+#### Text ####
+That acquisition could further dilute earnings per share this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1167..1195
+9,1;9,2;9,3;9,4
+#### Text ####
+the company spokeswoman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1197
+10
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1099..1195
+9
+#### Text ####
+That acquisition could further dilute earnings per share this year, the company spokeswoman said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1197..1282
+10
+#### Text ####
+Dow hasn't said exactly what impact the Marion acquisition will have on 1989 earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1539..1558
+12,0;12,1,0
+#### Text ####
+Another problem was
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+1286..1460
+11,0;11,1,0;11,1,1;11,1,2,0;11,1,2,1,0;11,1,2,1,1;11,1,2,1,2,0;11,1,2,1,2,1,0;11,1,2,1,2,1,1;11,1,2,1,2,1,2;11,1,2,1,2,1,3;11,1,2,1,2,1,4,0;11,1,2,1,2,1,4,1;11,2
+#### Text ####
+Dow blamed the third-quarter earnings drop on several factors, including softer prices for polyethylene and other basic chemicals, a slower U.S. economy and a stronger dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1539..1636
+12
+#### Text ####
+Another problem was a 7% increase in operating costs at a time when revenue was rising by only 2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1781
+14
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1640..1779
+13
+#### Text ####
+For the first nine months of the year, Dow earned $2.06 billion, or $11.41 a share, up 17% from $1.76 billion, or $9.32 a share, a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1781..1884
+14
+#### Text ####
+Sales for the latest nine months rose 7.7% to $13.34 billion from $12.38 billion in the year-ago period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

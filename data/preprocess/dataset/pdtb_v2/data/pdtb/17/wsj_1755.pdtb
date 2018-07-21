@@ -1,0 +1,497 @@
+________________________________________________________
+____Explicit____
+85..97
+2,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+45..72
+1
+#### Text ####
+It depends on when you look
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+76..83;99..223
+2,0;2,1;2,3;2,4;2,5;2,6;3
+#### Text ####
+In 1900 less than 8% of assets went into bank deposits.
+That rose to nearly 18% during the Depression, and hasn't changed much since
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+147
+3
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+76..145
+2
+#### Text ####
+In 1900, for instance, less than 8% of assets went into bank deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+147..192
+3,0;3,1,0;3,1,1;3,2
+#### Text ####
+That rose to nearly 18% during the Depression
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+243..260
+4,2
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Arg1____
+147..223
+3
+#### Text ####
+That rose to nearly 18% during the Depression, and hasn't changed much since
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+225..241;262..358
+4,0;4,1;4,3;4,4;4,5
+#### Text ####
+Pension reserves made up a relatively small part of household assets until the last decade, when they skyrocketed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+360..363
+5,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+76..358
+2;3;4
+#### Text ####
+In 1900, for instance, less than 8% of assets went into bank deposits.
+That rose to nearly 18% during the Depression, and hasn't changed much since.
+Pension reserves, on the other hand, made up a relatively small part of household assets until the last decade, when they skyrocketed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+364..514
+5,1;5,2;5,3
+#### Text ####
+there has been a drastic decline in the importance of unincorporated business assets -- thanks to industry consolidation and a decline in family farms
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+661
+7
+____Arg1____
+518..659
+6
+#### Text ####
+That's some of what emerges from the following charts, which show how Americans have changed their investment patterns over the past 90 years
+##############
+____Arg2____
+661..694
+7
+#### Text ####
+Some results are self-explanatory
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+696..699
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+661..694
+7
+#### Text ####
+Some results are self-explanatory
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+700..728
+8,1;8,2;8,3
+#### Text ####
+other figures are surprising
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+741..753
+9,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+696..728
+8
+#### Text ####
+But other figures are surprising
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+732..739;755..892
+9,0;9,1;9,3;9,4;9,5
+#### Text ####
+Housing has remained a fairly steady component of household assets over the past decade -- although common wisdom would have expected an increase
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+838..846
+9,4,1,4,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+732..834
+9,0;9,1;9,2;9,3;9,4,0;9,4,1,0;9,4,1,1;9,4,1,2;9,4,1,3;9,5
+#### Text ####
+Housing, for instance, has remained a fairly steady component of household assets over the past decade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+847..892
+9,4,1,4,1
+#### Text ####
+common wisdom would have expected an increase
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+895
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+838..892
+9,4,1,4
+#### Text ####
+although common wisdom would have expected an increase
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+895..968
+10,1
+#### Text ####
+There is a lot of attention paid to housing as a form of household wealth
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..1038
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Edward N. Wolff, professor of economics at New York University
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1041..1044
+11,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..1038
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Edward N. Wolff, professor of economics at New York University
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+895..968
+10,1
+#### Text ####
+There is a lot of attention paid to housing as a form of household wealth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1045..1094
+11,0;11,2;11,3;11,4
+#### Text ####
+it hasn't increased much relative to other assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1096
+12
+#### Features ####
+Ot, Comm, Null, Null
+971..1038
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Edward N. Wolff, professor of economics at New York University
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1041..1094
+11
+#### Text ####
+But it hasn't increased much relative to other assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1096..1175
+12
+#### Text ####
+It suggests that households accumulate wealth across a broad spectrum of assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1177..1180
+13,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..1038
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Edward N. Wolff, professor of economics at New York University
+##############
+and, Expansion.Conjunction
+____Arg1____
+1096..1175
+12
+#### Text ####
+It suggests that households accumulate wealth across a broad spectrum of assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1181..1278
+13,1;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+housing though it appears in the popular mind as being the major {growing} household asset, isn't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1189..1195
+13,2,0
+#### Text ####
+though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..1038
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+says Edward N. Wolff, professor of economics at New York University
+##############
+though, Comparison.Concession.Expectation
+____Arg1____
+1177..1188;1273..1278
+13,0;13,1;13,3;13,4;13,5;13,6
+#### Text ####
+And housing isn't
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1196..1271
+13,2,1
+#### Text ####
+it appears in the popular mind as being the major {growing} household asset
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1283..1294
+14,0,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Sup1____
+838..892
+9,4,1,4
+#### Text ####
+although common wisdom would have expected an increase
+##############
+____Arg1____
+732..834
+9,0;9,1;9,2;9,3;9,4,0;9,4,1,0;9,4,1,1;9,4,1,2;9,4,1,3;9,5
+#### Text ####
+Housing, for instance, has remained a fairly steady component of household assets over the past decade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1296..1397
+14,0,1;14,0,2;14,0,3
+#### Text ####
+investors' desire to hold stocks -- directly and through mutual funds -- has held surprisingly steady
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1399
+14
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+1283..1328;1369..1397
+14,0,0;14,0,1;14,0,2,0;14,0,2,1;14,0,2,2,0;14,0,2,2,1,0;14,0,2,2,1,1,0;14,0,2,2,1,1,1;14,0,2,2,1,1,2,0;14,0,2,2,1,1,2,2;14,0,3
+#### Text ####
+In addition, investors' desire to hold stocks has held surprisingly steady
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1399..1531
+14,2
+#### Text ####
+stocks' importance among assets largely reflects the ups and downs of the stock market, and not a shift in stock-holding preferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1534
+15
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Generalization
+____Arg1____
+1399..1531
+14,2
+#### Text ####
+stocks' importance among assets largely reflects the ups and downs of the stock market, and not a shift in stock-holding preferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1534..1635
+15,1
+#### Text ####
+Stocks have not spread to the general public, despite the fact that the environment is much different
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1638..1696
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+concludes Robert Avery, an economist at Cornell University
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1713
+16
+#### Features ####
+Ot, Comm, Null, Null
+1638..1696
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+concludes Robert Avery, an economist at Cornell University
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1534..1635
+15,1
+#### Text ####
+Stocks have not spread to the general public, despite the fact that the environment is much different
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1713..1849
+16,3,2
+#### Text ####
+that despite all the views that we spend too much of our wealth on paper assets, we have ways of holding wealth similar to 100 years ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1705..1712
+16,0;16,2;16,3,0;16,3,1;16,4;16,5
+#### Text ####
+it says
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1926
+18
+____Arg1____
+1857..1924
+17
+#### Text ####
+The charts show how househld assets have been distributed over time
+##############
+____Arg2____
+1926..1978
+18,0;18,1;18,3
+#### Text ####
+The main components of the various asseet categories
+##############
+________________________________________________________

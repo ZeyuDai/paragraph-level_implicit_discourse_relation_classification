@@ -1,0 +1,135 @@
+________________________________________________________
+____AltLex____
+343..348
+2,1,1
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+245..334
+1
+#### Text ####
+McGill, a Valparaiso, Ind., ball-bearing manufacturer, had rebuffed BroadBeach's proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+336..528
+2
+#### Text ####
+It has since asked holders not to immediately tender their shares under a recent $72-a-share, or $104 million, bid from AB SKF of Sweden, until McGill directors have completed their evaluation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+474..479
+2,1,2,2,2,2,4,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+336..362
+2,0;2,1,0;2,1,1;2,1,2,0;2,1,2,1;2,2
+#### Text ####
+It has since asked holders
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+363..472
+2,1,2,2,0;2,1,2,2,1;2,1,2,2,2,0;2,1,2,2,2,1;2,1,2,2,2,2,0;2,1,2,2,2,2,1;2,1,2,2,2,2,2;2,1,2,2,2,2,3
+#### Text ####
+not to immediately tender their shares under a recent $72-a-share, or $104 million, bid from AB SKF of Sweden
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+480..528
+2,1,2,2,2,2,4,1
+#### Text ####
+McGill directors have completed their evaluation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+684
+4
+____Arg1____
+532..682
+3
+#### Text ####
+In a Securities and Exchange Commission filing, BroadBeach said it sold the 101,000 McGill shares for $7.3 million in a private transaction on Oct. 12
+##############
+____Arg2____
+684..906
+4
+#### Text ####
+BroadBeach didn't identify the buyer of the shares, but the date of the selloff followed by one day the Swedish concern's tender offer, and the indicated price of the shares sold equals SKF's $72-a-share tender offer price
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+736..739
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+684..734
+4,0
+#### Text ####
+BroadBeach didn't identify the buyer of the shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+740..906
+4,3
+#### Text ####
+the date of the selloff followed by one day the Swedish concern's tender offer, and the indicated price of the shares sold equals SKF's $72-a-share tender offer price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+990..994
+5,1,1,1,1,2
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+910..939
+5,0;5,1,0;5,2
+#### Text ####
+A BroadBeach spokeswoman said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+940..985
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0
+#### Text ####
+the company sold the stock in the open market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+986..989;995..1032
+5,1,1,1,1,1;5,1,1,1,1,3
+#### Text ####
+and couldn't identify the buyer or buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

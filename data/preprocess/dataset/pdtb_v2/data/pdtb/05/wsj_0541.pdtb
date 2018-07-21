@@ -1,0 +1,117 @@
+________________________________________________________
+____EntRel____
+236
+2
+____Arg1____
+149..234
+1
+#### Text ####
+The computing-services concern will pay $1,059.04 for each $1,000 face amount of debt
+##############
+____Arg2____
+236..294
+2
+#### Text ####
+The conversion price for the debentures is $41.725 a share
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+296
+3
+____Arg1____
+236..294
+2
+#### Text ####
+The conversion price for the debentures is $41.725 a share
+##############
+____Arg2____
+296..400
+3
+#### Text ####
+In New York Stock Exchange composite trading Friday, Automatic Data closed at $46.50 a share, down $2.25
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+404..406
+4,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+444..494
+4,0,1;4,0,2;4,0,3
+#### Text ####
+Automatic Data will issue about 3.6 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+407..442
+4,0,0,1
+#### Text ####
+all the debt is converted to common
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+496
+4
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+404..494
+4,0
+#### Text ####
+If all the debt is converted to common, Automatic Data will issue about 3.6 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+496..561
+4,2
+#### Text ####
+last Monday, the company had nearly 73 million shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+603..610
+5,0,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+708..724
+5,1;5,2;5,3;5,4
+#### Text ####
+a spokesman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+565..602
+5,0,0;5,0,1,0;5,0,1,1,0;5,0,1,1,1
+#### Text ####
+Automatic Data is redeeming the bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+611..706
+5,0,1,1,2,1
+#### Text ####
+the after-tax cost of the interest on the bonds is higher than the dividend yield on the common
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,353 @@
+________________________________________________________
+____Explicit____
+126..129
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..124
+0,0
+#### Text ####
+The White House called on Congress to attach the proposed capital-gains tax cut to its final deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+130..171
+0,3
+#### Text ####
+lawmakers seem likely to balk at the idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+274..281
+1,3,2,0;1,3,2,1
+#### Text ####
+so that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so that, Contingency.Cause.Result
+____Arg1____
+175..273
+1,0;1,1;1,2;1,3,0;1,3,1;1,4
+#### Text ####
+Earlier this month, the White House endorsed stripping the controversial tax measure from the bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+282..431
+1,3,2,2
+#### Text ####
+Congress could pass quickly a "clean" bill containing only provisions specifically designed to meet federal budget targets under the Gramm-Rudman act
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+435..438
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+175..431
+1
+#### Text ####
+Earlier this month, the White House endorsed stripping the controversial tax measure from the bill so that Congress could pass quickly a "clean" bill containing only provisions specifically designed to meet federal budget targets under the Gramm-Rudman act
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+439..689
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+now that Congress has missed the legal deadline for meeting the Gramm-Rudman targets, the White House said it has returned to its original view that a capital-gains cut should be part of the deficit-reduction bill, on which Congress continues to work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+439..447
+2,1,0;2,1,1,0
+#### Text ####
+now that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+now that, Contingency.Cause.Reason
+____Arg1____
+435..438;546..689
+2,0;2,2;2,4,1;2,5
+#### Text ####
+But it has returned to its original view that a capital-gains cut should be part of the deficit-reduction bill, on which Congress continues to work
+##############
+#### Features ####
+Ot, Comm, Null, Null
+525..545
+2,2;2,3;2,4,0;2,5
+#### Text ####
+the White House said
+##############
+____Arg2____
+448..523
+2,1,1,1
+#### Text ####
+Congress has missed the legal deadline for meeting the Gramm-Rudman targets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+692
+3
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+583..652
+2,4,1,1,1,1,1,1,3,0;2,4,1,1,1,1,1,1,3,1,0;2,4,1,1,1,1,1,1,3,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,1,1,1
+#### Text ####
+that a capital-gains cut should be part of the deficit-reduction bill
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+562..582
+2,4,1,1,1,1,1,0;2,4,1,1,1,1,1,1,0;2,4,1,1,1,1,1,1,1;2,4,1,1,1,1,1,1,2
+#### Text ####
+to its original view
+##############
+____Arg2____
+692..776
+3,1
+#### Text ####
+If that doesn't happen, then we press forward on another vehicle and a separate vote
+##############
+#### Features ####
+Ot, Comm, Null, Null
+779..816
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+said press secretary Marlin Fitzwater
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+692..694;716..720
+3,1,0,0;3,1,2
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+779..816
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+said press secretary Marlin Fitzwater
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+695..714
+3,1,0,1
+#### Text ####
+that doesn't happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+721..776
+3,1,1;3,1,3;3,1,4
+#### Text ####
+we press forward on another vehicle and a separate vote
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+837..843
+4,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+546..652
+2,4,1,0;2,4,1,1,0;2,4,1,1,1,0;2,4,1,1,1,1,0;2,4,1,1,1,1,1,0;2,4,1,1,1,1,1,1,0;2,4,1,1,1,1,1,1,1;2,4,1,1,1,1,1,1,2;2,4,1,1,1,1,1,1,3,0;2,4,1,1,1,1,1,1,3,1,0;2,4,1,1,1,1,1,1,3,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,1,1,0;2,4,1,1,1,1,1,1,3,1,1,1,1,1,1,1
+#### Text ####
+it has returned to its original view that a capital-gains cut should be part of the deficit-reduction bill
+##############
+#### Features ####
+Ot, Comm, Null, Null
+525..545
+2,2;2,3;2,4,0;2,5
+#### Text ####
+the White House said
+##############
+____Arg2____
+820..835;845..943
+4,0;4,1;4,3;4,4;4,5;4,6
+#### Text ####
+On Capitol Hill there doesn't seem to be sufficient sentiment to pair capital gains and the deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1040
+5
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+820..943
+4
+#### Text ####
+On Capitol Hill, though, there doesn't seem to be sufficient sentiment to pair capital gains and the deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1040..1113
+5,1,3
+#### Text ####
+I don't see how we have the votes" to place a capital-gains tax cut there
+##############
+#### Features ####
+Ot, Comm, Null, Null
+945..1037
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+Texas Rep. William Archer, the ranking Republican on the House Ways and Means Committee said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1117..1126
+6,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Sup1____
+945..1113
+5
+#### Text ####
+Texas Rep. William Archer, the ranking Republican on the House Ways and Means Committee said, "I don't see how we have the votes" to place a capital-gains tax cut there
+##############
+____Arg1____
+820..943
+4
+#### Text ####
+On Capitol Hill, though, there doesn't seem to be sufficient sentiment to pair capital gains and the deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1128..1205
+6,1;6,2;6,3;6,4
+#### Text ####
+President Bush stepped up his personal lobbying for the capital-gains tax cut
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1228
+7
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1117..1205
+6
+#### Text ####
+Meanwhile, President Bush stepped up his personal lobbying for the capital-gains tax cut
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1228..1380
+7,1,1
+#### Text ####
+he plans to hold a series of private White House meetings, mostly with Senate Democrats, to try to persuade lawmakers to fall in line behind the tax cut
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1207..1227
+7,0;7,1,0;7,2
+#### Text ####
+The White House said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1492
+9
+____Arg1____
+1384..1490
+8
+#### Text ####
+The first meeting yesterday was with 10 Senate Democrats who have expressed an interest in cutting the tax
+##############
+____Arg2____
+1492..1726
+9
+#### Text ####
+According to some who attended, the senators argued that the president should give the Democratic leaders in Congress a victory of their own to compensate them for allowing the president to win on the controversial capital-gains issue
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1728
+10
+____Arg1____
+1492..1726
+9
+#### Text ####
+According to some who attended, the senators argued that the president should give the Democratic leaders in Congress a victory of their own to compensate them for allowing the president to win on the controversial capital-gains issue
+##############
+____Arg2____
+1728..1836
+10
+#### Text ####
+Issues discussed in this context were an increase in the minimum wage and an increase in child-care spending
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1838
+11
+____Arg1____
+1728..1836
+10
+#### Text ####
+Issues discussed in this context were an increase in the minimum wage and an increase in child-care spending
+##############
+____Arg2____
+1838..1886
+11
+#### Text ####
+The president was said to have been noncommittal
+##############
+________________________________________________________

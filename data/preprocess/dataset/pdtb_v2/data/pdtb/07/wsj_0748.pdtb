@@ -1,0 +1,634 @@
+________________________________________________________
+____Explicit____
+9..13
+0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+58..138
+0,1;0,2;0,3;0,4
+#### Text ####
+he'll go with little of the fanfare that accompanies many of his foreign travels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14..56
+0,0,1
+#### Text ####
+President Bush travels to Costa Rica today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+140..143
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..138
+0
+#### Text ####
+When President Bush travels to Costa Rica today, he'll go with little of the fanfare that accompanies many of his foreign travels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+144..252
+1,1;1,2;1,3;1,4
+#### Text ####
+the two-day trip still has managed to fuel controversy over his administration's policies in Central America
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+161..166
+1,2
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+9..138
+0
+#### Text ####
+When President Bush travels to Costa Rica today, he'll go with little of the fanfare that accompanies many of his foreign travels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+140..160;167..252
+1,0;1,1;1,3;1,4
+#### Text ####
+But the two-day trip has managed to fuel controversy over his administration's policies in Central America
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+401
+3
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+256..311
+2,0;2,1,0;2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1;2,1,1,1,1,2,0;2,1,1,1,1,2,1,0;2,1,1,1,1,2,1,1;2,2
+#### Text ####
+Some conservatives say Mr. Bush shouldn't make the trip
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+401..528
+3
+#### Text ####
+These critics object to Mr. Bush's participation in a meeting that includes Nicaraguan President Daniel Ortega among the guests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+530..541
+4,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+401..528
+3
+#### Text ####
+These critics object to Mr. Bush's participation in a meeting that includes Nicaraguan President Daniel Ortega among the guests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+543..757
+4,1;4,2;4,3;4,4
+#### Text ####
+they argue he won't help Washington's standing in the region by trumpeting the U.S. commitment to democracy less than a month after his administration played an ineffectual role in the failed coup attempt in Panama
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+651..674
+4,3,1,1,1,2,2,1,1,2,0;4,3,1,1,1,2,2,1,1,2,1
+#### Text ####
+less than a month after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+543..553
+4,1;4,2;4,3,0;4,4
+#### Text ####
+they argue
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+604..650
+4,3,1,1,1,2,2,0;4,3,1,1,1,2,2,1,0;4,3,1,1,1,2,2,1,1,0;4,3,1,1,1,2,2,1,1,1
+#### Text ####
+by trumpeting the U.S. commitment to democracy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+675..757
+4,3,1,1,1,2,2,1,1,2,2
+#### Text ####
+his administration played an ineffectual role in the failed coup attempt in Panama
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+805..812
+5,0,2,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+762..771
+5,0,0;5,0,1;5,0,2,0;5,0,3;5,0,4
+#### Text ####
+I believe
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+772..804
+5,0,2,1,0;5,0,2,1,1,0;5,0,2,1,1,1,0;5,0,2,1,1,1,1,0;5,0,2,1,1,1,1,1
+#### Text ####
+it will do more damage than good
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+813..857
+5,0,2,1,1,1,1,2,1
+#### Text ####
+it will legitimize people like Daniel Ortega
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+959
+6
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+762..857
+5,0
+#### Text ####
+I believe it will do more damage than good because it will legitimize people like Daniel Ortega
+##############
+#### Features ####
+Ot, Comm, Null, Null
+860..957
+5,1;5,2;5,3
+#### Text ####
+says Curtin Windsor, who served as U.S. ambassador to Costa Rica during the Reagan administration
+##############
+____Arg2____
+959..1282
+6
+#### Text ####
+Mr. Windsor, among other analysts connected to the conservative Heritage Foundation, fears the gathering of 18 leaders, mostly from Central American nations, will force Mr. Bush "to explain and redeem himself" in the wake of charges that the U.S. failed to do enough to aid the removal of Panamanian dictator Manuel Noriega
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1495
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1286..1493
+7
+#### Text ####
+At the same time, liberal and moderate Democrats note the irony of Mr. Bush's joining a celebration of Costa Rican democracy at a time his administration has sought sharp cuts in U.S. aid to the tiny country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1495..1655
+8
+#### Text ####
+The administration proposed only $57 million in so-called economic support funds for Costa Rica this year, down from the $90 million the U.S. provided last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1836..1839
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1683..1834
+9,1,1
+#### Text ####
+improvements in Costa Rica's economic condition warrant the cut in aid, which the country uses mainly to make payments on its $4.5 billion foreign debt
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1659..1682
+9,0;9,1,0;9,2
+#### Text ####
+The administration said
+##############
+____Arg2____
+1868..2021
+10,2,1
+#### Text ####
+that the recent drop in coffee prices, combined with the country's continuing struggle to reinvigorate its economy, make the support as necessary as ever
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1840..1867
+10,1;10,2,0;10,3
+#### Text ####
+Costa Rican officials argue
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2052..2055
+11,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2110..2202
+11,1;11,2;11,3
+#### Text ####
+said Rodrigo Sotela, an economic affairs specialist at the Costa Rican Embassy in Washington
+##############
+and, Contingency.Cause.Result
+____Arg1____
+2026..2051
+11,0,1
+#### Text ####
+We are crossing the river
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2056..2107
+11,0,3
+#### Text ####
+we need a little more help to get to the other side
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2466..2473
+13,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+2340..2462
+12,1,1,1,1,2,2
+#### Text ####
+to reward the country for its stability in a region wracked with turmoil and for its efforts to promote peace in Nicaragua
+##############
+____Arg1____
+2206..2338
+12,0;12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1;12,1,1,1,1,2,0;12,1,1,1,1,2,1;12,2
+#### Text ####
+Democrats argue that Costa Rica deserves more assistance for the same reason that Mr. Bush is attending the celebration this weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2475..2581
+13,1;13,2;13,3;13,4
+#### Text ####
+peace efforts by Costa Rican President Oscar Arias haven't always helped the country's cause in Washington
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2583
+14
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2466..2581
+13
+#### Text ####
+However, peace efforts by Costa Rican President Oscar Arias haven't always helped the country's cause in Washington
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2583..2714
+14
+#### Text ####
+Mr. Arias's long-time refusal to support the U.S.'s campaign against leftist Nicaragua earned him the ire of the Reagan White House
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2716..2719
+15,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2583..2714
+14
+#### Text ####
+Mr. Arias's long-time refusal to support the U.S.'s campaign against leftist Nicaragua earned him the ire of the Reagan White House
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2720..2887
+15,1;15,2;15,3;15,4;15,5
+#### Text ####
+more recently, he insisted on signing a five-nation agreement intended to disarm Nicaragua's U.S.-backed Contra rebels faster than the Bush administration would prefer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3106
+17
+____Arg1____
+2892..3104
+16
+#### Text ####
+I think Bush's going there is a helpful sign," said Sen. Terry Sanford (D., N.C.) a member of the Foreign Relations Committee who pushed to provide Costa Rica about the same amount of aid as it received last year
+##############
+____Arg2____
+3106..3155
+17
+#### Text ####
+Lawmakers in both houses support the higher level
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3229
+19
+____Arg1____
+3159..3227
+18
+#### Text ####
+Administration officials defend Mr. Bush's decision to make the trip
+##############
+____Arg2____
+3229..3432
+19
+#### Text ####
+While they acknowledge the president will attend several meals and a working session also attended by Mr. Ortega, they insist that Mr. Bush won't be extending the Nicaraguan leader any special courtesies
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3229..3234
+19,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+3343..3432
+19,1;19,2;19,3;19,4
+#### Text ####
+they insist that Mr. Bush won't be extending the Nicaraguan leader any special courtesies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3235..3341
+19,0,1
+#### Text ####
+they acknowledge the president will attend several meals and a working session also attended by Mr. Ortega
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3453..3457
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3343..3432
+19,1;19,2;19,3;19,4
+#### Text ####
+they insist that Mr. Bush won't be extending the Nicaraguan leader any special courtesies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3434..3452;3458..3544
+20,0;20,2,0;20,2,1;20,2,2;20,2,3;20,3
+#### Text ####
+The administration made clear its continuing distate for the leftist Nicaraguan government in recent days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3546..3744
+20,2,4
+#### Text ####
+endorsing a package of electoral aid to the Nicaraguan opposition, renewing the U.S. trade embargo against the country and continuing to complain that the country supports rebel groups in the region
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3758..3762
+21,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+3546..3744
+20,2,4
+#### Text ####
+endorsing a package of electoral aid to the Nicaraguan opposition, renewing the U.S. trade embargo against the country and continuing to complain that the country supports rebel groups in the region
+##############
+____Arg1____
+3343..3544
+19,1;19,2;19,3;19,4;20,0;20,1;20,2,0;20,2,1;20,2,2;20,2,3;20,3
+#### Text ####
+they insist that Mr. Bush won't be extending the Nicaraguan leader any special courtesies.
+The administration also made clear its continuing distate for the leftist Nicaraguan government in recent days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3748..3757;3763..3932
+21,0;21,2;21,3
+#### Text ####
+Officials insist Mr. Bush will use the trip to highlight his own initiatives for pushing democracy in the region, fighting illegal drugs and assisting the less developed countries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4051
+23
+#### Features ####
+Ot, Comm, Null, Null
+3993..4048
+22,1;22,2;22,3
+#### Text ####
+Secretary of State James Baker told reporters Wednesday
+##############
+that is, Expansion.Restatement
+____Arg1____
+3937..3990
+22,0
+#### Text ####
+Let me say there is a symbolic component to this trip
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4051..4203
+23;24
+#### Text ####
+There won't be any formal resolutions or communiques, I don't think.
+But we still see this as an opportunity to discuss many, many very important issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4120..4123
+24,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3993..4048
+22,1;22,2;22,3
+#### Text ####
+Secretary of State James Baker told reporters Wednesday
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4051..4103
+23,1
+#### Text ####
+There won't be any formal resolutions or communiques
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4105..4118
+23,0;23,2;23,3;23,4;23,5
+#### Text ####
+I don't think
+##############
+____Arg2____
+4124..4203
+24,1;24,2;24,3;24,4
+#### Text ####
+we still see this as an opportunity to discuss many, many very important issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4127..4132
+24,2
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3993..4048
+22,1;22,2;22,3
+#### Text ####
+Secretary of State James Baker told reporters Wednesday
+##############
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+4051..4103
+23,1
+#### Text ####
+There won't be any formal resolutions or communiques
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+4105..4118
+23,0;23,2;23,3;23,4;23,5
+#### Text ####
+I don't think
+##############
+____Arg2____
+4120..4126;4133..4203
+24,0;24,1;24,3;24,4
+#### Text ####
+But we see this as an opportunity to discuss many, many very important issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,769 @@
+________________________________________________________
+____Explicit____
+134..143
+1,1,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+even when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+118..133
+1,1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that store data
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+144..160
+1,1,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+the power is off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+257..259
+2,1,1,2,0,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+236..256
+2,1,1,2,0,0;2,1,1,2,0,1,0
+#### Text ####
+their data disappear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+260..304
+2,1,1,2,0,1,1,1
+#### Text ####
+they aren't fed a steady diet of electricity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+306..308
+2,1,1,2,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Sup1____
+236..304
+2,1,1,2,0
+#### Text ####
+their data disappear if they aren't fed a steady diet of electricity
+##############
+____Arg1____
+164..232
+2,0;2,1,0;2,1,1,0;2,1,1,1;2,2
+#### Text ####
+Today's most widely used data-storing chips have "volatile" memories
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+309..342
+2,1,1,2,3
+#### Text ####
+they need external power supplies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+550
+4
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Specification
+____Arg1____
+467..548
+3,1,1,1,1,1,1,1,2
+#### Text ####
+which can remember data for at least 10 years without any current flowing to them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+550..679
+4
+#### Text ####
+The chips use materials, such as lead zirconate titanate, to form microscopic switches that retain their data without electricity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+749..756
+5,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+683..701
+5,0;5,1,0;5,2
+#### Text ####
+Developers caution
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+702..748
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1
+#### Text ####
+that broad applications are several years away
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+757..791
+5,1,1,1,1,2,1
+#### Text ####
+the technology isn't fully refined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+793..796
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+683..791
+5
+#### Text ####
+Developers caution that broad applications are several years away because the technology isn't fully refined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+797..920
+6,1;6,2;6,3
+#### Text ####
+Ramtron of Colorado Springs, Colo., plans to start shipping commercial quantities of simple ferroelectric chips in December
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+922
+7
+____Arg1____
+793..920
+6
+#### Text ####
+But Ramtron of Colorado Springs, Colo., plans to start shipping commercial quantities of simple ferroelectric chips in December
+##############
+____Arg2____
+922..1082
+7
+#### Text ####
+The company expects the chips eventually to be used in devices that mimic a whole range of computer memory equipment, including floppy-disk and hard-disk drives
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1348..1352
+10,0,0
+#### Text ####
+Once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession
+____Arg1____
+1386..1444
+10,1;10,2;10,3;10,4
+#### Text ####
+the chips could take over a significant part of the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1353..1384
+10,0,1
+#### Text ####
+production hurdles are overcome
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1446
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1348..1444
+10
+#### Text ####
+Once production hurdles are overcome, the chips could take over a significant part of the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1446..1605
+11
+#### Text ####
+In addition to not needing an outside power source, they are potentially cheaper to make because they require fewer manufacturing steps than conventional chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1535..1542
+11,3,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1498..1534
+11,1;11,2;11,3,0;11,3,1;11,3,2;11,4
+#### Text ####
+they are potentially cheaper to make
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1543..1605
+11,3,3,1
+#### Text ####
+they require fewer manufacturing steps than conventional chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1661..1668
+12,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1646..1659
+12,1,1,2
+#### Text ####
+National says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1609..1644
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,2
+#### Text ####
+Military buyers have shown interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1669..1712
+12,1,1,3,1
+#### Text ####
+ferroelectric chips resist atomic radiation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1714..1717
+13,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1609..1644;1661..1712
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,1,1,3;12,2
+#### Text ####
+Military buyers have shown interest because ferroelectric chips resist atomic radiation
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1646..1659
+12,1,1,2
+#### Text ####
+National says
+##############
+____Arg2____
+1718..1955
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+while today's non-volatile chips -- such as electronically erasable programmable read-only memory chips -- can't be used in a computer's central memory because they "learn" data slowly, ferroelectric chips accept data at very high speeds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1718..1723
+13,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1714..1717;1904..1955
+13,0;13,2;13,3;13,4;13,5
+#### Text ####
+And ferroelectric chips accept data at very high speeds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1724..1869
+13,1,1,0;13,1,1,1,0;13,1,1,1,1;13,1,1,1,2,0;13,1,1,1,2,1,0;13,1,1,1,2,1,1;13,1,1,1,2,1,2
+#### Text ####
+today's non-volatile chips -- such as electronically erasable programmable read-only memory chips -- can't be used in a computer's central memory
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1870..1902
+13,1,1,1,2,1,3
+#### Text ####
+because they "learn" data slowly
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1870..1877
+13,1,1,1,2,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1718..1869
+13,1,0;13,1,1,0;13,1,1,1,0;13,1,1,1,1;13,1,1,1,2,0;13,1,1,1,2,1,0;13,1,1,1,2,1,1;13,1,1,1,2,1,2
+#### Text ####
+while today's non-volatile chips -- such as electronically erasable programmable read-only memory chips -- can't be used in a computer's central memory
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1878..1902
+13,1,1,1,2,1,3,1
+#### Text ####
+they "learn" data slowly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2234..2244
+17,0;17,1,0
+#### Text ####
+That means
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+2122..2232
+16
+#### Text ####
+Witnesses often must travel long distances to give face-to-face depositions before lawyers and court reporters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2234..2262
+17
+#### Text ####
+That means huge travel bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2264..2267
+18,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2234..2262
+17
+#### Text ####
+That means huge travel bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2268..2339
+18,1;18,2;18,3;18,4
+#### Text ####
+telephone or videotape depositions just don't match physical encounters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2423
+20
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2343..2421
+19
+#### Text ####
+That could change, thanks to lower long-distance rates and cheaper electronics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2423..2442;2485..2585
+20,0,0;20,0,1;20,0,3;20,1;20,2
+#### Text ####
+Video Telecom Corp. is working with court reporters to wire a nationwide network to allow depositions by live television
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2688..2691
+22,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2589..2686
+21
+#### Text ####
+The company installed a prototype system that connects Dallas with Miami over digital phone lines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2692..2836
+22,1;22,2;22,3
+#### Text ####
+it is preparing to set up shop in Chicago, New York and 10 other cities where court-reporting agencies can tie conference rooms into the network
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2840..2845
+23,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2890..2965
+23,1;23,2;23,3;23,4
+#### Text ####
+the formal network of court reporters should make things easier and cheaper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2846..2888
+23,0,1
+#### Text ####
+lawyers arranged individual tie-ups before
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3293
+27
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3214..3291
+26
+#### Text ####
+JAPAN'S MISUSE of U.S. patents has been a sore point for American chip makers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3293..3358
+27
+#### Text ####
+Now at least one Japanese company is turning the courtroom tables
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3438..3441
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3362..3436
+28
+#### Text ####
+Until now, most Japanese charges have been responses to suits against them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3442..3622
+29,1;29,2;29,3;29,4
+#### Text ####
+last year Hitachi Ltd. surprised Japan's electronics industry when it accused Korea's Samsung Electronics Co. of using Hitachi technology to make dynamic random-access memory chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3504..3508
+29,3,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3438..3503
+29,0;29,1;29,2;29,3,0;29,3,1;29,4
+#### Text ####
+But last year Hitachi Ltd. surprised Japan's electronics industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3509..3622
+29,3,2,1
+#### Text ####
+it accused Korea's Samsung Electronics Co. of using Hitachi technology to make dynamic random-access memory chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3625
+30
+____Arg1____
+3438..3622
+29
+#### Text ####
+But last year Hitachi Ltd. surprised Japan's electronics industry when it accused Korea's Samsung Electronics Co. of using Hitachi technology to make dynamic random-access memory chips
+##############
+____Arg2____
+3625..3672
+30
+#### Text ####
+A settlement was reached but wasn't made public
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3675..3678
+31,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3504..3622
+29,3,2
+#### Text ####
+when it accused Korea's Samsung Electronics Co. of using Hitachi technology to make dynamic random-access memory chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3679..3844
+31,1;31,2;31,3
+#### Text ####
+Hitachi went on the offensive against the U.S.'s Motorola Inc. earlier this month with a suit charging that Motorola's new MC88200 chip infringes on a Hitachi patent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4249..4254
+34,1,2,1,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4127..4248
+34,0;34,1,0;34,1,1;34,1,2,0;34,1,2,1,0;34,1,2,1,1,0;34,1,2,1,1,1,0;34,1,2,1,1,1,1,0;34,1,2,1,1,1,1,1;34,1,2,1,1,1,1,2;34,2
+#### Text ####
+Hitachi made the reverse-engineering charges in an amendment to a counterclaim filed in a federal district court in Texas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4255..4297
+34,1,2,1,1,1,1,3,1
+#### Text ####
+Motorola sued Hitachi for patent violation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4299
+35
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4127..4297
+34
+#### Text ####
+Hitachi made the reverse-engineering charges in an amendment to a counterclaim filed in a federal district court in Texas after Motorola sued Hitachi for patent violation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4299..4469
+35
+#### Text ####
+Hitachi charges Motorola "has engaged in fraudulent and inequitable conduct in the procurement of certain Motorola patents" used in Motorola's MC68030 microprocessor chip
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4805
+40
+____Arg1____
+4720..4803
+39
+#### Text ####
+COMPUTER chips that simulate human vision have been developed by Japan's Sharp Corp
+##############
+____Arg2____
+4805..4955
+40
+#### Text ####
+They mimic the brain by "looking" at an image, extracting the fundamentals -- boundaries, corners and lines -- and translating them into computer data
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4957
+41
+____Arg1____
+4805..4955
+40
+#### Text ####
+They mimic the brain by "looking" at an image, extracting the fundamentals -- boundaries, corners and lines -- and translating them into computer data
+##############
+____Arg2____
+4957..5088
+41
+#### Text ####
+Sharp says the set of chips could improve fax machines, graphics computers or identification systems that recognize facial features
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+5096
+42
+____Arg1____
+4957..5088
+41
+#### Text ####
+Sharp says the set of chips could improve fax machines, graphics computers or identification systems that recognize facial features
+##############
+____Arg2____
+5096..5219
+42
+#### Text ####
+An N.V. Philips unit has created a computer system that processes video images 3,000 times faster than conventional systems
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5221
+43
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5096..5219
+42
+#### Text ####
+An N.V. Philips unit has created a computer system that processes video images 3,000 times faster than conventional systems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5221..5414
+43
+#### Text ####
+Using reduced instruction-set computing, or RISC, chips made by Intergraph of Huntsville, Ala., the system splits the image it "sees" into 20 digital representations, each processed by one chip
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

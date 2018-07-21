@@ -1,0 +1,180 @@
+________________________________________________________
+____Implicit____
+448
+4
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+320..328;391..445
+3,0,0;3,0,1;3,0,3;3,1;3,2
+#### Text ####
+Analysts were surprised at the lackluster third-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+448..541
+4
+#### Text ####
+It's disappointing," said William Siedenburg, an analyst with Smith Barney, Harris Upham & Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+854..858
+6,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+890..906
+6,1;6,2;6,3;6,4
+#### Text ####
+the company said
+##############
+also, Expansion.Conjunction
+____Arg1____
+545..619
+5,0;5,1,0;5,1,1,0;5,1,1,1;5,1,1,2,0;5,1,1,2,1,0;5,1,1,2,1,1;5,2
+#### Text ####
+Much of the earnings decline was led by currency-exchange rate adjustments
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+763..853;859..888
+6,0,0;6,0,2
+#### Text ####
+Lower prices for aluminum ingots and certain alloy products and a shift in the product mix contributed to lower earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+909..920
+7,1,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1003..1019
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+the company said
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+545..619;763..888
+5,0;5,1,0;5,1,1,0;5,1,1,1;5,1,1,2,0;5,1,1,2,1,0;5,1,1,2,1,1;5,2;6,0
+#### Text ####
+Much of the earnings decline was led by currency-exchange rate adjustments Lower prices for aluminum ingots and certain alloy products and a shift in the product mix also contributed to lower earnings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+890..906
+6,1;6,2;6,3;6,4
+#### Text ####
+the company said
+##############
+____Arg2____
+922..1000
+7,1,1;7,1,2;7,1,3
+#### Text ####
+costs were higher partly due to scheduled plant outages for modernization work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1407..1419
+10,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Concession.Contra-expectation
+____Sup1____
+1257..1322
+9,0,1,1
+#### Text ####
+that the third quarter is usually the aluminum industry's slowest
+##############
+____Arg1____
+1343..1402
+9,3,3
+#### Text ####
+the third quarter is never a bang up period for them anyway
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1324..1340
+9,1;9,2;9,3,0;9,3,1;9,3,2;9,4;9,5
+#### Text ####
+Mr. Atwell added
+##############
+____Arg2____
+1438..1554
+10,3,1
+#### Text ####
+shipments were up slightly to 679,000 metric tons from 671,000, buffing the impact of the unexpected earning decline
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1421..1437
+10,1;10,2;10,3,0;10,4
+#### Text ####
+the company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1585..1590
+11,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1558..1584
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,2
+#### Text ####
+The results were announced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1591..1614
+11,1,1,2,1
+#### Text ####
+the stock market closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1616
+12
+____Arg1____
+1558..1614
+11
+#### Text ####
+The results were announced after the stock market closed
+##############
+____Arg2____
+1616..1735
+12
+#### Text ####
+In New York Stock Exchange composite trading Friday, Alcoa closed at $72 a share, down $4.75, in a sharply lower market
+##############
+________________________________________________________

@@ -1,0 +1,388 @@
+________________________________________________________
+____Explicit____
+78..84
+1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+53..76
+1,0;1,1;1,3
+#### Text ####
+Not a gripping question
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+85..208
+1,2,1
+#### Text ####
+you're the pastry chef of this city's Chez Panisse restaurant and you've just lost your priceless personal dessert notebook
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+147..150
+1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+78..146
+1,2,0;1,2,1,0
+#### Text ####
+unless you're the pastry chef of this city's Chez Panisse restaurant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+151..208
+1,2,1,2
+#### Text ####
+you've just lost your priceless personal dessert notebook
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+313
+3
+____Arg1____
+212..311
+2
+#### Text ####
+Chez Panisse was listed among the top 30 restaurants in the world this year by Connoisseur magazine
+##############
+____Arg2____
+313..487
+3
+#### Text ####
+The tattered black binder, bulging with 18 years' worth of recipes held together by rubber bands, was in chef Lindsey Shere's purse when it was stolen from her house recently
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+445..449
+3,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Sup1____
+340..409
+3,0,1;3,0,2;3,0,3
+#### Text ####
+bulging with 18 years' worth of recipes held together by rubber bands
+##############
+____Arg1____
+313..338;411..444
+3,0,0;3,1,0;3,1,1
+#### Text ####
+The tattered black binder was in chef Lindsey Shere's purse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+450..487
+3,1,2,1
+#### Text ####
+it was stolen from her house recently
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+588..595
+5,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+536..586
+4,1,2;4,2
+#### Text ####
+doubt the crime was driven by a passion for sweets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+597..727
+5,1;5,2;5,3;5,4
+#### Text ####
+they figure the culprit probably took money from Ms. Shere's wallet and discarded all the tips in the five-by-eight-inch looseleaf
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+981
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+731..743;906..979
+6,0,0;6,0,1;6,0,3;6,1;6,2
+#### Text ####
+Chez Panisse hasn't exactly subjected diners to vanilla ice cream because of the theft
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+981..1030
+7,0;7,1;7,2;7,3,0;7,3,1,0;7,3,1,1,0;7,3,1,1,1,0;7,3,1,1,1,1;7,3,1,1,1,3;7,4;7,5
+#### Text ####
+For one thing, Ms. Shere can draw on her cookbook
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1353..1358
+9,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+731..743;906..979
+6,0,0;6,0,1;6,0,3;6,1;6,2
+#### Text ####
+Chez Panisse hasn't exactly subjected diners to vanilla ice cream because of the theft
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1360..1418;1484..1515
+9,1;9,2;9,4;9,5
+#### Text ####
+the restaurant's ever-changing menu of five-course dinners requires constant improvisation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1459..1464
+9,3,1,2,2,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+1422..1458
+9,3,0;9,3,1,0;9,3,1,1;9,3,1,2,0;9,3,1,2,1;9,3,1,2,2,0;9,3,1,2,2,1;9,3,2
+#### Text ####
+it supposedly hasn't repeated a meal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1465..1480
+9,3,1,2,2,2,1
+#### Text ####
+opening in 1971
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1517..1520
+10,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Sup1____
+1422..1480
+9,3
+#### Text ####
+it supposedly hasn't repeated a meal since opening in 1971
+##############
+____Arg1____
+1353..1418;1484..1515
+9,0;9,1;9,2;9,4;9,5
+#### Text ####
+Still, the restaurant's ever-changing menu of five-course dinners requires constant improvisation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1521..1583
+10,1;10,2;10,3
+#### Text ####
+that puts added pressure on Chez Panisse dessert-menu planners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1586
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1517..1583
+10
+#### Text ####
+And that puts added pressure on Chez Panisse dessert-menu planners
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1586..1618
+11,1
+#### Text ####
+We make what we know how to make
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1621..1658
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says business manager Richard Mazzera
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1778..1781
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1662..1776
+12,0
+#### Text ####
+Many in the Bay Area's pastry community express disbelief that Ms. Shere kept only one copy of such valuable notes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1782..1997
+12,3
+#### Text ####
+she has received moral support from Baker's Dozen, a group of California pastry chefs that meets regularly to discuss issues like how to keep meringues from weeping and how bovine eating habits affect butter texture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2123
+14
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Concession.Contra-expectation
+____Arg1____
+2059..2120
+13,1,1;13,1,2;13,2
+#### Text ####
+but figures she'll have to reinvent many recipes from scratch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2123..2147
+14,1
+#### Text ####
+It's an overwhelming job
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2150..2158
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2161
+15
+#### Features ####
+Ot, Comm, Null, Null
+2150..2158
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+she says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2123..2147
+14,1
+#### Text ####
+It's an overwhelming job
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2161..2274
+15
+#### Text ####
+There are so many possible proportions when you consider how many things are made out of eggs and butter and milk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2200..2204
+15,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2150..2158
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+she says
+##############
+when, Temporal.Synchrony
+____Arg1____
+2161..2199
+15,0;15,1;15,2,0;15,2,1;15,3
+#### Text ####
+There are so many possible proportions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2205..2274
+15,2,2,1
+#### Text ####
+you consider how many things are made out of eggs and butter and milk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

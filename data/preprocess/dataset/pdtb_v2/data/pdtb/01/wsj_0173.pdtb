@@ -1,0 +1,223 @@
+________________________________________________________
+____Explicit____
+367..378
+2,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+221..365
+1
+#### Text ####
+Under the plan, unsecured creditors, who are owed about $430 million, would receive about $92 million, or 21 cents for each dollar they are owed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+380..430
+2,1;2,2;2,3,0;2,3,1,0;2,3,1,1,0;2,3,1,1,1,0;2,3,1,1,1,1,0;2,3,1,1,1,1,1;2,4
+#### Text ####
+they will receive stock in the reorganized company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+432..473
+2,3,1,1,1,1,2
+#### Text ####
+which will be named Ranger Industries Inc
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+475..495
+3,0
+#### Text ####
+After these payments
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Succession
+____Arg1____
+221..473
+1;2
+#### Text ####
+Under the plan, unsecured creditors, who are owed about $430 million, would receive about $92 million, or 21 cents for each dollar they are owed.
+In addition, they will receive stock in the reorganized company, which will be named Ranger Industries Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+475..574
+3
+#### Text ####
+After these payments, about $225,000 will be available for the 20 million common shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+630..635
+4,0,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+578..629
+4,0,0;4,0,1,0;4,0,1,1;4,0,1,2
+#### Text ####
+The Avon, Conn., company's stock hit a high in 1983
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+636..670
+4,0,1,3,1
+#### Text ####
+it unveiled its Adam home computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+672..675
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+578..670
+4,0
+#### Text ####
+The Avon, Conn., company's stock hit a high in 1983 after it unveiled its Adam home computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+676..748
+4,3
+#### Text ####
+the product was plagued with glitches and the company's fortunes plunged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+714..717
+4,3,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+672..713
+4,2;4,3,0;4,4
+#### Text ####
+but the product was plagued with glitches
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+718..748
+4,3,2
+#### Text ####
+the company's fortunes plunged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+750..753
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+714..748
+4,3,1;4,3,2
+#### Text ####
+and the company's fortunes plunged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+754..860
+5,1;5,2;5,3
+#### Text ####
+Coleco bounced back with the introduction of the Cabbage Patch dolls, whose sales hit $600 million in 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+862..865
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+750..822
+5,0;5,1;5,2,0;5,2,1;5,2,2,0;5,2,2,1,0;5,2,2,1,1,0;5,2,2,1,1,1,0;5,2,2,1,1,1,1;5,3
+#### Text ####
+But Coleco bounced back with the introduction of the Cabbage Patch dolls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+866..982
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+as the craze died, Coleco failed to come up with another winner and filed for bankruptcy-law protection in July 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+866..868
+6,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+862..865;885..982
+6,0;6,2;6,3;6,4;6,5
+#### Text ####
+But Coleco failed to come up with another winner and filed for bankruptcy-law protection in July 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+869..883
+6,1,1
+#### Text ####
+the craze died
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

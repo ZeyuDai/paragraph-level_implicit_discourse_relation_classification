@@ -1,0 +1,554 @@
+________________________________________________________
+____Explicit____
+86..89
+0,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+31..84
+0,1,1,1,0
+#### Text ####
+third-quarter earnings rose 14% on a hefty sales gain
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..30
+0,0;0,1,0;0,2
+#### Text ####
+McDonald's Corp. said
+##############
+____Arg2____
+90..155
+0,1,1,1,3
+#### Text ####
+domestic franchisees apparently didn't partake of the improvement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+310
+2
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+200..308
+1,1,1
+#### Text ####
+net income rose to $217.9 million, or 59 cents a share, from $191.3 million, or 51 cents a share, a year ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+159..199
+1,0;1,1,0;1,2
+#### Text ####
+The world's largest fast-food chain said
+##############
+____Arg2____
+310..426
+2
+#### Text ####
+In the latest period, the company had an average of 370.8 million shares, 5.6 million shares below last year's level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+484
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+430..482
+3
+#### Text ####
+Revenue rose 12% to $1.63 billion from $1.46 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+484..617
+4
+#### Text ####
+Systemwide sales, which include sales at franchisee as well as company-owned stores, totaled $4.59 billion compared with $4.2 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+621..624
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+484..617
+4
+#### Text ####
+Systemwide sales, which include sales at franchisee as well as company-owned stores, totaled $4.59 billion compared with $4.2 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+625..716
+5,1;5,2;5,3
+#### Text ####
+sales for U.S. franchisees were flat at best on a per-store basis despite weak 1988 figures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+718..731
+6,0,0;6,0,1,0
+#### Text ####
+Compared with
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast.Juxtaposition
+____Arg1____
+621..716
+5
+#### Text ####
+But sales for U.S. franchisees were flat at best on a per-store basis despite weak 1988 figures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+718..892
+6
+#### Text ####
+Compared with the first nine months of last year, average franchisee store sales this year were down nearly $3,200, reflecting a fierce discounting war among fast-food chains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+894
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+718..832
+6,0;6,1;6,2;6,3,0;6,3,1;6,3,2;6,4
+#### Text ####
+Compared with the first nine months of last year, average franchisee store sales this year were down nearly $3,200
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+894..976
+7
+#### Text ####
+Since McDonald's menu prices rose this year, the actual decline may have been more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+894..899
+7,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+939..976
+7,1;7,2;7,3;7,4
+#### Text ####
+the actual decline may have been more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+900..937
+7,0,1
+#### Text ####
+McDonald's menu prices rose this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1075..1080
+9,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1133..1259
+9,1;9,2;9,3;9,4
+#### Text ####
+McDonald's company-operated stores posted hefty gains for the nine months, with sales per company-operated unit rising $20,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1081..1131
+9,0,1
+#### Text ####
+franchisees were having a tough time holding sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1279
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1075..1259
+9
+#### Text ####
+While franchisees were having a tough time holding sales, McDonald's company-operated stores posted hefty gains for the nine months, with sales per company-operated unit rising $20,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1279..1385
+10,1,1
+#### Text ####
+that the company often has better store locations than do its franchisees, thus aiding promotional efforts
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1261..1278
+10,0;10,1,0;10,2
+#### Text ####
+One analyst noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1354..1358
+10,1,1,1,2,3,0
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1261..1278
+10,0;10,1,0;10,2
+#### Text ####
+One analyst noted
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+1279..1352
+10,1,1,0;10,1,1,1,0;10,1,1,1,1;10,1,1,1,2,0;10,1,1,1,2,1;10,1,1,1,2,2
+#### Text ####
+that the company often has better store locations than do its franchisees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1359..1385
+10,1,1,1,2,3,1
+#### Text ####
+aiding promotional efforts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1517
+12
+____Arg1____
+1389..1515
+11
+#### Text ####
+On average in the latest nine months, company-operated units in the U.S. had $90,552 more in sales than did franchised outlets
+##############
+____Arg2____
+1517..1612
+12
+#### Text ####
+There are more than three times as many franchised domestic outlets as there are company stores
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1808
+14
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1694..1750
+13,1,2
+#### Text ####
+which the company attributed in part to lower food costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1808..1848
+14,1,1,0;14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1;14,1,1,1,1,2
+#### Text ####
+reduced labor costs helped boost margins
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1752..1807
+14,0;14,1,0;14,2;14,3
+#### Text ####
+Prudential-Bache Securities analyst Leslie Steppel said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1850..1858
+14,1,1,1,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+1808..1848
+14,1,1,0;14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1;14,1,1,1,1,2
+#### Text ####
+reduced labor costs helped boost margins
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1752..1807
+14,0;14,1,0;14,2;14,3
+#### Text ####
+Prudential-Bache Securities analyst Leslie Steppel said
+##############
+____Arg2____
+1872..1911
+14,1,1,1,1,3,1,1,2
+#### Text ####
+that kind of performance is sustainable
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+1859..1870
+14,1,1,1,1,3,1,0;14,1,1,1,1,3,1,1,0;14,1,1,1,1,3,1,1,1
+#### Text ####
+she doubted
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1974
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1872..1911
+14,1,1,1,1,3,1,1,2
+#### Text ####
+that kind of performance is sustainable
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+1850..1870
+14,1,1,1,1,3,0;14,1,1,1,1,3,1,0;14,1,1,1,1,3,1,1,0;14,1,1,1,1,3,1,1,1
+#### Text ####
+although she doubted
+##############
+____Arg2____
+1974..2067
+15,4,1
+#### Text ####
+that in real terms, U.S. sales slipped 3 1/2% to 4% at company-operated stores in the quarter
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1953..1973
+15,1;15,2;15,3;15,4,0;15,5
+#### Text ####
+Ms. Steppel believes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2313
+18
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2222..2311
+17
+#### Text ####
+Overseas, both franchisees and the company performed substantially better than a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2313..2418
+18,0;18,1,0;18,1,1;18,1,2;18,1,3;18,1,4;18,2
+#### Text ####
+Third-quarter sales in Europe were exceptionally strong, boosted by promotional programs and new products
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2422..2430
+18,1,5,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Sup1____
+2370..2418
+18,1,3
+#### Text ####
+boosted by promotional programs and new products
+##############
+____Arg1____
+2313..2368
+18,0;18,1,0;18,1,1;18,1,2;18,1,4;18,2
+#### Text ####
+Third-quarter sales in Europe were exceptionally strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2431..2487
+18,1,5,1
+#### Text ####
+weaker foreign currencies reduced the company's earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2505
+19
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+2422..2487
+18,1,5
+#### Text ####
+although weaker foreign currencies reduced the company's earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2505..2606
+19,1,1
+#### Text ####
+that systemwide sales would have been $115 million greater had 1988 exchange rates remained in effect
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2489..2504
+19,0;19,1,0;19,2
+#### Text ####
+McDonald's said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2899..2904
+21,3,1,1,2,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2757..2816
+21,0;21,1;21,2;21,3,0;21,4
+#### Text ####
+Reflecting better growth prospects abroad, McDonald's noted
+##############
+while, Comparison.Contrast.Opposition
+____Arg1____
+2817..2897
+21,3,1,0;21,3,1,1,0;21,3,1,1,1;21,3,1,1,2,0;21,3,1,1,2,1;21,3,1,1,2,2;21,3,1,1,2,3;21,3,1,1,2,4
+#### Text ####
+that as of Sept. 30 more stores were under construction overseas than a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2905..2949
+21,3,1,1,2,5,1
+#### Text ####
+the opposite was true for domestic expansion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2951
+22
+____Arg1____
+2757..2949
+21
+#### Text ####
+Reflecting better growth prospects abroad, McDonald's noted that as of Sept. 30 more stores were under construction overseas than a year ago, while the opposite was true for domestic expansion
+##############
+____Arg2____
+2951..3031
+22
+#### Text ####
+At the end of the third quarter McDonald's had 10,873 units operating world-wide
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3165
+24
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3035..3163
+23
+#### Text ####
+In the nine months, earnings rose 12% to $555.6 million, or $1.49 a share, from $494.4 million, or $1.31 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3165..3217
+24
+#### Text ####
+Revenue rose 11% to $4.56 billion from $4.12 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

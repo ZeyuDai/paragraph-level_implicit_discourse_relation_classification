@@ -1,0 +1,155 @@
+________________________________________________________
+____EntRel____
+121
+1
+____Arg1____
+9..119
+0
+#### Text ####
+AVON RENT-A-CAR & TRUCK Corp. said it declared a dividend of one warrant for each three shares of common stock
+##############
+____Arg2____
+121..210
+1
+#### Text ####
+Currently, Avon, based in Santa Monica, Calif., has 3.3 million common shares outstanding
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+212
+2
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+121..210
+1
+#### Text ####
+Currently, Avon, based in Santa Monica, Calif., has 3.3 million common shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+212..258
+2,0
+#### Text ####
+About 1.1 million Class C warrants were issued
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+278
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+212..276
+2
+#### Text ####
+About 1.1 million Class C warrants were issued, the company said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+278..377
+3
+#### Text ####
+Each of the Class C warrants will enable the holders to purchase one share of common stock at $5.50
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+379
+4
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+278..377
+3
+#### Text ####
+Each of the Class C warrants will enable the holders to purchase one share of common stock at $5.50
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+379..445
+4
+#### Text ####
+The warrants may be exercised until 90 days after their issue date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+452..456
+5,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+44..119
+0,1,1
+#### Text ####
+it declared a dividend of one warrant for each three shares of common stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..43
+0,0;0,1,0;0,2
+#### Text ####
+AVON RENT-A-CAR & TRUCK Corp. said
+##############
+____Arg2____
+462..582
+5,2,1
+#### Text ####
+it will issue an additional 243,677 of the Class C warrants to holders of its Class A, Class B and unclassified warrants
+##############
+#### Features ####
+Ot, Comm, Null, Null
+447..451;457..461
+5,0;5,2,0;5,3
+#### Text ####
+Avon said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+584
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+462..582
+5,2,1
+#### Text ####
+it will issue an additional 243,677 of the Class C warrants to holders of its Class A, Class B and unclassified warrants
+##############
+#### Features ####
+Ot, Comm, Null, Null
+447..461
+5,0;5,1;5,2,0;5,3
+#### Text ####
+Avon also said
+##############
+____Arg2____
+584..678
+6
+#### Text ####
+Issuance of those warrants will be at the rate of one-third warrant for each warrant exercised
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

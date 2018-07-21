@@ -1,0 +1,434 @@
+________________________________________________________
+____EntRel____
+676
+3
+____Arg1____
+481..674
+2
+#### Text ####
+The Oversight Board, created in the savings-and-loan law signed in August, sets policy for the RTC, which will sell hundreds of the nation's sick thrifts and billions of dollars of their assets
+##############
+____Arg2____
+676..835
+3
+#### Text ####
+Treasury Secretary Nicholas Brady, Federal Reserve Board Chairman Alan Greenspan and Housing and Urban Development Secretary Jack Kemp are members of the board
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+837
+4
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+676..835
+3
+#### Text ####
+Treasury Secretary Nicholas Brady, Federal Reserve Board Chairman Alan Greenspan and Housing and Urban Development Secretary Jack Kemp are members of the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+837..919
+4
+#### Text ####
+President Bush must appoint two other members, one a Democrat and one a Republican
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1066..1069
+5,1,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+923..969
+5,0;5,1,0;5,1,1;5,2
+#### Text ####
+An administration official confirmed last week
+##############
+and, Expansion.Conjunction
+____Arg1____
+970..1064
+5,1,2,0
+#### Text ####
+that Mr. Simmons, the chairman of Valley National Bank in Phoenix, is the Republican appointee
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1070..1109
+5,1,2,3
+#### Text ####
+that a security clearance was under way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1111
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+970..1064
+5,1,2,0
+#### Text ####
+that Mr. Simmons, the chairman of Valley National Bank in Phoenix, is the Republican appointee
+##############
+#### Features ####
+Ot, Comm, Null, Null
+923..969
+5,0;5,1,0;5,1,1;5,2
+#### Text ####
+An administration official confirmed last week
+##############
+____Arg2____
+1111..1158
+6,0
+#### Text ####
+The Democratic appointee hasn't been determined
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1160..1177
+6,1;6,2;6,3;6,4
+#### Text ####
+the official said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1214..1217
+7,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1181..1212
+7,0
+#### Text ####
+Mr. Simmons declined to comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1218..1279
+7,3
+#### Text ####
+the White House said the congressmen's letter is under review
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1435
+9
+____Arg1____
+1283..1433
+8
+#### Text ####
+The letter, dated last Thursday, cited the losses at Valley National, and at United Bank, also of Phoenix, where Mr. Simmons was chairman for 29 years
+##############
+____Arg2____
+1435..1524
+9
+#### Text ####
+Both banks have been battered, as have other Arizona banks, by falling real estate prices
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1543..1554
+10,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1435..1524
+9
+#### Text ####
+Both banks have been battered, as have other Arizona banks, by falling real estate prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1526..1541;1556..1601
+10,0;10,1;10,3;10,4;10,5
+#### Text ####
+Valley National had $470 million in problem assets as of June
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1701..1704
+11,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1804..1819
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+the letter said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1606..1700
+11,1,0
+#### Text ####
+We believe that there are numerous other candidates more qualified for this important position
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1705..1801
+11,1,2
+#### Text ####
+we encourage you to give them your thorough consideration before making this key RTC appointment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1763..1769
+11,1,2,1,1,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1804..1819
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+the letter said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1722..1762
+11,1,2,1,1,1,0;11,1,2,1,1,1,1,0;11,1,2,1,1,1,1,1;11,1,2,1,1,1,1,2
+#### Text ####
+to give them your thorough consideration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1770..1801
+11,1,2,1,1,1,1,3,1
+#### Text ####
+making this key RTC appointment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1822
+12
+#### Features ####
+Ot, Comm, Null, Null
+1804..1819
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+the letter said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1606..1801
+11,1
+#### Text ####
+We believe that there are numerous other candidates more qualified for this important position and we encourage you to give them your thorough consideration before making this key RTC appointment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1822..1881
+12
+#### Text ####
+The RTC needs the most able, competent management available
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1886..1889
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..141
+0,0;0,1,0;0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1,0;0,1,1,1,1,1,1;0,1,1,1,1,1,2;0,1,1,1,1,1,3;0,2
+#### Text ####
+Some House Democrats are trying to head off an appointment by President Bush to the board that oversees the savings-and-loan bailout
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1890..1947
+13,1;13,2;13,3
+#### Text ####
+Mr. Simmons has long ties to both Republicans and banking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1949
+14
+#### Features ####
+Wr, Comm, Null, Null
+as, Expansion.Conjunction
+____Arg1____
+1886..1947
+13
+#### Text ####
+But Mr. Simmons has long ties to both Republicans and banking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1949..2032
+14,0;14,1,0;14,1,1;14,2
+#### Text ####
+He was co-chairman of Mr. Bush's Arizona campaign committee in last year's election
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2038..2042
+14,1,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1949..2032
+14,0;14,1,0;14,1,1
+#### Text ####
+He was co-chairman of Mr. Bush's Arizona campaign committee in last year's election
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2034..2037;2043..2083
+14,1,2;14,1,4;14,2
+#### Text ####
+and worked for Mr. Bush in the 1980 election
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2085
+15
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1949..2083
+14
+#### Text ####
+He was co-chairman of Mr. Bush's Arizona campaign committee in last year's election, and also worked for Mr. Bush in the 1980 election
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2085..2237
+15
+#### Text ####
+The two met more than 30 years ago, when Mr. Simmons worked for Commercial Bank & Trust Co. of Midland, Texas, where Mr. Bush was an organizing director
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2262..2266
+16,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2121..2237
+15,1,1,2
+#### Text ####
+when Mr. Simmons worked for Commercial Bank & Trust Co. of Midland, Texas, where Mr. Bush was an organizing director
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2241..2261;2267..2408
+16,0;16,1;16,2;16,4;16,5
+#### Text ####
+In 1986, Mr. Simmons served on a committee of businessmen headed by William Seidman, chairman of the Federal Deposit Insurance Corp. and the Resolution Trust Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2410
+17
+____Arg1____
+2241..2408
+16
+#### Text ####
+In 1986, Mr. Simmons also served on a committee of businessmen headed by William Seidman, chairman of the Federal Deposit Insurance Corp. and the Resolution Trust Corp
+##############
+____Arg2____
+2410..2481
+17
+#### Text ####
+That committee determined to open Arizona to banking across state lines
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+2483
+18
+____Arg1____
+2410..2481
+17
+#### Text ####
+That committee determined to open Arizona to banking across state lines
+##############
+____Arg2____
+2483..2593
+18
+#### Text ####
+Arizona Trend magazine referred to Mr. Simmons this year as one of the 25 most influential people in the state
+##############
+________________________________________________________

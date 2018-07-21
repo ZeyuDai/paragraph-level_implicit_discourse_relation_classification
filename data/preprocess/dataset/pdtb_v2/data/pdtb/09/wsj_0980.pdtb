@@ -1,0 +1,264 @@
+________________________________________________________
+____Explicit____
+87..91
+0,1,2,1,2,2,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+67..86
+0,1,2,1,1;0,1,2,1,2,0;0,1,2,1,2,1;0,1,2,1,3
+#### Text ####
+Charge With Caution
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+92..108
+0,1,2,1,2,2,1
+#### Text ####
+Traveling Abroad
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+110..117
+0,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..108
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+The Sept. 25 "Tracking Travel" column advises readers to "Charge With Caution When Traveling Abroad
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+118..203
+0,1,3,1
+#### Text ####
+credit-card companies charge 1% to convert foreign-currency expenditures into dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+205..212
+1,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Comparison
+____Arg1____
+9..203
+0
+#### Text ####
+The Sept. 25 "Tracking Travel" column advises readers to "Charge With Caution When Traveling Abroad" because credit-card companies charge 1% to convert foreign-currency expenditures into dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+214..276
+1,1;1,2;1,3;1,4
+#### Text ####
+this is the best bargain available to someone traveling abroad
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+434..448
+3,0
+#### Text ####
+On top of this
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+280..432
+2
+#### Text ####
+In contrast to the 1% conversion fee charged by Visa, foreign-currency dealers routinely charge 7% or more to convert U.S. dollars into foreign currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+434..578
+3
+#### Text ####
+On top of this, the traveler who converts his dollars into foreign currency before the trip starts will lose interest from the day of conversion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+510..516
+3,2,1,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+463..509
+3,2,1,0;3,2,1,1,0;3,2,1,1,1,0;3,2,1,1,1,1;3,2,1,1,1,2
+#### Text ####
+who converts his dollars into foreign currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+517..532
+3,2,1,1,1,3,1
+#### Text ####
+the trip starts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+580
+4
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+434..578
+3
+#### Text ####
+On top of this, the traveler who converts his dollars into foreign currency before the trip starts will lose interest from the day of conversion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+580..705
+4
+#### Text ####
+At the end of the trip, any unspent foreign exchange will have to be converted back into dollars, with another commission due
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+789
+6
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+709..787
+5
+#### Text ####
+The card holder will pay the modest 1% fee only on the amounts actually needed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+789..858
+6,0;6,1;6,2;6,3,0;6,3,1;6,4
+#### Text ####
+Typically, he will be billed only several weeks after the expenditure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+864..868
+6,3,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+789..858
+6,0;6,1;6,2;6,3,0;6,3,1
+#### Text ####
+Typically, he will be billed only several weeks after the expenditure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+860..863;869..926
+6,3,2;6,3,3,1;6,3,3,2;6,3,3,3;6,4
+#### Text ####
+and has another couple of weeks before he has to pay the bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+897..903
+6,3,3,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+860..896
+6,3,2;6,3,3,0;6,3,3,1;6,3,3,2
+#### Text ####
+and then has another couple of weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+904..926
+6,3,3,3,1
+#### Text ####
+he has to pay the bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+928..943
+7,0
+#### Text ####
+In the meantime
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meantime, Temporal.Synchrony
+____Arg1____
+789..926
+6
+#### Text ####
+Typically, he will be billed only several weeks after the expenditure, and then has another couple of weeks before he has to pay the bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+945..1059
+7,1;7,2;7,3;7,4
+#### Text ####
+the money can continue to earn interest for the card holder -- often more than 1% during that "float" period alone
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

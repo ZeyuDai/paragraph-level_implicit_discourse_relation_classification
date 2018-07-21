@@ -1,0 +1,274 @@
+________________________________________________________
+____Implicit____
+463
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+219..461
+1
+#### Text ####
+Under the agreement, Healthcare, a manager of health-care facilities, said it would pay HealthVest $3.9 million in overdue rent and mortgage payments and repay $1.1 million in funds that HealthVest advanced for construction work on facilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+463..583
+2
+#### Text ####
+In return, HealthVest agreed that it won't exercise its rights and remedies against Healthcare during the 120-day period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+802
+4
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+587..800
+3
+#### Text ####
+After the payment, Healthcare still will be $6.5 million in arrears on rent and mortgage payments to HealthVest, a real estate investment trust whose portfolio consists largely of properties operated by Healthcare
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+802..899
+4
+#### Text ####
+Healthcare has given HealthVest a 12% note for that overdue amount, to be repaid over three years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+903..914
+5,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+294..461
+1,3,1
+#### Text ####
+it would pay HealthVest $3.9 million in overdue rent and mortgage payments and repay $1.1 million in funds that HealthVest advanced for construction work on facilities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+219..293
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+Under the agreement, Healthcare, a manager of health-care facilities, said
+##############
+____Arg2____
+916..1049
+5,1;5,2;5,3,0;5,3,1,0;5,3,1,1,0;5,3,1,1,1,0;5,3,1,1,1,1;5,3,1,1,1,2;5,3,1,1,1,3;5,4
+#### Text ####
+Healthcare agreed to make monthly rent and mortgage payments of $2.7 million to $3 million to HealthVest during the standstill period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1051..1112
+5,3,1,1,1,4
+#### Text ####
+to be paid when Healthcare successfully completes asset sales
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1062..1066
+5,3,1,1,1,4,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+916..933
+5,1;5,2;5,3,0;5,4
+#### Text ####
+Healthcare agreed
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1051..1061
+5,3,1,1,1,4,0;5,3,1,1,1,4,1,0;5,3,1,1,1,4,1,1,0;5,3,1,1,1,4,1,1,1,0;5,3,1,1,1,4,1,1,1,1,0;5,3,1,1,1,4,1,1,1,1,1
+#### Text ####
+to be paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1067..1112
+5,3,1,1,1,4,1,1,1,1,2,1
+#### Text ####
+Healthcare successfully completes asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1114
+6
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+903..1112
+5
+#### Text ####
+In addition, Healthcare agreed to make monthly rent and mortgage payments of $2.7 million to $3 million to HealthVest during the standstill period, to be paid when Healthcare successfully completes asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1114..1286
+6
+#### Text ####
+Because Healthcare actually owes HealthVest $4.2 million in rent and mortgage payments each month, the amount due above the amount paid will be added to the three-year note
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1114..1121
+6,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1213..1286
+6,1;6,2;6,3;6,4
+#### Text ####
+the amount due above the amount paid will be added to the three-year note
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1122..1211
+6,0,1
+#### Text ####
+Healthcare actually owes HealthVest $4.2 million in rent and mortgage payments each month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1383..1390
+7,1,1,1,1,1,1,1,2,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1344..1382
+7,1,1,1,1,1,1,1,2,0;7,1,1,1,1,1,1,1,2,1,0;7,1,1,1,1,1,1,1,2,1,1,0;7,1,1,1,1,1,1,1,2,1,1,1,0;7,1,1,1,1,1,1,1,2,1,1,1,1
+#### Text ####
+which has been unable to pay its debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1391..1460
+7,1,1,1,1,1,1,1,2,1,1,1,2,1
+#### Text ####
+Healthcare hasn't made complete rent and mortgage payments since July
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1479
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1290..1460
+7
+#### Text ####
+The funds should help ease a cash bind at HealthVest, which has been unable to pay its debts because Healthcare hasn't made complete rent and mortgage payments since July
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1479..1595
+8,1,1
+#### Text ####
+HealthVest has paid two of the three banks it owed interest to in October and is in negotiations with the third bank
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1462..1478
+8,0;8,1,0;8,2
+#### Text ####
+A spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1691..1698
+9,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1599..1609;1654..1658
+9,0,0;9,0,1;9,0,3;9,1,0
+#### Text ####
+Healthcare said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1659..1690
+9,1,1,0;9,1,1,1,0;9,1,1,1,1,0;9,1,1,1,1,1
+#### Text ####
+it is able to make the payments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1699..1858
+9,1,1,1,1,2,1
+#### Text ####
+it completed a transaction with Greenery Rehabilitation Group Inc. in which Greenery purchased stock and warrants for $500,000 and loaned Healthcare $9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1860
+10
+____Arg1____
+1599..1858
+9
+#### Text ####
+Healthcare, which has been in a severe liquidity bind, said it is able to make the payments because it completed a transaction with Greenery Rehabilitation Group Inc. in which Greenery purchased stock and warrants for $500,000 and loaned Healthcare $9 million
+##############
+____Arg2____
+1860..1954
+10
+#### Text ####
+The loan is backed by Healthcare's 5.4% stake in HealthVest and interest in certain facilities
+##############
+________________________________________________________

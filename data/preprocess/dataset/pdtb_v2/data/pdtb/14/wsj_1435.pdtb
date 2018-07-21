@@ -1,0 +1,1089 @@
+________________________________________________________
+____Implicit____
+274
+2
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+136..272
+1,0,3
+#### Text ####
+Saturday morning, a resident was given 15 minutes to scurry into a sagging building and reclaim what she could of her life's possessions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+274..402
+2
+#### Text ####
+Saturday night she dined in an emergency shelter on salmon steaks prepared by chefs from one of the city's four-star restaurants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+575
+4
+#### Features ####
+Wr, Comm, Null, Null
+at the same time, Temporal.Synchrony
+____Arg1____
+409..573
+3
+#### Text ####
+Mayor Art Agnos stands in the glare of television lights trying to explain for the 20th time why the city is severely restricting access to badly damaged structures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+575..723
+4
+#### Text ####
+A couple in fashionable spandex warm-up suits jogs by, headphones jauntily in place, weaving their way along a street of fractured and fallen houses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+725
+5
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+575..723
+4
+#### Text ####
+A couple in fashionable spandex warm-up suits jogs by, headphones jauntily in place, weaving their way along a street of fractured and fallen houses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+725..827
+5
+#### Text ####
+At a nearby corner, they swerve perilously close to a listing apartment house, oblivious to any danger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+829
+6
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+725..827
+5
+#### Text ####
+At a nearby corner, they swerve perilously close to a listing apartment house, oblivious to any danger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+829..892
+6
+#### Text ####
+A policeman shakes his head in amazement as he steers them away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+870..872
+6,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+829..869
+6,0;6,1,0;6,1,1;6,1,2;6,2
+#### Text ####
+A policeman shakes his head in amazement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+873..892
+6,1,3,1
+#### Text ####
+he steers them away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1029
+8
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+975..1027
+7,2,3
+#### Text ####
+to learn that her apartment is on the condemned list
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1029..1098
+8
+#### Text ####
+She is told she can't enter unless she is accompanied by an inspector
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1057..1063
+8,1,1,2,1,1,2,1,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1029..1040
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,2
+#### Text ####
+She is told
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1041..1056
+8,1,1,2,0;8,1,1,2,1,0;8,1,1,2,1,1,0;8,1,1,2,1,1,1;8,1,1,2,1,1,2,0
+#### Text ####
+she can't enter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1064..1098
+8,1,1,2,1,1,2,1,1
+#### Text ####
+she is accompanied by an inspector
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1100
+9
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1029..1098
+8
+#### Text ####
+She is told she can't enter unless she is accompanied by an inspector
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1100..1136
+9
+#### Text ####
+She bursts into tears and walks away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1138
+10
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+1100..1136
+9
+#### Text ####
+She bursts into tears and walks away
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1138..1267
+10
+#### Text ####
+Nearby, five temporary residents of the school shelter sit on stools, having their necks and backs kneaded by volunteer masseuses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1352
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1271..1350
+11
+#### Text ####
+The Marina rescue center offered a very San Franciscan response to the disaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1460
+12,0;12,1;12,2;12,3,0;12,3,1,0;12,3,1,1;12,3,1,2;12,3,1,3;12,3,1,4,0;12,3,1,4,1,0;12,3,1,4,1,1,0;12,3,1,4,1,1,1;12,4
+#### Text ####
+In addition to free massages, there was free counseling, phone calls and a free shuttle bus to a health club
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1513
+13
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1352..1460
+12,0;12,1;12,2;12,3,0;12,3,1,0;12,3,1,1;12,3,1,2;12,3,1,3;12,3,1,4,0;12,3,1,4,1,0;12,3,1,4,1,1,0;12,3,1,4,1,1,1;12,4
+#### Text ####
+In addition to free massages, there was free counseling, phone calls and a free shuttle bus to a health club
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1513..1654
+13
+#### Text ####
+The cafeteria offered donated croissants and brie for breakfast, and for dinner, pasta salad and chocolate mousse torts along with the salmon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1771
+15
+____Arg1____
+1659..1769
+14
+#### Text ####
+This has been a 15-pound earthquake for me," said resident Joan O'Shea, who works in an acupuncturist's office
+##############
+____Arg2____
+1771..1903
+15
+#### Text ####
+She and some friends are considering offering earthquake victims free yoga classes and "aroma therapy" -- massages with scented oils
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1905
+16
+____Arg1____
+1771..1903
+15
+#### Text ####
+She and some friends are considering offering earthquake victims free yoga classes and "aroma therapy" -- massages with scented oils
+##############
+____Arg2____
+1905..2036
+16
+#### Text ####
+She finds the response of Marina residents -- primarily yuppies and elderly people -- to the devastation of their homes "incredible
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2038
+17
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1915..2036
+16,1,1
+#### Text ####
+the response of Marina residents -- primarily yuppies and elderly people -- to the devastation of their homes "incredible
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1905..1914
+16,0;16,1,0;16,2
+#### Text ####
+She finds
+##############
+____Arg2____
+2038..2084
+17
+#### Text ####
+People have been very respectful of each other
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2086
+18
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion
+____Arg1____
+2038..2084
+17
+#### Text ####
+People have been very respectful of each other
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2086..2141
+18
+#### Text ####
+I don't know if this would have happened somewhere else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2276
+20
+____Arg1____
+2146..2273
+19
+#### Text ####
+Out on the streets, some residents of badly damaged buildings were allowed a 15-minute scavenger hunt through their possessions
+##############
+____Arg2____
+2276..2357
+20
+#### Text ####
+It's so weird to have to decide what's really important to you," said Barbara May
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2359
+21
+____Arg1____
+2276..2357
+20
+#### Text ####
+It's so weird to have to decide what's really important to you," said Barbara May
+##############
+____Arg2____
+2359..2395
+21
+#### Text ####
+She went first for personal mementos
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2397
+22
+____Arg1____
+2359..2395
+21
+#### Text ####
+She went first for personal mementos
+##############
+____Arg2____
+2397..2448
+22
+#### Text ####
+In post-earthquake parlance, her building is a "red
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2451
+23
+____Arg1____
+2397..2448
+22
+#### Text ####
+In post-earthquake parlance, her building is a "red
+##############
+____Arg2____
+2451..2524
+23
+#### Text ####
+After being inspected, buildings with substantial damage were color-coded
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2451..2456
+23,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2474..2524
+23,1;23,2;23,3;23,4
+#### Text ####
+buildings with substantial damage were color-coded
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2457..2472
+23,0,1
+#### Text ####
+being inspected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2526
+24
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2451..2524
+23
+#### Text ####
+After being inspected, buildings with substantial damage were color-coded
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2526..2680
+24
+#### Text ####
+Green allowed residents to re-enter; yellow allowed limited access; red allowed residents one last entry to gather everything they could within 15 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2761
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2684..2759
+25
+#### Text ####
+Reds and yellows went about their business with a kind of measured grimness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2761..2844
+26
+#### Text ####
+Some frantically dumped belongings into pillowcases, others threw goods out windows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2846
+27
+____Arg1____
+2761..2844
+26
+#### Text ####
+Some frantically dumped belongings into pillowcases, others threw goods out windows
+##############
+____Arg2____
+2846..2918
+27
+#### Text ####
+It didn't help that on Saturday, after three days of sunshine, it rained
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3066
+29
+#### Features ####
+Ot, Comm, Null, Null
+3000..3063
+28,0;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+said Frank Fitzgerald, who helped others empty their apartments
+##############
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+2923..2997
+28,1
+#### Text ####
+The guys are going for their skis, their stereos, their personal computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3066..3141
+29
+#### Text ####
+The women wanted photo albums, a certain brooch, kind of sentimental things
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3144
+30
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3066..3141
+29
+#### Text ####
+The women wanted photo albums, a certain brooch, kind of sentimental things
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3144..3225
+30
+#### Text ####
+He showed an unbroken, still-ticking pocket watch that he retrieved for one woman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3227
+31
+____Arg1____
+3144..3225
+30
+#### Text ####
+He showed an unbroken, still-ticking pocket watch that he retrieved for one woman
+##############
+____Arg2____
+3227..3257
+31
+#### Text ####
+It belonged to her grandfather
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3341
+33
+____Arg1____
+3261..3339
+32
+#### Text ####
+Some residents defied orders and returned to "red" buildings to retrieve goods
+##############
+____Arg2____
+3341..3562
+33
+#### Text ####
+One building was upgraded to red status while people were taking things out, and a resident who wasn't allowed to go back inside called up the stairs to his girlfriend, telling her to keep sending things down to the lobby
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3381..3386
+33,0,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+3341..3380
+33,0,0;33,0,1,0;33,0,1,1,0;33,0,1,1,1;33,0,1,1,2
+#### Text ####
+One building was upgraded to red status
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3387..3416
+33,0,1,1,3,1
+#### Text ####
+people were taking things out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3418..3421
+33,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3341..3416
+33,0
+#### Text ####
+One building was upgraded to red status while people were taking things out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3422..3562
+33,3
+#### Text ####
+a resident who wasn't allowed to go back inside called up the stairs to his girlfriend, telling her to keep sending things down to the lobby
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3564
+34
+#### Features ####
+Wr, Comm, Null, Null
+ultimately, Temporal.Asynchronous.Precedence
+____Arg1____
+3418..3562
+33,2;33,3;33,4
+#### Text ####
+and a resident who wasn't allowed to go back inside called up the stairs to his girlfriend, telling her to keep sending things down to the lobby
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3564..3615
+34,0
+#### Text ####
+A policewoman had to be called in to make her leave
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3617
+34
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3564..3615
+34,0
+#### Text ####
+A policewoman had to be called in to make her leave
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3617..3663
+34,2
+#### Text ####
+the policewoman helped carry out one last load
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3735
+36
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3667..3717
+35,0
+#### Text ####
+Enforcement of restricted-entry rules was sporadic
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3719..3733
+35,1;35,2;35,3;35,4
+#### Text ####
+residents said
+##############
+____Arg2____
+3735..3914
+36;37
+#### Text ####
+One man trying to remove his car was told by officials to get out of his garage.
+When he sneaked back later to try again, a different policeman offered to help him get the car out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3816
+37
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3735..3814
+36
+#### Text ####
+One man trying to remove his car was told by officials to get out of his garage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3816..3914
+37
+#### Text ####
+When he sneaked back later to try again, a different policeman offered to help him get the car out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3816..3820
+37,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3857..3914
+37,1;37,2;37,3;37,4
+#### Text ####
+a different policeman offered to help him get the car out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3821..3855
+37,0,1
+#### Text ####
+he sneaked back later to try again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3837..3842
+37,0,1,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+3735..3814
+36
+#### Text ####
+One man trying to remove his car was told by officials to get out of his garage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3816..3836;3843..3855
+37,0,0;37,0,1,0;37,0,1,1,0;37,0,1,1,1;37,0,1,1,3;37,0,1,1,4
+#### Text ####
+When he sneaked back to try again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3929..3933
+38,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+1352..1654
+12;13
+#### Text ####
+In addition to free massages, there was free counseling, phone calls and a free shuttle bus to a health club, which offered up its showers, saunas and hot tubs.
+The cafeteria offered donated croissants and brie for breakfast, and for dinner, pasta salad and chocolate mousse torts along with the salmon
+##############
+____Arg1____
+1271..1350
+11
+#### Text ####
+The Marina rescue center offered a very San Franciscan response to the disaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3918..3928;3934..4067
+38,0;38,2;38,3
+#### Text ####
+The Marina has become the focal point of city efforts to reunite residents with any pets that may have fled or become lost during the earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4069
+39
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3918..4067
+38
+#### Text ####
+The Marina also has become the focal point of city efforts to reunite residents with any pets that may have fled or become lost during the earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4069..4195
+39
+#### Text ####
+On lampposts along Fillmore Street, a major Marina artery, posters were offering a $100 reward for a cat lost during the quake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4266..4270
+40,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3918..4067
+38
+#### Text ####
+The Marina also has become the focal point of city efforts to reunite residents with any pets that may have fled or become lost during the earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4199..4265;4271..4360
+40,0;40,2;40,3
+#### Text ####
+The San Francisco Society for the Prevention of Cruelty to Animals has been providing medical care, food, water and foster homes for quake-displaced animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4362
+41
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4199..4360
+40
+#### Text ####
+The San Francisco Society for the Prevention of Cruelty to Animals also has been providing medical care, food, water and foster homes for quake-displaced animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4362..4525
+41
+#### Text ####
+The SPCA says it has received more than 100 requests for foster homes on behalf of dogs and cats, though some people have sought temporary homes for birds and fish
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4460..4466
+41,1,1,1,3,0
+#### Text ####
+though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4362..4375
+41,0;41,1,0;41,2
+#### Text ####
+The SPCA says
+##############
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+4376..4458
+41,1,1,0;41,1,1,1,0;41,1,1,1,1;41,1,1,1,2
+#### Text ####
+it has received more than 100 requests for foster homes on behalf of dogs and cats
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4467..4525
+41,1,1,1,3,1
+#### Text ####
+some people have sought temporary homes for birds and fish
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4529..4540
+42,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Sup1____
+4653..4791
+43
+#### Text ####
+She can stay there with no heat, but for a parakeet, that can be deadly," says Daralee Konowitch, animalcare services manager for the SPCA
+##############
+____Arg1____
+4460..4525
+41,1,1,1,3
+#### Text ####
+though some people have sought temporary homes for birds and fish
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4362..4375
+41,0;41,1,0;41,2
+#### Text ####
+The SPCA says
+##############
+____Arg2____
+4542..4650;4793..4826
+42,1;42,2;42,3;42,4;44
+#### Text ####
+one parakeet owner returning home found that her apartment, like many others in the Marina, didn't have heat A warm foster home has been found
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4653
+43
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion
+____Arg1____
+4529..4650
+42
+#### Text ####
+For example, one parakeet owner returning home found that her apartment, like many others in the Marina, didn't have heat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4653..4724
+43,1
+#### Text ####
+She can stay there with no heat, but for a parakeet, that can be deadly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4727..4791
+43,0;43,2;43,3;43,4;43,5;43,6
+#### Text ####
+says Daralee Konowitch, animalcare services manager for the SPCA
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4686..4689
+43,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4727..4791
+43,0;43,2;43,3;43,4;43,5;43,6
+#### Text ####
+says Daralee Konowitch, animalcare services manager for the SPCA
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+4653..4684
+43,1,0
+#### Text ####
+She can stay there with no heat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4690..4724
+43,1,3
+#### Text ####
+for a parakeet, that can be deadly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4793
+44
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4653..4724
+43,1
+#### Text ####
+She can stay there with no heat, but for a parakeet, that can be deadly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4727..4791
+43,0;43,2;43,3;43,4;43,5;43,6
+#### Text ####
+says Daralee Konowitch, animalcare services manager for the SPCA
+##############
+____Arg2____
+4793..4826
+44
+#### Text ####
+A warm foster home has been found
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,873 @@
+________________________________________________________
+____Implicit____
+380
+1
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+255..378
+1,0
+#### Text ####
+The campaign, a patriotic celebration of the 200th anniversary of the Bill of Rights, doesn't mention cigarettes or smoking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+380..439
+1,2
+#### Text ####
+cigarette ads have been prohibited on television since 1971
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+441..444
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+380..439
+1,2
+#### Text ####
+cigarette ads have been prohibited on television since 1971
+##############
+____Arg1____
+255..378
+1,0
+#### Text ####
+The campaign, a patriotic celebration of the 200th anniversary of the Bill of Rights, doesn't mention cigarettes or smoking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+445..675
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+even before it begins, the campaign is drawing fire from anti-smoking advocates, who criticize Philip Morris's attempt to bolster its beleaguered image by wrapping itself in the document that is a cornerstone of American democracy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+445..456
+2,1,0;2,1,1
+#### Text ####
+even before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Sup1____
+526..675
+2,4,1,2,1,2
+#### Text ####
+who criticize Philip Morris's attempt to bolster its beleaguered image by wrapping itself in the document that is a cornerstone of American democracy
+##############
+____Arg1____
+441..444;468..524
+2,0;2,2;2,3;2,4,0;2,4,1,0;2,4,1,1;2,4,1,2,0;2,4,1,2,1,0;2,4,1,2,1,1;2,5
+#### Text ####
+But the campaign is drawing fire from anti-smoking advocates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+457..466
+2,1,2
+#### Text ####
+it begins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+896
+4
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+679..692;799..862
+3,0,0;3,0,1;3,0,3;3,1;3,2
+#### Text ####
+Philip Morris seems determined to evolve beyond its roots in Marlboro country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+896..994;1069..1096
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1;4,1,1,1,1,2;4,1,1,1,1,3,0;4,1,1,1,1,3,1,0,0;4,1,1,1,1,3,1,0,1,0;4,1,1,1,1,3,1,0,1,1,0;4,1,1,1,1,3,1,0,1,1,1,0;4,1,1,1,1,3,1,0,1,1,1,2;4,1,1,1,1,3,1,1
+#### Text ####
+that its name recognition among most consumers remains unusually low, although its array of brands blanket supermarket shelves
+##############
+#### Features ####
+Ot, Comm, Null, Null
+864..895
+4,0;4,1,0;4,2
+#### Text ####
+The company's research suggests
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+966..974
+4,1,1,1,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+864..895
+4,0;4,1,0;4,2
+#### Text ####
+The company's research suggests
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+896..964
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1;4,1,1,1,1,2
+#### Text ####
+that its name recognition among most consumers remains unusually low
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+975..1096
+4,1,1,1,1,3,1
+#### Text ####
+its array of brands -- including Maxwell House coffee, Jell-O, Cheez Whiz, and Miller beer -- blanket supermarket shelves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1251
+6
+____Arg1____
+1100..1249
+5
+#### Text ####
+The company is expected to spend about $30 million a year on its two-year corporate campaign, created by WPP Group's Ogilvy & Mather unit in New York
+##############
+____Arg2____
+1251..1321
+6
+#### Text ####
+The initial spots will appear during morning and prime-time news shows
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1323
+7
+____Arg1____
+1251..1321
+6
+#### Text ####
+The initial spots will appear during morning and prime-time news shows
+##############
+____Arg2____
+1323..1473
+7
+#### Text ####
+Philip Morris hopes that by taking its Bill of Rights theme to the airwaves, in addition to publications, it will reach the broadest possible audience
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1475
+8
+#### Features ####
+Wr, Comm, Null, Null
+in contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+1323..1473
+7
+#### Text ####
+Philip Morris hopes that by taking its Bill of Rights theme to the airwaves, in addition to publications, it will reach the broadest possible audience
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1475..1611
+8
+#### Text ####
+Until now, its corporate ads, mainly promoting its sponsorship of the arts, have appeared almost exclusively in newspapers and magazines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1775
+10
+#### Features ####
+Ot, Comm, Null, Null
+1702..1772
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+says Guy L. Smith, Philip Morris's vice president of corporate affairs
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1616..1627;1670..1699
+9,1,0;9,1,2
+#### Text ####
+Most people haven't got a clue who we are
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1775..1897
+10
+#### Text ####
+If they think well of the company through our support of the Bill of Rights, it follows they'll think well of our products
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1775..1777
+10,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1702..1772
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+says Guy L. Smith, Philip Morris's vice president of corporate affairs
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1852..1897
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+it follows they'll think well of our products
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1778..1850
+10,1,1
+#### Text ####
+they think well of the company through our support of the Bill of Rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1915
+11
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1775..1897
+10
+#### Text ####
+If they think well of the company through our support of the Bill of Rights, it follows they'll think well of our products
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1915..2063
+11,1,1
+#### Text ####
+the Bill of Rights commercial, which trumpets the themes of liberty and freedom of expression, isn't designed to have any special appeal for smokers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1900..1914
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Smith says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2065
+12
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1915..2063
+11,1,1
+#### Text ####
+the Bill of Rights commercial, which trumpets the themes of liberty and freedom of expression, isn't designed to have any special appeal for smokers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1900..1914
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Smith says
+##############
+____Arg2____
+2065..2221
+12,0
+#### Text ####
+Although Philip Morris typically tries to defend the rights of smokers with free-choice arguments, "this has nothing to do with cigarettes, nor will it ever
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2224..2242
+12,1;12,2;12,3;12,4;12,5
+#### Text ####
+the spokesman says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2065..2073
+12,0,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2224..2242
+12,1;12,2;12,3;12,4;12,5
+#### Text ####
+the spokesman says
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+2165..2221
+12,0,1;12,0,2;12,0,3;12,0,4;12,0,5;12,0,6
+#### Text ####
+this has nothing to do with cigarettes, nor will it ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2074..2162
+12,0,0,1
+#### Text ####
+Philip Morris typically tries to defend the rights of smokers with free-choice arguments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2205..2208
+12,0,5
+#### Text ####
+nor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2224..2242
+12,1;12,2;12,3;12,4;12,5
+#### Text ####
+the spokesman says
+##############
+nor, Expansion.Conjunction
+____Arg1____
+2165..2203
+12,0,3
+#### Text ####
+this has nothing to do with cigarettes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2209..2221
+12,0,6
+#### Text ####
+will it ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2246..2249
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Sup1____
+2065..2162
+12,0,0
+#### Text ####
+Although Philip Morris typically tries to defend the rights of smokers with free-choice arguments
+##############
+____Arg1____
+2165..2242
+12,0,1;12,0,2;12,0,3;12,0,4;12,0,5;12,0,6;12,1;12,2;12,3;12,4;12,5
+#### Text ####
+this has nothing to do with cigarettes, nor will it ever," the spokesman says
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2250..2286
+13,1;13,2,0;13,2,1;13,3
+#### Text ####
+some anti-smoking activists disagree
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2288..2383
+13,2,2
+#### Text ####
+expressing anger at what they see as the company's attempt to purchase innocence by association
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2386
+14
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2246..2383
+13
+#### Text ####
+But some anti-smoking activists disagree, expressing anger at what they see as the company's attempt to purchase innocence by association
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2386..2625
+14
+#### Text ####
+I'm outraged because this company is portraying itself at the heart of American culture and political freedom and in fact it's a killer," says Michael Pertschuk, former chairman of the Federal Trade Commission and a tobacco-industry critic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2399..2406
+14,1,0,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2524..2625
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+says Michael Pertschuk, former chairman of the Federal Trade Commission and a tobacco-industry critic
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2386..2398
+14,1,0,0;14,1,0,1,0;14,1,0,1,1
+#### Text ####
+I'm outraged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2407..2521
+14,1,0,1,2,1;14,1,1;14,1,2
+#### Text ####
+this company is portraying itself at the heart of American culture and political freedom and in fact it's a killer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2496..2499
+14,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2386..2398
+14,1,0,0;14,1,0,1,0;14,1,0,1,1
+#### Text ####
+I'm outraged
+##############
+and, Expansion.Conjunction
+____Arg1____
+2399..2495
+14,1,0,1,2
+#### Text ####
+because this company is portraying itself at the heart of American culture and political freedom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2500..2521
+14,1,2
+#### Text ####
+in fact it's a killer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2500..2507
+14,1,2,0
+#### Text ####
+in fact
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2386..2398
+14,1,0,0;14,1,0,1,0;14,1,0,1,1
+#### Text ####
+I'm outraged
+##############
+in fact, Comparison.Contrast.Juxtaposition
+____Arg1____
+2399..2495
+14,1,0,1,2
+#### Text ####
+because this company is portraying itself at the heart of American culture and political freedom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2496..2499;2508..2521
+14,1,1;14,1,2,1;14,1,2,2
+#### Text ####
+and it's a killer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2628
+15
+#### Features ####
+Ot, Comm, Null, Null
+2524..2625
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+says Michael Pertschuk, former chairman of the Federal Trade Commission and a tobacco-industry critic
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+2496..2521
+14,1,1;14,1,2
+#### Text ####
+and in fact it's a killer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2628..2705
+15
+#### Text ####
+It should be treated like the Medellin {drug} mafia, not the Founding Fathers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2831..2844
+17,0;17,1,0
+#### Text ####
+These include
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+2729..2829
+16,1,1
+#### Text ####
+that the new commercial dovetails perfectly with major aspects of Philip Morris's political strategy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2710..2728
+16,0;16,1,0;16,2
+#### Text ####
+Mr. Pertschuk adds
+##############
+____Arg2____
+2831..2987
+17
+#### Text ####
+These include trying to protect its print advertising by invoking the First Amendment, and wooing blacks by portraying itself as a protector of civil rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2990
+18
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2918..2987
+17,1,1,1,2;17,1,1,1,3
+#### Text ####
+and wooing blacks by portraying itself as a protector of civil rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2990..3095
+18
+#### Text ####
+The commercial features, among others, the voice of Martin Luther King Jr., the slain civil rights leader
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3163..3166
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3100..3161
+19,0
+#### Text ####
+Many marketers say Philip Morris's approach will be effective
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3167..3231
+19,3
+#### Text ####
+they agree that the ads' implied smoking message is unmistakable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3234
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3178..3231
+19,3,1,1
+#### Text ####
+that the ads' implied smoking message is unmistakable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3234..3316
+20,1
+#### Text ####
+This is clever, subliminal advertising that really says, `Smokers have rights, too
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3321..3409
+20,0;20,2;20,3;20,4;20,5
+#### Text ####
+says Al Ries, chairman of Trout & Ries Inc., a Greenwich, Conn., marketing strategy firm
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3412
+21
+#### Features ####
+Ot, Comm, Null, Null
+3321..3409
+20,0;20,2;20,3;20,4;20,5
+#### Text ####
+says Al Ries, chairman of Trout & Ries Inc., a Greenwich, Conn., marketing strategy firm
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3234..3316
+20,1
+#### Text ####
+This is clever, subliminal advertising that really says, `Smokers have rights, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3412..3491
+21
+#### Text ####
+This is designed to get the wagons in a circle and defend the smoking franchise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3617
+23
+#### Features ####
+Ot, Comm, Null, Null
+3496..3554
+22,0;22,1,0;22,1,1;22,1,2;22,2
+#### Text ####
+Richard Winger, a partner at Boston Consulting Group, adds
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+3557..3615
+22,1,3
+#### Text ####
+It's very popular to drape yourself in the flag these days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3617..3717
+23
+#### Text ####
+If you can do that and at the same time send a message that supports your business, that's brilliant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3617..3619
+23,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3496..3554
+22,0;22,1,0;22,1,1;22,1,2;22,2
+#### Text ####
+Richard Winger, a partner at Boston Consulting Group, adds
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3701..3717
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+that's brilliant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3620..3699
+23,0,1
+#### Text ####
+you can do that and at the same time send a message that supports your business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3820..3826
+25,1
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+3722..3817
+24
+#### Text ####
+RJR Nabisco Inc. and American Brands Inc. say they have no plans to follow Philip Morris's lead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3828..3971
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+RJR Nabisco is currently under fire for having sent 80-second videotapes touting its Now brand to consumers who smoke American Brands' Carltons
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4084
+27
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for instance, Expansion.Restatement.Specification
+____Arg1____
+3976..4081
+26
+#### Text ####
+Despite the criticism, Philip Morris's corporate campaign runs little risk of getting yanked off the tube
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4084..4146
+27,1
+#### Text ####
+They aren't showing James Madison taking a puff or lighting up
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4149..4225
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+says Laurence Tribe, a professor of constitutional law at Harvard University
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4228
+28
+#### Features ####
+Ot, Comm, Null, Null
+4149..4225
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+says Laurence Tribe, a professor of constitutional law at Harvard University
+##############
+rather, Comparison.Contrast
+____Arg1____
+4084..4146
+27,1
+#### Text ####
+They aren't showing James Madison taking a puff or lighting up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4228..4315
+28
+#### Text ####
+All they are trying to do is borrow some of the legitimacy of the Bill of Rights itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

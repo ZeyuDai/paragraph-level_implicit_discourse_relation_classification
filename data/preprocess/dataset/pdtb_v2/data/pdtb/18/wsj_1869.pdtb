@@ -1,0 +1,482 @@
+________________________________________________________
+____Explicit____
+580..586
+3,1,1,2,1,1,1,1,4,0
+#### Text ####
+though
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+488..508
+3,0;3,1,0;3,1,1,0;3,1,1,1;3,2
+#### Text ####
+He gave 10-to-1 odds
+##############
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+509..578
+3,1,1,2,0;3,1,1,2,1,0;3,1,1,2,1,1,0;3,1,1,2,1,1,1,0;3,1,1,2,1,1,1,1,0;3,1,1,2,1,1,1,1,1;3,1,1,2,1,1,1,1,2;3,1,1,2,1,1,1,1,3
+#### Text ####
+that a capital-gains tax cut of some sort would be approved this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+587..654
+3,1,1,2,1,1,1,1,4,1
+#### Text ####
+it probably won't be included in the pending deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+665
+4
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+488..654
+3
+#### Text ####
+He gave 10-to-1 odds that a capital-gains tax cut of some sort would be approved this year, though it probably won't be included in the pending deficit-reduction bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+665..774
+4,1,1
+#### Text ####
+that he expects to talk to the Democrats who also wanted to cut the gains tax about drafting a joint proposal
+##############
+#### Features ####
+Ot, Comm, Null, Null
+656..664
+4,0;4,1,0;4,2
+#### Text ####
+He added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+710..714
+4,1,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..124
+0
+#### Text ####
+Senate Republicans have settled on a proposal that would cut the capital-gains tax for individuals and corporations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+706..709;715..742
+4,1,1,1,1,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+who wanted to cut the gains tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+916
+6
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+778..914
+5
+#### Text ####
+For individuals, the Packwood plan would exclude from income 5% of the gain from the sale of a capital asset held for more than one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+916..1030
+6
+#### Text ####
+The exclusion would rise five percentage points for each year the asset was held until it reached a maximum of 35%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+997..1002
+6,1,1,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+916..996
+6,0;6,1,0;6,1,1,0;6,1,1,1;6,1,1,2;6,2
+#### Text ####
+The exclusion would rise five percentage points for each year the asset was held
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1003..1030
+6,1,1,3,1
+#### Text ####
+it reached a maximum of 35%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1032
+7
+____Arg1____
+916..1030
+6
+#### Text ####
+The exclusion would rise five percentage points for each year the asset was held until it reached a maximum of 35%
+##############
+____Arg2____
+1032..1091
+7
+#### Text ####
+The exclusion would apply to assets sold after Oct. 1, 1989
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1093..1110
+8,0
+#### Text ####
+As an alternative
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as an alternative, Expansion.Alternative.Disjunctive
+____Arg1____
+778..914
+5
+#### Text ####
+For individuals, the Packwood plan would exclude from income 5% of the gain from the sale of a capital asset held for more than one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1121..1186
+8,2;8,3;8,4
+#### Text ####
+taxpayers could chose to reduce their gains by an inflation index
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1112..1119
+8,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1332
+10
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1190..1330
+9
+#### Text ####
+For corporations, the top tax rate on the sale of assets held for more than three years would be cut to 33% from the current top rate of 34%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1332..1424
+10
+#### Text ####
+That rate would gradually decline to as little as 29% for corporate assets held for 15 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1452..1456
+11,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+55..124
+0,1,1,1,1,1
+#### Text ####
+that would cut the capital-gains tax for individuals and corporations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1428..1451;1457..1475;1519..1595
+11,0;11,1,0;11,1,2,0;11,1,2,1,0;11,1,2,1,1;11,1,2,1,3;11,1,2,1,4;11,2
+#### Text ####
+The Packwood plan would include a proposal that would expand and alter the deduction for individual retirement accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1597
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1428..1595
+11
+#### Text ####
+The Packwood plan would also include a proposal, designed by Sen. William Roth (R., Del.), that would expand and alter the deduction for individual retirement accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1597..1803
+12
+#### Text ####
+The Roth plan would create a new, non-deductible IRA from which money could be withdrawn tax-free not only for retirement, but also for the purchase of a first home and to pay education and medical expenses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1805
+13
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1597..1803
+12
+#### Text ####
+The Roth plan would create a new, non-deductible IRA from which money could be withdrawn tax-free not only for retirement, but also for the purchase of a first home and to pay education and medical expenses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1805..1884
+13
+#### Text ####
+Current IRAs could be rolled over into the new IRAs but would be subject to tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2079
+15
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1888..1953;1983..2077
+14,0;14,1;14,2;14,3,0;14,3,1,0;14,3,1,1,0;14,3,1,1,1,0;14,3,1,1,1,1,0;14,3,1,1,1,1,1;14,3,1,1,1,1,2,1;14,3,1,1,1,1,2,2;14,3,1,1,1,1,2,3;14,4
+#### Text ####
+For their part, the group of Democrats are working on a plan that would grant larger exclusions to assets the longer they were held by individuals and companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2079..2151
+15
+#### Text ####
+Newly acquired assets would get a bigger break than those currently held
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2153
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1949..2151
+14,3,1,1,1,1;15
+#### Text ####
+that, like the Packwood proposal, would grant larger exclusions to assets the longer they were held by individuals and companies.
+Newly acquired assets would get a bigger break than those currently held
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2153..2260
+16
+#### Text ####
+An extra exclusion would be given to long-held stock in small and medium-size corporations just starting up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2344
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2300..2342
+17,1,1,1;17,2
+#### Text ####
+the capital-gains plan passed by the House
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2344..2444
+18
+#### Text ####
+That plan would provide a 30% exclusion to assets sold over a 2 1/2-year period ending Dec. 31, 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2446..2456
+19,0
+#### Text ####
+After then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+2344..2444
+18
+#### Text ####
+That plan would provide a 30% exclusion to assets sold over a 2 1/2-year period ending Dec. 31, 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2446..2563
+19
+#### Text ####
+After then, the House measure would boost the tax rate to 28% and exclude from tax the gain attributable to inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2565
+20
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Restatement.Specification
+____Arg1____
+2446..2563
+19
+#### Text ####
+After then, the House measure would boost the tax rate to 28% and exclude from tax the gain attributable to inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2565..2635
+20
+#### Text ####
+Senators are focusing on making a capital-gains differential permanent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2639..2649
+21,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..124
+0
+#### Text ####
+Senate Republicans have settled on a proposal that would cut the capital-gains tax for individuals and corporations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2651..2860
+21,1;21,2;21,3;21,4
+#### Text ####
+Chairman Dan Rostenkowski (D., Ill.) of the House Ways and Means Committee said he didn't want the capital-gains tax cut or any other amendments attached to the pending bill raising the federal borrowing limit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2862
+22
+____Arg1____
+2639..2860
+21
+#### Text ####
+Separately, Chairman Dan Rostenkowski (D., Ill.) of the House Ways and Means Committee said he didn't want the capital-gains tax cut or any other amendments attached to the pending bill raising the federal borrowing limit
+##############
+____Arg2____
+2862..2900
+22
+#### Text ####
+The current debt limit expires Oct. 31
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2907..2911
+23,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2639..2860
+21
+#### Text ####
+Separately, Chairman Dan Rostenkowski (D., Ill.) of the House Ways and Means Committee said he didn't want the capital-gains tax cut or any other amendments attached to the pending bill raising the federal borrowing limit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2904..2906;2912..3083
+23,0;23,2;23,3
+#### Text ####
+He urged House and Senate negotiators to rid the deficit-reduction bill of all provisions that increase the budget deficit, including the House-passed capital-gains provision
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

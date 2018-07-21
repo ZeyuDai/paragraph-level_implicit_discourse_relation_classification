@@ -1,0 +1,73 @@
+________________________________________________________
+____EntRel____
+474
+3
+____Arg1____
+385..472
+2
+#### Text ####
+Sports Unlimited, Tampa, Fla., posted revenue of $59 million for the year ended July 31
+##############
+____Arg2____
+474..585
+3
+#### Text ####
+The company is "very profitable" on an operating basis, Mr. Richardson said, but he declined to specify numbers
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+551..554
+3,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+474..549
+3,0;3,1;3,2
+#### Text ####
+The company is "very profitable" on an operating basis, Mr. Richardson said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+555..585
+3,4
+#### Text ####
+he declined to specify numbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+718
+5
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+589..716
+4
+#### Text ####
+In 1982, Sports & Recreation's managers and certain passive investors purchased the company from Brunswick Corp. of Skokie, Ill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+718..797
+5,0
+#### Text ####
+In the latest transaction, management bought out the passive investors' holding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+799..818
+5,1;5,2;5,3;5,4
+#### Text ####
+Mr. Richardson said
+##############
+________________________________________________________

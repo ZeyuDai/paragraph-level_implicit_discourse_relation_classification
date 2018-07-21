@@ -1,0 +1,760 @@
+________________________________________________________
+____Implicit____
+306
+2
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+91..304
+1
+#### Text ####
+Major oil companies in the next few days are expected to report much less robust earnings than they did for the third quarter a year ago, largely reflecting deteriorating chemical prices and gasoline profitability
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+306..392
+2,0;2,1;2,2;2,3,0;2,3,1,0;2,3,1,1,0;2,3,1,1,1,0;2,3,1,1,1,1,0;2,3,1,1,1,1,1,0;2,3,1,1,1,1,1,1;2,4
+#### Text ####
+The gasoline picture may improve this quarter, but chemicals are likely to remain weak
+##############
+#### Features ####
+Ot, Comm, Null, Null
+394..430
+2,3,1,1,1,1,1,2
+#### Text ####
+industry executives and analysts say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+353..356
+2,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+394..430
+2,3,1,1,1,1,1,2
+#### Text ####
+industry executives and analysts say
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+306..351
+2,0
+#### Text ####
+The gasoline picture may improve this quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+357..392
+2,3,0;2,3,1,0;2,3,1,1,0;2,3,1,1,1,0;2,3,1,1,1,1,0;2,3,1,1,1,1,1,0;2,3,1,1,1,1,1,1
+#### Text ####
+chemicals are likely to remain weak
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+677..710
+4,1,0;4,1,1,0;4,1,1,1;4,1,1,2,0
+#### Text ####
+That change will obviously impact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+508..603
+3,0
+#### Text ####
+The industry is "seeing a softening somewhat in volume and certainly in price in petrochemicals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+606..674
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+Glenn Cox, president of Phillips Petroleum Co., said in an interview
+##############
+____Arg2____
+677..773
+4,1
+#### Text ####
+That change will obviously impact third and fourth quarter earnings" for the industry in general
+##############
+#### Features ####
+Ot, Comm, Null, Null
+775..783
+4,0;4,2;4,3;4,4;4,5
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+785
+5
+____Arg1____
+677..783
+4
+#### Text ####
+That change will obviously impact third and fourth quarter earnings" for the industry in general, he added
+##############
+____Arg2____
+785..822
+5
+#### Text ####
+He didn't forecast Phillips's results
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+826..829
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+785..822
+5
+#### Text ####
+He didn't forecast Phillips's results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+830..979
+6,1;6,2;6,3
+#### Text ####
+securities analysts say Phillips will be among the companies hard-hit by weak chemical prices and will probably post a drop in third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1189
+9
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1063..1112
+8,0;8,1;8,2,0;8,2,1,0;8,2,1,1,0;8,2,1,1,1,0;8,2,1,1,1,1,0;8,2,1,1,1,1,1,0;8,2,1,1,1,1,1,1,0;8,2,1,1,1,1,1,1,1;8,3
+#### Text ####
+Typical is what happened to the price of ethylene
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1189..1245
+9
+#### Text ####
+It has plunged 13% since July to around 26 cents a pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1247
+10
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+1189..1245
+9
+#### Text ####
+It has plunged 13% since July to around 26 cents a pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1247..1284
+10,0;10,1;10,2,0;10,2,1;10,2,2;10,3
+#### Text ####
+A year ago ethylene sold for 33 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1391
+12
+____Arg1____
+1329..1389
+11
+#### Text ####
+A big reason for the chemical price retreat is overexpansion
+##############
+____Arg2____
+1391..1500
+12
+#### Text ####
+Beginning in mid-1987, prices began accelerating as a growing U.S. economy and the weak dollar spurred demand
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1440..1442
+12,3,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+1391..1439
+12,0;12,1;12,2;12,3,0;12,3,1;12,4
+#### Text ####
+Beginning in mid-1987, prices began accelerating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1443..1500
+12,3,2,1
+#### Text ####
+a growing U.S. economy and the weak dollar spurred demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1502
+13
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1391..1500
+12
+#### Text ####
+Beginning in mid-1987, prices began accelerating as a growing U.S. economy and the weak dollar spurred demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1502..1536
+13
+#### Text ####
+Companies added capacity furiously
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1538
+14
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1502..1536
+13
+#### Text ####
+Companies added capacity furiously
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1538..1657
+14
+#### Text ####
+Now, greatly increased supplies are on the market, while the dollar is stronger, and domestic economic growth is slower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1589..1594
+14,3,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+1538..1587
+14,0;14,1;14,2;14,3,0;14,3,1;14,3,2;14,4
+#### Text ####
+Now, greatly increased supplies are on the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1595..1657
+14,3,3,1
+#### Text ####
+the dollar is stronger, and domestic economic growth is slower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1619..1622
+14,3,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1589..1617
+14,3,3,0;14,3,3,1,0;14,3,3,1,1
+#### Text ####
+while the dollar is stronger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1623..1657
+14,3,3,1,3
+#### Text ####
+domestic economic growth is slower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1711
+16
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1661..1708
+15
+#### Text ####
+Third-quarter profits from gasoline were weaker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1711..1812
+16,1
+#### Text ####
+Refining margins were so good in the third quarter of last year and generally not very good this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1815..1877
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+said William Randol, a securities analyst at First Boston Corp
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2008
+18
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1881..2006
+17
+#### Text ####
+Oil company refineries ran flat out to prepare for a robust holiday driving season in July and August that didn't materialize
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2008..2068
+18
+#### Text ####
+The excess supply pushed gasoline prices down in that period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2070..2081
+19,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Sup1____
+1881..2006
+17
+#### Text ####
+Oil company refineries ran flat out to prepare for a robust holiday driving season in July and August that didn't materialize
+##############
+____Arg1____
+2008..2068
+18
+#### Text ####
+The excess supply pushed gasoline prices down in that period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2083..2166
+19,1;19,2;19,3;19,4
+#### Text ####
+crude oil prices were up some from a year earlier, further pressuring profitability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2215..2218
+20,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2183..2213
+20,0,1,1
+#### Text ####
+margins picked up in September
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2170..2182
+20,0,0;20,0,1,0
+#### Text ####
+Refiners say
+##############
+____Arg2____
+2251..2349
+20,3,1,1
+#### Text ####
+gasoline profits will rebound this quarter, though still not to the level of 1988's fourth quarter
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2219..2250
+20,3,0;20,3,1,0
+#### Text ####
+many industry officials believe
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2351
+21
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2219..2349
+20,3
+#### Text ####
+many industry officials believe gasoline profits will rebound this quarter, though still not to the level of 1988's fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2351..2438
+21
+#### Text ####
+During the 1988 second half, many companies posted record gasoline and chemical profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2544
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2442..2542
+22
+#### Text ####
+Crude oil production may turn out to be the most surprising element of companies' earnings this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2544..2550;2635..2686
+23,0;23,1;23,3;23,4;23,5
+#### Text ####
+Prices have stayed well above most companies' expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2688
+24
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2544..2550;2635..2686
+23,0;23,1;23,3;23,4;23,5
+#### Text ####
+Prices have stayed well above most companies' expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2688..2734
+24,0
+#### Text ####
+Demand has been much stronger than anticipated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2736..2739
+24,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2688..2734
+24,0
+#### Text ####
+Demand has been much stronger than anticipated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2740..2786
+24,3
+#### Text ####
+it typically accelerates in the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2789
+25
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+2688..2786
+24
+#### Text ####
+Demand has been much stronger than anticipated, and it typically accelerates in the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2789..2829
+25,1
+#### Text ####
+We could see higher oil prices this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2832..2883
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+said Bryan Jacoboski, an analyst at PaineWebber Inc
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3061..3066
+27,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+3110..3144
+27,1;27,2;27,3;27,4
+#### Text ####
+natural gas prices have been worse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3067..3108
+27,0,1
+#### Text ####
+oil prices have been better than expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3146
+28
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3061..3144
+27
+#### Text ####
+While oil prices have been better than expected, natural gas prices have been worse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3146..3218
+28
+#### Text ####
+In the third quarter, they averaged about 5% less than they were in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3220..3243
+29,0;29,1,0
+#### Text ####
+The main reason remains
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+3146..3218
+28
+#### Text ####
+In the third quarter, they averaged about 5% less than they were in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3220..3251
+29
+#### Text ####
+The main reason remains weather
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3253
+30
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3220..3251
+29
+#### Text ####
+The main reason remains weather
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3253..3413
+30
+#### Text ####
+Last summer was notable for a heat wave and drought that caused utilities to burn more natural gas to feed increased electrical demand from air conditioning use
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3428..3445
+31,2
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Juxtaposition
+____Arg1____
+3253..3413
+30
+#### Text ####
+Last summer was notable for a heat wave and drought that caused utilities to burn more natural gas to feed increased electrical demand from air conditioning use
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3415..3426;3447..3476
+31,0;31,1;31,3;31,4;31,5
+#### Text ####
+This summer had milder weather than usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3590
+33
+____Arg1____
+3481..3587
+32
+#### Text ####
+We've been very disappointed in the performance of natural gas prices," said Mr. Cox, Phillips's president
+##############
+____Arg2____
+3590..3682
+33
+#### Text ####
+The lagging gas price is not going to assist fourth quarter performance as many had expected
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3792..3804
+35,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3687..3790
+34
+#### Text ####
+Going into the fourth quarter, natural gas prices are anywhere from 8% to 17% lower than a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3806..3980
+35,1;35,2;35,3;35,4
+#### Text ####
+natural gas currently produced along the Gulf Coast is selling on the spot market for around $1.47 a thousand cubic feet, down 13% from $1.69 a thousand cubic feet a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,571 @@
+________________________________________________________
+____Implicit____
+397
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+321..373
+1,3,1,1,1,2,1,1,3
+#### Text ####
+that he doesn't want the ability to halt the markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+288..320
+1,3,1,1,1,2,0;1,3,1,1,1,2,1,0;1,3,1,1,1,2,1,1,0;1,3,1,1,1,2,1,1,1;1,3,1,1,1,2,1,1,2
+#### Text ####
+who told a House panel Wednesday
+##############
+____Arg2____
+397..526
+2,1,1
+#### Text ####
+that discretionary power could have an impact on the markets if rumors were to circulate about when the exchanges might be closed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+375..396
+2,0;2,1,0;2,2
+#### Text ####
+Mr. Breeden contended
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+458..460
+2,1,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+375..396
+2,0;2,1,0;2,2
+#### Text ####
+Mr. Breeden contended
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+397..457
+2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1;2,1,1,1,1,1,2
+#### Text ####
+that discretionary power could have an impact on the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+461..526
+2,1,1,1,1,1,3,1
+#### Text ####
+rumors were to circulate about when the exchanges might be closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+537
+3
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+397..526
+2,1,1
+#### Text ####
+that discretionary power could have an impact on the markets if rumors were to circulate about when the exchanges might be closed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+375..396
+2,0;2,1,0;2,2
+#### Text ####
+Mr. Breeden contended
+##############
+____Arg2____
+537..614
+3,1,1
+#### Text ####
+that the president already has the power to close the markets in an emergency
+##############
+#### Features ####
+Ot, Comm, Null, Null
+528..536
+3,0;3,1,0;3,2
+#### Text ####
+He added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+618..621
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+375..614
+2;3
+#### Text ####
+Mr. Breeden contended that discretionary power could have an impact on the markets if rumors were to circulate about when the exchanges might be closed.
+He added that the president already has the power to close the markets in an emergency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+622..783
+4,1;4,2;4,3
+#### Text ####
+Mr. Brady argued that the SEC is closer to the markets and in a better position to understand when the exchanges are under such stress that they should be closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+787..797
+5,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..171
+0
+#### Text ####
+Treasury Secretary Nicholas Brady said that Congress should grant the Securities and Exchange Commission the power to close the stock markets in periods of crisis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+799..910
+5,1;5,2;5,3;5,4
+#### Text ####
+Mr. Brady said he asked the Working Group on Financial Markets to determine whether futures margins are too low
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+921
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+814..910
+5,3,1
+#### Text ####
+he asked the Working Group on Financial Markets to determine whether futures margins are too low
+##############
+#### Features ####
+Ot, Comm, Null, Null
+787..813
+5,0;5,1;5,2;5,3,0;5,4
+#### Text ####
+Separately, Mr. Brady said
+##############
+____Arg2____
+921..1020
+6,1,1
+#### Text ####
+that some minimum margin requirements have been reduced to levels below those before the 1987 crash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+912..920
+6,0;6,1,0;6,2
+#### Text ####
+He noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1125..1128
+7,0,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Arb, Ctrl, Null, Null
+1025..1046
+7,0,0;7,0,1;7,0,2,0;7,0,2,1,0;7,0,3;7,0,4
+#### Text ####
+This raises questions
+##############
+and, Expansion.Conjunction
+____Arg1____
+1047..1124
+7,0,2,1,1,0
+#### Text ####
+whether futures and equity margin requirements are consistent at these levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1129..1165
+7,0,2,1,1,2
+#### Text ####
+whether futures margins are adequate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1184
+8
+____Arg1____
+1025..1182
+7
+#### Text ####
+This raises questions whether futures and equity margin requirements are consistent at these levels and whether futures margins are adequate," Mr. Brady said
+##############
+____Arg2____
+1184..1277
+8
+#### Text ####
+Margins are the amount of money an investor needs to put up to buy or sell a futures contract
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1279
+9
+____Arg1____
+1184..1277
+8
+#### Text ####
+Margins are the amount of money an investor needs to put up to buy or sell a futures contract
+##############
+____Arg2____
+1279..1375
+9
+#### Text ####
+Margins on the futures exchanges typically are raised and lowered according to market volatility
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1692
+12
+____Arg1____
+1610..1690
+11
+#### Text ####
+Margins were raised or lowered about a dozen times since the crash Oct. 19, 1987
+##############
+____Arg2____
+1692..1905
+12
+#### Text ####
+Currently, they stand at $12,000 for speculators, who are typically individuals and non-member traders, and $6,000 for hedgers, which are usually institutions and have offsetting positions in the underlying stocks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1919..1923
+13,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1025..1182
+7
+#### Text ####
+This raises questions whether futures and equity margin requirements are consistent at these levels and whether futures margins are adequate," Mr. Brady said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1909..1918;1924..2003
+13,0;13,2;13,3;13,4
+#### Text ####
+Mr. Brady said he expects the leveraged buy-out phenomenon to "end under (its) own weight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2006
+14
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1909..2003
+13
+#### Text ####
+Mr. Brady also said he expects the leveraged buy-out phenomenon to "end under (its) own weight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2006..2190
+14
+#### Text ####
+Asked whether there is anything Congress should do to curb the LBO boom, Mr. Brady responded, "I think the LBO phenomenon, (while) it won't stop completely, will be a thing of the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2130..2135
+14,3,2,2,1,1,2,0,1
+#### Text ####
+while
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2101..2108
+14,3,2,0;14,3,2,1;14,3,2,2,0
+#### Text ####
+I think
+##############
+while, Comparison.Concession.Contra-expectation
+____Arg1____
+2109..2127;2163..2190
+14,3,2,2,1,0;14,3,2,2,1,1,0;14,3,2,2,1,1,1;14,3,2,2,1,1,3;14,3,2,2,1,1,4
+#### Text ####
+the LBO phenomenon will be a thing of the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2137..2161
+14,3,2,2,1,1,2,1
+#### Text ####
+it won't stop completely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2193
+15
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2006..2190
+14
+#### Text ####
+Asked whether there is anything Congress should do to curb the LBO boom, Mr. Brady responded, "I think the LBO phenomenon, (while) it won't stop completely, will be a thing of the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2193..2286
+15
+#### Text ####
+Before taking any action, he advised the panel to "see what the market has produced as a cure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2193..2199
+15,0,0
+#### Text ####
+Before
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2219..2239
+15,1;15,2;15,3,0;15,3,1;15,4;15,5
+#### Text ####
+he advised the panel
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2240..2286
+15,3,2
+#### Text ####
+to "see what the market has produced as a cure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2200..2217
+15,0,1
+#### Text ####
+taking any action
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2301..2305
+16,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..171;787..910;1909..2003
+0;5;13
+#### Text ####
+Treasury Secretary Nicholas Brady said that Congress should grant the Securities and Exchange Commission the power to close the stock markets in periods of crisis Separately, Mr. Brady said he asked the Working Group on Financial Markets to determine whether futures margins are too low Mr. Brady also said he expects the leveraged buy-out phenomenon to "end under (its) own weight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2291..2300;2306..2461
+16,0;16,2;16,3
+#### Text ####
+Mr. Brady agreed with senators' concerns about recent stock-market volatility, and said he realizes that the gyrations are scaring investors from investing in stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2463..2466
+17,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+2291..2461
+16
+#### Text ####
+Mr. Brady also agreed with senators' concerns about recent stock-market volatility, and said he realizes that the gyrations are scaring investors from investing in stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2467..2587
+17,1;17,2;17,3
+#### Text ####
+he added that individuals still are participating in the equity market indirectly through mutual funds and pension funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2831
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2591..2698
+18,0;18,1,0;18,1,1,0;18,1,1,1,0;18,1,1,1,1,0;18,1,1,1,1,1,0;18,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,1,1,0;18,1,1,1,1,1,1,1,1,1,1;18,2
+#### Text ####
+The former Wall Street executive refused to offer an opinion on the controversy surrounding program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2831..2929
+19
+#### Text ####
+I do not have a view of whether we should do anything about program trading at this time," he said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2933..2936
+20,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2831..2919
+19,0
+#### Text ####
+I do not have a view of whether we should do anything about program trading at this time
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2922..2929
+19,1;19,2;19,3
+#### Text ####
+he said
+##############
+____Arg2____
+2937..3047
+20,1;20,2;20,3
+#### Text ####
+Mr. Brady endorsed the market-revision bill that both houses of Congress will try to push through this session
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3049..3329
+21
+#### Text ####
+That bill, proposed by the SEC last year, would require brokerage firms to disclose the financial positions of their holding companies, mandate large traders' reporting of program or block trades, and improve clearing and settlement of trades between the futures and stock markets
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3049
+21
+____Arg1____
+2933..3047
+20
+#### Text ####
+But Mr. Brady endorsed the market-revision bill that both houses of Congress will try to push through this session
+##############
+____Arg2____
+3049..3329
+21
+#### Text ####
+That bill, proposed by the SEC last year, would require brokerage firms to disclose the financial positions of their holding companies, mandate large traders' reporting of program or block trades, and improve clearing and settlement of trades between the futures and stock markets
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3342..3346
+22,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3049..3058;3091..3329
+21,0,0;21,0,1;21,0,3;21,1;21,2
+#### Text ####
+That bill would require brokerage firms to disclose the financial positions of their holding companies, mandate large traders' reporting of program or block trades, and improve clearing and settlement of trades between the futures and stock markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3333..3341;3347..3478
+22,0;22,2;22,3
+#### Text ####
+The bill would give the SEC the power to close the markets, a discretion that former SEC Chairman David Ruder wanted but Mr. Breeden doesn't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

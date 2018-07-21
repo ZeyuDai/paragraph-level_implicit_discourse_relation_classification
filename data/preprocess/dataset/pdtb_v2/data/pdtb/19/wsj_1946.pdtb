@@ -1,0 +1,858 @@
+________________________________________________________
+____Explicit____
+351..356
+2,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+283..350
+2,0;2,1,0;2,1,1,0;2,1,1,1;2,1,1,2;2,2
+#### Text ####
+Glenn and Sharon Beebe of Cincinnati had sued the com- pany in 1981
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+357..402
+2,1,1,3,1
+#### Text ####
+installing Burlington carpets in their office
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+404
+3
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+283..402
+2
+#### Text ####
+Glenn and Sharon Beebe of Cincinnati had sued the com- pany in 1981 after installing Burlington carpets in their office
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+404..471
+3
+#### Text ####
+The Beebes alleged that toxic fumes from the carpets made them sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+473..501
+4,0
+#### Text ####
+As a result of their illness
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+404..471
+3
+#### Text ####
+The Beebes alleged that toxic fumes from the carpets made them sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+473..501;520..564
+4,0;4,2;4,3;4,4
+#### Text ####
+As a result of their illness they lost $1.8 million in wages and earnings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+503..518
+4,1
+#### Text ####
+the Beebes said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+566..577
+5,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+423..501;520..564
+3,1,1;4,0;4,2;4,3;4,4
+#### Text ####
+that toxic fumes from the carpets made them sick.
+As a result of their illness they lost $1.8 million in wages and earnings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+404..422;503..518
+3,0;3,1,0;3,2;4,1
+#### Text ####
+The Beebes alleged the Beebes said
+##############
+____Arg2____
+589..697
+5,3,1
+#### Text ####
+that months of exposure to the chemicals has left them sensitive to a wide range of commonly used substances
+##############
+#### Features ####
+Ot, Comm, Null, Null
+579..588
+5,1;5,2;5,3,0;5,4
+#### Text ####
+they said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+735..742
+6,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+701..734
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1;6,1,1,1,2;6,2
+#### Text ####
+The case had been closely watched
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+743..838
+6,1,1,1,3,1
+#### Text ####
+attorneys anticipate increasing litigation nationally over the so-called sick-building syndrome
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+840
+7
+____Arg1____
+701..838
+6
+#### Text ####
+The case had been closely watched because attorneys anticipate increasing litigation nationally over the so-called sick-building syndrome
+##############
+____Arg2____
+840..982
+7
+#### Text ####
+Plaintiffs' lawyers say that buildings become "sick" when inadequate fresh air and poor ventilation systems lead pollutants to build up inside
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+893..897
+7,1,1,1,1,4,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+840..863
+7,0;7,1,0;7,2
+#### Text ####
+Plaintiffs' lawyers say
+##############
+when, Contingency.Condition.General
+____Arg1____
+864..891
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1;7,1,1,1,1,2;7,1,1,1,1,3
+#### Text ####
+that buildings become "sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+898..982
+7,1,1,1,1,4,1
+#### Text ####
+inadequate fresh air and poor ventilation systems lead pollutants to build up inside
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1123
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1059..1113
+8,1,1,1,1,1
+#### Text ####
+the Beebes' symptoms were not related to the carpeting
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1038..1058
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0
+#### Text ####
+the company believes
+##############
+____Arg2____
+1123..1240
+9,1,1
+#### Text ####
+that ill effects from new carpets manifest themselves immediately but that the Beebes' symptoms appeared months later
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1115..1122
+9,0;9,1,0;9,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1189..1192
+9,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1115..1122
+9,0;9,1,0;9,2
+#### Text ####
+He said
+##############
+but, Comparison.Contrast
+____Arg1____
+1123..1188
+9,1,1,0
+#### Text ####
+that ill effects from new carpets manifest themselves immediately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1193..1240
+9,1,1,2
+#### Text ####
+that the Beebes' symptoms appeared months later
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1360
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1286..1358
+10,1,1
+#### Text ####
+the verdict would not discourage other plaintiffs from filing such suits
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1244..1285
+10,0;10,1,0;10,2
+#### Text ####
+Catherine Adams, the Beebes' lawyer, said
+##############
+____Arg2____
+1360..1511
+11,0
+#### Text ####
+Scientists are only beginning to understand what causes sick-building syndrome and much of that research was unavailable when the Beebes filed the case
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1513..1521
+11,1;11,2;11,3;11,4
+#### Text ####
+she said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1439..1442
+11,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1513..1521
+11,1;11,2;11,3;11,4
+#### Text ####
+she said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1360..1438
+11,0,0
+#### Text ####
+Scientists are only beginning to understand what causes sick-building syndrome
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1443..1511
+11,0,2
+#### Text ####
+much of that research was unavailable when the Beebes filed the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1481..1485
+11,0,2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1513..1521
+11,1;11,2;11,3;11,4
+#### Text ####
+she said
+##############
+when, Temporal.Synchrony
+____Arg1____
+1439..1480
+11,0,1;11,0,2,0;11,0,2,1,0;11,0,2,1,1
+#### Text ####
+and much of that research was unavailable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1486..1511
+11,0,2,1,2,1
+#### Text ####
+the Beebes filed the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1638..1641
+13,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1525..1636
+12
+#### Text ####
+The Beebes now believe that a prime culprit for their injuries was fumes from an adhesive used in the carpeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1642..1771
+13,0,1;13,0,2
+#### Text ####
+the Beebes didn't come to that conclusion until time limits had elapsed for adding the adhesives maker as a defendant in the case
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1773..1787
+13,1;13,2;13,3;13,4
+#### Text ####
+Ms. Adams said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1684..1689
+13,0,2,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1773..1787
+13,1;13,2;13,3;13,4
+#### Text ####
+Ms. Adams said
+##############
+until, Contingency.Condition.Hypothetical
+____Arg1____
+1638..1683
+13,0,0;13,0,1;13,0,2,0;13,0,2,1;13,0,2,2,0;13,0,2,2,1
+#### Text ####
+But the Beebes didn't come to that conclusion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1690..1771
+13,0,2,2,2,1
+#### Text ####
+time limits had elapsed for adding the adhesives maker as a defendant in the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2364
+19
+____Arg1____
+2228..2362
+18
+#### Text ####
+All but two of the 40 or so lawsuits that have been filed since the project's 1984 approval have been dismissed before the trial stage
+##############
+____Arg2____
+2364..2436
+19
+#### Text ####
+The two that remain haven't yet reached the pre-trial fact-finding stage
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2546
+21
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+2461..2543
+20,1,1
+#### Text ####
+the court's ruling clears the way for proceedings to condemn buildings in the area
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2440..2460
+20,0;20,1,0;20,2
+#### Text ####
+State officials said
+##############
+____Arg2____
+2546..2575
+21,1
+#### Text ####
+This project is ready to move
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2578..2634
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said State Urban Development Corp. Chairman Vincent Tese
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2638..2641
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Sup1____
+2546..2634
+21
+#### Text ####
+This project is ready to move," said State Urban Development Corp. Chairman Vincent Tese
+##############
+____Arg1____
+2440..2543
+20
+#### Text ####
+State officials said the court's ruling clears the way for proceedings to condemn buildings in the area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2642..2720
+22,1;22,2;22,3
+#### Text ####
+developers of four planned office towers cautioned that obstacles still remain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2722
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2693..2720
+22,2,1
+#### Text ####
+that obstacles still remain
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2638..2692
+22,0;22,1;22,2,0;22,3
+#### Text ####
+But developers of four planned office towers cautioned
+##############
+____Arg2____
+2722..2777;2859..2965
+23,0;23,1;23,2,0;23,2,1;23,2,3;23,3;23,4
+#### Text ####
+As part of the agreement with the state, the developers said they would not proceed with condemnation proceedings while there was "significant litigation" pending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2917..2922
+23,3,1,1,1,2,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2722..2863
+23,0;23,1;23,2;23,3,0;23,4
+#### Text ####
+As part of the agreement with the state, the developers -- a partnership of Park Tower Realty and Prudential Insurance Co. of America -- said
+##############
+while, Temporal.Synchrony
+____Arg1____
+2864..2916
+23,3,1,0;23,3,1,1,0;23,3,1,1,1,0;23,3,1,1,1,1;23,3,1,1,1,2,0;23,3,1,1,1,2,1
+#### Text ####
+they would not proceed with condemnation proceedings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2923..2965
+23,3,1,1,1,2,2,1
+#### Text ####
+there was "significant litigation" pending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3080..3086
+24,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2969..3014
+24,0;24,1,0;24,2
+#### Text ####
+Park Tower General Counsel Matthew Mayer said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3015..3079
+24,1,1,0;24,1,1,1,0;24,1,1,1,1,0;24,1,1,1,1,1,0;24,1,1,1,1,1,1,0;24,1,1,1,1,1,1,1,0;24,1,1,1,1,1,1,1,1,0;24,1,1,1,1,1,1,1,1,1
+#### Text ####
+the development team will have to review two additional lawsuits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3087..3157
+24,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+putting up a $155 million letter of credit to cover condemnation costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3159..3163
+25,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3015..3157
+24,1,1
+#### Text ####
+the development team will have to review two additional lawsuits before putting up a $155 million letter of credit to cover condemnation costs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2969..3014
+24,0;24,1,0;24,2
+#### Text ####
+Park Tower General Counsel Matthew Mayer said
+##############
+____Arg2____
+3174..3264
+25,2;25,3;25,4
+#### Text ####
+the partnership is waiting to see whether the appellate division's ruling will be appealed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3165..3172
+25,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4013..4020
+31,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+3889..3936
+30,1,2,3,0;30,1,2,3,1,0;30,1,2,3,1,1,0;30,1,2,3,1,1,1,0;30,1,2,3,1,1,1,1,0;30,1,2,3,1,1,1,1,1,0;30,1,2,3,1,1,1,1,1,1,0
+#### Text ####
+ruling that the attack had been a political act
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4022..4159
+31,1;31,2;31,3;31,4
+#### Text ####
+Judge Weinstein wrote in his opinion late last month that terrorism and acts of war against civilians cannot be defined as political acts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4179..4183
+32,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4013..4159
+31
+#### Text ####
+However, Judge Weinstein wrote in his opinion late last month that terrorism and acts of war against civilians cannot be defined as political acts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4163..4178;4184..4300
+32,0;32,2;32,3
+#### Text ####
+Judge Weinstein ruled that judges must consider prior to extradition whether the defendant will be treated fairly in a foreign court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4302..4310
+33,0,1
+#### Text ####
+To do so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+4163..4300
+32
+#### Text ####
+Judge Weinstein also ruled that judges must consider prior to extradition whether the defendant will be treated fairly in a foreign court
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4302..4310;4328..4450
+33,0;33,2;33,3;33,4
+#### Text ####
+To do so the U.S. courts must review the judicial process in the foreign country independently of the State Department's assessment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4312..4326
+33,1
+#### Text ####
+the judge said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4460
+34
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4302..4310;4328..4450
+33,0;33,2;33,3;33,4
+#### Text ####
+To do so the U.S. courts must review the judicial process in the foreign country independently of the State Department's assessment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4312..4326
+33,1
+#### Text ####
+the judge said
+##############
+____Arg2____
+4460..4563
+34,1,1
+#### Text ####
+that in this case he concurred with the State Department's decision that Mr. Ahmad should be extradited
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4452..4459
+34,0;34,1,0;34,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4565
+35
+____Arg1____
+4452..4563
+34
+#### Text ####
+He said that in this case he concurred with the State Department's decision that Mr. Ahmad should be extradited
+##############
+____Arg2____
+4565..4604
+35
+#### Text ####
+Mr. Ahmad's lawyer said he would appeal
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4992
+39
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+4852..4990
+38
+#### Text ####
+FORMER CANADIAN AMBASSADOR to the U.S. Allan E. Gotlieb has joined the Philadelphia law firm of Pepper, Hamilton & Scheetz as a consultant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4992..5003;5089..5239
+39,0,0;39,0,1;39,1;39,2
+#### Text ####
+Mr. Gotlieb is advising Pepper Hamilton's Washington office on legal matters related to Canadian-U.S. investment, corporate finance and international transactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5534
+42
+#### Features ####
+Ot, Comm, Null, Null
+5253..5426
+41,0
+#### Text ####
+In a speech prepared for delivery in New York yesterday, retired Justice Lewis Powell contested the notion that the last Supreme Court term marked a turn toward conservatism
+##############
+but, Comparison.Contrast
+____Arg1____
+5429..5526
+41,3
+#### Text ####
+Commentators who agreed on little else unanimously proclaimed a `shift in direction' on the court
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5534..5561;5612..5632
+42,0;42,1,0;42,1,1;42,1,2;42,1,4;42,1,5;42,2
+#### Text ####
+I take these pronouncements with a grain of salt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5634
+43
+#### Features ####
+Ot, Comm, Null, Null
+5253..5426
+41,0
+#### Text ####
+In a speech prepared for delivery in New York yesterday, retired Justice Lewis Powell contested the notion that the last Supreme Court term marked a turn toward conservatism
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+5534..5561;5612..5632
+42,0;42,1,0;42,1,1;42,1,2;42,1,4;42,1,5;42,2
+#### Text ####
+I take these pronouncements with a grain of salt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5634..5741
+43
+#### Text ####
+In an era of `sound bites' and instant opinion polls it is dangerous to apply broad labels to a single term
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

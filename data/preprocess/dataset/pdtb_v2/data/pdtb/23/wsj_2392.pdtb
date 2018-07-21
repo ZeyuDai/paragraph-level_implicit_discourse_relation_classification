@@ -1,0 +1,107 @@
+________________________________________________________
+____EntRel____
+73
+1
+____Arg1____
+9..71
+0
+#### Text ####
+Ford Motor Co. said it acquired 5% of the shares in Jaguar PLC
+##############
+____Arg2____
+73..211
+1
+#### Text ####
+Jaguar, the London Stock Exchange and the U.S. Securities and Exchange Commission are being notified of the transactions, the company said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+551
+4
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+366..549
+3
+#### Text ####
+The No. 2 auto maker disclosed last month that it wants to buy as much as 15% of the British luxury-car maker, the maximum allowed under current United Kingdom government restrictions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..672
+4
+#### Text ####
+General Motors Corp. said it had discussed the possibility of a joint venture with Jaguar before Ford began buying shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+641..647
+4,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+551..576
+4,0;4,1,0;4,2
+#### Text ####
+General Motors Corp. said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+577..640
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1,0;4,1,1,1,1,1,1
+#### Text ####
+it had discussed the possibility of a joint venture with Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+648..672
+4,1,1,1,1,1,2,1
+#### Text ####
+Ford began buying shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+682
+5
+#### Features ####
+Ot, Comm, Null, Null
+674..681
+5,0;5,1,0;5,2
+#### Text ####
+GM said
+##############
+furthermore, Expansion.Conjunction
+____Arg1____
+577..672
+4,1,1
+#### Text ####
+it had discussed the possibility of a joint venture with Jaguar before Ford began buying shares
+##############
+#### Features ####
+Ot, Comm, Null, Null
+551..576
+4,0;4,1,0;4,2
+#### Text ####
+General Motors Corp. said
+##############
+____Arg2____
+682..749
+5,1,1
+#### Text ####
+it still is talking with Jaguar about acquiring a minority interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

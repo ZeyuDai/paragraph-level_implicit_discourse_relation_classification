@@ -1,0 +1,310 @@
+________________________________________________________
+____Explicit____
+154..161
+1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+147..153
+1,0;1,1,0;1,2
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+162..278
+1,1,1,1
+#### Text ####
+their brokers can require them to sell some shares or put up more cash to enhance the collateral backing their loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+280
+2
+____Arg1____
+147..278
+1
+#### Text ####
+That's because their brokers can require them to sell some shares or put up more cash to enhance the collateral backing their loans
+##############
+____Arg2____
+280..391
+2
+#### Text ####
+In October 1987, these margin calls were thought to have contributed to the downward spiral of the stock market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+427..431
+3,3,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+395..426
+3,0;3,1;3,2;3,3,0;3,4
+#### Text ####
+Typically, a margin call occurs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+432..490
+3,3,1,1
+#### Text ####
+the price of a stock falls below 75% of its original value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+492
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+395..490
+3
+#### Text ####
+Typically, a margin call occurs when the price of a stock falls below 75% of its original value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+492..614
+4
+#### Text ####
+If the investor doesn't put up the extra cash to satisfy the call, the brokerage firm may begin liquidating the securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+492..494
+4,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+559..614
+4,1;4,2;4,3;4,4
+#### Text ####
+the brokerage firm may begin liquidating the securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+495..557
+4,0,1
+#### Text ####
+the investor doesn't put up the extra cash to satisfy the call
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+618..621
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+622..651
+5,1;5,2,0;5,3
+#### Text ####
+some big brokerage firms said
+##############
+but, Comparison.Contrast
+____Arg1____
+492..614
+4
+#### Text ####
+If the investor doesn't put up the extra cash to satisfy the call, the brokerage firm may begin liquidating the securities
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+652..712
+5,2,1
+#### Text ####
+they don't expect major problems as a result of margin calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+714
+6
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+618..712
+5
+#### Text ####
+But some big brokerage firms said they don't expect major problems as a result of margin calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+714..835
+6
+#### Text ####
+Margin calls since Friday "have been higher than usual, but reasonable," a spokesman for Shearson Lehman Hutton Inc. said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+932..939
+7,0,2,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+995..1011
+7,1;7,2;7,3;7,4
+#### Text ####
+a spokesman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+839..930
+7,0,0;7,0,1;7,0,2,0;7,0,2,1;7,0,2,2,0;7,0,2,2,1;7,0,2,2,2
+#### Text ####
+Merrill Lynch & Co. officials "don't expect {margin calls} to be as big a factor as in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+940..993
+7,0,2,2,3,1
+#### Text ####
+fewer individual investors are buying stock on margin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1222
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1134..1212
+8,1,1
+#### Text ####
+he didn't expect any immediate problems with margin calls for Schwab customers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1015..1133
+8,0;8,1,0;8,2
+#### Text ####
+Hugo Quackenbush, senior vice president at Charles Schwab Corp., the San Francisco-based discount brokerage firm, said
+##############
+____Arg2____
+1222..1262
+9,1,1,1,0
+#### Text ####
+Schwab had increased margin requirements
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1214..1221
+9,0;9,1,0;9,2;9,3
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1264..1266
+9,1,1,1,2
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1214..1221
+9,0;9,1,0;9,2;9,3
+#### Text ####
+He said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1222..1262
+9,1,1,1,0
+#### Text ####
+Schwab had increased margin requirements
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1267..1299
+9,1,1,1,3
+#### Text ####
+customers have more of a cushion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1313
+10
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1222..1299
+9,1,1
+#### Text ####
+Schwab had increased margin requirements "so customers have more of a cushion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1214..1221
+9,0;9,1,0;9,2;9,3
+#### Text ####
+He said
+##############
+____Arg2____
+1313..1357
+10,1,3
+#### Text ####
+We learned a lesson in 1987 about volatility
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1302..1310
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+He added
+##############
+________________________________________________________

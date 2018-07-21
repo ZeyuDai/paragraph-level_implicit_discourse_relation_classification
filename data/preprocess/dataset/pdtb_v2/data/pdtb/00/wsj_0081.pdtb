@@ -1,0 +1,78 @@
+________________________________________________________
+____Implicit____
+648
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+417..646
+2
+#### Text ####
+In May, University Patents filed a suit in federal court in Philadelphia against Albert M. Kligman, a researcher and professor at the University of Pennsylvania School of Medicine who developed Retin-A in the 1960s to combat acne
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+648..781
+3
+#### Text ####
+Dr. Kligman patented the medicine while employed by the University, but later licensed the Retin-A to a division of Johnson & Johnson
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+682..687
+3,1,0,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+648..681
+3,0;3,1,0,0;3,1,0,1;3,2
+#### Text ####
+Dr. Kligman patented the medicine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+688..714
+3,1,0,2,1
+#### Text ####
+employed by the University
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+720..725
+3,1,3,0
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+648..714
+3,0;3,1,0;3,1,1
+#### Text ####
+Dr. Kligman patented the medicine while employed by the University
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+716..719;726..781
+3,1,2;3,1,3,1;3,1,3,2;3,1,3,3;3,2
+#### Text ####
+but licensed the Retin-A to a division of Johnson & Johnson
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

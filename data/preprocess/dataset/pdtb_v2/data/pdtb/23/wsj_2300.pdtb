@@ -1,0 +1,2252 @@
+________________________________________________________
+____Explicit____
+39..42
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..35
+0
+#### Text ####
+No, it wasn't Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+43..239
+1,1;1,2;1,3;1,4;1,5
+#### Text ####
+while the New York Stock Exchange didn't fall apart Friday as the Dow Jones Industrial Average plunged 190.58 points -- most of it in the final hour -- it barely managed to stay this side of chaos
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+43..48
+1,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+39..42;195..239
+1,0;1,2;1,3;1,4;1,5
+#### Text ####
+But it barely managed to stay this side of chaos
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+49..101
+1,1,1,0;1,1,1,1,0;1,1,1,1,1;1,1,1,1,2,0;1,1,1,1,2,1;1,1,1,1,2,2
+#### Text ####
+the New York Stock Exchange didn't fall apart Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+102..191
+1,1,1,1,2,3
+#### Text ####
+as the Dow Jones Industrial Average plunged 190.58 points -- most of it in the final hour
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+102..104
+1,1,1,1,2,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+43..101
+1,1,0;1,1,1,0;1,1,1,1,0;1,1,1,1,1;1,1,1,1,2,0;1,1,1,1,2,1;1,1,1,1,2,2
+#### Text ####
+while the New York Stock Exchange didn't fall apart Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+105..191
+1,1,1,1,2,3,1
+#### Text ####
+the Dow Jones Industrial Average plunged 190.58 points -- most of it in the final hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+405
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+243..329;344..403
+2,0;2,1,0;2,1,1;2,1,3;2,2
+#### Text ####
+Some "circuit breakers" installed after the October 1987 crash failed their first test unable to cool the selling panic in both stocks and futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+405..457;543..590
+3,0,0;3,0,1;3,0,3;3,1;3,2;3,3
+#### Text ####
+The 49 stock specialist firms on the Big Board floor once again couldn't handle the selling pressure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+732
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+243..329;344..717
+2,0;2,1,0;2,1,1;2,1,3;2,2;3;4,0
+#### Text ####
+Some "circuit breakers" installed after the October 1987 crash failed their first test unable to cool the selling panic in both stocks and futures.
+The 49 stock specialist firms on the Big Board floor -- the buyers and sellers of last resort who were criticized after the 1987 crash -- once again couldn't handle the selling pressure. 
+
+Big investment banks refused to step up to the plate to support the beleaguered floor traders by buying big blocks of stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+331..342;719..730
+2,1,2;4,1;4,2;4,3;4,4
+#### Text ####
+traders say traders say
+##############
+____Arg2____
+732..835
+5
+#### Text ####
+Heavy selling of Standard & Poor's 500-stock index futures in Chicago relentlessly beat stocks downward
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1041
+8
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1001..1038
+7
+#### Text ####
+The finger-pointing has already begun
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1041..1267
+8;9
+#### Text ####
+The equity market was illiquid.
+Once again {the specialists} were not able to handle the imbalances on the floor of the New York Stock Exchange," said Christopher Pedersen, senior vice president at Twenty-First Securities Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1073
+9
+#### Features ####
+Ot, Comm, Null, Null
+1187..1267
+9,1;9,2;9,3;9,4;9,5
+#### Text ####
+said Christopher Pedersen, senior vice president at Twenty-First Securities Corp
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1041..1071
+8
+#### Text ####
+The equity market was illiquid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1073..1184
+9,0
+#### Text ####
+Once again {the specialists} were not able to handle the imbalances on the floor of the New York Stock Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1400
+11
+#### Features ####
+Ot, Comm, Null, Null
+1271..1342
+10,0;10,1;10,2;10,3;10,5
+#### Text ####
+Countered James Maguire, chairman of specialists Henderson Brothers Inc
+##############
+but, Comparison.Contrast
+____Arg1____
+1346..1398
+10,4
+#### Text ####
+It is easy to say the specialist isn't doing his job
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1400..1467
+11
+#### Text ####
+When the dollar is in a free-fall, even central banks can't stop it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1400..1404
+11,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1271..1342
+10,0;10,1;10,2;10,3;10,5
+#### Text ####
+Countered James Maguire, chairman of specialists Henderson Brothers Inc
+##############
+when, Contingency.Condition.General
+____Arg1____
+1435..1467
+11,1;11,2;11,3;11,4
+#### Text ####
+even central banks can't stop it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1405..1433
+11,0,1
+#### Text ####
+the dollar is in a free-fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1469
+12
+____Arg1____
+1400..1467
+11
+#### Text ####
+When the dollar is in a free-fall, even central banks can't stop it
+##############
+____Arg2____
+1469..1550
+12
+#### Text ####
+Speculators are calling for a degree of liquidity that is not there in the market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1670..1677
+13,1,2,5,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1555..1666
+13,0;13,1,0;13,1,1;13,1,2,0;13,1,2,1;13,1,2,2;13,1,2,3;13,1,2,4;13,2
+#### Text ####
+Many money managers and some traders had already left their offices early Friday afternoon on a warm autumn day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1678..1707
+13,1,2,5,1
+#### Text ####
+the stock market was so quiet
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1709..1713
+14,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1555..1666
+13,0;13,1,0;13,1,1;13,1,2,0;13,1,2,1;13,1,2,2;13,1,2,3;13,1,2,4;13,2
+#### Text ####
+Many money managers and some traders had already left their offices early Friday afternoon on a warm autumn day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1714..1914
+14,1;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+in a lightning plunge, the Dow Jones industrials in barely an hour surrendered about a third of their gains this year, chalking up a 190.58-point, or 6.9%, loss on the day in gargantuan trading volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1916
+15
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1709..1914
+14
+#### Text ####
+Then in a lightning plunge, the Dow Jones industrials in barely an hour surrendered about a third of their gains this year, chalking up a 190.58-point, or 6.9%, loss on the day in gargantuan trading volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1916..1998
+15
+#### Text ####
+Final-hour trading accelerated to 108.1 million shares, a record for the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2000
+16
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1916..1998
+15
+#### Text ####
+Final-hour trading accelerated to 108.1 million shares, a record for the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2000..2055
+16
+#### Text ####
+At the end of the day, 251.2 million shares were traded
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2057
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2000..2055
+16
+#### Text ####
+At the end of the day, 251.2 million shares were traded
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2057..2100
+17
+#### Text ####
+The Dow Jones industrials closed at 2569.26
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2239..2246
+19,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+2341..2366
+19,5,1,2,1,1,1,3
+#### Text ####
+a week after Black Monday
+##############
+____Arg1____
+2104..2216
+18
+#### Text ####
+The Dow's decline was second in point terms only to the 508-point Black Monday crash that occurred Oct. 19, 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2218..2237;2248..2366
+19,0;19,1;19,3;19,4;19,5;19,6
+#### Text ####
+In percentage terms the Dow's dive was the 12th-worst ever and the sharpest since the market fell 156.83, or 8%, a week after Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2368
+20
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2218..2366
+19
+#### Text ####
+In percentage terms, however, the Dow's dive was the 12th-worst ever and the sharpest since the market fell 156.83, or 8%, a week after Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2368..2402
+20
+#### Text ####
+The Dow fell 22.6% on Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2607
+22
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+2406..2605
+21
+#### Text ####
+Shares of UAL, the parent of United Airlines, were extremely active all day Friday, reacting to news and rumors about the proposed $6.79 billion buy-out of the airline by an employee-management group
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2607..2758
+22
+#### Text ####
+Wall Street's takeover-stock speculators, or "risk arbitragers," had placed unusually large bets that a takeover would succeed and UAL stock would rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2734..2737
+22,1,1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2607..2703
+22,0;22,1,0;22,1,1,0;22,1,1,1,0;22,1,1,1,1;22,2
+#### Text ####
+Wall Street's takeover-stock speculators, or "risk arbitragers," had placed unusually large bets
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+2704..2733
+22,1,1,1,2,0;22,1,1,1,2,1,0
+#### Text ####
+that a takeover would succeed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2738..2758
+22,1,1,1,2,1,2
+#### Text ####
+UAL stock would rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2863
+24
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2762..2860
+23
+#### Text ####
+At 2:43 p.m. EDT, came the sickening news: The Big Board was halting trading in UAL, "pending news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2863..2940
+24,0
+#### Text ####
+On the exchange floor, "as soon as UAL stopped trading, we braced for a panic
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2943..2968
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+said one top floor trader
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2887..2897
+24,0,3,0;24,0,3,1,0
+#### Text ####
+as soon as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2943..2968
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+said one top floor trader
+##############
+as soon as, Temporal.Asynchronous.Succession
+____Arg1____
+2863..2884;2919..2940
+24,0,0;24,0,1;24,0,2;24,0,4;24,0,5;24,0,6
+#### Text ####
+On the exchange floor we braced for a panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2898..2917
+24,0,3,1,1
+#### Text ####
+UAL stopped trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2970
+25
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2863..2940
+24,0
+#### Text ####
+On the exchange floor, "as soon as UAL stopped trading, we braced for a panic
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2943..2968
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+said one top floor trader
+##############
+____Arg2____
+2970..3041
+25
+#### Text ####
+Several traders could be seen shaking their heads when the news flashed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3020..3024
+25,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2970..3019
+25,0;25,1,0;25,1,1,0;25,1,1,1,0;25,1,1,1,1;25,2
+#### Text ####
+Several traders could be seen shaking their heads
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3025..3041
+25,1,1,1,2,1
+#### Text ####
+the news flashed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3101..3106
+26,3,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3045..3099
+26,0;26,1;26,2;26,3,0;26,3,1,0;26,3,1,1;26,3,1,2;26,4
+#### Text ####
+For weeks, the market had been nervous about takeovers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3107..3209
+26,3,1,3,1
+#### Text ####
+Campeau Corp. 's cash crunch spurred concern about the prospects for future highly leveraged takeovers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3211..3214
+27,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+3045..3209
+26
+#### Text ####
+For weeks, the market had been nervous about takeovers, after Campeau Corp. 's cash crunch spurred concern about the prospects for future highly leveraged takeovers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3215..3316
+27,1;27,2;27,3;27,4
+#### Text ####
+10 minutes after the UAL trading halt came news that the UAL group couldn't get financing for its bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3390
+30
+#### Features ####
+Wr, Comm, Null, Null
+for one thing, Expansion.Instantiation, Contingency.Cause.Reason
+____Arg1____
+3369..3388
+29
+#### Text ####
+The market crumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3390..3497
+30
+#### Text ####
+Arbitragers couldn't dump their UAL stock -- but they rid themselves of nearly every "rumor" stock they had
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3435..3438
+30,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3390..3431
+30,0
+#### Text ####
+Arbitragers couldn't dump their UAL stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3439..3497
+30,3
+#### Text ####
+they rid themselves of nearly every "rumor" stock they had
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3499..3510
+31,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3435..3497
+30,2;30,3;30,4
+#### Text ####
+but they rid themselves of nearly every "rumor" stock they had
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3512..3704
+31,1;31,2;31,3;31,4
+#### Text ####
+their selling caused trading halts to be declared in USAir Group, which closed down 3 7/8 to 41 1/2, Delta Air Lines, which fell 7 3/4 to 69 1/4, and Philips Industries, which sank 3 to 21 1/2
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3742..3745
+33,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3708..3740
+32
+#### Text ####
+These stocks eventually reopened
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3746..3886
+33,1;33,2;33,3;33,4;33,5
+#### Text ####
+as panic spread, speculators began to sell blue-chip stocks such as Philip Morris and International Business Machines to offset their losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3746..3748
+33,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3742..3745;3763..3863
+33,0;33,2;33,3;33,4,0;33,4,1,0;33,4,1,1,0;33,4,1,1,1,0;33,4,1,1,1,1;33,5
+#### Text ####
+But speculators began to sell blue-chip stocks such as Philip Morris and International Business Machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3749..3761
+33,1,1
+#### Text ####
+panic spread
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3888
+34
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+3742..3886
+33
+#### Text ####
+But as panic spread, speculators began to sell blue-chip stocks such as Philip Morris and International Business Machines to offset their losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3888..4006
+34
+#### Text ####
+When trading was halted in Philip Morris, the stock was trading at 41, down 3 3/8, while IBM closed 5 5/8 lower at 102
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3888..3892
+34,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3930..4006
+34,1;34,2;34,3;34,4
+#### Text ####
+the stock was trading at 41, down 3 3/8, while IBM closed 5 5/8 lower at 102
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3893..3928
+34,0,1
+#### Text ####
+trading was halted in Philip Morris
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3971..3976
+34,3,1,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+3930..3969
+34,1;34,2;34,3,0;34,3,1,0;34,3,1,1;34,3,1,2;34,3,1,3;34,3,1,4;34,4
+#### Text ####
+the stock was trading at 41, down 3 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3977..4006
+34,3,1,5,1
+#### Text ####
+IBM closed 5 5/8 lower at 102
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4111..4115
+35,1,1,2,1,1,2,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General, Temporal.Asynchronous.Succession
+____Arg1____
+4079..4110
+35,1,1,2,1,1,2,0;35,1,1,2,1,1,2,1,0;35,1,1,2,1,1,2,1,1,0;35,1,1,2,1,1,2,1,1,1,0;35,1,1,2,1,1,2,1,1,1,1;35,1,1,2,1,1,2,1,1,1,2
+#### Text ####
+which are triggered by computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4116..4145
+35,1,1,2,1,1,2,1,1,1,3,1
+#### Text ####
+prices fall to certain levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4147
+36
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4010..4145
+35
+#### Text ####
+Selling snowballed because of waves of automatic "stop-loss" orders, which are triggered by computer when prices fall to certain levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4147..4260
+36
+#### Text ####
+Most of the stock selling pressure came from Wall Street professionals, including computer-guided program traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4320..4337
+37,1,1,1,2
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4262..4274
+37,0;37,1,0;37,2
+#### Text ####
+Traders said
+##############
+on the other hand, Comparison.Contrast.Juxtaposition
+____Arg1____
+4147..4260
+36
+#### Text ####
+Most of the stock selling pressure came from Wall Street professionals, including computer-guided program traders
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+4275..4318;4339..4348
+37,1,1,0;37,1,1,1,0;37,1,1,1,1;37,1,1,1,3;37,1,1,1,4
+#### Text ####
+most of their major institutional investors sat tight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4417..4419
+38,5,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+4352..4416
+38,0;38,1;38,2;38,3;38,4;38,5,0;38,5,1;38,6
+#### Text ####
+Now, at 3:07, one of the market's post-crash "reforms" took hold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4420..4532
+38,5,2,1
+#### Text ####
+the S&P 500 futures contract had plunged 12 points, equivalent to around a 100-point drop in the Dow industrials
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4534
+39
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4352..4532
+38
+#### Text ####
+Now, at 3:07, one of the market's post-crash "reforms" took hold as the S&P 500 futures contract had plunged 12 points, equivalent to around a 100-point drop in the Dow industrials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4534..4655
+39
+#### Text ####
+Under an agreement signed by the Big Board and the Chicago Mercantile Exchange, trading was temporarily halted in Chicago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4783..4786
+40,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4659..4781
+40,0;40,1;40,2;40,3
+#### Text ####
+After the trading halt in the S&P 500 pit in Chicago, waves of selling continued to hit stocks themselves on the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4787..4829
+40,5
+#### Text ####
+specialists continued to notch prices down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4831..4842
+41,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+4659..4829
+40
+#### Text ####
+After the trading halt in the S&P 500 pit in Chicago, waves of selling continued to hit stocks themselves on the Big Board, and specialists continued to notch prices down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4844..4903
+41,1;41,2;41,3;41,4
+#### Text ####
+the link between the futures and stock markets ripped apart
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4905
+42
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+4831..4903
+41
+#### Text ####
+As a result, the link between the futures and stock markets ripped apart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4905..5098
+42
+#### Text ####
+Without the guidepost of stock-index futures -- the barometer of where traders think the overall stock market is headed -- many traders were afraid to trust stock prices quoted on the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5100
+43
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4905..4949;5028..5098
+42,0,0;42,0,1,0;42,0,1,1,0;42,0,1,1,1,0;42,0,1,1,1,1;42,0,1,1,1,3;42,1;42,2;42,3
+#### Text ####
+Without the guidepost of stock-index futures many traders were afraid to trust stock prices quoted on the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5100..5161
+43
+#### Text ####
+The futures halt was even assailed by Big Board floor traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5164
+44
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5100..5161
+43
+#### Text ####
+The futures halt was even assailed by Big Board floor traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5164..5212
+44
+#### Text ####
+It screwed things up," said one major specialist
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5410
+46
+____Arg1____
+5216..5407
+45
+#### Text ####
+This confusion effectively halted one form of program trading, stock index arbitrage, that closely links the futures and stock markets, and has been blamed by some for the market's big swings
+##############
+____Arg2____
+5410..5554
+46
+#### Text ####
+In a stock-index arbitrage sell program, traders buy or sell big baskets of stocks and offset the trade in futures to lock in a price difference
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5560..5564
+47,1,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5655..5723
+47,0;47,2;47,3;47,4;47,5;47,6
+#### Text ####
+said a managing director at one of the largest program-trading firms
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+5603..5652
+47,1,1;47,1,2;47,1,3
+#### Text ####
+it cracked every model we had for the marketplace
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5565..5601
+47,1,0,1
+#### Text ####
+the airline information came through
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5726
+48
+#### Features ####
+Ot, Comm, Null, Null
+5655..5723
+47,0;47,2;47,3;47,4;47,5;47,6
+#### Text ####
+said a managing director at one of the largest program-trading firms
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+5560..5652
+47,1
+#### Text ####
+When the airline information came through, it cracked every model we had for the marketplace
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5726..5788
+48
+#### Text ####
+We didn't even get a chance to do the programs we wanted to do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5793..5796
+49,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5216..5407
+45
+#### Text ####
+This confusion effectively halted one form of program trading, stock index arbitrage, that closely links the futures and stock markets, and has been blamed by some for the market's big swings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5797..5816
+49,1;49,2;49,3
+#### Text ####
+stocks kept falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5818
+50
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+5793..5816
+49
+#### Text ####
+But stocks kept falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5818..5899
+50
+#### Text ####
+The Dow industrials were down 55 points at 3 p.m. before the futures-trading halt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5901
+51
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+5818..5899
+50
+#### Text ####
+The Dow industrials were down 55 points at 3 p.m. before the futures-trading halt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5901..5989
+51
+#### Text ####
+At 3:30 p.m., at the end of the "cooling off" period, the average was down 114.76 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5991..6000
+52,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+5818..5989
+50;51
+#### Text ####
+The Dow industrials were down 55 points at 3 p.m. before the futures-trading halt.
+At 3:30 p.m., at the end of the "cooling off" period, the average was down 114.76 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6002..6121
+52,1;52,2;52,3;52,4;52,5;52,6
+#### Text ####
+during the the S&P trading halt, S&P futures sell orders began piling up, while stocks in New York kept falling sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6076..6081
+52,5,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+5991..6074
+52,0;52,1;52,2;52,3;52,4;52,5,0;52,5,1;52,5,2;52,6
+#### Text ####
+Meanwhile, during the the S&P trading halt, S&P futures sell orders began piling up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6082..6121
+52,5,3,1
+#### Text ####
+stocks in New York kept falling sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6234
+54
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+6174..6219
+53,1,2
+#### Text ####
+the circuit breaker "worked well mechanically
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6125..6173
+53,0;53,1,0;53,1,1;53,2
+#### Text ####
+Big Board Chairman John J. Phelan said yesterday
+##############
+____Arg2____
+6234..6339
+54,2,1
+#### Text ####
+it's nonproductive at this point to get into a debate if index arbitrage would have helped or hurt things
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+6221..6233
+54,0;54,1;54,2,0;54,3;54,4
+#### Text ####
+I just think
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6446..6448
+55,3,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+6413..6445
+55,3,0;55,3,1,0;55,3,1,1,0;55,3,1,1,1,0;55,3,1,1,1,1;55,3,2
+#### Text ####
+Mr.
+Phelan was flying to Bangkok
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6449..6471
+55,3,1,1,1,2,1
+#### Text ####
+the market was falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6611
+56
+____Arg1____
+6344..6609
+55
+#### Text ####
+Under another post-crash system, Big Board President Richard Grasso (Mr.
+Phelan was flying to Bangkok as the market was falling) was talking on an "inter-exchange hot line" to the other exchanges, the Securities and Exchange Commission and the Federal Reserve Board
+##############
+____Arg2____
+6611..6747
+56
+#### Text ####
+He camped out at a high-tech nerve center on the floor of the Big Board, where he could watch updates on prices and pending stock orders
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6804..6807
+57,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+6751..6802
+57,0
+#### Text ####
+At about 3:30 p.m. EDT, S&P futures resumed trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6808..6883
+57,3
+#### Text ####
+for a brief time the futures and stock markets started to come back in line
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6885
+58
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+6751..6883
+57
+#### Text ####
+At about 3:30 p.m. EDT, S&P futures resumed trading, and for a brief time the futures and stock markets started to come back in line
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6885..6921
+58
+#### Text ####
+Buyers stepped in to the futures pit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6923..6926
+59,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+6804..6883
+57,2;57,3;57,4
+#### Text ####
+and for a brief time the futures and stock markets started to come back in line
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6927..7034
+59,0,1;59,0,2;59,1;59,2;59,3;59,4
+#### Text ####
+the build-up of S&P futures sell orders weighed on the market, and the link with stocks began to fray again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6990..6993
+59,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+6923..6988
+59,0
+#### Text ####
+But the build-up of S&P futures sell orders weighed on the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6994..7034
+59,3
+#### Text ####
+the link with stocks began to fray again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7120..7123
+60,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+7038..7118
+60,0;60,1;60,2;60,3
+#### Text ####
+At about 3:45, the S&P market careened to still another limit, of 30 points down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7124..7148
+60,5
+#### Text ####
+trading was locked again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7170
+61
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+7038..7148
+60
+#### Text ####
+At about 3:45, the S&P market careened to still another limit, of 30 points down, and trading was locked again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7170..7237
+61,1,1
+#### Text ####
+the S&P was signaling that the Dow could fall as much as 200 points
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7150..7169
+61,0;61,1,0;61,2
+#### Text ####
+Futures traders say
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+7347
+63
+____Arg1____
+7241..7345
+62
+#### Text ####
+During this time, small investors began ringing their brokers, wondering whether another crash had begun
+##############
+____Arg2____
+7347..7504
+63
+#### Text ####
+At Prudential-Bache Securities Inc., which is trying to cater to small investors, some demoralized brokers thought this would be the final confidence-crusher
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7771
+66
+#### Features ####
+Ot, Comm, Null, Null
+7865..7890
+66,1;66,2;66,3;66,4;66,5
+#### Text ####
+Mr. Ball told the brokers
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+7684..7767
+65
+#### Text ####
+I have a hunch that this particular decline today is something `more ado about less
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7771..7862
+66,0
+#### Text ####
+It would be my inclination to advise clients not to sell, to look for an opportunity to buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8034
+68
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+7894..8031
+67
+#### Text ####
+At Merrill Lynch & Co., the nation's biggest brokerage firm, a news release was prepared headlined "Merrill Lynch Comments on Market Drop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8034..8236
+68
+#### Text ####
+The release cautioned that "there are significant differences between the current environment and that of October 1987" and that there are still "attractive investment opportunities" in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8154..8157
+68,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+8034..8055
+68,0;68,1,0;68,2
+#### Text ####
+The release cautioned
+##############
+and, Expansion.Conjunction
+____Arg1____
+8056..8152
+68,1,1,0
+#### Text ####
+that "there are significant differences between the current environment and that of October 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8158..8236
+68,1,1,2
+#### Text ####
+that there are still "attractive investment opportunities" in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8240..8247
+69,0
+#### Text ####
+However
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8249..8312
+69,1;69,2;69,3,0;69,4
+#### Text ####
+Jeffrey B. Lane, president of Shearson Lehman Hutton Inc., said
+##############
+however, Comparison.Contrast
+____Arg1____
+8056..8236
+68,1,1
+#### Text ####
+that "there are significant differences between the current environment and that of October 1987" and that there are still "attractive investment opportunities" in the stock market
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+8034..8055
+68,0;68,1,0;68,2
+#### Text ####
+The release cautioned
+##############
+____Arg2____
+8313..8381
+69,3,1,0;69,3,1,1,0;69,3,1,1,1,0;69,3,1,1,1,1;69,3,1,1,1,2,0;69,3,1,1,1,2,1;69,3,1,1,1,2,2;69,3,1,1,1,2,3
+#### Text ####
+that Friday's plunge is "going to set back" relations with customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+8384..8431
+69,3,1,1,1,2,4
+#### Text ####
+because it reinforces the concern of volatility
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8384..8391
+69,3,1,1,1,2,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8249..8312
+69,1;69,2;69,3,0;69,4
+#### Text ####
+Jeffrey B. Lane, president of Shearson Lehman Hutton Inc., said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+8313..8381
+69,3,1,0;69,3,1,1,0;69,3,1,1,1,0;69,3,1,1,1,1;69,3,1,1,1,2,0;69,3,1,1,1,2,1;69,3,1,1,1,2,2;69,3,1,1,1,2,3
+#### Text ####
+that Friday's plunge is "going to set back" relations with customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8392..8431
+69,3,1,1,1,2,4,1
+#### Text ####
+it reinforces the concern of volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8433..8436
+70,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+8437..8444
+70,1;70,2,0;70,3
+#### Text ####
+I think
+##############
+and, Expansion.Conjunction
+____Arg1____
+8313..8431
+69,3,1
+#### Text ####
+that Friday's plunge is "going to set back" relations with customers, "because it reinforces the concern of volatility
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8249..8312
+69,1;69,2;69,3,0;69,4
+#### Text ####
+Jeffrey B. Lane, president of Shearson Lehman Hutton Inc., said
+##############
+____Arg2____
+8445..8489
+70,2,1
+#### Text ####
+a lot of people will harp on program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8491
+71
+#### Features ####
+Ot, Comm, Null, Null
+8240..8312
+69,0;69,1;69,2;69,3,0;69,4
+#### Text ####
+However, Jeffrey B. Lane, president of Shearson Lehman Hutton Inc., said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+8433..8489
+70
+#### Text ####
+And I think a lot of people will harp on program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8491..8549
+71
+#### Text ####
+It's going to bring the debate right back to the forefront
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8554..8556
+72,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+8613..8668
+72,1;72,2;72,3;72,4
+#### Text ####
+the S&P pit stayed locked at its 30-point trading limit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8557..8611
+72,0,1
+#### Text ####
+the Dow average ground to its final 190.58 loss Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8735
+73
+#### Features ####
+Wr, Comm, Null, Null
+additionally, Expansion.Conjunction
+____Arg1____
+8554..8668
+72
+#### Text ####
+As the Dow average ground to its final 190.58 loss Friday, the S&P pit stayed locked at its 30-point trading limit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8735..8822
+73,1,1
+#### Text ####
+2,000 S&P contracts were for sale on the close, the equivalent of $330 million in stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8670..8734
+73,0;73,1,0;73,2
+#### Text ####
+Jeffrey Yass of program trader Susquehanna Investment Group said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8824..8827
+74,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8670..8734
+73,0;73,1,0;73,2
+#### Text ####
+Jeffrey Yass of program trader Susquehanna Investment Group said
+##############
+but, Comparison.Contrast
+____Arg1____
+8735..8822
+73,1,1
+#### Text ####
+2,000 S&P contracts were for sale on the close, the equivalent of $330 million in stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8828..8848
+74,1;74,2;74,3
+#### Text ####
+there were no buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8852..8857
+75,0,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9000..9012
+75,1;75,2;75,3;75,4
+#### Text ####
+traders said
+##############
+while, Comparison.Concession.Expectation
+____Arg1____
+8935..8998
+75,0,1;75,0,2;75,0,3
+#### Text ####
+it left the market vulnerable to continued selling this morning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8858..8933
+75,0,0,1
+#### Text ####
+Friday's debacle involved mainly professional traders rather than investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9014
+76
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+8935..8998
+75,0,1;75,0,2;75,0,3
+#### Text ####
+it left the market vulnerable to continued selling this morning
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9000..9012
+75,1;75,2;75,3;75,4
+#### Text ####
+traders said
+##############
+____Arg2____
+9014..9112
+76
+#### Text ####
+Stock-index futures contracts settled at much lower prices than indexes of the stock market itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9114
+77
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9014..9112
+76
+#### Text ####
+Stock-index futures contracts settled at much lower prices than indexes of the stock market itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9114..9284
+77
+#### Text ####
+At those levels, stocks are set up to be hammered by index arbitragers, who lock in profits by buying futures when futures prices fall, and simultaneously sell off stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9224..9228
+77,3,1,2,1,1,1,2,1,2,1,1,0,3,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+9206..9223
+77,3,1,2,1,1,1,2,1,2,1,1,0,3,0;77,3,1,2,1,1,1,2,1,2,1,1,0,3,1,0;77,3,1,2,1,1,1,2,1,2,1,1,0,3,1,1,0;77,3,1,2,1,1,1,2,1,2,1,1,0,3,1,1,1
+#### Text ####
+by buying futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9229..9248
+77,3,1,2,1,1,1,2,1,2,1,1,0,3,1,1,2,1
+#### Text ####
+futures prices fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9254..9268
+77,3,1,2,1,1,1,2,1,2,1,1,3,0
+#### Text ####
+simultaneously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+simultaneously, Temporal.Synchrony
+____Arg1____
+9206..9248
+77,3,1,2,1,1,1,2,1,2,1,1,0,3
+#### Text ####
+by buying futures when futures prices fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9250..9253;9269..9284
+77,3,1,2,1,1,1,2,1,2,1,1,2;77,3,1,2,1,1,1,2,1,2,1,1,3,1;77,3,1,2,1,1,1,2,1,2,1,1,3,2;77,3,1,2,1,1,1,2,1,2,1,1,3,3
+#### Text ####
+and sell off stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9286..9289
+78,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+9186..9284
+77,3,1,2,1,1,1,2,1,2
+#### Text ####
+who lock in profits by buying futures when futures prices fall, and simultaneously sell off stocks
+##############
+____Arg1____
+9114..9184
+77,0;77,1;77,2;77,3,0;77,3,1,0;77,3,1,1;77,3,1,2,0;77,3,1,2,1,0;77,3,1,2,1,1,0;77,3,1,2,1,1,1,0;77,3,1,2,1,1,1,1;77,3,1,2,1,1,1,2,0;77,3,1,2,1,1,1,2,1,0;77,3,1,2,1,1,1,2,1,1;77,4
+#### Text ####
+At those levels, stocks are set up to be hammered by index arbitragers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9290..9355
+78,1;78,2;78,3
+#### Text ####
+nobody knows at what level the futures and stocks will open today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+9533
+80
+____Arg1____
+9359..9531
+79
+#### Text ####
+The de-linkage between the stock and futures markets Friday will undoubtedly cause renewed debate about whether Wall Street is properly prepared for another crash situation
+##############
+____Arg2____
+9533..9600
+80
+#### Text ####
+The Big Board's Mr. Grasso said, "Our systemic performance was good
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+9603..9606
+81,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9533..9564
+80,0;80,1,0;80,1,1;80,2;80,3
+#### Text ####
+The Big Board's Mr. Grasso said
+##############
+but, Comparison.Contrast
+____Arg1____
+9567..9600
+80,1,2
+#### Text ####
+Our systemic performance was good
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9607..9682
+81,1;81,2;81,3
+#### Text ####
+the exchange will "look at the performance of all specialists in all stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9684
+82
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9603..9682
+81
+#### Text ####
+But the exchange will "look at the performance of all specialists in all stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9549..9564
+80,0,1;80,0,2;80,1,0;80,1,1
+#### Text ####
+Mr. Grasso said
+##############
+____Arg2____
+9684..9797
+82,0
+#### Text ####
+Obviously we'll take a close look at any situation in which we think the dealer-community obligations weren't met
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9800..9807
+82,1;82,2;82,3;82,4;82,5
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+9887..9890
+84,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+9684..9797
+82,0
+#### Text ####
+Obviously we'll take a close look at any situation in which we think the dealer-community obligations weren't met
+##############
+____Arg1____
+9603..9682
+81
+#### Text ####
+But the exchange will "look at the performance of all specialists in all stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9533..9564
+80,0;80,1,0;80,1,1;80,2;80,3
+#### Text ####
+The Big Board's Mr. Grasso said
+##############
+____Arg2____
+9891..10110
+84,1;84,2;84,3
+#### Text ####
+specialists complain privately that just as in the 1987 crash, the "upstairs" firms -- big investment banks that support the market by trading big blocks of stock -- stayed on the sidelines during Friday's blood-letting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10112
+85
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+9887..10110
+84
+#### Text ####
+But specialists complain privately that just as in the 1987 crash, the "upstairs" firms -- big investment banks that support the market by trading big blocks of stock -- stayed on the sidelines during Friday's blood-letting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10112..10207
+85
+#### Text ####
+Mr. Phelan said, "It will take another day or two" to analyze who was buying and selling Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

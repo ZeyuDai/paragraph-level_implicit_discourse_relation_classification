@@ -1,0 +1,897 @@
+________________________________________________________
+____Explicit____
+216..221
+1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+162..214
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,2
+#### Text ####
+Tokyo stocks posted a second-consecutive loss Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+222..267
+1,1,4,1
+#### Text ####
+trading in Frankfurt, West Germany, was mixed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+357
+3
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+271..355
+2
+#### Text ####
+In London, the Financial Times 100-share index finished 30.1 points higher at 2112.2
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+357..438
+3
+#### Text ####
+The index settled off the high of 2117.1 posted after Wall Street opened stronger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+405..410
+3,1,1,1,2,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+357..404
+3,0;3,1,0;3,1,1,0;3,1,1,1,0;3,1,1,1,1;3,1,1,1,2,0;3,1,1,1,2,1;3,2
+#### Text ####
+The index settled off the high of 2117.1 posted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+411..438
+3,1,1,1,2,2,1
+#### Text ####
+Wall Street opened stronger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+440..443
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+357..438
+3
+#### Text ####
+The index settled off the high of 2117.1 posted after Wall Street opened stronger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+444..485
+4,1;4,2,0;4,2,1;4,2,2;4,2,3;4,3
+#### Text ####
+it showed strength throughout the session
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+617
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+560..615
+5
+#### Text ####
+The 30-share index settled 23.2 points higher at 1701.7
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+617..726
+6
+#### Text ####
+Volume was only 256.6 million shares, breaking the previous 1989 low of 276.8 million shares recorded Oct. 23
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+741..745
+7,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+560..726
+5;6
+#### Text ####
+The 30-share index settled 23.2 points higher at 1701.7.
+Volume was only 256.6 million shares, breaking the previous 1989 low of 276.8 million shares recorded Oct. 23
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+728..740;746..800
+7,0;7,1,0;7,1,2;7,2
+#### Text ####
+Turnover was down substantially from 840.8 million shares on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1142
+10
+____Arg1____
+1004..1140
+9
+#### Text ####
+Dealers attributed most of the day's gains to market-makers moving prices higher, rather than an outbreak of significant buying interest
+##############
+____Arg2____
+1142..1225
+10
+#### Text ####
+Prices were up across the board, with most blue-chip stocks registering solid gains
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1229..1235
+11,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+1274..1394
+11,3,1
+#### Text ####
+fresh buying interest was sidelined ahead of a potential market-affecting debate in the House of Commons set for Tuesday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1261..1273
+11,1;11,2;11,3,0;11,4
+#### Text ####
+dealers said
+##############
+____Arg2____
+1236..1259
+11,0,1
+#### Text ####
+the market was stronger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1396
+12
+____Arg1____
+1229..1394
+11
+#### Text ####
+Though the market was stronger, dealers said fresh buying interest was sidelined ahead of a potential market-affecting debate in the House of Commons set for Tuesday
+##############
+____Arg2____
+1396..1498
+12
+#### Text ####
+It will be Chancellor of the Exchequer John Major's first appearance before the opposition Labor Party
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1500
+13
+____Arg1____
+1396..1498
+12
+#### Text ####
+It will be Chancellor of the Exchequer John Major's first appearance before the opposition Labor Party
+##############
+____Arg2____
+1500..1615
+13
+#### Text ####
+The market is keenly interested in hearing what he has to say about the status of the current 15% base lending rate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1710..1715
+14,3,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1619..1709
+14,0;14,1;14,2;14,3,0;14,3,1;14,3,2;14,4
+#### Text ####
+In London trading, Courtaulds, a chemicals and textiles company, increased 15 pence to 362
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1716..1813
+14,3,3,1
+#### Text ####
+it disclosed plans to spin off its textiles operations into a separately listed company on Jan. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1815
+15
+____Arg1____
+1619..1813
+14
+#### Text ####
+In London trading, Courtaulds, a chemicals and textiles company, increased 15 pence to 362 after it disclosed plans to spin off its textiles operations into a separately listed company on Jan. 1
+##############
+____Arg2____
+1815..1926
+15
+#### Text ####
+It was the most active of the 100-share index at 8.3 million shares, 6.5 million of which were traded by midday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1974
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1930..1959
+16
+#### Text ####
+Jaguar ended 22 higher at 747
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1974..2008
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0;17,1,1,1,1,1,0;17,1,1,1,1,1,1;17,1,1,1,1,1,2
+#### Text ####
+fresh buying was drawn into Jaguar
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1961..1973
+17,0;17,1,0;17,2
+#### Text ####
+Dealers said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2009..2014
+17,1,1,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1961..1973
+17,0;17,1,0;17,2
+#### Text ####
+Dealers said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1974..2008
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0;17,1,1,1,1,1,0;17,1,1,1,1,1,1;17,1,1,1,1,1,2
+#### Text ####
+fresh buying was drawn into Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2015..2219
+17,1,1,1,1,1,3,1
+#### Text ####
+a senior executive of Daimler-Benz, the auto maker, told a British television interviewer during the weekend that the West German company held talks with the luxury auto maker over possible joint ventures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2221
+18
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2124..2219
+17,1,1,1,1,1,3,1,1,3
+#### Text ####
+that the West German company held talks with the luxury auto maker over possible joint ventures
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2009..2123
+17,1,1,1,1,1,3,0;17,1,1,1,1,1,3,1,0;17,1,1,1,1,1,3,1,1,0;17,1,1,1,1,1,3,1,1,1;17,1,1,1,1,1,3,1,1,2
+#### Text ####
+after a senior executive of Daimler-Benz, the auto maker, told a British television interviewer during the weekend
+##############
+____Arg2____
+2221..2295;2310..2381
+18,0;18,3,1
+#### Text ####
+Although Daimler has said it isn't interested in mounting a bid for Jaguar its name further underlined the growing interest in the British concern
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2297..2309
+18,1;18,2;18,3,0;18,4
+#### Text ####
+dealers said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2221..2229
+18,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2310..2381
+18,3,1
+#### Text ####
+its name further underlined the growing interest in the British concern
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2297..2309
+18,1;18,2;18,3,0;18,4
+#### Text ####
+dealers said
+##############
+____Arg2____
+2230..2295
+18,0,1
+#### Text ####
+Daimler has said it isn't interested in mounting a bid for Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2489
+20
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2385..2487
+19
+#### Text ####
+Glaxo was the biggest gainer, jumping 35 to #13.78 ($21.72) on anticipation of a stock split next week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2489..2538
+20
+#### Text ####
+Total turnover in Glaxo was a thin 975,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2995
+26
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2881..2993
+25
+#### Text ####
+On Monday, volume on the First Section was estimated at 600 million shares, down from 1.24 billion shares Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2995..3044
+26,0
+#### Text ####
+Declining issues outnumbered advancers 551 to 349
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3046
+26
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2995..3044
+26,0
+#### Text ####
+Declining issues outnumbered advancers 551 to 349
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3046..3071
+26,2
+#### Text ####
+224 issues were unchanged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3073
+27
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2995..3071
+26
+#### Text ####
+Declining issues outnumbered advancers 551 to 349; 224 issues were unchanged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3073..3082;3109..3219
+27,0,0,0;27,0,0,1;27,0,0,3;27,0,1
+#### Text ####
+Investors mostly took a wait-and-see attitude Monday amid uncertainty in the foreign-currency market and New York stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3221..3233
+27,1;27,2;27,3;27,4
+#### Text ####
+traders said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3437
+29
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3299..3391
+28,1,1,0;28,1,1,1,0;28,1,1,1,1,0;28,1,1,1,1,1,0;28,1,1,1,1,1,1,0;28,1,1,1,1,1,1,1,0;28,1,1,1,1,1,1,1,1,0;28,1,1,1,1,1,1,1,1,1,0;28,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+fading expectation for lower interest rates made investors step back from real-estate shares
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3237..3298
+28,0;28,1,0;28,2
+#### Text ####
+Takamori Matsuda, an analyst at Dresdner-ABD Securities, said
+##############
+____Arg2____
+3437..3511
+29,1,1
+#### Text ####
+institutions were waiting to see the U.S. jobless rate to be issued Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3419..3436
+29,0;29,1,0;29,2
+#### Text ####
+Some traders said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3662
+31
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+3515..3660
+30
+#### Text ####
+The Tokyo Stock Price Index of all issues listed in the First Section, which fell 15.82 points Friday, was down 5.16 points, or 0.19%, at 2676.60
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3662..3772
+31
+#### Text ####
+The Second Section index, which fell 36.87 points Friday, was down 21.44 points, or 0.59%, to close at 3636.06
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3774
+32
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3662..3772
+31
+#### Text ####
+The Second Section index, which fell 36.87 points Friday, was down 21.44 points, or 0.59%, to close at 3636.06
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3774..3868
+32
+#### Text ####
+Second Section volume was estimated at 15 million shares, down from 24.5 million shares Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4119
+35
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3953..4023
+34,0;34,1,0;34,1,1;34,1,2;34,2
+#### Text ####
+The energy of participating investors streamed into Tokyu Group shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4119..4218
+35,1,2
+#### Text ####
+that each Group company will buy the others' stocks to defend themselves against a rumored takeover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4078..4118
+35,0;35,1,0;35,1,1;35,2
+#### Text ####
+Tokyu Group announced during the weekend
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+4220..4243
+36,0;36,1,0
+#### Text ####
+The announcement fueled
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+4078..4218
+35
+#### Text ####
+Tokyu Group announced during the weekend that each Group company will buy the others' stocks to defend themselves against a rumored takeover
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4220..4289
+36
+#### Text ####
+The announcement fueled speculation for future advances in the shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4291
+37
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4220..4289
+36
+#### Text ####
+The announcement fueled speculation for future advances in the shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4291..4334
+37
+#### Text ####
+Tokyu Department Store advanced 260 to 2410
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4336
+38
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+4291..4334
+37
+#### Text ####
+Tokyu Department Store advanced 260 to 2410
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4336..4366
+38
+#### Text ####
+Tokyu Corp. was up 150 at 2890
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4368
+39
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+4291..4366
+37;38
+#### Text ####
+Tokyu Department Store advanced 260 to 2410.
+Tokyu Corp. was up 150 at 2890
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4368..4405
+39
+#### Text ####
+Tokyu Construction gained 170 to 1610
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4579..4583
+41,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4409..4456
+40,0;40,1;40,2,0;40,2,1,0;40,2,1,1;40,3
+#### Text ####
+Other winners Monday included nonferrous metals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4554..4578;4584..4682
+41,0;41,1,0;41,1,2;41,1,3;41,2
+#### Text ####
+Petroleum companies were popular because of expectations of a weaker dollar, which cuts dollar-denominated crude-oil prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4776
+43
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4686..4774
+42
+#### Text ####
+Share prices in Frankfurt closed narrowly mixed after listless and directionless trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4776..4821
+43
+#### Text ####
+The DAX index closed at 1466.29, up only 3.36
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4869..4871
+44,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4825..4837
+44,0;44,1,0;44,2
+#### Text ####
+Traders said
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+4838..4868
+44,1,1,0;44,1,1,1,0;44,1,1,1,1,0;44,1,1,1,1,1
+#### Text ####
+turnover was particularly thin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4872..4938
+44,1,1,1,1,2,1
+#### Text ####
+investors waited for Wall Street to set the direction for the week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4940
+45
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+4825..4938
+44
+#### Text ####
+Traders said turnover was particularly thin as investors waited for Wall Street to set the direction for the week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4940..5010
+45
+#### Text ####
+Most expect the decline in New York stock prices to continue this week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5321..5326
+47,1,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Sup1____
+5293..5319
+47,1,3
+#### Text ####
+boosted by special factors
+##############
+____Arg1____
+5249..5291
+47,0;47,1,0;47,1,1;47,1,2;47,1,4;47,2
+#### Text ####
+A few blue-chip stocks posted strong gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5327..5370
+47,1,5,1
+#### Text ####
+the majority of shares ended little changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5732
+51
+____Arg1____
+5599..5730
+50
+#### Text ####
+Here are price trends on the world's major stock markets, as calculated by Morgan Stanley Capital International Perspective, Geneva
+##############
+____Arg2____
+5732..5819
+51
+#### Text ####
+To make them directly comparable, each index is based on the close of 1969 equaling 100
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5821
+52
+____Arg1____
+5732..5819
+51
+#### Text ####
+To make them directly comparable, each index is based on the close of 1969 equaling 100
+##############
+____Arg2____
+5821..5860
+52
+#### Text ####
+The percentage change is since year-end
+##############
+________________________________________________________

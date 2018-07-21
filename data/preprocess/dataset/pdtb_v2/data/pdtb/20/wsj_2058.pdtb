@@ -1,0 +1,759 @@
+________________________________________________________
+____EntRel____
+433
+2
+____Arg1____
+222..431
+1
+#### Text ####
+Charles Redmond, a NASA spokesman, said the agency discovered the virus on Monday on the collection of computer networks collectively called Internet and expected 100 university centers to be infected by today
+##############
+____Arg2____
+433..623
+2
+#### Text ####
+Although the network isn't connected to the computer systems that operate either Galileo or the shuttle, part of the network will carry analyses of Galileo data once the craft gets spaceborn
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+433..441
+2,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+538..623
+2,1;2,2;2,3;2,4
+#### Text ####
+part of the network will carry analyses of Galileo data once the craft gets spaceborn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+442..536
+2,0,1
+#### Text ####
+the network isn't connected to the computer systems that operate either Galileo or the shuttle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+594..598
+2,3,1,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession
+____Arg1____
+538..593
+2,1;2,2;2,3,0;2,3,1,0;2,3,1,1;2,4
+#### Text ####
+part of the network will carry analyses of Galileo data
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+599..623
+2,3,1,2,1
+#### Text ####
+the craft gets spaceborn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+682..685
+3,1,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+627..643
+3,0;3,1,0;3,2;3,3
+#### Text ####
+Mr. Redmond said
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+644..681
+3,1,1,1,0
+#### Text ####
+the intruder hadn't yet done any harm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+686..752
+3,1,1,1,2
+#### Text ####
+the agency feared "garbage data could be substituted for real data
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+755
+4
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+627..752
+3
+#### Text ####
+Mr. Redmond said the intruder hadn't yet done any harm but the agency feared "garbage data could be substituted for real data
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+755..863
+4
+#### Text ####
+He estimated it could take a day for a computer security manager to expunge the virus from a computer system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1034
+6
+____Arg1____
+867..1032
+5
+#### Text ####
+The intruder, among the broadest yet to hit a research network, appeared to affect only Digital Equipment Corp. hardware that uses Digital's VAX/VMS operating system
+##############
+____Arg2____
+1034..1224
+6
+#### Text ####
+It is unrelated to the much-publicized virus that last year infected Arpanet, a much larger network used by researchers at universities, laboratories and government agencies around the world
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1331
+8
+____Arg1____
+1228..1329
+7
+#### Text ####
+In the lingo of computer security, the NASA intruder is technically a computer worm, Mr. Redmond said
+##############
+____Arg2____
+1331..1453
+8
+#### Text ####
+A worm resides in the operating system of a computer and spreads by boring into other computers contacted through networks
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1455
+9
+____Arg1____
+1331..1453
+8
+#### Text ####
+A worm resides in the operating system of a computer and spreads by boring into other computers contacted through networks
+##############
+____Arg2____
+1455..1587
+9
+#### Text ####
+The Galileo worm apparently was hatched on a computer in France hooked up to NASA's Space Physics Analysis Network, Mr. Redmond said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1694..1701
+10,1,1,1,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Arb, Comm, Null, Null
+1591..1600
+10,0;10,1,0;10,2
+#### Text ####
+NASA said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1601..1693
+10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1;10,1,1,1,1,2,0;10,1,1,1,1,2,1
+#### Text ####
+the Galileo worm hadn't affected its computers or the computers of other government agencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1702..1749
+10,1,1,1,1,2,2,1
+#### Text ####
+they had modified their systems to reject worms
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1751..1754
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1601..1749
+10,1,1
+#### Text ####
+the Galileo worm hadn't affected its computers or the computers of other government agencies because they had modified their systems to reject worms
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1591..1600
+10,0;10,1,0;10,2
+#### Text ####
+NASA said
+##############
+____Arg2____
+1772..1837
+11,2,1
+#### Text ####
+the worm hit universities that hadn't elected to make the changes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1755..1771
+11,1;11,2,0;11,3
+#### Text ####
+Mr. Redmond said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2061
+13
+#### Features ####
+Arb, Comm, Null, Null
+1920..1931
+12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1,0;12,1,1,1,1,1,1
+#### Text ####
+he was told
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1932..2059
+12,1,1,1,1,1,2
+#### Text ####
+that the worm gets into a computer center by looking for obvious passwords -- such as ones that are the same as the user's name
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2061..2257
+13;14
+#### Text ####
+If it finds one and gets into the system, it will display a screen when a user logs on that says, "Worms Against Nuclear Killers. . . . You talk of times of peace for all, and then prepare for war
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2128..2132
+13,3,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+2103..2127;2148..2257
+13,1;13,2;13,3,0;13,3,1,0;13,3,1,1;13,3,1,3;13,4;13,5;14
+#### Text ####
+it will display a screen that says, "Worms Against Nuclear Killers. . . . You talk of times of peace for all, and then prepare for war
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2133..2147
+13,3,1,2,1
+#### Text ####
+a user logs on
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2262..2273
+15,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2275..2293
+15,1
+#### Text ####
+Mr. Alexander said
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+2061..2257
+13;14
+#### Text ####
+If it finds one and gets into the system, it will display a screen when a user logs on that says, "Worms Against Nuclear Killers. . . . You talk of times of peace for all, and then prepare for war
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1920..1931
+12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1,0;12,1,1,1,1,1,1
+#### Text ####
+he was told
+##############
+____Arg2____
+2295..2435
+15,2;15,3;15,4;15,5
+#### Text ####
+the worm sends strange messages to other machines at the center -- such as, "George Orwell was an optimist," or "Don't feed the bats tonight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2449..2453
+16,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2262..2273;2295..2435
+15,0;15,2;15,3;15,4;15,5
+#### Text ####
+In addition the worm sends strange messages to other machines at the center -- such as, "George Orwell was an optimist," or "Don't feed the bats tonight
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2275..2293
+15,1
+#### Text ####
+Mr. Alexander said
+##############
+____Arg2____
+2440..2448;2454..2524
+16,0;16,2;16,3
+#### Text ####
+The worm looks for elementary passwords that confer more privileges on the user
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2526
+17
+____Arg1____
+2440..2524
+16
+#### Text ####
+The worm also looks for elementary passwords that confer more privileges on the user
+##############
+____Arg2____
+2526..2668
+17
+#### Text ####
+The passwords are included in the system software when it is installed but are supposed to be replaced as soon as the system is up and running
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2576..2580
+17,1,0,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2526..2575
+17,0;17,1,0,0;17,1,0,1,0;17,1,0,1,1;17,2
+#### Text ####
+The passwords are included in the system software
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2581..2596
+17,1,0,1,2,1
+#### Text ####
+it is installed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2629..2639
+17,1,2,1,1,1,1,1,2,0;17,1,2,1,1,1,1,1,2,1,0
+#### Text ####
+as soon as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as soon as, Temporal.Asynchronous.Succession
+____Arg1____
+2597..2628
+17,1,1;17,1,2,0;17,1,2,1,0;17,1,2,1,1,0;17,1,2,1,1,1,0;17,1,2,1,1,1,1,0;17,1,2,1,1,1,1,1,0;17,1,2,1,1,1,1,1,1
+#### Text ####
+but are supposed to be replaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2640..2668
+17,1,2,1,1,1,1,1,2,1,1
+#### Text ####
+the system is up and running
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2670
+18
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2440..2668
+16;17
+#### Text ####
+The worm also looks for elementary passwords that confer more privileges on the user.
+The passwords are included in the system software when it is installed but are supposed to be replaced as soon as the system is up and running
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2670..2859
+18
+#### Text ####
+If it finds one of those passwords, Mr. Alexander said, the worm will do such things as change users' passwords to a series of random numbers, preventing them from signing on to the network
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2670..2672
+18,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2706..2724
+18,1
+#### Text ####
+Mr. Alexander said
+##############
+if, Contingency.Condition.General
+____Sup1____
+2813..2859
+18,3,1,1,1,1,1,4
+#### Text ####
+preventing them from signing on to the network
+##############
+____Arg1____
+2726..2811
+18,2;18,3,0;18,3,1,0;18,3,1,1,0;18,3,1,1,1,0;18,3,1,1,1,1,0;18,3,1,1,1,1,1,0;18,3,1,1,1,1,1,1;18,3,1,1,1,1,1,2;18,3,1,1,1,1,1,3;18,4
+#### Text ####
+the worm will do such things as change users' passwords to a series of random numbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2673..2704
+18,0,1
+#### Text ####
+it finds one of those passwords
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2938
+20
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+2878..2936
+19,1,1
+#### Text ####
+that, on Monday, about four computer centers were affected
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2863..2877
+19,0;19,1,0;19,2
+#### Text ####
+NASA estimated
+##############
+____Arg2____
+2938..2970
+20,0
+#### Text ####
+Yesterday, the number grew to 40
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2972
+20
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+2938..2970
+20,0
+#### Text ####
+Yesterday, the number grew to 40
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2972..3015
+20,2
+#### Text ####
+today the number is expected to grow to 100
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3017
+21
+____Arg1____
+2972..3015
+20,2
+#### Text ####
+today the number is expected to grow to 100
+##############
+____Arg2____
+3017..3179
+21
+#### Text ####
+NASA said it will take about a week before it knows exactly how many centers of the 6,000 connected to Internet were affected and the extent of the damage, if any
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3053..3059
+21,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3017..3026
+21,0;21,1,0;21,2
+#### Text ####
+NASA said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3027..3052
+21,1,1,0;21,1,1,1,0;21,1,1,1,1,0;21,1,1,1,1,1,0;21,1,1,1,1,1,1
+#### Text ####
+it will take about a week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3060..3179
+21,1,1,1,1,1,2,1
+#### Text ####
+it knows exactly how many centers of the 6,000 connected to Internet were affected and the extent of the damage, if any
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3270..3277
+22,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3183..3269
+22,0;22,1,0;22,1,1,0;22,1,1,1;22,2
+#### Text ####
+Anti-nuclear activists have protested the launch of the Galileo space probe to Jupiter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3278..3347
+22,1,1,2,1
+#### Text ####
+it uses plutonium to generate the electricity needed to run the craft
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3364
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3183..3347
+22
+#### Text ####
+Anti-nuclear activists have protested the launch of the Galileo space probe to Jupiter because it uses plutonium to generate the electricity needed to run the craft
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3364..3586
+23,1,1
+#### Text ####
+that if the shuttle carrying Galileo into orbit should explode, or if Galileo itself crashes into the Earth during the two times it flies close to the planet, fatal levels of plutonium would be released into the atmosphere
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3349..3363
+23,0;23,1,0;23,2
+#### Text ####
+Activists fear
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3428..3430
+23,1,1,1,0,2
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3349..3363
+23,0;23,1,0;23,2
+#### Text ####
+Activists fear
+##############
+or, Expansion.Alternative.Disjunctive
+____Arg1____
+3364..3426
+23,1,1,0;23,1,1,1,0,0;23,1,1,1,0,1
+#### Text ####
+that if the shuttle carrying Galileo into orbit should explode
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3431..3521
+23,1,1,1,0,3
+#### Text ####
+if Galileo itself crashes into the Earth during the two times it flies close to the planet
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3755
+25
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+3590..3627
+24,0;24,1;24,2,0;24,2,1,0;24,2,1,1,0,0;24,2,1,1,0,1;24,2,1,1,0,2;24,2,1,1,0,3;24,3
+#### Text ####
+So far Galileo has been delayed twice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3755..3807
+25,1,1
+#### Text ####
+the Galileo worm had nothing to do with either delay
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3745..3754
+25,0;25,1,0;25,2
+#### Text ####
+NASA said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3892
+27
+#### Features ####
+Ot, Comm, Null, Null
+3884..3891
+27,0;27,1,0;27,2
+#### Text ####
+He said
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+3847..3882
+26,1,1
+#### Text ####
+hackers have gone after SPAN before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3811..3846
+26,0;26,1,0;26,2
+#### Text ####
+Mr. Alexander of Computerworld said
+##############
+____Arg2____
+3892..4036
+27,1,1
+#### Text ####
+the Chaos Computer Club, of West Germany, once managed to invade SPAN and do such things as change the value of pi, messing up some calculations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,144 @@
+________________________________________________________
+____Implicit____
+178
+1
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..45;93..176
+0,0;0,1;0,3;0,4;0,5
+#### Text ####
+Wang Laboratories Inc., Lowell, Mass reported a $62.1 million, 38-cents-a-share loss in its first quarter ended Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+178..232
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,1,4;1,2
+#### Text ####
+Revenue fell 12.7% to $596.8 million from $684 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+234..242
+1,1,5,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+178..232
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,1,4;1,2
+#### Text ####
+Revenue fell 12.7% to $596.8 million from $684 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+243..300
+1,1,5,1
+#### Text ####
+some of the decline was caused by discontinued operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+313..323
+2,1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+9..176
+0
+#### Text ####
+Wang Laboratories Inc., Lowell, Mass., beset by declining demand for its computers, reported a $62.1 million, 38-cents-a-share loss in its first quarter ended Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+304..312;324..339
+2,0;2,1,0;2,1,2;2,2
+#### Text ####
+Wang had forecast a loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+341
+3
+____Arg1____
+304..339
+2
+#### Text ####
+Wang had previously forecast a loss
+##############
+____Arg2____
+341..485
+3
+#### Text ####
+The company reiterated that it expects another loss in the second quarter and for the full year, although it expects a profitable fourth quarter
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+438..446
+3,1,1,1,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+341..363
+3,0;3,1,0;3,2
+#### Text ####
+The company reiterated
+##############
+although, Comparison.Contrast
+____Arg1____
+364..436
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1;3,1,1,1,1,2
+#### Text ####
+that it expects another loss in the second quarter and for the full year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+447..485
+3,1,1,1,1,3,1
+#### Text ####
+it expects a profitable fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+643
+5
+____Arg1____
+489..641
+4
+#### Text ####
+A year ago, Wang had earnings of $13.1 million, or eight cents a share, in its first quarter, including a $3.1 million loss from discontinued operations
+##############
+____Arg2____
+643..719
+5
+#### Text ####
+The latest period loss included a $12.9 pretax charge for severance payments
+##############
+________________________________________________________

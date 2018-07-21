@@ -1,0 +1,178 @@
+________________________________________________________
+____Explicit____
+62..66
+0,0,3,2,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+37..59
+0,0,1;0,0,2;0,0,3,0;0,0,3,1
+#### Text ####
+I always lift the hood
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+67..87
+0,0,3,2,1
+#### Text ####
+my car doesn't start
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+91..93
+0,2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+123..147
+0,2,1;0,2,2
+#### Text ####
+I coolly take them apart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+94..120
+0,2,0,1
+#### Text ####
+gadgets at home don't work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+162
+1
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+37..147
+0,0,1;0,0,2;0,0,3;0,1;0,2;0,3
+#### Text ####
+I always lift the hood 
+
+When my car doesn't start; 
+
+If gadgets at home don't work 
+
+I coolly take them apart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+162..205
+1,0,1,1,1
+#### Text ####
+there's nothing wrong 
+
+That I ever do find
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+151..161
+1,0,0;1,0,1,0;1,0,1,1,0
+#### Text ####
+I'll admit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+209..212
+1,2
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+151..205
+1,0
+#### Text ####
+I'll admit there's nothing wrong 
+
+That I ever do find
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+213..271
+1,3
+#### Text ####
+it's nice when people say 
+
+I appear mechanically inclined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+223..227
+1,3,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+209..222
+1,1;1,2;1,3,0;1,3,1,0;1,3,1,1;1,4
+#### Text ####
+But it's nice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+228..271
+1,3,1,2,1
+#### Text ####
+people say 
+
+I appear mechanically inclined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+479..489
+7,2,1,1,1,1,1,1,0;7,2,1,1,1,1,1,1,1,0
+#### Text ####
+as long as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as long as, Contingency.Condition.General
+____Arg1____
+453..478
+7,2,0;7,2,1,0;7,2,1,1,0;7,2,1,1,1,0;7,2,1,1,1,1,0;7,2,1,1,1,1,1,0
+#### Text ####
+people will learn to read
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+490..519
+7,2,1,1,1,1,1,1,1,1
+#### Text ####
+there are TV program listings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

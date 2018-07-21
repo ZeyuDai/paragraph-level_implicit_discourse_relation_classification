@@ -1,0 +1,365 @@
+________________________________________________________
+____Explicit____
+9..13
+0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+51..172
+0,1;0,2;0,3;0,4;0,5
+#### Text ####
+the nation's manufacturing titans typically jet off to the sunny confines of resort towns like Boca Raton and Hot Springs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14..49
+0,0,1
+#### Text ####
+it's time for their biannual powwow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+310..313
+3,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+193..308
+2
+#### Text ####
+The National Association of Manufacturers settled on the Hoosier capital of Indianapolis for its fall board meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+314..402
+3,1;3,2;3,3
+#### Text ####
+the city decided to treat its guests more like royalty or rock stars than factory owners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+404..423
+4,0;4,2
+#### Text ####
+The idea, of course
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+310..402
+3
+#### Text ####
+And the city decided to treat its guests more like royalty or rock stars than factory owners
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+404..572
+4
+#### Text ####
+The idea, of course: to prove to 125 corporate decision makers that the buckle on the Rust Belt isn't so rusty after all, that it's a good place for a company to expand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+907
+7
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+746..905
+6
+#### Text ####
+For starters, the executives joined Mayor William H. Hudnut III for an evening of the Indianapolis Symphony Orchestra and a guest pianist-comedian Victor Borge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+907..937
+7
+#### Text ####
+Champagne and dessert followed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1129
+9
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+941..1060
+8,0;8,1;8,2;8,3;8,4;8,5,0;8,5,1;8,5,2;8,6
+#### Text ####
+The next morning, with a police escort, busloads of executives and their wives raced to the Indianapolis Motor Speedway
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1129..1183
+9,1;9,2;9,3;9,4
+#### Text ####
+so the lieutenant governor welcomed the special guests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1098..1127
+9,0
+#### Text ####
+The governor couldn't make it
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1129..1131
+9,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1098..1127
+9,0
+#### Text ####
+The governor couldn't make it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1132..1183
+9,3
+#### Text ####
+the lieutenant governor welcomed the special guests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1185
+10
+____Arg1____
+1098..1183
+9
+#### Text ####
+The governor couldn't make it, so the lieutenant governor welcomed the special guests
+##############
+____Arg2____
+1185..1281
+10
+#### Text ####
+A buffet breakfast was held in the museum, where food and drinks are banned to everyday visitors
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1283..1287
+11,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+1228..1281
+10,1,1,4
+#### Text ####
+where food and drinks are banned to everyday visitors
+##############
+____Arg1____
+1185..1226
+10,0;10,1,0;10,1,1,0;10,1,1,1;10,1,1,2;10,1,1,3;10,2
+#### Text ####
+A buffet breakfast was held in the museum
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1289..1432
+11,1;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+in the guests' honor, the speedway hauled out four drivers, crews and even the official Indianapolis 500 announcer for a 10-lap exhibition race
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1526
+13
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+1436..1524
+12
+#### Text ####
+After the race, Fortune 500 executives drooled like schoolboys over the cars and drivers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1526..1634
+13
+#### Text ####
+No dummies, the drivers pointed out they still had space on their machines for another sponsor's name or two
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1703..1709
+14,3,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1638..1702
+14,0;14,1;14,2;14,3,0;14,3,1;14,3,2;14,4
+#### Text ####
+Back downtown, the execs squeezed in a few meetings at the hotel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1710..1734
+14,3,3,1
+#### Text ####
+boarding the buses again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1736
+15
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1703..1734
+14,3,3
+#### Text ####
+before boarding the buses again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1736..1792
+15
+#### Text ####
+This time, it was for dinner and dancing -- a block away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2046..2050
+17,0,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2010..2045
+17,0,0;17,0,1,0;17,0,1,1
+#### Text ####
+Knowing a tasty -- and free -- meal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2051..2063
+17,0,1,2,1
+#### Text ####
+they eat one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2065
+17
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1796..2008
+16
+#### Text ####
+Under the stars and moons of the renovated Indiana Roof ballroom, nine of the hottest chefs in town fed them Indiana duckling mousseline, lobster consomme, veal mignon and chocolate terrine with a raspberry sauce
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2065..2113
+17,1;17,2;17,3;17,4
+#### Text ####
+the executives gave the chefs a standing ovation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2230..2233
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2117..2228
+18
+#### Text ####
+More than a few CEOs say the red-carpet treatment tempts them to return to a heartland city for future meetings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2234..2310
+19,1;19,2;19,3;19,4;19,5
+#### Text ####
+for now, they're looking forward to their winter meeting -- Boca in February
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

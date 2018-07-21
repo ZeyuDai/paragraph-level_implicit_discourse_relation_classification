@@ -1,0 +1,157 @@
+________________________________________________________
+____EntRel____
+576
+3
+____Arg1____
+438..574
+2
+#### Text ####
+As you mentioned, subsidies for development on a number of barrier islands were curtailed in 1982 by the Coastal Barrier Resource System
+##############
+____Arg2____
+576..744
+3
+#### Text ####
+The National Taxpayers Union would like Congress to add 800,000 acres to the 453,000 of shoreline in the system by enacting "The Coastal Barrier Improvement Act of 1989
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+776..778
+4,2,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+749..770
+4,0;4,1;4,2,0;4,3
+#### Text ####
+This bill simply says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+771..775;828..870
+4,2,1,0;4,2,1,1,1;4,2,1,1,2
+#### Text ####
+that you have to do so without taxpayer support
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+779..827
+4,2,1,1,0,1
+#### Text ####
+you want to develop property on a barrier island
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+872
+5
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+749..870
+4
+#### Text ####
+This bill simply says that if you want to develop property on a barrier island you have to do so without taxpayer support
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+872..969
+5
+#### Text ####
+Private-property rights would be upheld because the legislation would not ban coastal development
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+912..919
+5,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+872..911
+5,0;5,1,0;5,1,1,0;5,1,1,1,0;5,1,1,1,1;5,2
+#### Text ####
+Private-property rights would be upheld
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+920..969
+5,1,1,1,2,1
+#### Text ####
+the legislation would not ban coastal development
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+971..978
+6,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Sup1____
+912..969
+5,1,1,1,2
+#### Text ####
+because the legislation would not ban coastal development
+##############
+____Arg1____
+872..911
+5,0;5,1,0;5,1,1,0;5,1,1,1,0;5,1,1,1,1;5,2
+#### Text ####
+Private-property rights would be upheld
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+980..1060
+6,1;6,2;6,3;6,4
+#### Text ####
+home builders would have to bear the full costs of such beach-house construction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1190
+8
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1064..1188
+7
+#### Text ####
+A Taxpayers Union study concluded the bill would save taxpayers up to $9.3 billion in barrier-island subsidies over 20 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1190..1255
+8
+#### Text ####
+Already, the 1982 legislation has saved an estimated $800 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

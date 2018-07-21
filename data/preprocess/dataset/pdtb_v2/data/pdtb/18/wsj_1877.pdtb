@@ -1,0 +1,88 @@
+________________________________________________________
+____EntRel____
+399
+3
+____Arg1____
+319..397
+2
+#### Text ####
+Mr. Sung formerly worked at General Electric in research on synthetic diamonds
+##############
+____Arg2____
+399..493
+3
+#### Text ####
+The criminal charges brought against him involved GE technology, according the court documents
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+495
+4
+____Arg1____
+399..493
+3
+#### Text ####
+The criminal charges brought against him involved GE technology, according the court documents
+##############
+____Arg2____
+495..569
+4
+#### Text ####
+If convicted, he could be imprisoned for up to 10 years and fined $250,000
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+495..497
+4,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+509..569
+4,1;4,2;4,3;4,4
+#### Text ####
+he could be imprisoned for up to 10 years and fined $250,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+498..507
+4,0,1
+#### Text ####
+convicted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+618..625
+6,1
+#### Text ####
+earlier
+##############
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+573..613
+5
+#### Text ####
+Mr. Sung couldn't be reached for comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+615..617;626..692
+6,0;6,2;6,3
+#### Text ####
+He denied the allegations against him in the lawsuit by Norton and GE
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

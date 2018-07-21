@@ -1,0 +1,1592 @@
+________________________________________________________
+____Implicit____
+230
+2
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+148..228
+1
+#### Text ####
+Those two groups have recently been leading the list of stocks setting new highs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+230..384
+2
+#### Text ####
+On Friday, when only a dozen common stocks hit 52-week highs on the New York Stock Exchange, five were gold-mining issues, and another four were utilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+353..356
+2,6
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+230..351
+2,0;2,1;2,2;2,3;2,4;2,5
+#### Text ####
+On Friday, when only a dozen common stocks hit 52-week highs on the New York Stock Exchange, five were gold-mining issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+357..384
+2,7
+#### Text ####
+another four were utilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+386
+3
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+230..384
+2
+#### Text ####
+On Friday, when only a dozen common stocks hit 52-week highs on the New York Stock Exchange, five were gold-mining issues, and another four were utilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+386..475
+3
+#### Text ####
+On Monday, when a mere seven common stocks managed new highs, six were utilities or golds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+540
+5
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+479..538
+4
+#### Text ####
+At first glance, gold and utilities seem strange bedfellows
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+540..598
+5
+#### Text ####
+After all, gold prices usually soar when inflation is high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+576..580
+5,4,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+540..575
+5,0;5,1;5,2;5,3;5,4,0;5,5
+#### Text ####
+After all, gold prices usually soar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+581..598
+5,4,1,1
+#### Text ####
+inflation is high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+616..633
+6,2
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Arg1____
+540..598
+5
+#### Text ####
+After all, gold prices usually soar when inflation is high
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+600..614;635..657
+6,0;6,1;6,3;6,4,0;6,4,1;6,4,2;6,5
+#### Text ####
+Utility stocks thrive on disinflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+659..666
+6,4,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+600..657
+6,0;6,1;6,2;6,3;6,4,0;6,4,1;6,4,2;6,5
+#### Text ####
+Utility stocks, on the other hand, thrive on disinflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+667..762
+6,4,3,1
+#### Text ####
+the fat dividends utilities pay look more attractive when prices are falling (or rising slowly)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+720..724
+6,4,3,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+659..719
+6,4,3,0;6,4,3,1,0;6,4,3,1,1,0;6,4,3,1,1,1
+#### Text ####
+because the fat dividends utilities pay look more attractive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+725..762
+6,4,3,1,1,2,1
+#### Text ####
+prices are falling (or rising slowly)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+766..769
+7,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+479..538
+4
+#### Text ####
+At first glance, gold and utilities seem strange bedfellows
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+770..824
+7,0,1;7,0,2
+#### Text ####
+the two groups have something very important in common
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+900
+8
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+766..898
+7
+#### Text ####
+But the two groups have something very important in common: They are both havens for scared money, stocks for people who hate stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+900..1020
+8
+#### Text ####
+It's as if investors, the past few days, are betting that something is going to go wrong -- even if they don't know what
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+992..999
+8,1,1,2,4,1,1,1,1,1,1,1,1,3,0;8,1,1,2,4,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Comparison.Concession.Expectation
+____Arg1____
+900..988
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,1,1,2,0;8,1,1,2,1;8,1,1,2,2;8,1,1,2,3;8,1,1,2,4,0;8,1,1,2,4,1,0;8,1,1,2,4,1,1,0;8,1,1,2,4,1,1,1,0;8,1,1,2,4,1,1,1,1,0;8,1,1,2,4,1,1,1,1,1,0;8,1,1,2,4,1,1,1,1,1,1,0;8,1,1,2,4,1,1,1,1,1,1,1,0;8,1,1,2,4,1,1,1,1,1,1,1,1,0;8,1,1,2,4,1,1,1,1,1,1,1,1,1;8,1,1,2,4,1,1,1,1,1,1,1,1,2;8,2
+#### Text ####
+It's as if investors, the past few days, are betting that something is going to go wrong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1000..1020
+8,1,1,2,4,1,1,1,1,1,1,1,1,3,2
+#### Text ####
+they don't know what
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1024..1026
+9,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1120..1153
+9,1;9,2;9,3;9,4
+#### Text ####
+these stocks might well fall back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1027..1118
+9,0,1
+#### Text ####
+the stock market and the economy catch their breath and show that they're on firmer footing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1155..1161
+10,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+1024..1153
+9
+#### Text ####
+If the stock market and the economy catch their breath and show that they're on firmer footing, these stocks might well fall back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1163..1284
+10,1;10,2;10,3;10,4
+#### Text ####
+that happened to some extent yesterday, as industrial stocks rebounded, partly on news of takeovers in the paper industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1203..1205
+10,3,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1155..1201
+10,0;10,1;10,2;10,3,0;10,3,1;10,3,2;10,3,3;10,4
+#### Text ####
+Indeed, that happened to some extent yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1206..1284
+10,3,4,1
+#### Text ####
+industrial stocks rebounded, partly on news of takeovers in the paper industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1288..1293
+11,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Sup1____
+1155..1201
+10,0;10,1;10,2;10,3,0;10,3,1;10,3,2;10,3,3;10,4
+#### Text ####
+Indeed, that happened to some extent yesterday
+##############
+____Arg1____
+1024..1153
+9
+#### Text ####
+If the stock market and the economy catch their breath and show that they're on firmer footing, these stocks might well fall back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1295..1376
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+a lot of investors clearly have revived their interest in gold and utility shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1379
+12
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1288..1376
+11
+#### Text ####
+Still, a lot of investors clearly have revived their interest in gold and utility shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1379..1437
+12,1
+#### Text ####
+The primary overriding thing is that people are frightened
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1440..1482
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+says Martin Sass, a New York money manager
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1485
+13
+#### Features ####
+Ot, Comm, Null, Null
+1440..1482
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+says Martin Sass, a New York money manager
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1411..1437
+12,1,1,1
+#### Text ####
+that people are frightened
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1485..1594
+13
+#### Text ####
+The aftershocks of Oct. 13 (when the Dow Jones Industrial Average dropped 190 points) are still reverberating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1659..1670
+15,0
+#### Text ####
+Beyond that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+1599..1657
+14
+#### Text ####
+Certainly, the Oct. 13 sell-off didn't settle any stomachs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1659..1718
+15
+#### Text ####
+Beyond that, money managers and analysts see other problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1720
+16
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1659..1718
+15
+#### Text ####
+Beyond that, money managers and analysts see other problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1720..1894
+16;17
+#### Text ####
+Inventories are creeping up; car inventories are already high, and big auto makers are idling plants.
+Takeover fever has cooled, removing a major horse from the market's cart
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1749
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1720..1747
+16,0
+#### Text ####
+Inventories are creeping up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1749..1820
+16,1;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+car inventories are already high, and big auto makers are idling plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1783..1786
+16,4
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1659..1718
+15
+#### Text ####
+Beyond that, money managers and analysts see other problems
+##############
+and, Expansion.Conjunction
+____Arg1____
+1720..1781
+16,0;16,1;16,2;16,3
+#### Text ####
+Inventories are creeping up; car inventories are already high
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1787..1820
+16,5
+#### Text ####
+big auto makers are idling plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1822
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1720..1820
+16
+#### Text ####
+Inventories are creeping up; car inventories are already high, and big auto makers are idling plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1822..1894
+17
+#### Text ####
+Takeover fever has cooled, removing a major horse from the market's cart
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1934..1938
+18,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1659..1894
+15;16;17
+#### Text ####
+Beyond that, money managers and analysts see other problems.
+Inventories are creeping up; car inventories are already high, and big auto makers are idling plants.
+Takeover fever has cooled, removing a major horse from the market's cart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1898..1933;1939..1961
+18,0;18,2;18,3
+#### Text ####
+Britain's unsettled political scene worries some investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1964
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1898..1961
+18
+#### Text ####
+Britain's unsettled political scene also worries some investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1964..2081
+19,0
+#### Text ####
+The gyrations in the British government" add political uncertainty on top of high inflation and a ragged stock market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2083..2167
+19,1;19,2;19,3;19,4
+#### Text ####
+says John Hoffman, assistant director of research at Smith Barney, Harris Upham & Co
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2170
+20
+#### Features ####
+Ot, Comm, Null, Null
+2083..2167
+19,1;19,2;19,3;19,4
+#### Text ####
+says John Hoffman, assistant director of research at Smith Barney, Harris Upham & Co
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1964..2081
+19,0
+#### Text ####
+The gyrations in the British government" add political uncertainty on top of high inflation and a ragged stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2170..2245
+20
+#### Text ####
+One of the three major markets in the world is getting chewed up pretty bad
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2251..2253
+21,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2390..2459
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+says Larry Wachtel, a market analyst with Prudential-Bache Securities
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2357..2387
+21,1,1;21,1,2;21,1,3
+#### Text ####
+the market's going to flounder
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2254..2355
+21,1,0,1
+#### Text ####
+the Fed does not come to the rescue and produce lower short-term interest rates over the next 30 days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2563
+23
+____Arg1____
+2463..2561
+22
+#### Text ####
+With this sort of sentiment common, it's natural for investors to seek out "defensive" investments
+##############
+____Arg2____
+2563..2692
+23
+#### Text ####
+Utilities are a classic example: Even in recessions, people continue to use electric power, water and gas at a fairly steady rate
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2596
+23
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2563..2594
+23,0
+#### Text ####
+Utilities are a classic example
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2596..2692
+23,2
+#### Text ####
+Even in recessions, people continue to use electric power, water and gas at a fairly steady rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2786..2789
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2696..2784
+24
+#### Text ####
+Such defensive issues as food, tobacco, and drug stocks have been in favor for some time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2790..2836
+25,1;25,2;25,3
+#### Text ####
+many of these stocks have now become expensive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2891..2902
+26,0,1,2
+#### Text ####
+as examples
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+2786..2836
+25
+#### Text ####
+But many of these stocks have now become expensive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2860..2972
+26,0,1,1,1;26,0,1,2;26,1;26,2;26,3
+#### Text ####
+Coca-Cola Co. and PepsiCo Inc. as examples: They're selling for 18 to 22 times estimated 1990 per-share earnings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2838..2859
+26,0,0;26,0,1,0;26,0,1,1,0
+#### Text ####
+Mr. Wachtel points to
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2904
+26
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2838..2902
+26,0
+#### Text ####
+Mr. Wachtel points to Coca-Cola Co. and PepsiCo Inc. as examples
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2904..2972
+26,2
+#### Text ####
+They're selling for 18 to 22 times estimated 1990 per-share earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3073
+28
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2976..3071
+27
+#### Text ####
+Gold stocks aren't cheap on this basis, either, with many selling for 20 times earnings or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3073..3156
+28
+#### Text ####
+Even utility stocks aren't all that inexpensive, at an average of 14 times earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3158..3161
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2976..3156
+27;28
+#### Text ####
+Gold stocks aren't cheap on this basis, either, with many selling for 20 times earnings or more.
+Even utility stocks aren't all that inexpensive, at an average of 14 times earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3162..3218
+29,1;29,2;29,3
+#### Text ####
+the two groups represent a further step in defensiveness
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3220
+30
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3158..3218
+29
+#### Text ####
+But the two groups represent a further step in defensiveness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3220..3318
+30
+#### Text ####
+If gold stocks and utilities continue to lead, it may signal that the market is in for rough times
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3220..3222
+30,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3267..3318
+30,1;30,2;30,3;30,4
+#### Text ####
+it may signal that the market is in for rough times
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3223..3265
+30,0,1
+#### Text ####
+gold stocks and utilities continue to lead
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3366
+32
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3322..3363
+31
+#### Text ####
+That's just what Joseph Granville expects
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3366..3395
+32,1
+#### Text ####
+We are going to explode lower
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3398..3429
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+says the flamboyant market seer
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3475
+33
+#### Features ####
+Ot, Comm, Null, Null
+3398..3472
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+says the flamboyant market seer, who had a huge following a few years back
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3366..3395
+32,1
+#### Text ####
+We are going to explode lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3475..3551
+33
+#### Text ####
+Anyone telling you to buy stocks in this market is technically irresponsible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3553
+34
+#### Features ####
+Ot, Comm, Null, Null
+3398..3472
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+says the flamboyant market seer, who had a huge following a few years back
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+3475..3551
+33
+#### Text ####
+Anyone telling you to buy stocks in this market is technically irresponsible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3553..3607
+34
+#### Text ####
+You don't want to own anything long except gold stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3719
+36
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3612..3717
+35
+#### Text ####
+One reason for his gloom is a weekly tally he keeps of stocks within a point of hitting new highs or lows
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3719..3780
+36
+#### Text ####
+Last Friday, 96 stocks on the Big Board hit new 12-month lows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3782..3785
+37,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3719..3780
+36
+#### Text ####
+Last Friday, 96 stocks on the Big Board hit new 12-month lows
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3786..3857
+37,1;37,2;37,3;37,4;37,5
+#### Text ####
+by Mr. Granville's count, 493 issues were within one point of such lows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4013
+39
+#### Features ####
+Ot, Comm, Null, Null
+4098..4105
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3861..4002
+38
+#### Text ####
+Robert Stovall, a veteran New York money manager and president of Stovall/ Twenty-First Securities, has money in both gold and utility issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4013..4095
+39,1,1,1
+#### Text ####
+we could very well have {an economic} slowdown, beginning very soon if not already
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4005..4012
+39,1,0;39,1,1,0
+#### Text ####
+I think
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4157..4160
+41,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4109..4155
+40
+#### Text ####
+Mr. Stovall doesn't expect an actual recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4161..4272
+41,1;41,2;41,3;41,4
+#### Text ####
+he does expect "a muffler dragger" of an economy, with "very slow growth, maybe one quarter of no growth at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4275
+42
+____Arg1____
+4157..4272
+41
+#### Text ####
+But he does expect "a muffler dragger" of an economy, with "very slow growth, maybe one quarter of no growth at all
+##############
+____Arg2____
+4275..4325
+42
+#### Text ####
+In such a climate, utility stocks look good to him
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4327
+43
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4275..4325
+42
+#### Text ####
+In such a climate, utility stocks look good to him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4327..4445
+43
+#### Text ####
+He favors FPL Group Inc., Florida Progress Corp., TECO Energy Inc., Wisconsin Energy Corp., and Dominion Resources Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4528
+45
+#### Features ####
+Ot, Comm, Null, Null
+4476..4492
+44,1
+#### Text ####
+Mr. Stovall says
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+4449..4474;4494..4526
+44,0;44,2;44,3
+#### Text ####
+The appeal of gold issues is that "they're a counter group
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4528..4592
+45
+#### Text ####
+You go into them because they move counter to the general market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4545..4552
+45,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4476..4492
+44,1
+#### Text ####
+Mr. Stovall says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4528..4544
+45,0;45,1,0;45,1,1;45,2;45,3
+#### Text ####
+You go into them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4553..4592
+45,1,2,1
+#### Text ####
+they move counter to the general market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4603
+46
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4528..4592
+45
+#### Text ####
+You go into them because they move counter to the general market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4476..4492
+44,1
+#### Text ####
+Mr. Stovall says
+##############
+____Arg2____
+4603..4671
+46,1,1
+#### Text ####
+that gold stocks had been down so long they were "ready for a bounce
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4595..4602
+46,0;46,1,0;46,2;46,3
+#### Text ####
+He adds
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4674
+47
+____Arg1____
+4595..4671
+46
+#### Text ####
+He adds that gold stocks had been down so long they were "ready for a bounce
+##############
+____Arg2____
+4674..4774
+47
+#### Text ####
+His favorites are American Barrick Resources Corp., Echo Bay Mines Ltd. and Coeur d'Alene Mines Corp
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4778..4790
+48,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Contrast
+____Sup1____
+4674..4774
+47
+#### Text ####
+His favorites are American Barrick Resources Corp., Echo Bay Mines Ltd. and Coeur d'Alene Mines Corp
+##############
+____Arg1____
+4603..4671
+46,1,1
+#### Text ####
+that gold stocks had been down so long they were "ready for a bounce
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4595..4602
+46,0;46,1,0;46,2;46,3
+#### Text ####
+He adds
+##############
+____Arg2____
+4815..4879
+48,3,1
+#### Text ####
+that "you don't buy {gold stocks} based on powerful fundamentals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4792..4814
+48,1;48,2;48,3,0;48,4;48,5
+#### Text ####
+Mr. Stovall emphasizes
+##############
+____Sup2____
+4882..4963
+49
+#### Text ####
+In addition to having high price-earnings ratios, most pay puny dividends, if any
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4882
+49
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4815..4879
+48,3,1
+#### Text ####
+that "you don't buy {gold stocks} based on powerful fundamentals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4778..4814
+48,0;48,1;48,2;48,3,0;48,4;48,5
+#### Text ####
+Nevertheless, Mr. Stovall emphasizes
+##############
+____Arg2____
+4882..4963
+49
+#### Text ####
+In addition to having high price-earnings ratios, most pay puny dividends, if any
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4966
+50
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4882..4963
+49
+#### Text ####
+In addition to having high price-earnings ratios, most pay puny dividends, if any
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4966..5073
+50,1
+#### Text ####
+The earning power {of gold mining companies} is restricted unless the gold price hops up over $425 an ounce
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5076..5083
+50,0;50,2;50,3;50,4;50,5;50,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5025..5031
+50,1,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5076..5083
+50,0;50,2;50,3;50,4;50,5;50,6
+#### Text ####
+he says
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+4966..5024
+50,1,0;50,1,1,0;50,1,1,1
+#### Text ####
+The earning power {of gold mining companies} is restricted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5032..5073
+50,1,1,2,1
+#### Text ####
+the gold price hops up over $425 an ounce
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5152..5156
+51,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3861..4002
+38
+#### Text ####
+Robert Stovall, a veteran New York money manager and president of Stovall/ Twenty-First Securities, has money in both gold and utility issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5087..5151;5157..5224
+51,0;51,2;51,3
+#### Text ####
+Abby Cohen, an investment strategist for Drexel Burnham Lambert, thinks it makes sense to have some money in both utilities and gold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5227
+52
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5164..5224
+51,2,1
+#### Text ####
+it makes sense to have some money in both utilities and gold
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5087..5163
+51,0;51,1;51,2,0;51,3
+#### Text ####
+Abby Cohen, an investment strategist for Drexel Burnham Lambert, also thinks
+##############
+____Arg2____
+5227..5297
+52,1
+#### Text ####
+My outlook is for a decline of about 10% in corporate profits" in 1990
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5299..5307
+52,0;52,2;52,3;52,4;52,5
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5309..5312
+53,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5299..5307
+52,0;52,2;52,3;52,4;52,5
+#### Text ####
+she says
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+5227..5297
+52,1
+#### Text ####
+My outlook is for a decline of about 10% in corporate profits" in 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5314..5364
+53,1;53,2;53,3;53,4;53,5
+#### Text ####
+a bunch of utilities" should post profit increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5366
+54
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5309..5364
+53
+#### Text ####
+But "a bunch of utilities" should post profit increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5366..5454
+54
+#### Text ####
+Among utilities, Drexel currently favors Entergy Corp. and General Public Utilities Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5503..5507
+55,3,1,1,2,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5458..5480
+55,0;55,1;55,2;55,3,0;55,4
+#### Text ####
+As for gold, she notes
+##############
+when, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+5481..5502
+55,3,1,0;55,3,1,1,0;55,3,1,1,1;55,3,1,1,2,0
+#### Text ####
+that it usually rises
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5508..5526
+55,3,1,1,2,1,1,0;55,3,1,1,2,1,1,1,0;55,3,1,1,2,1,1,1,1;55,3,1,1,2,1,1,1,2;55,3,1,1,2,1,1,1,3
+#### Text ####
+the dollar is weak
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5551
+56
+____Arg1____
+5458..5549
+55
+#### Text ####
+As for gold, she notes that it usually rises when the dollar is weak, as it has been lately
+##############
+____Arg2____
+5551..5654
+56
+#### Text ####
+Among gold stocks, Drexel likes Battle Mountain Gold Co., Newmont Gold Co. and Freeport-McMoRan Gold Co
+##############
+________________________________________________________

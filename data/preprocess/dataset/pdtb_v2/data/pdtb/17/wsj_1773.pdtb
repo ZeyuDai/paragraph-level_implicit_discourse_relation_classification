@@ -1,0 +1,243 @@
+________________________________________________________
+____Explicit____
+127..132
+0,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..126
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+H.F. Ahmanson & Co., the nation's largest thrift holding company, posted a 12% earnings decline for the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+133..238
+0,1,3,1
+#### Text ####
+another large California savings and loan, Great Western Financial Corp., reported a slight earnings gain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+630
+3
+____Arg1____
+434..628
+2
+#### Text ####
+Most of the earnings decline reflected an increase in the company's effective tax rate to 44% from 37% in the year-ago third quarter when nonrecurring tax credits were recorded, the company said
+##############
+____Arg2____
+630..659
+3
+#### Text ####
+Pretax earnings declined 1.3%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+858
+5
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+663..839
+4
+#### Text ####
+For the nine months, Los Angeles-based H. F. Ahmanson had profit of $128.1 million, or $1.29 a share, a 4.6% decline from earnings of $134.2 million in the year-ago nine months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+858..942
+5,1,1
+#### Text ####
+the decline was attributable to a 79% reduction in net gains on loan sales this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+841..857
+5,0;5,1,0;5,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1010..1012
+6,0,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1066..1082
+6,1;6,2;6,3;6,4
+#### Text ####
+the company said
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+946..1009
+6,0,0;6,0,1,0;6,0,1,1
+#### Text ####
+Third-quarter spreads widened to the highest level in two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1013..1064
+6,0,1,2,1
+#### Text ####
+loan portfolio yields rose and money costs declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1040..1043
+6,0,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1066..1082
+6,1;6,2;6,3;6,4
+#### Text ####
+the company said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1010..1039
+6,0,1,2,0;6,0,1,2,1,0
+#### Text ####
+as loan portfolio yields rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1044..1064
+6,0,1,2,1,2
+#### Text ####
+money costs declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1247
+8
+____Arg1____
+1086..1245
+7
+#### Text ####
+Great Western Financial said third-quarter profit rose slightly to $68.4 million, or 52 cents a share, from $67.9 million, or 53 cents a share, from a year ago
+##############
+____Arg2____
+1247..1363
+8
+#### Text ####
+Great Western, based in Beverly Hills, Calif., is a financial services firm and parent to Great Western Bank, an S&L
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1450
+10
+____Arg1____
+1367..1448
+9
+#### Text ####
+Great Western said it had a sharp increase in margins in the recent third quarter
+##############
+____Arg2____
+1450..1552
+10
+#### Text ####
+Margins are the difference between the yield on the company's earning assets and its own cost of funds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1556..1559
+11,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+1450..1552
+10
+#### Text ####
+Margins are the difference between the yield on the company's earning assets and its own cost of funds
+##############
+____Arg1____
+1386..1448
+9,1,1
+#### Text ####
+it had a sharp increase in margins in the recent third quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1367..1385
+9,0;9,1,0;9,2
+#### Text ####
+Great Western said
+##############
+____Arg2____
+1560..1706
+11,0,1;11,0,2
+#### Text ####
+a reduction in one-time gains on the sale of various assets and an increase in the company's provision for loan losses held down the earnings gain
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1708..1724
+11,1;11,2;11,3;11,4
+#### Text ####
+the company said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1726
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1556..1706
+11,0
+#### Text ####
+But a reduction in one-time gains on the sale of various assets and an increase in the company's provision for loan losses held down the earnings gain
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1708..1724
+11,1;11,2;11,3;11,4
+#### Text ####
+the company said
+##############
+____Arg2____
+1726..1860
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,1,1,2;12,2;12,3
+#### Text ####
+Great Western's provision for loan losses was increased to $27.9 million for the recent quarter compared with $21.8 million a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

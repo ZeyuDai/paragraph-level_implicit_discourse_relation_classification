@@ -1,0 +1,158 @@
+________________________________________________________
+____Implicit____
+357
+2
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+205..355
+1
+#### Text ####
+The FADA real-estate package, with an asking price of $428 million, is comprised of 150 properties in Texas, California, Colorado, Arizona and Florida
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+357..436
+2
+#### Text ####
+It includes apartments, shopping centers, office buildings and undeveloped land
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+590
+4
+____Arg1____
+440..588
+3
+#### Text ####
+Mr. Seidman is chairman of the Resolution Trust Corp., established to sell or merge the nation's hundreds of insolvent savings-and-loan associations
+##############
+____Arg2____
+590..701
+4
+#### Text ####
+The RTC, created by this year's S&L bailout legislation, is trying to sell FADA's network of offices separately
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+703
+5
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+590..597;647..701
+4,0,0;4,0,1;4,0,3;4,1;4,2
+#### Text ####
+The RTC is trying to sell FADA's network of offices separately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+703..707;808..827
+5,0,0;5,0,1;5,0,3;5,1;5,2
+#### Text ####
+FADA is being liquidated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+764..770
+5,0,2,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+747..763
+5,0,2,1,1,1,1,1,1,0;5,0,2,1,1,1,1,1,1,1,0;5,0,2,1,1,1,1,1,1,1,1,0;5,0,2,1,1,1,1,1,1,1,1,1,0;5,0,2,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that were closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+771..806
+5,0,2,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+the bailout legislation was enacted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+978
+7
+#### Features ####
+Wr, Comm, Null, Null
+instead, Comparison.Contrast
+____Arg1____
+831..882
+6,0
+#### Text ####
+The properties held by FADA won't be sold piecemeal
+##############
+#### Features ####
+Ot, Comm, Null, Null
+884..975
+6,1;6,2;6,3;6,4
+#### Text ####
+Mr. Seidman said in a speech before Southern Methodist University Business School in Dallas
+##############
+____Arg2____
+978..1008
+7,1
+#### Text ####
+You need to buy the entire lot
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1011..1027
+7,2
+#### Text ####
+Mr. Seidman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1030..1032
+7,3
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1011..1027
+7,2
+#### Text ####
+Mr. Seidman said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+978..1008
+7,1
+#### Text ####
+You need to buy the entire lot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1033..1056
+7,4
+#### Text ####
+get out your checkbooks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

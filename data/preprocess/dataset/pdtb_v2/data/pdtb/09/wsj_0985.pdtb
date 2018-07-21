@@ -1,0 +1,505 @@
+________________________________________________________
+____Explicit____
+173..178
+0,1,4,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+9..171
+0,0;0,1,0;0,1,1;0,1,2;0,1,3;0,2
+#### Text ####
+I read the exerpts of Wayne Angell's exchange with a Gosbank representative ("Put the Soviet Economy on Golden Rails," editorial page, Oct. 5) with great interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+179..227
+0,1,4,1
+#### Text ####
+the gold standard is one of my areas of research
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+229
+1
+#### Features ####
+Wr, Comm, Null, Null
+however, Expansion
+____Arg1____
+9..84;152..171
+0,0;0,1,0;0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,1,2;0,1,3;0,2
+#### Text ####
+I read the exerpts of Wayne Angell's exchange with a Gosbank representative with great interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+229..363
+1
+#### Text ####
+Mr. Angell is incorrect when he states that the Soviet Union's large gold reserves would give it "great power to establish credibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+253..257
+1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+229..252
+1,0;1,1,0;1,1,1;1,2;1,3
+#### Text ####
+Mr. Angell is incorrect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+258..363
+1,1,2,1
+#### Text ####
+he states that the Soviet Union's large gold reserves would give it "great power to establish credibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+366
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for example, Expansion.Restatement.Specification
+____Arg1____
+229..363
+1
+#### Text ####
+Mr. Angell is incorrect when he states that the Soviet Union's large gold reserves would give it "great power to establish credibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+366..556
+2
+#### Text ####
+During the latter part of the 19th century, Russia was on a gold standard and had gold reserves representing more than 100% of its outstanding currency, but no one outside Russia used rubles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+519..522
+2,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+366..517
+2,0
+#### Text ####
+During the latter part of the 19th century, Russia was on a gold standard and had gold reserves representing more than 100% of its outstanding currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+523..556
+2,3
+#### Text ####
+no one outside Russia used rubles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+581..598
+3,0,2
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast
+____Arg1____
+366..556
+2
+#### Text ####
+During the latter part of the 19th century, Russia was on a gold standard and had gold reserves representing more than 100% of its outstanding currency, but no one outside Russia used rubles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+560..579;600..731
+3,0,0;3,0,1;3,0,3;3,0,4;3,1;3,2;3,3;3,4
+#### Text ####
+The Bank of England had gold reserves that averaged about 30% of its outstanding currency, and Bank of England notes were accepted throughout the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+671..674
+3,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+560..669
+3,0
+#### Text ####
+The Bank of England, on the other hand, had gold reserves that averaged about 30% of its outstanding currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+675..731
+3,3
+#### Text ####
+Bank of England notes were accepted throughout the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+733..774
+4,0,0
+#### Text ####
+The most likely reason for this disparity
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+366..556;560..731
+2;3
+#### Text ####
+During the latter part of the 19th century, Russia was on a gold standard and had gold reserves representing more than 100% of its outstanding currency, but no one outside Russia used rubles The Bank of England, on the other hand, had gold reserves that averaged about 30% of its outstanding currency, and Bank of England notes were accepted throughout the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+733..961
+4
+#### Text ####
+The most likely reason for this disparity is that the Bank of England was a private bank with substantial earning assets, and the common-law rights of creditors to collect claims against the bank were well established in Britain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+855..858
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+778..853
+4,0,1,1
+#### Text ####
+that the Bank of England was a private bank with substantial earning assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+859..961
+4,3
+#### Text ####
+the common-law rights of creditors to collect claims against the bank were well established in Britain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+963..974
+5,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Opposition
+____Arg1____
+778..961
+4,0,1,1;4,1;4,2;4,3;4,4
+#### Text ####
+that the Bank of England was a private bank with substantial earning assets, and the common-law rights of creditors to collect claims against the bank were well established in Britain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+976..1137
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+in 19th-century Russia an authoritarian government owned the bank and had the power to revoke payment whenever it chose, much as it would in today's Soviet Union
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1097..1104
+5,4,4,0;5,4,4,1
+#### Text ####
+much as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+much as, Comparison
+____Arg1____
+1042..1095
+5,4,1;5,4,2;5,4,3
+#### Text ####
+and had the power to revoke payment whenever it chose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1105..1137
+5,4,4,2
+#### Text ####
+it would in today's Soviet Union
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1294
+7
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1141..1292
+6
+#### Text ####
+The success of the British gold standard was due to independent private banking and common law, rather than the choice of gold for valuing the currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1294..1655
+7
+#### Text ####
+It is no coincidence that from 1844 to 1914, when the Bank of England was an independent private bank, the pound was never devalued and payment of gold for pound notes was never suspended, but with the subsequent nationalization of the Bank of England, the pound was devalued with increasing frequency and its use as an international medium of exchange declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1426..1429
+7,0,1,2,1,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1397..1425
+7,0,1,2,1,4
+#### Text ####
+the pound was never devalued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1430..1481
+7,0,1,2,1,6
+#### Text ####
+payment of gold for pound notes was never suspended
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1483..1486
+7,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1315..1481
+7,0,1,2
+#### Text ####
+that from 1844 to 1914, when the Bank of England was an independent private bank, the pound was never devalued and payment of gold for pound notes was never suspended
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1487..1655
+7,3
+#### Text ####
+with the subsequent nationalization of the Bank of England, the pound was devalued with increasing frequency and its use as an international medium of exchange declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1596..1599
+7,3,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1483..1595
+7,2;7,3,0;7,3,1;7,3,2;7,4
+#### Text ####
+but with the subsequent nationalization of the Bank of England, the pound was devalued with increasing frequency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1600..1655
+7,3,4
+#### Text ####
+its use as an international medium of exchange declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1710..1712
+8,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency
+____Arg1____
+1659..1709
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,1,1,2;8,2
+#### Text ####
+The Soviet Union should keep these lessons in mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1713..1773
+8,1,1,3,1
+#### Text ####
+it seeks to establish the ruble as an international currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1775..1836
+9,0,0;9,0,1,1,1,0;9,0,1,1,1,1,0;9,0,1,1,1,1,1;9,0,1,1,1,1,2
+#### Text ####
+One way to make the ruble into a major international currency
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+1722..1773
+8,1,1,3,1,1,1
+#### Text ####
+to establish the ruble as an international currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1775..1945
+9
+#### Text ####
+One way to make the ruble into a major international currency would be to leave reserves of gold and earning assets in a Swiss bank with distributions based on Swiss laws
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1947..1953
+10,0,0
+#### Text ####
+Unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+2056..2148
+10,1;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+however, a gold-based ruble would be as unsuccessful for the Soviets as it was for the czars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1954..2054
+10,0,1
+#### Text ####
+the laws determining the noteholder's rights to payment are independent of the issuer of those notes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2056..2063
+10,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1775..1945
+9
+#### Text ####
+One way to make the ruble into a major international currency would be to leave reserves of gold and earning assets in a Swiss bank with distributions based on Swiss laws
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1947..2054;2065..2148
+10,0;10,1;10,3;10,4;10,5;10,6
+#### Text ####
+Unless the laws determining the noteholder's rights to payment are independent of the issuer of those notes a gold-based ruble would be as unsuccessful for the Soviets as it was for the czars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,231 @@
+________________________________________________________
+____EntRel____
+286
+2
+____Arg1____
+150..284
+1
+#### Text ####
+The government sued the company in April, seeking $23,000 and other unspecified damages related to an alleged contract-steering scheme
+##############
+____Arg2____
+286..456
+2
+#### Text ####
+The suit named the company, former chief executive officer William G. Moore Jr., former vice president Robert W. Reedy and five defendants who weren't part of the company
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+458
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+286..456
+2
+#### Text ####
+The suit named the company, former chief executive officer William G. Moore Jr., former vice president Robert W. Reedy and five defendants who weren't part of the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+458..626
+3
+#### Text ####
+The suit charged the defendants with causing Peter E. Voss, an ex-member of the Postal Service board of governors, to accept $23,000 in bribes, kickbacks and gratuities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+641..651
+4,1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+458..626
+3
+#### Text ####
+The suit charged the defendants with causing Peter E. Voss, an ex-member of the Postal Service board of governors, to accept $23,000 in bribes, kickbacks and gratuities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+628..640;652..730
+4,0;4,1,0;4,1,2;4,2
+#### Text ####
+Mr. Voss was sentenced to four years in prison and fined $11,000 for his role in the scheme
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+686..689
+4,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+628..685
+4,0;4,1,0;4,1,1;4,1,2,0
+#### Text ####
+Mr. Voss was previously sentenced to four years in prison
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+690..730
+4,1,2,2;4,2
+#### Text ####
+fined $11,000 for his role in the scheme
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+887
+6
+____Arg1____
+734..885
+5
+#### Text ####
+In the agreement, Recognition agreed to pay the government $20,000 in return for the release of all claims against the company, Mr. Moore and Mr. Reedy
+##############
+____Arg2____
+887..951
+6
+#### Text ####
+The five additional defendants weren't parties to the settlement
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1104
+8
+____Arg1____
+955..1102
+7
+#### Text ####
+A trial on criminal allegations against the company and the same two former executives began Sept. 27 in federal court for the District of Columbia
+##############
+____Arg2____
+1104..1298
+8
+#### Text ####
+They were indicted last October on charges of fraud, theft and conspiracy related to an effort to win $400 million in Postal Service equipment contracts by the maker of data management equipment
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1300
+9
+____Arg1____
+1104..1298
+8
+#### Text ####
+They were indicted last October on charges of fraud, theft and conspiracy related to an effort to win $400 million in Postal Service equipment contracts by the maker of data management equipment
+##############
+____Arg2____
+1300..1347
+9
+#### Text ####
+The company and its executives deny the charges
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1507
+11
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1404..1505
+10,3,1
+#### Text ####
+the Postal Service has barred the company from bidding on postal contracts for an additional 120 days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1351..1403
+10,0;10,1;10,2;10,3,0;10,4
+#### Text ####
+In a related development, Recognition Equipment said
+##############
+____Arg2____
+1507..1613
+11
+#### Text ####
+The Postal Service originally suspended the company Oct. 7, 1988, and has been renewing the ban ever since
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1573..1576
+11,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1507..1571
+11,0;11,1,0;11,1,1
+#### Text ####
+The Postal Service originally suspended the company Oct. 7, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1577..1613
+11,1,3;11,1,4;11,2
+#### Text ####
+has been renewing the ban ever since
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1632
+12
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1507..1613
+11
+#### Text ####
+The Postal Service originally suspended the company Oct. 7, 1988, and has been renewing the ban ever since
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1632..1686
+12,1,1
+#### Text ####
+it will continue to pursue a lifting of the suspension
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1615..1631
+12,0;12,1,0;12,2
+#### Text ####
+The company said
+##############
+________________________________________________________

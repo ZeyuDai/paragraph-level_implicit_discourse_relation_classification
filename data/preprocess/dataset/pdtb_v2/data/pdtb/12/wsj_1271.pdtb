@@ -1,0 +1,892 @@
+________________________________________________________
+____Explicit____
+230..244
+1,0
+#### Text ####
+In other words
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+9..226
+0
+#### Text ####
+About 400,000 commuters trying to find their way through the Bay area's quake-torn transportation system wedged cheek-to-jowl into subways, sat in traffic jams on major freeways or waited forlornly for buses yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+246..292
+1,1;1,2;1,3;1,4
+#### Text ####
+it was a better-than-average Manhattan commute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+437
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+296..435
+2
+#### Text ####
+City officials feared widespread gridlock on the first day that normal business operations were resumed following last Tuesday's earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+437..629
+3
+#### Text ####
+The massive temblor, which killed at least 61 people, severed the Bay Bridge, a major artery to the east, and closed most ramps leading to and from Highway 101, the biggest artery to the south
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+631
+4
+____Arg1____
+437..629
+3
+#### Text ####
+The massive temblor, which killed at least 61 people, severed the Bay Bridge, a major artery to the east, and closed most ramps leading to and from Highway 101, the biggest artery to the south
+##############
+____Arg2____
+631..736
+4
+#### Text ####
+It will take several weeks to repair the bridge, and several months to repair some of the 101 connections
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+740..743
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+296..435
+2
+#### Text ####
+City officials feared widespread gridlock on the first day that normal business operations were resumed following last Tuesday's earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+744..808
+5,1;5,2;5,3;5,4;5,5,0;5,5,1;5,6
+#### Text ####
+in spite of a wind-driven rainstorm, gridlock never materialized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+810..824
+5,5,2,0;5,5,2,1
+#### Text ####
+mainly because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+740..808
+5,0;5,1;5,2;5,3;5,4;5,5,0;5,5,1;5,6
+#### Text ####
+But in spite of a wind-driven rainstorm, gridlock never materialized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+825..905
+5,5,2,2
+#### Text ####
+the Bay Area Rapid Transit subway system carried 50% more passengers than normal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+907
+6
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+810..905
+5,5,2
+#### Text ####
+mainly because the Bay Area Rapid Transit subway system carried 50% more passengers than normal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+907..995
+6
+#### Text ####
+For the first time in memory, it was standing-room only in BART's sleek, modern railcars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+999..1007
+7,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+810..905
+5,5,2
+#### Text ####
+mainly because the Bay Area Rapid Transit subway system carried 50% more passengers than normal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1009..1148
+7,1;7,2;7,3;7,4
+#### Text ####
+the two main bridges still connecting San Francisco with the East Bay didn't charge tolls, allowing traffic to zip through without stopping
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1160..1164
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+999..1148
+7
+#### Text ####
+Moreover, the two main bridges still connecting San Francisco with the East Bay didn't charge tolls, allowing traffic to zip through without stopping
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1173..1312
+8,2,1
+#### Text ####
+that traffic benefited from steps by major employers to get workers to come in at odd hours, or that many workers are still staying at home
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1150..1159;1165..1172
+8,0;8,2,0;8,3
+#### Text ####
+Officials suspect
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1266..1268
+8,2,1,2
+#### Text ####
+or
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1150..1172
+8,0;8,1;8,2,0;8,3
+#### Text ####
+Officials also suspect
+##############
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+1173..1264
+8,2,1,0
+#### Text ####
+that traffic benefited from steps by major employers to get workers to come in at odd hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1269..1312
+8,2,1,3
+#### Text ####
+that many workers are still staying at home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1578
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1316..1371;1441..1576
+9,0,0;9,0,1,0;9,0,1,1,0;9,0,1,1,1;9,0,1,1,2,0;9,0,1,1,2,1,0;9,0,1,1,2,1,1,0;9,0,1,1,2,1,1,1;9,0,1,1,2,1,1,3;9,1;9,2;9,3
+#### Text ####
+Many commuters who normally drove across the Bay Bridge actually may have reached work a bit faster on BART yesterday, provided they could find a parking space at the system's jammed stations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1578..1706
+10
+#### Text ####
+In the best of times, the Bay Bridge is the worst commute in the region, often experiencing back-ups of 20 to 30 minutes or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1747
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+1710..1745
+11
+#### Text ####
+Not that getting into town was easy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1747..1893
+12
+#### Text ####
+Storm flooding caused back-ups on the freeway, and many commuters had to find rides to BART's stations, because parking lots were full before dawn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1794..1797
+12,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1747..1792
+12,0
+#### Text ####
+Storm flooding caused back-ups on the freeway
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1798..1893
+12,3
+#### Text ####
+many commuters had to find rides to BART's stations, because parking lots were full before dawn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1851..1858
+12,3,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1794..1849
+12,2;12,3,0;12,3,1,0;12,3,1,1,0;12,3,1,1,1,0;12,3,1,1,1,1,0;12,3,1,1,1,1,1;12,3,1,1,1,1,2;12,4
+#### Text ####
+and many commuters had to find rides to BART's stations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1859..1893
+12,3,1,1,1,1,3,1
+#### Text ####
+parking lots were full before dawn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1895
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1747..1893
+12
+#### Text ####
+Storm flooding caused back-ups on the freeway, and many commuters had to find rides to BART's stations, because parking lots were full before dawn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1895..1935
+13,0;13,1,0;13,1,1;13,1,2;13,1,3;13,2
+#### Text ####
+Bus schedules were sometimes in disarray
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1983
+14
+____Arg1____
+1895..1981
+13
+#### Text ####
+Bus schedules were sometimes in disarray, stranding commuters such as Marilyn Sullivan
+##############
+____Arg2____
+1983..2137
+14
+#### Text ####
+Her commute from Petaluma, Calif., normally takes an hour and 15 minutes, via the Golden Gate Bridge, which connects San Francisco with the North Bay area
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2139
+15
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1983..2055
+14,0;14,1;14,2,0;14,2,1;14,2,2;14,3
+#### Text ####
+Her commute from Petaluma, Calif., normally takes an hour and 15 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2139..2203
+15,0;15,1;15,2;15,3,0;15,3,1;15,3,2,0;15,3,2,1;15,3,2,2;15,3,2,3;15,4
+#### Text ####
+Yesterday, she was still waiting at a bus stop after three hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2349..2352
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+9..226
+0
+#### Text ####
+About 400,000 commuters trying to find their way through the Bay area's quake-torn transportation system wedged cheek-to-jowl into subways, sat in traffic jams on major freeways or waited forlornly for buses yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2353..2456
+18,1;18,2;18,3;18,4;18,5
+#### Text ####
+while traffic was heavy early in the commute over the Golden Gate, by 8 a.m. it already had thinned out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2353..2358
+18,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+2349..2352;2420..2456
+18,0;18,1,1,1,3;18,1,1,1,4;18,2;18,3;18,4;18,5
+#### Text ####
+But by 8 a.m. it already had thinned out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2359..2418
+18,1,1,0;18,1,1,1,0;18,1,1,1,1;18,1,1,1,2
+#### Text ####
+traffic was heavy early in the commute over the Golden Gate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2459
+19
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2349..2456
+18
+#### Text ####
+But while traffic was heavy early in the commute over the Golden Gate, by 8 a.m. it already had thinned out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2459..2507
+19,1
+#### Text ####
+It's one of the smoothest commutes I've ever had
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2510..2595
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Charles Catania, an insurance broker on the bus from Mill Valley in Marin County
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2598
+20
+#### Features ####
+Ot, Comm, Null, Null
+2510..2595
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Charles Catania, an insurance broker on the bus from Mill Valley in Marin County
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2459..2507
+19,1
+#### Text ####
+It's one of the smoothest commutes I've ever had
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2598..2621
+20
+#### Text ####
+It looks like a holiday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2631
+21
+#### Features ####
+Ot, Comm, Null, Null
+2510..2595
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Charles Catania, an insurance broker on the bus from Mill Valley in Marin County
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2598..2621
+20
+#### Text ####
+It looks like a holiday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2631..2673
+21,1,1
+#### Text ####
+a lot of people got scared and stayed home
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2623..2630
+21,0;21,1,0;21,2;21,3
+#### Text ####
+I think
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2676..2683
+22,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+2631..2673
+21,1,1
+#### Text ####
+a lot of people got scared and stayed home
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2623..2630
+21,0;21,1,0;21,2;21,3
+#### Text ####
+I think
+##############
+____Arg2____
+2726..2815
+22,3,1
+#### Text ####
+yesterday's absenteeism at the bank holding company was no greater than on an average day
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2685..2725
+22,1;22,2;22,3,0;22,4
+#### Text ####
+a spokeswoman for BankAmerica Corp. said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2968
+24
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2819..2965
+23
+#### Text ####
+At the San Mateo Bridge, which connects the San Francisco peninsula with the East Bay, police were surprised at the speed with which traffic moved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2968..3015
+24,1
+#### Text ####
+Everybody pretty much pitched in and cooperated
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3018..3080
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+said Stan Perez, a sergeant with the California Highway Patrol
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3189
+26
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for instance, Expansion.Instantiation
+____Arg1____
+3084..3187
+25
+#### Text ####
+There were many indications that the new work hours implemented by major corporations played a big role
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3189..3305
+26
+#### Text ####
+The Golden Gate handled as many cars as normally yesterday, but over four hours rather than the usual two-hour crush
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3522
+28
+____Arg1____
+3309..3520
+27
+#### Text ####
+Bechtel Group Inc., the giant closely held engineering concern, says it has instituted a 6 a.m. to 8 p.m. flextime arrangement, whereby employees may select any eight-hour period during those hours to go to work
+##############
+____Arg2____
+3522..3640
+28
+#### Text ####
+Of Bechtel's 17,500 employees, about 4,000 work in San Francisco -- one-third of them commuting from stricken East Bay
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+3794..3814
+30,0,0;30,0,1,0;30,0,1,1,0
+#### Text ####
+The flextime may cut
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+3644..3792
+29
+#### Text ####
+Pacific Gas & Electric Co. is offering its 6,000 San Francisco employees a two-tier flextime schedule -- either 6 a.m. to 2 p.m. or 10 a.m. to 6 p.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3794..3892
+30,0
+#### Text ####
+The flextime may cut by almost a third the number of PG&E employees working conventional 9-5 hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3912
+31
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3794..3892
+30,0
+#### Text ####
+The flextime may cut by almost a third the number of PG&E employees working conventional 9-5 hours
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3894..3910
+30,1;30,2;30,3;30,4
+#### Text ####
+a spokesman says
+##############
+____Arg2____
+3912..4018
+31
+#### Text ####
+Some of the utility's employees may opt for a four-day workweek, 10 hours a day, to cut the commute by 20%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4098..4105
+32,0,3,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4194..4212
+32,1;32,2;32,3;32,4
+#### Text ####
+a spokeswoman says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4022..4096
+32,0,0;32,0,1;32,0,2;32,0,3,0;32,0,3,1,0;32,0,3,1,1;32,0,3,1,2;32,0,3,1,3
+#### Text ####
+At Pacific Telesis Group, flextime is left up to individual working groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4106..4192
+32,0,3,1,4,1
+#### Text ####
+some of the telephone company's employees must be on-site during normal business hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4344
+34
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4216..4300
+33
+#### Text ####
+Some individuals went to some lengths on their own to avoid the anticipated gridlock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4344..4409
+34,1,1
+#### Text ####
+he got up at 3 a.m. to drive into San Francisco from the East Bay
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4302..4343
+34,0;34,1,0;34,2
+#### Text ####
+One senior vice president at Bechtel said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4413..4416
+35,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4216..4409
+33;34
+#### Text ####
+Some individuals went to some lengths on their own to avoid the anticipated gridlock.
+One senior vice president at Bechtel said he got up at 3 a.m. to drive into San Francisco from the East Bay
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4417..4509
+35,1;35,2;35,3
+#### Text ####
+transportation officials worry that such extraordinary measures and cooperation may not last
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4511..4519
+36,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+4624..4828
+36,1;36,2;36,3;36,4;36,5;37
+#### Text ####
+about two-thirds of the motorists crossing the Golden Gate were alone, compared with the normal 70% rate.
+And some commuters, relieved by the absence of gridlock, were planning to return to their old ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4553..4621
+36,0,1,1,1
+#### Text ####
+drivers who didn't use car pools were committing "an anti-social act
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4520..4552
+36,0,1,0;36,0,1,1,0
+#### Text ####
+one transportation official said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4624
+36
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4448..4509
+35,2,1
+#### Text ####
+that such extraordinary measures and cooperation may not last
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4413..4447
+35,0;35,1;35,2,0;35,3
+#### Text ####
+But transportation officials worry
+##############
+____Arg2____
+4624..4728
+36,1;36,2;36,3;36,4;36,5
+#### Text ####
+about two-thirds of the motorists crossing the Golden Gate were alone, compared with the normal 70% rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4730..4733
+37,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4624..4728
+36,1;36,2;36,3;36,4;36,5
+#### Text ####
+about two-thirds of the motorists crossing the Golden Gate were alone, compared with the normal 70% rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4734..4828
+37,1;37,2;37,3
+#### Text ####
+some commuters, relieved by the absence of gridlock, were planning to return to their old ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

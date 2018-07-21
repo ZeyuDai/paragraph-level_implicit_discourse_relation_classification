@@ -1,0 +1,303 @@
+________________________________________________________
+____EntRel____
+413
+3
+____Arg1____
+250..411
+2
+#### Text ####
+Mr. Craven is widely credited with refocusing Morgan Grenfell's energies on its core corporate finance, fund management and banking activities over the past year
+##############
+____Arg2____
+413..487
+3
+#### Text ####
+Last year, Morgan Grenfell shut down its ailing U.K. securities operations
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+617..620
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+507..615
+4,0,1,1
+#### Text ####
+his move to the chairmanship means he will take a less active role in the day-to-day management of the group
+##############
+#### Features ####
+Ot, Comm, Null, Null
+491..506
+4,0,0;4,0,1,0
+#### Text ####
+Mr. Craven said
+##############
+____Arg2____
+630..688
+4,3,1,1
+#### Text ####
+that the merchant bank's strategic focus remains unchanged
+##############
+#### Features ####
+Ot, Comm, Null, Null
+621..629
+4,3,0;4,3,1,0
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+764..782
+5,1,5,0;5,1,5,1
+#### Text ####
+a few months after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+692..762
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,1,4
+#### Text ####
+Mr. Craven joined Morgan Grenfell as group chief executive in May 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+783..972
+5,1,5,2;5,2
+#### Text ####
+the resignations of former Chief Executive Christopher Reeves and other top officials because of the merchant bank's role in Guinness PLC's controversial takeover of Distiller's Co. in 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1266..1270
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..183
+0
+#### Text ####
+Morgan Grenfell Group PLC said John Craven, group chief executive officer, is taking over the chairmanship of the merchant banking group from Sir Peter Carey, who is retiring
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1248..1265;1271..1362
+8,0;8,2;8,3
+#### Text ####
+The merchant bank announced that finance director David Eward is taking early retirement for personal reasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1364
+9
+____Arg1____
+1248..1362
+8
+#### Text ####
+The merchant bank also announced that finance director David Eward is taking early retirement for personal reasons
+##############
+____Arg2____
+1364..1458
+9
+#### Text ####
+His duties will be taken over by Anthony Richmond-Watson, who has been elected deputy chairman
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1499..1512
+10,1,1,0;10,1,1,1
+#### Text ####
+one day after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1462..1498
+10,0;10,1,0;10,2
+#### Text ####
+News of Mr. Eward's retirement comes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1513..1639
+10,1,1,2
+#### Text ####
+Morgan said that Christopher Whittington resigned as chairman of Morgan's banking subsidiary to join a financial services firm
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1733..1736
+11,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1643..1658
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Craven said
+##############
+but, Comparison.Contrast
+____Arg1____
+1659..1731
+11,1,1,1,0
+#### Text ####
+both Messrs.
+Eward and Whittington had planned to leave the bank earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1737..1817
+11,1,1,1,3
+#### Text ####
+Mr. Craven had persuaded them to remain until the bank was in a healthy position
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1777..1782
+11,1,1,1,3,1,1,2,1,1,1,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1737..1766
+11,1,1,1,3,0;11,1,1,1,3,1,0;11,1,1,1,3,1,1,0;11,1,1,1,3,1,1,1
+#### Text ####
+Mr. Craven had persuaded them
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1767..1776
+11,1,1,1,3,1,1,2,0;11,1,1,1,3,1,1,2,1,0;11,1,1,1,3,1,1,2,1,1,0
+#### Text ####
+to remain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1783..1817
+11,1,1,1,3,1,1,2,1,1,1,1
+#### Text ####
+the bank was in a healthy position
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1820
+12
+#### Features ####
+Ot, Comm, Null, Null
+1643..1658
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Craven said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1659..1817
+11,1,1
+#### Text ####
+both Messrs.
+Eward and Whittington had planned to leave the bank earlier, but Mr. Craven had persuaded them to remain until the bank was in a healthy position
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1820..1978
+12
+#### Text ####
+If there's any coincidence about the departures it's that they are leaving at a time when the business is in reasonably good shape and going forward very well
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1820..1822
+12,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1643..1658
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Craven said
+##############
+if, Contingency.Condition.Factual present
+____Arg1____
+1868..1978
+12,0;12,2;12,3;12,4;12,5
+#### Text ####
+it's that they are leaving at a time when the business is in reasonably good shape and going forward very well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1823..1867
+12,1,1
+#### Text ####
+there's any coincidence about the departures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1981
+13
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Instantiation
+____Arg1____
+1905..1978
+12,3,1,1,1,1,1,1,1
+#### Text ####
+when the business is in reasonably good shape and going forward very well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1981..2082
+13,0;13,1;13,2;13,3,0;13,3,1,0;13,3,1,1,0;13,3,1,1,1,0;13,3,1,1,1,1;13,3,1,1,1,2;13,3,1,1,1,3;13,3,1,1,1,4;13,4
+#### Text ####
+Last month, Morgan Grenfell announced its pretax profit rose 49.6% to #32.8 million in the first half
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

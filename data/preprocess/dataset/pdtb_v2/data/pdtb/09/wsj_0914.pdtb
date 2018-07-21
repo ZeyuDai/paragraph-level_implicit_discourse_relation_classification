@@ -1,0 +1,144 @@
+________________________________________________________
+____Implicit____
+134
+1
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+26..79
+0,1,1
+#### Text ####
+its board has approved a 1-for-10 reverse stock split
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..25
+0,0;0,1,0;0,2
+#### Text ####
+ALAMCO Inc. said
+##############
+____Arg2____
+134..176
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,1,1,1,1,1,0;1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1
+#### Text ####
+it wants shareholders to approve the split
+##############
+#### Features ####
+Ot, Comm, Null, Null
+81..133
+1,0;1,1,0;1,2
+#### Text ####
+The Clarksburg, W.Va., producer of gas and oil, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+177..184
+1,1,1,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+81..133
+1,0;1,1,0;1,2
+#### Text ####
+The Clarksburg, W.Va., producer of gas and oil, said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+134..176
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,1,1,1,1,1,0;1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1
+#### Text ####
+it wants shareholders to approve the split
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+185..246
+1,1,1,1,1,1,1,1,2,1
+#### Text ####
+it would "enhance the marketability" and trading of the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+248
+2
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+143..246
+1,1,1,1,1,1
+#### Text ####
+shareholders to approve the split because it would "enhance the marketability" and trading of the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+248..428
+2
+#### Text ####
+If approved at a shareholder meeting in December, the number of shares outstanding would decrease to five million from 50 million, and par value would rise to 10 cents from a penny
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+248..250
+2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+298..428
+2,1;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+the number of shares outstanding would decrease to five million from 50 million, and par value would rise to 10 cents from a penny
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+251..296
+2,0,1
+#### Text ####
+approved at a shareholder meeting in December
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+379..382
+2,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+298..377
+2,2
+#### Text ####
+the number of shares outstanding would decrease to five million from 50 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+383..428
+2,5
+#### Text ####
+par value would rise to 10 cents from a penny
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

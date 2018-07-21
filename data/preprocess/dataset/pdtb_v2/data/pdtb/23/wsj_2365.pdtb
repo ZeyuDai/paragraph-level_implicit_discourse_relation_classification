@@ -1,0 +1,1106 @@
+________________________________________________________
+____EntRel____
+210
+2
+____Arg1____
+91..208
+1
+#### Text ####
+Take Microsoft Corp., the largest maker of personal computer software and generally considered an industry bellwether
+##############
+____Arg2____
+210..425
+2
+#### Text ####
+In July, the company stunned Wall Street with the prediction that growth in the personal computer business overall would be only 10% in 1990, a modest increase when compared with the sizzling expansion of years past
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+370..374
+2,3,2,1,2,1,1,1,4,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+251..270
+2,3,2,0;2,3,2,1,0;2,3,2,1,1
+#### Text ####
+with the prediction
+##############
+when, Contingency.Condition.Factual present
+____Arg1____
+352..369
+2,3,2,1,2,1,1,1,3;2,3,2,1,2,1,1,1,4,0
+#### Text ####
+a modest increase
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+375..425
+2,3,2,1,2,1,1,1,4,1,1
+#### Text ####
+compared with the sizzling expansion of years past
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+635..638
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+429..631
+3
+#### Text ####
+Investors -- taking this as a sign that a broad industry slump was in the offing -- reacted by selling the company's stock, which lost $3.25 that day to close at $52 in national over-the-counter trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+639..671
+4,1;4,2;4,3
+#### Text ####
+that was all of three months ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+774..797
+6,0;6,1,0
+#### Text ####
+The announcement caused
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+675..772
+5
+#### Text ####
+Last week, Microsoft said it expects revenue for its first quarter ended Sept. 30 to increase 34%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+774..859
+6
+#### Text ####
+The announcement caused the company's stock to surge $6.50 to close at $75.50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1021
+8
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Instantiation
+____Arg1____
+863..1018
+7
+#### Text ####
+Microsoft's surprising strength is one example of the difficulty facing investors looking for reassurances about the financial health of the computer firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1021..1067
+8,1
+#### Text ####
+It's hard to know what to expect at this point
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1070..1126
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Peter Rogers, an analyst at Robertson Stephens & Co
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1129
+9
+#### Features ####
+Ot, Comm, Null, Null
+1070..1126
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Peter Rogers, an analyst at Robertson Stephens & Co
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1021..1067
+8,1
+#### Text ####
+It's hard to know what to expect at this point
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1129..1165
+9
+#### Text ####
+The industry defies characterization
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1563..1567
+12,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1366..1523
+11
+#### Text ####
+Among those companies expected to have a down quarter are Hewlett-Packard Co., Amdahl Corp. and Sun Microsystems Inc., generally solid performers in the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1525..1561;1568..1611
+12,0;12,2;12,3
+#### Text ####
+International Business Machines Corp is expected to report disappointing results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1634..1643
+13,2
+#### Text ####
+meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Opposition
+____Arg1____
+1366..1611
+11;12
+#### Text ####
+Among those companies expected to have a down quarter are Hewlett-Packard Co., Amdahl Corp. and Sun Microsystems Inc., generally solid performers in the past.
+International Business Machines Corp. also is expected to report disappointing results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1613..1632;1645..1708
+13,0;13,1;13,3;13,4;13,5
+#### Text ####
+Apple Computer Inc. is expected to show improved earnings for the period ended Sept
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1793
+15
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1712..1791
+14
+#### Text ####
+Another contradictory message comes from Businessland Inc., a computer retailer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1793..2134
+15;16
+#### Text ####
+In July, the company reported that booming sales of new personal computers from Apple and IBM had resulted in net income more than doubling for its fourth quarter ended June 30 to $7.4 million, or 23 cents a share. 
+
+This month, however, Businessland warned investors that results for its first quarter ended Sept. 30 hadn't met expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2022..2029
+16,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1823..2006
+15,3,1
+#### Text ####
+that booming sales of new personal computers from Apple and IBM had resulted in net income more than doubling for its fourth quarter ended June 30 to $7.4 million, or 23 cents a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1793..1822
+15,0;15,1;15,2;15,3,0;15,4
+#### Text ####
+In July, the company reported
+##############
+____Arg2____
+2061..2134
+16,5,2
+#### Text ####
+that results for its first quarter ended Sept. 30 hadn't met expectations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2010..2020;2031..2060
+16,0;16,1;16,3;16,4;16,5,0;16,5,1;16,6
+#### Text ####
+This month Businessland warned investors
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2153
+17
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2010..2134
+16
+#### Text ####
+This month, however, Businessland warned investors that results for its first quarter ended Sept. 30 hadn't met expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2153..2253
+17,1,1
+#### Text ####
+it expects earnings of 14 to 17 cents a share, down from 25 cents a share in the year-earlier period
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2136..2152
+17,0;17,1,0;17,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2257..2262
+18,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+2308..2386
+18,3,1
+#### Text ####
+the major forces expected to shape the industry in the coming year are clearer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2294..2307
+18,1;18,2;18,3,0;18,4
+#### Text ####
+observers say
+##############
+____Arg2____
+2263..2292
+18,0,1
+#### Text ####
+the earnings picture confuses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2437
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2390..2435
+19
+#### Text ####
+Companies will continue to war over standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2437..2594
+20
+#### Text ####
+In computer publishing, a battle over typefaces is hurting Adobe Systems Inc., which sells software that controls the image produced by printers and displays
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2596
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2437..2594
+20
+#### Text ####
+In computer publishing, a battle over typefaces is hurting Adobe Systems Inc., which sells software that controls the image produced by printers and displays
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2596..2733
+21
+#### Text ####
+Until recently, Adobe had a lock on the market for image software, but last month Apple, Adobe's biggest customer, and Microsoft rebelled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2663..2666
+21,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2596..2661
+21,0
+#### Text ####
+Until recently, Adobe had a lock on the market for image software
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2667..2733
+21,3
+#### Text ####
+last month Apple, Adobe's biggest customer, and Microsoft rebelled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2735
+22
+____Arg1____
+2596..2733
+21
+#### Text ####
+Until recently, Adobe had a lock on the market for image software, but last month Apple, Adobe's biggest customer, and Microsoft rebelled
+##############
+____Arg2____
+2735..2914
+22
+#### Text ####
+Now the two firms are collaborating on an alternative to Adobe's approach, and analysts say they are likely to carry IBM, the biggest seller of personal computers, along with them
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2810..2813
+22,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2735..2808
+22,0
+#### Text ####
+Now the two firms are collaborating on an alternative to Adobe's approach
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2827..2914
+22,3,1,1
+#### Text ####
+they are likely to carry IBM, the biggest seller of personal computers, along with them
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2814..2826
+22,3,0;22,3,1,0
+#### Text ####
+analysts say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2963..2970
+23,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2437..2513
+20,0;20,1;20,2;20,3,0;20,3,1,0;20,3,1,1,0;20,3,1,1,1;20,4
+#### Text ####
+In computer publishing, a battle over typefaces is hurting Adobe Systems Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2918..2961;2972..2986
+23,0;23,1;23,3;23,4;23,5
+#### Text ####
+The short-term outlook for Adobe's business appears strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2988
+24
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2918..2986
+23
+#### Text ####
+The short-term outlook for Adobe's business, however, appears strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2988..3120
+24
+#### Text ####
+The company is beginning to ship a new software program that's being heralded as a boon for owners of low-end printers sold by Apple
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3122
+25
+____Arg1____
+2988..3120
+24
+#### Text ####
+The company is beginning to ship a new software program that's being heralded as a boon for owners of low-end printers sold by Apple
+##############
+____Arg2____
+3122..3187
+25
+#### Text ####
+The program is aimed at improving the quality of printed material
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3189
+26
+____Arg1____
+3122..3187
+25
+#### Text ####
+The program is aimed at improving the quality of printed material
+##############
+____Arg2____
+3189..3410
+26
+#### Text ####
+John Warnock, Adobe's chief executive officer, said the Mountain View, Calif., company has been receiving 1,000 calls a day about the product since it was demonstrated at a computer publishing conference several weeks ago
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3331..3336
+26,1,1,1,1,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3189..3240
+26,0;26,1,0;26,2
+#### Text ####
+John Warnock, Adobe's chief executive officer, said
+##############
+since, Temporal.Asynchronous.Succession
+____Arg1____
+3241..3330
+26,1,1,0;26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1,0;26,1,1,1,1,1,1,0;26,1,1,1,1,1,1,1
+#### Text ####
+the Mountain View, Calif., company has been receiving 1,000 calls a day about the product
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3337..3410
+26,1,1,1,1,1,1,2,1
+#### Text ####
+it was demonstrated at a computer publishing conference several weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3414..3423
+27,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Sup1____
+2596..3410
+21;22;23;24;25;26
+#### Text ####
+Until recently, Adobe had a lock on the market for image software, but last month Apple, Adobe's biggest customer, and Microsoft rebelled.
+Now the two firms are collaborating on an alternative to Adobe's approach, and analysts say they are likely to carry IBM, the biggest seller of personal computers, along with them. 
+
+The short-term outlook for Adobe's business, however, appears strong.
+The company is beginning to ship a new software program that's being heralded as a boon for owners of low-end printers sold by Apple.
+The program is aimed at improving the quality of printed material.
+John Warnock, Adobe's chief executive officer, said the Mountain View, Calif., company has been receiving 1,000 calls a day about the product since it was demonstrated at a computer publishing conference several weeks ago
+##############
+____Arg1____
+2437..2594
+20
+#### Text ####
+In computer publishing, a battle over typefaces is hurting Adobe Systems Inc., which sells software that controls the image produced by printers and displays
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3425..3564
+27,1;27,2;27,3;27,4
+#### Text ####
+competition between various operating systems, which control the basic functions of a computer, spells trouble for software firms generally
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3567
+28
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3414..3470;3521..3564
+27,0;27,1;27,2,0;27,2,1,0;27,2,1,1,0;27,2,1,1,1;27,2,1,1,3;27,3;27,4
+#### Text ####
+Meanwhile, competition between various operating systems spells trouble for software firms generally
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3567..3618
+28,1
+#### Text ####
+It creates uncertainty and usually slows down sales
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3621..3677
+28,0;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+said Russ Crabs, an analyst at Soundview Financial Group
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3818
+30
+____Arg1____
+3681..3816
+29
+#### Text ####
+Mr. Crabs said this probably is behind the expected weak performance of Aldus Corp., maker of a widely used computer publishing program
+##############
+____Arg2____
+3818..4022
+30
+#### Text ####
+He expects Aldus to report earnings of 21 cents a share on revenues of $19.5 million for its third quarter, compared with earnings of 30 cents a share on revenue of 20.4 million in the year-earlier period
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4024
+31
+____Arg1____
+3818..4022
+30
+#### Text ####
+He expects Aldus to report earnings of 21 cents a share on revenues of $19.5 million for its third quarter, compared with earnings of 30 cents a share on revenue of 20.4 million in the year-earlier period
+##############
+____Arg2____
+4024..4071
+31
+#### Text ####
+Aldus officials couldn't be reached for comment
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4075..4092
+32,0
+#### Text ####
+On the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Sup1____
+2437..2514;3414..3564
+20,0;20,1;20,2;20,3,0;20,3,1,0;20,3,1,1,0;20,3,1,1,1;20,4;27
+#### Text ####
+In computer publishing, a battle over typefaces is hurting Adobe Systems Inc. Meanwhile, competition between various operating systems, which control the basic functions of a computer, spells trouble for software firms generally
+##############
+____Arg1____
+2390..2435
+19
+#### Text ####
+Companies will continue to war over standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4094..4159
+32,1;32,2;32,3;32,4
+#### Text ####
+the battle of the bus is expected to grow increasingly irrelevant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4161
+33
+____Arg1____
+4075..4159
+32
+#### Text ####
+On the other hand, the battle of the bus is expected to grow increasingly irrelevant
+##############
+____Arg2____
+4161..4204
+33
+#### Text ####
+A bus is the data highway within a computer
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4206
+34
+____Arg1____
+4161..4204
+33
+#### Text ####
+A bus is the data highway within a computer
+##############
+____Arg2____
+4206..4371
+34
+#### Text ####
+IBM is backing one type of bus called microchannel, while the nine other leading computer makers, including H-P and Compaq Computer Corp., have chosen another method
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4258..4263
+34,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+4206..4256
+34,0;34,1,0;34,1,1,0;34,1,1,1;34,1,1,2;34,2
+#### Text ####
+IBM is backing one type of bus called microchannel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4264..4371
+34,1,1,3,1
+#### Text ####
+the nine other leading computer makers, including H-P and Compaq Computer Corp., have chosen another method
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4511..4523
+36,1,1,1,0,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4464..4471
+36,0;36,1,0;36,2;36,3
+#### Text ####
+He said
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+4376..4406
+35,1
+#### Text ####
+Users don't care about the bus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4409..4462
+35,0;35,2;35,3;35,4;35,5;35,6
+#### Text ####
+said Daniel Benton, an analyst at Goldman, Sachs & Co
+##############
+____Arg2____
+4472..4509;4525..4576
+36,1,1,1,0,0;36,1,1,1,0,1;36,1,1,1,0,3;36,1,1,1,0,4;36,1,1,1,1;36,1,1,1,2;36,1,1,1,3
+#### Text ####
+Apple's family of Macintosh computers uses four different buses "and no one seems to mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4552..4555
+36,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4464..4471
+36,0;36,1,0;36,2;36,3
+#### Text ####
+He said
+##############
+and, Expansion.Conjunction
+____Arg1____
+4472..4550
+36,1,1,1,0
+#### Text ####
+Apple's family of Macintosh computers, for instance, uses four different buses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4556..4576
+36,1,1,1,3
+#### Text ####
+no one seems to mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4629
+38
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+4581..4627
+37
+#### Text ####
+The gap between winners and laggards will grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4629..4792
+38;39
+#### Text ####
+In personal computers, Apple, Compaq and IBM are expected to tighten their hold on their business.
+At the same time, second-tier firms will continue to lose ground
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4896..4908
+41,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4796..4877
+40
+#### Text ####
+Some lagging competitors even may leave the personal computer business altogether
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4879..4894;4910..4966
+41,0;41,1;41,3;41,4;41,5
+#### Text ####
+Wyse Technology is considered a candidate to sell its troubled operation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4969
+42
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4879..4966
+41
+#### Text ####
+Wyse Technology, for instance, is considered a candidate to sell its troubled operation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4969..5071
+42,1
+#### Text ####
+Wyse has done well establishing a distribution business, but they haven't delivered products that sell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5074..5135
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+said Kimball Brown, an analyst at Prudential-Bache Securities
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5026..5029
+42,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5074..5135
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+said Kimball Brown, an analyst at Prudential-Bache Securities
+##############
+but, Comparison.Contrast
+____Arg1____
+4969..5024
+42,1,0
+#### Text ####
+Wyse has done well establishing a distribution business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5030..5071
+42,1,3
+#### Text ####
+they haven't delivered products that sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5157
+43
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4969..5071
+42,1
+#### Text ####
+Wyse has done well establishing a distribution business, but they haven't delivered products that sell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5074..5135
+42,0;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+said Kimball Brown, an analyst at Prudential-Bache Securities
+##############
+____Arg2____
+5157..5161;5199..5264
+43,1,1,0;43,1,1,1,0,0;43,1,1,1,0,1;43,1,1,1,0,3;43,1,1,1,1
+#### Text ####
+Wyse will report a loss of 12 cents a share for its quarter ended Sept
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5137..5156
+43,0;43,1,0;43,2
+#### Text ####
+Mr. Brown estimates
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5371
+45
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5268..5369
+44
+#### Text ####
+Personal-computer makers will continue to eat away at the business of more traditional computer firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5371..5408;5471..5576
+45,0,0;45,0,1;45,0,3;45,0,4;45,1;45,2
+#### Text ####
+Ever-more powerful desk-top computers are expected to increasingly take on functions carried out by more expensive minicomputers and mainframes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5867..5870
+48,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5702..5865
+47
+#### Text ####
+As a result of this trend, longtime powerhouses H-P, IBM and Digital Equipment Corp. are scrambling to counterattack with microprocessor-based systems of their own
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5871..5900
+48,1;48,2;48,3
+#### Text ####
+they will have to act quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5921
+49
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for instance, Expansion.Instantiation
+____Arg1____
+5867..5900
+48
+#### Text ####
+But they will have to act quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5921..6100
+49,1,1
+#### Text ####
+Compaq to unveil a family of high-end personal computers later this year that are powerful enough to serve as the hub for communications within large networks of desk-top machines
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5902..5920
+49,0;49,1,0;49,2
+#### Text ####
+Mr. Benton expects
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6137..6141
+50,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5921..6100
+49,1,1
+#### Text ####
+Compaq to unveil a family of high-end personal computers later this year that are powerful enough to serve as the hub for communications within large networks of desk-top machines
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+5902..5920
+49,0;49,1,0;49,2
+#### Text ####
+Mr. Benton expects
+##############
+____Arg2____
+6104..6136;6142..6175
+50,0;50,2;50,3
+#### Text ####
+A raft of new computer companies has targeted this "server" market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

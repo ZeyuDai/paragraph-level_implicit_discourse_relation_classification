@@ -1,0 +1,805 @@
+________________________________________________________
+____Explicit____
+116..122
+0,1,1,4,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+82..114
+0,1,1,3
+#### Text ####
+a Western government report says
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+9..80
+0,0;0,1,0;0,1,1,0;0,1,1,1;0,1,1,2;0,2
+#### Text ####
+China could exhaust its foreign-exchange reserves as early as next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+123..197
+0,1,1,4,1
+#### Text ####
+imports are cut drastically to help narrow the balance-of-payments deficit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+248..250
+1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+201..224
+1,0,0;1,0,1,0;1,0,1,1,0;1,0,1,1,1
+#### Text ####
+According to the report
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+201..224;345..399
+1,0,0;1,0,1,0;1,0,1,1,0;1,0,1,1,1;1,0,1,1,3;1,2;1,3;1,4;1,5
+#### Text ####
+According to the report the reserves would be wiped out either in 1990 or 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+251..343
+1,1,1
+#### Text ####
+China's trade gap continues to widen at the pace seen in the first seven months of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+401
+2
+____Arg1____
+201..399
+1
+#### Text ####
+According to the report, completed last month, if China's trade gap continues to widen at the pace seen in the first seven months of this year, the reserves would be wiped out either in 1990 or 1991
+##############
+____Arg2____
+401..494
+2
+#### Text ####
+A country is considered financially healthy if its reserves cover three months of its imports
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+445..447
+2,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+401..444
+2,0;2,1,0;2,1,1,0;2,1,1,1;2,2
+#### Text ####
+A country is considered financially healthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+448..494
+2,1,1,2,1
+#### Text ####
+its reserves cover three months of its imports
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+496
+3
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+401..494
+2
+#### Text ####
+A country is considered financially healthy if its reserves cover three months of its imports
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+496..568
+3
+#### Text ####
+The $14 billion of reserves China had in June would cover just that much
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+719..726
+4,1,1,2,1,1,1,2,0;4,1,1,2,1,1,1,2,1
+#### Text ####
+only if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+572..608;643..652
+4,0,0;4,0,1,0;4,0,1,1,0;4,0,1,1,1;4,0,1,1,3;4,1,0
+#### Text ####
+The report by the Western government concludes
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+653..718
+4,1,1,0;4,1,1,1;4,1,1,2,0;4,1,1,2,1,0;4,1,1,2,1,1,0;4,1,1,2,1,1,1,0;4,1,1,2,1,1,1,1;4,1,1,2,2;4,1,1,2,3
+#### Text ####
+that "a near-term foreign-exchange payment problem can be avoided
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+727..768
+4,1,1,2,1,1,1,2,2
+#### Text ####
+import growth drops to below 5% per annum
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+993..996
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+773..989
+5
+#### Text ####
+According to Chinese customs figures, import growth has slowed in recent months, dropping to 16% in July and 7.1% in August from the year-earlier periods, compared with an average growth rate of 26% in the first half
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+997..1120
+6,1;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+before import growth slowed, China's buying spree in the first half already had taken its toll on foreign-exchange reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+997..1003
+6,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+993..996;1026..1120
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+But China's buying spree in the first half already had taken its toll on foreign-exchange reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1004..1024
+6,1,1
+#### Text ####
+import growth slowed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1122
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+993..1120
+6
+#### Text ####
+But before import growth slowed, China's buying spree in the first half already had taken its toll on foreign-exchange reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1122..1202
+7
+#### Text ####
+The $14 billion level in June marked a drop from $19 billion at the end of April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1204
+8
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+1122..1202
+7
+#### Text ####
+The $14 billion level in June marked a drop from $19 billion at the end of April
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1204..1328
+8
+#### Text ####
+China's last big import binge sent reserves tumbling to $10.6 billion in June 1985 from $16.6 billion the previous September
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1363..1365
+9,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1332..1362
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,1,1,2;9,2
+#### Text ####
+China might stave off a crisis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1366..1424
+9,1,1,3,1,0;9,1,1,3,1,1,0;9,1,1,3,1,1,1,0;9,1,1,3,1,1,1,1,0;9,1,1,3,1,1,1,1,1,0;9,1,1,3,1,1,1,1,1,1,0;9,1,1,3,1,1,1,1,1,1,1,0;9,1,1,3,1,1,1,1,1,1,1,1,0;9,1,1,3,1,1,1,1,1,1,1,1,1,0;9,1,1,3,1,1,1,1,1,1,1,1,1,1,0;9,1,1,3,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+it acts as forcefully as it did to arrest the 1985 decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1514..1517
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1332..1512
+9
+#### Text ####
+China might stave off a crisis if it acts as forcefully as it did to arrest the 1985 decline, when Beijing slammed the brakes on foreign-exchange spending and devalued the currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1518..1659
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+this time, China faces a more difficult battle because of economic forces that have come into play since the Tiananmen Square killings June 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1663..1674
+11,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1514..1659
+10
+#### Text ####
+But this time, China faces a more difficult battle because of economic forces that have come into play since the Tiananmen Square killings June 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1676..1777
+11,1;11,2;11,3;11,4
+#### Text ####
+China's hard-currency income is expected to suffer from the big drop in tourist arrivals since June 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1779
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1663..1777
+11
+#### Text ####
+For example, China's hard-currency income is expected to suffer from the big drop in tourist arrivals since June 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1779..1878
+12
+#### Text ####
+Revenue from tourism this year is projected to total $1.3 billion, down from $2.2 billion last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1880..1918
+13,0
+#### Text ####
+Because of this and the huge trade gap
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+1779..1878
+12
+#### Text ####
+Revenue from tourism this year is projected to total $1.3 billion, down from $2.2 billion last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1880..2115
+13
+#### Text ####
+Because of this and the huge trade gap, the deficit in China's current account, which measures trade in goods and services plus certain unilateral transfers of funds, is expected to widen sharply from the $3.8 billion deficit last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2391..2394
+15,4
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2119..2148
+14,0;14,2
+#### Text ####
+The Western government report
+##############
+and, Expansion.Conjunction
+____Arg1____
+2260..2389
+15,0;15,1;15,2;15,3
+#### Text ####
+In one, imports and exports continue to grow at the respective average rates of 25% and 5% recorded during the first seven months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2395..2446
+15,5
+#### Text ####
+the current-account deficit widens to $13.1 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2448
+16
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+2260..2446
+15
+#### Text ####
+In one, imports and exports continue to grow at the respective average rates of 25% and 5% recorded during the first seven months, and the current-account deficit widens to $13.1 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2448..2500
+16
+#### Text ####
+In 1985, China had a record deficit of $11.4 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2606..2618
+18,0
+#### Text ####
+In this case
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+2504..2604
+17
+#### Text ####
+The other scenario assumes that Beijing takes effective actions to curb imports in the coming months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2606..2781
+18
+#### Text ####
+In this case, China would still finish the year with a current-account deficit of $8.7 billion, based on projections that imports for all of this year grow 20% and exports 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2785..2787
+19,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+2841..2971
+19,1;19,2;19,3;19,4
+#### Text ####
+it might be able to stem the drain on its foreign-exchange reserves by using some loan funds to offset the current-account deficit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2788..2839
+19,0,1
+#### Text ####
+China were still on good terms with foreign lenders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2973..2976
+20,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2785..2971
+19
+#### Text ####
+If China were still on good terms with foreign lenders, it might be able to stem the drain on its foreign-exchange reserves by using some loan funds to offset the current-account deficit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2977..3098
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+since June, foreign bankers led by international financial institutions have virtually suspended their new loans to China
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3100
+21
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2973..3098
+20
+#### Text ####
+But since June, foreign bankers led by international financial institutions have virtually suspended their new loans to China
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3100..3187
+21
+#### Text ####
+Even if borrowing resumes, commercial bankers aren't expected to lend as much as before
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3100..3107
+21,0,0;21,0,1
+#### Text ####
+Even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3127..3187
+21,1;21,2;21,3;21,4
+#### Text ####
+commercial bankers aren't expected to lend as much as before
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3108..3125
+21,0,2
+#### Text ####
+borrowing resumes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3191..3202
+22,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Sup1____
+3100..3187
+21
+#### Text ####
+Even if borrowing resumes, commercial bankers aren't expected to lend as much as before
+##############
+____Arg1____
+2973..3098
+20
+#### Text ####
+But since June, foreign bankers led by international financial institutions have virtually suspended their new loans to China
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3204..3371
+22,1;22,2;22,3;22,4
+#### Text ####
+economists are forecasting a slowdown in foreign direct investments as businessmen become increasingly wary of China's deteriorating political and economic environment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3272..3274
+22,3,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3191..3271
+22,0;22,1;22,2;22,3,0;22,3,1,0;22,3,1,1;22,4
+#### Text ####
+In addition, economists are forecasting a slowdown in foreign direct investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3275..3371
+22,3,1,2,1
+#### Text ####
+businessmen become increasingly wary of China's deteriorating political and economic environment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3373..3391
+23,0
+#### Text ####
+On top of all this
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+3191..3371
+22
+#### Text ####
+In addition, economists are forecasting a slowdown in foreign direct investments as businessmen become increasingly wary of China's deteriorating political and economic environment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3373..3453
+23
+#### Text ####
+On top of all this, foreign-debt repayments are expected to peak in 1991 to 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3528
+25
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3457..3526
+24
+#### Text ####
+With less capital coming in, China's balance of payments would suffer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3528..3669
+25
+#### Text ####
+The Western government report's first scenario assumes a 30% reduction in foreign borrowing and a 5% contraction in foreign direct investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3671
+26
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.List
+____Arg1____
+3528..3669
+25
+#### Text ####
+The Western government report's first scenario assumes a 30% reduction in foreign borrowing and a 5% contraction in foreign direct investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3671..3755
+26
+#### Text ####
+In the second, foreign borrowing is projected to grow 10% and investment to drop 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3759..3762
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+3528..3755
+25;26
+#### Text ####
+The Western government report's first scenario assumes a 30% reduction in foreign borrowing and a 5% contraction in foreign direct investment.
+In the second, foreign borrowing is projected to grow 10% and investment to drop 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3763..3902
+27,1;27,2;27,3;27,4;27,5;27,6;27,7
+#### Text ####
+in either case, the report says, China's balance of payments would rapidly dry up foreign reserves, which are used to finance the imbalance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3904
+28
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3759..3902
+27
+#### Text ####
+But in either case, the report says, China's balance of payments would rapidly dry up foreign reserves, which are used to finance the imbalance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3904..4019
+28
+#### Text ####
+In the first scenario, the reserves would be exhausted next year, and in the second they would be wiped out in 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3970..3973
+28,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3779..3794
+27,3
+#### Text ####
+the report says
+##############
+and, Expansion.Conjunction
+____Arg1____
+3904..3968
+28,0
+#### Text ####
+In the first scenario, the reserves would be exhausted next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3974..4019
+28,3
+#### Text ####
+in the second they would be wiped out in 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1130 @@
+________________________________________________________
+____Implicit____
+200
+1
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9..198
+0
+#### Text ####
+An ancient red-figured Greek kylix, or drinking cup, was recovered backstage at Sotheby's this spring and has been returned to the Manhattan couple who lost it in a burglary three years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+200..968
+1;2;3;4;5
+#### Text ####
+Robert Guy, an associate curator at the Princeton Art Museum, was previewing a June antiquities sale at the auction house when he recognized the kylix, which he, as a specialist in Attic pottery and a careful reader of the Stolen Art Alert in "IFAR Reports," knew was stolen.
+The timing of his visit was fortuitous; the man who had brought it in for an estimate had returned to collect it and was waiting in the hall.
+To confirm Mr. Guy's identification, Sotheby's and IFAR exchanged photos by fax, and the waiting man, apparently innocent of knowledge that the kylix was stolen, agreed to release it.
+The cup had been insured, and in short order it was given over to a Chubb & Son representative.
+The original owners happily repaid the claim and took their kylix home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+322..326
+1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+200..321
+1,0;1,1,0;1,1,1,0;1,1,1,1;1,2
+#### Text ####
+Robert Guy, an associate curator at the Princeton Art Museum, was previewing a June antiquities sale at the auction house
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+327..350
+1,1,1,2,1,0;1,1,1,2,1,1,0;1,1,1,2,1,1,1,0;1,1,1,2,1,1,1,1;1,1,1,2,1,1,2
+#### Text ####
+he recognized the kylix
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+476
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+200..350
+1,0;1,1,0;1,1,1,0;1,1,1,1;1,1,1,2,0;1,1,1,2,1,0;1,1,1,2,1,1,0;1,1,1,2,1,1,1,0;1,1,1,2,1,1,1,1;1,1,1,2,1,1,2;1,2
+#### Text ####
+Robert Guy, an associate curator at the Princeton Art Museum, was previewing a June antiquities sale at the auction house when he recognized the kylix
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+476..514
+2,0
+#### Text ####
+The timing of his visit was fortuitous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+516
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+476..514
+2,0
+#### Text ####
+The timing of his visit was fortuitous
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+516..616
+2,2
+#### Text ####
+the man who had brought it in for an estimate had returned to collect it and was waiting in the hall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+618
+3
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+516..616
+2,2
+#### Text ####
+the man who had brought it in for an estimate had returned to collect it and was waiting in the hall
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+618..800
+3
+#### Text ####
+To confirm Mr. Guy's identification, Sotheby's and IFAR exchanged photos by fax, and the waiting man, apparently innocent of knowledge that the kylix was stolen, agreed to release it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+699..702
+3,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+618..697
+3,0
+#### Text ####
+To confirm Mr. Guy's identification, Sotheby's and IFAR exchanged photos by fax
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+703..800
+3,3
+#### Text ####
+the waiting man, apparently innocent of knowledge that the kylix was stolen, agreed to release it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+828
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+618..800
+3
+#### Text ####
+To confirm Mr. Guy's identification, Sotheby's and IFAR exchanged photos by fax, and the waiting man, apparently innocent of knowledge that the kylix was stolen, agreed to release it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+828..896
+4,2;4,3;4,4
+#### Text ####
+and in short order it was given over to a Chubb & Son representative
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+828..831
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+802..826
+4,0
+#### Text ####
+The cup had been insured
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+832..896
+4,3
+#### Text ####
+in short order it was given over to a Chubb & Son representative
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+898
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+802..896
+4
+#### Text ####
+The cup had been insured, and in short order it was given over to a Chubb & Son representative
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+898..968
+5
+#### Text ####
+The original owners happily repaid the claim and took their kylix home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1323
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1061..1321
+6,1,3
+#### Text ####
+to stealing and selling original signed and dated comic strips, among them 29 Dick Tracy strips by Chester Gould, 77 Prince Valiant Sunday cartoons by Hal Foster, and a dozen Walt Disney animation celluloids, according to Barbara Hammond, the museum's director
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1270..1321
+6,1,3,1,1,3,1,3;6,1,3,1,1,3,1,4
+#### Text ####
+according to Barbara Hammond, the museum's director
+##############
+____Arg2____
+1323..1458
+7,0
+#### Text ####
+He sold them well below market value to raise cash "to pay off mounting credit-card debts," incurred to buy presents for his girlfriend
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1460..1499
+7,1;7,2;7,3;7,4
+#### Text ####
+his attorney, Philip Russell, told IFAR
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1501
+8
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+1323..1458
+7,0
+#### Text ####
+He sold them well below market value to raise cash "to pay off mounting credit-card debts," incurred to buy presents for his girlfriend
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1460..1499
+7,1;7,2;7,3;7,4
+#### Text ####
+his attorney, Philip Russell, told IFAR
+##############
+____Arg2____
+1501..1626
+8
+#### Text ####
+The curator, 27-year-old Sherman Krisher of Greenwich, Conn., had worked his way up from janitor in seven years at the museum
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1628
+9
+____Arg1____
+1501..1626
+8
+#### Text ####
+The curator, 27-year-old Sherman Krisher of Greenwich, Conn., had worked his way up from janitor in seven years at the museum
+##############
+____Arg2____
+1628..1706
+9
+#### Text ####
+The theft was discovered early this year, soon after Ms. Hammond took her post
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1670..1680
+9,1,1,4,0;9,1,1,4,1
+#### Text ####
+soon after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1628..1668
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,1,1,2;9,1,1,3;9,2
+#### Text ####
+The theft was discovered early this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1681..1706
+9,1,1,4,2
+#### Text ####
+Ms. Hammond took her post
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1797
+11
+____Arg1____
+1710..1795
+10
+#### Text ####
+Sentencing was postponed on Aug. 18, when Mr. Krisher was hospitalized for depression
+##############
+____Arg2____
+1797..1877
+11
+#### Text ####
+His efforts to get back the stolen strips had resulted in recovery of just three
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1879..1882
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+1797..1877
+11
+#### Text ####
+His efforts to get back the stolen strips had resulted in recovery of just three
+##############
+____Arg1____
+1747..1795
+10,1,1,4
+#### Text ####
+when Mr. Krisher was hospitalized for depression
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1883..1920
+12,1;12,2;12,3;12,4;12,5
+#### Text ####
+on Oct. 6, he had reason to celebrate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1922
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1879..1920
+12
+#### Text ####
+But on Oct. 6, he had reason to celebrate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1922..2178
+13;14
+#### Text ####
+Two days earlier, his attorney met in a Park Avenue law office with a cartoon dealer who expected to sell 44 of the most important stolen strips to Mr. Russell for $62,800.
+Instead, New York City police seized the stolen goods, and Mr. Krisher avoided jail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2095..2102
+14,0,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2020..2093
+13,3,2,1,1,1,1,1
+#### Text ####
+to sell 44 of the most important stolen strips to Mr. Russell for $62,800
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2104..2178
+14,0,1;14,0,2;14,0,3;14,1;14,2;14,3;14,4
+#### Text ####
+New York City police seized the stolen goods, and Mr. Krisher avoided jail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2150..2153
+14,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2095..2148
+14,0
+#### Text ####
+Instead, New York City police seized the stolen goods
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2154..2178
+14,3
+#### Text ####
+Mr. Krisher avoided jail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2180
+15
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2150..2178
+14,2;14,3;14,4
+#### Text ####
+and Mr. Krisher avoided jail
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2180..2271
+15
+#### Text ####
+He was sentenced to 500 hours of community service and restitution to the museum of $45,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2473
+17
+____Arg1____
+2275..2471
+16
+#### Text ####
+Authorities at London's Heathrow Airport are investigating the disappearance of a Paul Gauguin watercolor, "Young Tahitian Woman in a Red Pareo," that has two sketches on its verso (opposite) side
+##############
+____Arg2____
+2473..2533
+17
+#### Text ####
+Valued at $1.3 million, it was part of a four-crate shipment
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2535
+18
+____Arg1____
+2473..2533
+17
+#### Text ####
+Valued at $1.3 million, it was part of a four-crate shipment
+##############
+____Arg2____
+2535..2776
+18
+#### Text ####
+The air-waybill number was changed en route, and paper work showing that the crates had cleared customs was misplaced, so it was a week before three of the four crates could be located in a bonded warehouse and the Gauguin discovered missing
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2580..2583
+18,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2535..2578
+18,0,0
+#### Text ####
+The air-waybill number was changed en route
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2584..2652
+18,0,3
+#### Text ####
+paper work showing that the crates had cleared customs was misplaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2654..2656
+18,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2535..2652
+18,0
+#### Text ####
+The air-waybill number was changed en route, and paper work showing that the crates had cleared customs was misplaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2657..2776
+18,3
+#### Text ####
+it was a week before three of the four crates could be located in a bonded warehouse and the Gauguin discovered missing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2778
+19
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2535..2776
+18
+#### Text ####
+The air-waybill number was changed en route, and paper work showing that the crates had cleared customs was misplaced, so it was a week before three of the four crates could be located in a bonded warehouse and the Gauguin discovered missing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2778..2912
+19
+#### Text ####
+Although Heathrow authorities have been watching a group of allegedly crooked baggage handlers for some time, the Gauguin may be "lost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2778..2786
+19,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+2888..2912
+19,1;19,2;19,3;19,4;19,5
+#### Text ####
+the Gauguin may be "lost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2787..2886
+19,0,1
+#### Text ####
+Heathrow authorities have been watching a group of allegedly crooked baggage handlers for some time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3008
+20
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2888..2912
+19,1;19,2;19,3;19,4;19,5
+#### Text ####
+the Gauguin may be "lost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3008..3078
+20,1,3
+#### Text ####
+It is not uncommon for property to be temporarily mislaid or misrouted
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2915..3005
+20,0;20,1,0;20,1,1;20,1,2;20,2;20,3
+#### Text ####
+Chief Inspector Peter Seacomb of the Criminal Investigation Department at the airport said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3157
+22
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+3083..3155
+21
+#### Text ####
+Officials at the University of Virginia Art Museum certainly would agree
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3157..3247
+22
+#### Text ####
+Their museum had purchased an Attic black-figured column krater and shipped it from London
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3249
+23
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3157..3247
+22
+#### Text ####
+Their museum had purchased an Attic black-figured column krater and shipped it from London
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3249..3324
+23
+#### Text ####
+It was reported stolen in transit en route to Washington, D.C., in February
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3326
+24
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Concession.Contra-expectation
+____Arg1____
+3249..3324
+23
+#### Text ####
+It was reported stolen in transit en route to Washington, D.C., in February
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3326..3481
+24
+#### Text ####
+Months later, the Greek vase arrived in good condition at the museum in Charlottesville, having inexplicably traveled by a circuitous route through Nairobi
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3655
+26
+#### Features ####
+Wr, Comm, Null, Null
+at the time, Temporal.Synchrony
+____Arg1____
+3485..3653
+25
+#### Text ####
+Two Mexican college dropouts, not professional art thieves, have been arrested for a 1985 Christmas Eve burglary from the National Museum of Anthropology in Mexico City
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3655..3781
+26
+#### Text ####
+About 140 Mayan, Aztec, Mixtec and Zapotec objects, including some of Mexico's best-known archaeological treasures, were taken
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3783
+27
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Succession
+____Arg1____
+3655..3781
+26
+#### Text ####
+About 140 Mayan, Aztec, Mixtec and Zapotec objects, including some of Mexico's best-known archaeological treasures, were taken
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3783..3893
+27
+#### Text ####
+The government offered a reward for the return of the antiquities, but routine police work led to the recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3850..3853
+27,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3783..3848
+27,0
+#### Text ####
+The government offered a reward for the return of the antiquities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3854..3893
+27,3
+#### Text ####
+routine police work led to the recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3895
+28
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3850..3893
+27,2;27,3;27,4
+#### Text ####
+but routine police work led to the recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3895..4221
+28;29;30
+#### Text ####
+As it turned out, Carlos Perches Trevino and Ramon Sardina Garcia had hidden the haul in a closet in the Perches family's home for a year.
+Then they took the art to Acapulco and began to trade some of it for cocaine.
+Information from an arrested drug trafficker led to the two men and the recovery of almost all the stolen art
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4034..4038
+29,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3913..4032
+28,1;28,2;28,3;28,4
+#### Text ####
+Carlos Perches Trevino and Ramon Sardina Garcia had hidden the haul in a closet in the Perches family's home for a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4039..4110
+29,1;29,2;29,3
+#### Text ####
+they took the art to Acapulco and began to trade some of it for cocaine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4112
+30
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+4034..4110
+29
+#### Text ####
+Then they took the art to Acapulco and began to trade some of it for cocaine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4112..4221
+30
+#### Text ####
+Information from an arrested drug trafficker led to the two men and the recovery of almost all the stolen art
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4521..4524
+32,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4449..4519
+32,0
+#### Text ####
+The artist's melancholy subjects bring high prices on the world market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4525..4594
+32,3
+#### Text ####
+the U.S. State Department notified IFAR of the theft in February 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4525
+32
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+4295..4447
+31,1;31,2;31,3;31,4
+#### Text ####
+the Leipzig Museum of Fine Arts announced that it has recovered "Cemetery in the Snow," a painting by the German Romantic painter Caspar David Friedrich
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4525..4594
+32,3
+#### Text ####
+the U.S. State Department notified IFAR of the theft in February 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4596
+33
+____Arg1____
+4449..4594
+32
+#### Text ####
+The artist's melancholy subjects bring high prices on the world market, and the U.S. State Department notified IFAR of the theft in February 1988
+##############
+____Arg2____
+4596..4756
+33
+#### Text ####
+According to a source at the East Europe desk, two previously convicted felons were charged, tried, convicted and sentenced to prison terms of four and 12 years
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4947
+35
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+4760..4945
+34
+#### Text ####
+The precious canvas, cut from its frame at the time of the theft, was found in nearby Jena, hidden in the upholstery of an easy chair in the home of the girlfriend of one of the thieves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4947..4982
+35
+#### Text ####
+No charges were brought against her
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5035..5038
+36,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4986..5033
+36,0
+#### Text ####
+Trompe l'oeil painting is meant to fool the eye
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5039..5118
+36,3
+#### Text ####
+Robert Lawrence Trotter, 35, of Kennett Square, Pa., took his fooling seriously
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5120
+37
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4986..5118
+36
+#### Text ####
+Trompe l'oeil painting is meant to fool the eye, but Robert Lawrence Trotter, 35, of Kennett Square, Pa., took his fooling seriously
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5120..5249
+37
+#### Text ####
+He painted one himself in the style of John Haberle and sold it as a 19th-century original to antique dealers in Woodbridge, Conn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5251
+38
+____Arg1____
+5120..5249
+37
+#### Text ####
+He painted one himself in the style of John Haberle and sold it as a 19th-century original to antique dealers in Woodbridge, Conn
+##############
+____Arg2____
+5251..5350
+38,0
+#### Text ####
+Mr. Trotter's painting showed a wall of wood boards with painted ribbons tacked down in a rectangle
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5352
+38
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5251..5350
+38,0
+#### Text ####
+Mr. Trotter's painting showed a wall of wood boards with painted ribbons tacked down in a rectangle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5352..5440
+38,2
+#### Text ####
+tucked behind the ribbons were envelopes, folded, faded and crumpled papers and currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5442
+39
+____Arg1____
+5251..5440
+38
+#### Text ####
+Mr. Trotter's painting showed a wall of wood boards with painted ribbons tacked down in a rectangle; tucked behind the ribbons were envelopes, folded, faded and crumpled papers and currency
+##############
+____Arg2____
+5442..5590
+39
+#### Text ####
+Mr. Trotter's fake Haberle was offered at a bargain price of $25,000 with a phony story that it belonged to his wife's late aunt in New Canaan, Conn
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5690
+41
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5594..5688
+40
+#### Text ####
+The dealers immediately showed their new acquisition to an expert and came to see it as a fake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5690..5797
+41
+#### Text ####
+They persuaded Mr. Trotter to take it back and, with the help of the FBI, taped their conversation with him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5799
+42
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5690..5797
+41
+#### Text ####
+They persuaded Mr. Trotter to take it back and, with the help of the FBI, taped their conversation with him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5799..5907
+42
+#### Text ####
+After his arrest, the forger admitted to faking and selling other paintings up and down the Eastern seaboard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

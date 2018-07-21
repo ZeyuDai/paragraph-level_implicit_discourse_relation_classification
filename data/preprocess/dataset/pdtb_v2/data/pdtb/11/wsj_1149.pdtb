@@ -1,0 +1,739 @@
+________________________________________________________
+____AltLex____
+150..165
+1,0,1,0;1,0,1,1,1,0;1,0,1,1,1,1,0
+#### Text ####
+Needless to say
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Specification
+____Arg1____
+87..147
+0,1,1,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that federal Judge David Sentelle recently called a "monster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+150..192
+1
+#### Text ####
+Needless to say, he was talking about RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+264
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+150..192
+1
+#### Text ####
+Needless to say, he was talking about RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+264..337
+2,3,1,2
+#### Text ####
+that the law currently holds too many incentives for abuse by prosecutors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+194..263
+2,0;2,1;2,2;2,3,0;2,3,1,0;2,3,1,1;2,4
+#### Text ####
+With its recently revised guidelines for RICO, Justice makes it clear
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+430
+4
+____Arg1____
+341..428
+3
+#### Text ####
+The text of the "new policy" guidelines from the Criminal Division are reprinted nearby
+##############
+____Arg2____
+430..584
+4
+#### Text ####
+They strongly suggest that Justice's prosecutions of Drexel Burnham Lambert, Michael Milken and Princeton/Newport violated notions of fundamental fairness
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+586
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+452..584
+4,1,2
+#### Text ####
+that Justice's prosecutions of Drexel Burnham Lambert, Michael Milken and Princeton/Newport violated notions of fundamental fairness
+##############
+#### Features ####
+Ot, Comm, Null, Null
+430..451
+4,0;4,1,0;4,1,1;4,2
+#### Text ####
+They strongly suggest
+##############
+____Arg2____
+586..642
+5
+#### Text ####
+Justice is attempting to avoid a replay of these tactics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+644
+6
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+586..642
+5
+#### Text ####
+Justice is attempting to avoid a replay of these tactics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+644..774
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1,0;6,1,1,1,1,1,1,0;6,1,1,1,1,1,1,1,0;6,1,1,1,1,1,1,1,1;6,2
+#### Text ####
+This amounts to an extraordinary repudiation of the tenure of New York mayoral candidate and former U.S. Attorney Rudolph Giuliani
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+979
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+848..977
+7
+#### Text ####
+The new guidelines limit the pretrial forfeitures of assets of RICOed defendants and their investors, clients, bankers and others
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+979..1113
+8
+#### Text ####
+This follows earlier new guidelines from the Tax Division prohibiting Princeton/Newport-like tax cases from masquerading as RICO cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1115
+9
+____Arg1____
+979..1113
+8
+#### Text ####
+This follows earlier new guidelines from the Tax Division prohibiting Princeton/Newport-like tax cases from masquerading as RICO cases
+##############
+____Arg2____
+1115..1295
+9
+#### Text ####
+The forfeiture memo cited "considerable criticism in the press, because of a perception that pre-trial freezing of assets is tantamount to a seizure of property without due process
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1306
+10
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1203..1295
+9,1,4,2,2
+#### Text ####
+that pre-trial freezing of assets is tantamount to a seizure of property without due process
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1190..1202
+9,1,4,2,0;9,1,4,2,1
+#### Text ####
+a perception
+##############
+____Arg2____
+1306..1483
+10,1,1;10,1,2;10,2;10,3
+#### Text ####
+prosecutors not to seek forfeitures if there are "less intrusive" alternatives, such as bonds, and in any case not to seek forfeitures "disproportionate to the defendant's crime
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1298..1305
+10,0;10,1,0;10,2;10,3
+#### Text ####
+It told
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1342..1344
+10,1,2,0,2,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1298..1317
+10,0;10,1,0;10,1,1;10,2;10,3
+#### Text ####
+It told prosecutors
+##############
+if, Contingency.Condition.General
+____Arg1____
+1318..1341
+10,1,2,0,0;10,1,2,0,1;10,1,2,0,2,0;10,1,2,0,2,1,0;10,1,2,0,2,1,1
+#### Text ####
+not to seek forfeitures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1345..1399
+10,1,2,0,2,1,2,1
+#### Text ####
+there are "less intrusive" alternatives, such as bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1575
+12
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1488..1573
+11
+#### Text ####
+These changes come a tad late for Princeton/Newport, the first RICOed securities firm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1575..1716
+12
+#### Text ####
+It was forced into liquidation before trial when investors yanked their funds after the government demanded a huge pre-trial asset forfeiture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1619..1623
+12,1,1,4,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+1575..1618
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,1,1,2;12,1,1,3;12,2
+#### Text ####
+It was forced into liquidation before trial
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1624..1716
+12,1,1,4,1
+#### Text ####
+investors yanked their funds after the government demanded a huge pre-trial asset forfeiture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1653..1658
+12,1,1,4,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1619..1652
+12,1,1,4,0;12,1,1,4,1,0;12,1,1,4,1,1,0;12,1,1,4,1,1,1;12,1,1,4,1,1,2
+#### Text ####
+when investors yanked their funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1659..1716
+12,1,1,4,1,1,3,1
+#### Text ####
+the government demanded a huge pre-trial asset forfeiture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1718
+13
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1619..1716
+12,1,1,4
+#### Text ####
+when investors yanked their funds after the government demanded a huge pre-trial asset forfeiture
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1718..1849
+13,0
+#### Text ####
+Princeton/Newport investors, including McKinsey & Co. and the Harvard endowment, made the rational decision to withdraw their money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1851
+13
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1718..1849
+13,0
+#### Text ####
+Princeton/Newport investors, including McKinsey & Co. and the Harvard endowment, made the rational decision to withdraw their money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1851..1914
+13,2
+#### Text ####
+for the firm, the liquidation was sentence first, verdict later
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1916
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+1851..1914
+13,2
+#### Text ####
+for the firm, the liquidation was sentence first, verdict later
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1916..2001
+14
+#### Text ####
+Prosecutors wanted $23.8 million in forfeiture for alleged tax fraud of some $400,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2200..2209
+16,1
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+2005..2191
+15
+#### Text ####
+The experience of Princeton/Newport and initiation of other RICO-forfeiture cases against legitimate businesses taught Drexel that a RICOed investment bank would be an ex-investment bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2193..2199;2210..2341
+16,0;16,2;16,3
+#### Text ####
+Drexel agreed instead to an arrangement allowing it to plea to charges "which the company is not in a position to dispute" because of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2217..2224
+16,2,1
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2131..2191
+15,1,2
+#### Text ####
+that a RICOed investment bank would be an ex-investment bank
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+2005..2130
+15,0;15,1,0;15,1,1;15,2
+#### Text ####
+The experience of Princeton/Newport and initiation of other RICO-forfeiture cases against legitimate businesses taught Drexel
+##############
+____Arg2____
+2193..2216;2225..2341
+16,0;16,1;16,2,0;16,2,2;16,3
+#### Text ####
+Drexel therefore agreed to an arrangement allowing it to plea to charges "which the company is not in a position to dispute" because of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2343..2350
+17,0,0;17,0,1,0
+#### Text ####
+Part of
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Specification
+____Arg1____
+2193..2341
+16
+#### Text ####
+Drexel therefore agreed instead to an arrangement allowing it to plea to charges "which the company is not in a position to dispute" because of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2343..2392
+17
+#### Text ####
+Part of Drexel's plea was to cut Mr. Milken loose
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2394..2396
+18,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2193..2341
+16
+#### Text ####
+Drexel therefore agreed instead to an arrangement allowing it to plea to charges "which the company is not in a position to dispute" because of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2397..2490
+18,1;18,2;18,3;18,4
+#### Text ####
+after all the prosecutorial hoopla no one has established what, if anything, Drexel did wrong
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2527
+20
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2494..2525
+19
+#### Text ####
+So two cheers for the new rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2527..2721
+20
+#### Text ####
+Justice has finally recognized its employees' abuses, thanks largely to the demands for reform by former U.S. attorney in Washington Joseph diGenova, who wants to salvage RICO for real criminals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2725..2728
+21,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2527..2721
+20
+#### Text ####
+Justice has finally recognized its employees' abuses, thanks largely to the demands for reform by former U.S. attorney in Washington Joseph diGenova, who wants to salvage RICO for real criminals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2729..2851
+21,1;21,2;21,3
+#### Text ####
+prosecutorial guidelines are effective only if someone at Justice is willing and able to supervise hyperactive prosecutors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2768..2775
+21,2,2,0;21,2,2,1
+#### Text ####
+only if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2725..2767
+21,0;21,1;21,2,0;21,2,1;21,3
+#### Text ####
+But prosecutorial guidelines are effective
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2776..2851
+21,2,2,2
+#### Text ####
+someone at Justice is willing and able to supervise hyperactive prosecutors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2853
+22
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2725..2851
+21
+#### Text ####
+But prosecutorial guidelines are effective only if someone at Justice is willing and able to supervise hyperactive prosecutors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2853..3034
+22
+#### Text ####
+Judge Sentelle, of the appeals court in Washington, made this point at a Cato Institute conference last week in a remarkable speech titled, "RICO: The Monster That Ate Jurisprudence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3037
+23
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2853..3034
+22
+#### Text ####
+Judge Sentelle, of the appeals court in Washington, made this point at a Cato Institute conference last week in a remarkable speech titled, "RICO: The Monster That Ate Jurisprudence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3037..3221
+23
+#### Text ####
+He said ours is supposed to be "a government of laws not of men," and yet RICO defenders "tell us that we should rely on prosecutorial discretion to protect against overbreadth of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3103..3106
+23,1,1,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3037..3044
+23,0;23,1,0;23,2;23,3
+#### Text ####
+He said
+##############
+and, Expansion.Conjunction
+____Arg1____
+3045..3100
+23,1,1,1,0
+#### Text ####
+ours is supposed to be "a government of laws not of men
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3107..3221
+23,1,1,1,4;23,1,1,1,5
+#### Text ####
+yet RICO defenders "tell us that we should rely on prosecutorial discretion to protect against overbreadth of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3107..3110
+23,1,1,1,4
+#### Text ####
+yet
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3037..3044
+23,0;23,1,0;23,2;23,3
+#### Text ####
+He said
+##############
+yet, Comparison.Contrast
+____Arg1____
+3045..3100
+23,1,1,1,0
+#### Text ####
+ours is supposed to be "a government of laws not of men
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3103..3106;3111..3221
+23,1,1,1,3;23,1,1,1,5
+#### Text ####
+and RICO defenders "tell us that we should rely on prosecutorial discretion to protect against overbreadth of RICO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3224
+24
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+3103..3221
+23,1,1,1,3;23,1,1,1,4;23,1,1,1,5
+#### Text ####
+and yet RICO defenders "tell us that we should rely on prosecutorial discretion to protect against overbreadth of RICO
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3037..3044
+23,0;23,1,0;23,2;23,3
+#### Text ####
+He said
+##############
+____Arg2____
+3224..3325
+24
+#### Text ####
+No prosecutorial guidelines, observed or unobserved, limit civil RICO cases by plaintiffs for damages
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3486
+27
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3394..3484
+26
+#### Text ####
+Justice should review these cases to see what other prosecutorial abuses may have occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3486..3614
+27
+#### Text ####
+We suspect that Justice will some day agree that only the complete repeal of RICO can guarantee an end to injustices in its name
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

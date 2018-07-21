@@ -1,0 +1,221 @@
+________________________________________________________
+____EntRel____
+231
+2
+____Arg1____
+151..229
+1
+#### Text ####
+The announcement, made after the close of trading, caught analysts by surprise
+##############
+____Arg2____
+231..334
+2
+#### Text ####
+The company closed at $12 a share, down 62.5 cents, in composite trading on the New York Stock Exchange
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+613..616
+4,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+513..537
+4,0;4,1,0;4,2
+#### Text ####
+A company spokesman said
+##############
+and, Expansion.Conjunction
+____Arg1____
+538..612
+4,1,1,0
+#### Text ####
+the decision to eliminate the dividend resulted from a quarterly appraisal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+617..679
+4,1,1,2
+#### Text ####
+that circumstances had changed since the December announcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+681
+5
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+513..679
+4
+#### Text ####
+A company spokesman said the decision to eliminate the dividend resulted from a quarterly appraisal and that circumstances had changed since the December announcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+681..705
+5
+#### Text ####
+He declined to elaborate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1064..1070
+7,1,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+941..964
+7,0;7,1,0;7,1,1,0;7,2
+#### Text ####
+Analysts have estimated
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+965..1063
+7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0;7,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1,1,1;7,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+that Pinnacle West may have to inject between $300 million and $400 million into the MeraBank unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1071..1116
+7,1,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+turning the thrift over to federal regulators
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1856
+12
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1719..1854
+11
+#### Text ####
+In other operations, losses at MeraBank totaled $85.7 million in the latest quarter, compared with a $2.5 million profit a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1856..1930
+12
+#### Text ####
+The latest quarter includes a $42.7 million addition to loan-loss reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1932
+13
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Contrast
+____Arg1____
+1856..1930
+12
+#### Text ####
+The latest quarter includes a $42.7 million addition to loan-loss reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1932..2034
+13
+#### Text ####
+As recently as August, the company said it didn't foresee a need for substantial additions to reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2142
+15
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+2038..2140
+14
+#### Text ####
+Pinnacle's SunCor Development Co. real-estate unit's loss narrowed to $13.8 million from $78.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2142..2297
+15
+#### Text ####
+The latest period included a $9 million write-down on undeveloped land, while the year-earlier period included a $46 million reserve for real-estate losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2214..2219
+15,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2142..2212
+15,0;15,1,0;15,1,1;15,1,2;15,2
+#### Text ####
+The latest period included a $9 million write-down on undeveloped land
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2220..2297
+15,1,3,1
+#### Text ####
+the year-earlier period included a $46 million reserve for real-estate losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2597
+18
+____Arg1____
+2476..2595
+17
+#### Text ####
+Losses at El Dorado Investment Co., the venture-capital operation, widened to $6.8 million from $425,000 a year earlier
+##############
+____Arg2____
+2597..2665
+18
+#### Text ####
+The latest quarter included a $6.6 million write-down of investments
+##############
+________________________________________________________

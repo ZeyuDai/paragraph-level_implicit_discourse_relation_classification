@@ -1,0 +1,232 @@
+________________________________________________________
+____Explicit____
+120..123
+0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+9..118
+0,0
+#### Text ####
+Efforts by a federal mediator to reignite talks between Boeing Co. and the Machinists union apparently failed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+124..157
+0,3
+#### Text ####
+no further meetings are scheduled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+231..234
+1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+161..229
+1,0
+#### Text ####
+Company officials and union representatives didn't meet face to face
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+235..279
+1,3
+#### Text ####
+the mediator shuttled between the two groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+377..385
+2,3,1,1,1,2,2,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+283..348
+2,0;2,1;2,2;2,3,0;2,4
+#### Text ####
+In a statement issued after the meeting, the aerospace giant said
+##############
+although, Comparison.Contrast
+____Arg1____
+349..376
+2,3,1,0;2,3,1,1,0;2,3,1,1,1,0;2,3,1,1,1,1;2,3,1,1,1,2,0;2,3,1,1,1,2,1
+#### Text ####
+it won't increase its offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+386..450
+2,3,1,1,1,2,2,1
+#### Text ####
+adjustments within the proposed pay-and-benefit mix are possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+452
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+283..450
+2
+#### Text ####
+In a statement issued after the meeting, the aerospace giant said it won't increase its offer although adjustments within the proposed pay-and-benefit mix are possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+452..560
+3
+#### Text ####
+Machinists already have rejected a proposal that called for a 4% pay increase and 8% bonus in the first year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+562
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+496..560
+3,2,1,1,1
+#### Text ####
+that called for a 4% pay increase and 8% bonus in the first year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+562..634
+4,0;4,1;4,2;4,3,0;4,3,1,0;4,3,1,1,0;4,3,1,1,1;4,4
+#### Text ####
+In the second year, workers would receive a 3% wage boost and a 3% bonus
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+773
+6
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+700..738
+5,1
+#### Text ####
+The company will not budge on anything
+##############
+#### Features ####
+Ot, Comm, Null, Null
+741..771
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said a spokesman for the union
+##############
+____Arg2____
+773..846;872..962
+6,0,0;6,1;6,2;6,3
+#### Text ####
+As the strike enters its 15th day today, some members are getting nervous but the majority of the 55,000 Machinists are prepared to "wait it out as long as it takes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+848..870
+6,0,1;6,0,2;6,0,3;6,0,4
+#### Text ####
+the spokesman conceded
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+773..775
+6,0,0,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+848..870
+6,0,1;6,0,2;6,0,3;6,0,4
+#### Text ####
+the spokesman conceded
+##############
+as, Temporal.Synchrony
+____Arg1____
+814..846
+6,0,0,1;6,0,0,2;6,0,0,3
+#### Text ####
+some members are getting nervous
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+776..812
+6,0,0,0,1
+#### Text ####
+the strike enters its 15th day today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+872..875
+6,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+814..846
+6,0,0,1;6,0,0,2;6,0,0,3
+#### Text ####
+some members are getting nervous
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+848..870
+6,0,1;6,0,2;6,0,3;6,0,4
+#### Text ####
+the spokesman conceded
+##############
+____Arg2____
+876..962
+6,2
+#### Text ####
+the majority of the 55,000 Machinists are prepared to "wait it out as long as it takes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

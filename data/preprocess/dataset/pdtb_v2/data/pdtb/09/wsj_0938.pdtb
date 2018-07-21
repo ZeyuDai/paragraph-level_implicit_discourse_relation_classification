@@ -1,0 +1,745 @@
+________________________________________________________
+____Explicit____
+291..297
+1,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+203..217
+1,0;1,1,0;1,2
+#### Text ####
+The board said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+218..290
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,1,1,1,1,1,0;1,1,1,1,1,1,1
+#### Text ####
+Mr. Drabinsky and Vice Chairman Myron Gottlieb are negotiating financing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+298..370
+1,1,1,1,1,1,2,1
+#### Text ####
+offering C$16.40 a share to acquire all of Cineplex's shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+392
+2
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+218..370
+1,1,1
+#### Text ####
+Mr. Drabinsky and Vice Chairman Myron Gottlieb are negotiating financing before offering C$16.40 a share to acquire all of Cineplex's shares outstanding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+203..217
+1,0;1,1,0;1,2
+#### Text ####
+The board said
+##############
+____Arg2____
+392..470
+2,1,1,0
+#### Text ####
+that the two executives haven't reached a final decision to proceed with a bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+372..391
+2,0;2,1,0;2,2
+#### Text ####
+The directors added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+471..474
+2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+372..391
+2,0;2,1,0;2,2
+#### Text ####
+The directors added
+##############
+and, Expansion.Conjunction
+____Arg1____
+392..470
+2,1,1,0
+#### Text ####
+that the two executives haven't reached a final decision to proceed with a bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+475..567
+2,1,1,2
+#### Text ####
+that until an offer is made the board will continue seeking higher offers from other bidders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+480..485
+2,1,1,2,1,0,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+372..391
+2,0;2,1,0;2,2
+#### Text ####
+The directors added
+##############
+until, Expansion.Alternative.Disjunctive
+____Arg1____
+471..479;503..567
+2,1,1,1;2,1,1,2,0;2,1,1,2,1,1;2,1,1,2,1,2
+#### Text ####
+and that the board will continue seeking higher offers from other bidders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..502
+2,1,1,2,1,0,1
+#### Text ####
+an offer is made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+590..592
+3,1,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+571..589
+3,0;3,1,0;3,2
+#### Text ####
+The directors said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+666..745
+3,1,1,1,1;3,1,1,1,2;3,1,1,1,3
+#### Text ####
+it will reimburse them a maximum of C$8.5 million for expenses related to a bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+593..664
+3,1,1,1,0,1
+#### Text ####
+Messrs.
+Drabinsky and Gottlieb mail an offer to shareholders by Nov. 22
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1197..1203
+5,1,1,1,1,1,3,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1025..1142
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+MCA and Cineplex's other major shareholder, Montreal-based financier Charles Bronfman and his associates, have agreed
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1143..1196
+5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1,0;5,1,1,1,1,1,1;5,1,1,1,1,1,2
+#### Text ####
+to tender their holdings to an offer by Mr. Drabinsky
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1204..1244
+5,1,1,1,1,1,3,1
+#### Text ####
+a higher offer is made by another bidder
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1246
+6
+____Arg1____
+1025..1244
+5
+#### Text ####
+MCA and Cineplex's other major shareholder, Montreal-based financier Charles Bronfman and his associates, have agreed to tender their holdings to an offer by Mr. Drabinsky unless a higher offer is made by another bidder
+##############
+____Arg2____
+1246..1408
+6
+#### Text ####
+MCA holds half of Cineplex's equity and 33% of its voting rights through restricted voting shares, while Bronfman interests hold about 24% of the company's equity
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1345..1350
+6,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+1246..1343
+6,0;6,1,0;6,1,1;6,1,2;6,1,3;6,2
+#### Text ####
+MCA holds half of Cineplex's equity and 33% of its voting rights through restricted voting shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1351..1408
+6,1,4,1
+#### Text ####
+Bronfman interests hold about 24% of the company's equity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1467
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1412..1465
+7
+#### Text ####
+Ms. Kolber said the committee had received other bids
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1505
+8,0;8,1,0;8,2;8,3
+#### Text ####
+She declined to identify other bidders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1551..1554
+8,1,2,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1506..1514
+8,1,1;8,1,2,0
+#### Text ####
+but said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1515..1549
+8,1,2,1,1,0
+#### Text ####
+Mr. Drabinsky's offer "is all cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1555..1582
+8,1,2,1,1,3
+#### Text ####
+it's for all of the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1627
+9
+#### Features ####
+Ot, PAtt, Null, Null
+1585..1626
+9,0;9,1,0;9,1,1,0;9,2
+#### Text ####
+Several Cineplex analysts have speculated
+##############
+in contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+1515..1582
+8,1,2,1
+#### Text ####
+Mr. Drabinsky's offer "is all cash, and it's for all of the company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1506..1514
+8,1,1;8,1,2,0
+#### Text ####
+but said
+##############
+____Arg2____
+1627..1734
+9,1,1,1
+#### Text ####
+that outside bids received by the committee were either disappointingly low or for only part of the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1929
+11
+#### Features ####
+Ot, Comm, Null, Null
+1858..1926
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Jeffery Logsdon, an analyst with Crowell, Weedon in Los Angeles
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1774..1855
+10,1,1,1
+#### Text ####
+that MCA and the Bronfmans have agreed on a price at which they can be bought out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1929..2012
+11,1
+#### Text ####
+If a bid materializes at that price, shareholders will have every reason to be glad
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1929..1931
+11,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1858..1926
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Jeffery Logsdon, an analyst with Crowell, Weedon in Los Angeles
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1966..2012
+11,1,1;11,1,2;11,1,3
+#### Text ####
+shareholders will have every reason to be glad
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1932..1964
+11,1,0,1
+#### Text ####
+a bid materializes at that price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2014..2017
+11,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1858..1926
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Jeffery Logsdon, an analyst with Crowell, Weedon in Los Angeles
+##############
+but, Comparison.Contrast
+____Arg1____
+1929..2012
+11,1
+#### Text ####
+If a bid materializes at that price, shareholders will have every reason to be glad
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2018..2057
+11,4
+#### Text ####
+the question of financing still remains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2210
+13
+____Arg1____
+2062..2208
+12
+#### Text ####
+Last April, Mr. Drabinsky and a group of financial backers planned to acquire up to 30.2% of Cineplex for C$17.50 a share from Bronfman associates
+##############
+____Arg2____
+2210..2399
+13
+#### Text ####
+Mr. Drabinsky, who would have had the right to vote those shares for two years, said the purchase, subsequently rejected by regulators, was aimed at consolidating his control of the company
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2401
+14
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2295..2307;2346..2399
+13,1,1,0;13,1,1,1,0,0;13,1,1,1,0,1;13,1,1,1,0,3;13,1,1,1,1
+#### Text ####
+the purchase was aimed at consolidating his control of the company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2290..2294
+13,0,1;13,0,3;13,1,0
+#### Text ####
+said
+##############
+____Arg2____
+2401..2448
+14
+#### Text ####
+MCA strongly opposed the Drabinsky group's move
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2628..2632
+15,1,3,1,1,1,2,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2601..2623
+15,1,3,1,1,1,2,0;15,1,3,1,1,1,2,1,0;15,1,3,1,1,1,2,1,1,0
+#### Text ####
+to buy for $57 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2624..2627;2633..2710
+15,1,3,1,1,1,2,1,1,1;15,1,3,1,1,1,2,1,1,2,1;15,1,3,1,1,1,2,1,1,2,2;15,1,3,1,1,1,2,1,1,2,3;15,1,3,1,1,1,2,1,1,2,4;15,1,3,1,1,1,2,1,1,3
+#### Text ####
+and lease back to Cineplex its 18-screen theater complex in Universal City, Calif
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2713..2715
+15,1,3,1,1,1,2,1,1,4,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2601..2710
+15,1,3,1,1,1,2,0;15,1,3,1,1,1,2,1,0;15,1,3,1,1,1,2,1,1,0;15,1,3,1,1,1,2,1,1,1;15,1,3,1,1,1,2,1,1,2;15,1,3,1,1,1,2,1,1,3
+#### Text ####
+to buy for $57 million and then lease back to Cineplex its 18-screen theater complex in Universal City, Calif
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2716..2750
+15,1,3,1,1,1,2,1,1,4,1
+#### Text ####
+Mr. Drabinsky succeeds in an offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2897..2908
+17,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2549..2750
+15,1,3,1
+#### Text ####
+MCA and the Bronfman associates agreed in principle to buy for $57 million and then lease back to Cineplex its 18-screen theater complex in Universal City, Calif., if Mr. Drabinsky succeeds in an offer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2540..2548
+15,1,2;15,1,3,0
+#### Text ####
+but said
+##############
+____Arg2____
+2929..3130
+17,3,1
+#### Text ####
+if a bid by Mr. Drabinsky is successful, Cineplex expects Rank Organisation PLC to acquire the 51% of Cineplex's Film House unit it doesn't own, and provide Mr. Drabinsky with additional loan financing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2910..2928
+17,1;17,2;17,3,0;17,4
+#### Text ####
+the directors said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2929..2931
+17,3,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2970..2986
+17,3,1,1,1;17,3,1,1,2;17,3,1,1,3,0
+#### Text ####
+Cineplex expects
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2987..3130
+17,3,1,1,3,1
+#### Text ####
+Rank Organisation PLC to acquire the 51% of Cineplex's Film House unit it doesn't own, and provide Mr. Drabinsky with additional loan financing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2932..2968
+17,3,1,1,0,1
+#### Text ####
+a bid by Mr. Drabinsky is successful
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3425
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3357..3423
+19
+#### Text ####
+Cineplex shareholders responded coolly to yesterday's announcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3425..3668
+20;21
+#### Text ####
+In trading on the New York Stock Exchange, Cineplex closed at $11, down 25 cents, with more than a million shares changing hands.
+On the Toronto Stock Exchange, Cineplex closed at C$12.875, off 37.5 Canadian cents, well below the C$16.40 level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3555
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3425..3553
+20
+#### Text ####
+In trading on the New York Stock Exchange, Cineplex closed at $11, down 25 cents, with more than a million shares changing hands
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3555..3668
+21
+#### Text ####
+On the Toronto Stock Exchange, Cineplex closed at C$12.875, off 37.5 Canadian cents, well below the C$16.40 level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3822
+23
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement
+____Arg1____
+3673..3688
+22,1
+#### Text ####
+Where's the bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3691..3797
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+asked Pierre Panet-Raymond, an analyst and broker with Toronto securities dealer McDermid St. Lawrence Ltd
+##############
+____Arg2____
+3822..3913
+23,1,1,0
+#### Text ####
+he doesn't think Messrs.
+Drabinsky and Gottlieb are "anywhere close" to arranging financing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3799..3821
+23,0;23,1,0;23,2
+#### Text ####
+Mr. Panet-Raymond said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3914..3917
+23,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3799..3821
+23,0;23,1,0;23,2
+#### Text ####
+Mr. Panet-Raymond said
+##############
+and, Expansion.Conjunction
+____Arg1____
+3839..3913
+23,1,1,0,1,1,2,1
+#### Text ####
+Messrs.
+Drabinsky and Gottlieb are "anywhere close" to arranging financing
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+3822..3838
+23,1,1,0,0;23,1,1,0,1,0;23,1,1,0,1,1,0;23,1,1,0,1,1,1;23,1,1,0,1,1,2,0
+#### Text ####
+he doesn't think
+##############
+____Arg2____
+3918..3994
+23,1,1,2
+#### Text ####
+that investors will need a solid offer before the stock begins to rise again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3957..3963
+23,1,1,2,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3799..3821
+23,0;23,1,0;23,2
+#### Text ####
+Mr. Panet-Raymond said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3914..3956
+23,1,1,1;23,1,1,2,0;23,1,1,2,1,0;23,1,1,2,1,1,0;23,1,1,2,1,1,1,0;23,1,1,2,1,1,1,1
+#### Text ####
+and that investors will need a solid offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3964..3994
+23,1,1,2,1,1,1,2,1
+#### Text ####
+the stock begins to rise again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

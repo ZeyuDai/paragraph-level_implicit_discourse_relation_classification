@@ -1,0 +1,1836 @@
+________________________________________________________
+____Explicit____
+9..13
+0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+54..100
+0,1;0,2;0,3;0,4
+#### Text ####
+Quantum Chemical Corp. went along for the ride
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14..52
+0,0,1
+#### Text ####
+the price of plastics took off in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+215..222
+1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+104..213
+1,0;1,1,0;1,1,1;1,1,2;1,2
+#### Text ####
+The timing of Quantum's chief executive officer, John Hoyt Stookey, appeared to be nothing less than inspired
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+223..275
+1,1,3,1
+#### Text ####
+he had just increased Quantum's reliance on plastics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+277
+2
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+104..275
+1
+#### Text ####
+The timing of Quantum's chief executive officer, John Hoyt Stookey, appeared to be nothing less than inspired, because he had just increased Quantum's reliance on plastics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+277..371
+2
+#### Text ####
+The company outpaced much of the chemical industry as annual profit grew fivefold in two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+328..330
+2,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+277..327
+2,0;2,1,0;2,1,1;2,2
+#### Text ####
+The company outpaced much of the chemical industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+331..371
+2,1,2,1
+#### Text ####
+annual profit grew fivefold in two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+373
+3
+____Arg1____
+277..371
+2
+#### Text ####
+The company outpaced much of the chemical industry as annual profit grew fivefold in two years
+##############
+____Arg2____
+373..461
+3
+#### Text ####
+Mr. Stookey said of the boom, "It's going to last a whole lot longer than anybody thinks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+466..469
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..100
+0
+#### Text ####
+When the price of plastics took off in 1987, Quantum Chemical Corp. went along for the ride
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+470..531
+4,1;4,2;4,3;4,4;4,5
+#### Text ####
+now prices have nose-dived and Quantum's profit is plummeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+497..500
+4,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+466..496
+4,0;4,1;4,2
+#### Text ####
+But now prices have nose-dived
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+501..531
+4,4
+#### Text ####
+Quantum's profit is plummeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+533
+5
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+466..531
+4
+#### Text ####
+But now prices have nose-dived and Quantum's profit is plummeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+533..646
+5,0;5,1,0;5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1;5,1,1,1,1,2;5,1,1,1,1,3;5,2
+#### Text ####
+Some securities analysts are looking for no better than break-even results from the company for the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+746
+6
+____Arg1____
+533..744
+5
+#### Text ####
+Some securities analysts are looking for no better than break-even results from the company for the third quarter, compared with year-earlier profit of $99.8 million, or $3.92 a share, on sales of $724.4 million
+##############
+____Arg2____
+746..903
+6
+#### Text ####
+The stock, having lost nearly a quarter of its value since Sept. 1, closed at $34.375 share, down $1.125, in New York Stock Exchange composite trading Friday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1047
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+907..1045
+7
+#### Text ####
+To a degree, Quantum represents the new times that have arrived for producers of the so-called commodity plastics that pervade modern life
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1047..1171
+8
+#### Text ####
+Having just passed through one of the most profitable periods in their history, these producers now see their prices eroding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1243..1246
+10,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1175..1241
+9
+#### Text ####
+Pricing cycles, to be sure, are nothing new for plastics producers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1247..1354
+10,1;10,2;10,3
+#### Text ####
+the financial decline of some looks steep only in comparison with the heady period that is just behind them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1357
+11
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement
+____Arg1____
+1243..1354
+10
+#### Text ####
+And the financial decline of some looks steep only in comparison with the heady period that is just behind them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1357..1395;1450..1485
+11,1;12
+#### Text ####
+We were all wonderful heroes last year Now we're at the bottom of the heap
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1398..1447
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says an executive at one of Quantum's competitors
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1450
+12
+#### Features ####
+Ot, Comm, Null, Null
+1398..1447
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says an executive at one of Quantum's competitors
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+1357..1395
+11,1
+#### Text ####
+We were all wonderful heroes last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1450..1485
+12
+#### Text ####
+Now we're at the bottom of the heap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1654
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1490..1500;1530..1600
+13,0,0;13,0,1,0;13,0,1,1;13,1;13,2;13,3;13,4
+#### Text ####
+At Quantum the trouble is magnified by the company's heavy dependence on plastics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1654..1806
+14,1;14,2;14,3;14,4
+#### Text ####
+the company exited the wine and spirits business and plowed more of its resources into plastics after Mr. Stookey took the chief executive's job in 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1750..1755
+14,3,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1654..1749
+14,1;14,2;14,3,0;14,3,1;14,3,2;14,4
+#### Text ####
+the company exited the wine and spirits business and plowed more of its resources into plastics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1756..1806
+14,3,3,1
+#### Text ####
+Mr. Stookey took the chief executive's job in 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1808
+15
+____Arg1____
+1602..1806
+14
+#### Text ####
+Once known as National Distillers & Chemical Corp., the company exited the wine and spirits business and plowed more of its resources into plastics after Mr. Stookey took the chief executive's job in 1986
+##############
+____Arg2____
+1808..2048
+15
+#### Text ####
+Mr. Stookey, 59 years old, declined to be interviewed for this article, but he has consistently argued that over the long haul -- across both the peaks and the troughs of the plastics market -- Quantum will prosper through its new direction
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1880..1883
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1808..1878
+15,0
+#### Text ####
+Mr. Stookey, 59 years old, declined to be interviewed for this article
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1884..2048
+15,3
+#### Text ####
+he has consistently argued that over the long haul -- across both the peaks and the troughs of the plastics market -- Quantum will prosper through its new direction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2198
+17
+____Arg1____
+2052..2196
+16
+#### Text ####
+Quantum's lot is mostly tied to polyethylene resin, used to make garbage bags, milk jugs, housewares, toys and meat packaging, among other items
+##############
+____Arg2____
+2198..2279
+17
+#### Text ####
+In the U.S. polyethylene market, Quantum has claimed the largest share, about 20%
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2281..2284
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2052..2102
+16,0;16,1,0;16,1,1;16,1,2,0;16,1,2,1;16,1,2,2,0;16,1,2,2,1,0;16,1,2,2,1,1;16,2
+#### Text ####
+Quantum's lot is mostly tied to polyethylene resin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2285..2414
+18,1;18,2,0;18,3
+#### Text ####
+its competitors -- including Dow Chemical Co., Union Carbide Corp. and several oil giants -- have much broader business interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2419..2421
+18,2,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2281..2414
+18,0;18,1;18,2,0
+#### Text ####
+But its competitors -- including Dow Chemical Co., Union Carbide Corp. and several oil giants -- have much broader business interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2415..2418;2422..2463
+18,2,1;18,2,3;18,3
+#### Text ####
+and are better cushioned against price swings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2467..2471
+19,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2526..2628
+19,1;19,2;19,3;19,4
+#### Text ####
+Quantum's annual profit fluctuates by about 85 cents a share, provided no other variables are changing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2472..2524
+19,0,1
+#### Text ####
+the price of polyethylene moves a mere penny a pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2630
+20
+____Arg1____
+2467..2628
+19
+#### Text ####
+When the price of polyethylene moves a mere penny a pound, Quantum's annual profit fluctuates by about 85 cents a share, provided no other variables are changing
+##############
+____Arg2____
+2630..2739
+20
+#### Text ####
+In recent months the price of polyethylene, even more than that of other commodity plastics, has taken a dive
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2741
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2630..2739
+20
+#### Text ####
+In recent months the price of polyethylene, even more than that of other commodity plastics, has taken a dive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2741..2866
+21
+#### Text ####
+Benchmark grades, which still sold for as much as 50 cents a pound last spring, have skidded to between 35 cents and 40 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2870..2879
+22,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Sup1____
+2741..2866
+21
+#### Text ####
+Benchmark grades, which still sold for as much as 50 cents a pound last spring, have skidded to between 35 cents and 40 cents
+##############
+____Arg1____
+2630..2739
+20
+#### Text ####
+In recent months the price of polyethylene, even more than that of other commodity plastics, has taken a dive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2881..2978
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+the price of ethylene, the chemical building block of polyethylene, hasn't dropped nearly so fast
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2980
+23
+____Arg1____
+2870..2978
+22
+#### Text ####
+Meanwhile, the price of ethylene, the chemical building block of polyethylene, hasn't dropped nearly so fast
+##############
+____Arg2____
+2980..3084
+23
+#### Text ####
+That discrepancy hurts Quantum badly, because its own plants cover only about half of its ethylene needs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3018..3025
+23,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2980..3016
+23,0;23,1,0;23,1,1;23,1,2;23,1,3;23,2
+#### Text ####
+That discrepancy hurts Quantum badly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3026..3084
+23,1,4,1
+#### Text ####
+its own plants cover only about half of its ethylene needs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3182
+25
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Restatement.Specification
+____Arg1____
+3088..3180
+24
+#### Text ####
+By many accounts, an early hint of a price rout in the making came at the start of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3182..3265
+25
+#### Text ####
+China, which had been putting in huge orders for polyethylene, abruptly halted them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3358..3362
+26,3
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+3189..3243
+25,0,2
+#### Text ####
+which had been putting in huge orders for polyethylene
+##############
+____Arg1____
+3182..3187;3245..3265
+25,0,0;25,0,1;25,0,3;25,1;25,2
+#### Text ####
+China abruptly halted them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3345..3357;3363..3389
+26,1;26,2;26,4,0;26,5
+#### Text ####
+other buyers bet that prices had peaked
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3267..3343
+26,0
+#### Text ####
+Calculating that excess polyethylene would soon be sloshing around the world
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3394..3396
+26,4,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3345..3389
+26,1;26,2;26,3;26,4,0
+#### Text ####
+other buyers then bet that prices had peaked
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3390..3393;3397..3457
+26,4,1;26,4,3;26,5
+#### Text ####
+and began to draw down inventories rather than order new product
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3626..3628
+27,2,1,1,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3550..3558
+27,2,1,1,1,1,1,0;27,2,1,1,1,1,1,1,0;27,2,1,1,1,1,1,1,1,0
+#### Text ####
+to learn
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+3559..3625
+27,2,1,1,1,1,1,1,1,1,0;27,2,1,1,1,1,1,1,1,1,1,0;27,2,1,1,1,1,1,1,1,1,1,1,0;27,2,1,1,1,1,1,1,1,1,1,1,1,0;27,2,1,1,1,1,1,1,1,1,1,1,1,1;27,2,1,1,1,1,1,1,1,1,1,1,1,3
+#### Text ####
+how much inventories had swelled throughout the distribution chain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3629..3647
+27,2,1,1,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+prices spiraled up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3650
+28
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3550..3647
+27,2,1,1,1,1,1
+#### Text ####
+to learn how much inventories had swelled throughout the distribution chain as prices spiraled up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3650..3680
+28,1
+#### Text ####
+People were even hoarding bags
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3683..3690
+28,0;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3737
+30
+____Arg1____
+3694..3735
+29
+#### Text ####
+Now producers hope prices have hit bottom
+##############
+____Arg2____
+3737..3834
+30
+#### Text ####
+They recently announced increases of a few cents a pound to take effect in the next several weeks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3850..3857
+31,1,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+3794..3834
+30,2,1,2
+#### Text ####
+to take effect in the next several weeks
+##############
+____Arg1____
+3737..3793
+30,0;30,1;30,2,0;30,2,1,0;30,2,1,1;30,3
+#### Text ####
+They recently announced increases of a few cents a pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3836..3848;3859..3944
+31,0;31,1,0;31,1,1;31,1,3;31,1,4;31,2
+#### Text ####
+No one knows whether the new posted prices will stick once producers and customers start to haggle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3900..3904
+31,1,4,1,1,1,1,0
+#### Text ####
+once
+##############
+#### Features ####
+Arb, Ftv, Null, Indet
+3836..3848
+31,0;31,1,0;31,1,1;31,1,3;31,2
+#### Text ####
+No one knows
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+3859..3899
+31,1,4,0;31,1,4,1,0;31,1,4,1,1,0;31,1,4,1,1,1,0
+#### Text ####
+whether the new posted prices will stick
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3905..3944
+31,1,4,1,1,1,1,1
+#### Text ####
+producers and customers start to haggle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4056
+33
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3948..4054
+32
+#### Text ####
+One doubter is George Krug, a chemical-industry analyst at Oppenheimer & Co. and a bear on plastics stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4056..4183
+33;34;35
+#### Text ####
+Noting others' estimates of when price increases can be sustained, he remarks, "Some say October.
+Some say November.
+I say 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4154
+34
+#### Features ####
+Ot, Comm, Null, Null
+4123..4133
+33,1;33,2;33,3,0;33,3,1;33,4
+#### Text ####
+he remarks
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+4136..4152
+33,3,2
+#### Text ####
+Some say October
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4154..4171
+34
+#### Text ####
+Some say November
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4173
+35
+#### Features ####
+Ot, Comm, Null, Null
+4123..4133
+33,1;33,2;33,3,0;33,3,1;33,4
+#### Text ####
+he remarks
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4154..4171
+34
+#### Text ####
+Some say November
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4173..4183
+35
+#### Text ####
+I say 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4196
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+4173..4183
+35
+#### Text ####
+I say 1992
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4123..4133
+33,1;33,2;33,3,0;33,3,1;33,4
+#### Text ####
+he remarks
+##############
+____Arg2____
+4196..4295
+36,1,1
+#### Text ####
+that efforts to firm up prices will be undermined by producers' plans to expand production capacity
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4186..4195
+36,0;36,1,0;36,2
+#### Text ####
+He argues
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4340..4347
+37,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4299..4339
+37,0;37,1,0;37,1,1;37,2
+#### Text ####
+A quick turnaround is crucial to Quantum
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4348..4382
+37,1,2,1
+#### Text ####
+its cash requirements remain heavy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4384
+38
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4299..4382
+37
+#### Text ####
+A quick turnaround is crucial to Quantum because its cash requirements remain heavy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4384..4487
+38
+#### Text ####
+The company is trying to carry out a three-year, $1.3 billion plant-expansion program started this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4794..4801
+40,1,3,1,1,2,1,1,5,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4698..4792
+40,0;40,1,0;40,1,1;40,1,2;40,1,3,0;40,1,3,1,0;40,1,3,1,1,0;40,1,3,1,1,1;40,1,3,1,1,2,0;40,1,3,1,1,2,1,0;40,1,3,1,1,2,1,1,0;40,1,3,1,1,2,1,1,1;40,1,3,1,1,2,1,1,2;40,1,3,1,1,2,1,1,3;40,1,3,1,1,2,1,1,4;40,2
+#### Text ####
+Quantum described the payout at the time as a way for it to share the bonanza with its holders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4802..4861
+40,1,3,1,1,2,1,1,5,1
+#### Text ####
+its stock price wasn't reflecting the huge profit increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4863
+41
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4698..4861
+40
+#### Text ####
+Quantum described the payout at the time as a way for it to share the bonanza with its holders, because its stock price wasn't reflecting the huge profit increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4863..4941
+41
+#### Text ####
+Some analysts saw the payment as an effort also to dispel takeover speculation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4906..4910
+41,1,2,1,2,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4863..4905
+41,0;41,1,0;41,1,1;41,1,2,0;41,1,2,1,0;41,1,2,1,1;41,2
+#### Text ####
+Some analysts saw the payment as an effort
+##############
+also, Expansion.Conjunction
+____Arg1____
+4748..4792
+40,1,3,1,1,0;40,1,3,1,1,1;40,1,3,1,1,2,0;40,1,3,1,1,2,1,0;40,1,3,1,1,2,1,1,0;40,1,3,1,1,2,1,1,1;40,1,3,1,1,2,1,1,2;40,1,3,1,1,2,1,1,3;40,1,3,1,1,2,1,1,4
+#### Text ####
+for it to share the bonanza with its holders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4698..4747
+40,0;40,1,0;40,1,1;40,1,2;40,1,3,0;40,1,3,1,0;40,2
+#### Text ####
+Quantum described the payout at the time as a way
+##############
+____Arg2____
+4911..4941
+41,1,2,1,2,0;41,1,2,1,2,2
+#### Text ####
+to dispel takeover speculation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5138..5143
+42,2,1,3,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+4945..5031;5081..5137
+42,0,0;42,0,1,0;42,0,1,1,0;42,0,1,1,1;42,0,1,1,2,0;42,0,1,1,2,1,0;42,0,1,1,2,1,1,0;42,0,1,1,2,1,1,1,0;42,0,1,1,2,1,1,1,1,0;42,0,1,1,2,1,1,1,1,1;42,1;42,2,0;42,2,1,0;42,2,1,1;42,2,1,2;42,3
+#### Text ####
+Whether a cash crunch might eventually force the company to cut its quarterly dividend has become a topic of intense speculation on Wall Street
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5144..5220
+42,2,1,3,1
+#### Text ####
+Mr. Stookey deflected dividend questions in a Sept. 29 meeting with analysts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5364..5367
+44,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+5252..5304
+43,1,1,2
+#### Text ####
+that company directors review the dividend regularly
+##############
+____Arg1____
+5224..5248;5308..5362
+43,0;43,1,0;43,1,1,0;43,1,1,1;43,1,1,3;43,1,2;43,2
+#### Text ####
+Some viewed his response as nothing more than the standard line from executives
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5368..5475
+44,1;44,2;44,3
+#### Text ####
+others came away thinking he had given something less than his usual straight-from-the-shoulder performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5477
+45
+____Arg1____
+5364..5475
+44
+#### Text ####
+But others came away thinking he had given something less than his usual straight-from-the-shoulder performance
+##############
+____Arg2____
+5477..5577
+45
+#### Text ####
+In any case, on the day of the meeting, Quantum's shares slid $2.625 to $36.625 in Big Board trading
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5666
+47
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5581..5664
+46
+#### Text ####
+On top of everything else, Quantum confronts a disaster at its plant in Morris, Ill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5666..5900
+47;48;49
+#### Text ####
+After an explosion idled the plant in June, the company progressed in September to within 12 hours of completing the drawn-out process of restarting it.
+Then a second explosion occurred.
+Two workers died and six remain in the hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5666..5671
+47,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+5710..5817
+47,1;47,2;47,3;47,4
+#### Text ####
+the company progressed in September to within 12 hours of completing the drawn-out process of restarting it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5672..5708
+47,0,1
+#### Text ####
+an explosion idled the plant in June
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5819..5823
+48,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+5666..5708
+47,0
+#### Text ####
+After an explosion idled the plant in June
+##############
+____Arg1____
+5710..5817
+47,1;47,2;47,3;47,4
+#### Text ####
+the company progressed in September to within 12 hours of completing the drawn-out process of restarting it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5824..5851
+48,1;48,2;48,3
+#### Text ####
+a second explosion occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5853
+49
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+5819..5851
+48
+#### Text ####
+Then a second explosion occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5853..5900
+49
+#### Text ####
+Two workers died and six remain in the hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5870..5873
+49,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5853..5869
+49,0
+#### Text ####
+Two workers died
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5874..5900
+49,2
+#### Text ####
+six remain in the hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6000
+51
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5904..5998
+50
+#### Text ####
+This human toll adds the most painful dimension yet to the sudden change in Quantum's fortunes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6000..6114
+51
+#### Text ####
+Until this year, the company had been steadily lowering its accident rate and picking up trade-group safety awards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6229
+53
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6118..6227
+52
+#### Text ####
+A prolonged production halt at the plant could introduce another imponderable into Quantum's financial future
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6229..6501
+53;54
+#### Text ####
+When a plant has just been running flat out to meet demand, calculating lost profit and thus claims under business-interruption insurance is straightforward.
+But the numbers become trickier -- and subject to dickering between insured and insurer -- when demand is shifting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6229..6233
+53,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+6289..6385
+53,1;53,2;53,3;53,4
+#### Text ####
+calculating lost profit and thus claims under business-interruption insurance is straightforward
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6234..6287
+53,0,1
+#### Text ####
+a plant has just been running flat out to meet demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6387..6390
+54,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+6229..6385
+53
+#### Text ####
+When a plant has just been running flat out to meet demand, calculating lost profit and thus claims under business-interruption insurance is straightforward
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6391..6501
+54,1;54,2;54,3
+#### Text ####
+the numbers become trickier -- and subject to dickering between insured and insurer -- when demand is shifting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6478..6482
+54,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+6387..6474
+54,0;54,1;54,2,0;54,2,1;54,3
+#### Text ####
+But the numbers become trickier -- and subject to dickering between insured and insurer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6483..6501
+54,2,2,1
+#### Text ####
+demand is shifting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6729..6732
+56,1
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6584..6647
+55,0;55,2;55,3;55,4;55,5,0;55,5,1;55,5,2,0;55,5,2,1;55,6
+#### Text ####
+recalls Theodore Semegran, an analyst at Shearson Lehman Hutton
+##############
+and, Expansion.Conjunction
+____Arg1____
+6506..6581
+55,1
+#### Text ####
+You say you could have sold X percent of this product and Y percent of that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6733..6765
+56,0;56,2;56,3;56,4;56,5;56,6;56,7
+#### Text ####
+then you still have to negotiate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6733..6737
+56,2
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6518..6647
+55,1,1,1,1,1;55,2;55,3;55,4;55,5,0;55,5,1;55,5,2,0;55,5,2,1
+#### Text ####
+could have sold X percent of this product and Y percent of that," recalls Theodore Semegran, an analyst at Shearson Lehman Hutton
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+6506..6581
+55,1
+#### Text ####
+You say you could have sold X percent of this product and Y percent of that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6729..6732;6738..6765
+56,0;56,1;56,3;56,4;56,5;56,6;56,7
+#### Text ####
+And you still have to negotiate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6894
+58
+____Arg1____
+6770..6892
+57
+#### Text ####
+Quantum hopes the Morris plant, where limited production got under way last week, will resume full operation by year's end
+##############
+____Arg2____
+6894..7007
+58
+#### Text ####
+The plant usually accounts for 20% to 25% of Quantum's polyethylene production and 50% of its ethylene production
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7050
+60
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7011..7048
+59
+#### Text ####
+Not everything looks grim for Quantum
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7050..7193
+60
+#### Text ####
+The plant expansion should strengthen the company's sway in the polyethylene business, where market share is often taken through sheer capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7195
+61
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+7050..7193
+60
+#### Text ####
+The plant expansion should strengthen the company's sway in the polyethylene business, where market share is often taken through sheer capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7195..7289
+61
+#### Text ####
+By lifting ethylene production, the expansion will also lower the company's raw material costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7246..7250
+61,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+7050..7135
+60,0;60,1,0;60,1,1,0;60,1,1,1,0;60,1,1,1,1,0;60,1,1,1,1,1,0;60,1,1,1,1,1,1;60,2
+#### Text ####
+The plant expansion should strengthen the company's sway in the polyethylene business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7227..7245;7251..7289
+61,1;61,2;61,3,0;61,3,2;61,4
+#### Text ####
+the expansion will lower the company's raw material costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7304..7308
+62,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+7227..7289
+61,1;61,2;61,3;61,4
+#### Text ####
+the expansion will also lower the company's raw material costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7293..7303;7309..7391
+62,0;62,1,0;62,1,2;62,2
+#### Text ####
+Quantum is tightening its grip on its one large business outside chemicals, propane marketing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7393
+63
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+7293..7391
+62
+#### Text ####
+Quantum is also tightening its grip on its one large business outside chemicals, propane marketing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7393..7560
+63
+#### Text ####
+Through a venture with its investment banker, First Boston Corp., Quantum completed in August an acquisition of Petrolane Inc. in a transaction valued at $1.18 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7562
+64
+____Arg1____
+7393..7560
+63
+#### Text ####
+Through a venture with its investment banker, First Boston Corp., Quantum completed in August an acquisition of Petrolane Inc. in a transaction valued at $1.18 billion
+##############
+____Arg2____
+7562..7624
+64
+#### Text ####
+Petrolane is the second-largest propane distributor in the U.S
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7626
+65
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+7562..7624
+64
+#### Text ####
+Petrolane is the second-largest propane distributor in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7626..7685
+65
+#### Text ####
+The largest, Suburban Propane, was already owned by Quantum
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7689..7694
+66,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+7011..7048
+59
+#### Text ####
+Not everything looks grim for Quantum
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7696..7738
+66,1;66,2;66,3;66,4
+#### Text ####
+Quantum has a crisis to get past right now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7764
+67
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Pragmatic cause.Justification
+____Arg1____
+7689..7738
+66
+#### Text ####
+Still, Quantum has a crisis to get past right now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7764..7808
+67,1,1
+#### Text ####
+the weakening stock may yet attract a suitor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7740..7763
+67,0;67,1,0;67,2
+#### Text ####
+Some analysts speculate
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7810
+68
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+7764..7808
+67,1,1
+#### Text ####
+the weakening stock may yet attract a suitor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7810..7862
+68,0;68,1,0;68,1,1,0;68,1,1,1;68,2
+#### Text ####
+The name surfacing in rumors is British Petroleum Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8043..8046
+69,3,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+8047..8054
+69,3,3,1,3,0;69,3,3,1,3,1,0
+#### Text ####
+I think
+##############
+and, Expansion.Conjunction
+____Arg1____
+7985..8041
+69,3,3,1,0
+#### Text ####
+We pretty much have a policy of not commenting on rumors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7963..7982
+69,1;69,2;69,3,0;69,3,1;69,3,2;69,4
+#### Text ####
+a BP spokesman says
+##############
+____Arg2____
+8055..8082
+69,3,3,1,3,1,1
+#### Text ####
+that falls in that category
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1008 @@
+________________________________________________________
+____Explicit____
+9..11
+0,0,0
+#### Text ####
+IF
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+101..152
+0,1;0,2;0,3;0,4
+#### Text ####
+it would probably be a one-word sentence: Diversify
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12..99
+0,0,1
+#### Text ####
+YOU FORCE financial planners to sum up their most important advice in a single sentence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+302
+2
+____Arg1____
+156..300
+1
+#### Text ####
+Judging by a poll of Wall Street Journal readers conducted this summer by Erdos & Morgan Inc., serious investors have taken that advice to heart
+##############
+____Arg2____
+302..404
+2
+#### Text ####
+Nearly 1,000 investors responded to the Journal's poll, providing an in-depth look at their portfolios
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+453
+4
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+408..451
+3
+#### Text ####
+Those portfolios are remarkably diversified
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+453..627
+4
+#### Text ####
+By spreading their wealth among several investment alternatives, the respondents have protected themselves against squalls in any one area, be it stocks, bonds or real estate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+631..642
+5,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+453..627
+4
+#### Text ####
+By spreading their wealth among several investment alternatives, the respondents have protected themselves against squalls in any one area, be it stocks, bonds or real estate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+644..814
+5,1;5,2;5,3;5,4;6
+#### Text ####
+about 88% of Journal readers owned stock (down slightly from 91% in a similar poll last year).
+But only 17.5% said they had more than half their money in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+739..742
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+631..737
+5
+#### Text ####
+For example, about 88% of Journal readers owned stock (down slightly from 91% in a similar poll last year)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+743..814
+6,1;6,2;6,3
+#### Text ####
+only 17.5% said they had more than half their money in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+818..827
+7,0
+#### Text ####
+Similarly
+##############
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+631..814
+5;6
+#### Text ####
+For example, about 88% of Journal readers owned stock (down slightly from 91% in a similar poll last year).
+But only 17.5% said they had more than half their money in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+829..1028
+7,1;7,2;7,3;7,4;7,5;7,6;8
+#### Text ####
+57% of respondents own shares in a money-market mutual fund, and 33% own municipal bonds.
+But only 6% to 7% of the investors were committing more than half their funds to either of those alternatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+890..893
+7,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+818..888
+7,0;7,1;7,2;7,3
+#### Text ####
+Similarly, 57% of respondents own shares in a money-market mutual fund
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+894..917
+7,5
+#### Text ####
+33% own municipal bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+919..922
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+818..917
+7
+#### Text ####
+Similarly, 57% of respondents own shares in a money-market mutual fund, and 33% own municipal bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+923..1028
+8,1;8,2;8,3
+#### Text ####
+only 6% to 7% of the investors were committing more than half their funds to either of those alternatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1063..1067
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+156..300
+1
+#### Text ####
+Judging by a poll of Wall Street Journal readers conducted this summer by Erdos & Morgan Inc., serious investors have taken that advice to heart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1032..1040;1068..1154
+9,0,0;9,0,1;9,0,3;9,2;9,3
+#### Text ####
+The poll provides a glimpse into the thinking of serious investors on a variety of other topics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1156
+10
+____Arg1____
+1032..1154
+9
+#### Text ####
+The poll, conducted Aug. 7-28, also provides a glimpse into the thinking of serious investors on a variety of other topics
+##############
+____Arg2____
+1156..1207
+10
+#### Text ####
+It found them in a cautious, but not downbeat, mood
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+1262..1302
+12,0;12,1,0
+#### Text ####
+The response rate, more than 63%, allows
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+1211..1260
+11
+#### Text ####
+Of 1,500 people sent a questionnaire, 951 replied
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1262..1365
+12
+#### Text ####
+The response rate, more than 63%, allows the results to be interpreted with a high degree of confidence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1419..1425
+13,1,2,1,4
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison
+____Arg1____
+1262..1365
+12
+#### Text ####
+The response rate, more than 63%, allows the results to be interpreted with a high degree of confidence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1367..1417
+13,0;13,1,0;13,1,1;13,1,2,0;13,1,2,1,0;13,1,2,1,1;13,1,2,1,2;13,1,2,1,3;13,2
+#### Text ####
+The results can't be extrapolated to all investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1427
+14
+____Arg1____
+1367..1425
+13
+#### Text ####
+The results can't be extrapolated to all investors, though
+##############
+____Arg2____
+1427..1529
+14
+#### Text ####
+Journal readers are relatively affluent, with a median household income of between $75,000 and $99,000
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1531
+15
+____Arg1____
+1427..1529
+14
+#### Text ####
+Journal readers are relatively affluent, with a median household income of between $75,000 and $99,000
+##############
+____Arg2____
+1531..1672
+15
+#### Text ####
+Nearly half of the respondents (47%) said their investment portfolio was worth $250,000 or more, and 17% said it was worth $1 million or more
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1628..1631
+15,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1531..1626
+15,0
+#### Text ####
+Nearly half of the respondents (47%) said their investment portfolio was worth $250,000 or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1632..1672
+15,3
+#### Text ####
+17% said it was worth $1 million or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1757..1760
+16,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1676..1755
+16,0
+#### Text ####
+The respondents were mildly optimistic about the economy and investment markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1761..1837
+16,3
+#### Text ####
+their collective judgments were a notch more sober than they were a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1841..1852
+17,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1676..1837
+16
+#### Text ####
+The respondents were mildly optimistic about the economy and investment markets, but their collective judgments were a notch more sober than they were a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1854..1977
+17,1;17,2;17,3;17,4;18
+#### Text ####
+12% of this year's respondents said they expect a recession within 12 months.
+Last year, only 8% were expecting a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1932
+18
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1841..1930
+17
+#### Text ####
+For example, 12% of this year's respondents said they expect a recession within 12 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1932..1977
+18
+#### Text ####
+Last year, only 8% were expecting a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2085
+20
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1981..2083
+19
+#### Text ####
+An additional 56% of this year's respondents expect the economy to slow down during the next 12 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2085..2147
+20
+#### Text ####
+Only 42% of last year's respondents anticipated slowing growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2268
+22
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2151..2266
+21
+#### Text ####
+Apparently, the respondents don't think that an economic slowdown would harm the major investment markets very much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2268..2368
+22
+#### Text ####
+A slim majority (51%) think stock prices will be higher in August 1990 than they were in August 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2421
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2372..2419
+23
+#### Text ####
+Their verdict on real estate is almost the same
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2421..2513
+24
+#### Text ####
+Some 50% expect real estate in their local area to increase in value over the next 12 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2517..2528
+25,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+2151..2513
+21;22;23;24
+#### Text ####
+Apparently, the respondents don't think that an economic slowdown would harm the major investment markets very much.
+A slim majority (51%) think stock prices will be higher in August 1990 than they were in August 1989. 
+
+Their verdict on real estate is almost the same.
+Some 50% expect real estate in their local area to increase in value over the next 12 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2530..2702
+25,1;25,2;25,3;25,4;26
+#### Text ####
+only 32% expect an increase in the price of gold.
+Since gold tends to soar when inflation is high, that finding suggests that people believe inflation remains under control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2580
+26
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2517..2578
+25
+#### Text ####
+By contrast, only 32% expect an increase in the price of gold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2580..2702
+26
+#### Text ####
+Since gold tends to soar when inflation is high, that finding suggests that people believe inflation remains under control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2580..2585
+26,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+2629..2702
+26,1;26,2;26,3;26,4
+#### Text ####
+that finding suggests that people believe inflation remains under control
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2586..2627
+26,0,1
+#### Text ####
+gold tends to soar when inflation is high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2605..2609
+26,0,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2580..2604
+26,0,0;26,0,1,0;26,0,1,1,0;26,0,1,1,1
+#### Text ####
+Since gold tends to soar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2610..2627
+26,0,1,1,2,1
+#### Text ####
+inflation is high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2706..2717
+27,0,0;27,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+2759..2830
+27,1;27,2;27,3;27,4
+#### Text ####
+many respondents were taking a better-safe-than sorry investment stance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2718..2757
+27,0,2
+#### Text ####
+only 12% actually predicted a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2832
+28
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2759..2830
+27,1;27,2;27,3;27,4
+#### Text ####
+many respondents were taking a better-safe-than sorry investment stance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2832..2924
+28
+#### Text ####
+Nearly a third said they have made some portfolio changes to anticipate a possible recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2926
+29
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2832..2924
+28
+#### Text ####
+Nearly a third said they have made some portfolio changes to anticipate a possible recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2926..2969
+29
+#### Text ####
+For the most part, the changes were "slight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3236..3247
+30,1,1,3,1,2,1,1,1,2,2,1,0
+#### Text ####
+if and when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if and when, Contingency.Condition.Hypothetical
+____Arg1____
+3221..3235
+30,1,1,3,1,2,1,1,1,1;30,1,1,3,1,2,1,1,1,2,0;30,1,1,3,1,2,1,1,1,2,1;30,1,1,3,1,2,1,1,1,2,2,0
+#### Text ####
+or are "unsure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3248..3283
+30,1,1,3,1,2,1,1,1,2,2,1,1;30,1,1,3,1,2,1,1,1,2,3;30,1,1,3,1,2,1,1,1,2,4
+#### Text ####
+a recession might come" (about 22%)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3365
+32
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3287..3363
+31
+#### Text ####
+A buy-and-hold approach to stocks continues to be the rule among respondents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3365..3439
+32
+#### Text ####
+Most own two to 10 stocks, and buy or sell no more than three times a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3441
+33
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3365..3439
+32
+#### Text ####
+Most own two to 10 stocks, and buy or sell no more than three times a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3441..3488
+33,0
+#### Text ####
+Some 71% had bought some stock in the past year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3490
+33
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Opposition
+____Arg1____
+3441..3488
+33,0
+#### Text ####
+Some 71% had bought some stock in the past year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3490..3511
+33,2
+#### Text ####
+only 57% had sold any
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3515..3518
+34,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+3365..3511
+32;33
+#### Text ####
+Most own two to 10 stocks, and buy or sell no more than three times a year.
+Some 71% had bought some stock in the past year; only 57% had sold any
+##############
+____Arg1____
+3287..3363
+31
+#### Text ####
+A buy-and-hold approach to stocks continues to be the rule among respondents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3519..3583
+34,1;34,2;34,3;34,4
+#### Text ####
+the lurking shadow of 1987's stock-market crash still seems dark
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3585
+35
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Restatement.Specification
+____Arg1____
+3515..3583
+34
+#### Text ####
+But the lurking shadow of 1987's stock-market crash still seems dark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3585..3667
+35
+#### Text ####
+About 33% considered another crash "likely," while about 63% said one is "unlikely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3630..3635
+35,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+3585..3627
+35,0;35,1,0;35,1,1;35,1,2;35,1,3;35,2;35,3
+#### Text ####
+About 33% considered another crash "likely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3636..3667
+35,1,4,1
+#### Text ####
+about 63% said one is "unlikely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3670
+36
+____Arg1____
+3585..3667
+35
+#### Text ####
+About 33% considered another crash "likely," while about 63% said one is "unlikely
+##############
+____Arg2____
+3670..3732
+36
+#### Text ####
+Those percentages hardly changed from the previous year's poll
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3736..3739
+37,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3585..3732
+35;36
+#### Text ####
+About 33% considered another crash "likely," while about 63% said one is "unlikely." Those percentages hardly changed from the previous year's poll
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3740..3823
+37,1;37,2;37,3
+#### Text ####
+the respondents' commitment to the stock market remains somewhat lighter than usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3825
+38
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3736..3823
+37
+#### Text ####
+And the respondents' commitment to the stock market remains somewhat lighter than usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3825..3993
+38;39
+#### Text ####
+About 60% of them said they would "ordinarily" have at least 25% of their money in stocks.
+But as of August, only 50% actually had stock-market investments of that size
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3916..3919
+39,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3825..3914
+38
+#### Text ####
+About 60% of them said they would "ordinarily" have at least 25% of their money in stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3920..3993
+39,1;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+as of August, only 50% actually had stock-market investments of that size
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4083..4086
+41,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3997..4081
+40
+#### Text ####
+Most stock-market indexes were hitting all-time highs at around the time of the poll
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4087..4217
+41,1;41,2;41,3
+#### Text ####
+it appears that many Journal readers were taking that news as a sign to be cautious, rather than a signal to jump on the bandwagon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

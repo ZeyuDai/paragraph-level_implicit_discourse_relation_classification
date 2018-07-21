@@ -1,0 +1,784 @@
+________________________________________________________
+____Explicit____
+139..142
+1,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+216..231
+1,1;1,2;1,3;1,4
+#### Text ####
+the agency said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..96
+0,0
+#### Text ####
+Savings and loans reject blacks for mortgage loans twice as often as they reject whites
+##############
+#### Features ####
+Ot, Comm, Null, Null
+98..135
+0,1;0,2;0,3;0,4
+#### Text ####
+the Office of Thrift Supervision said
+##############
+____Arg2____
+143..214
+1,0,1;1,0,2
+#### Text ####
+that doesn't necessarily mean thrifts are discriminating against blacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+274
+2
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+139..214
+1,0
+#### Text ####
+But that doesn't necessarily mean thrifts are discriminating against blacks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+216..231
+1,1;1,2;1,3;1,4
+#### Text ####
+the agency said
+##############
+____Arg2____
+274..394
+2,1,1
+#### Text ####
+it doesn't have data on the financial position of applicants and thus can't determine why blacks are rejected more often
+##############
+#### Features ####
+Ot, Comm, Null, Null
+233..273
+2,0;2,1,0;2,2
+#### Text ####
+The office, an arm of the Treasury, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+339..343
+2,1,1,1,2
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+233..273
+2,0;2,1,0;2,2
+#### Text ####
+The office, an arm of the Treasury, said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+274..334
+2,1,1,1,0
+#### Text ####
+it doesn't have data on the financial position of applicants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+335..338;344..394
+2,1,1,1,1;2,1,1,1,3
+#### Text ####
+and can't determine why blacks are rejected more often
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+398..410
+3,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Contrast
+____Arg1____
+274..394
+2,1,1
+#### Text ####
+it doesn't have data on the financial position of applicants and thus can't determine why blacks are rejected more often
+##############
+#### Features ####
+Ot, Comm, Null, Null
+233..273
+2,0;2,1,0;2,2
+#### Text ####
+The office, an arm of the Treasury, said
+##############
+____Arg2____
+531..623
+3,4,1
+#### Text ####
+they are worried that financial institutions are routinely discriminating against minorities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+412..530
+3,1;3,2;3,3;3,4,0;3,5
+#### Text ####
+on Capitol Hill, where the information was released yesterday at a Senate banking subcommittee hearing, lawmakers said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+625
+4
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+398..427;516..623
+3,0;3,1;3,2,0;3,2,1,0;3,2,1,1;3,2,1,3;3,3;3,4;3,5
+#### Text ####
+Nevertheless, on Capitol Hill lawmakers said they are worried that financial institutions are routinely discriminating against minorities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+625..733
+4
+#### Text ####
+They asked regulators to suggest new ways to force banks and thrifts to comply with anti-discrimination laws
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+860..863
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+737..833
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+Sen. Alan Dixon (D, Ill.), chairman of the subcommittee on consumer and regulatory affairs, said
+##############
+but, Comparison.Contrast
+____Arg1____
+838..858
+5,1,3,1,1;5,1,3,1,2
+#### Text ####
+m not a statistician
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+864..945;1008..1061
+6,1;6,3;6,4;6,5;6,6
+#### Text ####
+when blacks are getting their loan applications rejected twice as often as whites I conclude that discrimination is part of the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+864..868
+6,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+737..833
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+Sen. Alan Dixon (D, Ill.), chairman of the subcommittee on consumer and regulatory affairs, said
+##############
+when, Temporal.Synchrony, Contingency.Condition.Hypothetical
+____Arg1____
+860..863;1019..1061
+6,0;6,4,1;6,5;6,6
+#### Text ####
+But that discrimination is part of the problem
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1008..1018
+6,3;6,4,0;6,5;6,6
+#### Text ####
+I conclude
+##############
+____Arg2____
+869..945
+6,1,1
+#### Text ####
+blacks are getting their loan applications rejected twice as often as whites
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+949..1004
+6,2
+#### Text ####
+and in some cities, it is three and four times as often
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+949..952
+6,2,1,0
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+737..833
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+Sen. Alan Dixon (D, Ill.), chairman of the subcommittee on consumer and regulatory affairs, said
+##############
+and, Expansion.Conjunction
+____Arg1____
+864..945
+6,1
+#### Text ####
+when blacks are getting their loan applications rejected twice as often as whites
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+953..1004
+6,2,0;6,2,1,1;6,2,1,2;6,2,1,3;6,2,1,4;6,2,2
+#### Text ####
+in some cities, it is three and four times as often
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1167..1170
+7,1,3,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1066..1140
+7,0;7,1,0;7,1,1;7,1,2;7,2;7,3
+#### Text ####
+James Grohl, a spokesman for the U.S. League of Savings Institutions, said
+##############
+but, Comparison.Contrast
+____Arg1____
+1143..1165
+7,1,3,0
+#### Text ####
+The data is a red flag
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1171..1253
+7,1,3,3
+#### Text ####
+lacking the financial data you can't make a case that discrimination is widespread
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1289
+8
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1143..1253
+7,1,3
+#### Text ####
+The data is a red flag, but lacking the financial data you can't make a case that discrimination is widespread
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1066..1140
+7,0;7,1,0;7,1,1;7,1,2;7,2;7,3
+#### Text ####
+James Grohl, a spokesman for the U.S. League of Savings Institutions, said
+##############
+____Arg2____
+1289..1351
+8,1,3
+#### Text ####
+Certainly the federal government should take a hard look at it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1256..1286
+8,0;8,1,0;8,1,1;8,1,2;8,2;8,3
+#### Text ####
+The trade group official added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1550..1554
+10,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1449..1532
+9,1,2,1,1,2,1,2
+#### Text ####
+that required regulators to report on evidence of discimination in mortgage lending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1534..1549;1555..1632
+10,0,0;10,0,2
+#### Text ####
+The legislation requires broad new disclosures of the race, sex and income level of borrowers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1634..1637
+10,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1534..1632
+10,0
+#### Text ####
+The legislation also requires broad new disclosures of the race, sex and income level of borrowers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1638..1715
+10,3
+#### Text ####
+that information won't be gathered in new studies for several months at least
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1915..1918
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1719..1913
+11
+#### Text ####
+The Federal Reserve said its studies in recent years, which adjust for income differences and other variables, showed that blacks received fewer home mortgages from banks and thrifts than whites
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1919..2068
+12,1;12,2;12,3
+#### Text ####
+John LaWare, a Fed governor, told the subcommittee the evidence is mixed and that the Fed's believes the vast majority of banks aren't discriminating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1992..1995
+12,2,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1919..1969
+12,1;12,2,0;12,2,1;12,3
+#### Text ####
+John LaWare, a Fed governor, told the subcommittee
+##############
+and, Expansion.Conjunction
+____Arg1____
+1970..1991
+12,2,2,0
+#### Text ####
+the evidence is mixed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2020..2068
+12,2,2,2,1,1,1
+#### Text ####
+the vast majority of banks aren't discriminating
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1996..2019
+12,2,2,2,0;12,2,2,2,1,0;12,2,2,2,1,1,0
+#### Text ####
+that the Fed's believes
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2070..2082
+13,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2084..2092
+13,1
+#### Text ####
+he noted
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+1970..2068
+12,2,2
+#### Text ####
+the evidence is mixed and that the Fed's believes the vast majority of banks aren't discriminating
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1919..1969
+12,1;12,2,0;12,2,1;12,3
+#### Text ####
+John LaWare, a Fed governor, told the subcommittee
+##############
+____Arg2____
+2094..2180
+13,2;13,3;13,4
+#### Text ####
+the Fed studies have shown that blacks receive more home improvement loans than whites
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2431
+15
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2215..2428
+14,1,1,1
+#### Text ####
+that the bank and thrift regulators generally said they have been too busy handling the record number of bank and thrift failures in the past few years to put much energy into investigating possible discrimination
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2431..2670
+15
+#### Text ####
+We would be the first to admit that we have not devoted the necessary amount of emphasis over the past several years" to developing examinations for discrimination, said Jonathan Fiechter, a top official of the Office of Thrift Supervision
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2675..2677;2852..2856
+16,1,0;16,4
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2779..2849
+16,2
+#### Text ####
+said Sen. Donald Riegle (D., Mich.), chairman of the banking committee
+##############
+if then, Contingency.Condition.Factual present
+____Arg1____
+2678..2776
+16,1,1
+#### Text ####
+we've got folks out there who are being turned away in the mortgage market improperly and unfairly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2857..2965
+16,0;16,3;16,5;16,6;16,7;16,8
+#### Text ####
+that is a matter that needs remedy now, not six months from now, or six years from now, or 26 years from now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3168
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3074..3152
+17,1,1
+#### Text ####
+they have punished only a few banks for violations of anti-discrimination laws
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2970..3073
+17,0;17,1,0;17,2
+#### Text ####
+Officials of the Federal Deposit Insurance Corp. and the Office of the Comptroller of the Currency said
+##############
+____Arg2____
+3168..3260
+18,1,1
+#### Text ####
+it has issued five citations to banks over the past three years for discriminatory practices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3154..3167
+18,0;18,1,0;18,2
+#### Text ####
+The FDIC said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3418..3422
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3264..3391
+19
+#### Text ####
+The comptroller's office said it found no indications of illegal discrimination in 3,437 examinations of banks since April 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3393..3417;3423..3546
+20,0;20,2;20,3
+#### Text ####
+The comptroller's office said that of 37,000 complaints it received since January 1987, only 16 alleged racial discrimination in real estate lending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3428
+20
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3294..3391
+19,1,1
+#### Text ####
+it found no indications of illegal discrimination in 3,437 examinations of banks since April 1987
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3264..3293
+19,0;19,1,0;19,2
+#### Text ####
+The comptroller's office said
+##############
+____Arg2____
+3428..3546
+20,2,1
+#### Text ####
+that of 37,000 complaints it received since January 1987, only 16 alleged racial discrimination in real estate lending
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3393..3427
+20,0;20,1;20,2,0;20,3
+#### Text ####
+The comptroller's office also said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3548
+21
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+3428..3546
+20,2,1
+#### Text ####
+that of 37,000 complaints it received since January 1987, only 16 alleged racial discrimination in real estate lending
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3393..3427
+20,0;20,1;20,2,0;20,3
+#### Text ####
+The comptroller's office also said
+##############
+____Arg2____
+3548..3615
+21
+#### Text ####
+The agency investigated the complaints but no violations were cited
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3587..3590
+21,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3548..3586
+21,0
+#### Text ####
+The agency investigated the complaints
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3591..3615
+21,2
+#### Text ####
+no violations were cited
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3878
+24
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+3711..3817
+23,1,1,0;23,1,1,1,0;23,1,1,1,1;23,1,1,1,2,0;23,1,1,1,2,1,0;23,1,1,1,2,1,1,0;23,1,1,1,2,1,1,1;23,1,1,1,2,1,1,2;23,1,1,1,2,1,1,3
+#### Text ####
+that among the possibilities being considered by regulators to fight discrimination is the use of "testers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3693..3710
+23,0;23,1,0;23,2
+#### Text ####
+Mr. Fiechter said
+##############
+____Arg2____
+3878..3990
+24
+#### Text ####
+The Department of Housing and Urban Development has used testers to investigate discrimination in rental housing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3992
+25
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3878..3990
+24
+#### Text ####
+The Department of Housing and Urban Development has used testers to investigate discrimination in rental housing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3992..4056
+25,0
+#### Text ####
+Using testers could be controversial with financial institutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4058..4061
+25,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4062..4076
+25,3,0;25,3,1,0
+#### Text ####
+Mr. Grohl said
+##############
+but, Comparison.Contrast
+____Arg1____
+3992..4056
+25,0
+#### Text ####
+Using testers could be controversial with financial institutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4077..4160
+25,3,1,1
+#### Text ####
+the U.S. League of Savings Institutions hadn't yet taken any position on the matter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

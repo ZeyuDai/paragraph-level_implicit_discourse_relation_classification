@@ -1,0 +1,862 @@
+________________________________________________________
+____Implicit____
+234
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..232
+0
+#### Text ####
+Dennis Farney's Oct. 13 page-one article "River of Despair," about the poverty along the Mississippi, fanned childhood memories of when my parents were sharecroppers in southeastern Arkansas, only a few miles from the river
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+234..347
+1
+#### Text ####
+Although we were white, the same economic factors affected us as affects the black people Mr. Farney writes about
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+234..242
+1,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+258..347
+1,1;1,2;1,3;1,4
+#### Text ####
+the same economic factors affected us as affects the black people Mr. Farney writes about
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+243..256
+1,0,1
+#### Text ####
+we were white
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+349
+2
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+234..347
+1
+#### Text ####
+Although we were white, the same economic factors affected us as affects the black people Mr. Farney writes about
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+349..539
+2
+#### Text ####
+Fortunately, an aunt with a college degree bought a small farm and moved us 50 miles north to good schools and an environment that opened the world of opportunity for me as an eight-year-old
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+543..549
+3,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+635..704
+3,1;3,2;3,3;3,4
+#### Text ####
+I've never forgotten or lost contact with those memories of the 1930s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+550..633
+3,0,1
+#### Text ####
+I've been blessed with academic degrees and some success in the materialistic world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+837
+5
+____Arg1____
+708..835
+4
+#### Text ####
+Most of the land in that and other parts of the Delta are now owned by second, third or fourth generations of the same families
+##############
+____Arg2____
+837..1011
+5
+#### Text ####
+These are the families who used -- and sometime abused -- their sharecroppers, people who had no encouragement and little access to an education or training for a better life
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1013
+6
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+837..1011
+5
+#### Text ####
+These are the families who used -- and sometime abused -- their sharecroppers, people who had no encouragement and little access to an education or training for a better life
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1013..1282
+6
+#### Text ####
+Following World War II, when one family with mechanized equipment could farm crops formerly requiring 20 families, the surplus people were dumped into the mainstream of society with no Social Security, no skills in the workplace, no hope for their future except welfare
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1284..1287
+7,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Sup1____
+1037..1126
+6,2
+#### Text ####
+when one family with mechanized equipment could farm crops formerly requiring 20 families
+##############
+____Arg1____
+1013..1035;1128..1282
+6,0;6,1;6,3;6,4;6,5;6,6
+#### Text ####
+Following World War II the surplus people were dumped into the mainstream of society with no Social Security, no skills in the workplace, no hope for their future except welfare
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1288..1374
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+today, many of their children, grandchildren and great-grandchildren remain on welfare
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1378..1393
+8,0
+#### Text ####
+In the meantime
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meantime, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+1013..1374
+6;7
+#### Text ####
+Following World War II, when one family with mechanized equipment could farm crops formerly requiring 20 families, the surplus people were dumped into the mainstream of society with no Social Security, no skills in the workplace, no hope for their future except welfare.
+And today, many of their children, grandchildren and great-grandchildren remain on welfare
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1395..1479
+8,1;8,2;8,3;8,4
+#### Text ####
+the landowners continue receiving generous subsidies that began during New Deal days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1481..1483
+9,0
+#### Text ####
+Or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative.Disjunctive
+____Arg1____
+1378..1479
+8
+#### Text ####
+In the meantime, the landowners continue receiving generous subsidies that began during New Deal days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1484..1572
+9,1;9,2;9,3
+#### Text ####
+those who choose not to farm can lease their lands and crop allotments for handsome sums
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1630..1633
+10,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+1576..1628
+10,0
+#### Text ####
+Farmers in the Midwest and other areas have suffered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1634..1770
+10,3
+#### Text ####
+those along the Mississippi continue to prosper with holdings that were built with the sweat of men and women living in economic slavery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1772..1775
+11,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+1727..1770
+10,3,1,1,1,1,1,1,1,1,1,1,2,1,1
+#### Text ####
+of men and women living in economic slavery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1776..1870
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+when they were no longer needed, they were turned loose unprepared to build lives of their own
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1776..1780
+11,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1772..1775;1809..1870
+11,0;11,2;11,3;11,4;11,5
+#### Text ####
+And they were turned loose unprepared to build lives of their own
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1781..1807
+11,1,1
+#### Text ####
+they were no longer needed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1924..1931
+16,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2012..2058
+16,1;16,2;16,3;16,4
+#### Text ####
+breaking this cycle will be next to impossible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1932..2010
+16,0,1
+#### Text ####
+the cycle of poverty along the lower Mississippi goes back so many generations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2060
+17
+____Arg1____
+1924..2058
+16
+#### Text ####
+Because the cycle of poverty along the lower Mississippi goes back so many generations, breaking this cycle will be next to impossible
+##############
+____Arg2____
+2060..2122
+17
+#### Text ####
+Sadly, the cycle appears not as waves but as a downward spiral
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2124..2127
+18,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison.Concession.Contra-expectation
+____Arg1____
+2060..2122
+17
+#### Text ####
+Sadly, the cycle appears not as waves but as a downward spiral
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2128..2227
+18,1;18,2;18,3
+#### Text ####
+the evidence that we have not hit bottom is found in the fact that we are not yet helping ourselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2229
+19
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+2124..2227
+18
+#### Text ####
+Yet the evidence that we have not hit bottom is found in the fact that we are not yet helping ourselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2229..2419
+19
+#### Text ####
+The people of the Delta are waiting for that big factory to open, river traffic to increase, government spending to fund job-training programs or public schools to educate apathetic students
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2423..2430
+20,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2468..2566
+20,1;20,2;20,3;20,4
+#### Text ####
+the questions continue as fodder for the commissions and committees, for the media and politicians
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2431..2466
+20,0,1
+#### Text ####
+we refuse to face the tough answers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2568
+21
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2423..2566
+20
+#### Text ####
+Because we refuse to face the tough answers, the questions continue as fodder for the commissions and committees, for the media and politicians
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2568..2698
+21
+#### Text ####
+Coffee-shop chatter does not lend itself to solving the problems of racism, teen pregnancy or lack of parental support or guidance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2764..2768
+22,2,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.Factual present
+____Arg1____
+2702..2763
+22,0;22,1;22,2,0;22,2,1;22,2,2;22,3
+#### Text ####
+Does the Delta deserve government help in attracting industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2769..2864
+22,2,3,1
+#### Text ####
+the majority of residents, black and white, do not realize racism alienates potential employers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2866
+23
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2702..2864
+22
+#### Text ####
+Does the Delta deserve government help in attracting industry when the majority of residents, black and white, do not realize racism alienates potential employers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2866..3098
+23
+#### Text ####
+Should we focus on the region's infant-mortality rate when the vocal right-wingers and the school boards, mayors and legislators prohibit schools from teaching the two ways (abstinence or contraceptives) of decreasing teen pregnancy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2920..2924
+23,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.Factual present
+____Arg1____
+2866..2919
+23,0;23,1;23,2,0;23,2,1;23,3
+#### Text ####
+Should we focus on the region's infant-mortality rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2925..3098
+23,2,2,1
+#### Text ####
+the vocal right-wingers and the school boards, mayors and legislators prohibit schools from teaching the two ways (abstinence or contraceptives) of decreasing teen pregnancy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3100
+24
+#### Features ####
+Wr, Comm, Null, Null
+in summary, Expansion.Restatement.Generalization
+____Arg1____
+2866..3098
+23
+#### Text ####
+Should we focus on the region's infant-mortality rate when the vocal right-wingers and the school boards, mayors and legislators prohibit schools from teaching the two ways (abstinence or contraceptives) of decreasing teen pregnancy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3100..3217
+24
+#### Text ####
+Delta problems are difficult, not impossible, to solve -- I am just not convinced that we are ready to solve them yet
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3322
+28
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3266..3320
+27
+#### Text ####
+I would like to issue a challenge to corporate America
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3322..3587
+28
+#### Text ####
+The next time expansion plans are mentioned at the old company and somebody says, "Aw heck, guys, nobody can do it like Japan or South Korea," I wish you would butt in and say, "Hold it, fellas, why don't we compare prices and use our own little Third World country
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3385..3388
+28,0,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+3336..3384
+28,0,1,1,0
+#### Text ####
+expansion plans are mentioned at the old company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3389..3462
+28,0,1,1,2
+#### Text ####
+somebody says, "Aw heck, guys, nobody can do it like Japan or South Korea
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3589
+29
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3322..3587
+28
+#### Text ####
+The next time expansion plans are mentioned at the old company and somebody says, "Aw heck, guys, nobody can do it like Japan or South Korea," I wish you would butt in and say, "Hold it, fellas, why don't we compare prices and use our own little Third World country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3589..3618
+29
+#### Text ####
+We would even save on freight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3799
+34
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3733..3797
+33
+#### Text ####
+Your story is an insult to the citizens of the Mississippi Delta
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3799..3869
+34
+#### Text ####
+Many of the problems you presented exist in every part of this country
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3871
+35
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3799..3869
+34
+#### Text ####
+Many of the problems you presented exist in every part of this country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3871..3929
+35
+#### Text ####
+Poverty is only two blocks from President Bush's residence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3931
+36
+____Arg1____
+3871..3929
+35
+#### Text ####
+Poverty is only two blocks from President Bush's residence
+##############
+____Arg2____
+3931..4084
+36
+#### Text ####
+For years, we tried to ignore the problem of poverty, and now that it has gotten out of hand it's a new crusade for the media and our Democratic Congress
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3985..3988
+36,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3931..3983
+36,0
+#### Text ####
+For years, we tried to ignore the problem of poverty
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3989..4084
+36,3
+#### Text ####
+now that it has gotten out of hand it's a new crusade for the media and our Democratic Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3989..3997
+36,3,0,0;36,3,0,1,0
+#### Text ####
+now that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+now that, Contingency.Cause.Reason
+____Arg1____
+3985..3988;4024..4084
+36,2;36,3,1;36,3,2;36,4
+#### Text ####
+and it's a new crusade for the media and our Democratic Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3998..4023
+36,3,0,1,1
+#### Text ####
+it has gotten out of hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4160..4163
+37,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Pragmatic concession
+____Arg1____
+4088..4157
+37,0
+#### Text ####
+Nobody should have to live in such poor conditions as in "Sugar Ditch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4164..4247
+37,4
+#### Text ####
+when you travel to Washington, Boston, Chicago or New York, the same problems exist
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4164..4168
+37,4,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+4160..4163;4224..4247
+37,3;37,4,1;37,4,2;37,4,3;37,5
+#### Text ####
+but the same problems exist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4169..4222
+37,4,0,1
+#### Text ####
+you travel to Washington, Boston, Chicago or New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4249..4271
+38,0;38,1,0
+#### Text ####
+The only difference is
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast
+____Arg1____
+4088..4247
+37
+#### Text ####
+Nobody should have to live in such poor conditions as in "Sugar Ditch," but when you travel to Washington, Boston, Chicago or New York, the same problems exist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4249..4524
+38
+#### Text ####
+The only difference is, in those cities the poor are housed in high-rise-project apartments each consisting of one room, with rusty pipes called plumbing, rodents and cockroaches everywhere and nonworking elevators -- and with the building patrolled by gangs and drug dealers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4615..4619
+40,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence, Contingency.Cause.Reason
+____Arg1____
+4528..4613
+39
+#### Text ####
+Many middle-class people would love free food, Medicaid insurance, utilities and rent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4620..4835
+40,1;40,2;40,3;40,4
+#### Text ####
+maybe I could stay home and have seven children and watch Oprah Winfrey, like Beulah in the article, instead of having one child and working constantly just to stay above water, like so many families in this country
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

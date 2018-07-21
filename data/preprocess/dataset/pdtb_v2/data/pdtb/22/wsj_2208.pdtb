@@ -1,0 +1,210 @@
+________________________________________________________
+____Explicit____
+232..234
+1,1,1
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+261..292
+1,0;1,2;1,3;1,4;1,5,0;1,5,1;1,5,2;1,5,3;1,6
+#### Text ####
+said Doug Hammond, the mediator
+##############
+or, Expansion.Alternative
+____Arg1____
+205..231
+1,1,0
+#### Text ####
+It could be a long meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+235..258
+1,1,2
+#### Text ####
+it could be a short one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+378
+2
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Conjunction
+____Arg1____
+205..258
+1,1
+#### Text ####
+It could be a long meeting or it could be a short one
+##############
+#### Features ####
+Ot, Comm, Null, Null
+261..292
+1,0;1,2;1,3;1,4;1,5,0;1,5,1;1,5,2;1,5,3;1,6
+#### Text ####
+said Doug Hammond, the mediator
+##############
+____Arg2____
+378..485
+2,1
+#### Text ####
+We're encouraged that talks are scheduled again but beyond that, we have made no expression of expectations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+488..511
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+a Boeing spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+426..429
+2,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+488..511
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+a Boeing spokesman said
+##############
+but, Comparison.Contrast
+____Arg1____
+378..425
+2,1,0
+#### Text ####
+We're encouraged that talks are scheduled again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+430..485
+2,1,2
+#### Text ####
+beyond that, we have made no expression of expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+668
+4
+____Arg1____
+515..666
+3
+#### Text ####
+The Machinists union has rejected a three-year contract offer that would have provided a 10% wage increase over the life of the pact, plus some bonuses
+##############
+____Arg2____
+668..736
+4
+#### Text ####
+Currently, average pay for machinists is $13.39 an hour, Boeing said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+957
+7
+____Arg1____
+861..955
+6
+#### Text ####
+With a strike fund of about $100 million, the union had said it was prepared for a long strike
+##############
+____Arg2____
+957..1049
+7
+#### Text ####
+After the third week on strike, union members will begin receiving $100 a week from the fund
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1147..1150
+9,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1246..1257
+9,2;9,3;9,4;9,5
+#### Text ####
+Boeing said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1053..1145
+8
+#### Text ####
+Work at Boeing continues with supervisors and other non-striking personnel manning the lines
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1151..1244
+9,1
+#### Text ####
+at the company's Wichita, Kan., plant, about 2,400 of the 11,700 machinists still are working
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1259
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1147..1244
+9,0;9,1;9,2;9,5
+#### Text ####
+And at the company's Wichita, Kan., plant, about 2,400 of the 11,700 machinists still are working
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1246..1257
+9,2;9,3;9,4;9,5
+#### Text ####
+Boeing said
+##############
+____Arg2____
+1259..1344
+10
+#### Text ####
+Under Kansas right-to-work laws, contracts cannot require workers to be union members
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+1346
+11
+____Arg1____
+1259..1344
+10
+#### Text ####
+Under Kansas right-to-work laws, contracts cannot require workers to be union members
+##############
+____Arg2____
+1346..1437
+11
+#### Text ####
+Boeing has declined to say how many employees are working at its giant Renton, Wash., plant
+##############
+________________________________________________________

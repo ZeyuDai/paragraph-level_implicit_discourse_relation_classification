@@ -1,0 +1,374 @@
+________________________________________________________
+____Explicit____
+180..186
+1,1
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+9..120
+0,0;0,1;0,2;0,5
+#### Text ####
+In finding "good news" in Berkeley's new freshman admissions plan ("The Privileged Class," editorial, Sept. 20)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+171..179;187..282
+1,0;1,2;1,3
+#### Text ####
+The plan raises from 40% to 50% the number of freshmen applicants admitted strictly by academic criteria
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+284..287
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+171..282
+1
+#### Text ####
+The plan indeed raises from 40% to 50% the number of freshmen applicants admitted strictly by academic criteria
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+288..373
+2,1;2,2;2,3
+#### Text ####
+that doesn't mean "half of the students attending Berkeley" will be admitted this way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+375
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+284..373
+2
+#### Text ####
+But that doesn't mean "half of the students attending Berkeley" will be admitted this way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+375..445
+3
+#### Text ####
+The plan is talking about applicants admitted, not students who enroll
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+447
+4
+____Arg1____
+375..445
+3
+#### Text ####
+The plan is talking about applicants admitted, not students who enroll
+##############
+____Arg2____
+447..607
+4
+#### Text ####
+Since the "yield" from this top slice of applicants is relatively low, boosting admits from 40% to 50% will boost registrants from about 31% to 38% of the class
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+447..452
+4,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+518..607
+4,1;4,2;4,3;4,4
+#### Text ####
+boosting admits from 40% to 50% will boost registrants from about 31% to 38% of the class
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+453..516
+4,0,1
+#### Text ####
+the "yield" from this top slice of applicants is relatively low
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+611..622
+5,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+447..607
+4
+#### Text ####
+Since the "yield" from this top slice of applicants is relatively low, boosting admits from 40% to 50% will boost registrants from about 31% to 38% of the class
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+624..794
+5,1;5,2;5,3;5,4
+#### Text ####
+perhaps 5% of registrants will come from a new category consisting of applicants whose academic credentials "narrowly missed" gaining them admission in the first category
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+798..801
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+447..794
+4;5
+#### Text ####
+Since the "yield" from this top slice of applicants is relatively low, boosting admits from 40% to 50% will boost registrants from about 31% to 38% of the class. 
+
+In addition, perhaps 5% of registrants will come from a new category consisting of applicants whose academic credentials "narrowly missed" gaining them admission in the first category
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+802..1086
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+against that combined increase of 12% in students chosen by academic criteria, the plan eliminates a large category in which admissions now are based on grades, test scores and "supplemental points" for factors such as high-school curriculum, English-language proficiency and an essay
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1088
+7
+____Arg1____
+798..1086
+6
+#### Text ####
+But against that combined increase of 12% in students chosen by academic criteria, the plan eliminates a large category in which admissions now are based on grades, test scores and "supplemental points" for factors such as high-school curriculum, English-language proficiency and an essay
+##############
+____Arg2____
+1088..1161
+7
+#### Text ####
+This category now accounts for about 19% of admits and 22% of registrants
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1174..1178
+8,1
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+171..282;447..607;611..794;798..1161
+1;4;5;6;7
+#### Text ####
+The plan indeed raises from 40% to 50% the number of freshmen applicants admitted strictly by academic criteria Since the "yield" from this top slice of applicants is relatively low, boosting admits from 40% to 50% will boost registrants from about 31% to 38% of the class In addition, perhaps 5% of registrants will come from a new category consisting of applicants whose academic credentials "narrowly missed" gaining them admission in the first category But against that combined increase of 12% in students chosen by academic criteria, the plan eliminates a large category in which admissions now are based on grades, test scores and "supplemental points" for factors such as high-school curriculum, English-language proficiency and an essay.
+This category now accounts for about 19% of admits and 22% of registrants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1165..1173;1179..1286
+8,0;8,2;8,3
+#### Text ####
+The plan will decrease by 22%, for a net loss of 10%, the number of students admitted primarily by academic criteria
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1660
+12
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Generalization
+____Arg1____
+1487..1658
+11
+#### Text ####
+One of the plan's authors has defended the "socioeconomic disadvantage" category as perhaps making more sense than the current affirmative-action preferences based on race
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1660..1675
+12
+#### Text ####
+Perhaps it does
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1677..1680
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+1526..1658
+11,1,1,1;11,1,1,2;11,2
+#### Text ####
+the "socioeconomic disadvantage" category as perhaps making more sense than the current affirmative-action preferences based on race
+##############
+____Arg1____
+1660..1675
+12
+#### Text ####
+Perhaps it does
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1681..1760
+13,1;13,2;13,3
+#### Text ####
+the new category does not replace or reduce Berkeley's broad racial preferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1762..1765
+14,0
+#### Text ####
+Nor
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nor, Expansion.Conjunction
+____Arg1____
+1677..1760
+13
+#### Text ####
+But the new category does not replace or reduce Berkeley's broad racial preferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1766..1916
+14,1;14,2;14,3;14,4
+#### Text ####
+will students from racial-minority groups who are admitted through the new category be counted against the affirmative-action "target" for their group
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1929..1933
+15,1
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Sup1____
+1677..1916
+13;14
+#### Text ####
+But the new category does not replace or reduce Berkeley's broad racial preferences.
+Nor will students from racial-minority groups who are admitted through the new category be counted against the affirmative-action "target" for their group
+##############
+____Arg1____
+1323..1483
+10
+#### Text ####
+The plan creates a new category of students from "socioeconomically disadvantaged backgrounds," a concept not yet defined, and gives them about 10% of the class
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1920..1928;1934..2064
+15,0;15,2;15,3
+#### Text ####
+The plan places a large new affirmative-action program, based on "socioeconomic disadvantage," on top of the existing program based on race
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2145..2156
+16,1,2,1
+#### Text ####
+as a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+1981..2017
+15,2,1,1;15,2,1,2;15,2,1,3;15,2,1,4
+#### Text ####
+based on "socioeconomic disadvantage
+##############
+____Arg1____
+1920..1979;2020..2064
+15,0;15,1;15,2,0;15,2,1,0;15,2,2;15,3
+#### Text ####
+The plan thus places a large new affirmative-action program on top of the existing program based on race
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2066..2144
+16,0;16,1,0;16,1,1;16,1,2,0;16,2
+#### Text ####
+The role of academic criteria in choosing Berkeley's freshmen can only decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

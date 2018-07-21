@@ -1,0 +1,271 @@
+________________________________________________________
+____Explicit____
+102..120
+0,1,1,3,0;0,1,1,3,1
+#### Text ####
+just a month after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+9..100
+0,0;0,1,0;0,1,1,0;0,1,1,1;0,1,1,2;0,2
+#### Text ####
+RJR Nabisco Inc. is disbanding its division responsible for buying network advertising time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+121..183
+0,1,1,3,2
+#### Text ####
+moving 11 of the group's 14 employees to New York from Atlanta
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+491
+2
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+357..470
+1,1,1
+#### Text ####
+that it is shutting down the RJR Nabisco Broadcast unit, and dismissing its 14 employees, in a move to save money
+##############
+#### Features ####
+Ot, Comm, Null, Null
+187..356
+1,0;1,1,0;1,2
+#### Text ####
+A spokesman for the New York-based food and tobacco giant, taken private earlier this year in a $25 billion leveraged buy-out by Kohlberg Kravis Roberts & Co., confirmed
+##############
+____Arg2____
+491..605
+2,1,1
+#### Text ####
+RJR is discussing its network-buying plans with its two main advertising firms, FCB/Leber Katz and McCann Erickson
+##############
+#### Features ####
+Ot, Comm, Null, Null
+472..490
+2,0;2,1,0;2,2
+#### Text ####
+The spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+824
+4
+____Arg1____
+610..822
+3
+#### Text ####
+We found with the size of our media purchases that an ad agency could do just as good a job at significantly lower cost," said the spokesman, who declined to specify how much RJR spends on network television time
+##############
+____Arg2____
+824..976
+4
+#### Text ####
+An executive close to the company said RJR is spending about $140 million on network television time this year, down from roughly $200 million last year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1044..1047
+5,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+980..998
+5,0;5,1,0;5,2
+#### Text ####
+The spokesman said
+##############
+and, Expansion.Conjunction
+____Arg1____
+999..1042
+5,1,1,1,0
+#### Text ####
+the broadcast unit will be disbanded Dec. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1048..1125
+5,1,1,1,3
+#### Text ####
+the move won't affect RJR's print, radio and spot-television buying practices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1326
+7
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1129..1244
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1;6,1,1,1,2;6,1,1,1,3,0;6,1,1,1,3,1;6,1,1,1,3,2;6,1,1,1,3,3,0;6,1,1,1,3,3,1,0;6,1,1,1,3,3,1,1,0;6,1,1,1,3,3,1,1,1;6,1,1,1,3,3,1,1,2,0;6,1,1,1,3,3,1,1,2,1,0;6,1,1,1,3,3,1,1,2,1,1;6,1,1,1,3,3,1,1,4;6,2
+#### Text ####
+The broadcast group had been based in New York until a year ago, when RJR's previous management moved it to Atlanta
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1326..1434
+7,1,1
+#### Text ####
+RJR moved 11 employees of the group back to New York in September because "there was supposed to be a future
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1293..1325
+7,0;7,1,0;7,2;7,3
+#### Text ####
+One employee with the group said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1392..1399
+7,1,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1293..1325
+7,0;7,1,0;7,2;7,3
+#### Text ####
+One employee with the group said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1326..1391
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1;7,1,1,1,1,2;7,1,1,1,1,3
+#### Text ####
+RJR moved 11 employees of the group back to New York in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1401..1434
+7,1,1,1,1,4,2
+#### Text ####
+there was supposed to be a future
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1445
+8
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1326..1434
+7,1,1
+#### Text ####
+RJR moved 11 employees of the group back to New York in September because "there was supposed to be a future
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1293..1325
+7,0;7,1,0;7,2;7,3
+#### Text ####
+One employee with the group said
+##############
+____Arg2____
+1445..1568
+8,1,1
+#### Text ####
+the company hired three more buyers for the unit within the past two weeks, wooing them from jobs with advertising agencies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1437..1444
+8,0;8,1,0;8,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1653..1660
+9,1,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1572..1594
+9,0;9,1,0;9,2
+#### Text ####
+The RJR spokesman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1595..1652
+9,1,1,0;9,1,1,1,0;9,1,1,1,1,0;9,1,1,1,1,1;9,1,1,1,1,2;9,1,1,1,1,3
+#### Text ####
+the company moved the 11 employees to New York last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1661..1753
+9,1,1,1,1,4,1
+#### Text ####
+the group had then been in the midst of purchasing ad time for the networks' upcoming season
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1756
+10
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1595..1753
+9,1,1
+#### Text ####
+the company moved the 11 employees to New York last month because the group had then been in the midst of purchasing ad time for the networks' upcoming season
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1572..1594
+9,0;9,1,0;9,2
+#### Text ####
+The RJR spokesman said
+##############
+____Arg2____
+1756..1821
+10,1
+#### Text ####
+The studies {on closing the unit} couldn't be completed until now
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1824..1831
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+he said
+##############
+________________________________________________________

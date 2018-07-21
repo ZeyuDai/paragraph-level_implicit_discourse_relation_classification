@@ -1,0 +1,646 @@
+________________________________________________________
+____Explicit____
+174..181
+1,0,0;1,0,1
+#### Text ####
+Even as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Comparison.Concession.Contra-expectation
+____Arg1____
+234..302
+1,1;1,2;1,3;1,4
+#### Text ####
+IBM's shares have slipped steadily from its 52-week high of $130.875
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+182..232
+1,0,2
+#### Text ####
+the stock market has generally done well this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+304
+2
+____Arg1____
+174..302
+1
+#### Text ####
+Even as the stock market has generally done well this year, IBM's shares have slipped steadily from its 52-week high of $130.875
+##############
+____Arg2____
+304..509
+2
+#### Text ####
+Yesterday's closing price of $101.75, down 50 cents, in composite trading on the New York Stock Exchange, puts the stock at about 1 1/2 times book value, which is as low as it has sunk over the past decade
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+535..540
+3,1,1,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+513..534
+3,0;3,1,0
+#### Text ####
+The announcement came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+541..559
+3,1,1,1;3,2
+#### Text ####
+the market's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+606
+5
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+563..604
+4
+#### Text ####
+The move by IBM wasn't exactly a surprise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+606..742
+5
+#### Text ####
+The company has spent some $5 billion over the past 3 1/2 years to buy back 42 million common shares, or roughly 7% of those outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+746..757
+6,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+606..742
+5
+#### Text ####
+The company has spent some $5 billion over the past 3 1/2 years to buy back 42 million common shares, or roughly 7% of those outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+759..865
+6,1;6,2;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+despite IBM's well-publicized recent problems, the computer giant still generates enormous amounts of cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+867
+7
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+746..865
+6
+#### Text ####
+In addition, despite IBM's well-publicized recent problems, the computer giant still generates enormous amounts of cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+867..966
+7
+#### Text ####
+As of the end of the second quarter, it had $4.47 billion of cash and marketable securities on hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+970..981
+8,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+606..966
+5;6;7
+#### Text ####
+The company has spent some $5 billion over the past 3 1/2 years to buy back 42 million common shares, or roughly 7% of those outstanding. 
+
+In addition, despite IBM's well-publicized recent problems, the computer giant still generates enormous amounts of cash.
+As of the end of the second quarter, it had $4.47 billion of cash and marketable securities on hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+983..1082
+8,1;8,2;8,3;8,4
+#### Text ####
+some securities analysts had predicted in recent days that IBM would authorize additional purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1125..1133
+9,2,1,1,0,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1086..1119
+9,0;9,1;9,2,0;9,3
+#### Text ####
+In Armonk, N.Y., a spokesman said
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+1120..1124;1206..1328
+9,2,1,0;9,2,1,1,1;9,2,1,1,2;9,2,1,1,3
+#### Text ####
+that it thought the purchases were a good way to improve such financial measurements as per-share earnings and return on equity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1134..1204
+9,2,1,1,0,1
+#### Text ####
+IBM didn't view its spending as necessarily a way to support the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1460
+12
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1399..1458
+11
+#### Text ####
+In the short term, the move is likely to have little effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1460..1595
+12
+#### Text ####
+At yesterday's closing price, $1 billion would buy back about 10 million shares, or less than 2% of the roughly 580 million outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1597..1608
+13,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1460..1595
+12
+#### Text ####
+At yesterday's closing price, $1 billion would buy back about 10 million shares, or less than 2% of the roughly 580 million outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1610..1723
+13,1;13,2;13,3;13,4;13,5;13,6;13,7
+#### Text ####
+as of Sept. 30, the company still had authorization to buy $368 million of stock under a prior repurchase program
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1747..1754
+14,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+1399..1458
+11
+#### Text ####
+In the short term, the move is likely to have little effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1727..1745;1756..1945
+14,0;14,1;14,3;14,4;14,5;14,6
+#### Text ####
+Over the long term IBM's stock repurchases -- along with its hefty, $4.84-a-share annual dividend and generally loyal following among large institutional investors -- are providing a floor for the stock price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1949..1957
+15,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+2068..2106
+15,1;15,2;15,3;15,4
+#### Text ####
+it began faltering as early as January
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1958..2066
+15,0,1
+#### Text ####
+IBM last year produced its first strong results in four years and was expected to continue to roll this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2204..2208
+17,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2108..2202
+16
+#### Text ####
+First, it had trouble manufacturing a chip for its mainframes, IBM's bread-and-butter business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2209..2370
+17,1;17,2;17,3
+#### Text ####
+it had a series of smaller glitches, including problems manufacturing certain personal computers and the delay in the announcement of some important workstations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2372..2379
+18,0
+#### Text ####
+Finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+2108..2370
+16;17
+#### Text ####
+First, it had trouble manufacturing a chip for its mainframes, IBM's bread-and-butter business.
+Then it had a series of smaller glitches, including problems manufacturing certain personal computers and the delay in the announcement of some important workstations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2381..2503
+18,1;18,2;18,3;18,4
+#### Text ####
+IBM had to delay the introduction of some high-end disk drives, which account for 10% of its $60 billion of annual revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2550..2553
+19,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2507..2548
+19,0
+#### Text ####
+None of the problems is necessarily fatal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2554..2594
+19,3
+#### Text ####
+they aren't all necessarily even related
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2596
+20
+#### Features ####
+Wr, Comm, Null, Null
+at the same time, Temporal.Synchrony, Comparison.Contrast
+____Arg1____
+2507..2594
+19
+#### Text ####
+None of the problems is necessarily fatal, and they aren't all necessarily even related
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2596..2696
+20
+#### Text ####
+There are also other factors at work that are outside IBM's control, such as currency exchange rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2606..2610
+20,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2108..2503
+16;17;18
+#### Text ####
+First, it had trouble manufacturing a chip for its mainframes, IBM's bread-and-butter business.
+Then it had a series of smaller glitches, including problems manufacturing certain personal computers and the delay in the announcement of some important workstations.
+Finally, IBM had to delay the introduction of some high-end disk drives, which account for 10% of its $60 billion of annual revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2596..2605;2611..2696
+20,0;20,1,0;20,1,2;20,2
+#### Text ####
+There are other factors at work that are outside IBM's control, such as currency exchange rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2698
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2596..2696
+20
+#### Text ####
+There are also other factors at work that are outside IBM's control, such as currency exchange rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2698..2715;2813..2895
+21,0,0;21,0,1;21,0,3;21,1;21,2
+#### Text ####
+The strong dollar is expected to knock 80 to 85 cents off IBM's per-share earnings for the full year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2774..2778
+21,0,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2717..2773
+21,0,2,0;21,0,2,1,0;21,0,2,1,1,0;21,0,2,1,1,1
+#### Text ####
+which reduces the value of overseas earnings and revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2779..2811
+21,0,2,1,1,2,1
+#### Text ####
+they are translated into dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2897
+22
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2698..2715;2813..2895
+21,0,0;21,0,1;21,0,3;21,1;21,2
+#### Text ####
+The strong dollar is expected to knock 80 to 85 cents off IBM's per-share earnings for the full year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2897..2997
+22
+#### Text ####
+Without that problem, IBM might have matched last year's earnings of $5.81 billion, or $9.80 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3001..3006
+23,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Sup1____
+2698..2997
+21;22
+#### Text ####
+The strong dollar, which reduces the value of overseas earnings and revenue when they are translated into dollars, is expected to knock 80 to 85 cents off IBM's per-share earnings for the full year.
+Without that problem, IBM might have matched last year's earnings of $5.81 billion, or $9.80 a share
+##############
+____Arg1____
+2507..2696
+19;20
+#### Text ####
+None of the problems is necessarily fatal, and they aren't all necessarily even related.
+There are also other factors at work that are outside IBM's control, such as currency exchange rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3008..3094
+23,1;23,2;23,3;23,4
+#### Text ####
+investors will take some convincing before they get back into IBM's stock in a big way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3044..3050
+23,3,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3001..3043
+23,0;23,1;23,2;23,3,0;23,3,1,0;23,3,1,1;23,4
+#### Text ####
+Still, investors will take some convincing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3051..3094
+23,3,1,2,1
+#### Text ####
+they get back into IBM's stock in a big way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3157
+24
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+3001..3094
+23
+#### Text ####
+Still, investors will take some convincing before they get back into IBM's stock in a big way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3157..3326
+24,1,1
+#### Text ####
+that while investors were looking for an excuse to buy IBM shares a year ago, even the big institutional investors are looking for a reason to avoid the stock these days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3096..3156
+24,0;24,1,0;24,2
+#### Text ####
+Steve Milunovich, a securities analyst at First Boston, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3162..3167
+24,1,1,1,0,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3096..3156
+24,0;24,1,0;24,2
+#### Text ####
+Steve Milunovich, a securities analyst at First Boston, said
+##############
+while, Comparison.Contrast.Opposition
+____Arg1____
+3157..3161;3235..3326
+24,1,1,0;24,1,1,1,1;24,1,1,1,2;24,1,1,1,3
+#### Text ####
+that even the big institutional investors are looking for a reason to avoid the stock these days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3168..3233
+24,1,1,1,0,1
+#### Text ####
+investors were looking for an excuse to buy IBM shares a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,311 @@
+________________________________________________________
+____Implicit____
+538
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+431..536
+2
+#### Text ####
+The $2.25 billion value claimed by Northeast, based in Hartford, Conn., is the highest yet given to a bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+538..623
+3,0;3,1,0;3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1,0;3,1,1,1,1,1,1;3,1,1,1,1,1,2,0;3,1,1,1,1,1,2,1;3,2
+#### Text ####
+Some of the three other bidding groups are expected to increase their offers tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+684
+4
+____Arg1____
+538..682
+3
+#### Text ####
+Some of the three other bidding groups are expected to increase their offers tomorrow, a date set for revised offers by a bankruptcy court judge
+##############
+____Arg2____
+684..772
+4
+#### Text ####
+A hearing is set for Nov. 15, but participants don't expect a resolution until July 1990
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+714..717
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+684..712
+4,0
+#### Text ####
+A hearing is set for Nov. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+718..772
+4,3
+#### Text ####
+participants don't expect a resolution until July 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+916
+6
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+776..914
+5
+#### Text ####
+Under the new Northeast Utilities plan, it would pay $1.65 billion in cash to creditors and assume $100 million in pollution control bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+916..1127
+6
+#### Text ####
+Secured creditors would recover both principal and interest, while unsecured creditors would receive only principal and interest accrued before PS of New Hampshire filed for Bankruptcy Code protection in January
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+977..982
+6,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+916..975
+6,0;6,1,0;6,1,1,0;6,1,1,1;6,1,1,2
+#### Text ####
+Secured creditors would recover both principal and interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+983..1127
+6,1,1,3,1
+#### Text ####
+unsecured creditors would receive only principal and interest accrued before PS of New Hampshire filed for Bankruptcy Code protection in January
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1053..1059
+6,1,1,3,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1045..1052
+6,1,1,3,1,1,1,1,1,0;6,1,1,3,1,1,1,1,1,1
+#### Text ####
+accrued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1060..1127
+6,1,1,3,1,1,1,1,1,2,1
+#### Text ####
+PS of New Hampshire filed for Bankruptcy Code protection in January
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1258
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1130..1256
+7
+#### Text ####
+The biggest change in Northeast's offer was in improvements made for equity holders who had been given short shrift previously
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1258..1317;1363..1466
+8,0,0;8,0,1,0;8,0,1,1,0;8,0,1,1,1,0;8,0,1,1,1,1,0;8,0,1,1,1,1,1;8,0,1,1,1,1,3;8,1;8,2;8,3
+#### Text ####
+Assuming full operation of the Seabrook nuclear power plant equity holders would receive up to $500 million in cash, preferred stock and new 10-year Seabrook bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1468
+9
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1258..1317;1363..1466
+8,0,0;8,0,1,0;8,0,1,1,0;8,0,1,1,1,0;8,0,1,1,1,1,0;8,0,1,1,1,1,1;8,0,1,1,1,1,3;8,1;8,2;8,3
+#### Text ####
+Assuming full operation of the Seabrook nuclear power plant equity holders would receive up to $500 million in cash, preferred stock and new 10-year Seabrook bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1468..1553
+9
+#### Text ####
+Northeast's previous offer had proposed that equity holders receive just $165 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1557..1568
+10,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+776..1127;1258..1466
+5;6;8
+#### Text ####
+Under the new Northeast Utilities plan, it would pay $1.65 billion in cash to creditors and assume $100 million in pollution control bonds.
+Secured creditors would recover both principal and interest, while unsecured creditors would receive only principal and interest accrued before PS of New Hampshire filed for Bankruptcy Code protection in January Assuming full operation of the Seabrook nuclear power plant, which is completed but isn't yet operating, equity holders would receive up to $500 million in cash, preferred stock and new 10-year Seabrook bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1570..1685
+10,1;10,2;10,3;10,4
+#### Text ####
+Northeast promised the State of New Hampshire that rate increases would be limited to 5.5% annually for seven years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1687
+11
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+1557..1685
+10
+#### Text ####
+In addition, Northeast promised the State of New Hampshire that rate increases would be limited to 5.5% annually for seven years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1687..1783
+11
+#### Text ####
+Its previous proposal had conditioned rate limits on Seabrook operations and other contingencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2068
+14
+____Arg1____
+2002..2066
+13
+#### Text ####
+Officials of PS of New Hampshire couldn't be reached for comment
+##############
+____Arg2____
+2068..2186
+14
+#### Text ####
+The company has filed an internal reorganization plan it valued at $2.2 billion that would require 5.5% rate increases
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2188
+15
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2068..2186
+14
+#### Text ####
+The company has filed an internal reorganization plan it valued at $2.2 billion that would require 5.5% rate increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2188..2313
+15
+#### Text ####
+That plan would leave existing preferred shareholders with at least a 41% stake and give common shareholders as little as 13%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2504
+17
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2431..2502
+16,1,1,1,1,3,1,1,1,1
+#### Text ####
+that would require rate increases of only 4.8% annually for seven years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2504..2552
+17
+#### Text ####
+The state of New Hampshire has favored that plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

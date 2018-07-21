@@ -1,0 +1,218 @@
+________________________________________________________
+____EntRel____
+420
+2
+____Arg1____
+251..418
+1
+#### Text ####
+Frank Lavelle, who at the time was the marketing director for Sperry in Clearwater, Fla., admitted participating in a scheme to bribe Garland Tomlin, the Navy official
+##############
+____Arg2____
+420..546
+2
+#### Text ####
+Mr. Tomlin, who left the Navy in 1985, pleaded guilty earlier this year to related conspiracy, bribery and tax-evasion charges
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+737
+4
+____Arg1____
+550..735
+3
+#### Text ####
+The bribery scheme took place between 1982 and 1985, according to documents filed by prosecutors in connection with Mr. Lavelle's guilty plea in federal district court in Alexandria, Va
+##############
+____Arg2____
+737..807
+4
+#### Text ####
+Sperry merged with Burroughs Corp. to become Unisys Corp. in late 1986
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+989
+6
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+857..987
+5,1,1
+#### Text ####
+Mr. Tomlin tried to steer to Sperry a multimillion dollar contract to computerize maintenance of certain Navy electronics equiment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+811..856
+5,0;5,1,0;5,2
+#### Text ####
+Court documents filed by prosecutors indicate
+##############
+____Arg2____
+989..1152
+6,0
+#### Text ####
+Mr. Tomlin, among other things, illegally provided Mr. Lavelle with inside information and documents intended to give Sperry an unfair advantage in the competition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1154..1172
+6,1;6,2;6,3;6,4
+#### Text ####
+the documents said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1181..1191
+7,1
+#### Text ####
+ultimately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+ultimately, Temporal.Asynchronous.Precedence
+____Arg1____
+989..1152
+6,0
+#### Text ####
+Mr. Tomlin, among other things, illegally provided Mr. Lavelle with inside information and documents intended to give Sperry an unfair advantage in the competition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1154..1172
+6,1;6,2;6,3;6,4
+#### Text ####
+the documents said
+##############
+____Arg2____
+1174..1180;1192..1254
+7,0;7,2;7,3
+#### Text ####
+Sperry was eliminated from the competition without receiving the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1289..1293
+8,1,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+811..987
+5
+#### Text ####
+Court documents filed by prosecutors indicate Mr. Tomlin tried to steer to Sperry a multimillion dollar contract to computerize maintenance of certain Navy electronics equiment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1258..1288;1294..1429
+8,0;8,1,1;8,1,2,0;8,1,2,1,0;8,1,2,1,1,0;8,1,2,1,1,1;8,1,2,1,1,2;8,1,2,1,1,3;8,1,2,1,1,4;8,1,2,1,1,5;8,1,2,1,1,6;8,1,2,1,1,7;8,2;8,3
+#### Text ####
+Documents filed by prosecutors indicate that Mr. Lavelle and his fellow conspirators requested and obtained "approval of the scheme" from more-senior Sperry officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1431..1492
+8,1,2,1,1,8
+#### Text ####
+because the payment which {Mr.} Tomlin requested was so large
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1431..1438
+8,1,2,1,1,8,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1258..1302
+8,0;8,1,0;8,1,1;8,2;8,3
+#### Text ####
+Documents filed by prosecutors also indicate
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1303..1429
+8,1,2,0;8,1,2,1,0;8,1,2,1,1,0;8,1,2,1,1,1;8,1,2,1,1,2;8,1,2,1,1,3;8,1,2,1,1,4;8,1,2,1,1,5;8,1,2,1,1,6;8,1,2,1,1,7
+#### Text ####
+that Mr. Lavelle and his fellow conspirators requested and obtained "approval of the scheme" from more-senior Sperry officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1439..1492
+8,1,2,1,1,8,1
+#### Text ####
+the payment which {Mr.} Tomlin requested was so large
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1495
+9
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion
+____Arg1____
+1258..1429
+8,0;8,1,0;8,1,1;8,1,2,0;8,1,2,1,0;8,1,2,1,1,0;8,1,2,1,1,1;8,1,2,1,1,2;8,1,2,1,1,3;8,1,2,1,1,4;8,1,2,1,1,5;8,1,2,1,1,6;8,1,2,1,1,7;8,2;8,3
+#### Text ####
+Documents filed by prosecutors also indicate that Mr. Lavelle and his fellow conspirators requested and obtained "approval of the scheme" from more-senior Sperry officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1495..1650
+9
+#### Text ####
+Charles Gardner, a former Unisys vice president, and James Neal, a former company consultant, have admitted participating in this and other bribery schemes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1668
+10
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1495..1650
+9
+#### Text ####
+Charles Gardner, a former Unisys vice president, and James Neal, a former company consultant, have admitted participating in this and other bribery schemes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1668..1763
+10,1,1,1
+#### Text ####
+that all of the company officials who participated in improper activities have left the company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1652..1667
+10,0;10,1,0;10,1,1,0;10,2
+#### Text ####
+Unisys has said
+##############
+________________________________________________________

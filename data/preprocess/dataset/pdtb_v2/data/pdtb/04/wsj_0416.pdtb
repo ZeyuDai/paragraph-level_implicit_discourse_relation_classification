@@ -1,0 +1,925 @@
+________________________________________________________
+____EntRel____
+425
+4
+____Arg1____
+312..423
+3
+#### Text ####
+The battle focuses on the state's certificate-of-need law, which regulates investment in new medical technology
+##############
+____Arg2____
+425..576
+4
+#### Text ####
+The law has prevented $216 million of unnecessary expenditures since 1986, according to William S. Conn, president of the Kentucky Hospital Association
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+580..583
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+425..576
+4
+#### Text ####
+The law has prevented $216 million of unnecessary expenditures since 1986, according to William S. Conn, president of the Kentucky Hospital Association
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+584..707
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+according to David Jones, Humana's chief executive, it promotes technology monopolies, stifles innovation and raises prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+711..713
+6,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+780..794
+6,1;6,2,0;6,3
+#### Text ####
+Mr. Jones says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+795..889
+6,2,1
+#### Text ####
+Humana may move its insurance operations, including 3,000 jobs in Louisville, to another state
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+714..778
+6,0,1
+#### Text ####
+the Legislature doesn't repeal the law, due for revision in 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1043..1046
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+893..1041
+7
+#### Text ####
+The company complains that it paid $10 million to non-Humana hospitals in its latest fiscal year for services provided to its insurance plan members
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1047..1141
+8,1;8,2;8,3
+#### Text ####
+Humana says its own facilities could serve its insured for less if they were properly equipped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1111..1113
+8,2,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1047..1058
+8,1;8,2,0;8,3
+#### Text ####
+Humana says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1059..1110
+8,2,1,0;8,2,1,1,0;8,2,1,1,1,0;8,2,1,1,1,1,0;8,2,1,1,1,1,1;8,2,1,1,1,1,2
+#### Text ####
+its own facilities could serve its insured for less
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1114..1141
+8,2,1,1,1,1,3,1
+#### Text ####
+they were properly equipped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1212
+10
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1145..1210
+9
+#### Text ####
+Mr. Conn charges that Humana's own actions undermine its argument
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1212..1563
+10;11
+#### Text ####
+When a hospital in Lexington installed a lithotripter last year, demand for a similar kidney-stone smashing machine at a Humana hospital in Louisville fell 34%.
+The Humana hospital responded by jacking up prices to make up for lost revenue, Mr. Conn says, and now charges as much as $8,000 for the procedure, which costs only about $3,500 in Lexington
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1212..1216
+10,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1277..1371
+10,1;10,2;10,3;10,4
+#### Text ####
+demand for a similar kidney-stone smashing machine at a Humana hospital in Louisville fell 34%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1217..1275
+10,0,1
+#### Text ####
+a hospital in Lexington installed a lithotripter last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1373
+11
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1212..1371
+10
+#### Text ####
+When a hospital in Lexington installed a lithotripter last year, demand for a similar kidney-stone smashing machine at a Humana hospital in Louisville fell 34%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1373..1451
+11,0;11,1,0;11,2
+#### Text ####
+The Humana hospital responded by jacking up prices to make up for lost revenue
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1453..1466
+11,1,1
+#### Text ####
+Mr. Conn says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1622..1625
+12,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1567..1582
+12,0;12,1,0;12,2
+#### Text ####
+Humana contends
+##############
+and, Expansion.Conjunction
+____Arg1____
+1583..1621
+12,1,1,0
+#### Text ####
+that $8,000 represents an extreme case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1626..1675
+12,1,1,2
+#### Text ####
+that its regular charge for lithotripsy is $4,900
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1679..1688
+13,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Sup1____
+1567..1675
+12
+#### Text ####
+Humana contends that $8,000 represents an extreme case and that its regular charge for lithotripsy is $4,900
+##############
+____Arg1____
+1212..1563
+10;11
+#### Text ####
+When a hospital in Lexington installed a lithotripter last year, demand for a similar kidney-stone smashing machine at a Humana hospital in Louisville fell 34%.
+The Humana hospital responded by jacking up prices to make up for lost revenue, Mr. Conn says, and now charges as much as $8,000 for the procedure, which costs only about $3,500 in Lexington
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1690..1932
+13,1;13,2;13,3;13,4;14
+#### Text ####
+another hospital's proposal for a new-generation lithotripter is pending before the board that administers the certificate-of-need law.
+Humana, which wants to acquire one of the new machines itself, is on the record as opposed to the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1826
+14
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1679..1824
+13
+#### Text ####
+Meanwhile, another hospital's proposal for a new-generation lithotripter is pending before the board that administers the certificate-of-need law
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1826..1932
+14
+#### Text ####
+Humana, which wants to acquire one of the new machines itself, is on the record as opposed to the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2263
+17
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2209..2261
+17,0;17,1;17,2,0;17,2,1;17,2,2;17,2,3;17,3
+#### Text ####
+Now there's a new wrinkle in what young doctors want
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2263..2444
+17,2,4
+#### Text ####
+More than half of 300 residents responding to recent survey said they'd prefer a guaranteed salary over traditional fee-for-service compensation in their first professional position
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2446..2449
+18,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2263..2444
+17,2,4
+#### Text ####
+More than half of 300 residents responding to recent survey said they'd prefer a guaranteed salary over traditional fee-for-service compensation in their first professional position
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2450..2553
+18,1;18,2;18,3
+#### Text ####
+81% preferred a group practice or health maintenance organization, while just 11% favored solo practice
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2517..2522
+18,2,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2446..2515
+18,0;18,1;18,2,0;18,2,1;18,2,2;18,3
+#### Text ####
+And 81% preferred a group practice or health maintenance organization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2523..2553
+18,2,3,1
+#### Text ####
+just 11% favored solo practice
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2779
+20
+#### Features ####
+Ot, Comm, Null, Null
+2648..2776
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+says James Merritt, president of Merritt, Hawkins & Associates, an Irvine, Calif., physician recruiter that conducted the survey
+##############
+but, Comparison.Contrast
+____Arg1____
+2558..2645
+19,1
+#### Text ####
+Ten years ago, a physician would go to a town and take out a loan (to start a practice)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2779..2821
+20
+#### Text ####
+They won't do that very often today at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2823
+21
+#### Features ####
+Ot, Comm, Null, Null
+2648..2776
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+says James Merritt, president of Merritt, Hawkins & Associates, an Irvine, Calif., physician recruiter that conducted the survey
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2779..2821
+20
+#### Text ####
+They won't do that very often today at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2823..2869
+21
+#### Text ####
+They're looking for something that's very safe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3095
+23
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2905..3042
+22,2,0
+#### Text ####
+The average debt of medical school graduates who borrowed to pay for their education jumped 10% to $42,374 this year from $38,489 in 1988
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3044..3093
+22,2,1;22,2,2;22,2,3
+#### Text ####
+says the Association of American Medical Colleges
+##############
+____Arg2____
+3095..3124
+23
+#### Text ####
+That's 115% more than in 1981
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3195
+25
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3128..3193
+24
+#### Text ####
+Money isn't the only reason for the shift in practice preferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3195..3286
+25,0
+#### Text ####
+It reflects values of a generation that wants more time for families and personal interests
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3288..3311
+25,1;25,2;25,3,0;25,3,1;25,4
+#### Text ####
+says John H. Moxley III
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3385
+26
+#### Features ####
+Ot, Comm, Null, Null
+3288..3311
+25,1;25,2;25,3,0;25,3,1;25,4
+#### Text ####
+says John H. Moxley III
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3195..3286
+25,0
+#### Text ####
+It reflects values of a generation that wants more time for families and personal interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3385..3434
+26,1
+#### Text ####
+This is a change in the social fabric of medicine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3490..3494
+28,0,0
+#### Text ####
+WHEN
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3607..3648
+28,1;28,2;28,3;28,4
+#### Text ####
+she shared a room just like most patients
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3495..3605
+28,0,1
+#### Text ####
+Catherine Bobar spent several weeks at the Medical Center of Vermont recently with a bone infection in her toe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3652..3655
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3490..3648
+28
+#### Text ####
+WHEN Catherine Bobar spent several weeks at the Medical Center of Vermont recently with a bone infection in her toe, she shared a room just like most patients
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3656..3706
+29,1;29,2;29,3;29,4;29,5
+#### Text ####
+unlike most patients, her roommate was her husband
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3709
+30
+____Arg1____
+3652..3706
+29
+#### Text ####
+But unlike most patients, her roommate was her husband
+##############
+____Arg2____
+3709..3766
+30
+#### Text ####
+It was certainly good to have him handy," Mrs. Bobar says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3910
+32
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3770..3907
+31
+#### Text ####
+The 12-bed "cooperative care" unit is one of about 18 nationwide where a family member or friend helps care for a patient in the hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3910..4011
+32,1
+#### Text ####
+The philosophy is to make the patient and the family very responsible for a portion of their own care
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4014..4112
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,5,2,0;32,5,2,1;32,5,2,2,0;32,5,2,2,1,0;32,5,2,2,1,1;32,6
+#### Text ####
+says Anthony J. Grieco, medical director of cooperative care at New York University Medical Center
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4153
+33
+#### Features ####
+Ot, Comm, Null, Null
+4014..4112
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,5,2,0;32,5,2,1;32,5,2,2,0;32,5,2,2,1,0;32,5,2,2,1,1;32,6
+#### Text ####
+says Anthony J. Grieco, medical director of cooperative care at New York University Medical Center
+##############
+in the end, Expansion.Restatement.Generalization
+____Arg1____
+3910..4011
+32,1
+#### Text ####
+The philosophy is to make the patient and the family very responsible for a portion of their own care
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4153..4268
+33
+#### Text ####
+It helps us, and them, while they're here, and it certainly makes them a better health-care team when they get home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4176..4181
+33,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4014..4112
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,5,2,0;32,5,2,1;32,5,2,2,0;32,5,2,2,1,0;32,5,2,2,1,1;32,6
+#### Text ####
+says Anthony J. Grieco, medical director of cooperative care at New York University Medical Center
+##############
+while, Temporal.Synchrony
+____Arg1____
+4153..4174
+33,1,0;33,1,1,0;33,1,1,1;33,1,1,2
+#### Text ####
+It helps us, and them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4182..4194
+33,1,1,3,1
+#### Text ####
+they're here
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4196..4199
+33,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4014..4112
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,5,2,0;32,5,2,1;32,5,2,2,0;32,5,2,2,1,0;32,5,2,2,1,1;32,6
+#### Text ####
+says Anthony J. Grieco, medical director of cooperative care at New York University Medical Center
+##############
+and, Expansion.Conjunction
+____Arg1____
+4153..4194
+33,1
+#### Text ####
+It helps us, and them, while they're here
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4200..4268
+33,4
+#### Text ####
+it certainly makes them a better health-care team when they get home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4250..4254
+33,4,2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4014..4112
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,5,2,0;32,5,2,1;32,5,2,2,0;32,5,2,2,1,0;32,5,2,2,1,1;32,6
+#### Text ####
+says Anthony J. Grieco, medical director of cooperative care at New York University Medical Center
+##############
+when, Temporal.Synchrony
+____Arg1____
+4196..4249
+33,3;33,4,0;33,4,1;33,4,2,0;33,4,2,1,0;33,4,2,1,1;33,5;33,6
+#### Text ####
+and it certainly makes them a better health-care team
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4255..4268
+33,4,2,1,2,1
+#### Text ####
+they get home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4276..4280
+34,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4153..4268
+33
+#### Text ####
+It helps us, and them, while they're here, and it certainly makes them a better health-care team when they get home
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4014..4112
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,5,2,0;32,5,2,1;32,5,2,2,0;32,5,2,2,1,0;32,5,2,2,1,1;32,6
+#### Text ####
+says Anthony J. Grieco, medical director of cooperative care at New York University Medical Center
+##############
+____Arg2____
+4273..4275;4281..4292
+34,0;34,2;34,3
+#### Text ####
+It saves money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4294
+35
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+4273..4292
+34
+#### Text ####
+It also saves money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4294..4385
+35,0;35,1;35,2;35,3,0;35,3,1,0;35,3,1,1;35,4
+#### Text ####
+Because patients require less attention from nurses and other staff, room charges are lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4294..4301
+35,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4363..4456
+35,1;35,2;35,3;35,4
+#### Text ####
+room charges are lower -- about $100 less per day than a regular room at the Vermont hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4302..4361
+35,0,1
+#### Text ####
+patients require less attention from nurses and other staff
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4654
+37
+____Arg1____
+4460..4652
+36
+#### Text ####
+Cancer patients needing prolonged radiation therapy, diabetics learning to manage their blood sugar levels, and cardiac bypass patients are among those who spend time on cooperative-care units
+##############
+____Arg2____
+4654..4766
+37
+#### Text ####
+The approach has generated so much interest that NYU is host to the first conference on cooperative care Nov. 30
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4769
+38
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+4654..4766
+37
+#### Text ####
+The approach has generated so much interest that NYU is host to the first conference on cooperative care Nov. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4769..4821
+38,1
+#### Text ####
+It's really part of the hospital of the 21st century
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4824..4839
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+Dr. Grieco says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4981
+40
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4859..4979
+40,0
+#### Text ####
+THE CHIEF NURSING officer can be responsible for more than 1,000 employees and at least one-third of a hospital's budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4981..5046
+40,2
+#### Text ####
+a head nurse typically oversees up to 80 employees and $8 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5048
+41
+____Arg1____
+4981..5046
+40,2
+#### Text ####
+a head nurse typically oversees up to 80 employees and $8 million
+##############
+____Arg2____
+5048..5220
+41
+#### Text ####
+So says the Commonwealth Fund, a New York philanthropist that's sponsoring a $1 million project to develop joint masters in business and nursing programs at 10 universities
+##############
+________________________________________________________

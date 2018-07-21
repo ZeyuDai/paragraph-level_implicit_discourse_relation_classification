@@ -1,0 +1,185 @@
+________________________________________________________
+____Explicit____
+80..82
+0,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..79
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+Valley Federal Savings & Loan Association took an $89.9 million charge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+83..151
+0,1,2,1
+#### Text ####
+it reported a third-quarter loss of $70.7 million, or $12.09 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+447
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+250..428
+2
+#### Text ####
+The bulk of the pretax charge is a $62 million write-off of capitalized servicing at the mobile home financing subsidiary, which the company said had been a big drain on earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+447..529
+3,1,1
+#### Text ####
+the one-time provision would substantially eliminate all future losses at the unit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+430..446
+3,0;3,1,0;3,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+546..550
+4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+250..371
+2,0;2,1,0;2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1;2,2
+#### Text ####
+The bulk of the pretax charge is a $62 million write-off of capitalized servicing at the mobile home financing subsidiary
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+531..545;551..637
+4,0;4,2;4,3
+#### Text ####
+Valley Federal added $18 million to realestate loan reserves and eliminated $9.9 million of good will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+663..668
+5,1,1,2,0,0,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+641..661
+5,0;5,1,0;5,1,1,0;5,1,1,1;5,2;5,3
+#### Text ####
+The thrift said that
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+763..802
+5,1,1,2,3,1
+#### Text ####
+to achieve near record earnings in 1990
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+739..762
+5,1,1,2,1;5,1,1,2,2;5,1,1,2,3,0
+#### Text ####
+the association expects
+##############
+____Arg2____
+669..737
+5,1,1,2,0,0,1;5,1,1,2,0,1;5,1,1,2,0,2;5,1,1,2,1
+#### Text ####
+these charges and assuming no dramatic fluctuation in interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+865
+7
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+807..863
+6
+#### Text ####
+Valley Federal is currently being examined by regulators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+865..891
+7,0
+#### Text ####
+New loans continue to slow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+893
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+865..891
+7,0
+#### Text ####
+New loans continue to slow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+893..970
+7,2
+#### Text ####
+they were $6.6 million in the quarter compared with $361.8 million a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+972
+8
+____Arg1____
+893..970
+7,2
+#### Text ####
+they were $6.6 million in the quarter compared with $361.8 million a year ago
+##############
+____Arg2____
+972..1009
+8
+#### Text ####
+The thrift has assets of $3.2 billion
+##############
+________________________________________________________

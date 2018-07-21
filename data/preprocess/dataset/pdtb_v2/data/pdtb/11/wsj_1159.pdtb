@@ -1,0 +1,294 @@
+________________________________________________________
+____EntRel____
+284
+2
+____Arg1____
+156..282
+1
+#### Text ####
+The guidelines were distributed to U.S. attorneys last summer but were disclosed for the first time by press reports this week
+##############
+____Arg2____
+284..428
+2
+#### Text ####
+They discourage prosecutors, under certain circumstances, from seeking court orders seizing the assets of racketeering defendants prior to trial
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+430..433
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+284..428
+2
+#### Text ####
+They discourage prosecutors, under certain circumstances, from seeking court orders seizing the assets of racketeering defendants prior to trial
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+489..573
+3,2,1
+#### Text ####
+the guidelines "are a codification and a clarification far more than a new direction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+434..488
+3,1;3,2,0;3,3;3,4
+#### Text ####
+David Runkel, chief Justice Department spokesman, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+812
+5
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+578..786
+4
+#### Text ####
+Use of the Racketeer Influenced and Corrupt Organizations law against white-collar defendants, as opposed to alleged organized-crime figures, has come under attack from some defense lawyers and legal scholars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+812..1042
+5,1,1,1
+#### Text ####
+that the law unfairly strips defendants of assets before a jury determines they have committed a crime and that aggressive use of the forfeiture provisions can ruin corporate defendants or force them into unfavorable plea bargains
+##############
+#### Features ####
+Ot, Comm, Null, Null
+788..811
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+Critics have complained
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+862..868
+5,1,1,1,0,1,1,4,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+788..811
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+Critics have complained
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+812..861
+5,1,1,1,0,0;5,1,1,1,0,1,0;5,1,1,1,0,1,1,0;5,1,1,1,0,1,1,1;5,1,1,1,0,1,1,2;5,1,1,1,0,1,1,3
+#### Text ####
+that the law unfairly strips defendants of assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+869..914
+5,1,1,1,0,1,1,4,1
+#### Text ####
+a jury determines they have committed a crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+915..918
+5,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+788..811
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+Critics have complained
+##############
+and, Expansion.Conjunction
+____Arg1____
+812..914
+5,1,1,1,0
+#### Text ####
+that the law unfairly strips defendants of assets before a jury determines they have committed a crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+919..1042
+5,1,1,1,2
+#### Text ####
+that aggressive use of the forfeiture provisions can ruin corporate defendants or force them into unfavorable plea bargains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1367..1371
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1046..1347
+6
+#### Text ####
+In the new guidelines, the Justice Department says that in attempting to freeze disputed assets before trial, "the government will not seek to disrupt the normal, legitimate business activities of the defendant" and "will not seek. . .to take from third parties assets legitimately transferred to them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1366;1372..1540
+7,0;7,2;7,3;7,4
+#### Text ####
+The guidelines state, "The government's policy is not to seek the fullest forfeiture permissible under the law where that forfeiture would be disproportionate to the defendant's crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1808
+10
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1681..1805
+9
+#### Text ####
+Mr. Runkel declined to speculate on whether the guidelines would curb racketeering prosecutions against corporate defendants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1808..2012
+10,1
+#### Text ####
+The impact, if there is any, will be impossible to judge ahead of time because the decision whether to use {racketeering charges} is made in individual cases" by Justice Department officials in Washington
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1820..1822
+10,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2014..2021
+10,0;10,2;10,3;10,4;10,5
+#### Text ####
+he said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1808..1818;1837..1878
+10,1,0;10,1,1;10,1,3;10,1,4,0;10,1,4,1,0;10,1,4,1,1
+#### Text ####
+The impact will be impossible to judge ahead of time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1823..1835
+10,1,2,1
+#### Text ####
+there is any
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1879..1886
+10,1,4,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2014..2021
+10,0;10,2;10,3;10,4;10,5
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1808..1878
+10,1,0;10,1,1;10,1,2;10,1,3;10,1,4,0;10,1,4,1,0;10,1,4,1,1
+#### Text ####
+The impact, if there is any, will be impossible to judge ahead of time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1887..2012
+10,1,4,1,2,1
+#### Text ####
+the decision whether to use {racketeering charges} is made in individual cases" by Justice Department officials in Washington
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2269..2272
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2118..2266
+11,3,1
+#### Text ####
+that government efforts to freeze defendants' assets pending racketeering prosecutions "have been the subject of considerable criticism in the press
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2025..2117
+11,0;11,1;11,2;11,3,0;11,4;11,5
+#### Text ####
+In a memorandum describing the guidelines, Assistant Attorney General Edward Dennis Jr. said
+##############
+____Arg2____
+2289..2355
+12,2,1
+#### Text ####
+the government isn't "backing off on these kinds of matters at all
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2273..2288
+12,1;12,2,0;12,3
+#### Text ####
+Mr. Runkel said
+##############
+________________________________________________________

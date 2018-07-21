@@ -1,0 +1,442 @@
+________________________________________________________
+____EntRel____
+347
+2
+____Arg1____
+167..345
+1
+#### Text ####
+The proposed changes, which are scheduled to be announced today, would apply to pesticides and other substances found on fresh and processed foods, according to federal officials
+##############
+____Arg2____
+347..464
+2
+#### Text ####
+Environmental groups have been calling for faster action on dangerous pesticides and may welcome part of the proposal
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+468..471
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+347..464
+2
+#### Text ####
+Environmental groups have been calling for faster action on dangerous pesticides and may welcome part of the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+472..605
+3,1;3,2;3,3
+#### Text ####
+they are already objecting to, among other things, a plan to give more weight to cost-benefit considerations in evaluating pesticides
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+607
+4
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+468..605
+3
+#### Text ####
+But they are already objecting to, among other things, a plan to give more weight to cost-benefit considerations in evaluating pesticides
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+607..870
+4;5
+#### Text ####
+It's a tremendous disappointment," said Janet Hathaway, an attorney with the Natural Resources Defense Council. "Allowing the EPA to condone continued use of a chemical whenever the benefits outweigh the risks is absolutely anathema to the environmental community
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+720
+5
+#### Features ####
+Ot, Comm, Null, Null
+642..717
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+said Janet Hathaway, an attorney with the Natural Resources Defense Council
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+607..639
+4,1
+#### Text ####
+It's a tremendous disappointment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+720..870
+5
+#### Text ####
+Allowing the EPA to condone continued use of a chemical whenever the benefits outweigh the risks is absolutely anathema to the environmental community
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1039
+7
+____Arg1____
+875..1037
+6
+#### Text ####
+The Bush administration plans to announce a series of principles and to work with congressional leaders in writing specific legislative proposals that embody them
+##############
+____Arg2____
+1039..1219
+7
+#### Text ####
+The principles would give the Environmental Protection Agency increased authority and flexibility in regulating pesticides, with the aim of enabling the agency to move more quickly
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1221
+8
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1039..1219
+7
+#### Text ####
+The principles would give the Environmental Protection Agency increased authority and flexibility in regulating pesticides, with the aim of enabling the agency to move more quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1221..1294
+8
+#### Text ####
+There already are proposals pending in Congress to overhaul pesticide law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1546
+10
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1404..1544
+9,1,2,1,2
+#### Text ####
+when the EPA was harshly criticized for failing to yank the possible carcinogen, a growth regulator used to make apples redder and crunchier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1546..1723
+10
+#### Text ####
+The agency has since acted to remove Alar from the nation's grocery shelves by May 31, 1991, and the apple industry has said that growers already have stopped using the chemical
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1639..1642
+10,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1546..1637
+10,0
+#### Text ####
+The agency has since acted to remove Alar from the nation's grocery shelves by May 31, 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1643..1723
+10,3
+#### Text ####
+the apple industry has said that growers already have stopped using the chemical
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1727..1738
+11,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Sup1____
+1221..1723
+8;9;10
+#### Text ####
+There already are proposals pending in Congress to overhaul pesticide law. 
+
+Moves to accelerate the removal of dangerous pesticides gained new impetus during this year's Alar scare, when the EPA was harshly criticized for failing to yank the possible carcinogen, a growth regulator used to make apples redder and crunchier.
+The agency has since acted to remove Alar from the nation's grocery shelves by May 31, 1991, and the apple industry has said that growers already have stopped using the chemical
+##############
+____Arg1____
+1039..1219
+7
+#### Text ####
+The principles would give the Environmental Protection Agency increased authority and flexibility in regulating pesticides, with the aim of enabling the agency to move more quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1740..1805
+11,1;11,2;11,3;11,4
+#### Text ####
+the principles attempt to eliminate the so-called Delaney Paradox
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1807..2087
+12;13
+#### Text ####
+Under the Delaney clause, which applies to processed food, a chemical is banned if it causes cancer in laboratory animals.
+Under other laws applying to pesticide use, however, that same chemical could be allowed to be used on fresh food if it fell within the EPA's tolerance level
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1807
+12
+____Arg1____
+1727..1805
+11
+#### Text ####
+In addition, the principles attempt to eliminate the so-called Delaney Paradox
+##############
+____Arg2____
+1807..2087
+12;13
+#### Text ####
+Under the Delaney clause, which applies to processed food, a chemical is banned if it causes cancer in laboratory animals.
+Under other laws applying to pesticide use, however, that same chemical could be allowed to be used on fresh food if it fell within the EPA's tolerance level
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1887..1889
+12,2,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Sup1____
+1833..1864
+12,0,1,2
+#### Text ####
+which applies to processed food
+##############
+____Arg1____
+1807..1831;1866..1886
+12,0,0;12,0,1,0;12,0,1,1;12,0,1,3;12,1;12,2,0;12,2,1,0;12,2,1,1;12,3
+#### Text ####
+Under the Delaney clause a chemical is banned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1890..1928
+12,2,1,2,1
+#### Text ####
+it causes cancer in laboratory animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1974..1981
+13,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+1807..1928
+12
+#### Text ####
+Under the Delaney clause, which applies to processed food, a chemical is banned if it causes cancer in laboratory animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1930..1972;1983..2087
+13,0;13,1;13,3;13,4;13,5;13,6
+#### Text ####
+Under other laws applying to pesticide use that same chemical could be allowed to be used on fresh food if it fell within the EPA's tolerance level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2044..2046
+13,5,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+1930..2043
+13,0;13,1;13,2;13,3;13,4;13,5,0;13,5,1,0;13,5,1,1,0;13,5,1,1,1;13,6
+#### Text ####
+Under other laws applying to pesticide use, however, that same chemical could be allowed to be used on fresh food
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2047..2087
+13,5,1,1,2,1
+#### Text ####
+it fell within the EPA's tolerance level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2408..2412
+17,3,1,1,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession
+____Arg1____
+2336..2407
+17,0;17,1;17,2;17,3,0;17,3,1,0;17,3,1,1,0;17,3,1,1,1;17,4
+#### Text ####
+Bar states from setting more stringent tolerance levels for a pesticide
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2413..2454
+17,3,1,1,2,1
+#### Text ####
+the federal government has set a standard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2565
+19
+#### Features ####
+Wr, Comm, Null, Null
+so that, Contingency.Cause.Result
+____Arg1____
+2491..2563
+18,3,1
+#### Text ####
+to set "negligible risk" levels for pesticide residues in processed food
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2565..2677
+19
+#### Text ####
+Chemicals that exceed these risk levels would be barred, but those that fall below these levels would be allowed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2622..2625
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2565..2620
+19,0
+#### Text ####
+Chemicals that exceed these risk levels would be barred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2626..2677
+19,3
+#### Text ####
+those that fall below these levels would be allowed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2781..2783
+20,2,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2684..2780
+20,0;20,1;20,2,0;20,2,1,0;20,2,1,1,0;20,2,1,1,1;20,3
+#### Text ####
+Allow the EPA to permit the continued use of pesticides that exceed its negligible risk standard
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2784..2826
+20,2,1,1,2,1
+#### Text ####
+the benefits of doing so outweigh the cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1105 @@
+________________________________________________________
+____Explicit____
+56..59
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..54
+0,0
+#### Text ####
+Boeing Co. 's third-quarter profit leaped 68%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+60..135
+0,3
+#### Text ####
+Wall Street's attention was focused on the picket line, not the bottom line
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+139..146
+1,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+56..135
+0,2;0,3;0,4
+#### Text ####
+but Wall Street's attention was focused on the picket line, not the bottom line
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+148..332
+1,1;1,2;1,3;1,4
+#### Text ####
+the earnings report unfolded as representatives of the world's No. 1 jet maker and the striking Machinists union came back to the negotiating table for their first meeting in two weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+177..179
+1,3,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+139..176
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+In fact, the earnings report unfolded
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+180..332
+1,3,1,1
+#### Text ####
+representatives of the world's No. 1 jet maker and the striking Machinists union came back to the negotiating table for their first meeting in two weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+334
+2
+____Arg1____
+139..332
+1
+#### Text ####
+In fact, the earnings report unfolded as representatives of the world's No. 1 jet maker and the striking Machinists union came back to the negotiating table for their first meeting in two weeks
+##############
+____Arg2____
+334..521
+2
+#### Text ####
+Doug Hammond, the federal mediator in Seattle, where Boeing is based, said the parties will continue to sit down daily until a new settlement proposal emerges or the talks break off again
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+453..458
+2,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+334..408
+2,0;2,1,0;2,2
+#### Text ####
+Doug Hammond, the federal mediator in Seattle, where Boeing is based, said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+409..452
+2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,1,1;2,1,1,1,1,1,1,1,1,2
+#### Text ####
+the parties will continue to sit down daily
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+459..521
+2,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+a new settlement proposal emerges or the talks break off again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+493..495
+2,1,1,1,1,1,1,1,1,3,1,1
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+334..408
+2,0;2,1,0;2,2
+#### Text ####
+Doug Hammond, the federal mediator in Seattle, where Boeing is based, said
+##############
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+453..492
+2,1,1,1,1,1,1,1,1,3,0;2,1,1,1,1,1,1,1,1,3,1,0
+#### Text ####
+until a new settlement proposal emerges
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+496..521
+2,1,1,1,1,1,1,1,1,3,1,2
+#### Text ####
+the talks break off again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+779
+5
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+672..777
+4
+#### Text ####
+For the third quarter, net rose to $242 million, or $1.05 a share, from $144 million, or 63 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+779..914
+5
+#### Text ####
+Sales climbed 71% to $6.36 billion from $3.72 billion as the company capitalized on the ravenous global demand for commercial airliners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+833..835
+5,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+779..832
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Sales climbed 71% to $6.36 billion from $3.72 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+836..914
+5,1,4,1
+#### Text ####
+the company capitalized on the ravenous global demand for commercial airliners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+918..925
+6,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1018..1133
+6,1;6,2;6,3;6,4
+#### Text ####
+the precise impact on Boeing's sales, earnings, cash flow and short-term investment position couldn't be determined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+926..1016
+6,0,1
+#### Text ####
+it's impossible to gauge how long the walkout by 55,000 Machinists rank and file will last
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1163..1170
+7,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+525..668
+3
+#### Text ####
+Despite the progress, Boeing indicated that the work stoppage, now in its 27th day, will have "a serious adverse impact" on the current quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1137..1161;1172..1291
+7,0;7,1;7,3;7,4;7,5
+#### Text ####
+The investment community strongly believes that the strike will be settled before there is any lasting effect on either Boeing or its work force
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1222..1228
+7,4,2,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1137..1161;1172..1189
+7,0;7,1;7,3;7,4,0;7,4,1;7,5
+#### Text ####
+The investment community strongly believes
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1190..1221
+7,4,2,0;7,4,2,1,0;7,4,2,1,1,0;7,4,2,1,1,1,0;7,4,2,1,1,1,1,0;7,4,2,1,1,1,1,1
+#### Text ####
+that the strike will be settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1229..1291
+7,4,2,1,1,1,1,2,1
+#### Text ####
+there is any lasting effect on either Boeing or its work force
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1293
+8
+____Arg1____
+1137..1291
+7
+#### Text ####
+The investment community, however, strongly believes that the strike will be settled before there is any lasting effect on either Boeing or its work force
+##############
+____Arg2____
+1293..1431
+8
+#### Text ####
+The company's total firm backlog of unfilled orders at Sept. 30 stood at a mighty $69.1 billion, compared with $53.6 billion at the end of
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1434..1442
+9,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1571..1627
+9,1;9,2;9,3;9,4;9,5
+#### Text ####
+those dollars actually would just be deferred until 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1443..1569
+9,0,1
+#### Text ####
+the company could see fourth-quarter revenue shrink by nearly $5 billion if it isn't able to deliver any more planes this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1516..1518
+9,0,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1434..1515
+9,0,0;9,0,1,0;9,0,1,1,0;9,0,1,1,1,0;9,0,1,1,1,1
+#### Text ####
+Although the company could see fourth-quarter revenue shrink by nearly $5 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1519..1569
+9,0,1,1,1,2,1
+#### Text ####
+it isn't able to deliver any more planes this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1629..1632
+10,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1434..1627
+9
+#### Text ####
+Although the company could see fourth-quarter revenue shrink by nearly $5 billion if it isn't able to deliver any more planes this year, those dollars actually would just be deferred until 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1633..1743
+10,1;10,2;10,3
+#### Text ####
+the company is certain to get out some aircraft with just supervisors and other non-striking employees on hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1747..1753
+11,0,0
+#### Text ####
+Before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1857..1939
+11,1;11,2;11,3;11,4
+#### Text ####
+Boeing had been counting on turning 96 aircraft out the door in the present period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1754..1855
+11,0,1
+#### Text ####
+the union rejected the company's offer and the strike was launched with the graveyard shift of Oct. 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1793..1796
+11,0,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1747..1792
+11,0,0;11,0,1,0
+#### Text ####
+Before the union rejected the company's offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1797..1855
+11,0,1,2
+#### Text ####
+the strike was launched with the graveyard shift of Oct. 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1941
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1857..1939
+11,1;11,2;11,3;11,4
+#### Text ####
+Boeing had been counting on turning 96 aircraft out the door in the present period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1941..2022
+12
+#### Text ####
+That included 21 of the company's 747-400 jumbo jets, its most successful product
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2118..2121
+14,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2055..2115
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said David Smith, an analyst with Raymond James & Associates
+##############
+but, Comparison.Contrast
+____Arg1____
+2027..2052
+13,1
+#### Text ####
+It's not a pretty picture
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2122..2183
+14,0;14,2;14,3;14,4;14,5
+#### Text ####
+it would just mean a great first and second quarter next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2310..2313
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2188..2242
+15,0;15,1,0;15,1,1;15,1,2;15,2
+#### Text ####
+Phillip Brannon of Merrill Lynch Capital Markets added
+##############
+but, Comparison.Contrast
+____Arg1____
+2245..2308
+15,1,3
+#### Text ####
+You don't want to minimize this and say nobody is looking at it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2314..2397
+16,1;16,2;16,3;16,4
+#### Text ####
+the strike hasn't gone on long enough for Boeing to lose business in any real sense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2474..2478
+17,1,1,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Comparison.Concession.Expectation
+____Arg1____
+2428..2473
+17,1,1,1,0;17,1,1,1,1,0;17,1,1,1,1,1,0;17,1,1,1,1,1,1,0;17,1,1,1,1,1,1,1;17,1,1,1,1,1,1,2;17,1,1,1,1,1,1,4
+#### Text ####
+the company's share price has held up so well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2480..2546
+17,1,1,1,1,1,1,3,1;17,1,1,1,1,1,1,3,2;17,1,1,1,1,1,1,3,3
+#### Text ####
+in Mr. Smith's words, "most companies would have unraveled" by now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2548
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2402..2546
+17
+#### Text ####
+That's the primary reason the company's share price has held up so well when, in Mr. Smith's words, "most companies would have unraveled" by now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2548..2659
+18
+#### Text ####
+In New York Stock Exchange composite trading, Boeing closed yesterday at $54.50 a share, off a scant 12.5 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2663..2668
+19,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Sup1____
+2548..2659
+18
+#### Text ####
+In New York Stock Exchange composite trading, Boeing closed yesterday at $54.50 a share, off a scant 12.5 cents
+##############
+____Arg1____
+2428..2546
+17,1,1,1
+#### Text ####
+the company's share price has held up so well when, in Mr. Smith's words, "most companies would have unraveled" by now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2670..2745
+19,1;19,2;19,3;19,4
+#### Text ####
+Boeing went through its normal verbal gymnastics and played up the downside
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2747
+20
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+2663..2745
+19
+#### Text ####
+Still, Boeing went through its normal verbal gymnastics and played up the downside
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2747..2901
+20
+#### Text ####
+In a statement, Chairman Frank Shrontz asserted that the company "faces significant challenges and risks," on both its commercial and government contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2905..2917
+21,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2795..2901
+20,3,1
+#### Text ####
+that the company "faces significant challenges and risks," on both its commercial and government contracts
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2747..2794
+20,0;20,1;20,2;20,3,0;20,4
+#### Text ####
+In a statement, Chairman Frank Shrontz asserted
+##############
+____Arg2____
+2928..3198
+21,3,1
+#### Text ####
+that spending on Pentagon programs is shrinking, and Boeing is either the prime contractor or a major supplier on many important military projects, including the B-2 Stealth bomber, the V-22 Osprey tilt-rotor aircraft and the Air Force's next-generation tactical fighter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2919..2927
+21,1;21,2;21,3,0;21,4
+#### Text ####
+he noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2977..2980
+21,3,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2919..2927
+21,1;21,2;21,3,0;21,4
+#### Text ####
+he noted
+##############
+and, Expansion.Conjunction
+____Arg1____
+2928..2975
+21,3,1,0;21,3,1,1,0;21,3,1,1,1
+#### Text ####
+that spending on Pentagon programs is shrinking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2981..3198
+21,3,1,1,3
+#### Text ####
+Boeing is either the prime contractor or a major supplier on many important military projects, including the B-2 Stealth bomber, the V-22 Osprey tilt-rotor aircraft and the Air Force's next-generation tactical fighter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3200
+22
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2928..3198
+21,3,1
+#### Text ####
+that spending on Pentagon programs is shrinking, and Boeing is either the prime contractor or a major supplier on many important military projects, including the B-2 Stealth bomber, the V-22 Osprey tilt-rotor aircraft and the Air Force's next-generation tactical fighter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2905..2927
+21,0;21,1;21,2;21,3,0;21,4
+#### Text ####
+For instance, he noted
+##############
+____Arg2____
+3200..3253;3273..3344
+22,0;22,2;22,3;22,4
+#### Text ####
+Because of cost overruns on fixed-price military work the company's defense business will record "a significant loss" in 1989
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3255..3271
+22,1
+#### Text ####
+Mr. Shrontz said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3348..3356
+23,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3358..3375
+23,1
+#### Text ####
+Mr. Shrontz added
+##############
+moreover, Expansion.Conjunction
+____Arg1____
+3200..3253;3273..3344
+22,0;22,2;22,3;22,4
+#### Text ####
+Because of cost overruns on fixed-price military work the company's defense business will record "a significant loss" in 1989
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3255..3271
+22,1
+#### Text ####
+Mr. Shrontz said
+##############
+____Arg2____
+3377..3528
+23,2;23,3;23,4;23,5
+#### Text ####
+production-rate increases that have been implemented on the 737, 747, 757 and 767 programs have resulted in "serious work force skill-dilution problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3531
+24
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Contingency.Cause.Result
+____Arg1____
+3346..3356;3377..3528
+23,0;23,2;23,3;23,4;23,5
+#### Text ####
+
+
+Moreover production-rate increases that have been implemented on the 737, 747, 757 and 767 programs have resulted in "serious work force skill-dilution problems
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3358..3375
+23,1
+#### Text ####
+Mr. Shrontz added
+##############
+____Arg2____
+3531..3626
+24
+#### Text ####
+Suppliers and subcontractors are experiencing heightened pressure to support delivery schedules
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3630..3633
+25,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3531..3626
+24
+#### Text ####
+Suppliers and subcontractors are experiencing heightened pressure to support delivery schedules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3635..3682
+25,1;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+of course, there's the unsteady labor situation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3684
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3630..3682
+25
+#### Text ####
+And, of course, there's the unsteady labor situation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3684..3862
+26
+#### Text ####
+Besides the Machinists pact, accords representing 30,000 of the company's engineering and technical employees in the Puget Sound and Wichita, Kan., areas expire in early December
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3864..3868
+27,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3684..3862
+26
+#### Text ####
+Besides the Machinists pact, accords representing 30,000 of the company's engineering and technical employees in the Puget Sound and Wichita, Kan., areas expire in early December
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3870..3975
+27,1;27,2;27,3;27,4
+#### Text ####
+a contract with the United Auto Workers at the company's helicopter plant in Philadelphia expired Oct. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3977
+28
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3864..3975
+27
+#### Text ####
+Also, a contract with the United Auto Workers at the company's helicopter plant in Philadelphia expired Oct. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3977..4095
+28
+#### Text ####
+This contract, covering about 3,000 hourly production and maintenance workers, is being extended on a day-to-day basis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4264
+30
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Concession.Contra-expectation
+____Arg1____
+4099..4262
+29
+#### Text ####
+The Machinists rejected a proposal featuring a 10% base wage increase over the life of the three-year contract, plus bonuses of 8% the first year and 3% the second
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4264..4373
+30
+#### Text ####
+On top of that, Boeing would make cost-of-living adjustments projected to be 5% for each year of the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4388..4394
+31,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Sup1____
+4134..4262
+29,1,1,1;29,2
+#### Text ####
+featuring a 10% base wage increase over the life of the three-year contract, plus bonuses of 8% the first year and 3% the second
+##############
+____Arg1____
+4264..4373
+30
+#### Text ####
+On top of that, Boeing would make cost-of-living adjustments projected to be 5% for each year of the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4377..4386;4396..4427
+31,0;31,1;31,3;31,4;31,5;31,6
+#### Text ####
+The union has called the offer "insulting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4430
+32
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+4377..4427
+31
+#### Text ####
+The union, though, has called the offer "insulting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4430..4543
+32
+#### Text ####
+The company reiterated yesterday that it's willing to reconfigure the package, but not add to the substance of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4667
+34
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+4547..4665
+33
+#### Text ####
+For the nine months, Boeing's net increased 36% to $598 million, or $2.60 a share, from $440 million, or $1.92 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4667..4721
+34
+#### Text ####
+Sales soared 28% to $15.43 billion from $12.09 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4921..4926
+35,4,1,1,1,1,1,1,3,1,1,1,1,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+4850..4920
+35,4,1,1,1,1,1,1,3,1,1,1,1,0;35,4,1,1,1,1,1,1,3,1,1,1,1,1,0;35,4,1,1,1,1,1,1,3,1,1,1,1,1,1,0;35,4,1,1,1,1,1,1,3,1,1,1,1,1,1,1;35,4,1,1,1,1,1,1,3,1,1,1,1,1,1,2
+#### Text ####
+that the company provided inaccurate cost information to the Air Force
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4927..5008
+35,4,1,1,1,1,1,1,3,1,1,1,1,1,1,3,1
+#### Text ####
+negotiating contracts to replace the aluminum skins on the KC-135 tanker aircraft
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5101
+37
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+5012..5099
+36
+#### Text ####
+The settlement relates to four contracts negotiated from 1982 to 1985, prosecutors said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5101..5253
+37
+#### Text ####
+They added that the settlement is the culmination of a 2 1/2-year investigation into the company's aluminum pricing practices in connection with KC-135s
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5366
+39
+#### Features ####
+Ot, Comm, Null, Null
+5257..5285
+38,0;38,1,0;38,1,1;38,1,2;38,2
+#### Text ####
+A Boeing spokesman responded
+##############
+indeed, Expansion.Conjunction
+____Arg1____
+5288..5364
+38,1,3
+#### Text ####
+All along the company has said there was no grounds for criminal prosecution
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5366..5441
+39
+#### Text ####
+That was borne out by the Justice Department's decision" to settle the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

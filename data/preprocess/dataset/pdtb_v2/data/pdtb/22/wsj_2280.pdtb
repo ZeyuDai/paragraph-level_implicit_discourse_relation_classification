@@ -1,0 +1,215 @@
+________________________________________________________
+____Explicit____
+186..199
+1,0,0;1,0,1
+#### Text ####
+Shortly after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+280..327
+1,1;1,2;1,3,0;1,4
+#### Text ####
+Mr. Farley's holding company, Farley Inc., said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+328..436
+1,3,1
+#### Text ####
+it was considering the sale of Cluett, a leading shirt maker and one of West Point-Pepperell's biggest units
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+200..278
+1,0,2
+#### Text ####
+completing the $1.56 billion acquisition of West Point-Pepperell Inc. in April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+720
+4
+____Arg1____
+601..718
+3
+#### Text ####
+The companies said the agreement is subject to Bidermann's receipt of financing and to regulatory and other approvals
+##############
+____Arg2____
+720..789
+4
+#### Text ####
+They said the sale is expected to be concluded by the end of November
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+977
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+793..975
+5
+#### Text ####
+Mr. Farley said the sale of three of Cluett's four main divisions plus other "anticipated" West Point-Pepperell asset sales by December, should bring in a total of about $700 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+977..1034
+6
+#### Text ####
+He didn't elaborate on other asset sales being considered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1076..1080
+7,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+1038..1075
+7,0;7,1,0;7,1,1;7,2
+#### Text ####
+Mr. Farley followed a similar pattern
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1081..1151
+7,1,2,1
+#### Text ####
+he acquired Northwest Industries Inc. and then sold much of its assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1123..1127
+7,1,2,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1076..1117
+7,1,2,0;7,1,2,1,0;7,1,2,1,1,0
+#### Text ####
+when he acquired Northwest Industries Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1119..1122;1128..1151
+7,1,2,1,1,1;7,1,2,1,1,2,1;7,1,2,1,1,2,2;7,1,2,1,1,3
+#### Text ####
+and sold much of its assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1153..1156
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1119..1151
+7,1,2,1,1,1;7,1,2,1,1,2;7,1,2,1,1,3
+#### Text ####
+and then sold much of its assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1157..1231
+8,1;8,2,0;8,2,1,0;8,2,1,1;8,2,1,2,0;8,2,1,2,1,0;8,2,1,2,1,1,0;8,2,1,2,1,1,1;8,2,1,2,1,1,2,0;8,3
+#### Text ####
+he kept Fruit of the Loom Inc., the underwear maker that he still controls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1312..1317
+9,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1278..1311
+9,0;9,1,0;9,1,1;9,2
+#### Text ####
+Cluett was an independent company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1318..1393
+9,1,2,1
+#### Text ####
+West Point-Pepperell acquired it for $375 million in cash and stock in 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1395
+10
+____Arg1____
+1278..1393
+9
+#### Text ####
+Cluett was an independent company until West Point-Pepperell acquired it for $375 million in cash and stock in 1986
+##############
+____Arg2____
+1395..1503
+10
+#### Text ####
+In the fiscal year ended Sept. 30, 1988, Cluett had operating profit of $37 million on sales of $757 million
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1636
+12
+____Arg1____
+1507..1634
+11
+#### Text ####
+Bidermann sells clothes under various labels, including Yves Saint Laurent and Bill Robinson for men and Ralph Lauren for women
+##############
+____Arg2____
+1636..1698
+12
+#### Text ####
+A spokesman said the company had sales of $400 million in 1988
+##############
+________________________________________________________

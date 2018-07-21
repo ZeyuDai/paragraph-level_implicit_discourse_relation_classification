@@ -1,0 +1,1526 @@
+________________________________________________________
+____Explicit____
+263..266
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+158..261
+1
+#### Text ####
+After all, they won't soon forget the stock bargains that became available after the October 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+267..401
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+while they want to be on the alert for similar buying opportunities now, they're afraid of being hammered by another terrifying plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+267..272
+2,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+263..266;340..401
+2,0;2,2;2,3;2,4;2,5
+#### Text ####
+But they're afraid of being hammered by another terrifying plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+273..338
+2,1,1
+#### Text ####
+they want to be on the alert for similar buying opportunities now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+533
+4
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+405..531
+3
+#### Text ####
+The solution, at least for some investors, may be a hedging technique that's well known to players in the stock-options market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+533..660
+4
+#### Text ####
+Called a "married put," the technique is carried out by purchasing a stock and simultaneously buying a put option on that stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+612..626
+4,4,1,3,1,1,2,0
+#### Text ####
+simultaneously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+simultaneously, Temporal.Synchrony
+____Arg1____
+586..607
+4,4,1,3,0;4,4,1,3,1,0;4,4,1,3,1,1,0
+#### Text ####
+by purchasing a stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+608..611;627..660
+4,4,1,3,1,1,1;4,4,1,3,1,1,2,1;4,4,1,3,1,1,2,2
+#### Text ####
+and buying a put option on that stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+757
+6
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+664..689
+5,0
+#### Text ####
+It's like "fire insurance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+692..755
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+says Harrison Roth, the senior options strategist at Cowen & Co
+##############
+____Arg2____
+757..1004
+6
+#### Text ####
+Because a put option gives its owner the right, but not the obligation, to sell a fixed number of shares of the stock at a stated price on or before the option's expiration date, the investor is protected against a sudden drop in the stock's price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+757..764
+6,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+936..1004
+6,1;6,2;6,3;6,4
+#### Text ####
+the investor is protected against a sudden drop in the stock's price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+765..934
+6,0,1
+#### Text ####
+a put option gives its owner the right, but not the obligation, to sell a fixed number of shares of the stock at a stated price on or before the option's expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1008..1011
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+757..1004
+6
+#### Text ####
+Because a put option gives its owner the right, but not the obligation, to sell a fixed number of shares of the stock at a stated price on or before the option's expiration date, the investor is protected against a sudden drop in the stock's price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1012..1084
+7,1;7,2;7,3
+#### Text ####
+most investment advisers don't recommend using married puts all the time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1086..1100
+8,0;8,1,0;8,1,1,0
+#### Text ####
+That's because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+1008..1084
+7
+#### Text ####
+But most investment advisers don't recommend using married puts all the time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1086..1185
+8
+#### Text ####
+That's because the cost of buying put options eats into an investor's profit when stock prices rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1093..1100
+8,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1086..1092
+8,0;8,1,0;8,2
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1101..1185
+8,1,1,1
+#### Text ####
+the cost of buying put options eats into an investor's profit when stock prices rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1163..1167
+8,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+1093..1162
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1
+#### Text ####
+because the cost of buying put options eats into an investor's profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1168..1185
+8,1,1,1,1,2,1
+#### Text ####
+stock prices rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1238..1242
+9,1,1,1,2,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1274..1287
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+says Mr. Roth
+##############
+when, Temporal.Synchrony
+____Arg1____
+1225..1237
+9,1,1,1,2,0;9,1,1,1,2,1,0;9,1,1,1,2,1,1,0;9,1,1,1,2,1,1,1;9,1,1,1,2,1,1,2
+#### Text ####
+you only buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1243..1271
+9,1,1,1,2,1,1,3,1
+#### Text ####
+the nearby woods are on fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1326
+10
+#### Features ####
+Ot, Comm, Null, Null
+1274..1287
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+says Mr. Roth
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+1190..1271
+9,1
+#### Text ####
+This is the type of fire insurance you only buy when the nearby woods are on fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1326..1395
+10,3;10,4;10,5;10,6
+#### Text ####
+but you don't always feel the need for your investments to be insured
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1326..1329
+10,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1274..1287
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+says Mr. Roth
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+1290..1324
+10,1
+#### Text ####
+You always want your house insured
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1330..1395
+10,4
+#### Text ####
+you don't always feel the need for your investments to be insured
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1531
+12
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1400..1529
+11
+#### Text ####
+In addition to hedging new stock purchases, the married-put technique can be used to protect stocks that an investor already owns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1531..1589
+12
+#### Text ####
+In either case, the investor faces three possible outcomes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1596..1598
+13,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1669..1707
+13,0;13,2;13,3;13,4;13,5
+#### Text ####
+the put will probably expire worthless
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1599..1667
+13,1,1
+#### Text ####
+the stock goes up in price between now and the put's expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1709
+14
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1596..1707
+13
+#### Text ####
+If the stock goes up in price between now and the put's expiration date, the put will probably expire worthless
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1709..1753;1786..1835
+14,0,0;14,0,1,0;14,0,1,1,0;14,0,1,1,1,0;14,0,1,1,1,1,0;14,0,1,1,1,1,1;14,0,1,1,1,1,2;14,3;14,4;14,5
+#### Text ####
+The investor will be out the cost of the put and this loss will reduce the stock-market profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1786..1789
+14,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1709..1783
+14,0
+#### Text ####
+The investor will be out the cost of the put, which is called the "premium
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1790..1835
+14,4
+#### Text ####
+this loss will reduce the stock-market profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1842..1844
+15,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1922..2037
+15,0;15,2;15,3;15,4;15,5
+#### Text ####
+the investor's loss will be limited to the cost of the put, less any amount realized from a closing sale of the put
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1845..1920
+15,1,1
+#### Text ####
+the stock stays at the same price between now and the put's expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2039
+16
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1842..2037
+15
+#### Text ####
+If the stock stays at the same price between now and the put's expiration date, the investor's loss will be limited to the cost of the put, less any amount realized from a closing sale of the put
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2039..2100
+16
+#### Text ####
+The worst-case scenario would be if the put expires worthless
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2107..2109
+17,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2143..2173
+17,0;17,2;17,3;17,4;17,5
+#### Text ####
+the put will increase in value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2110..2141
+17,1,1
+#### Text ####
+the price of the stock declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2175
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2107..2173
+17
+#### Text ####
+If the price of the stock declines, the put will increase in value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2175..2319
+18
+#### Text ####
+Once the stock price is less than the exercise price, or "strike price," of the put, the gain will match the loss on the stock dollar for dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2175..2179
+18,0,0
+#### Text ####
+Once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Contingency.Condition.General
+____Arg1____
+2260..2319
+18,1;18,2;18,3;18,4
+#### Text ####
+the gain will match the loss on the stock dollar for dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2180..2258
+18,0,1
+#### Text ####
+the stock price is less than the exercise price, or "strike price," of the put
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2321
+19
+____Arg1____
+2175..2319
+18
+#### Text ####
+Once the stock price is less than the exercise price, or "strike price," of the put, the gain will match the loss on the stock dollar for dollar
+##############
+____Arg2____
+2321..2394
+19
+#### Text ####
+The put establishes a minimum selling price for the stock during its life
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2398..2402
+20,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2447..2537
+20,1;20,2;20,3;20,4
+#### Text ####
+the investor simply sells the stock at a loss and simultaneously sells the put at a profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2403..2445
+20,0,1
+#### Text ####
+a stock falls below the put's strike price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2497..2511
+20,3,2,0
+#### Text ####
+simultaneously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+simultaneously, Temporal.Synchrony
+____Arg1____
+2447..2492
+20,1;20,2;20,3,0
+#### Text ####
+the investor simply sells the stock at a loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2493..2496;2512..2537
+20,3,1;20,3,2,1;20,3,2,2;20,3,2,3;20,4
+#### Text ####
+and sells the put at a profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2539..2541
+21,0
+#### Text ####
+Or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+2398..2537
+20
+#### Text ####
+When a stock falls below the put's strike price, the investor simply sells the stock at a loss and simultaneously sells the put at a profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2543..2702
+21,1;21,2;21,3;21,4
+#### Text ####
+the investor can exercise the put, by tendering the stock to his or her broker in return for payment from another investor who has sold a put on the same stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2704
+22
+____Arg1____
+2539..2702
+21
+#### Text ####
+Or, the investor can exercise the put, by tendering the stock to his or her broker in return for payment from another investor who has sold a put on the same stock
+##############
+____Arg2____
+2704..2807
+22
+#### Text ####
+Brokers handle such transactions through the Options Clearing Corp., which guarantees all option trades
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2887
+24
+____Arg1____
+2811..2885
+23
+#### Text ####
+The accompanying table shows how this strategy would work for three stocks
+##############
+____Arg2____
+2887..3044
+24
+#### Text ####
+Though not reflected in the table, an investor should know that the cost of the option insurance can be partially offset by any dividends that the stock pays
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3048..3059
+25,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2922..3044
+24,1;24,2;24,3;24,4
+#### Text ####
+an investor should know that the cost of the option insurance can be partially offset by any dividends that the stock pays
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3061..3236
+25,1;25,2;25,3;25,4
+#### Text ####
+Tenneco Inc. pays a quarterly dividend of 76 cents, which would be received before the February option expires and, thus, reduce the cost of using the technique by that amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3137..3143
+25,3,1,3,1,1,1,0,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3113..3136
+25,3,1,3,0;25,3,1,3,1,0;25,3,1,3,1,1,0;25,3,1,3,1,1,1,0,0;25,3,1,3,1,1,1,0,1,0;25,3,1,3,1,1,1,0,1,1
+#### Text ####
+which would be received
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3144..3171
+25,3,1,3,1,1,1,0,1,2,1
+#### Text ####
+the February option expires
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3177..3181
+25,3,1,3,1,1,1,3
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+3113..3171
+25,3,1,3,0;25,3,1,3,1,0;25,3,1,3,1,1,0;25,3,1,3,1,1,1,0
+#### Text ####
+which would be received before the February option expires
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3172..3175;3183..3236
+25,3,1,3,1,1,1,1;25,3,1,3,1,1,1,2;25,3,1,3,1,1,1,4;25,3,1,3,1,1,1,5
+#### Text ####
+and reduce the cost of using the technique by that amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3238
+26
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3048..3236
+25
+#### Text ####
+For example, Tenneco Inc. pays a quarterly dividend of 76 cents, which would be received before the February option expires and, thus, reduce the cost of using the technique by that amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3238..3316
+26
+#### Text ####
+In this case, the investor's risk wouldn't exceed 3.6% of the total investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3318
+27
+____Arg1____
+3238..3316
+26
+#### Text ####
+In this case, the investor's risk wouldn't exceed 3.6% of the total investment
+##############
+____Arg2____
+3318..3423
+27
+#### Text ####
+To simplify the calculations, commissions on the option and underlying stock aren't included in the table
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3539..3542
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3427..3537
+28
+#### Text ####
+There are more than 650 stocks on which options may be bought and sold, including some over-the-counter stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3543..3628
+29,1;29,2;29,3
+#### Text ####
+some investors might prefer a simpler strategy then hedging their individual holdings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3753..3765
+31,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3632..3751
+30
+#### Text ####
+They can do this by purchasing "index puts," which are simply put options on indexes that match broad baskets of stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3767..3843
+31,1;31,2;31,3;31,4
+#### Text ####
+the most popular index option is the S&P 100 option, commonly called the OEX
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3845
+32
+____Arg1____
+3753..3843
+31
+#### Text ####
+For instance, the most popular index option is the S&P 100 option, commonly called the OEX
+##############
+____Arg2____
+3845..3917
+32
+#### Text ####
+It is based on the stocks that make up Standard & Poor's 100-stock index
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3919
+33
+____Arg1____
+3845..3917
+32
+#### Text ####
+It is based on the stocks that make up Standard & Poor's 100-stock index
+##############
+____Arg2____
+3919..4025
+33
+#### Text ####
+Unlike options on individual issues, index options are settled only in cash, and no stock is ever tendered
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3996..3999
+33,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3919..3994
+33,0;33,1;33,2;33,3
+#### Text ####
+Unlike options on individual issues, index options are settled only in cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4000..4025
+33,5
+#### Text ####
+no stock is ever tendered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4029..4032
+34,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3919..4025
+33
+#### Text ####
+Unlike options on individual issues, index options are settled only in cash, and no stock is ever tendered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4033..4100
+34,1;34,2;34,3;34,4;34,5
+#### Text ####
+while index options are convenient, they have several disadvantages
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4033..4038
+34,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+4029..4032;4069..4100
+34,0;34,2;34,3;34,4;34,5
+#### Text ####
+But they have several disadvantages
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4039..4067
+34,1,1
+#### Text ####
+index options are convenient
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4178..4189
+36,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+4102..4176
+35
+#### Text ####
+For one thing, an investor's portfolio might not closely match the S&P 100
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4191..4293
+36,1;36,2;36,3;36,4
+#### Text ####
+the OEX insurance may or may not fully protect an investor's holdings in the event of a market decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4297..4308
+37,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+4102..4293
+35;36
+#### Text ####
+For one thing, an investor's portfolio might not closely match the S&P 100.
+As a result, the OEX insurance may or may not fully protect an investor's holdings in the event of a market decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4310..4589
+37,1;37,2;37,3;37,4;38
+#### Text ####
+OEX options were suspended from trading last Friday afternoon, after the stock-market sell-off got under way and trading in the S&P-500 futures contract was halted.
+So an investor who wanted to realize a profit on OEX puts after the trading suspension would have been out of luck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4373..4378
+37,3,1,5,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4297..4371
+37,0;37,1;37,2;37,3,0;37,3,1,0;37,3,1,1;37,3,1,2;37,3,1,3;37,3,1,4;37,4
+#### Text ####
+In addition, OEX options were suspended from trading last Friday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4379..4473
+37,3,1,5,1
+#### Text ####
+the stock-market sell-off got under way and trading in the S&P-500 futures contract was halted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4419..4422
+37,3,1,5,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4373..4418
+37,3,1,5,0;37,3,1,5,1,0
+#### Text ####
+after the stock-market sell-off got under way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4423..4473
+37,3,1,5,1,2
+#### Text ####
+trading in the S&P-500 futures contract was halted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4475..4477
+38,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4297..4371
+37,0;37,1;37,2;37,3,0;37,3,1,0;37,3,1,1;37,3,1,2;37,3,1,3;37,3,1,4;37,4
+#### Text ####
+In addition, OEX options were suspended from trading last Friday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4478..4589
+38,1;38,2;38,3
+#### Text ####
+an investor who wanted to realize a profit on OEX puts after the trading suspension would have been out of luck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4533..4538
+38,1,1,1,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4490..4532
+38,1,1,0;38,1,1,1,0;38,1,1,1,1,0;38,1,1,1,1,1,0;38,1,1,1,1,1,1,0;38,1,1,1,1,1,1,1,0;38,1,1,1,1,1,1,1,1
+#### Text ####
+who wanted to realize a profit on OEX puts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4539..4561
+38,1,1,1,1,1,1,1,2,1
+#### Text ####
+the trading suspension
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4591..4608
+39,0
+#### Text ####
+On the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Juxtaposition
+____Arg1____
+4297..4371
+37,0;37,1;37,2;37,3,0;37,3,1,0;37,3,1,1;37,3,1,2;37,3,1,3;37,3,1,4;37,4
+#### Text ####
+In addition, OEX options were suspended from trading last Friday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4610..4683
+39,1;39,2;39,3;39,4
+#### Text ####
+only a handful of individual issues were suspended from trading on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4685
+40
+____Arg1____
+4591..4683
+39
+#### Text ####
+On the other hand, only a handful of individual issues were suspended from trading on Friday
+##############
+____Arg2____
+4685..4802
+40
+#### Text ####
+Normally, once the underlying investment is suspended from trading, the options on those investments also don't trade
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4695..4699
+40,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Contingency.Condition.General
+____Arg1____
+4685..4693;4753..4802
+40,0;40,1;40,3;40,4;40,5;40,6;40,7
+#### Text ####
+Normally the options on those investments also don't trade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4700..4751
+40,2,1
+#### Text ####
+the underlying investment is suspended from trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4786..4790
+40,5
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4685..4751
+40,0;40,1;40,2;40,3
+#### Text ####
+Normally, once the underlying investment is suspended from trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4753..4785;4791..4802
+40,4;40,6;40,7
+#### Text ####
+the options on those investments don't trade
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4918
+42
+____Arg1____
+4806..4916
+41
+#### Text ####
+Ultimately, whether the insurance provided by purchasing puts is worthwhile depends on the cost of the options
+##############
+____Arg2____
+4918..4968
+42
+#### Text ####
+That cost rises in times of high market volatility
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4970..4973
+43,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4806..4968
+41;42
+#### Text ####
+Ultimately, whether the insurance provided by purchasing puts is worthwhile depends on the cost of the options.
+That cost rises in times of high market volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4974..5023
+43,1;43,2;43,3;43,4
+#### Text ####
+it still might be cheaper than taking a major hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5234
+45
+____Arg1____
+5027..5232
+44
+#### Text ####
+The protection from using married puts is clearly superior to that afforded by another options strategy some investors consider using during troubled times: selling call options on stocks the investor owns
+##############
+____Arg2____
+5234..5358
+45
+#### Text ####
+A call option is similar to a put, except that it gives its owner the right to buy shares at a stated price until expiration
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5269..5275
+45,1,3,0
+#### Text ####
+except
+##############
+#### Features ####
+Wr, Comm, Null, Null
+except, Expansion.Exception
+____Arg1____
+5234..5267
+45,0;45,1,0;45,1,1;45,1,2;45,2
+#### Text ####
+A call option is similar to a put
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5276..5358
+45,1,3,1
+#### Text ####
+that it gives its owner the right to buy shares at a stated price until expiration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5449..5463
+47,0;47,1,0;47,1,1,0
+#### Text ####
+That's because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+5362..5447
+46
+#### Text ####
+Selling a call option gives an investor a small buffer against a stock-market decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5449..5556
+47
+#### Text ####
+That's because it reduces the cost of the stock by the amount of premium received from the sale of the call
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5456..5463
+47,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5449..5455
+47,0;47,1,0;47,2
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5464..5556
+47,1,1,1
+#### Text ####
+it reduces the cost of the stock by the amount of premium received from the sale of the call
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5558..5561
+48,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+5449..5556
+47
+#### Text ####
+That's because it reduces the cost of the stock by the amount of premium received from the sale of the call
+##############
+____Arg1____
+5362..5447
+46
+#### Text ####
+Selling a call option gives an investor a small buffer against a stock-market decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5562..5745
+48,1;48,2;48,3;48,4;48,5;49
+#### Text ####
+if the price of the stock rises above the strike price of the option, the stock is almost certain to be called away.
+And in that case, the investor misses out on any major upside gain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5562..5564
+48,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+5558..5561;5632..5677
+48,0;48,2;48,3;48,4;48,5
+#### Text ####
+But the stock is almost certain to be called away
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5565..5630
+48,1,1
+#### Text ####
+the price of the stock rises above the strike price of the option
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5679..5682
+49,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5558..5677
+48
+#### Text ####
+But if the price of the stock rises above the strike price of the option, the stock is almost certain to be called away
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5683..5745
+49,1;49,2;49,3;49,4;49,5
+#### Text ####
+in that case, the investor misses out on any major upside gain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5846
+51
+____Arg1____
+5749..5844
+50
+#### Text ####
+These calculations exclude the effect of commissions paid and dividends received from the stock
+##############
+____Arg2____
+5846..5881
+51
+#### Text ####
+All prices are as of Monday's close
+##############
+________________________________________________________

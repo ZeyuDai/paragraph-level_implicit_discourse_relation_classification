@@ -1,0 +1,150 @@
+________________________________________________________
+____Explicit____
+98..105
+0,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..50
+0,0;0,1,0;0,2
+#### Text ####
+StatesWest Airlines, Phoenix, Ariz., said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+51..97
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1
+#### Text ####
+it withdrew its offer to acquire Mesa Airlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+106..244
+0,1,1,1,1,2,1
+#### Text ####
+the Farmington, N.M., carrier didn't respond to its offer by the close of business yesterday, a deadline StatesWest had set for a response
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+248..255
+1,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Sup1____
+98..244
+0,1,1,1,1,2
+#### Text ####
+because the Farmington, N.M., carrier didn't respond to its offer by the close of business yesterday, a deadline StatesWest had set for a response
+##############
+____Arg1____
+51..97
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1
+#### Text ####
+it withdrew its offer to acquire Mesa Airlines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..50
+0,0;0,1,0;0,2
+#### Text ####
+StatesWest Airlines, Phoenix, Ariz., said
+##############
+____Arg2____
+257..320
+1,1;1,2;1,3;1,4
+#### Text ####
+StatesWest isn't abandoning its pursuit of the much-larger Mesa
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+372
+2
+#### Features ####
+Wr, Comm, Null, Null
+instead, Comparison.Contrast
+____Arg1____
+248..320
+1
+#### Text ####
+However, StatesWest isn't abandoning its pursuit of the much-larger Mesa
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+372..456
+2,1,1
+#### Text ####
+it may purchase more Mesa stock or make a tender offer directly to Mesa shareholders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+322..371
+2,0;2,1,0;2,2
+#### Text ####
+StatesWest, which has a 7.25% stake in Mesa, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+614..621
+4,0
+#### Text ####
+Earlier
+##############
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+460..612
+3
+#### Text ####
+StatesWest had proposed acquiring Mesa for $7 a share and one share of a new series of StatesWest 6% convertible preferred stock it values at $3 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+623..715
+4,1;4,2;4,3;4,4
+#### Text ####
+Mesa had rejected a general proposal from StatesWest to combine the two carriers in some way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+782
+6
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+719..780
+5
+#### Text ####
+StatesWest serves 10 cities in California, Arizona and Nevada
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+782..857
+6
+#### Text ####
+Mesa flies to 42 cities in New Mexico, Arizona, Wyoming, Colorado and Texas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

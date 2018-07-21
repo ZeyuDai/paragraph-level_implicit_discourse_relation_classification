@@ -1,0 +1,1630 @@
+________________________________________________________
+____Implicit____
+82
+1
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.List
+____Arg1____
+9..80
+0
+#### Text ####
+Right away you notice the following things about a Philip Glass concert
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+82..116
+1,0;1,1,0;1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,2
+#### Text ####
+It attracts people with funny hair
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+215
+2
+#### Features ####
+Wr, Comm, Null, Null
+second, Expansion.List
+____Arg1____
+82..116
+1,0;1,1,0;1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,2
+#### Text ####
+It attracts people with funny hair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+215..289
+2,0;2,1,0;2,1,1;2,1,2;2,1,3;2,1,4;2,1,5
+#### Text ####
+Whoever constitute the local Left Bank come out in force, dressed in black
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+362
+3
+#### Features ####
+Wr, Comm, Null, Null
+third, Expansion.List
+____Arg1____
+215..360
+2
+#### Text ####
+Whoever constitute the local Left Bank come out in force, dressed in black, along with a smattering of yuppies who want to be on the cutting edge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+362..404
+3
+#### Text ####
+People in Glass houses tend to look stoned
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+406..409
+4,0,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+82..404
+1;2;3
+#### Text ####
+It attracts people with funny hair (or with no hair -- in front of me a girl with spiked locks sat beside a boy who had shaved his).
+Whoever constitute the local Left Bank come out in force, dressed in black, along with a smattering of yuppies who want to be on the cutting edge.
+People in Glass houses tend to look stoned
+##############
+____Arg1____
+9..80
+0
+#### Text ####
+Right away you notice the following things about a Philip Glass concert
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+411..477
+4,0,1;4,0,2;4,0,3;4,0,4;4,0,5
+#### Text ####
+if still conscious at the evening's end, you notice something else
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+479..594
+4,2
+#### Text ####
+The audience, at first entranced and hypnotized by the music, releases its pent-up feelings in collective gratitude
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+411..413
+4,0,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+406..409;452..594
+4,0,0;4,0,1;4,0,3;4,0,4;4,0,5;4,1;4,2;4,3
+#### Text ####
+And you notice something else: The audience, at first entranced and hypnotized by the music, releases its pent-up feelings in collective gratitude
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+414..450
+4,0,2,1
+#### Text ####
+still conscious at the evening's end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+770
+6
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+598..768
+5
+#### Text ####
+Currently in the middle of a four-week, 20-city tour as a solo pianist, Mr. Glass has left behind his synthesizers, equipment and collaborators in favor of going it alone
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+770..805
+6
+#### Text ####
+He sits down at the piano and plays
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+818
+8
+____Arg1____
+807..816
+7
+#### Text ####
+And plays
+##############
+____Arg2____
+818..852
+8
+#### Text ####
+Either one likes it or one doesn't
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+838..840
+8,2
+#### Text ####
+or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+818..837
+8,0;8,1
+#### Text ####
+Either one likes it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+841..852
+8,3
+#### Text ####
+one doesn't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+854
+9
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+818..852
+8
+#### Text ####
+Either one likes it or one doesn't
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+854..880;957..971
+9,0,0;9,0,1;9,0,3;9,1;9,2;9,3
+#### Text ####
+The typical Glass audience certainly does
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+985..991
+10,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+854..971
+9
+#### Text ####
+The typical Glass audience, which is more likely to be composed of music students than their teachers, certainly does
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+975..983;993..1025
+10,0;10,1;10,3;10,4;10,5
+#### Text ####
+The work sounds like Muzak for spaceships
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1027
+11
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+975..1025
+10
+#### Text ####
+The work, though, sounds like Muzak for spaceships
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1027..1105
+11
+#### Text ####
+Philip Glass is the emperor, and his music the new clothes, of the avant-garde
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1056..1059
+11,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1027..1054;1087..1105
+11,0;11,4;11,5;11,6
+#### Text ####
+Philip Glass is the emperor of the avant-garde
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1060..1085
+11,3
+#### Text ####
+his music the new clothes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1107
+12
+____Arg1____
+1027..1105
+11
+#### Text ####
+Philip Glass is the emperor, and his music the new clothes, of the avant-garde
+##############
+____Arg2____
+1107..1140
+12
+#### Text ####
+His success is easy to understand
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1142
+13
+____Arg1____
+1107..1140
+12
+#### Text ####
+His success is easy to understand
+##############
+____Arg2____
+1142..1301
+13
+#### Text ####
+Softly introducing and explaining his pieces, Mr. Glass looks and sounds more like a shaggy poet describing his work than a classical pianist playing a recital
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1303
+14
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1188..1301
+13,1;13,2;13,3;13,4
+#### Text ####
+Mr. Glass looks and sounds more like a shaggy poet describing his work than a classical pianist playing a recital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1303..1325;1433..1610
+14,0,0;14,0,1;14,0,3;14,1;14,2
+#### Text ####
+The piano compositions are relentlessly tonal (therefore unthreatening), unvaryingly rhythmic (therefore soporific), and unflaggingly harmonious but unmelodic (therefore both pretty and unconventional
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1457..1466
+14,1,1,0,1,1
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Sup1____
+1327..1431
+14,0,2
+#### Text ####
+which have been labeled variously as minimalist, Oriental, repetitive, cyclical, monophonic and hypnotic
+##############
+____Arg1____
+1303..1325;1433..1455
+14,0,0;14,0,1;14,0,3;14,1,0;14,1,1,0,0;14,1,1,0,1,0
+#### Text ####
+The piano compositions are relentlessly tonal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1480
+14,1,1,0,1,2;14,1,1,0,1,3;14,1,1,1;14,1,1,3
+#### Text ####
+unthreatening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1505..1514
+14,1,1,2,1,1
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1483..1503
+14,1,1,0,1,0;14,1,1,0,1,3;14,1,1,1;14,1,1,2,0;14,1,1,2,1,0
+#### Text ####
+unvaryingly rhythmic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1515..1524
+14,1,1,2,1,2;14,1,1,2,1,3;14,1,1,3
+#### Text ####
+soporific
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1570..1579
+14,1,1,5,1,1
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1527..1568
+14,1,1,4;14,1,1,5,0;14,1,1,5,1,0
+#### Text ####
+and unflaggingly harmonious but unmelodic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1580..1610
+14,1,1,5,1,2;14,1,1,5,1,3;14,2
+#### Text ####
+both pretty and unconventional
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1613
+15
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1303..1325;1433..1610
+14,0,0;14,0,1;14,0,3;14,1;14,2
+#### Text ####
+The piano compositions are relentlessly tonal (therefore unthreatening), unvaryingly rhythmic (therefore soporific), and unflaggingly harmonious but unmelodic (therefore both pretty and unconventional
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1613..1723
+15
+#### Text ####
+It is music for people who want to hear something different but don't want to work especially hard at the task
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1725
+16
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1613..1723
+15
+#### Text ####
+It is music for people who want to hear something different but don't want to work especially hard at the task
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1725..1767
+16
+#### Text ####
+It is E-Z listening for the now generation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1838
+18
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Pragmatic cause.Justification
+____Arg1____
+1771..1835
+17
+#### Text ####
+Mr. Glass has inverted the famous modernist dictum "less is more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1838..1861
+18
+#### Text ####
+His more is always less
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1863
+19
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1838..1861
+18
+#### Text ####
+His more is always less
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1863..2065
+19
+#### Text ####
+Far from being minimalist, the music unabatingly torments us with apparent novelties not so cleverly disguised in the simplicities of 4/4 time, octave intervals, and ragtime or gospel chord progressions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2067..2070
+20,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1863..2065
+19
+#### Text ####
+Far from being minimalist, the music unabatingly torments us with apparent novelties not so cleverly disguised in the simplicities of 4/4 time, octave intervals, and ragtime or gospel chord progressions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2071..2094
+20,0,1;20,0,2
+#### Text ####
+the music has its charm
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2096..2099
+20,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2067..2094
+20,0
+#### Text ####
+But the music has its charm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2100..2198
+20,3
+#### Text ####
+Mr. Glass has constructed his solo program around a move from the simple to the relatively complex
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2201
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Instantiation
+____Arg1____
+2096..2198
+20,2;20,3;20,4
+#### Text ####
+and Mr. Glass has constructed his solo program around a move from the simple to the relatively complex
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2201..2281
+21,0
+#### Text ####
+Opening" (1981), from Glassworks, introduces the audience to the Glass technique
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2283
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2201..2281
+21,0
+#### Text ####
+Opening" (1981), from Glassworks, introduces the audience to the Glass technique
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2283..2431
+21,2
+#### Text ####
+Never straying too far from the piano's center, Mr. Glass works in the two octaves on either side of middle C, and his fingers seldom leave the keys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2394..2397
+21,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+2283..2329
+21,2,0,0
+#### Text ####
+Never straying too far from the piano's center
+##############
+____Arg1____
+2331..2392
+21,2,0,1;21,2,0,2;21,2,0,3
+#### Text ####
+Mr. Glass works in the two octaves on either side of middle C
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2398..2431
+21,2,3
+#### Text ####
+his fingers seldom leave the keys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2433
+22
+____Arg1____
+2283..2431
+21,2
+#### Text ####
+Never straying too far from the piano's center, Mr. Glass works in the two octaves on either side of middle C, and his fingers seldom leave the keys
+##############
+____Arg2____
+2433..2515
+22
+#### Text ####
+There is a recognizable musical style here, but not a particular performance style
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2517
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2433..2515
+22
+#### Text ####
+There is a recognizable musical style here, but not a particular performance style
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2517..2554
+23,0
+#### Text ####
+The music is not especially pianistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2556..2562
+23,2,0
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+2517..2554
+23,0
+#### Text ####
+The music is not especially pianistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2564..2608
+23,2,1;23,2,2;23,2,3
+#### Text ####
+it's hard to imagine a bad performance of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2610
+24
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2556..2608
+23,2
+#### Text ####
+indeed, it's hard to imagine a bad performance of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2610..2695
+24
+#### Text ####
+Nothing bravura, no arpeggios, no ticklish fingering problems challenge the performer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2697
+25
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2610..2695
+24
+#### Text ####
+Nothing bravura, no arpeggios, no ticklish fingering problems challenge the performer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2697..2779
+25
+#### Text ####
+We hear, we may think, inner voices, but they all seem to be saying the same thing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2734..2737
+25,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2697..2704;2720..2732
+25,0,0;25,0,1,0;25,0,1,2
+#### Text ####
+We hear inner voices
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2706..2718
+25,0,1,1
+#### Text ####
+we may think
+##############
+____Arg2____
+2738..2779
+25,3
+#### Text ####
+they all seem to be saying the same thing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2903
+27
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2783..2800;2881..2901
+26,0,0;26,0,1,0;26,1;26,2;26,3;26,4;26,5
+#### Text ####
+With "Planet News Mr. Glass gets going
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2903..2946
+27
+#### Text ####
+His hands sit farther apart on the keyboard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2948
+28
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2903..2946
+27
+#### Text ####
+His hands sit farther apart on the keyboard
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2948..3037
+28
+#### Text ####
+Seventh chords make you feel as though he may break into a (very slow) improvisatory riff
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3039
+29
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2903..3037
+27;28
+#### Text ####
+His hands sit farther apart on the keyboard.
+Seventh chords make you feel as though he may break into a (very slow) improvisatory riff
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3039..3058
+29,0
+#### Text ####
+The chords modulate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3060..3063
+29,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3039..3058
+29,0
+#### Text ####
+The chords modulate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3064..3088
+29,3,0;29,3,1,0;29,3,1,1
+#### Text ####
+there is little filigree
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3089..3150
+29,3,1,2
+#### Text ####
+even though his fingers begin to wander over more of the keys
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3089..3100
+29,3,1,2,0;29,3,1,2,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+3060..3088
+29,2;29,3,0;29,3,1,0;29,3,1,1;29,4
+#### Text ####
+but there is little filigree
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3101..3150
+29,3,1,2,2
+#### Text ####
+his fingers begin to wander over more of the keys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3152
+30
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2903..3150
+27;28;29
+#### Text ####
+His hands sit farther apart on the keyboard.
+Seventh chords make you feel as though he may break into a (very slow) improvisatory riff.
+The chords modulate, but there is little filigree even though his fingers begin to wander over more of the keys
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3152..3184
+30,0
+#### Text ####
+Contrasts predictably accumulate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3211..3215
+30,2,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3186..3209
+30,2,0
+#### Text ####
+First the music is loud
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3216..3231
+30,2,2,1;30,2,2,2
+#### Text ####
+it becomes soft
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3233..3237
+30,2,4,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3211..3231
+30,2,2
+#### Text ####
+then it becomes soft
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3252..3275
+30,2,4,2;30,2,4,3
+#### Text ####
+it becomes louder again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3278
+31
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+3152..3275
+30
+#### Text ####
+Contrasts predictably accumulate: First the music is loud, then it becomes soft, then (you realize) it becomes louder again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3278..3443
+31
+#### Text ####
+The Fourth Knee Play," an interlude from "Einstein on the Beach," is like a toccata but it doesn't seem to move much beyond its left-hand ground in "Three Blind Mice
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3362..3365
+31,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3278..3361
+31,0
+#### Text ####
+The Fourth Knee Play," an interlude from "Einstein on the Beach," is like a toccata
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3366..3443
+31,2
+#### Text ####
+it doesn't seem to move much beyond its left-hand ground in "Three Blind Mice
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3448..3452
+32,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+3492..3562
+32,1;32,2;32,3;32,4
+#### Text ####
+he crosses his hands and hits a resonant bass note with his right hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3453..3490
+32,0,1
+#### Text ####
+Mr. Glass decides to get really fancy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3564
+33
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3448..3562
+32
+#### Text ####
+When Mr. Glass decides to get really fancy, he crosses his hands and hits a resonant bass note with his right hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3564..3613
+33
+#### Text ####
+He does this in at least three of his solo pieces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3615
+34
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3564..3613
+33
+#### Text ####
+He does this in at least three of his solo pieces
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3615..3673
+34
+#### Text ####
+You might call it a leitmotif or a virtuoso accomplishment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3675
+35
+____Arg1____
+3615..3673
+34
+#### Text ####
+You might call it a leitmotif or a virtuoso accomplishment
+##############
+____Arg2____
+3675..3931
+35
+#### Text ####
+In "Mad Rush," which came from a commission to write a piece of indeterminate length (Mr.
+Glass charmingly, and tellingly, confessed that "this was no problem for me"), an A section alternates with a B section several times before the piece ends unresolved
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3899..3905
+35,4,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3675..3687;3844..3898
+35,0,0;35,0,1,0;35,0,1,1;35,0,1,2;35,2;35,3;35,4,0;35,4,1;35,4,2;35,5
+#### Text ####
+In "Mad Rush an A section alternates with a B section several times
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3906..3931
+35,4,3,1
+#### Text ####
+the piece ends unresolved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3987..3991
+36,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3935..3979
+36,0
+#### Text ####
+Not only is the typical Glasswork open-ended
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3981..3986;3992..4024
+36,2,0;36,2,1,0;36,2,1,2;36,2,1,3;36,2,1,4
+#### Text ####
+it is often multiple in its context(s)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4027
+37
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3935..4023
+36
+#### Text ####
+Not only is the typical Glasswork open-ended, it is also often multiple in its context(s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4027..4323
+37;38
+#### Text ####
+Mad Rush" began its life as the accompaniment to the Dalai Lama's first public address in the U.S., when Mr. Glass played it on the organ at New York's Cathedral of St. John the Divine.
+Later it was performed on Radio Bremen in Germany, and then Lucinda Childs took it for one of her dance pieces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4127..4131
+37,1,4,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+4027..4124
+37,0;37,1,0;37,1,1;37,1,2;37,1,3;37,2
+#### Text ####
+Mad Rush" began its life as the accompaniment to the Dalai Lama's first public address in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4132..4211
+37,1,4,1
+#### Text ####
+Mr. Glass played it on the organ at New York's Cathedral of St. John the Divine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4213..4218
+38,0,0
+#### Text ####
+Later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+4027..4211
+37
+#### Text ####
+Mad Rush" began its life as the accompaniment to the Dalai Lama's first public address in the U.S., when Mr. Glass played it on the organ at New York's Cathedral of St. John the Divine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4219..4262
+38,0,1;38,0,2
+#### Text ####
+it was performed on Radio Bremen in Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4264..4267
+38,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4213..4262
+38,0
+#### Text ####
+Later it was performed on Radio Bremen in Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4268..4323
+38,3
+#### Text ####
+then Lucinda Childs took it for one of her dance pieces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4268..4272
+38,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4213..4262
+38,0
+#### Text ####
+Later it was performed on Radio Bremen in Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4264..4267;4273..4323
+38,2;38,3,1;38,3,2;38,4
+#### Text ####
+and Lucinda Childs took it for one of her dance pieces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4325..4342
+39,0;39,1,0;39,1,1,0
+#### Text ####
+The point is that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Generalization
+____Arg1____
+4027..4323
+37;38
+#### Text ####
+Mad Rush" began its life as the accompaniment to the Dalai Lama's first public address in the U.S., when Mr. Glass played it on the organ at New York's Cathedral of St. John the Divine.
+Later it was performed on Radio Bremen in Germany, and then Lucinda Childs took it for one of her dance pieces
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4325..4407
+39
+#### Text ####
+The point is that any piece can be used as background music for virtually anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4486
+41
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4411..4484
+40
+#### Text ####
+The evening ended with Mr. Glass's "Metamorphosis," another multiple work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4486..4697
+41
+#### Text ####
+Parts 1, 2, and 5 come from the soundtrack of Errol Morris's acclaimed film, "The Thin Blue Line," and the two other parts from incidental music to two separate dramatizations of the Kafka story of the same name
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4585..4588
+41,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4486..4582
+41,0
+#### Text ####
+Parts 1, 2, and 5 come from the soundtrack of Errol Morris's acclaimed film, "The Thin Blue Line
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4589..4697
+41,4
+#### Text ####
+the two other parts from incidental music to two separate dramatizations of the Kafka story of the same name
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4699
+42
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4486..4582
+41,0
+#### Text ####
+Parts 1, 2, and 5 come from the soundtrack of Errol Morris's acclaimed film, "The Thin Blue Line
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4699..4939
+42
+#### Text ####
+When used as background in this way, the music has an appropriate eeriness, as when a two-note phrase, a descending minor third, accompanies the seemingly endless litany of reports, interviews and confessions of witnesses in the Morris film
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4699..4703
+42,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Sup1____
+4775..4939
+42,3,3
+#### Text ####
+as when a two-note phrase, a descending minor third, accompanies the seemingly endless litany of reports, interviews and confessions of witnesses in the Morris film
+##############
+____Arg1____
+4736..4773
+42,1;42,2;42,3,0;42,3,1;42,3,2;42,4
+#### Text ####
+the music has an appropriate eeriness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4704..4734
+42,0,1
+#### Text ####
+used as background in this way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4962..4969
+43,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Sup1____
+4775..4939
+42,3,3
+#### Text ####
+as when a two-note phrase, a descending minor third, accompanies the seemingly endless litany of reports, interviews and confessions of witnesses in the Morris film
+##############
+____Arg1____
+4699..4773
+42,0;42,1;42,2;42,3,0;42,3,1;42,3,2;42,4
+#### Text ####
+When used as background in this way, the music has an appropriate eeriness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4941..4960;4971..5044
+43,0;43,1;43,3;43,4;43,5;43,6
+#### Text ####
+Served up as a solo the music lacks the resonance provided by a context within another medium
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5225..5228
+45,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5124..5222
+44,1,1,1,1,2
+#### Text ####
+that the 1974 "Music in Twelve Parts" is as encyclopedic and weighty as "The Well-Tempered Clavier
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5080..5123
+44,1,1,1,0;44,1,1,1,1,0;44,1,1,1,1,1
+#### Text ####
+with the critic Richard Kostelanetz's sense
+##############
+____Arg2____
+5312..5392
+45,2;45,3;45,4;45,5
+#### Text ####
+this comparison ignores the intensely claustrophobic nature of Mr. Glass's music
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5229..5234
+45,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+5225..5228;5312..5392
+45,0;45,2;45,3;45,4;45,5
+#### Text ####
+But this comparison ignores the intensely claustrophobic nature of Mr. Glass's music
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5235..5310
+45,1,1
+#### Text ####
+making the obvious point that both composers develop variations from themes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5394
+46
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+5312..5392
+45,2;45,3;45,4;45,5
+#### Text ####
+this comparison ignores the intensely claustrophobic nature of Mr. Glass's music
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5394..5627
+46
+#### Text ####
+Its supposedly austere minimalism overlays a bombast that makes one yearn for the astringency of neoclassical Stravinsky, the genuinely radical minimalism of Berg and Webern, and what in retrospect even seems like concision in Mahler
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

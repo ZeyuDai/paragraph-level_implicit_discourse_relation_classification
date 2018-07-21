@@ -1,0 +1,44 @@
+________________________________________________________
+____EntRel____
+158
+1
+____Arg1____
+9..156
+0
+#### Text ####
+UPJOHN Co. reported that third-quarter net income rose to $96 million, or 52 cents a share, from $89.6 million, or 49 cents a share, a year earlier
+##############
+____Arg2____
+158..258
+1
+#### Text ####
+Yesterday's edition provided analysts' estimates for the company when actual earnings were available
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+223..227
+1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+158..222
+1,0;1,1,0;1,1,1;1,2
+#### Text ####
+Yesterday's edition provided analysts' estimates for the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+228..258
+1,1,2,1
+#### Text ####
+actual earnings were available
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

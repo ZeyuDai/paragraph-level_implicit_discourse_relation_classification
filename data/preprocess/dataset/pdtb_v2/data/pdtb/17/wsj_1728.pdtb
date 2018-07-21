@@ -1,0 +1,467 @@
+________________________________________________________
+____Explicit____
+75..77
+0,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..74
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+STOCKS AND BONDS SURGED on the second anniversary of Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+78..151
+0,1,2,1
+#### Text ####
+a favorable inflation report prompted speculation of lower interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+153
+1
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9..74
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+STOCKS AND BONDS SURGED on the second anniversary of Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+153..206
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,1,4;1,2
+#### Text ####
+The Dow Jones industrials closed up 39.55, at 2683.20
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+208..213
+1,1,5,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+153..206
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,1,4;1,2
+#### Text ####
+The Dow Jones industrials closed up 39.55, at 2683.20
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+214..252
+1,1,5,1
+#### Text ####
+rising over 60 points in mid-afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+254
+2
+____Arg1____
+153..252
+1
+#### Text ####
+The Dow Jones industrials closed up 39.55, at 2683.20, after rising over 60 points in mid-afternoon
+##############
+____Arg2____
+254..317
+2
+#### Text ####
+The rally brought the gain so far this week to about 114 points
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+319
+3
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+254..317
+2
+#### Text ####
+The rally brought the gain so far this week to about 114 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+319..365
+3
+#### Text ####
+The dollar finished mixed, while gold declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+346..351
+3,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+319..344
+3,0;3,1,0;3,1,1;3,1,2;3,2
+#### Text ####
+The dollar finished mixed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+352..365
+3,1,3,1
+#### Text ####
+gold declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+460
+5
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Opposition
+____Arg1____
+369..458
+4
+#### Text ####
+Consumer prices climbed a moderate 0.2% in September, mostly due to higher clothing costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+460..511
+5,0
+#### Text ####
+Energy prices continued to fall at the retail level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+513..516
+5,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+460..511
+5,0
+#### Text ####
+Energy prices continued to fall at the retail level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+517..578
+5,3
+#### Text ####
+economists worried about a big rise in wholesale energy costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+719
+7
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+582..717
+6
+#### Text ####
+British Airways dropped out of the current bidding for United Air's parent, leaving a UAL management-pilots group without a key partner
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+719..824
+7
+#### Text ####
+British Air's move raised new questions about the buy-out group's efforts to revive a stalled bid for UAL
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+927
+9
+____Arg1____
+828..925
+8
+#### Text ####
+A capital-gains tax-cut plan was dropped by Senate Democrats under pressure from their leadership
+##############
+____Arg2____
+927..1029
+9
+#### Text ####
+The move is a setback for Bush, who needs Democratic support to pass a capital-gains cut in the Senate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1050..1054
+10,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+988..1029
+9,1,1,1,1,2,1,1,2
+#### Text ####
+to pass a capital-gains cut in the Senate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1033..1049;1055..1112
+10,0;10,2,0;10,2,1;10,3
+#### Text ####
+Other tax breaks are likely to be restored or created in the coming months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1113..1115
+10,2,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+1066..1112
+10,2,1,1
+#### Text ####
+to be restored or created in the coming months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1116..1173
+10,2,2,1
+#### Text ####
+special interest groups try to undo the 1986 tax overhaul
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1248..1250
+11,1,1,2,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1177..1203
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,2
+#### Text ####
+Many retailers are worried
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1204..1247
+11,1,1,2,0;11,1,1,2,1,0;11,1,1,2,1,1,0;11,1,1,2,1,1,1,0;11,1,1,2,1,1,1,1
+#### Text ####
+that a price war could erupt this Christmas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1251..1313
+11,1,1,2,1,1,1,2,1
+#### Text ####
+cash-strapped firms such as Campeau slash prices to spur sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1447..1451
+13,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1317..1445
+12
+#### Text ####
+AT&T unveiled a sweetened early retirement plan for management that the company hopes will save it $450 million in the next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1453..1489
+13,1;13,2;13,3;13,4
+#### Text ####
+profit rose 19% in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1744
+16
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1699..1742
+15,1,4
+#### Text ####
+prompting forecasts of weaker results ahead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1744..1817
+16
+#### Text ####
+Analysts were troubled by signs of flat U.S. orders at the computer maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2137
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2083..2135
+19
+#### Text ####
+BankAmerica's profit jumped 34% in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2137..2258
+20
+#### Text ####
+The rapid recovery continued to be fueled by growth in consumer loans, higher interest margins and only minor loan losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2355
+22
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+2262..2353
+21
+#### Text ####
+Big Board short interest fell 4.2% for the month ended Oct. 13, the second decline in a row
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2355..2405
+22
+#### Text ####
+Borrowed shares on the Amex rose to another record
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2524..2527
+24,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2409..2522
+23
+#### Text ####
+Bell Atlantic posted a strong earnings gain for the third quarter, as did Southern New England Telecommunications
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2528..2581
+24,1;24,2;24,3
+#### Text ####
+Nynex, Pacific Telesis and U S West had lower profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2889
+29
+____Arg1____
+2854..2887
+28
+#### Text ####
+Stocks: Volume 198,120,000 shares
+##############
+____Arg2____
+2889..2989
+29
+#### Text ####
+Dow Jones industrials 2683.20, up 39.55; transportation 1263.51, up 15.64; utilities 215.42, up 1.45
+##############
+________________________________________________________

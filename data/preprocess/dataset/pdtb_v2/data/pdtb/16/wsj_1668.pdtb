@@ -1,0 +1,147 @@
+________________________________________________________
+____Explicit____
+198..201
+1,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+155..197
+1,0
+#### Text ####
+The meeting had been scheduled for Nov. 10
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+202..313
+1,2
+#### Text ####
+the company delayed the meeting to allow time for the Securities and Exchange Commission to review the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+483..490
+3,0,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+317..481
+2
+#### Text ####
+As part of a restructuring announced earlier this year, the company proposed in August to exchange 168 newly issued common shares for each $1,000 face value of debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+492..520
+3,0,1;3,0,2;3,0,3
+#### Text ####
+that figure could be revised
+##############
+#### Features ####
+Ot, Comm, Null, Null
+522..542
+3,1;3,2;3,3;3,4
+#### Text ####
+Financial Corp. said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+544
+4
+____Arg1____
+483..542
+3
+#### Text ####
+However, that figure could be revised, Financial Corp. said
+##############
+____Arg2____
+544..614
+4
+#### Text ####
+Currently, the company has about six million common shares outstanding
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+616
+5
+____Arg1____
+544..614
+4
+#### Text ####
+Currently, the company has about six million common shares outstanding
+##############
+____Arg2____
+616..690
+5
+#### Text ####
+If all the debt was converted, about 13 million new shares would be issued
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+616..618
+5,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+647..690
+5,1;5,2;5,3;5,4
+#### Text ####
+about 13 million new shares would be issued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+619..645
+5,0,1
+#### Text ####
+all the debt was converted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+963..967
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+317..481
+2
+#### Text ####
+As part of a restructuring announced earlier this year, the company proposed in August to exchange 168 newly issued common shares for each $1,000 face value of debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+947..962;968..1107
+8,0;8,2;8,3
+#### Text ####
+Financial Corp. is proposing to exchange each of its 130,000 outstanding shares of cumulative convertible preferred series A stock for two shares of common
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

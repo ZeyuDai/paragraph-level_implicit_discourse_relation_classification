@@ -1,0 +1,219 @@
+________________________________________________________
+____Explicit____
+360..363
+1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+245..305
+1,0,0;1,0,1;1,0,2;1,0,3,0
+#### Text ####
+In recent testimony on Capitol Hill, Treasury officials said
+##############
+and, Expansion.Conjunction
+____Arg1____
+306..358
+1,0,3,1
+#### Text ####
+they were considering the new reporting requirements
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+364..495
+1,3
+#### Text ####
+the expected publication of the proposal in the Federal Register today is the first official step toward creating final regulations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+497
+2
+#### Features ####
+Wr, Comm, Null, Null
+simultaneously, Temporal.Synchrony
+____Arg1____
+306..495
+1,0,3,1;1,1;1,2;1,3;1,4
+#### Text ####
+they were considering the new reporting requirements, and the expected publication of the proposal in the Federal Register today is the first official step toward creating final regulations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+245..305
+1,0,0;1,0,1;1,0,2;1,0,3,0
+#### Text ####
+In recent testimony on Capitol Hill, Treasury officials said
+##############
+____Arg2____
+497..651
+2
+#### Text ####
+The Treasury is still working out the details with bank trade associations and the other government agencies that have a hand in fighting money laundering
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+824
+4
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+655..822
+3
+#### Text ####
+Among the possibilities the Treasury is considering are requirements that banks keep records identifying the originators and recipients of international wire transfers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+824..1032
+4
+#### Text ####
+Another suggestion would draw banks more directly into tracking down money launderers by developing a "suspicious international wire transfer profile," which banks would use to spotlight questionable payments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1034..1037
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+824..1032
+4
+#### Text ####
+Another suggestion would draw banks more directly into tracking down money launderers by developing a "suspicious international wire transfer profile," which banks would use to spotlight questionable payments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1038..1150
+5,1;5,2;5,3
+#### Text ####
+banks may prefer using a profile that targets selected transactions, rather than a blanket reporting requirement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1241..1244
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1154..1239
+6
+#### Text ####
+Banks now are required only to report cash deposits or withdrawals of $10,000 or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1245..1341
+7,1;7,2;7,3
+#### Text ####
+wire transfers from a standing account -- including those bigger than $10,000 -- aren't reported
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1361
+8
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1241..1341
+7
+#### Text ####
+But wire transfers from a standing account -- including those bigger than $10,000 -- aren't reported
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1361..1436
+8,1,1
+#### Text ####
+this has left a gaping loophole that illegal drug businesses are exploiting
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1343..1360
+8,0;8,1,0;8,2
+#### Text ####
+Officials believe
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1438
+9
+____Arg1____
+1343..1436
+8
+#### Text ####
+Officials believe this has left a gaping loophole that illegal drug businesses are exploiting
+##############
+____Arg2____
+1438..1537
+9
+#### Text ####
+Authorities estimate that revenues from illegal drugs in the U.S. total about $110 billion annually
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1793
+11
+____Arg1____
+1541..1791
+10
+#### Text ####
+Sen. John Kerry (D., Mass.), chairman of a Senate Foreign Relations subcommittee that oversees the issue of money laundering, criticized the proposal for ignoring wire transfers between foreign banks that are executed and cleared on U.S. wire systems
+##############
+____Arg2____
+1793..1861
+11
+#### Text ####
+The American Bankers Association didn't have any comment on the plan
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1863
+12
+____Arg1____
+1793..1861
+11
+#### Text ####
+The American Bankers Association didn't have any comment on the plan
+##############
+____Arg2____
+1863..2003
+12
+#### Text ####
+The proposal now enters a 60-day comment period, after which the Treasury will propose final regulations, followed by another comment period
+##############
+________________________________________________________

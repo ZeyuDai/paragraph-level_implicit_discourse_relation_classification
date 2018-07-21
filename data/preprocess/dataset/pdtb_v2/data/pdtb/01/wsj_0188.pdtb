@@ -1,0 +1,158 @@
+________________________________________________________
+____Explicit____
+366..377
+2,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+72..218
+0,3,1
+#### Text ####
+it plans to sell most of its psychiatric and drug abuse facilities in California and some other assets to pay its debt and provide working capital
+##############
+#### Features ####
+Ot, Comm, Null, Null
+42..71
+0,1;0,2;0,3,0;0,4
+#### Text ####
+Comprehensive Care Corp. said
+##############
+____Arg2____
+379..437
+2,1;2,2;2,3,0;2,3,1,0;2,3,1,1;2,3,1,2;2,4
+#### Text ####
+the company has replaced its president and chief executive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+439..534
+2,3,1,3
+#### Text ####
+naming W. James Nichol, head of the company's contract health services, to succeed B. Lee Karns
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+536
+3
+____Arg1____
+366..534
+2
+#### Text ####
+In addition, the company has replaced its president and chief executive, naming W. James Nichol, head of the company's contract health services, to succeed B. Lee Karns
+##############
+____Arg2____
+536..720
+3
+#### Text ####
+Mr. Nichol said he was "extremely disappointed in the continuing deterioration of the company's operations while it attempted to conclude the reorganization during the past four months
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+643..648
+3,1,1,1,1,2,2,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+552..582
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1;3,1,1,1,1,2,0;3,1,1,1,1,2,1
+#### Text ####
+he was "extremely disappointed
+##############
+while, Temporal.Synchrony
+____Arg1____
+583..642
+3,1,1,1,1,2,2,0;3,1,1,1,1,2,2,1,0;3,1,1,1,1,2,2,1,1
+#### Text ####
+in the continuing deterioration of the company's operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+649..720
+3,1,1,1,1,2,2,1,2,1
+#### Text ####
+it attempted to conclude the reorganization during the past four months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+723
+4
+____Arg1____
+536..720
+3
+#### Text ####
+Mr. Nichol said he was "extremely disappointed in the continuing deterioration of the company's operations while it attempted to conclude the reorganization during the past four months
+##############
+____Arg2____
+723..850
+4,0;4,1;4,2;4,3,0;4,3,1;4,3,2;4,3,3,0;4,3,3,1,0;4,3,3,1,1;4,4
+#### Text ####
+Concurrent with Mr. Nichol's appointment, Comprehensive Care moved its corporate headquarters from Irvine, Calif., to St. Louis
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1048..1051
+6,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+949..1045
+6,0
+#### Text ####
+Comprehensive Care had agreed to be acquired by closely held First Hospital Corp. of Norfolk, Va
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1052..1128
+6,2
+#### Text ####
+the sale sputtered almost from the beginning and finally collapsed last week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1101..1108
+6,2,1,2,0
+#### Text ####
+finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+1048..1096
+6,1;6,2,0;6,2,1,0;6,3
+#### Text ####
+but the sale sputtered almost from the beginning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1097..1100;1109..1128
+6,2,1,1;6,2,1,2,1;6,2,1,2,2
+#### Text ####
+and collapsed last week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

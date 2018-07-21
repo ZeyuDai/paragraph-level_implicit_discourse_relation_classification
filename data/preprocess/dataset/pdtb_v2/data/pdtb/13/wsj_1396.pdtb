@@ -1,0 +1,326 @@
+________________________________________________________
+____Explicit____
+227..234
+1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+179..226
+1,0;1,1,0;1,1,1;1,2
+#### Text ####
+Mr. Hastings's case was particularly nettlesome
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+235..361
+1,1,2,1
+#### Text ####
+it marked the first time a federal official was impeached and removed from office on charges of which a jury had acquitted him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+363
+2
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+317..361
+1,1,2,1,1,1,1,1,1,1,3;1,1,2,1,1,1,1,1,1,1,4
+#### Text ####
+on charges of which a jury had acquitted him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+363..510
+2
+#### Text ####
+In 1983, Mr. Hastings was found not guilty of accepting a $150,000 bribe in a case before him, the central charge on which the Senate convicted him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+512
+3
+____Arg1____
+363..510
+2
+#### Text ####
+In 1983, Mr. Hastings was found not guilty of accepting a $150,000 bribe in a case before him, the central charge on which the Senate convicted him
+##############
+____Arg2____
+512..598
+3
+#### Text ####
+He was only the sixth federal judge ever ousted from office after an impeachment trial
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+755
+5
+____Arg1____
+602..753
+4
+#### Text ####
+With no floor debate, the Senate on Friday voted 69-26 to convict Mr. Hastings of perjury and conspiring to accept a bribe, five votes more than needed
+##############
+____Arg2____
+755..847
+5
+#### Text ####
+Conviction on any single impeachment article was enough to remove Judge Hastings from office
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+849
+6
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+755..847
+5
+#### Text ####
+Conviction on any single impeachment article was enough to remove Judge Hastings from office
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+849..1001
+6
+#### Text ####
+He was found not guilty of three charges, involving accusations that he had improperly disclosed information about a sensitive, government investigation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1003
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+849..1001
+6
+#### Text ####
+He was found not guilty of three charges, involving accusations that he had improperly disclosed information about a sensitive, government investigation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1003..1047
+7
+#### Text ####
+The Senate didn't vote on six lesser charges
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1051..1059
+8,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+1103..1222
+8,1;8,2;8,3;8,4
+#### Text ####
+lawmakers handling the prosecution in Congress had argued that the purpose of impeachment isn't to punish an individual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1060..1101
+8,0,1
+#### Text ####
+Mr. Hastings had been acquitted by a jury
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1224..1231
+9,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1161..1222
+8,3,1,1
+#### Text ####
+that the purpose of impeachment isn't to punish an individual
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1103..1160
+8,1;8,2;8,3,0;8,3,1,0;8,4
+#### Text ####
+lawmakers handling the prosecution in Congress had argued
+##############
+____Arg2____
+1245..1412
+9,3,1
+#### Text ####
+that impeachment aims to protect public institutions from people who have abused their positions of trust, irrespective of the outcome of prior criminal or civil cases
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1233..1244
+9,1;9,2;9,3,0;9,4
+#### Text ####
+they argued
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1506..1510
+10,1,4
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1416..1504
+10,0;10,1,0;10,1,1;10,1,2;10,1,3
+#### Text ####
+Mr. Hastings faced the senators and sat impassively during the first two roll-call votes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1511..1535
+10,1,5;10,2
+#### Text ####
+quickly left the chamber
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1537
+11
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1416..1535
+10
+#### Text ####
+Mr. Hastings faced the senators and sat impassively during the first two roll-call votes, then quickly left the chamber
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1537..1624
+11
+#### Text ####
+In an impromptu news conference on the Capitol steps, he denounced the senators' action
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1739
+13
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1629..1717
+12,1
+#### Text ####
+Their opinion is devoid of the wisdom of the forefathers' teaching regarding impeachment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1720..1737
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Mr. Hastings said
+##############
+____Arg2____
+1739..1753;1763..1799
+13,0;13,1;13,3,1;13,4
+#### Text ####
+For the future he would run for governor of Florida
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1755..1762
+13,1;13,2;13,3,0;13,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1939
+15
+____Arg1____
+1803..1937
+14
+#### Text ####
+Mr. Hastings was appointed to the federal bench by President Carter in 1979 and was one of the few black federal judges in the country
+##############
+____Arg2____
+1939..2090
+15
+#### Text ####
+While he packed the Senate gallery with his supporters during some of the impeachment trial, most civil rights groups kept their distance from his case
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1939..1944
+15,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+2032..2090
+15,1;15,2;15,3;15,4
+#### Text ####
+most civil rights groups kept their distance from his case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1945..2030
+15,0,1
+#### Text ####
+he packed the Senate gallery with his supporters during some of the impeachment trial
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

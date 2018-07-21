@@ -1,0 +1,376 @@
+________________________________________________________
+____Explicit____
+502..506
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..258
+0
+#### Text ####
+Moody's Investors Service Inc. said it lowered ratings on long-term debt of CS First Boston Inc., the holding company of Wall Street giant First Boston Corp., because of First Boston's "aggressive merchant banking risk" in highly leveraged takeovers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+494..501;507..617
+2,0;2,2;2,3
+#### Text ####
+Moody's confirmed the Prime-1 rating, its highest, on CS First Boston's commercial paper, or short-term corporate IOUs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+621..632
+3,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+262..373
+1,0
+#### Text ####
+In downgrading CS First Boston's subordinated domestic, Euromarket and Swiss debt to single-A-3 from single-A-2
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+647..926
+3,3,1
+#### Text ####
+it downgraded Financiere Credit Suisse-First Boston's senior and subordinated Swiss debt to single-A-2 from single-A-1 and lowered Financiere CSFB N.V.'s junior subordinated perpetual Eurodebt, guaranteed by Financiere Credit Suisse -- First Boston, to single-A-3 from single-A-2
+##############
+#### Features ####
+Ot, Comm, Null, Null
+634..646
+3,1;3,2;3,3,0;3,4
+#### Text ####
+Moody's said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+928
+4
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+647..926
+3,3,1
+#### Text ####
+it downgraded Financiere Credit Suisse-First Boston's senior and subordinated Swiss debt to single-A-2 from single-A-1 and lowered Financiere CSFB N.V.'s junior subordinated perpetual Eurodebt, guaranteed by Financiere Credit Suisse -- First Boston, to single-A-3 from single-A-2
+##############
+#### Features ####
+Ot, Comm, Null, Null
+621..646
+3,0;3,1;3,2;3,3,0;3,4
+#### Text ####
+In addition, Moody's said
+##############
+____Arg2____
+928..998
+4
+#### Text ####
+About $550 million of long-term debt is affected, according to Moody's
+##############
+#### Features ####
+Ot, Comm, Null, Null
+978..998
+4,1,1,1;4,1,1,2;4,1,1,3;4,2
+#### Text ####
+according to Moody's
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1120
+6
+#### Features ####
+Ot, Comm, Null, Null
+1002..1038
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+A spokesman for CS First Boston said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1041..1118
+5,1,3
+#### Text ####
+We remain committed to a full range of businesses, including merchant banking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1120..1188
+6
+#### Text ####
+We think that the ratings revision is unfortunate but not unexpected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1190
+7
+#### Features ####
+Ot, Comm, Null, Null
+1002..1038
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+A spokesman for CS First Boston said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1041..1188
+5,1,3;6
+#### Text ####
+We remain committed to a full range of businesses, including merchant banking.
+We think that the ratings revision is unfortunate but not unexpected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1190..1256
+7
+#### Text ####
+Our commitment to manage these businesses profitably will continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1318..1320
+8,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1261..1317
+8,0;8,1,0;8,1,1;8,2
+#### Text ####
+First Boston's merchant banking risks mounted last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1321..1473
+8,1,2,1
+#### Text ####
+highly leveraged Campeau Corp., First Boston's most lucrative client of the decade, was hit by a cash squeeze and the high-risk junk bond market tumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1431..1434
+8,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1318..1430
+8,1,2,0;8,1,2,1,0
+#### Text ####
+as highly leveraged Campeau Corp., First Boston's most lucrative client of the decade, was hit by a cash squeeze
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1435..1473
+8,1,2,1,2
+#### Text ####
+the high-risk junk bond market tumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1475
+9
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1261..1473
+8
+#### Text ####
+First Boston's merchant banking risks mounted last month as highly leveraged Campeau Corp., First Boston's most lucrative client of the decade, was hit by a cash squeeze and the high-risk junk bond market tumbled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1475..1607
+9
+#### Text ####
+First Boston incurred millions of dollars of losses on Campeau securities it owned as well as on special securities it couldn't sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1609
+10
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1475..1607
+9
+#### Text ####
+First Boston incurred millions of dollars of losses on Campeau securities it owned as well as on special securities it couldn't sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1609..1755
+10
+#### Text ####
+First Boston financings for several other highly leveraged clients, including Ohio Mattress, unraveled as the high-risk junk bond market plummeted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1712..1714
+10,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1609..1711
+10,0;10,1,0;10,2
+#### Text ####
+First Boston financings for several other highly leveraged clients, including Ohio Mattress, unraveled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1715..1755
+10,1,1,1
+#### Text ####
+the high-risk junk bond market plummeted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1939
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1772..1928
+11,1,1
+#### Text ####
+its rating changes actions "reflect CS First Boston's aggressive merchant banking risk as well as the risk profile of its current merchant banking exposures
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1759..1771
+11,0;11,1,0;11,2;11,3
+#### Text ####
+Moody's said
+##############
+____Arg2____
+1939..2154
+12,1,1
+#### Text ####
+CS First Boston "has consistently been one of the most aggressive firms in merchant banking" and that "a very significant portion" of the firm's profit in recent years has come from merchant banking-related business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1931..1938
+12,0;12,1,0;12,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2032..2035
+12,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1931..1938
+12,0;12,1,0;12,2
+#### Text ####
+It said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1939..2030
+12,1,1,0
+#### Text ####
+CS First Boston "has consistently been one of the most aggressive firms in merchant banking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2036..2154
+12,1,1,2
+#### Text ####
+that "a very significant portion" of the firm's profit in recent years has come from merchant banking-related business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2529
+15
+#### Features ####
+Ot, Comm, Null, Null
+2514..2526
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Moody's said
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+2421..2511
+14,1
+#### Text ####
+These two exposures alone represent a very substantial portion of CS First Boston's equity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2529..2596
+15
+#### Text ####
+Total merchant banking exposures are in excess of the firm's equity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

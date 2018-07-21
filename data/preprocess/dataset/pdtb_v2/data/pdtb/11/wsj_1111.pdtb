@@ -1,0 +1,441 @@
+________________________________________________________
+____EntRel____
+320
+2
+____Arg1____
+185..318
+1
+#### Text ####
+The buy-back, coupled with a nearly completed earlier purchase of 20 million shares, would reduce shares outstanding by more than 26%
+##############
+____Arg2____
+320..382
+2
+#### Text ####
+The Norfolk, Va., company has 172.2 million shares outstanding
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+543
+4
+____Arg1____
+386..540
+3
+#### Text ####
+In a statement, Arnold B. McKinnon, chairman and chief executive officer, noted that the new repurchase program "should serve to enhance shareholder value
+##############
+____Arg2____
+543..666
+4
+#### Text ####
+A spokeswoman said the company will finance the buy-back with cash on hand, borrowing and "cash Norfolk expects to generate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+711..714
+5,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+671..709
+5,0
+#### Text ####
+Analysts said they expected the action
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+715..743
+5,3
+#### Text ####
+investors applauded the move
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+745
+6
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+711..743
+5,2;5,3;5,4
+#### Text ####
+and investors applauded the move
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+745..850
+6
+#### Text ####
+In composite trading on the New York Stock Exchange, Norfolk Southern shares closed at $37.875, up $1.125
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+854..859
+7,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Sup1____
+711..743
+5,2;5,3;5,4
+#### Text ####
+and investors applauded the move
+##############
+____Arg1____
+685..709
+5,0,1,1
+#### Text ####
+they expected the action
+##############
+#### Features ####
+Ot, Comm, Null, Null
+671..684
+5,0,0;5,0,1,0
+#### Text ####
+Analysts said
+##############
+____Arg2____
+861..956
+7,1;7,2;7,3;7,4
+#### Text ####
+analysts don't expect the buy-back to significantly affect per-share earnings in the short term
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+959
+8
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+854..956
+7
+#### Text ####
+Still, analysts don't expect the buy-back to significantly affect per-share earnings in the short term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+959..1035
+8
+#### Text ####
+The impact won't be that great," said Graeme Lidgerwood of First Boston Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1037..1063
+9,0,0;9,0,1,0;9,0,1,1;9,0,1,2,0;9,0,1,2,1
+#### Text ####
+That is in part because of
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+959..989
+8,1
+#### Text ####
+The impact won't be that great
+##############
+#### Features ####
+Ot, Comm, Null, Null
+992..1035
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Graeme Lidgerwood of First Boston Corp
+##############
+____Arg2____
+1037..1128
+9,0
+#### Text ####
+That is in part because of the effect of having to average the number of shares outstanding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1130..1138
+9,1;9,2;9,3;9,4
+#### Text ####
+she said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1140..1151
+10,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1153..1173
+10,1
+#### Text ####
+Mrs. Lidgerwood said
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+959..989;1037..1128
+8,1;9,0
+#### Text ####
+The impact won't be that great That is in part because of the effect of having to average the number of shares outstanding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+992..1035
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Graeme Lidgerwood of First Boston Corp
+##############
+____Arg2____
+1175..1287
+10,2;10,3;10,4
+#### Text ####
+Norfolk is likely to draw down its cash initially to finance the purchases and thus forfeit some interest income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1254..1258
+10,3,1,1,1,1,2,0
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1153..1173
+10,1
+#### Text ####
+Mrs. Lidgerwood said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+1140..1151;1175..1249
+10,0;10,2;10,3,0;10,3,1,0;10,3,1,1,0;10,3,1,1,1,0;10,3,1,1,1,1,0;10,4
+#### Text ####
+In addition Norfolk is likely to draw down its cash initially to finance the purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1250..1253;1259..1287
+10,3,1,1,1,1,1;10,3,1,1,1,1,2,1;10,3,1,1,1,1,2,2
+#### Text ####
+and forfeit some interest income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1304..1311
+11,0,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+854..956
+7
+#### Text ####
+Still, analysts don't expect the buy-back to significantly affect per-share earnings in the short term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1291..1302;1313..1381
+11,0,0;11,0,1;11,0,3;11,0,4;11,0,5
+#### Text ####
+Longer term the buy-back is expected to increase earnings, especially after 1990
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1383..1403
+11,1;11,2;11,3;11,4
+#### Text ####
+Mrs. Lidgerwood said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1407..1415
+12,0,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+1291..1381
+11,0
+#### Text ####
+Longer term, however, the buy-back is expected to increase earnings, especially after 1990
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1383..1403
+11,1;11,2;11,3;11,4
+#### Text ####
+Mrs. Lidgerwood said
+##############
+____Arg2____
+1417..1488
+12,0,1;12,0,2;12,0,3;12,0,4
+#### Text ####
+the extensive program in effect establishes a floor for the stock price
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1490..1547
+12,1;12,2;12,3;12,4
+#### Text ####
+said Joel Price, analyst for Donaldson, Lufkin & Jenrette
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1549
+13
+#### Features ####
+Ot, Comm, Null, Null
+1650..1657
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+he said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1407..1488
+12,0
+#### Text ####
+Moreover, the extensive program in effect establishes a floor for the stock price
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1490..1547
+12,1;12,2;12,3;12,4
+#### Text ####
+said Joel Price, analyst for Donaldson, Lufkin & Jenrette
+##############
+____Arg2____
+1549..1647
+13,0
+#### Text ####
+The buy-back "is really a comfort to those who want to buy the stock that there is a {price} floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1660
+14
+#### Features ####
+Ot, Comm, Null, Null
+1650..1657
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1549..1647
+13,0
+#### Text ####
+The buy-back "is really a comfort to those who want to buy the stock that there is a {price} floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1660..1752
+14
+#### Text ####
+At a certain price, if the management thinks {the stock} is cheap, they can go in and buy it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1680..1682
+14,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1650..1657
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+he said
+##############
+if, Contingency.Condition.General
+____Arg1____
+1660..1678;1727..1752
+14,0;14,1;14,2;14,4;14,5;14,6;14,7;14,8
+#### Text ####
+At a certain price they can go in and buy it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1683..1725
+14,3,1
+#### Text ####
+the management thinks {the stock} is cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1917
+17
+#### Features ####
+Wr, Comm, Null, Null
+since then, Temporal.Asynchronous.Precedence
+____Arg1____
+1830..1915
+16
+#### Text ####
+Under the earlier plan, Norfolk was authorized in 1987 to buy up to 20 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1917..1958
+17
+#### Text ####
+It has purchased about 19 million of them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,156 @@
+________________________________________________________
+____EntRel____
+621
+4
+____Arg1____
+497..619
+3
+#### Text ####
+The 50 million warrants will be priced at HK$1.25 each and are expected to carry a premium to the share price of about 26%
+##############
+____Arg2____
+621..711
+4
+#### Text ####
+In trading on the Stock Exchange of Hong Kong, the shares closed Wednesday at HK$4.80 each
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+713
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+497..711
+3;4
+#### Text ####
+The 50 million warrants will be priced at HK$1.25 each and are expected to carry a premium to the share price of about 26%.
+In trading on the Stock Exchange of Hong Kong, the shares closed Wednesday at HK$4.80 each
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+713..843
+5
+#### Text ####
+At this price, the shares would have to rise above HK$6.05 for subscribers to Salomon's issue to profitably convert their warrants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+847..852
+6,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+927..994
+6,1;6,2;6,3;6,4
+#### Text ####
+Salomon's warrants are the first here to be issued by a third party
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+853..925
+6,0,1
+#### Text ####
+Hong Kong companies have in the past issued warrants on their own shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+996
+7
+____Arg1____
+847..994
+6
+#### Text ####
+While Hong Kong companies have in the past issued warrants on their own shares, Salomon's warrants are the first here to be issued by a third party
+##############
+____Arg2____
+996..1118
+7
+#### Text ####
+Salomon will "cover" the warrants by buying sufficient shares, or options to purchase shares, to cover its entire position
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1180..1187
+8,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1122..1134
+8,0;8,1,0;8,2
+#### Text ####
+Bankers said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1135..1179
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1
+#### Text ####
+warrants for Hong Kong stocks are attractive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1188..1215;1266..1326
+8,1,1,1,1,2,1,0;8,1,1,1,1,2,1,1,0;8,1,1,1,1,2,1,1,1,0;8,1,1,1,1,2,1,1,1,1;8,1,1,1,1,2,1,1,1,3;8,1,1,1,1,2,1,1,2
+#### Text ####
+they give foreign investors an opportunity to buy shares without taking too great a risk
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1217..1264
+8,1,1,1,1,2,1,1,1,2
+#### Text ####
+wary of volatility in the colony's stock market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1433..1440
+9,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1414..1431
+9,1,1,2
+#### Text ####
+the bankers added
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1330..1412
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,2
+#### Text ####
+The Hong Kong Telecommunications warrants should be attractive to buyers in Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1441..1544
+9,1,1,3,1
+#### Text ####
+the group is one of a handful of blue-chip stocks on the Hong Kong market that has international appeal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

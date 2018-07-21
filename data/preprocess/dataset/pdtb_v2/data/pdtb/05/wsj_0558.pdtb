@@ -1,0 +1,173 @@
+________________________________________________________
+____Implicit____
+310
+2
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+215..308
+1
+#### Text ####
+Catastrophe losses reduced Aetna's net income by $50 million, including $36 million from Hugo
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+310..404
+2
+#### Text ####
+Last year catastrophe losses totaled $5 million, when net was $235.5 million, or $2.07 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+359..363
+2,2,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+310..357
+2,0;2,1;2,2,0;2,2,1;2,2,2;2,3
+#### Text ####
+Last year catastrophe losses totaled $5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+364..404
+2,2,3,1
+#### Text ####
+net was $235.5 million, or $2.07 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+406
+3
+____Arg1____
+310..404
+2
+#### Text ####
+Last year catastrophe losses totaled $5 million, when net was $235.5 million, or $2.07 a share
+##############
+____Arg2____
+406..481
+3
+#### Text ####
+The year-earlier results have been restated to reflect an accounting change
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+589..592
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+485..587
+4
+#### Text ####
+The insurer has started processing claims from the Northern California earthquake nearly two weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+593..767
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+because these claims are more difficult to evaluate and have been coming in more slowly, the company has no estimate of the impact of the earthquake on fourth-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+593..600
+5,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+589..592;682..767
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+But the company has no estimate of the impact of the earthquake on fourth-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+601..680
+5,1,1
+#### Text ####
+these claims are more difficult to evaluate and have been coming in more slowly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+992
+8
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+862..990
+7
+#### Text ####
+In the latest quarter, Aetna had a $23 million loss on its auto/homeowners line, compared with earnings of $33 million last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+992..1171
+8
+#### Text ####
+Profit for its commercial insurance division fell 30% to $59 million, reflecting higher catastrophe losses and the price war in the property/casualty market for nearly three years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1175..1182
+9,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+992..1060
+8,0;8,1,0;8,1,1;8,1,2;8,1,3;8,2
+#### Text ####
+Profit for its commercial insurance division fell 30% to $59 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1184..1218;1274..1314
+9,1;9,2,0;9,2,1;9,2,3;9,3;9,4
+#### Text ####
+Aetna's employee benefits division posted a 34% profit gain to $106 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

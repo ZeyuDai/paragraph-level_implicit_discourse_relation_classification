@@ -1,0 +1,189 @@
+________________________________________________________
+____Explicit____
+428..430
+2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+485..630
+2,1;2,2;2,3;2,4
+#### Text ####
+Mr. Cheney would need only permission from the White House Office of Management and Budget to move the money, according to Senate budget analysts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+431..483
+2,0,1
+#### Text ####
+the request is approved by both the House and Senate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+710
+4
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion
+____Arg1____
+634..707
+3
+#### Text ####
+That would give the Pentagon flexibility that no other federal agency has
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+710..807
+4,1
+#### Text ####
+It's simply a way of making the cuts less onerous for defense than they are for domestic programs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+810..879
+4,0;4,2;4,3;4,4;4,5,0;4,5,1;4,5,2;4,5,3;4,6
+#### Text ####
+said Chairman James Sasser (D., Tenn.) of the Senate Budget Committee
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+920
+5
+#### Features ####
+Ot, Comm, Null, Null
+810..879
+4,0;4,2;4,3;4,4;4,5,0;4,5,1;4,5,2;4,5,3;4,6
+#### Text ####
+said Chairman James Sasser (D., Tenn.) of the Senate Budget Committee
+##############
+however, Comparison
+____Arg1____
+710..807
+4,1
+#### Text ####
+It's simply a way of making the cuts less onerous for defense than they are for domestic programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+920..1009
+5,1
+#### Text ####
+That isn't consistent with the kind of discipline that Gramm-Rudman is supposed to impose
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1101
+7
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1023..1099
+6
+#### Text ####
+The president's request didn't indicate how Mr. Cheney would shift the money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1101..1213
+7
+#### Text ####
+A Pentagon official said the request was made to give the department "maximum flexibility" to deal with the cuts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1467
+9
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1217..1465
+8
+#### Text ####
+Last week, Budget Director Richard Darman structured the $16.1 billion spending reduction, half of which must come from defense, to "impose a little bit more discipline" by applying cuts to each individual program, project or activity in the budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1532
+9,0
+#### Text ####
+That would give agencies "less ability . . . to fudge over things
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1535..1552
+9,1;9,2;9,3;9,4;9,5
+#### Text ####
+he told reporters
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1671
+11
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1556..1669
+10
+#### Text ####
+Under the deficit-reduction law, 4.3% of the Pentagon's money and 5.3% of other agencies' money has been canceled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1671..1785
+11
+#### Text ####
+Lawmakers are expected to try to restore the funds once a pending deficit-cutting measure has been signed into law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1722..1726
+11,1,1,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession
+____Arg1____
+1694..1721
+11,1,1,1
+#### Text ####
+to try to restore the funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1727..1785
+11,1,1,2,1
+#### Text ####
+a pending deficit-cutting measure has been signed into law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

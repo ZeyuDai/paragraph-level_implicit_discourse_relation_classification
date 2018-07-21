@@ -1,0 +1,625 @@
+________________________________________________________
+____Implicit____
+243
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+76..227
+1,0
+#### Text ####
+Medical-supply houses are expected to report earnings increases of about 15% on average for the third quarter, despite sales increases of less than 10%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+229..241
+1,1;1,2;1,3;1,4
+#### Text ####
+analysts say
+##############
+____Arg2____
+243..396
+2
+#### Text ####
+To offset sluggish sales growth, companies have been cutting staff, mostly through attrition, and slowing the growth in research and development spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+538..542
+4,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+400..521
+3
+#### Text ####
+Sales growth in the quarter was slowed by mounting pressure from groups of buyers, such as hospitals, to hold down prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+523..537;543..575
+4,0;4,1,0;4,1,2,0;4,1,2,1;4,1,2,2,0;4,1,2,2,1,0;4,1,2,2,1,1;4,2
+#### Text ####
+Suppliers were hurt by the stronger U.S. dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+618
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+523..616
+4
+#### Text ####
+Suppliers were also hurt by the stronger U.S. dollar, which makes sales abroad more difficult
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+618..665
+5
+#### Text ####
+In some cases, competition has squeezed margins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+692..703
+6,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+618..665
+5
+#### Text ####
+In some cases, competition has squeezed margins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+667..690;705..785
+6,0;6,1;6,3;6,4;6,5
+#### Text ####
+Becton, Dickinson & Co. faces stiff competition from a Japanese supplier in the important syringe market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+787
+7
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+667..785
+6
+#### Text ####
+Becton, Dickinson & Co., for example, faces stiff competition from a Japanese supplier in the important syringe market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+787..922
+7,0
+#### Text ####
+The Franklin Lakes, N.J., company is expected to report sales growth of only 5% to 6%, but should still maintain earnings growth of 10%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+924..979
+7,1;7,2;7,3;7,4
+#### Text ####
+says Jerry E. Fuller, an analyst with Duff & Phelps Inc
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1184
+9
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1054..1182
+8,3,1
+#### Text ####
+third-quarter net income jumped 14% to $196 million, or 88 cents a share, from $172 million, or 76 cents a share, a year earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+983..1053
+8,0;8,1;8,2;8,3,0;8,4
+#### Text ####
+Among the first of the group to post results, Abbott Laboratories said
+##############
+____Arg2____
+1184..1280
+9
+#### Text ####
+Sales for the company, based in Abbott Park, Ill., rose 8.3% to $1.31 billion from $1.21 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1458
+11
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1284..1456
+10
+#### Text ####
+Baxter International Inc. yesterday reported net climbed 20% in the third period to $102 million, or 34 cents a share, from $85 million, or 28 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1458..1542
+11
+#### Text ####
+Sales for the Deerfield, Ill., company rose 5.8% to $1.81 billion from $1.71 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1546..1549
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+787..1542
+7;8;9;10;11
+#### Text ####
+The Franklin Lakes, N.J., company is expected to report sales growth of only 5% to 6%, but should still maintain earnings growth of 10%, says Jerry E. Fuller, an analyst with Duff & Phelps Inc. 
+
+Among the first of the group to post results, Abbott Laboratories said third-quarter net income jumped 14% to $196 million, or 88 cents a share, from $172 million, or 76 cents a share, a year earlier.
+Sales for the company, based in Abbott Park, Ill., rose 8.3% to $1.31 billion from $1.21 billion. 
+
+Baxter International Inc. yesterday reported net climbed 20% in the third period to $102 million, or 34 cents a share, from $85 million, or 28 cents a share, a year earlier.
+Sales for the Deerfield, Ill., company rose 5.8% to $1.81 billion from $1.71 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1550..1604
+12,1;12,2;12,3
+#### Text ####
+not every company expects to report increased earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1606..1994
+13;14;15;16
+#### Text ####
+C.R. Bard Inc. yesterday said third-quarter net plunged 51% to $9.9 million, or 18 cents a share, from $20 million, or 35 cents a share, a year earlier.
+Sales fell 1.2% to $190.1 million from $192.5 million.
+The Murray Hill, N.J., company said full-year earnings may be off 33 cents a share because the company removed a catheter from the market.
+In 1988, the company earned $1.38 a share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1636
+13
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1546..1604
+12
+#### Text ####
+But not every company expects to report increased earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1636..1757
+13,2,1
+#### Text ####
+third-quarter net plunged 51% to $9.9 million, or 18 cents a share, from $20 million, or 35 cents a share, a year earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1606..1635
+13,0;13,1;13,2,0;13,3
+#### Text ####
+C.R. Bard Inc. yesterday said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1759
+14
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1606..1757
+13
+#### Text ####
+C.R. Bard Inc. yesterday said third-quarter net plunged 51% to $9.9 million, or 18 cents a share, from $20 million, or 35 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1759..1812
+14
+#### Text ####
+Sales fell 1.2% to $190.1 million from $192.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1850
+15
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1759..1812
+14
+#### Text ####
+Sales fell 1.2% to $190.1 million from $192.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1850..1951
+15,1,1
+#### Text ####
+full-year earnings may be off 33 cents a share because the company removed a catheter from the market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1814..1849
+15,0;15,1,0;15,2
+#### Text ####
+The Murray Hill, N.J., company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1897..1904
+15,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1814..1849
+15,0;15,1,0;15,2
+#### Text ####
+The Murray Hill, N.J., company said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1850..1896
+15,1,1,0;15,1,1,1,0;15,1,1,1,1,0;15,1,1,1,1,1,0;15,1,1,1,1,1,1
+#### Text ####
+full-year earnings may be off 33 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1905..1951
+15,1,1,1,1,1,2,1
+#### Text ####
+the company removed a catheter from the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1953
+16
+____Arg1____
+1814..1951
+15
+#### Text ####
+The Murray Hill, N.J., company said full-year earnings may be off 33 cents a share because the company removed a catheter from the market
+##############
+____Arg2____
+1953..1994
+16
+#### Text ####
+In 1988, the company earned $1.38 a share
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2079
+18
+____Arg1____
+1998..2077
+17
+#### Text ####
+The Food and Drug Administration had raised questions about the device's design
+##############
+____Arg2____
+2079..2195
+18
+#### Text ####
+Some analysts add that third-party pressures to reduce health costs will continue to bedevil companies' bottom lines
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2271..2275
+19,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2282..2343
+19,1;19,2;19,3;19,4
+#### Text ####
+says Peter Sidoti, an analyst with Drexel Burnham Lambert Inc
+##############
+also, Expansion.Conjunction
+____Arg1____
+2097..2195
+18,1,1
+#### Text ####
+that third-party pressures to reduce health costs will continue to bedevil companies' bottom lines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2079..2096
+18,0;18,1,0;18,2
+#### Text ####
+Some analysts add
+##############
+____Arg2____
+2197..2217;2267..2270;2276..2280
+19,0,0,0;19,0,0,1;19,0,0,3;19,0,1,0;19,0,1,2
+#### Text ####
+Takeover speculation may ease
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2346..2348
+20,1,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2416..2423
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he says
+##############
+as, Temporal.Synchrony
+____Arg1____
+2361..2413
+20,1,1;20,1,2;20,1,3
+#### Text ####
+you're going to see the stocks probably wane as well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2349..2359
+20,1,0,1
+#### Text ####
+that wanes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2346..2359
+20,1,0
+#### Text ####
+As that wanes
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+2197..2217;2267..2280
+19,0,0,0;19,0,0,1;19,0,0,3;19,0,1
+#### Text ####
+Takeover speculation may also ease
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2282..2343
+19,1;19,2;19,3;19,4
+#### Text ####
+says Peter Sidoti, an analyst with Drexel Burnham Lambert Inc
+##############
+____Arg2____
+2346..2413
+20,1
+#### Text ####
+As that wanes, you're going to see the stocks probably wane as well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2416..2423
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2448..2457
+21,2
+#### Text ####
+meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+76..227;1546..1604
+1,0;12
+#### Text ####
+Medical-supply houses are expected to report earnings increases of about 15% on average for the third quarter, despite sales increases of less than 10% But not every company expects to report increased earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2427..2446;2459..2490
+21,0;21,1;21,3;21,4;21,5
+#### Text ####
+Hospitals companies are reporting improved earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2787..2791
+23,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2494..2755
+22
+#### Text ####
+Bolstered by strong performances by its psychiatric hospitals, National Medical Enterprises Inc., Los Angeles, reported net income of $50 million, or 65 cents a share, for the first quarter ended Aug. 31, up from $41 million, or 56 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2757..2784;2792..2954
+23,0;23,2;23,3
+#### Text ####
+Humana Inc., Louisville, Ky reported favorable results, with net income of $66.7 million, or 66 cents, in the fourth quarter ended Aug. 31, up from $58.2 million, or 59 cents, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3072..3086
+25,0,1
+#### Text ####
+Most important
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+2971..3070
+24,1,1
+#### Text ####
+the handful of hospital companies that are still publicly traded are benefiting from several trends
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2958..2970
+24,0;24,1,0;24,2
+#### Text ####
+Analysts say
+##############
+____Arg2____
+3072..3159
+25
+#### Text ####
+Most important, hospital admission rates are stabilizing after several years of decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3161..3169
+26,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+3072..3159
+25
+#### Text ####
+Most important, hospital admission rates are stabilizing after several years of decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3171..3285
+26,1;26,2;26,3;26,4
+#### Text ####
+companies have sold off many of their smaller, less-profitable hospitals and have completed painful restructurings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3306..3317
+27,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3072..3159
+25
+#### Text ####
+Most important, hospital admission rates are stabilizing after several years of decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3287..3304;3319..3420
+27,0;27,1;27,3;27,4;27,5
+#### Text ####
+Humana's revenues are being boosted by large increases in enrollments in the company's health maintenance organizations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

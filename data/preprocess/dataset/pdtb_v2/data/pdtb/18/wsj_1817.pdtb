@@ -1,0 +1,829 @@
+________________________________________________________
+____Explicit____
+365..368
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+169..363
+1
+#### Text ####
+Seven years late in the launching, $1 billion over budget and a target of anti-nuclear protestors, Galileo has long been a symbol of trouble for the National Aeronautics and Space Administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+369..528
+2,1;2,2;2,3;2,4;2,5;2,6;2,7
+#### Text ####
+yesterday, as Atlantis rumbled into a patch of clear sky above Florida with storm clouds closing in on it, NASA sought to turn Galileo into a symbol of triumph
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+380..382
+2,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+365..378;476..528
+2,0;2,1;2,2;2,4;2,5;2,6;2,7
+#### Text ####
+But yesterday NASA sought to turn Galileo into a symbol of triumph
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+383..474
+2,3,1
+#### Text ####
+Atlantis rumbled into a patch of clear sky above Florida with storm clouds closing in on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+552
+3
+____Arg1____
+533..550
+3,1,0
+#### Text ####
+NASA did it right
+##############
+____Arg2____
+552..626
+3,0;3,1,1;3,1,2;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+that's the message," said J.R. Thompson, the agency's deputy administrator
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+732
+5
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+630..730
+4
+#### Text ####
+The $1.4 billion robot spacecraft faces a six-year journey to explore Jupiter and its 16 known moons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+732..955
+5
+#### Text ####
+If all goes well, it will parachute a probe into the dense Jovian atmosphere in July 1995 to pick up detailed data about gases that may be similar to the material from which the solar system was formed 4.6 billion years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+732..734
+5,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Sup1____
+822..955
+5,3,1,4
+#### Text ####
+to pick up detailed data about gases that may be similar to the material from which the solar system was formed 4.6 billion years ago
+##############
+____Arg1____
+750..821
+5,1;5,2;5,3,0;5,3,1,0;5,3,1,1;5,3,1,2;5,3,1,3;5,4
+#### Text ####
+it will parachute a probe into the dense Jovian atmosphere in July 1995
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+735..748
+5,0,1
+#### Text ####
+all goes well
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+957
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+859..955
+5,3,1,4,1,1,2,1,1,1
+#### Text ####
+that may be similar to the material from which the solar system was formed 4.6 billion years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+957..979;1022..1104
+6,0;6,1,0;6,1,1,0;6,1,1,2;6,2
+#### Text ####
+Jupiter is so enormous that its gravity may have trapped these primordial gases and never let them escape
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1352..1355
+7,2,0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1225..1350
+7,2,0,0
+#### Text ####
+Jupiter and other bodies in the outer solar system are rich in elements such as hydrogen that are essential for life on Earth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1356..1382
+7,2,0,3
+#### Text ####
+these planets are lifeless
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1391..1408
+7,2,2,2
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Arg1____
+1225..1382
+7,2,0
+#### Text ####
+Jupiter and other bodies in the outer solar system are rich in elements such as hydrogen that are essential for life on Earth, but these planets are lifeless
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1384..1389;1410..1469
+7,2,2,0;7,2,2,1;7,2,2,3;7,2,2,4
+#### Text ####
+Earth has a diminished store of such material but is rich in life
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1471
+8
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+1384..1469
+7,2,2
+#### Text ####
+Earth, on the other hand, has a diminished store of such material but is rich in life
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1471..1627
+8
+#### Text ####
+Some scientists have suggested that comets and asteroids may have brought enough of this kind of material from the outer solar system to Earth to spawn life
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1715
+10
+____Arg1____
+1631..1713
+9
+#### Text ####
+Beginning in December 1995, Galileo will begin a two-year tour of the Jovian moons
+##############
+____Arg2____
+1715..1878
+10
+#### Text ####
+In 1979, two Voyager spacecraft sent back stunning photos of Jovian moons Io and Europa that showed them to be among the most intriguing bodies in the solar system
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1880
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1803..1878
+10,3,2,2
+#### Text ####
+that showed them to be among the most intriguing bodies in the solar system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1880..2053
+11
+#### Text ####
+The photos showed active geysers on Io spewing sulfurous material 190 miles into its atmosphere and indicated that Europa may have an ocean hidden under a thick sheet of ice
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2412
+14
+____Arg1____
+2284..2409
+13
+#### Text ####
+Atlantis lifted Galileo from the launch pad at 12:54 p.m. EDT and released the craft from its cargo bay about six hours later
+##############
+____Arg2____
+2412..2550
+14
+#### Text ####
+Galileo is on its way to another world in the hands of the best flight controllers in this world," Atlantis Commander Donald Williams said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2553
+15
+____Arg1____
+2412..2550
+14
+#### Text ####
+Galileo is on its way to another world in the hands of the best flight controllers in this world," Atlantis Commander Donald Williams said
+##############
+____Arg2____
+2553..2563
+15
+#### Text ####
+Fly safely
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2815..2818
+17,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2778..2813
+17,0
+#### Text ####
+The Galileo project started in 1977
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2819..2880
+17,3
+#### Text ####
+a number of project veterans were on hand to watch the launch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2882
+18
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2815..2880
+17,2;17,3;17,4
+#### Text ####
+and a number of project veterans were on hand to watch the launch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2882..3002
+18
+#### Text ####
+An ebullient Mr. Johnson, wearing a NASA baseball cap and carrying a camera and binoculars, called the launch "fantastic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3005
+19
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2882..3002
+18
+#### Text ####
+An ebullient Mr. Johnson, wearing a NASA baseball cap and carrying a camera and binoculars, called the launch "fantastic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3005..3089
+19
+#### Text ####
+Benny Chin, manager of the Galileo probe, compared it to watching a child leave home
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3092
+20
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3005..3089
+19
+#### Text ####
+Benny Chin, manager of the Galileo probe, compared it to watching a child leave home
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3092..3109
+20,1
+#### Text ####
+I'm happy and sad
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3112..3119
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3173
+22
+____Arg1____
+3123..3171
+21
+#### Text ####
+Anti-nuclear activists took a less positive view
+##############
+____Arg2____
+3173..3359
+22
+#### Text ####
+Having argued that Galileo's plutonium power source could have released lethal doses of radiation if the shuttle exploded yesterday, they weren't quieted by yesterday's successful launch
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3271..3273
+22,0,1,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3173..3186
+22,0,0;22,0,1,0;22,0,1,1,0
+#### Text ####
+Having argued
+##############
+if, Contingency.Condition.Unreal past
+____Arg1____
+3187..3270
+22,0,1,1,1,0;22,0,1,1,1,1,0;22,0,1,1,1,1,1,0;22,0,1,1,1,1,1,1,0;22,0,1,1,1,1,1,1,1,0;22,0,1,1,1,1,1,1,1,1
+#### Text ####
+that Galileo's plutonium power source could have released lethal doses of radiation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3274..3304
+22,0,1,1,1,1,1,1,1,2,1
+#### Text ####
+the shuttle exploded yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3361
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3173..3359
+22
+#### Text ####
+Having argued that Galileo's plutonium power source could have released lethal doses of radiation if the shuttle exploded yesterday, they weren't quieted by yesterday's successful launch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3361..3504
+23
+#### Text ####
+Galileo will skim past Earth in 1990 and 1992, collecting energy from the planet's gravitational field to gain momentum for its trip to Jupiter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3531
+24
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3361..3406
+23,0;23,1,0;23,1,1,0;23,1,1,1;23,1,1,2;23,1,1,3;23,2
+#### Text ####
+Galileo will skim past Earth in 1990 and 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3531..3574
+24,1,2
+#### Text ####
+that Galileo also could crash to Earth then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3506..3530
+24,0;24,1,0;24,1,1;24,2
+#### Text ####
+The protesters point out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3544..3548
+24,1,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3361..3406
+23,0;23,1,0;23,1,1,0;23,1,1,1;23,1,1,2;23,1,1,3;23,2
+#### Text ####
+Galileo will skim past Earth in 1990 and 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3531..3543;3549..3574
+24,1,2,0;24,1,2,1,0;24,1,2,1,2
+#### Text ####
+that Galileo could crash to Earth then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3506..3530
+24,0;24,1,0;24,1,1;24,2
+#### Text ####
+The protesters point out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3646..3651
+25,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3578..3587
+25,0;25,1,0;25,2
+#### Text ####
+They said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3588..3645
+25,1,1,0;25,1,1,1,0;25,1,1,1,1,0;25,1,1,1,1,1
+#### Text ####
+they dropped plans to infiltrate the Kennedy Space Center
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3652..3679
+25,1,1,1,1,2,1
+#### Text ####
+NASA beefed up its security
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3720..3726
+26,0,1,1,3
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+3588..3679
+25,1,1
+#### Text ####
+they dropped plans to infiltrate the Kennedy Space Center after NASA beefed up its security
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3578..3587
+25,0;25,1,0;25,2
+#### Text ####
+They said
+##############
+____Arg2____
+3681..3718
+26,0,0;26,0,1,0;26,0,1,1,0;26,0,1,1,1;26,0,1,1,2
+#### Text ####
+One protest did get past NASA's guard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3728
+26
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3681..3726
+26,0
+#### Text ####
+One protest did get past NASA's guard, though
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3728..3825
+26,2
+#### Text ####
+a computer virus caused anti-Galileo messages to flash onto some computer screens at NASA centers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3918
+28
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3829..3916
+27
+#### Text ####
+The successful launch continues a remarkable recovery in the U.S. space-science program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3918..4030
+28
+#### Text ####
+An unmanned spacecraft, Magellan, already is heading to Venus and is due to begin mapping the planet next August
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4032
+29
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3918..4030
+28
+#### Text ####
+An unmanned spacecraft, Magellan, already is heading to Venus and is due to begin mapping the planet next August
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4032..4115
+29
+#### Text ####
+Voyager 2 sent back spectacular photos of Neptune and its moon, Triton, this summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4224
+31
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4119..4222
+30
+#### Text ####
+Next month, NASA plans to launch a satellite to study cosmic rays dating from the birth of the universe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4224..4405
+31
+#### Text ####
+In December, the shuttle Columbia will try to retrieve a satellite that's been in orbit for nearly five years measuring the deleterious effects of space on materials and instruments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4407
+32
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4224..4405
+31
+#### Text ####
+In December, the shuttle Columbia will try to retrieve a satellite that's been in orbit for nearly five years measuring the deleterious effects of space on materials and instruments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4407..4560
+32
+#### Text ####
+Next March, the shuttle Discovery will launch the Hubble space telescope, a $1.5 billion instrument designed to see the faintest galaxies in the universe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4624..4630
+33,1,1,3
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+3829..3916
+27
+#### Text ####
+The successful launch continues a remarkable recovery in the U.S. space-science program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4564..4622
+33,0;33,1,0;33,1,1,0;33,1,1,1;33,1,1,2;33,2
+#### Text ####
+Not all of NASA's space-science work will be so auspicious
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4632
+34
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4564..4630
+33
+#### Text ####
+Not all of NASA's space-science work will be so auspicious, though
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4632..4676;4716..4760
+34,0;34,1;34,2,0;34,2,1;34,2,3;34,3;34,4
+#### Text ####
+Around Thanksgiving, the Solar Max satellite will tumble back into the Earth's atmosphere
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4762
+35
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+4632..4676;4716..4760
+34,0;34,1;34,2,0;34,2,1;34,2,3;34,3;34,4
+#### Text ####
+Around Thanksgiving, the Solar Max satellite will tumble back into the Earth's atmosphere
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4762..4789
+35,0
+#### Text ####
+NASA won't attempt a rescue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4791..4798
+35,2,0
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+4762..4789
+35,0
+#### Text ####
+NASA won't attempt a rescue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4800..4883
+35,2,1;35,2,2;35,2,3
+#### Text ####
+it will try to predict whether any of the rubble will smash to the ground and where
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

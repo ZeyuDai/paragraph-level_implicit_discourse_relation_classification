@@ -1,0 +1,266 @@
+________________________________________________________
+____Explicit____
+217..228
+1,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+165..213
+0,1;0,2;0,3;0,4
+#### Text ####
+the Department of Health and Human Services said
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+9..163
+0,0
+#### Text ####
+The premium the elderly pay for coverage of doctor's bills under Part B of the Medicare health insurance plan will rise to $29 a month in 1990 from $27.90
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+230..407
+1,1;1,2;1,3;1,4
+#### Text ####
+a second Part B premium to cover the cost of the new program of insurance against catastrophic illness will rise to $4.90 a month from $4, if Congress doesn't change the program
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+369..371
+1,3,1,4,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+165..213
+0,1;0,2;0,3;0,4
+#### Text ####
+the Department of Health and Human Services said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+217..367
+1,0;1,1;1,2;1,3,0;1,3,1,0;1,3,1,1;1,3,1,2;1,3,1,3;1,4
+#### Text ####
+In addition, a second Part B premium to cover the cost of the new program of insurance against catastrophic illness will rise to $4.90 a month from $4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+372..407
+1,3,1,4,1
+#### Text ####
+Congress doesn't change the program
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+488..495
+2,1,1,1,1,1,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+217..407
+1
+#### Text ####
+In addition, a second Part B premium to cover the cost of the new program of insurance against catastrophic illness will rise to $4.90 a month from $4, if Congress doesn't change the program
+##############
+#### Features ####
+Ot, Comm, Null, Null
+165..213
+0,1;0,2;0,3;0,4
+#### Text ####
+the Department of Health and Human Services said
+##############
+____Arg2____
+411..486;497..647
+2,0;2,1,0;2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1;2,1,1,1,1,1,2;2,1,1,1,1,1,4;2,1,1,1,1,1,5;2,2
+#### Text ####
+The House has voted to repeal most of the Catastrophic Coverage Act of 1988 which would end the monthly catastrophic-care premium, as well as an unpopular income surtax paid by about 40% of the wealthier Medicare beneficiaries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+767..770
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+651..765
+3,0
+#### Text ####
+Under a less-sweeping Senate plan, the catastrophic-care monthly premium would continue, rising to $4.90 next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+771..800
+3,3
+#### Text ####
+the surtax would be abolished
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+908
+5
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+804..906
+4
+#### Text ####
+Medicare Part B pays 80% of a beneficiary's allowable doctor's bills after an annual deductible of $75
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+908..1035
+5
+#### Text ####
+The Catastrophic Coverage Act would add a stop-loss provision next year to limit the maximum beneficiaries must pay for doctors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1037
+6
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+908..1035
+5
+#### Text ####
+The Catastrophic Coverage Act would add a stop-loss provision next year to limit the maximum beneficiaries must pay for doctors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1037..1172
+6
+#### Text ####
+Both the House and Senate bills to reduce the cost and coverage of the catastrophic-care plan would eliminate the cap on doctor's bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1176..1178
+7,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1249..1297
+7,1;7,2;7,3;7,4
+#### Text ####
+the monthly Part B premium will be $29 next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1179..1247
+7,0,1
+#### Text ####
+the House prevails in its efforts to kill the catastrophic-care plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1299
+8
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+1176..1297
+7
+#### Text ####
+If the House prevails in its efforts to kill the catastrophic-care plan, the monthly Part B premium will be $29 next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1299..1450
+8
+#### Text ####
+If the Senate plan prevails, the premium will be $33.90, with the additional $4.90 going to pay for expanded hospital coverage under Part A of Medicare
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1299..1301
+8,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1328..1450
+8,1;8,2;8,3;8,4
+#### Text ####
+the premium will be $33.90, with the additional $4.90 going to pay for expanded hospital coverage under Part A of Medicare
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1302..1326
+8,0,1
+#### Text ####
+the Senate plan prevails
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1452
+9
+____Arg1____
+1299..1450
+8
+#### Text ####
+If the Senate plan prevails, the premium will be $33.90, with the additional $4.90 going to pay for expanded hospital coverage under Part A of Medicare
+##############
+____Arg2____
+1452..1525
+9
+#### Text ####
+Most of Part A's costs are paid by a payroll tax on workers and employers
+##############
+________________________________________________________

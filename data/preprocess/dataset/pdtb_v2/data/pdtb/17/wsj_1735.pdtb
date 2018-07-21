@@ -1,0 +1,1361 @@
+________________________________________________________
+____Implicit____
+73
+1
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..71
+0
+#### Text ####
+H&R Block is one of the great success stories of U.S. business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+73..124
+1
+#### Text ####
+Oddly enough, this presents a problem for the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+180..187
+2,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+128..179
+2,0;2,1,0;2,1,1,0;2,1,1,1;2,1,1,2;2,2
+#### Text ####
+Some money managers are disenchanted with H&R Block
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+188..255
+2,1,1,3,1
+#### Text ####
+they suspect the company's glory days are past, or at least passing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+257
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+180..255
+2,1,1,3
+#### Text ####
+because they suspect the company's glory days are past, or at least passing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+257..299;311..372
+3,0;3,2;3,3;3,4
+#### Text ####
+Block's tax-preparation business is mature and some of its diversifications are facing tough competition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+301..309
+3,1
+#### Text ####
+they say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+311..314
+3,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+301..309
+3,1
+#### Text ####
+they say
+##############
+and, Expansion.Conjunction
+____Arg1____
+257..299
+3,0
+#### Text ####
+Block's tax-preparation business is mature
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+315..372
+3,3
+#### Text ####
+some of its diversifications are facing tough competition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+454
+5
+____Arg1____
+376..452
+4
+#### Text ####
+It's no secret that Block dominates the mass-market tax-preparation business
+##############
+____Arg2____
+454..573
+5
+#### Text ####
+The Street knows all about the predictability of its earnings, which are headed for a ninth consecutive yearly increase
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+575
+6
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+454..573
+5
+#### Text ####
+The Street knows all about the predictability of its earnings, which are headed for a ninth consecutive yearly increase
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+575..702
+6
+#### Text ####
+The company has consistently earned more than a 20% annual return on its net worth while many companies would be happy with 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+658..663
+6,1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+575..657
+6,0;6,1,0;6,1,1,0;6,1,1,1;6,1,1,2;6,1,1,3;6,2
+#### Text ####
+The company has consistently earned more than a 20% annual return on its net worth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+664..702
+6,1,1,4,1
+#### Text ####
+many companies would be happy with 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+706..709
+7,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+575..702
+6
+#### Text ####
+The company has consistently earned more than a 20% annual return on its net worth while many companies would be happy with 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+710..770
+7,0,1;7,0,2;7,0,3
+#### Text ####
+the tax-preparation business simply has no more room to grow
+##############
+#### Features ####
+Ot, Comm, Null, Null
+772..883
+7,1;7,2;7,3;7,4
+#### Text ####
+says Mark Cremonie, director of research for Capital Supervisors Inc., a Chicago firm that manages $6.5 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+886
+8
+#### Features ####
+Ot, Comm, Null, Null
+772..883
+7,1;7,2;7,3;7,4
+#### Text ####
+says Mark Cremonie, director of research for Capital Supervisors Inc., a Chicago firm that manages $6.5 billion
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+706..770
+7,0
+#### Text ####
+But the tax-preparation business simply has no more room to grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+886..976
+8
+#### Text ####
+You go to any medium-sized town in the U.S. and you're going to see H&R Block tax services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+930..933
+8,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+772..883
+7,1;7,2;7,3;7,4
+#### Text ####
+says Mark Cremonie, director of research for Capital Supervisors Inc., a Chicago firm that manages $6.5 billion
+##############
+and, Contingency.Condition.General, Expansion.Conjunction
+____Arg1____
+886..928
+8,1
+#### Text ####
+You go to any medium-sized town in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+934..976
+8,3
+#### Text ####
+you're going to see H&R Block tax services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1036
+10
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+981..1034
+9
+#### Text ####
+Mr. Cremonie's firm once held about 4.8% of H&R Block
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1036..1107
+10
+#### Text ####
+That was before the 1986 tax "reform" made taxes more complex than ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1045..1051
+10,1,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1036..1044
+10,0;10,1,0;10,2
+#### Text ####
+That was
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1052..1107
+10,1,1,1
+#### Text ####
+the 1986 tax "reform" made taxes more complex than ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1110
+11
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Generalization
+____Arg1____
+1036..1107
+10
+#### Text ####
+That was before the 1986 tax "reform" made taxes more complex than ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1110..1134;1147..1203
+11,0;11,1;11,3;11,4;11,5;11,6
+#### Text ####
+One thing you can bet on is that Congress will do stupid things with the Tax Code
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1137..1144
+11,2
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1206..1209
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+981..1034
+9
+#### Text ####
+Mr. Cremonie's firm once held about 4.8% of H&R Block
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1210..1287
+12,1;12,2;12,3
+#### Text ####
+Capital Supervisors sold the last of its H&R Block holdings earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1290
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1206..1287
+12
+#### Text ####
+But Capital Supervisors sold the last of its H&R Block holdings earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1290..1334
+13,1
+#### Text ####
+They're thrashing around for diversification
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1337..1344
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1347
+14
+#### Features ####
+Ot, Comm, Null, Null
+1337..1344
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+he says
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1290..1334
+13,1
+#### Text ####
+They're thrashing around for diversification
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1347..1395
+14
+#### Text ####
+I think a lot of their businesses are just so-so
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1451..1457
+15,2,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1400..1450
+15,0;15,1;15,2,0;15,2,1;15,3
+#### Text ####
+Last week the stock hit an all-time high of 37 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1458..1509
+15,2,2,1
+#### Text ####
+getting roughed up in the Friday-the-13th minicrash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1511
+16
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1400..1509
+15
+#### Text ####
+Last week the stock hit an all-time high of 37 1/4 before getting roughed up in the Friday-the-13th minicrash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1511..1540
+16
+#### Text ####
+It closed yesterday at 34 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1592
+18
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1544..1589
+17
+#### Text ####
+To be sure, the stock still has a lot of fans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1592..1757
+18
+#### Text ####
+If you invested $10,000 in the initial public offering in 1962, it would be worth well over $5 million today," says Fredric E. Russell, a Tulsa, Okla., money manager
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1592..1594
+18,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1703..1757
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+says Fredric E. Russell, a Tulsa, Okla., money manager
+##############
+if, Contingency.Condition.Unreal past
+____Arg1____
+1656..1700
+18,1,1;18,1,2;18,1,3
+#### Text ####
+it would be worth well over $5 million today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1595..1654
+18,1,0,1
+#### Text ####
+you invested $10,000 in the initial public offering in 1962
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1760
+19
+#### Features ####
+Ot, Comm, Null, Null
+1703..1757
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+says Fredric E. Russell, a Tulsa, Okla., money manager
+##############
+also, Expansion.Conjunction
+____Arg1____
+1592..1700
+18,1
+#### Text ####
+If you invested $10,000 in the initial public offering in 1962, it would be worth well over $5 million today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1760..1811
+19
+#### Text ####
+I don't know what the risk is {of holding the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1814
+20
+#### Features ####
+Ot, Comm, Null, Null
+1703..1757
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+says Fredric E. Russell, a Tulsa, Okla., money manager
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1760..1811
+19
+#### Text ####
+I don't know what the risk is {of holding the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1814..1849
+20
+#### Text ####
+Taxes are not going out of business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1891
+22
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1854..1889
+21
+#### Text ####
+Many of his peers feel the same way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1891..2027
+22
+#### Text ####
+The number of big institutions that own H&R Block shares is 207 and growing, according to a midyear tally by CDA Investment Technologies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1968..2027
+22,1,2;22,1,3;22,2
+#### Text ####
+according to a midyear tally by CDA Investment Technologies
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2029
+23
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1891..2027
+22
+#### Text ####
+The number of big institutions that own H&R Block shares is 207 and growing, according to a midyear tally by CDA Investment Technologies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1968..2027
+22,1,2;22,1,3;22,2
+#### Text ####
+according to a midyear tally by CDA Investment Technologies
+##############
+____Arg2____
+2029..2073
+23
+#### Text ####
+Brokerage houses are sweet on H&R Block, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2075
+24
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2029..2073
+23
+#### Text ####
+Brokerage houses are sweet on H&R Block, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2075..2189
+24
+#### Text ####
+Zacks Investment Research counts five brokerage houses that consider the stock a buy, and four that call it a hold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2191
+25
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2161..2189
+24,1,1,2;24,1,1,3;24,2
+#### Text ####
+and four that call it a hold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2191..2215
+25
+#### Text ####
+None dare say to sell it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2219..2222
+26,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2191..2215
+25
+#### Text ####
+None dare say to sell it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2223..2262
+26,1;26,2;26,3
+#### Text ####
+some money managers are doing just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2264
+27
+____Arg1____
+2219..2262
+26
+#### Text ####
+But some money managers are doing just that
+##############
+____Arg2____
+2264..2573
+27
+#### Text ####
+Eugene Sit, president of Sit Investment Associates in Minneapolis, says, "When we bought it, we thought the growth rate was going to accelerate" because of computerized tax filing and instant refunds (the customer gets a refund immediately but pays extra to the tax preparer, which waits for Uncle Sam's check
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2338..2342
+27,1,3,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2264..2335
+27,0;27,1,0;27,1,1;27,1,2;27,2
+#### Text ####
+Eugene Sit, president of Sit Investment Associates in Minneapolis, says
+##############
+when, Temporal.Synchrony
+____Sup1____
+2465..2573
+27,1,3,3,3,2,2,1
+#### Text ####
+the customer gets a refund immediately but pays extra to the tax preparer, which waits for Uncle Sam's check
+##############
+____Arg1____
+2357..2463
+27,1,3,1;27,1,3,2;27,1,3,3,0;27,1,3,3,1;27,1,3,3,2;27,1,3,3,3,0;27,1,3,3,3,1;27,1,3,3,3,2,0;27,1,3,3,3,2,1;27,1,3,3,3,2,2,0
+#### Text ####
+we thought the growth rate was going to accelerate" because of computerized tax filing and instant refunds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2343..2355
+27,1,3,0,1
+#### Text ####
+we bought it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2578..2581
+28,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2641..2653
+28,1;28,2;28,3;28,4
+#### Text ####
+Mr. Sit says
+##############
+but, Comparison.Contrast.Opposition
+____Sup1____
+2465..2573
+27,1,3,3,3,2,2,1
+#### Text ####
+the customer gets a refund immediately but pays extra to the tax preparer, which waits for Uncle Sam's check
+##############
+____Arg1____
+2338..2463
+27,1,3,0;27,1,3,1;27,1,3,2;27,1,3,3,0;27,1,3,3,1;27,1,3,3,2;27,1,3,3,3,0;27,1,3,3,3,1;27,1,3,3,3,2,0;27,1,3,3,3,2,1;27,1,3,3,3,2,2,0
+#### Text ####
+When we bought it, we thought the growth rate was going to accelerate" because of computerized tax filing and instant refunds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2264..2335
+27,0;27,1,0;27,1,1;27,1,2;27,2
+#### Text ####
+Eugene Sit, president of Sit Investment Associates in Minneapolis, says
+##############
+____Arg2____
+2582..2639
+28,0,1;28,0,2
+#### Text ####
+neither of those developments did much to juice up growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2655
+29
+____Arg1____
+2578..2653
+28
+#### Text ####
+But neither of those developments did much to juice up growth, Mr. Sit says
+##############
+____Arg2____
+2655..2811
+29
+#### Text ####
+He figures Block earnings are now growing at about a 10% annual rate (down from about 14% the past five years) and will grow at an 8%-10% rate in the future
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2847..2850
+30,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2833..2845
+30,1
+#### Text ####
+Mr. Sit says
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2815..2830
+30,0
+#### Text ####
+That's "not bad
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2851..2953
+30,3
+#### Text ####
+it sure doesn't justify Block shares being priced at 15 to 16 times estimated earnings for fiscal 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2955
+31
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2815..2953
+30
+#### Text ####
+That's "not bad," Mr. Sit says, but it sure doesn't justify Block shares being priced at 15 to 16 times estimated earnings for fiscal 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2955..3081
+31
+#### Text ####
+He wants stocks whose price/earnings ratio is less than their growth rate; as he figures it, H&R Block doesn't even come close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3030
+31
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+2955..3028
+31,0
+#### Text ####
+He wants stocks whose price/earnings ratio is less than their growth rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3030..3081
+31,2
+#### Text ####
+as he figures it, H&R Block doesn't even come close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3262..3265
+33,1,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3292..3300
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+said one
+##############
+and, Expansion.Conjunction
+____Arg1____
+3233..3261
+33,1,0,0
+#### Text ####
+The stock was going no place
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3266..3289
+33,1,0,2
+#### Text ####
+the earnings were so-so
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3303
+34
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3233..3289
+33,1
+#### Text ####
+The stock was going no place and the earnings were so-so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3292..3300
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+said one
+##############
+____Arg2____
+3303..3354
+34
+#### Text ####
+In the past two years, the stock almost stalled out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3356
+35
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3303..3354
+34
+#### Text ####
+In the past two years, the stock almost stalled out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3356..3371;3415..3450
+35,0;35,1,0,0;35,1,0,1;35,1,2;35,1,3;35,2;35,3
+#### Text ####
+It was above 33 and hasn't gotten much higher since
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3557
+37
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+3456..3529
+36,1
+#### Text ####
+There's no more growth in the tax business {except} for increasing prices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3532..3555
+36,0;36,2;36,3;36,4;36,5;36,6
+#### Text ####
+the money manager added
+##############
+____Arg2____
+3557..3582;3635..3658
+37,0,0,0;37,0,1
+#### Text ####
+The CompuServe subsidiary is "where the growth is
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3668
+37,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3670..3673
+37,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3668
+37,1
+#### Text ####
+he said
+##############
+but, Comparison.Contrast.Opposition
+____Sup1____
+3584..3633
+37,0,0,1
+#### Text ####
+which provides information to home-computer users
+##############
+____Arg1____
+3557..3582;3635..3658
+37,0,0,0;37,0,1
+#### Text ####
+The CompuServe subsidiary is "where the growth is
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3674..3710
+37,3
+#### Text ####
+its format is "still too complicated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3773
+39
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3715..3771
+38
+#### Text ####
+CompuServe provides about 20% of both sales and earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3773..3849
+39
+#### Text ####
+The tax business still provides about 70% of earnings, on about 50% of sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3851
+40
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3773..3849
+39
+#### Text ####
+The tax business still provides about 70% of earnings, on about 50% of sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3851..3978
+40
+#### Text ####
+Personnel Pool (temporary workers, mostly in the health-care area) chips in close to 25% of sales but only about 9% of earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4074
+42
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3982..4041
+41,0
+#### Text ####
+The shortage of nurses is crimping profit at Personnel Pool
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4043..4072
+41,1;41,2;41,3;41,4
+#### Text ####
+said the second money manager
+##############
+____Arg2____
+4074..4184
+42
+#### Text ####
+He concedes H&R Block is "well-entrenched" and "a great company," but says "it doesn't grow fast enough for us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4186
+43
+#### Features ####
+Ot, Comm, Null, Null
+4140..4148
+42,1,3;42,1,4,0;42,1,4,1
+#### Text ####
+but says
+##############
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+4150..4184
+42,1,4,2
+#### Text ####
+it doesn't grow fast enough for us
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4186..4283
+43
+#### Text ####
+We're looking for something that grows faster and sells at a comparable {price-earnings} multiple
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4401..4412
+45,0
+#### Text ####
+For example
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4414..4421
+45,1
+#### Text ####
+he says
+##############
+for example, Expansion.Instantiation
+____Arg1____
+4350..4399
+44,1,1
+#### Text ####
+I would disagree" that the tax business is mature
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4288..4348
+44,0;44,1,0;44,2
+#### Text ####
+Thomas M. Bloch, president and chief operating officer, says
+##############
+____Arg2____
+4423..4562
+45,2;45,3;45,4
+#### Text ####
+the company is planning to go nationwide with a new service, tested in parts of the country, aimed at taxpayers who want refunds in a hurry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4638
+47
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4585..4635
+46,1,1
+#### Text ####
+that a recent diversification attempt fell through
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4566..4584
+46,0;46,1,0;46,2
+#### Text ####
+Mr. Bloch concedes
+##############
+____Arg2____
+4638..4677
+47,1
+#### Text ####
+We're still interested {in diversifying
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4681..4688
+47,2
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4691..4694
+47,4
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4681..4688
+47,2
+#### Text ####
+he says
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4638..4678
+47,1
+#### Text ####
+We're still interested {in diversifying}
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4695..4737
+47,5
+#### Text ####
+we'd rather be prudent than make a mistake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4743..4747
+48,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4638..4737
+47
+#### Text ####
+We're still interested {in diversifying}," he says, "but we'd rather be prudent than make a mistake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4740..4742;4748..4872
+48,0;48,2;48,3
+#### Text ####
+He says CompuServe's earnings continue to grow "20% to 30% a year" in spite of tough competition from giants like Sears and IBM
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4874..4877
+49,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4753..4872
+48,2,1
+#### Text ####
+CompuServe's earnings continue to grow "20% to 30% a year" in spite of tough competition from giants like Sears and IBM
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4740..4742;4748..4752
+48,0;48,2,0;48,3
+#### Text ####
+He says
+##############
+____Arg2____
+4886..4950
+49,2,1
+#### Text ####
+Block's other businesses are growing, although less consistently
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4878..4885
+49,1;49,2,0;49,3
+#### Text ####
+he says
+##############
+________________________________________________________

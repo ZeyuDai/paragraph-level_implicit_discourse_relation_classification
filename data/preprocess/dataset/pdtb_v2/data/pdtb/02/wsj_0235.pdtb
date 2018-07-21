@@ -1,0 +1,76 @@
+________________________________________________________
+____Explicit____
+360..371
+2,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+203..356
+1
+#### Text ####
+According to reports released by the two government agencies, domestic consumer and wholesale prices each rose by 0.2% in October from the previous month
+##############
+#### Features ####
+Ot, Comm, Null, Null
+203..264
+1,0;1,1
+#### Text ####
+According to reports released by the two government agencies,
+##############
+____Arg2____
+373..462
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+consumer prices for the first 10 months of 1989 surged by 5% and wholesale prices by 1.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+434..437
+2,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+360..433
+2,0;2,1;2,2
+#### Text ####
+As a result, consumer prices for the first 10 months of 1989 surged by 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+438..462
+2,4
+#### Text ####
+wholesale prices by 1.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+464
+3
+____Arg1____
+360..462
+2
+#### Text ####
+As a result, consumer prices for the first 10 months of 1989 surged by 5% and wholesale prices by 1.3%
+##############
+____Arg2____
+464..560
+3
+#### Text ####
+The South Korean government had been projecting a 5% consumer price increase for the entire year
+##############
+________________________________________________________

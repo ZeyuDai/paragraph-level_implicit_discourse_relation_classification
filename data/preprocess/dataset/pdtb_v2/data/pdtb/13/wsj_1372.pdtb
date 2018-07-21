@@ -1,0 +1,601 @@
+________________________________________________________
+____Implicit____
+551
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+442..549
+2
+#### Text ####
+The sales are expected to raise more than 600 million Australian dollars (US$462.2 million), Mr. Skase said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..658
+3
+#### Text ####
+Qintex Australia hasn't disclosed its borrowings, but analysts estimate the company's debt at A$1.2 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+601..604
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+551..599
+3,0
+#### Text ####
+Qintex Australia hasn't disclosed its borrowings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+605..658
+3,3
+#### Text ####
+analysts estimate the company's debt at A$1.2 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+672..676
+4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+442..549
+2
+#### Text ####
+The sales are expected to raise more than 600 million Australian dollars (US$462.2 million), Mr. Skase said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+662..671;677..761
+4,0;4,2,0;4,2,1,0;4,2,1,1,0;4,2,1,1,1,0;4,2,1,1,1,1,0;4,2,1,1,1,1,1,0;4,2,1,1,1,1,1,1;4,2,1,1,1,1,1,2,0;4,2,1,1,1,1,1,2,1,0;4,2,1,1,1,1,1,2,1,1;4,3
+#### Text ####
+Mr. Skase said the restructuring plan calls for the merger of Qintex Australia with Qintex Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+808
+5
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+682..761
+4,2,1,0;4,2,1,1,0;4,2,1,1,1,0;4,2,1,1,1,1,0;4,2,1,1,1,1,1,0;4,2,1,1,1,1,1,1;4,2,1,1,1,1,1,2,0;4,2,1,1,1,1,1,2,1,0;4,2,1,1,1,1,1,2,1,1
+#### Text ####
+the restructuring plan calls for the merger of Qintex Australia with Qintex Ltd
+##############
+#### Features ####
+Ot, Comm, Null, Null
+662..681
+4,0;4,1;4,2,0;4,3
+#### Text ####
+Mr. Skase also said
+##############
+____Arg2____
+808..878
+5,0,1,1
+#### Text ####
+the move will "significantly reduce administrative and operating costs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+800..807
+5,0,0;5,0,1,0
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+881..884
+5,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+800..878
+5,0
+#### Text ####
+He said the move will "significantly reduce administrative and operating costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+885..924
+5,4
+#### Text ####
+he didn't provide details of the merger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1386
+8
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+1214..1365
+7
+#### Text ####
+Friday, Qintex Entertainment Inc., a 43%-owned U.S. affiliate, filed for protection from creditor lawsuits under Chapter 11 of the U.S. Bankruptcy Code
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1386..1487
+8,1,1
+#### Text ####
+that the move would further shake creditor confidence in Qintex Australia and force it to sell assets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1367..1385
+8,0;8,1,0;8,2
+#### Text ####
+Analysts predicted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1533..1538
+9,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1491..1532
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,2
+#### Text ####
+The company's latest moves were disclosed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1539..1631
+9,1,1,2,1,0;9,1,1,2,1,1,0;9,1,1,2,1,1,1
+#### Text ####
+the Australian Stock Exchange suspended trading in shares of Qintex Australia and Qintex Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1633..1772
+9,1,1,2,1,1,2
+#### Text ####
+because the companies hadn't answered an exchange inquiry about the extent of their loans, investments and deposits at Qintex Entertainment
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1633..1640
+9,1,1,2,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1491..1631
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,1,1,2,0;9,1,1,2,1,0;9,1,1,2,1,1,0;9,1,1,2,1,1,1;9,2
+#### Text ####
+The company's latest moves were disclosed after the Australian Stock Exchange suspended trading in shares of Qintex Australia and Qintex Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1641..1772
+9,1,1,2,1,1,2,1
+#### Text ####
+the companies hadn't answered an exchange inquiry about the extent of their loans, investments and deposits at Qintex Entertainment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1880
+11
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1776..1878
+10
+#### Text ####
+Mr. Skase's statement was addressed to the stock exchange and appeared to be a response to the inquiry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1880..1986
+11
+#### Text ####
+It said Qintex Entertainment owes Qintex Australia US$38.1 million in loans not secured by specific assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2005..2009
+12,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1880..1986
+11
+#### Text ####
+It said Qintex Entertainment owes Qintex Australia US$38.1 million in loans not secured by specific assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1988..2004;2010..2084
+12,0;12,2;12,3
+#### Text ####
+Qintex Australia said it has an investment of A$83.3 million in Qintex Entertainment shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2435
+15
+____Arg1____
+2315..2433
+14
+#### Text ####
+In March, Qintex sold 49% of the three Mirage resorts to Japan's Nippon Shinpan Co. and Mitsui & Co. for A$433 million
+##############
+____Arg2____
+2435..2551
+15
+#### Text ####
+Yesterday's statement didn't say whether the Japanese companies will acquire Qintex's remaining stake in the resorts
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2555..2561
+16,0,0
+#### Text ####
+Before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2602..2715
+16,1;16,2;16,3;16,4
+#### Text ####
+Qintex Australia plunged to 16 Australian cents (12 U.S. cents) a share yesterday from 33 Australian cents Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2562..2600
+16,0,1
+#### Text ####
+its shares were suspended from trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2717
+17
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+2555..2715
+16
+#### Text ####
+Before its shares were suspended from trading, Qintex Australia plunged to 16 Australian cents (12 U.S. cents) a share yesterday from 33 Australian cents Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2717..2806
+17
+#### Text ####
+The shares traded at about A$1.50 in March, when the plan to acquire MGM/UA was announced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+2808
+18
+____Arg1____
+2717..2806
+17
+#### Text ####
+The shares traded at about A$1.50 in March, when the plan to acquire MGM/UA was announced
+##############
+____Arg2____
+2808..2870
+18
+#### Text ####
+Qintex Ltd. shares sank to A$1.50 yesterday from A$3.05 Friday
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3308
+21
+____Arg1____
+2990..3306
+20
+#### Text ####
+They were what he called an "unlawful termination" by MGM/UA of the acquisition agreement with Qintex, high Australian interest rates, a pilots' strike at Australian domestic airlines that cut revenue at the company's Australian resorts and delays in completing a sale of two regional TV stations in Queensland state
+##############
+____Arg2____
+3308..3465
+21
+#### Text ####
+MGM/UA has sued Qintex Australia for breach of contract and fraud over the collapsed acquisition agreement, and Qintex Australia has threatened a countersuit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3416..3419
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3308..3414
+21,0
+#### Text ####
+MGM/UA has sued Qintex Australia for breach of contract and fraud over the collapsed acquisition agreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3420..3465
+21,3
+#### Text ####
+Qintex Australia has threatened a countersuit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3549
+23
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3469..3547
+22
+#### Text ####
+Qintex Australia hasn't yet reported results for the fiscal year ended July 31
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3549..3692
+23
+#### Text ####
+In his statement, Mr. Skase said preliminary accounts showed that group profit before interest, tax and depreciation "will exceed A$170 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3695
+24
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3549..3692
+23
+#### Text ####
+In his statement, Mr. Skase said preliminary accounts showed that group profit before interest, tax and depreciation "will exceed A$170 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3695..3721
+24
+#### Text ####
+He gave no further details
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4027..4031
+27,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3725..3858
+25
+#### Text ####
+Shareholders' funds as of July 31 were estimated at more than A$1 billion, Mr. Skase said, compared with A$725 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4017..4026;4032..4244
+27,0;27,2;27,3
+#### Text ####
+Mr. Skase disclosed a disagreement among directors of Qintex Australia over certain fees claimed by Qintex Group Management Services Pty., a management-services concern in which Qintex Australia executives have an interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4350
+29
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4248..4333
+28
+#### Text ####
+Qintex Australia paid the management company A$32.6 million in the latest fiscal year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4350..4513
+29,1,1
+#### Text ####
+most of the money went to other parties for expenses such as rent and travel, but a smaller portion is owed to senior executives and others for management services
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4335..4349
+29,0;29,1,0;29,2
+#### Text ####
+Mr. Skase said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4428..4431
+29,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4335..4349
+29,0;29,1,0;29,2
+#### Text ####
+Mr. Skase said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4350..4426
+29,1,1,1,0
+#### Text ####
+most of the money went to other parties for expenses such as rent and travel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4432..4513
+29,1,1,1,3
+#### Text ####
+a smaller portion is owed to senior executives and others for management services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4636
+31
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4517..4634
+30
+#### Text ####
+Non-executive directors of Qintex Australia, who must approve payments to the senior executives, balked at the amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4636..4665;4683..4724
+31,0;31,2;31,3;31,4
+#### Text ####
+Two of the directors resigned so the payments haven't yet been approved
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4667..4681
+31,1
+#### Text ####
+Mr. Skase said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4683..4685
+31,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4517..4665
+30;31,0
+#### Text ####
+Non-executive directors of Qintex Australia, who must approve payments to the senior executives, balked at the amount.
+Two of the directors resigned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4686..4724
+31,3
+#### Text ####
+the payments haven't yet been approved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

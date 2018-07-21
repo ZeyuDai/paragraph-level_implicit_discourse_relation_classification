@@ -1,0 +1,992 @@
+________________________________________________________
+____Explicit____
+219..222
+1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+123..218
+1,0
+#### Text ####
+Output from the Organization of Petroleum Exporting Countries is already at a high for the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+223..263
+1,2
+#### Text ####
+most member nations are running flat out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+265..268
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+123..263
+1
+#### Text ####
+Output from the Organization of Petroleum Exporting Countries is already at a high for the year and most member nations are running flat out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+303..512
+2,2,1
+#### Text ####
+that a handful of members still have enough unused capacity to glut the market and cause an oil-price collapse a few months from now if OPEC doesn't soon adopt a new quota system to corral its chronic cheaters
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+269..302
+2,1;2,2,0;2,3
+#### Text ####
+industry and OPEC officials agree
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+436..438
+2,2,1,1,2,1,3,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+269..302
+2,1;2,2,0;2,3
+#### Text ####
+industry and OPEC officials agree
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+363..435
+2,2,1,1,2,1,3,0;2,2,1,1,2,1,3,1,0;2,2,1,1,2,1,3,1,1,0;2,2,1,1,2,1,3,1,1,1;2,2,1,1,2,1,3,1,1,2
+#### Text ####
+to glut the market and cause an oil-price collapse a few months from now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+439..512
+2,2,1,1,2,1,3,1,1,3,1
+#### Text ####
+OPEC doesn't soon adopt a new quota system to corral its chronic cheaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+516..527
+3,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+303..512
+2,2,1
+#### Text ####
+that a handful of members still have enough unused capacity to glut the market and cause an oil-price collapse a few months from now if OPEC doesn't soon adopt a new quota system to corral its chronic cheaters
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+269..302
+2,1;2,2,0;2,3
+#### Text ####
+industry and OPEC officials agree
+##############
+____Arg2____
+529..672
+3,1;3,2;3,3;3,4
+#### Text ####
+the effort by some oil ministers to get OPEC to approve a new permanent production-sharing agreement next month is taking on increasing urgency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+674
+4
+____Arg1____
+516..672
+3
+#### Text ####
+As a result, the effort by some oil ministers to get OPEC to approve a new permanent production-sharing agreement next month is taking on increasing urgency
+##############
+____Arg2____
+674..739
+4
+#### Text ####
+The organization is scheduled to meet in Vienna beginning Nov. 25
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+887..890
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+743..885
+5
+#### Text ####
+So far this year, rising demand for OPEC oil and production restraint by some members have kept prices firm despite rampant cheating by others
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+891..968
+6,1;6,2,0;6,2,1,0;6,2,1,1,0;6,2,1,1,1,0;6,2,1,1,1,1,0;6,2,1,1,1,1,1;6,2,1,1,1,1,2;6,3
+#### Text ####
+that could change if demand for OPEC's oil softens seasonally early next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+909..911
+6,2,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+887..908
+6,0;6,1;6,2,0;6,2,1,0;6,3
+#### Text ####
+But that could change
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+912..968
+6,2,1,1,1,0;6,2,1,1,1,1,0;6,2,1,1,1,1,1;6,2,1,1,1,1,2
+#### Text ####
+demand for OPEC's oil softens seasonally early next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1273
+8
+____Arg1____
+997..1271
+7
+#### Text ####
+OPEC is currently producing more than 22 million barrels a day, sharply above its nominal, self-imposed fourth-quarter ceiling of 20.5 million, according to OPEC and industry officials at an oil conference here sponsored by the Oil Daily and the International Herald Tribune
+##############
+____Arg2____
+1273..1362
+8
+#### Text ####
+At that rate, a majority of OPEC's 13 members have reached their output limits, they said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1366..1369
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1273..1351
+8,0
+#### Text ####
+At that rate, a majority of OPEC's 13 members have reached their output limits
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1353..1362
+8,1;8,2;8,3;8,4
+#### Text ####
+they said
+##############
+____Arg2____
+1386..1528
+9,2,1,1
+#### Text ####
+that at least three million barrels a day -- and possibly as much as seven million barrels a day -- of spare capacity still exists within OPEC
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1370..1385
+9,1;9,2,0;9,2,1,0;9,3
+#### Text ####
+it is estimated
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1530
+10
+____Arg1____
+1366..1528
+9
+#### Text ####
+But it is estimated that at least three million barrels a day -- and possibly as much as seven million barrels a day -- of spare capacity still exists within OPEC
+##############
+____Arg2____
+1530..1667
+10
+#### Text ####
+Most is concentrated in five Persian Gulf countries, including his own, Issam Al-Chalabi, Iraq's oil minister, told the conference Friday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1669
+11
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1530..1667
+10
+#### Text ####
+Most is concentrated in five Persian Gulf countries, including his own, Issam Al-Chalabi, Iraq's oil minister, told the conference Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1669..1742
+11
+#### Text ####
+He puts OPEC's current capacity at 28 million to 29 million barrels a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1787
+13
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1746..1785
+12
+#### Text ####
+That's higher than some other estimates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1787..1892
+13
+#### Text ####
+Ali Khalifa Al-Sabah, Kuwait's oil minister, recently estimated OPEC capacity at 25 million barrels a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1984
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1896..1982
+14
+#### Text ####
+Either way, the overhang is big enough to keep delicately balanced oil markets on edge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1984..2130
+15
+#### Text ####
+Even modest amounts of additional output by those with the huge extra capacity and reserves, such as Saudi Arabia and Iraq, could upset the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2312..2319
+17,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+2134..2308
+16
+#### Text ####
+The Iraqi oil minister and Saudi oil minister Hisham Nazer insisted in their comments to the conference that their countries would act responsibly to maintain a stable market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2321..2475
+17,1;17,2;17,3;17,4;17,5;17,6;17,7
+#### Text ####
+in interviews later, both ministers stressed that they expect future OPEC quotas to be based mainly on the production capacity and reserves of each member
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2664
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2479..2661
+18
+#### Text ####
+Under that approach, countries with the most unused oil capacity would get bigger shares of any future increases in OPEC's production ceiling than they would under the current system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2664..2788
+19,1
+#### Text ####
+If you are already producing at 95% or 100% of your capacity, what's the good to be told you can produce at 105% of capacity
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2791..2811
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+asked Mr. Al-Chalabi
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2664..2666
+19,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2791..2811
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+asked Mr. Al-Chalabi
+##############
+if, Contingency.Condition
+____Arg1____
+2726..2788
+19,1,1;19,1,2;19,1,3
+#### Text ####
+what's the good to be told you can produce at 105% of capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2667..2724
+19,1,0,1
+#### Text ####
+you are already producing at 95% or 100% of your capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3031..3038
+21,1,5
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+2815..2983
+20
+#### Text ####
+At an inconclusive Geneva meeting late last month, OPEC's oil ministers halfheartedly approved another increase of one million barrels a day in their production ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2985..3029
+21,0;21,1,0;21,1,1;21,1,2;21,1,3;21,1,4;21,1,6;21,2
+#### Text ####
+They doled it out using the existing formula
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3142..3178
+22,0
+#### Text ####
+The main effect of the ceiling boost
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+2985..3038
+21,0;21,1,0;21,1,1;21,1,2;21,1,3;21,1,4;21,1,5;21,1,6;21,2
+#### Text ####
+They doled it out using the existing formula, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3142..3264
+22
+#### Text ####
+The main effect of the ceiling boost was to "legitimize" some of the overproduction already coming from the quota cheaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3268..3273
+23,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+2815..2983
+20
+#### Text ####
+At an inconclusive Geneva meeting late last month, OPEC's oil ministers halfheartedly approved another increase of one million barrels a day in their production ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3275..3309
+23,1;23,2;23,3;23,4
+#### Text ####
+there was a breakthrough at Geneva
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3311..3321
+24,0
+#### Text ####
+Previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+3268..3309
+23
+#### Text ####
+Still, there was a breakthrough at Geneva
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3323..3447
+24,1;24,2;24,3;24,4
+#### Text ####
+no OPEC member had been willing to accept a reduction in its percentage share of the group's total output target, or ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3449..3452
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3311..3447
+24
+#### Text ####
+Previously, no OPEC member had been willing to accept a reduction in its percentage share of the group's total output target, or ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3453..3522;3563..3602
+25,1,0;25,1,1;25,1,2;25,1,4;25,2;25,3
+#### Text ####
+the concept of disproportionate quotas for those with unused capacity was generally endorsed by the ministers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3524..3561
+25,1,3
+#### Text ####
+advanced there in an Iranian proposal
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3642
+27
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3606..3640
+26
+#### Text ####
+In the end politics got in the way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3642..3734
+27
+#### Text ####
+Libya accepted Iran's proposal only so long as it was promised production parity with Kuwait
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3736..3739
+28,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3642..3734
+27
+#### Text ####
+Libya accepted Iran's proposal only so long as it was promised production parity with Kuwait
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3740..3845
+28,1;28,2;28,3
+#### Text ####
+the United Arab Emirates, a chronic quota cheater, refused to give any guarantee it would change its ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3849..3852
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+3642..3845
+27;28
+#### Text ####
+Libya accepted Iran's proposal only so long as it was promised production parity with Kuwait.
+And the United Arab Emirates, a chronic quota cheater, refused to give any guarantee it would change its ways
+##############
+____Arg1____
+3606..3640
+26
+#### Text ####
+In the end politics got in the way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3853..3971
+29,1;29,2;29,3;29,4;29,5
+#### Text ####
+the oil ministers continue to study the plan, and it will probably be the basis for discussion at next month's meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3899..3902
+29,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3849..3897
+29,0;29,1;29,2
+#### Text ####
+But the oil ministers continue to study the plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3903..3971
+29,4
+#### Text ####
+it will probably be the basis for discussion at next month's meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4051
+31
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3991..4049
+30,1,1,1
+#### Text ####
+several compromises already have been worked into the plan
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+3975..3990
+30,0;30,1,0;30,1,1,0;30,2
+#### Text ####
+It's understood
+##############
+____Arg2____
+4051..4225
+31
+#### Text ####
+The ceiling would be lifted to 21.5 million barrels to provide Kuwait and the United Arab Emirates much higher official quotas while reducing percentage shares of some others
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4178..4183
+31,1,1,1,3,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison, Temporal.Synchrony
+____Arg1____
+4103..4177
+31,1,1,1,3,0;31,1,1,1,3,1,0;31,1,1,1,3,1,1,0;31,1,1,1,3,1,1,1;31,1,1,1,3,1,1,2
+#### Text ####
+to provide Kuwait and the United Arab Emirates much higher official quotas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4184..4225
+31,1,1,1,3,1,1,3,1
+#### Text ####
+reducing percentage shares of some others
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4227
+32
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+4051..4225
+31
+#### Text ####
+The ceiling would be lifted to 21.5 million barrels to provide Kuwait and the United Arab Emirates much higher official quotas while reducing percentage shares of some others
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4227..4342
+32
+#### Text ####
+Libya's previous conditions are no longer considered a problem, although the United Arab Emirates is still an issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4291..4299
+32,1,2,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+4227..4289
+32,0;32,1,0;32,1,1;32,1,2,0;32,1,2,1;32,1,2,2;32,2
+#### Text ####
+Libya's previous conditions are no longer considered a problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4300..4342
+32,1,2,3,1
+#### Text ####
+the United Arab Emirates is still an issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4376..4380
+33,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4291..4342
+32,1,2,3
+#### Text ####
+although the United Arab Emirates is still an issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4346..4374;4381..4416
+33,0,0;33,0,2
+#### Text ####
+Saudi Arabia, OPEC's kingpin has surfaced as a possible obstacle
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4418..4440
+33,1;33,2;33,3;33,4
+#### Text ####
+some OPEC sources said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4442
+34
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4346..4416
+33,0
+#### Text ####
+Saudi Arabia, OPEC's kingpin, also has surfaced as a possible obstacle
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4418..4440
+33,1;33,2;33,3;33,4
+#### Text ####
+some OPEC sources said
+##############
+____Arg2____
+4442..4576
+34
+#### Text ####
+Insisting on a 24.5% share of any ceiling, Saudi officials have long pressed for the pro rata distribution of increases to all members
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4589..4596
+35,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4442..4576
+34
+#### Text ####
+Insisting on a 24.5% share of any ceiling, Saudi officials have long pressed for the pro rata distribution of increases to all members
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4578..4587;4598..4628;4629..4790
+35,0;35,1;35,3;35,4;35,5;35,6
+#### Text ####
+In Geneva they supported Iran's proposal because it would have left the Saudi percentage of the OPEC total intact, and increased actual Saudi volume to nearly 5.3 million barrels daily from five million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4629..4636
+35,5,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4578..4628
+35,0;35,1;35,2;35,3;35,4;35,5,0;35,5,1;35,6
+#### Text ####
+In Geneva, however, they supported Iran's proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4637..4790
+35,5,2,1
+#### Text ####
+it would have left the Saudi percentage of the OPEC total intact, and increased actual Saudi volume to nearly 5.3 million barrels daily from five million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4836..4843
+36,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4629..4790
+35,5,2
+#### Text ####
+because it would have left the Saudi percentage of the OPEC total intact, and increased actual Saudi volume to nearly 5.3 million barrels daily from five million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4794..4834;4845..4934
+36,0;36,1;36,3;36,4;36,5
+#### Text ####
+Some of the proposed modifications since call on Saudi Arabia to "give back" to the production-sharing pool a token 23,000 barrels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4936
+37
+____Arg1____
+4794..4934
+36
+#### Text ####
+Some of the proposed modifications since, however, call on Saudi Arabia to "give back" to the production-sharing pool a token 23,000 barrels
+##############
+____Arg2____
+4936..4980
+37
+#### Text ####
+Though tiny, that's a reduction in its share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4982
+38
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4936..4980
+37
+#### Text ####
+Though tiny, that's a reduction in its share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4982..5143
+38
+#### Text ####
+Mr. Nazer, the Saudi oil minister, reiterated here that the kingdom would insist on maintaining its percentage share of OPEC production under any quota revisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5146
+39
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4982..5143
+38
+#### Text ####
+Mr. Nazer, the Saudi oil minister, reiterated here that the kingdom would insist on maintaining its percentage share of OPEC production under any quota revisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5146..5233
+39
+#### Text ####
+Under any circumstances, Saudi Arabia should get more" rather than less, Mr. Nazer said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

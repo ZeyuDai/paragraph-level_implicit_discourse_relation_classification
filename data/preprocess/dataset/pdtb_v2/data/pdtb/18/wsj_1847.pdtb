@@ -1,0 +1,980 @@
+________________________________________________________
+____Implicit____
+101
+1
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..99
+0
+#### Text ####
+Many in Washington say President Bush will have to raise taxes to pay for his war on drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+101..165
+1
+#### Text ####
+We have a better idea: Dismantle HUD to pay for the war on drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+224
+3
+____Arg1____
+169..222
+2
+#### Text ####
+Housing and Urban Development's budget is $17 billion
+##############
+____Arg2____
+224..308
+3
+#### Text ####
+From what we and the nation have been reading, the money isn't being spent very well
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+310
+4
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+224..308
+3
+#### Text ####
+From what we and the nation have been reading, the money isn't being spent very well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+310..453
+4
+#### Text ####
+The single most important contribution the government could make now to help the poor is to get the specter of drugs out of their neighborhoods
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+455
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+310..453
+4
+#### Text ####
+The single most important contribution the government could make now to help the poor is to get the specter of drugs out of their neighborhoods
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+455..529
+5
+#### Text ####
+If that takes money, take it away from this discredited federal department
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+455..457
+5,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+476..529
+5,1;5,2;5,3;5,4
+#### Text ####
+take it away from this discredited federal department
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+458..474
+5,0,1
+#### Text ####
+that takes money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+533..536
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Sup1____
+169..453
+2;3;4
+#### Text ####
+Housing and Urban Development's budget is $17 billion.
+From what we and the nation have been reading, the money isn't being spent very well.
+The single most important contribution the government could make now to help the poor is to get the specter of drugs out of their neighborhoods
+##############
+____Arg1____
+455..529
+5
+#### Text ####
+If that takes money, take it away from this discredited federal department
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+537..634
+6,1;6,2;6,3;6,4
+#### Text ####
+of course the Democrats pillorying HUD in hearings and in the press have no such solution in mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+636..643
+7,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+533..634
+6
+#### Text ####
+But of course the Democrats pillorying HUD in hearings and in the press have no such solution in mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+645..724
+7,1;7,2;7,3;7,4
+#### Text ####
+they're scrambling to protect the very programs at the heart of the HUD scandal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+832
+9
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+728..830
+8
+#### Text ####
+This month, HUD Secretary Jack Kemp unveiled a series of proposed reforms to improve management at HUD
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+832..981
+9
+#### Text ####
+No doubt many of his ideas are worthy, but ultimately he is proposing to make fundamentally flawed programs work slightly more fairly and efficiently
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+871..874
+9,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+832..869
+9,0
+#### Text ####
+No doubt many of his ideas are worthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+875..981
+9,3
+#### Text ####
+ultimately he is proposing to make fundamentally flawed programs work slightly more fairly and efficiently
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+983
+10
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+871..981
+9,2;9,3;9,4
+#### Text ####
+but ultimately he is proposing to make fundamentally flawed programs work slightly more fairly and efficiently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+983..1023
+10
+#### Text ####
+Congress is unlikely to go even that far
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1143..1155
+12,1,1,1,1
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1027..1121
+11
+#### Text ####
+Last week, Secretary Kemp ran into a buzzsaw of criticism from House Banking Committee members
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1123..1141;1157..1397
+12,0;12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,2;12,1,1,2;12,2
+#### Text ####
+They were appalled that he wanted to target more of the $3 billion Community Development Block Grant (CDBG) program to low-income projects and zero out the notorious "discretionary" funds that have allowed HUD officials to steer contracts to political cronies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1513..1517
+14,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+1586..1646
+14,2;14,3;14,4;14,5
+#### Text ####
+and so they are popular with such Members as Mary Rose Oakar
+##############
+____Arg1____
+1401..1506
+13
+#### Text ####
+These development grants mainly enrich developers who want to put up shopping centers and parking garages
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1508..1512;1518..1584
+14,0,0;14,0,2
+#### Text ####
+They give those in Congress political credit for bringing home the pork
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1586..1589
+14,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1508..1584
+14,0
+#### Text ####
+They also give those in Congress political credit for bringing home the pork
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1590..1646
+14,3;14,4;14,5
+#### Text ####
+so they are popular with such Members as Mary Rose Oakar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1590..1592
+14,3
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1508..1584
+14,0
+#### Text ####
+They also give those in Congress political credit for bringing home the pork
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1586..1589;1593..1646
+14,2;14,4;14,5
+#### Text ####
+and they are popular with such Members as Mary Rose Oakar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1716..1718
+15,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1650..1715
+15,0;15,1,0;15,1,1;15,2
+#### Text ####
+Rep. Oakar, a Democrat from Cleveland, wants a $6.9 million grant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1719..1777
+15,1,2,1
+#### Text ####
+Cleveland can build an 18-story Rock and Roll Hall of Fame
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1788
+16
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1650..1777
+15
+#### Text ####
+Rep. Oakar, a Democrat from Cleveland, wants a $6.9 million grant so Cleveland can build an 18-story Rock and Roll Hall of Fame
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1788..1844
+16,1,1
+#### Text ####
+it'd create 600 jobs and bring Cleveland tourist revenue
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1779..1787
+16,0;16,1,0;16,2
+#### Text ####
+She says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1846
+17
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1779..1844
+16
+#### Text ####
+She says it'd create 600 jobs and bring Cleveland tourist revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1846..1979
+17
+#### Text ####
+HUD says the project doesn't qualify, and Mr. Kemp says that rock 'n' roll musicians and the music industry ought to put up the money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1884..1887
+17,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1846..1882
+17,0
+#### Text ####
+HUD says the project doesn't qualify
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1888..1979
+17,3
+#### Text ####
+Mr. Kemp says that rock 'n' roll musicians and the music industry ought to put up the money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2128
+19
+____Arg1____
+1983..2125
+18
+#### Text ####
+At the hearing, Rep. Oakar started wailing about "phoney baloney regulations" that would stand between her and "housing for downtown Cleveland
+##############
+____Arg2____
+2128..2189
+19,0
+#### Text ####
+Rep. Chalmers Wylie, an Ohio Republican, rallied to the cause
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2192
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2128..2189
+19,0
+#### Text ####
+Rep. Chalmers Wylie, an Ohio Republican, rallied to the cause
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2192..2247
+19,3
+#### Text ####
+I think the gentlelady is making an important statement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2249
+20
+#### Features ####
+Ot, Comm, Null, Null
+2128..2189
+19,0
+#### Text ####
+Rep. Chalmers Wylie, an Ohio Republican, rallied to the cause
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2200..2247
+19,3,1,1
+#### Text ####
+the gentlelady is making an important statement
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2192..2199
+19,3,0;19,3,1,0
+#### Text ####
+I think
+##############
+____Arg2____
+2249..2348;2358..2377
+20,0;20,1;20,3,1;20,4;20,5
+#### Text ####
+The implication that if a congressman calls about a project in his district there's something wrong is most unfortunate
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2350..2357
+20,1;20,2;20,3,0;20,4;20,5
+#### Text ####
+I think
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2270..2272
+20,0,2,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2249..2264
+20,0,0;20,0,1
+#### Text ####
+The implication
+##############
+if, Contingency.Condition.General
+____Arg1____
+2265..2269;2325..2348
+20,0,2,0;20,0,2,1,1;20,0,2,1,2
+#### Text ####
+that there's something wrong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2273..2324
+20,0,2,1,0,1
+#### Text ####
+a congressman calls about a project in his district
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2501..2504
+21,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2444..2500
+21,1,1,1,1,1,1,1,1,1,0
+#### Text ####
+what the Republican consultants have been doing with HUD
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2505..2562
+21,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+what these gentleladies and gentlemen want to do with HUD
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2576
+22
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2393..2562
+21,1,1,1
+#### Text ####
+some theologian can explain the difference between what the Republican consultants have been doing with HUD and what these gentleladies and gentlemen want to do with HUD
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2382..2392
+21,0;21,1,0;21,1,1,0;21,2
+#### Text ####
+We're sure
+##############
+____Arg2____
+2576..2654
+22,1,1
+#### Text ####
+that given Congress's attitude toward HUD, the place probably is beyond reform
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2564..2575
+22,0;22,1,0;22,2
+#### Text ####
+Our view is
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2778
+24
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2658..2776
+23
+#### Text ####
+For more than 50 years the federal government has tried various ways to provide housing for the poor and revive cities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2778..2861
+24
+#### Text ####
+In the process HUD has wasted untold billions, created slums and invited corruption
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2954
+26
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2865..2952
+25
+#### Text ####
+Much of HUD's spending actually is disguised welfare for developers or the middle class
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2954..3021
+26,0;26,1,0;26,1,1,0;26,1,1,1;26,1,1,2,0;26,1,1,2,1;26,2
+#### Text ####
+That includes the CDBG funds and the Federal Housing Administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3131
+27
+____Arg1____
+2954..3129
+26
+#### Text ####
+That includes the CDBG funds and the Federal Housing Administration, which loans out money for private home mortgages and has just been discovered to be $4 billion in the hole
+##############
+____Arg2____
+3131..3243
+27
+#### Text ####
+Selling the FHA's loan portfolio to the highest bidder would save the taxpayers untold billions in future losses
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3302..3305
+28,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3247..3300
+28,0
+#### Text ####
+Some HUD money actually does trickle down to the poor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3306..3422
+28,3
+#### Text ####
+zeroing out housing middlemen would free up more money for public housing tenants to manage and even own their units
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3424
+29
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3302..3422
+28,2;28,3;28,4
+#### Text ####
+and zeroing out housing middlemen would free up more money for public housing tenants to manage and even own their units
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3424..3492
+29
+#### Text ####
+The rest ought to be used to clean out drugs from the neighbhorhoods
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3608
+31
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3496..3544
+30
+#### Text ####
+Rival gangs have turned cities into combat zones
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3608..3687
+31,1,2
+#### Text ####
+there have been a record 96 killings there this year, most of them drug-related
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3546..3607
+31,0;31,1,0;31,1,1;31,2
+#### Text ####
+Even suburban Prince George's County, Md., reported last week
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3689
+32
+____Arg1____
+3546..3687
+31
+#### Text ####
+Even suburban Prince George's County, Md., reported last week there have been a record 96 killings there this year, most of them drug-related
+##############
+____Arg2____
+3689..3730
+32
+#### Text ####
+Innocent bystanders often are the victims
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3732
+33
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3689..3730
+32
+#### Text ####
+Innocent bystanders often are the victims
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3732..3809
+33
+#### Text ####
+A man in a wheelchair was gunned down in the crossfire of a Miami drug battle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3811
+34
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3732..3809
+33
+#### Text ####
+A man in a wheelchair was gunned down in the crossfire of a Miami drug battle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3811..3878
+34
+#### Text ####
+A three-year-old Brooklyn boy was used as a shield by a drug dealer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3932..3938
+35,1,2,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+3882..3931
+35,0;35,1,0;35,1,1;35,1,2,0;35,1,2,1,0;35,1,2,1,1;35,2
+#### Text ####
+Decent life in the inner cities won't be restored
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3939..3994
+35,1,2,1,2,1
+#### Text ####
+the government reclaims the streets from the drug gangs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3996
+36
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3882..3994
+35
+#### Text ####
+Decent life in the inner cities won't be restored unless the government reclaims the streets from the drug gangs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3996..4070
+36
+#### Text ####
+Until then, the billions HUD spends on inner-city housing simply is wasted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4213
+38
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+4074..4211
+37
+#### Text ####
+It's still unclear whether Secretary Kemp wants to completely overhaul the engine room at HUD or just tighten a few screws here and there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4213..4259
+38
+#### Text ####
+No doubt he believes the place can be salvaged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4261
+39
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4213..4259
+38
+#### Text ####
+No doubt he believes the place can be salvaged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4261..4350
+39
+#### Text ####
+Having seen the hypocrisy with which Congress has addressed the HUD scandals, we disagree
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4352
+40
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+4261..4350
+39
+#### Text ####
+Having seen the hypocrisy with which Congress has addressed the HUD scandals, we disagree
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4352..4471
+40
+#### Text ####
+It's time to scrap the politically infested spending machine HUD has become and channel the resources into the drug war
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

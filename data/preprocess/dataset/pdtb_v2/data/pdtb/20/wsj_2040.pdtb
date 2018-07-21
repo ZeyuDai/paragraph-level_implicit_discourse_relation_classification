@@ -1,0 +1,907 @@
+________________________________________________________
+____Explicit____
+208..212
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..134
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+Bankers Trust New York Corp. became the latest major U.S. bank to increase reserves for its loans to less-developed countries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+199..207;213..310
+1,0;1,2;1,3
+#### Text ####
+The bank said it expects to report a $1.42 billion loss for the third quarter and a loss for the full year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+510..513
+3,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+583..642
+4,1;4,2;4,3;4,4;4,5;4,7
+#### Text ####
+said James J. McDermott, analyst at Keefe, Bruyette & Woods
+##############
+and, Expansion.Conjunction
+____Arg1____
+489..509
+3,0;3,1;3,2,0
+#### Text ####
+Step up to the plate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+514..532
+3,2,2;3,3
+#### Text ####
+take the big swing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+534
+4
+#### Features ####
+Ot, Comm, Null, Null
+583..642
+4,1;4,2;4,3;4,4;4,5;4,7
+#### Text ####
+said James J. McDermott, analyst at Keefe, Bruyette & Woods
+##############
+in other words, Expansion.Restatement.Generalization
+____Arg1____
+489..532
+3
+#### Text ####
+Step up to the plate and take the big swing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+534..580
+4,0
+#### Text ####
+Get the problem behind you and don't look back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+670
+5
+#### Features ####
+Ot, Comm, Null, Null
+733..749
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+the analyst said
+##############
+indeed, Expansion.Restatement.Specification
+____Arg1____
+534..580
+4,0
+#### Text ####
+Get the problem behind you and don't look back
+##############
+#### Features ####
+Ot, Comm, Null, Null
+583..642
+4,1;4,2;4,3;4,4;4,5;4,7
+#### Text ####
+said James J. McDermott, analyst at Keefe, Bruyette & Woods
+##############
+____Arg2____
+670..730
+5,0
+#### Text ####
+Bankers Trust "has had the capacity to do this for some time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+751
+6
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+670..749
+5
+#### Text ####
+Bankers Trust "has had the capacity to do this for some time," the analyst said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+751..803
+6
+#### Text ####
+He expects Citicorp to take a similar step this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+912..917
+7,2,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.List
+____Arg1____
+807..867
+7,0;7,1;7,2,0;7,2,1,0;7,2,1,1;7,2,2;7,3
+#### Text ####
+Citicorp yesterday reported a 9% third-quarter earnings drop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+918..988
+7,2,3,1,0;7,2,3,1,1,0;7,2,3,1,1,1
+#### Text ####
+Manufacturers Hanover Corp. posted a $789 million loss for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+989..994
+7,2,3,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+912..988
+7,2,3,0;7,2,3,1,0;7,2,3,1,1,0;7,2,3,1,1,1
+#### Text ####
+while Manufacturers Hanover Corp. posted a $789 million loss for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+995..1067
+7,2,3,1,1,2,1
+#### Text ####
+adding $950 million to its reserve for loans to less-developed countries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1127
+9
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1071..1125
+8
+#### Text ####
+Three other major U.S. banks posted earnings increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1127..1333
+9;10
+#### Text ####
+Wells Fargo & Co. of San Francisco posted a 17% jump.
+PNC Financial Corp., the parent of Pittsburgh National Bank, reported net income climbed 9.8%, while net for Banc One Corp. of Columbus, Ohio, grew 3.8%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1181
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1127..1179
+9
+#### Text ####
+Wells Fargo & Co. of San Francisco posted a 17% jump
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1181..1274
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+PNC Financial Corp., the parent of Pittsburgh National Bank, reported net income climbed 9.8%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1276..1281
+10,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.List
+____Arg1____
+1181..1274
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+PNC Financial Corp., the parent of Pittsburgh National Bank, reported net income climbed 9.8%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1282..1333
+10,1,3,1
+#### Text ####
+net for Banc One Corp. of Columbus, Ohio, grew 3.8%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1413
+13
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1348..1410
+12
+#### Text ####
+Analysts were only slightly disappointed by Citicorp's numbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1413..1585
+13
+#### Text ####
+There's nothing in here that's horrible and nothing to make you think they're setting the world on fire," said Carole Berger, analyst for C.J. Lawrence, Morgan Grenfell Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1587
+14
+____Arg1____
+1413..1585
+13
+#### Text ####
+There's nothing in here that's horrible and nothing to make you think they're setting the world on fire," said Carole Berger, analyst for C.J. Lawrence, Morgan Grenfell Inc
+##############
+____Arg2____
+1587..1645
+14
+#### Text ####
+Earnings from the bank's global consumer business grew 27%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1648
+15
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1587..1645
+14
+#### Text ####
+Earnings from the bank's global consumer business grew 27%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1648..1708
+15,1
+#### Text ####
+The consumer business continues to drive the earnings stream
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1711..1756
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said Mr. McDermott of Keefe, Bruyette & Woods
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1936..1939
+16,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1921..1934
+16,1
+#### Text ####
+the bank said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1760..1918
+16,0
+#### Text ####
+Corporate finance and trading results in member countries of the Organization for Economic Cooperation and Development were "relatively flat, sometimes choppy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1940..1968
+16,3
+#### Text ####
+profit for the area sank 27%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2179..2184
+17,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2067..2080
+17,1,2,1
+#### Text ####
+the bank said
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1972..2064;2081..2177
+17,0;17,1,0;17,1,1;17,1,2,0;17,1,2,2;17,1,3;17,2;17,3
+#### Text ####
+The cross-border loan portfolio reflected "adjustment problems and episodic payment patterns no interest payments from Argentina in the nine months and none from Brazil in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2185..2232
+17,1,4,1
+#### Text ####
+Venezuela brought itself "substantially current
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2235..2242
+18,0
+#### Text ####
+Overall
+##############
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Restatement
+____Arg1____
+1972..2232
+17
+#### Text ####
+The cross-border loan portfolio reflected "adjustment problems and episodic payment patterns," the bank said no interest payments from Argentina in the nine months and none from Brazil in the third quarter, while Venezuela brought itself "substantially current
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2244..2332
+18,1;18,2;18,3;18,4
+#### Text ####
+the portfolio narrowed its quarterly loss to $70 million from $80 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2498..2501
+20,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2502..2535
+20,1;20,2,0;20,2,1,0;20,2,1,1;20,3
+#### Text ####
+he reiterated the bank's position
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2337..2469
+19,1
+#### Text ####
+People were waiting to see if we would take an additional provision" for medium-term and long-term loans to less-developed countries
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2471..2496
+19,0;19,2;19,3;19,4;19,5
+#### Text ####
+a Citicorp spokesman said
+##############
+____Arg2____
+2536..2597
+20,2,1,2,0;20,2,1,2,1,0;20,2,1,2,1,1,0;20,2,1,2,1,1,1,0;20,2,1,2,1,1,1,1,0;20,2,1,2,1,1,1,1,1,0;20,2,1,2,1,1,1,1,1,1;20,2,1,2,1,1,1,1,1,2
+#### Text ####
+that it is comfortable with the current level of $2.6 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2599..2663
+20,2,1,2,1,1,1,1,1,1,1,1;20,2,1,2,1,1,1,1,1,3
+#### Text ####
+covering about 30% of the $8.9 billion of such loans outstanding
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2802
+22
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+2731..2799
+21,1,1
+#### Text ####
+Citicorp's venture-capital gains of $93 million before taxes "strong
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2667..2730
+21,0;21,1,0;21,2;21,3
+#### Text ####
+Ronald I. Mandle, analyst at Sanford C. Bernstein & Co., called
+##############
+____Arg2____
+2802..2821;2840..2868
+22,0,0;22,1,0;22,1,1,0;22,1,1,1
+#### Text ####
+A "concerning" item was the 10% jump in expenses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2822..2839
+22,0,1
+#### Text ####
+the analyst cited
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3020..3027
+23,1,2
+#### Text ####
+however
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2993..3018
+23,0;23,1,0;23,1,1;23,1,3;23,2
+#### Text ####
+Citicorp's spokesman said
+##############
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+2802..2821;2840..2991
+22,0,0;22,1;22,2
+#### Text ####
+A "concerning" item was the 10% jump in expenses, which the bank attributes to costs of expanding both its consumer credit-card operations and its overseas branch business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2822..2839
+22,0,1
+#### Text ####
+the analyst cited
+##############
+____Arg2____
+3029..3104
+23,1,4
+#### Text ####
+that the bank is maintaining those expenses in proportion to revenue growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3345
+26
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Specification
+____Arg1____
+3122..3207
+25,0;25,1;25,2;25,4
+#### Text ####
+Wells Fargo continued to generate one of the highest profit margins among major banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3345..3436
+26,0;26,1,0;26,1,1;26,1,2;26,1,3;26,1,4;26,2
+#### Text ####
+Its margin fell only seven basis points, or 7/100ths of a percentage point, from a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3564..3575
+27,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+3209..3560
+25,3;26
+#### Text ####
+minimizing a drop in net interest margin with 13% third-quarter growth in high-yielding business loans and similar growth in mortgages.
+Its margin fell only seven basis points, or 7/100ths of a percentage point, from a year ago, compared with a 13-point drop at Security Pacific Corp. and much larger declines among banks in other parts of the country
+##############
+____Arg1____
+3122..3207
+25,0;25,1;25,2;25,4
+#### Text ####
+Wells Fargo continued to generate one of the highest profit margins among major banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3577..3669
+27,1;27,2;27,3;27,4
+#### Text ####
+Wells Fargo's net interest income rose $36.3 million, or 7%, to $537 million for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3671
+28
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+3564..3669
+27
+#### Text ####
+As a result, Wells Fargo's net interest income rose $36.3 million, or 7%, to $537 million for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3671..3742
+28,0;28,1,0;28,1,1;28,1,2;28,1,3;28,1,4;28,2
+#### Text ####
+Non-interest income fell slightly to $191.9 million from $193.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3744..3749
+28,1,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Sup1____
+3816..3855
+28,1,5,1,1,1,1,1,2,2
+#### Text ####
+which was almost flat at $393.4 million
+##############
+____Arg1____
+3671..3742
+28,0;28,1,0;28,1,1;28,1,2;28,1,3;28,1,4;28,2
+#### Text ####
+Non-interest income fell slightly to $191.9 million from $193.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3750..3814
+28,1,5,1,0;28,1,5,1,1,0;28,1,5,1,1,1,0;28,1,5,1,1,1,1,0;28,1,5,1,1,1,1,1,0;28,1,5,1,1,1,1,1,1;28,1,5,1,1,1,1,1,2,0;28,1,5,1,1,1,1,1,2,1
+#### Text ####
+Wells Fargo continued to rigorously control non-interest expense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4410..4413
+32,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4255..4408
+31,1,2;31,1,3;31,2
+#### Text ####
+and managed to partly reverse the sharp rise in domestic non-accrual loans, which fell 8% from the previous quarter to $806.8 million from $880.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4414..4516
+32,1;32,2;32,3
+#### Text ####
+the amount was still 39% higher than the year-ago level, and 25% higher as a percentage of total loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4518
+33
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement
+____Arg1____
+4410..4516
+32
+#### Text ####
+But the amount was still 39% higher than the year-ago level, and 25% higher as a percentage of total loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4518..4664
+33
+#### Text ####
+That trend, and Wells Fargo's heavy exposure to leveraged buy-outs, are about the only worries analysts have about Wells Fargo's financial picture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4666
+34
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4518..4664
+33
+#### Text ####
+That trend, and Wells Fargo's heavy exposure to leveraged buy-outs, are about the only worries analysts have about Wells Fargo's financial picture
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4666..4889
+34
+#### Text ####
+Wells Fargo is rebuilding its loan-loss reserve, which increased to $711 million at Sept. 30 from $664 million the previous quarter but was down from $852 million a year ago, when the bank still had some shaky foreign loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5145..5155
+37,0,0,1
+#### Text ####
+comparable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5193..5209
+37,1;37,2;37,3;37,4
+#### Text ####
+a spokesman said
+##############
+Comparison.Contrast.Juxtaposition
+____Arg1____
+5100..5139
+36,1,1,1,1;36,1,1,1,2;36,1,1,1,3
+#### Text ####
+third-quarter earnings were $75 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4917..4943
+36,0;36,1,0;36,2
+#### Text ####
+Manufacturers Hanover said
+##############
+____Arg2____
+5141..5191
+37,0
+#### Text ####
+The comparable year-earlier number was $56 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5642
+41
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5584..5639
+40
+#### Text ####
+Fees from syndicating loans dropped 48%, to $21 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5642..5695
+41,1,0;41,1,1,0;41,1,1,1;41,1,1,2,0;41,1,1,2,1;41,1,1,2,2;41,1,1,2,3;41,1,1,2,4;41,1,1,2,5
+#### Text ####
+We didn't take part in a lot of deals" in the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5737..5755
+41,0;41,2;41,3;41,4;41,5;41,6
+#### Text ####
+the spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5697..5704
+41,1,1,2,6,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5737..5755
+41,0;41,2;41,3;41,4;41,5;41,6
+#### Text ####
+the spokesman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5642..5695
+41,1,0;41,1,1,0;41,1,1,1;41,1,1,2,0;41,1,1,2,1;41,1,1,2,2;41,1,1,2,3;41,1,1,2,4;41,1,1,2,5
+#### Text ####
+We didn't take part in a lot of deals" in the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5705..5734
+41,1,1,2,6,1
+#### Text ####
+their credit quality was poor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5757
+42
+____Arg1____
+5642..5755
+41
+#### Text ####
+We didn't take part in a lot of deals" in the quarter "because their credit quality was poor," the spokesman said
+##############
+____Arg2____
+5757..5814
+42
+#### Text ####
+Expenses unrelated to interest rose 5.4%, to $541 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6016
+46
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5941..6014
+45
+#### Text ####
+Net interest income in the third quarter edged up 1.4%, to $317.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6016..6055
+46,0;46,1,0;46,1,1;46,1,2;46,1,3;46,1,4;46,2
+#### Text ####
+Trust income grew 15%, to $49.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6057..6062
+46,1,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+6016..6055
+46,0;46,1,0;46,1,1;46,1,2;46,1,3;46,1,4;46,2
+#### Text ####
+Trust income grew 15%, to $49.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6063..6132
+46,1,5,1
+#### Text ####
+service charges, fees and commissions increased 22%, to $79.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

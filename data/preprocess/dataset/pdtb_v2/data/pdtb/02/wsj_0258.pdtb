@@ -1,0 +1,507 @@
+________________________________________________________
+____Explicit____
+251..255
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..203
+0
+#### Text ####
+Mips Computer Systems Inc. today will unveil a new general-purpose computer that will compete with more expensive machines from companies such as Sun Microsystems Inc. and Digital Equipment Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+207..250;256..323
+1,0;1,2,0;1,2,1,0;1,2,1,1,0;1,2,1,1,1;1,2,1,1,2,0;1,2,1,1,2,1,0;1,2,1,1,2,1,1,0;1,2,1,1,2,1,1,1;1,2,1,1,2,1,1,2,0;1,2,1,1,2,1,1,2,1,0;1,2,1,1,2,1,1,2,1,1;1,3
+#### Text ####
+The closely held Sunnyvale, Calif., company will announce an agreement to supply computers to Control Data Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+326..375
+1,2,1,1,2,1,1,2,1,2
+#### Text ####
+which will sell Mips machines under its own label
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+459
+3
+____Arg1____
+379..457
+2
+#### Text ####
+The new Mips machine, called the RC6280, will cost $150,000 for a basic system
+##############
+____Arg2____
+459..611
+3
+#### Text ####
+The computer processes 55 million instructions per second and uses only one central processing chip, unlike many rival machines using several processors
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+613
+4
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+517..558
+3,1,1;3,1,2,0;3,1,2,1;3,1,2,2
+#### Text ####
+and uses only one central processing chip
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+613..687
+4
+#### Text ####
+The machine employs reduced instruction-set computing, or RISC, technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+822
+6
+#### Features ####
+Ot, Comm, Null, Null
+887..951
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said Sandy Gant, an analyst at the market-research firm InfoCorp
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+691..704;749..819
+5,0;5,2;5,3;5,4
+#### Text ####
+At that price the computer offers up to 10 times the performance of similar machines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+706..747
+5,1
+#### Text ####
+an analyst familiar with the machine said
+##############
+____Arg2____
+822..884
+6,1
+#### Text ####
+In the price range it's a tremendously high-performing product
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1092..1096
+8,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+955..1085
+7
+#### Text ####
+The machine is part of an effort by Mips to establish itself as a supplier of computers, not just of integrated-circuit technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1087..1091;1097..1185
+8,0,0;8,0,2
+#### Text ####
+Mips wants to wedge into markets other than traditional RISC applications such as engineering
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1270
+9
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1197..1267
+8,2,1,1
+#### Text ####
+the new machine will also be used by businesses and for communications
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1187..1196
+8,2,0;8,2,1,0
+#### Text ####
+Mips said
+##############
+____Arg2____
+1270..1358
+9,1
+#### Text ####
+This clearly demonstrates that Mips is a systems company rather than just a chip company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1361..1395
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+said Mips Vice President John Hime
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1440..1447
+10,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1399..1439
+10,0;10,1,0;10,1,1;10,2
+#### Text ####
+The Control Data deal is a boon for Mips
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1448..1657
+10,1,2,1
+#### Text ####
+it gives the the five-year-old company one more ally as it battles more established electronic concerns such as Sun, Hewlett-Packard Co., Motorola Inc. and Intel Corp. for the emerging market for RISC machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1501..1503
+10,1,2,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1440..1500
+10,1,2,0;10,1,2,1,0;10,1,2,1,1,0;10,1,2,1,1,1;10,1,2,1,1,2
+#### Text ####
+because it gives the the five-year-old company one more ally
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1504..1657
+10,1,2,1,1,3,1
+#### Text ####
+it battles more established electronic concerns such as Sun, Hewlett-Packard Co., Motorola Inc. and Intel Corp. for the emerging market for RISC machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1659
+11
+____Arg1____
+1399..1657
+10
+#### Text ####
+The Control Data deal is a boon for Mips because it gives the the five-year-old company one more ally as it battles more established electronic concerns such as Sun, Hewlett-Packard Co., Motorola Inc. and Intel Corp. for the emerging market for RISC machines
+##############
+____Arg2____
+1659..1732
+11
+#### Text ####
+RISC technology speeds up a computer by simplifying the internal software
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1914
+13
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+1736..1744;1795..1911
+12,0,0;12,0,1,0;12,0,1,1;12,0,1,3;12,1;12,2;12,3
+#### Text ####
+For Mips big-name allies such as Control Data are essential to attract software developers to the company's RISC architecture
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1914..1978
+13,1
+#### Text ####
+The thing it says about Mips is that they're on a roll right now
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1981..2006
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said Ms. Gant at InfoCorp
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2009
+14
+#### Features ####
+Ot, Comm, Null, Null
+2043..2052
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+she added
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1914..1978
+13,1
+#### Text ####
+The thing it says about Mips is that they're on a roll right now
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1981..2006
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said Ms. Gant at InfoCorp
+##############
+____Arg2____
+2009..2040
+14,1
+#### Text ####
+They're getting some major wins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2068..2079
+15,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2009..2040
+14,1
+#### Text ####
+They're getting some major wins
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2043..2052
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+she added
+##############
+____Arg2____
+2056..2066;2081..2180
+15,0;15,1;15,3;15,4;15,5;15,6
+#### Text ####
+Last month Mips agreed to supply its computers to Nixdorf Computer AG of West Germany and France's Groupe Bull
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2182
+16
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2056..2180
+15
+#### Text ####
+Last month, for example, Mips agreed to supply its computers to Nixdorf Computer AG of West Germany and France's Groupe Bull
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2182..2389
+16
+#### Text ####
+Sony Corp., Tandem Computers Inc. and Digital Equipment have agreed to sell MIPS computers and companies such as Japan's NEC Corp. and West Germany's Siemens A.G. have agreed to make Mips chips under license
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2273..2276
+16,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2182..2272
+16,0
+#### Text ####
+Sony Corp., Tandem Computers Inc. and Digital Equipment have agreed to sell MIPS computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2277..2389
+16,2
+#### Text ####
+companies such as Japan's NEC Corp. and West Germany's Siemens A.G. have agreed to make Mips chips under license
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2587
+18
+____Arg1____
+2393..2585
+17
+#### Text ####
+Today's agreement gives Control Data a machine to compete against Digital and other general-purpose computer makers, said John Logan, a computer-market analyst at Aberdeen Group Inc. of Boston
+##############
+____Arg2____
+2587..2643
+18
+#### Text ####
+The machine is essentially a mainframe computer, he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2646
+19
+#### Features ####
+Ot, Comm, Null, Null
+2776..2784
+19,0;19,2;19,3;19,4;19,5
+#### Text ####
+he added
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+2587..2634
+18,0
+#### Text ####
+The machine is essentially a mainframe computer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2636..2643
+18,1;18,2;18,3;18,4
+#### Text ####
+he said
+##############
+____Arg2____
+2646..2774
+19,1
+#### Text ####
+Suddenly CDC (Control Data) has a competitive product to fight back against the VAX9000," a machine Digital announced last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3141
+23
+____Arg1____
+3061..3139
+22
+#### Text ####
+Mips will start shipping its new machine in the first quarter of 1990, he said
+##############
+____Arg2____
+3141..3259
+23
+#### Text ####
+The machine uses a single processor, which makes it easier to program than competing machines using several processors
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3261
+24
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.List
+____Arg1____
+3141..3259
+23
+#### Text ####
+The machine uses a single processor, which makes it easier to program than competing machines using several processors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3261..3357
+24
+#### Text ####
+The computer can process 13.3 million calculations called floating-point operations every second
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3359
+25
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.List
+____Arg1____
+3261..3357
+24
+#### Text ####
+The computer can process 13.3 million calculations called floating-point operations every second
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3359..3420
+25,0
+#### Text ####
+The machine can run software written for other Mips computers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3422..3438
+25,1;25,2;25,3;25,4
+#### Text ####
+the company said
+##############
+________________________________________________________

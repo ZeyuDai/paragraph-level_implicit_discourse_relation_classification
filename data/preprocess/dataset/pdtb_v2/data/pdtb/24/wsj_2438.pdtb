@@ -1,0 +1,342 @@
+________________________________________________________
+____Implicit____
+415
+2
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+276..395
+1,0
+#### Text ####
+After a tax benefit of about $780,000, Keystone expects to report net income of $2.3 million, or about 62 cents a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+397..413
+1,1;1,2;1,3;1,4
+#### Text ####
+Mr. Simmons said
+##############
+____Arg2____
+415..587
+2
+#### Text ####
+For third quarter last year, Keystone reported a $1 million loss from continuing operations and a $200,000 loss from discontinued operations, for a net loss of $1.2 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+878
+5
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+718..789
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1;4,1,1,1,1,2,0;4,1,1,1,1,2,1,0;4,1,1,1,1,2,1,1
+#### Text ####
+the results signal a turnaround for the maker of wire and wire products
+##############
+#### Features ####
+Ot, Comm, Null, Null
+701..717
+4,0;4,1,0;4,2
+#### Text ####
+Mr. Simmons said
+##############
+____Arg2____
+878..914;962..1060
+5,0,0,0,0;5,0,0,0,1;5,0,0,0,3;5,0,0,1;5,0,0,2;5,0,1;5,0,2
+#### Text ####
+A new $46 million steel rod minimill now is running efficiently and a new management team is more heavily marketing Keystone's products
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1062..1078
+5,1;5,2;5,3;5,4
+#### Text ####
+Mr. Simmons said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+989..992
+5,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1062..1078
+5,1;5,2;5,3;5,4
+#### Text ####
+Mr. Simmons said
+##############
+and, Expansion.Conjunction
+____Arg1____
+878..988
+5,0,0
+#### Text ####
+A new $46 million steel rod minimill, which got off to a rocky start in early 1988, now is running efficiently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+993..1060
+5,0,2
+#### Text ####
+a new management team is more heavily marketing Keystone's products
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1082..1093
+6,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+916..960
+5,0,0,0,2
+#### Text ####
+which got off to a rocky start in early 1988
+##############
+____Arg1____
+878..914;962..1060
+5,0,0,0,0;5,0,0,0,1;5,0,0,0,3;5,0,0,1;5,0,0,2;5,0,1;5,0,2
+#### Text ####
+A new $46 million steel rod minimill now is running efficiently and a new management team is more heavily marketing Keystone's products
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1060..1078
+5,1;5,2;5,3;5,4
+#### Text ####
+, Mr. Simmons said
+##############
+____Arg2____
+1095..1315
+6,1;6,2;6,3;6,4
+#### Text ####
+the company hopes to report net income for the year of about $11.6 million, or about $3.10 to $3.15 a share, compared with a net loss of $24.4 million last year, after a loss from discontinued operations of $18.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1317
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1082..1315
+6
+#### Text ####
+As a result, the company hopes to report net income for the year of about $11.6 million, or about $3.10 to $3.15 a share, compared with a net loss of $24.4 million last year, after a loss from discontinued operations of $18.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1317..1412
+7
+#### Text ####
+Revenue for 1989 is expected to be about $300 million, up about 21% from $247.3 million in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1593
+9
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+1416..1591
+8
+#### Text ####
+For the nine months ended Sept. 30, Keystone expects to report net income of $9.3 milion, or about $2.53 a share, after an extraordinary gain from $3.2 million in tax benefits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1593..1753
+9
+#### Text ####
+Last year, the company had a net loss of $6.5 million, including a $6.1 million loss from continuing operations and a $400,000 loss from discontinued operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1755
+10
+____Arg1____
+1593..1753
+9
+#### Text ####
+Last year, the company had a net loss of $6.5 million, including a $6.1 million loss from continuing operations and a $400,000 loss from discontinued operations
+##############
+____Arg2____
+1755..1865
+10
+#### Text ####
+Revenue for the nine months is expected to be about $230.5 million, up about 21% from $190.4 million last year
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2003
+12
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1886..2001
+11,1,1
+#### Text ####
+Keystone's new mill is expected to produce about 585,000 tons of steel rods this year, up from 413,000 tons in 1988
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1869..1885
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Simmons said
+##############
+____Arg2____
+2003..2095
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,2
+#### Text ####
+Production at the mill has exceeded the ability of Keystone's casting operation to supply it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2097..2104
+12,1,1,2
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2572..2575
+14,3,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2414..2436;2501..2571
+14,0,0;14,0,1,0;14,0,1,1;14,1;14,2;14,3,0;14,3,1,0
+#### Text ####
+Under Robert W. Singer Keystone has expanded its sales force to about 20 people from about 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2576..2672
+14,3,1,2;14,4
+#### Text ####
+hopes to expand its sales from the middle portion of the country toward the East and West coasts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2727
+16
+#### Features ####
+Ot, Comm, Null, Null
+2826..2842
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+Mr. Simmons said
+##############
+but, Comparison.Contrast
+____Arg1____
+2677..2725
+15
+#### Text ####
+Prior to a year ago, Keystone was an order-taker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2727..2823
+16,0
+#### Text ####
+Now I think we have a group of marketing people who are out selling to retailers and wholesalers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2846..2851
+17,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+2739..2823
+16,0,2,1
+#### Text ####
+we have a group of marketing people who are out selling to retailers and wholesalers
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2727..2738
+16,0,0;16,0,1;16,0,2,0
+#### Text ####
+Now I think
+##############
+____Arg2____
+2893..3004
+17,4,1
+#### Text ####
+to continue its premium-priced strategy for its distinctive brand of red-tipped wire fencing and other products
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2862..2892
+17,2;17,3;17,4,0;17,5
+#### Text ####
+the 100-year-old company plans
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3006
+18
+____Arg1____
+2846..3004
+17
+#### Text ####
+Still, he said, the 100-year-old company plans to continue its premium-priced strategy for its distinctive brand of red-tipped wire fencing and other products
+##############
+____Arg2____
+3006..3144
+18
+#### Text ####
+The company claims a 40% share of the U.S. field fence business, a 35% share of poultry netting sales and a 30% share of barbed wire sales
+##############
+________________________________________________________

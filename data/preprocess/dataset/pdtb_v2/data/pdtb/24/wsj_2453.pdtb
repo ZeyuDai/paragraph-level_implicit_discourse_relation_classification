@@ -1,0 +1,354 @@
+________________________________________________________
+____EntRel____
+275
+2
+____Arg1____
+137..273
+1
+#### Text ####
+The big semiconductor and computer maker, said it had net of $72 million, or 38 cents, down 50% from $142.7 million, or 78 cents a share
+##############
+____Arg2____
+275..463
+2
+#### Text ####
+The lower net included a charge of $35 million, equal to 12 cents a share on an after-tax basis, for the cost of abandoning a computer-systems joint venture with Siemens AG of West Germany
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+473..477
+3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+275..463
+2
+#### Text ####
+The lower net included a charge of $35 million, equal to 12 cents a share on an after-tax basis, for the cost of abandoning a computer-systems joint venture with Siemens AG of West Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+465..472;478..543
+3,0;3,2;3,3
+#### Text ####
+Earning fell from the year-ago period because of slowing microchip demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+545
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+465..543
+3
+#### Text ####
+Earning also fell from the year-ago period because of slowing microchip demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+545..608
+4
+#### Text ####
+Sales amounted to $771.4 million, down 1.7% from $784.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+673..675
+5,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+612..671
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Intel's stock rose in early over-the-counter trading Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+676..923
+5,1,4,1
+#### Text ####
+investors appeared relieved that the company's income from continuing operations was only slightly below the second quarter's earnings of $99.3 million, or 53 cents a share, and that sales actually exceeded the $747.3 million for the second period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+850..853
+5,1,4,1,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Ftv, Null, Indet
+673..703
+5,1,4,0;5,1,4,1,0;5,1,4,1,1,0;5,1,4,1,1,1,0
+#### Text ####
+as investors appeared relieved
+##############
+and, Expansion.Conjunction
+____Arg1____
+704..848
+5,1,4,1,1,1,1,0
+#### Text ####
+that the company's income from continuing operations was only slightly below the second quarter's earnings of $99.3 million, or 53 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+854..923
+5,1,4,1,1,1,1,3
+#### Text ####
+that sales actually exceeded the $747.3 million for the second period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+925..928
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+612..671
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Intel's stock rose in early over-the-counter trading Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+929..1011
+6,1;6,2;6,3;6,4
+#### Text ####
+Intel later succumbed to the stock market's plunge, closing at $31.75, down $2.125
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+935..940
+6,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+612..923
+5
+#### Text ####
+Intel's stock rose in early over-the-counter trading Friday, as investors appeared relieved that the company's income from continuing operations was only slightly below the second quarter's earnings of $99.3 million, or 53 cents a share, and that sales actually exceeded the $747.3 million for the second period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+925..934;941..1011
+6,0;6,1;6,3;6,4
+#### Text ####
+But Intel succumbed to the stock market's plunge, closing at $31.75, down $2.125
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1436
+9
+#### Features ####
+Ot, Comm, Null, Null
+1330..1406
+8,0;8,1;8,2;8,3,0;8,4
+#### Text ####
+On Friday, Andrew S.Grove, Intel president and chief executive officer, said
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+1408..1434
+8,3,1
+#### Text ####
+Intel's business is strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1436..1517
+9
+#### Text ####
+Our bookings improved as the quarter progressed and September was especially good
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1458..1460
+9,0,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1330..1406
+8,0;8,1;8,2;8,3,0;8,4
+#### Text ####
+On Friday, Andrew S.Grove, Intel president and chief executive officer, said
+##############
+as, Temporal.Synchrony
+____Arg1____
+1436..1457
+9,0,0;9,0,1,0
+#### Text ####
+Our bookings improved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1461..1483
+9,0,1,1,1
+#### Text ####
+the quarter progressed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1484..1487
+9,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1330..1406
+8,0;8,1;8,2;8,3,0;8,4
+#### Text ####
+On Friday, Andrew S.Grove, Intel president and chief executive officer, said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1436..1483
+9,0
+#### Text ####
+Our bookings improved as the quarter progressed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1488..1517
+9,2
+#### Text ####
+September was especially good
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1519
+10
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Restatement.Specification
+____Arg1____
+1436..1517
+9
+#### Text ####
+Our bookings improved as the quarter progressed and September was especially good
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1519..1632
+10
+#### Text ####
+For the full quarter, our bookings were higher than the previous quarter, and our book-to-bill ratio exceeded 1.0
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1593..1596
+10,4
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1330..1406
+8,0;8,1;8,2;8,3,0;8,4
+#### Text ####
+On Friday, Andrew S.Grove, Intel president and chief executive officer, said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1519..1591
+10,0;10,1;10,2;10,3
+#### Text ####
+For the full quarter, our bookings were higher than the previous quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1597..1632
+10,5
+#### Text ####
+our book-to-bill ratio exceeded 1.0
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1768
+12
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1637..1766
+11
+#### Text ####
+For the nine-month period, Intel reported net of $268.3 million, or $1.43 a share, down 27% from $367.1 million, or $2.05 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1768..1833
+12
+#### Text ####
+Revenue amounted to $2.23 billion, up slightly from $2.15 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

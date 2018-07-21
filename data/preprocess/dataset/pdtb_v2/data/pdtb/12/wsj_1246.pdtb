@@ -1,0 +1,940 @@
+________________________________________________________
+____Explicit____
+135..140
+0,1,1,1,1,1,1,2,3,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+38..65
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1,0
+#### Text ####
+they discovered an antibody
+##############
+while, Comparison.Contrast.Opposition, Temporal.Synchrony
+____Arg1____
+66..134
+0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1;0,1,1,1,1,1,1,2,0;0,1,1,1,1,1,1,2,1;0,1,1,1,1,1,1,2,2;0,1,1,1,1,1,1,2,3,0;0,1,1,1,1,1,1,2,3,1
+#### Text ####
+that, in laboratory test-tube experiments, kills AIDS-infected cells
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+141..165
+0,1,1,1,1,1,1,2,3,2,1
+#### Text ####
+preserving healthy cells
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+169..171
+1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+208..299
+1,1;1,2;1,3;1,4
+#### Text ####
+the work would represent a major advance in research on acquired immune deficiency syndrome
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+172..206
+1,0,1
+#### Text ####
+further experiments are successful
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+301
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+169..299
+1
+#### Text ####
+If further experiments are successful, the work would represent a major advance in research on acquired immune deficiency syndrome
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+301..418
+2
+#### Text ####
+The drug AZT, the only treatment currently on the market, claims only to help stop the spread of AIDS, not to cure it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+422..425
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..165
+0
+#### Text ####
+Two Japanese scientists said they discovered an antibody that, in laboratory test-tube experiments, kills AIDS-infected cells while preserving healthy cells
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+426..606
+3,1;3,2;3,3
+#### Text ####
+several analysts and Japanese scientists familiar with the study, which was announced at a conference in Nagoya yesterday, expressed skepticism over the significance of the results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+608..611
+4,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+422..490;549..606
+3,0;3,1,0;3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1;3,1,1,1,1,3;3,2;3,3
+#### Text ####
+But several analysts and Japanese scientists familiar with the study expressed skepticism over the significance of the results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+612..754
+4,1;4,2;4,3
+#### Text ####
+the researchers themselves acknowledged they still must do much more work before they can say whether the treatment would actually cure humans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+657..662
+4,2,1,1,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+169..299
+1
+#### Text ####
+If further experiments are successful, the work would represent a major advance in research on acquired immune deficiency syndrome
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+652..656;663..754
+4,2,1,0;4,2,1,1,0;4,2,1,1,2
+#### Text ####
+they must do much more work before they can say whether the treatment would actually cure humans
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+612..651
+4,1;4,2,0;4,3
+#### Text ####
+the researchers themselves acknowledged
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+686..692
+4,2,1,1,2,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+612..651
+4,1;4,2,0;4,3
+#### Text ####
+the researchers themselves acknowledged
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+652..685
+4,2,1,0;4,2,1,1,0;4,2,1,1,1;4,2,1,1,2,0;4,2,1,1,2,1,0;4,2,1,1,2,1,1
+#### Text ####
+they still must do much more work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+693..754
+4,2,1,1,2,1,2,1
+#### Text ####
+they can say whether the treatment would actually cure humans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+994..998
+6,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+758..854
+5,0;5,1,0;5,2
+#### Text ####
+Shin Yonehara, a research scientist at the Tokyo Metropolitan Institute of Medical Science, said
+##############
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+936..979
+5,1,1,1,1,1,1,1,1,3
+#### Text ####
+which is characteristic of an infected cell
+##############
+____Arg1____
+888..934
+5,1,1,1,1,1,0;5,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,1,1;5,1,1,1,1,1,1,1,1,2
+#### Text ####
+by recognizing an antigen called a Fas-antigen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+981..993;999..1013
+6,0;6,2;6,3
+#### Text ####
+The antibody kills the cell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1209
+8
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1121..1207
+7,1,1,1,1,1
+#### Text ####
+that the antibody wiped out an average of 60% of AIDS-infected cells within three days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1096..1120
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0
+#### Text ####
+their experiments showed
+##############
+____Arg2____
+1209..1276
+8,0
+#### Text ####
+In some of the experiments, it killed almost all the infected cells
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1278..1298
+8,1;8,2;8,3;8,4
+#### Text ####
+the researchers said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1300..1309
+9,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Juxtaposition, Temporal.Synchrony
+____Arg1____
+1096..1276
+7,1,1;8,0
+#### Text ####
+their experiments showed that the antibody wiped out an average of 60% of AIDS-infected cells within three days.
+In some of the experiments, it killed almost all the infected cells
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1017..1095
+7,0;7,1,0;7,2
+#### Text ####
+Dr. Yonehara and his partner, Nobuyuki Kobayashi of Yamaguchi University, said
+##############
+____Arg2____
+1311..1358
+9,1;9,2;9,3;9,4
+#### Text ####
+fewer than 10% of the healthy cells were killed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1385..1390
+10,1,1,1,1,1,0,0
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1362..1374
+10,0;10,1,0;10,2
+#### Text ####
+The two said
+##############
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+1096..1276;1300..1358
+7,1,1;8,0;9
+#### Text ####
+their experiments showed that the antibody wiped out an average of 60% of AIDS-infected cells within three days.
+In some of the experiments, it killed almost all the infected cells Meanwhile, fewer than 10% of the healthy cells were killed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1017..1095
+7,0;7,1,0;7,2
+#### Text ####
+Dr. Yonehara and his partner, Nobuyuki Kobayashi of Yamaguchi University, said
+##############
+____Arg2____
+1375..1384;1391..1443
+10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0,1;10,1,1,1,1,1,0,2;10,1,1,1,1,1,1;10,1,1,1,1,1,2;10,1,1,1,1,1,3
+#### Text ####
+they must do more laboratory tests, then experiment on animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1417..1421
+10,1,1,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1362..1374
+10,0;10,1,0;10,2
+#### Text ####
+The two said
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1375..1415
+10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1
+#### Text ####
+they must still do more laboratory tests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1422..1443
+10,1,1,1,1,1,3
+#### Text ####
+experiment on animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1445
+11
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1362..1443
+10
+#### Text ####
+The two said they must still do more laboratory tests, then experiment on animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1445..1530
+11
+#### Text ####
+They said they hoped to conduct tests on human patients in the U.S. by late next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1532
+12
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1455..1530
+11,1,1
+#### Text ####
+they hoped to conduct tests on human patients in the U.S. by late next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1445..1454
+11,0;11,1,0;11,2
+#### Text ####
+They said
+##############
+____Arg2____
+1532..1621
+12,0
+#### Text ####
+Japan doesn't have enough AIDS patients to do significant experimentation in that country
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1623..1632
+12,1;12,2;12,3;12,4
+#### Text ####
+they said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1747..1750
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1636..1745
+13
+#### Text ####
+The announcement got wide exposure in the Japanese media, and even moved some pharmaceutical stocks yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1907..1969
+14,2,3
+#### Text ####
+I'm not so optimistic of its future use in therapeutic methods
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1751..1904
+14,1;14,2,0;14,2,1;14,2,2;14,3;14,4
+#### Text ####
+Takashi Kitamura, director of the biology department at Japan's National Institute of Health and secretary of the government's AIDS-research center, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1980
+15
+#### Features ####
+Ot, Comm, Null, Null
+1972..1979
+15,0;15,1,0;15,2
+#### Text ####
+He said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1907..1969
+14,2,3
+#### Text ####
+I'm not so optimistic of its future use in therapeutic methods
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1747..1904
+14,0;14,1;14,2,0;14,2,1;14,2,2;14,3;14,4
+#### Text ####
+But Takashi Kitamura, director of the biology department at Japan's National Institute of Health and secretary of the government's AIDS-research center, said
+##############
+____Arg2____
+1980..2095
+15,1,1
+#### Text ####
+some infected cells may not have the relevant antigen and so wouldn't be killed even after exposure to the antibody
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2038..2040
+15,1,1,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1972..1979
+15,0;15,1,0;15,2
+#### Text ####
+He said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1980..2033
+15,1,1,0;15,1,1,1,0;15,1,1,1,1,0
+#### Text ####
+some infected cells may not have the relevant antigen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2034..2037;2041..2095
+15,1,1,1,1,1;15,1,1,1,1,2,1;15,1,1,1,1,2,2;15,1,1,1,1,2,3
+#### Text ####
+and wouldn't be killed even after exposure to the antibody
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2331..2334
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2275..2329
+17,1,1,1,1,1
+#### Text ####
+the antibody could potentially kill all infected cells
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2259..2274
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0
+#### Text ####
+that he thought
+##############
+____Arg2____
+2360..2444
+18,2,1
+#### Text ####
+there were still several uncertainties, particularly regarding possible side effects
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2335..2359
+18,1;18,2,0;18,3
+#### Text ####
+he and Dr. Yonehara said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2371..2376
+18,2,1,1,1,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+2275..2329
+17,1,1,1,1,1
+#### Text ####
+the antibody could potentially kill all infected cells
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2259..2274
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0
+#### Text ####
+that he thought
+##############
+____Arg2____
+2360..2370;2377..2444
+18,2,1,0;18,2,1,1,0;18,2,1,1,1,0;18,2,1,1,1,2
+#### Text ####
+there were several uncertainties, particularly regarding possible side effects
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2335..2359
+18,1;18,2,0;18,3
+#### Text ####
+he and Dr. Yonehara said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2447
+19
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2360..2444
+18,2,1
+#### Text ####
+there were still several uncertainties, particularly regarding possible side effects
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2331..2359
+18,0;18,1;18,2,0;18,3
+#### Text ####
+But he and Dr. Yonehara said
+##############
+____Arg2____
+2447..2547
+19,1
+#### Text ####
+Our antibody specifically killed infected cells at a very low dose, but it can also kill other cells
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2550..2567
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Dr. Yonehara
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2515..2518
+19,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2550..2567
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Dr. Yonehara
+##############
+but, Comparison.Contrast
+____Arg1____
+2447..2513
+19,1,0
+#### Text ####
+Our antibody specifically killed infected cells at a very low dose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2519..2547
+19,1,3
+#### Text ####
+it can also kill other cells
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2526..2530
+19,1,3,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2550..2567
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Dr. Yonehara
+##############
+also, Expansion.Conjunction
+____Arg1____
+2447..2513
+19,1,0
+#### Text ####
+Our antibody specifically killed infected cells at a very low dose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2515..2525;2531..2547
+19,1,2;19,1,3,0;19,1,3,1,0;19,1,3,1,2
+#### Text ####
+but it can kill other cells
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2570
+20
+#### Features ####
+Ot, Comm, Null, Null
+2550..2567
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Dr. Yonehara
+##############
+in short, Expansion.Restatement.Equivalence
+____Arg1____
+2447..2547
+19,1
+#### Text ####
+Our antibody specifically killed infected cells at a very low dose, but it can also kill other cells
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2570..2628
+20
+#### Text ####
+We don't know the effect of our antibody on the human body
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2754..2757
+21,4
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+2688..2750
+21,2
+#### Text ####
+the government reports about 1,000 known carriers of the virus
+##############
+____Arg1____
+2633..2684
+21,0
+#### Text ####
+AIDS isn't considered a widespread problem in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2758..2874
+21,5
+#### Text ####
+many companies have poured substantial resources into research in recent years, hoping to cash in on a possible cure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2948..2951
+22,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2878..2895
+22,0;22,1,0;22,2
+#### Text ####
+Dr. Kitamura said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2896..2946
+22,1,1,0
+#### Text ####
+about 35 projects are currently under way in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2952..3078
+22,1,1,3
+#### Text ####
+that Japanese researchers in the past year have made available three possible cures to American researchers for clinical tests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3088
+23
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2896..3078
+22,1,1
+#### Text ####
+about 35 projects are currently under way in Japan, and that Japanese researchers in the past year have made available three possible cures to American researchers for clinical tests
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2878..2895
+22,0;22,1,0;22,2
+#### Text ####
+Dr. Kitamura said
+##############
+____Arg2____
+3088..3239
+23,1,1
+#### Text ####
+that when scientists from the two countries meet again in January in New Orleans, the Japanese will present at least three more drugs for human testing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3080..3087
+23,0;23,1,0;23,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3093..3097
+23,1,1,1,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3080..3087
+23,0;23,1,0;23,2
+#### Text ####
+He said
+##############
+when, Temporal.Synchrony
+____Arg1____
+3088..3092;3170..3239
+23,1,1,0;23,1,1,1,1;23,1,1,1,2;23,1,1,1,3
+#### Text ####
+that the Japanese will present at least three more drugs for human testing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3098..3168
+23,1,1,1,0,1
+#### Text ####
+scientists from the two countries meet again in January in New Orleans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3324
+25
+____Arg1____
+3243..3322
+24
+#### Text ####
+AZT is the world's only prescription medicine approved for treating the disease
+##############
+____Arg2____
+3324..3414
+25
+#### Text ####
+Wellcome PLC, a major British pharmaceutical maker, sells the drug under the name Retrovir
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3502..3505
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3418..3500
+26
+#### Text ####
+A Wellcome spokesman declined to comment on the discovery of the antibody in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3506..3711
+27,1;27,2;27,3
+#### Text ####
+Andrew Porter, a drug-industry analyst at Nikko Securities Co. in London, said if the product were to be successfully developed it would represent "a potential threat to the long-term viability of Retrovir
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3585..3587
+27,2,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3506..3584
+27,1;27,2,0;27,3
+#### Text ####
+Andrew Porter, a drug-industry analyst at Nikko Securities Co. in London, said
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+3634..3711
+27,2,1,1,1;27,2,1,1,2
+#### Text ####
+it would represent "a potential threat to the long-term viability of Retrovir
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3588..3633
+27,2,1,1,0,1
+#### Text ####
+the product were to be successfully developed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

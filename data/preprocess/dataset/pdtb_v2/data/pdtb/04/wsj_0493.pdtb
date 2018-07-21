@@ -1,0 +1,360 @@
+________________________________________________________
+____EntRel____
+136
+1
+____Arg1____
+9..134
+0
+#### Text ####
+GREAT NORTHERN NEKOOSA is being sought by another big paper company, Georgia-Pacific, for $58 a share, or about $3.18 billion
+##############
+____Arg2____
+136..264
+1
+#### Text ####
+The tender offer, which surprised analysts because it appeared to be unsolicited, could spark a period of industry consolidation
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+179..186
+1,0,2,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+154..178
+1,0,2,0;1,0,2,1,0;1,0,2,1,1,0;1,0,2,1,1,1
+#### Text ####
+which surprised analysts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+187..216
+1,0,2,1,1,2,1
+#### Text ####
+it appeared to be unsolicited
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+266
+2
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+136..264
+1
+#### Text ####
+The tender offer, which surprised analysts because it appeared to be unsolicited, could spark a period of industry consolidation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+266..386
+2
+#### Text ####
+Analysts questioned whether Georgia-Pacific will ultimately prevail, saying other paper concerns may make competing bids
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+458
+4
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+390..456
+3
+#### Text ####
+Two more securities firms bowed to the outcry over program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+458..612
+4
+#### Text ####
+GE's Kidder Peabody unit said it would stop doing stock-index arbitrage for its own account, while Merrill Lynch said it was halting such trading entirely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+551..556
+4,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+458..549
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+GE's Kidder Peabody unit said it would stop doing stock-index arbitrage for its own account
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+557..612
+4,1,3,1
+#### Text ####
+Merrill Lynch said it was halting such trading entirely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+614..618
+5,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+458..612
+4
+#### Text ####
+GE's Kidder Peabody unit said it would stop doing stock-index arbitrage for its own account, while Merrill Lynch said it was halting such trading entirely
+##############
+____Arg1____
+390..456
+3
+#### Text ####
+Two more securities firms bowed to the outcry over program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+620..666
+5,1;5,2;5,3;5,4
+#### Text ####
+the Big Board met with angry stock specialists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+738
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+670..736
+6
+#### Text ####
+A big pension-insurance case will be reviewed by the Supreme Court
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+738..883
+7
+#### Text ####
+The justices agreed to decide whether federal insurers can require LTV to take back responsiblilty for funding its $2.3 billion pension shortfall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+931
+9
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+887..929
+8
+#### Text ####
+Drug companies lost a major liability case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+931..1093
+9
+#### Text ####
+The Supreme Court let stand a New York ruling that all manufacturers of an anti-miscarriage drug are liable for injuries or deaths if the actual maker isn't known
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1062..1064
+9,1,1,1,4,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+977..1061
+9,1,1,1,4,0;9,1,1,1,4,1,0;9,1,1,1,4,1,1,0;9,1,1,1,4,1,1,1
+#### Text ####
+that all manufacturers of an anti-miscarriage drug are liable for injuries or deaths
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1065..1093
+9,1,1,1,4,1,1,2,1
+#### Text ####
+the actual maker isn't known
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1196
+11
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1097..1194
+10
+#### Text ####
+Revco received a $925 million takeover offer from Texas financier Robert Bass and Acadia Partners
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1196..1234
+11,0;11,1,0;11,1,1;11,1,2;11,2
+#### Text ####
+The drugstore chain reacted cautiously
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1487
+13
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+1352..1485
+12
+#### Text ####
+Rockefeller Group agreed to sell a 51% interest to Mitsubishi Estate, a major Japanese developer and property owner, for $846 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1487..1564
+13
+#### Text ####
+Officials at some Rockefeller units are said to be unhappy with the agreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1648
+15
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1568..1646
+14
+#### Text ####
+Continental Air replaced its top executive for the sixth time in as many years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1648..1746
+15
+#### Text ####
+Chairman and Chief Executive Joseph Corr was succeeded by Frank Lorenzo, chief of parent Texas Air
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2005
+18
+____Arg1____
+1926..2003
+17
+#### Text ####
+Gen-Probe agreed to be bought by Chugai Pharmaceutical for about $110 million
+##############
+____Arg2____
+2005..2101
+18
+#### Text ####
+The sale is likely to fuel concern about growing Japanese investment in U.S. biotechnology firms
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2157..2160
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2105..2155
+19,0
+#### Text ####
+Boeing posted a 68% jump in third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2161..2242
+19,3
+#### Text ####
+Wall Street's attention was focused on the continued strike at the aircraft maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2956
+27
+____Arg1____
+2921..2954
+26
+#### Text ####
+Stocks: Volume 126,630,000 shares
+##############
+____Arg2____
+2956..3054
+27
+#### Text ####
+Dow Jones industrials 2603.48, up 6.76; transportation 1191.86, up 1.43; utilities 216.74, up 0.88
+##############
+________________________________________________________

@@ -1,0 +1,100 @@
+________________________________________________________
+____Explicit____
+403..407
+2,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+300..401
+2,0;2,1,0;2,1,1;2,1,2;2,2
+#### Text ####
+Mr. McKinney, 50 years old, was chairman and chief executive of American Fletcher Corp., Indianapolis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+408..470
+2,1,3,1
+#### Text ####
+that bank holding company merged into Banc One in January 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+472
+3
+____Arg1____
+300..470
+2
+#### Text ####
+Mr. McKinney, 50 years old, was chairman and chief executive of American Fletcher Corp., Indianapolis, when that bank holding company merged into Banc One in January 1987
+##############
+____Arg2____
+472..609
+3
+#### Text ####
+The company said Mr. McKinney plans to retire because the process of affiliating American Fletcher into Banc One "is considered completed
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+518..525
+3,1,1,1,1,1,1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+472..488
+3,0;3,1,0;3,2;3,3
+#### Text ####
+The company said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+489..517
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1,0;3,1,1,1,1,1,1,0;3,1,1,1,1,1,1,1,0
+#### Text ####
+Mr. McKinney plans to retire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+526..609
+3,1,1,1,1,1,1,1,1,1
+#### Text ####
+the process of affiliating American Fletcher into Banc One "is considered completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+838
+5
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+614..836
+4
+#### Text ####
+Mr. McKinney will continue as chairman of the board and chairman of the executive committee of Banc One Indiana Corp., the successor company to American Fletcher Corp., but will no longer be active in day-to-day management
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+838..874
+5
+#### Text ####
+He will remain on the Banc One board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

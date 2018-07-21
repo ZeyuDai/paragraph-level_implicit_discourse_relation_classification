@@ -1,0 +1,577 @@
+________________________________________________________
+____Explicit____
+76..81
+0,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+9..75
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+Bargain hunters helped stock prices break a weeklong losing streak
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+82..122
+0,1,2,1
+#### Text ####
+bond prices and the dollar inched higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+206..211
+1,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+126..205
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,2
+#### Text ####
+The Dow Jones Industrial Average gained 6.76 points to 2603.48 in light trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+212..248
+1,1,4,1
+#### Text ####
+losing more than 92 points last week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+250
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+126..248
+1
+#### Text ####
+The Dow Jones Industrial Average gained 6.76 points to 2603.48 in light trading after losing more than 92 points last week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+250..340
+2
+#### Text ####
+Bond prices continued to edge higher in anticipation of more news showing a slower economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+342
+3
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+250..340
+2
+#### Text ####
+Bond prices continued to edge higher in anticipation of more news showing a slower economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+342..515
+3
+#### Text ####
+Although the dollar rose slightly against most major currencies, the focus in currency markets was on the beleaguered British pound, which gained slightly against the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+342..350
+3,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Sup1____
+475..515
+3,3,1,1,2
+#### Text ####
+which gained slightly against the dollar
+##############
+____Arg1____
+407..473
+3,1;3,2;3,3,0;3,3,1,0;3,3,1,1,0;3,3,1,1,1;3,4
+#### Text ####
+the focus in currency markets was on the beleaguered British pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+351..405
+3,0,1
+#### Text ####
+the dollar rose slightly against most major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+613..615
+4,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+519..612
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+Trading volume on the New York Stock Exchange dwindled to only 126.6 million shares yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+616..688
+4,1,3,1
+#### Text ####
+major brokerage firms continued to throw in the towel on program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+690
+5
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+613..688
+4,1,3
+#### Text ####
+as major brokerage firms continued to throw in the towel on program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+690..905
+5
+#### Text ####
+Kidder Peabody became the most recent firm to swear off stock-index arbitrage trading for its own account, and Merrill Lynch late yesterday took the major step of renouncing the trading strategy even for its clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+797..800
+5,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+690..795
+5,0
+#### Text ####
+Kidder Peabody became the most recent firm to swear off stock-index arbitrage trading for its own account
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+801..905
+5,3
+#### Text ####
+Merrill Lynch late yesterday took the major step of renouncing the trading strategy even for its clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+909..912
+6,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison.Concession.Contra-expectation
+____Sup1____
+690..905
+5
+#### Text ####
+Kidder Peabody became the most recent firm to swear off stock-index arbitrage trading for its own account, and Merrill Lynch late yesterday took the major step of renouncing the trading strategy even for its clients
+##############
+____Arg1____
+613..688
+4,1,3
+#### Text ####
+as major brokerage firms continued to throw in the towel on program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+913..966
+6,1;6,2;6,3
+#### Text ####
+that didn't eliminate program trading from the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+968
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+909..966
+6
+#### Text ####
+Yet that didn't eliminate program trading from the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+968..1102
+7,0;7,1,0;7,1,1;7,1,2;7,1,3;7,1,4;7,1,5,0;7,1,5,1;7,1,5,2;7,1,5,3,0;7,1,5,3,1,0;7,1,5,3,1,1;7,1,5,3,1,2,0;7,1,5,3,1,2,1,0;7,1,5,3,1,2,1,1;7,2
+#### Text ####
+The Dow industrials shot up 23 points in the opening hour, at least in part because of buy programs generated by stock-index arbitrage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1159..1162
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+968..1157
+7
+#### Text ####
+The Dow industrials shot up 23 points in the opening hour, at least in part because of buy programs generated by stock-index arbitrage, a form of program trading involving futures contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1163..1288
+8,1;8,2;8,3
+#### Text ####
+interest waned as the day wore on and investors looked ahead to the release later this week of two important economic reports
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1178..1180
+8,2,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1159..1177
+8,0;8,1;8,2,0;8,3
+#### Text ####
+But interest waned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1181..1288
+8,2,1,1
+#### Text ####
+the day wore on and investors looked ahead to the release later this week of two important economic reports
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1197..1200
+8,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1159..1196
+8,0;8,1;8,2,0;8,2,1,0;8,2,1,1,0;8,3
+#### Text ####
+But interest waned as the day wore on
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1201..1288
+8,2,1,1,2
+#### Text ####
+investors looked ahead to the release later this week of two important economic reports
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1435
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1292..1346
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,1,1,2;9,2
+#### Text ####
+The first is Wednesday's survey of purchasing managers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1435..1486
+10,0;10,1,0;10,1,1,0;10,1,1,1;10,2
+#### Text ####
+The other is Friday's measure of October employment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1534
+11
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Restatement.Generalization
+____Arg1____
+1292..1532
+9;10
+#### Text ####
+The first is Wednesday's survey of purchasing managers, considered a good indicator of how the nation's manufacturing sector fared in October.
+The other is Friday's measure of October employment, an indicator of the broader economy's health
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1534..1632
+11
+#### Text ####
+Both are expected to show continued sluggishness, which would be good for bonds and bad for stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1700..1703
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1664..1698
+12,1;12,2;12,3;12,4
+#### Text ####
+Stock prices rose in light trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1704..1835
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+declining issues on the New York Stock Exchange outnumbered gainers 774 to 684, and broader market indexes were virtually unchanged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1784..1787
+13,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1700..1782
+13,0;13,1;13,2
+#### Text ####
+But declining issues on the New York Stock Exchange outnumbered gainers 774 to 684
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1788..1835
+13,4
+#### Text ####
+broader market indexes were virtually unchanged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1865
+15
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1839..1863
+14
+#### Text ####
+Bond prices crept higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1865..1980
+15
+#### Text ####
+The Treasury's benchmark 30-year bond gained about an eighth of a point, or about $1.25 for each $1,000 face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1982
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1865..1980
+15
+#### Text ####
+The Treasury's benchmark 30-year bond gained about an eighth of a point, or about $1.25 for each $1,000 face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1982..2021
+16
+#### Text ####
+The yield on the issue slipped to 7.92%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2044
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2025..2042
+17
+#### Text ####
+The dollar gained
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2044..2171
+18
+#### Text ####
+In late New York trading the dollar was quoted at 1.8340 marks and 141.90 yen, compared with 1.8300 marks and 141.65 yen Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2173
+19
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2044..2171
+18
+#### Text ####
+In late New York trading the dollar was quoted at 1.8340 marks and 141.90 yen, compared with 1.8300 marks and 141.65 yen Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2173..2329
+19
+#### Text ####
+The British pound, pressured by last week's resignations of key Thatcher administration officials, nevertheless rose Monday to $1.5820 from Friday's $1.5795
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2272..2284
+19,4
+#### Text ####
+nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Concession.Contra-expectation
+____Arg1____
+2192..2270
+19,2
+#### Text ####
+pressured by last week's resignations of key Thatcher administration officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2173..2190;2285..2329
+19,0;19,1;19,3;19,5;19,6
+#### Text ####
+The British pound rose Monday to $1.5820 from Friday's $1.5795
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

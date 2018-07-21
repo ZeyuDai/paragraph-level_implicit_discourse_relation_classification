@@ -1,0 +1,171 @@
+________________________________________________________
+____Implicit____
+277
+1
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+9..275
+0
+#### Text ####
+Freeport-McMoRan Inc. said a temporary cessation of operations at its Sunshine Bridge uranium-recovery facility in Donaldsonville, La., will result in slight earnings improvement to both the company and its Freeport-McMoRan Resource Partners Limited Partnership unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+277..305
+1
+#### Text ####
+The company didn't elaborate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+449..452
+2,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+309..357
+2,0;2,1,0;2,2
+#### Text ####
+The diversified energy and minerals concern said
+##############
+but, Comparison.Contrast
+____Arg1____
+358..447
+2,1,1,0
+#### Text ####
+that a depressed uranium market is responsible for the temporary mothballing of the plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+453..519
+2,1,1,3
+#### Text ####
+that the plant can be reactivated quickly when the market improves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+495..499
+2,1,1,3,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+309..357
+2,0;2,1,0;2,2
+#### Text ####
+The diversified energy and minerals concern said
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+449..494
+2,1,1,2;2,1,1,3,0;2,1,1,3,1,0;2,1,1,3,1,1,0;2,1,1,3,1,1,1,0;2,1,1,3,1,1,1,1,0;2,1,1,3,1,1,1,1,1;2,1,1,3,1,1,1,1,2
+#### Text ####
+but that the plant can be reactivated quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+500..519
+2,1,1,3,1,1,1,1,3,1
+#### Text ####
+the market improves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+521
+3
+____Arg1____
+309..519
+2
+#### Text ####
+The diversified energy and minerals concern said that a depressed uranium market is responsible for the temporary mothballing of the plant, but that the plant can be reactivated quickly when the market improves
+##############
+____Arg2____
+521..626
+3
+#### Text ####
+More than 400,000 pounds of uranium a year have been produced at the facility during the past seven years
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+628
+4
+____Arg1____
+521..626
+3
+#### Text ####
+More than 400,000 pounds of uranium a year have been produced at the facility during the past seven years
+##############
+____Arg2____
+628..763
+4
+#### Text ####
+A second uranium-recovery plant at Uncle Sam, La., that produces more than 700,000 pounds of uranium annually, will continue to operate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+904..907
+5,1,1,1,1,2,0
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+767..788
+5,0;5,1,0;5,2
+#### Text ####
+Freeport-McMoRan said
+##############
+but, Comparison.Contrast
+____Arg1____
+789..902
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1
+#### Text ####
+the shutdown won't affect sales volumes under long-term sales contracts of its Freeport Uranium Recovery Co. unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+908..965
+5,1,1,1,1,2,1
+#### Text ####
+will reduce the amount of product sold on the spot market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+967
+6
+____Arg1____
+767..965
+5
+#### Text ####
+Freeport-McMoRan said the shutdown won't affect sales volumes under long-term sales contracts of its Freeport Uranium Recovery Co. unit, but will reduce the amount of product sold on the spot market
+##############
+____Arg2____
+967..1073
+6
+#### Text ####
+Freeport-McMoRan Resource Partners, as owner of the uranium-recovery technology, receives royalty payments
+##############
+________________________________________________________

@@ -1,0 +1,734 @@
+________________________________________________________
+____Implicit____
+620
+3
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Equivalence
+____Arg1____
+470..531
+2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1
+#### Text ####
+the airline isn't committed to going forward with any new bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+461..469
+2,0;2,1,0;2,2
+#### Text ####
+He added
+##############
+____Arg2____
+620..676
+3
+#### Text ####
+We're in no way committed to a deal going through at all
+##############
+#### Features ####
+Ot, Comm, Null, Null
+761..768
+5,1;5,2;5,3;5,4,0;5,4,1;5,4,2;5,5
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+678
+4
+#### Features ####
+Ot, Comm, Null, Null
+761..768
+5,1;5,2;5,3;5,4,0;5,4,1;5,4,2;5,5
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+620..676
+3
+#### Text ####
+We're in no way committed to a deal going through at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+678..709
+4
+#### Text ####
+We're not rushing into anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+711
+5
+#### Features ####
+Ot, Comm, Null, Null
+761..768
+5,1;5,2;5,3;5,4,0;5,4,1;5,4,2;5,5
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+678..709
+4
+#### Text ####
+We're not rushing into anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+711..758
+5,0
+#### Text ####
+We don't want to be party to a second rejection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1196..1198
+7,1,6,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1078..1195
+7,0;7,1,0;7,1,1;7,1,2;7,1,3;7,1,4;7,1,5;7,2
+#### Text ####
+UAL fell $6.25 a share to $191.75 on volume of 2.3 million shares in composite trading on the New York Stock Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1199..1305
+7,1,6,1
+#### Text ####
+concern deepened among takeover stock traders about the length of time it will take to revive the purchase
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1490
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1309..1488
+8
+#### Text ####
+Under the original buy-out approved by the UAL board Sept. 14, UAL's pilots planned to put up $200 million in cash and make $200 million in annual cost concessions for a 75% stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1490..1579
+9
+#### Text ####
+UAL management was to pay $15 million for 10%, and British Air was to receive a 15% stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1537..1540
+9,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1490..1535
+9,0
+#### Text ####
+UAL management was to pay $15 million for 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1541..1579
+9,3
+#### Text ####
+British Air was to receive a 15% stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1608..1612
+10,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1583..1607
+10,0;10,1,0;10,1,1;10,2
+#### Text ####
+The buy-out fell through
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1613..1692
+10,1,2,1
+#### Text ####
+Citicorp and Chase Manhattan Corp. unexpectedly failed to obtain bank financing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1694..1704
+11,0
+#### Text ####
+Since then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+1583..1692
+10
+#### Text ####
+The buy-out fell through when Citicorp and Chase Manhattan Corp. unexpectedly failed to obtain bank financing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1694..1796
+11
+#### Text ####
+Since then, UAL stock has fallen 33% in what may rank as the largest collapse of a takeover stock ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1939
+13
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1854..1937
+12,1,1,1,1,1
+#### Text ####
+that British Air will take a more active, high-profile role in pursuing any new bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1800..1853
+12,0;12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,2
+#### Text ####
+The tenor of Mr. Stevens's remarks seemed to indicate
+##############
+____Arg2____
+1939..2034
+13
+#### Text ####
+He said he believes UAL management was badly advised on the funding of its original transaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2246
+15
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement
+____Arg1____
+2055..2243
+14,1,1
+#### Text ####
+British Air hasn't received any new buy-out proposals from the labor-management group, led by UAL Chairman Stephen Wolf, and hasn't received any indication of when one might be forthcoming
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2038..2054
+14,0;14,1,0;14,2
+#### Text ####
+Mr. Stevens said
+##############
+____Arg2____
+2246..2309
+15,1
+#### Text ####
+As far as we're concerned, we're waiting for the dust to settle
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2312..2319
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2323..2331
+16,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+2400..2503
+16,1;16,2;16,3;16,4
+#### Text ####
+Mr. Stevens said a revised transaction with less debt leverage is likely to be more attractive to banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2332..2398
+16,0,1
+#### Text ####
+British Air is waiting to see what the buy-out group comes up with
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2513
+17
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2417..2503
+16,3,1
+#### Text ####
+a revised transaction with less debt leverage is likely to be more attractive to banks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2400..2416
+16,1;16,2;16,3,0;16,4
+#### Text ####
+Mr. Stevens said
+##############
+____Arg2____
+2513..2742
+17,1,1
+#### Text ####
+the original proposal is dead, and all aspects of a revised version are up for change, in light of the changes in UAL's market price, the amount of debt banks are willing to fund, and the price British Air would be willing to pay
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2505..2512
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2544..2547
+17,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2505..2512
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2513..2542
+17,1,1,1,0
+#### Text ####
+the original proposal is dead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2548..2742
+17,1,1,1,3
+#### Text ####
+all aspects of a revised version are up for change, in light of the changes in UAL's market price, the amount of debt banks are willing to fund, and the price British Air would be willing to pay
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2850
+19
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+2816..2848
+18,1,2;18,1,3;18,2
+#### Text ####
+but declined to specify a figure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2850..2970
+19
+#### Text ####
+Asked whether a $230-a-share figure circulating in the market yesterday is too low, he said, "It's certainly not too low
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3030..3033
+20,1,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2975..2983
+20,0;20,1,0;20,2;20,3
+#### Text ####
+He added
+##############
+and, Expansion.Conjunction
+____Arg1____
+2984..3027
+20,1,1,0
+#### Text ####
+the original offer was "a pretty full price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3034..3097
+20,1,1,4
+#### Text ####
+that British Air's contribution "was quite a large chunk for us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3222
+21
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2984..3027
+20,1,1,0
+#### Text ####
+the original offer was "a pretty full price
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2975..2983
+20,0;20,1,0;20,2;20,3
+#### Text ####
+He added
+##############
+____Arg2____
+3222..3246
+21,1,3,3
+#### Text ####
+with paying $750 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3251..3253
+22,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3357..3364
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+he said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3320..3354
+22,1,1;22,1,2;22,1,3
+#### Text ####
+that would be a point in our favor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3254..3318
+22,1,0,1
+#### Text ####
+the {new} deal had us putting up less money but still having 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3302..3307
+22,1,0,1,1,1,1,2,0
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3357..3364
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+he said
+##############
+still, Comparison.Contrast.Juxtaposition
+____Arg1____
+3251..3297
+22,1,0,0;22,1,0,1,0;22,1,0,1,1,0;22,1,0,1,1,1,0;22,1,0,1,1,1,1,0
+#### Text ####
+If the {new} deal had us putting up less money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3298..3301;3308..3318
+22,1,0,1,1,1,1,1;22,1,0,1,1,1,1,2,1;22,1,0,1,1,1,1,2,2
+#### Text ####
+but having 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3366
+23
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3251..3354
+22,1
+#### Text ####
+If the {new} deal had us putting up less money but still having 15%, that would be a point in our favor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3357..3364
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+he said
+##############
+____Arg2____
+3366..3479
+23
+#### Text ####
+In any new proposal, British Air would expect a greater rate of return than the 20%-plus in the original proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3667
+25
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3483..3665
+24
+#### Text ####
+In the event that the buy-out group stalls in reviving its bid, the UAL board could remain under some pressure to seek another transaction, even without any legal obligation to do so
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3667..3799
+25
+#### Text ####
+Roughly one-third of its stock is believed held by takeover stock traders, who could vote to oust the board if they become impatient
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3775..3777
+25,1,1,1,1,2,1,2,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3742..3774
+25,1,1,1,1,2,1,2,0;25,1,1,1,1,2,1,2,1,0;25,1,1,1,1,2,1,2,1,1,0;25,1,1,1,1,2,1,2,1,1,1,0;25,1,1,1,1,2,1,2,1,1,1,1
+#### Text ####
+who could vote to oust the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3778..3799
+25,1,1,1,1,2,1,2,1,1,1,2,1
+#### Text ####
+they become impatient
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3803..3812
+26,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Sup1____
+3667..3799
+25
+#### Text ####
+Roughly one-third of its stock is believed held by takeover stock traders, who could vote to oust the board if they become impatient
+##############
+____Arg1____
+3483..3665
+24
+#### Text ####
+In the event that the buy-out group stalls in reviving its bid, the UAL board could remain under some pressure to seek another transaction, even without any legal obligation to do so
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3814..4059
+26,1;26,2;26,3;26,4
+#### Text ####
+the buy-out group's task of holding its fragile coalition together, in the face of the bid's collapse and internal opposition from two other employee groups, has been further complicated by an apparent rift in the ranks of the pilot union itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4206
+28
+____Arg1____
+4063..4204
+27
+#### Text ####
+A pilot representing a group of 220 pilots hired during United's 1985 strike filed suit Friday in Chicago federal court to block the takeover
+##############
+____Arg2____
+4206..4294
+28
+#### Text ####
+The dissident pilots oppose the plan because it would cause them to lose their seniority
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4243..4250
+28,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4206..4242
+28,0;28,1,0;28,1,1;28,2
+#### Text ####
+The dissident pilots oppose the plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4251..4294
+28,1,2,1
+#### Text ####
+it would cause them to lose their seniority
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4442
+30
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+4298..4440
+29
+#### Text ####
+UAL's management agreed to reduce the seniority of those pilots in exchange for the support of the United pilot union for the buy-out proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4442..4505
+30
+#### Text ####
+The 220 pilots involved in the suit aren't members of the union
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4507
+31
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+4442..4505
+30
+#### Text ####
+The 220 pilots involved in the suit aren't members of the union
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4507..4664
+31
+#### Text ####
+The airline had allowed them to move ahead of some union members in seniority following the 1985 strike, a move the union had contested in a previous lawsuit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

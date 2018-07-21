@@ -1,0 +1,929 @@
+________________________________________________________
+____Explicit____
+72..75
+1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+43..70
+1,0
+#### Text ####
+A lot of observers think so
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+77..163
+1,4
+#### Text ####
+if they're right, the whole economy as well as the spendthrifts among us could be hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+77..79
+1,4,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+72..75;95..163
+1,2;1,3;1,4,1;1,4,2;1,4,3;1,5
+#### Text ####
+and the whole economy as well as the spendthrifts among us could be hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+80..93
+1,4,0,1
+#### Text ####
+they're right
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+165
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+43..163
+1
+#### Text ####
+A lot of observers think so, and, if they're right, the whole economy as well as the spendthrifts among us could be hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+165..202;268..408
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1;2,0,1,1,3;2,1;2,2
+#### Text ####
+A sudden, forced cutback by consumers would damp the economy at a time when plant-and-equipment spending is slowing and deficit-racked governments can't readily take up the slack
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+204..266
+2,0,1,1,2
+#### Text ####
+who normally account for about two-thirds of economic activity
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+346..349
+2,1,1,2,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+291..345
+2,1,1,2,0;2,1,1,2,1,0;2,1,1,2,1,1,0;2,1,1,2,1,1,1,0
+#### Text ####
+at a time when plant-and-equipment spending is slowing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+350..408
+2,1,1,2,1,1,1,2
+#### Text ####
+deficit-racked governments can't readily take up the slack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+410..413
+3,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+165..408
+2
+#### Text ####
+A sudden, forced cutback by consumers, who normally account for about two-thirds of economic activity, would damp the economy at a time when plant-and-equipment spending is slowing and deficit-racked governments can't readily take up the slack
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+414..500
+3,1;3,2;3,3
+#### Text ####
+another wave of bad loans would further batter many already-shaky lending institutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+545
+5
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+504..543
+4
+#### Text ####
+The worriers cite some worrisome trends
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+545..787
+5
+#### Text ####
+During the almost seven-year-old economic expansion, inflation-adjusted gross national product, disposable personal income and personal consumption expenditures have risen 30%, but inflation-adjusted consumer installment credit has surged 66%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+722..725
+5,4
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+545..720
+5,0;5,1;5,2;5,3
+#### Text ####
+During the almost seven-year-old economic expansion, inflation-adjusted gross national product, disposable personal income and personal consumption expenditures have risen 30%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+726..787
+5,5
+#### Text ####
+inflation-adjusted consumer installment credit has surged 66%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+789..792
+6,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+545..787
+5
+#### Text ####
+During the almost seven-year-old economic expansion, inflation-adjusted gross national product, disposable personal income and personal consumption expenditures have risen 30%, but inflation-adjusted consumer installment credit has surged 66%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+793..918
+6,1;6,2;6,3
+#### Text ####
+the ratio of installment debt to disposable personal income -- personal income after taxes -- has hit a high of about 18 1/2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+922..929
+7,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+545..918
+5;6
+#### Text ####
+During the almost seven-year-old economic expansion, inflation-adjusted gross national product, disposable personal income and personal consumption expenditures have risen 30%, but inflation-adjusted consumer installment credit has surged 66%.
+And the ratio of installment debt to disposable personal income -- personal income after taxes -- has hit a high of about 18 1/2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+931..1024
+7,1;7,2;7,3;7,4
+#### Text ####
+these figures don't seem to worry Thomas A. Durkin, an economist at the Federal Reserve Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1026
+8
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+922..1024
+7
+#### Text ####
+However, these figures don't seem to worry Thomas A. Durkin, an economist at the Federal Reserve Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1026..1296
+8
+#### Text ####
+In a paper presented at the recent annual meeting of the National Association of Business Economists in San Francisco, Mr. Durkin comments that "installment credit always grows rapidly in cyclical advances, and growth in this cycle is very typical of earlier experiences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1233..1236
+8,3,1,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1026..1164
+8,0;8,1;8,2;8,3,0;8,4;8,5
+#### Text ####
+In a paper presented at the recent annual meeting of the National Association of Business Economists in San Francisco, Mr. Durkin comments
+##############
+and, Expansion.Conjunction
+____Arg1____
+1165..1231
+8,3,1,0;8,3,1,1;8,3,1,2,0;8,3,1,2,1
+#### Text ####
+that "installment credit always grows rapidly in cyclical advances
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1237..1296
+8,3,1,2,3
+#### Text ####
+growth in this cycle is very typical of earlier experiences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1309
+9
+#### Features ####
+Ot, Comm, Null, Null
+1299..1306
+9,0;9,1,0;9,1,1;9,1,2
+#### Text ####
+He adds
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1165..1296
+8,3,1
+#### Text ####
+that "installment credit always grows rapidly in cyclical advances, and growth in this cycle is very typical of earlier experiences
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1145..1164
+8,1;8,2;8,3,0;8,4;8,5
+#### Text ####
+Mr. Durkin comments
+##############
+____Arg2____
+1309..1397
+9,1,3
+#### Text ####
+We are now witnessing a slowdown which, if history is a guide, could persist for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1349..1351
+9,1,3,1,2,1,1,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1299..1306
+9,0;9,1,0;9,1,1;9,1,2
+#### Text ####
+He adds
+##############
+if, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+1342..1347;1372..1397
+9,1,3,1,2,1,1,0;9,1,3,1,2,1,1,1;9,1,3,1,2,1,1,2,1;9,1,3,1,2,1,1,2,2;9,1,3,1,2,1,1,2,3
+#### Text ####
+which could persist for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1370
+9,1,3,1,2,1,1,2,0,1
+#### Text ####
+history is a guide
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1402..1405
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1165..1296;1309..1397
+8,3,1;9,1,3
+#### Text ####
+that "installment credit always grows rapidly in cyclical advances, and growth in this cycle is very typical of earlier experiences We are now witnessing a slowdown which, if history is a guide, could persist for a while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1299..1306
+9,0;9,1,0;9,1,1;9,1,2
+#### Text ####
+He adds
+##############
+____Arg2____
+1406..1432
+10,1;10,2;10,3;10,4
+#### Text ####
+what about the debt burden
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1452
+11
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1402..1432
+10
+#### Text ####
+But what about the debt burden
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1452..1573
+11,1,1
+#### Text ####
+that "there is some magic level" at which the ratio of installment debt to disposable income "indicates economic problems
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+1434..1451
+11,0;11,1,0;11,2;11,3
+#### Text ####
+Mr. Durkin doubts
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1576..1579
+12,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1452..1573
+11,1,1
+#### Text ####
+that "there is some magic level" at which the ratio of installment debt to disposable income "indicates economic problems
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+1434..1451
+11,0;11,1,0;11,2;11,3
+#### Text ####
+Mr. Durkin doubts
+##############
+____Arg2____
+1582..1598;1611..1680
+12,1;12,2;12,3;12,4;12,5;12,7;12,8;12,9;12,10;12,11;12,12
+#### Text ####
+more importantly the debt burden measured other ways is not really in uncharted waters
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1601..1608
+12,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1765
+14
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1685..1763
+13
+#### Text ####
+The chart below shows why (see accompanying illustration -- WSJ Oct. 23, 1989)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1765..1933
+14
+#### Text ####
+The ratio of consumer installment credit to disposable income, though up a bit, hasn't climbed steeply, and such debt as a percent of household assets is little changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1869..1872
+14,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1765..1867
+14,0
+#### Text ####
+The ratio of consumer installment credit to disposable income, though up a bit, hasn't climbed steeply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1873..1933
+14,3
+#### Text ####
+such debt as a percent of household assets is little changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1935..1943
+15,0,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+1765..1933
+14
+#### Text ####
+The ratio of consumer installment credit to disposable income, though up a bit, hasn't climbed steeply, and such debt as a percent of household assets is little changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1945..2054
+15,0,1;15,0,2;15,0,3
+#### Text ####
+the burden of consumer credit payments relative to disposable income may be "lower in this cycle than earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2057..2072
+15,1;15,2;15,3;15,4;15,5
+#### Text ####
+Mr. Durkin says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2083
+16
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+for example, Expansion.Restatement.Specification
+____Arg1____
+1935..2054
+15,0
+#### Text ####
+Moreover, the burden of consumer credit payments relative to disposable income may be "lower in this cycle than earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2057..2072
+15,1;15,2;15,3;15,4;15,5
+#### Text ####
+Mr. Durkin says
+##############
+____Arg2____
+2083..2240
+16,1,1
+#### Text ####
+that some "revolving credit-card credit is actually convenience credit" being used simply as a handy way of paying bills rather than a handy way of borrowing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2074..2082
+16,0;16,1,0;16,2
+#### Text ####
+He notes
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2242..2253
+17,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2083..2240
+16,1,1
+#### Text ####
+that some "revolving credit-card credit is actually convenience credit" being used simply as a handy way of paying bills rather than a handy way of borrowing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2074..2082
+16,0;16,1,0;16,2
+#### Text ####
+He notes
+##############
+____Arg2____
+2265..2429
+17,1;17,3;17,4;17,5;17,6;17,7
+#### Text ####
+longer maturities on automobile and other forms of installment credit boost the stock of debt faster than the flow of repayments and the accompanying payment burden
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2255..2262
+17,2
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2434..2437
+18,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2242..2253;2265..2429
+17,0;17,1;17,3;17,4;17,5;17,6;17,7
+#### Text ####
+In addition longer maturities on automobile and other forms of installment credit boost the stock of debt faster than the flow of repayments and the accompanying payment burden
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2255..2262
+17,2
+#### Text ####
+he says
+##############
+____Arg2____
+2438..2490;2511..2663
+18,1;18,2;18,4;18,5;18,6;18,7
+#### Text ####
+if you "consider the changing distribution of credit much of the increase in debt in recent years is due to increasing credit use by higher-income families," that is, "those probably best able to handle it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2493..2508
+18,3
+#### Text ####
+Mr. Durkin says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2438..2440
+18,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2493..2508
+18,3
+#### Text ####
+Mr. Durkin says
+##############
+if, Contingency.Pragmatic condition.Relevance
+____Arg1____
+2434..2437;2511..2663
+18,0;18,2;18,4;18,5;18,6;18,7
+#### Text ####
+And much of the increase in debt in recent years is due to increasing credit use by higher-income families," that is, "those probably best able to handle it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2441..2490
+18,1,1
+#### Text ####
+you "consider the changing distribution of credit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2771..2774
+19,3,1,2,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2705..2713
+19,1;19,2;19,3,0;19,4;19,5
+#### Text ####
+he notes
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2714..2769
+19,3,1,0;19,3,1,1;19,3,1,2,0;19,3,1,2,1
+#### Text ####
+that "11% of homeowners had home-equity credit accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2775..2900
+19,3,1,2,3
+#### Text ####
+the proportion rises to 16% of homeowners in the $45,000-$60,000 income range and 23% of homeowners with income above $60,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2903..2906
+20,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2668..2900
+19
+#### Text ####
+Citing figures on home-equity loans, he notes that "11% of homeowners had home-equity credit accounts, but the proportion rises to 16% of homeowners in the $45,000-$60,000 income range and 23% of homeowners with income above $60,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2907..2953
+20,1;20,2;20,3
+#### Text ####
+much home-equity credit is used conservatively
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2956
+21
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2903..2953
+20
+#### Text ####
+And much home-equity credit is used conservatively
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2956..3050
+21,1
+#### Text ####
+The most frequent use is home improvement, which presumably improves the value of the property
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3053..3068
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+Mr. Durkin says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3072..3074
+22,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Sup1____
+2956..3050
+21,1
+#### Text ####
+The most frequent use is home improvement, which presumably improves the value of the property
+##############
+____Arg1____
+2714..2953
+19,3,1;20
+#### Text ####
+that "11% of homeowners had home-equity credit accounts, but the proportion rises to 16% of homeowners in the $45,000-$60,000 income range and 23% of homeowners with income above $60,000." And much home-equity credit is used conservatively
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2705..2713
+19,1;19,2;19,3,0;19,4;19,5
+#### Text ####
+he notes
+##############
+____Arg2____
+3076..3258
+22,1;22,2;22,3;22,4
+#### Text ####
+it isn't surprising that consumer-credit delinquencies at banks remain, as the chart shows, reassuringly below some earlier highs (see accompanying illustration -- WSJ Oct. 23, 1989)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3324..3327
+23,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3262..3322
+23,0
+#### Text ####
+A severe recession could, of course, raise delinquency rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3328..3407
+23,3
+#### Text ####
+so far the current levels of consumer debt don't seem to loom as a major threat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3409..3416
+24,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3324..3407
+23,2;23,3;23,4
+#### Text ####
+but so far the current levels of consumer debt don't seem to loom as a major threat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3418..3632
+24,1;24,2;24,3;24,4
+#### Text ####
+the current weakness in auto buying and department-store sales and the gradual upturn in the household saving rate suggest that consumers, conservative as ever, are already clutching their purses a bit more tightly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3634
+25
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3541..3632
+24,3,1
+#### Text ####
+that consumers, conservative as ever, are already clutching their purses a bit more tightly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3409..3540
+24,0;24,1;24,2;24,3,0;24,4
+#### Text ####
+In fact, the current weakness in auto buying and department-store sales and the gradual upturn in the household saving rate suggest
+##############
+____Arg2____
+3634..3725
+25
+#### Text ####
+In July, consumer installment credit outstanding fell for the first time since January 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3861..3872
+27,1
+#### Text ####
+As a result
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3810..3858
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+Bruce Steinberg, a Merrill Lynch economist, says
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+3730..3807
+26,1
+#### Text ####
+Consumers appear unwilling to add to their leverage to support their spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3874..3935
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+household debt appears to be stabilizing at around 63% of GNP
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

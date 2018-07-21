@@ -1,0 +1,1235 @@
+________________________________________________________
+____Explicit____
+404..415
+2,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+228..402
+1
+#### Text ####
+Many plant floors currently resemble a Tower of Babel, with computers, robots and machine tools that generally speak their own language and have trouble talking to each other
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+417..590
+2,1;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+if a problem develops on a production line, it is unlikely some supervisor sitting in front of a personal computer or workstation will know about it or be able to correct it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+417..419
+2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+404..415;461..590
+2,0;2,1;2,3;2,4;2,5;2,6
+#### Text ####
+As a result it is unlikely some supervisor sitting in front of a personal computer or workstation will know about it or be able to correct it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+420..459
+2,2,1
+#### Text ####
+a problem develops on a production line
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+594..596
+3,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Sup1____
+404..590
+2
+#### Text ####
+As a result, if a problem develops on a production line, it is unlikely some supervisor sitting in front of a personal computer or workstation will know about it or be able to correct it
+##############
+____Arg1____
+228..402
+1
+#### Text ####
+Many plant floors currently resemble a Tower of Babel, with computers, robots and machine tools that generally speak their own language and have trouble talking to each other
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+597..756
+3,1;3,2;3,3
+#### Text ####
+IBM will be announcing more than 50 products that will be aimed at letting even the dumbest machine tool talk to the smartest mainframe, or anything in between
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+758
+4
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+594..756
+3
+#### Text ####
+So IBM will be announcing more than 50 products that will be aimed at letting even the dumbest machine tool talk to the smartest mainframe, or anything in between
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+758..908
+4
+#### Text ####
+In an unusual display of openness, IBM also will be helping customers tie together operations that include lots of equipment made by IBM's competitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+797..801
+4,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+642..756
+3,2,1,1,1,1
+#### Text ####
+that will be aimed at letting even the dumbest machine tool talk to the smartest mainframe, or anything in between
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+758..796;802..908
+4,0;4,1;4,2;4,4;4,5
+#### Text ####
+In an unusual display of openness, IBM will be helping customers tie together operations that include lots of equipment made by IBM's competitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+912..923
+5,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+594..908
+3;4
+#### Text ####
+So IBM will be announcing more than 50 products that will be aimed at letting even the dumbest machine tool talk to the smartest mainframe, or anything in between.
+In an unusual display of openness, IBM also will be helping customers tie together operations that include lots of equipment made by IBM's competitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+945..1151
+5,3,1
+#### Text ####
+IBM will be offering programming tools designed to let anyone working on a factory floor write ad-hoc software, for instance, to do statistical analysis that would pinpoint a problem on a manufacturing line
+##############
+#### Features ####
+Ot, Comm, Null, Null
+925..944
+5,1;5,2;5,3,0;5,4
+#### Text ####
+the executives said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1457..1459
+8,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1353..1455
+7,1,1
+#### Text ####
+that, as usual with such broad announcements from IBM, this one will be part reality and part strategy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1324..1352
+7,0;7,1,0;7,2
+#### Text ####
+The industry executives said
+##############
+____Arg2____
+1460..1543
+8,1
+#### Text ####
+it will take many quarters for IBM to roll out all the products that customers need
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1545..1629
+8,3;8,4;8,5
+#### Text ####
+and it will take years for customers to integrate the products into their operations
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1545..1548
+8,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1457..1543
+8,0;8,1;8,2
+#### Text ####
+So it will take many quarters for IBM to roll out all the products that customers need
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1549..1629
+8,4
+#### Text ####
+it will take years for customers to integrate the products into their operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1631..1635
+9,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1457..1629
+8
+#### Text ####
+So it will take many quarters for IBM to roll out all the products that customers need, and it will take years for customers to integrate the products into their operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1636..1729
+9,1;9,2;9,3;9,4;9,5
+#### Text ####
+as usual, the products will appeal mostly to heavy users of IBM equipment, at least initially
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1733..1738
+10,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast.Juxtaposition
+____Arg1____
+1457..1729
+8;9
+#### Text ####
+So it will take many quarters for IBM to roll out all the products that customers need, and it will take years for customers to integrate the products into their operations.
+Also as usual, the products will appeal mostly to heavy users of IBM equipment, at least initially
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1740..2009
+10,1;10,2;10,3;10,4
+#### Text ####
+consultants and industry executives said the products could help make manufacturing operations more efficient, and provide a boost to the computer-integrated-manufacturing market -- a market that Yankee Group, a research firm, has said may double to $40 billion by 1993
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2113..2119
+12,1,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+2014..2051
+11,1
+#### Text ####
+This is a step in the right direction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2054..2101
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+said Martin Piszczalski, a Yankee Group analyst
+##############
+____Arg2____
+2121..2154
+12,1,4
+#### Text ####
+that "a lot of this is intentions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2103..2111
+12,0;12,1,0;12,1,1;12,1,3;12,2;12,3
+#### Text ####
+He added
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2162
+13
+#### Features ####
+Ot, Comm, Null, Null
+2103..2119
+12,0;12,1,0;12,1,1;12,1,2;12,1,3;12,2;12,3
+#### Text ####
+He added, though
+##############
+ultimately, Expansion.Restatement
+____Arg1____
+2121..2154
+12,1,4
+#### Text ####
+that "a lot of this is intentions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2162..2211
+13
+#### Text ####
+We'll have to wait and see" how the plan develops
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2233..2237
+14,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1781..2009
+10,3,1
+#### Text ####
+the products could help make manufacturing operations more efficient, and provide a boost to the computer-integrated-manufacturing market -- a market that Yankee Group, a research firm, has said may double to $40 billion by 1993
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1740..1780
+10,1;10,2;10,3,0;10,4
+#### Text ####
+consultants and industry executives said
+##############
+____Arg2____
+2215..2232;2238..2324
+14,0;14,2;14,3
+#### Text ####
+The announcements should help IBM go on the offensive against Digital Equipment Corp. on the plant floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2326
+15
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2215..2324
+14
+#### Text ####
+The announcements also should help IBM go on the offensive against Digital Equipment Corp. on the plant floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2326..2536
+15
+#### Text ####
+While IBM has traditionally dominated the market for computers on the business side of manufacturing operations and has done well in the market for design tools, Digital has dominated computerized manufacturing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2326..2331
+15,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2488..2536
+15,1;15,2;15,3;15,4
+#### Text ####
+Digital has dominated computerized manufacturing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2332..2486
+15,0,1
+#### Text ####
+IBM has traditionally dominated the market for computers on the business side of manufacturing operations and has done well in the market for design tools
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2538
+16
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+2326..2536
+15
+#### Text ####
+While IBM has traditionally dominated the market for computers on the business side of manufacturing operations and has done well in the market for design tools, Digital has dominated computerized manufacturing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2538..2639
+16
+#### Text ####
+Hewlett-Packard Co. also has begun to gain share in the whole computer-integrated-manufacturing arena
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2558..2562
+16,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2488..2536
+15,1;15,2;15,3;15,4
+#### Text ####
+Digital has dominated computerized manufacturing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2538..2556;2563..2639
+16,0;16,2;16,3
+#### Text ####
+Hewlett-Packard Co has begun to gain share in the whole computer-integrated-manufacturing arena
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2799..2810
+18,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2643..2797
+17
+#### Text ####
+IBM will face an uphill climb against Digital, given Digital's reputation for being better than IBM at hooking together different manufacturers' computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2812..2981
+18,1;18,2;18,3;18,4;18,5;18,6;18,7
+#### Text ####
+Hewlett-Packard, while a much smaller player, has made a big commitment to the sorts of industry standards that facilitate those hookups and could give IBM some problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2829..2834
+18,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+2799..2827;2858..2981
+18,0;18,1;18,2;18,3;18,5;18,6;18,7
+#### Text ####
+In addition, Hewlett-Packard has made a big commitment to the sorts of industry standards that facilitate those hookups and could give IBM some problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2835..2856
+18,4,1
+#### Text ####
+a much smaller player
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2983
+19
+____Arg1____
+2799..2981
+18
+#### Text ####
+In addition, Hewlett-Packard, while a much smaller player, has made a big commitment to the sorts of industry standards that facilitate those hookups and could give IBM some problems
+##############
+____Arg2____
+2983..3183
+19
+#### Text ####
+Both can be expected to go after the market aggressively: Gartner Group Inc., a research firm, estimated the Digital gets 30% of its revenue from the manufacturing market, and Hewlett-Packard gets 50%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3088
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2983..3039
+19,0
+#### Text ####
+Both can be expected to go after the market aggressively
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3088..3183
+19,2,1,1
+#### Text ####
+the Digital gets 30% of its revenue from the manufacturing market, and Hewlett-Packard gets 50%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3041..3087
+19,2,0;19,2,1,0
+#### Text ####
+Gartner Group Inc., a research firm, estimated
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3155..3158
+19,2,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3041..3087
+19,2,0;19,2,1,0
+#### Text ####
+Gartner Group Inc., a research firm, estimated
+##############
+and, Expansion.Conjunction
+____Arg1____
+3088..3153
+19,2,1,1,1,0
+#### Text ####
+the Digital gets 30% of its revenue from the manufacturing market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3159..3183
+19,2,1,1,1,3
+#### Text ####
+Hewlett-Packard gets 50%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3345..3360
+21,0;21,1,0;21,1,1,0
+#### Text ####
+That is because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+3187..3190;3262..3343
+20,0,0;20,0,1;20,0,3;20,1;20,2
+#### Text ####
+IBM should be able to take advantage of its loyal following among buyers of equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3345..3477
+21,0;21,1,0;21,1,1,0;21,1,1,1,0;21,1,1,1,1;21,2
+#### Text ####
+That is because many companies will standardize on certain types of equipment as the various parts of the manufacturing market merge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3353..3360
+21,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3345..3352
+21,0;21,1,0;21,2
+#### Text ####
+That is
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3361..3508
+21,1,1,1
+#### Text ####
+many companies will standardize on certain types of equipment as the various parts of the manufacturing market merge, and IBM is the biggest player
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3423..3425
+21,1,1,1,0,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3353..3422
+21,1,1,0;21,1,1,1,0,0;21,1,1,1,0,1,0;21,1,1,1,0,1,1,0;21,1,1,1,0,1,1,1
+#### Text ####
+because many companies will standardize on certain types of equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3426..3477
+21,1,1,1,0,1,1,2,1
+#### Text ####
+the various parts of the manufacturing market merge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3479..3482
+21,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3353..3477
+21,1,1,0;21,1,1,1,0;21,1,1,1,1
+#### Text ####
+because many companies will standardize on certain types of equipment as the various parts of the manufacturing market merge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3483..3508
+21,1,1,1,3
+#### Text ####
+IBM is the biggest player
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3510..3513
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3187..3190;3262..3343
+20,0,0;20,0,1;20,0,3;20,1;20,2
+#### Text ####
+IBM should be able to take advantage of its loyal following among buyers of equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3514..3558
+22,1;22,2;22,3
+#### Text ####
+much will depend on how quickly IBM can move
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3650..3655
+23,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3562..3649
+23,0;23,1,0;23,1,1;23,2
+#### Text ####
+The whole idea of computer-integrated manufacturing, CIM, seems to be making a comeback
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3656..3708
+23,1,2,1,0;23,1,2,1,1,0;23,1,2,1,1,1;23,1,2,1,1,2,0;23,1,2,1,1,2,1,0;23,1,2,1,1,2,1,1
+#### Text ####
+losing a little luster over the past couple of years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4093..4105
+24,2,1,0,2,3
+#### Text ####
+for instance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3835..3877
+24,0,0;24,0,1,0
+#### Text ####
+Erik Keller, a Gartner Group analyst, said
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+3878..3969
+24,0,1,1
+#### Text ####
+organizational changes may still be required to really take advantage of CIM's capabilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3973..4091;4107..4153
+24,2,0;24,2,1,0,0;24,2,1,0,1;24,2,1,0,2,0;24,2,1,0,2,1;24,2,1,0,2,2;24,2,1,0,2,4;24,2,1,1;24,2,1,2
+#### Text ####
+someone on the shop floor may not like having someone in an office using a personal computer to look over his shoulder and may be able to prevent that from happening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4155..4158
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+3973..4153
+24,2
+#### Text ####
+someone on the shop floor may not like having someone in an office using a personal computer to look over his shoulder, for instance, and may be able to prevent that from happening
+##############
+____Arg1____
+3878..3969
+24,0,1,1
+#### Text ####
+organizational changes may still be required to really take advantage of CIM's capabilities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3835..3877
+24,0,0;24,0,1,0
+#### Text ####
+Erik Keller, a Gartner Group analyst, said
+##############
+____Arg2____
+4167..4215
+25,2,1
+#### Text ####
+a system such as IBM's should help significantly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4159..4166
+25,1;25,2,0;25,3
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4271..4283
+26,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4167..4215
+25,2,1
+#### Text ####
+a system such as IBM's should help significantly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4159..4166
+25,1;25,2,0;25,3
+#### Text ####
+he said
+##############
+____Arg2____
+4219..4269;4285..4494;4495..4498;4521..4630
+26,0;26,1;26,3;26,4;26,5;26,6;26,7;27;28,0;28,2,1,2;28,3
+#### Text ####
+In making polyethylene sheets out of plastic chips a chip sometimes doesn't melt, gets caught in the machinery and creates a run in the sheets.
+That can be expensive, because the problem may not be noticed for a while, and the sheets are typically thrown away. But if computers can be integrated into the process, they could alert an operator as soon as the problem occurred
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4499..4519
+28,1;28,2,0;28,2,1,0;28,2,1,1;28,3
+#### Text ####
+Mr. Keller said that
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4378
+27
+____Arg1____
+4219..4376
+26
+#### Text ####
+In making polyethylene sheets out of plastic chips, for instance, a chip sometimes doesn't melt, gets caught in the machinery and creates a run in the sheets
+##############
+____Arg2____
+4378..4493
+27
+#### Text ####
+That can be expensive, because the problem may not be noticed for a while, and the sheets are typically thrown away
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4401..4408
+27,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4378..4399
+27,0;27,1,0;27,1,1,0;27,1,1,1;27,1,1,2;27,2
+#### Text ####
+That can be expensive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4409..4493
+27,1,1,3,1
+#### Text ####
+the problem may not be noticed for a while, and the sheets are typically thrown away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4453..4456
+27,1,1,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4401..4451
+27,1,1,3,0;27,1,1,3,1,0;27,1,1,3,1,1
+#### Text ####
+because the problem may not be noticed for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4457..4493
+27,1,1,3,1,3
+#### Text ####
+the sheets are typically thrown away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4495..4498
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4401..4451
+27,1,1,3,0;27,1,1,3,1,0;27,1,1,3,1,1
+#### Text ####
+because the problem may not be noticed for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4515..4630
+28,2,1
+#### Text ####
+that, if computers can be integrated into the process, they could alert an operator as soon as the problem occurred
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4499..4514
+28,1;28,2,0;28,3
+#### Text ####
+Mr. Keller said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4521..4523
+28,2,1,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4499..4514
+28,1;28,2,0;28,3
+#### Text ####
+Mr. Keller said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4515..4519;4570..4630
+28,2,1,0;28,2,1,1;28,2,1,2,1;28,2,1,2,2;28,2,1,2,3
+#### Text ####
+that they could alert an operator as soon as the problem occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4524..4568
+28,2,1,2,0,1
+#### Text ####
+computers can be integrated into the process
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4599..4609
+28,2,1,2,3,1,2,0;28,2,1,2,3,1,2,1,0
+#### Text ####
+as soon as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4499..4514
+28,1;28,2,0;28,3
+#### Text ####
+Mr. Keller said
+##############
+as soon as, Temporal.Asynchronous.Succession
+____Arg1____
+4515..4598
+28,2,1,0;28,2,1,1;28,2,1,2,0;28,2,1,2,1;28,2,1,2,2;28,2,1,2,3,0;28,2,1,2,3,1,0;28,2,1,2,3,1,1
+#### Text ####
+that, if computers can be integrated into the process, they could alert an operator
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4610..4630
+28,2,1,2,3,1,2,1,1
+#### Text ####
+the problem occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4643..4647
+29,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4499..4514
+28,1;28,2,0;28,3
+#### Text ####
+Mr. Keller said
+##############
+also, Expansion.Conjunction
+____Arg1____
+4515..4630
+28,2,1
+#### Text ####
+that, if computers can be integrated into the process, they could alert an operator as soon as the problem occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4632..4642;4648..4756
+29,0;29,1,0;29,1,2;29,2
+#### Text ####
+They could check through the orders on file to find a customer that was willing to accept a lower grade of polyethylene
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4758
+30
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4632..4756
+29
+#### Text ####
+They could also check through the orders on file to find a customer that was willing to accept a lower grade of polyethylene
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4758..4829
+30,0;30,1,0;30,1,1,0;30,1,1,1;30,1,1,2;30,1,1,3;30,2
+#### Text ####
+The computer would let the machine run just until that order was filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4797..4807
+30,1,1,2,0;30,1,1,2,1
+#### Text ####
+just until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Expansion.Alternative.Disjunctive
+____Arg1____
+4758..4796
+30,0;30,1,0;30,1,1,0;30,1,1,1;30,1,1,3;30,2
+#### Text ####
+The computer would let the machine run
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4808..4829
+30,1,1,2,2
+#### Text ####
+that order was filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5000..5012
+32,1,1,1,1,1,1,4
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4852..4947
+31
+#### Text ####
+This sort of improved link figures to eventually become a significant weapon for some companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4949..4998;5014..5101
+32,0;32,1,0;32,1,1,0;32,1,1,1,0;32,1,1,1,1,0;32,1,1,1,1,1,0;32,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1;32,1,1,1,1,1,1,2;32,1,1,1,1,1,1,3;32,1,1,1,1,1,1,5;32,1,1,1,1,1,1,6;32,1,1,1,1,1,1,7;32,1,1,1,1,1,1,8;32,2
+#### Text ####
+Companies might be able to tell salespeople daily about idle equipment, so they could offer discounts on whatever that equipment produces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5036..5038
+32,1,1,1,1,1,1,8,0
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4973..5034
+32,1,1,1,1,0;32,1,1,1,1,1,0;32,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1;32,1,1,1,1,1,1,2;32,1,1,1,1,1,1,3;32,1,1,1,1,1,1,4;32,1,1,1,1,1,1,5;32,1,1,1,1,1,1,6;32,1,1,1,1,1,1,7
+#### Text ####
+to tell salespeople daily, for instance, about idle equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5039..5101
+32,1,1,1,1,1,1,8,1
+#### Text ####
+they could offer discounts on whatever that equipment produces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5115..5119
+33,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+5036..5101
+32,1,1,1,1,1,1,8
+#### Text ####
+so they could offer discounts on whatever that equipment produces
+##############
+____Arg1____
+4949..5034
+32,0;32,1,0;32,1,1,0;32,1,1,1,0;32,1,1,1,1,0;32,1,1,1,1,1,0;32,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1;32,1,1,1,1,1,1,2;32,1,1,1,1,1,1,3;32,1,1,1,1,1,1,4;32,1,1,1,1,1,1,5;32,1,1,1,1,1,1,6;32,1,1,1,1,1,1,7;32,2
+#### Text ####
+Companies might be able to tell salespeople daily, for instance, about idle equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5103..5114;5120..5311
+33,0;33,2;33,3
+#### Text ####
+Salespeople could get a precise reading on when products could be delivered -- in much the same way that Federal Express has marketed its ability to tell exactly where a package is in the delivery system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

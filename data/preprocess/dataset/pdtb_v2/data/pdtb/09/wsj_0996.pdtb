@@ -1,0 +1,1276 @@
+________________________________________________________
+____Explicit____
+128..134
+1,2,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+41..126;153..203
+1,0;1,1;1,2,0;1,2,1;1,2,3;1,2,4;1,3;1,5
+#### Text ####
+Every Bill which shall have passed the House of Representatives and the Senate, shall be presented to the President of the United States
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+135..151
+1,2,2,1
+#### Text ####
+it becomes a Law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+205
+1
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+41..203
+1,0;1,1;1,2;1,3;1,5
+#### Text ####
+Every Bill which shall have passed the House of Representatives and the Senate, shall, before it becomes a Law, be presented to the President of the United States
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+205..235
+1,4,0
+#### Text ####
+If he approve he shall sign it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+205..207
+1,4,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+219..235
+1,4,0,1;1,4,0,2
+#### Text ####
+he shall sign it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+208..218
+1,4,0,0,1
+#### Text ####
+he approve
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+237..240
+1,4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+205..235
+1,4,0
+#### Text ####
+If he approve he shall sign it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+241..423
+1,4,3
+#### Text ####
+if not he shall return it, with his Objections to that House in which it shall have originated, who shall enter the Objections at large on their Journal, and proceed to reconsider it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+425..427
+2,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+510..620
+2,0,1;2,0,2;2,0,3
+#### Text ####
+it shall be sent, together with the Objections, to the other House, by which it shall likewise be reconsidered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+428..508
+2,0,0,1
+#### Text ####
+after such Reconsideration two thirds of that House shall agree to pass the Bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+428..454
+2,0,0,1,0
+#### Text ####
+after such Reconsideration
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+407..423
+1,4,3,2,1,4,1,3,1,1,1,3,1
+#### Text ####
+to reconsider it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+425..576
+2,0,0;2,0,1;2,0,2;2,0,3,0;2,0,3,1,0;2,0,3,1,1,0;2,0,3,1,1,1;2,0,3,1,1,2;2,0,3,1,1,3;2,0,3,1,1,4;2,0,3,1,1,5,0;2,0,3,1,1,5,1,0;2,0,3,1,1,5,1,1
+#### Text ####
+If after such Reconsideration two thirds of that House shall agree to pass the Bill, it shall be sent, together with the Objections, to the other House
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+596..604
+2,0,3,1,1,5,1,2,1,1,1
+#### Text ####
+likewise
+##############
+#### Features ####
+Wr, Comm, Null, Null
+likewise, Expansion.Conjunction
+____Arg1____
+407..423
+1,4,3,2,1,4,1,3,1,1,1,3,1
+#### Text ####
+to reconsider it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+578..595;605..620
+2,0,3,1,1,5,1,2,0;2,0,3,1,1,5,1,2,1,0;2,0,3,1,1,5,1,2,1,1,0;2,0,3,1,1,5,1,2,1,1,2
+#### Text ####
+by which it shall be reconsidered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+622..625
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+425..620
+2,0
+#### Text ####
+If after such Reconsideration two thirds of that House shall agree to pass the Bill, it shall be sent, together with the Objections, to the other House, by which it shall likewise be reconsidered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+626..688
+2,3
+#### Text ####
+if approved by two thirds of that House, it shall become a Law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+626..628
+2,3,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+622..625;667..688
+2,2;2,3,1;2,3,2;2,3,3;2,4;2,5
+#### Text ####
+and it shall become a Law
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+629..665
+2,3,0,1
+#### Text ####
+approved by two thirds of that House
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+948..954
+4,1,3,0,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+944..947;983..1007
+4,1,2;4,1,3,1;4,1,3,2;4,1,3,3
+#### Text ####
+and shall be approved by him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+955..981
+4,1,3,0,1
+#### Text ####
+the Same shall take Effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1330
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1189..1328
+5
+#### Text ####
+President Bush told reporters a few months ago that he was looking for the right test case to see whether he already has the line-item veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1330..1418
+6
+#### Text ####
+Vice President Quayle and Budget Director Darman said recently they've joined the search
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1420
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1330..1418
+6
+#### Text ####
+Vice President Quayle and Budget Director Darman said recently they've joined the search
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1420..1578
+7
+#### Text ####
+On Tuesday, the subject came up again when Marlin Fitzwater explained the constitutional argument based on the provisions above to the White House press corps
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1458..1462
+7,3,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+1420..1457
+7,0;7,1;7,2;7,3,0;7,3,1;7,3,2;7,4
+#### Text ####
+On Tuesday, the subject came up again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1463..1578
+7,3,3,1
+#### Text ####
+Marlin Fitzwater explained the constitutional argument based on the provisions above to the White House press corps
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1633..1636
+8,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1582..1631
+8,0
+#### Text ####
+President Bush doesn't have any provision in mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1637..1728
+8,3
+#### Text ####
+line-item-veto bait will be like earthworms at midnight in the coming Continuing Resolution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1730
+9
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1633..1728
+8,2;8,3;8,4
+#### Text ####
+but line-item-veto bait will be like earthworms at midnight in the coming Continuing Resolution
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1730..1886
+9
+#### Text ####
+The harder question is whether anyone yet understands that Mr. Bush's fight for his constitutional prerogatives is about politics as much as it is about law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2050
+11
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+1988..2048
+10,1,1,1,3,1,2
+#### Text ####
+when lawyer Stephen Glazier first made the case on this page
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2050..2230
+11
+#### Text ####
+The 1974 budget "reform," passed over President Nixon's veto, took away the presidential impoundment power, thereby introducing monstrous CRs and eviscerating the presidential veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2158..2165
+11,5,4,1
+#### Text ####
+thereby
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thereby, Contingency.Cause.Result
+____Arg1____
+2050..2156
+11,0;11,1;11,2;11,3;11,4;11,5,0;11,5,1;11,5,2;11,5,3;11,6
+#### Text ####
+The 1974 budget "reform," passed over President Nixon's veto, took away the presidential impoundment power
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2166..2230
+11,5,4,0;11,5,4,2
+#### Text ####
+introducing monstrous CRs and eviscerating the presidential veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2343
+13
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+2257..2341
+12,1,1
+#### Text ####
+that the Founders had worried that Congress might take the President out of the loop
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+2234..2256
+12,0;12,1,0;12,2
+#### Text ####
+Mr. Glazier discovered
+##############
+____Arg2____
+2343..2492
+13
+#### Text ####
+Article I, Section 7, Clause 3 says that whether it's called an "order, resolution or vote" or anything else, Presidents must have the chance to veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2494
+14
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+2343..2492
+13
+#### Text ####
+Article I, Section 7, Clause 3 says that whether it's called an "order, resolution or vote" or anything else, Presidents must have the chance to veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2494..2584
+14
+#### Text ####
+Labeling an omnibus budget a "bill" can't deprive the President of his power to veto items
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2627..2630
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2588..2625
+15,0
+#### Text ####
+Finding a test case shouldn't be hard
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2631..2694
+15,3
+#### Text ####
+there is something to be said for picking the best one possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2696
+16
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+for example, Expansion.Instantiation
+____Arg1____
+2627..2694
+15,2;15,3;15,4
+#### Text ####
+but there is something to be said for picking the best one possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2696..2782
+16
+#### Text ####
+The White House had the perfect case, but Congress blinked before it could go to court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2734..2737
+16,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+2696..2732
+16,0
+#### Text ####
+The White House had the perfect case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2738..2782
+16,3
+#### Text ####
+Congress blinked before it could go to court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2755..2761
+16,3,1,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2734..2754
+16,2;16,3,0;16,3,1,0;16,4
+#### Text ####
+but Congress blinked
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2762..2782
+16,3,1,1,1
+#### Text ####
+it could go to court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2784
+17
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2734..2782
+16,2;16,3;16,4
+#### Text ####
+but Congress blinked before it could go to court
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2784..2962
+17
+#### Text ####
+After the HUD and S&L stories broke, some Congressmen began to worry that their influence peddling at executive-branch and independent agencies might some day get them in trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2784..2789
+17,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+2821..2962
+17,1;17,2;17,3;17,4
+#### Text ####
+some Congressmen began to worry that their influence peddling at executive-branch and independent agencies might some day get them in trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2790..2819
+17,0,1
+#### Text ####
+the HUD and S&L stories broke
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2964
+18
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2784..2962
+17
+#### Text ####
+After the HUD and S&L stories broke, some Congressmen began to worry that their influence peddling at executive-branch and independent agencies might some day get them in trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2964..3070
+18
+#### Text ####
+They worried about an Interior Department directive to log all communications with Members or their staffs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3072
+19
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+2784..2962
+17
+#### Text ####
+After the HUD and S&L stories broke, some Congressmen began to worry that their influence peddling at executive-branch and independent agencies might some day get them in trouble
+##############
+____Arg1____
+2964..3070
+18
+#### Text ####
+They worried about an Interior Department directive to log all communications with Members or their staffs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3072..3327
+19
+#### Text ####
+Congress inserted the following into the Interior appropriation: "None of the funds available under this title may be used to prepare reports on contacts between employees of the Dept. of the Interior and Members and committees of Congress and their staff
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3419
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3332..3417
+20
+#### Text ####
+The White House warned that this would be an unconstitutional usurpation of its power
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3419..3508
+21
+#### Text ####
+When it threatened to use this provision as the test for a line-item veto, Congress caved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3419..3423
+21,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+3494..3508
+21,1;21,2;21,3;21,4
+#### Text ####
+Congress caved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3424..3492
+21,0,1
+#### Text ####
+it threatened to use this provision as the test for a line-item veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3510
+22
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Restatement.Specification
+____Arg1____
+3419..3508
+21
+#### Text ####
+When it threatened to use this provision as the test for a line-item veto, Congress caved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3510..3693
+22
+#### Text ####
+The fear Congress has of any line-item-veto test led Members to add the single most contorted and ridiculous provision this year, "This section shall be effective only on Oct. 1, 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3696..3706
+23,0;23,1,0
+#### Text ####
+This means
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+3641..3693
+22,1,1,1,1,1,3
+#### Text ####
+This section shall be effective only on Oct. 1, 1989
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3563..3638
+22,1,1,0;22,1,1,1,0;22,1,1,1,1,0;22,1,1,1,1,1,0;22,1,1,1,1,1,1;22,1,1,1,1,1,2
+#### Text ####
+Members to add the single most contorted and ridiculous provision this year
+##############
+____Arg2____
+3696..3793
+23
+#### Text ####
+This means Interior contacts cannot be logged only on one day -- a Sunday that had already passed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3797..3799
+24,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Pragmatic condition.Relevance
+____Arg1____
+3862..3940
+24,1;24,2;24,3;24,4
+#### Text ####
+Rep. John Dingell is trying again to raise the Fairness Doctrine from the dead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3800..3860
+24,0,1
+#### Text ####
+the White House is looking for another unconstitutional bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3942
+25
+____Arg1____
+3797..3940
+24
+#### Text ####
+If the White House is looking for another unconstitutional bill, Rep. John Dingell is trying again to raise the Fairness Doctrine from the dead
+##############
+____Arg2____
+3942..4001
+25
+#### Text ####
+President Reagan vetoed this as a First Amendment violation
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4003
+26
+____Arg1____
+3942..4001
+25
+#### Text ####
+President Reagan vetoed this as a First Amendment violation
+##############
+____Arg2____
+4003..4158
+26
+#### Text ####
+The "Fairness" Doctrine's enthusiasts are incumbents in the House who know the rules squelch lively discussions on broadcasts, deterring feisty challengers
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4170..4174
+27,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4078..4158
+26,1,1,2,1,1,1
+#### Text ####
+the rules squelch lively discussions on broadcasts, deterring feisty challengers
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4069..4077
+26,1,1,2,0;26,1,1,2,1,0;26,1,1,2,1,1,0
+#### Text ####
+who know
+##############
+____Arg2____
+4160..4169;4175..4274
+27,0;27,1,0;27,1,2;27,2
+#### Text ####
+There are other provisions requiring Congressmen to join treaty-negotiating teams and new restrictions on OMB
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4326..4329
+28,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+4278..4324
+28,0
+#### Text ####
+Unconstitutional bills make good legal targets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4330..4428
+28,3
+#### Text ####
+the line-item veto is better understood as a political opportunity than as mere fodder for lawyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4430
+29
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+4326..4428
+28,2;28,3;28,4
+#### Text ####
+but the line-item veto is better understood as a political opportunity than as mere fodder for lawyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4430..4552
+29
+#### Text ####
+Commenting on the budget mess this week, President Bush said: "The perception out there is that it's the fault of Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4554..4557
+30,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4430..4490
+29,0;29,1;29,2;29,3,0;29,3,1;29,3,2;29,4
+#### Text ####
+Commenting on the budget mess this week, President Bush said
+##############
+and, Expansion.Conjunction
+____Arg1____
+4493..4552
+29,3,3
+#### Text ####
+The perception out there is that it's the fault of Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4558..4651
+30,1;30,2;30,3;30,4
+#### Text ####
+you can look to the leadership and ask them why that is the perception of the American people
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4654
+31
+____Arg1____
+4554..4651
+30
+#### Text ####
+And you can look to the leadership and ask them why that is the perception of the American people
+##############
+____Arg2____
+4654..4667
+31
+#### Text ####
+Exactly right
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4669
+32
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Sup1____
+4554..4651
+30
+#### Text ####
+And you can look to the leadership and ask them why that is the perception of the American people
+##############
+____Arg1____
+4654..4667
+31
+#### Text ####
+Exactly right
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4669..4788
+32
+#### Text ####
+Now's the time to make the political case that Presidents need the line-item weapon to restore discipline to the budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4838..4846
+33,1,2,0;33,1,2,1,0
+#### Text ####
+now that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+now that, Contingency.Cause.Reason
+____Arg1____
+4792..4837
+33,0;33,1,0;33,1,1;33,2
+#### Text ####
+Congress is in no position to naysay Mr. Bush
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4847..4886
+33,1,2,1,1
+#### Text ####
+we're into Gramm-Rudman's sequestration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4888
+34
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+4838..4886
+33,1,2;33,2
+#### Text ####
+now that we're into Gramm-Rudman's sequestration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4888..4994
+34
+#### Text ####
+Just this week, the House-Senate conference met -- 231 conferees, divided into 26 different subconferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4996
+35
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+4888..4994
+34
+#### Text ####
+Just this week, the House-Senate conference met -- 231 conferees, divided into 26 different subconferences
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4996..5140
+35
+#### Text ####
+Senator Daniel Inouye agreed to close some bases in Hawaii in exchange for such goodies as $11 million for a parking lot at Walter Reed Hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5142
+36
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4996..5140
+35
+#### Text ####
+Senator Daniel Inouye agreed to close some bases in Hawaii in exchange for such goodies as $11 million for a parking lot at Walter Reed Hospital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5142..5320
+36
+#### Text ####
+Conference negotiator Rep. Bill Hefner pulled down $40 million in military bases for North Carolina and graciously allowed Senator James Sasser $70 million for bases in Tennessee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+5322
+37
+____Arg1____
+5142..5320
+36
+#### Text ####
+Conference negotiator Rep. Bill Hefner pulled down $40 million in military bases for North Carolina and graciously allowed Senator James Sasser $70 million for bases in Tennessee
+##############
+____Arg2____
+5322..5422
+37
+#### Text ####
+President Bush should take the Constitution in one hand and a budget ax in the other and get to work
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5424
+38
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5322..5422
+37
+#### Text ####
+President Bush should take the Constitution in one hand and a budget ax in the other and get to work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5424..5491
+38
+#### Text ####
+He should chop out both unconstitutional provisions and budget pork
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+5493
+39
+____Arg1____
+5424..5491
+38
+#### Text ####
+He should chop out both unconstitutional provisions and budget pork
+##############
+____Arg2____
+5493..5616
+39
+#### Text ####
+Congress may have lost any sense of discipline, but that doesn't mean the country must learn to live forever with this mess
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5541..5544
+39,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+5493..5539
+39,0
+#### Text ####
+Congress may have lost any sense of discipline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5545..5616
+39,3
+#### Text ####
+that doesn't mean the country must learn to live forever with this mess
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5618
+40
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+5541..5616
+39,2;39,3;39,4
+#### Text ####
+but that doesn't mean the country must learn to live forever with this mess
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5618..5701
+40
+#### Text ####
+President Bush has the power to change how Washington works, if only he will use it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5679..5686
+40,1,3,0;40,1,3,1
+#### Text ####
+if only
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Comparison.Pragmatic contrast
+____Arg1____
+5618..5677
+40,0;40,1,0;40,1,1;40,1,2;40,2
+#### Text ####
+President Bush has the power to change how Washington works
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5687..5701
+40,1,3,2
+#### Text ####
+he will use it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

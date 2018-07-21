@@ -1,0 +1,587 @@
+________________________________________________________
+____EntRel____
+416
+2
+____Arg1____
+256..414
+1
+#### Text ####
+In the last decade, many corporations have embraced the "utilization management" cost containment strategy as a way to control health-care costs for employees
+##############
+____Arg2____
+416..610
+2
+#### Text ####
+These programs vary widely, but often require second opinions on proposed surgery, preadmission reviews of elective hospitalizations and reviews of treatment during illnesses or recovery periods
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+612
+3
+____Arg1____
+416..610
+2
+#### Text ####
+These programs vary widely, but often require second opinions on proposed surgery, preadmission reviews of elective hospitalizations and reviews of treatment during illnesses or recovery periods
+##############
+____Arg2____
+612..703
+3
+#### Text ####
+Between 50% and 75% of today's workers are covered by such plans, up from 5% five years ago
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+708..716
+4,1,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+946..1055
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+the Institute of Medicine, an affiliate of the National Academy of Sciences, concluded after a two-year study
+##############
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+788..943
+4,1,1;4,1,2;4,1,3
+#### Text ####
+utilization management -- like most other cost containment strategies -- doesn't appear to have altered the long-term rate of increase in health-care costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+717..786
+4,1,0,1
+#### Text ####
+it probably has reduced the level of expenditures for some purchasers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1058
+5
+#### Features ####
+Ot, Comm, Null, Null
+946..1055
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+the Institute of Medicine, an affiliate of the National Academy of Sciences, concluded after a two-year study
+##############
+as, Contingency.Pragmatic cause.Justification
+____Arg1____
+788..810;861..943
+4,1,1;4,1,2,0;4,1,2,1,0;4,1,2,1,2;4,1,3
+#### Text ####
+utilization management doesn't appear to have altered the long-term rate of increase in health-care costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1058..1162
+5
+#### Text ####
+Employers who saw a short-term moderation in benefit expenditures are seeing a return to previous trends
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1167..1172
+6,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+1238..1395
+6,1;6,2;6,3;6,4
+#### Text ####
+these savings are often offset by increases in outpatient services and higher administrative costs, according to the report by a panel of health-care experts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1173..1236
+6,0,1
+#### Text ####
+utilization management frequently reduces hospitalization costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1466
+8
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1399..1463
+7
+#### Text ####
+The report suggested that current review programs are too narrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1466..1596
+8,1
+#### Text ####
+The unnecessary and inappropriate use of the hospital, and not the actual need for a particular procedure, has been the main focus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1599..1613
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the panel said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1616
+9
+#### Features ####
+Ot, Comm, Null, Null
+1599..1613
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the panel said
+##############
+also, Expansion.Conjunction
+____Arg1____
+1466..1596
+8,1
+#### Text ####
+The unnecessary and inappropriate use of the hospital, and not the actual need for a particular procedure, has been the main focus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1616..1763
+9
+#### Text ####
+As a general rule, prior-review programs have not made case-by-case assessments of the comparative costs of alternative treatments or sites of care
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1782
+10
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1616..1763
+9
+#### Text ####
+As a general rule, prior-review programs have not made case-by-case assessments of the comparative costs of alternative treatments or sites of care
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1599..1613
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the panel said
+##############
+____Arg2____
+1782..1944
+10,1,1
+#### Text ####
+that utilization management should have more of an impact as federal research on the effectiveness of medical treatments helps lead to medical practice guidelines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1766..1781
+10,0;10,1,0;10,2
+#### Text ####
+The report said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1840..1842
+10,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1766..1781
+10,0;10,1,0;10,2
+#### Text ####
+The report said
+##############
+as, Temporal.Synchrony
+____Arg1____
+1782..1839
+10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1
+#### Text ####
+that utilization management should have more of an impact
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1843..1944
+10,1,1,1,1,1,2,1
+#### Text ####
+federal research on the effectiveness of medical treatments helps lead to medical practice guidelines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2063..2067
+11,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1782..1944
+10,1,1
+#### Text ####
+that utilization management should have more of an impact as federal research on the effectiveness of medical treatments helps lead to medical practice guidelines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1766..1781
+10,0;10,1,0;10,2
+#### Text ####
+The report said
+##############
+____Arg2____
+2030..2062;2068..2174
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0;11,1,1,1,1,2
+#### Text ####
+that utilization management will do a better job of containing costs as it spreads to cover medical services delivered outside of hospitals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1948..2029
+11,0;11,1,0;11,2
+#### Text ####
+Howard Bailit, a panel member and a vice president of Aetna Life & Casualty, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2104..2106
+11,1,1,1,1,2,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1948..2029
+11,0;11,1,0;11,2
+#### Text ####
+Howard Bailit, a panel member and a vice president of Aetna Life & Casualty, said
+##############
+as, Temporal.Synchrony
+____Arg1____
+2030..2103
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0;11,1,1,1,1,1;11,1,1,1,1,2,0;11,1,1,1,1,2,1
+#### Text ####
+that utilization management will also do a better job of containing costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2107..2174
+11,1,1,1,1,2,2,1
+#### Text ####
+it spreads to cover medical services delivered outside of hospitals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2177
+12
+____Arg1____
+1948..2174
+11
+#### Text ####
+Howard Bailit, a panel member and a vice president of Aetna Life & Casualty, said that utilization management will also do a better job of containing costs as it spreads to cover medical services delivered outside of hospitals
+##############
+____Arg2____
+2177..2285
+12
+#### Text ####
+There's pretty good evidence that utilization management has reduced inappropriate hospitalization," he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2287..2290
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2177..2275
+12,1
+#### Text ####
+There's pretty good evidence that utilization management has reduced inappropriate hospitalization
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2278..2285
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he said
+##############
+____Arg2____
+2291..2375
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+at the same time, spending on physician services and ambulatory care have mushroomed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2378
+14
+#### Features ####
+Ot, Comm, Null, Null
+2410..2425
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Dr. Bailit said
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+2177..2375
+12;13
+#### Text ####
+There's pretty good evidence that utilization management has reduced inappropriate hospitalization," he said.
+But at the same time, spending on physician services and ambulatory care have mushroomed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2378..2407
+14,1
+#### Text ####
+It's like squeezing a balloon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2592..2595
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2517..2590
+15,0,1,1,1,1,1
+#### Text ####
+that utilization management reduces their hospital care bills by about 5%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2474..2516
+15,0,1,1,0;15,0,1,1,1,0;15,0,1,1,1,1,0
+#### Text ####
+that clients of his consulting firm report
+##############
+____Arg2____
+2606..2724
+15,3,1,1
+#### Text ####
+that for the health-care system as whole, some of these savings are offset by administrative and outpatient care costs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2596..2605
+15,3,0;15,3,1,0
+#### Text ####
+he agreed
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2850
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2775..2847
+16,1,1
+#### Text ####
+that administrative costs of utilization management programs can be high
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2728..2774
+16,0;16,1,0;16,2
+#### Text ####
+Jerome Grossman, chairman of the panel, agrees
+##############
+____Arg2____
+2850..2945
+17,1
+#### Text ####
+You have a whole staff standing ready" to evaluate the appropriateness of recommended treatment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2947..2954
+17,0;17,2;17,3;17,4;17,5
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2974..2978
+18,0,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2728..2847
+16
+#### Text ####
+Jerome Grossman, chairman of the panel, agrees that administrative costs of utilization management programs can be high
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2970..2973;2979..3041
+18,0,2,0;18,0,2,1,0;18,0,2,1,2
+#### Text ####
+who is president of New England Medical Center Hospitals in Boston
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3049
+18
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2850..2945
+17,1
+#### Text ####
+You have a whole staff standing ready" to evaluate the appropriateness of recommended treatment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2947..2954
+17,0;17,2;17,3;17,4;17,5
+#### Text ####
+he said
+##############
+____Arg2____
+3049..3193
+18,1,1
+#### Text ####
+that the hospitals he runs deal with more than 100 utilization management firms and that many of them have different procedures and requirements
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3043..3048
+18,0,1;18,0,3;18,1,0
+#### Text ####
+noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3129..3132
+18,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2956..2968;3043..3048
+18,0,0;18,0,1;18,0,3;18,1,0
+#### Text ####
+Dr. Grossman noted
+##############
+and, Expansion.Conjunction
+____Arg1____
+3049..3128
+18,1,1,0
+#### Text ####
+that the hospitals he runs deal with more than 100 utilization management firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3133..3193
+18,1,1,2
+#### Text ####
+that many of them have different procedures and requirements
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3195
+19
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3049..3193
+18,1,1
+#### Text ####
+that the hospitals he runs deal with more than 100 utilization management firms and that many of them have different procedures and requirements
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3043..3048
+18,0,1;18,0,3;18,1,0
+#### Text ####
+noted
+##############
+____Arg2____
+3195..3293
+19
+#### Text ####
+The panel urged greater efforts to reduce the complexity, paperwork and cost of utilization review
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

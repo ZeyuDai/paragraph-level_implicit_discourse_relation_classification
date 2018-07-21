@@ -1,0 +1,776 @@
+________________________________________________________
+____Explicit____
+276..293
+2,0
+#### Text ####
+On the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Arg1____
+194..274
+1,1;1,2;1,3;1,4
+#### Text ####
+Microsoft soared 3 3/4, or 4%, to a record price of 84 1/4 on 1.2 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+295..322
+2,1;2,2;2,3,0;2,3,1;2,4
+#### Text ####
+Valley National tumbled 24%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+323..367
+2,3,2
+#### Text ####
+after reporting a sizable third-quarter loss
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+323..328
+2,3,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+276..322
+2,0;2,1;2,2;2,3,0;2,3,1;2,4
+#### Text ####
+On the other hand, Valley National tumbled 24%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+329..367
+2,3,2,1
+#### Text ####
+reporting a sizable third-quarter loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+432
+4
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+371..430
+3
+#### Text ####
+The Nasdaq composite leaped 7.52 points, or 1.6%, to 470.80
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+432..500
+4
+#### Text ####
+Its largest previous rise this year came Aug. 7, when it gained 4.31
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+552..554
+5,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+504..550
+5,0;5,1,0;5,1,1;5,1,2;5,2
+#### Text ####
+The OTC market's largest stocks soared as well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+555..606
+5,1,3,1
+#### Text ####
+the Nasdaq 100 Index jumped 10.01, or 2%, to 463.06
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+608
+6
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+552..606
+5,1,3
+#### Text ####
+as the Nasdaq 100 Index jumped 10.01, or 2%, to 463.06
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+608..664
+6
+#### Text ####
+The Nasdaq Financial Index rose 5.04, or 1.1%, to 460.33
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+666..679
+7,0
+#### Text ####
+By comparison
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+504..664
+5;6
+#### Text ####
+The OTC market's largest stocks soared as well, as the Nasdaq 100 Index jumped 10.01, or 2%, to 463.06.
+The Nasdaq Financial Index rose 5.04, or 1.1%, to 460.33
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+681..763
+7,1;7,2;7,3;7,4
+#### Text ####
+the Dow Jones Industrials and the New York Stock Exchange Composite each rose 1.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+942
+10
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+862..940
+9
+#### Text ####
+Among broader Nasdaq industry groups, the utility index gained 18.11 to 761.38
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+942..1008
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+The transportation and insurance sectors each posted gains of 8.59
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1078
+11
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+942..1076
+10
+#### Text ####
+The transportation and insurance sectors each posted gains of 8.59, with the transports finishing at 486.74 and the insurers at 537.91
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1078..1245
+11
+#### Text ####
+The Nasdaq industrial index climbed 8.17 to 458.52, and the "other finance" index, made up of commercial banks and real estate and brokerage firms, rose 3.97 to 545.96
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1130..1133
+11,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1078..1128
+11,0
+#### Text ####
+The Nasdaq industrial index climbed 8.17 to 458.52
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1134..1245
+11,3
+#### Text ####
+the "other finance" index, made up of commercial banks and real estate and brokerage firms, rose 3.97 to 545.96
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1247
+12
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1130..1245
+11,2;11,3;11,4
+#### Text ####
+and the "other finance" index, made up of commercial banks and real estate and brokerage firms, rose 3.97 to 545.96
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1247..1287
+12
+#### Text ####
+The index of smaller banks improved 1.97
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1342..1345
+13,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Comparison.Contrast.Opposition
+____Arg1____
+1291..1341
+13,0;13,1;13,2
+#### Text ####
+Of the 4,346 issues that changed hands, 1,435 rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1346..1354
+13,4
+#### Text ####
+629 fell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1356
+14
+____Arg1____
+1291..1354
+13
+#### Text ####
+Of the 4,346 issues that changed hands, 1,435 rose and 629 fell
+##############
+____Arg2____
+1356..1475
+14
+#### Text ####
+Jeremiah Mullins, head of OTC trading at Dean Witter Reynolds, said both institutional and retail investors were buying
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1477..1480
+15,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1424..1475
+14,1,1
+#### Text ####
+both institutional and retail investors were buying
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1356..1423
+14,0;14,1,0;14,2
+#### Text ####
+Jeremiah Mullins, head of OTC trading at Dean Witter Reynolds, said
+##############
+____Arg2____
+1481..1510;1526..1571
+15,0,1;15,0,2;15,2;15,3;15,4
+#### Text ####
+there was a dearth of sellers so buyers had to bid prices up to entice them
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1512..1524
+15,1
+#### Text ####
+traders said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1526..1528
+15,2
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1512..1524
+15,1
+#### Text ####
+traders said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1477..1510
+15,0
+#### Text ####
+But there was a dearth of sellers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1529..1571
+15,3
+#### Text ####
+buyers had to bid prices up to entice them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1835
+18
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1715..1833
+17
+#### Text ####
+Microsoft's surge followed a report this week of substantially improved earnings for its first quarter, ended Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1835..1881
+18
+#### Text ####
+The stock was trading at 69 just two weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2029
+20
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1885..2027
+19
+#### Text ####
+Rick Sherlund, a Goldman Sachs analyst, has raised his earnings estimates for the company twice in the past two weeks, citing improved margins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2029..2130
+20
+#### Text ####
+After the earnings were announced, he raised his fiscal 1990 estimate to between $3.80 and $4 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2029..2034
+20,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2064..2130
+20,1;20,2;20,3;20,4
+#### Text ####
+he raised his fiscal 1990 estimate to between $3.80 and $4 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2035..2062
+20,0,1
+#### Text ####
+the earnings were announced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2132
+21
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2029..2130
+20
+#### Text ####
+After the earnings were announced, he raised his fiscal 1990 estimate to between $3.80 and $4 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2132..2177
+21
+#### Text ####
+Microsoft earned $3.03 a share in fiscal 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2345..2348
+22,10
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2181..2343
+22,0;22,1;22,2;22,3;22,4;22,5;22,6;22,7;22,8;22,9
+#### Text ####
+Among other software issues, Autodesk jumped 1 1/4 to 42, Lotus Development was unchanged at 32 1/2, Novell jumped 7/8 to 30 3/4, Ashton-Tate gained 1/4 to 10 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2349..2382
+22,11
+#### Text ####
+Oracle Systems rose 3/4 to 25 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2472
+24
+____Arg1____
+2386..2470
+23
+#### Text ####
+Caere, a new software issue, surged from its offering price of 12 to close at 16 1/8
+##############
+____Arg2____
+2472..2534
+24
+#### Text ####
+The company also makes optical character recognition equipment
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2536
+25
+____Arg1____
+2472..2534
+24
+#### Text ####
+The company also makes optical character recognition equipment
+##############
+____Arg2____
+2536..2567;2568..2580
+25
+#### Text ####
+Caere was underwritten by Alex. Brown & Sons
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2657
+27
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2584..2655
+26
+#### Text ####
+Another recently offered Alex.
+Brown issue, Rally's, surged 3 1/8 to 23
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2657..2694;2736..2773
+27,0,0;27,0,1;27,0,2;27,0,4;27,1;27,2
+#### Text ####
+The operator of fast-food restaurants climbed 3 1/8 to 23 on 944,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2775
+28
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+2657..2694;2736..2773
+27,0,0;27,0,1;27,0,2;27,0,4;27,1;27,2
+#### Text ####
+The operator of fast-food restaurants climbed 3 1/8 to 23 on 944,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2775..2822
+28
+#### Text ####
+Its 1.7 million-share offering was priced at 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2972
+30
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2826..2970
+29
+#### Text ####
+Valley National's slide of 5 3/4 points to 18 1/2 on 4.2 million shares followed its report late Wednesday of a $72.2 million third-quarter loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2972..3060
+30
+#### Text ####
+In the 1988 quarter, the Phoenix, Ariz., commercial banking concern earned $18.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3242..3254
+32,0
+#### Text ####
+Additionally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+additionally, Expansion.Conjunction
+____Arg1____
+3085..3240
+31,1,1
+#### Text ####
+its $110 million provision for credit losses and $11 million provision for other real estate owned is related to weakness in the Arizona real estate market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3064..3084
+31,0;31,1,0;31,2
+#### Text ####
+Valley National said
+##############
+____Arg2____
+3287..3396
+32,3,1
+#### Text ####
+it downgraded Valley National's senior debt and confirmed the company's commercial paper rating of "not prime
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3256..3286
+32,1;32,2;32,3,0;32,4;32,5
+#### Text ####
+Moody's Investors Service said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3488
+34
+____Arg1____
+3401..3486
+33
+#### Text ####
+A new issue, Exabyte, surged 2 1/8 from its initial offering price to close at 12 1/8
+##############
+____Arg2____
+3488..3569
+34,0
+#### Text ####
+The offering was for about 2.8 million shares of the data storage equipment maker
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3571
+34
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3488..3569
+34,0
+#### Text ####
+The offering was for about 2.8 million shares of the data storage equipment maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3571..3633
+34,2
+#### Text ####
+more than 2.2 million shares changed hands after trading began
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3614..3619
+34,2,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3571..3613
+34,2,0;34,2,1,0;34,2,1,1
+#### Text ####
+more than 2.2 million shares changed hands
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3620..3633
+34,2,1,2,1
+#### Text ####
+trading began
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3669
+36
+____Arg1____
+3637..3667
+35
+#### Text ####
+Dell Computer dropped 7/8 to 6
+##############
+____Arg2____
+3669..3832
+36
+#### Text ####
+The company said earnings for the year ending Jan. 28, 1990, are expected to be 25 to 35 cents a share, compared with a previous estimate of 50 to 60 cents a share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3872
+38
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+3836..3870
+37
+#### Text ####
+Nutmeg Industries lost 1 3/4 to 14
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3872..4036
+38
+#### Text ####
+Raymond James & Associates in St. Petersburg, Fla., lowered its third-quarter earnings estimate for the company, according to Dow Jones Professional Investor Report
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3985..4036
+38,1,2;38,1,3;38,2
+#### Text ####
+according to Dow Jones Professional Investor Report
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4088
+40
+____Arg1____
+4040..4086
+39
+#### Text ####
+A.P. Green Industries advanced 1 5/8 to 36 1/8
+##############
+____Arg2____
+4088..4249
+40
+#### Text ####
+East Rock Partners, which has indicated it might make a bid for the company, said A.P. Green, a refractory products maker, told the partnership it isn't for sale
+##############
+________________________________________________________

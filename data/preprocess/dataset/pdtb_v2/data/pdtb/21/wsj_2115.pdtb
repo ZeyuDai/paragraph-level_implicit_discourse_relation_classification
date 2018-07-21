@@ -1,0 +1,293 @@
+________________________________________________________
+____Implicit____
+538
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+364..536
+2
+#### Text ####
+The new Financial Accounting Standards Board (FASB) was created in 1972 to replace the Accounting Principles Board of the American Institute of Certified Public Accountants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+538..702
+3
+#### Text ####
+All of the former board's members were CPAs, provoking conflict-of-interest criticism because they were writing rules while handling clients' books at the same time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+624..631
+3,1,3,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+583..623
+3,1,3,0;3,1,3,1,0;3,1,3,1,1
+#### Text ####
+provoking conflict-of-interest criticism
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+632..702
+3,1,3,1,2,1
+#### Text ####
+they were writing rules while handling clients' books at the same time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+761..764
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+706..759
+4,0
+#### Text ####
+The new board's seven-member structure kept four CPAs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+765..807
+4,3
+#### Text ####
+the others were from industry and academia
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+978
+6
+____Arg1____
+811..976
+5
+#### Text ####
+Francis M. Wheat, a former Securities and Exchange Commission member, headed the panel that had studied the issues for a year and proposed the FASB on March 30, 1972
+##############
+____Arg2____
+978..1086
+6
+#### Text ####
+The former board had produced "21 opinions and 1,000 critics" in its 12-year life, its chairman had conceded
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1130
+8
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for instance, Expansion.Instantiation
+____Arg1____
+1090..1128
+7
+#### Text ####
+The climate was right for the new FASB
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1130..1260
+8
+#### Text ####
+In the late 1960s some CPAs failed to correct such abuses as clients picking permissive rules that hyped earnings and stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1262..1265
+9,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1130..1260
+8
+#### Text ####
+In the late 1960s some CPAs failed to correct such abuses as clients picking permissive rules that hyped earnings and stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1266..1343
+9,1;9,2;9,3;9,4
+#### Text ####
+in November 1970 Congress had passed a special act to overrule one board rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1345..1349
+10,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1262..1343
+9
+#### Text ####
+And in November 1970 Congress had passed a special act to overrule one board rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1351..1515
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+James Needham, an SEC commissioner, in April 1972 had warned that the industry might face a "federal agency writing accounting rules" if they rejected the FASB idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1517
+11
+____Arg1____
+1345..1515
+10
+#### Text ####
+Also, James Needham, an SEC commissioner, in April 1972 had warned that the industry might face a "federal agency writing accounting rules" if they rejected the FASB idea
+##############
+____Arg2____
+1517..1583
+11
+#### Text ####
+Keepers of the books, dubbed "figure filberts," loathed the threat
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1639
+13
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1587..1637
+12
+#### Text ####
+The FASB had its initial meeting on March 28, 1973
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1639..1681
+13,0
+#### Text ####
+On Dec. 13, 1973, it issued its first rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1683
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1639..1681
+13,0
+#### Text ####
+On Dec. 13, 1973, it issued its first rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1683..1762
+13,2
+#### Text ####
+it required companies to disclose foreign currency translations in U.S. dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1773..1783
+14,0,1
+#### Text ####
+since then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+1639..1762
+13
+#### Text ####
+On Dec. 13, 1973, it issued its first rule; it required companies to disclose foreign currency translations in U.S. dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1764..1804
+14,0
+#### Text ####
+The FASB since then has issued 102 rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1806..1809
+14,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1764..1804
+14,0
+#### Text ####
+The FASB since then has issued 102 rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1810..1834
+14,3
+#### Text ####
+some still rile industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

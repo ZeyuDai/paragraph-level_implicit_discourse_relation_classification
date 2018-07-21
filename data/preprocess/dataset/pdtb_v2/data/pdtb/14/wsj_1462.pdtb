@@ -1,0 +1,117 @@
+________________________________________________________
+____EntRel____
+304
+2
+____Arg1____
+224..302
+1
+#### Text ####
+Royal, which makes and distributes business forms, owns an 8% stake in Realist
+##############
+____Arg2____
+304..498
+2
+#### Text ####
+Royal contends that Realist failed to disclose material information, including Realist's negotiations to acquire Ammann Laser Technik AG, to stockholders prior to Realist's June 6 annual meeting
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+500
+3
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+304..498
+2
+#### Text ####
+Royal contends that Realist failed to disclose material information, including Realist's negotiations to acquire Ammann Laser Technik AG, to stockholders prior to Realist's June 6 annual meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+500..611
+3
+#### Text ####
+Royal's suit contends that the Ammann acquisition was "designed to entrench management and thwart Royal's offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+759..764
+4,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+616..758
+4,0;4,1,0;4,1,1;4,2
+#### Text ####
+Royal withdrew its offer to buy Realist, a maker of optical and electronic products based in Menomonee Falls, Wis., for $14.06 a share in July
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+765..802
+4,1,2,1
+#### Text ####
+Realist disclosed the Ammann purchase
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+804
+5
+____Arg1____
+616..802
+4
+#### Text ####
+Royal withdrew its offer to buy Realist, a maker of optical and electronic products based in Menomonee Falls, Wis., for $14.06 a share in July after Realist disclosed the Ammann purchase
+##############
+____Arg2____
+804..852
+5
+#### Text ####
+The suit seeks "in excess of $350,000 in damages
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+961..966
+6,1,1,1,1,2,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+857..880
+6,0;6,1,0;6,2
+#### Text ####
+A Realist official said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+932..960
+6,1,1,1,1,1;6,1,1,1,1,2,0;6,1,1,1,1,2,1;6,1,1,1,1,2,2,0;6,1,1,1,1,2,2,1
+#### Text ####
+and wouldn't have a response
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+967..1001
+6,1,1,1,1,2,2,2,1
+#### Text ####
+it had an opportunity to review it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

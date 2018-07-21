@@ -1,0 +1,482 @@
+________________________________________________________
+____Explicit____
+299..303
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+188..294
+1
+#### Text ####
+The department proposed requiring stronger roofs for light trucks and minivans, beginning with 1992 models
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+296..298;304..452
+2,0;2,2;2,3
+#### Text ####
+It issued a final rule requiring auto makers to equip light trucks and minivans with lap-shoulder belts for rear seats beginning in the 1992 model year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+454
+3
+#### Features ####
+Wr, Comm, Null, Null
+as a matter of fact, Expansion.Conjunction
+____Arg1____
+296..452
+2
+#### Text ####
+It also issued a final rule requiring auto makers to equip light trucks and minivans with lap-shoulder belts for rear seats beginning in the 1992 model year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+454..515
+3
+#### Text ####
+Such belts already are required for the vehicles' front seats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+994..1001
+6,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+927..957
+6,0;6,1,0;6,2
+#### Text ####
+The Big Three auto makers said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+958..993
+6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1;6,1,1,1,1,2
+#### Text ####
+the rule changes weren't surprising
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1002..1115
+6,1,1,1,1,3,1
+#### Text ####
+Bush administration officials have long said they planned to impose car safety standards on light trucks and vans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1356
+8
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1190..1345
+7,1,1,1,1;7,1,1,1,2;7,1,1,1,3;7,2
+#### Text ####
+the department for years to extend car-safety requirements to light trucks and vans, which now account for almost one-third of all vehicle sales in the U.S
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1119..1189
+7,0;7,1,0;7,1,1,0;7,1,1,1,0;7,2
+#### Text ####
+Safety advocates, including some members of Congress, have been urging
+##############
+____Arg2____
+1356..1506
+8,1,1
+#### Text ####
+that many vehicles classed as commercial light trucks actually carry more people than cargo and therefore should have the same safety features as cars
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1347..1355
+8,0;8,1,0;8,2
+#### Text ####
+They say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1452..1461
+8,1,1,1,1,2,0
+#### Text ####
+therefore
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1347..1355
+8,0;8,1,0;8,2
+#### Text ####
+They say
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+1356..1447
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0
+#### Text ####
+that many vehicles classed as commercial light trucks actually carry more people than cargo
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1448..1451;1462..1506
+8,1,1,1,1,1;8,1,1,1,1,2,1;8,1,1,1,1,2,2
+#### Text ####
+and should have the same safety features as cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1572..1575
+10,1,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1651..1749
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Chuck Hurley, vice president of communications for the Insurance Institute for Highway Safety
+##############
+but, Comparison.Contrast
+____Sup1____
+1347..1506
+8
+#### Text ####
+They say that many vehicles classed as commercial light trucks actually carry more people than cargo and therefore should have the same safety features as cars
+##############
+____Arg1____
+1119..1345;1510..1569
+7;9
+#### Text ####
+Safety advocates, including some members of Congress, have been urging the department for years to extend car-safety requirements to light trucks and vans, which now account for almost one-third of all vehicle sales in the U.S They didn't have much luck during the Reagan administration
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1576..1648
+10,1,1;10,1,2;10,1,3;10,1,4
+#### Text ####
+now, there seems to be a fairly systematic effort to address the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1752
+11
+#### Features ####
+Ot, Comm, Null, Null
+1651..1749
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Chuck Hurley, vice president of communications for the Insurance Institute for Highway Safety
+##############
+in other words, Expansion.Restatement
+____Arg1____
+1572..1648
+10,1
+#### Text ####
+But now, there seems to be a fairly systematic effort to address the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1752..1800
+11
+#### Text ####
+We're in a very different regulatory environment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+1803
+12
+____Arg1____
+1752..1800
+11
+#### Text ####
+We're in a very different regulatory environment
+##############
+____Arg2____
+1803..1944
+12
+#### Text ####
+Sen. John Danforth (R., Mo.) praised the department's actions, noting that rollover crashes account for almost half of all light-truck deaths
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1947
+13
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1873..1944
+12,1,3,1,1
+#### Text ####
+that rollover crashes account for almost half of all light-truck deaths
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1803..1872
+12,0;12,1,0;12,1,1;12,1,2;12,1,3,0;12,1,3,1,0;12,2
+#### Text ####
+Sen. John Danforth (R., Mo.) praised the department's actions, noting
+##############
+____Arg2____
+1947..2022
+13,1
+#### Text ####
+We could prevent many of these fatalities with minimum roof-crush standards
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2025..2032
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2061..2065
+14,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1947..2022
+13,1
+#### Text ####
+We could prevent many of these fatalities with minimum roof-crush standards
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2025..2032
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+he said
+##############
+____Arg2____
+2036..2060;2066..2247
+14,0;14,2;14,3
+#### Text ####
+Sen. Danforth and others want the department to require additional safety equipment in light trucks and minivans, including air bags or automatic seat belts in front seats and improved side-crash protection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2344
+16
+____Arg1____
+2251..2342
+15
+#### Text ####
+The department's roof-crush proposal would apply to vehicles weighing 10,000 pounds or less
+##############
+____Arg2____
+2344..2440
+16
+#### Text ####
+The roofs would be required to withstand a force of 1.5 times the unloaded weight of the vehicle
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2442
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2344..2440
+16
+#### Text ####
+The roofs would be required to withstand a force of 1.5 times the unloaded weight of the vehicle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2442..2511
+17
+#### Text ####
+During the test, the roof couldn't be depressed more than five inches
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2719
+19
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2558..2709
+18,3,1
+#### Text ####
+the company currently has no rear-seat lap and shoulder belts in its light trucks, but plans to begin phasing them in by the end of the 1990 model year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2515..2557
+18,0;18,1;18,2;18,3,0;18,4
+#### Text ####
+In Detroit, a Chrysler Corp. official said
+##############
+____Arg2____
+2719..2823
+19,1,1
+#### Text ####
+Chrysler fully expects to have them installed across its light-truck line by the Sept. 1, 1991, deadline
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2711..2718
+19,0;19,1,0;19,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2839
+20
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+on the other hand, Comparison.Contrast
+____Arg1____
+2719..2823
+19,1,1
+#### Text ####
+Chrysler fully expects to have them installed across its light-truck line by the Sept. 1, 1991, deadline
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2711..2718
+19,0;19,1,0;19,2
+#### Text ####
+He said
+##############
+____Arg2____
+2839..2915
+20,1,1
+#### Text ####
+its trucks and vans already meet the roof-crush resistance standard for cars
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2825..2838
+20,0;20,1,0;20,2
+#### Text ####
+Chrysler said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3072
+22
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2999..3070
+21,1,1
+#### Text ####
+Ford trucks have met car standards for roof-crush resistance since 1982
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2919..2998
+21,0;21,1,0;21,2
+#### Text ####
+John Leinonen, executive engineer of Ford Motor Co. 's auto-safety office, said
+##############
+____Arg2____
+3072..3181
+22
+#### Text ####
+Ford began installing the rear-seat belts in trucks with its F-series Crew Cab pickups in the 1989 model year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3262..3266
+23,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3072..3181
+22
+#### Text ####
+Ford began installing the rear-seat belts in trucks with its F-series Crew Cab pickups in the 1989 model year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3183..3261;3267..3291
+23,0;23,1,0;23,1,2;23,2
+#### Text ####
+The new Explorer sport-utility vehicle, set for introduction next spring, will have the rear-seat belts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+3293
+24
+____Arg1____
+3183..3291
+23
+#### Text ####
+The new Explorer sport-utility vehicle, set for introduction next spring, will also have the rear-seat belts
+##############
+____Arg2____
+3293..3354
+24
+#### Text ####
+Mr. Leinonen said he expects Ford to meet the deadline easily
+##############
+________________________________________________________

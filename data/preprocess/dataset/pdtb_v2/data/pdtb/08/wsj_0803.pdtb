@@ -1,0 +1,208 @@
+________________________________________________________
+____Explicit____
+147..150
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+9..145
+0,0
+#### Text ####
+Private-sector union contracts signed in the third quarter granted slightly lower wage increases than those signed in the second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+151..208
+0,3
+#### Text ####
+wage increases still are running above last year's levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+556..558
+3,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+583..608
+3,2
+#### Text ####
+the Labor Department said
+##############
+if, Contingency.Condition.Hypothetical
+____Sup1____
+688..774
+3,4,1,1,2,1,1
+#### Text ####
+when the department started comparing expiring contracts with those that replaced them
+##############
+____Arg1____
+610..687
+3,1;3,3;3,4,0;3,4,1,0;3,4,1,1,0;3,4,1,1,1;3,4,1,1,2,0;3,4,1,1,2,1,0;3,5
+#### Text ####
+1989 will be the first year that the measure has shown an increase since 1981
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+559..581
+3,0,1
+#### Text ####
+this pattern continues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1124
+6
+#### Features ####
+Ot, Comm, Null, Null
+1103..1122
+5,1;5,2;5,3;5,4
+#### Text ####
+the department said
+##############
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+932..1101
+5,0
+#### Text ####
+Settlements reached in the first nine months of 1989 called for wage increases averaging 3.7% in the first contract year and 3.1% annually over the life of the contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1124..1247
+6
+#### Text ####
+For all of 1988, union contracts provided for 2.5% wage increases in the first year and 2.4% over the life of the contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1444..1446
+8,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1374..1442
+8,0
+#### Text ####
+The figures exclude lump-sum payments and cost-of-living adjustments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1447..1493
+8,3
+#### Text ####
+the actual wage increases may have been bigger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1495
+9
+____Arg1____
+1374..1493
+8
+#### Text ####
+The figures exclude lump-sum payments and cost-of-living adjustments, so the actual wage increases may have been bigger
+##############
+____Arg2____
+1495..1602
+9,0
+#### Text ####
+About 35% of the workers covered by contracts signed in the first nine months of year get lump-sum payments
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1604
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1495..1602
+9,0
+#### Text ####
+About 35% of the workers covered by contracts signed in the first nine months of year get lump-sum payments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1604..1651
+9,2
+#### Text ####
+about 15% are covered by cost-of-living clauses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1653
+10
+____Arg1____
+1495..1651
+9
+#### Text ####
+About 35% of the workers covered by contracts signed in the first nine months of year get lump-sum payments; about 15% are covered by cost-of-living clauses
+##############
+____Arg2____
+1653..1748
+10
+#### Text ####
+Unions covered by one or other provisions generally settled for lower percentage wage increases
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1876
+12
+#### Features ####
+Ot, Comm, Null, Null
+1752..1777
+11,0;11,1,0;11,2
+#### Text ####
+The Labor Department said
+##############
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1778..1874
+11,1,1
+#### Text ####
+wage increases in manufacturing industries continue to be smaller than those in other industries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1876..2088
+12
+#### Text ####
+For all six million workers under major collective bargaining agreements, regardless of when they were signed, wage increases in the first nine months of 1989 averaged 2.5% -- including cost-of-living adjustments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

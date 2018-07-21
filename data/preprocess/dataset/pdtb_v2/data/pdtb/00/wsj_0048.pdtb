@@ -1,0 +1,813 @@
+________________________________________________________
+____Explicit____
+120..123
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..118
+0,0
+#### Text ####
+Rekindled hope that two New England states will allow broader interstate banking boosted Nasdaq's bank stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+124..194
+0,3
+#### Text ####
+the over-the-counter market was up only slightly in lackluster trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+288
+2
+____Arg1____
+198..286
+1
+#### Text ####
+The Nasdaq composite index added 1.01 to 456.64 on paltry volume of 118.6 million shares
+##############
+____Arg2____
+288..353
+2
+#### Text ####
+In terms of volume, it was an inauspicious beginning for November
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+355
+3
+____Arg1____
+288..353
+2
+#### Text ####
+In terms of volume, it was an inauspicious beginning for November
+##############
+____Arg2____
+355..438
+3
+#### Text ####
+Yesterday's share turnover was well below the year's daily average of 133.8 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+440
+4
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+355..438
+3
+#### Text ####
+Yesterday's share turnover was well below the year's daily average of 133.8 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+440..538
+4
+#### Text ####
+In October, the busiest month of the year so far, daily volume averaged roughly 145 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+721..724
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+621..719
+6
+#### Text ####
+The index of the 100 largest Nasdaq financial stocks rose modestly as well, gaining 1.28 to 449.04
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+725..805
+7,1;7,2;7,3
+#### Text ####
+the broader Nasdaq bank index, which tracks thrift issues, jumped 3.23 to 436.01
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+837..841
+8,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+809..836
+8,0;8,1,0;8,1,1;8,2
+#### Text ####
+The bank stocks got a boost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+842..1030
+8,1,2,1
+#### Text ####
+Connecticut Bank & Trust and Bank of New England said they no longer oppose pending legislation that would permit banks from other regions to merge with Connecticut and Massachusetts banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1032
+9
+____Arg1____
+809..1030
+8
+#### Text ####
+The bank stocks got a boost when Connecticut Bank & Trust and Bank of New England said they no longer oppose pending legislation that would permit banks from other regions to merge with Connecticut and Massachusetts banks
+##############
+____Arg2____
+1032..1060
+9
+#### Text ####
+The two banks merged in 1985
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1062
+10
+____Arg1____
+1032..1060
+9
+#### Text ####
+The two banks merged in 1985
+##############
+____Arg2____
+1062..1132
+10
+#### Text ####
+Bank of New England's shares are traded on the New York Stock Exchange
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1245..1252
+11,1,2,5,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1231..1243
+11,1,2,4
+#### Text ####
+traders said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1136..1229
+11,0;11,1,0;11,1,1;11,1,2,0;11,1,2,1;11,1,2,2;11,1,2,3;11,2
+#### Text ####
+The stocks of banking concerns based in Massachusetts weren't helped much by the announcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1253..1384
+11,1,2,5,1
+#### Text ####
+many of those concerns have financial problems tied to their real-estate loan portfolios, making them unattractive takeover targets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1388..1391
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1136..1229;1245..1384
+11,0;11,1,0;11,1,1;11,1,2,0;11,1,2,1;11,1,2,2;11,1,2,3;11,1,2,5;11,2
+#### Text ####
+The stocks of banking concerns based in Massachusetts weren't helped much by the announcement because many of those concerns have financial problems tied to their real-estate loan portfolios, making them unattractive takeover targets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1231..1243
+11,1,2,4
+#### Text ####
+traders said
+##############
+____Arg2____
+1392..1553
+12,1;12,2;12,3;12,4;12,5;12,6;12,7
+#### Text ####
+speculators, anticipating that Connecticut will approve a law permitting such interstate banking soon, immediately bid up shares of Connecticut banks on the news
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1556
+13
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1388..1553
+12
+#### Text ####
+But speculators, anticipating that Connecticut will approve a law permitting such interstate banking soon, immediately bid up shares of Connecticut banks on the news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1556..1633
+13,1
+#### Text ####
+A lot of the stocks that have been under water finally saw a reason to uptick
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1636..1730
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said George Jennison, head trader of banking issues in Shearson Lehman Hutton's OTC department
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1807
+15
+____Arg1____
+1734..1805
+14
+#### Text ####
+The biggest beneficiary was Northeast Bancorp, which surged 7 3/4 to 69
+##############
+____Arg2____
+1807..1967
+15
+#### Text ####
+The Stamford, Conn., concern has agreed to a buy-out by Bank of New York in a transaction with an indicated value of about $100 a share that expires next August
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1969
+16
+____Arg1____
+1807..1967
+15
+#### Text ####
+The Stamford, Conn., concern has agreed to a buy-out by Bank of New York in a transaction with an indicated value of about $100 a share that expires next August
+##############
+____Arg2____
+1969..2103
+16
+#### Text ####
+Ed Macheski, a Wilton, Conn., money manager who follows bank stocks, said the announcement effectively gives the deal "the green light
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2144..2148
+17,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1807..1967
+15
+#### Text ####
+The Stamford, Conn., concern has agreed to a buy-out by Bank of New York in a transaction with an indicated value of about $100 a share that expires next August
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2160..2222
+17,1,1,1,2,2
+#### Text ####
+because takeover stocks have returned to favor among investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2108..2125
+17,0;17,1,0;17,2
+#### Text ####
+Mr. Jennison said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2160..2167
+17,1,1,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2108..2125
+17,0;17,1,0;17,2
+#### Text ####
+Mr. Jennison said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2126..2159
+17,1,1,0;17,1,1,1,0;17,1,1,1,1;17,1,1,1,2,0;17,1,1,1,2,1
+#### Text ####
+Northeast Bancorp also fared well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2168..2222
+17,1,1,1,2,2,1
+#### Text ####
+takeover stocks have returned to favor among investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2224
+18
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2126..2222
+17,1,1
+#### Text ####
+Northeast Bancorp also fared well because takeover stocks have returned to favor among investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2108..2125
+17,0;17,1,0;17,2
+#### Text ####
+Mr. Jennison said
+##############
+____Arg2____
+2224..2315
+18
+#### Text ####
+Another OTC bank stock involved in a buy-out deal, First Constitution Financial, was higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2317
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2224..2315
+18
+#### Text ####
+Another OTC bank stock involved in a buy-out deal, First Constitution Financial, was higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2317..2338
+19
+#### Text ####
+It rose 7/8 to 18 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2340
+20
+____Arg1____
+2317..2338
+19
+#### Text ####
+It rose 7/8 to 18 1/4
+##############
+____Arg2____
+2340..2505
+20
+#### Text ####
+First Constitution has signed a merger agreement with WFRR L.P. and GHKM Corp., under which all of its common shares will be acquired for $25 each, or $273.5 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2661
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2509..2659
+21
+#### Text ####
+Among other Connecticut banks whose shares trade in the OTC market, Society for Savings Bancorp, based in Hartford, saw its stock rise 1 3/4 to 18 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2661..2690
+22,0
+#### Text ####
+Centerbank added 5/8 to 8 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2692
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2509..2690
+21;22,0
+#### Text ####
+Among other Connecticut banks whose shares trade in the OTC market, Society for Savings Bancorp, based in Hartford, saw its stock rise 1 3/4 to 18 1/4.
+Centerbank added 5/8 to 8 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2692..2766
+22,2
+#### Text ####
+shares of NESB, a New London-based bank holding company, rose 5/8 to 5 7/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2879
+24
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2770..2877
+23
+#### Text ####
+Among other banking issues, Pennview Savings Association leapt more than 44% with a gain of 6 5/8 to 21 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2879..2988
+24
+#### Text ####
+The Pennsylvania bank agreed to be acquired in a merger with Univest Corp. of Pennsylvania for $25.50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2990
+25
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2879..2988
+24
+#### Text ####
+The Pennsylvania bank agreed to be acquired in a merger with Univest Corp. of Pennsylvania for $25.50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2990..3205
+25
+#### Text ####
+Valley Federal Savings & Loan, a California thrift issue, gained 1 to 4 1/4 after reporting a third-quarter loss of $70.7 million after an $89.9 million pretax charge mostly related to its mobile home financing unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3066..3071
+25,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2990..3065
+25,0;25,1,0;25,1,1;25,1,2;25,2
+#### Text ####
+Valley Federal Savings & Loan, a California thrift issue, gained 1 to 4 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3072..3205
+25,1,3,1
+#### Text ####
+reporting a third-quarter loss of $70.7 million after an $89.9 million pretax charge mostly related to its mobile home financing unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3377
+27
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3284..3367
+26,1,1
+#### Text ####
+the one-time charge substantially eliminates future losses associated with the unit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3209..3283
+26,0;26,1,0;26,2
+#### Text ####
+Dan E. Nelms, Valley Federal's president and chief executive officer, said
+##############
+____Arg2____
+3377..3419
+27,1,1
+#### Text ####
+the company's core business remains strong
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3369..3376
+27,0;27,1,0;27,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3424..3428
+28,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3369..3419
+27
+#### Text ####
+He said the company's core business remains strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3421..3423;3429..3574
+28,0;28,2;28,3;28,4
+#### Text ####
+He said that after the charges, and "assuming no dramatic fluctuation in interest rates, the company expects to achieve near-record earnings in 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3695
+30
+____Arg1____
+3579..3693
+29
+#### Text ####
+Weisfield's surged 6 3/4 to 55 1/2 and Ratners Group's American depositary receipts, or ADRs, gained 5/8 to 12 1/4
+##############
+____Arg2____
+3695..3863
+30
+#### Text ####
+The two concerns said they entered into a definitive merger agreement under which Ratners will begin a tender offer for all of Weisfield's common shares for $57.50 each
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3956
+32
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3867..3954
+31
+#### Text ####
+Also on the takeover front, Jaguar's ADRs rose 1/4 to 13 7/8 on turnover of 4.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3956..4052
+32
+#### Text ####
+Since the British auto maker became a takeover target last month, its ADRs have jumped about 78%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3956..3961
+32,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+4022..4052
+32,1;32,2;32,3;32,4
+#### Text ####
+its ADRs have jumped about 78%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3962..4020
+32,0,1
+#### Text ####
+the British auto maker became a takeover target last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4056..4061
+33,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4132..4170
+33,1;33,2;33,3;33,4
+#### Text ####
+POP Radio's shares tumbled 4 to 14 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4062..4130
+33,0,1
+#### Text ####
+troubled Heritage Media proposed acquiring POP Radio in a stock swap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4172
+34
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4056..4170
+33
+#### Text ####
+After troubled Heritage Media proposed acquiring POP Radio in a stock swap, POP Radio's shares tumbled 4 to 14 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4172..4400
+34
+#### Text ####
+Heritage Media, which already owns about 51% of POP Radio, proposed paying POP Radio shareholders with shares of a new class of Heritage Media preferred stock that would be convertible into four shares of Heritage Media's common
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4463
+36
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4404..4432
+35
+#### Text ####
+Rally's lost 1 3/4 to 21 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4463..4537
+36,1,1
+#### Text ####
+it has redeemed its rights issued Monday under its shareholder rights plan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4434..4462
+36,0;36,1,0;36,2
+#### Text ####
+The restaurant operator said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5021
+40
+____Arg1____
+4962..5019
+39
+#### Text ####
+SCI Systems slipped 7/8 to 10 on volume of 858,000 shares
+##############
+____Arg2____
+5021..5157
+40
+#### Text ####
+The Huntsville, Ala., electronic products maker said it expects to post a "significant" loss for its fiscal first quarter ended Sept. 30
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5159
+41
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+5074..5157
+40,1,1
+#### Text ####
+it expects to post a "significant" loss for its fiscal first quarter ended Sept. 30
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5021..5073
+40,0;40,1,0;40,2
+#### Text ####
+The Huntsville, Ala., electronic products maker said
+##############
+____Arg2____
+5159..5272
+41
+#### Text ####
+In the year-earlier period, SCI had net income of $4.8 million, or 23 cents a share, on revenue of $225.6 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

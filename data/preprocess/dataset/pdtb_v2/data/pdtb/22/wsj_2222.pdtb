@@ -1,0 +1,1104 @@
+________________________________________________________
+____EntRel____
+134
+1
+____Arg1____
+9..132
+0
+#### Text ####
+What happened Friday shows that financial markets are not yet sufficiently coordinated to handle another meltdown in prices
+##############
+____Arg2____
+134..238
+1
+#### Text ####
+No fiddling with systems and procedures will ever prevent markets from suffering a panic wave of selling
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+240..243
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+134..238
+1
+#### Text ####
+No fiddling with systems and procedures will ever prevent markets from suffering a panic wave of selling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+244..297
+2,1;2,2;2,3
+#### Text ####
+markets can operate with greater or lesser efficiency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+410
+4
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+301..408
+3
+#### Text ####
+After the 1987 plunge, markets agreed that it would be wise to halt trading whenever panic conditions arose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+410..655
+4
+#### Text ####
+The New York Stock Exchange adopted two specific circuit breakers: If the Dow Jones index falls 250 points in a day, the exchange will halt trading for one hour; if the decline hits 400 points, the exchange will close for an additional two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+477
+4
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Restatement.Specification
+____Arg1____
+410..475
+4,0;4,1,0;4,1,1,0;4,1,1,1;4,2
+#### Text ####
+The New York Stock Exchange adopted two specific circuit breakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+477..570
+4,1,1,2,0
+#### Text ####
+If the Dow Jones index falls 250 points in a day, the exchange will halt trading for one hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+477..479
+4,1,1,2,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+527..570
+4,1,1,2,0,1;4,1,1,2,0,2;4,1,1,2,0,3
+#### Text ####
+the exchange will halt trading for one hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+480..525
+4,1,1,2,0,0,1
+#### Text ####
+the Dow Jones index falls 250 points in a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+572
+4
+#### Features ####
+Wr, Comm, Null, Null
+second, Expansion.List
+____Arg1____
+477..570
+4,1,1,2,0
+#### Text ####
+If the Dow Jones index falls 250 points in a day, the exchange will halt trading for one hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+572..655
+4,1,1,2,2
+#### Text ####
+if the decline hits 400 points, the exchange will close for an additional two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+572..574
+4,1,1,2,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+604..655
+4,1,1,2,2,1;4,1,1,2,2,2;4,1,1,2,2,3
+#### Text ####
+the exchange will close for an additional two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+575..602
+4,1,1,2,2,0,1
+#### Text ####
+the decline hits 400 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+657..678
+5,0;5,1,0;5,1,1,0
+#### Text ####
+The rationale is that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+410..655
+4
+#### Text ####
+The New York Stock Exchange adopted two specific circuit breakers: If the Dow Jones index falls 250 points in a day, the exchange will halt trading for one hour; if the decline hits 400 points, the exchange will close for an additional two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+657..837
+5
+#### Text ####
+The rationale is that an interruption of trading will allow investors to reconsider their strategies, calm sellers and lead buyers to enter the market at indicated new price levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+900
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+841..898
+6
+#### Text ####
+It is impossible to know whether that theory is realistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+900..1122
+7;8
+#### Text ####
+A temporary cessation of trading may indeed discourage a selling panic from feeding on itself.
+But there is also the possibility that shutting down markets will intensify fears and cause an even more abrupt slide in prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+937..943
+7,1,1
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+841..898
+6
+#### Text ####
+It is impossible to know whether that theory is realistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+900..936;944..993
+7,0;7,1,0;7,1,2;7,2
+#### Text ####
+A temporary cessation of trading may discourage a selling panic from feeding on itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+995..998
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+900..993
+7
+#### Text ####
+A temporary cessation of trading may indeed discourage a selling panic from feeding on itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+999..1122
+8,1;8,2;8,3
+#### Text ####
+there is also the possibility that shutting down markets will intensify fears and cause an even more abrupt slide in prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1008..1012
+8,2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+900..993
+7
+#### Text ####
+A temporary cessation of trading may indeed discourage a selling panic from feeding on itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+995..1007;1013..1122
+8,0;8,1;8,2,0;8,2,2;8,3
+#### Text ####
+But there is the possibility that shutting down markets will intensify fears and cause an even more abrupt slide in prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1176
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1126..1174
+9
+#### Text ####
+What happened Friday was the worst of all worlds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1176..1700
+10;11;12;13;14
+#### Text ####
+The futures exchanges followed their own pre-set circuit breakers and shut down at about 3 p.m. for 30 minutes, after the Standard & Poor's 500 stock index had fallen 12 points, or about 100 points on the Dow Jones index.
+Options markets stopped trading in many securities.
+The New York Stock Exchange, under its own rules, remained open. 
+
+With nowhere else to go, sellers, and particularly program traders, focused all their selling on the New York Stock Exchange.
+As liquidity on that market weakened, prices fell sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1288..1293
+10,1,2,5,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1242..1286
+10,1,1;10,1,2,0;10,1,2,1;10,1,2,2;10,1,2,3;10,1,2,4
+#### Text ####
+and shut down at about 3 p.m. for 30 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1294..1396
+10,1,2,5,1
+#### Text ####
+the Standard & Poor's 500 stock index had fallen 12 points, or about 100 points on the Dow Jones index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1398
+11
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+1176..1396
+10
+#### Text ####
+The futures exchanges followed their own pre-set circuit breakers and shut down at about 3 p.m. for 30 minutes, after the Standard & Poor's 500 stock index had fallen 12 points, or about 100 points on the Dow Jones index
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1398..1448
+11
+#### Text ####
+Options markets stopped trading in many securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1450
+12
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1398..1448
+11
+#### Text ####
+Options markets stopped trading in many securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1450..1513
+12
+#### Text ####
+The New York Stock Exchange, under its own rules, remained open
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1643
+14
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+1517..1641
+13
+#### Text ####
+With nowhere else to go, sellers, and particularly program traders, focused all their selling on the New York Stock Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1643..1700
+14
+#### Text ####
+As liquidity on that market weakened, prices fell sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1643..1645
+14,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1681..1700
+14,1;14,2;14,3;14,4
+#### Text ####
+prices fell sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1646..1679
+14,0,1
+#### Text ####
+liquidity on that market weakened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1797..1800
+15,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+1751..1796
+15,2
+#### Text ####
+additional liquidity would have been provided
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1801..1857
+15,4
+#### Text ####
+the decline, most probably, would have been less intense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1859
+16
+____Arg1____
+1704..1857
+15
+#### Text ####
+Had the futures and options markets been open, additional liquidity would have been provided and the decline, most probably, would have been less intense
+##############
+____Arg2____
+1859..1979
+16
+#### Text ####
+At 3:30, after intense telephone negotiations between the trading markets and Washington, the futures exchanges reopened
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1998..2005
+17,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1859..1979
+16
+#### Text ####
+At 3:30, after intense telephone negotiations between the trading markets and Washington, the futures exchanges reopened
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1981..1996;2007..2036
+17,0;17,1;17,3;17,4,0;17,4,1,0;17,4,1,1;17,4,1,2;17,4,1,3;17,4,1,4;17,5
+#### Text ####
+Futures trading was halted altogether at 3:45
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2038..2099
+17,4,1,5,0;17,4,1,5,1,0;17,4,1,5,1,1,0;17,4,1,5,1,1,1,0;17,4,1,5,1,1,1,1,0;17,4,1,5,1,1,1,1,1
+#### Text ####
+after the futures markets had dropped an additional 30 points
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2038..2043
+17,4,1,5,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1981..2036
+17,0;17,1;17,2;17,3;17,4,0;17,4,1,0;17,4,1,1;17,4,1,2;17,4,1,3;17,4,1,4;17,5
+#### Text ####
+Futures trading, however, was halted altogether at 3:45
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2044..2099
+17,4,1,5,1,0;17,4,1,5,1,1,0;17,4,1,5,1,1,1,0;17,4,1,5,1,1,1,1,0;17,4,1,5,1,1,1,1,1
+#### Text ####
+the futures markets had dropped an additional 30 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2101..2144
+17,4,1,5,1,1,1,1,2
+#### Text ####
+which is the daily limit for price declines
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+2146..2159
+18,0
+#### Text ####
+At this point
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+1981..2144
+17
+#### Text ####
+Futures trading, however, was halted altogether at 3:45, after the futures markets had dropped an additional 30 points, which is the daily limit for price declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2146..2269
+18
+#### Text ####
+At this point, the options markets also shut down and once more left all sales to be handled by the New York Stock Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2181..2185
+18,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1981..2036
+17,0;17,1;17,2;17,3;17,4,0;17,4,1,0;17,4,1,1;17,4,1,2;17,4,1,3;17,4,1,4;17,5
+#### Text ####
+Futures trading, however, was halted altogether at 3:45
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2146..2180;2186..2269
+18,0;18,1;18,2;18,4;18,5
+#### Text ####
+At this point, the options markets shut down and once more left all sales to be handled by the New York Stock Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2489
+20
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2273..2487
+19
+#### Text ####
+It is time to recognize that the New York Stock Exchange, the futures markets and the options markets, though physically separate, have actually become so closely intertwined as to constitute one market effectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2489..2566
+20
+#### Text ####
+Traders can vary their strategies and execute their orders in any one of them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2571..2580
+21,1
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Sup1____
+2273..2487
+19
+#### Text ####
+It is time to recognize that the New York Stock Exchange, the futures markets and the options markets, though physically separate, have actually become so closely intertwined as to constitute one market effectively
+##############
+____Arg1____
+2489..2566
+20
+#### Text ####
+Traders can vary their strategies and execute their orders in any one of them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2568..2570;2581..2647
+21,0;21,2;21,3
+#### Text ####
+It makes no sense for each market to adopt different circuit breakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2649
+22
+#### Features ####
+Wr, Comm, Null, Null
+instead, Comparison.Contrast
+____Arg1____
+2568..2647
+21
+#### Text ####
+It therefore makes no sense for each market to adopt different circuit breakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2649..2761
+22
+#### Text ####
+To achieve maximum liquidity and minimize price volatility, either all markets should be open to trading or none
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2848..2851
+23,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2765..2846
+23,0
+#### Text ####
+Synchronized circuit breakers would not have halted the slide in prices on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2852..2920
+23,3
+#### Text ####
+they probably would have made for smoother, less volatile executions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2922
+24
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2765..2920
+23
+#### Text ####
+Synchronized circuit breakers would not have halted the slide in prices on Friday, but they probably would have made for smoother, less volatile executions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2922..3057
+24
+#### Text ####
+It's time for the exchanges and the Securities and Exchange Commission to agree on joint conditions for halting trading or staying open
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3059
+25
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2922..3057
+24
+#### Text ####
+It's time for the exchanges and the Securities and Exchange Commission to agree on joint conditions for halting trading or staying open
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3059..3202
+25
+#### Text ####
+Let's not have one market shut down for 30 minutes when the Dow declines 100 points and another shut down for an hour after a 250-point decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3110..3114
+25,1,2,2,0,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Arb, Ctrl, Null, Indet
+3059..3073
+25,0;25,1,0;25,1,1;25,1,2,0;25,1,2,1;25,2
+#### Text ####
+Let's not have
+##############
+when, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+3074..3109
+25,1,2,2,0,0;25,1,2,2,0,1,0;25,1,2,2,0,1,1;25,1,2,2,0,1,2
+#### Text ####
+one market shut down for 30 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3115..3142
+25,1,2,2,0,1,3,1
+#### Text ####
+the Dow declines 100 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3300..3304
+26,1,1,1,0
+#### Text ####
+once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession, Contingency.Condition.Hypothetical
+____Arg1____
+3206..3299
+26,0;26,1,0;26,1,1,0;26,2
+#### Text ####
+The need for hurried last-minute telephone negotiations among market officials will disappear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3305..3372
+26,1,1,1,1
+#### Text ####
+rules are in place that synchronize circuit breakers in all markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3374
+27
+____Arg1____
+3206..3372
+26
+#### Text ####
+The need for hurried last-minute telephone negotiations among market officials will disappear once rules are in place that synchronize circuit breakers in all markets
+##############
+____Arg2____
+3374..3540
+27
+#### Text ####
+The new circuit breakers, if they are to be applied at all, will require that futures and options trading continue as long as the New York Stock Exchange remains open
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3400..3402
+27,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3374..3398;3434..3540
+27,0;27,1;27,3;27,4;27,5
+#### Text ####
+The new circuit breakers will require that futures and options trading continue as long as the New York Stock Exchange remains open
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3403..3432
+27,2,1
+#### Text ####
+they are to be applied at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3489..3499
+27,4,1,1,1,1,1,0;27,4,1,1,1,1,1,1,0
+#### Text ####
+as long as
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3374..3398;3434..3446
+27,0;27,1;27,3;27,4,0;27,4,1,0;27,5
+#### Text ####
+The new circuit breakers will require
+##############
+as long as, Contingency.Condition.General
+____Arg1____
+3447..3488
+27,4,1,1,0;27,4,1,1,1,0;27,4,1,1,1,1,0
+#### Text ####
+that futures and options trading continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3500..3540
+27,4,1,1,1,1,1,1,1
+#### Text ####
+the New York Stock Exchange remains open
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3542
+28
+____Arg1____
+3374..3540
+27
+#### Text ####
+The new circuit breakers, if they are to be applied at all, will require that futures and options trading continue as long as the New York Stock Exchange remains open
+##############
+____Arg2____
+3542..3716
+28
+#### Text ####
+The rules should be established by agreement of the officials of all affected exchanges acting under the oversight and with the approval of the government regulatory agencies
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3718
+29
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3542..3716
+28
+#### Text ####
+The rules should be established by agreement of the officials of all affected exchanges acting under the oversight and with the approval of the government regulatory agencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3718..3936
+29
+#### Text ####
+Should the SEC and the Commodities Futures Trading Commission (which, with the SEC, regulates the Chicago stock-index markets) be unable to agree, the issue may have to be resolved by decision of the Treasury secretary
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4052
+31
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3940..4050
+30
+#### Text ####
+In many ways, our financial markets are better prepared today to handle a decline than they were two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4052..4152
+31
+#### Text ####
+The New York Stock Exchange now has the capacity to handle a volume of nearly a billion shares a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4154
+32
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+4052..4152
+31
+#### Text ####
+The New York Stock Exchange now has the capacity to handle a volume of nearly a billion shares a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4154..4250;4331..4360
+32,0;32,1;32,2;32,3,0,0;32,3,0,1;32,3,0,3;32,3,1;32,4
+#### Text ####
+Telephone service has been improved for customers trying to reach their brokers, and specialists have larger capital positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4235..4238
+32,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4154..4233
+32,0
+#### Text ####
+Telephone service has been improved for customers trying to reach their brokers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4239..4250;4331..4360
+32,3,0,0;32,3,0,1;32,3,0,3;32,3,1
+#### Text ####
+specialists have larger capital positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4363
+33
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+4235..4360
+32,2;32,3;32,4
+#### Text ####
+and specialists -- who I believe should stay, despite the urgings of some post-crash critics -- have larger capital positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4363..4448
+33
+#### Text ####
+Of course, specialists' actions alone can never prevent a major crack in stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4450
+34
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4363..4448
+33
+#### Text ####
+Of course, specialists' actions alone can never prevent a major crack in stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4450..4573
+34
+#### Text ####
+Witness the fact that trading in some stocks closed early Friday and opened late Monday because of an excess of sell orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4576..4579
+35,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3940..4050
+30
+#### Text ####
+In many ways, our financial markets are better prepared today to handle a decline than they were two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4580..4639
+35,1;35,2;35,3
+#### Text ####
+the task of improving market performance remains unfinished
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1205 @@
+________________________________________________________
+____Explicit____
+129..132
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+9..127
+0,0
+#### Text ####
+Energetic and concrete action has been taken in Colombia during the past 60 days against the mafiosi of the drug trade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+133..213
+0,3
+#### Text ####
+it has not been sufficiently effective, because, unfortunately, it came too late
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+173..180
+0,3,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+129..171
+0,2;0,3,0;0,3,1,0;0,3,1,1;0,3,1,2,0;0,3,1,2,1;0,3,1,2,2;0,4
+#### Text ####
+but it has not been sufficiently effective
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+182..213
+0,3,1,2,3,1
+#### Text ####
+unfortunately, it came too late
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+438..442
+2,0,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+261..301
+1,2,2
+#### Text ####
+of which my brother Guillermo was editor
+##############
+____Arg1____
+217..259;303..436
+1,0;1,1;1,2,0;1,2,1;1,3;1,4;1,5
+#### Text ####
+Ten years ago, the newspaper El Espectador began warning of the rise of the drug mafias and of their leaders' aspirations to control Colombian politics, especially the Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+491..507
+2,0,1;2,0,3;2,0,4;2,0,5
+#### Text ####
+nothing was done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+444..489
+2,0,2
+#### Text ####
+when it would have been easier to resist them
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+444..448
+2,0,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+438..442;491..507
+2,0,0;2,0,1;2,0,3;2,0,4;2,0,5
+#### Text ####
+Then nothing was done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+449..489
+2,0,2,1
+#### Text ####
+it would have been easier to resist them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+508..511
+2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result, Expansion.Conjunction
+____Arg1____
+438..507
+2,0
+#### Text ####
+Then, when it would have been easier to resist them, nothing was done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+512..570
+2,2
+#### Text ####
+my brother was murdered by the drug mafias three years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+690
+4
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+574..688
+3
+#### Text ####
+The most ruthless dictatorships have not censored their press more brutally than the drug mafias censor Colombia's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+690..752
+4
+#### Text ####
+The censorship is enforced through terrorism and assassination
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+754
+5
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Instantiation
+____Arg1____
+690..752
+4
+#### Text ####
+The censorship is enforced through terrorism and assassination
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+754..832
+5
+#### Text ####
+In the past 10 years about 50 journalists have been silenced forever, murdered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+986..989
+7,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+836..984
+6
+#### Text ####
+Within the past two months a bomb exploded in the offices of the El Espectador in Bogota, destroying a major part of its installations and equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+990..1108
+7,1;7,2;7,3;7,4;7,5;7,6;7,7
+#### Text ####
+only last week the newspaper Vanguardia Liberal in the city of Bucaramanga was bombed, and its installations destroyed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1077..1080
+7,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result, Expansion.Conjunction
+____Arg1____
+986..1075
+7,0;7,1;7,2;7,3;7,4
+#### Text ####
+And only last week the newspaper Vanguardia Liberal in the city of Bucaramanga was bombed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1081..1108
+7,6
+#### Text ####
+its installations destroyed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1110
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+836..1108
+6;7
+#### Text ####
+Within the past two months a bomb exploded in the offices of the El Espectador in Bogota, destroying a major part of its installations and equipment.
+And only last week the newspaper Vanguardia Liberal in the city of Bucaramanga was bombed, and its installations destroyed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1110..1208
+8
+#### Text ####
+Journalists and their families are constantly threatened as are the newspaper distribution outlets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1210
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+836..1208
+6;7;8
+#### Text ####
+Within the past two months a bomb exploded in the offices of the El Espectador in Bogota, destroying a major part of its installations and equipment.
+And only last week the newspaper Vanguardia Liberal in the city of Bucaramanga was bombed, and its installations destroyed.
+Journalists and their families are constantly threatened as are the newspaper distribution outlets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1210..1274
+9
+#### Text ####
+Distribution centers are bombed, and advertisers are intimidated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1243..1246
+9,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1210..1241
+9,0
+#### Text ####
+Distribution centers are bombed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1247..1274
+9,3
+#### Text ####
+advertisers are intimidated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1276
+10
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+1210..1274
+9
+#### Text ####
+Distribution centers are bombed, and advertisers are intimidated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1276..1310
+10
+#### Text ####
+Censorship is imposed by terrorism
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1314..1316
+11,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1376..1499
+11,1;11,2;11,3
+#### Text ####
+there is little doubt that the drug mafia's terrorism someday will extend to all the newspapers published in the free world
+##############
+#### Features ####
+Arb, Ftv, Null, Null
+1376..1397
+11,1;11,2,0;11,2,1,0;11,2,1,1
+#### Text ####
+there is little doubt
+##############
+____Arg2____
+1317..1375
+11,0,1
+#### Text ####
+the Colombian media accept this new and hideous censorship
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1501
+12
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1314..1499
+11
+#### Text ####
+If the Colombian media accept this new and hideous censorship there is little doubt that the drug mafia's terrorism someday will extend to all the newspapers published in the free world
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1501..1615
+12
+#### Text ####
+The solidarity of the uncensored media world-wide against drug terrorism is the only way press freedom can survive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1660..1664
+13,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+9..127
+0,0
+#### Text ####
+Energetic and concrete action has been taken in Colombia during the past 60 days against the mafiosi of the drug trade
+##############
+____Arg1____
+129..213
+0,2;0,3;0,4
+#### Text ####
+but it has not been sufficiently effective, because, unfortunately, it came too late
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1619..1659;1665..1747
+13,0;13,2;13,3
+#### Text ####
+The American people and their government woke up too late to the menace drugs posed to the moral structure of their country
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1749
+14
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1619..1747
+13
+#### Text ####
+The American people and their government also woke up too late to the menace drugs posed to the moral structure of their country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1749..1859
+14
+#### Text ####
+Even now, the American attack upon this tremendous problem is timid in relation to the magnitude of the threat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1861
+15
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1749..1859
+14
+#### Text ####
+Even now, the American attack upon this tremendous problem is timid in relation to the magnitude of the threat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1861..2053
+15
+#### Text ####
+I can attest that a recent Colombian visitor to the U.S. was offered drugs three times in the few blocks' walk between Grand Central Terminal and the Waldorf Astoria Hotel in midtown Manhattan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2055
+16
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1749..2053
+14;15
+#### Text ####
+Even now, the American attack upon this tremendous problem is timid in relation to the magnitude of the threat.
+I can attest that a recent Colombian visitor to the U.S. was offered drugs three times in the few blocks' walk between Grand Central Terminal and the Waldorf Astoria Hotel in midtown Manhattan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2055..2179
+16
+#### Text ####
+Colombia alone -- its government, its people, its newspapers -- does not have the capacity to fight this battle successfully
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2181
+17
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2055..2179
+16
+#### Text ####
+Colombia alone -- its government, its people, its newspapers -- does not have the capacity to fight this battle successfully
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2181..2290
+17
+#### Text ####
+All drug-consuming countries must jointly decide to combat and punish the consumers and distributors of drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2292
+18
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2181..2290
+17
+#### Text ####
+All drug-consuming countries must jointly decide to combat and punish the consumers and distributors of drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2292..2359
+18
+#### Text ####
+The U.S., as the major drug consumer, should lead this joint effort
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2361
+19
+____Arg1____
+2292..2359
+18
+#### Text ####
+The U.S., as the major drug consumer, should lead this joint effort
+##############
+____Arg2____
+2361..2450
+19
+#### Text ####
+Reduction, if not the total cessation, of drug consumption is the requirement for victory
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2372..2374
+19,0,0,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+2361..2370;2400..2450
+19,0,0,0;19,0,0,1;19,0,0,4;19,0,1;19,1;19,2
+#### Text ####
+Reduction of drug consumption is the requirement for victory
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2375..2398
+19,0,0,2,1;19,0,0,3
+#### Text ####
+not the total cessation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2517
+21
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2454..2515
+20
+#### Text ####
+Much is being done in Colombia to fight the drug cartel mafia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2517..2663
+21
+#### Text ####
+Luxurious homes and ranches have been raided by the military authorities, and sophisticated and powerful communications equipment have been seized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2591..2594
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2517..2589
+21,0
+#### Text ####
+Luxurious homes and ranches have been raided by the military authorities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2595..2663
+21,3
+#### Text ####
+sophisticated and powerful communications equipment have been seized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2665
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2517..2663
+21
+#### Text ####
+Luxurious homes and ranches have been raided by the military authorities, and sophisticated and powerful communications equipment have been seized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2665..2799
+22
+#### Text ####
+More than 300 planes and helicopters have been impounded at airports, and a large number of vehicles and launches has been confiscated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2735..2738
+22,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2665..2733
+22,0
+#### Text ####
+More than 300 planes and helicopters have been impounded at airports
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2739..2799
+22,3
+#### Text ####
+a large number of vehicles and launches has been confiscated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2818..2822
+23,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.List
+____Arg1____
+2665..2799
+22
+#### Text ####
+More than 300 planes and helicopters have been impounded at airports, and a large number of vehicles and launches has been confiscated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2801..2817;2823..2927
+23,0;23,1,0;23,1,2;23,2
+#### Text ####
+The military has captured enormous arsenals of powerful and sophisticated weapons, explosives and other war-like materiel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2929
+24
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+2517..2927
+21;22;23
+#### Text ####
+Luxurious homes and ranches have been raided by the military authorities, and sophisticated and powerful communications equipment have been seized.
+More than 300 planes and helicopters have been impounded at airports, and a large number of vehicles and launches has been confiscated.
+The military has also captured enormous arsenals of powerful and sophisticated weapons, explosives and other war-like materiel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2929..2955
+24,0
+#### Text ####
+Much has been accomplished
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2956..2959
+24,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2929..2955
+24,0
+#### Text ####
+Much has been accomplished
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2960..3022
+24,2
+#### Text ####
+public opinion decisively supports the government and the army
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3026..3029
+24,4
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2929..3022
+24,0;24,1;24,2;24,3
+#### Text ####
+Much has been accomplished and public opinion decisively supports the government and the army
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3031..3096
+24,6
+#### Text ####
+on the other hand, none of the key drug barons have been captured
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3031..3048
+24,6,0
+#### Text ####
+on the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast
+____Arg1____
+2929..3022
+24,0;24,1;24,2;24,3
+#### Text ####
+Much has been accomplished and public opinion decisively supports the government and the army
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3026..3029;3050..3096
+24,4;24,5;24,6,1;24,6,2;24,6,3;24,7
+#### Text ####
+but none of the key drug barons have been captured
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3221
+26
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3100..3219
+25
+#### Text ####
+There has been a lot of talk that a large portion of the Colombian economy is sustained by the laundering of drug money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3221..3252
+26
+#### Text ####
+In my opinion, this is not true
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3254
+27
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+3221..3252
+26
+#### Text ####
+In my opinion, this is not true
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3254..3428
+27
+#### Text ####
+Laundered drug money has served only to increase, unrealistically, the price of real estate, creating serious problems for low-income people who aspire to own their own homes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3445..3449
+28,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+3347..3428
+27,1,1,1,2,1,6
+#### Text ####
+creating serious problems for low-income people who aspire to own their own homes
+##############
+____Arg1____
+3254..3345
+27,0;27,1,0;27,1,1,0;27,1,1,1,0;27,1,1,1,1;27,1,1,1,2,0;27,1,1,1,2,1,0;27,1,1,1,2,1,1;27,1,1,1,2,1,2;27,1,1,1,2,1,3;27,1,1,1,2,1,4;27,1,1,1,2,1,5;27,2
+#### Text ####
+Laundered drug money has served only to increase, unrealistically, the price of real estate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3430..3444;3450..3537
+28,0;28,1,0;28,1,2;28,2
+#### Text ####
+Drug money has gone to buy expensive cars, airplanes, launches and nightclubs where drugs are consumed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3539..3542
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3430..3537
+28
+#### Text ####
+Drug money has also gone to buy expensive cars, airplanes, launches and nightclubs where drugs are consumed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3543..3635
+29,1;29,2;29,3
+#### Text ####
+most of the drug money is kept in investments and in financial institutions outside Colombia
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3637..3644
+30,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3539..3635
+29
+#### Text ####
+But most of the drug money is kept in investments and in financial institutions outside Colombia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3646..3740
+30,1;30,2;30,3;30,4
+#### Text ####
+the cooperation of those financial institutions is essential to the success of the drug battle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3905
+32
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3744..3903
+31
+#### Text ####
+What is of much more importance to the Colombian economy than the supposed benefits of laundered drug money is higher prices for Colombia's legitimate products
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3905..4047
+32
+#### Text ####
+The price of coffee has gone down almost 45% since the beginning of the year, to the lowest level (after inflation) since the Great Depression
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4049
+33
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3905..4047
+32
+#### Text ####
+The price of coffee has gone down almost 45% since the beginning of the year, to the lowest level (after inflation) since the Great Depression
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4049..4103
+33
+#### Text ####
+Market conditions point to even lower prices next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4105
+34
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+4049..4103
+33
+#### Text ####
+Market conditions point to even lower prices next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4105..4175
+34
+#### Text ####
+The 27-year-old coffee cartel had to be formally dissolved this summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4177..4188
+35,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+4049..4175
+33;34
+#### Text ####
+Market conditions point to even lower prices next year.
+The 27-year-old coffee cartel had to be formally dissolved this summer
+##############
+____Arg1____
+3905..4047
+32
+#### Text ####
+The price of coffee has gone down almost 45% since the beginning of the year, to the lowest level (after inflation) since the Great Depression
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4190..4262
+35,1;35,2;35,3;35,4
+#### Text ####
+Colombia will earn $500 million less from its coffee this year than last
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4264
+36
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement
+____Arg1____
+4177..4262
+35
+#### Text ####
+As a result, Colombia will earn $500 million less from its coffee this year than last
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4264..4314
+36,0
+#### Text ####
+Our coffee growers face reductions in their income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4316..4319
+36,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+4264..4314
+36,0
+#### Text ####
+Our coffee growers face reductions in their income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4320..4386
+36,3
+#### Text ####
+this tempts them to contemplate substituting coca crops for coffee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4537
+38
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4390..4535
+37
+#### Text ####
+U.S. interests occasionally try to impose barriers to the import of another important Colombian export -- cut flowers -- into the American market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4537..4640
+38
+#### Text ####
+A just price and an open market for what Colombian produces and exports should be the policy of the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4849
+40
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4720..4847
+39,1,3
+#### Text ####
+to make a plea to the millions of readers of this newspaper, to become soldiers dedicated to the fight against the use of drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4849..4987
+40
+#### Text ####
+Each gram of cocaine consumed is a deadly bullet against those in our country and in the rest of the world who fight this terrible scourge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4989
+41
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+4849..4987
+40
+#### Text ####
+Each gram of cocaine consumed is a deadly bullet against those in our country and in the rest of the world who fight this terrible scourge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4989..5046
+41
+#### Text ####
+A crusade of NO to the consumption of drugs is imperative
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

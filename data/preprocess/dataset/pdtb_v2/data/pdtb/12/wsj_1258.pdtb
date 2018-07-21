@@ -1,0 +1,529 @@
+________________________________________________________
+____Explicit____
+40..43
+0,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9..39
+0,0
+#### Text ####
+Bond prices took the high road
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+44..136
+0,2;0,3;0,4
+#### Text ####
+stock prices took the low road as worries mounted about the economy and the junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+75..77
+0,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..74
+0,0;0,1;0,2;0,4
+#### Text ####
+Bond prices took the high road and stock prices took the low road
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+78..136
+0,3,1
+#### Text ####
+worries mounted about the economy and the junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+223..226
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+140..221
+1
+#### Text ####
+The Dow Jones Industrial Average fell 26.23 points to 2662.91 in sluggish trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+227..362
+2,1;2,2;2,3
+#### Text ####
+long-term Treasury bonds staged a modest rally, with prices on most issues rising about half a point, or $5 for each $1,000 face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+364
+3
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+223..362
+2
+#### Text ####
+But long-term Treasury bonds staged a modest rally, with prices on most issues rising about half a point, or $5 for each $1,000 face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+364..433
+3
+#### Text ####
+The dollar sagged against other major currencies in lethargic trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+569
+5
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+463..567
+4,1,1
+#### Text ####
+the divergence between the stock and bond markets is a sign of growing unease about the economic outlook
+##############
+#### Features ####
+Ot, Comm, Null, Null
+437..462
+4,0;4,1,0;4,2
+#### Text ####
+Traders and analysts said
+##############
+____Arg2____
+569..686
+5
+#### Text ####
+A sinking economy depresses corporate earnings and thus stock prices, but it buoys bond prices as interest rates fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+620..624
+5,0,1,2,0
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+569..615
+5,0,0;5,0,1,0
+#### Text ####
+A sinking economy depresses corporate earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+616..619;625..637
+5,0,1,1;5,0,1,2,1
+#### Text ####
+and stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+639..642
+5,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+569..637
+5,0
+#### Text ####
+A sinking economy depresses corporate earnings and thus stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+643..686
+5,3
+#### Text ####
+it buoys bond prices as interest rates fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+664..666
+5,3,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+639..663
+5,2;5,3,0;5,3,1,0;5,3,1,1;5,4
+#### Text ####
+but it buoys bond prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+667..686
+5,3,1,2,1
+#### Text ####
+interest rates fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+905
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+690..879
+6
+#### Text ####
+That unease is expected to grow today when the government reports on September durable goods orders and again Thursday when the first assessment of third-quarter economic growth is released
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+905..1065
+7,1,1,1,1,1,0;7,1,1,1,1,1,1;7,1,1,1,1,1,2,0;7,1,1,1,1,1,2,1,0;7,1,1,1,1,1,2,1,1,0;7,1,1,1,1,1,2,1,1,1;7,1,1,1,1,1,2,1,1,2,0;7,1,1,1,1,1,2,1,1,2,1,0;7,1,1,1,1,1,2,1,1,2,1,1
+#### Text ####
+durable goods orders fell about 1%, compared with a 3.9% gain in August, and that growth in the third quarter slowed to about 2.3% from the second quarter's 2.5
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+894..904
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0
+#### Text ####
+they think
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+978..981
+7,1,1,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+881..893
+7,0;7,1,0;7,2
+#### Text ####
+Analysts say
+##############
+and, Expansion.Conjunction
+____Arg1____
+894..976
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0
+#### Text ####
+they think durable goods orders fell about 1%, compared with a 3.9% gain in August
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+982..1066
+7,1,1,1,1,1,2
+#### Text ####
+that growth in the third quarter slowed to about 2.3% from the second quarter's 2.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1176..1179
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1070..1174
+8
+#### Text ####
+The stock market's decline, coming after a record weekly gain of 119.88 points, surprised some investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1180..1309
+9,1;9,2;9,3
+#### Text ####
+A.C. Moore, director of research at Argus Research, said last week's rally was a reflex reaction to the Oct. 13 stock market rout
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1368..1370
+10,3,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1320..1327
+10,1
+#### Text ####
+he said
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+1311..1318;1329..1367
+10,0;10,2;10,3,0;10,3,1,0;10,3,1,1;10,4
+#### Text ####
+Overall the trend in stock prices will be down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1371..1390
+10,3,1,2,1
+#### Text ####
+the economy weakens
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1478
+12
+#### Features ####
+Ot, Comm, Null, Null
+1468..1475
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+he said
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1395..1465
+11,1
+#### Text ####
+We think we're on target in looking for renewed economic deterioration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1478..1640
+12
+#### Text ####
+Corporate profits are going to decrease faster than interest rates will fall, and the probability is that we'll see negative economic growth in the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1556..1559
+12,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1468..1475
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1478..1554
+12,1
+#### Text ####
+Corporate profits are going to decrease faster than interest rates will fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1560..1640
+12,4
+#### Text ####
+the probability is that we'll see negative economic growth in the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1757..1760
+13,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1714..1755
+13,0,1,1
+#### Text ####
+that a deteriorating economy is worrisome
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1645..1713
+13,0,0;13,0,1,0
+#### Text ####
+Hugh Johnson, chief investment officer at First Albany Corp., agreed
+##############
+____Arg2____
+1769..1869
+13,3,1,1
+#### Text ####
+the real concern among stock investors is that some new problem will crop up in the junk bond market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1761..1768
+13,3,0;13,3,1,0
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1943
+15
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1901..1941
+14,1;14,2;14,3;14,4
+#### Text ####
+Stock prices slumped in sluggish trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1943..2009
+15
+#### Text ####
+Volume on the New York Stock Exchange totaled 135.9 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2011
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1943..2009
+15
+#### Text ####
+Volume on the New York Stock Exchange totaled 135.9 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2011..2080
+16
+#### Text ####
+Declining issues on the Big Board were ahead of gainers, 1,012 to 501
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2105
+18
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2084..2103
+17
+#### Text ####
+Bond prices rallied
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2105..2172
+18
+#### Text ####
+The yield on the Treasury's benchmark 30-year bond slipped to 7.93%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2233
+20
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2176..2231
+19
+#### Text ####
+The dollar weakened against most other major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2233..2366
+20
+#### Text ####
+In late New York trading, the dollar was quoted at 1.8470 marks and 141.90 yen, compared with 1.8578 marks and 142.43 yen late Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

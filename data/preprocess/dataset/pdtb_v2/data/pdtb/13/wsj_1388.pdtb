@@ -1,0 +1,1758 @@
+________________________________________________________
+____Explicit____
+9..13
+0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+38..133
+0,1;0,2;0,3;0,4
+#### Text ####
+he got a chance to play in the starting lineup for his high school basketball team in Macon, Ga
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14..36
+0,0,1
+#### Text ####
+Robert McDuffie was 14
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+135
+1
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..133
+0
+#### Text ####
+When Robert McDuffie was 14, he got a chance to play in the starting lineup for his high school basketball team in Macon, Ga
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+135..260
+1
+#### Text ####
+Unfortunately, his mother had tickets for a recital by Itzhak Perlman the same night, and she was adamant about his attending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+221..224
+1,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+135..219
+1,0;1,1;1,2;1,3
+#### Text ####
+Unfortunately, his mother had tickets for a recital by Itzhak Perlman the same night
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+225..260
+1,5
+#### Text ####
+she was adamant about his attending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+263
+2
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+221..260
+1,4;1,5;1,6
+#### Text ####
+and she was adamant about his attending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+263..281
+2,1
+#### Text ####
+I threw such a fit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+284..301
+2,0;2,2;2,3;2,4;2,5,0;2,5,1;2,6
+#### Text ####
+says Mr. McDuffie
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+352..355
+3,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+284..301
+2,0;2,2;2,3;2,4;2,5,0;2,5,1;2,6
+#### Text ####
+says Mr. McDuffie
+##############
+but, Comparison.Contrast
+____Arg1____
+263..281
+2,1
+#### Text ####
+I threw such a fit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+356..423
+3,0;3,2;3,3;3,4;3,5;3,6;3,7
+#### Text ####
+once Perlman started playing, I didn't give a damn about basketball
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+356..360
+3,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+284..301
+2,0;2,2;2,3;2,4;2,5,0;2,5,1;2,6
+#### Text ####
+says Mr. McDuffie
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+352..355;386..423
+3,0;3,1;3,3;3,4;3,5;3,6;3,7
+#### Text ####
+But I didn't give a damn about basketball
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+361..384
+3,2,1
+#### Text ####
+Perlman started playing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+431..441
+4,0
+#### Text ####
+Afterwards
+##############
+#### Features ####
+Ot, Comm, Null, Null
+284..301
+2,0;2,2;2,3;2,4;2,5,0;2,5,1;2,6
+#### Text ####
+says Mr. McDuffie
+##############
+afterward, Temporal.Asynchronous.Precedence
+____Arg1____
+352..423
+3
+#### Text ####
+But once Perlman started playing, I didn't give a damn about basketball
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+443..484
+4,1;4,2;4,3;4,4;4,5
+#### Text ####
+I went home and practiced for three hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+577
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+489..575
+5
+#### Text ####
+Today, it's obvious that the brawny, six-foot, one-inch musician made the right choice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+577..692
+6
+#### Text ####
+At 31, Mr. McDuffie has a rich, full-bodied tone, an admirable rhythmic precision and an increasingly busy schedule
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+694
+7
+____Arg1____
+577..692
+6
+#### Text ####
+At 31, Mr. McDuffie has a rich, full-bodied tone, an admirable rhythmic precision and an increasingly busy schedule
+##############
+____Arg2____
+694..906
+7
+#### Text ####
+He's currently in the midst of a 17-city U.S. tour with Yehudi Menuhin and the Warsaw Sinfonia, with stops including Charleston, S.C. (Oct. 25), Sarasota, Fla. (Oct. 28), Tampa, Fla. (Oct. 29) and Miami (Oct. 31)
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+908
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+694..906
+7
+#### Text ####
+He's currently in the midst of a 17-city U.S. tour with Yehudi Menuhin and the Warsaw Sinfonia, with stops including Charleston, S.C. (Oct. 25), Sarasota, Fla. (Oct. 28), Tampa, Fla. (Oct. 29) and Miami (Oct. 31)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+908..1029
+8
+#### Text ####
+Later this season he gives a recital at Washington's Kennedy Center, and appears as soloist with several major orchestras
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1033..1036
+9,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison.Concession.Contra-expectation
+____Sup1____
+694..1029
+7;8
+#### Text ####
+He's currently in the midst of a 17-city U.S. tour with Yehudi Menuhin and the Warsaw Sinfonia, with stops including Charleston, S.C. (Oct. 25), Sarasota, Fla. (Oct. 28), Tampa, Fla. (Oct. 29) and Miami (Oct. 31).
+Later this season he gives a recital at Washington's Kennedy Center, and appears as soloist with several major orchestras
+##############
+____Arg1____
+577..692
+6
+#### Text ####
+At 31, Mr. McDuffie has a rich, full-bodied tone, an admirable rhythmic precision and an increasingly busy schedule
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1037..1143
+9,1;9,2;9,3
+#### Text ####
+Mr. McDuffie's career has developed at a slower pace than those of some of his better known contemporaries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1145
+10
+____Arg1____
+1033..1143
+9
+#### Text ####
+Yet Mr. McDuffie's career has developed at a slower pace than those of some of his better known contemporaries
+##############
+____Arg2____
+1145..1311
+10
+#### Text ####
+During the late 1970s, he was part of a musical "brat pack" -- a group of budding virtuosos who studied at the Juilliard School with the noted pedagogue Dorothy DeLay
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1313
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1145..1311
+10
+#### Text ####
+During the late 1970s, he was part of a musical "brat pack" -- a group of budding virtuosos who studied at the Juilliard School with the noted pedagogue Dorothy DeLay
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1313..1611
+11
+#### Text ####
+His violin classmates included Shlomo Mintz, a protege of Isaac Stern who performed with major orchestras while still a student; Cho-Liang Lin, who joined the roster of ICM Artists Inc. at the age of 18; and Nadja Salerno-Sonnenberg, who launched her career by winning the 1981 Naumberg Competition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1419..1424
+11,1,1,0,2,2,1,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+1383..1418
+11,1,1,0,2,2,0;11,1,1,0,2,2,1,0;11,1,1,0,2,2,1,1,0;11,1,1,0,2,2,1,1,1
+#### Text ####
+who performed with major orchestras
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1425..1440
+11,1,1,0,2,2,1,1,2,1
+#### Text ####
+still a student
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1741..1744
+13,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1654..1738
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+recalls Mr. McDuffie, an outgoing man with pale blue eyes and a light Southern drawl
+##############
+but, Comparison.Contrast
+____Arg1____
+1616..1651
+12,1
+#### Text ####
+I thought I was over the hill at 22
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1745..1785
+13,0;13,2;13,3;13,4;13,5
+#### Text ####
+I wasn't ready for a career at that time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1923
+15
+____Arg1____
+1790..1920
+14
+#### Text ####
+Young McDuffie's first violin teacher was Henrik Schwarzenberger, a Hungarian refugee who taught in the Macon public school system
+##############
+____Arg2____
+1923..1981
+15
+#### Text ####
+He taught me how to play like a gypsy," jokes the musician
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1984
+16
+#### Features ####
+Ot, Comm, Null, Null
+1963..1981
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+jokes the musician
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1923..1960
+15,1
+#### Text ####
+He taught me how to play like a gypsy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1984..2032
+16
+#### Text ####
+I didn't learn to count until I got to Juilliard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2008..2013
+16,2,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1963..1981
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+jokes the musician
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1984..2007
+16,0;16,1;16,2,0;16,2,1;16,2,2,0;16,2,2,1;16,3;16,4
+#### Text ####
+I didn't learn to count
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2014..2032
+16,2,2,2,1
+#### Text ####
+I got to Juilliard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2035
+17
+____Arg1____
+1984..2032
+16
+#### Text ####
+I didn't learn to count until I got to Juilliard
+##############
+____Arg2____
+2035..2262
+17
+#### Text ####
+After studies at that conservatory's Pre-College Division with an assistant to the legendary instructor Ivan Galamian, he switched at the college level to Miss DeLay, Mr. Galamian's longtime assistant and, ultimately, his rival
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2035..2040
+17,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2154..2262
+17,1;17,2;17,3;17,4
+#### Text ####
+he switched at the college level to Miss DeLay, Mr. Galamian's longtime assistant and, ultimately, his rival
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2041..2152
+17,0,1
+#### Text ####
+studies at that conservatory's Pre-College Division with an assistant to the legendary instructor Ivan Galamian
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2265
+18
+____Arg1____
+2035..2262
+17
+#### Text ####
+After studies at that conservatory's Pre-College Division with an assistant to the legendary instructor Ivan Galamian, he switched at the college level to Miss DeLay, Mr. Galamian's longtime assistant and, ultimately, his rival
+##############
+____Arg2____
+2265..2321
+18
+#### Text ####
+I think I had to prove myself to her," says Mr. McDuffie
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2324..2327
+19,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2304..2321
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+says Mr. McDuffie
+##############
+but, Comparison.Contrast
+____Arg1____
+2273..2301
+18,1,1,1
+#### Text ####
+I had to prove myself to her
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2265..2272
+18,1,0;18,1,1,0
+#### Text ####
+I think
+##############
+____Arg2____
+2328..2354
+19,0;19,2;19,3;19,4
+#### Text ####
+she was always encouraging
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2356
+20
+____Arg1____
+2324..2354
+19
+#### Text ####
+But she was always encouraging
+##############
+____Arg2____
+2356..2403
+20
+#### Text ####
+She only put her foot down twice," he continues
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2406
+21
+#### Features ####
+Ot, Comm, Null, Null
+2391..2403
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+he continues
+##############
+first, Expansion.Conjunction
+____Arg1____
+2356..2388
+20,0
+#### Text ####
+She only put her foot down twice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2406..2466
+21
+#### Text ####
+In my freshman year, my roommate was known as a party animal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2468
+22
+#### Features ####
+Ot, Comm, Null, Null
+2391..2403
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+he continues
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2406..2466
+21
+#### Text ####
+In my freshman year, my roommate was known as a party animal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2468..2515
+22
+#### Text ####
+She thought I wasn't getting my practicing done
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2545
+23
+#### Features ####
+Ot, Comm, Null, Null
+2518..2543
+23,0
+#### Text ####
+As the violinist tells it
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2468..2515
+22
+#### Text ####
+She thought I wasn't getting my practicing done
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2391..2403
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+he continues
+##############
+____Arg2____
+2545..2694
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+his grandmotherly looking teacher "put her hands on her hips, stomped her foot and said, `You've just got to get the {expletive deleted} out of there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2732..2737
+24,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2701..2731
+24,0;24,1,0;24,1,1;24,2
+#### Text ####
+The second incident took place
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2738..2828
+24,1,2,1
+#### Text ####
+Mr. McDuffie gave an ambitious student recital and was feeling rather pleased with himself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2830
+25
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2701..2828
+24
+#### Text ####
+The second incident took place after Mr. McDuffie gave an ambitious student recital and was feeling rather pleased with himself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2830..2904
+25
+#### Text ####
+Miss DeLay requested that he come to her studio with a tape of the recital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2907
+26
+____Arg1____
+2830..2904
+25
+#### Text ####
+Miss DeLay requested that he come to her studio with a tape of the recital
+##############
+____Arg2____
+2907..3011
+26
+#### Text ####
+We listened to the Chausson `Poeme, '" he recalls, "and she said, `You hear the first note, that B-flat?
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2959..2962
+26,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2946..2956
+26,2
+#### Text ####
+he recalls
+##############
+and, Expansion.Conjunction
+____Arg1____
+2907..2941
+26,1
+#### Text ####
+We listened to the Chausson `Poeme
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2963..3053
+26,4;27
+#### Text ####
+she said, `You hear the first note, that B-flat?
+That's the only note that's truly in tune
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3012
+27
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2974..3010
+26,4,1,3
+#### Text ####
+You hear the first note, that B-flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3012..3053
+27
+#### Text ####
+That's the only note that's truly in tune
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3141..3148
+28,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3131..3138
+28,2,2,2
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3066..3128
+28,0;28,1;28,2,0;28,2,1;28,2,2,0;28,2,2,1;28,2,2,3;28,2,2,4;28,3
+#### Text ####
+That's the most important experience I've had with any teacher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3149..3176
+28,2,3,1
+#### Text ####
+she taught me how to listen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3178
+29
+#### Features ####
+Ot, Comm, Null, Null
+3131..3138
+28,2,2,2
+#### Text ####
+he says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3066..3128;3141..3176
+28,0;28,1;28,2,0;28,2,1;28,2,2,0;28,2,2,1;28,2,2,3;28,2,2,4;28,2,3;28,3
+#### Text ####
+That's the most important experience I've had with any teacher because she taught me how to listen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3178..3262
+29
+#### Text ####
+Now, when I play with orchestras, the musicians often compliment me on my intonation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3183..3187
+29,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3131..3138
+28,2,2,2
+#### Text ####
+he says
+##############
+when, Temporal.Synchrony
+____Arg1____
+3178..3181;3212..3262
+29,0;29,1;29,3;29,4;29,5;29,6;29,7;29,8
+#### Text ####
+Now the musicians often compliment me on my intonation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3188..3210
+29,2,1
+#### Text ####
+I play with orchestras
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3274..3278
+30,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3141..3176
+28,2,3
+#### Text ####
+because she taught me how to listen
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3131..3138
+28,2,2,2
+#### Text ####
+he says
+##############
+____Arg2____
+3267..3273;3279..3427
+30,0;30,1,0;30,1,2;30,1,3;30,2
+#### Text ####
+It was at Juilliard that Mr. McDuffie discovered his predilection for conservative, 20th-century American composers such as David Diamond and Samuel Barber
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3429
+31
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3267..3427
+30
+#### Text ####
+It was also at Juilliard that Mr. McDuffie discovered his predilection for conservative, 20th-century American composers such as David Diamond and Samuel Barber
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3429..3601
+31
+#### Text ####
+After winning a school competition with a performance of the latter's "Violin Concerto," Mr. McDuffie was invited to play the work for the composer, who was dying of cancer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3429..3434
+31,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3518..3601
+31,1;31,2;31,3;31,4;31,5
+#### Text ####
+Mr. McDuffie was invited to play the work for the composer, who was dying of cancer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3435..3515
+31,0,1
+#### Text ####
+winning a school competition with a performance of the latter's "Violin Concerto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3762
+33
+____Arg1____
+3606..3759
+32
+#### Text ####
+Barber was seated by the fireplace looking very pale," recalls the violinist, who performed the work with a piano accompanist at the composer's apartment
+##############
+____Arg2____
+3762..3842
+33
+#### Text ####
+He didn't say much, but what he said was important because it's not in the score
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3782..3785
+33,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3682
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+recalls the violinist
+##############
+but, Comparison.Contrast
+____Arg1____
+3762..3780
+33,1
+#### Text ####
+He didn't say much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3786..3842
+33,4
+#### Text ####
+what he said was important because it's not in the score
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3813..3820
+33,4,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3682
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+recalls the violinist
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3782..3812
+33,3;33,4,0;33,4,1,0;33,4,1,1;33,5
+#### Text ####
+but what he said was important
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3821..3842
+33,4,1,2,1
+#### Text ####
+it's not in the score
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3844
+34
+____Arg1____
+3762..3842
+33
+#### Text ####
+He didn't say much, but what he said was important because it's not in the score
+##############
+____Arg2____
+3844..3956
+34
+#### Text ####
+There's a beautiful, Coplandesque motif -- he'd kill me if he heard me say that -- throughout the first movement
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3900..3902
+34,1,2,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3682
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+recalls the violinist
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3887..3899
+34,1,2,0;34,1,2,1,0;34,1,2,1,1,0;34,1,2,1,1,1,0;34,1,2,1,1,1,1;34,1,2,2
+#### Text ####
+he'd kill me
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3903..3923
+34,1,2,1,1,1,2,1
+#### Text ####
+he heard me say that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3963
+35
+____Arg1____
+3844..3956
+34
+#### Text ####
+There's a beautiful, Coplandesque motif -- he'd kill me if he heard me say that -- throughout the first movement
+##############
+____Arg2____
+3963..4014
+35
+#### Text ####
+The only time the violin has it is right at the end
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4016
+36
+____Arg1____
+3963..4014
+35
+#### Text ####
+The only time the violin has it is right at the end
+##############
+____Arg2____
+4016..4097
+36
+#### Text ####
+It's written `marcato' in the score, and I played it that way, kind of gigue-like
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4053..4056
+36,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3682
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+recalls the violinist
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+4016..4051
+36,0
+#### Text ####
+It's written `marcato' in the score
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4057..4097
+36,3
+#### Text ####
+I played it that way, kind of gigue-like
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4099..4102
+37,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3682
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+recalls the violinist
+##############
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+4016..4097
+36
+#### Text ####
+It's written `marcato' in the score, and I played it that way, kind of gigue-like
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4103..4150
+37,1;37,2;37,3;37,4
+#### Text ####
+he yelled out `dolce! dolce!' {`sweet! sweet!'}
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4156..4158
+38,1,0
+#### Text ####
+So
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4176..4183
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he adds
+##############
+so, Contingency.Cause.Result
+____Sup1____
+4053..4097
+36,2;36,3;36,4
+#### Text ####
+and I played it that way, kind of gigue-like
+##############
+____Arg1____
+4099..4147
+37
+#### Text ####
+And he yelled out `dolce! dolce!' {`sweet! sweet
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3661..3682
+32,0;32,2;32,3;32,4;32,5,0;32,5,1;32,6
+#### Text ####
+recalls the violinist
+##############
+____Arg2____
+4159..4173
+38,1,1;38,1,2
+#### Text ####
+we did it over
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4186
+39
+____Arg1____
+4156..4183
+38
+#### Text ####
+So we did it over," he adds
+##############
+____Arg2____
+4186..4238
+39
+#### Text ####
+I played very transparently, with the tip of the bow
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4240
+40
+____Arg1____
+4186..4238
+39
+#### Text ####
+I played very transparently, with the tip of the bow
+##############
+____Arg2____
+4240..4353
+40
+#### Text ####
+If a conductor is sensitive enough to bring down the orchestra {volume} at that point, it makes the piece magical
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4240..4242
+40,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4176..4183
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he adds
+##############
+if, Contingency.Condition.General
+____Arg1____
+4327..4353
+40,1;40,2;40,3;40,4
+#### Text ####
+it makes the piece magical
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4243..4325
+40,0,1
+#### Text ####
+a conductor is sensitive enough to bring down the orchestra {volume} at that point
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4355
+41
+#### Features ####
+Ot, Comm, Null, Null
+4176..4183
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he adds
+##############
+so, Contingency.Cause.Result
+____Arg1____
+4240..4353
+40
+#### Text ####
+If a conductor is sensitive enough to bring down the orchestra {volume} at that point, it makes the piece magical
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4355..4402
+41
+#### Text ####
+I don't know why Barber never told anybody else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4404
+42
+#### Features ####
+Ot, Comm, Null, Null
+4176..4183
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he adds
+##############
+for example, Expansion.Instantiation
+____Arg1____
+4355..4402
+41
+#### Text ####
+I don't know why Barber never told anybody else
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4404..4447
+42
+#### Text ####
+On Isaac Stern's recording it's very biting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4452..4457
+43,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+4477..4543
+43,1;43,2;43,3;43,4
+#### Text ####
+Mr. McDuffie has made some smart moves and some controversial ones
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4458..4475
+43,0,1
+#### Text ####
+leaving Juilliard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4545
+44
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4452..4543
+43
+#### Text ####
+Since leaving Juilliard, Mr. McDuffie has made some smart moves and some controversial ones
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4545..4633
+44
+#### Text ####
+His guest appearance on the NBC soap opera "Another World," scandalized musical elitists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4635..4646
+45,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+4545..4633
+44
+#### Text ####
+His guest appearance on the NBC soap opera "Another World," scandalized musical elitists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4648..4717
+45,1;45,2;45,3,0;45,3,1,0;45,3,1,1;45,3,1,2,0;45,3,1,2,1,0;45,3,1,2,1,1,0;45,3,1,2,1,1,1,0;45,3,1,2,1,1,1,1;45,3,1,2,1,1,1,2;45,4;45,5
+#### Text ####
+he's won kudos for his espousal of William Schuman's "Violin Concerto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4720..4850
+45,3,1,2,1,1,1,3
+#### Text ####
+which he recently recorded for Angel/EMI along with Leonard Bernstein's engaging "Serenade for Violin Solo, Strings and Percussion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4965
+47
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+4855..4963
+46
+#### Text ####
+Mr. McDuffie's sweet tone, heartfelt lyricism and rhythmic punch make him an ideal interpreter of both works
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4965..5082
+47
+#### Text ####
+Aided by the fluid playing of the St. Louis Symphony under Leonard Slatkin's direction, this "Serenade" really swings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5084
+48
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Juxtaposition
+____Arg1____
+4965..5082
+47
+#### Text ####
+Aided by the fluid playing of the St. Louis Symphony under Leonard Slatkin's direction, this "Serenade" really swings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5084..5260
+48
+#### Text ####
+Mr. Schuman's "Violin Concerto," which sounds more like a mildly atonal rhapsody for solo violin with orchestral accompaniment, meanders until the propulsive "Agitato, fervente
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5263..5266
+49,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5084..5260
+48
+#### Text ####
+Mr. Schuman's "Violin Concerto," which sounds more like a mildly atonal rhapsody for solo violin with orchestral accompaniment, meanders until the propulsive "Agitato, fervente
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5267..5375
+49,1;49,2;49,3
+#### Text ####
+there are ample rewards in its plaintive slow sections and virtuoso fireworks for soloist, brass and timpani
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5377
+50
+____Arg1____
+5263..5375
+49
+#### Text ####
+But there are ample rewards in its plaintive slow sections and virtuoso fireworks for soloist, brass and timpani
+##############
+____Arg2____
+5377..5553
+50
+#### Text ####
+At Avery Fisher Hall here, Mr. McDuffie was heard recently with Mr. Menuhin and the Warsaw Sinfonia in more conventional fare -- Bruch's overwrought "Violin Concerto in G Minor
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5556
+51
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+5377..5553
+50
+#### Text ####
+At Avery Fisher Hall here, Mr. McDuffie was heard recently with Mr. Menuhin and the Warsaw Sinfonia in more conventional fare -- Bruch's overwrought "Violin Concerto in G Minor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5556..5631
+51
+#### Text ####
+His performance was so effusive and driven that the phrases rarely breathed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5633
+52
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+5556..5631
+51
+#### Text ####
+His performance was so effusive and driven that the phrases rarely breathed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5633..5715
+52
+#### Text ####
+The 35-member Sinfonia played adroitly with a big, lush sound that belied its size
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5946
+54
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5719..5943
+53
+#### Text ####
+Whatever he plays, Mr. McDuffie finds satisfaction in the music itself -- "something greater out there than me," as he puts it during an interview at the Manhattan apartment he shares with wife, Camille, a literary publicist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5946..6006
+54,1
+#### Text ####
+A normal person did not write the Beethoven `Violin Concerto
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6011..6022
+54,0;54,2;54,3;54,4;54,5;54,6;54,7
+#### Text ####
+he declares
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6025
+55
+#### Features ####
+Ot, Comm, Null, Null
+6011..6022
+54,0;54,2;54,3;54,4;54,5;54,6;54,7
+#### Text ####
+he declares
+##############
+indeed, Expansion.Conjunction
+____Arg1____
+5946..6006
+54,1
+#### Text ####
+A normal person did not write the Beethoven `Violin Concerto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6025..6089
+55
+#### Text ####
+Even when I hear it played badly, I'm still humbled by the piece
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6025..6034
+55,1,0;55,1,1
+#### Text ####
+Even when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6011..6022
+54,0;54,2;54,3;54,4;54,5;54,6;54,7
+#### Text ####
+he declares
+##############
+when, Temporal.Synchrony
+____Arg1____
+6059..6089
+55,0;55,2;55,3;55,4;55,5
+#### Text ####
+I'm still humbled by the piece
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6035..6057
+55,1,2
+#### Text ####
+I hear it played badly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6091
+56
+#### Features ####
+Ot, Comm, Null, Null
+6011..6022
+54,0;54,2;54,3;54,4;54,5;54,6;54,7
+#### Text ####
+he declares
+##############
+so, Contingency.Cause.Result
+____Arg1____
+6025..6089
+55
+#### Text ####
+Even when I hear it played badly, I'm still humbled by the piece
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6091..6188
+56
+#### Text ####
+If I could ever feel I've contributed to it in some way, then all the hard work has been worth it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6091..6093;6148..6152
+56,0,0;56,2
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6011..6022
+54,0;54,2;54,3;54,4;54,5;54,6;54,7
+#### Text ####
+he declares
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+6094..6146
+56,0,1
+#### Text ####
+I could ever feel I've contributed to it in some way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6153..6188
+56,1;56,3;56,4;56,5;56,6
+#### Text ####
+all the hard work has been worth it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1195 @@
+________________________________________________________
+____Explicit____
+335..339
+1,1,1,2,1,1,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+234..329
+1,1,1,2,0;1,1,1,2,1,0;1,1,1,2,1,1,0;1,1,1,2,1,1,1
+#### Text ####
+who watched the Nasdaq Composite Index tumble in sympathy with the Dow Jones Industrial Average
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+331..334;340..386
+1,1,1,2,1,1,2;1,1,1,2,1,1,3,1;1,1,1,2,1,1,3,2
+#### Text ####
+and saw it get left behind in the subsequent rally
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+510..521
+3,0
+#### Text ####
+In contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+390..508
+2
+#### Text ####
+After plummeting 1.8% at one point during the day, the composite rebounded a little, but finished down 5.52, at 461.70
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+523..608
+3,1;3,2;3,3;3,4
+#### Text ####
+the industrial average recovered almost completely from its skid and closed down 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+610
+4
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+510..608
+3
+#### Text ####
+In contrast, the industrial average recovered almost completely from its skid and closed down 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+610..674
+4
+#### Text ####
+The New York Stock Exchange Composite was 0.4% lower for the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+840..843
+6,6
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+764..838
+6,0;6,1;6,2;6,3;6,4;6,5
+#### Text ####
+Microsoft, battered by profit taking in recent sessions, sank as much as 4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+844..909
+6,7
+#### Text ####
+it finished at 80 7/8, down 2 1/4 on volume of one million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+985
+8
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+913..983
+7
+#### Text ####
+MCI Communications, the most active issue, finished down 5/8 to 42 1/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+985..1031
+8
+#### Text ####
+MCI traded as low as 41 3/8 during the session
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1033
+9
+____Arg1____
+985..1031
+8
+#### Text ####
+MCI traded as low as 41 3/8 during the session
+##############
+____Arg2____
+1033..1124
+9
+#### Text ####
+Other active stocks included Jaguar, whose American depositary receipts added 1/8 to 11 1/4
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1126
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1033..1124
+9
+#### Text ####
+Other active stocks included Jaguar, whose American depositary receipts added 1/8 to 11 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1126..1163
+10,0
+#### Text ####
+Apple Computer improved 7/8 to 47 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1165
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1126..1163
+10,0
+#### Text ####
+Apple Computer improved 7/8 to 47 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1165..1192
+10,2
+#### Text ####
+Intel slipped 1/4 to 33 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1194..1197
+10,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1126..1192
+10,0;10,1;10,2;10,3
+#### Text ####
+Apple Computer improved 7/8 to 47 5/8; Intel slipped 1/4 to 33 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1198..1240
+10,5
+#### Text ####
+Valley National Corp. was up 1/8 to 15 1/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1521..1524
+12,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1640..1656
+12,1;12,2;12,3;12,4
+#### Text ####
+Mr. DaPuzzo said
+##############
+but, Comparison.Contrast
+____Arg1____
+1245..1295
+11,1
+#### Text ####
+The market started with several strikes against it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1298..1373
+11,0;11,2;11,3;11,4;11,5;11,6;11,8
+#### Text ####
+said Peter DaPuzzo, head of retail equity trading at Shearson Lehman Hutton
+##############
+____Arg2____
+1525..1638
+12,0,1;12,0,2
+#### Text ####
+the computer-guided selling in response to those developments dealt a serious blow to the over-the-counter market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1660..1671
+13,0,0;13,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+1791..1889
+13,2;13,3;13,4;13,5;13,6;13,7;13,8;13,9
+#### Text ####
+when the market does recover, the damage is done and it leaves Nasdaq down more than the Big Board
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1781..1788
+13,1
+#### Text ####
+he said
+##############
+____Arg2____
+1672..1779
+13,0,2
+#### Text ####
+the over-the-counter market usually doesn't fall by as much as listed stocks during program-selling blitzes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1791..1795
+13,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1781..1788
+13,1
+#### Text ####
+he said
+##############
+when, Temporal.Synchrony
+____Arg1____
+1821..1889
+13,2;13,4;13,5;13,6;13,7;13,8;13,9
+#### Text ####
+the damage is done and it leaves Nasdaq down more than the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1796..1819
+13,3,1
+#### Text ####
+the market does recover
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1840..1843
+13,6
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1781..1788
+13,1
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1791..1839
+13,2;13,3;13,4;13,5
+#### Text ####
+when the market does recover, the damage is done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1844..1889
+13,7
+#### Text ####
+it leaves Nasdaq down more than the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1906..1910
+14,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1521..1638
+12,0
+#### Text ####
+But the computer-guided selling in response to those developments dealt a serious blow to the over-the-counter market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1640..1656
+12,1;12,2;12,3;12,4
+#### Text ####
+Mr. DaPuzzo said
+##############
+____Arg2____
+1922..2011
+14,2,1
+#### Text ####
+that the sharp swings in stock prices lately is scaring away retail and foreign investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1894..1905;1911..1921
+14,0;14,2,0;14,3
+#### Text ####
+Mr. DaPuzzo complained
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2013
+15
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1894..2011
+14
+#### Text ####
+Mr. DaPuzzo also complained that the sharp swings in stock prices lately is scaring away retail and foreign investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2013..2220
+15,0
+#### Text ####
+While Shearson doesn't do computer-guided program trading for its own account, the firm does execute orders for clients involved in the buying and selling of shares tied to movements in certain stock indexes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2222..2246
+15,1;15,2;15,3;15,4
+#### Text ####
+Mr. DaPuzzo acknowledged
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2013..2018
+15,0,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2222..2246
+15,1;15,2;15,3;15,4
+#### Text ####
+Mr. DaPuzzo acknowledged
+##############
+while, Comparison.Contrast
+____Arg1____
+2092..2220
+15,0,1;15,0,2;15,0,3
+#### Text ####
+the firm does execute orders for clients involved in the buying and selling of shares tied to movements in certain stock indexes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2019..2090
+15,0,0,1
+#### Text ####
+Shearson doesn't do computer-guided program trading for its own account
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2322
+17
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2250..2320
+16
+#### Text ####
+The volatility inherent in program trading troubled other traders, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2322..2406
+17
+#### Text ####
+They don't like the risks they are forced to assume when prices swing so drastically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2374..2378
+17,1,2,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+2348..2373
+17,1,2,1,1,0;17,1,2,1,1,1,0;17,1,2,1,1,1,1,0;17,1,2,1,1,1,1,1,0;17,1,2,1,1,1,1,1,1
+#### Text ####
+they are forced to assume
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2379..2406
+17,1,2,1,1,1,1,1,2,1
+#### Text ####
+prices swing so drastically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2408
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2322..2406
+17
+#### Text ####
+They don't like the risks they are forced to assume when prices swing so drastically
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2408..2519
+18
+#### Text ####
+Market makers are supposed to keep supplies of stocks on hand to maintain orderly trading when imbalances occur
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2498..2502
+18,1,1,1,1,1,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2470..2497
+18,1,1,1,1,1,2,0;18,1,1,1,1,1,2,1,0;18,1,1,1,1,1,2,1,1,0;18,1,1,1,1,1,2,1,1,1
+#### Text ####
+to maintain orderly trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2503..2519
+18,1,1,1,1,1,2,1,1,2,1
+#### Text ####
+imbalances occur
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2521..2536
+19,0;19,1,0;19,1,1,0
+#### Text ####
+That means that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+2408..2519
+18
+#### Text ####
+Market makers are supposed to keep supplies of stocks on hand to maintain orderly trading when imbalances occur
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2521..2658
+19
+#### Text ####
+That means that on days when prices are tumbling and sellers abound they must be willing to buy shares from sellers when no one else will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2637..2641
+19,1,1,1,2,1,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2532..2636
+19,1,1,0;19,1,1,1,0;19,1,1,1,1;19,1,1,1,2,0;19,1,1,1,2,1,0;19,1,1,1,2,1,1,0;19,1,1,1,2,1,1,1,0;19,1,1,1,2,1,1,1,1,0;19,1,1,1,2,1,1,1,1,1,0;19,1,1,1,2,1,1,1,1,1,1;19,1,1,1,2,1,1,1,1,1,2
+#### Text ####
+that on days when prices are tumbling and sellers abound they must be willing to buy shares from sellers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2642..2658
+19,1,1,1,2,1,1,1,1,1,3,1
+#### Text ####
+no one else will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2660
+20
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2521..2658
+19
+#### Text ####
+That means that on days when prices are tumbling and sellers abound they must be willing to buy shares from sellers when no one else will
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2660..2721
+20
+#### Text ####
+In such an environment, a market maker can absorb huge losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2725..2728
+21,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2521..2658
+19
+#### Text ####
+That means that on days when prices are tumbling and sellers abound they must be willing to buy shares from sellers when no one else will
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2729..2877
+21,1;21,2;21,3
+#### Text ####
+the recent volatility in stock prices caused by the program trading has made some market makers less willing to soak up the stocks that are for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2901
+22
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2725..2877
+21
+#### Text ####
+But the recent volatility in stock prices caused by the program trading has made some market makers less willing to soak up the stocks that are for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2901..3004
+22,1,1
+#### Text ####
+they aren't comfortable carrying big positions in stocks because they realize prices can tumble quickly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2879..2900
+22,0;22,1,0;22,2
+#### Text ####
+The market makers say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2958..2965
+22,1,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2879..2900
+22,0;22,1,0;22,2
+#### Text ####
+The market makers say
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2901..2957
+22,1,1,0;22,1,1,1,0;22,1,1,1,1,0;22,1,1,1,1,1;22,1,1,1,1,2;22,1,1,1,1,3
+#### Text ####
+they aren't comfortable carrying big positions in stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2966..3004
+22,1,1,1,1,4,1
+#### Text ####
+they realize prices can tumble quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3243
+24
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Equivalence
+____Arg1____
+3008..3149
+23
+#### Text ####
+The situation makes it harder to buy and sell shares quickly, exacerbating the rise and fall in stock prices during program-dominated trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3243..3289
+24,4
+#### Text ####
+It's making it tough for traders to make money
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3151..3240
+24,0;24,1;24,2;24,3;24,5;24,6
+#### Text ####
+Groused Robert Antolini, head of over-the-counter trading at Donaldson, Lufkin & Jenrette
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3305
+25
+#### Features ####
+Ot, Comm, Null, Null
+3292..3304
+25,0;25,1,0;25,1,1,0;25,2;25,3
+#### Text ####
+He said that
+##############
+also, Expansion.Conjunction
+____Arg1____
+3243..3289
+24,4
+#### Text ####
+It's making it tough for traders to make money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3305..3434
+25,1,1,1
+#### Text ####
+when sell programs kick in, many traders believe that "there's no sense in sticking your nose out because you're an instant loser
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3305..3309
+25,1,1,1,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3292..3299
+25,0;25,1,0;25,2;25,3
+#### Text ####
+He said
+##############
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+3354..3434
+25,1,1,1,3,1
+#### Text ####
+that "there's no sense in sticking your nose out because you're an instant loser
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3333..3353
+25,1,1,1,1;25,1,1,1,2;25,1,1,1,3,0
+#### Text ####
+many traders believe
+##############
+____Arg2____
+3300..3304;3310..3331
+25,1,1,0;25,1,1,1,0,1
+#### Text ####
+that sell programs kick in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3403..3410
+25,1,1,1,3,1,2,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3333..3353
+25,1,1,1,1;25,1,1,1,2;25,1,1,1,3,0
+#### Text ####
+many traders believe
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3354..3402
+25,1,1,1,3,1,0;25,1,1,1,3,1,1;25,1,1,1,3,1,2,0;25,1,1,1,3,1,2,1,0;25,1,1,1,3,1,2,1,1;25,1,1,1,3,1,2,1,2
+#### Text ####
+that "there's no sense in sticking your nose out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3411..3434
+25,1,1,1,3,1,2,1,3,1
+#### Text ####
+you're an instant loser
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3506
+27
+____Arg1____
+3439..3504
+26
+#### Text ####
+Kinder-Care Learning Centers added 1/4 to 4 7/8 on 461,200 shares
+##############
+____Arg2____
+3506..3752
+27
+#### Text ####
+Lodestar Group said it will make a $6-a-share offer for the remaining Kinder-Care Learning Center common stock if it acquires a majority of the company's shares in a pending rights offering by Kinder-Care Learning Center's parent, Kinder-Care Inc
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3617..3619
+27,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3506..3525
+27,0;27,1,0;27,2
+#### Text ####
+Lodestar Group said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3526..3616
+27,1,1,0;27,1,1,1,0;27,1,1,1,1,0;27,1,1,1,1,1,0;27,1,1,1,1,1,1
+#### Text ####
+it will make a $6-a-share offer for the remaining Kinder-Care Learning Center common stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3620..3752
+27,1,1,1,1,1,2,1
+#### Text ####
+it acquires a majority of the company's shares in a pending rights offering by Kinder-Care Learning Center's parent, Kinder-Care Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3754
+28
+____Arg1____
+3506..3752
+27
+#### Text ####
+Lodestar Group said it will make a $6-a-share offer for the remaining Kinder-Care Learning Center common stock if it acquires a majority of the company's shares in a pending rights offering by Kinder-Care Learning Center's parent, Kinder-Care Inc
+##############
+____Arg2____
+3754..3830
+28
+#### Text ####
+Shares of KinderCare Inc. closed at 3 1/2, also up 1/4, on volume of 700,000
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3797..3801
+28,1,3,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3439..3504
+26
+#### Text ####
+Kinder-Care Learning Centers added 1/4 to 4 7/8 on 461,200 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3754..3796;3802..3830
+28,0;28,1,0;28,1,1;28,1,2;28,1,3,1;28,1,3,2;28,1,4;28,1,5;28,2
+#### Text ####
+Shares of KinderCare Inc. closed at 3 1/2, up 1/4, on volume of 700,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3873
+30
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3834..3871
+29
+#### Text ####
+Ohio Casualty dropped 2 1/8 to 49 1/2
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3873..3966
+30
+#### Text ####
+The company posted third-quarter earnings of 95 cents a share, down from $1.26 a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3990
+31
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3873..3966
+30
+#### Text ####
+The company posted third-quarter earnings of 95 cents a share, down from $1.26 a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3990..4087
+31,1,1
+#### Text ####
+that losses from Hurricane Hugo reduced net income by 32 cents a share in the most recent quarter
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3968..3989
+31,0;31,1,0;31,2
+#### Text ####
+The company estimated
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4186..4189
+32,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4091..4107
+32,0;32,1,0;32,2
+#### Text ####
+The company said
+##############
+but, Comparison.Contrast
+____Arg1____
+4108..4184
+32,1,1,0
+#### Text ####
+losses from the Oct. 17 earthquake in California haven't yet been determined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4190..4273
+32,1,1,3
+#### Text ####
+that it provides earthquake coverage to about 1,400 properties in the stricken area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4275
+33
+____Arg1____
+4091..4273
+32
+#### Text ####
+The company said losses from the Oct. 17 earthquake in California haven't yet been determined, but that it provides earthquake coverage to about 1,400 properties in the stricken area
+##############
+____Arg2____
+4275..4356
+33
+#### Text ####
+Any quake-related losses will be reported in the fourth quarter, the company said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4405
+35
+____Arg1____
+4360..4403
+34
+#### Text ####
+North Atlantic Industries jumped 1 to 5 3/4
+##############
+____Arg2____
+4405..4505
+35
+#### Text ####
+The electronics-instruments maker is to be acquired by Asset Management Associates for $7.25 a share
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4642
+37
+____Arg1____
+4509..4640
+36
+#### Text ####
+LIN Broadcasting slid 1 3/8 to 108 3/4, despite reporting third-quarter net of 46 cents a share, up from 39 cents the previous year
+##############
+____Arg2____
+4642..4850
+37
+#### Text ####
+The company said the latest quarter included about $3.4 million in special legal and financial advisory costs related to McCaw Cellular Communications' bid for the company and LIN's merger pact with BellSouth
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4852
+38
+____Arg1____
+4642..4850
+37
+#### Text ####
+The company said the latest quarter included about $3.4 million in special legal and financial advisory costs related to McCaw Cellular Communications' bid for the company and LIN's merger pact with BellSouth
+##############
+____Arg2____
+4852..4877
+38
+#### Text ####
+McCaw was unchanged at 40
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5019
+40
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4881..5017
+39
+#### Text ####
+XL/Datacomp slid 2 1/4 to 16 1/2 amid continuing concerns about the company's contract negotiations with International Business Machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5019..5224
+40
+#### Text ####
+IBM is reviewing its entire business-partners program, and XL/Datacomp confirmed earlier this month that it was in talks with the company about possible modifications to its current IBM-remarketer contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5074..5077
+40,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5019..5072
+40,0
+#### Text ####
+IBM is reviewing its entire business-partners program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5119..5224
+40,3,1,2
+#### Text ####
+that it was in talks with the company about possible modifications to its current IBM-remarketer contract
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5078..5118
+40,3,0;40,3,1,0;40,3,1,1
+#### Text ####
+XL/Datacomp confirmed earlier this month
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5226
+41
+____Arg1____
+5019..5224
+40
+#### Text ####
+IBM is reviewing its entire business-partners program, and XL/Datacomp confirmed earlier this month that it was in talks with the company about possible modifications to its current IBM-remarketer contract
+##############
+____Arg2____
+5226..5307
+41
+#### Text ####
+Remarketers make modifications to IBM's computer hardware and resell the products
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5371
+43
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5311..5352
+42
+#### Text ####
+Omni Capital Group surged 1 3/4 to 16 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5371..5477
+43,1,1
+#### Text ####
+net rose to 38 cents a share in its fiscal-first quarter ended Sept. 30, from 35 cents a shares a year ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5354..5370
+43,0;43,1,0;43,2
+#### Text ####
+The company said
+##############
+________________________________________________________

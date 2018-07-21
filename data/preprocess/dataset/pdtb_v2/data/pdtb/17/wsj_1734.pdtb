@@ -1,0 +1,127 @@
+________________________________________________________
+____EntRel____
+300
+2
+____Arg1____
+200..298
+1
+#### Text ####
+The offer from IMA Acquisition Corp., for as many as 63 million shares, is set to expire Wednesday
+##############
+____Arg2____
+300..425
+2,0
+#### Text ####
+Earlier this month, IMA said it had received about $1 billion of senior debt financing from Chemical Bank and six other banks
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+446
+2
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+329..425
+2,0,3,1
+#### Text ####
+it had received about $1 billion of senior debt financing from Chemical Bank and six other banks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+300..328
+2,0,0;2,0,1;2,0,2;2,0,3,0
+#### Text ####
+Earlier this month, IMA said
+##############
+____Arg2____
+446..522
+2,2,1,1
+#### Text ####
+it was "highly confident" it could arrange the balance of about $509 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+427..445
+2,2,0;2,2,1,0
+#### Text ####
+Chemical Bank said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+526..537
+3,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+81..196
+0,1,1
+#### Text ####
+it formally received the final financing needed for a $3 billion bid for about 86% of the hospital operator's stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..80
+0,0;0,1,0;0,2
+#### Text ####
+A group bidding for American Medical International Inc., New York, said
+##############
+____Arg2____
+539..719
+3,1;3,2;3,3;3,4
+#### Text ####
+the $3 billion bid includes $1 billion of debt that will be assumed by IMA, $600 million of high-yield junk bonds that will be sold by First Boston Corp. and $285 million of equity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+971
+6
+____Arg1____
+828..969
+5
+#### Text ####
+American Medical has agreed to the offer, but earlier this month said it had received new "expressions of interest" from two previous bidders
+##############
+____Arg2____
+971..1098
+6
+#### Text ####
+American Medical said it would pursue the inquiries from the companies, but wouldn't identify them unless they make firm offers
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1070..1076
+6,1,1,1,1,3,0,2,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1043..1069
+6,1,1,1,1,2;6,1,1,1,1,3,0,0;6,1,1,1,1,3,0,1;6,1,1,1,1,3,0,2,0;6,1,1,1,1,3,0,2,1
+#### Text ####
+but wouldn't identify them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1077..1098
+6,1,1,1,1,3,0,2,2,1
+#### Text ####
+they make firm offers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,473 @@
+________________________________________________________
+____Implicit____
+60
+1
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+9..58
+0
+#### Text ####
+They want late-night shuttles to the biology labs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+60..87
+1
+#### Text ####
+They want a 24-hour library
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+89..92
+2,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9..87
+0;1
+#### Text ####
+They want late-night shuttles to the biology labs.
+They want a 24-hour library
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+93..165
+2,1;2,2;2,3;2,4,0;2,4,1,0;2,4,1,1,0;2,4,1,1,1,0;2,4,1,1,1,1;2,5
+#### Text ####
+like college radicals everywhere, they are talking about a demonstration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+169..271
+2,4,1,1,1,2
+#### Text ####
+where protesters would gather quietly near the science building and raise their hands, classroom style
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+418
+4
+____Arg1____
+275..416
+3
+#### Text ####
+Such is the fiber of the wool that woolly intellectuals let fly at gatherings of Harvard University's new Society of Nerds and Geeks, or SONG
+##############
+____Arg2____
+418..577
+4
+#### Text ####
+SONGsters are mad as heck about campus anti-intellectualism and they aren't going to take it anymore, at least not without trying a few really neat ideas first
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+478..481
+4,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+418..477
+4,0
+#### Text ####
+SONGsters are mad as heck about campus anti-intellectualism
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+482..577
+4,2
+#### Text ####
+they aren't going to take it anymore, at least not without trying a few really neat ideas first
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+648..651
+5,0,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+724..841
+5,1;5,2;5,3
+#### Text ####
+Leonid Fridman, SONG's graduate-student adviser, told 19 attendees at the club's inaugural meeting earlier this month
+##############
+but, Comparison
+____Arg1____
+582..646
+5,0,1
+#### Text ####
+We could have called ourselves the Academic Intellectual Society
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+652..719
+5,0,4
+#### Text ####
+then everyone would have said, `Oh, you mean the nerd-and-geek club
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+652..656
+5,0,4,0
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+724..841
+5,1;5,2;5,3
+#### Text ####
+Leonid Fridman, SONG's graduate-student adviser, told 19 attendees at the club's inaugural meeting earlier this month
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+582..646
+5,0,1
+#### Text ####
+We could have called ourselves the Academic Intellectual Society
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+648..651;657..719
+5,0,3;5,0,4,1;5,0,4,2;5,0,5
+#### Text ####
+but everyone would have said, `Oh, you mean the nerd-and-geek club
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+858..863
+6,1,1
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+582..841
+5
+#### Text ####
+We could have called ourselves the Academic Intellectual Society, but then everyone would have said, `Oh, you mean the nerd-and-geek club, '" Leonid Fridman, SONG's graduate-student adviser, told 19 attendees at the club's inaugural meeting earlier this month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+843..892
+6
+#### Text ####
+Membership has since swelled to between 20 and 25
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1079
+8
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+896..1077
+7
+#### Text ####
+Some people may think of nerds as calculator-toting, socially awkward individuals with shirt-pocket liners for their pencils and a preoccupation with computers and matters numerical
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1079..1150
+8
+#### Text ####
+Geeks, by at least one definition, are chicken-mutilating circus freaks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1154..1157
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+896..1150
+7;8
+#### Text ####
+Some people may think of nerds as calculator-toting, socially awkward individuals with shirt-pocket liners for their pencils and a preoccupation with computers and matters numerical.
+Geeks, by at least one definition, are chicken-mutilating circus freaks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1158..1281
+9,1;9,2;9,3
+#### Text ####
+SONG founder Jeremy Kahn, a Harvard junior, thinks of nerds and geeks more as "nonconformists," albeit with a studious bent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1283
+10
+____Arg1____
+1154..1281
+9
+#### Text ####
+But SONG founder Jeremy Kahn, a Harvard junior, thinks of nerds and geeks more as "nonconformists," albeit with a studious bent
+##############
+____Arg2____
+1283..1414
+10
+#### Text ####
+One of the group's first projects is a "procrastination hot line" that students could call when they have an urge to delay studying
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1374..1378
+10,1,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+1349..1373
+10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1,0;10,1,1,1,1,1,1,1
+#### Text ####
+that students could call
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1379..1414
+10,1,1,1,1,1,1,2,1
+#### Text ####
+they have an urge to delay studying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1632
+12
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1418..1630
+11
+#### Text ####
+The club plans to show nerdy movies, such as "Real Genius," in which physics whizzes pop corn with lasers; and naturally, the "Revenge of the Nerds," a tale of college males with runny noses and ill-fitting pants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1632..1821
+12
+#### Text ####
+One of its "more ambitious goals" is to get Jaime Escalante, the Los Angeles high-school mathematics teacher featured in the film "Stand and Deliver," to come to Harvard for a guest lecture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1894..1896
+14,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1825..1892
+13
+#### Text ####
+Nerds and geeks sometimes find themselves a bit isolated at Harvard
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1911..2089
+14,2,1
+#### Text ####
+high priority is being given to creating a computerized matchmaking service "where instead of being matched for eye color, you could be matched for similar intellectual interests
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1897..1910
+14,1;14,2,0;14,3;14,4
+#### Text ####
+Mr. Kahn says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2092..2104
+15,0;15,1
+#### Text ####
+For instance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1897..1910
+14,1;14,2,0;14,3;14,4
+#### Text ####
+Mr. Kahn says
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+1988..2089
+14,2,1,1,1,1,1,2,1,1,1,2
+#### Text ####
+where instead of being matched for eye color, you could be matched for similar intellectual interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2107..2251
+16;17
+#### Text ####
+I'm a math major, but I want to know about psychobiology.
+Hopefully, I'd find someone in psychobiology who wanted to know more about mathematics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2125..2128
+16,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1897..1910
+14,1;14,2,0;14,3;14,4
+#### Text ####
+Mr. Kahn says
+##############
+but, Comparison
+____Arg1____
+2107..2123
+16,1
+#### Text ####
+I'm a math major
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2129..2163
+16,4
+#### Text ####
+I want to know about psychobiology
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2165
+17
+#### Features ####
+Ot, Comm, Null, Null
+1894..1910
+14,0;14,1;14,2,0;14,3;14,4
+#### Text ####
+So Mr. Kahn says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2092..2163
+15;16
+#### Text ####
+For instance? "I'm a math major, but I want to know about psychobiology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2165..2251
+17
+#### Text ####
+Hopefully, I'd find someone in psychobiology who wanted to know more about mathematics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2271..2280
+19,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Sup1____
+1894..2251
+14;15;16;17
+#### Text ####
+So Mr. Kahn says high priority is being given to creating a computerized matchmaking service "where instead of being matched for eye color, you could be matched for similar intellectual interests." For instance? "I'm a math major, but I want to know about psychobiology.
+Hopefully, I'd find someone in psychobiology who wanted to know more about mathematics
+##############
+____Arg1____
+2256..2269
+18
+#### Text ####
+It could work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2282..2347
+19,1;19,2;19,3;19,4;19,5
+#### Text ####
+finding a volunteer to write the computer program isn't a problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

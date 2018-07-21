@@ -1,0 +1,494 @@
+________________________________________________________
+____Explicit____
+262..265
+1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+221..259
+1,0,1,3
+#### Text ####
+they had been in Britain for a century
+##############
+____Arg1____
+159..219
+1,0,0;1,0,1,0;1,0,1,1;1,0,1,2
+#### Text ####
+MUTUAL FUNDS ARRIVED IN THE U.S. during the Roaring Twenties
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+266..335
+1,3
+#### Text ####
+they didn't boom until the money market fund was created in the 1970s
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+283..288
+1,3,1,2,1,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Succession
+____Arg1____
+262..282
+1,2;1,3,0;1,3,1,0;1,3,1,1;1,3,1,2,0;1,4
+#### Text ####
+but they didn't boom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+289..335
+1,3,1,2,1,1
+#### Text ####
+the money market fund was created in the 1970s
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+337
+2
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+283..335
+1,3,1,2,1
+#### Text ####
+until the money market fund was created in the 1970s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+337..381
+2
+#### Text ####
+By 1980, there were more than 100 such funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+383
+3
+____Arg1____
+337..381
+2
+#### Text ####
+By 1980, there were more than 100 such funds
+##############
+____Arg2____
+383..483
+3
+#### Text ####
+Besides creating a vehicle for investors, money market funds also helped rewrite banking regulations
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+383..390
+3,0,0
+#### Text ####
+Besides
+##############
+#### Features ####
+Wr, Comm, Null, Null
+besides, Expansion.Conjunction
+____Arg1____
+425..483
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+money market funds also helped rewrite banking regulations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+391..423
+3,0,1
+#### Text ####
+creating a vehicle for investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+444..448
+3,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+383..423
+3,0
+#### Text ####
+Besides creating a vehicle for investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+425..443;449..483
+3,1;3,2;3,4;3,5
+#### Text ####
+money market funds helped rewrite banking regulations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+618
+5
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+487..616
+4
+#### Text ####
+The idea was to let small investors, the backbone of the fund business, deal in the money market's high short-term interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+618..770
+5
+#### Text ####
+This had been the exclusive province of those rich enough to use six-figure sums to get income that was figured beyond the third or fourth decimal place
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+835
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+774..833
+6
+#### Text ####
+The now-standard price of $1 a share came about by accident
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+835..948
+7
+#### Text ####
+An early fund had filed a registration with the Securities and Exchange Commission that included a fixed $1 price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+950
+8
+____Arg1____
+835..948
+7
+#### Text ####
+An early fund had filed a registration with the Securities and Exchange Commission that included a fixed $1 price
+##############
+____Arg2____
+950..1020
+8
+#### Text ####
+It arrived just as the regulator handling such operations was retiring
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+961..968
+8,1,1,0;8,1,1,1
+#### Text ####
+just as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+950..960
+8,0;8,1,0;8,2
+#### Text ####
+It arrived
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+969..1020
+8,1,1,2
+#### Text ####
+the regulator handling such operations was retiring
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1022
+9
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+950..1020
+8
+#### Text ####
+It arrived just as the regulator handling such operations was retiring
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1022..1117
+9
+#### Text ####
+His successor approved the $1 price in the process of clearing the backed-up papers on his desk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1119
+10
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+1022..1117
+9
+#### Text ####
+His successor approved the $1 price in the process of clearing the backed-up papers on his desk
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1119..1273
+10
+#### Text ####
+When Dreyfus started the first advertising-backed retail fund in February 1974, it was priced at $10 a share (and reached $1 billion in assets in one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1119..1123
+10,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Sup1____
+1228..1273
+10,3,1,1;10,3,1,2
+#### Text ####
+(and reached $1 billion in assets in one year
+##############
+____Arg1____
+1199..1227
+10,1;10,2;10,3,0;10,4;10,5
+#### Text ####
+it was priced at $10 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1124..1197
+10,0,1
+#### Text ####
+Dreyfus started the first advertising-backed retail fund in February 1974
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1276
+11
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1119..1227
+10,0;10,1;10,2;10,3,0;10,4;10,5
+#### Text ####
+When Dreyfus started the first advertising-backed retail fund in February 1974, it was priced at $10 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1276..1411
+11
+#### Text ####
+Dreyfus moved to the $1 price after the SEC set standards -- an average 120-day maturity of high-grade paper -- that are still the rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1306..1311
+11,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1276..1305
+11,0;11,1,0;11,1,1;11,2
+#### Text ####
+Dreyfus moved to the $1 price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1312..1411
+11,1,2,1
+#### Text ####
+the SEC set standards -- an average 120-day maturity of high-grade paper -- that are still the rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1480
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1415..1478
+12
+#### Text ####
+Keeping the listed price at a dollar is primarily a convenience
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1480..1548
+13
+#### Text ####
+Actually, the funds do fluctuate, but beyond the third decimal place
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1550
+14
+____Arg1____
+1480..1548
+13
+#### Text ####
+Actually, the funds do fluctuate, but beyond the third decimal place
+##############
+____Arg2____
+1550..1579
+14
+#### Text ####
+Rounding-off keeps them at $1
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1731..1735
+16,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1583..1710
+15
+#### Text ####
+Eventually, the money funds' success forced relaxation of curbs on bank interest rates to allow banks to offer competing yields
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1712..1730;1736..1767
+16,0,0;16,0,2
+#### Text ####
+The new instrument introduced many to the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1771..1857
+16,2
+#### Text ####
+30% of fund owners (there are more than 54 million accounts) started with a money fund
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1943
+18
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition, Expansion.Conjunction
+____Arg1____
+1861..1940
+17
+#### Text ####
+Today more than 470 money market funds have total assets exceeding $350 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1943..1989
+18
+#### Text ####
+The companion tax-exempt funds add $71 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1992
+19
+____Arg1____
+1943..1989
+18
+#### Text ####
+The companion tax-exempt funds add $71 billion
+##############
+____Arg2____
+1992..2097
+19
+#### Text ####
+Dreyfus alone has seen its money market funds grow from $1 billion in 1975 to closes to $15 billion today
+##############
+________________________________________________________

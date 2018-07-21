@@ -1,0 +1,155 @@
+________________________________________________________
+____Implicit____
+411
+2
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+226..409
+1
+#### Text ####
+The Financial Accounting Foundation voted 12-2 that FASB accounting rules supercede GASB rules in regard to utilities, hospitals, and colleges and universities owned by the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+411..460
+2
+#### Text ####
+GASB rules still apply for other government units
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+422..427
+2,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+226..409
+1
+#### Text ####
+The Financial Accounting Foundation voted 12-2 that FASB accounting rules supercede GASB rules in regard to utilities, hospitals, and colleges and universities owned by the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+411..421;428..460
+2,0;2,2;2,3
+#### Text ####
+GASB rules apply for other government units
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+464..469
+3,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Sup1____
+590..621
+3,2,1,1,1,1,2
+#### Text ####
+unless the GASB superceded them
+##############
+____Arg1____
+525..589
+3,1;3,2,0;3,2,1,0;3,2,1,1,0;3,2,1,1,1,0;3,2,1,1,1,1,0;3,2,1,1,1,1,1;3,3
+#### Text ####
+the government-owned entities were supposed to follow FASB rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+470..523
+3,0,1
+#### Text ####
+the GASB was founded in 1984, 11 years after the FASB
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+590..596
+3,2,1,1,1,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+525..589
+3,1;3,2,0;3,2,1,0;3,2,1,1,0;3,2,1,1,1,0;3,2,1,1,1,1,0;3,2,1,1,1,1,1;3,3
+#### Text ####
+the government-owned entities were supposed to follow FASB rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+597..621
+3,2,1,1,1,1,2,1
+#### Text ####
+the GASB superceded them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+623
+4
+____Arg1____
+464..621
+3
+#### Text ####
+After the GASB was founded in 1984, 11 years after the FASB, the government-owned entities were supposed to follow FASB rules unless the GASB superceded them
+##############
+____Arg2____
+623..836
+4
+#### Text ####
+The GASB had told governments they didn't have to follow FASB rules on depreciation, making it difficult for bond-rating agencies to compare private and state-owned schools, which compete in the public bond market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1077..1080
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+840..1075
+5
+#### Text ####
+The foundation vote is effective for the affected government entities with fiscal years that begin starting next Jan. 1 and makes the financial results of the hospitals, colleges and schools easier to compare with for-profit businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1081..1225
+6,1;6,2;6,3
+#### Text ####
+it may lead to separate financial reports based on different rules for the government entities under FASB rules and those still under GASB rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

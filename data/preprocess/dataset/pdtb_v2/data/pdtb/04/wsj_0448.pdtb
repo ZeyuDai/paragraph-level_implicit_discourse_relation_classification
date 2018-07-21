@@ -1,0 +1,240 @@
+________________________________________________________
+____Explicit____
+521..532
+2,1,4,0;2,1,4,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+427..518
+2,0;2,1,0;2,1,1;2,1,2;2,1,3;2,2
+#### Text ####
+The tab even covers $8 million in commitment fees owed to Citicorp and Chase Manhattan Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+533..636
+2,1,4,2
+#### Text ####
+their failure to obtain $7.2 billion in bank loans for the buy-out was the main reason for its collapse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+778..785
+3,3,1,1,1,3,0;3,3,1,1,1,3,1
+#### Text ####
+even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+704..777
+3,3,1,0;3,3,1,1,0;3,3,1,1,1,0;3,3,1,1,1,1;3,3,1,1,1,2
+#### Text ####
+to reimburse certain of the buy-out group's expenses out of company funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+786..818
+3,3,1,1,1,3,2
+#### Text ####
+the transaction wasn't completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+868
+4
+____Arg1____
+640..866
+3
+#### Text ####
+Under a merger agreement reached Sept. 14, the UAL board agreed to reimburse certain of the buy-out group's expenses out of company funds even if the transaction wasn't completed, provided the group didn't breach the agreement
+##############
+____Arg2____
+868..937
+4
+#### Text ####
+The failure to obtain financing doesn't by itself constitute a breach
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1187..1191
+6,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+941..966
+5,0;5,1,0;5,2
+#### Text ####
+The merger agreement says
+##############
+also, Expansion.Conjunction
+____Arg1____
+967..1162
+5,1,1
+#### Text ####
+the buy-out group is entitled to be repaid $26.7 million in fees for its investment bankers, Lazard Freres & Co. and Salomon Brothers Inc., and its law firm, Paul Weiss Rifkind Wharton & Garrison
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1166..1186;1192..1296
+6,0;6,1,0;6,1,2;6,2
+#### Text ####
+The buy-out group is entitled to $16 million to repay a fund created by the pilots union for an employee stock ownership plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1298
+7
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1166..1296
+6
+#### Text ####
+The buy-out group is also entitled to $16 million to repay a fund created by the pilots union for an employee stock ownership plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1298..1441
+7
+#### Text ####
+In addition to the $8 million for Citicorp and Chase, Salomon Brothers is also owed $3 million for promising to make a $200 million bridge loan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1523..1533
+9,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+148..191
+0,1,2,2
+#### Text ####
+from collecting up to $53.7 million in fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1535..1776
+9,1;9,2;9,3;9,4
+#### Text ####
+UAL stock rose $4 a share to $175 in composite trading on the New York Stock Exchange on reports that Los Angeles investor Marvin Davis has asked United Airlines unions if they're interested in cooperating with Mr. Davis in a new bid for UAL
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1780..1783
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1632..1776
+9,3,4,1,1
+#### Text ####
+that Los Angeles investor Marvin Davis has asked United Airlines unions if they're interested in cooperating with Mr. Davis in a new bid for UAL
+##############
+#### Features ####
+Arb, Comm, Null, Null
+1621..1631
+9,3,4,0;9,3,4,1,0
+#### Text ####
+on reports
+##############
+____Arg2____
+1784..1839
+10,1
+#### Text ####
+neither the pilots nor the machinists appear interested
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1841..1844
+10,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1780..1839
+10,0;10,1;10,2
+#### Text ####
+But neither the pilots nor the machinists appear interested
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1845..1991
+10,4
+#### Text ####
+Mr. Davis is barred from making a new bid under terms of an agreement he made with UAL in September unless UAL accepts an offer below $300 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1945..1951
+10,4,1,1,4,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1841..1944
+10,3;10,4,0;10,4,1,0;10,4,1,1,0;10,4,1,1,1;10,4,1,1,2;10,4,1,1,3;10,5
+#### Text ####
+and Mr. Davis is barred from making a new bid under terms of an agreement he made with UAL in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1952..1991
+10,4,1,1,4,1
+#### Text ####
+UAL accepts an offer below $300 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

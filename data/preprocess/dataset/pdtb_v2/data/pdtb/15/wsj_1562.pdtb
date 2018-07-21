@@ -1,0 +1,1955 @@
+________________________________________________________
+____Explicit____
+9..13
+0,0,0
+#### Text ####
+ONCE
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession
+____Arg1____
+57..80
+0,1;0,2;0,3;0,4
+#### Text ####
+the rest is easy, right
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14..55
+0,0,1
+#### Text ####
+YOU MAKE UP your mind about an investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+82
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..80
+0
+#### Text ####
+ONCE YOU MAKE UP your mind about an investment, the rest is easy, right
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+82..130
+1
+#### Text ####
+You just call your broker and say "buy" or "sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+145
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+135..143
+2
+#### Text ####
+Dream on
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+145..293
+3
+#### Text ####
+There are all sorts of ways to give buy and sell instructions to a broker -- and just as many ways to get burned if you don't know what you're doing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+258..260
+3,1,1,3,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+244..257
+3,1,1,3,1,0;3,1,1,3,1,1,0;3,1,1,3,1,1,1,0;3,1,1,3,1,1,1,1,0;3,1,1,3,1,1,1,1,1,0;3,1,1,3,1,1,1,1,1,1;3,1,1,3,1,1,1,1,1,3
+#### Text ####
+to get burned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+261..293
+3,1,1,3,1,1,1,1,1,2,1
+#### Text ####
+you don't know what you're doing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+297..299
+4,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+145..293
+3
+#### Text ####
+There are all sorts of ways to give buy and sell instructions to a broker -- and just as many ways to get burned if you don't know what you're doing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+300..405
+4,1;4,2;4,3;4,4
+#### Text ####
+here's a rundown of the most common types of market orders permitted by the stock and commodity exchanges
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+407
+5
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+297..405
+4
+#### Text ####
+So here's a rundown of the most common types of market orders permitted by the stock and commodity exchanges
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+407..433
+5,0;5,1;5,3
+#### Text ####
+Two things to keep in mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+435
+5
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Conjunction
+____Arg1____
+407..433
+5,0;5,1;5,3
+#### Text ####
+Two things to keep in mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+435..479
+5,2
+#### Text ####
+Not all exchanges accept every type of order
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+481..484
+6,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+407..433
+5,0;5,1;5,3
+#### Text ####
+Two things to keep in mind
+##############
+____Arg1____
+435..479
+5,2
+#### Text ####
+Not all exchanges accept every type of order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+485..596
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+even when a specific order is acceptable to an exchange, a brokerage firm can refuse to enter it for a customer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+485..494
+6,1,0
+#### Text ####
+even when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Comparison.Concession.Expectation
+____Arg1____
+481..484;542..596
+6,0;6,2;6,3;6,4;6,5
+#### Text ####
+And a brokerage firm can refuse to enter it for a customer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+495..540
+6,1,1
+#### Text ####
+a specific order is acceptable to an exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+723..728
+7,2,1,2,3,1,4,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+661..721
+7,2,1,2,2;7,2,1,2,3,0;7,2,1,2,3,1,0;7,2,1,2,3,1,1;7,2,1,2,3,1,2;7,2,1,2,3,1,3
+#### Text ####
+and the one most open to abuse by unscrupulous floor brokers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+729..761
+7,2,1,2,3,1,4,1
+#### Text ####
+it imposes no price restrictions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+763
+8
+____Arg1____
+600..761
+7
+#### Text ####
+Market Order: This is probably the most widely used order -- and the one most open to abuse by unscrupulous floor brokers, since it imposes no price restrictions
+##############
+____Arg2____
+763..840
+8
+#### Text ####
+With a market order, an investor tells a broker to buy or sell "at the market
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+843
+9
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+763..840
+8
+#### Text ####
+With a market order, an investor tells a broker to buy or sell "at the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+843..895
+9
+#### Text ####
+It's like saying, "get me in now" or "get me out now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+877..879
+9,1,1,1,1,3,1,2
+#### Text ####
+or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative
+____Arg1____
+862..875
+9,1,1,1,1,3,0;9,1,1,1,1,3,1,0;9,1,1,1,1,3,1,1
+#### Text ####
+get me in now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+881..895
+9,1,1,1,1,3,1,3;9,1,1,1,1,3,1,4
+#### Text ####
+get me out now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+898..909
+10,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Sup1____
+843..895
+9
+#### Text ####
+It's like saying, "get me in now" or "get me out now
+##############
+____Arg1____
+763..840
+8
+#### Text ####
+With a market order, an investor tells a broker to buy or sell "at the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+911..1069
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+if wheat is being offered at $4.065 and bid at $4.060, a market order to buy would be filled at the higher price and a market order to sell at the lower price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+911..913
+10,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+898..909;966..1069
+10,0;10,1;10,3;10,4;10,5
+#### Text ####
+For example a market order to buy would be filled at the higher price and a market order to sell at the lower price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+914..964
+10,2,1
+#### Text ####
+wheat is being offered at $4.065 and bid at $4.060
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1099
+11
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+898..1069
+10
+#### Text ####
+For example, if wheat is being offered at $4.065 and bid at $4.060, a market order to buy would be filled at the higher price and a market order to sell at the lower price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1099..1276
+11,1,1
+#### Text ####
+that some floor brokers at the two largest Chicago commodity exchanges used market orders to fill customers' orders at unfavorable prices by arranging trades with fellow brokers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1071..1098
+11,0;11,1,0;11,2
+#### Text ####
+A recent indictment alleges
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1319..1323
+12,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1071..1098
+11,0;11,1,0;11,2
+#### Text ####
+A recent indictment alleges
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1099..1276
+11,1,1
+#### Text ####
+that some floor brokers at the two largest Chicago commodity exchanges used market orders to fill customers' orders at unfavorable prices by arranging trades with fellow brokers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1278..1318;1324..1359
+12,0;12,1,0;12,1,2;12,2
+#### Text ####
+Profits realized from these trades would be shared by the conspiring brokers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1398..1402
+13,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+1376..1397
+13,2,0;13,2,1,0;13,2,1,1,0;13,2,1,1,1
+#### Text ####
+Limit orders are used
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1403..1483
+13,2,1,1,2,1
+#### Text ####
+investors want to restrict the amount they will receive or pay for an investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1485
+14
+____Arg1____
+1376..1483
+13,2
+#### Text ####
+Limit orders are used when investors want to restrict the amount they will receive or pay for an investment
+##############
+____Arg2____
+1485..1613
+14
+#### Text ####
+Investors do this by specifying a minimum price at which the investment may be sold or the maximum price that may be paid for it
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1615
+15
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1485..1613
+14
+#### Text ####
+Investors do this by specifying a minimum price at which the investment may be sold or the maximum price that may be paid for it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1615..1683
+15
+#### Text ####
+Suppose an investor wants to sell a stock, but not for less than $55
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1685
+16
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+1615..1683
+15
+#### Text ####
+Suppose an investor wants to sell a stock, but not for less than $55
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1685..1737
+16
+#### Text ####
+A limit order to sell could be entered at that price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1739
+17
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1685..1737
+16
+#### Text ####
+A limit order to sell could be entered at that price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1739..1747
+17,0;17,1;17,3
+#### Text ####
+One risk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1786..1788
+17,2,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1749..1785
+17,2,0;17,2,1,0;17,2,1,1,0;17,2,1,1,1
+#### Text ####
+Investors may regret the restriction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1789..1824
+17,2,1,1,2,1
+#### Text ####
+the stock reaches 54 and then falls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1814..1818
+17,2,1,1,2,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1786..1809
+17,2,1,1,2,0;17,2,1,1,2,1,0;17,2,1,1,2,1,1,0
+#### Text ####
+if the stock reaches 54
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1810..1813;1819..1824
+17,2,1,1,2,1,1,1;17,2,1,1,2,1,1,3
+#### Text ####
+and falls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1828..1834
+18,0,0
+#### Text ####
+Unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1934..2083
+18,1;18,2;18,3;18,4
+#### Text ####
+investors aren't assured of having their orders filled because there may not be sufficient trading volume to permit filling it at the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1835..1932
+18,0,1
+#### Text ####
+the market goes at least one tick (the smallest price increment permitted) beyond the limit price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1989..1996
+18,3,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1828..1988
+18,0;18,1;18,2;18,3,0;18,3,1;18,3,2,0;18,3,2,1;18,3,2,2;18,4
+#### Text ####
+Unless the market goes at least one tick (the smallest price increment permitted) beyond the limit price, investors aren't assured of having their orders filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1997..2083
+18,3,2,3,1
+#### Text ####
+there may not be sufficient trading volume to permit filling it at the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2160..2164
+19,2,1,2,1,1,4,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2099..2130
+19,2,0;19,2,1,0;19,2,1,1
+#### Text ####
+Stop orders tell a floor broker
+##############
+once, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+2131..2159
+19,2,1,2,0;19,2,1,2,1,0;19,2,1,2,1,1,0;19,2,1,2,1,1,1;19,2,1,2,1,1,2;19,2,1,2,1,1,3
+#### Text ####
+to buy or sell an investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2165..2198
+19,2,1,2,1,1,4,1
+#### Text ####
+the price reaches a certain level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2200
+20
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2099..2198
+19,2
+#### Text ####
+Stop orders tell a floor broker to buy or sell an investment once the price reaches a certain level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2200..2335
+20
+#### Text ####
+Once the price reaches that level, a stop order turns into a market order, and the order is filled at whatever price the broker can get
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2200..2204
+20,0,0
+#### Text ####
+Once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+2235..2335
+20,1;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+a stop order turns into a market order, and the order is filled at whatever price the broker can get
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2205..2233
+20,0,1
+#### Text ####
+the price reaches that level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2275..2278
+20,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+2200..2273
+20,0;20,1;20,2;20,3
+#### Text ####
+Once the price reaches that level, a stop order turns into a market order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2279..2335
+20,5
+#### Text ####
+the order is filled at whatever price the broker can get
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2337
+21
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2200..2335
+20
+#### Text ####
+Once the price reaches that level, a stop order turns into a market order, and the order is filled at whatever price the broker can get
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2337..2456
+21
+#### Text ####
+Stop orders are sometimes called "stop-loss" orders because they are frequently used to protect profits or limit losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2389..2396
+21,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2337..2388
+21,0;21,1,0;21,1,1;21,1,2,0;21,1,2,1;21,2
+#### Text ####
+Stop orders are sometimes called "stop-loss" orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2397..2456
+21,1,2,2,1
+#### Text ####
+they are frequently used to protect profits or limit losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2460..2465
+22,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+2509..2530
+22,1;22,2;22,3,0;22,3,1,0;22,3,1,1;22,4
+#### Text ####
+there is a difference
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2466..2507
+22,0,1
+#### Text ####
+stop orders sound similar to limit orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2532
+22
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2460..2530
+22,0;22,1;22,2;22,3,0;22,3,1,0;22,3,1,1;22,4
+#### Text ####
+While stop orders sound similar to limit orders, there is a difference
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2532..2728
+22,3,1,2;23
+#### Text ####
+Sell stops must be entered at a price below the current market price and buy stops above.
+In contrast, sell limit orders must be placed above the market price and buy limit orders are placed below
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2601..2604
+22,3,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2532..2600
+22,3,1,2,0
+#### Text ####
+Sell stops must be entered at a price below the current market price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2605..2620
+22,3,1,2,2
+#### Text ####
+buy stops above
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2622..2633
+23,0
+#### Text ####
+In contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in contrast, Comparison.Contrast.Opposition
+____Arg1____
+2532..2620
+22,3,1,2
+#### Text ####
+Sell stops must be entered at a price below the current market price and buy stops above
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2635..2728
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+sell limit orders must be placed above the market price and buy limit orders are placed below
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2691..2694
+23,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2622..2690
+23,0;23,1;23,2
+#### Text ####
+In contrast, sell limit orders must be placed above the market price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2695..2728
+23,4
+#### Text ####
+buy limit orders are placed below
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2861
+25
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2732..2859
+24
+#### Text ####
+The crash in October 1987 and last Friday's sell-off painfully taught some investors exactly what stop orders will and won't do
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2861..3098
+25
+#### Text ####
+An investor who may have placed a stop-loss order at $90 under a stock that was trading at $100 a share on the Friday before the crash was stunned to discover that the order was filled at $75 when the stock opened at that price on Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3053..3057
+25,1,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3008..3019
+25,1,1,1,0;25,1,1,1,1,0;25,1,1,1,1,1,0
+#### Text ####
+to discover
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+3020..3052
+25,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,1,1;25,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+that the order was filled at $75
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3058..3098
+25,1,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+the stock opened at that price on Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3161..3165
+26,2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+3120..3160
+26,2,0;26,2,1,0;26,2,1,1
+#### Text ####
+Stop-limit orders turn into limit orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3166..3222
+26,2,1,2,1
+#### Text ####
+an investment trades at the price specified in the order
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3224
+27
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3120..3222
+26,2
+#### Text ####
+Stop-limit orders turn into limit orders when an investment trades at the price specified in the order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3224..3389
+27
+#### Text ####
+Unlike stop orders -- which are filled at the market price when the stop price is hit -- stop-limit orders demand that the trades be made only at the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3283..3287
+27,0,1,2,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Condition.General
+____Arg1____
+3246..3282
+27,0,1,2,0;27,0,1,2,1,0;27,0,1,2,1,1,0;27,0,1,2,1,1,1,0;27,0,1,2,1,1,1,1;27,0,1,2,1,1,1,2
+#### Text ####
+which are filled at the market price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3288..3309
+27,0,1,2,1,1,1,3,1
+#### Text ####
+the stop price is hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3391
+28
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+3224..3242;3313..3389
+27,0,0;27,0,1,0;27,0,1,1;27,0,1,3;27,1;27,2;27,3
+#### Text ####
+Unlike stop orders stop-limit orders demand that the trades be made only at the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3391..3447
+28
+#### Text ####
+If it can't be made at that price, it doesn't get filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3391..3393
+28,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+3426..3447
+28,1;28,2;28,3;28,4
+#### Text ####
+it doesn't get filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3394..3424
+28,0,1
+#### Text ####
+it can't be made at that price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3657..3660
+30,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3451..3655
+29
+#### Text ####
+Investors who wish to be out of a position, without the risk of receiving a worse-than-expected price from a market order, may use this type of order to specify the price at which the order must be filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3661..3809
+30,1;30,2;30,3;30,4;30,5
+#### Text ####
+if the market moves quickly enough, it may be impossible for the broker to carry out the order because the investment has passed the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3661..3663
+30,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Sup1____
+3756..3809
+30,4,1,3
+#### Text ####
+because the investment has passed the specified price
+##############
+____Arg1____
+3657..3660;3697..3755
+30,0;30,2;30,3;30,4,0;30,4,1,0;30,4,1,1;30,4,1,2;30,5
+#### Text ####
+But it may be impossible for the broker to carry out the order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3664..3695
+30,1,1
+#### Text ####
+the market moves quickly enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3756..3763
+30,4,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3657..3660;3697..3755
+30,0;30,2;30,3;30,4,0;30,4,1,0;30,4,1,1;30,4,1,2;30,5
+#### Text ####
+But it may be impossible for the broker to carry out the order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3764..3809
+30,4,1,3,1
+#### Text ####
+the investment has passed the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3918..3920
+31,2,1,2,2,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+3884..3917
+31,2,1,2,0;31,2,1,2,1;31,2,1,2,2,0;31,2,1,2,2,1,0;31,2,1,2,2,1,1
+#### Text ####
+in that they become market orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3921..3949
+31,2,1,2,2,1,2,1
+#### Text ####
+a specified price is reached
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3951..3958
+32,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+3838..3949
+31,2
+#### Text ####
+Market-if-touched orders are like stop orders in that they become market orders if a specified price is reached
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3960..4060
+32,1;32,2;32,3;32,4;32,5,0;32,5,1,0;32,5,1,1;32,5,1,2;32,5,1,3;32,6
+#### Text ####
+unlike a buy-stop order, a buy market-if-touched order is entered at a price below the current price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4062..4129
+32,5,1,4
+#### Text ####
+while a sell market-if-touched order is entered at a price above it
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4062..4067
+32,5,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+3951..4060
+32,0;32,1;32,2;32,3;32,4;32,5,0;32,5,1,0;32,5,1,1;32,5,1,2;32,5,1,3;32,6
+#### Text ####
+However, unlike a buy-stop order, a buy market-if-touched order is entered at a price below the current price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4068..4129
+32,5,1,4,1
+#### Text ####
+a sell market-if-touched order is entered at a price above it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4131
+33
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3951..4129
+32
+#### Text ####
+However, unlike a buy-stop order, a buy market-if-touched order is entered at a price below the current price, while a sell market-if-touched order is entered at a price above it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4131..4239
+33
+#### Text ####
+As soon as the market trades at the specified price the floor broker will fill it at the best possible price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4131..4141
+33,0,0;33,0,1;33,0,2,0
+#### Text ####
+As soon as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as soon as, Temporal.Asynchronous.Succession
+____Arg1____
+4183..4239
+33,1;33,2;33,3
+#### Text ####
+the floor broker will fill it at the best possible price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4142..4182
+33,0,2,1
+#### Text ####
+the market trades at the specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4342
+35
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4263..4340
+34,2
+#### Text ####
+The fill-or-kill order is one of several associated with the timing of trades
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4342..4425
+35
+#### Text ####
+It instructs a broker to buy or sell an investment at the specified price or better
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4427..4430
+36,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4342..4425
+35
+#### Text ####
+It instructs a broker to buy or sell an investment at the specified price or better
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4431..4521
+36,1;36,2;36,3;36,4;36,5
+#### Text ####
+if the investment can't be bought or sold immediately, the order is automatically canceled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4431..4433
+36,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+4427..4430;4486..4521
+36,0;36,2;36,3;36,4;36,5
+#### Text ####
+But the order is automatically canceled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4434..4484
+36,1,1
+#### Text ####
+the investment can't be bought or sold immediately
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4523
+37
+____Arg1____
+4427..4521
+36
+#### Text ####
+But if the investment can't be bought or sold immediately, the order is automatically canceled
+##############
+____Arg2____
+4523..4707
+37
+#### Text ####
+Gregory Bessemer, who came in second in the stock division of the recently completed U.S. Trading Championship, says he uses fill-or-kill orders almost exclusively when trading options
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4687..4691
+37,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4523..4539;4635..4639
+37,0,0;37,0,1;37,0,3;37,1,0
+#### Text ####
+Gregory Bessemer says
+##############
+when, Contingency.Condition.General
+____Arg1____
+4640..4686
+37,1,1,0;37,1,1,1,0;37,1,1,1,1,0;37,1,1,1,1,1;37,1,1,1,1,2
+#### Text ####
+he uses fill-or-kill orders almost exclusively
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4692..4707
+37,1,1,1,1,3,1
+#### Text ####
+trading options
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4710
+38
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4640..4707
+37,1,1
+#### Text ####
+he uses fill-or-kill orders almost exclusively when trading options
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4635..4639
+37,0,1;37,0,3;37,1,0
+#### Text ####
+says
+##############
+____Arg2____
+4710..4751
+38,1
+#### Text ####
+I like to use them to feel out the market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4754..4761
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4764
+39
+#### Features ####
+Ot, Comm, Null, Null
+4754..4761
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he says
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4710..4751
+38,1
+#### Text ####
+I like to use them to feel out the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4764..4868
+39
+#### Text ####
+If they don't fill it immediately, then I can start over at a new price or try again with the same price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4764..4766;4799..4803
+39,1,0;39,3
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4754..4761
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he says
+##############
+if then, Contingency.Condition.General
+____Arg1____
+4767..4797
+39,1,1
+#### Text ####
+they don't fill it immediately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4804..4868
+39,0;39,2;39,4;39,5;39,6;39,7
+#### Text ####
+I can start over at a new price or try again with the same price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4919
+41
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4889..4917
+40,2
+#### Text ####
+This is another timing order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4919..5066
+41
+#### Text ####
+It is a market order that allows floor brokers to take more time to buy or sell an investment, if they think they can get a better price by waiting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5014..5016
+41,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+4966..5012
+41,1,1,1,1,1,1,1,0;41,1,1,1,1,1,1,1,1,0;41,1,1,1,1,1,1,1,1,1;41,1,1,1,1,1,1,1,1,2
+#### Text ####
+to take more time to buy or sell an investment
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+4919..4965
+41,0;41,1,0;41,1,1,0;41,1,1,1,0;41,1,1,1,1,0;41,1,1,1,1,1,0;41,1,1,1,1,1,1,0;41,2
+#### Text ####
+It is a market order that allows floor brokers
+##############
+____Arg2____
+5017..5066
+41,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+they think they can get a better price by waiting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5068
+42
+____Arg1____
+4919..5066
+41
+#### Text ####
+It is a market order that allows floor brokers to take more time to buy or sell an investment, if they think they can get a better price by waiting
+##############
+____Arg2____
+5068..5176
+42
+#### Text ####
+Not-held orders, which are also known as "disregard the tape" orders, are always done at the customer's risk
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5358..5362
+43,2,1,2,5,2,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5315..5353
+43,2,1,2,5,2,0;43,2,1,2,5,2,1,0;43,2,1,2,5,2,1,1,0
+#### Text ####
+to fill whichever order they can first
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5354..5357;5363..5385
+43,2,1,2,5,2,1,1,1;43,2,1,2,5,2,1,1,3
+#### Text ####
+and cancel the other order
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5387
+44
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+5209..5385
+43,2
+#### Text ####
+This is really two orders in one, generally for the same security or commodity, instructing floor brokers to fill whichever order they can first and then cancel the other order
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5387..5503
+44
+#### Text ####
+In a fast-moving market, it prevents an investor from getting stuck with having made two trades on the same security
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5669
+46
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5528..5666
+45,2
+#### Text ####
+This type of order couples many of the orders described above with instructions that the order must be carried out at or by a certain time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5669..5719
+46
+#### Text ####
+On the close" can be added to many types of orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5721..5732
+47,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5669..5719
+46
+#### Text ####
+On the close" can be added to many types of orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5735..6143
+47,1;47,2;47,3;47,4;47,5;47,6;47,7;48;49
+#### Text ####
+market-on-close orders" must be filled during the last few minutes of trading for the day at a price that is within the official closing range of prices as determined by the exchange. "Stop-close-only orders" are stop orders that only become active during the closing minutes of trading. "Day orders" expire at the end of the day on which they are entered, "good-till-canceled orders" have no expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5920
+48
+____Arg1____
+5721..5917
+47
+#### Text ####
+For example, "market-on-close orders" must be filled during the last few minutes of trading for the day at a price that is within the official closing range of prices as determined by the exchange
+##############
+____Arg2____
+5920..6021
+48
+#### Text ####
+Stop-close-only orders" are stop orders that only become active during the closing minutes of trading
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6024
+49
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+5920..6021
+48
+#### Text ####
+Stop-close-only orders" are stop orders that only become active during the closing minutes of trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6024..6143
+49
+#### Text ####
+Day orders" expire at the end of the day on which they are entered, "good-till-canceled orders" have no expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6145
+50
+____Arg1____
+6024..6143
+49
+#### Text ####
+Day orders" expire at the end of the day on which they are entered, "good-till-canceled orders" have no expiration date
+##############
+____Arg2____
+6145..6222
+50
+#### Text ####
+Most brokers assume that all orders are day orders unless specified otherwise
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6333..6337
+51,3,1,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+6284..6327
+51,3,1,1,0;51,3,1,1,1,0;51,3,1,1,1,1,0
+#### Text ####
+of entering "good-til-canceled limit orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6329..6332;6338..6359
+51,3,1,1,1,1,1;51,3,1,1,1,1,3
+#### Text ####
+and forgetting about them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6361
+52
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+6226..6359
+51
+#### Text ####
+On Oct. 19, 1987, some investors learned the consequences of entering "good-til-canceled limit orders" and then forgetting about them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6361..6492
+52
+#### Text ####
+They found they had bought stock from limit orders that they might have entered weeks or months earlier and had forgotten to cancel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6494
+53
+____Arg1____
+6361..6492
+52
+#### Text ####
+They found they had bought stock from limit orders that they might have entered weeks or months earlier and had forgotten to cancel
+##############
+____Arg2____
+6494..6583
+53
+#### Text ####
+It is always the responsibility of investors to keep track of the orders they have placed
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6585
+54
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6494..6583
+53
+#### Text ####
+It is always the responsibility of investors to keep track of the orders they have placed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6585..6713
+54
+#### Text ####
+Investors who change their mind about buying or selling after an order has been filled are, usually, stuck with the consequences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6641..6646
+54,0,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+6595..6640
+54,0,1,0;54,0,1,1,0;54,0,1,1,1,0;54,0,1,1,1,1;54,0,1,1,1,2
+#### Text ####
+who change their mind about buying or selling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6647..6671
+54,0,1,1,1,3,1
+#### Text ####
+an order has been filled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

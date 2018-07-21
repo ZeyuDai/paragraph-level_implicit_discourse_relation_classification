@@ -1,0 +1,244 @@
+________________________________________________________
+____Implicit____
+40
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..38
+0
+#### Text ####
+Dick Darman, call your office
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+40..177
+1
+#### Text ####
+Embedded in the "budget" being concocted by the House-Senate conference committee is something that looks, smells and waddles like a duck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+179
+2
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Equivalence
+____Arg1____
+40..177
+1
+#### Text ####
+Embedded in the "budget" being concocted by the House-Senate conference committee is something that looks, smells and waddles like a duck
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+179..209
+2
+#### Text ####
+It's a nuisance tax on mergers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+362
+4
+____Arg1____
+213..360
+3
+#### Text ####
+Congress has decided to raise $40 million by charging companies $20,000 for the honor of filing the required papers under the Hart-Scott-Rodino law
+##############
+____Arg2____
+362..541
+4
+#### Text ####
+Ever since the bad days of Big is Bad antitrust enforcement, this law has required that anyone proposing a merger must make a filing describing the effects on all relevant markets
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+362..372
+4,0,0;4,0,1
+#### Text ####
+Ever since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+423..541
+4,1;4,2;4,3;4,4
+#### Text ####
+this law has required that anyone proposing a merger must make a filing describing the effects on all relevant markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+373..421
+4,0,2
+#### Text ####
+the bad days of Big is Bad antitrust enforcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+568..572
+5,0,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+445..541
+4,3,1,1
+#### Text ####
+that anyone proposing a merger must make a filing describing the effects on all relevant markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+543..567;573..620
+5,0,0;5,0,1,0;5,0,1,2;5,1;5,2;5,3
+#### Text ####
+The Hart-Scott filing is reviewed and any antitrust concerns usually met
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+582..585
+5,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+543..581
+5,0
+#### Text ####
+The Hart-Scott filing is then reviewed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+586..620
+5,2
+#### Text ####
+any antitrust concerns usually met
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+622
+6
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+also, Expansion.Conjunction
+____Arg1____
+543..620
+5
+#### Text ####
+The Hart-Scott filing is then reviewed and any antitrust concerns usually met
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+622..767
+6
+#### Text ####
+Typically, Hart-Scott is used now to give managers of target firms early news of a bid and a chance to use regulatory review as a delaying tactic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+898
+8
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+840..896
+7,1,1,1,2;7,1,1,1,3;7,2
+#### Text ####
+but a serious drag on thousands of small, friendly deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+898..1078
+8
+#### Text ####
+One especially dangerous aspect to the new tax would be that the proceeds will be used to increase the budgets of the antitrust division at Justice and the Federal Trade Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1080
+9
+____Arg1____
+898..1078
+8
+#### Text ####
+One especially dangerous aspect to the new tax would be that the proceeds will be used to increase the budgets of the antitrust division at Justice and the Federal Trade Commission
+##############
+____Arg2____
+1080..1168
+9
+#### Text ####
+This amounts to a bounty for regulators -- the more regulating the more they get to keep
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1170..1174
+10,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+954..1078
+8,1,1,1
+#### Text ####
+that the proceeds will be used to increase the budgets of the antitrust division at Justice and the Federal Trade Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1233..1385
+10,1;10,3;10,4;10,5;10,6;10,7
+#### Text ####
+this would "establish the precedent that the government may charge parties for the privilege of being sued regardless of whether the government prevails
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1176..1231
+10,2
+#### Text ####
+as former Reagan antitrust chief Charles Rule has noted
+##############
+________________________________________________________

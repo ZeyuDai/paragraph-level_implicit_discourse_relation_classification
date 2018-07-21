@@ -1,0 +1,142 @@
+________________________________________________________
+____Implicit____
+335
+2
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+184..201;276..315
+1,0,0,0;1,0,0,1;1,0,0,3;1,0,1
+#### Text ####
+The new equipment is likely to cost more than $20 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+317..333
+1,1;1,2;1,3;1,4
+#### Text ####
+the company said
+##############
+____Arg2____
+335..455
+2,0
+#### Text ####
+When the company last considered adding the equipment two years ago, it estimated the cost at $21 million to $22 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+335..339
+2,0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+404..455
+2,0,1;2,0,2;2,0,3
+#### Text ####
+it estimated the cost at $21 million to $22 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+340..402
+2,0,0,1
+#### Text ####
+the company last considered adding the equipment two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+457..460
+2,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+335..455
+2,0
+#### Text ####
+When the company last considered adding the equipment two years ago, it estimated the cost at $21 million to $22 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+461..558
+2,3
+#### Text ####
+a task force will have to prepare a detailed plan before the company can predict the current cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+511..517
+2,3,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+457..510
+2,2;2,3,0;2,3,1,0;2,3,1,1,0;2,3,1,1,1;2,4
+#### Text ####
+but a task force will have to prepare a detailed plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+518..558
+2,3,1,1,2,1
+#### Text ####
+the company can predict the current cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+609..613
+3,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+457..558
+2,2;2,3;2,4
+#### Text ####
+but a task force will have to prepare a detailed plan before the company can predict the current cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+562..608;614..649
+3,0,0;3,0,2
+#### Text ####
+The time schedule for installing the equipment will be developed by the task force
+##############
+#### Features ####
+Ot, Comm, Null, Null
+651..667
+3,1;3,2;3,3;3,4
+#### Text ####
+the company said
+##############
+________________________________________________________

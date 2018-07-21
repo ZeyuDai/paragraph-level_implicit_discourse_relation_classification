@@ -1,0 +1,194 @@
+________________________________________________________
+____Explicit____
+96..100
+0,1,1,2,1,1,5,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..78
+0,0;0,1,0;0,1,1,0;0,1,1,1;0,2
+#### Text ####
+The head of the nation's largest car-dealers group is telling dealers
+##############
+when, Contingency.Condition.General
+____Arg1____
+79..94
+0,1,1,2,0;0,1,1,2,1,0;0,1,1,2,1,1,0;0,1,1,2,1,1,1;0,1,1,2,1,1,2;0,1,1,2,1,1,3;0,1,1,2,1,1,4
+#### Text ####
+to "just say no
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+101..158
+0,1,1,2,1,1,5,1
+#### Text ####
+auto makers pressure them to stockpile cars on their lots
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+464..469
+2,0,2,1,1,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+424..463
+2,0,2,0;2,0,2,1,0;2,0,2,1,1,0;2,0,2,1,1,1,0;2,0,2,1,1,1,1,0;2,0,2,1,1,1,1,1
+#### Text ####
+who has been feuding with the Big Three
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+470..502
+2,0,2,1,1,1,1,2,1
+#### Text ####
+he took office earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+755..758
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+759..774
+4,1;4,2,0;4,3
+#### Text ####
+Mr. Tonkin said
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+617..713
+3,0;3,1,0;3,1,1;3,1,2;3,1,3;3,1,4;3,2
+#### Text ####
+U.S. car dealers had an average of 59 days' supply of cars in their lots at the end of September
+##############
+#### Features ####
+Ot, Comm, Null, Null
+715..753
+3,1,4;3,1,5;3,2
+#### Text ####
+according to Ward's Automotive Reports
+##############
+____Arg2____
+775..871
+4,2,1
+#### Text ####
+dealers should slash stocks to between 15 and 30 days to reduce the costs of financing inventory
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1238
+8
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1205..1236
+7,1,1;7,1,2;7,2
+#### Text ####
+Mr. Tonkin's plan as unworkable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1144..1204
+7,0;7,1,0;7,2
+#### Text ####
+Ford Motor Co. and Chrysler Corp. representatives criticized
+##############
+____Arg2____
+1238..1412
+8,0
+#### Text ####
+It "is going to sound neat to the dealer except when his 15-day car supply doesn't include the bright red one that the lady wants to buy and she goes up the street to buy one
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1415..1440
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+a Chrysler spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1279..1290
+8,0,2,1,1,1,1;8,0,2,1,1,1,2,0,0
+#### Text ####
+except when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1415..1440
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+a Chrysler spokesman said
+##############
+when, Expansion.Alternative.Disjunctive
+____Arg1____
+1238..1278
+8,0,0;8,0,1;8,0,2,0;8,0,2,1,0;8,0,2,1,1,0;8,0,2,1,1,1,0
+#### Text ####
+It "is going to sound neat to the dealer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1291..1412
+8,0,2,1,1,1,2,0,1
+#### Text ####
+his 15-day car supply doesn't include the bright red one that the lady wants to buy and she goes up the street to buy one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1375..1378
+8,0,2,1,1,1,2,0,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1415..1440
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+a Chrysler spokesman said
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1286..1374
+8,0,2,1,1,1,2,0,0;8,0,2,1,1,1,2,0,1,0
+#### Text ####
+when his 15-day car supply doesn't include the bright red one that the lady wants to buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1379..1412
+8,0,2,1,1,1,2,0,1,2
+#### Text ####
+she goes up the street to buy one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

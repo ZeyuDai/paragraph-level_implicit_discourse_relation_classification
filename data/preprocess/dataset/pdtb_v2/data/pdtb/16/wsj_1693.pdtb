@@ -1,0 +1,421 @@
+________________________________________________________
+____Explicit____
+310..317
+2,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+186..308
+1
+#### Text ####
+The publisher was able to register soaring quarter net income because of a onetime gain on the sale of its cable-TV system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+319..361
+2,1;2,2;2,3;2,4
+#### Text ####
+operating profit fell 35% to $16.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+363
+3
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+310..361
+2
+#### Text ####
+However, operating profit fell 35% to $16.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+363..624
+3
+#### Text ####
+The decline reflected the expense of buying three magazines, lower earnings from the forest-products group, and what is proving to be a nagging major problem, continued declines in advertising linage at the New York Times, the company's flagship daily newspaper
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+809
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+742..807
+5
+#### Text ####
+Analysts said the company's troubles mirror those of the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+809..827;909..987
+6,0,0;6,0,1;6,0,3;6,1;6,2;6,3
+#### Text ####
+Retail advertising largely isn't rebounding in the second half from extended doldrums as expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1104
+8
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+989..1102
+7
+#### Text ####
+At the same time, newspapers are bedeviled by lagging national advertising, especially in its financial component
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1104..1271
+8
+#### Text ####
+Dow Jones & Co. recently reported net fell 9.9%, a reflection, in part, of continued softness in financial advertising at The Wall Street Journal and Barron's magazine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1412
+10
+#### Features ####
+Ot, Comm, Null, Null
+1357..1409
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+said John Morton, an analyst for Lynch, Jones & Ryan
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1286..1354
+9,1,1,1
+#### Text ####
+next year to be a fairly soft year in newspaper-industry advertising
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1276..1285
+9,1,0;9,1,1,0
+#### Text ####
+We expect
+##############
+____Arg2____
+1412..1516
+10
+#### Text ####
+Next year, earnings will hold steady, but we just don't see a big turnaround in the trend in advertising
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1450..1453
+10,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1357..1409
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+said John Morton, an analyst for Lynch, Jones & Ryan
+##############
+but, Comparison.Contrast
+____Arg1____
+1412..1448
+10,1
+#### Text ####
+Next year, earnings will hold steady
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1454..1516
+10,4
+#### Text ####
+we just don't see a big turnaround in the trend in advertising
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1657
+12
+#### Features ####
+Ot, Comm, Null, Null
+1521..1584
+11,0;11,1,0;11,1,1;11,1,2;11,2
+#### Text ####
+John S. Reidy, an analyst for Drexel Burnham Lambert Inc., said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1641..1655
+11,1,3,2
+#### Text ####
+linage is down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1657..1730
+12
+#### Text ####
+It will be hard to do handstands until real linage starts heading back up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1690..1695
+12,1,1,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1657..1689
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,1,1,2;12,2;12,3
+#### Text ####
+It will be hard to do handstands
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1696..1730
+12,1,1,3,1
+#### Text ####
+real linage starts heading back up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1911
+14
+____Arg1____
+1735..1909
+13
+#### Text ####
+In the quarterly report, Arthur Ochs Sulzberger, New York Times Co. chairman and chief executive officer, said negative factors affecting third-quarter earnings will continue
+##############
+____Arg2____
+1911..2009
+14
+#### Text ####
+Analysts agreed with company expectations that operating profit will be down this year and in 1990
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2031
+15
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1953..2009
+14,1,2
+#### Text ####
+that operating profit will be down this year and in 1990
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1911..1952
+14,0;14,1,0;14,1,1;14,2
+#### Text ####
+Analysts agreed with company expectations
+##############
+____Arg2____
+2031..2158
+15,1,1
+#### Text ####
+the scheduled opening of a new color-printing plant in Edison, N.J., in 1990 would involve heavy startup and depreciation costs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2011..2030
+15,0;15,1,0;15,2
+#### Text ####
+Mr. Sulzberger said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2348..2351
+17,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2280..2345
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+said Peter Appert, an analyst with C.J. Lawrence, Morgan Grenfell
+##############
+but, Comparison.Contrast
+____Arg1____
+2163..2277
+16,1
+#### Text ####
+With the Edison plant coming on line next summer, the Times is facing some tough earnings comparison in the future
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2352..2398
+17,0;17,2;17,3;17,4;17,5
+#### Text ####
+many newspapers are facing similar comparisons
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2545..2549
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2403..2531
+18
+#### Text ####
+The sale of the company's cable franchise brought an after-tax gain of $193.3 million, part of which will be used to reduce debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2533..2544;2550..2577
+19,0;19,2;19,3
+#### Text ####
+The company has a stock-repurchase plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2782
+20
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2595..2666
+20,0,1,1,0;20,0,1,1,1,0;20,0,1,1,1,1,0;20,0,1,1,1,1,1,0;20,0,1,1,1,1,1,1;20,0,1,1,1,1,1,2,0;20,0,1,1,1,1,1,2,1,0;20,0,1,1,1,1,1,2,1,1,0;20,0,1,1,1,1,1,2,1,1,1,0;20,0,1,1,1,1,1,2,1,1,1,1
+#### Text ####
+they were impressed by the performance of the company's newspaper group
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2581..2594
+20,0,0;20,0,1,0
+#### Text ####
+Analysts said
+##############
+____Arg2____
+2782..2891
+20,2
+#### Text ####
+group operating profit for the quarter increased slightly to $34.9 million from $34.5 million on flat revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2988
+22
+#### Features ####
+Ot, Comm, Null, Null
+2895..2933
+21,0;21,1,0;21,1,1;21,2
+#### Text ####
+Drexel Burnham's Mr. Reidy pointed out
+##############
+on the whole, Expansion.Conjunction
+____Arg1____
+2934..2986
+21,1,2
+#### Text ####
+that "profits held up in a tough revenue environment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2988..3069
+22
+#### Text ####
+That's a good sign when profits are stable during a time revenue is in the trough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3007..3011
+22,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2895..2933
+21,0;21,1,0;21,1,1;21,2
+#### Text ####
+Drexel Burnham's Mr. Reidy pointed out
+##############
+when, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+2988..3006
+22,0;22,1,0;22,1,1;22,2
+#### Text ####
+That's a good sign
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3012..3069
+22,1,2,1
+#### Text ####
+profits are stable during a time revenue is in the trough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

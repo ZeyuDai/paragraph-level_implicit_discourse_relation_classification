@@ -1,0 +1,210 @@
+________________________________________________________
+____Implicit____
+250
+1
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+45..159
+0,1,1
+#### Text ####
+it reduced its rating on $281 million of senior and subordinated debt of this thrift holding company, to C from Ca
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..44
+0,0;0,1,0;0,2;0,3
+#### Text ####
+Moody's Investors Service Inc. said
+##############
+____Arg2____
+250..313
+1,1,1
+#### Text ####
+it confirmed American Continental's preferred stock rating at C
+##############
+#### Features ####
+Ot, Comm, Null, Null
+234..249
+1,0;1,1,0;1,2
+#### Text ####
+The agency said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+315
+2
+____Arg1____
+234..313
+1
+#### Text ####
+The agency said it confirmed American Continental's preferred stock rating at C
+##############
+____Arg2____
+315..542
+2
+#### Text ####
+American Continental's thrift unit, Los Angeles-based Lincoln Savings & Loan Association, is in receivership and the parent company has filed for protection from creditor lawsuits under Chapter 11 of the federal Bankruptcy Code
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+424..427
+2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+315..423
+2,0
+#### Text ####
+American Continental's thrift unit, Los Angeles-based Lincoln Savings & Loan Association, is in receivership
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+428..542
+2,2
+#### Text ####
+the parent company has filed for protection from creditor lawsuits under Chapter 11 of the federal Bankruptcy Code
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+705..709
+5,1,0,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+579..685
+4
+#### Text ####
+Moody's Investors Service Inc. downgraded its ratings on the subordinated debt of CenTrust to Caa from B-3
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+687..704;710..808
+5,0;5,1,0,1;5,1,0,2;5,1,0,3;5,1,0,4;5,1,1;5,1,2;5,2
+#### Text ####
+The rating agency reduced the ratings for long-term deposits to B-3 from Ba-3 and for preferred stock to Ca from Caa
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+833
+6
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+687..808
+5
+#### Text ####
+The rating agency also reduced the ratings for long-term deposits to B-3 from Ba-3 and for preferred stock to Ca from Caa
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+833..877
+6,1,1
+#### Text ####
+about $85 million in securities was affected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+810..832
+6,0;6,1,0;6,2
+#### Text ####
+The rating agency said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+879
+7
+____Arg1____
+810..877
+6
+#### Text ####
+The rating agency said about $85 million in securities was affected
+##############
+____Arg2____
+879..1034
+7
+#### Text ####
+The downgrades were prompted, Moody's said, by the continuing turmoil in the junk bond market and the suspension of dividends on CenTrust's preferred stock
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1044..1048
+8,1,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+879..1034
+7
+#### Text ####
+The downgrades were prompted, Moody's said, by the continuing turmoil in the junk bond market and the suspension of dividends on CenTrust's preferred stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1036..1043;1049..1200
+8,0;8,1,1;8,1,2;8,2
+#### Text ####
+Moody's said it believed the proposed sale of 63 CenTrust branches to Great Western Bank could, if completed, endanger the thrift's funding and market position
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1137..1139
+8,1,2,1,1,1,1,1,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1054..1065
+8,1,2,0;8,1,2,1,0;8,1,2,1,1,0
+#### Text ####
+it believed
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+1066..1135;1151..1200
+8,1,2,1,1,1,0;8,1,2,1,1,1,1,0;8,1,2,1,1,1,1,1,0;8,1,2,1,1,1,1,1,2
+#### Text ####
+the proposed sale of 63 CenTrust branches to Great Western Bank could endanger the thrift's funding and market position
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1140..1149
+8,1,2,1,1,1,1,1,1,1,1
+#### Text ####
+completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

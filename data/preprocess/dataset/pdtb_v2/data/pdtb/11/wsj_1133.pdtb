@@ -1,0 +1,181 @@
+________________________________________________________
+____Implicit____
+401
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+146..274
+1,0;1,1,0;1,1,1;1,1,2,0;1,1,2,1,0;1,1,2,1,1,0;1,1,2,1,1,1,0;1,1,2,1,1,1,1,0;1,1,2,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,1,1,1;1,1,2,1,1,1,1,1,1,1,1,2;1,1,2,1,1,1,1,1,1,1,1,3,0;1,1,2,1,1,1,1,1,1,1,1,3,1;1,2
+#### Text ####
+Mr. Bush has long campaigned for passage of a bill or a constitutional amendment that would explicitly give him a line-item veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+401..476
+2,1,1,1
+#### Text ####
+that such presidential power is necessary to rein in congressional spending
+##############
+#### Features ####
+Ot, Comm, Null, Null
+387..400
+2,0;2,1,0;2,1,1,0;2,2
+#### Text ####
+He has argued
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+480..483
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+146..385
+1
+#### Text ####
+Mr. Bush has long campaigned for passage of a bill or a constitutional amendment that would explicitly give him a line-item veto, which would enable him to kill individual items in a big spending bill without having to kill the entire bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+484..710
+3,1;3,2;3,3
+#### Text ####
+some analysts, particularly conservative legal scholars, have urged Mr. Bush not to wait for explicit authorization but simply to assert that the Constitution already implicitly gives him the power to exercise a line-item veto
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+712
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence, Contingency.Cause.Result
+____Arg1____
+600..710
+3,2,1,2,1;3,2,1,2,2
+#### Text ####
+but simply to assert that the Constitution already implicitly gives him the power to exercise a line-item veto
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+480..551
+3,0;3,1;3,2,0;3,2,1,0;3,3
+#### Text ####
+But some analysts, particularly conservative legal scholars, have urged
+##############
+____Arg2____
+712..853
+4
+#### Text ####
+Such an assertion most likely would bring about a court challenge from Congress that would clarify whether a president already has such power
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1025..1028
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+967..1023
+5,4,1
+#### Text ####
+Mr. Bush is "interested" in finding a suitable test case
+##############
+#### Features ####
+Ot, Comm, Null, Null
+857..895;962..966
+5,0;5,1;5,3;5,4,0;5,5
+#### Text ####
+White House spokesman Marlin Fitzwater said
+##############
+____Arg2____
+1042..1189
+6,3,1
+#### Text ####
+that exercising a test line-item veto isn't a "top initiative" on the president's agenda because he faces more-pressing budget issues at the moment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1029..1041
+6,1;6,2;6,3,0;6,4
+#### Text ####
+he also said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1032..1036
+6,2
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+857..895;962..1023
+5,0;5,1;5,3;5,4;5,5
+#### Text ####
+White House spokesman Marlin Fitzwater said Mr. Bush is "interested" in finding a suitable test case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1025..1031;1037..1189
+6,0;6,1;6,3;6,4
+#### Text ####
+But he said that exercising a test line-item veto isn't a "top initiative" on the president's agenda because he faces more-pressing budget issues at the moment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1131..1138
+6,3,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1029..1041
+6,1;6,2;6,3,0;6,4
+#### Text ####
+he also said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1042..1130
+6,3,1,0;6,3,1,1,0;6,3,1,1,1,0;6,3,1,1,1,1;6,3,1,1,1,2;6,3,1,1,1,3
+#### Text ####
+that exercising a test line-item veto isn't a "top initiative" on the president's agenda
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1139..1189
+6,3,1,1,1,4,1
+#### Text ####
+he faces more-pressing budget issues at the moment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

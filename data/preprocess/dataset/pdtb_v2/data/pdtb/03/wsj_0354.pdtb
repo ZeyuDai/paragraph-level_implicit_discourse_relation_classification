@@ -1,0 +1,366 @@
+________________________________________________________
+____EntRel____
+161
+1
+____Arg1____
+9..159
+0
+#### Text ####
+Avery Inc. said it completed the sale of Uniroyal Chemical Holding Co. to a group led by management of Uniroyal Chemical Co., the unit's main business
+##############
+____Arg2____
+161..202
+1
+#### Text ####
+It valued the transaction at $800 million
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+362
+3
+____Arg1____
+206..360
+2
+#### Text ####
+Avery, which continues to operate a coal company it expects to sell at a loss, said in proxy materials it intends to seek control of one or more companies
+##############
+____Arg2____
+362..478
+3
+#### Text ####
+After fees and repayment of debt, Avery is left with about $24 million in cash and securities from the Uniroyal sale
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+480
+4
+____Arg1____
+362..478
+3
+#### Text ####
+After fees and repayment of debt, Avery is left with about $24 million in cash and securities from the Uniroyal sale
+##############
+____Arg2____
+480..645
+4
+#### Text ####
+Avery paid $750 million, including various legal and financing fees, to acquire Uniroyal Chemical, Middlebury, Conn., in 1986 -- a move that burdened Avery with debt
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+912
+7
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+754..886
+6
+#### Text ####
+According to Avery, for the year ended Sept. 30, 1988, Uniroyal Chemical had sales of $734.2 million and a net loss of $47.1 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+912..1021
+7,1,1
+#### Text ####
+that the loss was magnified by accounting adjustments and that the company's loss was smaller on a cash basis
+##############
+#### Features ####
+Ot, Comm, Null, Null
+888..911
+7,0;7,1,0;7,2
+#### Text ####
+An Avery spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+966..969
+7,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+888..911
+7,0;7,1,0;7,2
+#### Text ####
+An Avery spokesman said
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+912..965
+7,1,1,0
+#### Text ####
+that the loss was magnified by accounting adjustments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+970..1021
+7,1,1,2
+#### Text ####
+that the company's loss was smaller on a cash basis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1023
+8
+____Arg1____
+888..1021
+7
+#### Text ####
+An Avery spokesman said that the loss was magnified by accounting adjustments and that the company's loss was smaller on a cash basis
+##############
+____Arg2____
+1023..1112
+8
+#### Text ####
+Uniroyal has 2,600 employees and facilities in the U.S., Canada, Brazil, Italy and Taiwan
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1370
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1116..1140;1153..1368
+9,0;9,1;9,3,1;9,4
+#### Text ####
+In a related development it completed a recapitalization in which its controlling shareholders and top officers, Nelson Peltz and Peter W. May, surrendered warrants and preferred stock in exchange for a larger stake in Avery's common shares
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1142..1152
+9,1;9,2;9,3,0;9,4
+#### Text ####
+Avery said
+##############
+____Arg2____
+1370..1438
+10
+#### Text ####
+On a fully diluted basis, the two raised their stake to 68% from 51%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1594
+12
+____Arg1____
+1442..1592
+11
+#### Text ####
+In December 1988, Messrs.
+Peltz and May sold their stock in Triangle Industries Inc., a packaging company they controlled, to Pechiney Corp. of France
+##############
+____Arg2____
+1594..1694
+12
+#### Text ####
+The executives had profited handsomely by building American National Can Co., Triangle's chief asset
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1892
+14
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1698..1849
+13
+#### Text ####
+In January 1989, the two men acquired the non-packaging assets of Triangle, including a controlling stake in Avery and, by extension, Uniroyal Chemical
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1892..2018
+14,3,1
+#### Text ####
+that unless it sold Uniroyal, its ability to service debt would be hurt and Avery's shareholder value would "continue to erode
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1851..1891
+14,0;14,1;14,2;14,3,0;14,4;14,5
+#### Text ####
+In the August proxy material, Avery said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1897..1903
+14,3,1,1,0,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1851..1891
+14,0;14,1;14,2;14,3,0;14,4;14,5
+#### Text ####
+In the August proxy material, Avery said
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1892..1896;1922..2018
+14,3,1,0;14,3,1,1,1;14,3,1,1,2;14,3,1,1,3;14,3,1,1,4
+#### Text ####
+that its ability to service debt would be hurt and Avery's shareholder value would "continue to erode
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1904..1920
+14,3,1,1,0,1
+#### Text ####
+it sold Uniroyal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1964..1967
+14,3,1,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1851..1891
+14,0;14,1;14,2;14,3,0;14,4;14,5
+#### Text ####
+In the August proxy material, Avery said
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1892..1896;1922..1963
+14,3,1,0;14,3,1,1,2
+#### Text ####
+that its ability to service debt would be hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1968..2018
+14,3,1,1,4
+#### Text ####
+Avery's shareholder value would "continue to erode
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2021
+15
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1851..2018
+14
+#### Text ####
+In the August proxy material, Avery said that unless it sold Uniroyal, its ability to service debt would be hurt and Avery's shareholder value would "continue to erode
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2021..2139
+15
+#### Text ####
+Until Avery makes an acquisition, Messrs.
+Peltz and May will waive their direct salaries and bonuses, the company said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2021..2026
+15,0,0,0
+#### Text ####
+Until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2123..2139
+15,1;15,2;15,3;15,4
+#### Text ####
+the company said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+2055..2121
+15,0,1;15,0,2;15,0,3
+#### Text ####
+Messrs.
+Peltz and May will waive their direct salaries and bonuses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2027..2053
+15,0,0,1
+#### Text ####
+Avery makes an acquisition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2175..2182
+16,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+2021..2121
+15,0
+#### Text ####
+Until Avery makes an acquisition, Messrs.
+Peltz and May will waive their direct salaries and bonuses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2123..2139
+15,1;15,2;15,3;15,4
+#### Text ####
+the company said
+##############
+____Arg2____
+2141..2173;2184..2333
+16,0;16,1;16,3;16,4;16,5;16,6
+#### Text ####
+For at least the next six months Avery will continue to pay $200,000 a month for management services to a company controlled by Messrs.
+Peltz and May, according to the proxy material
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2302..2333
+16,5,1,1,1,1,4;16,5,1,1,1,1,5
+#### Text ####
+according to the proxy material
+##############
+________________________________________________________

@@ -1,0 +1,539 @@
+________________________________________________________
+____Explicit____
+83..90
+0,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..28
+0,0;0,1,0;0,2
+#### Text ####
+Ford Motor Co. said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+29..82
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1,0;0,1,1,1,1,1,1
+#### Text ####
+it is recalling about 3,600 of its 1990-model Escorts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+91..150
+0,1,1,1,1,1,2,1
+#### Text ####
+the windshield adhesive was improperly applied to some cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+154..164
+1,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..150
+0
+#### Text ####
+Ford Motor Co. said it is recalling about 3,600 of its 1990-model Escorts because the windshield adhesive was improperly applied to some cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+166..399
+1,1;1,2;1,3;1,4
+#### Text ####
+Ford and Mazda Motor Corp. 's U.S. sales arm said they are recalling about 88,500 1988-model Mercury Tracers and 220,000 1986, 1987 and 1988 model Mazda 323s equipped with 1.6-liter fuel-injected engines to replace the oil filler cap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+401
+2
+____Arg1____
+154..399
+1
+#### Text ####
+Separately, Ford and Mazda Motor Corp. 's U.S. sales arm said they are recalling about 88,500 1988-model Mercury Tracers and 220,000 1986, 1987 and 1988 model Mazda 323s equipped with 1.6-liter fuel-injected engines to replace the oil filler cap
+##############
+____Arg2____
+401..432
+2
+#### Text ####
+Mazda makes the Tracer for Ford
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+598
+4
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+436..570
+3,0
+#### Text ####
+As a result of the adhesive problem on the Ford Escort subcompacts, windshields may easily separate from the car during frontal impact
+##############
+#### Features ####
+Ot, Comm, Null, Null
+572..596
+3,1;3,2;3,3;3,4
+#### Text ####
+the U.S. auto maker said
+##############
+____Arg2____
+598..716
+4
+#### Text ####
+When properly applied, the adhesive is designed to retain the windshield in place in a crash test at 30 miles per hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+598..602
+4,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+646..716
+4,3,1,1
+#### Text ####
+to retain the windshield in place in a crash test at 30 miles per hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+603..619
+4,0,1
+#### Text ####
+properly applied
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+846
+6
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Contrast
+____Arg1____
+742..834
+5,1,1
+#### Text ####
+the Dearborn, Mich., auto maker isn't aware of any injuries caused by the windshield problem
+##############
+#### Features ####
+Ot, Comm, Null, Null
+720..741
+5,0;5,1,0;5,2
+#### Text ####
+A Ford spokesman said
+##############
+____Arg2____
+846..945
+6,1,1
+#### Text ####
+owners should return the cars to dealers so the windshields can be removed and securely reinstalled
+##############
+#### Features ####
+Ot, Comm, Null, Null
+836..845
+6,0;6,1,0;6,2
+#### Text ####
+Ford said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+887..889
+6,1,1,1,1
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+836..845
+6,0;6,1,0;6,2
+#### Text ####
+Ford said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+846..886
+6,1,1,1,0
+#### Text ####
+owners should return the cars to dealers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+890..945
+6,1,1,1,2
+#### Text ####
+the windshields can be removed and securely reinstalled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1216
+8
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+969..1204
+7,1,1
+#### Text ####
+a combination of limited crankcase ventilation and improper maintenance could cause engine oil in some of the Mercury Tracers and Mazda 323s to deteriorate more rapidly than normal, causing increased engine noise or reduced engine life
+##############
+#### Features ####
+Ot, Comm, Null, Null
+949..968
+7,0;7,1,0;7,2
+#### Text ####
+Mazda and Ford said
+##############
+____Arg2____
+1216..1250
+8,1,1
+#### Text ####
+the problems aren't safety related
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1206..1215
+8,0;8,1,0;8,2
+#### Text ####
+They said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1340..1344
+10,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1254..1333
+9
+#### Text ####
+Both companies will replace the oil filler cap with a ventilated oil filler cap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1335..1339;1345..1438
+10,0;10,2;10,3
+#### Text ####
+Both will inspect and replace, if necessary, oil filters and oil strainers, at no charge to owners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1639
+12
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+1513..1637
+11,1;11,2;11,3;11,4
+#### Text ####
+Mazda will extend to five years or 60,000 miles the warranty term for engine damage due to abnormal engine oil deterioration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1639..1715
+12,0
+#### Text ####
+The normal term for the 1986 and 1987 model 323 is two years or 24,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1717
+12
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1639..1715
+12,0
+#### Text ####
+The normal term for the 1986 and 1987 model 323 is two years or 24,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1717..1773
+12,2
+#### Text ####
+the term for the 1988 323 is three years or 50,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1785
+13
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1639..1773
+12
+#### Text ####
+The normal term for the 1986 and 1987 model 323 is two years or 24,000 miles; the term for the 1988 323 is three years or 50,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1785..1846
+13,1,1
+#### Text ####
+the term on its warranty is already six years or 60,000 miles
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1775..1784
+13,0;13,1,0;13,2
+#### Text ####
+Ford said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1850..1860
+14,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+1775..1846
+13
+#### Text ####
+Ford said the term on its warranty is already six years or 60,000 miles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1862..1965
+14,1;14,2;14,3;14,4
+#### Text ####
+Ford said it will offer $750 cash rebates to buyers of its 1990-model Ford Bronco sport utility vehicle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1975
+15
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1872..1965
+14,3,1
+#### Text ####
+it will offer $750 cash rebates to buyers of its 1990-model Ford Bronco sport utility vehicle
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1850..1871
+14,0;14,1;14,2;14,3,0;14,4
+#### Text ####
+Separately, Ford said
+##############
+____Arg2____
+1975..2057
+15,1,1
+#### Text ####
+it will also offer buyers the option of financing as low as 6.9% on 24-month loans
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1967..1974
+15,0;15,1,0;15,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1983..1987
+15,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1967..1974
+15,0;15,1,0;15,2
+#### Text ####
+It said
+##############
+also, Expansion.Conjunction
+____Arg1____
+1872..1965
+14,3,1
+#### Text ####
+it will offer $750 cash rebates to buyers of its 1990-model Ford Bronco sport utility vehicle
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1862..1871
+14,1;14,2;14,3,0;14,4
+#### Text ####
+Ford said
+##############
+____Arg2____
+1975..1982;1988..2057
+15,1,1,0;15,1,1,1,0;15,1,1,1,1,0;15,1,1,1,1,2
+#### Text ####
+it will offer buyers the option of financing as low as 6.9% on 24-month loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2059
+16
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1975..2057
+15,1,1
+#### Text ####
+it will also offer buyers the option of financing as low as 6.9% on 24-month loans
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1967..1974
+15,0;15,1,0;15,2
+#### Text ####
+It said
+##############
+____Arg2____
+2059..2175
+16
+#### Text ####
+Ford also offered the low financing rate option on 1989-model Broncos, which previously carried a $750 cash discount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2064..2068
+16,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1975..2057
+15,1,1
+#### Text ####
+it will also offer buyers the option of financing as low as 6.9% on 24-month loans
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1967..2011
+15,0;15,1,0;15,1,1,0;15,1,1,1,0;15,1,1,1,1,0;15,1,1,1,1,1;15,1,1,1,1,2,0;15,1,1,1,1,2,1;15,1,1,1,1,2,2,0
+#### Text ####
+It said it will also offer buyers the option
+##############
+____Arg2____
+2059..2063;2069..2175
+16,0;16,2;16,3
+#### Text ####
+Ford offered the low financing rate option on 1989-model Broncos, which previously carried a $750 cash discount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2136..2146
+16,2,2,1,2,1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+2059..2128
+16,0;16,1;16,2,0;16,2,1;16,2,2,0;16,2,2,1,0;16,2,2,1,1;16,3
+#### Text ####
+Ford also offered the low financing rate option on 1989-model Broncos
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2130..2135;2147..2175
+16,2,2,1,2,0;16,2,2,1,2,1,0;16,2,2,1,2,1,2
+#### Text ####
+which carried a $750 cash discount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2177
+17
+____Arg1____
+2059..2175
+16
+#### Text ####
+Ford also offered the low financing rate option on 1989-model Broncos, which previously carried a $750 cash discount
+##############
+____Arg2____
+2177..2241
+17
+#### Text ####
+Ford said the new offer will begin Saturday and run indefinitely
+##############
+________________________________________________________

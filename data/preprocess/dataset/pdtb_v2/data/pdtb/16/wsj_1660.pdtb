@@ -1,0 +1,352 @@
+________________________________________________________
+____EntRel____
+253
+2
+____Arg1____
+119..251
+1
+#### Text ####
+Under the agreement, BanPonce stockholders will be able to exchange each of their shares for either shares in the new entity or cash
+##############
+____Arg2____
+253..307
+2
+#### Text ####
+In each case, the exchange is valued at $56.25 a share
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+424
+4
+____Arg1____
+311..422
+3
+#### Text ####
+The two companies, both based in San Juan, will form a bank holding company with assets of just over $9 billion
+##############
+____Arg2____
+424..472
+4
+#### Text ####
+The holding company will be called BanPonce Corp
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+474
+5
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+424..472
+4
+#### Text ####
+The holding company will be called BanPonce Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+474..607
+5
+#### Text ####
+The primary subsidiary will be the combined banking operations of the two companies and will be known as Banco Popular de Puerto Rico
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+703
+7
+____Arg1____
+611..701
+6
+#### Text ####
+Rafael Carrion Jr., chairman of Banco Popular, will be the chairman of the holding company
+##############
+____Arg2____
+703..840
+7
+#### Text ####
+Alberto M. Paracchini, currently chairman of BanPonce, will serve as president of the bank holding company and chairman of the subsidiary
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+999..1007
+9,1,0,2
+#### Text ####
+at first
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+844..896
+8,0;8,1;8,2,0;8,2,1;8,2,2;8,2,3;8,3
+#### Text ####
+Banco Popular originally proposed the merger in July
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+976..1007
+9,0;9,1,0;9,1,1;9,2
+#### Text ####
+BanPonce reacted cooly at first
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1255
+11
+#### Features ####
+Ot, Comm, Null, Null
+1164..1252
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Edward Thompson, a vice president and analyst at Thomson BankWatch Inc. in New York
+##############
+eventually, Temporal.Asynchronous.Precedence
+____Arg1____
+1130..1161
+10,1
+#### Text ####
+Banco Popular just kept waiting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1255..1308
+11
+#### Text ####
+They got a transaction that's good for both companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1352
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1313..1350
+12
+#### Text ####
+The two banks appear to be a good fit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1493
+13
+#### Text ####
+BanPonce caters to a more affluent customer, while Banco Popular has always had a large presence among middle-income and lower-income markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1397..1402
+13,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1352..1395
+13,0;13,1,0;13,1,1;13,1,2;13,2
+#### Text ####
+BanPonce caters to a more affluent customer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1403..1493
+13,1,3,1
+#### Text ####
+Banco Popular has always had a large presence among middle-income and lower-income markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1513..1517
+14,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1352..1493
+13
+#### Text ####
+BanPonce caters to a more affluent customer, while Banco Popular has always had a large presence among middle-income and lower-income markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1495..1512;1518..1610
+14,0;14,1,0;14,1,2;14,2
+#### Text ####
+The merger should allow the companies to reduce costs by combining operations in many locations in Puerto Rico
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1613
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1495..1610
+14
+#### Text ####
+The merger should also allow the companies to reduce costs by combining operations in many locations in Puerto Rico
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1613..1667
+15,1
+#### Text ####
+They're often right across the street from one another
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1670..1687
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+Mr. Thompson said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1961
+17
+#### Features ####
+Ot, Comm, Null, Null
+1856..1958
+17,0;17,1,0;17,1,1;17,1,2;17,2
+#### Text ####
+Mr. Carrion, who will now serve as president and chief executive officer of the subsidiary bank, added
+##############
+consequently, Contingency.Cause.Result
+____Arg1____
+1786..1853
+16,1,1
+#### Text ####
+the merger will result in a "larger and stronger locally based bank
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1691..1785
+16,0;16,1,0;16,2;16,3
+#### Text ####
+Richard Carrion, who is currently president and chief executive officer of Banco Popular, said
+##############
+____Arg2____
+1961..2017
+17,1,3
+#### Text ####
+We'll be able to better compete with large foreign banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2019
+18
+#### Features ####
+Ot, Comm, Null, Null
+1856..1958
+17,0;17,1,0;17,1,1;17,1,2;17,2
+#### Text ####
+Mr. Carrion, who will now serve as president and chief executive officer of the subsidiary bank, added
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1961..2017
+17,1,3
+#### Text ####
+We'll be able to better compete with large foreign banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2019..2061
+18
+#### Text ####
+It makes sense from a strategic standpoint
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2168
+20
+____Arg1____
+2066..2166
+19
+#### Text ####
+The newly merged company will have 165 branches in Puerto Rico and 27 branches outside of the island
+##############
+____Arg2____
+2168..2242
+20
+#### Text ####
+The banks said they don't expect the merger to face any regulatory hurdles
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2261
+21
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+2201..2242
+20,1,1,1,1,2,1
+#### Text ####
+the merger to face any regulatory hurdles
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+2183..2200
+20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1;20,1,1,1,1,2,0
+#### Text ####
+they don't expect
+##############
+____Arg2____
+2261..2313
+21,1,1
+#### Text ####
+the merger should be completed in six to nine months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2244..2260
+21,0;21,1,0;21,2
+#### Text ####
+Mr. Carrion said
+##############
+________________________________________________________

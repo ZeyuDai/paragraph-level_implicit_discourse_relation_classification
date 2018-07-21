@@ -1,0 +1,100 @@
+The convert.pl script converts a pdtb file into a pipe-delimited format.  Every relation is represented on a single line and values are delimited by the pipe symbol.  There are 48 columns per line.
+
+The following lists the 48 column values.  For precise definitions of the terms used, please consult the accompanying annotation manual.  Certain values may be blank.  Please refer to the manual for full descriptions.
+
+
+Col 1: Relation type (Explicit/Implicit/AltLex/EntRel/NoRel)
+
+Col 2: Section number (0-24)
+
+Col 3: File number (0-99)
+
+Col 4: Connective/AltLex SpanList (only for Explicit and AltLex)
+
+Col 5: Connective/AltLex GornAddressList (only for Explicit and AltLex)
+
+Col 6: Connective/AltLex RawText (only for Explicit and AltLex)
+
+Col 7: String position (only for Implicit, EntRel and NoRel) 
+
+Col 8: Sentence number (only for Implicit, EntRel and Norel)
+
+Col 9: ConnHead (only for Explicit)
+
+Col 10: Conn1 (only for Implicit)
+
+Col 11: Conn2 (only for Implicit)
+
+Co 12: 1st Semantic Class  corresponding to ConnHead, Conn1 or AltLex span (only for Explicit, Implicit and AltLex)
+
+Col 13: 2nd Semantic Class  corresponding to ConnHead, Conn1 or AltLex span (only for Explicit, Implicit and AltLex)
+
+Col 14: 1st Semantic Class corresponding to Conn2 (only for Implicit)
+
+Col 15: 2nd Semantic Class corresponding to Conn2 (only for Implicit)
+
+Col 16: Relation-level attribution: Source (only for Explicit, Implicit and AltLex)
+
+Col 17: Relation-level attribution: Type (only for Explicit, Implicit and AltLex)
+
+Col 18: Relation-level attribution: Polarity (only for Explicit, Implicit and AltLex)
+
+Col 19: Relation-level attribution: Determinacy (only for Explicit, Implicit and AltLex)
+
+Col 20: Relation-level attribution: SpanList (only for Explicit, Implicit and AltLex)
+
+Col 21: Relation-level attribution: GornAddressList (only for Explicit, Implicit and AltLex)
+
+Col 22: Relation-level attribution: RawText (only for Explicit, Implicit and AltLex)
+
+Col 23: Arg1 SpanList
+
+Col 24: Arg1 GornAddress
+
+Col 25: Arg1 RawText
+
+Col 26: Arg1 attribution: Source (only for Explicit, Implicit and AltLex)
+
+Col 27: Arg1 attribution: Type (only for Explicit, Implicit and AltLex)
+
+Col 28: Arg1 attribution: Polarity (only for Explicit, Implicit and AltLex)
+
+Col 29: Arg1 attribution: Determinacy (only for Explicit, Implicit and AltLex)
+
+Col 30: Arg1 attribution: SpanList (only for Explicit, Implicit and AltLex)
+
+Col 31: Arg1 attribution: GornAddressList (only for Explicit, Implicit and AltLex)
+
+Col 32: Arg1 attribution: RawText (only for Explicit, Implicit and AltLex)
+
+Col 33: Arg2 SpanList
+
+Col 34: Arg2 GornAddress
+
+Col 35: Arg2 RawText
+
+Col 36: Arg2 attribution: Source (only for Explicit, Implicit and AltLex)
+
+Col 37: Arg2 attribution: Type (only for Explicit, Implicit and AltLex)
+
+Col 38: Arg2 attribution: Polarity (only for Explicit, Implicit and AltLex)
+
+Col 39: Arg2 attribution: Determinacy (only for Explicit, Implicit and AltLex)
+
+Col 40: Arg2 attribution: SpanList (only for Explicit, Implicit and AltLex)
+
+Col 41: Arg2 attribution: GornAddressList (only for Explicit, Implicit and AltLex)
+
+Col 42: Arg2 attribution: RawText (only for Explicit, Implicit and AltLex)
+
+Col 43: Sup1 SpanList (only for Explicit, Implicit and AltLex)
+
+Col 44: Sup1 GornAddress (only for Explicit, Implicit and AltLex)
+
+Col 45: Sup1 RawText (only for Explicit, Implicit and AltLex)
+
+Col 46: Sup2 SpanList (only for Explicit, Implicit and AltLex)
+
+Col 47: Sup2 GornAddress (only for Explicit, Implicit and AltLex)
+
+Col 48: Sup2 RawText (only for Explicit, Implicit and AltLex)

@@ -1,0 +1,425 @@
+________________________________________________________
+____Implicit____
+232
+1
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.List
+____Arg1____
+183..230
+1,0
+#### Text ####
+Merck & Co. reported a 25% increase in earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+232..269
+1,2,0
+#### Text ####
+Warner-Lambert Co. 's profit rose 22%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+270..273
+1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+232..269
+1,2,0
+#### Text ####
+Warner-Lambert Co. 's profit rose 22%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+274..312
+1,2,2
+#### Text ####
+Eli Lilly & Co. 's net income rose 24%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+314
+2
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+183..312
+1
+#### Text ####
+Merck & Co. reported a 25% increase in earnings; Warner-Lambert Co. 's profit rose 22% and Eli Lilly & Co. 's net income rose 24%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+314..366
+2
+#### Text ####
+The results were in line with analysts' expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+517
+5
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+384..515
+4
+#### Text ####
+Merck, Rahway, N.J., continued to lead the industry with a strong sales performance in the human and animal health-products segment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+517..619
+5
+#### Text ####
+A stronger U.S. dollar reduced third-quarter and first-nine-month sales growth 2% and 3%, respectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+621
+6
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+517..619
+5
+#### Text ####
+A stronger U.S. dollar reduced third-quarter and first-nine-month sales growth 2% and 3%, respectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+621..735
+6
+#### Text ####
+International sales accounted for 47% of total company sales for the nine months, compared with 50% a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+737
+7
+____Arg1____
+621..735
+6
+#### Text ####
+International sales accounted for 47% of total company sales for the nine months, compared with 50% a year earlier
+##############
+____Arg2____
+737..799
+7
+#### Text ####
+Sales for the quarter rose to $1.63 billion from $1.47 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+989
+9
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+803..987
+8
+#### Text ####
+Mevacor, Merck's new cholesterol-lowering drug, had higher sales than any other prescription medicine has ever achieved in the U.S. in the year following introduction, the company said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+989..1038
+9
+#### Text ####
+The drug was introduced in West Germany this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1061..1068
+10,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+803..969
+8,0
+#### Text ####
+Mevacor, Merck's new cholesterol-lowering drug, had higher sales than any other prescription medicine has ever achieved in the U.S. in the year following introduction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..987
+8,1;8,2;8,3;8,4
+#### Text ####
+the company said
+##############
+____Arg2____
+1040..1059;1070..1195
+10,0;10,1;10,3;10,4;10,5
+#### Text ####
+Intense competition led to unit sales declines for a group of Merck's established human and animal-health products, including Aldomet and Indocin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1578
+14
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1322..1481
+13
+#### Text ####
+Warner-Lambert, Morris Plains, N.J., reported sales that were a record for any quarter and the eighth quarter in a row of 20% or more per-share earnings growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1578..1619
+14,3,1,0;14,3,1,1,0;14,3,1,1,1,0;14,3,1,1,1,1,0;14,3,1,1,1,1,1;14,3,1,1,1,1,2
+#### Text ####
+1989 will be the best year in its history
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1558..1577
+14,1;14,2;14,3,0;14,4
+#### Text ####
+Warner-Lambert said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1696
+15
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1621..1694
+14,3,1,1,1,1,3
+#### Text ####
+with per-share earnings expected to increase more than 20% to about $6.10
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1696..1758
+15
+#### Text ####
+Sales for the quarter rose to $1.11 billion from $1.03 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1837
+16
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1762..1835
+16,0
+#### Text ####
+Prescription-drug world-wide sales rose 9% in the quarter to $340 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1837..1856
+16,2
+#### Text ####
+U.S. sales rose 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1858
+17
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1837..1856
+16,2
+#### Text ####
+U.S. sales rose 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1858..1987
+17
+#### Text ####
+The segment's growth was led by sales of the cardiovascular drugs Lopid, a lipid regulator, and Dilzem, a calcium channel blocker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2191
+18
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1991..2189
+18,0
+#### Text ####
+World-wide sales of Warner-Lambert's non-prescription health-care products, such as Halls cough tablets, Rolaids antacid, and Lubriderm skin lotion, increased 3% to $362 million in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2191..2209
+18,2
+#### Text ####
+U.S. sales rose 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2242..2246
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1762..1856;1991..2209
+16;18
+#### Text ####
+Prescription-drug world-wide sales rose 9% in the quarter to $340 million; U.S. sales rose 15% World-wide sales of Warner-Lambert's non-prescription health-care products, such as Halls cough tablets, Rolaids antacid, and Lubriderm skin lotion, increased 3% to $362 million in the third quarter; U.S. sales rose 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2213..2241;2247..2279
+19,0;19,2;19,3
+#### Text ####
+Confectionery products sales had strong growth in the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2281
+20
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2213..2279
+19
+#### Text ####
+Confectionery products sales also had strong growth in the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2281..2397
+20
+#### Text ####
+World-wide sales of Trident gum, Certs breath mints, and Clorets gum and breath mints, increased 12% to $277 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3144
+26
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3041..3142
+25
+#### Text ####
+Third-quarter sales of the Indianapolis, Ind., company rose 11% to $1.045 billion from $940.6 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3144..3220
+26
+#### Text ####
+Nine-month sales grew 12% to $3.39 billion from $3.03 billion a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3287
+28
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+3224..3285
+27
+#### Text ####
+Sales of Prozac, an anti-depressant, led drug-sales increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3287..3481
+28,0
+#### Text ####
+Higher sales of pesticides and other plant-science products more than offset a slight decline in the sales of animal-health products to fuel the increase in world-wide agricultural product sales
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3483..3493
+28,1;28,2;28,3;28,4
+#### Text ####
+Lilly said
+##############
+________________________________________________________

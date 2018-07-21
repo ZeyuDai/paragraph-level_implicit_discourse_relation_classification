@@ -1,0 +1,78 @@
+________________________________________________________
+____Implicit____
+151
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+45..119
+0,1,1
+#### Text ####
+it lowered the debt ratings of certain long-term debt held by this company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..44
+0,0;0,1,0;0,2
+#### Text ####
+Moody's Investors Service Inc. said
+##############
+____Arg2____
+151..188
+1,1,1;1,1,2
+#### Text ####
+the bank's move into the Texas market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+121..150
+1,0;1,1,0;1,1,2;1,2
+#### Text ####
+The debt-rating concern cited
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+316..320
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..119
+0
+#### Text ####
+Moody's Investors Service Inc. said it lowered the debt ratings of certain long-term debt held by this company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+308..315;321..417
+2,0;2,2,0;2,2,1,0;2,2,1,1,0;2,2,1,1,1,0;2,2,1,1,1,1;2,2,1,1,1,2;2,3
+#### Text ####
+Moody's said it raised its rating on the Deposit Insurance Bridge Bank, now known as Bank One, Texas N.A
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+512
+3
+____Arg1____
+308..510
+2
+#### Text ####
+Moody's also said it raised its rating on the Deposit Insurance Bridge Bank, now known as Bank One, Texas N.A., reflecting the support of other banking affiliates and substantial assistance for the FDIC
+##############
+____Arg2____
+512..615
+3
+#### Text ####
+Officials at the New York bank-holding company weren't available for comment on the debt-rating changes
+##############
+________________________________________________________

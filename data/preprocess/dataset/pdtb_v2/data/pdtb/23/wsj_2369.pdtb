@@ -1,0 +1,1431 @@
+________________________________________________________
+____Implicit____
+89
+1
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+9..87
+0
+#### Text ####
+Of all the ethnic tensions in America, which is the most troublesome right now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+89..161
+1
+#### Text ####
+A good bet would be the tension between blacks and Jews in New York City
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+163..165
+2,0
+#### Text ####
+Or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+89..161
+1
+#### Text ####
+A good bet would be the tension between blacks and Jews in New York City
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+166..300
+2,1;2,2;2,3;2,4
+#### Text ####
+so it must seem to Jackie Mason, the veteran Jewish comedian appearing in a new ABC sitcom airing on Tuesday nights (9:30-10 p.m. EDT)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+302
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+163..300
+2
+#### Text ####
+Or so it must seem to Jackie Mason, the veteran Jewish comedian appearing in a new ABC sitcom airing on Tuesday nights (9:30-10 p.m. EDT)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+302..424
+3,0;3,1;3,2;3,3;3,4,0;3,4,1;3,4,2;3,5
+#### Text ####
+Not only is Mr. Mason the star of "Chicken Soup," he's also the inheritor of a comedic tradition dating back to "Duck Soup
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+357..361
+3,4,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+302..349
+3,0;3,1;3,2;3,3;3,5
+#### Text ####
+Not only is Mr. Mason the star of "Chicken Soup
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+352..356;362..464
+3,4,0,0;3,4,0,1,0;3,4,0,1,2;3,4,1;3,4,2;3,4,3;3,4,4
+#### Text ####
+he's the inheritor of a comedic tradition dating back to "Duck Soup," and he's currently a man in hot water
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+427..430
+3,4,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+352..424
+3,4,0
+#### Text ####
+he's also the inheritor of a comedic tradition dating back to "Duck Soup
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+431..464
+3,4,4
+#### Text ####
+he's currently a man in hot water
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+565..570
+4,5,1,1,2,0,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+531..564
+4,5,1,1,1;4,5,1,1,2,0,0;4,5,1,1,2,0,1;4,5,1,1,2,0,2;4,5,1,1,2,0,3
+#### Text ####
+quoted first in the Village Voice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+571..636
+4,5,1,1,2,0,4,1
+#### Text ####
+he was a paid spokesman for the Rudolph Giuliani mayoral campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+659..664
+4,5,1,1,2,4,1,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+638..658
+4,5,1,1,2,2;4,5,1,1,2,3;4,5,1,1,2,4,0
+#### Text ####
+and then in Newsweek
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+665..699
+4,5,1,1,2,4,1,1
+#### Text ####
+he and the campaign parted company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+701
+5
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+468..564
+4,0;4,1;4,2;4,3;4,4;4,5,0;4,5,1,0;4,5,1,1,0;4,5,1,1,1;4,5,1,1,2,0,0;4,5,1,1,2,0,1;4,5,1,1,2,0,2;4,5,1,1,2,0,3;4,6
+#### Text ####
+Here, in neutral language, is the gist of Mr. Mason's remarks, quoted first in the Village Voice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+701..812
+5
+#### Text ####
+Mr. Mason said that many Jewish voters feel guilty toward blacks, so they support black candidates uncritically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+767..769
+5,1,1,1,2
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+701..715
+5,0;5,1,0;5,2
+#### Text ####
+Mr. Mason said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+716..765
+5,1,1,0;5,1,1,1,0;5,1,1,1,1
+#### Text ####
+that many Jewish voters feel guilty toward blacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+770..812
+5,1,1,1,3
+#### Text ####
+they support black candidates uncritically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+814
+6
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+701..812
+5
+#### Text ####
+Mr. Mason said that many Jewish voters feel guilty toward blacks, so they support black candidates uncritically
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+814..937
+6
+#### Text ####
+He said that many black voters feel bitter about racial discrimination, so they, too, support black candidates uncritically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+886..888
+6,1,1,1,2
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+814..821
+6,0;6,1,0;6,2
+#### Text ####
+He said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+822..884
+6,1,1,0;6,1,1,1,0;6,1,1,1,1
+#### Text ####
+that many black voters feel bitter about racial discrimination
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+889..937
+6,1,1,1,3
+#### Text ####
+they, too, support black candidates uncritically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+939
+7
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+814..937
+6
+#### Text ####
+He said that many black voters feel bitter about racial discrimination, so they, too, support black candidates uncritically
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+939..1025
+7
+#### Text ####
+He said that Jews have contributed more to black causes over the years than vice versa
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1080
+9
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1029..1078
+8
+#### Text ####
+Of course, Mr. Mason did not use neutral language
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1080..1246
+9
+#### Text ####
+As a practitioner of ethnic humor from the old days on the Borscht Belt, live television and the nightclub circuit, Mr. Mason instinctively reached for the vernacular
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1248
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1196..1246
+9,1;9,2;9,3;9,4
+#### Text ####
+Mr. Mason instinctively reached for the vernacular
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1248..1286
+10,0
+#### Text ####
+He said Jews were "sick with complexes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1289..1292
+10,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1248..1286
+10,0
+#### Text ####
+He said Jews were "sick with complexes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1293..1382
+10,3
+#### Text ####
+he called David Dinkins, Mr. Giuliani's black opponent, "a fancy shvartze with a mustache
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1387..1389
+11,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal past
+____Arg1____
+1519..1550
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+would the water be quite so hot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1390..1517
+11,0,1
+#### Text ####
+Mr. Mason had used less derogatory language to articulate his amateur analysis of the voting behavior of his fellow New Yorkers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1571..1578
+12,2,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1552..1569
+12,0;12,1;12,2,0;12,2,1,0;12,2,1,1;12,3
+#### Text ####
+It probably would
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1579..1745
+12,2,1,2,1
+#### Text ####
+few or none of the people upset by Mr. Mason's remarks have bothered to distinguish between the substance of his comments and the fact that he used insulting language
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1747..1758
+13,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1571..1745
+12,2,1,2
+#### Text ####
+because few or none of the people upset by Mr. Mason's remarks have bothered to distinguish between the substance of his comments and the fact that he used insulting language
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1760..1857
+13,1;13,2;13,3;13,4
+#### Text ####
+some of Mr. Mason's critics have implied that his type of ethnic humor is itself a form of racism
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1861..1872
+14,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1747..1857
+13
+#### Text ####
+In addition, some of Mr. Mason's critics have implied that his type of ethnic humor is itself a form of racism
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1874..2007
+14,1;14,2;14,3;14,4;15
+#### Text ####
+the New York state counsel for the NAACP said that Mr. Mason is "like a dinosaur.
+People are fast leaving the place where he is stuck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1956
+15
+#### Features ####
+Ot, Comm, Null, Null
+1861..1919
+14,0;14,1;14,2;14,3,0;14,4
+#### Text ####
+For example, the New York state counsel for the NAACP said
+##############
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+1920..1954
+14,3,1
+#### Text ####
+that Mr. Mason is "like a dinosaur
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1956..2007
+15
+#### Text ####
+People are fast leaving the place where he is stuck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2212
+17
+____Arg1____
+2012..2210
+16
+#### Text ####
+These critics fail to distinguish between the type of ethnic humor that aims at disparaging another group, such as "Polish jokes"; and the type that is double-edged, aiming inward as well as outward
+##############
+____Arg2____
+2212..2422
+17
+#### Text ####
+The latter typically is the humor of the underdog, and it was perfected by both blacks and Jews on the minstrel and vaudeville stage as a means of mocking their white and gentile audiences along with themselves
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2263..2266
+17,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2212..2261
+17,0
+#### Text ####
+The latter typically is the humor of the underdog
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2267..2422
+17,3
+#### Text ####
+it was perfected by both blacks and Jews on the minstrel and vaudeville stage as a means of mocking their white and gentile audiences along with themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2546..2549
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2426..2544
+18
+#### Text ####
+In the hands of a zealot like Lenny Bruce, this double-edged blade could cut both the self and the audience to ribbons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2550..2623
+19,1;19,2;19,3;19,4;19,5
+#### Text ####
+wielded by a pro like Jackie Mason, it is a constructive form of mischief
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2625
+20
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion
+____Arg1____
+2546..2623
+19
+#### Text ####
+But wielded by a pro like Jackie Mason, it is a constructive form of mischief
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2625..2641
+20
+#### Text ####
+Why constructive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2643..2650
+21,0,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2625..2641
+20
+#### Text ####
+Why constructive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2651..2856
+21,0,0,1;21,1;21,2;21,3
+#### Text ####
+despite all the media prattle about comedy and politics not mixing, they are similar in one respect: Both can serve as mechanisms for easing tensions and facilitating the co-existence of groups in conflict
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2752
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2643..2750
+21,0;21,1;21,3
+#### Text ####
+Because despite all the media prattle about comedy and politics not mixing, they are similar in one respect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2752..2856
+21,2
+#### Text ####
+Both can serve as mechanisms for easing tensions and facilitating the co-existence of groups in conflict
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2858
+22
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2752..2856
+21,2
+#### Text ####
+Both can serve as mechanisms for easing tensions and facilitating the co-existence of groups in conflict
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2858..3007
+22
+#### Text ####
+That's why it's dangerous to have well-intentioned thought police, on college campuses and elsewhere, taboo all critical mention of group differences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3155..3157
+23,5,2,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3011..3092
+23,0
+#### Text ####
+As Elizabeth Kristol wrote in the New York Times just before the Mason donnybrook
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+3095..3154
+23,1;23,2;23,3;23,4;23,5,0;23,5,1;23,5,2,0;23,5,2,1;23,5,2,2;23,6;23,7
+#### Text ####
+Perhaps intolerance would not boil over with such intensity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3158..3199
+23,5,2,3,1
+#### Text ####
+honest differences were allowed to simmer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3202
+24
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3095..3199
+23,1;23,2;23,3;23,4;23,5;23,6;23,7
+#### Text ####
+Perhaps intolerance would not boil over with such intensity if honest differences were allowed to simmer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3011..3092
+23,0
+#### Text ####
+As Elizabeth Kristol wrote in the New York Times just before the Mason donnybrook
+##############
+____Arg2____
+3202..3379
+24
+#### Text ####
+The question is, if group conflicts still exist (as undeniably they do), and if Mr. Mason's type of ethnic humor is passe, then what other means do we have for letting off steam
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3219..3221;3325..3329
+24,1,2,0,0,0;24,1,2,2
+#### Text ####
+if then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if then, Contingency.Condition.Factual present
+____Arg1____
+3222..3249
+24,1,2,0,0,1,0;24,1,2,0,0,1,1;24,1,2,0,0,1,2,0
+#### Text ####
+group conflicts still exist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3330..3379
+24,1,2,1;24,1,2,3;24,1,2,4;24,1,2,5
+#### Text ####
+what other means do we have for letting off steam
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3275..3278
+24,1,2,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3219..3249
+24,1,2,0,0,0;24,1,2,0,0,1,0;24,1,2,0,0,1,1;24,1,2,0,0,1,2,0
+#### Text ####
+if group conflicts still exist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3279..3323
+24,1,2,0,3
+#### Text ####
+if Mr. Mason's type of ethnic humor is passe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3279..3281;3325..3329
+24,1,2,0,3,0;24,1,2,2
+#### Text ####
+if then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if then, Contingency.Condition.Factual present
+____Arg1____
+3282..3323
+24,1,2,0,3,1
+#### Text ####
+Mr. Mason's type of ethnic humor is passe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3275..3278;3330..3379
+24,1,2,0,2;24,1,2,1;24,1,2,3;24,1,2,4;24,1,2,5
+#### Text ####
+and what other means do we have for letting off steam
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3408..3415
+25,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3383..3406
+25,0;25,1,0;25,1,1;25,1,2,0;25,1,2,1;25,1,2,2;25,2
+#### Text ####
+Don't say the TV sitcom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3416..3554
+25,1,2,3,1
+#### Text ####
+that happens to be a genre that, in its desperate need to attract everybody and offend nobody, resembles politics more than it does comedy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3556
+26
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+3383..3554
+25
+#### Text ####
+Don't say the TV sitcom, because that happens to be a genre that, in its desperate need to attract everybody and offend nobody, resembles politics more than it does comedy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3556..3625
+26,0
+#### Text ####
+It is true that the best sitcoms do allow group differences to simmer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3716..3719
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3567..3713
+26,0,1,2;26,1;26,2;26,3;26,4
+#### Text ####
+that the best sitcoms do allow group differences to simmer: yuppies vs. blue-collar Bostonians in "Cheers"; children vs. adults in "The Cosby Show
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3720..3769
+27,1;27,2;27,3
+#### Text ####
+these are not the differences that make headlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3992
+29
+____Arg1____
+3773..3990
+28
+#### Text ####
+In "Chicken Soup," Mr. Mason plays Jackie, a Jewish bachelor courting Maddie (Lynn Redgrave), an Irish widow and mother of three, against the wishes of his mother (Rita Karin) and her brother Michael (Brandon Maggart)
+##############
+____Arg2____
+3992..4057
+29
+#### Text ####
+It's worth noting that both disapproving relatives are immigrants
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4059
+30
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Specification
+____Arg1____
+3992..4057
+29
+#### Text ####
+It's worth noting that both disapproving relatives are immigrants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4059..4129
+30
+#### Text ####
+At least, they both speak with strong accents, as do Jackie and Maddie
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4131
+31
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4059..4129
+30
+#### Text ####
+At least, they both speak with strong accents, as do Jackie and Maddie
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4131..4211
+31
+#### Text ####
+It couldn't be more obvious that "Chicken Soup" is being made from an old recipe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4622..4625
+34,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4577..4620
+33,3,1,1,1,1,1,2,1,2
+#### Text ####
+that the plot has entered the public domain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4626..4647
+34,1;34,2,0;34,2,1,0;34,2,1,1;34,2,1,2;34,3
+#### Text ####
+it has remained there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4919..4922
+35,3,2,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4838..4917
+35,0;35,1;35,2;35,3,0;35,3,1;35,3,2,0;35,3,2,1;35,4
+#### Text ####
+Clearly, the question with "Chicken Soup" is not whether the pot will boil over
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4923..4952
+35,3,2,3
+#### Text ####
+whether it will simmer at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4954
+36
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4838..4952
+35
+#### Text ####
+Clearly, the question with "Chicken Soup" is not whether the pot will boil over, but whether it will simmer at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4954..5003
+36
+#### Text ####
+So far, the bubbles have been few and far between
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5005
+37
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4954..5003
+36
+#### Text ####
+So far, the bubbles have been few and far between
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5005..5055;5102..5131
+37,0;37,1,0;37,1,1,0;37,1,1,1;37,1,1,2;37,1,1,4;37,1,1,5;37,2
+#### Text ####
+Part of the problem is the tendency of all sitcoms to preach about social issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5133
+38
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5005..5055;5102..5131
+37,0;37,1,0;37,1,1,0;37,1,1,1;37,1,1,2;37,1,1,4;37,1,1,5;37,2
+#### Text ####
+Part of the problem is the tendency of all sitcoms to preach about social issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5133..5253
+38
+#### Text ####
+To some extent, this tendency emerges whenever the show tries to enlighten us about ethnic stereotypes by reversing them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5257..5269
+39,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+5133..5253
+38
+#### Text ####
+To some extent, this tendency emerges whenever the show tries to enlighten us about ethnic stereotypes by reversing them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5271..5430
+39,1;39,2;39,3;39,4
+#### Text ####
+Michael dislikes Jackie not because he's a shrewd Jewish businessman, but because he quits his well-paying job as a salesman in order to become a social worker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5295..5306
+39,3,2,0;39,3,2,1,0
+#### Text ####
+not because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5257..5294
+39,0;39,1;39,2;39,3,0;39,3,1;39,4
+#### Text ####
+For instance, Michael dislikes Jackie
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5307..5339
+39,3,2,1,1
+#### Text ####
+he's a shrewd Jewish businessman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5341..5344
+39,3,2,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5295..5339
+39,3,2,0;39,3,2,1;39,3,2,2
+#### Text ####
+not because he's a shrewd Jewish businessman
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5345..5430
+39,3,2,4
+#### Text ####
+because he quits his well-paying job as a salesman in order to become a social worker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5345..5352
+39,3,2,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5257..5294
+39,0;39,1;39,2;39,3,0;39,3,1;39,4
+#### Text ####
+For instance, Michael dislikes Jackie
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5341..5344;5353..5430
+39,3,2,3;39,3,2,4,1
+#### Text ####
+but he quits his well-paying job as a salesman in order to become a social worker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5432
+40
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5257..5430
+39
+#### Text ####
+For instance, Michael dislikes Jackie not because he's a shrewd Jewish businessman, but because he quits his well-paying job as a salesman in order to become a social worker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5432..5533
+40
+#### Text ####
+Even more problematic is the incompatibility between sitcom preachiness and Mr. Mason's comic persona
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5535
+41
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+5432..5533
+40
+#### Text ####
+Even more problematic is the incompatibility between sitcom preachiness and Mr. Mason's comic persona
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5535..5770
+41
+#### Text ####
+The best moments in the show occur at the beginning and the end (and occasionally in the middle), when Mr. Mason slips into his standup mode and starts meting out that old-fashioned Jewish mischief to other people as well as to himself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5772..5775
+42,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5535..5770
+41
+#### Text ####
+The best moments in the show occur at the beginning and the end (and occasionally in the middle), when Mr. Mason slips into his standup mode and starts meting out that old-fashioned Jewish mischief to other people as well as to himself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5776..5812
+42,1;42,2;42,3;42,4,0;42,4,1;42,5
+#### Text ####
+too often, these routines lack spark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5813..5924
+42,4,2
+#### Text ####
+because this sitcom, like all sitcoms, is timid about confronting Mr. Mason's stock in trade-ethnic differences
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5813..5820
+42,4,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5772..5812
+42,0;42,1;42,2;42,3;42,4,0;42,4,1;42,5
+#### Text ####
+But too often, these routines lack spark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5821..5924
+42,4,2,1
+#### Text ####
+this sitcom, like all sitcoms, is timid about confronting Mr. Mason's stock in trade-ethnic differences
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6085
+44
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5928..6083
+43
+#### Text ####
+I'm not suggesting that the producers start putting together episodes about topics like the Catholic-Jewish dispute over the Carmelite convent at Auschwitz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6085..6193
+44
+#### Text ####
+That issue, like racial tensions in New York City, will have to cool down, not heat up, before it can simmer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6173..6179
+44,4,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+6085..6171
+44,0;44,1;44,2;44,3;44,4,0;44,4,1,0;44,4,1,1;44,5
+#### Text ####
+That issue, like racial tensions in New York City, will have to cool down, not heat up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6180..6193
+44,4,1,2,1
+#### Text ####
+it can simmer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6195..6198
+45,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5928..6083
+43
+#### Text ####
+I'm not suggesting that the producers start putting together episodes about topics like the Catholic-Jewish dispute over the Carmelite convent at Auschwitz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6199..6381
+45,1;45,2;45,3
+#### Text ####
+I am suggesting that they stop requiring Mr. Mason to interrupt his classic shtik with some line about "caring for other people" that would sound shmaltzy on the lips of Miss America
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6383
+46
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6195..6381
+45
+#### Text ####
+But I am suggesting that they stop requiring Mr. Mason to interrupt his classic shtik with some line about "caring for other people" that would sound shmaltzy on the lips of Miss America
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6383..6475
+46
+#### Text ####
+At your age, Jackie, you ought to know that you can't make soup without turning up the flame
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

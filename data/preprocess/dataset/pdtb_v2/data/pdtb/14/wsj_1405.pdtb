@@ -1,0 +1,625 @@
+________________________________________________________
+____Explicit____
+204..207
+0,3,1,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Indet
+9..152
+0,0;0,1;0,2;0,3,0;0,3,1,0;0,3,1,1;0,4
+#### Text ####
+With the dust settling from the failed coup attempt in Panama, one of the many lingering questions the Bush administration will ponder is this:
+##############
+and, Expansion.Conjunction
+____Arg1____
+153..202
+0,3,1,2,0
+#### Text ####
+Is the National Security Council staff big enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+208..279
+0,3,1,2,3
+#### Text ####
+does it have enough clout, to do its job of coordinating foreign policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+491
+2
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+283..489
+1
+#### Text ####
+President Bush's national security adviser, Lt. Gen. Brent Scowcroft, came into office in January intent on making the NSC staff leaner and more disciplined than it had been during the Reagan administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+491..585
+2
+#### Text ####
+Gen. Scowcroft was a member of the Tower Commission, which investigated the Iran-Contra affair
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+587
+3
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+491..585
+2
+#### Text ####
+Gen. Scowcroft was a member of the Tower Commission, which investigated the Iran-Contra affair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+587..731
+3
+#### Text ####
+He was all too aware of how a large, inadequately supervised NSC staff had spun out of control and nearly wrecked President Reagan's second term
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+735..737
+4,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+587..731
+3
+#### Text ####
+He was all too aware of how a large, inadequately supervised NSC staff had spun out of control and nearly wrecked President Reagan's second term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+870..1196
+4,1;4,3;4,4;4,5;4,6
+#### Text ####
+Gen. Scowcroft has pruned the NSC staff and tried to ensure that it sticks to its assigned tasks -- namely, gathering the views of the State Department, Pentagon and intelligence community; serving as an honest broker in distilling that information for the president and then making sure presidential decisions are carried out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1141..1145
+4,5,1,2,1,1,1,1,1,1,1,1,4,1,4,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1060..1136
+4,5,1,2,1,1,1,1,1,1,1,1,4,1,1;4,5,1,2,1,1,1,1,1,1,1,1,4,1,2
+#### Text ####
+serving as an honest broker in distilling that information for the president
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1137..1140;1146..1196
+4,5,1,2,1,1,1,1,1,1,1,1,4,1,3;4,5,1,2,1,1,1,1,1,1,1,1,4,1,4,1;4,5,1,2,1,1,1,1,1,1,1,1,4,1,4,2
+#### Text ####
+and making sure presidential decisions are carried out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1505..1512
+6,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1200..1274
+5,0;5,1,0;5,2
+#### Text ####
+The Tower Commission specifically said that the NSC staff should be "small
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1514..1665
+6,1;6,2;6,3;6,4
+#### Text ####
+the Panama episode has raised questions about whether the NSC staff is sufficiently big, diverse and powerful to coordinate U.S. policy on tough issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1667
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1505..1665
+6
+#### Text ####
+However, the Panama episode has raised questions about whether the NSC staff is sufficiently big, diverse and powerful to coordinate U.S. policy on tough issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1667..1748
+7,0
+#### Text ####
+During the coup attempt and its aftermath, NSC staffers were "stretched very thin
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1751..1790
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+says one senior administration official
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1793
+8
+#### Features ####
+Ot, Comm, Null, Null
+1751..1790
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+says one senior administration official
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1667..1748
+7,0
+#### Text ####
+During the coup attempt and its aftermath, NSC staffers were "stretched very thin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1793..1815
+8
+#### Text ####
+It's a very small shop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1934
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1881..1913
+9,0,1,2;9,0,1,3
+#### Text ####
+but is weighing that possibility
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1915..1932
+9,1;9,2;9,3;9,4
+#### Text ####
+the official adds
+##############
+____Arg2____
+1934..1981;1992..2044
+10,0,0;10,0,1;10,0,2,0;10,0,2,1;10,0,2,2,0;10,0,2,2,1,0;10,0,2,2,1,1,0;10,0,2,2,1,1,1,1,1;10,0,3;10,0,4
+#### Text ####
+The NSC staff "doesn't have the horsepower that is required to have an effective interagency process
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1982..1991
+10,0,2,2,1,1,1,0;10,0,2,2,1,1,1,1,0
+#### Text ####
+I believe
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2224
+11
+#### Features ####
+Ot, Comm, Null, Null
+2047..2065
+10,1;10,2,0;10,2,1;10,3
+#### Text ####
+says Frank Gaffney
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+1934..1981;1992..2044
+10,0,0;10,0,1;10,0,2,0;10,0,2,1;10,0,2,2,0;10,0,2,2,1,0;10,0,2,2,1,1,0;10,0,2,2,1,1,1,1,1;10,0,3;10,0,4
+#### Text ####
+The NSC staff "doesn't have the horsepower that is required to have an effective interagency process
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1982..1991
+10,0,2,2,1,1,1,0;10,0,2,2,1,1,1,1,0
+#### Text ####
+I believe
+##############
+____Arg2____
+2224..2337
+11,3,1
+#### Text ####
+that by design it has greatly diminished, both in a physical sense and in a procedural sense, the role of the NSC
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2403..2410
+12,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2342..2402
+12,0;12,1,0;12,1,1,0;12,1,1,1;12,1,1,2;12,2
+#### Text ####
+The National Security Council itself was established in 1947
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2411..2648
+12,1,1,3,1
+#### Text ####
+policy makers sensed a need, in an increasingly complex world, for a formal system within the White House to make sure that communications flowed smoothly between the president and the State Department, Pentagon and intelligence agencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2650
+13
+____Arg1____
+2342..2648
+12
+#### Text ####
+The National Security Council itself was established in 1947 because policy makers sensed a need, in an increasingly complex world, for a formal system within the White House to make sure that communications flowed smoothly between the president and the State Department, Pentagon and intelligence agencies
+##############
+____Arg2____
+2650..2745
+13
+#### Text ####
+By law, the council includes the president, vice president and secretaries of state and defense
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2839..2843
+14,3,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2650..2745
+13
+#### Text ####
+By law, the council includes the president, vice president and secretaries of state and defense
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2747..2838;2844..2871
+14,0;14,1;14,2;14,3,1;14,3,2;14,4
+#### Text ####
+In practice, the director of central intelligence and chairman of the Joint Chiefs of Staff serve as unofficial members
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2875..2878
+15,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2650..2871
+13;14
+#### Text ####
+By law, the council includes the president, vice president and secretaries of state and defense.
+In practice, the director of central intelligence and chairman of the Joint Chiefs of Staff also serve as unofficial members
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2879..2998
+15,1;15,2;15,3
+#### Text ####
+the size, shape and role of the NSC staff have been left for each president and his national security adviser to decide
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3000
+16
+____Arg1____
+2875..2998
+15
+#### Text ####
+But the size, shape and role of the NSC staff have been left for each president and his national security adviser to decide
+##############
+____Arg2____
+3000..3051
+16
+#### Text ####
+That task is one of Washington's perennial problems
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3053
+17
+____Arg1____
+3000..3051
+16
+#### Text ####
+That task is one of Washington's perennial problems
+##############
+____Arg2____
+3053..3202
+17
+#### Text ####
+In the Bush White House, the size of the NSC's staff of professional officers is down to about 50 from about 70 in 1987, administration officials say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3308..3311
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3238..3306
+18,1,1
+#### Text ####
+that the size of the staff wasn't a problem during the Panama crisis
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3206..3237
+18,0;18,1,0;18,2
+#### Text ####
+Administration officials insist
+##############
+____Arg2____
+3312..3438
+19,1;19,2;19,3
+#### Text ####
+one clear problem during the coup attempt was that the NSC staffer most experienced in Latin America, Everett Briggs, was gone
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3440
+20
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3308..3438
+19
+#### Text ####
+But one clear problem during the coup attempt was that the NSC staffer most experienced in Latin America, Everett Briggs, was gone
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3440..3631
+20
+#### Text ####
+He had just resigned, at least in part because of a feud with Assistant Secretary of State Bernard Aronson over the administration's policy on Panama and support for Nicaragua's Contra rebels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3723
+22
+____Arg1____
+3635..3721
+21
+#### Text ####
+The absence of Mr. Briggs underscored the possible inadequacy of the current NSC staff
+##############
+____Arg2____
+3723..3807
+22
+#### Text ####
+Both Gen. Scowcroft and his deputy, Robert Gates, are experts in U.S.-Soviet affairs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3869..3872
+23,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3809..3867
+23,0
+#### Text ####
+Gen. Scowcroft is particularly well-versed in arms control
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3873..3935
+23,3
+#### Text ####
+Mr. Gates has spent years studying Soviet politics and society
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3937
+24
+____Arg1____
+3809..3935
+23
+#### Text ####
+Gen. Scowcroft is particularly well-versed in arms control, and Mr. Gates has spent years studying Soviet politics and society
+##############
+____Arg2____
+3937..3982
+24
+#### Text ####
+Both have become confidants of President Bush
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3986..3989
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+3809..3982
+23;24
+#### Text ####
+Gen. Scowcroft is particularly well-versed in arms control, and Mr. Gates has spent years studying Soviet politics and society.
+Both have become confidants of President Bush
+##############
+____Arg1____
+3723..3807
+22
+#### Text ####
+Both Gen. Scowcroft and his deputy, Robert Gates, are experts in U.S.-Soviet affairs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3990..4067
+25,1;25,2;25,3
+#### Text ####
+neither has an extensive background in Latin America, the Middle East or Asia
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4121..4130
+26,3
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+3986..4067
+25
+#### Text ####
+But neither has an extensive background in Latin America, the Middle East or Asia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4069..4120;4131..4157
+26,0;26,1;26,2;26,4;26,5
+#### Text ####
+In those areas, the role of NSC staffers under them have become more important
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4432..4435
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+4200..4430
+27,1,2
+#### Text ####
+that one of the biggest dangers he faces is that NSC staffers working in relative anonymity will take over policy-making and operational tasks that are best left to bigger and more experienced State Department and Pentagon bureaus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4436..4576
+28,1;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+just as every previous NSC adviser has, Gen. Scowcroft now will have to mull at what point the NSC staff becomes too lean and too restrained
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

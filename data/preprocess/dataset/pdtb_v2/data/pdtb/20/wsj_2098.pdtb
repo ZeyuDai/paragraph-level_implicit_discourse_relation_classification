@@ -1,0 +1,204 @@
+________________________________________________________
+____Explicit____
+336..338
+1,0,1,2,1,1,1,2,1
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+390..425
+1,1;1,2;1,3;1,4
+#### Text ####
+said Oncor President Stephen Turner
+##############
+or, Expansion.Alternative.Disjunctive
+____Arg1____
+314..335
+1,0,1,2,1,1,1,2,0
+#### Text ####
+whether it has spread
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+339..388
+1,0,1,2,1,1,1,2,2
+#### Text ####
+whether there is a recurrence following treatment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+443
+2
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+210..388
+1,0
+#### Text ####
+The B/T gene rearrangement test is more accurate than existing tests for diagnosing the type of cancer, whether it has spread or whether there is a recurrence following treatment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+390..425
+1,1;1,2;1,3;1,4
+#### Text ####
+said Oncor President Stephen Turner
+##############
+____Arg2____
+443..581
+2,1,1
+#### Text ####
+the test initially will be used in conjunction with biopsies and other tests, but eventually might become the benchmark for tumor analysis
+##############
+#### Features ####
+Ot, Comm, Null, Null
+427..442
+2,0;2,1,0;2,2
+#### Text ####
+Mr. Turner said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+583
+3
+____Arg1____
+427..581
+2
+#### Text ####
+Mr. Turner said the test initially will be used in conjunction with biopsies and other tests, but eventually might become the benchmark for tumor analysis
+##############
+____Arg2____
+583..673
+3
+#### Text ####
+Mr. Turner said the test will be shipped in 45 days to hospitals and clinical laboratories
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+842..849
+4,1,1,1,1,2,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+677..765
+4,0;4,1,0;4,2
+#### Text ####
+Dr. Wyndham Wilson, a cancer treatment specialist at the National Cancer Institute, said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+810..841
+4,1,1,1,1,1;4,1,1,1,1,2,0;4,1,1,1,1,2,1;4,1,1,1,1,2,2,0;4,1,1,1,1,2,2,1
+#### Text ####
+but isn't having a major impact
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+850..921
+4,1,1,1,1,2,2,2,1
+#### Text ####
+it is only occasionally useful in choosing the most effective treatment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+923..926
+5,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1042..1057
+5,1;5,2;5,3;5,4
+#### Text ####
+Dr. Wilson said
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+842..921
+4,1,1,1,1,2,2,2
+#### Text ####
+because it is only occasionally useful in choosing the most effective treatment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+677..765
+4,0;4,1,0;4,2
+#### Text ####
+Dr. Wyndham Wilson, a cancer treatment specialist at the National Cancer Institute, said
+##############
+____Arg2____
+927..1040
+5,0,1;5,0,2
+#### Text ####
+the test may prove to be more sensitive in determining whether a tumor has spread or returned following treatment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1060
+6
+#### Features ####
+Ot, Comm, Null, Null
+1108..1115
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+he said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+766..1040
+4,1,1;5,0
+#### Text ####
+the test is widely used in research centers but isn't having a major impact because it is only occasionally useful in choosing the most effective treatment.
+But the test may prove to be more sensitive in determining whether a tumor has spread or returned following treatment
+##############
+#### Features ####
+Ot, Comm, Null, Null
+677..765;1042..1057
+4,0;4,1,0;4,2;5,1;5,2;5,3;5,4
+#### Text ####
+Dr. Wyndham Wilson, a cancer treatment specialist at the National Cancer Institute, said Dr. Wilson said
+##############
+____Arg2____
+1060..1105
+6,1
+#### Text ####
+We don't know yet how useful it's going to be
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1301
+8
+____Arg1____
+1119..1299
+7
+#### Text ####
+Oncor, a six-year-old developer of genetic medical tests, projects that the cancer test will help it to post its first-ever profit during the first quarter of 1990, Mr. Turner said
+##############
+____Arg2____
+1301..1443
+8
+#### Text ####
+The company will charge $35 for a test and projects about $2 million in revenue from the test during the first 12 months of marketing, he said
+##############
+________________________________________________________

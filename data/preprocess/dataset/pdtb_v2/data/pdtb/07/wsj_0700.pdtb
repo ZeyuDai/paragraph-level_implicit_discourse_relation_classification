@@ -1,0 +1,1076 @@
+________________________________________________________
+____Implicit____
+308
+2
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+214..306
+1
+#### Text ####
+Hong Kong financial institutions have been waiting for interest-rate futures for a long time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+308..363
+2,0
+#### Text ####
+The contract was first proposed more than two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+365..368
+2,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+308..363
+2,0
+#### Text ####
+The contract was first proposed more than two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+369..461
+2,3
+#### Text ####
+shortly afterward, the colony's markets were hit hard by the October 1987 global stock crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+369..386
+2,3,0
+#### Text ####
+shortly afterward
+##############
+#### Features ####
+Wr, Comm, Null, Null
+afterward, Temporal.Asynchronous.Precedence
+____Arg1____
+308..363
+2,0
+#### Text ####
+The contract was first proposed more than two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+365..368;388..461
+2,2;2,3,1;2,3,2;2,3,3;2,4
+#### Text ####
+but the colony's markets were hit hard by the October 1987 global stock crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+463
+3
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+365..461
+2,2;2,3;2,4
+#### Text ####
+but shortly afterward, the colony's markets were hit hard by the October 1987 global stock crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+463..567
+3
+#### Text ####
+The subsequent drive to reform Hong Kong's markets also has embroiled the interest-rate futures contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+514..518
+3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+365..461
+2,2;2,3;2,4
+#### Text ####
+but shortly afterward, the colony's markets were hit hard by the October 1987 global stock crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+463..513;519..567
+3,0;3,2;3,3
+#### Text ####
+The subsequent drive to reform Hong Kong's markets has embroiled the interest-rate futures contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+794..797
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+798..823
+5,1;5,2;5,3,0;5,4
+#### Text ####
+regulators this week said
+##############
+but, Comparison
+____Arg1____
+571..792
+4
+#### Text ####
+The Securities and Futures Commission, a government watchdog set up after the 1987 crash to try to restore confidence and order to Hong Kong's markets, had been expected to give the contract conditional approval last week
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+824..948
+5,3,1
+#### Text ####
+futures-exchange officials still have a way to go before they answer all the remaining detailed questions about the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+874..880
+5,3,1,1,2,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+798..823
+5,1;5,2;5,3,0;5,4
+#### Text ####
+regulators this week said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+824..873
+5,3,1,0;5,3,1,1,0;5,3,1,1,1;5,3,1,1,2,0;5,3,1,1,2,1
+#### Text ####
+futures-exchange officials still have a way to go
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+881..948
+5,3,1,1,2,2,1
+#### Text ####
+they answer all the remaining detailed questions about the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1029..1032
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1033..1072
+7,1;7,2;7,3,0;7,3,1;7,4
+#### Text ####
+securities regulators now say privately
+##############
+but, Comparison.Contrast
+____Arg1____
+952..1027
+6
+#### Text ####
+The exchange had forecast that the contract would begin trading by December
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1073..1139
+7,3,2
+#### Text ####
+that it isn't likely to start until the first quarter of next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1358
+9
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1207..1282
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1,0;8,1,1,1,1,1,1,0;8,1,1,1,1,1,1,1,0;8,1,1,1,1,1,1,1,1
+#### Text ####
+the new contract essential to the revival of the Hong Kong Futures Exchange
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1143..1206
+8,0;8,1,0;8,2
+#### Text ####
+Analysts and financial officials in the British colony consider
+##############
+____Arg2____
+1358..1488
+9,1,1
+#### Text ####
+that without a healthy futures exchange, Hong Kong's aspirations to be recognized as an international financial center will suffer
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1345..1357
+9,0;9,1,0;9,2
+#### Text ####
+Many believe
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1490..1501
+10,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1143..1343
+8
+#### Text ####
+Analysts and financial officials in the British colony consider the new contract essential to the revival of the Hong Kong Futures Exchange, which has never fully recovered from the October 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1503..1603
+10,1;10,2;10,3;10,4
+#### Text ####
+local banks say the new contract is important in helping them offset their Hong Kong-dollar exposure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1697
+12
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1607..1695
+11
+#### Text ####
+The contract will be based on the three-month Hong Kong interbank offered rate, or Hibor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1697..1886
+12
+#### Text ####
+It is almost a carbon copy of the Chicago Mercantile Exchange's Eurodollar contract, which is based on the three-month Eurodollar rate, the rate paid on U.S.-dollar deposits in London banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1890..1892
+13,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1939..2007
+13,1;13,2;13,3;13,4
+#### Text ####
+it may do much to restore confidence in futures trading in Hong Kong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1893..1937
+13,0,1
+#### Text ####
+the contract is as successful as some expect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2010
+14
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Generalization
+____Arg1____
+1890..2007
+13
+#### Text ####
+If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2010..2062
+14,0
+#### Text ####
+The contract is definitely important to the exchange
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2065..2145
+14,1;14,2;14,3
+#### Text ####
+says Robert Gilmore, executive director of the Securities and Futures Commission
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2233
+16
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+2149..2231
+15
+#### Text ####
+Two years ago, the futures exchange was the envy of other would-be futures centers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2233..2272;2304..2380
+16,0;16,1;16,2,0;16,2,1;16,2,3;16,3;16,4
+#### Text ####
+After only 17 months, its main contract had grown to be the second-largest stock-index-futures contract in the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2507
+18
+____Arg1____
+2385..2505
+17
+#### Text ####
+A futures contract is an agreement to buy or sell a commodity or financial instrument at a set price on a specified date
+##############
+____Arg2____
+2507..2635
+18
+#### Text ####
+In the case of stock-index and interest-rate futures, the instruments are given an underlying cash value and are settled in cash
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2640..2643
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2149..2231
+15
+#### Text ####
+Two years ago, the futures exchange was the envy of other would-be futures centers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2644..2793
+19,1;19,2;19,3;19,4;19,5;19,6;19,7
+#### Text ####
+in the week following the 1987 stock crash, the exchange verged on collapse, and the stock and futures markets in Hong Kong were closed for four days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2721..2724
+19,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2640..2719
+19,0;19,1;19,2;19,3;19,4
+#### Text ####
+But in the week following the 1987 stock crash, the exchange verged on collapse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2725..2793
+19,6
+#### Text ####
+the stock and futures markets in Hong Kong were closed for four days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2795
+20
+____Arg1____
+2640..2793
+19
+#### Text ####
+But in the week following the 1987 stock crash, the exchange verged on collapse, and the stock and futures markets in Hong Kong were closed for four days
+##############
+____Arg2____
+2795..2875
+20
+#### Text ####
+Only a government-sponsored bailout kept the crisis from swallowing the exchange
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2950
+22
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2879..2948
+21
+#### Text ####
+Trading in Hang Seng index futures remains crippled by the experience
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2950..3096
+22
+#### Text ####
+Volume for the entire month of September totaled only 21,687 contracts, compared with a daily average of 27,000 in the month before the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3245
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3172..3243
+23,1;23,2;23,3;23,4
+#### Text ####
+the futures market has shown itself to be resilient in two recent tests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3245..3556
+24;25
+#### Text ####
+While Asian markets struggled to cope with the uncertainty caused by the Oct. 13 plunge in New York stock prices, futures trading in Hong Kong was relatively heavy and went smoothly.
+That was also the case in the days following the June 4 massacre in Beijing, which caused a sharp drop in Hong Kong stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3245..3250
+24,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast, Temporal.Synchrony
+____Arg1____
+3359..3426
+24,1;24,2;24,3;24,4
+#### Text ####
+futures trading in Hong Kong was relatively heavy and went smoothly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3251..3357
+24,0,1
+#### Text ####
+Asian markets struggled to cope with the uncertainty caused by the Oct. 13 plunge in New York stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3437..3441
+25,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3245..3426
+24
+#### Text ####
+While Asian markets struggled to cope with the uncertainty caused by the Oct. 13 plunge in New York stock prices, futures trading in Hong Kong was relatively heavy and went smoothly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3428..3436;3442..3556
+25,0;25,1,0;25,1,2;25,1,3;25,2
+#### Text ####
+That was the case in the days following the June 4 massacre in Beijing, which caused a sharp drop in Hong Kong stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3892
+28
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+3661..3890
+27
+#### Text ####
+Most important to the contract's success is the commitment of Hong Kong's big financial institutions, especially the two leaders, Hongkong & Shanghai Banking Corp. and the local subsidiary of Britain's Standard Chartered Bank PLC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3892..3957
+28
+#### Text ####
+The two big banks were instrumental in designing the new contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3962..3964;3992..3996
+29,0,1,0;29,0,3
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4053..4117
+29,1;29,2;29,3
+#### Text ####
+says Mr. Gilmore, the Securities and Futures Commission official
+##############
+if then, Contingency.Condition.Factual present
+____Arg1____
+3965..3990
+29,0,1,1
+#### Text ####
+those two banks are there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3997..4050
+29,0,0;29,0,2;29,0,4;29,0,5;29,0,6;29,0,7
+#### Text ####
+the balance of the banking institutions will be there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4233
+31
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4121..4231
+30
+#### Text ####
+Colony banks have a major stake in how interest rates move because of their enormous Hong Kong-dollar exposure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4233..4489
+31
+#### Text ####
+Even though the currency is pegged to the U.S. dollar, with a fixed exchange rate of HK$7.8 to the American currency, the U.S. and Hong Kong economies don't always move in lock step, making it difficult to predict where interest rates in the colony will go
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4233..4244
+31,0,0;31,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Sup1____
+4416..4489
+31,2,3,3
+#### Text ####
+making it difficult to predict where interest rates in the colony will go
+##############
+____Arg1____
+4351..4414
+31,1;31,2,0;31,2,1;31,2,2;31,2,3,0;31,2,3,1;31,2,3,2;31,3
+#### Text ####
+the U.S. and Hong Kong economies don't always move in lock step
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4245..4349
+31,0,2
+#### Text ####
+the currency is pegged to the U.S. dollar, with a fixed exchange rate of HK$7.8 to the American currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4613
+33
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+4493..4611
+32
+#### Text ####
+In early 1988, when the three-month Eurodollar rate was between 7% and 8%, the three-month Hibor rate was as low as 1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4613..4728
+33
+#### Text ####
+Just a few months ago, the three-month Eurodollar rate was around 9.5%, while three-month Hibor hit highs above 11%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4685..4690
+33,3,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition, Temporal.Synchrony
+____Arg1____
+4613..4683
+33,0;33,1;33,2;33,3,0;33,3,1;33,3,2;33,4
+#### Text ####
+Just a few months ago, the three-month Eurodollar rate was around 9.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4691..4728
+33,3,3,1
+#### Text ####
+three-month Hibor hit highs above 11%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5034
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4945..5032
+35
+#### Text ####
+Despite the initial support expected, trading in the contract is likely to start slowly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5034..5210
+36
+#### Text ####
+The wounds from the 1987 crash haven't yet healed, and not all claims against the exchange clearinghouse -- by those who bet the Hang Seng index would fall -- have been settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5085..5088
+36,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5034..5083
+36,0
+#### Text ####
+The wounds from the 1987 crash haven't yet healed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5089..5210
+36,3
+#### Text ####
+not all claims against the exchange clearinghouse -- by those who bet the Hang Seng index would fall -- have been settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5212
+37
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5034..5138;5193..5210
+36,0;36,1;36,2;36,3,0,0;36,3,0,1;36,3,0,2,0;36,3,0,2,2;36,3,1;36,4
+#### Text ####
+The wounds from the 1987 crash haven't yet healed, and not all claims against the exchange clearinghouse have been settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5212..5317
+37
+#### Text ####
+Companies and financial institutions familiar with Hong Kong remain wary of trading in its futures market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5321..5324
+38,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4983..5032
+35,0,1,1,1;35,1;35,2;35,3;35,4
+#### Text ####
+trading in the contract is likely to start slowly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5346..5404
+38,2,1,0;38,2,1,1,0;38,2,1,1,1,0;38,2,1,1,1,1,0;38,2,1,1,1,1,1
+#### Text ####
+that there may be limits on how much the contract can grow
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5325..5345
+38,1;38,2,0;38,3
+#### Text ####
+Mr. Gilmore cautions
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5405..5412
+38,2,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5325..5345
+38,1;38,2,0;38,3
+#### Text ####
+Mr. Gilmore cautions
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5346..5404
+38,2,1,0;38,2,1,1,0;38,2,1,1,1,0;38,2,1,1,1,1,0;38,2,1,1,1,1,1
+#### Text ####
+that there may be limits on how much the contract can grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5413..5464
+38,2,1,1,1,1,2,1
+#### Text ####
+the Hong Kong dollar isn't a widely traded currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5474
+39
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+5346..5464
+38,2,1
+#### Text ####
+that there may be limits on how much the contract can grow because the Hong Kong dollar isn't a widely traded currency
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5321..5345
+38,0;38,1;38,2,0;38,3
+#### Text ####
+And Mr. Gilmore cautions
+##############
+____Arg2____
+5474..5560
+39,1,1
+#### Text ####
+the contract will be considered a success if it starts trading 500 to 1,000 lots a day
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5466..5473
+39,0;39,1,0;39,2
+#### Text ####
+He says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5516..5518
+39,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5466..5473
+39,0;39,1,0;39,2
+#### Text ####
+He says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+5474..5515
+39,1,1,0;39,1,1,1,0;39,1,1,1,1,0;39,1,1,1,1,1,0;39,1,1,1,1,1,1,0;39,1,1,1,1,1,1,1
+#### Text ####
+the contract will be considered a success
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5519..5560
+39,1,1,1,1,1,1,2,1
+#### Text ####
+it starts trading 500 to 1,000 lots a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5583..5587
+40,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+5466..5560
+39
+#### Text ####
+He says the contract will be considered a success if it starts trading 500 to 1,000 lots a day
+##############
+____Arg1____
+5321..5464
+38
+#### Text ####
+And Mr. Gilmore cautions that there may be limits on how much the contract can grow because the Hong Kong dollar isn't a widely traded currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5564..5582;5588..5792
+40,0;40,2;40,3
+#### Text ####
+Exchange officials point out that Hibor futures were designed for institutions and corporations, not for the type of small individual investors who were very active in Hang Seng index futures and defaulted in the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5809
+41
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+5598..5792
+40,2,2
+#### Text ####
+that Hibor futures were designed for institutions and corporations, not for the type of small individual investors who were very active in Hang Seng index futures and defaulted in the 1987 crash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5564..5597
+40,0;40,1;40,2,0;40,2,1;40,3
+#### Text ####
+Exchange officials also point out
+##############
+____Arg2____
+5809..5968
+41,1,1
+#### Text ####
+the low margin required for trading futures attracted a lot of small investors before the 1987 crash who didn't realize that their risk was virtually unlimited
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5794..5808
+41,0;41,1,0;41,2
+#### Text ####
+Mr. Cheng says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6184..6187
+44,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+6126..6164
+43,0
+#### Text ####
+That should help to inspire confidence
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6166..6182
+43,1;43,2;43,3;43,4
+#### Text ####
+Mr. Gilmore says
+##############
+____Arg2____
+6188..6283
+44,1;44,2;44,3
+#### Text ####
+many bankers remain nervous, especially as the start-up of the contract continues to be delayed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6217..6230
+44,2,3,0;44,2,3,1
+#### Text ####
+especially as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+6184..6215
+44,0;44,1;44,2,0;44,2,1;44,2,2;44,3
+#### Text ####
+But many bankers remain nervous
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6231..6283
+44,2,3,2
+#### Text ####
+the start-up of the contract continues to be delayed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

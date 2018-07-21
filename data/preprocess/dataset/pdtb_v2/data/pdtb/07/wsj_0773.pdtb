@@ -1,0 +1,866 @@
+________________________________________________________
+____EntRel____
+385
+2
+____Arg1____
+271..383
+1
+#### Text ####
+At stake are almost 10,000 jobs in an industry that has been the mainstay of Finland's post-war economic revival
+##############
+____Arg2____
+385..506
+2
+#### Text ####
+Shipbuilding became a point of pride as Finnish shipyards remained profitable long after rivals collapsed all over Europe
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+422..424
+2,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+385..421
+2,0;2,1,0;2,1,1;2,2
+#### Text ####
+Shipbuilding became a point of pride
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+425..506
+2,1,2,1
+#### Text ####
+Finnish shipyards remained profitable long after rivals collapsed all over Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+463..473
+2,1,2,1,1,2,0;2,1,2,1,1,2,1
+#### Text ####
+long after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+422..462
+2,1,2,0;2,1,2,1,0;2,1,2,1,1,0;2,1,2,1,1,1
+#### Text ####
+as Finnish shipyards remained profitable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+474..506
+2,1,2,1,1,2,2
+#### Text ####
+rivals collapsed all over Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+510..513
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+385..506
+2
+#### Text ####
+Shipbuilding became a point of pride as Finnish shipyards remained profitable long after rivals collapsed all over Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+514..680
+3,1;3,2;3,3;3,4
+#### Text ####
+if, as many now fear, Waertsilae Marine joins the ranks of failed shipyards it might turn out to be remembered most as a blemish on Finland's international reputation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+514..516
+3,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+518..534
+3,1,1
+#### Text ####
+as many now fear
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+510..513;590..680
+3,0;3,2;3,3;3,4
+#### Text ####
+But it might turn out to be remembered most as a blemish on Finland's international reputation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+536..589
+3,1,2
+#### Text ####
+Waertsilae Marine joins the ranks of failed shipyards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+682
+4
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+510..680
+3
+#### Text ####
+But if, as many now fear, Waertsilae Marine joins the ranks of failed shipyards it might turn out to be remembered most as a blemish on Finland's international reputation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+682..856
+4
+#### Text ####
+The shipyard's 6.5 billion Finnish markka ($1.54 billion) backlog includes about 20 ships ordered by big international shippers, including three for Carnival Cruise Lines Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1017
+6
+____Arg1____
+860..1015
+5
+#### Text ####
+Miami-based Carnival said the first of the three ships is scheduled to be delivered next month, just in time for the winter tourist season in the Caribbean
+##############
+____Arg2____
+1017..1101
+6
+#### Text ####
+The second ship is scheduled to be delivered in fall 1990 and the third in fall 1991
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1103
+7
+____Arg1____
+1017..1101
+6
+#### Text ####
+The second ship is scheduled to be delivered in fall 1990 and the third in fall 1991
+##############
+____Arg2____
+1103..1263
+7
+#### Text ####
+One analyst said the first ship probably will be delivered close to schedule, but that Carnival may have to pay up to 25% more to get the second and third ships
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1181..1184
+7,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1103..1119
+7,0;7,1,0;7,2
+#### Text ####
+One analyst said
+##############
+but, Comparison
+____Arg1____
+1120..1179
+7,1,1,0
+#### Text ####
+the first ship probably will be delivered close to schedule
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1185..1263
+7,1,1,3
+#### Text ####
+that Carnival may have to pay up to 25% more to get the second and third ships
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1350..1361
+8,1,1,4,0;8,1,1,4,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+1267..1348
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,1,1,2;8,1,1,3;8,2
+#### Text ####
+All the ships are covered by loan guarantees from a state export financing agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1362..1412
+8,1,1,4,2
+#### Text ####
+it's not clear whether they will actually be built
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1414
+9
+____Arg1____
+1267..1412
+8
+#### Text ####
+All the ships are covered by loan guarantees from a state export financing agency, even though it's not clear whether they will actually be built
+##############
+____Arg2____
+1414..1555
+9
+#### Text ####
+Bankers worry that if the government makes good a threat to withdraw its guarantee commitments, shippers will counter with a hail of lawsuits
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1433..1435
+9,1,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1414..1427
+9,0;9,1,0;9,2
+#### Text ####
+Bankers worry
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1428..1432;1510..1555
+9,1,1,0;9,1,1,1,1;9,1,1,1,2;9,1,1,1,3
+#### Text ####
+that shippers will counter with a hail of lawsuits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1436..1508
+9,1,1,1,0,1
+#### Text ####
+the government makes good a threat to withdraw its guarantee commitments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1617..1624
+11,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+1559..1615
+10
+#### Text ####
+State loan guarantees are rarely a source of controversy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1626..1780
+11,1;11,2;11,3;11,4
+#### Text ####
+some bankers cited possible parallels between the Waertsilae Marine case and the collapse of Norway's state-owned Kongsberg Vappenfabrikk AS two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1782
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1617..1780
+11
+#### Text ####
+However, some bankers cited possible parallels between the Waertsilae Marine case and the collapse of Norway's state-owned Kongsberg Vappenfabrikk AS two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1782..1936
+12
+#### Text ####
+In that case, international banks and investors incurred big losses because they incorrectly believed the company's debt carried implicit state guarantees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1850..1857
+12,3,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1782..1849
+12,0;12,1;12,2;12,3,0;12,3,1;12,4
+#### Text ####
+In that case, international banks and investors incurred big losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1858..1936
+12,3,2,1
+#### Text ####
+they incorrectly believed the company's debt carried implicit state guarantees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2135..2143
+14,0,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+1940..2118
+13,0
+#### Text ####
+Doubts about the quality of state credit guarantees could reduce the competitive strength of Finnish companies in world markets where financing often is the key to winning orders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2120..2133
+13,1;13,2;13,3;13,4
+#### Text ####
+analysts warn
+##############
+____Arg2____
+2145..2285
+14,0,1;14,0,2;14,0,3
+#### Text ####
+state-owned Finnish companies lacking formal state guarantees could face greater difficulty raising funds in international financial markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2287..2298
+14,1;14,2;14,3;14,4
+#### Text ####
+bankers say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2464
+16
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2302..2462
+15
+#### Text ####
+The decision by a majority of state-appointed Waertsilae Marine directors Monday to file for bankruptcy was an abrupt about-face from previous government policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2464..2562
+16
+#### Text ####
+In August, the government played a major part in a sweeping restructuring of the troubled shipyard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2741
+18
+____Arg1____
+2566..2739
+17
+#### Text ####
+At the time 71%-controlled by Oy Waertsilae, a conglomerate, the shipbuilding unit faced potential losses estimated at one billion markka and was on the brink of liquidation
+##############
+____Arg2____
+2741..2834
+18
+#### Text ####
+Under the rescue plan, Waertsilae sold 51% of its stake to a group of banks and pension funds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2852..2859
+19,2
+#### Text ####
+in turn
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in turn, Temporal.Asynchronous.Precedence
+____Arg1____
+2741..2834
+18
+#### Text ####
+Under the rescue plan, Waertsilae sold 51% of its stake to a group of banks and pension funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2836..2850;2861..2941
+19,0;19,1;19,3;19,4;19,5
+#### Text ####
+The government guaranteed financing to complete the order backlog and took control of the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3046..3050
+20,1,1,1,1,1,3,0
+#### Text ####
+thus
+##############
+#### Features ####
+Arb, Ctrl, Null, Null
+2945..2979
+20,0;20,1,0;20,1,1,0;20,2
+#### Text ####
+Government officials were expected
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+2980..3040
+20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0;20,1,1,1,1,1,1
+#### Text ####
+to combine Waertsilae Marine with two other struggling firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3042..3045;3051..3101
+20,1,1,1,1,1,2;20,1,1,1,1,1,3,1;20,1,1,1,1,1,3,2
+#### Text ####
+and ensure Finland's survival as a shipbuilding nation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3103
+21
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+2945..3040
+20,0;20,1,0;20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0;20,1,1,1,1,1,1;20,2
+#### Text ####
+Government officials were expected to combine Waertsilae Marine with two other struggling firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3103..3177
+21,0;21,1,0;21,2
+#### Text ####
+The government spent most of last year attempting to carry out such a plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3195..3199
+21,1,2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+3178..3194
+21,1,1;21,1,2,0;21,1,2,1,0;21,1,2,1,1
+#### Text ####
+but was thwarted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3200..3259
+21,1,2,1,2,1
+#### Text ####
+the parent Waertsilae concern pulled out at the last minute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3474..3477
+23,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3263..3472
+22
+#### Text ####
+After the restructuring of Waertsilae Marine and bolstered by state loan guarantees, two big bank creditors, Union Bank of Finland and state-controlled Postipankki, resumed lending the shipyard working capital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3478..3616
+23,1;23,2,0;23,2,1;23,3
+#### Text ####
+the bankers got cold feet recently as government officials complained they had been misled about the shipyard's actual financial condition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3513..3515
+23,2,0,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3474..3512
+23,0;23,1;23,2,0,0;23,2,0,1;23,2,0,2
+#### Text ####
+But the bankers got cold feet recently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3516..3669
+23,2,0,3,1;23,2,1;23,2,2;23,2,3;23,3
+#### Text ####
+government officials complained they had been misled about the shipyard's actual financial condition, and hinted the credit guarantees might be withdrawn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3868..3872
+25,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3722..3866
+24,1,1
+#### Text ####
+it was the state's refusal to explicitly reaffirm the credit guarantees that led Union Bank and Postipankki to halt lending to Waertsilae Marine
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3673..3721
+24,0;24,1,0;24,2
+#### Text ####
+People familiar with Monday's board meeting said
+##############
+____Arg2____
+3874..4032
+25,1;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+in a boardroom showdown, state-appointed directors voted to file for bankruptcy, apparently under instructions from Finland's Industry Minister Ilkka Suominen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4140..4142
+26,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4036..4048
+26,0;26,1,0;26,2
+#### Text ####
+Analysts say
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+4049..4139
+26,1,1,0;26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1,0;26,1,1,1,1,1,1
+#### Text ####
+Mr. Suominen had grown increasingly worried about the state's potential financial exposure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4143..4230
+26,1,1,1,1,1,2,1
+#### Text ####
+Waertsilae Marine's losses ballooned to more than double the figure estimated in August
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4430
+27
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+4049..4230
+26,1,1
+#### Text ####
+Mr. Suominen had grown increasingly worried about the state's potential financial exposure as Waertsilae Marine's losses ballooned to more than double the figure estimated in August
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4036..4048
+26,0;26,1,0;26,2
+#### Text ####
+Analysts say
+##############
+____Arg2____
+4430..4505
+27,3,1
+#### Text ####
+that Mr. Suominen may have decided to cut Finland's losses once and for all
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4408..4429
+27,1;27,2;27,3,0;27,4
+#### Text ####
+one analyst suggested
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4672
+29
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4509..4670
+28
+#### Text ####
+Senior ministry officials huddled with creditors during the week in an attempt to agree on some form of restructuring that would keep Waertsilae Marine operating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4672..4743
+29,0
+#### Text ####
+The talks may drag on for weeks before any concrete result is announced
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4745..4775
+29,1;29,2;29,3;29,4
+#### Text ####
+people familiar with them said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4704..4710
+29,0,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4745..4775
+29,1;29,2;29,3;29,4
+#### Text ####
+people familiar with them said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+4672..4703
+29,0,0;29,0,1,0;29,0,1,1,0;29,0,1,1,1;29,0,1,1,2
+#### Text ####
+The talks may drag on for weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4711..4743
+29,0,1,1,3,1
+#### Text ####
+any concrete result is announced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4838..4841
+31,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+4779..4836
+30
+#### Text ####
+One solution would be to sell the shipyard to an outsider
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4842..4881
+31,1;31,2;31,3
+#### Text ####
+there appear to be few, if any, suitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4883..4889
+32,0,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+4838..4881
+31
+#### Text ####
+But there appear to be few, if any, suitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4891..4943
+32,0,1;32,0,2;32,0,3,0;32,0,3,1
+#### Text ####
+the potential losses make any rescue scheme unlikely
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5021..5034
+32,1;32,2;32,3;32,4
+#### Text ####
+analysts said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4944..4950
+32,0,3,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5021..5034
+32,1;32,2;32,3;32,4
+#### Text ####
+analysts said
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+4883..4943
+32,0,0;32,0,1;32,0,2;32,0,3,0;32,0,3,1
+#### Text ####
+Indeed, the potential losses make any rescue scheme unlikely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4951..5019
+32,0,3,2,1
+#### Text ####
+the politicians once again change tack and agree to pick up the bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

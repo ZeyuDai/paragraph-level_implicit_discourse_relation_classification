@@ -1,0 +1,226 @@
+________________________________________________________
+____Implicit____
+111
+1
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+39..109
+0,1,1
+#### Text ####
+it issued $350 million of securities backed by credit-card receivables
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..38
+0,0;0,1,0;0,2
+#### Text ####
+J.C. PENNEY Co., Dallas, said
+##############
+____Arg2____
+111..187
+1
+#### Text ####
+The offering was priced with an 8.95% coupon rate at 99.1875% to yield 9.19%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+189
+2
+____Arg1____
+111..187
+1
+#### Text ####
+The offering was priced with an 8.95% coupon rate at 99.1875% to yield 9.19%
+##############
+____Arg2____
+189..323
+2
+#### Text ####
+The retailer said the securities are expected to be rated triple-A by Standard & Poor's Corp. and Aaa by Moody's Investors Service Inc
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+325
+3
+____Arg1____
+189..323
+2
+#### Text ####
+The retailer said the securities are expected to be rated triple-A by Standard & Poor's Corp. and Aaa by Moody's Investors Service Inc
+##############
+____Arg2____
+325..408
+3
+#### Text ####
+They pay interest only for 115 months, with principal payments beginning thereafter
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+398..408
+3,1,4,1,1,1
+#### Text ####
+thereafter
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thereafter, Temporal.Asynchronous.Precedence
+____Arg1____
+325..362
+3,0;3,1,0;3,1,1;3,1,2;3,1,3;3,2
+#### Text ####
+They pay interest only for 115 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+364..397
+3,1,4,0;3,1,4,1,0;3,1,4,1,1,0
+#### Text ####
+with principal payments beginning
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+410
+4
+____Arg1____
+325..408
+3
+#### Text ####
+They pay interest only for 115 months, with principal payments beginning thereafter
+##############
+____Arg2____
+410..518
+4
+#### Text ####
+The expected average life of the certificates is 10 years, with the final scheduled payment in October, 2001
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+520
+5
+____Arg1____
+410..518
+4
+#### Text ####
+The expected average life of the certificates is 10 years, with the final scheduled payment in October, 2001
+##############
+____Arg2____
+520..558
+5
+#### Text ####
+First Boston Corp. is sole underwriter
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+560
+6
+____Arg1____
+520..558
+5
+#### Text ####
+First Boston Corp. is sole underwriter
+##############
+____Arg2____
+560..732
+6
+#### Text ####
+As part of the transaction, J.C. Penney will sell a portion of its credit-card receivables to its JCP Receivables Inc. unit, which will then transfer them to a master trust
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+696..700
+6,3,1,2,1,2,1,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+560..683
+6,0;6,1;6,2;6,3,0;6,3,1,0;6,3,1,1;6,3,1,2,0;6,3,1,2,1,0;6,3,1,2,1,1;6,4
+#### Text ####
+As part of the transaction, J.C. Penney will sell a portion of its credit-card receivables to its JCP Receivables Inc. unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+685..695;701..732
+6,3,1,2,1,2,0;6,3,1,2,1,2,1,0;6,3,1,2,1,2,1,1,0;6,3,1,2,1,2,1,1,2
+#### Text ####
+which will transfer them to a master trust
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+734
+7
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+560..732
+6
+#### Text ####
+As part of the transaction, J.C. Penney will sell a portion of its credit-card receivables to its JCP Receivables Inc. unit, which will then transfer them to a master trust
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+734..771
+7
+#### Text ####
+The trust will issue the certificates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+773
+8
+____Arg1____
+734..771
+7
+#### Text ####
+The trust will issue the certificates
+##############
+____Arg2____
+773..945
+8
+#### Text ####
+Credit support will be provided by a letter of credit facility from Credit Suisse in favor of the trustee, Fuji Bank & Trust Co., for the benefit of the certificate holders
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+947
+9
+____Arg1____
+773..945
+8
+#### Text ####
+Credit support will be provided by a letter of credit facility from Credit Suisse in favor of the trustee, Fuji Bank & Trust Co., for the benefit of the certificate holders
+##############
+____Arg2____
+947..999
+9
+#### Text ####
+J.C. Penney will continue to service the receivables
+##############
+________________________________________________________

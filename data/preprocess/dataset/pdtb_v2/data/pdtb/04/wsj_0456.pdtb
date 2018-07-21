@@ -1,0 +1,764 @@
+________________________________________________________
+____Implicit____
+141
+1
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..139
+0
+#### Text ####
+It can be hoped that Spanish Prime Minister Felipe Gonzalez will draw the right conclusion from his narrow election victory Sunday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+141..240
+1
+#### Text ####
+A strong challenge from the far left, the Communist coalition Izquierda Unida, failed to topple him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+242
+2
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+141..240
+1
+#### Text ####
+A strong challenge from the far left, the Communist coalition Izquierda Unida, failed to topple him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+242..374
+2
+#### Text ####
+He should consider his victory a mandate to continue his growth-oriented economic reforms and not a demand that he move further left
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+376
+3
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+242..374
+2
+#### Text ####
+He should consider his victory a mandate to continue his growth-oriented economic reforms and not a demand that he move further left
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+376..498
+3
+#### Text ####
+If he follows the correct path, he may be able to look back on this election as the high-water mark of far-left opposition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+376..378
+3,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+408..498
+3,1;3,2;3,3;3,4
+#### Text ####
+he may be able to look back on this election as the high-water mark of far-left opposition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+379..406
+3,0,1
+#### Text ####
+he follows the correct path
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+536..543
+4,1,2,0;4,1,2,1
+#### Text ####
+even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Comparison.Concession.Expectation
+____Arg1____
+502..535
+4,0;4,1,0;4,1,1;4,2
+#### Text ####
+The far left had some good issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+544..595
+4,1,2,2
+#### Text ####
+it did not have good programs for dealing with them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+597
+5
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+502..595
+4
+#### Text ####
+The far left had some good issues even if it did not have good programs for dealing with them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+597..698
+5
+#### Text ####
+It could point to plenty of ailments that the Spanish economic rejuvenation so far has failed to cure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+700
+6
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+597..698
+5
+#### Text ####
+It could point to plenty of ailments that the Spanish economic rejuvenation so far has failed to cure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+700..778
+6,0;6,1;6,2,0;6,2,1,0;6,2,1,1;6,2,1,2;6,2,1,3;6,2,1,4;6,3
+#### Text ####
+Unemployment still is officially recorded at 16.5%, the highest rate in Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+780..788
+6,2,1,5,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+700..778
+6,0;6,1;6,2,0;6,2,1,0;6,2,1,1;6,2,1,2;6,2,1,3;6,2,1,4;6,3
+#### Text ####
+Unemployment still is officially recorded at 16.5%, the highest rate in Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+789..820
+6,2,1,5,1
+#### Text ####
+actual joblessness may be lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+822
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+700..778
+6,0;6,1;6,2,0;6,2,1,0;6,2,1,1;6,2,1,2;6,2,1,3;6,2,1,4;6,3
+#### Text ####
+Unemployment still is officially recorded at 16.5%, the highest rate in Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+822..970
+7
+#### Text ####
+Housing is scarce and public services -- the court system, schools, mail service, telephone network and the highways -- are in disgraceful condition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+840..843
+7,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+822..839
+7,0
+#### Text ####
+Housing is scarce
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+844..970
+7,2
+#### Text ####
+public services -- the court system, schools, mail service, telephone network and the highways -- are in disgraceful condition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+972
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+700..970
+6;7
+#### Text ####
+Unemployment still is officially recorded at 16.5%, the highest rate in Europe, although actual joblessness may be lower.
+Housing is scarce and public services -- the court system, schools, mail service, telephone network and the highways -- are in disgraceful condition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+972..1008
+8
+#### Text ####
+Large pockets of poverty still exist
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1021..1025
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+597..698
+5
+#### Text ####
+It could point to plenty of ailments that the Spanish economic rejuvenation so far has failed to cure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1012..1020;1026..1131
+9,0;9,2;9,3
+#### Text ####
+The left is critical of the style of the Socialist government -- a remarkable parallel to the situation in Britain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1133
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1012..1078
+9,0;9,1;9,2,0;9,2,1;9,3
+#### Text ####
+The left also is critical of the style of the Socialist government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1133..1404
+10
+#### Text ####
+Mr. Gonzalez and his colleagues, particularly the finance minister, Carlos Solchaga, are charged with having abandoned their socialist principles and with having become arrogant elitists who refuse even to go on television (controlled by the state) to face their accusers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1406
+11
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1133..1404
+10
+#### Text ####
+Mr. Gonzalez and his colleagues, particularly the finance minister, Carlos Solchaga, are charged with having abandoned their socialist principles and with having become arrogant elitists who refuse even to go on television (controlled by the state) to face their accusers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1406..1504
+11
+#### Text ####
+In response to this, the Socialist prime minister has simply cited his free-market accomplishments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1536
+12
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1508..1534
+12,0
+#### Text ####
+They are very considerable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1536..1680
+12,2
+#### Text ####
+Since 1986, when Spain joined the European Community, its gross domestic product has grown at an annual average of 4.6% -- the fastest in the EC
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1682
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1536..1680
+12,2
+#### Text ####
+Since 1986, when Spain joined the European Community, its gross domestic product has grown at an annual average of 4.6% -- the fastest in the EC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1682..1804
+13
+#### Text ####
+In that time more than 1.2 million jobs have been created and the official jobless rate has been pushed below 17% from 21%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1740..1743
+13,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+1682..1739
+13,0;13,1
+#### Text ####
+In that time more than 1.2 million jobs have been created
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1744..1804
+13,3
+#### Text ####
+the official jobless rate has been pushed below 17% from 21%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1806
+14
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1536..1804
+12,2;13
+#### Text ####
+Since 1986, when Spain joined the European Community, its gross domestic product has grown at an annual average of 4.6% -- the fastest in the EC.
+In that time more than 1.2 million jobs have been created and the official jobless rate has been pushed below 17% from 21%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1806..1843
+14
+#### Text ####
+A 14% inflation rate dropped below 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1845
+15
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1536..1843
+12,2;13;14
+#### Text ####
+Since 1986, when Spain joined the European Community, its gross domestic product has grown at an annual average of 4.6% -- the fastest in the EC.
+In that time more than 1.2 million jobs have been created and the official jobless rate has been pushed below 17% from 21%.
+A 14% inflation rate dropped below 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1845..1972
+15
+#### Text ####
+Net foreign investment through August this year has been running at a pace of $12.5 billion, about double the year-earlier rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1987..1991
+16,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1133..1404
+10
+#### Text ####
+Mr. Gonzalez and his colleagues, particularly the finance minister, Carlos Solchaga, are charged with having abandoned their socialist principles and with having become arrogant elitists who refuse even to go on television (controlled by the state) to face their accusers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1974..1986;1992..2100
+16,0;16,2;16,3
+#### Text ####
+Mr. Gonzalez has split with the left in reaffirming Spain's NATO commitment and in renewing a defense treaty with the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2166..2173
+17,1,4
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Sup1____
+1974..2100
+16
+#### Text ####
+Mr. Gonzalez also has split with the left in reaffirming Spain's NATO commitment and in renewing a defense treaty with the U.S
+##############
+____Arg1____
+1133..1404
+10
+#### Text ####
+Mr. Gonzalez and his colleagues, particularly the finance minister, Carlos Solchaga, are charged with having abandoned their socialist principles and with having become arrogant elitists who refuse even to go on television (controlled by the state) to face their accusers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2104..2164
+17,0;17,1,0;17,1,1;17,1,2;17,1,3;17,2
+#### Text ####
+Mr. Gonzalez is not quite a closet supply-side revolutionary
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2175
+18
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2104..2173
+17
+#### Text ####
+Mr. Gonzalez is not quite a closet supply-side revolutionary, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2175..2230
+18,0
+#### Text ####
+He did not go as far as he could have in tax reductions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2232..2238
+18,2,0
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+2175..2230
+18,0
+#### Text ####
+He did not go as far as he could have in tax reductions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2239..2288
+18,2,1;18,2,2
+#### Text ####
+he combined them with increases in indirect taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2292..2295
+19,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison.Contrast
+____Arg1____
+2104..2288
+17;18
+#### Text ####
+Mr. Gonzalez is not quite a closet supply-side revolutionary, however.
+He did not go as far as he could have in tax reductions; indeed he combined them with increases in indirect taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2296..2436
+19,1;19,2;19,3
+#### Text ####
+the best the far-left could do was not enough to deter the biggest voting bloc -- nearly 40% -- from endorsing the direction Spain is taking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2438
+20
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2292..2436
+19
+#### Text ####
+Yet the best the far-left could do was not enough to deter the biggest voting bloc -- nearly 40% -- from endorsing the direction Spain is taking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2438..2459
+20
+#### Text ####
+Now he can go further
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2461
+21
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2438..2459
+20
+#### Text ####
+Now he can go further
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2461..2597
+21
+#### Text ####
+He should do more to reduce tax rates on wealth and income, in recognition of the fact that those cuts yield higher, not lower, revenues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2599
+22
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2461..2519
+21,0;21,1,0;21,1,1,0;21,1,1,1;21,1,1,2;21,1,1,3;21,2
+#### Text ####
+He should do more to reduce tax rates on wealth and income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2599..2733
+22
+#### Text ####
+He could do more to cut public subsidies and transfers, thus making funds available for public services starved of money for six years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2655..2659
+22,1,1,4,0
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2616..2653
+22,1,1,2
+#### Text ####
+to cut public subsidies and transfers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2660..2733
+22,1,1,4,1;22,1,1,4,2
+#### Text ####
+making funds available for public services starved of money for six years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2806
+24
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+2737..2804
+23
+#### Text ####
+The voters delivered Mr. Gonzalez a third mandate for his successes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2806..2969
+24
+#### Text ####
+They, as well as numerous Latin American and East European countries that hope to adopt elements of the Spanish model, are supporting the direction Spain is taking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2971
+25
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2806..2969
+24
+#### Text ####
+They, as well as numerous Latin American and East European countries that hope to adopt elements of the Spanish model, are supporting the direction Spain is taking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2971..3039
+25
+#### Text ####
+It would be sad for Mr. Gonzalez to abandon them to appease his foes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

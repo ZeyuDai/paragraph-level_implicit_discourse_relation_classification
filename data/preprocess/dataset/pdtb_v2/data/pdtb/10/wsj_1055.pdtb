@@ -1,0 +1,963 @@
+________________________________________________________
+____Explicit____
+9..14
+0,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+61..146
+0,1;0,2;0,3;0,4
+#### Text ####
+the Nasdaq over-the-counter market dusted itself off and moved on in moderate trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+15..59
+0,0,1
+#### Text ####
+being trampled in Tuesday's selling stampede
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+150..153
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..146
+0
+#### Text ####
+After being trampled in Tuesday's selling stampede, the Nasdaq over-the-counter market dusted itself off and moved on in moderate trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+154..243
+1,1;1,2;1,3;1,4;1,5
+#### Text ####
+while the Composite gained 1.19, to 462.89, many issues didn't participate in the advance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+154..159
+1,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+150..153;198..243
+1,0;1,2;1,3;1,4;1,5
+#### Text ####
+But many issues didn't participate in the advance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+160..196
+1,1,1
+#### Text ####
+the Composite gained 1.19, to 462.89
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+246
+2
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+150..243
+1
+#### Text ####
+But while the Composite gained 1.19, to 462.89, many issues didn't participate in the advance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+246..264
+2,1
+#### Text ####
+It was a mixed bag
+##############
+#### Features ####
+Ot, Comm, Null, Null
+267..285
+2,0;2,2;2,3;2,4;2,5,0;2,5,1;2,6
+#### Text ####
+said Richard Bruno
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+339
+3
+#### Features ####
+Ot, Comm, Null, Null
+267..336
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+said Richard Bruno, who heads over-the-counter trading at PaineWebber
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+246..264
+2,1
+#### Text ####
+It was a mixed bag
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+339..400
+3
+#### Text ####
+We played catch-up in some areas, and sold off in some others
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+479
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+405..477
+4
+#### Text ####
+Volume totaled 132.1 million shares, which is about average for the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+479..550
+5
+#### Text ####
+Of the 4,348 issues that changed hands, 1,074 advanced and 866 declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+534..537
+5,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+479..533
+5,0;5,1;5,2
+#### Text ####
+Of the 4,348 issues that changed hands, 1,074 advanced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+538..550
+5,4
+#### Text ####
+866 declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+592
+7
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+554..590
+6
+#### Text ####
+Big financial stocks carried the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+592..639
+7
+#### Text ####
+The Nasdaq Financial Index rose 2.09, to 454.86
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+641..650
+8,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+592..639
+7
+#### Text ####
+The Nasdaq Financial Index rose 2.09, to 454.86
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+652..750
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+the Nasdaq 100 Index of the big non-financial stocks basically stood still, easing 0.12, to 452.23
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+879
+10
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+754..877
+9
+#### Text ####
+Despite the Composite's advance, some trading officials are guardedly optimistic that the market is on the road to recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+879..1021
+10
+#### Text ####
+Lance Zipper, head of over-the-counter trading at Kidder Peabody, said it is difficult to make predictions based on yesterday's trading volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1023
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+950..1021
+10,1,1
+#### Text ####
+it is difficult to make predictions based on yesterday's trading volume
+##############
+#### Features ####
+Ot, Comm, Null, Null
+879..949
+10,0;10,1,0;10,2
+#### Text ####
+Lance Zipper, head of over-the-counter trading at Kidder Peabody, said
+##############
+____Arg2____
+1023..1068
+11,0
+#### Text ####
+The advance felt more like a technical bounce
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1070..1077
+11,1;11,2;11,3;11,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1107..1110
+12,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1145..1164
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Mr. Zipper observed
+##############
+but, Comparison.Contrast
+____Arg1____
+1082..1105
+12,1,0
+#### Text ####
+The market acted better
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1111..1142
+12,1,3
+#### Text ####
+it wasn't a tremendous comeback
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1167
+13
+#### Features ####
+Ot, Comm, Null, Null
+1145..1164
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Mr. Zipper observed
+##############
+however, Comparison.Contrast
+____Arg1____
+1082..1142
+12,1
+#### Text ####
+The market acted better, but it wasn't a tremendous comeback
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1167..1232
+13
+#### Text ####
+If we get a decent rally {today}, maybe the buyers will come back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1167..1169
+13,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1145..1164
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Mr. Zipper observed
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1201..1232
+13,0;13,2;13,3;13,4;13,5;13,6;13,7
+#### Text ####
+maybe the buyers will come back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1170..1199
+13,1,1
+#### Text ####
+we get a decent rally {today}
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1237..1239
+14,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Factual present
+____Arg1____
+1270..1327
+14,1;14,2;14,3;14,4
+#### Text ####
+a seatbelt may come in handy during the next few sessions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1240..1268
+14,0,1
+#### Text ####
+E.E. "Buzzy" Geduld is right
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1329
+15
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1237..1268
+14,0
+#### Text ####
+If E.E. "Buzzy" Geduld is right
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1329..1422
+15
+#### Text ####
+The president of Herzog, Heine, Mr. Geduld expects the market to be "very choppy" for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1425
+16
+#### Features ####
+Ot, Comm, Null, Null
+1501..1508
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+he said
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1380..1422
+15,1,1
+#### Text ####
+the market to be "very choppy" for a while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1329..1379
+15,0;15,1,0;15,2
+#### Text ####
+The president of Herzog, Heine, Mr. Geduld expects
+##############
+____Arg2____
+1425..1498
+16,1
+#### Text ####
+There's a lot of uncertainty out there, and it will cause a lot of swings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1465..1468
+16,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1501..1508
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1425..1463
+16,1,0
+#### Text ####
+There's a lot of uncertainty out there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1469..1498
+16,1,3
+#### Text ####
+it will cause a lot of swings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1661
+18
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast
+____Arg1____
+1512..1659
+17
+#### Text ####
+Among active stocks, MCI Communications rose 7/8 to 43 on 2.2 million shares, Mentor Graphics added 1/8 to 16 3/8 on turnover of 1.5 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1661..1721
+18
+#### Text ####
+Apple Computer dropped 1 1/8 to 46 1/2 on one million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1784
+19
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1661..1721
+18
+#### Text ####
+Apple Computer dropped 1 1/8 to 46 1/2 on one million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1784..1821
+19,2;19,3;19,4
+#### Text ####
+but the issue was unchanged at 17 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1723..1782
+19,0
+#### Text ####
+Almost one million shares of Sun Microsystems changed hands
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1784..1787
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1723..1782
+19,0
+#### Text ####
+Almost one million shares of Sun Microsystems changed hands
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1788..1821
+19,3
+#### Text ####
+the issue was unchanged at 17 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1859
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1825..1857
+20
+#### Text ####
+Biotechnology issues were strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1859..1968
+21
+#### Text ####
+Amgen advanced 1 1/2 to 56; Chiron jumped 2 to 29 3/4; Cetus gained 1 to 16 7/8 and Biogen rose 5/8 to 14 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1887
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1859..1885
+21,0
+#### Text ####
+Amgen advanced 1 1/2 to 56
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1887..1912
+21,2
+#### Text ####
+Chiron jumped 2 to 29 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1914
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1859..1912
+21,0;21,1;21,2;21,3
+#### Text ####
+Amgen advanced 1 1/2 to 56; Chiron jumped 2 to 29 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1914..1968
+21,4;21,5;21,6;21,7
+#### Text ####
+Cetus gained 1 to 16 7/8 and Biogen rose 5/8 to 14 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1939..1942
+21,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1859..1938
+21,0;21,1;21,2;21,3;21,4
+#### Text ####
+Amgen advanced 1 1/2 to 56; Chiron jumped 2 to 29 3/4; Cetus gained 1 to 16 7/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1943..1968
+21,6
+#### Text ####
+Biogen rose 5/8 to 14 5/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2080
+23
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1972..2062
+22
+#### Text ####
+The American depositary receipts of Jaguar jumped 3/8 to 11 5/8 on turnover of 1.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2080..2169
+23,1,1
+#### Text ####
+it raised its stake in the British car maker to 12.45% of the ordinary shares outstanding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2064..2079
+23,0;23,1,0;23,2
+#### Text ####
+Ford Motor said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2291
+25
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2231..2268
+24,3,1
+#### Text ####
+it holds 22.8 million ordinary shares
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2173..2230
+24,0;24,1;24,2;24,3,0;24,4
+#### Text ####
+In a Securities and Exchange Commission filing, Ford said
+##############
+____Arg2____
+2291..2432
+25,1,1,1
+#### Text ####
+it is prepared to make a bid for all of the shares outstanding of Jaguar if British government restrictions to such a transaction are removed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2270..2290
+25,0;25,1,0;25,1,1,0;25,2
+#### Text ####
+The company has said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2364..2366
+25,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2306..2363
+25,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+to make a bid for all of the shares outstanding of Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2367..2432
+25,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+British government restrictions to such a transaction are removed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2546..2550
+27,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2436..2516
+26
+#### Text ####
+Another takeover target, LIN Broadcasting, rose 1/2 to 109 1/4 on 495,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2518..2544;2551..2588
+27,0;27,2;27,3
+#### Text ####
+Its suitor, McCaw Cellular added 1/2 to 40 1/2 on 395,700 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2642
+29
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2592..2640
+28
+#### Text ####
+Other stocks were affected by corporate earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2642..2795
+29
+#### Text ####
+Informix, which recently said third-quarter net income rose to 16 cents a share from a penny a share a year ago, gained 1 5/8 to 13 5/8 on 810,700 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2797
+30
+____Arg1____
+2642..2795
+29
+#### Text ####
+Informix, which recently said third-quarter net income rose to 16 cents a share from a penny a share a year ago, gained 1 5/8 to 13 5/8 on 810,700 shares
+##############
+____Arg2____
+2797..2838
+30
+#### Text ####
+The 1988 results included a one-time gain
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2920
+32
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2842..2918
+31
+#### Text ####
+Cimflex Teknowledge rose 13/16, or 39%, to 2 7/8 on volume of 494,100 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2920..3071
+32
+#### Text ####
+The maker of software products and services, which had a net loss in the 1988 third quarter, earned 200,000, or a penny a share, in this year's quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3073
+33
+____Arg1____
+2920..3071
+32
+#### Text ####
+The maker of software products and services, which had a net loss in the 1988 third quarter, earned 200,000, or a penny a share, in this year's quarter
+##############
+____Arg2____
+3073..3114
+33
+#### Text ####
+It was Nasdaq's biggest percentage gainer
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3172
+35
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3118..3170
+34
+#### Text ####
+Star States plunged 3 1/4 to 8 3/4 on 207,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3172..3281
+35
+#### Text ####
+The company suffered a $9 million loss in the third quarter, compared with net of $2.5 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3337
+37
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Concession.Contra-expectation
+____Arg1____
+3285..3335
+36
+#### Text ####
+Collagen dropped 2 5/8 to 15 5/8 on 428,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3337..3523
+37
+#### Text ####
+In its fiscal-first quarter ended Sept. 30, the biomedical-products maker earned 10 cents a share, up from eight cents a share in the 1988 quarter, which included an extraordinary credit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3636..3640
+39,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3527..3597
+38
+#### Text ####
+Occupational-Urgent Care Health fell 1 3/4 to 15 1/2 on 354,000 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3599..3635;3641..3701
+39,0;39,2;39,3
+#### Text ####
+The company's third-quarter earnings rose to 10 cents a share from eight cents a share a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

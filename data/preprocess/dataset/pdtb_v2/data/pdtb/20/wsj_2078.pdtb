@@ -1,0 +1,212 @@
+________________________________________________________
+____Explicit____
+138..145
+1,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+9..101
+0,0
+#### Text ####
+An experimental vaccine can alter the immune response of people infected with the AIDS virus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+103..134
+0,1;0,2;0,3;0,4
+#### Text ####
+a prominent U.S. scientist said
+##############
+____Arg2____
+147..198
+1,1;1,2;1,3;1,4
+#### Text ####
+that doesn't mean they can benefit from the vaccine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+200
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+138..198
+1
+#### Text ####
+However, that doesn't mean they can benefit from the vaccine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+200..430
+2
+#### Text ####
+Its effectiveness can't be determined until a large clinical trial is undertaken by the Army in January, according to Robert Redfield, chief of acquired immune deficiency syndrome research at Walter Reed Army Institute of Research
+##############
+#### Features ####
+Ot, Comm, Null, Null
+305..430
+2,1,2,1,3;2,1,2,1,4;2,2
+#### Text ####
+according to Robert Redfield, chief of acquired immune deficiency syndrome research at Walter Reed Army Institute of Research
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+238..243
+2,1,2,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+200..237
+2,0;2,1,0;2,1,1;2,1,2,0;2,1,2,1,0;2,1,2,1,1
+#### Text ####
+Its effectiveness can't be determined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+244..430
+2,1,2,1,2,1;2,1,2,1,3;2,1,2,1,4;2,2
+#### Text ####
+a large clinical trial is undertaken by the Army in January, according to Robert Redfield, chief of acquired immune deficiency syndrome research at Walter Reed Army Institute of Research
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+617
+4
+____Arg1____
+434..615
+3
+#### Text ####
+Dr. Redfield's report on early experiments using an AIDS vaccine made by MicroGeneSys Inc. of West Haven, Conn., came at a meeting of AIDS vaccine researchers in Florida late Monday
+##############
+____Arg2____
+617..753
+4
+#### Text ####
+The vaccine, VaxSyn HIV-1, has been safely given to 14 people, some of whom are experiencing substantial increases in certain antibodies
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+937
+6
+#### Features ####
+Ot, Comm, Null, Null
+917..934
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+Dr. Redfield said
+##############
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+758..915
+5,1
+#### Text ####
+The conventional wisdom used to be that you couldn't modify the immune response of an infected individual" by innoculating them with synthetic viral proteins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+937..968
+6
+#### Text ####
+We've demonstrated that you can
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1058
+8
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+981..1056
+7,1,1
+#### Text ####
+certain volunteers developed kinds of antibodies associated with early AIDS
+##############
+#### Features ####
+Ot, Comm, Null, Null
+973..980
+7,0;7,1,0;7,2
+#### Text ####
+He said
+##############
+____Arg2____
+1058..1181
+8,0
+#### Text ####
+Other antibodies sparked by the preparation are of a sort rarely present in large quantities in infected or ill individuals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1183..1191
+8,1;8,2;8,3;8,4
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1193
+9
+____Arg1____
+1058..1191
+8
+#### Text ####
+Other antibodies sparked by the preparation are of a sort rarely present in large quantities in infected or ill individuals, he added
+##############
+____Arg2____
+1193..1317
+9
+#### Text ####
+One of the mysteries of AIDS remains why infected people produce large quantities of antibodies, but deteriorate nonetheless
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1306..1317
+9,1,1,1,1,3,1
+#### Text ####
+nonetheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nonetheless, Comparison.Concession.Contra-expectation
+____Arg1____
+1230..1288
+9,1,1,0;9,1,1,1,0;9,1,1,1,1,0;9,1,1,1,1,1
+#### Text ####
+why infected people produce large quantities of antibodies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1290..1305
+9,1,1,1,1,2;9,1,1,1,1,3,0
+#### Text ####
+but deteriorate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

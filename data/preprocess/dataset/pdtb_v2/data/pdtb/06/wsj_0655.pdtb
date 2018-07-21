@@ -1,0 +1,770 @@
+________________________________________________________
+____Explicit____
+266..269
+1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+175..264
+1,0
+#### Text ####
+Lawmakers haven't publicly raised the possibility of renewing military aid to the Contras
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+270..340
+1,3,0;1,3,1,0;1,3,1,1;1,3,1,2;1,3,1,3;1,3,1,4
+#### Text ####
+President Bush parried the question at a news conference here Saturday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+342..449
+1,3,1,5
+#### Text ####
+saying only that "if there's an all-out military offensive, that's going to change the equation 180 degrees
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+360..362
+1,3,1,5,1,2,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+342..348
+1,3,1,5,0;1,3,1,5,1,0
+#### Text ####
+saying
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+349..358;402..449
+1,3,1,5,1,1;1,3,1,5,1,2,0;1,3,1,5,1,2,1;1,3,1,5,1,2,2,1;1,3,1,5,1,2,2,2;1,3,1,5,1,2,2,3
+#### Text ####
+only that that's going to change the equation 180 degrees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+363..400
+1,3,1,5,1,2,2,0,1
+#### Text ####
+there's an all-out military offensive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+454..457
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+175..449
+1
+#### Text ####
+Lawmakers haven't publicly raised the possibility of renewing military aid to the Contras, and President Bush parried the question at a news conference here Saturday, saying only that "if there's an all-out military offensive, that's going to change the equation 180 degrees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+458..692
+2,1;2,2;2,3;2,4
+#### Text ####
+Mr. Ortega's threat over the weekend to end a 19-month cease-fire with the rebels seeking to topple him, effectively elevated the Contras as a policy priority just as they were slipping from the agendas of their most ardent supporters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+617..624
+2,3,4,0;2,3,4,1
+#### Text ####
+just as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+454..616
+2,0;2,1;2,2;2,3,0;2,3,1;2,3,2;2,3,3;2,4
+#### Text ####
+But Mr. Ortega's threat over the weekend to end a 19-month cease-fire with the rebels seeking to topple him, effectively elevated the Contras as a policy priority
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+625..692
+2,3,4,2
+#### Text ####
+they were slipping from the agendas of their most ardent supporters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1114
+5
+#### Features ####
+Wr, Comm, Null, Null
+afterwards, Temporal.Asynchronous.Precedence
+____Arg1____
+875..1112
+4
+#### Text ####
+The threat came during a two-day celebration in Costa Rica to highlight Central America's progress toward democracy in the region, attended by President Bush, Canadian Prime Minister Brian Mulroney and 14 other Western Hemisphere leaders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1114..1160
+5
+#### Text ####
+Mr. Bush returned to Washington Saturday night
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1340
+7
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1195..1298
+6,1,2
+#### Text ####
+that he would end the cease-fire this week in response to the periodic Contra assaults against his army
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1164..1194
+6,0;6,1,0;6,1,1;6,2
+#### Text ####
+Mr. Ortega announced on Friday
+##############
+____Arg2____
+1340..1444
+7,3,2,1,1,1
+#### Text ####
+that he would continue to abide by the cease-fire if the U.S. ends its financial support for the Contras
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1300..1339
+7,0;7,1;7,2;7,3,0;7,3,1;7,3,2,0;7,3,2,1,0;7,3,2,1,1,0;7,4
+#### Text ####
+Saturday, he amended his remarks to say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1390..1392
+7,3,2,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1333..1339
+7,3,2,0;7,3,2,1,0;7,3,2,1,1,0
+#### Text ####
+to say
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1340..1389
+7,3,2,1,1,1,0;7,3,2,1,1,1,1,0;7,3,2,1,1,1,1,1,0;7,3,2,1,1,1,1,1,1,0;7,3,2,1,1,1,1,1,1,1
+#### Text ####
+that he would continue to abide by the cease-fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1393..1444
+7,3,2,1,1,1,1,1,1,2,1
+#### Text ####
+the U.S. ends its financial support for the Contras
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1455
+8
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+1340..1444
+7,3,2,1,1,1
+#### Text ####
+that he would continue to abide by the cease-fire if the U.S. ends its financial support for the Contras
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1300..1339
+7,0;7,1;7,2;7,3,0;7,3,1;7,3,2,0;7,3,2,1,0;7,3,2,1,1,0;7,4
+#### Text ####
+Saturday, he amended his remarks to say
+##############
+____Arg2____
+1455..1548
+8,1,1
+#### Text ####
+that the remaining U.S. humanitarian aid be diverted to disarming and demobilizing the rebels
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1446..1454
+8,0;8,1,0;8,2
+#### Text ####
+He asked
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1664..1666
+9,4,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1656..1663
+9,4,0;9,4,1,0
+#### Text ####
+it came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1667..1766
+9,4,1,1,1
+#### Text ####
+Nicaragua is under special international scrutiny in anticipation of its planned February elections
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1768
+10
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1552..1766
+9
+#### Text ####
+Not only did Mr. Ortega's comments come in the midst of what was intended as a showcase for the region, it came as Nicaragua is under special international scrutiny in anticipation of its planned February elections
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1768..1879
+10
+#### Text ####
+Outside observers are gathering in Nicaragua to monitor the registration and treatment of opposition candidates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1881..1884
+11,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1768..1879
+10
+#### Text ####
+Outside observers are gathering in Nicaragua to monitor the registration and treatment of opposition candidates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1885..2114
+11,1;11,2;11,3
+#### Text ####
+important U.S. lawmakers must decide at the end of November if the Contras are to receive the rest of the $49 million in so-called humanitarian assistance under a bipartisan agreement reached with the Bush administration in March
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2327..2332
+13,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+2414..2500
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+Mr. Ortega's threat practically guarantees that the humanitarian aid will be continued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2333..2412
+13,0,1
+#### Text ####
+few lawmakers anticipated that the humanitarian aid would be cut off next month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2745..2749
+15,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2504..2732
+14
+#### Text ####
+Senate Minority Leader Robert Dole (R., Kan.) said yesterday on "Meet the Press": "I would hope after his {Mr.
+Ortega's} act yesterday or the day before, we'd have unanimous support for quick action on remaining humanitarian aid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2735..2744;2750..2862
+15,0;15,2;15,3
+#### Text ####
+Sen. Dole said he hoped for unanimous support for a resolution he plans to offer tomorrow denouncing the Nicaraguan leader
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2866..2871
+16,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+3002..3113
+16,1;16,2;16,3;16,4
+#### Text ####
+Mr. Ortega's statement provides Contra supporters with the opportunity to press the administration on the issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2872..3000
+16,0,1
+#### Text ####
+renewing military aid had been considered out of the question, rejected by Congress and de-emphasized by the Bush administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3159..3161
+17,1,1,2,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3257..3312
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said former Assistant Secretary of State Elliott Abrams
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3154..3158;3221..3254
+17,1,1,2,1,0;17,1,1,2,1,1,1;17,1,1,2,1,1,2;17,1,1,2,1,1,3
+#### Text ####
+that they should call for military aid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3162..3214
+17,1,1,2,1,1,0,1
+#### Text ####
+the {February} election is voided by the Sandinistas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3315
+18
+#### Features ####
+Ot, Comm, Null, Null
+3257..3312
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said former Assistant Secretary of State Elliott Abrams
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3118..3254
+17,1
+#### Text ####
+The administration should now state that if the {February} election is voided by the Sandinistas . . . they should call for military aid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3315..3357
+18
+#### Text ####
+In these circumstances, I think they'd win
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3520..3528
+19,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+3381..3518
+19,1,1
+#### Text ####
+that congressional Democrats intend to honor the March agreement to give non-lethal support to the Contras through the February elections
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3362..3380
+19,0;19,1,0;19,1,2;19,2
+#### Text ####
+Sen. Mitchell said
+##############
+____Arg2____
+3538..3615
+19,1,3,1,1,1
+#### Text ####
+that the agreement requires that the Contras not initiate any military action
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3529..3537
+19,1,3,1,0;19,1,3,1,1,0
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3670..3672
+20,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3619..3669
+20,0;20,1,0;20,2
+#### Text ####
+Mr. Ortega's threat to breach the cease-fire comes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3673..3760
+20,1,1,1
+#### Text ####
+U.S. officials were acknowledging that the Contras have at times violated it themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3864
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3619..3760
+20
+#### Text ####
+Mr. Ortega's threat to breach the cease-fire comes as U.S. officials were acknowledging that the Contras have at times violated it themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3864..3948
+21,1,5
+#### Text ####
+I have no reason to deny reports that some Contras ambushed some Sandinista soldiers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3762..3861
+21,0;21,1,0;21,1,1;21,1,2;21,1,3;21,1,4;21,2;21,3
+#### Text ####
+Secretary of State James Baker, who accompanied President Bush to Costa Rica, told reporters Friday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4020..4025
+22,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Concession.Expectation
+____Arg1____
+3953..4018;4091..4143
+22,0;22,2;22,3;22,4;22,5
+#### Text ####
+Mr. Baker's assistant for inter-American affairs, Bernard Aronson acknowledged: "It's never very clear who starts what
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4026..4089
+22,1,1
+#### Text ####
+maintaining that the Sandinistas had also broken the cease-fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4063..4067
+22,1,1,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3707..3760
+20,1,1,1,1,1,1
+#### Text ####
+that the Contras have at times violated it themselves
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3670..3706
+20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0
+#### Text ####
+as U.S. officials were acknowledging
+##############
+____Arg2____
+4038..4062;4068..4089
+22,1,1,1,1,0;22,1,1,1,1,1,0;22,1,1,1,1,1,1,0;22,1,1,1,1,1,1,2
+#### Text ####
+that the Sandinistas had broken the cease-fire
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4003..4010;4011..4018;4091..4103
+22,0,2;22,0,3;22,0,4;22,2;22,3,0;22,3,1;22,3,2;22,4;22,5
+#### Text ####
+Bernard Aronson acknowledged
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4155
+23
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+4106..4143
+22,3,3
+#### Text ####
+It's never very clear who starts what
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3953..4103
+22,0;22,1;22,2;22,3,0;22,3,1;22,3,2;22,4;22,5
+#### Text ####
+Mr. Baker's assistant for inter-American affairs, Bernard Aronson, while maintaining that the Sandinistas had also broken the cease-fire, acknowledged
+##############
+____Arg2____
+4155..4265
+23,1,1
+#### Text ####
+that the U.S. has cut off aid to some rebel units when it was determined that those units broke the cease-fire
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4146..4154
+23,0;23,1,0;23,2
+#### Text ####
+He added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4205..4209
+23,1,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4146..4154
+23,0;23,1,0;23,2
+#### Text ####
+He added
+##############
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+4155..4204
+23,1,1,0;23,1,1,1,0;23,1,1,1,1,0;23,1,1,1,1,1,0;23,1,1,1,1,1,1;23,1,1,1,1,1,2
+#### Text ####
+that the U.S. has cut off aid to some rebel units
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4210..4265
+23,1,1,1,1,1,3,1
+#### Text ####
+it was determined that those units broke the cease-fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4358..4362
+24,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4269..4335
+24,0;24,1
+#### Text ####
+In addition to undermining arguments in favor of ending Contra aid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4337..4357;4363..4526
+24,2;24,4;24,5
+#### Text ####
+Mr. Ortega's remarks played to the suspicions of some U.S. officials and conservatives outside the government that he is searching for ways to manipulate or void the February elections
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4692..4702
+25,1,2,1,2,1,1,2,2,0;25,1,2,1,2,1,1,2,2,1,0
+#### Text ####
+so much as
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4530..4642
+25,0;25,1,0;25,1,1;25,1,2,0;25,1,2,1,0;25,1,2,1,1;25,2
+#### Text ####
+Administration officials traveling with President Bush in Costa Rica interpreted Mr. Ortega's wavering as a sign
+##############
+much as, Expansion.Alternative.Chosen alternative, Temporal.Synchrony
+____Arg1____
+4643..4691
+25,1,2,1,2,0;25,1,2,1,2,1,0;25,1,2,1,2,1,1,0;25,1,2,1,2,1,1,1;25,1,2,1,2,1,1,2,0;25,1,2,1,2,1,1,2,1
+#### Text ####
+that he isn't responding to the military attacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4703..4773
+25,1,2,1,2,1,1,2,2,1,1
+#### Text ####
+he is searching for ways to strengthen his hand prior to the elections
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4775
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4530..4773
+25
+#### Text ####
+Administration officials traveling with President Bush in Costa Rica interpreted Mr. Ortega's wavering as a sign that he isn't responding to the military attacks so much as he is searching for ways to strengthen his hand prior to the elections
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4775..4912
+26
+#### Text ####
+Mr. Abrams said that Mr. Ortega is seeking to demobilize the Contras prior to the elections to remove any pressure to hold fair elections
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1240 @@
+________________________________________________________
+____EntRel____
+120
+1
+____Arg1____
+9..118
+0
+#### Text ####
+Manville, having rid itself of asbestos, now sells fiberglass, forest products, minerals and industrial goods
+##############
+____Arg2____
+120..140
+1
+#### Text ####
+Heady stuff it's not
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+144..147
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..140
+0;1
+#### Text ####
+Manville, having rid itself of asbestos, now sells fiberglass, forest products, minerals and industrial goods.
+Heady stuff it's not
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+148..248
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+Manville's ownership is unusual, and it has caught the eye of some canny -- and patient -- investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+181..184
+2,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+144..179
+2,0;2,1;2,2
+#### Text ####
+But Manville's ownership is unusual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+185..248
+2,4
+#### Text ####
+it has caught the eye of some canny -- and patient -- investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+250
+3
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+144..179
+2,0;2,1;2,2
+#### Text ####
+But Manville's ownership is unusual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+250..274;338..400
+3,0,0;3,0,1;3,0,3;3,1;3,2
+#### Text ####
+The Denver-based concern is controlled by the Manville Personal Injury Settlement Trust
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+402
+4
+____Arg1____
+250..400
+3
+#### Text ####
+The Denver-based concern, which emerged from bankruptcy-law proceedings late last year, is controlled by the Manville Personal Injury Settlement Trust
+##############
+____Arg2____
+402..546
+4
+#### Text ####
+The trust, which owns 80% of Manville's stock on a fully diluted basis, is a separate legal entity that is settling claims with asbestos victims
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+550..561
+5,0,0
+#### Text ####
+When and if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when and if, Temporal.Asynchronous.Succession, Contingency.Condition.Hypothetical
+____Arg1____
+627..677
+5,1;5,2;5,3
+#### Text ####
+it will need to convert its Manville stock to cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+562..588
+5,0,1,0;5,0,1,1,0;5,0,1,1,1;5,0,1,1,3
+#### Text ####
+the trust runs out of cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+592..623
+5,0,1,1,2
+#### Text ####
+which seems increasingly likely
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+679..682
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+550..677
+5
+#### Text ####
+When and if the trust runs out of cash -- which seems increasingly likely -- it will need to convert its Manville stock to cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+683..800
+6,1;6,2;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+as an 80% owner, if it tried to sell much of its stock in the market, it would likely depress the price of its shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+700..702
+6,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+679..698;753..800
+6,0;6,1;6,2;6,4;6,5;6,6;6,7
+#### Text ####
+But as an 80% owner it would likely depress the price of its shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+703..751
+6,3,1
+#### Text ####
+it tried to sell much of its stock in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+867..874
+7,1,1,1,1,1,3,1,1,2
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+712..751
+6,3,1,1,1
+#### Text ####
+to sell much of its stock in the market
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+700..711
+6,3,0;6,3,1,0;6,3,1,1,0
+#### Text ####
+if it tried
+##############
+____Arg2____
+846..865;876..1015
+7,1,1,1,1,1,3,0;7,1,1,1,1,1,3,1,0;7,1,1,1,1,1,3,1,1,0;7,1,1,1,1,1,3,1,1,1;7,1,1,1,1,1,3,1,1,3;7,1,1,1,1,1,3,1,1,4
+#### Text ####
+that the trust will seek to convert the company's shares to cash, in some sort of friendly restructuring that wouldn't involve just dumping stock on the market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+804..822
+7,0;7,1,0;7,2
+#### Text ####
+Some investors say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1163
+9
+#### Features ####
+Ot, Comm, Null, Null
+1069..1160
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+says Jeffrey Halis, who runs Sabre Associates, an investment fund that owns Manville shares
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1020..1066
+8,1
+#### Text ####
+Their principal asset is Manville common stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1163..1218
+9
+#### Text ####
+If they tried to sell, they'd be chasing their own tail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1163..1165
+9,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1069..1087
+8,0;8,2;8,3;8,4;8,5,0;8,5,1;8,6
+#### Text ####
+says Jeffrey Halis
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+1186..1218
+9,0;9,2;9,3;9,4;9,5
+#### Text ####
+they'd be chasing their own tail
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1166..1184
+9,1,1
+#### Text ####
+they tried to sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1220
+10
+#### Features ####
+Ot, Comm, Null, Null
+1069..1160
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+says Jeffrey Halis, who runs Sabre Associates, an investment fund that owns Manville shares
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1163..1218
+9
+#### Text ####
+If they tried to sell, they'd be chasing their own tail
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1220..1341
+10
+#### Text ####
+What makes the most sense is to find someone who wants to buy the whole company or cause a recapitalization of all shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1426..1433
+12,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1346..1424
+11
+#### Text ####
+The trust isn't commenting on when it might need to liquefy its Manville stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1435..1522
+12,1;12,2;12,3;12,4
+#### Text ####
+the trust's cash flow from investments is far short of its payments to asbestos victims
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1524
+13
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1426..1522
+12
+#### Text ####
+However, the trust's cash flow from investments is far short of its payments to asbestos victims
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1524..1607
+13
+#### Text ####
+Its cash and liquid securities fell by $338 million in the first six months of 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1621..1625
+14,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+846..1015
+7,1,1,1,1,1,3
+#### Text ####
+that the trust will, instead, seek to convert the company's shares to cash, in some sort of friendly restructuring that wouldn't involve just dumping stock on the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1611..1620;1626..1707
+14,0;14,2;14,3
+#### Text ####
+The trust will receive $75 million a year starting in 1991 on a bond it holds from Manville
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1709..1712
+15,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1611..1707
+14
+#### Text ####
+The trust also will receive $75 million a year starting in 1991 on a bond it holds from Manville
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1714..1803
+15,1;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+beginning in 1992, it will have a claim on as much as 20% of Manville's annual net income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1805
+16
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1709..1803
+15
+#### Text ####
+And, beginning in 1992, it will have a claim on as much as 20% of Manville's annual net income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1805..1861
+16
+#### Text ####
+Even so, the trust would seem to be facing a cash crunch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1863
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1805..1861
+16
+#### Text ####
+Even so, the trust would seem to be facing a cash crunch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1863..1994
+17
+#### Text ####
+As of June 30, it had settled only about 15,000 of the 81,000 received claims from asbestos victims, for an average of $40,424 each
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1997
+18
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+1863..1994
+17
+#### Text ####
+As of June 30, it had settled only about 15,000 of the 81,000 received claims from asbestos victims, for an average of $40,424 each
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1997..2087
+18
+#### Text ####
+The average should drop over time, since the most expensive claims are being settled first
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2032..2037
+18,2,1,3,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1997..2030
+18,0;18,1;18,2,0;18,2,1,0;18,2,1,1;18,2,1,2;18,3;18,4
+#### Text ####
+The average should drop over time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2038..2087
+18,2,1,3,1
+#### Text ####
+the most expensive claims are being settled first
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2090..2093
+19,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1863..1994
+17
+#### Text ####
+As of June 30, it had settled only about 15,000 of the 81,000 received claims from asbestos victims, for an average of $40,424 each
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2094..2245
+19,1;19,2;19,3;19,4;19,5
+#### Text ####
+as of midyear, settled but unpaid claims amounted to $136 million -- more than half the trust's total of $268 million in cash and marketable securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2248
+20
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2090..2245
+19
+#### Text ####
+And as of midyear, settled but unpaid claims amounted to $136 million -- more than half the trust's total of $268 million in cash and marketable securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2248..2303
+20,1
+#### Text ####
+At some point, we're going to need an infusion of funds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2306..2338
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+a person close to the trust says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2409
+22
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2342..2407
+21
+#### Text ####
+Even before then, the trust may be eager to unload Manville stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2409..2463
+22
+#### Text ####
+It doesn't pay a dividend, and this trust needs income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2436..2439
+22,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2409..2434
+22,0
+#### Text ####
+It doesn't pay a dividend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2440..2463
+22,3
+#### Text ####
+this trust needs income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2465..2473
+23,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+2409..2463
+22
+#### Text ####
+It doesn't pay a dividend, and this trust needs income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2475..2564
+23,1;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+with 88% of its assets tied up in Manville, the trust is badly in need of diversification
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2567
+24
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2465..2564
+23
+#### Text ####
+Moreover, with 88% of its assets tied up in Manville, the trust is badly in need of diversification
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2567..2622
+24,1
+#### Text ####
+Obviously, a diversified portfolio would have less risk
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2625..2659
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+the person close to the trust says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2713
+26
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2663..2711
+25
+#### Text ####
+Manville itself doesn't rule out a restructuring
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2713..2927
+26
+#### Text ####
+Though the ink is barely dry on its new, post-bankruptcy law structure, Bill Bullock, Manville's head of investor relations, says the company is continually pondering "whether there is a better way to be structured
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2713..2719
+26,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+2843..2927
+26,3,1
+#### Text ####
+the company is continually pondering "whether there is a better way to be structured
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2785..2842
+26,1;26,2;26,3,0;26,4
+#### Text ####
+Bill Bullock, Manville's head of investor relations, says
+##############
+____Arg2____
+2720..2783
+26,0,1
+#### Text ####
+the ink is barely dry on its new, post-bankruptcy law structure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2943
+27
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2881..2927
+26,3,1,1,1,2,2
+#### Text ####
+whether there is a better way to be structured
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2843..2879
+26,3,1,0;26,3,1,1,0;26,3,1,1,1,0;26,3,1,1,1,1;26,3,1,1,1,2,0;26,3,1,1,1,2,1
+#### Text ####
+the company is continually pondering
+##############
+____Arg2____
+2943..3012
+27,0,1,1
+#### Text ####
+that the trust is ultimately going to need to sell some of our shares
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+2929..2942
+27,0,0;27,0,1,0
+#### Text ####
+We understand
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3157..3160
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+3103..3155
+28,3,1,1,1,1,1,2
+#### Text ####
+which would do little to benefit public stockholders
+##############
+____Arg1____
+3026..3099
+28,0;28,1;28,2;28,3,0;28,3,1,0;28,3,1,1,0;28,3,1,1,1,0;28,3,1,1,1,1,0;28,3,1,1,1,1,1,0;28,3,1,1,1,1,1,1;28,4
+#### Text ####
+Of course, one option would be for Manville to buy out the trust's shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3161..3261
+29,1;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+the trust, in most cases, is forbidden from seeking a buyer for only its shares before November 1993
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3263..3266
+30,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3026..3261
+28;29
+#### Text ####
+Of course, one option would be for Manville to buy out the trust's shares -- which would do little to benefit public stockholders.
+But the trust, in most cases, is forbidden from seeking a buyer for only its shares before November 1993
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3267..3385
+30,1;30,2;30,3
+#### Text ####
+both the trust and Manville are seeking to avoid the bad publicity that, in the asbestos era, tarred the Manville name
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3387..3391
+31,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Sup1____
+3157..3261
+29
+#### Text ####
+But the trust, in most cases, is forbidden from seeking a buyer for only its shares before November 1993
+##############
+____Arg1____
+3263..3385
+30
+#### Text ####
+And both the trust and Manville are seeking to avoid the bad publicity that, in the asbestos era, tarred the Manville name
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3407..3489
+31,2;31,3;31,4
+#### Text ####
+the trust is unlikely to do anything that would hurt Manville's other shareholders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3393..3405
+31,1
+#### Text ####
+analysts say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3492
+32
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3387..3391;3407..3489
+31,0;31,2;31,3;31,4
+#### Text ####
+Thus the trust is unlikely to do anything that would hurt Manville's other shareholders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3393..3405
+31,1
+#### Text ####
+analysts say
+##############
+____Arg2____
+3492..3616
+32,1
+#### Text ####
+This is a rare case of a company with a big majority holder which will probably act in the interests of the minority holders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3619..3636
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+one investor says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3640..3647
+33,0,0;33,0,1
+#### Text ####
+Even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3675..3716
+33,1;33,2;33,3;33,4
+#### Text ####
+Manville seems to be attractive long-term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3648..3673
+33,0,2
+#### Text ####
+there is no restructuring
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3718
+34
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+3640..3716
+33
+#### Text ####
+Even if there is no restructuring, Manville seems to be attractive long-term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3718..3872
+34
+#### Text ####
+Its stock, at 9 5/8, trades at about 8 1/2 times estimated 1989 earnings -- an appropriately low multiple for a company with recession-sensitive customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3891
+35
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3718..3872
+34
+#### Text ####
+Its stock, at 9 5/8, trades at about 8 1/2 times estimated 1989 earnings -- an appropriately low multiple for a company with recession-sensitive customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3891..3931
+35,1,1
+#### Text ####
+45% of revenues are tied to construction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3874..3890
+35,0;35,1,0;35,2
+#### Text ####
+Mr. Bullock says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3933
+36
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3718..3931
+34;35
+#### Text ####
+Its stock, at 9 5/8, trades at about 8 1/2 times estimated 1989 earnings -- an appropriately low multiple for a company with recession-sensitive customers.
+Mr. Bullock says 45% of revenues are tied to construction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3933..3979
+36
+#### Text ####
+Analysts predict little or no near-term growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3993..4004
+37,1,2
+#### Text ####
+nonetheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nonetheless, Comparison.Concession.Contra-expectation
+____Arg1____
+3933..3979
+36
+#### Text ####
+Analysts predict little or no near-term growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3983..3991;4006..4035
+37,0;37,1,0;37,1,1;37,1,3;37,1,4;37,2
+#### Text ####
+They are high on Manville's management
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4038
+38
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3983..4035
+37
+#### Text ####
+They are, nonetheless, high on Manville's management
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4038..4119
+38
+#### Text ####
+It's one of the best in the business," says Salomon Brothers analyst Stephen Dobi
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4121..4124
+39,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4038..4074
+38,1
+#### Text ####
+It's one of the best in the business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4077..4119
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+says Salomon Brothers analyst Stephen Dobi
+##############
+____Arg2____
+4133..4289
+39,2,1
+#### Text ####
+Manville has the financial flexibility to buy other companies at the best possible momentwhen other construction-related firms are hurting and selling cheap
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4125..4132
+39,1;39,2,0;39,3
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4385..4391
+40,2,1
+#### Text ####
+indeed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4125..4132
+39,1;39,2,0;39,3
+#### Text ####
+he says
+##############
+indeed, Expansion.Conjunction
+____Arg1____
+4133..4289
+39,2,1
+#### Text ####
+Manville has the financial flexibility to buy other companies at the best possible momentwhen other construction-related firms are hurting and selling cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4291..4384;4392..4413
+40,0;40,1;40,2,0;40,2,2;40,3
+#### Text ####
+With a conservative debt-to-equity ratio of 1-to-1 -- and $329 million in cash -- Manville is actively on the prowl
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4537
+42
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Generalization
+____Arg1____
+4417..4482
+41
+#### Text ####
+So far, as a price-conscious shopper, Manville hasn't bought much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4537..4621
+42,1,3
+#### Text ####
+Even though they have borrowing power, they have been disciplined about acquisitions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4484..4534
+42,0;42,1,0;42,1,1;42,1,2;42,2;42,3
+#### Text ####
+Paul Kleinaitis, an analyst at Duff & Phelps, says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4537..4548
+42,1,3,0,0;42,1,3,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4484..4534
+42,0;42,1,0;42,1,1;42,1,2;42,2;42,3
+#### Text ####
+Paul Kleinaitis, an analyst at Duff & Phelps, says
+##############
+though, Comparison.Contrast
+____Arg1____
+4576..4621
+42,1,3,1;42,1,3,2;42,1,3,3
+#### Text ####
+they have been disciplined about acquisitions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4549..4574
+42,1,3,0,2
+#### Text ####
+they have borrowing power
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4624..4627
+43,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4537..4621
+42,1,3
+#### Text ####
+Even though they have borrowing power, they have been disciplined about acquisitions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4484..4534
+42,0;42,1,0;42,1,1;42,1,2;42,2;42,3
+#### Text ####
+Paul Kleinaitis, an analyst at Duff & Phelps, says
+##############
+____Arg2____
+4648..4811
+43,2,1
+#### Text ####
+that with 80% of its stock in friendly hands, Manville is the rare publicly traded company that can ignore short-term stock fluctuations and plan for the long haul
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4628..4647
+43,1;43,2,0;43,3
+#### Text ####
+Mr. Kleinaitis says
+##############
+________________________________________________________

@@ -1,0 +1,68 @@
+________________________________________________________
+____AltLex____
+132..156
+1,0;1,1,0
+#### Text ####
+The announcement boosted
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+9..130
+0
+#### Text ####
+MC SHIPPING Inc., New York, declared an initial quarterly of 60 cents a share payable Nov. 15 to shares of record Oct. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+132..290
+1
+#### Text ####
+The announcement boosted the charter-shipping company's shares, which closed at $15.125, up $1.25 a share, in composite trading on the American Stock Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+292
+2
+____Arg1____
+132..290
+1
+#### Text ####
+The announcement boosted the charter-shipping company's shares, which closed at $15.125, up $1.25 a share, in composite trading on the American Stock Exchange
+##############
+____Arg2____
+292..425
+2
+#### Text ####
+The company, which went public in May, intends to pay dividends from available cash flow; the amount may vary from quarter to quarter
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+382
+2
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+292..303;331..380
+2,0,0,0;2,0,0,1;2,0,0,3;2,0,1
+#### Text ####
+The company intends to pay dividends from available cash flow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+382..425
+2,2
+#### Text ####
+the amount may vary from quarter to quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

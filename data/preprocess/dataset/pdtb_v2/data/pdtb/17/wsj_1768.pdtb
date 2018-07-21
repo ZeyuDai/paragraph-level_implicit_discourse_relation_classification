@@ -1,0 +1,249 @@
+________________________________________________________
+____Explicit____
+151..156
+0,1,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..35
+0,0;0,1,0;0,2
+#### Text ####
+Canadian Pacific Ltd. said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+36..149
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,1,1,1,1,2
+#### Text ####
+it proposed acquiring the 44% of Soo Line Corp. it doesn't already own for $19.50 a share, or about $81.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+157..221
+0,1,1,1,1,3,1
+#### Text ####
+failing to find a buyer for its majority stake earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+327
+2
+____Arg1____
+225..325
+1
+#### Text ####
+Soo Line said its board appointed a special committee of independent directors to study the proposal
+##############
+____Arg2____
+327..461
+2
+#### Text ####
+The troubled Minneapolis-based railroad concern said the committee has the authority to hire financial and legal advisers to assist it
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+463
+3
+____Arg1____
+327..461
+2
+#### Text ####
+The troubled Minneapolis-based railroad concern said the committee has the authority to hire financial and legal advisers to assist it
+##############
+____Arg2____
+463..568
+3
+#### Text ####
+The proposed acquisition will be subject to approval by the Interstate Commerce Commission, Soo Line said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+812
+6
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+713..810
+5
+#### Text ####
+Canadian Pacific put its 56% stake in Soo Line up for sale last year but couldn't find any takers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+812..828;930..988
+6,0,0;6,0,1;6,1;6,2;6,3
+#### Text ####
+Canadian Pacific finally took its majority block off the market this spring
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+991
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+812..828;930..988
+6,0,0;6,0,1;6,1;6,2;6,3
+#### Text ####
+Canadian Pacific finally took its majority block off the market this spring
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+991..1024
+7,1
+#### Text ####
+It turned out we couldn't sell it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1027..1059
+7,0;7,2;7,3;7,4;7,5,0;7,5,1;7,5,2;7,6;7,7
+#### Text ####
+a Canadian Pacific official said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1272
+9
+____Arg1____
+1160..1270
+8
+#### Text ####
+Canadian Pacific is Soo Line's biggest customer and has owned a majority stake in the U.S. railroad since 1947
+##############
+____Arg2____
+1272..1446
+9
+#### Text ####
+Canadian Pacific and Soo Line tracks connect at two points in the West on the Canada-U.S. border and the two companies operate a very successful Chicago-Montreal rail service
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1369..1372
+9,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1272..1368
+9,0
+#### Text ####
+Canadian Pacific and Soo Line tracks connect at two points in the West on the Canada-U.S. border
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1373..1446
+9,2
+#### Text ####
+the two companies operate a very successful Chicago-Montreal rail service
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1450..1460
+10,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Sup1____
+151..221
+0,1,1,1,1,3
+#### Text ####
+after failing to find a buyer for its majority stake earlier this year
+##############
+____Arg1____
+36..149
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,1,1,1,1,2
+#### Text ####
+it proposed acquiring the 44% of Soo Line Corp. it doesn't already own for $19.50 a share, or about $81.9 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..35
+0,0;0,1,0;0,2
+#### Text ####
+Canadian Pacific Ltd. said
+##############
+____Arg2____
+1462..1625
+10,1;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+for the first nine months, Soo Line reported a loss of $398,000, or four cents a share, compared with net income of $12.5 million, or $1.32 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1627
+11
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+1450..1625
+10
+#### Text ####
+Separately, for the first nine months, Soo Line reported a loss of $398,000, or four cents a share, compared with net income of $12.5 million, or $1.32 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1627..1682
+11
+#### Text ####
+Revenue fell 5.8% to $407.9 million from $433.2 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1684
+12
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1627..1682
+11
+#### Text ####
+Revenue fell 5.8% to $407.9 million from $433.2 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1684..1738
+12
+#### Text ####
+The company had a loss from operations of $1.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

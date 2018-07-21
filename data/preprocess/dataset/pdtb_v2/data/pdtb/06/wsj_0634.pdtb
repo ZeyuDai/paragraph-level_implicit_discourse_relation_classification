@@ -1,0 +1,732 @@
+________________________________________________________
+____Implicit____
+271
+2
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+165..269
+1
+#### Text ####
+Last year, Dentsu started HDM, a joint network with U.S. ad agency Young & Rubicam and Eurocom of France
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+271..417
+2
+#### Text ####
+A few months ago, Dentsu acquired 69% of Australian agency Fortune Communication Holdings Ltd. for 5.9 million Australian dollars (US$4.6 million)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+419
+3
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+271..417
+2
+#### Text ####
+A few months ago, Dentsu acquired 69% of Australian agency Fortune Communication Holdings Ltd. for 5.9 million Australian dollars (US$4.6 million)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+419..447
+3,0
+#### Text ####
+Dentsu has U.S. subsidiaries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+449..452
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Pragmatic concession
+____Arg1____
+419..447
+3,0
+#### Text ####
+Dentsu has U.S. subsidiaries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+453..475
+3,3
+#### Text ####
+they keep low profiles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+676
+5
+____Arg1____
+479..674
+4
+#### Text ####
+Now, the giant marketing company, which holds 25% of Japan's 4.4 trillion yen ($30.96 billion) advertising industry, is considering the acquisition of an advertising network in the U.S. or Europe
+##############
+____Arg2____
+676..817
+5
+#### Text ####
+What is driving Dentsu's international expansion largely is the need to keep up with its Japanese clients as they grow in the U.S. and Europe
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+782..784
+5,2,1,2,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+745..781
+5,2,1,2,0;5,2,1,2,1,0;5,2,1,2,1,1,0;5,2,1,2,1,1,1;5,2,1,2,1,1,2
+#### Text ####
+to keep up with its Japanese clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+785..817
+5,2,1,2,1,1,3,1
+#### Text ####
+they grow in the U.S. and Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+820
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+676..817
+5
+#### Text ####
+What is driving Dentsu's international expansion largely is the need to keep up with its Japanese clients as they grow in the U.S. and Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+820..891
+6,1
+#### Text ####
+If we don't do something . . . we won't be able to catch up with demand
+##############
+#### Features ####
+Ot, Comm, Null, Null
+894..917
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+says a Dentsu spokesman
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+820..822
+6,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+894..917
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+says a Dentsu spokesman
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+851..891
+6,1,1;6,1,2;6,1,3
+#### Text ####
+we won't be able to catch up with demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+823..844
+6,1,0,1
+#### Text ####
+we don't do something
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+920
+7
+#### Features ####
+Ot, Comm, Null, Null
+894..917
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+says a Dentsu spokesman
+##############
+but, Expansion.Conjunction
+____Arg1____
+820..891
+6,1
+#### Text ####
+If we don't do something . . . we won't be able to catch up with demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+920..973
+7
+#### Text ####
+Our president said acquisition is an effective method
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1062..1065
+8,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+978..1060
+8,0
+#### Text ####
+Last year, Dentsu's foreign business accounted for less than 10% of total billings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1066..1113
+8,3
+#### Text ####
+the company is aiming at 20% in the near future
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1115
+9
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+978..1113
+8
+#### Text ####
+Last year, Dentsu's foreign business accounted for less than 10% of total billings, but the company is aiming at 20% in the near future
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1115..1168
+9
+#### Text ####
+So far, it appears cautious about taking the big step
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1170..1181
+10,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1115..1168
+9
+#### Text ####
+So far, it appears cautious about taking the big step
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1202..1352;1354..1357;1366..1407
+10,3,1;11,0;11,2,1;11,3
+#### Text ####
+Dentsu has been approached by banks and securities companies a number of times to invest in the troubled British marketing group Saatchi & Saatchi PLC But Dentsu hasn't looked seriously at Saatchi
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1183..1201;1358..1365
+10,1;10,2;10,3,0;10,4;11,1;11,2,0;11,3
+#### Text ####
+the spokesman says he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1354..1357
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1358..1365
+11,1;11,2,0;11,3
+#### Text ####
+he said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1202..1352
+10,3,1
+#### Text ####
+Dentsu has been approached by banks and securities companies a number of times to invest in the troubled British marketing group Saatchi & Saatchi PLC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1366..1407
+11,2,1
+#### Text ####
+Dentsu hasn't looked seriously at Saatchi
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1411..1417
+12,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+1481..1533
+12,1;12,2;12,3;12,4
+#### Text ####
+it is laying the groundwork for international growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1430..1479
+12,0,1,1,1
+#### Text ####
+it has no concrete acquisition plans or deadlines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1418..1429
+12,0,1,0;12,0,1,1,0
+#### Text ####
+Dentsu says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1535
+13
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1411..1533
+12
+#### Text ####
+Though Dentsu says it has no concrete acquisition plans or deadlines, it is laying the groundwork for international growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1535..1644
+13
+#### Text ####
+It is setting up a special team in charge of international markets and training workers to do business abroad
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1734..1737
+14,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1648..1732
+14,0;14,1;14,2;14,3
+#### Text ####
+For the year ended March 31, Dentsu sales rose 19% to $8.9 billion from $7.5 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1738..1792
+14,5
+#### Text ####
+net income jumped 59% to $102 million from $64 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1794
+15
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1648..1792
+14
+#### Text ####
+For the year ended March 31, Dentsu sales rose 19% to $8.9 billion from $7.5 billion, and net income jumped 59% to $102 million from $64 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1794..1959
+15
+#### Text ####
+Dentsu's billings last year were larger than those of Young & Rubicam, the world's second-largest ad agency, according to a survey by the publication Advertising Age
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1903..1959
+15,2,2;15,2,3;15,3
+#### Text ####
+according to a survey by the publication Advertising Age
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1963..1966
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1794..1959
+15
+#### Text ####
+Dentsu's billings last year were larger than those of Young & Rubicam, the world's second-largest ad agency, according to a survey by the publication Advertising Age
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1967..2071
+16,1;16,2;16,3
+#### Text ####
+success overseas in unfamiliar markets could be trickier than for other industries such as manufacturers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2073
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1963..2071
+16
+#### Text ####
+But success overseas in unfamiliar markets could be trickier than for other industries such as manufacturers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2073..2189
+17
+#### Text ####
+On its own, Dentsu's muscle in Japan may count for little in major foreign markets when seeking non-Japanese clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2156..2160
+17,3,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2073..2155
+17,0;17,1;17,2;17,3,0;17,3,1,0;17,3,1,1;17,3,1,2;17,4
+#### Text ####
+On its own, Dentsu's muscle in Japan may count for little in major foreign markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2161..2189
+17,3,1,3,1
+#### Text ####
+seeking non-Japanese clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2191..2195
+18,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Sup1____
+2073..2189
+17
+#### Text ####
+On its own, Dentsu's muscle in Japan may count for little in major foreign markets when seeking non-Japanese clients
+##############
+____Arg1____
+1963..2071
+16
+#### Text ####
+But success overseas in unfamiliar markets could be trickier than for other industries such as manufacturers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2197..2242
+18,1;18,2;18,3;18,4
+#### Text ####
+an acquisition may prove the necessary course
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2246..2249
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2191..2242
+18
+#### Text ####
+Thus, an acquisition may prove the necessary course
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2250..2346
+19,1;19,2;19,3
+#### Text ####
+Japanese agencies are cautious about expanding abroad because client relationships are different
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2304..2311
+19,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2246..2303
+19,0;19,1;19,2,0;19,2,1;19,3
+#### Text ####
+But Japanese agencies are cautious about expanding abroad
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2312..2346
+19,2,2,1
+#### Text ####
+client relationships are different
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2348
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2246..2346
+19
+#### Text ####
+But Japanese agencies are cautious about expanding abroad because client relationships are different
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2348..2417
+20,0,0;20,0,1,0;20,0,1,1;20,0,1,2;20,0,1,3
+#### Text ####
+Japanese agencies do business with rival clients in the same industry
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2498..2588
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+says Roy Warman, the London chief executive of Saatchi & Saatchi's communications division
+##############
+____Sup2____
+2419..2495
+20,0,1,4
+#### Text ####
+a practice "that would be unacceptable by traditional Western conflict rules
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2592..2600
+21,0,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2768..2793
+21,1;21,2;21,3;21,4
+#### Text ####
+says the Dentsu spokesman
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+2702..2766
+21,0,1;21,0,2;21,0,3
+#### Text ####
+many clients would also be Japanese companies expanding overseas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2601..2700
+21,0,0,1
+#### Text ####
+acquiring a foreign company would expand Japanese advertising agencies' business to foreign clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2721..2725
+21,0,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2768..2793
+21,1;21,2;21,3;21,4
+#### Text ####
+says the Dentsu spokesman
+##############
+also, Expansion.Conjunction
+____Arg1____
+2592..2700
+21,0,0
+#### Text ####
+Although acquiring a foreign company would expand Japanese advertising agencies' business to foreign clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2702..2720;2726..2766
+21,0,1;21,0,2;21,0,3,0;21,0,3,2
+#### Text ####
+many clients would be Japanese companies expanding overseas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2795..2798
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2592..2766
+21,0
+#### Text ####
+Although acquiring a foreign company would expand Japanese advertising agencies' business to foreign clients, many clients would also be Japanese companies expanding overseas
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2768..2793
+21,1;21,2;21,3;21,4
+#### Text ####
+says the Dentsu spokesman
+##############
+____Arg2____
+2799..2937
+22,1;22,2;22,3
+#### Text ####
+the different business system would make it hard for Dentsu to provide these Japanese companies the same kind of services they do in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1843 @@
+________________________________________________________
+____Implicit____
+292
+3
+#### Features ####
+Ot, Comm, Null, Null
+344..414
+3,1;3,2;3,3
+#### Text ####
+said Joel Kazis, manager of trading at Smith Barney, Harris Upham & Co
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+266..290
+2
+#### Text ####
+It was a pretty wild day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+292..341
+3,0
+#### Text ####
+Our markets were closely tied to the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+417
+4
+____Arg1____
+292..414
+3
+#### Text ####
+Our markets were closely tied to the stock market," said Joel Kazis, manager of trading at Smith Barney, Harris Upham & Co
+##############
+____Arg2____
+417..511
+4
+#### Text ####
+Friday's flight to quality was no longer needed once the stock market found its legs," he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+465..469
+4,0,2,2,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+504..511
+4,1;4,2;4,3
+#### Text ####
+he said
+##############
+once, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+417..464
+4,0,0;4,0,1;4,0,2,0;4,0,2,1;4,0,2,2,0;4,0,2,2,1;4,0,3;4,0,4
+#### Text ####
+Friday's flight to quality was no longer needed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+470..501
+4,0,2,2,2,1
+#### Text ####
+the stock market found its legs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+666..677
+6,0;6,1,0
+#### Text ####
+That caused
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+515..664
+5
+#### Text ####
+Some fixed-income investors had expected a further drop in stock prices after the nearly 200-point drop in the Dow Jones Industrial Average on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+666..786
+6
+#### Text ####
+That caused investors to flee stocks and buy high-quality Treasury bonds, which are safer than other types of securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+788..791
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+666..738
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1;6,1,1,1,1,2,0;6,1,1,1,1,2,1,0;6,1,1,1,1,2,1,1;6,2
+#### Text ####
+That caused investors to flee stocks and buy high-quality Treasury bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+792..861
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+when stocks began to climb instead, prices of Treasury bonds declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+792..796
+7,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+788..791;828..861
+7,0;7,2;7,3;7,4;7,5
+#### Text ####
+But prices of Treasury bonds declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+797..826
+7,1,1
+#### Text ####
+stocks began to climb instead
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+819..826
+7,1,1,1,1,1,1,1
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+556..664
+5,1,1,1;5,1,1,2;5,2
+#### Text ####
+a further drop in stock prices after the nearly 200-point drop in the Dow Jones Industrial Average on Friday
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+515..555
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+Some fixed-income investors had expected
+##############
+____Arg2____
+788..818
+7,0;7,1,0;7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0;7,1,1,1,1,1,1,0;7,1,1,1,2;7,2;7,5
+#### Text ####
+But when stocks began to climb
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1047
+9
+____Arg1____
+865..1045
+8
+#### Text ####
+Contributing to the selling pressure were dispatches by several investment firms advising clients to boost their stock holdings and reduce the size of their cash or bond portfolios
+##############
+____Arg2____
+1047..1116
+9
+#### Text ####
+Among the firms were Merrill Lynch & Co. and Dean Witter Reynolds Inc
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1282
+11
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1120..1280
+10
+#### Text ####
+The bond market seemed to ignore evidence that the Federal Reserve eased credit conditions slightly by allowing the federal funds rate to drift as low as 8 1/2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1282..1439
+11
+#### Text ####
+The closely watched rate on federal funds, or overnight loans between banks, slid to about 8 3/4% last week, down from its perceived target level of about 9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1441
+12
+____Arg1____
+1282..1439
+11
+#### Text ####
+The closely watched rate on federal funds, or overnight loans between banks, slid to about 8 3/4% last week, down from its perceived target level of about 9%
+##############
+____Arg2____
+1441..1504
+12
+#### Text ####
+The rate is considered an early signal of changes in Fed policy
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1506
+13
+____Arg1____
+1441..1504
+12
+#### Text ####
+The rate is considered an early signal of changes in Fed policy
+##############
+____Arg2____
+1506..1608
+13
+#### Text ####
+Traders said yesterday's modest easing didn't stir much enthusiasm because it had been widely expected
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1573..1580
+13,1,1,1,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1506..1518
+13,0;13,1,0;13,2
+#### Text ####
+Traders said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1519..1572
+13,1,1,0;13,1,1,1,0;13,1,1,1,1,0;13,1,1,1,1,1;13,1,1,1,1,2,0;13,1,1,1,1,2,1
+#### Text ####
+yesterday's modest easing didn't stir much enthusiasm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1581..1608
+13,1,1,1,1,2,2,1
+#### Text ####
+it had been widely expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1610..1617
+14,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1519..1608
+13,1,1
+#### Text ####
+yesterday's modest easing didn't stir much enthusiasm because it had been widely expected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1506..1518
+13,0;13,1,0;13,2
+#### Text ####
+Traders said
+##############
+____Arg2____
+1643..1683
+14,3,1
+#### Text ####
+that the latest easing started last week
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1619..1642
+14,1;14,2;14,3,0;14,4
+#### Text ####
+some economists contend
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1685
+15
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1610..1683
+14
+#### Text ####
+In fact, some economists contend that the latest easing started last week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1685..1785
+15
+#### Text ####
+Others note that some investors were disappointed because they had expected a more aggressive easing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1735..1742
+15,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1685..1696
+15,0;15,1,0;15,2
+#### Text ####
+Others note
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1697..1734
+15,1,1,0;15,1,1,1,0;15,1,1,1,1,0;15,1,1,1,1,1,0;15,1,1,1,1,1,1
+#### Text ####
+that some investors were disappointed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1743..1785
+15,1,1,1,1,1,2,1
+#### Text ####
+they had expected a more aggressive easing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1910
+17
+____Arg1____
+1789..1908
+16
+#### Text ####
+The Treasury's benchmark 30-year bond, ended about 1 3/4 points lower, or down about $17.50 for each $1,000 face amount
+##############
+____Arg2____
+1910..1983
+17
+#### Text ####
+The reversal was even more evident among shorter-term Treasury securities
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1985
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1910..1983
+17
+#### Text ####
+The reversal was even more evident among shorter-term Treasury securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1985..2118
+18
+#### Text ####
+After Treasury bill rates plummeted as much as 0.70 percentage point on Friday, they gave back three-fourths of that amount yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1985..1990
+18,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2065..2118
+18,1;18,2;18,3;18,4
+#### Text ####
+they gave back three-fourths of that amount yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1991..2063
+18,0,1
+#### Text ####
+Treasury bill rates plummeted as much as 0.70 percentage point on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2177..2188
+19,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1985..2118
+18
+#### Text ####
+After Treasury bill rates plummeted as much as 0.70 percentage point on Friday, they gave back three-fourths of that amount yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2120..2175;2190..2252
+19,0;19,1;19,3;19,4;19,5
+#### Text ####
+The bond-equivalent yield on three-month Treasury bills was quoted late yesterday at 7.72%, compared with 7.16% Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2337..2341
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1789..1908
+16
+#### Text ####
+The Treasury's benchmark 30-year bond, ended about 1 3/4 points lower, or down about $17.50 for each $1,000 face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2256..2336;2342..2346
+20,0;20,2;20,3
+#### Text ####
+Investment-grade corporate bonds, mortgage-backed securities and municipal bonds fell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2350..2353
+21,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2256..2346
+20
+#### Text ####
+Investment-grade corporate bonds, mortgage-backed securities and municipal bonds also fell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2354..2374;2431..2493
+21,1,0;21,1,1,0;21,1,1,1,0;21,1,1,1,1;21,1,1,1,3;21,2;21,3
+#### Text ####
+prices of junk bonds rebounded to post small gains after a volatile trading session
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2376..2429
+21,1,1,1,2
+#### Text ####
+which were battered Friday in near standstill trading
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2495
+22
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2350..2374;2431..2493
+21,0;21,1,0;21,1,1,0;21,1,1,1,0;21,1,1,1,1;21,1,1,1,3;21,2;21,3
+#### Text ####
+But prices of junk bonds rebounded to post small gains after a volatile trading session
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2495..2593
+22
+#### Text ####
+Junk bonds opened as much as four points lower but staged a modest comeback as stock prices firmed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2571..2573
+22,1,2,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+2542..2570
+22,1,1;22,1,2,0;22,1,2,1
+#### Text ####
+but staged a modest comeback
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2574..2593
+22,1,2,2,1
+#### Text ####
+stock prices firmed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2595
+23
+____Arg1____
+2495..2593
+22
+#### Text ####
+Junk bonds opened as much as four points lower but staged a modest comeback as stock prices firmed
+##############
+____Arg2____
+2595..2676
+23
+#### Text ####
+Some traders said the high-yield market was helped by active institutional buying
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2678..2691
+24,0
+#### Text ####
+In particular
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2693..2702
+24,1
+#### Text ####
+they said
+##############
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2613..2676
+23,1,1
+#### Text ####
+the high-yield market was helped by active institutional buying
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2595..2612
+23,0;23,1,0;23,2
+#### Text ####
+Some traders said
+##############
+____Arg2____
+2704..2868
+24,2;24,3;24,4
+#### Text ####
+firms such as First Boston Corp. and Drexel Burnham Lambert Inc. began making a market in junk issues early in the session when prices hit severely depressed levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3194..3205
+27,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Sup1____
+3129..3164
+26,1,1,1,1,3
+#### Text ####
+which opened at about 7:30 p.m. EDT
+##############
+____Arg1____
+3066..3127
+26,0;26,1,0;26,1,1,0;26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1;26,1,1,1,1,2;26,2
+#### Text ####
+U.S. Treasury bonds were higher in overnight trading in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3166..3192;3206..3310
+27,0;27,1;27,3;27,4
+#### Text ####
+The benchmark 30-year bond rose one point in early Japanese trading in reaction to a quick 600-point drop in the Tokyo stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3312..3315
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3166..3310
+27
+#### Text ####
+The benchmark 30-year bond, for example rose one point in early Japanese trading in reaction to a quick 600-point drop in the Tokyo stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3316..3396
+28,1;28,2;28,3;28,4;28,5
+#### Text ####
+as Japanese stocks rebounded, Treasurys retreated and ended just modestly higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3316..3318
+28,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3312..3315;3346..3396
+28,0;28,2;28,3;28,4;28,5
+#### Text ####
+But Treasurys retreated and ended just modestly higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3319..3344
+28,1,1
+#### Text ####
+Japanese stocks rebounded
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3851
+32
+#### Features ####
+Ot, Comm, Null, Null
+3698..3793
+31,0;31,1,0;31,2
+#### Text ####
+Jay Goldinger, who often trades overnight for Capital Insight Inc., Beverly Hills, Calif., said
+##############
+for example, Expansion.Instantiation
+____Arg1____
+3794..3848
+31,1,1
+#### Text ####
+trading in Tokyo was "very active" but highly volatile
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3851..3959
+32,0
+#### Text ####
+We went down 3/4 point in 10 minutes right before lunch, then after lunch we went up 3/4 point in 12 minutes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3962..3969
+32,1;32,2;32,3
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3908..3912
+32,0,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3962..3969
+32,1;32,2;32,3
+#### Text ####
+he said
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3851..3906
+32,0,1
+#### Text ####
+We went down 3/4 point in 10 minutes right before lunch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3913..3959
+32,0,3,1;32,0,3,2;32,0,3,3
+#### Text ####
+after lunch we went up 3/4 point in 12 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3971
+33
+____Arg1____
+3851..3969
+32
+#### Text ####
+We went down 3/4 point in 10 minutes right before lunch, then after lunch we went up 3/4 point in 12 minutes," he said
+##############
+____Arg2____
+3971..4015
+33
+#### Text ####
+In Tokyo, trading is halted during lunchtime
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4086
+35
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4019..4084
+34
+#### Text ####
+Tokyo's market turned out to be a bad bellwether for U.S. trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4086..4170
+35
+#### Text ####
+When the market opened here, bonds prices fell as the stock market regained strength
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4086..4090
+35,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+4115..4170
+35,1;35,2;35,3;35,4
+#### Text ####
+bonds prices fell as the stock market regained strength
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4091..4113
+35,0,1
+#### Text ####
+the market opened here
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4133..4135
+35,3,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+4115..4132
+35,1;35,2;35,3,0;35,4
+#### Text ####
+bonds prices fell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4136..4170
+35,3,1,1
+#### Text ####
+the stock market regained strength
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4546
+38
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+4404..4544
+37
+#### Text ####
+Industrial production is expected to have declined 0.2%, according to a consensus of economists surveyed by Dow Jones Capital Markets Report
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4461..4544
+37,1,1,2;37,1,1,3;37,2
+#### Text ####
+according to a consensus of economists surveyed by Dow Jones Capital Markets Report
+##############
+____Arg2____
+4546..4641
+38
+#### Text ####
+The August trade deficit is expected to have widened to $9.1 billion from $7.58 billion in July
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4643
+39
+____Arg1____
+4546..4641
+38
+#### Text ####
+The August trade deficit is expected to have widened to $9.1 billion from $7.58 billion in July
+##############
+____Arg2____
+4643..4725
+39
+#### Text ####
+A widening of that magnitude, said one New York trader, is "not a favorable number
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4733
+40
+#### Features ####
+Ot, Comm, Null, Null
+4673..4697
+39,1
+#### Text ####
+said one New York trader
+##############
+in other words, Expansion.Restatement.Specification
+____Arg1____
+4643..4671;4699..4725
+39,0;39,2;39,3;39,4;39,5
+#### Text ####
+A widening of that magnitude is "not a favorable number
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4733..4757
+40
+#### Text ####
+It could do damage to us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4762..4771
+41,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+4404..4641
+37;38
+#### Text ####
+Industrial production is expected to have declined 0.2%, according to a consensus of economists surveyed by Dow Jones Capital Markets Report.
+The August trade deficit is expected to have widened to $9.1 billion from $7.58 billion in July
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4773..4956
+41,1;41,2;41,3;41,4
+#### Text ####
+agency supply is expected to weigh heavily on the market today when the Federal Home Loan Bank prices a $2.3 billion offering of one-year, three-year, five-year and 10-year maturities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5150
+43
+____Arg1____
+4960..5148
+42
+#### Text ####
+Tomorrow, the Resolution Funding Corp. will provide details of its first bond issue, which is expected to total between $4 billion and $6 billion and carry a maturity greater than 20 years
+##############
+____Arg2____
+5150..5282
+43
+#### Text ####
+Resolution Funding is a division of Resolution Trust Corp., the new federal agency created to bail out the nation's troubled thrifts
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5286..5289
+44,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+5045..5148
+42,3,1,1,1,1,2
+#### Text ####
+which is expected to total between $4 billion and $6 billion and carry a maturity greater than 20 years
+##############
+____Arg1____
+4960..5043
+42,0;42,1;42,2;42,3,0;42,3,1,0;42,3,1,1,0;42,3,1,1,1,0;42,3,1,1,1,1,0;42,3,1,1,1,1,1;42,4
+#### Text ####
+Tomorrow, the Resolution Funding Corp. will provide details of its first bond issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5290..5412
+44,1;44,2;44,3;44,4
+#### Text ####
+this week the Tennessee Valley Authority plans to price a $3 billion offering, its first public debt borrowing in 15 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5469
+46
+#### Features ####
+Ot, Comm, Null, Null
+5442..5466
+45,0;45,2;45,3;45,4;45,5;45,6
+#### Text ####
+the New York trader said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+5417..5439
+45,1
+#### Text ####
+There's lots of supply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5469..5513
+46
+#### Text ####
+We have a couple or three tough weeks coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5734
+50
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+5606..5732
+49
+#### Text ####
+The benchmark 30-year Treasury bond was quoted late at a price of 101 19/32, compared with a closing price of 103 12/32 Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5734..5791
+50
+#### Text ####
+The yield on the benchmark issue rose to 7.97% from 7.82%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6003
+53
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+5912..6001
+52
+#### Text ####
+Short-term interest rates fell yesterday at the government's weekly Treasury bill auction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6003..6143
+53
+#### Text ####
+The average discount rate on new three-month Treasury bills was 7.37%, the lowest since the average of 7.36% at the auction on Oct. 17, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6145
+54
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6003..6143
+53
+#### Text ####
+The average discount rate on new three-month Treasury bills was 7.37%, the lowest since the average of 7.36% at the auction on Oct. 17, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6145..6274
+54
+#### Text ####
+The average discount rate was 7.42% on new six-month bills, the lowest since the average of 7.35% at the auction on July 31, 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6388..6392
+57,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+6306..6386
+56
+#### Text ####
+Rates are determined by the difference between the purchase price and face value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6394..6468
+57,1;57,2;57,3;57,4
+#### Text ####
+higher bidding narrows the investor's return while lower bidding widens it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6439..6444
+57,3,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+6388..6438
+57,0;57,1;57,2;57,3,0;57,3,1;57,4
+#### Text ####
+Thus, higher bidding narrows the investor's return
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6445..6468
+57,3,2,1
+#### Text ####
+lower bidding widens it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6470
+58
+____Arg1____
+6388..6468
+57
+#### Text ####
+Thus, higher bidding narrows the investor's return while lower bidding widens it
+##############
+____Arg2____
+6470..6585
+58
+#### Text ####
+The percentage rates are calculated on a 360-day year, while the coupon-equivalent yield is based on a 365-day year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6525..6530
+58,1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+6470..6523
+58,0;58,1,0;58,1,1,0;58,1,1,1;58,1,1,2;58,1,1,3;58,2
+#### Text ####
+The percentage rates are calculated on a 360-day year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6531..6585
+58,1,1,4,1
+#### Text ####
+the coupon-equivalent yield is based on a 365-day year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6620
+60
+____Arg1____
+6589..6618
+59
+#### Text ####
+Both issues are dated Oct. 19
+##############
+____Arg2____
+6620..6703
+60
+#### Text ####
+The 13-week bills mature Jan. 18, 1990, and the 26-week bills mature April 19, 1990
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6660..6663
+60,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6620..6658
+60,0
+#### Text ####
+The 13-week bills mature Jan. 18, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6664..6703
+60,3
+#### Text ####
+the 26-week bills mature April 19, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6789
+63
+____Arg1____
+6724..6787
+62
+#### Text ####
+Investment-grade corporate bonds ended one to 1 1/2 point lower
+##############
+____Arg2____
+6789..6813
+63
+#### Text ####
+There were no new issues
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6854..6856
+65,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+6833..6853
+65,0;65,1,0;65,2
+#### Text ####
+Foreign bonds surged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6857..6906
+65,1,1,1
+#### Text ####
+the dollar weakened against most major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7024
+67
+____Arg1____
+6939..7022
+66,1;66,2;66,3;66,4;66,5
+#### Text ####
+Japan's No. 111 4.6% bond due 1998 ended on brokers screens at 96.15, up 1.17 point
+##############
+____Arg2____
+7024..7044
+67
+#### Text ####
+The yield was 5.245%
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7230..7235
+69,2,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+7144..7228
+69,0;69,1;69,2,0;69,2,1;69,2,2;69,2,3;69,2,4;69,3
+#### Text ####
+Britain's 11 3/4% bond due 2003/2007 ended 1 1/8 higher at 111 19/32 to yield 10.12%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7236..7301
+69,2,5,1
+#### Text ####
+the 11 3/4% notes due 1991 rose 21/32 to 98 26/32 to yield 12.74%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7385..7387
+71,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+7334..7384
+71,0;71,1,0;71,1,1;71,1,2;71,2
+#### Text ####
+Mortgage securities gave up most of Friday's gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7388..7434
+71,1,3,1
+#### Text ####
+active issues ended 24/32 to 30/32 point lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7479..7481
+72,1,1,1,0,1,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7438..7450
+72,0;72,1,0;72,2
+#### Text ####
+Dealers said
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+7451..7478
+72,1,1,1,0,0;72,1,1,1,0,1,0;72,1,1,1,0,1,1,0
+#### Text ####
+morning activity was hectic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7482..7571
+72,1,1,1,0,1,1,1,1
+#### Text ####
+prices dropped in response to gains in the stock market and losses in Treasury securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7573..7576
+72,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7438..7450
+72,0;72,1,0;72,2
+#### Text ####
+Dealers said
+##############
+but, Comparison.Contrast
+____Arg1____
+7451..7571
+72,1,1,1,0
+#### Text ####
+morning activity was hectic as prices dropped in response to gains in the stock market and losses in Treasury securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7577..7627
+72,1,1,1,3
+#### Text ####
+trading slowed to moderate levels in the afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7771
+73
+____Arg1____
+7631..7769
+73,0
+#### Text ####
+Government National Mortgage Association 9% securities for November delivery were quoted late yesterday at 98 4/32, down 30/32 from Friday
+##############
+____Arg2____
+7771..7816
+73,2
+#### Text ####
+9 1/2% securities were down 27/32 at 100 5/32
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7818..7821
+73,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+7631..7816
+73,0;73,1;73,2;73,3
+#### Text ####
+Government National Mortgage Association 9% securities for November delivery were quoted late yesterday at 98 4/32, down 30/32 from Friday; 9 1/2% securities were down 27/32 at 100 5/32
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7822..7864
+73,5
+#### Text ####
+10% securities were at 102 2/32, off 24/32
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7866
+74
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+7818..7864
+73,4;73,5;73,6
+#### Text ####
+and 10% securities were at 102 2/32, off 24/32
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7866..7937
+74
+#### Text ####
+Federal Home Loan Mortgage Corp. 9% securities were at 97 1/4, down 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7939
+75
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+7866..7937
+74
+#### Text ####
+Federal Home Loan Mortgage Corp. 9% securities were at 97 1/4, down 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7939..7990
+75
+#### Text ####
+On Friday, mortgage issues gained as much as 1 5/32
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8092..8094
+76,2,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+7994..8090
+76,0;76,1;76,2,0;76,2,1,0;76,2,1,1;76,2,1,2;76,2,1,3;76,3
+#### Text ####
+Late yesterday Ginnie Mae 9% securities were yielding 9.39% to a 12-year average life assumption
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8095..8176
+76,2,1,4,1
+#### Text ####
+the spread above the Treasury 10-year note narrowed 0.01 percentage point to 1.42
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8291..8298
+77,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8180..8192
+77,0;77,1,0;77,2
+#### Text ####
+Traders said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+8193..8290
+77,1,1,0;77,1,1,1,0;77,1,1,1,1,0;77,1,1,1,1,1
+#### Text ####
+there were some busy dealings in Freddie Mac and Federal National Mortgage Association securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8299..8431
+77,1,1,1,1,2,1
+#### Text ####
+underwriters from last week's heavy slate of real estate mortgage investment conduit issues moved to gather collateral for new deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8876..8882
+82,1,1,1,1,1,1,1,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+8857..8875
+82,1,1,1,1,0;82,1,1,1,1,1,0;82,1,1,1,1,1,1,0;82,1,1,1,1,1,1,1,0;82,1,1,1,1,1,1,1,2
+#### Text ####
+to where they were
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8883..8980
+82,1,1,1,1,1,1,1,1,1
+#### Text ####
+the 190.58-point drop in the Dow Jones Industrial Average Friday prompted a capital markets rally
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9148
+84
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+8984..9146
+83
+#### Text ####
+Trading was hectic during the morning, with players trying to gauge whether equities would continue Friday's free fall or stabilize after a brief spot of weakness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9148..9367
+84
+#### Text ####
+Tax-exempts started the session flat to a touch higher on anticipation of further stock market erosion, but bond prices rapidly turned south as it became more clear that a repeat of the October 1987 crash wasn't at hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9252..9255
+84,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9148..9250
+84,0
+#### Text ####
+Tax-exempts started the session flat to a touch higher on anticipation of further stock market erosion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9256..9367
+84,3
+#### Text ####
+bond prices rapidly turned south as it became more clear that a repeat of the October 1987 crash wasn't at hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9289..9291
+84,3,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+9252..9288
+84,2;84,3,0;84,3,1,0;84,3,1,1;84,3,1,2;84,4
+#### Text ####
+but bond prices rapidly turned south
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9292..9367
+84,3,1,3,1
+#### Text ####
+it became more clear that a repeat of the October 1987 crash wasn't at hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9450
+86
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9371..9435
+85
+#### Text ####
+Professionals dominated municipal trading throughout the session
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9450..9558
+86,1,1
+#### Text ####
+retail investors seemed to be hugging the sidelines until a measure of volatility is wrung out of the market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9437..9449
+86,0;86,1,0;86,2
+#### Text ####
+Traders said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+9502..9507
+86,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9437..9449
+86,0;86,1,0;86,2
+#### Text ####
+Traders said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+9450..9501
+86,1,1,0;86,1,1,1,0;86,1,1,1,1,0;86,1,1,1,1,1,0;86,1,1,1,1,1,1,0;86,1,1,1,1,1,1,1,0;86,1,1,1,1,1,1,1,1,0;86,1,1,1,1,1,1,1,1,1
+#### Text ####
+retail investors seemed to be hugging the sidelines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9508..9558
+86,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+a measure of volatility is wrung out of the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9788
+89
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9702..9786
+88
+#### Text ####
+Florida Board of Education's 7 1/4% issue of 2023 was 5/8 point weaker at 99 1/2 bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9788..9895
+89
+#### Text ####
+The 7 1/8% issue of Triborough Bridge and Tunnel Authority of New York, due 2019, was off 5/8 at 98 1/8 bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9897..9900
+90,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9562..9698;9702..9895
+87;88;89
+#### Text ####
+New Jersey Turnpike Authority's 7.20% issue of 2018 was off 3/4 at 98 1/2 bid, yielding 7.32%, up 0.07 percentage point from late Friday Florida Board of Education's 7 1/4% issue of 2023 was 5/8 point weaker at 99 1/2 bid.
+The 7 1/8% issue of Triborough Bridge and Tunnel Authority of New York, due 2019, was off 5/8 at 98 1/8 bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9901..9987
+90,1;90,2;90,3
+#### Text ####
+Fairfax County, Va., Water Authority's 7 1/4% issue of 2027 was down 3/4 at 99 7/8 bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

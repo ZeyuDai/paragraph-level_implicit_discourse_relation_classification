@@ -1,0 +1,435 @@
+________________________________________________________
+____Explicit____
+9..14
+0,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Ot, Comm, Null, Null
+224..269
+0,3,1,3;0,3,1,4;0,4
+#### Text ####
+according to people close to the negotiations
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+71..269
+0,1;0,2;0,3;0,4
+#### Text ####
+Sears, Roebuck & Co. is negotiating with Boston pension fund adviser Aldrich, Eastman & Waltch Inc. to refinance the property for close to $850 million, according to people close to the negotiations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+15..69
+0,0,1
+#### Text ####
+failing to find a buyer for the Sears Tower in Chicago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+483
+2
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+273..481
+1
+#### Text ####
+Under the proposed agreement involving the world's tallest building, Chicago-based Sears would receive about half the money through conventional mortgage financing and the other half as a convertible mortgage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+483..604
+2
+#### Text ####
+At the end of the term of the convertible loan, Sears could still own half the building, and AEW could own the other half
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+572..575
+2,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+483..570
+2,0;2,1;2,2;2,3
+#### Text ####
+At the end of the term of the convertible loan, Sears could still own half the building
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+576..604
+2,5
+#### Text ####
+AEW could own the other half
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+606
+3
+____Arg1____
+483..604
+2
+#### Text ####
+At the end of the term of the convertible loan, Sears could still own half the building, and AEW could own the other half
+##############
+____Arg2____
+606..632
+3
+#### Text ####
+Neither side would comment
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+809
+5
+____Arg1____
+636..807
+4
+#### Text ####
+The parties are currently negotiating over who would manage the building, which will be emptied of 6,000 employees from Sears' merchandise group, which is moving elsewhere
+##############
+____Arg2____
+809..935
+5
+#### Text ####
+The new manager will face the daunting task of leasing 1.8 million square feet in a relatively soft Chicago real estate market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+937..941
+6,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+809..935
+5
+#### Text ####
+The new manager will face the daunting task of leasing 1.8 million square feet in a relatively soft Chicago real estate market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+943..1043
+6,1;6,2;6,3;6,4
+#### Text ####
+it has not yet been decided exactly how much of the mortgage AEW will be able to convert into equity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1151
+8
+____Arg1____
+1047..1149
+7
+#### Text ####
+Convertible mortgages have become an increasingly popular way to finance prestigious buildings of late
+##############
+____Arg2____
+1151..1345
+8
+#### Text ####
+In a convertible mortgage, the investor lends the building owner a certain amount in return for the option to convert its interest into equity, usually less than 50%, at the end of the loan term
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1347
+9
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1151..1345
+8
+#### Text ####
+In a convertible mortgage, the investor lends the building owner a certain amount in return for the option to convert its interest into equity, usually less than 50%, at the end of the loan term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1347..1482
+9
+#### Text ####
+During the term, the lender can either receive a percentage of cash flow, a percentage of the building's appreciation or a fixed return
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1484
+10
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Restatement.Generalization
+____Arg1____
+1347..1482
+9
+#### Text ####
+During the term, the lender can either receive a percentage of cash flow, a percentage of the building's appreciation or a fixed return
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1484..1622
+10
+#### Text ####
+The main advantage of a convertible mortgage is that it is not a sale and therefore does not trigger costly transfer taxes and reappraisal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1558..1567
+10,1,1,1,1,2
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1532..1553
+10,1,1,0;10,1,1,1,0;10,1,1,1,1,0
+#### Text ####
+that it is not a sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1554..1557;1568..1622
+10,1,1,1,1,1;10,1,1,1,1,3
+#### Text ####
+and does not trigger costly transfer taxes and reappraisal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1745..1748
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1637..1743
+11,1,1;11,1,2;11,1,3;11,2
+#### Text ####
+it would put the 110-story tower on the block almost a year ago as part of its anti-takeover restructuring
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1626..1636
+11,0;11,1,0;11,2
+#### Text ####
+Sears said
+##############
+____Arg2____
+1749..1901
+12,1;12,2;12,3
+#### Text ####
+Japanese institutions shied away from bidding on the high-profile tower out of fear their purchase of the property would trigger anti-Japanese sentiment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2005..2008
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1905..2003
+13
+#### Text ####
+Last summer, Sears appeared to have a deal with Canadian developer Olympia & York Developments Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2009..2224
+14,1;14,2;14,3
+#### Text ####
+that deal fell through in September after it became clear that the sale would lead to a major real estate tax reassessment, raising property taxes, and making it difficult to lease the building at competitive prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2045..2050
+14,2,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2005..2044
+14,0;14,1;14,2,0;14,2,1;14,2,2;14,3
+#### Text ####
+But that deal fell through in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2051..2224
+14,2,3,1
+#### Text ####
+it became clear that the sale would lead to a major real estate tax reassessment, raising property taxes, and making it difficult to lease the building at competitive prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2340..2347
+16,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2265..2338
+15,1,1
+#### Text ####
+Sears' investment banker, Goldman, Sachs & Co., sought financing in Japan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2228..2264
+15,0;15,1,0;15,2
+#### Text ####
+Real estate industry executives said
+##############
+____Arg2____
+2349..2452
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+Japanese authorities apparently were concerned that a refinancing also would attract too much publicity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2415..2419
+16,4,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1833..1901
+12,2,3,1,1,1
+#### Text ####
+their purchase of the property would trigger anti-Japanese sentiment
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1821..1832
+12,2,3,0;12,2,3,1,0;12,2,3,1,1,0
+#### Text ####
+out of fear
+##############
+____Arg2____
+2396..2414;2420..2452
+16,4,1,1,0;16,4,1,1,1,0;16,4,1,1,1,2
+#### Text ####
+that a refinancing would attract too much publicity
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2349..2395
+16,1;16,2;16,3;16,4,0;16,4,1,0;16,5
+#### Text ####
+Japanese authorities apparently were concerned
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2462..2466
+17,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2340..2452
+16
+#### Text ####
+However, Japanese authorities apparently were concerned that a refinancing also would attract too much publicity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2456..2461;2467..2596
+17,0;17,2;17,3
+#### Text ####
+Sears went back to AEW, the Boston pension adviser that had proposed a convertible debt deal during the first round of bids last spring
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2598
+18
+____Arg1____
+2456..2596
+17
+#### Text ####
+Sears then went back to AEW, the Boston pension adviser that had proposed a convertible debt deal during the first round of bids last spring
+##############
+____Arg2____
+2598..2682
+18
+#### Text ####
+AEW has $3.5 billion of real estate investments nationwide, according to a spokesman
+##############
+________________________________________________________

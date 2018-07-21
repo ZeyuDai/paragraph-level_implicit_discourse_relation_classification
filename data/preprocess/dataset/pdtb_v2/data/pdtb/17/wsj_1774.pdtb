@@ -1,0 +1,389 @@
+________________________________________________________
+____Explicit____
+79..82
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+9..75
+0
+#### Text ####
+Dun & Bradstreet Corp. posted a 15% rise in third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+83..240
+1,1;1,2;1,3
+#### Text ####
+revenue declined more than 2%, reflecting in part a continuing drop in sales of credit services in the wake of controversy over the company's sales practices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+488
+4
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+381..486
+3
+#### Text ####
+Net income rose to a record $155.3 million, or 83 cents a share, from $134.8 million, or 72 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+488..536
+4
+#### Text ####
+Revenue fell to $1.04 billion from $1.07 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+707..710
+6,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+677..705
+6,0,1,1
+#### Text ####
+the results were as expected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+663..676
+6,0,0;6,0,1,0
+#### Text ####
+Analysts said
+##############
+____Arg2____
+725..793
+6,3,1,1
+#### Text ####
+that the earnings masked underlying weaknesses in several businesses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+711..724
+6,3,0;6,3,1,0
+#### Text ####
+several added
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+796
+7
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+663..793
+6
+#### Text ####
+Analysts said the results were as expected, but several added that the earnings masked underlying weaknesses in several businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+796..902
+7
+#### Text ####
+The quality of earnings wasn't as high as I expected," said Eric Philo, an analyst for Goldman, Sachs & Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+906..917
+8,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+796..848
+7,1
+#### Text ####
+The quality of earnings wasn't as high as I expected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+851..902
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+said Eric Philo, an analyst for Goldman, Sachs & Co
+##############
+____Arg2____
+929..1069
+8,2;8,3;8,4;8,5;8,6
+#### Text ####
+operating profit was weaker than he had anticipated, but nonoperating earnings of $14.6 million and a lower tax rate helped boost net income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+919..927
+8,1
+#### Text ####
+he noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+982..985
+8,4
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+919..927
+8,1
+#### Text ####
+he noted
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+906..917;929..980
+8,0;8,2;8,3
+#### Text ####
+For example operating profit was weaker than he had anticipated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+986..1069
+8,5
+#### Text ####
+nonoperating earnings of $14.6 million and a lower tax rate helped boost net income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1317
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1172..1268
+10,0
+#### Text ####
+Third-quarter sales of U.S. credit services were "disappointingly below sales" of a year earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1270..1291
+10,1;10,2;10,3;10,4
+#### Text ####
+Dun & Bradstreet said
+##############
+____Arg2____
+1317..1487
+11,1;11,2;11,3;11,4
+#### Text ####
+those sales have been declining this year in the wake of allegations that the company engaged in unfair sales practices that encouraged customers to overpurchase services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1489
+12
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1386..1487
+11,3,1,1,2,1,1,1,1
+#### Text ####
+that the company engaged in unfair sales practices that encouraged customers to overpurchase services
+##############
+#### Features ####
+Arb, Comm, Null, Null
+1374..1385
+11,3,1,1,2,1,1,1,0
+#### Text ####
+allegations
+##############
+____Arg2____
+1489..1600
+12
+#### Text ####
+The company has denied the allegations but has negotiated a proposed $18 million settlement of related lawsuits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1602
+13
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+1489..1600
+12
+#### Text ####
+The company has denied the allegations but has negotiated a proposed $18 million settlement of related lawsuits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1602..1647
+13
+#### Text ####
+Analysts predict the sales impact will linger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1650
+14
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1602..1647
+13
+#### Text ####
+Analysts predict the sales impact will linger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1650..1779
+14
+#### Text ####
+There isn't much question there will continue to be a ripple effect," said John Reidy, an analyst with Drexel Burnham Lambert Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1922..1926
+15,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1783..1805
+15,0;15,1,0;15,2
+#### Text ####
+Dun & Bradstreet noted
+##############
+also, Expansion.Conjunction
+____Arg1____
+1317..1487
+11,1;11,2;11,3;11,4
+#### Text ####
+those sales have been declining this year in the wake of allegations that the company engaged in unfair sales practices that encouraged customers to overpurchase services
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1293..1315
+11,0
+#### Text ####
+As previously reported
+##############
+____Arg2____
+1806..1921;1927..1952
+15,1,1,0;15,1,1,1,0;15,1,1,1,2
+#### Text ####
+that price competition in its Nielsen Marketing Research, Nielsen Clearing House and Donnelley Marketing businesses restrained revenue growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1954
+16
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1783..1952
+15
+#### Text ####
+Dun & Bradstreet noted that price competition in its Nielsen Marketing Research, Nielsen Clearing House and Donnelley Marketing businesses also restrained revenue growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1954..2048
+16
+#### Text ####
+It cited cyclical conditions in its Moody's Investors Service Inc. and D&B Plan Services units
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2183
+18
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2052..2181
+17
+#### Text ####
+For the nine months, net income rose 19% to $449 million, or $2.40 a share, from $375.9 million, or $2.01 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2183..2285
+18
+#### Text ####
+Year-earlier earnings reflected costs of $14.3 million related to the acquisition of IMS International
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2287
+19
+____Arg1____
+2183..2285
+18
+#### Text ####
+Year-earlier earnings reflected costs of $14.3 million related to the acquisition of IMS International
+##############
+____Arg2____
+2287..2344
+19
+#### Text ####
+Revenue rose slightly to $3.16 billion from $3.13 billion
+##############
+________________________________________________________

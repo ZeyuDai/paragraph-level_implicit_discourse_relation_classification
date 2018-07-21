@@ -1,0 +1,373 @@
+________________________________________________________
+____Implicit____
+278
+2
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+169..276
+1
+#### Text ####
+Called Task Broker, the program acts something like an auctioneer among a group of computers wired together
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+278..386
+2
+#### Text ####
+If a machine has a big computing task, Task Broker asks other computers in the network for "bids" on the job
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+278..280
+2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+317..386
+2,1;2,2;2,3;2,4
+#### Text ####
+Task Broker asks other computers in the network for "bids" on the job
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+281..315
+2,0,1
+#### Text ####
+a machine has a big computing task
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+391..395
+3,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+317..386
+2,1;2,2;2,3;2,4
+#### Text ####
+Task Broker asks other computers in the network for "bids" on the job
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+388..390;396..491
+3,0;3,2;3,3
+#### Text ####
+It determines which machine is free to do the task most quickly and sends the task to that machine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+800..802
+5,3,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+684..773
+5,1
+#### Text ####
+said analyst John McCarthy at Forrester Research Inc., a computer-market research company
+##############
+as, Temporal.Synchrony
+____Arg1____
+651..682;776..799
+5,0;5,2;5,3,0;5,3,1;5,4;5,5
+#### Text ####
+The new Hewlett-Packard program is a key building block
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+803..858
+5,3,2,1
+#### Text ####
+people move to this new model of distributed processing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+861
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+651..682;776..858
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+The new Hewlett-Packard program is a key building block as people move to this new model of distributed processing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+684..773
+5,1
+#### Text ####
+said analyst John McCarthy at Forrester Research Inc., a computer-market research company
+##############
+____Arg2____
+861..946
+6
+#### Text ####
+In today's computer networks, some machines often sit idle while others are overtaxed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+920..925
+6,4,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Opposition
+____Arg1____
+861..919
+6,0;6,1;6,2;6,3;6,4,0;6,4,1;6,5
+#### Text ####
+In today's computer networks, some machines often sit idle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+926..946
+6,4,2,1
+#### Text ####
+others are overtaxed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+948
+7
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+861..946
+6
+#### Text ####
+In today's computer networks, some machines often sit idle while others are overtaxed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+948..980;992..1048
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+With the Hewlett-Packard program You get more bang for the buck you've spent on computers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+982..989
+7,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1140
+9
+____Arg1____
+1053..1138
+8
+#### Text ####
+The program, which will be shipped in January 1990, runs on the Unix operating system
+##############
+____Arg2____
+1140..1206
+9
+#### Text ####
+Hewlett-Packard will charge $5,000 for a license covering 10 users
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1208
+10
+____Arg1____
+1140..1206
+9
+#### Text ####
+Hewlett-Packard will charge $5,000 for a license covering 10 users
+##############
+____Arg2____
+1208..1343
+10
+#### Text ####
+The program now works on all Hewlett-Packard and Apollo workstations and on computers made by Multiflow Computer Inc. of Branford, Conn
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1366
+11
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1208..1343
+10
+#### Text ####
+The program now works on all Hewlett-Packard and Apollo workstations and on computers made by Multiflow Computer Inc. of Branford, Conn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1366..1474
+11,1,1
+#### Text ####
+it will sell versions later next year that run on Sun Microsystems Inc. and Digital Equipment Corp. machines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1345..1365
+11,0;11,1,0;11,2
+#### Text ####
+Hewlett-Packard said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1680..1692
+13,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1478..1566
+12
+#### Text ####
+The Task Broker differs from other programs that spread computing tasks around a network
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1568..1678;1694..1821
+13,0;13,1;13,3;13,4;13,5
+#### Text ####
+A previously available program called Network Computing System, developed by Hewlett-Packard's Apollo division takes a task and splits it up into parts, divvying up those parts to several computers in a network for simultaneous processing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1823..1826
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1568..1821
+13
+#### Text ####
+A previously available program called Network Computing System, developed by Hewlett-Packard's Apollo division, for instance, takes a task and splits it up into parts, divvying up those parts to several computers in a network for simultaneous processing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1827..1909
+14,1;14,2;14,3
+#### Text ####
+programs in individual computers must be revised in order to work with that system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2001..2004
+15,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1979..1999
+15,1
+#### Text ####
+Hewlett-Packard said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1913..1977
+15,0
+#### Text ####
+Applications won't have to be rewritten to work with Task Broker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2005..2088
+15,3
+#### Text ####
+the user of a computer won't be able to tell that another machine is doing the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2090
+16
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2001..2088
+15,2;15,3;15,4
+#### Text ####
+and the user of a computer won't be able to tell that another machine is doing the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2090..2187
+16,0
+#### Text ####
+The Task Broker "turns that network into -- as far as the user is concerned -- one giant computer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2190..2259
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+said Bill Kay, general manager of Hewlett-Packard's workstation group
+##############
+________________________________________________________

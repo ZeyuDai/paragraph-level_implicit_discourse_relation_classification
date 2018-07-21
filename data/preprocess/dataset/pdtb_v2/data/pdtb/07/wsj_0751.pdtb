@@ -1,0 +1,88 @@
+________________________________________________________
+____EntRel____
+274
+2
+____Arg1____
+162..272
+1
+#### Text ####
+Starpointe holders, who approved the plan last April, will receive $21 in cash a share, or a total $63 million
+##############
+____Arg2____
+274..379
+2
+#### Text ####
+The FDIC cleared the move yesterday, and the banks must wait at least 30 days before closing the purchase
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+311..314
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+274..309
+2,0
+#### Text ####
+The FDIC cleared the move yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+315..379
+2,3
+#### Text ####
+the banks must wait at least 30 days before closing the purchase
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+352..358
+2,3,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+311..351
+2,2;2,3,0;2,3,1,0;2,3,1,1,0;2,3,1,1,1;2,4
+#### Text ####
+and the banks must wait at least 30 days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+359..379
+2,3,1,1,2,1
+#### Text ####
+closing the purchase
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+381
+3
+____Arg1____
+274..379
+2
+#### Text ####
+The FDIC cleared the move yesterday, and the banks must wait at least 30 days before closing the purchase
+##############
+____Arg2____
+381..411
+3
+#### Text ####
+A closing date hasn't been set
+##############
+________________________________________________________

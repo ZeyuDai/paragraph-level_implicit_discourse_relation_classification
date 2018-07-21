@@ -1,0 +1,384 @@
+________________________________________________________
+____Implicit____
+576
+3
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+480..574
+2,3,1
+#### Text ####
+the navy still intends to buy 86 Rafales as scheduled in the late 1990s and early 21st century
+##############
+#### Features ####
+Ot, Comm, Null, Null
+360..479
+2,0;2,1;2,2;2,3,0;2,4
+#### Text ####
+In an interview in the navy's official weekly magazine Cols Bleus, the navy's second-in-command, Adm. Yves Goupil, said
+##############
+____Arg2____
+576..618
+3
+#### Text ####
+The air force is to take at least 250 more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+824
+5
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+639..669;712..768
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1;4,1,1,1,1,2,0;4,1,1,1,1,2,1,0;4,1,1,1,1,2,1,1,0;4,1,1,1,1,2,1,1,1;4,1,1,1,1,2,1,1,3;4,1,1,1,1,2,2,0;4,1,1,1,1,2,2,1,0;4,1,1,1,1,2,2,1,1,0;4,1,1,1,1,2,2,1,1,1,0;4,1,1,1,1,2,2,1,1,1,1
+#### Text ####
+the navy can't wait until 1998 to replace its obsolete fleet of American-made Crusaders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+622..638
+4,0;4,1,0;4,2
+#### Text ####
+Adm. Goupil said
+##############
+____Arg2____
+824..858;966..1017
+5,0,0;5,0,1;5,0,2,0;5,0,2,1,0;5,0,2,1,1;5,3,1
+#### Text ####
+Rather than renovate the Crusaders the navy wants to buy used F-18s from the U.S. Navy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+949..965
+5,1;5,2;5,3,0;5,4
+#### Text ####
+Adm. Goupil said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1078
+7
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1021..1076
+6
+#### Text ####
+Officially, the statement isn't an attack on the Rafale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1078..1177
+7
+#### Text ####
+Adm. Goupil said that when the F-18s wear out, the navy is prepared to take Rafales to replace them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1100..1104
+7,1,1,1,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1078..1094
+7,0;7,1,0;7,2
+#### Text ####
+Adm. Goupil said
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1095..1099;1125..1177
+7,1,1,0;7,1,1,1,1;7,1,1,1,2;7,1,1,1,3
+#### Text ####
+that the navy is prepared to take Rafales to replace them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1105..1123
+7,1,1,1,0,1
+#### Text ####
+the F-18s wear out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1179..1182
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1021..1076
+6
+#### Text ####
+Officially, the statement isn't an attack on the Rafale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1183..1295
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+unofficially, senior navy officials sharply criticize the Rafale as an air force plane ill-suited to carrier use
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1297
+9
+____Arg1____
+1179..1295
+8
+#### Text ####
+But unofficially, senior navy officials sharply criticize the Rafale as an air force plane ill-suited to carrier use
+##############
+____Arg2____
+1297..1415
+9
+#### Text ####
+Although they never said so publicly, they have made no secret of their preference for the F-18 on operational grounds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1297..1305
+9,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1335..1415
+9,1;9,2;9,3;9,4
+#### Text ####
+they have made no secret of their preference for the F-18 on operational grounds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1306..1333
+9,0,1
+#### Text ####
+they never said so publicly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1550
+11
+____Arg1____
+1419..1548
+10
+#### Text ####
+Adm. Goupil's comments are likely to inflame the broader dispute within the military establishment here over the role of Dassault
+##############
+____Arg2____
+1550..1704
+11
+#### Text ####
+Although government-controlled, Dassault still is run by the founder's son, Chairman Serge Dassault, who has fiercely protected his company's independence
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1550..1558
+11,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1582..1704
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+Dassault still is run by the founder's son, Chairman Serge Dassault, who has fiercely protected his company's independence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1559..1580
+11,0,1
+#### Text ####
+government-controlled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1706
+12
+____Arg1____
+1550..1704
+11
+#### Text ####
+Although government-controlled, Dassault still is run by the founder's son, Chairman Serge Dassault, who has fiercely protected his company's independence
+##############
+____Arg2____
+1706..1912
+12
+#### Text ####
+The Rafale project is the result of France's inability jointly to develop a plane with other countries, and French officials question whether the state can continue paying for expensive independent programs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1810..1813
+12,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1706..1808
+12,0
+#### Text ####
+The Rafale project is the result of France's inability jointly to develop a plane with other countries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1814..1912
+12,3
+#### Text ####
+French officials question whether the state can continue paying for expensive independent programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1914
+13
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1706..1912
+12
+#### Text ####
+The Rafale project is the result of France's inability jointly to develop a plane with other countries, and French officials question whether the state can continue paying for expensive independent programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1914..1966
+13
+#### Text ####
+So far, Mr. Dassault has resisted pressure to change
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2157
+15
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion
+____Arg1____
+2012..2058
+14,1,1,0;14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1;14,1,1,1,1,2,0;14,1,1,1,1,2,1;14,1,1,1,1,2,2
+#### Text ####
+that the Crusaders are literally falling apart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2157..2255
+15,1,1
+#### Text ####
+that the last other country to use Crusaders, the Philippines, retired its last ones two years ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2104..2156
+15,0;15,1,0;15,2
+#### Text ####
+Adm. Goupil, a former Crusader squadron leader, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2257
+16
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+2104..2255
+15
+#### Text ####
+Adm. Goupil, a former Crusader squadron leader, said that the last other country to use Crusaders, the Philippines, retired its last ones two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2257..2337
+16
+#### Text ####
+A French Crusader crash a few months ago heightened pressure for new planes here
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2453
+18
+#### Features ####
+Wr, Comm, Null, Null
+besides, Expansion.Conjunction
+____Arg1____
+2341..2451
+17
+#### Text ####
+Adm. Goupil rejected Dassault's proposal to renovate the Crusaders, saying the cost was impossible to estimate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2453..2468;2479..2645
+18,0;18,2;18,3;18,4
+#### Text ####
+Even modernized the Crusaders represent an obsolete and dangerous protection for the aircraft carriers France has sent to meet such crises as the wars in Lebanon and the Persian Gulf
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2470..2477
+18,1
+#### Text ####
+he said
+##############
+________________________________________________________

@@ -1,0 +1,293 @@
+________________________________________________________
+____EntRel____
+64
+1
+____Arg1____
+9..62
+0
+#### Text ####
+The fiscal 1989 budget deficit figure came out Friday
+##############
+____Arg2____
+64..84
+1
+#### Text ####
+It was down a little
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+86
+2
+____Arg1____
+64..84
+1
+#### Text ####
+It was down a little
+##############
+____Arg2____
+86..187
+2
+#### Text ####
+The next time you hear a Member of Congress moan about the deficit, consider what Congress did Friday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+189
+3
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+86..187
+2
+#### Text ####
+The next time you hear a Member of Congress moan about the deficit, consider what Congress did Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+189..334
+3
+#### Text ####
+The Senate, 84-6, voted to increase to $124,000 the ceiling on insured mortgages from the FHA, which lost $4.2 billion in loan defaults last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+338..342
+4,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+284..334
+3,2,3,1,1,2,1,1,1,1,2
+#### Text ####
+which lost $4.2 billion in loan defaults last year
+##############
+____Arg1____
+189..282
+3,0;3,1;3,2,0;3,2,1;3,2,2;3,2,3,0;3,2,3,1,0;3,2,3,1,1,0;3,2,3,1,1,1;3,2,3,1,1,2,0;3,2,3,1,1,2,1,0;3,2,3,1,1,2,1,1,0;3,2,3,1,1,2,1,1,1,0;3,2,3,1,1,2,1,1,1,1,0;3,2,3,1,1,2,1,1,1,1,1;3,3
+#### Text ####
+The Senate, 84-6, voted to increase to $124,000 the ceiling on insured mortgages from the FHA
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+344..394;428..462
+4,1;4,2;4,3;4,4;4,5,0;4,5,1,0;4,5,1,1;4,5,1,3;4,5,1,4;4,6
+#### Text ####
+by voice vote, the Senate voted a pork-barrel bill for domestic military construction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+396..426
+4,5,1,2
+#### Text ####
+approved Thursday by the House
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+464
+5
+____Arg1____
+338..462
+4
+#### Text ####
+Then, by voice vote, the Senate voted a pork-barrel bill, approved Thursday by the House, for domestic military construction
+##############
+____Arg2____
+464..525
+5
+#### Text ####
+Compare the Bush request to what the Senators gave themselves
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+647
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+597..645
+6,2
+#### Text ####
+Congress gave Senator Byrd's state $21.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+647..703
+7
+#### Text ####
+Senator Byrd is chairman of the Appropriations Committee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+705
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+529..703
+6;7
+#### Text ####
+For construction in West Virginia, Mr. Bush requested $4.5 million; Congress gave Senator Byrd's state $21.5 million.
+Senator Byrd is chairman of the Appropriations Committee
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+705..842
+8
+#### Text ####
+For Iowa, a $1.8 million request became $12 million for Senator Grassley, ranking minority member of a military construction subcommittee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+844
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+529..842
+6;7;8
+#### Text ####
+For construction in West Virginia, Mr. Bush requested $4.5 million; Congress gave Senator Byrd's state $21.5 million.
+Senator Byrd is chairman of the Appropriations Committee.
+For Iowa, a $1.8 million request became $12 million for Senator Grassley, ranking minority member of a military construction subcommittee
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+844..991
+9
+#### Text ####
+Rep. Jamie Whitten of Mississippi and chairman of House Appropriations turned a $20 million Bush request for his state into a $49.7 million bequest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+993
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+529..991
+6;7;8;9
+#### Text ####
+For construction in West Virginia, Mr. Bush requested $4.5 million; Congress gave Senator Byrd's state $21.5 million.
+Senator Byrd is chairman of the Appropriations Committee.
+For Iowa, a $1.8 million request became $12 million for Senator Grassley, ranking minority member of a military construction subcommittee.
+Rep. Jamie Whitten of Mississippi and chairman of House Appropriations turned a $20 million Bush request for his state into a $49.7 million bequest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+993..1164
+10
+#### Text ####
+Senator Sasser of Tennessee is chairman of the Appropriations subcommittee on military construction; Mr. Bush's $87 million request for Tennessee increased to $109 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1245
+11
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1094..1164
+10,2
+#### Text ####
+Mr. Bush's $87 million request for Tennessee increased to $109 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1245..1329
+11,3,3
+#### Text ####
+I think we've seen the peak of military construction spending for many years to come
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1166..1242
+11,0;11,1;11,2;11,3,0;11,3,1;11,3,2;11,4;11,5
+#### Text ####
+In a remark someone should remember this time next year, Senator Sasser said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1368
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1334..1366
+12
+#### Text ####
+Tell us about spending restraint
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1368..1398
+13
+#### Text ####
+Tell us about the HUD scandals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1400
+14
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1368..1398
+13
+#### Text ####
+Tell us about the HUD scandals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1400..1481
+14
+#### Text ####
+Tell us what measure, short of house arrest, will get this Congress under control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

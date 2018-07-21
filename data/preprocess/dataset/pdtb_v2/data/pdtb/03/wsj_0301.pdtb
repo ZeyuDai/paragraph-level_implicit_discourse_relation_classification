@@ -1,0 +1,963 @@
+________________________________________________________
+____Implicit____
+382
+2
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Conjunction
+____Arg1____
+204..380
+1
+#### Text ####
+Most of the 10 analysts polled last week by Dow Jones International News Service in Frankfurt, Tokyo, London and New York expect the U.S. dollar to ease only mildly in November
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+382..429
+2
+#### Text ####
+Opinion is mixed over its three-month prospects
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+431
+3
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+382..429
+2
+#### Text ####
+Opinion is mixed over its three-month prospects
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+431..573
+3
+#### Text ####
+Half of those polled see the currency trending lower over the next three months, while the others forecast a modest rebound after the New Year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+512..517
+3,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+431..510
+3,0;3,1,0;3,1,1;3,1,2;3,2
+#### Text ####
+Half of those polled see the currency trending lower over the next three months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+518..573
+3,1,3,1
+#### Text ####
+the others forecast a modest rebound after the New Year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+754
+5
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+577..752
+4
+#### Text ####
+In late afternoon New York trading yesterday, the dollar stood at 1.8415 West German marks, up from 1.8340 marks late Monday, and at 142.85 yen, up from 141.90 yen late Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+754..874
+5
+#### Text ####
+A month ago, a similar survey predicted the dollar would be trading at 1.8690 marks and 139.75 yen by the end of October
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+876
+6
+____Arg1____
+754..874
+5
+#### Text ####
+A month ago, a similar survey predicted the dollar would be trading at 1.8690 marks and 139.75 yen by the end of October
+##############
+____Arg2____
+876..938
+6
+#### Text ####
+Sterling was trading at $1.5805, down from $1.5820 late Monday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1349
+10
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1245..1347
+9
+#### Text ####
+By late January, the consensus calls for the dollar to be trading around 1.8200 marks and near 142 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1349..1516
+10
+#### Text ####
+Those with a bullish view see the dollar trading up near 1.9000 marks and 145 yen, while the dollar bears see the U.S. currency trading around 1.7600 marks and 138 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1432..1437
+10,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1349..1430
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+Those with a bullish view see the dollar trading up near 1.9000 marks and 145 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1438..1516
+10,1,3,1
+#### Text ####
+the dollar bears see the U.S. currency trading around 1.7600 marks and 138 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1574..1576
+11,1,1,1,1,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1520..1552
+11,0;11,1,0;11,2
+#### Text ####
+A number of those polled predict
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1553..1573
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0;11,1,1,1,1,1,0
+#### Text ####
+the dollar will slip
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1577..1617
+11,1,1,1,1,1,1,1
+#### Text ####
+the Federal Reserve eases interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2091
+14
+____Arg1____
+1844..2089
+13
+#### Text ####
+Robert White, a vice president and manager of corporate trade at First Interstate of California, agreed with that view and predicted the U.S. federal funds rate will drop to between 7 3/4% and 8% within 60 days from its current level at 8 13/16%
+##############
+____Arg2____
+2091..2155
+14,0
+#### Text ####
+Fed funds is the rate banks charge each other on overnight loans
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2157
+14
+____Arg1____
+2091..2155
+14,0
+#### Text ####
+Fed funds is the rate banks charge each other on overnight loans
+##############
+____Arg2____
+2157..2239
+14,2
+#### Text ####
+the Fed influences the rate by adding or draining reserves from the banking system
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2253..2257
+15,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1844..2089
+13
+#### Text ####
+Robert White, a vice president and manager of corporate trade at First Interstate of California, agreed with that view and predicted the U.S. federal funds rate will drop to between 7 3/4% and 8% within 60 days from its current level at 8 13/16%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2243..2252;2258..2329
+15,0;15,2;15,3
+#### Text ####
+Mr. White predicted a half-point cut in the U.S. discount rate in the near future
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2331
+16
+____Arg1____
+2243..2329
+15
+#### Text ####
+Mr. White also predicted a half-point cut in the U.S. discount rate in the near future
+##############
+____Arg2____
+2331..2457
+16
+#### Text ####
+The discount rate, currently 7%, is the rate the Fed charges member banks for loans, using government securities as collateral
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2733
+19
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2652..2731
+18,3,2
+#### Text ####
+that new home sales for September were down 14% from August's revised 3.1% fall
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2584..2651
+18,0;18,1;18,2;18,3,0;18,3,1;18,4
+#### Text ####
+Bolstering his argument, the Commerce Department reported yesterday
+##############
+____Arg2____
+2733..2809
+19
+#### Text ####
+The drop marked the largest monthly tumble since a 19% slide in January 1982
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2990..2996
+21,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+2813..2986
+20
+#### Text ####
+In last month's survey, a number of currency analysts predicted the dollar would be pressured by a narrowing of interest rate differentials between the U.S. and West Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2998..3108
+21,1;21,2;21,3;21,4;21,5
+#### Text ####
+in early October the West German central bank raised its discount and Lombard rates by a full percentage point
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3110
+22
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2990..3108
+21
+#### Text ####
+Indeed, in early October the West German central bank raised its discount and Lombard rates by a full percentage point
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3110..3241
+22
+#### Text ####
+Several other European central banks, notably in Britain, followed the West German Bundesbank's lead by raising their own key rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3243..3246
+23,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+3110..3241
+22
+#### Text ####
+Several other European central banks, notably in Britain, followed the West German Bundesbank's lead by raising their own key rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3247..3325
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+a week later, Japan raised its official discount rate by a half point to 3.75%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3327
+24
+____Arg1____
+3243..3325
+23
+#### Text ####
+And a week later, Japan raised its official discount rate by a half point to 3.75%
+##############
+____Arg2____
+3327..3414
+24
+#### Text ####
+The Japanese discount rate is the central bank's base rate on loans to commercial banks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3746..3749
+26,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+3699..3742
+25,3,3
+#### Text ####
+knocking fed funds from around 9% to 8 3/4%
+##############
+____Arg1____
+3418..3697
+25,0;25,1;25,2;25,3,0;25,3,1;25,3,2;25,4
+#### Text ####
+After a surprisingly sharp widening in the U.S. August merchandise trade deficit -- $10.77 billion from a revised $8.24 billion in July and well above expectations -- and a startling 190-point drop in stock prices on Oct. 13, the Federal Reserve relaxed short-term interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3750..3939
+26,1;26,2,0;26,2,1;26,2,2;26,2,3,0;26,2,3,1,0;26,2,3,1,1,0;26,2,3,1,1,1;26,2,3,1,1,2;26,2,3,1,1,3;26,2,3,1,1,4;26,3
+#### Text ####
+predictions that central banks of the Group of Seven (G-7) major industrial nations would continue their massive dollar sales went astray, as the market drove the dollar downward on its own
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3889..3891
+26,2,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+3746..3887
+26,0;26,1;26,2,0;26,2,1;26,2,2;26,3
+#### Text ####
+But predictions that central banks of the Group of Seven (G-7) major industrial nations would continue their massive dollar sales went astray
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3892..4068
+26,2,3,1
+#### Text ####
+the market drove the dollar downward on its own, reacting to Wall Street's plunge and subsequent price volatility, lower U.S. interest rates and signs of a slowing U.S. economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4070
+27
+____Arg1____
+3746..4068
+26
+#### Text ####
+But predictions that central banks of the Group of Seven (G-7) major industrial nations would continue their massive dollar sales went astray, as the market drove the dollar downward on its own, reacting to Wall Street's plunge and subsequent price volatility, lower U.S. interest rates and signs of a slowing U.S. economy
+##############
+____Arg2____
+4070..4150
+27
+#### Text ####
+G-7 consists of the U.S., Japan, Britain, West Germany, Canada, France and Italy
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4386..4390
+28,1,1,1,1,1,3,0
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4154..4260
+28,0;28,1,0;28,2
+#### Text ####
+Tomoshige Kakita, senior deputy manager in the treasury department of Mitsui Bank Ltd. in Tokyo, suggested
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+4261..4384
+28,1,1,0;28,1,1,1,0;28,1,1,1,1,0;28,1,1,1,1,1,0;28,1,1,1,1,1,1;28,1,1,1,1,1,2
+#### Text ####
+that uncertainty about U.S. stocks and bonds has made Japanese investors leery of holding those securities in the near term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4391..4412
+28,1,1,1,1,1,3,1;28,1,1,1,1,1,3,2
+#### Text ####
+damping dollar demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4416..4419
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4421..4437
+29,1
+#### Text ####
+Mr. Kakita added
+##############
+but, Comparison.Contrast
+____Arg1____
+4261..4412
+28,1,1
+#### Text ####
+that uncertainty about U.S. stocks and bonds has made Japanese investors leery of holding those securities in the near term, thus damping dollar demand
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4154..4260
+28,0;28,1,0;28,2
+#### Text ####
+Tomoshige Kakita, senior deputy manager in the treasury department of Mitsui Bank Ltd. in Tokyo, suggested
+##############
+____Arg2____
+4439..4566
+29,2;29,3;29,4;29,5,0;29,5,1,0;29,5,1,1;29,5,1,2,0;29,5,1,2,1,0;29,5,1,2,1,1;29,5,1,2,1,2,0;29,5,1,2,1,2,1;29,6
+#### Text ####
+once U.S. equities regain some stability, players will move back into dollar-denominated investments, especially Treasury bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4568..4613
+29,5,1,2,1,2,2
+#### Text ####
+whose value rises when interest rates decline
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4439..4443
+29,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4421..4437
+29,1
+#### Text ####
+Mr. Kakita added
+##############
+once, Temporal.Asynchronous.Succession
+____Sup1____
+4568..4613
+29,5,1,2,1,2,2
+#### Text ####
+whose value rises when interest rates decline
+##############
+____Arg1____
+4416..4419;4481..4566
+29,0;29,3;29,4;29,5,0;29,5,1,0;29,5,1,1;29,5,1,2,0;29,5,1,2,1,0;29,5,1,2,1,1;29,5,1,2,1,2,0;29,5,1,2,1,2,1;29,6
+#### Text ####
+But players will move back into dollar-denominated investments, especially Treasury bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4444..4479
+29,2,1
+#### Text ####
+U.S. equities regain some stability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4586..4590
+29,5,1,2,1,2,2,1,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+4568..4585
+29,5,1,2,1,2,2,0;29,5,1,2,1,2,2,1,0;29,5,1,2,1,2,2,1,1,0
+#### Text ####
+whose value rises
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4591..4613
+29,5,1,2,1,2,2,1,1,1,1
+#### Text ####
+interest rates decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4682
+31
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4633..4679
+30,1,1
+#### Text ####
+the key dollar-yen exchange rate is at 135 yen
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4617..4632
+30,0;30,1,0;30,2
+#### Text ####
+Mr. Kakita said
+##############
+____Arg2____
+4682..4723
+31,1
+#### Text ####
+If 135 is broken, some panic will be seen
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4726..4738
+31,0;31,2;31,3;31,4;31,5,0;31,5,1;31,5,2;31,6
+#### Text ####
+he predicted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4682..4684
+31,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4726..4738
+31,0;31,2;31,3;31,4;31,5,0;31,5,1;31,5,2;31,6
+#### Text ####
+he predicted
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4700..4723
+31,1,1;31,1,2;31,1,3
+#### Text ####
+some panic will be seen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4685..4698
+31,1,0,1
+#### Text ####
+135 is broken
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5028..5030
+32,1,1,1,1,1,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+4945..4955
+32,1,1,0;32,1,1,1,0;32,1,1,1,1,0
+#### Text ####
+he expects
+##############
+as, Temporal.Synchrony
+____Arg1____
+4956..5027
+32,1,1,1,1,1,0;32,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,0;32,1,1,1,1,1,1,1,1;32,1,1,1,1,1,1,1,2
+#### Text ####
+the dollar to recover within the next three months to around 1.88 marks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5031..5093
+32,1,1,1,1,1,1,1,3,1
+#### Text ####
+U.S. economic data, particularly U.S. trade figures, level off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5108
+33
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4945..5093
+32,1,1
+#### Text ####
+he expects the dollar to recover within the next three months to around 1.88 marks as U.S. economic data, particularly U.S. trade figures, level off
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4857..4944
+32,0;32,1,0;32,2
+#### Text ####
+Jens-Uwe Fischer, a senior trader at Manufacturers Hanover Trust Co. in Frankfurt, said
+##############
+____Arg2____
+5108..5218
+33,1,0,1;33,1,1;33,1,2;33,1,3;33,2
+#### Text ####
+that the Fed won't ease rates further, but predicted Bundesbank officials will relax key rates in West Germany
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5095..5107
+33,0;33,1,0,0;33,2
+#### Text ####
+He contended
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5315
+35
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5222..5305
+34
+#### Text ####
+Alfred Zapfel, chief trader at Bank of Boston in Frankfurt, took an opposite stance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5315..5487
+35,1,1
+#### Text ####
+he expects U.S. interest rates to decline, dragging the dollar down to around 1.80 marks by the end of January after a short-lived dash to 1.87 marks by the end of November
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5307..5314
+35,0;35,1,0;35,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5489
+36
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+5315..5487
+35,1,1
+#### Text ####
+he expects U.S. interest rates to decline, dragging the dollar down to around 1.80 marks by the end of January after a short-lived dash to 1.87 marks by the end of November
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5307..5314
+35,0;35,1,0;35,2
+#### Text ####
+He said
+##############
+____Arg2____
+5489..5515;5526..5547
+36,0;36,2;36,3
+#### Text ####
+West German interest rates will remain unchanged
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5517..5524
+36,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5552..5555
+37,1,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5625..5640
+37,0;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+Mr. Zapfel said
+##############
+but, Comparison.Contrast
+____Arg1____
+5315..5487
+35,1,1
+#### Text ####
+he expects U.S. interest rates to decline, dragging the dollar down to around 1.80 marks by the end of January after a short-lived dash to 1.87 marks by the end of November
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5307..5314
+35,0;35,1,0;35,2
+#### Text ####
+He said
+##############
+____Arg2____
+5556..5622
+37,1,1;37,1,2
+#### Text ####
+I'm not one of these great dollar bears you see more of these days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5643..5694
+38
+#### Text ####
+I can't really see it dropping far below 1.80 marks
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5643
+38
+#### Features ####
+Ot, Comm, Null, Null
+5625..5640
+37,0;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+Mr. Zapfel said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5552..5622
+37,1
+#### Text ####
+But I'm not one of these great dollar bears you see more of these days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5643..5694
+38
+#### Text ####
+I can't really see it dropping far below 1.80 marks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5826
+40
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5699..5823
+39
+#### Text ####
+Scott Greene, chief foreign exchange dealer with Julius Baer & Co. in New York, fits the description of a "great dollar bear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5826..5959
+40
+#### Text ####
+He predicted the U.S. unit will skid below 1.80 marks to around 1.78 marks this month and 1.75 marks by the beginning of the new year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6600..6603
+44,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6605..6614
+44,1
+#### Text ####
+he warned
+##############
+but, Comparison.Contrast
+____Arg1____
+6467..6598
+43,1,1
+#### Text ####
+that the new chancellor, John Major, will take a tough line in his autumn statement later this month, helping to underpin the pound
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6428..6466
+43,0;43,1,0;43,2
+#### Text ####
+Mr. Owen of Kleinwort Benson suggested
+##############
+____Arg2____
+6616..6648
+44,2;44,3;44,4
+#### Text ####
+the currency will remain at risk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6772
+46
+____Arg1____
+6652..6770
+45
+#### Text ####
+On the Commodity Exchange in New York, gold for current delivery dropped $3.10 to $374.70 an ounce in moderate trading
+##############
+____Arg2____
+6772..6811
+46
+#### Text ####
+Estimated volume was 3.5 million ounces
+##############
+________________________________________________________

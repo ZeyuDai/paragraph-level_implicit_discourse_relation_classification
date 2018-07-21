@@ -1,0 +1,100 @@
+________________________________________________________
+____Implicit____
+415
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+318..413
+3
+#### Text ####
+Under the pact, Montedision will make a $37-a-share tender offer for Erbamont stock outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+415..538
+4
+#### Text ####
+The tender offer will be followed by the sale of all of Erbamont's assets, subject to all of its liabilities, to Montedison
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+554..558
+5,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+318..332
+3,0;3,1;3,4
+#### Text ####
+Under the pact
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+415..538
+4
+#### Text ####
+The tender offer will be followed by the sale of all of Erbamont's assets, subject to all of its liabilities, to Montedison
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+540..553;559..572
+5,0;5,1,0;5,1,2,0;5,1,2,1,0;5,1,2,1,1;5,1,2,1,2;5,2
+#### Text ####
+Erbamont will be liquidated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+574..649
+5,1,2,1,3
+#### Text ####
+with any remaining Erbamont holders receiving a distribution of $37 a share
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+717..724
+6,1,1,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+653..671
+6,0;6,1,0;6,2
+#### Text ####
+The companies said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+672..716
+6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1,0;6,1,1,1,1,1,1,0;6,1,1,1,1,1,1,1;6,1,1,1,1,1,1,2
+#### Text ####
+the transaction is being structured this way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+725..761;798..835
+6,1,1,1,1,1,1,3,1,0,0;6,1,1,1,1,1,1,3,1,0,1;6,1,1,1,1,1,1,3,1,0,2;6,1,1,1,1,1,1,3,1,0,4;6,1,1,1,1,1,1,3,1,1
+#### Text ####
+the laws of the Netherlands Antilles don't provide for merger transactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+763..796
+6,1,1,1,1,1,1,3,1,0,3
+#### Text ####
+under which Erbamont is organized
+##############
+________________________________________________________

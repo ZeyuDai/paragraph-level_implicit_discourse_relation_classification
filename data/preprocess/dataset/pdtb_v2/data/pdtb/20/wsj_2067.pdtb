@@ -1,0 +1,252 @@
+________________________________________________________
+____Explicit____
+163..168
+1,0
+#### Text ####
+Later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+9..158
+0
+#### Text ####
+Boeing Co., already struck by its Machinists union, briefly called off contract talks with its engineers and labeled their demands "grossly excessive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+170..339
+1,1;1,2;1,3;1,4;1,5;1,6
+#### Text ####
+however, the company agreed to meet on Monday with the Seattle Professional Engineering Employees Association after a federal mediator intervened, according to the union
+##############
+#### Features ####
+Ot, Comm, Null, Null
+317..339
+1,5,2;1,5,3;1,6
+#### Text ####
+according to the union
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+170..177
+1,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Sup1____
+114..158
+0,2,1;0,2,2;0,3;0,4
+#### Text ####
+and labeled their demands "grossly excessive
+##############
+____Arg1____
+9..19;61..113
+0,0,0;0,0,1;0,0,3;0,1;0,2,0
+#### Text ####
+Boeing Co. briefly called off contract talks with its engineers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+163..168;179..279;317..339
+1,0;1,1;1,3;1,4;1,5,0;1,5,1,0;1,5,1,1,0;1,5,1,1,1,0;1,5,1,1,1,1;1,5,1,1,1,2;1,5,2;1,5,3;1,6
+#### Text ####
+Later the company agreed to meet on Monday with the Seattle Professional Engineering Employees Association according to the union
+##############
+#### Features ####
+Ot, Comm, Null, Null
+317..339
+1,5,2;1,5,3;1,6
+#### Text ####
+according to the union
+##############
+____Sup2____
+280..315
+1,5,1,1,1,3
+#### Text ####
+after a federal mediator intervened
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+280..285
+1,5,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+317..339
+1,5,2;1,5,3;1,6
+#### Text ####
+according to the union
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+163..279;317..339
+1,0;1,1;1,2;1,3;1,4;1,5,0;1,5,1,0;1,5,1,1,0;1,5,1,1,1,0;1,5,1,1,1,1;1,5,1,1,1,2;1,5,2;1,5,3;1,6
+#### Text ####
+Later, however, the company agreed to meet on Monday with the Seattle Professional Engineering Employees Association according to the union
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+286..315
+1,5,1,1,1,3,1
+#### Text ####
+a federal mediator intervened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+515
+3
+____Arg1____
+343..513
+2
+#### Text ####
+A spokesman for the engineers said the company asked the union to reduce its demands, which included a 19% pay hike in the first year and 8% in the second and third years
+##############
+____Arg2____
+515..580
+3
+#### Text ####
+The union represents about 28,000 engineers and technical workers
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+582
+4
+____Arg1____
+515..580
+3
+#### Text ####
+The union represents about 28,000 engineers and technical workers
+##############
+____Arg2____
+582..609
+4
+#### Text ####
+Its contract expires Dec. 1
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+613..622
+5,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+163..339
+1
+#### Text ####
+Later, however, the company agreed to meet on Monday with the Seattle Professional Engineering Employees Association after a federal mediator intervened, according to the union
+##############
+#### Features ####
+Ot, Comm, Null, Null
+317..339
+1,5,2;1,5,3;1,6
+#### Text ####
+according to the union
+##############
+____Arg2____
+624..741
+5,1;5,2;5,3;5,4
+#### Text ####
+a federal mediator is scheduled to meet today with Boeing officials and representatives of 55,000 striking Machinists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+838
+7
+#### Features ####
+Ot, Comm, Null, Null
+794..835
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said a spokesman for the Machinists union
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+746..791
+6,1
+#### Text ####
+It will take several meetings to resolve this
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+838..899
+7
+#### Text ####
+We don't want to bring back something the members will reject
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+902
+8
+____Arg1____
+838..899
+7
+#### Text ####
+We don't want to bring back something the members will reject
+##############
+____Arg2____
+902..1039
+8
+#### Text ####
+Machinists already have rejected a package that would have provided a 10% pay raise plus bonuses over the three-year life of the contract
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1044..1048
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+902..934
+8,0;8,1;8,2,0;8,2,1,0;8,3
+#### Text ####
+Machinists already have rejected
+##############
+also, Expansion.Conjunction
+____Arg1____
+945..1039
+8,2,1,1,1
+#### Text ####
+that would have provided a 10% pay raise plus bonuses over the three-year life of the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1041..1043;1049..1086
+9,0;9,2;9,3
+#### Text ####
+It would have reduced mandatory overtime
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

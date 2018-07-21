@@ -1,0 +1,298 @@
+________________________________________________________
+____EntRel____
+342
+2
+____Arg1____
+233..340
+1
+#### Text ####
+Tandem said it expects to report revenue of about $450 million and earnings of 35 cents to 40 cents a share
+##############
+____Arg2____
+342..507
+2
+#### Text ####
+The results, which are in line with analysts' estimates, reflect "a continued improvement in our U.S. business," said James Treybig, Tandem's chief executive officer
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+706
+5
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+637..704
+4
+#### Text ####
+Tandem expects to report the full results for the quarter next week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+706..862
+5
+#### Text ####
+Analysts have predicted that the Cupertino, Calif., company will report revenue of $430 million to $460 million and earnings of 35 cents to 40 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1342
+9
+____Arg1____
+1166..1340
+8
+#### Text ####
+Tandem makes "fault-tolerant" computers -- machines with built-in backup systems -- that run stock exchanges, networks of automatic tellers and other complex computer systems
+##############
+____Arg2____
+1342..1518
+9
+#### Text ####
+Tomorrow the company is scheduled to announce its most powerful computer ever, which for the first time will bring it into direct competition with makers of mainframe computers
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1572
+11
+____Arg1____
+1522..1570
+10
+#### Text ####
+Tandem's new high-end computer is called Cyclone
+##############
+____Arg2____
+1572..1667
+11
+#### Text ####
+Prices for the machine, which can come in various configurations, are $2 million to $10 million
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1945
+14
+____Arg1____
+1792..1943
+13
+#### Text ####
+We believe they could siphon perhaps two to three billion dollars from IBM" over the next few years, said George Weiss, an analyst at the Gartner group
+##############
+____Arg2____
+1945..1975
+14
+#### Text ####
+That will spur Tandem's growth
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1978
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1945..1975
+14
+#### Text ####
+That will spur Tandem's growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1978..2044
+15,1
+#### Text ####
+I'd be disappointed if the company grew by less than 20% next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2047..2100
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said John Levinson, an analyst at Goldman, Sachs & Co
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1998..2000
+15,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2047..2100
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said John Levinson, an analyst at Goldman, Sachs & Co
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1978..1997
+15,1,0;15,1,1,0;15,1,1,1,0;15,1,1,1,1
+#### Text ####
+I'd be disappointed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2001..2044
+15,1,1,1,2,1
+#### Text ####
+the company grew by less than 20% next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2276
+17
+____Arg1____
+2104..2273
+16
+#### Text ####
+IBM is expected to respond to Tandem's Cyclone by discounting its own mainframes, which analysts say are roughly three times the price of a comparable system from Tandem
+##############
+____Arg2____
+2276..2353
+17
+#### Text ####
+Obviously IBM can give bigger discounts to users immediately," said Mr. Weiss
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2357..2360
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2276..2336
+17,1
+#### Text ####
+Obviously IBM can give bigger discounts to users immediately
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2339..2353
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said Mr. Weiss
+##############
+____Arg2____
+2361..2548
+18,1;18,2;18,3
+#### Text ####
+Mr. Treybig questions whether that will be enough to stop Tandem's first mainframe from taking on some of the functions that large organizations previously sought from Big Blue's machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2551
+19
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Specification
+____Arg1____
+2357..2548
+18
+#### Text ####
+But Mr. Treybig questions whether that will be enough to stop Tandem's first mainframe from taking on some of the functions that large organizations previously sought from Big Blue's machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2551..2601
+19,1
+#### Text ####
+The answer isn't price reductions, but new systems
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2604..2611
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2615..2627
+20,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Pragmatic concession
+____Sup1____
+1792..2611
+13;14;15;16;17;18;19
+#### Text ####
+We believe they could siphon perhaps two to three billion dollars from IBM" over the next few years, said George Weiss, an analyst at the Gartner group.
+That will spur Tandem's growth. "I'd be disappointed if the company grew by less than 20% next year," said John Levinson, an analyst at Goldman, Sachs & Co. 
+
+IBM is expected to respond to Tandem's Cyclone by discounting its own mainframes, which analysts say are roughly three times the price of a comparable system from Tandem. "Obviously IBM can give bigger discounts to users immediately," said Mr. Weiss. 
+
+But Mr. Treybig questions whether that will be enough to stop Tandem's first mainframe from taking on some of the functions that large organizations previously sought from Big Blue's machines. "The answer isn't price reductions, but new systems," he said
+##############
+____Arg1____
+1687..1787
+12,1,1
+#### Text ####
+the new computer to wrest a hefty slice of business away from IBM, the longtime leader in mainframes
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1671..1686
+12,0;12,1,0;12,2
+#### Text ####
+Analysts expect
+##############
+____Arg2____
+2629..2775
+20,1;20,2;20,3;20,4
+#### Text ####
+Tandem faces a variety of challenges, the biggest being that customers generally view the company's computers as complementary to IBM's mainframes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2777
+21
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+2615..2775
+20
+#### Text ####
+Nevertheless, Tandem faces a variety of challenges, the biggest being that customers generally view the company's computers as complementary to IBM's mainframes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2777..2908
+21
+#### Text ####
+Even Mr. Treybig is reluctant to abandon this notion, insisting that Tandem's new machines aren't replacements for IBM's mainframes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

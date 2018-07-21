@@ -1,0 +1,181 @@
+________________________________________________________
+____Explicit____
+141..148
+1,1,4
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..120
+0
+#### Text ####
+Investor Asher Edelman increased his stake in Intelogic Trace Inc. and cleared the way for additional purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+124..139;150..350
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,1,5;1,1,6;1,2
+#### Text ####
+It wasn't clear whether the actions were related to a battle between the corporate raider and New York attorney Martin Ackerman for control of Datapoint Corp., a San Antonio, Texas-based data-processing systems maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+443..448
+2,1,1,6,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+354..441
+2,0;2,1,0;2,1,1,0;2,1,1,1;2,1,1,2;2,1,1,3;2,1,1,4;2,1,1,5;2,2
+#### Text ####
+Intelogic Trace, a computer services company, was spun off to Datapoint holders in 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+449..475
+2,1,1,6,1
+#### Text ####
+Mr. Edelman gained control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+477
+3
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+354..475
+2
+#### Text ####
+Intelogic Trace, a computer services company, was spun off to Datapoint holders in 1985, after Mr. Edelman gained control
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+477..664
+3
+#### Text ####
+After Mr. Ackerman announced he was soliciting consents from shareholders in order to wrest control of Datapoint from Mr. Edelman, the corporate raider purchased 30% of Datapoint's shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+477..482
+3,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+608..664
+3,1;3,2;3,3;3,4
+#### Text ####
+the corporate raider purchased 30% of Datapoint's shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+483..606
+3,0,1
+#### Text ####
+Mr. Ackerman announced he was soliciting consents from shareholders in order to wrest control of Datapoint from Mr. Edelman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+839..862
+5,0;5,1,0
+#### Text ####
+The purchases increased
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+733..837
+4,3,1
+#### Text ####
+from Sept. 29 to Oct. 13, he acquired 309,500 shares of Intelogic common shares for $2.25 to $2.375 each
+##############
+#### Features ####
+Ot, Comm, Null, Null
+716..732
+4,1;4,2;4,3,0;4,4
+#### Text ####
+Mr. Edelman said
+##############
+____Arg2____
+839..907
+5
+#### Text ####
+The purchases increased his stake to 16.2% of the shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+922..926
+6,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+668..837
+4
+#### Text ####
+In a Securities and Exchange Commission filing, Mr. Edelman said from Sept. 29 to Oct. 13, he acquired 309,500 shares of Intelogic common shares for $2.25 to $2.375 each
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+911..921;927..1063
+6,0;6,2,0;6,2,1,0;6,2,1,1,0;6,2,1,1,1;6,2,1,1,2,0;6,2,1,1,2,1,0;6,2,1,1,2,1,1;6,2,1,1,2,1,2;6,2,1,1,2,1,3,0;6,2,1,1,2,1,3,1,0;6,2,1,1,2,1,3,1,1;6,3
+#### Text ####
+The filing said certain provisions which apply to persons acquiring 20% or more of Intelogic common stock, were waived by Intelogic for Mr. Edelman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1097
+7
+____Arg1____
+911..1095
+6
+#### Text ####
+The filing also said certain provisions which apply to persons acquiring 20% or more of Intelogic common stock, were waived by Intelogic for Mr. Edelman, who is chairman of the company
+##############
+____Arg2____
+1097..1140
+7
+#### Text ####
+Mr. Edelman couldn't be reached for comment
+##############
+________________________________________________________

@@ -1,0 +1,595 @@
+________________________________________________________
+____Implicit____
+235
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+145..233
+1
+#### Text ####
+The most troublesome report may be the August merchandise trade deficit due out tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+235..396
+2
+#### Text ####
+The trade gap is expected to widen to about $9 billion from July's $7.6 billion, according to a survey by MMS International, a unit of McGraw-Hill Inc., New York
+##############
+#### Features ####
+Ot, Comm, Null, Null
+316..396
+2,1,1,2;2,1,1,3;2,2
+#### Text ####
+according to a survey by MMS International, a unit of McGraw-Hill Inc., New York
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+477..485
+3,1,1,1,1,1,2,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+400..475
+3,0;3,1,0;3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1,0;3,1,1,1,1,1,1;3,2
+#### Text ####
+Thursday's report on the September consumer price index is expected to rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..561
+3,1,1,1,1,1,2,1
+#### Text ####
+not as sharply as the 0.9% gain reported Friday in the producer price index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+563
+4
+____Arg1____
+400..561
+3
+#### Text ####
+Thursday's report on the September consumer price index is expected to rise, although not as sharply as the 0.9% gain reported Friday in the producer price index
+##############
+____Arg2____
+563..708
+4
+#### Text ####
+That gain was being cited as a reason the stock market was down early in Friday's session, before it got started on its reckless 190-point plunge
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+654..660
+4,1,1,1,2,1,1,1,1,4,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+601..652
+4,1,1,1,2,1,1,0;4,1,1,1,2,1,1,1,0;4,1,1,1,2,1,1,1,1,0;4,1,1,1,2,1,1,1,1,1;4,1,1,1,2,1,1,1,1,2;4,1,1,1,2,1,1,1,1,3;4,1,1,1,2,1,1,1,1,5
+#### Text ####
+the stock market was down early in Friday's session
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+661..708
+4,1,1,1,2,1,1,1,1,4,1
+#### Text ####
+it got started on its reckless 190-point plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+864..868
+5,1,1,2,1,1,1,1,1,1,1,2,1,2,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+217..233
+1,1,1,1,1;1,2
+#### Text ####
+due out tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+869..881
+5,1,1,2,1,1,1,1,1,1,1,2,1,2,1;5,1,1,2,1,1,1,1,1,1,1,2,1,2,2
+#### Text ####
+due tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+883..892
+6,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+145..709;712..881
+1;2;3;4;5
+#### Text ####
+The most troublesome report may be the August merchandise trade deficit due out tomorrow.
+The trade gap is expected to widen to about $9 billion from July's $7.6 billion, according to a survey by MMS International, a unit of McGraw-Hill Inc., New York. 
+
+Thursday's report on the September consumer price index is expected to rise, although not as sharply as the 0.9% gain reported Friday in the producer price index.
+That gain was being cited as a reason the stock market was down early in Friday's session, before it got started on its reckless 190-point plunge. Economists are divided as to how much manufacturing strength they expect to see in September reports on industrial production and capacity utilization, also due tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+894..968
+6,1;6,2;6,3;6,4
+#### Text ####
+September housing starts, due Wednesday, are thought to have inched upward
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1082
+8
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Restatement.Specification
+____Arg1____
+973..1029
+7,0
+#### Text ####
+There's a possibility of a surprise" in the trade report
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1031..1080
+7,1;7,2;7,3;7,4
+#### Text ####
+said Michael Englund, director of research at MMS
+##############
+____Arg2____
+1082..1193
+8,0
+#### Text ####
+A widening of the deficit, if it were combined with a stubbornly strong dollar, would exacerbate trade problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1109..1111
+8,0,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+1082..1107;1162..1193
+8,0,0;8,0,1;8,0,3;8,0,4;8,0,5
+#### Text ####
+A widening of the deficit would exacerbate trade problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1112..1160
+8,0,2,1
+#### Text ####
+it were combined with a stubbornly strong dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1197..1200
+8,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1082..1193
+8,0
+#### Text ####
+A widening of the deficit, if it were combined with a stubbornly strong dollar, would exacerbate trade problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1201..1247
+8,2
+#### Text ####
+the dollar weakened Friday as stocks plummeted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1228..1230
+8,2,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1197..1227
+8,1;8,2,0;8,2,1,0;8,2,1,1;8,3
+#### Text ####
+but the dollar weakened Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1231..1247
+8,2,1,2,1
+#### Text ####
+stocks plummeted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1369
+10
+#### Features ####
+Ot, Comm, Null, Null
+1494..1501
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+he said
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+1297..1366
+9,3,1
+#### Text ####
+that the easy gains in narrowing the trade gap have already been made
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1251..1296
+9,0;9,1;9,2;9,3,0;9,4
+#### Text ####
+In any event, Mr. Englund and many others say
+##############
+____Arg2____
+1369..1491
+10,1
+#### Text ####
+Trade is definitely going to be more politically sensitive over the next six or seven months as improvement begins to slow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1462..1464
+10,1,1,2,1,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1494..1501
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+he said
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1369..1461
+10,1,0;10,1,1,0;10,1,1,1;10,1,1,2,0;10,1,1,2,1,0;10,1,1,2,1,1,0;10,1,1,2,1,1,1,0;10,1,1,2,1,1,1,1;10,1,1,2,1,1,1,2
+#### Text ####
+Trade is definitely going to be more politically sensitive over the next six or seven months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1465..1491
+10,1,1,2,1,1,1,3,1
+#### Text ####
+improvement begins to slow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1866
+13
+____Arg1____
+1633..1864
+12
+#### Text ####
+Views on manufacturing strength are split between economists who read September's low level of factory job growth as a sign of a slowdown and those who use the somewhat more comforting total employment figures in their calculations
+##############
+____Arg2____
+1866..2034
+13
+#### Text ####
+The wide range of estimates for the industrial output number underscores the differences: The forecasts run from a drop of 0.5% to an increase of 0.4%, according to MMS
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1956
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1866..1954
+13,0
+#### Text ####
+The wide range of estimates for the industrial output number underscores the differences
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1956..2034
+13,2
+#### Text ####
+The forecasts run from a drop of 0.5% to an increase of 0.4%, according to MMS
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2018..2034
+13,2,1,3;13,2,1,4
+#### Text ####
+according to MMS
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2170
+15
+____Arg1____
+2038..2168
+14
+#### Text ####
+A rebound in energy prices, which helped push up the producer price index, is expected to do the same in the consumer price report
+##############
+____Arg2____
+2170..2264
+15
+#### Text ####
+The consensus view expects a 0.4% increase in the September CPI after a flat reading in August
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2428
+17
+____Arg1____
+2268..2425
+16
+#### Text ####
+Robert H. Chandross, an economist for Lloyd's Bank in New York, is among those expecting a more moderate gain in the CPI than in prices at the producer level
+##############
+____Arg2____
+2428..2510
+17
+#### Text ####
+Auto prices had a big effect in the PPI, and at the CPI level they won't," he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2469..2472
+17,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2503..2510
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+he said
+##############
+and, Comparison.Contrast
+____Arg1____
+2428..2467
+17,1,0
+#### Text ####
+Auto prices had a big effect in the PPI
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2473..2500
+17,1,3
+#### Text ####
+at the CPI level they won't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2556..2559
+18,0,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2595..2657
+18,1;18,2;18,3;18,4
+#### Text ####
+said Gary Ciminero, economist at Fleet/Norstar Financial Group
+##############
+but, Comparison.Contrast
+____Arg1____
+2514..2554
+18,0,0
+#### Text ####
+Food prices are expected to be unchanged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2560..2593
+18,0,3
+#### Text ####
+energy costs jumped as much as 4%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2662..2666
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2514..2657
+18
+#### Text ####
+Food prices are expected to be unchanged, but energy costs jumped as much as 4%, said Gary Ciminero, economist at Fleet/Norstar Financial Group
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2659..2661;2667..2697;2752..2773
+19,0;19,2,0;19,2,1,0;19,2,1,1,0;19,2,1,1,1,0;19,2,1,1,1,1,0;19,2,1,1,1,1,1,0,0;19,2,1,1,1,1,1,0,1;19,2,1,1,1,1,1,0,2;19,2,1,1,1,1,1,0,3;19,2,1,1,1,1,1,0,5;19,2,1,1,1,1,1,1;19,3
+#### Text ####
+He says he thinks "core inflation was strong last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2775
+20
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2672..2697;2752..2773
+19,2,1,0;19,2,1,1,0;19,2,1,1,1,0;19,2,1,1,1,1,0;19,2,1,1,1,1,1,0,0;19,2,1,1,1,1,1,0,1;19,2,1,1,1,1,1,0,2;19,2,1,1,1,1,1,0,3;19,2,1,1,1,1,1,0,5;19,2,1,1,1,1,1,1
+#### Text ####
+he thinks "core inflation was strong last month
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2659..2671
+19,0;19,1;19,2,0;19,3
+#### Text ####
+He also says
+##############
+____Arg2____
+2775..2869
+20
+#### Text ####
+He expects a gain of as much as 0.5% in core inflation after a summer of far smaller increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2979
+22
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2873..2962
+21
+#### Text ####
+Housing starts are expected to quicken a bit from August's annual pace of 1,350,000 units
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2979..3070
+22,1,1,0;22,1,1,1,0;22,1,1,1,1,0;22,1,1,1,1,1;22,1,1,1,1,2
+#### Text ####
+an August rebound in permits for multifamily units signaled an increase in September starts
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2964..2978
+22,0;22,1,0;22,2
+#### Text ####
+Economists say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3072..3078
+22,1,1,1,1,3,0
+#### Text ####
+though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2964..2978
+22,0;22,1,0;22,2
+#### Text ####
+Economists say
+##############
+though, Comparison.Contrast
+____Arg1____
+2979..3070
+22,1,1,0;22,1,1,1,0;22,1,1,1,1,0;22,1,1,1,1,1;22,1,1,1,1,2
+#### Text ####
+an August rebound in permits for multifamily units signaled an increase in September starts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3079..3133
+22,1,1,1,1,3,1
+#### Text ####
+activity remains fairly modest by historical standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

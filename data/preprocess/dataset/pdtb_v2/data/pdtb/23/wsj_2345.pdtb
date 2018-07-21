@@ -1,0 +1,477 @@
+________________________________________________________
+____Implicit____
+389
+2
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+154..386
+1
+#### Text ####
+Assuming that the market doesn't head into a bottomless free fall, some executives think Friday's action could prove a harbinger of good news -- as a sign that the leveraged buy-out and takeover frenzy of recent years may be abating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+389..560
+2
+#### Text ####
+This is a reaction to artificial LBO valuations, rather than to any fundamentals," said John Young, chairman of Hewlett-Packard Co., whose shares dropped $3.125 to $48.125
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+563
+3
+____Arg1____
+389..560
+2
+#### Text ####
+This is a reaction to artificial LBO valuations, rather than to any fundamentals," said John Young, chairman of Hewlett-Packard Co., whose shares dropped $3.125 to $48.125
+##############
+____Arg2____
+563..625
+3
+#### Text ####
+If we get rid of a lot of that nonsense, it will be a big plus
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+563..565
+3,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+472..519
+2,0;2,2;2,3;2,4;2,5,0;2,5,1;2,5,2,0;2,5,2,1,0;2,5,2,1,1,0;2,5,2,1,1,1;2,6
+#### Text ####
+said John Young, chairman of Hewlett-Packard Co
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+604..625
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+it will be a big plus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+566..602
+3,1,1
+#### Text ####
+we get rid of a lot of that nonsense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+805
+5
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+630..703;752..802
+4,0,0;4,0,1,0;4,0,1,1,0;4,0,1,1,1,0;4,0,1,1,1,1,0;4,0,1,1,1,1,1,0;4,0,1,1,1,1,1,1,0;4,0,1,1,1,1,1,1,1,0;4,0,1,1,1,1,1,1,1,1;4,0,1,1,1,1,1,1,1,3;4,1;4,2
+#### Text ####
+A few of the executives here for the fall meeting of the Business Council were only too happy to personalize their criticism
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+805..1009
+5
+#### Text ####
+People wish the government would do something about leveraged buy-outs, do something about takeovers, do something about Donald Trump," said Rand Araskog, chairman of ITT Corp., whose stock dropped $3.375
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1012
+6
+#### Features ####
+Ot, Comm, Null, Null
+941..1009
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said Rand Araskog, chairman of ITT Corp., whose stock dropped $3.375
+##############
+but, Comparison.Contrast
+____Arg1____
+805..938
+5,1
+#### Text ####
+People wish the government would do something about leveraged buy-outs, do something about takeovers, do something about Donald Trump
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1012..1035
+6
+#### Text ####
+Where's the leadership?
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1036
+7
+#### Features ####
+Ot, Comm, Null, Null
+941..1009
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said Rand Araskog, chairman of ITT Corp., whose stock dropped $3.375
+##############
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+1012..1034
+6
+#### Text ####
+Where's the leadership
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1036..1082
+7
+#### Text ####
+Where's the guy who can say: `Enough is enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1145..1156
+8,1,2,0;8,1,2,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+1088..1144
+8,0;8,1,0;8,1,1;8,2
+#### Text ####
+The executives were remarkably unperturbed by the plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1157..1263
+8,1,2,2
+#### Text ####
+it lopped billions of dollars off the value of their companies -- and millions off their personal fortunes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1466..1471
+9,5,4,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1317..1370
+9,0;9,2;9,3;9,4;9,5,0;9,5,1;9,5,2;9,5,3;9,6
+#### Text ####
+said Kenneth Olsen, Digital Equipment Corp. president
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1372..1465
+9,5,4,0;9,5,4,1,0;9,5,4,1,1,0;9,5,4,1,1,1,0;9,5,4,1,1,1,1;9,5,4,1,1,1,2
+#### Text ####
+who was leisurely strolling through the bright orange and yellow leaves of the mountains here
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1472..1525
+9,5,4,1,1,1,3,1
+#### Text ####
+his company's shares plunged $5.75 to close at $86.50
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1528
+10
+#### Features ####
+Ot, Comm, Null, Null
+1317..1370
+9,0;9,2;9,3;9,4;9,5,0;9,5,1;9,5,2;9,5,3;9,6
+#### Text ####
+said Kenneth Olsen, Digital Equipment Corp. president
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1268..1314
+9,1
+#### Text ####
+I'm not going to worry about one day's decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1528..1585
+10
+#### Text ####
+I didn't bother calling anybody; I didn't even turn on TV
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1561
+10
+#### Features ####
+Ot, Comm, Null, Null
+1317..1370
+9,0;9,2;9,3;9,4;9,5,0;9,5,1;9,5,2;9,5,3;9,6
+#### Text ####
+said Kenneth Olsen, Digital Equipment Corp. president
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1528..1559
+10,1
+#### Text ####
+I didn't bother calling anybody
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1561..1585
+10,3
+#### Text ####
+I didn't even turn on TV
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1736
+12
+#### Features ####
+Ot, Comm, Null, Null
+1649..1665
+11,0;11,2;11,3;11,4;11,5,0;11,5,1;11,6
+#### Text ####
+added John Smale
+##############
+furthermore, Expansion.Conjunction
+____Arg1____
+1591..1646
+11,1
+#### Text ####
+There hasn't been any fundamental change in the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1736..1857
+12
+#### Text ####
+The fact that this happened two years ago and there was a recovery gives people some comfort that this won't be a problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1778..1781
+12,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1649..1665
+11,0;11,2;11,3;11,4;11,5,0;11,5,1;11,6
+#### Text ####
+added John Smale
+##############
+and, Expansion.Conjunction
+____Arg1____
+1745..1777
+12,1,2,0;12,1,2,1,0
+#### Text ####
+that this happened two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1782..1802
+12,1,2,1,2
+#### Text ####
+there was a recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1985..1991
+14,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1862..1983
+13
+#### Text ####
+Of course, established corporate managements often tend to applaud the setbacks of stock speculators and takeover artists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1993..2183
+14,1;14,2;14,3;14,4
+#### Text ####
+one chief executive who was downright delighted by Friday's events was Robert Crandall, chairman of AMR Corp., the parent of American Airlines and the target of a takeover offer by Mr. Trump
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2185
+15
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1985..2183
+14
+#### Text ####
+Indeed, one chief executive who was downright delighted by Friday's events was Robert Crandall, chairman of AMR Corp., the parent of American Airlines and the target of a takeover offer by Mr. Trump
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2185..2336
+15
+#### Text ####
+Asked whether Friday's action could help him avoid being Trumped by the New York real estate magnate, Mr. Crandall smiled broadly and said: "No comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2529..2533
+16,5,1,1,1,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2427..2437
+16,5,1,1,0
+#### Text ####
+predicting
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2438..2527
+16,5,1,1,1,0;16,5,1,1,1,1,0;16,5,1,1,1,1,1,0;16,5,1,1,1,1,1,1,0;16,5,1,1,1,1,1,1,1
+#### Text ####
+the economy would grow at roughly an inflation-adjusted 2% annual rate, through next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2534..2557
+16,5,1,1,1,1,1,1,3
+#### Text ####
+accelerate anew in 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2559
+17
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2341..2557
+16
+#### Text ####
+On Friday morning, before the market's sell-off, the business leaders issued a report predicting the economy would grow at roughly an inflation-adjusted 2% annual rate, through next year, then accelerate anew in 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2559..2793
+17,0
+#### Text ####
+Of the 19 economists who worked on the Business Council forecast, only two projected periods of decline in the nation's output over the next two years, and in "both instances the declines are too modest to warrant the phrase recession
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2796..2887
+17,1;17,2;17,3;17,4;17,5
+#### Text ####
+said Lewis Preston, chairman of J.P. Morgan & Co. and vice chairman of the Business Council
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2711..2714
+17,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2796..2887
+17,1;17,2;17,3;17,4;17,5
+#### Text ####
+said Lewis Preston, chairman of J.P. Morgan & Co. and vice chairman of the Business Council
+##############
+and, Expansion.Conjunction
+____Arg1____
+2559..2709
+17,0,0
+#### Text ####
+Of the 19 economists who worked on the Business Council forecast, only two projected periods of decline in the nation's output over the next two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2715..2793
+17,0,3
+#### Text ####
+in "both instances the declines are too modest to warrant the phrase recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

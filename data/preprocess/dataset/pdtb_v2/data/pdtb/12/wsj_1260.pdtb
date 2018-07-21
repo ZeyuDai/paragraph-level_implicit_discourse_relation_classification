@@ -1,0 +1,224 @@
+________________________________________________________
+____EntRel____
+209
+1
+____Arg1____
+9..207
+0
+#### Text ####
+Ironically, American Airlines' attempt to lead industry prices higher was reported in the same issue as your survey showing that consumers had the least confidence in the airline industry (Sept. 20)
+##############
+____Arg2____
+209..451
+1
+#### Text ####
+You quote Robert Crandall, chairman of American's parent, AMR Corp., as having said that discount deals for big customers would be "dumb" because "you will go to Detroit because you have to go to Detroit whether the fare is $175, $275 or $375
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+347..354
+1,1,2,1,1,1,1,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+278..292
+1,1,2,0;1,1,2,1,0;1,1,2,1,1,0;1,1,2,1,1,1,0
+#### Text ####
+as having said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+293..345
+1,1,2,1,1,1,1,0;1,1,2,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,1,0;1,1,2,1,1,1,1,1,1,1,1;1,1,2,1,1,1,1,1,1,1,2;1,1,2,1,1,1,1,1,1,1,3
+#### Text ####
+that discount deals for big customers would be "dumb
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+356..451
+1,1,2,1,1,1,1,1,1,1,4,2
+#### Text ####
+you will go to Detroit because you have to go to Detroit whether the fare is $175, $275 or $375
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+379..386
+1,1,2,1,1,1,1,1,1,1,4,2,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+278..292
+1,1,2,0;1,1,2,1,0;1,1,2,1,1,0;1,1,2,1,1,1,0
+#### Text ####
+as having said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+347..378
+1,1,2,1,1,1,1,1,1,1,4,0;1,1,2,1,1,1,1,1,1,1,4,1;1,1,2,1,1,1,1,1,1,1,4,2,0;1,1,2,1,1,1,1,1,1,1,4,2,1,0;1,1,2,1,1,1,1,1,1,1,4,2,1,1,0;1,1,2,1,1,1,1,1,1,1,4,2,1,1,1
+#### Text ####
+because "you will go to Detroit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+387..412
+1,1,2,1,1,1,1,1,1,1,4,2,1,1,2,1
+#### Text ####
+you have to go to Detroit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+456..463
+2,0,0;2,0,1
+#### Text ####
+Even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Factual present
+____Arg1____
+489..590
+2,1;2,2;2,3;2,4
+#### Text ####
+he of all people must realize our society relies on competition to keep prices at a competitive level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+464..487
+2,0,2
+#### Text ####
+Mr. Crandall is correct
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+592
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for example, Expansion.Instantiation
+____Arg1____
+456..590
+2
+#### Text ####
+Even if Mr. Crandall is correct, he of all people must realize our society relies on competition to keep prices at a competitive level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+592..740
+3
+#### Text ####
+In 1986, he settled an antitrust suit based on a taped telephone conversation of him proposing to Braniff's president that they both raise fares 20%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+743
+4
+____Arg1____
+592..740
+3
+#### Text ####
+In 1986, he settled an antitrust suit based on a taped telephone conversation of him proposing to Braniff's president that they both raise fares 20%
+##############
+____Arg2____
+743..759
+4
+#### Text ####
+Braniff declined
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+762
+5
+____Arg1____
+743..759
+4
+#### Text ####
+Braniff declined
+##############
+____Arg2____
+762..893
+5
+#### Text ####
+When I asked American Airlines for its side of the story for use in my MBA class, where I teach business ethics, it did not respond
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+762..766
+5,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+875..893
+5,1;5,2;5,3
+#### Text ####
+it did not respond
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+767..842
+5,0,1,0;5,0,1,1,0;5,0,1,1,1;5,0,1,1,2;5,0,1,1,3,0;5,0,1,1,3,1,0;5,0,1,1,3,1,1,0;5,0,1,1,3,1,1,1,0;5,0,1,1,3,1,1,1,1;5,0,1,1,3,1,1,1,3;5,0,1,1,4
+#### Text ####
+I asked American Airlines for its side of the story for use in my MBA class
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+844..873
+5,0,1,1,3,1,1,1,2
+#### Text ####
+where I teach business ethics
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+895
+6
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+762..893
+5
+#### Text ####
+When I asked American Airlines for its side of the story for use in my MBA class, where I teach business ethics, it did not respond
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+895..1031
+6
+#### Text ####
+Perhaps the ethics of an industry's leader filters down and is one of the factors that ultimately shapes consumer trust in that industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

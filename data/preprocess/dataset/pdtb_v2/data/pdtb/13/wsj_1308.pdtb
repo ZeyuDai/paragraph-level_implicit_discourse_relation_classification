@@ -1,0 +1,126 @@
+________________________________________________________
+____Explicit____
+103..106
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..101
+0,0
+#### Text ####
+We've heard California's property-tax-cutting Proposition 13 blamed for a lot over the years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+107..296
+0,3
+#### Text ####
+ABC's Ted Koppel came up with a new wrinkle in his earthquake coverage last week when he asked Democratic Assemblyman Richard Katz if Prop. 13 had withheld money needed for road maintenance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+298
+1
+#### Features ####
+Wr, Comm, Null, Null
+in turn, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+188..296
+0,3,1,5
+#### Text ####
+when he asked Democratic Assemblyman Richard Katz if Prop. 13 had withheld money needed for road maintenance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+298..452
+1
+#### Text ####
+Mr. Katz happily agreed, sliding over the fact that California's roads and bridges aren't funded by property taxes but by state and federal gasoline taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+454
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+345..452
+1,2,2,1,1,1,2
+#### Text ####
+that California's roads and bridges aren't funded by property taxes but by state and federal gasoline taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+454..549
+2
+#### Text ####
+Both have been raised at least 30% in recent years, even while the price of gasoline has fallen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+506..516
+2,1,1,1,5,0;2,1,1,1,5,1
+#### Text ####
+even while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+454..504
+2,0;2,1,0;2,1,1,0;2,1,1,1,0;2,1,1,1,1;2,1,1,1,2;2,1,1,1,3;2,1,1,1,4;2,2
+#### Text ####
+Both have been raised at least 30% in recent years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+517..549
+2,1,1,1,5,2
+#### Text ####
+the price of gasoline has fallen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+551
+3
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+454..549
+2
+#### Text ####
+Both have been raised at least 30% in recent years, even while the price of gasoline has fallen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..609
+3
+#### Text ####
+Dragging Prop. 13 into this story is a pretty long stretch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

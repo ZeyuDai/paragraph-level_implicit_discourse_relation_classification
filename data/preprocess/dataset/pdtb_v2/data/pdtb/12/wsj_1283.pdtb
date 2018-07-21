@@ -1,0 +1,370 @@
+________________________________________________________
+____Implicit____
+403
+2
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+157..401
+1
+#### Text ####
+Sales of medium and heavy-duty trucks continue to lag previous-year rates, leading Eaton to expect fourth-quarter net income to fall below year-earlier levels, said Stephen R. Hardis, vice chairman and chief financial and administrative officer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+403..451
+2
+#### Text ####
+He declined to make a specific earnings estimate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+558
+4
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+455..556
+3
+#### Text ####
+Third-quarter net was $40 million, or $1.04 a share, from $54.4 million, or $1.47 a share, a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+558..612
+4
+#### Text ####
+Sales rose 2.8% to $864.1 million, from $840.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+663..677
+5,0,1,2,0;5,0,1,2,1
+#### Text ####
+mainly because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+769..821
+5,1;5,2;5,3;5,4
+#### Text ####
+said Patrick E. Sheridan, analyst with McDonald & Co
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+616..662
+5,0,0;5,0,1,0;5,0,1,1
+#### Text ####
+The quarter net was below analyst expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+678..767
+5,0,1,2,2
+#### Text ####
+truck-parts sales didn't rebound in September from the summer doldrums as they usually do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+904
+6
+#### Features ####
+Ot, Comm, Null, Null
+823..835;899..903
+6,0,0;6,0,1;6,0,3;6,1,0
+#### Text ####
+Mr. Sheridan says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+616..767
+5,0
+#### Text ####
+The quarter net was below analyst expectations mainly because truck-parts sales didn't rebound in September from the summer doldrums as they usually do
+##############
+#### Features ####
+Ot, Comm, Null, Null
+769..821
+5,1;5,2;5,3;5,4
+#### Text ####
+said Patrick E. Sheridan, analyst with McDonald & Co
+##############
+____Arg2____
+904..1010
+6,1,1
+#### Text ####
+he is reducing his estimate for the year to the area of $5.70 a share, from his previous estimate of $6.10
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1257
+8
+#### Features ####
+Ot, Comm, Null, Null
+1249..1256
+8,0;8,1,0;8,2
+#### Text ####
+He said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1163..1247
+7,1,1
+#### Text ####
+he will make another cut to about $5.50 a share in light of the third-quarter report
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1014..1047;1158..1162
+7,0,0;7,0,1;7,0,2;7,0,4;7,1,0
+#### Text ####
+Eli Lustgarten of PaineWebber Inc says
+##############
+____Arg2____
+1257..1328
+8,1,1
+#### Text ####
+Eaton's quarter profit margin on controls was lower than he anticipated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1422
+10
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast
+____Arg1____
+1343..1420
+9,1,1
+#### Text ####
+sales of truck axles, transmissions and other parts fell 7.2% to $295 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1332..1342
+9,0;9,1,0;9,2
+#### Text ####
+Eaton said
+##############
+____Arg2____
+1422..1476
+10
+#### Text ####
+Sales of parts for cars and construction vehicles rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1478
+11
+____Arg1____
+1422..1476
+10
+#### Text ####
+Sales of parts for cars and construction vehicles rose
+##############
+____Arg2____
+1478..1663
+11
+#### Text ####
+Eaton doesn't provide profit figures separately for each category, but operating profit for vehicle parts as a group fell 26% to $51 million on an about 1% drop in sales to $488 million
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1545..1548
+11,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1478..1543
+11,0
+#### Text ####
+Eaton doesn't provide profit figures separately for each category
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1549..1663
+11,3
+#### Text ####
+operating profit for vehicle parts as a group fell 26% to $51 million on an about 1% drop in sales to $488 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1751..1756
+12,1,1,1,1,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1667..1682
+12,0;12,1,0;12,2
+#### Text ####
+Mr. Hardis said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1683..1750
+12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1,0;12,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1
+#### Text ####
+truck-fleet operators appear to be cautious about buying new trucks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1757..1789
+12,1,1,1,1,1,1,1,2,1
+#### Text ####
+they see how the economy behaves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1791
+13
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1683..1789
+12,1,1
+#### Text ####
+truck-fleet operators appear to be cautious about buying new trucks until they see how the economy behaves
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1667..1682
+12,0;12,1,0;12,2
+#### Text ####
+Mr. Hardis said
+##############
+____Arg2____
+1791..1871
+13,0,0
+#### Text ####
+The truck sales slowdown reflects the general slowing in sales of consumer goods
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1873..1880
+13,0,1;13,0,2;13,0,3
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1882..1885
+13,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1791..1871
+13,0,0
+#### Text ####
+The truck sales slowdown reflects the general slowing in sales of consumer goods
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1873..1880
+13,0,1;13,0,2;13,0,3
+#### Text ####
+he said
+##############
+____Arg2____
+1886..1978
+13,3
+#### Text ####
+the latest reports show a slight improvement rather than any indication of a downward spiral
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2164..2189
+15,1,0;15,1,1;15,1,2,0
+#### Text ####
+attributed the decline to
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+1982..2150
+14
+#### Text ####
+Operating profit from electrical and electronics controls, Eaton's other major business group, fell 11% to $32 million, despite a 7.7% increase in sales to $376 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2152..2293
+15
+#### Text ####
+The company attributed the decline to weakness in the commercial-switch market in North America and in the European appliance-controls market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2570
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2297..2568
+16
+#### Text ####
+For the nine months, net -- including profit from discontinued operations both years and in 1988 an extraordinary charge of $17.7 million related to settlement of a lawsuit -- was $170.6 million, or $4.54 a share, up 5.8% from $161.3 million, or $4.32 a share, a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2570..2705
+17
+#### Text ####
+Eaton earned from continuing operations $165.1 million, or $4.40 a share, down 7% from $177.5 million, or $4.76 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

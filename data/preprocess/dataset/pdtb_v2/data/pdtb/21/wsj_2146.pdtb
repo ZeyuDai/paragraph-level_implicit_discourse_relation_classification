@@ -1,0 +1,311 @@
+________________________________________________________
+____Explicit____
+137..140
+0,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9..136
+0,0;0,1,0;0,2
+#### Text ####
+Bay Financial Corp., hurt by high debts and deteriorating real estate investments, reported a wider loss for the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+146..245
+0,1,2,1
+#### Text ####
+it might be forced to seek a bankruptcy-court reorganization if it can't renegotiate its borrowings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+141..145
+0,1,2,0
+#### Text ####
+said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+207..209
+0,1,2,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+137..145
+0,1,1;0,1,2,0
+#### Text ####
+and said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+146..206
+0,1,2,1,0;0,1,2,1,1,0;0,1,2,1,1,1,0;0,1,2,1,1,1,1,0;0,1,2,1,1,1,1,1,0;0,1,2,1,1,1,1,1,1
+#### Text ####
+it might be forced to seek a bankruptcy-court reorganization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+210..245
+0,1,2,1,1,1,1,1,2,1
+#### Text ####
+it can't renegotiate its borrowings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+441
+2
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+258..422
+1,1,1
+#### Text ####
+a "substantial part" of its debt outstanding is in default as a result of inability to sell certain properties quickly and lower-than-expected prices for sales made
+##############
+#### Features ####
+Ot, Comm, Null, Null
+249..257
+1,0;1,1,0;1,2
+#### Text ####
+Bay said
+##############
+____Arg2____
+441..555
+2,1,1
+#### Text ####
+its real estate portfolio is "highly leveraged," while about two-thirds of its investments aren't income-producing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+424..440
+2,0;2,1,0;2,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+557..561
+3,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Sup1____
+441..555
+2,1,1
+#### Text ####
+its real estate portfolio is "highly leveraged," while about two-thirds of its investments aren't income-producing
+##############
+____Arg1____
+258..422
+1,1,1
+#### Text ####
+a "substantial part" of its debt outstanding is in default as a result of inability to sell certain properties quickly and lower-than-expected prices for sales made
+##############
+#### Features ####
+Ot, Comm, Null, Null
+249..257
+1,0;1,1,0;1,2
+#### Text ####
+Bay said
+##############
+____Arg2____
+562..695
+3,1;3,2;3,3
+#### Text ####
+it is coming up short on a big bet that quick sales at higher prices would enable it to keep up with mortgage and other debt payments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+977
+6
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+858..975
+5,1,1
+#### Text ####
+it had a net loss in its fourth quarter ended June 30 of $36.2 million, or $9.33 a share, on revenue of $13.1 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+841..857
+5,0;5,1,0;5,2
+#### Text ####
+The company said
+##############
+____Arg2____
+977..1079
+6
+#### Text ####
+A year earlier, the company had a loss of $10.8 million, or $3.04 a share, on revenue of $10.8 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1081
+7
+____Arg1____
+977..1079
+6
+#### Text ####
+A year earlier, the company had a loss of $10.8 million, or $3.04 a share, on revenue of $10.8 million
+##############
+____Arg2____
+1081..1175
+7
+#### Text ####
+For the year, it had a net loss of $62 million, or $15.97 a share, on revenue of $44.3 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1177
+8
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1081..1175
+7
+#### Text ####
+For the year, it had a net loss of $62 million, or $15.97 a share, on revenue of $44.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1177..1276
+8
+#### Text ####
+In the previous year, it had a loss of $22.5 million, or $6.52 a share, on revenue of $41.1 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1280..1288
+9,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1339..1455
+9,3,1
+#### Text ####
+the fair-market value of its holdings, minus debt, was equal to $6.02 a share at June 30 based on a recent appraisal
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1330..1338
+9,1;9,2;9,3,0;9,4
+#### Text ####
+Bay said
+##############
+____Arg2____
+1289..1328
+9,0,1
+#### Text ####
+it is having serious cash-flow problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1457
+10
+#### Features ####
+Ot, Comm, Null, Null
+1330..1338
+9,1;9,2;9,3,0;9,4
+#### Text ####
+Bay said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1339..1455
+9,3,1
+#### Text ####
+the fair-market value of its holdings, minus debt, was equal to $6.02 a share at June 30 based on a recent appraisal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1457..1546
+10
+#### Text ####
+Book value per share, which is based on investments at cost, was a negative $6.69 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1548
+11
+____Arg1____
+1457..1546
+10
+#### Text ####
+Book value per share, which is based on investments at cost, was a negative $6.69 a share
+##############
+____Arg2____
+1548..1635
+11
+#### Text ####
+A year earlier, fair-market value per share was $26.02 and book value was $9.43 a share
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1603..1606
+11,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1548..1602
+11,0;11,1;11,2
+#### Text ####
+A year earlier, fair-market value per share was $26.02
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1607..1635
+11,4
+#### Text ####
+book value was $9.43 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

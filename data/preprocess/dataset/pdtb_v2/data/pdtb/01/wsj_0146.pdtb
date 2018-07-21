@@ -1,0 +1,381 @@
+________________________________________________________
+____EntRel____
+413
+2
+____Arg1____
+196..411
+1
+#### Text ####
+The Michigan Democrat's proposal, which is expected today, is described by government sources and lobbyists as significantly weaker than the Bush administration's plan to cut utility emissions that lead to acid rain
+##############
+____Arg2____
+413..512
+2
+#### Text ####
+The administration's plan could cost utilities, mainly those that use coal, up to $4 billion a year
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+659
+4
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+582..657
+3,1,1;3,1,2;3,2
+#### Text ####
+and temporarily throws into chaos the House's work on clean-air legislation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+659..786
+4
+#### Text ####
+As chairman of the House Energy and Commerce Committee, Mr. Dingell has almost single-handed control over clean-air legislation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+975..981
+5,1,1,1,1,1,1,1,3,0
+#### Text ####
+though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+790..831
+5,0;5,1,0;5,2
+#### Text ####
+People close to the utility industry said
+##############
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+832..973
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1,0;5,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,1;5,1,1,1,1,1,1,1,2
+#### Text ####
+Mr. Dingell's proposal appears to guarantee only an estimated seven-million-ton cut in annual sulfur-dioxide emissions that lead to acid rain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+982..1020
+5,1,1,1,1,1,1,1,3,1
+#### Text ####
+additional cuts could be ordered later
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1015..1020
+5,1,1,1,1,1,1,1,3,1,1,1,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Ot, Comm, Null, Null
+790..831
+5,0;5,1,0;5,2
+#### Text ####
+People close to the utility industry said
+##############
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+832..973
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1,0;5,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,1;5,1,1,1,1,1,1,1,2
+#### Text ####
+Mr. Dingell's proposal appears to guarantee only an estimated seven-million-ton cut in annual sulfur-dioxide emissions that lead to acid rain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+975..1014
+5,1,1,1,1,1,1,1,3,0;5,1,1,1,1,1,1,1,3,1,0;5,1,1,1,1,1,1,1,3,1,1,0;5,1,1,1,1,1,1,1,3,1,1,1,0;5,1,1,1,1,1,1,1,3,1,1,1,1,0;5,1,1,1,1,1,1,1,3,1,1,1,1,1
+#### Text ####
+though additional cuts could be ordered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1022
+6
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+832..1020
+5,1,1
+#### Text ####
+Mr. Dingell's proposal appears to guarantee only an estimated seven-million-ton cut in annual sulfur-dioxide emissions that lead to acid rain, though additional cuts could be ordered later
+##############
+#### Features ####
+Ot, Comm, Null, Null
+790..831
+5,0;5,1,0;5,2
+#### Text ####
+People close to the utility industry said
+##############
+____Arg2____
+1022..1097;1122..1138
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1;6,1,1,1,1,2,0;6,1,1,1,1,2,1,0;6,1,1,1,1,2,1,3;6,1,1,1,1,3;6,2
+#### Text ####
+Mr. Bush's legislative package promises to cut emissions by 10 million tons by the year 2000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1142..1150
+7,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1184..1301
+7,1;7,2;7,3;7,4
+#### Text ####
+sources said the Dingell plan would abandon the president's proposal for a cap on utilities' sulfur-dioxide emissions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1151..1182
+7,0,1
+#### Text ####
+final details weren't available
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1303
+8
+____Arg1____
+1142..1301
+7
+#### Text ####
+Although final details weren't available, sources said the Dingell plan would abandon the president's proposal for a cap on utilities' sulfur-dioxide emissions
+##############
+____Arg2____
+1303..1427
+8
+#### Text ####
+That proposal had been hailed by environmentalists but despised by utilities because they feared it would limit their growth
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1380..1387
+8,1,1,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1354..1379
+8,1,1,1,1;8,1,1,1,2,0;8,1,1,1,2,1;8,1,1,1,2,2
+#### Text ####
+but despised by utilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1388..1427
+8,1,1,1,2,3,1
+#### Text ####
+they feared it would limit their growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1432..1436
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1400..1427
+8,1,1,1,2,3,1,1,1
+#### Text ####
+it would limit their growth
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1388..1399
+8,1,1,1,2,3,1,0;8,1,1,1,2,3,1,1,0
+#### Text ####
+they feared
+##############
+____Arg2____
+1429..1431;1437..1527
+9,0;9,2;9,3
+#### Text ####
+It would junk an innovative market-based system for trading emissions credits among polluters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1531..1542
+10,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1197..1301
+7,3,1
+#### Text ####
+the Dingell plan would abandon the president's proposal for a cap on utilities' sulfur-dioxide emissions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1184..1196
+7,1;7,2;7,3,0;7,4
+#### Text ####
+sources said
+##############
+____Arg2____
+1559..1690
+10,3,1,1,0;10,3,1,1,1,0;10,3,1,1,1,1,0;10,3,1,1,1,1,1,0;10,3,1,1,1,1,1,1,0;10,3,1,1,1,1,1,1,1,0;10,3,1,1,1,1,1,1,1,1,0;10,3,1,1,1,1,1,1,1,1,1,0;10,3,1,1,1,1,1,1,1,1,1,1,0;10,3,1,1,1,1,1,1,1,1,1,1,1,0;10,3,1,1,1,1,1,1,1,1,1,1,1,1;10,3,1,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+to offer a cost-sharing mechanism that would help subsidize the clean-up costs for the dirtiest coal-fired utilities in the country
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1544..1558
+10,1;10,2;10,3,0;10,3,1,0;10,4
+#### Text ####
+it is believed
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1763
+11
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+1559..1761
+10,3,1,1
+#### Text ####
+to offer a cost-sharing mechanism that would help subsidize the clean-up costs for the dirtiest coal-fired utilities in the country, sparing their customers from exorbitant jumps in their electric bills
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1544..1558
+10,1;10,2;10,3,0;10,3,1,0;10,4
+#### Text ####
+it is believed
+##############
+____Arg2____
+1763..1781;1830..1864
+11,0;11,1;11,3;11,4;11,5
+#### Text ####
+The administration has staunchly opposed cost-sharing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2094..2101
+13,1,4
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1142..1301;1868..2076
+7;12
+#### Text ####
+Although final details weren't available, sources said the Dingell plan would abandon the president's proposal for a cap on utilities' sulfur-dioxide emissions Mr. Dingell's staff was expected to present its acid-rain alternative to other committee members, apparently in an attempt to appease Midwestern lawmakers from high-polluting states who insist on cost-sharing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2078..2092;2103..2220
+13,0;13,1,0;13,1,1;13,1,2;13,1,3;13,1,5;13,1,6;13,2
+#### Text ####
+It isn't clear whether support for the proposal will be broad enough to pose a serious challenge to the White House's acid-rain plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2224..2229
+14,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+2287..2429
+14,1;14,2;14,3;14,4
+#### Text ####
+it might not win the support of utilities, many in the West, that already have added expensive cleanup equipment or burn cleaner-burning fuels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2230..2285
+14,0,1
+#### Text ####
+the new proposal might appeal to the dirtiest utilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2431
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2287..2429
+14,1;14,2;14,3;14,4
+#### Text ####
+it might not win the support of utilities, many in the West, that already have added expensive cleanup equipment or burn cleaner-burning fuels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2431..2620
+15
+#### Text ####
+Lawmakers representing some of the cleaner utilities have been quietly working with the White House to devise ways to tinker with the administration bill to address their acid-rain concerns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

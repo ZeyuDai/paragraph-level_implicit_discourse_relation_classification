@@ -1,0 +1,83 @@
+________________________________________________________
+____Explicit____
+271..276
+2,0,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+305..315
+2,1;2,2;2,3;2,4
+#### Text ####
+Istat said
+##############
+while, Expansion.Conjunction
+____Arg1____
+214..269
+2,0,0;2,0,1,0;2,0,1,1;2,0,1,2;2,0,1,3
+#### Text ####
+Domestic wholesale sales rose 11.9% from a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+277..303
+2,0,1,4,1
+#### Text ####
+foreign sales jumped 17.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+601
+5
+#### Features ####
+Wr, Comm, Null, Null
+as, Expansion.Conjunction
+____Arg1____
+477..599
+4
+#### Text ####
+Sales of capital goods to foreign and domestic destinations increased 16.6% in the January-June period from a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+601..718
+5
+#### Text ####
+Sales of consumer goods rose 6.9% in the same period, while sales of intermediate goods were up 13.8% from a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+655..660
+5,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+601..653
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Sales of consumer goods rose 6.9% in the same period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+661..718
+5,1,4,1
+#### Text ####
+sales of intermediate goods were up 13.8% from a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

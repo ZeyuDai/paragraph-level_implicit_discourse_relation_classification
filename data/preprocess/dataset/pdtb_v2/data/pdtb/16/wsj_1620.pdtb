@@ -1,0 +1,179 @@
+________________________________________________________
+____Explicit____
+414..417
+1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+222..256
+1,0;1,1,0;1,2
+#### Text ####
+Harley-Davidson's complaint claims
+##############
+and, Expansion.Conjunction
+____Arg1____
+257..413
+1,1,1,0
+#### Text ####
+that the group, led by investor Malcolm I. Glazer, violated securities laws by failing to disclose plans to purchase 15% of the company's shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+418..597
+1,1,1,2
+#### Text ####
+that when the required Hart-Scott-Rodino filing eventually was made, it didn't disclose the group's alleged earlier violation of the so-called prior-notice requirements of the law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+423..427
+1,1,1,2,1,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+222..256
+1,0;1,1,0;1,2
+#### Text ####
+Harley-Davidson's complaint claims
+##############
+when, Temporal.Synchrony
+____Arg1____
+414..422;487..597
+1,1,1,1;1,1,1,2,0;1,1,1,2,1,1;1,1,1,2,1,2;1,1,1,2,1,3
+#### Text ####
+and that it didn't disclose the group's alleged earlier violation of the so-called prior-notice requirements of the law
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+428..485
+1,1,1,2,1,0,1
+#### Text ####
+the required Hart-Scott-Rodino filing eventually was made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+656..659
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+601..654
+2
+#### Text ####
+Mr. Glazer couldn't immediately be reached to comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+660..842
+3,1;3,2;3,3;3,4;3,5;3,6;3,7;3,8
+#### Text ####
+when Harley last week publicly questioned the legality of the group's filing procedures, the Rochester, N.Y., investor said "we complied with every law," and he denied any wrongdoing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+660..664
+3,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+656..659;749..842
+3,0;3,2;3,3;3,4;3,5;3,6;3,7;3,8
+#### Text ####
+But the Rochester, N.Y., investor said "we complied with every law," and he denied any wrongdoing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+665..747
+3,1,1
+#### Text ####
+Harley last week publicly questioned the legality of the group's filing procedures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+814..817
+3,6
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+656..659;749..811
+3,0;3,2;3,3;3,4;3,5
+#### Text ####
+But the Rochester, N.Y., investor said "we complied with every law
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+818..842
+3,7
+#### Text ####
+he denied any wrongdoing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1055
+5
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+932..1037
+4,1,3
+#### Text ####
+that it may seek a controlling interest in Harley-Davidson, or seek representation on the company's board
+##############
+#### Features ####
+Ot, Comm, Null, Null
+846..931
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+The Glazer group said in a Securities and Exchange Commission filing in early October
+##############
+____Arg2____
+1055..1126
+5,1,1,1
+#### Text ####
+it doesn't intend to be acquired by the Glazer group or any other party
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1039..1054
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+Harley has said
+##############
+________________________________________________________

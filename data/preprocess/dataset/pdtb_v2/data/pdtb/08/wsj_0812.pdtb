@@ -1,0 +1,536 @@
+________________________________________________________
+____Explicit____
+517..525
+2,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+231..299
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+In a study of 250 of the nation's richest companies, the group found
+##############
+moreover, Expansion.Conjunction
+____Arg1____
+300..513
+1,3,1
+#### Text ####
+that only seven managed to avoid paying federal income taxes last year compared with 40 in 1986, the last year the old tax rules were in effect, and 16 in 1987, when some of the new tax provisions went into effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+527..716
+2,1;2,2;2,3;2,4
+#### Text ####
+41 companies that paid no federal income tax from 1981 through 1985 -- despite billions of dollars of profits -- ended up paying an average of 27.9% of their income in federal taxes in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+758..760
+3,4,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+720..757
+3,0;3,1;3,2;3,3;3,4,0;3,5
+#### Text ####
+The report, released yesterday, comes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+761..914
+3,4,1,1
+#### Text ####
+Congress is considering a number of special tax breaks only three years after the sweeping tax-revision legislation abolished or curtailed many loopholes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+816..838
+3,4,1,1,1,1,2,0;3,4,1,1,1,1,2,1
+#### Text ####
+only three years after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+758..815
+3,4,1,0;3,4,1,1,0;3,4,1,1,1,0;3,4,1,1,1,1,0;3,4,1,1,1,1,1
+#### Text ####
+as Congress is considering a number of special tax breaks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+839..914
+3,4,1,1,1,1,2,2
+#### Text ####
+the sweeping tax-revision legislation abolished or curtailed many loopholes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1078..1083
+4,3,2,2,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1063..1077
+4,3,2,2,1,1,1,1,1,1,1,0;4,3,2,2,1,1,1,1,1,1,1,1,0;4,3,2,2,1,1,1,1,1,1,1,1,1
+#### Text ####
+to defer taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1084..1107
+4,3,2,2,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+a project was completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1508..1519
+6,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Sup1____
+1233..1504
+5
+#### Text ####
+The combination of lower rates and fewer loopholes has meant that the so-called average effective tax rate -- the rate actually paid -- of the 250 corporations surveyed reached 26.5% in 1988, compared with 14.3% in the years from 1981 through 1985, according to the study
+##############
+____Arg1____
+918..1229
+4
+#### Text ####
+In the corporate realm, the 1986 law abolished the investment-tax credit, scaled back use of an accounting method that allowed large contractors to defer taxes until a project was completed and strengthened the so-called alternative minimum tax, a levy to ensure all money-making businesses pay some federal tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1521..1624
+6,1;6,2;6,3;6,4
+#### Text ####
+corporations are now shouldering a bigger share of the tax burden, as the authors of the 1986 law hoped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1626..1779
+7,0
+#### Text ####
+Corporate taxes paid for almost 12% of federal spending in 1988 -- excluding Social Security -- compared with less than 8% in the first half of the 1980s
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1626
+7
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1508..1586
+6,0;6,1;6,2;6,3,0;6,3,1;6,3,2,0;6,3,2,1;6,3,2,2;6,4
+#### Text ####
+In addition, corporations are now shouldering a bigger share of the tax burden
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1626..1779
+7,0
+#### Text ####
+Corporate taxes paid for almost 12% of federal spending in 1988 -- excluding Social Security -- compared with less than 8% in the first half of the 1980s
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1781..1796
+7,1;7,2;7,3;7,4
+#### Text ####
+the study found
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1842
+9
+#### Features ####
+Ot, Comm, Null, Null
+1825..1839
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the study said
+##############
+in particular, Expansion.Restatement.Specification, Contingency.Pragmatic cause.Justification
+____Arg1____
+1801..1822
+8,1
+#### Text ####
+Tax reform is working
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1842..1949
+9
+#### Text ####
+Under the new tax-reform law, the days of widespread, wholesale corporate tax avoidance have come to an end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1954..1959
+10,0,0
+#### Text ####
+Still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2219..2233
+10,1;10,2;10,3;10,4
+#### Text ####
+the group said
+##############
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+1801..1822;1842..1949
+8,1;9
+#### Text ####
+Tax reform is working Under the new tax-reform law, the days of widespread, wholesale corporate tax avoidance have come to an end
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1825..1839
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+the study said
+##############
+____Arg2____
+1961..2217
+10,0,1;10,0,2;10,0,3
+#### Text ####
+Kroger Co., Pinnacle West Capital Corp., CSX Corp., Illinois Power Co., Media General Inc., Santa Fe Southern Pacific Corp. and Gulf States Utilities Co., didn't pay any federal income tax last year although they garnered a total of $1.2 billion in profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2160..2168
+10,0,3,2,2,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2219..2233
+10,1;10,2;10,3;10,4
+#### Text ####
+the group said
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+1954..2159
+10,0,0;10,0,1;10,0,2;10,0,3,0;10,0,3,1;10,0,3,2,0;10,0,3,2,1
+#### Text ####
+Still, Kroger Co., Pinnacle West Capital Corp., CSX Corp., Illinois Power Co., Media General Inc., Santa Fe Southern Pacific Corp. and Gulf States Utilities Co., didn't pay any federal income tax last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2169..2217
+10,0,3,2,2,1
+#### Text ####
+they garnered a total of $1.2 billion in profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2235..2242
+11,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2219..2233
+10,1;10,2;10,3;10,4
+#### Text ####
+the group said
+##############
+in fact, Expansion.Conjunction
+____Sup1____
+2160..2217
+10,0,3,2,2
+#### Text ####
+although they garnered a total of $1.2 billion in profits
+##############
+____Arg1____
+1954..2159
+10,0,0;10,0,1;10,0,2;10,0,3,0;10,0,3,1;10,0,3,2,0;10,0,3,2,1
+#### Text ####
+Still, Kroger Co., Pinnacle West Capital Corp., CSX Corp., Illinois Power Co., Media General Inc., Santa Fe Southern Pacific Corp. and Gulf States Utilities Co., didn't pay any federal income tax last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2244..2283
+11,1;11,2;11,3,0;11,3,1,0;11,3,1,1;11,4
+#### Text ####
+six of those companies received refunds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2285..2311
+11,3,1,2
+#### Text ####
+which totaled $120 million
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2452
+13
+____Arg1____
+2315..2450
+12
+#### Text ####
+The lobbying group used publicly available information to calculate each company's domestic profits and its federal income tax payments
+##############
+____Arg2____
+2452..2543
+13
+#### Text ####
+This is the fifth year Citizens for Tax Justice has released a study on corporate tax bills
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2545
+14
+____Arg1____
+2452..2543
+13
+#### Text ####
+This is the fifth year Citizens for Tax Justice has released a study on corporate tax bills
+##############
+____Arg2____
+2545..2714
+14
+#### Text ####
+Earlier reports, which revealed that as many as 73 companies were avoiding income tax legally, have been credited with helping galvanize efforts to overhaul the tax code
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2718..2721
+15,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+2836..2906
+16
+#### Text ####
+And 45 companies paid effective tax rates of below 10% of their income
+##############
+____Arg1____
+2664..2714
+14,1,1,1,2,1
+#### Text ####
+helping galvanize efforts to overhaul the tax code
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2545..2663
+14,0;14,1,0;14,1,1,0;14,1,1,1,0;14,1,1,1,1;14,1,1,1,2,0;14,2
+#### Text ####
+Earlier reports, which revealed that as many as 73 companies were avoiding income tax legally, have been credited with
+##############
+____Arg2____
+2722..2817
+15,0,1;15,0,2;15,0,3;15,0,4
+#### Text ####
+even though companies are paying more taxes, many are still paying less than the statutory rate
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2819..2834
+15,1;15,2;15,3;15,4
+#### Text ####
+the report said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2722..2733
+15,0,1,0;15,0,1,1
+#### Text ####
+even though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2819..2834
+15,1;15,2;15,3;15,4
+#### Text ####
+the report said
+##############
+though, Comparison
+____Arg1____
+2718..2721;2767..2817
+15,0,0;15,0,2;15,0,3;15,0,4
+#### Text ####
+But many are still paying less than the statutory rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2734..2765
+15,0,1,2
+#### Text ####
+companies are paying more taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2836..2839
+16,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2819..2834
+15,1;15,2;15,3;15,4
+#### Text ####
+the report said
+##############
+and, Expansion.Conjunction
+____Sup1____
+2722..2765
+15,0,1
+#### Text ####
+even though companies are paying more taxes
+##############
+____Arg1____
+2718..2721;2767..2817
+15,0,0;15,0,2;15,0,3;15,0,4
+#### Text ####
+But many are still paying less than the statutory rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2840..2906
+16,1;16,2;16,3
+#### Text ####
+45 companies paid effective tax rates of below 10% of their income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2909
+17
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Restatement.Generalization
+____Arg1____
+2718..2817;2836..2906
+15,0;16
+#### Text ####
+But even though companies are paying more taxes, many are still paying less than the statutory rate And 45 companies paid effective tax rates of below 10% of their income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2819..2834
+15,1;15,2;15,3;15,4
+#### Text ####
+the report said
+##############
+____Arg2____
+2909..3001
+17,1
+#### Text ####
+While the overall picture is very encouraging, significant corporate tax avoidance continues
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3004..3018
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+the study said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2909..2914
+17,1,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3004..3018
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+the study said
+##############
+while, Comparison.Concession.Expectation
+____Arg1____
+2956..3001
+17,1,1;17,1,2;17,1,3
+#### Text ####
+significant corporate tax avoidance continues
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2915..2954
+17,1,0,1
+#### Text ####
+the overall picture is very encouraging
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

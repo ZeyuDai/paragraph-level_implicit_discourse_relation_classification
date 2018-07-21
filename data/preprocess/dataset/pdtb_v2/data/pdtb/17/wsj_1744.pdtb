@@ -1,0 +1,632 @@
+________________________________________________________
+____Explicit____
+284..287
+1,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+210..282
+1,0,0
+#### Text ####
+About 5,500 hourly workers will be laid off for a week beginning Oct. 23
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+288..352
+1,0,3
+#### Text ####
+overtime has been eliminated at the plant for the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+381
+2
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+210..352
+1,0
+#### Text ####
+About 5,500 hourly workers will be laid off for a week beginning Oct. 23, and overtime has been eliminated at the plant for the fourth quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+354..379
+1,1;1,2;1,3;1,4
+#### Text ####
+a Chrysler spokesman said
+##############
+____Arg2____
+381..542
+2
+#### Text ####
+That's a significant change from earlier this year when the plant worked substantial overtime only to have sales fall short of the company's bullish expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+676..679
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+546..674
+3
+#### Text ####
+Sales of Cherokee, the best-selling Jeep, and the lower-volume Wagoneer were actually up about 10% through the end of last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+680..809
+4,1;4,2;4,3
+#### Text ####
+that's less than Chrysler officials had hoped when they set ambitious production schedules for the Toledo plant earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+726..730
+4,2,1,1,1,1,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+692..725
+4,2,1,1,0;4,2,1,1,1,0;4,2,1,1,1,1,0;4,2,1,1,1,1,1,0
+#### Text ####
+than Chrysler officials had hoped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+731..809
+4,2,1,1,1,1,1,1,1
+#### Text ####
+they set ambitious production schedules for the Toledo plant earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+813..822
+5,0,0,0;5,0,0,1
+#### Text ####
+Even when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1004..1022
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+the spokesman said
+##############
+when, Temporal.Synchrony, Comparison.Concession.Expectation
+____Arg1____
+897..1001
+5,0,1;5,0,2;5,0,3
+#### Text ####
+Chrysler officials "resisted" cutting output because Cherokee and Wagoneer are "very profitable vehicles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+823..895
+5,0,0,2
+#### Text ####
+it became clear this spring that demand wasn't coming up to expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+942..949
+5,0,3,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1004..1022
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+the spokesman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+897..941
+5,0,1;5,0,2;5,0,3,0;5,0,3,1;5,0,3,2;5,0,3,3
+#### Text ####
+Chrysler officials "resisted" cutting output
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+950..1001
+5,0,3,4,1
+#### Text ####
+Cherokee and Wagoneer are "very profitable vehicles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1026..1033
+6,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+927..941
+5,0,3,3
+#### Text ####
+cutting output
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1035..1215
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+Chrysler officials in late May slapped $1,000 cash rebates on the vehicles, including the first such incentives on the popular four-door Cherokee since Chrysler bought Jeep in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1217
+7
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1026..1109
+6,0;6,1;6,2;6,3;6,4,0;6,4,1;6,4,2;6,4,3;6,5
+#### Text ####
+Instead, Chrysler officials in late May slapped $1,000 cash rebates on the vehicles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1217..1257
+7,0
+#### Text ####
+The incentives boosted sales for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1259..1262
+7,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+1217..1257
+7,0
+#### Text ####
+The incentives boosted sales for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1263..1296
+7,3
+#### Text ####
+the pace had cooled by last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1472
+9
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+1300..1470
+8
+#### Text ####
+The result: Chrysler dealers had a bloated 82-day supply of the Cherokee as of the end of last month and a 161-day supply of the Comanche pickup, which Toledo also builds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1472..1518
+9
+#### Text ####
+A 60-day to 65-day supply is considered normal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1694
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1522..1631
+10
+#### Text ####
+At Jasper Jeep-Eagle, one of the largest Jeep dealerships in the country, inventories have continued to swell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1694..1810
+11,1,1
+#### Text ####
+new rebates of $500 to $1,000 on the models have stimulated sales, but not enough to significantly cut dealer stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1633..1693
+11,0;11,1,0;11,2
+#### Text ####
+Steve Lowe, general manager of Jasper, Ga., dealership, said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1813
+12
+____Arg1____
+1633..1810
+11
+#### Text ####
+Steve Lowe, general manager of Jasper, Ga., dealership, said new rebates of $500 to $1,000 on the models have stimulated sales, but not enough to significantly cut dealer stocks
+##############
+____Arg2____
+1813..1872
+12
+#### Text ####
+If people aren't buying, you have to close plants," he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1813..1815
+12,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1865..1872
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he said
+##############
+if, Contingency.Condition.General
+____Arg1____
+1838..1862
+12,1,1;12,1,2;12,1,3
+#### Text ####
+you have to close plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1816..1836
+12,1,0,1
+#### Text ####
+people aren't buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1876..1886
+13,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..206
+0
+#### Text ####
+Slowing sales of its profitable Jeep Cherokee and Wagoneer sport utility vehicles are forcing Chrysler Corp. to temporarily idle its Toledo, Ohio, assembly plant for the first time since April 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1888..2016
+13,1;13,2;13,3;13,4
+#### Text ####
+Chrysler said it will idle for four weeks the St. Louis assembly plant that builds the Chrysler LeBaron and Dodge Daytona models
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2042
+14
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1902..1958
+13,3,1,0;13,3,1,1,0;13,3,1,1,1,0;13,3,1,1,1,1,0;13,3,1,1,1,1,1;13,3,1,1,1,1,2,0
+#### Text ####
+it will idle for four weeks the St. Louis assembly plant
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1876..1901
+13,0;13,1;13,2;13,3,0;13,4
+#### Text ####
+Separately, Chrysler said
+##############
+____Arg2____
+2042..2140
+14,1,1
+#### Text ####
+the plant is scheduled to resume production on Nov. 20., and 3,300 hourly workers will be affected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2018..2041
+14,0;14,1,0;14,2
+#### Text ####
+Chrysler officials said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2099..2102
+14,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2018..2041
+14,0;14,1,0;14,2
+#### Text ####
+Chrysler officials said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2042..2096
+14,1,1,1,0
+#### Text ####
+the plant is scheduled to resume production on Nov. 20
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2103..2140
+14,1,1,1,3
+#### Text ####
+3,300 hourly workers will be affected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2166..2175
+15,2
+#### Text ####
+meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+1876..2016
+13
+#### Text ####
+Separately, Chrysler said it will idle for four weeks the St. Louis assembly plant that builds the Chrysler LeBaron and Dodge Daytona models
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2144..2164;2177..2328
+15,0;15,1;15,3;15,4;15,5
+#### Text ####
+General Motors Corp. said it will idle for yet another week its Linden, N.J., assembly plant, bringing to three weeks the total time that plant will be idled during October
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2513
+17
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Specification
+____Arg1____
+2340..2511
+16,1,1
+#### Text ####
+the assembly plant, which builds the Chevrolet Corsica and Beretta compact cars, originally was scheduled to reopen Monday but now will not resume production until Oct. 30
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2332..2339
+16,0;16,1,0;16,2
+#### Text ####
+GM said
+##############
+____Arg2____
+2513..2587
+17
+#### Text ####
+The shutdown affects 3,000 workers and will cut output by about 4,320 cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2681
+19
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2591..2679
+18
+#### Text ####
+Sluggish sales of the Beretta and Corsica spurred GM to offer $800 rebates on those cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2681..2843
+19
+#### Text ####
+The Corsica and Beretta make up the highest-volume car line at Chevrolet, but sales of the cars are off 9.6% for the year, and fell a steep 34.2% early this month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2755..2758
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2681..2753
+19,0
+#### Text ####
+The Corsica and Beretta make up the highest-volume car line at Chevrolet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2759..2843
+19,3
+#### Text ####
+sales of the cars are off 9.6% for the year, and fell a steep 34.2% early this month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3092
+22
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Specification
+____Arg1____
+2994..3089
+21,1,1
+#### Text ####
+it will shut down for one week its Kentucky Truck Plant because of a "shortage of dealer orders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2974..2993
+21,0;21,1,0;21,2;21,3
+#### Text ####
+Ford Motor Co. said
+##############
+____Arg2____
+3092..3206
+22
+#### Text ####
+The shutdown will idle 2,000 hourly employees and eliminate production of about 1,300 medium and heavy duty trucks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3208
+23
+____Arg1____
+3092..3206
+22
+#### Text ####
+The shutdown will idle 2,000 hourly employees and eliminate production of about 1,300 medium and heavy duty trucks
+##############
+____Arg2____
+3208..3271
+23
+#### Text ####
+The assembly plant is scheduled to resume production on Oct. 30
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3275..3284
+24,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+103..206;1902..2016;2182..2248;2994..3089
+0,1,1,1;13,3,1;15,4,1,0;15,4,1,1,0;15,4,1,1,1,0;15,4,1,1,1,1,0;15,4,1,1,1,1,1;15,4,1,1,1,1,2;15,4,1,1,1,1,3;21,1,1
+#### Text ####
+Chrysler Corp. to temporarily idle its Toledo, Ohio, assembly plant for the first time since April 1986 it will idle for four weeks the St. Louis assembly plant that builds the Chrysler LeBaron and Dodge Daytona models it will idle for yet another week its Linden, N.J., assembly plant it will shut down for one week its Kentucky Truck Plant because of a "shortage of dealer orders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2974..2993
+21,0;21,1,0;21,2;21,3
+#### Text ####
+Ford Motor Co. said
+##############
+____Arg2____
+3286..3435
+24,1;24,2;24,3;24,4
+#### Text ####
+the nine major U.S. auto makers plan to build 143,178 cars this week, down 11.7% from 162,190 a year ago and flat with last week's 142,117 car output
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1287 @@
+________________________________________________________
+____Implicit____
+103
+1
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+9..101
+0
+#### Text ####
+Bob Stone stewed over a letter from his manager putting him on probation for insubordination
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+103..146
+1,0
+#### Text ####
+Mr. Stone thought the discipline was unfair
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+160
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+121..146
+1,0,1,1
+#### Text ####
+the discipline was unfair
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+103..120
+1,0,0;1,0,1,0
+#### Text ####
+Mr. Stone thought
+##############
+____Arg2____
+160..222
+1,2,1,1
+#### Text ####
+that his manager wanted to get rid of him for personal reasons
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+148..159
+1,2,0;1,2,1,0
+#### Text ####
+he believed
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+224
+2
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+103..222
+1
+#### Text ####
+Mr. Stone thought the discipline was unfair; he believed that his manager wanted to get rid of him for personal reasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+224..321
+2
+#### Text ####
+Unable to persuade the manager to change his decision, he went to a "company court" for a hearing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+420
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+325..418
+3
+#### Text ####
+At the scheduled time, Mr. Stone entered a conference room in a building near where he worked
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+420..547
+4
+#### Text ####
+After the three members of the court introduced themselves, the chairman of the panel said: "Go ahead and tell us what happened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+420..425
+4,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+480..615
+4,1;4,2;4,3;5
+#### Text ####
+the chairman of the panel said: "Go ahead and tell us what happened.
+We may ask questions as you go along, or we may wait until the end
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+426..478
+4,0,1
+#### Text ####
+the three members of the court introduced themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+549
+5
+____Arg1____
+513..547
+4,2,3
+#### Text ####
+Go ahead and tell us what happened
+##############
+____Arg2____
+549..585
+5,0
+#### Text ####
+We may ask questions as you go along
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+570..572
+5,0,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+420..510
+4,0;4,1;4,2,0;4,2,1;4,2,2;4,3
+#### Text ####
+After the three members of the court introduced themselves, the chairman of the panel said
+##############
+as, Temporal.Synchrony
+____Arg1____
+549..569
+5,0,0;5,0,1,0;5,0,1,1,0;5,0,1,1,1
+#### Text ####
+We may ask questions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+573..585
+5,0,1,1,2,1
+#### Text ####
+you go along
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+587..589
+5,2
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+420..510
+4,0;4,1;4,2,0;4,2,1;4,2,2;4,3
+#### Text ####
+After the three members of the court introduced themselves, the chairman of the panel said
+##############
+or, Expansion.Alternative
+____Arg1____
+549..585
+5,0
+#### Text ####
+We may ask questions as you go along
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+590..615
+5,3
+#### Text ####
+we may wait until the end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+663
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+620..661
+6
+#### Text ####
+No lawyers or tape recorders were present
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+663..844
+7
+#### Text ####
+The only extra people were a couple of personnel specialists, one of whom knew Mr. Stone's case intimately and would help fill in any facts needed to give the court the full picture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+896
+9
+____Arg1____
+848..894
+8
+#### Text ####
+Over a cup of coffee, Mr. Stone told his story
+##############
+____Arg2____
+896..922
+9
+#### Text ####
+He talked about 20 minutes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+924
+10
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+896..922
+9
+#### Text ####
+He talked about 20 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+924..983
+10,0;10,1;10,2;10,3;10,6
+#### Text ####
+When he was through, the court members asked many questions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+924..928
+10,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+945..983
+10,2
+#### Text ####
+the court members asked many questions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+929..943
+10,0,1
+#### Text ####
+he was through
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+985..989
+10,4
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+945..983
+10,2
+#### Text ####
+the court members asked many questions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+990..1072
+10,5
+#### Text ####
+the chairman said they would like to hear his manager's side and talk to witnesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1074
+11
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+985..1072
+10,1;10,3;10,4;10,5;10,6
+#### Text ####
+then the chairman said they would like to hear his manager's side and talk to witnesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1074..1133
+11
+#### Text ####
+The chairman promised Mr. Stone a decision within two weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1168..1171
+12,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+1137..1166
+12,0;12,1;12,2
+#### Text ####
+Bob Stone is a fictional name
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1172..1202
+12,4
+#### Text ####
+the incident described is real
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1204
+13
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1137..1202
+12
+#### Text ####
+Bob Stone is a fictional name, but the incident described is real
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1204..1248
+13
+#### Text ####
+It happened at Northrop Corp. in Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1250
+14
+____Arg1____
+1204..1248
+13
+#### Text ####
+It happened at Northrop Corp. in Los Angeles
+##############
+____Arg2____
+1250..1374
+14
+#### Text ####
+The court is called the Management Appeals Committee, or just "MAC," and it is likely to hear a couple of dozen cases a year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1319..1322
+14,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1250..1316
+14,0
+#### Text ####
+The court is called the Management Appeals Committee, or just "MAC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1323..1374
+14,4
+#### Text ####
+it is likely to hear a couple of dozen cases a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1413..1416
+15,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Condition.Hypothetical, Temporal.Asynchronous.Precedence
+____Arg1____
+1378..1412
+15,0
+#### Text ####
+Alter some details of this example
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1417..1625
+15,2
+#### Text ####
+it could be taking place today at Federal Express in Memphis, the Defense and Underseas Systems divisions of Honeywell in Minneapolis, a General Electric plant in Columbia, Md., or a number of other companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1627
+16
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1378..1625
+15
+#### Text ####
+Alter some details of this example and it could be taking place today at Federal Express in Memphis, the Defense and Underseas Systems divisions of Honeywell in Minneapolis, a General Electric plant in Columbia, Md., or a number of other companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1627..1748
+16
+#### Text ####
+These firms are pioneers in a significant new trend in the corporate world: the rise of what I call corporate due process
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1750
+17
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+1627..1748
+16
+#### Text ####
+These firms are pioneers in a significant new trend in the corporate world: the rise of what I call corporate due process
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1750..1894
+17
+#### Text ####
+Although corporate due process is practiced today in few companies -- perhaps 40 to 60 -- it is one of the fastest developing trends in industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1750..1758
+17,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1840..1894
+17,1;17,2;17,3
+#### Text ####
+it is one of the fastest developing trends in industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1759..1836
+17,0,1
+#### Text ####
+corporate due process is practiced today in few companies -- perhaps 40 to 60
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1896
+18
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1840..1894
+17,1;17,2;17,3
+#### Text ####
+it is one of the fastest developing trends in industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1896..1979
+18
+#### Text ####
+In the coming decade a majority of people-oriented companies are likely to adopt it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2053
+20
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Restatement.Specification
+____Arg1____
+1983..2051
+19
+#### Text ####
+Corporate due process appeals to management for a variety of reasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2053..2189
+20
+#### Text ####
+It reduces lawsuits from disgruntled employees and ex-employees, with all that means for reduced legal costs and better public relations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2191
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2053..2189
+20
+#### Text ####
+It reduces lawsuits from disgruntled employees and ex-employees, with all that means for reduced legal costs and better public relations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2191..2218
+21
+#### Text ####
+It helps to keep out unions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2220
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2053..2218
+20;21
+#### Text ####
+It reduces lawsuits from disgruntled employees and ex-employees, with all that means for reduced legal costs and better public relations.
+It helps to keep out unions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2220..2323
+22
+#### Text ####
+It increases employee commitment to the company, with all that means for efficiency and quality control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2325
+23
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2220..2323
+22
+#### Text ####
+It increases employee commitment to the company, with all that means for efficiency and quality control
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2325..2393
+23
+#### Text ####
+What must your management team do to establish corporate due process
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2475
+26
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2425..2473
+25
+#### Text ####
+Make sure you have a strong personnel department
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2475..2665
+26
+#### Text ####
+It must be able to handle most of the complaints that cannot be solved in the trenches by managers and their subordinates, else the company court or adjudicators will be inundated with cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2598..2602
+26,2
+#### Text ####
+else
+##############
+#### Features ####
+Wr, Comm, Null, Null
+else, Expansion.Alternative
+____Arg1____
+2475..2596
+26,0
+#### Text ####
+It must be able to handle most of the complaints that cannot be solved in the trenches by managers and their subordinates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2603..2665
+26,3
+#### Text ####
+the company court or adjudicators will be inundated with cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2667
+27
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2475..2665
+26
+#### Text ####
+It must be able to handle most of the complaints that cannot be solved in the trenches by managers and their subordinates, else the company court or adjudicators will be inundated with cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2667..2755
+27,0;27,1;27,2;27,3;27,5
+#### Text ####
+At Polaroid, the Personnel Policy Planning Committee may hear only about 20 cases a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2757
+27
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2667..2755
+27,0;27,1;27,2;27,3;27,5
+#### Text ####
+At Polaroid, the Personnel Policy Planning Committee may hear only about 20 cases a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2757..2831
+27,4
+#### Text ####
+the rest of the many hundreds of complaints are resolved at earlier stages
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2833
+28
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2667..2831
+27
+#### Text ####
+At Polaroid, the Personnel Policy Planning Committee may hear only about 20 cases a year; the rest of the many hundreds of complaints are resolved at earlier stages
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2833..2967
+28
+#### Text ####
+At TWA, the System Board of Adjustment hears 50 to 75 cases a year, only a fraction of the complaints brought to personnel specialists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2969
+29
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2667..2967
+27;28
+#### Text ####
+At Polaroid, the Personnel Policy Planning Committee may hear only about 20 cases a year; the rest of the many hundreds of complaints are resolved at earlier stages.
+At TWA, the System Board of Adjustment hears 50 to 75 cases a year, only a fraction of the complaints brought to personnel specialists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2969..3088
+29
+#### Text ####
+At Citicorp, the Problem Review Board may hear only 12 or so cases because of personnel's skill in complaint-resolution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3206
+31
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3092..3204
+30
+#### Text ####
+In a typical year, up to 20% of the work force goes to personnel specialists with complaints of unfair treatment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3206..3287
+31
+#### Text ####
+In a large company that means many hundreds of complaints for personnel to handle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3397
+33
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3294..3395
+32
+#### Text ####
+Formally or informally, train all your managers and supervisors in the company's due-process approach
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3397..3526
+33
+#### Text ####
+See that they know company personnel policy backwards and forwards, for it is the "law" governing company courts and adjudicators
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3465..3468
+33,2
+#### Text ####
+for
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for, Contingency.Cause.Reason
+____Arg1____
+3397..3463
+33,0
+#### Text ####
+See that they know company personnel policy backwards and forwards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3469..3526
+33,3
+#### Text ####
+it is the "law" governing company courts and adjudicators
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3528
+34
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3294..3526
+32;33
+#### Text ####
+Formally or informally, train all your managers and supervisors in the company's due-process approach.
+See that they know company personnel policy backwards and forwards, for it is the "law" governing company courts and adjudicators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3528..3607
+34
+#### Text ####
+Coach them in handling complaints so that they can resolve problems immediately
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3562..3569
+34,1,3,0;34,1,3,1
+#### Text ####
+so that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so that, Contingency.Cause.Result
+____Arg1____
+3528..3561
+34,0;34,1,0;34,1,1;34,1,2;34,2
+#### Text ####
+Coach them in handling complaints
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3570..3607
+34,1,3,2
+#### Text ####
+they can resolve problems immediately
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3609
+35
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+3294..3607
+32;33;34
+#### Text ####
+Formally or informally, train all your managers and supervisors in the company's due-process approach.
+See that they know company personnel policy backwards and forwards, for it is the "law" governing company courts and adjudicators.
+Coach them in handling complaints so that they can resolve problems immediately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3609..3863
+35
+#### Text ####
+In case managers and personnel specialists are unsuccessful and subordinates take their complaints to a company court or adjudicator, teach managers to accept reversals as a fact of business life, for in a good due-process system they are bound to happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3806..3809
+35,4
+#### Text ####
+for
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for, Contingency.Cause.Reason
+____Arg1____
+3758..3804
+35,2,1,2
+#### Text ####
+to accept reversals as a fact of business life
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3810..3863
+35,5
+#### Text ####
+in a good due-process system they are bound to happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3865
+36
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3806..3863
+35,1;35,3;35,4;35,5;35,6
+#### Text ####
+for in a good due-process system they are bound to happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3865..3947
+36
+#### Text ####
+In the 15 companies I studied, reversal rates range on the average from 20% to 40%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4018
+38
+#### Features ####
+Wr, Comm, Null, Null
+on the one hand, Expansion.Restatement.Specification
+____Arg1____
+3954..4016
+37
+#### Text ####
+Decide whether you want a panel system or a single adjudicator
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4018..4149
+38
+#### Text ####
+A panel system like that in the Bob Stone example enjoys such advantages as high credibility and, for the panelists, mutual support
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4151
+39
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Juxtaposition
+____Arg1____
+4018..4149
+38
+#### Text ####
+A panel system like that in the Bob Stone example enjoys such advantages as high credibility and, for the panelists, mutual support
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4151..4345
+39
+#### Text ####
+An adjudicator system -- that is, an investigator who acts first as a fact-finder and then switches hats and arbitrates the facts -- has such advantages as speed, flexibility and maximum privacy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4237..4241
+39,0,1,3,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4201..4232
+39,0,1,3,1,0;39,0,1,3,1,1,0;39,0,1,3,1,1,1,0
+#### Text ####
+who acts first as a fact-finder
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4233..4236;4242..4280
+39,0,1,3,1,1,1,1;39,0,1,3,1,1,1,3
+#### Text ####
+and switches hats and arbitrates the facts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4347
+40
+____Arg1____
+4151..4345
+39
+#### Text ####
+An adjudicator system -- that is, an investigator who acts first as a fact-finder and then switches hats and arbitrates the facts -- has such advantages as speed, flexibility and maximum privacy
+##############
+____Arg2____
+4347..4460
+40
+#### Text ####
+International Business Machines and Bank of America are among the companies using the single-adjudicator approach
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4505
+42
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4467..4503
+41
+#### Text ####
+Make your due-process system visible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4505..4568
+42
+#### Text ####
+It won't do any good for anybody unless employees know about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4538..4544
+42,1,2,3,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+4505..4537
+42,0;42,1,0;42,1,1;42,1,2,0;42,1,2,1;42,1,2,2;42,2
+#### Text ####
+It won't do any good for anybody
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4545..4568
+42,1,2,3,1
+#### Text ####
+employees know about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4570
+43
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4505..4568
+42
+#### Text ####
+It won't do any good for anybody unless employees know about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4570..4722
+43
+#### Text ####
+Most managements hesitate to go all out in advertising their due-process systems for fear of encouraging cranks and chronic soreheads to file complaints
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4724..4741
+44,0
+#### Text ####
+On the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Juxtaposition
+____Arg1____
+4570..4722
+43
+#### Text ####
+Most managements hesitate to go all out in advertising their due-process systems for fear of encouraging cranks and chronic soreheads to file complaints
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4743..4870
+44,1;44,2;44,3;44,4
+#### Text ####
+they make sure at a minimum that their systems are described in their employee handbooks and talked up by personnel specialists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4872
+45
+____Arg1____
+4724..4870
+44
+#### Text ####
+On the other hand, they make sure at a minimum that their systems are described in their employee handbooks and talked up by personnel specialists
+##############
+____Arg2____
+4872..4981
+45
+#### Text ####
+Smith-Kline Beecham goes further and sometimes features its grievance procedure in closed-circuit TV programs
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5106
+47
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5069..5104
+46,1;46,3;46,4
+#### Text ####
+is for top management to support it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5106..5209
+47
+#### Text ####
+At IBM, the company's Open Door system is sometimes the subject of memorandums from the chief executive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5211
+48
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5106..5209
+47
+#### Text ####
+At IBM, the company's Open Door system is sometimes the subject of memorandums from the chief executive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5211..5457
+48
+#### Text ####
+Federal Express goes further in this respect than any company I know of with both Frederick Smith and James Barksdale, chief executive and chief operating officer, respectively, sitting in on the Appeals Board almost every Tuesday to decide cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

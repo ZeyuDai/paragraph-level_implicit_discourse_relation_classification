@@ -1,0 +1,100 @@
+________________________________________________________
+____Implicit____
+189
+1
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+64..170
+0,1,1
+#### Text ####
+it completed the sale of 2.85 million shares of common priced at $10 a share in an initial public offering
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..63
+0,0;0,1,0;0,2
+#### Text ####
+This maker and marketer of cartridge tape systems said
+##############
+____Arg2____
+189..283
+1,1,1
+#### Text ####
+that it is selling two million shares and that the rest are being sold by certain stockholders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+172..188
+1,0;1,1,0;1,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+227..230
+1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+172..188
+1,0;1,1,0;1,2
+#### Text ####
+The company said
+##############
+and, Expansion.Conjunction
+____Arg1____
+189..226
+1,1,1,0
+#### Text ####
+that it is selling two million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+231..283
+1,1,1,2
+#### Text ####
+that the rest are being sold by certain stockholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+285
+2
+____Arg1____
+172..283
+1
+#### Text ####
+The company said that it is selling two million shares and that the rest are being sold by certain stockholders
+##############
+____Arg2____
+285..351
+2
+#### Text ####
+Proceeds will be used for capital expenditures and working capital
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+353
+3
+____Arg1____
+285..351
+2
+#### Text ####
+Proceeds will be used for capital expenditures and working capital
+##############
+____Arg2____
+353..433
+3
+#### Text ####
+Goldman, Sachs & Co. and Montgomery Securities Inc. are co-managing the offering
+##############
+________________________________________________________

@@ -1,0 +1,142 @@
+<p>
+Data and meta-data relevant to understanding <b>as texts</b> the files in the Penn
+TreeBank (LDC Catalog entry LDC99T42) and the Penn Discourse TreeBank
+(LDC Catalog entry LDC99T42), can be found in the 
+the TIPSTER WSJ corpus (LDC Catalog entry LDC93T3A). (The same
+information can be found in the ACL/DCI corpus, LDC Catalog entry LDC93T1.)
+This information can be accessed
+indirectly using <b>map files</b> that pair each Penn TreeBank file name
+(eg, wsj_0005) with its corresponding index in the TIPSTER WSJ corpus
+(eg, 891031-0011). While these <b>map files</b> are publically available
+via the LDC catalog entry for the Penn TreeBank, the LDC
+are now permitting us to make both meta-data and data directly available
+to current and future license holders of the Penn Discourse TreeBank
+and the Penn TreeBank.
+</p>
+
+<p>
+The meta-data for a Penn TreeBank file comprise the set of header fields
+from its TIPSTER entry, explained as follows in the
+<a href="http://www.ldc.upenn.edu/Catalog/desc/addenda/LDC93T3B_WSJsample">TIPSTER
+WSJ sample text</a>:
+<ul>
+<li> DD: the date the article appeared in the <i>Wall Street Journal</i>
+<li> AN: unique identifier for the article
+<li> HL: the column name (for regular features such as <Who's News>,
+<i>Marketing & Media</i>, <i>Technology</i>), its headline and by-line
+<li> SO: the source of the article
+<li> IN: manually-assigned codes or keywords for the article
+<li> CO: manually-assigned codes for companies or other organizations
+<li> DATELINE: normally the location where the article was filed, but
+ sometimes has very unexpected contents
+<li> GV: Branch of Government or Government Agency mentioned in the article
+</ul>
+While files usually have an AN field and two DD fields (dates in different formats),
+the other fields may or may not be present.
+</p>
+
+<p>
+Where the HL field goes over multiple lines in the original TIPSTER entry, 
+we have removed the line breaks. So where the TIPSTER file has:
+<br>
+<pre>
+  &#060;HL&#062; Technology & Health:
+  @  Asbestos Once Used in Kent Filters Led
+  @  To Workers' Cancer Deaths, Group Says 
+  @  ---- 
+  @  By Anne Newman
+  @  Staff Reporter of The Wall Street Journal &#060;/HL&#062; 
+</pre>
+the HL field for file wsj_0003.meta appears as:
+<br>
+<br>
+HL : Technology & Health:@  Asbestos Once Used in Kent Filters Led@  To Workers' Cancer Deaths, Group Says@  ----@  By Anne Newman@  Staff Reporter of The Wall Street Journal
+</p>
+
+<p>
+There are two sorts of data related to text structure:
+<ul>
+<li> indications as to where errors were made in creating Penn TreeBank files
+from TIPSTER entries, such that more than a single WSJ article from a
+TIPSTER file was included in a single Penn TreeBank file. 
+<li> indications as to where separator symbols appear in the body of the original
+WSJ article, indicating that it consists of a sequence
+of texts from different sources. For example, a separator symbol appears between
+each of the four letters
+to the editor in TIPSTER entry 891102-0087, corresponding to the Penn TreeBank
+file wsj_0105. The PTB file lacks such separators.
+</ul>
+</p>
+
+<p>
+Both these meta-data and data can be of value to discourse researchers.
+The meta-data
+can, for example, enable the texts to be distinguished by genre
+(news reports, editorials, etc.
+[<a href="http://www.aclweb.org/anthology-new/P/P09/Po9-1076.pdf">Webber, 2009</a>]
+or by topic
+[<a href="http://www.aclweb.org/anthology-new/J/J11/J11-2004.pdf">Petrenz and Webber,
+2011</a>]. These can then be used, for example, in text segmentation and
+text summarization, or in testing hypotheses about domain adaptation
+[<a href="http://www.aclweb.org/anthology-new/P/P11/P11-1157.pdf">Plank and van
+Noord, 2011</a>].
+The data, on the other hand, can allow researchers to distinguish separate
+texts within a single file
+(e.g. the four separate letters to the editor in file wsj_0105,
+or the two separate TIPSTER articles, each with its own meta-data,
+that were included in error in the same Penn TreeBank file (eg,  wsj_0814)
+and thereby avoid, for example, attempting to produce one summary for the entire file.
+</p>
+
+<p>
+This new resource created from the TIPSTER files employs
+the same file structure and conventions used in the Penn TreeBank
+and the PDTB 2.0. 
+The meta-data and data for a single Penn TreeBank / PDTB file (wsj_XXXX)
+reside in a corresponding file (wsj_XXXX.meta). All the files corresponding
+to a given section (XX) are in sub-directory XX.  The tarball distribution
+contains the 25 sub-directories 00 through 24.
+</p>
+
+<p>
+Each individual file starts with the meta-data from its corresponding
+article in the TIPSTER corpus, followed by a list headed <b>SBREAKS</b>
+of the byte positions of section breaks present in the file. For
+example:<br>
+<pre>
+  DOCNO : 891102-0087.
+  DD : = 891102
+  AN : 891102-0087.
+  HL : Letters to the Editor:@  Brutal World of Life on the Streets
+  DD : 11/02/89
+  SO : WALL STREET JOURNAL (J)
+  SBREAKS : 1988..1989;2857..2858;3536..3537;4077..4078
+</pre>
+</p>
+
+<p>Those files that, in error, contain more than one article from the TIPSTER
+corpus have two copies of the above data separated by ARTICLEBREAK, as for
+example wsj_0545:<br>
+<pre>
+  DOCNO : 891030-0156.
+  DD : = 891030
+  AN : 891030-0156.
+  HL : Canadian Pig Herd Shrinks
+  DD : 10/30/89
+  SO : WALL STREET JOURNAL (J)
+  CO : CANDA
+  DATELINE : OTTAWA
+  ARTICLEBREAK : 212..213
+  DOCNO : 891030-0155.
+  DD : = 891030
+  AN : 891030-0155.
+  HL : Who's News:@  American Federal Savings Bank of Duval County
+  DD : 10/30/89
+  SO : WALL STREET JOURNAL (J)
+  CO : AMJX WNEWS
+</pre>
+</p>
+
+
+
+

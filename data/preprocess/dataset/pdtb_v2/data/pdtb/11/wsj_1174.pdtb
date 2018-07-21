@@ -1,0 +1,998 @@
+________________________________________________________
+____Explicit____
+9..11
+0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Factual present
+____Arg1____
+69..77
+0,1;0,2;0,3;0,4
+#### Text ####
+who will
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12..67
+0,0,1
+#### Text ####
+bluebloods won't pay high prices for racehorses anymore
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+351..355
+3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+124..293
+2
+#### Text ####
+The Thoroughbred Owners and Breeders Association, a Lexington, Ky.-based trade group, has launched "seminars" for "potential investors" at race tracks around the country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+295..304;356..443
+3,0,0;3,0,1;3,0,3;3,2;3,3
+#### Text ####
+The group is considering promotional videos and perhaps a pitch to Wall Street investment bankers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+545..548
+5,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+494..542
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+says Josh Pons, a horse breeder from Bel Air, Md
+##############
+but, Comparison.Contrast
+____Arg1____
+448..491
+4,1
+#### Text ####
+People in this business have been insulated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+549..622
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+the real future of this game is in a number of people owning a few horses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+736
+7
+____Arg1____
+627..734
+6
+#### Text ####
+At the Laurel race track, the breeders are romancing people like Tim Hulings, a beer packaging plant worker
+##############
+____Arg2____
+736..874
+7
+#### Text ####
+Right now, Mr. Hulings is waving his racing program, cheering for Karnak on the Nile, a sleek thoroughbred galloping down the home stretch
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+925..938
+8,0,1,1,1,1,2,0;8,0,1,1,1,1,2,1
+#### Text ####
+a week before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+878..896
+8,0,0;8,0,1,0
+#### Text ####
+Mr. Hulings gloats
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+897..924
+8,0,1,1,0;8,0,1,1,1,0;8,0,1,1,1,1,0;8,0,1,1,1,1,1
+#### Text ####
+that he sold all his stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+939..981
+8,0,1,1,1,1,2,2
+#### Text ####
+the market plummeted 190 points on Oct. 13
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+983..986
+8,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+878..896
+8,0,0;8,0,1,0
+#### Text ####
+Mr. Hulings gloats
+##############
+and, Expansion.Conjunction
+____Arg1____
+897..981
+8,0,1,1
+#### Text ####
+that he sold all his stocks a week before the market plummeted 190 points on Oct. 13
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+987..1041
+8,3
+#### Text ####
+he is using the money to help buy a 45-acre horse farm
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1044
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+983..1041
+8,2;8,3;8,4
+#### Text ####
+and he is using the money to help buy a 45-acre horse farm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1044..1104
+9,1
+#### Text ####
+Just imagine how exciting that would be if that's your horse
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1107..1114
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1084..1086
+9,1,2,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Arb, Ctrl, Null, Indet
+1044..1056
+9,1,0;9,1,1;9,1,2,0
+#### Text ####
+Just imagine
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1057..1083
+9,1,2,1,0;9,1,2,1,1,0;9,1,2,1,1,1,0;9,1,2,1,1,1,1,0;9,1,2,1,1,1,1,1
+#### Text ####
+how exciting that would be
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1087..1104
+9,1,2,1,1,1,1,2,1
+#### Text ####
+that's your horse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1118..1121
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+81..120
+1
+#### Text ####
+Breeders are betting on the common folk
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1122..1201
+10,1;10,2;10,3
+#### Text ####
+experts caution that this isn't a game for anyone with a weak stomach or wallet
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1204
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+1138..1201
+10,2,1
+#### Text ####
+that this isn't a game for anyone with a weak stomach or wallet
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1118..1137
+10,0;10,1;10,2,0;10,3
+#### Text ####
+But experts caution
+##############
+____Arg2____
+1204..1228
+11,1
+#### Text ####
+It's a big-risk business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1231..1327
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+warns Charles C. Mihalek, a Lexington attorney and former Kentucky state securities commissioner
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1330
+12
+#### Features ####
+Ot, Comm, Null, Null
+1231..1327
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+warns Charles C. Mihalek, a Lexington attorney and former Kentucky state securities commissioner
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1204..1228
+11,1
+#### Text ####
+It's a big-risk business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1330..1432
+12
+#### Text ####
+You have to go into it firmly believing that it's the kind of investment where you can lose everything
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1437..1440
+13,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1330..1432
+12
+#### Text ####
+You have to go into it firmly believing that it's the kind of investment where you can lose everything
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1231..1327
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+warns Charles C. Mihalek, a Lexington attorney and former Kentucky state securities commissioner
+##############
+____Arg2____
+1441..1465
+13,1;13,2;13,3
+#### Text ####
+many have done just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1467
+14
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1437..1465
+13
+#### Text ####
+And many have done just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1622
+14
+#### Text ####
+Consider Spendthrift Farm, a prominent Lexington horse farm that went public in 1983 but hit hard times and filed for bankruptcy-court protection last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1624
+15
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+1527..1622
+14,1,1,2,1
+#### Text ####
+that went public in 1983 but hit hard times and filed for bankruptcy-court protection last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1624..1696
+15,0;15,1;15,2,0;15,2,1;15,2,2;15,3
+#### Text ####
+A group of investors recently bought the remaining assets of Spendthrift
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1838..1853
+17,0
+#### Text ####
+One big problem
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+1722..1836
+16
+#### Text ####
+Other investors have lost millions in partnerships that bought thoroughbred racehorses or stallion breeding rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1838..1896
+17
+#### Text ####
+One big problem has been the thoroughbred racehorse market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1898
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1838..1896
+17
+#### Text ####
+One big problem has been the thoroughbred racehorse market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1898..2002
+18
+#### Text ####
+From 1974 to 1984, prices for the best yearlings at the summer sales rose 918% to an average of $544,681
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2004
+19
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1898..2002
+18
+#### Text ####
+From 1974 to 1984, prices for the best yearlings at the summer sales rose 918% to an average of $544,681
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2004..2074
+19
+#### Text ####
+Since then, prices have slumped, to an average of $395,374 this summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2076..2079
+20,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2004..2074
+19
+#### Text ####
+Since then, prices have slumped, to an average of $395,374 this summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2080..2194
+20,1;20,2;20,3
+#### Text ####
+that's for the best horses, with most selling for much less -- as little as $100 for some pedestrian thoroughbreds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2196
+21
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Contrast
+____Arg1____
+2076..2194
+20
+#### Text ####
+But that's for the best horses, with most selling for much less -- as little as $100 for some pedestrian thoroughbreds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2196..2321
+21
+#### Text ####
+Even while they move outside their traditional tony circle, racehorse owners still try to capitalize on the elan of the sport
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2196..2206
+21,0,0;21,0,1
+#### Text ####
+Even while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+2256..2321
+21,1;21,2;21,3;21,4;21,5
+#### Text ####
+racehorse owners still try to capitalize on the elan of the sport
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2207..2254
+21,0,2
+#### Text ####
+they move outside their traditional tony circle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2323
+22
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2196..2321
+21
+#### Text ####
+Even while they move outside their traditional tony circle, racehorse owners still try to capitalize on the elan of the sport
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2323..2440
+22
+#### Text ####
+Glossy brochures circulated at racetracks gush about the limelight of the winner's circle and high-society schmoozing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2442
+23
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2323..2440
+22
+#### Text ####
+Glossy brochures circulated at racetracks gush about the limelight of the winner's circle and high-society schmoozing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2442..2522
+23
+#### Text ####
+One handout promises: "Pedigrees, parties, post times, parimutuels and pageantry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2684
+26
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2656..2682
+25
+#### Text ####
+Maybe it's not that simple
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2684..2807
+26
+#### Text ####
+For starters, racehorse buyers have to remember the basic problem of such ventures: These beasts don't come with warranties
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2809..2812
+27,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2768..2807
+26,3,1,1,1,1,2
+#### Text ####
+These beasts don't come with warranties
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2813..2857
+27,1;27,2;27,3;27,4;27,5
+#### Text ####
+for every champion, there are plenty of nags
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2859
+28
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2809..2857
+27
+#### Text ####
+And for every champion, there are plenty of nags
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2859..3040
+28
+#### Text ####
+Katherine Voss, a veteran trainer at the Laurel, Md., track, offers neophytes a sobering tour of a horse barn, noting that only three of about a dozen horses have won sizable purses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3099..3104
+29,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3044..3097
+29,0;29,1,0;29,1,1,0;29,1,1,1;29,1,1,2;29,1,1,4;29,2
+#### Text ####
+One brown two-year-old filly was wheezing from a cold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3105..3136
+29,1,1,3,1
+#### Text ####
+another had splints on its legs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3180
+30
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3044..3177
+29
+#### Text ####
+One brown two-year-old filly was wheezing from a cold, while another had splints on its legs, keeping both animals from the racetrack
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3180..3245
+30,1
+#### Text ####
+You can see the highs and lows of the business all under one roof
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3248..3267
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+she tells the group
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3270
+31
+#### Features ####
+Ot, Comm, Null, Null
+3248..3267
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+she tells the group
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+3180..3245
+30,1
+#### Text ####
+You can see the highs and lows of the business all under one roof
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3270..3299
+31
+#### Text ####
+There aren't too many winners
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3402
+33
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3304..3400
+32
+#### Text ####
+Perhaps the biggest hurdle owners face is convincing newcomers that this is a reputable business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3402..3520
+33
+#### Text ####
+Some badly managed partnerships have burned investors, sometimes after they received advice from industry "consultants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3457..3472
+33,1,1,3;33,1,1,4,0
+#### Text ####
+sometimes after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3402..3455
+33,0;33,1,0;33,1,1,0;33,1,1,1;33,1,1,2;33,2;33,3
+#### Text ####
+Some badly managed partnerships have burned investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3473..3520
+33,1,1,4,1
+#### Text ####
+they received advice from industry "consultants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3523..3525
+34,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3402..3520
+33
+#### Text ####
+Some badly managed partnerships have burned investors, sometimes after they received advice from industry "consultants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3526..3664
+34,1;34,2;34,3
+#### Text ####
+owners have developed a "code of ethics," outlining rules for consultants and agents, and disclosure of fees and any conflicts of interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3668..3671
+35,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3523..3664
+34
+#### Text ####
+So owners have developed a "code of ethics," outlining rules for consultants and agents, and disclosure of fees and any conflicts of interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3672..3718
+35,1;35,2;35,3
+#### Text ####
+some are skeptical of the code's effectiveness
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3721
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+3668..3718
+35
+#### Text ####
+But some are skeptical of the code's effectiveness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3721..3764
+36,1
+#### Text ####
+The industry is based on individual honesty
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3767..3857
+36,0;36,2;36,3;36,4;36,5;36,6
+#### Text ####
+says Cap Hershey, a Lexington horse farmer and one of the investors who bought Spendthrift
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3937
+38
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3861..3935
+37
+#### Text ####
+Despite the drop in prices for thoroughbreds, owning one still isn't cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3937..4034
+38
+#### Text ####
+At the low end, investors can spend $15,000 or more to own a racehorse in partnership with others
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4036
+39
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3937..4034
+38
+#### Text ####
+At the low end, investors can spend $15,000 or more to own a racehorse in partnership with others
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4036..4118
+39
+#### Text ####
+At a yearling sale, a buyer can go solo and get a horse for a few thousand dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4120..4123
+40,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4036..4118
+39
+#### Text ####
+At a yearling sale, a buyer can go solo and get a horse for a few thousand dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4124..4165
+40,0,1;40,0,2
+#### Text ####
+that means paying the horse's maintenance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4167..4219
+40,2
+#### Text ####
+on average, it costs $25,000 a year to raise a horse
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4167
+40
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4120..4165
+40,0
+#### Text ####
+But that means paying the horse's maintenance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4167..4219
+40,2
+#### Text ####
+on average, it costs $25,000 a year to raise a horse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

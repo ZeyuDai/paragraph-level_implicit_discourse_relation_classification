@@ -1,0 +1,66 @@
+________________________________________________________
+____Implicit____
+1110
+4
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+902..1108
+3,1,1
+#### Text ####
+Houston Lighting's current situation has some positive aspects, including managing "very well" the construction and commercial operation risks of Units 1 and 2 of the South Texas Project nuclear power plant
+##############
+#### Features ####
+Ot, Comm, Null, Null
+889..901
+3,0;3,1,0;3,2
+#### Text ####
+Moody's said
+##############
+____Arg2____
+1110..1216
+4,0
+#### Text ####
+Capital requirements will be declining and no new generating facilities will be required for several years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1218..1230
+4,1;4,2;4,3;4,4
+#### Text ####
+Moody's said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1149..1152
+4,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1218..1230
+4,1;4,2;4,3;4,4
+#### Text ####
+Moody's said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1110..1148
+4,0,0
+#### Text ####
+Capital requirements will be declining
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1153..1216
+4,0,2;4,0,3
+#### Text ####
+no new generating facilities will be required for several years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

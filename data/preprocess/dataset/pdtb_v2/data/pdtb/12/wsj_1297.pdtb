@@ -1,0 +1,672 @@
+________________________________________________________
+____Explicit____
+239..249
+1,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..235
+0
+#### Text ####
+Time Warner Inc. reported a third-quarter net loss of $176 million, or $2.88 cents a share, reflecting acquisition costs for a 59.3% stake in Warner Communications Inc. and the purchase method of accounting for the transaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+251..445
+1,1;1,2;1,3;1,4
+#### Text ####
+Warner reported a net loss of $106 million, or 56 cents a share, including merger expenses of $100 million and $120 million in charges associated with stock-appreciation-based compensation plans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+541
+3
+____Arg1____
+449..539
+2
+#### Text ####
+Time Warner is in the process of completing its acquisition of the remaining Warner shares
+##############
+____Arg2____
+541..725
+3
+#### Text ####
+Time Warner emphasized in a news release that it should be evaluated based on its cash flow, which the company defined as earnings before interest, taxes, depreciation and amortization
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+727
+4
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+541..725
+3
+#### Text ####
+Time Warner emphasized in a news release that it should be evaluated based on its cash flow, which the company defined as earnings before interest, taxes, depreciation and amortization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+727..1017
+4
+#### Text ####
+On a pro-forma basis, assuming the merger was effective Jan 1, 1988, including the results from both Time Inc. and all of Warner, that cash flow figure would be $526 million for the latest quarter, more than double the comparable figure a year ago, or $242 million, according to Time Warner
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1106
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1021..1103
+5
+#### Text ####
+Some analysts at least are buying that argument, and weren't alarmed by the losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1106..1166
+6,1,0
+#### Text ####
+What really matters is the operating income of the divisions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1237..1319
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said Mark Manson, a vice president of Donaldson, Lufkin & Jenrette Securities Corp
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1192..1195
+6,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1237..1319
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said Mark Manson, a vice president of Donaldson, Lufkin & Jenrette Securities Corp
+##############
+and, Expansion.Conjunction
+____Arg1____
+1168..1191
+6,1,2,0
+#### Text ####
+I look at these numbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1196..1234
+6,1,2,2
+#### Text ####
+I say, these businesses are doing well
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1322..1333
+7,1
+#### Text ####
+For example
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1237..1319
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said Mark Manson, a vice president of Donaldson, Lufkin & Jenrette Securities Corp
+##############
+for example, Expansion.Instantiation
+____Arg1____
+1203..1234
+6,1,2,2,1,2
+#### Text ####
+these businesses are doing well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1335..1411
+7,0;7,2;7,3;7,4;7,5
+#### Text ####
+Warner made more than $100 million from filmed entertainment in three months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1413
+8
+#### Features ####
+Ot, Comm, Null, Null
+1237..1319
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said Mark Manson, a vice president of Donaldson, Lufkin & Jenrette Securities Corp
+##############
+indeed, Expansion.Conjunction
+____Arg1____
+1322..1411
+7
+#### Text ####
+For example, Warner made more than $100 million from filmed entertainment in three months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1413..1432
+8
+#### Text ####
+That's a big number
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1441..1445
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1322..1411
+7
+#### Text ####
+For example, Warner made more than $100 million from filmed entertainment in three months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1237..1319
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+said Mark Manson, a vice president of Donaldson, Lufkin & Jenrette Securities Corp
+##############
+____Arg2____
+1434..1440;1446..1507
+9,0;9,2,0;9,2,1;9,2,2;9,3;9,4
+#### Text ####
+Warner had a gain of more than 13% from records and music publishing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1509..1520
+9,2,3,0;9,2,3,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+1434..1507
+9,0;9,1;9,2,0;9,2,1;9,2,2;9,3;9,4
+#### Text ####
+Warner also had a gain of more than 13% from records and music publishing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1521..1574
+9,2,3,2
+#### Text ####
+the domestic record business was sluggish this summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1680
+11
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1579..1678
+10
+#### Text ####
+In the year-ago third quarter, Time on its own reported net income of $81 million, or $1.42 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1680..1808
+11
+#### Text ####
+Combined revenue for the latest quarter of Time Warner was $2.2 billion, compared with the year-ago Time revenue of $1.1 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1974
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1812..1972
+12
+#### Text ####
+On a pro forma basis, including all of Warner's earnings, Time Warner had a third-quarter loss of $217 million, compared with a $342 million loss a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1974..2039
+13
+#### Text ####
+On the same basis, revenue rose to $2.7 billion from $2.2 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2161
+15
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2043..2159
+14
+#### Text ####
+For the third quarter, Warner's $106 million loss compared with a year-ago loss of $113 million, or 90 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2161..2207
+15
+#### Text ####
+Revenue rose to $1.5 billion from $1.1 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2209
+16
+____Arg1____
+2161..2207
+15
+#### Text ####
+Revenue rose to $1.5 billion from $1.1 billion
+##############
+____Arg2____
+2209..2326
+16
+#### Text ####
+The 1988 figures were restated to include the results of Lorimar Telepictures Corp., which Warner acquired in January
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2417
+18
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+2330..2414
+17
+#### Text ####
+Time Warner's operating earnings got a boost from Warner's record box-office results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2417..2551
+18
+#### Text ####
+Batman" alone has racked up more than $247 million in box-office receipts to date, making it Warner Bros. ' largest grossing film ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2554
+19
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2417..2551
+18
+#### Text ####
+Batman" alone has racked up more than $247 million in box-office receipts to date, making it Warner Bros. ' largest grossing film ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2554..2590
+19
+#### Text ####
+Lethal Weapon II" was also a big hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2576..2580
+19,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2417..2498
+18,0;18,1,0;18,1,1,0;18,1,1,1;18,1,1,2;18,1,1,3;18,1,1,4;18,2
+#### Text ####
+Batman" alone has racked up more than $247 million in box-office receipts to date
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2554..2575;2581..2590
+19,0;19,1;19,2;19,3,0;19,3,2;19,4
+#### Text ####
+Lethal Weapon II" was a big hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2599..2603
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2330..2414
+17
+#### Text ####
+Time Warner's operating earnings got a boost from Warner's record box-office results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2592..2598;2604..2654
+20,0;20,2,0;20,2,1,0;20,2,1,1,0;20,2,1,1,1,0;20,2,1,1,1,1;20,3
+#### Text ####
+Warner contributed record results from its music business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2947..2958
+22,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2786..2945
+21
+#### Text ####
+Time Warner said its cable division turned in a 77% increase in operating cash flow, to $166 million from $94 million, reflecting higher per-subscriber revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2960..3104
+22,1;22,2;22,3;22,4
+#### Text ####
+the 1988 results included a $20 million charge reflecting a reserve for relocation related expenses at American Television & Communications Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3108..3125
+23,0
+#### Text ####
+On the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Sup1____
+2905..2945
+21,1,1,1,1,7
+#### Text ####
+reflecting higher per-subscriber revenue
+##############
+____Arg1____
+2803..2903
+21,1,1,0;21,1,1,1,0;21,1,1,1,1,0;21,1,1,1,1,1;21,1,1,1,1,2;21,1,1,1,1,3;21,1,1,1,1,4;21,1,1,1,1,5;21,1,1,1,1,6
+#### Text ####
+its cable division turned in a 77% increase in operating cash flow, to $166 million from $94 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2786..2802
+21,0;21,1,0;21,2
+#### Text ####
+Time Warner said
+##############
+____Arg2____
+3144..3282
+23,3,1
+#### Text ####
+its operating cash flow declined in the quarter for its magazine division, its books division and the Home Box Office programming division
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3127..3143
+23,1;23,2;23,3,0;23,4
+#### Text ####
+Time Warner said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3284
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3144..3282
+23,3,1
+#### Text ####
+its operating cash flow declined in the quarter for its magazine division, its books division and the Home Box Office programming division
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3108..3143
+23,0;23,1;23,2;23,3,0;23,4
+#### Text ####
+On the other hand, Time Warner said
+##############
+____Arg2____
+3284..3674
+24;25
+#### Text ####
+In magazines, higher advertising revenues at Sports Illustrated and Fortune were offset by lower ad revenue for other major magazines.
+The programming division saw a decline in operating cash flow because the year-ago quarter included a $12 million dividend from Turner Broadcasting System and because the quarter includes expenses associated with the Nov. 15 launch of HBO's Comedy Channel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3419
+25
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3284..3417
+24
+#### Text ####
+In magazines, higher advertising revenues at Sports Illustrated and Fortune were offset by lower ad revenue for other major magazines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3419..3674
+25
+#### Text ####
+The programming division saw a decline in operating cash flow because the year-ago quarter included a $12 million dividend from Turner Broadcasting System and because the quarter includes expenses associated with the Nov. 15 launch of HBO's Comedy Channel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3481..3488
+25,1,2,0,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3419..3480
+25,0;25,1,0;25,1,1;25,2
+#### Text ####
+The programming division saw a decline in operating cash flow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3489..3573
+25,1,2,0,1
+#### Text ####
+the year-ago quarter included a $12 million dividend from Turner Broadcasting System
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3574..3577
+25,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3481..3573
+25,1,2,0
+#### Text ####
+because the year-ago quarter included a $12 million dividend from Turner Broadcasting System
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3578..3674
+25,1,2,2
+#### Text ####
+because the quarter includes expenses associated with the Nov. 15 launch of HBO's Comedy Channel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3578..3585
+25,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3419..3480
+25,0;25,1,0;25,1,1;25,2
+#### Text ####
+The programming division saw a decline in operating cash flow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3586..3674
+25,1,2,2,1
+#### Text ####
+the quarter includes expenses associated with the Nov. 15 launch of HBO's Comedy Channel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3775..3780
+26,3,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+3678..3773
+26,0;26,1;26,2;26,3,0;26,3,1;26,3,2;26,3,3;26,3,4;26,4
+#### Text ####
+In New York Stock Exchange composite trading, Time Warner closed at $138.625 a share, up $1.875
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3781..3828
+26,3,5,1
+#### Text ####
+Warner closed at $63.875 a share, up 12.5 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

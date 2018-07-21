@@ -1,0 +1,3193 @@
+________________________________________________________
+____Implicit____
+43
+1
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+9..41
+0
+#### Text ####
+Sam Ramirez and his men are late
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+43..213
+1
+#### Text ####
+They pile out of their truck and furiously begin twisting together steel pipes linking a giant storage tank to the Sharpshooter, a freshly drilled oil well two miles deep
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+217..219
+2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+239..273
+2,1;2,2;2,3;2,4
+#### Text ####
+the Sharpshooter can pump tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+220..237
+2,0,1
+#### Text ####
+they finish today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+275
+3
+____Arg1____
+217..273
+2
+#### Text ####
+If they finish today, the Sharpshooter can pump tomorrow
+##############
+____Arg2____
+275..394
+3
+#### Text ####
+One roustabout, hanging by his hands from a ladder, bounces his weight on a three-foot wrench to loosen a stuck fitting
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+397
+4
+____Arg1____
+275..394
+3
+#### Text ####
+One roustabout, hanging by his hands from a ladder, bounces his weight on a three-foot wrench to loosen a stuck fitting
+##############
+____Arg2____
+397..506
+4
+#### Text ####
+We've been putting in long hours," Mr. Ramirez says -- six-day weeks and 13-hour days for the last two months
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+508
+5
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+397..429;449..506
+4,0;4,1;4,2,0;4,2,1,0;4,2,1,1,0;4,2,1,1,1;4,2,1,1,2,0;4,2,1,1,2,1;4,2,1,1,2,2;4,2,1,1,2,4;4,2,1,1,2,5;4,3
+#### Text ####
+We've been putting in long hours -- six-day weeks and 13-hour days for the last two months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+432..448
+4,2,1,1,2,3
+#### Text ####
+Mr. Ramirez says
+##############
+____Arg2____
+508..518;582..635
+5,0,0;5,0,1;5,0,3;5,0,4;5,0,5;5,0,6
+#### Text ####
+A year ago you'd spend two days working and two days in the yard
+##############
+#### Features ####
+Ot, Comm, Null, Null
+638..648
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+he recalls
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+789
+7
+____Arg1____
+652..787
+6
+#### Text ####
+After a three-year nightmare of uncertain oil prices, draconian budget cuts and sweeping layoffs, fear is finally leaving the oil patch
+##############
+____Arg2____
+789..864
+7
+#### Text ####
+Independent drillers are gingerly sinking bits into the Earth's crust again
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+866
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+789..864
+7
+#### Text ####
+Independent drillers are gingerly sinking bits into the Earth's crust again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+866..918
+8
+#### Text ####
+Some in Big Oil are easing the grip on their wallets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+920
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+789..918
+7;8
+#### Text ####
+Independent drillers are gingerly sinking bits into the Earth's crust again.
+Some in Big Oil are easing the grip on their wallets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+920..993
+9
+#### Text ####
+Investment capital is creeping back, and oil properties are fetching more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+957..960
+9,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+920..955
+9,0
+#### Text ####
+Investment capital is creeping back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+961..993
+9,3
+#### Text ####
+oil properties are fetching more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1015..1019
+10,1,1
+#### Text ####
+even
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+920..993
+9
+#### Text ####
+Investment capital is creeping back, and oil properties are fetching more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+995..1029
+10
+#### Text ####
+Oil-tool prices are even edging up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1131
+13
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+1050..1129
+12
+#### Text ####
+In broadest terms, stability has quietly settled into international oil markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1131..1268
+13
+#### Text ####
+Mideast politics have calmed down and the squabbling within the Organization of Petroleum Exporting Countries seems under control for now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1165..1168
+13,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1131..1164
+13,0
+#### Text ####
+Mideast politics have calmed down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1169..1268
+13,2
+#### Text ####
+the squabbling within the Organization of Petroleum Exporting Countries seems under control for now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1271
+14
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1131..1268
+13
+#### Text ####
+Mideast politics have calmed down and the squabbling within the Organization of Petroleum Exporting Countries seems under control for now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1271..1342
+14,0
+#### Text ####
+The fundamentals of supply and demand once again are setting oil prices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1345..1398
+14,1;14,2;14,3
+#### Text ####
+says Victor Burk, an Arthur Andersen & Co. oil expert
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1400
+15
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1271..1342
+14,0
+#### Text ####
+The fundamentals of supply and demand once again are setting oil prices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1345..1398
+14,1;14,2;14,3
+#### Text ####
+says Victor Burk, an Arthur Andersen & Co. oil expert
+##############
+____Arg2____
+1400..1505
+15
+#### Text ####
+After years of wild swings, oil prices over the last 12 months have settled at around $15 to $20 a barrel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1608..1611
+17,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1509..1606
+16
+#### Text ####
+That isn't the $40 that delighted producers a decade ago or the $10 that pleased users a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1612..1781
+17,1;17,2;17,3
+#### Text ####
+it is high enough to prod the search for future supplies, low enough to promote consumption and, most important, steady enough for both producers and users to believe in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1830
+19
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1785..1828
+18
+#### Text ####
+Not that oil suddenly is a sure thing again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1830..1944
+19,0;19,1,0;19,1,1;19,1,2,0;19,1,2,1,0;19,1,2,1,1,0;19,1,2,1,1,1;19,1,2,1,1,2,0;19,1,2,1,1,2,1,0;19,1,2,1,1,2,1,1,0;19,1,2,1,1,2,1,1,1;19,2
+#### Text ####
+The current equilibrium is fragile and depends on steady, strong demand and continued relative harmony within OPEC
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2008
+20
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1830..2006
+19
+#### Text ####
+The current equilibrium is fragile and depends on steady, strong demand and continued relative harmony within OPEC, producer of more than 40% of the non-Communist world's crude
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2008..2083
+20
+#### Text ####
+A recession or new OPEC blowup could put oil markets right back in the soup
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2085..2089
+21,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2008..2083
+20
+#### Text ####
+A recession or new OPEC blowup could put oil markets right back in the soup
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2091..2150
+21,1;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+the new stirrings are faint, and some question their extent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2120..2123
+21,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2085..2118
+21,0;21,1;21,2;21,3
+#### Text ####
+Also, the new stirrings are faint
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2124..2150
+21,5
+#### Text ####
+some question their extent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2152
+22
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+2085..2150
+21
+#### Text ####
+Also, the new stirrings are faint, and some question their extent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2152..2267
+22
+#### Text ####
+Drilling activity is still far below eight years ago, there's no hiring surge and some companies continue to shrink
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2230..2233
+22,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2152..2229
+22,0;22,1;22,2
+#### Text ####
+Drilling activity is still far below eight years ago, there's no hiring surge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2234..2267
+22,4
+#### Text ####
+some companies continue to shrink
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2343
+24
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement
+____Arg1____
+2319..2340
+23,3,1
+#### Text ####
+something has changed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2286..2318
+23,1;23,2;23,3,0;23,4
+#### Text ####
+even the most wary oil men agree
+##############
+____Arg2____
+2343..2380
+24
+#### Text ####
+It doesn't appear to be getting worse
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2456..2510
+25,1;25,2;25,3
+#### Text ####
+says Glenn Cox, the president of Phillips Petroleum Co
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2382
+25
+#### Features ####
+Ot, Comm, Null, Null
+2456..2510
+25,1;25,2;25,3
+#### Text ####
+says Glenn Cox, the president of Phillips Petroleum Co
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2343..2380
+24
+#### Text ####
+It doesn't appear to be getting worse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2382..2453
+25,0
+#### Text ####
+That in itself has got to cause people to feel a little more optimistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2575
+27
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2514..2573
+26
+#### Text ####
+Though modest, the change reaches beyond the oil patch, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2575..2819
+27
+#### Text ####
+The same roller-coaster prices that halted U.S. oil exploration and drove many veteran oil men and companies out of the business also played havoc with the nation's inflation rate, the trade deficit and oil users' corporate and personal budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2704..2708
+27,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2606..2703
+27,0,1
+#### Text ####
+that halted U.S. oil exploration and drove many veteran oil men and companies out of the business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2575..2703;2709..2819
+27,0;27,2;27,3
+#### Text ####
+The same roller-coaster prices that halted U.S. oil exploration and drove many veteran oil men and companies out of the business played havoc with the nation's inflation rate, the trade deficit and oil users' corporate and personal budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2821
+28
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2575..2819
+27
+#### Text ####
+The same roller-coaster prices that halted U.S. oil exploration and drove many veteran oil men and companies out of the business also played havoc with the nation's inflation rate, the trade deficit and oil users' corporate and personal budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2821..2910
+28
+#### Text ####
+Now, at least some predictability has returned, for everyone from economists to motorists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2950
+30
+____Arg1____
+2914..2947
+29
+#### Text ####
+Corporate planners can plan again
+##############
+____Arg2____
+2950..3105
+30
+#### Text ####
+Management doesn't want surprises," notes Jack Zaves, who, as fuel-services director at American Airlines, buys some 2.4 billion gallons of jet fuel a year
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3107
+31
+____Arg1____
+2950..3105
+30
+#### Text ####
+Management doesn't want surprises," notes Jack Zaves, who, as fuel-services director at American Airlines, buys some 2.4 billion gallons of jet fuel a year
+##############
+____Arg2____
+3107..3194
+31
+#### Text ####
+Prices had been so unstable that two years ago Mr. Zaves gave up on long-term forecasts
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3198..3201
+32,0,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2914..2947
+29
+#### Text ####
+Corporate planners can plan again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3202..3234
+32,0,1;32,0,2;32,0,3;32,0,4;32,0,5
+#### Text ####
+consumers "should be comfortable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3237..3290
+32,1;32,2;32,3
+#### Text ####
+adds W. Henson Moore, U.S. deputy secretary of energy
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3293
+33
+#### Features ####
+Ot, Comm, Null, Null
+3237..3290
+32,1;32,2;32,3
+#### Text ####
+adds W. Henson Moore, U.S. deputy secretary of energy
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3198..3234
+32,0
+#### Text ####
+And consumers "should be comfortable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3293..3379
+33
+#### Text ####
+I don't see anything on the horizon that could lead to a precipitous rise in the price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3425
+35
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3384..3423
+34
+#### Text ####
+The catalyst for all this has been OPEC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3425..3599
+35
+#### Text ####
+About a year ago, it ended an on-again, off-again internal production war that had put prices on a roller coaster and pitched oil towns from Houston to Caracas into recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3601
+36
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3425..3599
+35
+#### Text ####
+About a year ago, it ended an on-again, off-again internal production war that had put prices on a roller coaster and pitched oil towns from Houston to Caracas into recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3601..3697
+36
+#### Text ####
+Saudi Arabia, OPEC's kingpin, abandoned a policy of flooding the market to punish quota-cheaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3699..3718
+37,0
+#### Text ####
+About the same time
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+3601..3697
+36
+#### Text ####
+Saudi Arabia, OPEC's kingpin, abandoned a policy of flooding the market to punish quota-cheaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3699..3775
+37
+#### Text ####
+About the same time, the Iran-Iraq war, which was roiling oil markets, ended
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3779..3790
+38,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3425..3775
+35;36;37
+#### Text ####
+About a year ago, it ended an on-again, off-again internal production war that had put prices on a roller coaster and pitched oil towns from Houston to Caracas into recession.
+Saudi Arabia, OPEC's kingpin, abandoned a policy of flooding the market to punish quota-cheaters.
+About the same time, the Iran-Iraq war, which was roiling oil markets, ended
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3792..3833
+38,1;38,2;38,3;38,4
+#### Text ####
+global petroleum demand has been climbing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3835
+39
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3779..3833
+38
+#### Text ####
+In addition, global petroleum demand has been climbing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3835..3934
+39
+#### Text ####
+It is projected to keep growing by a million barrels a day, or up to 2% annually, for years to come
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3962
+41
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3938..3960
+40
+#### Text ####
+For OPEC, that's ideal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3962..4062
+41,0
+#### Text ####
+The resulting firm prices and stability "will allow both producers and consumers to plan confidently
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4065..4109
+41,1;41,2;41,3
+#### Text ####
+says Saudi Arabian Oil Minister Hisham Nazer
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4152
+42
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3962..4062
+41,0
+#### Text ####
+The resulting firm prices and stability "will allow both producers and consumers to plan confidently
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4065..4109
+41,1;41,2;41,3
+#### Text ####
+says Saudi Arabian Oil Minister Hisham Nazer
+##############
+____Arg2____
+4152..4227
+42,1,2
+#### Text ####
+Consumers offer security of markets, while OPEC provides security of supply
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4111..4150
+42,0;42,1,0;42,1,1;42,2
+#### Text ####
+OPEC Secretary-General Subroto explains
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4189..4194
+42,1,2,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4111..4150
+42,0;42,1,0;42,1,1;42,2
+#### Text ####
+OPEC Secretary-General Subroto explains
+##############
+while, Expansion.Conjunction
+____Arg1____
+4152..4187
+42,1,2,0;42,1,2,1,0;42,1,2,1,1;42,1,2,1,2
+#### Text ####
+Consumers offer security of markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4195..4227
+42,1,2,1,3,1
+#### Text ####
+OPEC provides security of supply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4230
+43
+____Arg1____
+4111..4227
+42
+#### Text ####
+OPEC Secretary-General Subroto explains: Consumers offer security of markets, while OPEC provides security of supply
+##############
+____Arg2____
+4230..4332
+43
+#### Text ####
+This is an opportune time to find mutual ways {to prevent} price shocks from happening again," he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4428
+45
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4336..4426
+44
+#### Text ####
+To promote this balance, OPEC now is finally confronting a long-simmering internal problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4428..4569
+45
+#### Text ####
+At its November meeting, it will try to revise its quotas to satisfy Persian Gulf members that can produce far more oil than their allotments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4571
+46
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4428..4569
+45
+#### Text ####
+At its November meeting, it will try to revise its quotas to satisfy Persian Gulf members that can produce far more oil than their allotments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4571..4660
+46
+#### Text ####
+Being held well below capacity greatly irritates them, and has led to widespread cheating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4662
+47
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+4571..4660
+46
+#### Text ####
+Being held well below capacity greatly irritates them, and has led to widespread cheating
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4662..4771
+47
+#### Text ####
+OPEC has repeatedly raised its self-imposed production ceiling to legitimize some of that unauthorized output
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4989..4992
+49,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5171..5246
+49,1;49,2;49,3
+#### Text ####
+warns Nordine Ait-Laoussine, a consultant and former Algerian OPEC delegate
+##############
+but, Comparison
+____Sup1____
+4571..4987
+46;47;48
+#### Text ####
+Being held well below capacity greatly irritates them, and has led to widespread cheating.
+OPEC has repeatedly raised its self-imposed production ceiling to legitimize some of that unauthorized output. 
+
+Oil ministers now hope to solve the issue for good through an Iranian proposal that gives a larger share of output to countries with surplus capacity and reduces the shares of those that can't produce more anyway
+##############
+____Arg1____
+4428..4569
+45
+#### Text ####
+At its November meeting, it will try to revise its quotas to satisfy Persian Gulf members that can produce far more oil than their allotments
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+4994..5168
+49,0,1;49,0,2;49,0,3;49,0,4;49,0,5;49,0,6;49,0,7
+#### Text ####
+if they walk out without any effort to resolve their problem, production could increase to 23 million or 24 million barrels a day, making for a very troublesome first quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4994..4996
+49,0,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5171..5246
+49,1;49,2;49,3
+#### Text ####
+warns Nordine Ait-Laoussine, a consultant and former Algerian OPEC delegate
+##############
+if, Contingency.Condition.Hypothetical
+____Sup1____
+5125..5168
+49,0,5,1,3
+#### Text ####
+making for a very troublesome first quarter
+##############
+____Arg1____
+4989..4992;5056..5123
+49,0,0;49,0,1;49,0,3;49,0,4;49,0,5,0;49,0,5,1,0;49,0,5,1,1;49,0,5,1,2;49,0,6;49,0,7
+#### Text ####
+But production could increase to 23 million or 24 million barrels a day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4997..5054
+49,0,2,1
+#### Text ####
+they walk out without any effort to resolve their problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5360
+51
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5250..5358
+50
+#### Text ####
+That would send prices plummeting from what some gun-shy U.S. oil executives still regard as too low a level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5360..5526
+51
+#### Text ####
+Patrick J. Early, president of Amoco Corp. 's oil-production unit, says that despite recent stability, he plans continued tightening of costs and exploration spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5582..5603
+52,2,2,0;52,2,2,2;52,2,2,3,0
+#### Text ####
+very much {similar to
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion
+____Arg1____
+5432..5526
+51,1,1
+#### Text ####
+that despite recent stability, he plans continued tightening of costs and exploration spending
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5360..5431
+51,0;51,1,0;51,2
+#### Text ####
+Patrick J. Early, president of Amoco Corp. 's oil-production unit, says
+##############
+____Arg2____
+5528..5562;5579..5620
+52,0;52,2;52,3;52,4
+#### Text ####
+The view of some others in Big Oil is very much {similar to} Amoco's outlook
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5564..5576
+52,1
+#### Text ####
+he maintains
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5623
+53
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5528..5562;5579..5620
+52,0;52,2;52,3;52,4
+#### Text ####
+The view of some others in Big Oil is very much {similar to} Amoco's outlook
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5564..5576
+52,1
+#### Text ####
+he maintains
+##############
+____Arg2____
+5623..5726
+53
+#### Text ####
+Just this week Mobil Corp. disclosed new cutbacks in its domestic exploration and production operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5777..5784
+54,0,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+5360..5726
+51;52;53
+#### Text ####
+Patrick J. Early, president of Amoco Corp. 's oil-production unit, says that despite recent stability, he plans continued tightening of costs and exploration spending.
+The view of some others in Big Oil, he maintains, "is very much {similar to} Amoco's outlook." Just this week Mobil Corp. disclosed new cutbacks in its domestic exploration and production operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5730..5775;5786..5809
+54,0,0;54,0,1;54,0,2;54,0,4;54,0,5;54,0,6
+#### Text ####
+Out here on the Querecho Plains of New Mexico the mood is more upbeat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5847..5850
+54,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5811..5846
+54,2,0
+#### Text ####
+trucks rumble along the dusty roads
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5851..5915
+54,2,2
+#### Text ####
+burly men in hard hats sweat and swear through the afternoon sun
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5917
+55
+____Arg1____
+5730..5915
+54
+#### Text ####
+Out here on the Querecho Plains of New Mexico, however, the mood is more upbeat; trucks rumble along the dusty roads and burly men in hard hats sweat and swear through the afternoon sun
+##############
+____Arg2____
+5917..6049
+55
+#### Text ####
+Santa Fe Energy Co., a unit of Santa Fe Southern Pacific Co., bought from Amoco the rights that allowed it to drill the Sharpshooter
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+6051
+56
+____Arg1____
+5917..6049
+55
+#### Text ####
+Santa Fe Energy Co., a unit of Santa Fe Southern Pacific Co., bought from Amoco the rights that allowed it to drill the Sharpshooter
+##############
+____Arg2____
+6051..6146
+56
+#### Text ####
+A mile and a half away looms the 150-foot-tall rig of the Sniper, due to be pumping by December
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6149
+57
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6051..6146
+56
+#### Text ####
+A mile and a half away looms the 150-foot-tall rig of the Sniper, due to be pumping by December
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6149..6200
+57,0
+#### Text ####
+Talk is that everybody is going to drill more wells
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6203..6228
+57,1;57,2;57,3
+#### Text ####
+says foreman Tommy Folsom
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+6318
+59
+____Arg1____
+6232..6316
+58
+#### Text ####
+Santa Fe aims to drill about 30 wells in this area in 1989 and double that next year
+##############
+____Arg2____
+6318..6469
+59
+#### Text ####
+It is more aggressive than most, but it isn't the only company with a new attitude, as it found when it went looking for a partner for the Sharpshooter
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6351..6354
+59,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+6318..6349
+59,0
+#### Text ####
+It is more aggressive than most
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6355..6400
+59,3,0;59,3,1,0;59,3,1,1;59,3,1,2;59,3,1,3
+#### Text ####
+it isn't the only company with a new attitude
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6402..6404
+59,3,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Expansion
+____Arg1____
+6351..6400
+59,2;59,3,0;59,3,1,0;59,3,1,1;59,3,1,2;59,3,1,3;59,4
+#### Text ####
+but it isn't the only company with a new attitude
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6405..6469
+59,3,1,4,1
+#### Text ####
+it found when it went looking for a partner for the Sharpshooter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6414..6418
+59,3,1,4,1,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+6402..6413
+59,3,1,4,0;59,3,1,4,1,0;59,3,1,4,1,1,0
+#### Text ####
+as it found
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6419..6469
+59,3,1,4,1,1,1,1
+#### Text ####
+it went looking for a partner for the Sharpshooter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6472
+60
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+6318..6469
+59
+#### Text ####
+It is more aggressive than most, but it isn't the only company with a new attitude, as it found when it went looking for a partner for the Sharpshooter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6472..6532;6585..6605
+60,0;61
+#### Text ####
+We went to six companies over two days pitching the prospect Five were interested
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6535..6582
+60,1;60,2;60,3
+#### Text ####
+says Tim Parker, a Santa Fe exploration manager
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+6585
+61
+____Arg1____
+6472..6582
+60
+#### Text ####
+We went to six companies over two days pitching the prospect," says Tim Parker, a Santa Fe exploration manager
+##############
+____Arg2____
+6585..6605
+61
+#### Text ####
+Five were interested
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6740
+63
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+6610..6738
+62
+#### Text ####
+Mitchell Energy & Development Corp. became the partner, ponying up more than half of the $600,000 in drilling and start-up costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6740..6784
+63
+#### Text ####
+Mitchell will get a half-interest in the oil
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6787
+64
+____Arg1____
+6740..6784
+63
+#### Text ####
+Mitchell will get a half-interest in the oil
+##############
+____Arg2____
+6787..6896
+64
+#### Text ####
+A kind of no-mistakes mentality" had been stifling activity, says Don Covey, Mitchell's oil exploration chief
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6898
+65
+#### Features ####
+Ot, Comm, Null, Null
+6848..6896
+64,1;64,2;64,3
+#### Text ####
+says Don Covey, Mitchell's oil exploration chief
+##############
+but, Comparison.Contrast
+____Arg1____
+6787..6846
+64,0
+#### Text ####
+A kind of no-mistakes mentality" had been stifling activity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6898..6937
+65
+#### Text ####
+Now "everybody is a lot more optimistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7103
+67
+____Arg1____
+6942..7101
+66
+#### Text ####
+One attraction for oil operators here and in other fields is the bargain-basement cost of drilling and equipment, reflecting service companies' hunger for work
+##############
+____Arg2____
+7103..7220
+67
+#### Text ####
+Kadane Oil Co., a small Texas independent, is currently drilling two wells itself and putting money into three others
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+7222
+68
+____Arg1____
+7103..7220
+67
+#### Text ####
+Kadane Oil Co., a small Texas independent, is currently drilling two wells itself and putting money into three others
+##############
+____Arg2____
+7222..7338
+68
+#### Text ####
+One of its wells, in southwestern Oklahoma, is a "rank wildcat," a risky well where oil previously hasn't been found
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7525
+70
+#### Features ####
+Ot, Comm, Null, Null
+7483..7522
+69,1;69,2;69,3
+#### Text ####
+says George Kadane, head of the company
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+7343..7480
+69,0
+#### Text ####
+At this price, $18 plus or minus, and with costs being significantly less than they were several years ago, the economics are pretty good
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7525..7643
+70
+#### Text ####
+If you know you've got stability in price, you can do things you wouldn't do with the volatility of the past few years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7525..7527
+70,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7483..7522
+69,1;69,2;69,3
+#### Text ####
+says George Kadane, head of the company
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+7568..7643
+70,0;70,2;70,3;70,4;70,5;70,6
+#### Text ####
+you can do things you wouldn't do with the volatility of the past few years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7528..7566
+70,1,1
+#### Text ####
+you know you've got stability in price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7721
+72
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+7648..7719
+71
+#### Text ####
+The activity is enough to move some oil-service prices back up a little
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7721..7774
+72
+#### Text ####
+Some drill-bit prices have risen 5% in the past month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7776
+73
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+7721..7774
+72
+#### Text ####
+Some drill-bit prices have risen 5% in the past month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7776..7898
+73
+#### Text ####
+In the Gulf of Mexico, a boat to deliver supplies to offshore rigs now costs around $3,000 a day, up nearly 60% since June
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7900
+74
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+7721..7898
+72;73
+#### Text ####
+Some drill-bit prices have risen 5% in the past month.
+In the Gulf of Mexico, a boat to deliver supplies to offshore rigs now costs around $3,000 a day, up nearly 60% since June
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7900..8014
+74
+#### Text ####
+Some service boats recently were auctioned for about $1.7 million each, up from less than $1 million two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8016
+75
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+7721..8014
+72;73;74
+#### Text ####
+Some drill-bit prices have risen 5% in the past month.
+In the Gulf of Mexico, a boat to deliver supplies to offshore rigs now costs around $3,000 a day, up nearly 60% since June.
+Some service boats recently were auctioned for about $1.7 million each, up from less than $1 million two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8016..8161
+75
+#### Text ####
+At the bottom of the slump, Schlumberger Inc. was discounting 75% on an electronic evaluation of a well; now it discounts about 50%, drillers say
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8165..8170
+76,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Sup1____
+7721..8161
+72;73;74;75
+#### Text ####
+Some drill-bit prices have risen 5% in the past month.
+In the Gulf of Mexico, a boat to deliver supplies to offshore rigs now costs around $3,000 a day, up nearly 60% since June.
+Some service boats recently were auctioned for about $1.7 million each, up from less than $1 million two years ago.
+At the bottom of the slump, Schlumberger Inc. was discounting 75% on an electronic evaluation of a well; now it discounts about 50%, drillers say
+##############
+____Arg1____
+7648..7719
+71
+#### Text ####
+The activity is enough to move some oil-service prices back up a little
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8172..8197
+76,1;76,2;76,3;76,4
+#### Text ####
+there is money to be made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8199
+77
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+8165..8197
+76
+#### Text ####
+Still, there is money to be made
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8199..8340
+77
+#### Text ####
+Most oil companies, when they set exploration and production budgets for this year, forecast revenue of $15 for each barrel of crude produced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8219..8223
+77,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+8199..8217;8283..8340
+77,0;77,1;77,3;77,4;77,5
+#### Text ####
+Most oil companies forecast revenue of $15 for each barrel of crude produced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8224..8281
+77,2,1
+#### Text ####
+they set exploration and production budgets for this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8342
+78
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+8199..8340
+77
+#### Text ####
+Most oil companies, when they set exploration and production budgets for this year, forecast revenue of $15 for each barrel of crude produced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8342..8401
+78,0;78,1,0;78,1,1,0;78,1,1,1;78,2
+#### Text ####
+Prices have averaged more than $2 a barrel higher than that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8461..8463
+79,0
+#### Text ####
+So
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8465..8509
+79,1;79,2;79,3
+#### Text ####
+according to a Dun & Bradstreet Corp. survey
+##############
+so, Contingency.Cause.Result
+____Arg1____
+8342..8459
+78
+#### Text ####
+Prices have averaged more than $2 a barrel higher than that -- not a windfall, but at least a pleasant bonus for them
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+8465..8619
+79,1;79,2;79,3;79,4;79,5;79,6
+#### Text ####
+according to a Dun & Bradstreet Corp. survey, companies that had been refusing to spend even their very conservative budgets may loosen up before year end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8629
+80
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+8461..8619
+79
+#### Text ####
+So, according to a Dun & Bradstreet Corp. survey, companies that had been refusing to spend even their very conservative budgets may loosen up before year end
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8465..8509
+79,1;79,2;79,3
+#### Text ####
+according to a Dun & Bradstreet Corp. survey
+##############
+____Arg2____
+8629..8707
+80,1,1
+#### Text ####
+40% of those surveyed report that 1989 exploration spending will exceed 1988's
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8621..8628
+80,0;80,1,0;80,2
+#### Text ####
+It says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8757..8759
+81,1,1,4,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+8711..8756
+81,0;81,1,0;81,1,1,0;81,1,1,1;81,1,1,2;81,1,1,3;81,2
+#### Text ####
+Funds for drilling may inch up more next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8760..8782
+81,1,1,4,1
+#### Text ####
+oil prices stay stable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8784
+82
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+8711..8782
+81
+#### Text ####
+Funds for drilling may inch up more next year if oil prices stay stable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8784..8790;8838..8891
+82,0,0,0;82,0,0,1;82,0,0,3;82,0,1
+#### Text ####
+Texaco may raise spending, especially for low-risk prospects
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8893..8909
+82,1;82,2;82,3;82,4
+#### Text ####
+an official says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+8911
+83
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+8784..8790;8838..8891
+82,0,0,0;82,0,0,1;82,0,0,3;82,0,1
+#### Text ####
+Texaco may raise spending, especially for low-risk prospects
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8893..8909
+82,1;82,2;82,3;82,4
+#### Text ####
+an official says
+##############
+____Arg2____
+8911..8963
+83
+#### Text ####
+Outside investors, scarce since '86, are edging back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8965
+84
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+8911..8963
+83
+#### Text ####
+Outside investors, scarce since '86, are edging back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8965..9037;9105..9205
+84,0;84,2;84,3;84,4;84,5;84,6;84,7
+#### Text ####
+Although "it's still difficult to raise money for a pure wildcat program institutions are starting to see there are cycles to these things, and this one is beginning to turn
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9040..9102
+84,1
+#### Text ####
+says William Thomas, a Texas Commerce Bank official in Houston
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8965..8973
+84,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9040..9102
+84,1
+#### Text ####
+says William Thomas, a Texas Commerce Bank official in Houston
+##############
+although, Comparison.Contrast
+____Arg1____
+9105..9205
+84,2;84,3;84,4;84,5;84,6;84,7
+#### Text ####
+institutions are starting to see there are cycles to these things, and this one is beginning to turn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8975..9037
+84,0,1
+#### Text ####
+it's still difficult to raise money for a pure wildcat program
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9172..9175
+84,5,1,1,1,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9040..9102
+84,1
+#### Text ####
+says William Thomas, a Texas Commerce Bank official in Houston
+##############
+and, Expansion.Conjunction
+____Arg1____
+9105..9170
+84,2;84,3;84,4;84,5,0;84,5,1,0;84,5,1,1,0;84,5,1,1,1,0;84,5,1,1,1,1,0;84,5,1,1,1,1,1,0;84,5,1,1,1,1,1,1,0;84,5,1,1,1,1,1,1,1;84,6;84,7
+#### Text ####
+institutions are starting to see there are cycles to these things
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9176..9205
+84,5,1,1,1,1,1,1,3
+#### Text ####
+this one is beginning to turn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+9303..9313
+86,1,1,1,0
+#### Text ####
+especially
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Specification
+____Arg1____
+9210..9256
+85
+#### Text ####
+Wall Street generally likes the industry again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9258..9320
+86,0;86,1,0;86,1,1,0;86,1,1,1;86,1,1,2;86,2
+#### Text ####
+The appetite for oil-service stocks has been especially strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9322..9330
+86,1,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+9258..9320
+86,0;86,1,0;86,1,1,0;86,1,1,1;86,1,1,2;86,2
+#### Text ####
+The appetite for oil-service stocks has been especially strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9331..9427
+86,1,1,3,1
+#### Text ####
+some got hit yesterday when Shearson Lehman Hutton cut its short-term investment ratings on them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9429
+87
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+9258..9320
+86,0;86,1,0;86,1,1,0;86,1,1,1;86,1,1,2;86,2
+#### Text ####
+The appetite for oil-service stocks has been especially strong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9429..9596
+87
+#### Text ####
+Contractors such as Parker Drilling Co. are raising cash again through stock offerings, and for the first time in years, two oil-service companies recently went public
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9517..9520
+87,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9429..9515
+87,0
+#### Text ####
+Contractors such as Parker Drilling Co. are raising cash again through stock offerings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9521..9596
+87,3
+#### Text ####
+for the first time in years, two oil-service companies recently went public
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9599
+88
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9517..9596
+87,2;87,3;87,4
+#### Text ####
+and for the first time in years, two oil-service companies recently went public
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9599..9671
+88
+#### Text ####
+They are Grace Energy Corp. of Dallas and Marine Drilling Co. of Houston
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9784..9787
+90,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+9676..9782
+89
+#### Text ####
+Most oil companies are still reluctant to add to the office and professional staffs they slashed so deeply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9788..9815
+90,1;90,2;90,3
+#### Text ####
+a few new spots are opening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9817
+91
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+9784..9815
+90
+#### Text ####
+But a few new spots are opening
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9817..9899
+91
+#### Text ####
+Arthur Andersen, the accounting firm, has increased its energy staff 10% in a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9926..9928
+92,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Sup1____
+9981..10052
+92,5,1,1
+#### Text ####
+because so many roughnecks, roustabouts and others left after the crash
+##############
+____Arg1____
+9903..9924;9958..9980
+92,0;92,1;92,3;92,4;92,5,0;92,5,1,0;92,6
+#### Text ####
+Out in the oil fields shortages could appear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9929..9956
+92,2,1
+#### Text ####
+activity picks up much more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9981..9988
+92,5,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+9926..9956
+92,2
+#### Text ####
+if activity picks up much more
+##############
+____Arg1____
+9903..9924;9958..9980
+92,0;92,1;92,3;92,4;92,5,0;92,5,1,0;92,6
+#### Text ####
+Out in the oil fields shortages could appear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9989..10052
+92,5,1,1,1
+#### Text ####
+so many roughnecks, roustabouts and others left after the crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10054
+93
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Equivalence
+____Arg1____
+9903..9924;9958..10052
+92,0;92,1;92,3;92,4;92,5;92,6
+#### Text ####
+Out in the oil fields shortages could appear because so many roughnecks, roustabouts and others left after the crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10054..10086
+93
+#### Text ####
+Already "it's hard to get people
+##############
+#### Features ####
+Ot, Comm, Null, Null
+10106..10145
+94,1;94,2;94,3
+#### Text ####
+says one Santa Fe drilling foreman here
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+10088
+94
+#### Features ####
+Ot, Comm, Null, Null
+10106..10145
+94,1;94,2;94,3
+#### Text ####
+says one Santa Fe drilling foreman here
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+10054..10086
+93
+#### Text ####
+Already "it's hard to get people
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10088..10103
+94,0
+#### Text ####
+They're so busy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10190
+96
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+10149..10188
+95
+#### Text ####
+For most field workers, it's about time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10190..10201;10332..10413
+96,0,0;96,0,1;96,0,3;96,1;96,2;96,3
+#### Text ####
+Mr. Ramirez just got the first raise he can remember in eight years, to $8.50 an hour from $8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10254..10261
+96,0,2,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+10203..10253
+96,0,2,0;96,0,2,1,0;96,0,2,1,1,0;96,0,2,1,1,1;96,0,2,1,1,2;96,0,2,1,1,3
+#### Text ####
+who arrived late at the Sharpshooter with his crew
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10262..10330
+96,0,2,1,1,4,1
+#### Text ####
+he had started early in the morning setting up tanks at another site
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10415
+97
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+10190..10201;10332..10413
+96,0,0;96,0,1;96,0,3;96,1;96,2;96,3
+#### Text ####
+Mr. Ramirez just got the first raise he can remember in eight years, to $8.50 an hour from $8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10415..10511
+97
+#### Text ####
+Norman Young, a "mud-logger" at the Sniper well, has worked all but about nine days of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10513
+98
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+10415..10511
+97
+#### Text ####
+Norman Young, a "mud-logger" at the Sniper well, has worked all but about nine days of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10513..10620
+98,0
+#### Text ####
+Last year, "I was off a straight month, then one time for two to three weeks and another two to three weeks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+10623..10630
+98,1;98,2;98,3;98,4;98,5
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+10553..10557
+98,0,2
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+10623..10630
+98,1;98,2;98,3;98,4;98,5
+#### Text ####
+he says
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+10513..10551
+98,0,0
+#### Text ####
+Last year, "I was off a straight month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10558..10589
+98,0,3
+#### Text ####
+one time for two to three weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10702..10706
+99,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+10203..10330;10415..10511
+96,0,2;97
+#### Text ####
+who arrived late at the Sharpshooter with his crew because he had started early in the morning setting up tanks at another site Norman Young, a "mud-logger" at the Sniper well, has worked all but about nine days of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10634..10701;10707..10711
+99,0;99,1,0;99,1,2;99,2
+#### Text ####
+Butch McCarty, who sells oil-field equipment for Davis Tool Co., is busy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+10713
+100
+____Arg1____
+10634..10711
+99
+#### Text ####
+Butch McCarty, who sells oil-field equipment for Davis Tool Co., is also busy
+##############
+____Arg2____
+10713..10860
+100
+#### Text ####
+A native of the area, he is back now after riding the oil-field boom to the top, then surviving the bust running an Oklahoma City convenience store
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+10794..10798
+100,3,3,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+10750..10792
+100,3,3,0;100,3,3,1,0;100,3,3,1,1,0;100,3,3,1,1,1
+#### Text ####
+after riding the oil-field boom to the top
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10799..10860
+100,3,3,1,1,2,1;100,3,3,1,1,2,2;100,3,3,1,1,2,3
+#### Text ####
+surviving the bust running an Oklahoma City convenience store
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+10863
+101
+____Arg1____
+10713..10860
+100
+#### Text ####
+A native of the area, he is back now after riding the oil-field boom to the top, then surviving the bust running an Oklahoma City convenience store
+##############
+____Arg2____
+10863..10917
+101
+#### Text ####
+First year I came back there wasn't any work," he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+10928
+102
+#### Features ####
+Ot, Comm, Null, Null
+10910..10917
+101,1;101,2;101,3
+#### Text ####
+he says
+##############
+but, Comparison.Contrast
+____Arg1____
+10863..10907
+101,0
+#### Text ####
+First year I came back there wasn't any work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10928..10952
+102,2,1
+#### Text ####
+it's on the way back now
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+10920..10927
+102,0;102,1;102,2,0;102,3
+#### Text ####
+I think
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+10954..10957
+103,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+10910..10917
+101,1;101,2;101,3
+#### Text ####
+he says
+##############
+but, Comparison
+____Arg1____
+10920..10952
+102
+#### Text ####
+I think it's on the way back now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10958..10982
+103,1;103,2;103,3
+#### Text ####
+it won't be a boom again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10984
+104
+#### Features ####
+Ot, Comm, Null, Null
+11020..11031
+104,0,0,1;104,0,0,3;104,1;104,2;104,3;104,4
+#### Text ####
+he predicts
+##############
+rather, Expansion.Restatement.Generalization
+____Arg1____
+10954..10982
+103
+#### Text ####
+But it won't be a boom again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10984..11017
+104,0;104,1;104,4
+#### Text ####
+No major booms, no major setbacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11033
+105
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+10984..11017
+104,0;104,1;104,4
+#### Text ####
+No major booms, no major setbacks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11020..11031
+104,0,0,1;104,0,0,3;104,1;104,2;104,3;104,4
+#### Text ####
+he predicts
+##############
+____Arg2____
+11033..11185
+105
+#### Text ####
+Business has been good enough that he just took a spur-of-the-moment weekend trip to the mountain area of Cloudcroft, something "I haven't done in years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11256
+107
+#### Features ####
+Wr, Comm, Null, Null
+inasmuch as, Contingency.Cause.Reason
+____Arg1____
+11210..11254
+106,1,1
+#### Text ####
+that there certainly isn't any drilling boom
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11190..11209
+106,0;106,1,0;106,2
+#### Text ####
+The figures confirm
+##############
+____Arg2____
+11256..11425
+107
+#### Text ####
+Only 14,505 wells, including 4,900 dry holes, were drilled for oil and natural gas in the U.S. in the first nine months of the year, down 22.4% from the like 1988 period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+11429..11432
+108,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+11256..11425
+107
+#### Text ####
+Only 14,505 wells, including 4,900 dry holes, were drilled for oil and natural gas in the U.S. in the first nine months of the year, down 22.4% from the like 1988 period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11433..11500
+108,1;108,2;108,3
+#### Text ####
+that was off less than at midyear, when completions lagged by 27.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+11502..11505
+109,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+11210..11254
+106,1,1
+#### Text ####
+that there certainly isn't any drilling boom
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11190..11209
+106,0;106,1,0;106,2
+#### Text ####
+The figures confirm
+##############
+____Arg2____
+11506..11557
+109,1;109,2;109,3
+#### Text ####
+the number of rigs active in the U.S. is inching up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11559
+110
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+11502..11557
+109
+#### Text ####
+And the number of rigs active in the U.S. is inching up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11559..11676
+110
+#### Text ####
+According to Baker Hughes Inc., 992 rotary rigs were at work in the U.S. last week, up from the year-ago count of 933
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11559..11588
+110,0;110,1
+#### Text ####
+According to Baker Hughes Inc
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+11679
+111
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+11559..11676
+110
+#### Text ####
+According to Baker Hughes Inc., 992 rotary rigs were at work in the U.S. last week, up from the year-ago count of 933
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11679..11734
+111
+#### Text ####
+In 1981, before the bust, the rig count was above 4,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+11737
+112
+____Arg1____
+11679..11734
+111
+#### Text ####
+In 1981, before the bust, the rig count was above 4,000
+##############
+____Arg2____
+11737..11789
+112
+#### Text ####
+Global offshore-rig use shows a similar upward trend
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+11837
+114
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+11793..11835
+113
+#### Text ####
+Some equipment going to work is almost new
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11837..11941
+114,0;114,1;114,2,0;114,2,1;114,2,2;114,2,3;114,2,4,0;114,2,4,1,0;114,2,4,1,1,0;114,2,4,1,1,1,0;114,2,4,1,1,1,1;114,3
+#### Text ####
+Grace Energy just two weeks ago hauled a rig here 500 miles from Caspar, Wyo., to drill the Bilbrey well
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+11992
+115
+____Arg1____
+11837..11990
+114
+#### Text ####
+Grace Energy just two weeks ago hauled a rig here 500 miles from Caspar, Wyo., to drill the Bilbrey well, a 15,000-foot, $1-million-plus natural gas well
+##############
+____Arg2____
+11992..12071
+115
+#### Text ####
+The rig was built around 1980, but has drilled only two wells, the last in 1982
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+12073
+116
+____Arg1____
+11992..12071
+115
+#### Text ####
+The rig was built around 1980, but has drilled only two wells, the last in 1982
+##############
+____Arg2____
+12073..12098
+116
+#### Text ####
+Until now it had sat idle
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+12235
+118
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+12102..12233
+117
+#### Text ####
+For Zel Herring, owner and a cook at the Sandhills Luncheon Cafe, a tin building in midtown, all this has made for a very good year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12235..12292
+118,0
+#### Text ####
+After 11:30 a.m. or so "we have them standing and waiting
+##############
+#### Features ####
+Ot, Comm, Null, Null
+12295..12303
+118,1;118,2,0;118,2,1;118,2,2;118,3
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+12305..12307
+118,2,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+12235..12303
+118,0;118,1;118,2,0;118,2,1;118,2,2;118,3
+#### Text ####
+After 11:30 a.m. or so "we have them standing and waiting," she says
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12308..12516
+118,2,3,1;119
+#### Text ####
+she whips out orders for hamburgers and the daily special (grilled roast beef, cheese and jalapeno pepper sandwich on whole wheat, potato salad, baked beans and pudding, plus coffee or iced tea.
+Price: $4.50)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+12602
+121
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+12520..12600
+120
+#### Text ####
+Mike Huber, a roustabout, is even making it in his new career as an entrepreneur
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12602..12706
+121
+#### Text ####
+He started Arrow Roustabouts Inc. a year ago with a loan from a friend, since repaid, and now employs 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+12708
+122
+____Arg1____
+12602..12706
+121
+#### Text ####
+He started Arrow Roustabouts Inc. a year ago with a loan from a friend, since repaid, and now employs 15
+##############
+____Arg2____
+12708..12747
+122
+#### Text ####
+He got three trucks and a backhoe cheap
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+12750
+123
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+12708..12747
+122
+#### Text ####
+He got three trucks and a backhoe cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12750..12778
+123,0
+#### Text ####
+I want to add one more truck
+##############
+#### Features ####
+Ot, Comm, Null, Null
+12781..12795
+123,1;123,2;123,3
+#### Text ####
+Mr. Huber says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+12797
+124
+#### Features ####
+Ot, Comm, Null, Null
+12781..12795
+123,1;123,2;123,3
+#### Text ####
+Mr. Huber says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+12750..12778
+123,0
+#### Text ####
+I want to add one more truck
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12797..12840
+124
+#### Text ####
+I sense that it's going to continue to grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+12842
+125
+#### Features ####
+Ot, Comm, Null, Null
+12781..12795
+123,1;123,2;123,3
+#### Text ####
+Mr. Huber says
+##############
+also, Expansion.Conjunction
+____Arg1____
+12797..12840
+124
+#### Text ####
+I sense that it's going to continue to grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12842..12857
+125
+#### Text ####
+That's the word
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+12859
+126
+____Arg1____
+12842..12857
+125
+#### Text ####
+That's the word
+##############
+____Arg2____
+12859..12874
+126
+#### Text ####
+The word is out
+##############
+________________________________________________________

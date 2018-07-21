@@ -1,0 +1,157 @@
+________________________________________________________
+____Explicit____
+72..77
+0,0,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+146..164
+0,1;0,2;0,3;0,4
+#### Text ####
+the companies said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+9..70
+0,0,0;0,0,1,0;0,0,1,1,0;0,0,1,1,1;0,0,1,1,2
+#### Text ####
+A.L. Williams Corp. was merged into Primerica Corp., New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+78..144
+0,0,1,1,3,1
+#### Text ####
+a special meeting of Williams shareholders cleared the transaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+322
+2
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+168..320
+1
+#### Text ####
+Primerica, which had owned nearly 70% of Williams, will pay about 16.7 million shares, currently valued at almost $472 million, for the rest of Williams
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+322..396
+2
+#### Text ####
+The financial-services company will pay 0.82 share for each Williams share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+558
+4
+____Arg1____
+400..556
+3
+#### Text ####
+Williams shares, which were to be delisted from the New York Stock Exchange after the close of composite trading yesterday, closed at $23.25, off 12.5 cents
+##############
+____Arg2____
+558..599
+4
+#### Text ####
+Primerica closed at $28.25, down 50 cents
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+682
+6
+____Arg1____
+603..680
+5
+#### Text ####
+Williams, Duluth, Ga., is an insurance and financial-services holding company
+##############
+____Arg2____
+682..764
+6
+#### Text ####
+Its subsidiaries' services are marketed by closely held A.L. Williams & Associates
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+766
+7
+____Arg1____
+682..764
+6
+#### Text ####
+Its subsidiaries' services are marketed by closely held A.L. Williams & Associates
+##############
+____Arg2____
+766..871
+7
+#### Text ####
+Primerica, as expected, also acquired certain assets of the agency and assumed certain of its liabilities
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+790..794
+7,4
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+179..217
+1,0,2
+#### Text ####
+which had owned nearly 70% of Williams
+##############
+____Arg1____
+168..177;219..320
+1,0,0;1,0,1;1,0,3;1,1;1,2
+#### Text ####
+Primerica will pay about 16.7 million shares, currently valued at almost $472 million, for the rest of Williams
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+766..788;795..871
+7,0;7,1;7,2;7,3;7,5;7,6
+#### Text ####
+Primerica, as expected acquired certain assets of the agency and assumed certain of its liabilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+873
+8
+____Arg1____
+766..871
+7
+#### Text ####
+Primerica, as expected, also acquired certain assets of the agency and assumed certain of its liabilities
+##############
+____Arg2____
+873..896
+8
+#### Text ####
+Terms weren't disclosed
+##############
+________________________________________________________

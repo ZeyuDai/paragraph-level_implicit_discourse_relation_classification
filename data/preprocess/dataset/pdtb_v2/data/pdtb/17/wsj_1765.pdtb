@@ -1,0 +1,503 @@
+________________________________________________________
+____Explicit____
+74..76
+0,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+9..72
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+BankAmerica Corp. reported a 34% jump in third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+77..249
+0,1,3,1
+#### Text ####
+its rocket-like recovery from nearly ruinous losses several years ago continued to be fueled by growth in consumer loans, higher interest margins and negligible loan losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+518
+3
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+423..516
+2,1,1
+#### Text ####
+preliminary reports indicate the company wasn't materially affected by the Tuesday earthquake
+##############
+#### Features ####
+Ot, Comm, Null, Null
+396..422
+2,0;2,1,0;2,2
+#### Text ####
+BankAmerica spokesmen said
+##############
+____Arg2____
+518..618
+3
+#### Text ####
+All but eight of the 850 branches, which had some structural damage, reopened yesterday for business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+656..660
+4,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+694..715
+4,1;4,2;4,3;4,4
+#### Text ####
+a bank spokesman said
+##############
+also, Expansion.Conjunction
+____Sup1____
+553..585
+3,0,3
+#### Text ####
+which had some structural damage
+##############
+____Arg1____
+518..551;587..618
+3,0,0;3,0,1;3,0,2;3,0,4;3,1;3,2
+#### Text ####
+All but eight of the 850 branches reopened yesterday for business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+396..422
+2,0;2,1,0;2,2
+#### Text ####
+BankAmerica spokesmen said
+##############
+____Arg2____
+620..655;661..692
+4,0,0;4,0,2
+#### Text ####
+Automated teller machine operations were up and operating yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+822..825
+5,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+719..820
+5,0
+#### Text ####
+For the first time in nearly two years, BankAmerica results failed to improve in consecutive quarters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+826..897
+5,3
+#### Text ####
+the decline from the second quarter was attributable to special factors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+899
+6
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+719..820
+5,0
+#### Text ####
+For the first time in nearly two years, BankAmerica results failed to improve in consecutive quarters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+899..1003
+6
+#### Text ####
+Third-quarter profit was 16% below the $304 million, or $1.50 a share, earned in the 1989 second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1137
+8
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1007..1135
+7
+#### Text ####
+The company cited higher tax credits in the second quarter, totaling $63 million, compared with $28 million in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1137..1198
+8
+#### Text ####
+Excluding tax credits, profit was 6% below the second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1200..1203
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1137..1198
+8
+#### Text ####
+Excluding tax credits, profit was 6% below the second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1204..1324
+9,1;9,2;9,3
+#### Text ####
+that drop was caused entirely by a decline in Brazilian interest paid, to $5 million from $54 million the second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1328..1336
+10,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Sup1____
+1137..1324
+8;9
+#### Text ####
+Excluding tax credits, profit was 6% below the second quarter.
+But that drop was caused entirely by a decline in Brazilian interest paid, to $5 million from $54 million the second quarter
+##############
+____Arg1____
+1007..1135
+7
+#### Text ####
+The company cited higher tax credits in the second quarter, totaling $63 million, compared with $28 million in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1338..1563
+10,1;10,2;10,3;10,4
+#### Text ####
+BankAmerica continued to build its reserve against troubled foreign loans by boosting its loan-loss provision to $170 million, about the same as the previous quarter but well above the $100 million in the year-earlier quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1565
+11
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1328..1463
+10,0;10,1;10,2;10,3,0;10,3,1;10,3,2,0;10,3,2,1,0;10,3,2,1,1,0;10,3,2,1,1,1;10,3,2,1,1,2,0;10,3,2,1,1,2,1,0;10,3,2,1,1,2,1,1;10,4
+#### Text ####
+Moreover, BankAmerica continued to build its reserve against troubled foreign loans by boosting its loan-loss provision to $170 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1565..1672
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,1,1,2,0;11,1,1,2,1,0;11,1,1,2,1,1,0;11,1,1,2,1,1,1;11,1,1,2,1,1,2;11,2
+#### Text ####
+The provision rate was far above BankAmerica's actual net credit losses of $24 million in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1755..1766
+12,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1328..1751
+10;11
+#### Text ####
+Moreover, BankAmerica continued to build its reserve against troubled foreign loans by boosting its loan-loss provision to $170 million, about the same as the previous quarter but well above the $100 million in the year-earlier quarter.
+The provision rate was far above BankAmerica's actual net credit losses of $24 million in the third quarter, compared with $18 million in the second period and $38 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1785..1951
+12,3,1
+#### Text ####
+its reserve against troubled foreign-country loans, once below 25%, now amounts to 45% of the $6.4 billion of non-trade debt it calculates it is owed by those nations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1768..1784
+12,1;12,2;12,3,0;12,4
+#### Text ####
+BankAmerica said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1953
+13
+____Arg1____
+1755..1951
+12
+#### Text ####
+As a result, BankAmerica said its reserve against troubled foreign-country loans, once below 25%, now amounts to 45% of the $6.4 billion of non-trade debt it calculates it is owed by those nations
+##############
+____Arg2____
+1953..2114
+13
+#### Text ####
+That level is about the same as some other big banks, but far below the 85% and 100% reserves of Bankers Trust New York Corp. and J.P. Morgan & Co., respectively
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2162..2167
+14,3,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Sup1____
+1007..2114
+7;8;9;10;11;12;13
+#### Text ####
+The company cited higher tax credits in the second quarter, totaling $63 million, compared with $28 million in the third quarter.
+Excluding tax credits, profit was 6% below the second quarter.
+But that drop was caused entirely by a decline in Brazilian interest paid, to $5 million from $54 million the second quarter. 
+
+Moreover, BankAmerica continued to build its reserve against troubled foreign loans by boosting its loan-loss provision to $170 million, about the same as the previous quarter but well above the $100 million in the year-earlier quarter.
+The provision rate was far above BankAmerica's actual net credit losses of $24 million in the third quarter, compared with $18 million in the second period and $38 million a year earlier. 
+
+As a result, BankAmerica said its reserve against troubled foreign-country loans, once below 25%, now amounts to 45% of the $6.4 billion of non-trade debt it calculates it is owed by those nations.
+That level is about the same as some other big banks, but far below the 85% and 100% reserves of Bankers Trust New York Corp. and J.P. Morgan & Co., respectively
+##############
+____Arg1____
+899..1003
+6
+#### Text ####
+Third-quarter profit was 16% below the $304 million, or $1.50 a share, earned in the 1989 second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2118..2161;2168..2241
+14,0;14,1;14,2;14,3,0;14,3,2;14,3,3;14,3,4;14,4
+#### Text ####
+By any measure, third-quarter earnings were robust, equivalent to a 0.92% return on assets even excluding tax credits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2243
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2118..2241
+14
+#### Text ####
+By any measure, third-quarter earnings were still robust, equivalent to a 0.92% return on assets even excluding tax credits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2243..2456
+15
+#### Text ####
+By that key measure of operating efficiency, BankAmerica turned in a better performance than its well-regarded Los Angeles-based competitor, Security Pacific Corp., which posted a 0.89% return in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2458..2461
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2243..2456
+15
+#### Text ####
+By that key measure of operating efficiency, BankAmerica turned in a better performance than its well-regarded Los Angeles-based competitor, Security Pacific Corp., which posted a 0.89% return in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2462..2591
+16,1;16,2;16,3
+#### Text ####
+it continued to badly trail its San Francisco neighbor, Wells Fargo & Co., which reported an extraordinary 1.25% return on assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2593
+17
+____Arg1____
+2458..2591
+16
+#### Text ####
+But it continued to badly trail its San Francisco neighbor, Wells Fargo & Co., which reported an extraordinary 1.25% return on assets
+##############
+____Arg2____
+2593..2635
+17
+#### Text ####
+Both returns don't include any tax credits
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2780
+19
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2640..2692
+18,1
+#### Text ####
+They {BankAmerica} continue to show good performance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2695..2778
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+said Donald K. Crowley, an analyst with Keefe, Bruyette & Woods Inc., San Francisco
+##############
+____Arg2____
+2780..2911
+19
+#### Text ####
+In composite trading yesterday on the New York Stock Exchange, BankAmerica common stock edged up 12.5 cents to close at $32 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2988
+21
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2915..2986
+20
+#### Text ####
+Shareholder equity improved to 4.68% from 4.23% in the previous quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2988..3017;3135..3235
+21,0,0,0;21,0,0,1;21,0,0,4;21,0,1
+#### Text ####
+The 4.52% net interest margin was still markedly higher than the 3.91% ratio a year earlier, and is among the best in the industry
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3237..3250
+21,1;21,2;21,3;21,4
+#### Text ####
+analysts said
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+3473..3478
+23,0,1
+#### Text ####
+total
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Generalization
+____Arg1____
+3254..3457
+22
+#### Text ####
+The high margin partly stems from continued strong growth in high-yielding consumer loans, which jumped 31% to $17.47 billion from a year earlier, and residential mortgages, which rose 25% to $12 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3459..3510
+23
+#### Text ####
+BankAmerica's total loans rose 8% to $71.36 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

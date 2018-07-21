@@ -1,0 +1,976 @@
+________________________________________________________
+____Explicit____
+125..127
+0,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..123
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+A lack of enthusiasm with the latest economic data hampered the stock market's bid to extend Tuesday's sharp gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+128..177
+0,1,3,1
+#### Text ####
+prices closed slightly higher in sluggish trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+181..186
+1,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+296..381
+1,3,1
+#### Text ####
+profit-taking weighed on the market, with blue-chips bearing the brunt of the selling
+##############
+#### Features ####
+Ot, Comm, Null, Null
+283..295
+1,1;1,2;1,3,0;1,4
+#### Text ####
+traders said
+##############
+____Arg2____
+187..281
+1,0,1
+#### Text ####
+renewed optimism about the outlook for takeover activity boosted several so-called deal stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+614
+3
+____Arg1____
+558..612
+3,0
+#### Text ####
+Standard & Poor's 500-Stock Index added 0.84 to 341.20
+##############
+____Arg2____
+614..693
+3,2
+#### Text ####
+the rise was equivalent to a gain of about six points in the industrial average
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+695
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+558..693
+3
+#### Text ####
+Standard & Poor's 500-Stock Index added 0.84 to 341.20; the rise was equivalent to a gain of about six points in the industrial average
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+695..821
+4
+#### Text ####
+The Dow Jones Equity Market Index gained 0.99 to 319.75 and the New York Stock Exchange Composite Index went up 0.60 to 188.84
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+751..754
+4,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+695..750
+4,0
+#### Text ####
+The Dow Jones Equity Market Index gained 0.99 to 319.75
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+755..821
+4,2
+#### Text ####
+the New York Stock Exchange Composite Index went up 0.60 to 188.84
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+902
+6
+____Arg1____
+825..900
+5
+#### Text ####
+Advancing stocks led decliners on the New York Stock Exchange by 847 to 644
+##############
+____Arg2____
+902..982
+6
+#### Text ####
+Big Board volume amounted to 154,240,000 shares, down from 176.1 million Tuesday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1108
+8
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+986..1106
+7
+#### Text ####
+The October survey of corporate purchasing managers, as expected, provided evidence that economic growth remains subdued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1108..1185
+8,0
+#### Text ####
+An index of economic activity drawn from the survey stood last month at 47.6%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1187
+8
+____Arg1____
+1108..1185
+8,0
+#### Text ####
+An index of economic activity drawn from the survey stood last month at 47.6%
+##############
+____Arg2____
+1187..1271
+8,2
+#### Text ####
+a reading above 50% would have indicated that the manufacturing sector was improving
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1275..1278
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+986..1106
+7
+#### Text ####
+The October survey of corporate purchasing managers, as expected, provided evidence that economic growth remains subdued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1418..1477
+9,2;9,3;9,4,0;9,5
+#### Text ####
+stock prices firmed only modestly in response to the report
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1332..1335
+9,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1279..1331
+9,1,0;9,1,1,0
+#### Text ####
+with the index proving somewhat better than expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1336..1416
+9,1,1,2
+#### Text ####
+the widely anticipated report on October employment scheduled to arrive tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1482..1486
+9,4,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1275..1278;1418..1477
+9,0;9,2;9,3;9,4,0
+#### Text ####
+But stock prices firmed only modestly in response to the report
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1478..1481;1487..1495
+9,4,1;9,4,2,1;9,5
+#### Text ####
+and faltered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1622
+11
+#### Features ####
+Ot, Comm, Null, Null
+1546..1619
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Philip Puccio, head of equity trading at Prudential-Bache Securities
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1500..1543
+10,1
+#### Text ####
+This market's still going through its pains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1622..1717
+11
+#### Text ####
+The psychology is still: `We want (stocks) up, but if they don't carry we're going to sell them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1669..1672
+11,2,4,2
+#### Text ####
+but
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1622..1645
+11,0;11,1;11,2,0;11,2,1;11,2,2;11,2,3;11,3;11,4;11,5
+#### Text ####
+The psychology is still
+##############
+but, Comparison.Contrast
+____Arg1____
+1648..1667
+11,2,4,0
+#### Text ####
+We want (stocks) up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1673..1717
+11,2,4,3
+#### Text ####
+if they don't carry we're going to sell them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1673..1675
+11,2,4,3,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1622..1645
+11,0;11,1;11,2,0;11,2,1;11,2,2;11,2,3;11,3;11,4;11,5
+#### Text ####
+The psychology is still
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1669..1672;1693..1717
+11,2,4,2;11,2,4,3,1;11,2,4,3,2
+#### Text ####
+but we're going to sell them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1676..1692
+11,2,4,3,0,1
+#### Text ####
+they don't carry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1879..1883
+12,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1622..1717
+11
+#### Text ####
+The psychology is still: `We want (stocks) up, but if they don't carry we're going to sell them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1724..1877;1884..1920
+12,0,0;12,0,2
+#### Text ####
+Uncertainty about the prospects for further action to curtail stock-index arbitrage, a form of program trading blamed for recent volatility in the market contributed to its lack of direction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1922..1937
+12,1;12,2;12,3;12,4
+#### Text ####
+Mr. Puccio said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2156..2158
+14,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+2118..2137
+14,0;14,1,0;14,1,1,0;14,2
+#### Text ####
+Trading is expected
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+2138..2155
+14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1,0;14,1,1,1,1,1,1
+#### Text ####
+to remain subdued
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2159..2280
+14,1,1,1,1,1,2,1
+#### Text ####
+the market awaits tomorrow's release of the jobs data with the hope that it will point toward a decline in interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2291
+15
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+2118..2280
+14
+#### Text ####
+Trading is expected to remain subdued as the market awaits tomorrow's release of the jobs data with the hope that it will point toward a decline in interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2291..2401
+15,1,1,1
+#### Text ####
+that some people are reluctant to stick their necks out in any aggressive way until after the figures come out
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2283..2290
+15,1,0;15,1,1,0
+#### Text ####
+I sense
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2506..2508
+16,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2469..2505
+16,0;16,1,0;16,1,1;16,1,2;16,2
+#### Text ####
+Campbell Soup jumped 3 3/8 to 47 1/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2509..2663
+16,1,3,1
+#### Text ####
+the resignation of R. Gordon McGovern as president and chief executive officer sparked a revival of rumors that the company could become a takeover target
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2665
+17
+#### Features ####
+Wr, Comm, Null, Null
+additionally, Expansion.Conjunction
+____Arg1____
+2469..2663
+16
+#### Text ####
+Campbell Soup jumped 3 3/8 to 47 1/8 as the resignation of R. Gordon McGovern as president and chief executive officer sparked a revival of rumors that the company could become a takeover target
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2665..2770
+17,0
+#### Text ####
+Prudential-Bache Securities boosted the stock's short-term investment rating in response to the departure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2811
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2665..2770
+17,0
+#### Text ####
+Prudential-Bache Securities boosted the stock's short-term investment rating in response to the departure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2811..2884
+17,2,1,1,1,1,1
+#### Text ####
+the company will turn to new management "that's more financially oriented
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2799..2810
+17,2,1,1,0;17,2,1,1,1,0;17,2,1,1,1,1,0
+#### Text ####
+he believes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3212
+20
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Contrast
+____Arg1____
+3120..3193
+19
+#### Text ####
+Upjohn, a rumored target within the drug industry, advanced 7/8 to 38 7/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3212..3244;3271..3302
+20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0;20,1,1,1,1,1,1;20,1,1,1,1,1,3;20,1,1,1,1,1,4
+#### Text ####
+it plans a fourth-quarter charge for an early-retirement program
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3195..3211
+20,0;20,1,0;20,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3478
+22
+____Arg1____
+3306..3476
+21
+#### Text ####
+AMR climbed 1 3/4 to 73 1/8 amid rumors that New York developer Donald Trump was seeking financing to mount a new, lower offer for the parent company of American Airlines
+##############
+____Arg2____
+3478..3526
+22
+#### Text ####
+Mr. Trump withdrew a $120-a-share bid last month
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3553
+24
+____Arg1____
+3530..3551
+23
+#### Text ####
+UAL rose 1 1/2 to 177
+##############
+____Arg2____
+3553..3785
+24
+#### Text ####
+Drexel Burnham Lambert analyst Michael Derchin said he sees a 70% chance that the parent of United Airlines, the target of a failed $300-a-share offer from a labor-management group, will be acquired or restructured within six months
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3824..3829
+25,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3789..3823
+25,0;25,1,0;25,1,1;25,1,2;25,2
+#### Text ####
+Georgia Gulf added 1 3/4 to 51 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3830..3958
+25,1,3,1
+#### Text ####
+NL Industries, controlled by Dallas investor Harold Simmons, offered to acquire the stock it doesn't already own for $50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3960
+26
+____Arg1____
+3789..3958
+25
+#### Text ####
+Georgia Gulf added 1 3/4 to 51 1/4 after NL Industries, controlled by Dallas investor Harold Simmons, offered to acquire the stock it doesn't already own for $50 a share
+##############
+____Arg2____
+3960..4027
+26
+#### Text ####
+NL, which closed unchanged at 22 3/4, has a stake of just under 10%
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4083..4088
+27,0,2,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4055..4082
+27,0,2,0;27,0,2,1,0;27,0,2,1,1,0;27,0,2,1,1,1;27,0,2,1,1,2
+#### Text ####
+which surged 20 1/8 Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4089..4151
+27,0,2,1,1,3,1
+#### Text ####
+Georgia-Pacific launched a $3.18 billion offer for the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4231
+28
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+4031..4229
+27
+#### Text ####
+Great Northern Nekoosa, which surged 20 1/8 Tuesday after Georgia-Pacific launched a $3.18 billion offer for the company, dropped 1 3/8 to 61 1/2 in Big Board composite trading of 5.1 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4231..4305
+28
+#### Text ####
+Georgia-Pacific, which went down 2 1/2 Tuesday, lost another 1/2 to 50 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4362
+30
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4309..4360
+29
+#### Text ####
+Other paper and forest-products stocks closed mixed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4362..4601
+30
+#### Text ####
+Mead rose 3/4 to 39 1/2, Federal Paper Board added 1/2 to 24 3/8 and Scott Paper gained 1/2 to 48 3/8, while International Paper> fell 7/8 to 48 7/8,>< Champion In< ternational lost 3/8 to 31 1/2 and Louisiana-Pacific dropped 1/8 to 40 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4427..4430
+30,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4362..4426
+30,0;30,1;30,2
+#### Text ####
+Mead rose 3/4 to 39 1/2, Federal Paper Board added 1/2 to 24 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4431..4463
+30,4
+#### Text ####
+Scott Paper gained 1/2 to 48 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4465..4470
+30,6,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+4362..4463
+30,0;30,1;30,2;30,3;30,4;30,5;30,7
+#### Text ####
+Mead rose 3/4 to 39 1/2, Federal Paper Board added 1/2 to 24 3/8 and Scott Paper gained 1/2 to 48 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4471..4601
+30,6,1
+#### Text ####
+International Paper> fell 7/8 to 48 7/8,>< Champion In< ternational lost 3/8 to 31 1/2 and Louisiana-Pacific dropped 1/8 to 40 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4558..4561
+30,6,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4465..4557
+30,6,0;30,6,1,0;30,6,1,1;30,6,1,2
+#### Text ####
+while International Paper> fell 7/8 to 48 7/8,>< Champion In< ternational lost 3/8 to 31 1/2
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4562..4601
+30,6,1,4
+#### Text ####
+Louisiana-Pacific dropped 1/8 to 40 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4631..4633
+31,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4605..4630
+31,0;31,1,0;31,1,1;31,1,2;31,2
+#### Text ####
+Texaco rose 3/4 to 53 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4634..4666
+31,1,3,1
+#### Text ####
+4.4 million shares changed hands
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4668
+32
+____Arg1____
+4605..4666
+31
+#### Text ####
+Texaco rose 3/4 to 53 3/8 as 4.4 million shares changed hands
+##############
+____Arg2____
+4668..4749
+32,0
+#### Text ####
+Most of the volume came from trades designed to capture the stock's next dividend
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4751
+32
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4668..4749
+32,0
+#### Text ####
+Most of the volume came from trades designed to capture the stock's next dividend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4751..4804
+32,2
+#### Text ####
+Texaco has a yield of 5.6% and goes ex-dividend today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4850
+34
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+4808..4848
+33
+#### Text ####
+Santa Fe Pacific dropped 1 1/8 to 17 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4850..5029
+34
+#### Text ####
+The company's proposal to sell a 20% stake in its real-estate unit for around $400 million has caused analysts to consider whether to cut their estimates of Santa Fe's asset value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5058
+36
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+5033..5056
+35
+#### Text ####
+GenCorp tumbled 2 to 14
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5058..5183
+36
+#### Text ####
+The company forecast that fourth-quarter income from continuing operations would be "significantly" lower than a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5219
+38
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+5187..5217
+37
+#### Text ####
+Allergan went up 1/2 to 19 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5219..5330
+38
+#### Text ####
+The Food and Drug Administration allowed the company to begin marketing a new lens for use in cataract patients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5404
+40
+____Arg1____
+5334..5402
+39
+#### Text ####
+The American Stock Exchange Market Value Index gained 1.56 to 372.14
+##############
+____Arg2____
+5404..5436
+40
+#### Text ####
+Volume totaled 11,390,000 shares
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5482
+42
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+5440..5480
+41
+#### Text ####
+Old Spaghetti Warehouse rose 1 to 16 1/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5482..5553
+42
+#### Text ####
+Its net income for the September quarter rose about 41% from a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

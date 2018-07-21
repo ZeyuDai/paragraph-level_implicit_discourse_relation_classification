@@ -1,0 +1,984 @@
+________________________________________________________
+____Explicit____
+686..688
+3,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+639..685
+3,0;3,1,0;3,1,1,0;3,1,1,1;3,1,1,3;3,2
+#### Text ####
+The arbs may recoup some of their paper losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+689..723
+3,1,1,2,1
+#### Text ####
+the UAL deal gets patched up again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+836..851
+4,0
+#### Text ####
+In the meantime
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meantime, Temporal.Synchrony
+____Sup1____
+725..832
+3,1,1,4
+#### Text ####
+as they did in 1982 when Occidental Petroleum Co. rescued them with a $4 billion takeover of Cities Service
+##############
+____Arg1____
+639..723
+3,0;3,1,0;3,1,1,0;3,1,1,1;3,1,1,2;3,1,1,3;3,2
+#### Text ####
+The arbs may recoup some of their paper losses if the UAL deal gets patched up again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+853..912
+4,1;4,2;4,3;4,4
+#### Text ####
+the question faced by investors is: What is UAL stock worth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1047
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+987..1045
+5,4,1,1,1,1
+#### Text ####
+the stock is worth somewhere between $135 and $150 a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+961..986
+5,4,1,0;5,4,1,1,0;5,4,1,1,1,0
+#### Text ####
+that airline analysts say
+##############
+____Arg2____
+1047..1122
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1,0;6,1,1,1,1,1,1,0;6,1,1,1,1,1,1,1;6,2
+#### Text ####
+That's based on a multiple of anywhere between 8.5 to 10 times UAL earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1350..1364
+8,0;8,1,0;8,1,1,0
+#### Text ####
+That's because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+1197..1302
+7,0;7,1;7,2,0;7,2,1,0;7,2,1,1,0;7,2,1,1,1,0;7,2,1,1,1,1,0;7,2,1,1,1,1,1,0;7,2,1,1,1,1,1,1,0;7,2,1,1,1,1,1,1,1;7,3
+#### Text ####
+Airline stocks typically sell at a discount of about one-third to the stock market's price-earnings ratio
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1350..1472
+8
+#### Text ####
+That's because airline earnings, like those of auto makers, have been subject to the cyclical ups-and-downs of the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1357..1364
+8,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1350..1356
+8,0;8,1,0;8,2
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1365..1472
+8,1,1,1
+#### Text ####
+airline earnings, like those of auto makers, have been subject to the cyclical ups-and-downs of the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1688..1690
+10,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1529..1684
+9,1,2,1,2
+#### Text ####
+that, despite the huge drop in the stock, UAL hasn't returned to the level at which it could attract buying by institutions solely on the basis of earnings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1501..1528
+9,1,2,0;9,1,2,1,0;9,1,2,1,1
+#### Text ####
+with stock traders' reports
+##############
+____Arg2____
+1691..1871
+10,1;10,2;10,3
+#### Text ####
+anyone buying the stock now is betting on some special transaction such as a recapitalization or takeover, and must do so using some guesswork about the likelihood of such an event
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2015..2018
+11,1,1,1,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1875..1886;1920..1936
+11,0,0;11,0,1;11,0,3;11,1,0;11,1,1,0;11,1,1,1,0;11,1,1,1,1,0
+#### Text ####
+One analyst said he believes
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1937..2012
+11,1,1,1,1,1,0
+#### Text ####
+that the UAL pilots and management can put together a bid "in the $225 area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2019..2067
+11,1,1,1,1,1,2
+#### Text ####
+that it could take three to four months to close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2069
+12
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1937..2067
+11,1,1,1,1,1
+#### Text ####
+that the UAL pilots and management can put together a bid "in the $225 area," but that it could take three to four months to close
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1925..1936
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0
+#### Text ####
+he believes
+##############
+____Arg2____
+2069..2157
+12
+#### Text ####
+At that level, and given the uncertainty, he believes UAL stock should trade closer to 
+
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2302..2309
+13,1,1,1,1,1,4,0;13,1,1,1,1,1,4,1
+#### Text ####
+even if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2158..2178
+13,0;13,1,0;13,2
+#### Text ####
+Other observers note
+##############
+if, Comparison.Concession.Expectation
+____Sup1____
+2197..2234
+13,1,1,1,0,1;13,1,1,1,0,2;13,1,1,1,0,3
+#### Text ####
+having accepted a bid of $300 a share
+##############
+____Arg1____
+2179..2195;2236..2298
+13,1,1,0;13,1,1,1,0,0;13,1,1,1,1,0;13,1,1,1,1,1,0;13,1,1,1,1,1,1;13,1,1,1,1,1,2;13,1,1,1,1,1,3
+#### Text ####
+that UAL's board might hold out for a new bid much closer to the original level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2310..2416
+13,1,1,1,1,1,4,2
+#### Text ####
+it means that the management goes back to running the company for a while and lets things return to normal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2418
+14
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2179..2416
+13,1,1
+#### Text ####
+that UAL's board, having accepted a bid of $300 a share, might hold out for a new bid much closer to the original level -- even if it means that the management goes back to running the company for a while and lets things return to normal
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2158..2178
+13,0;13,1,0;13,2
+#### Text ####
+Other observers note
+##############
+____Arg2____
+2418..2507
+14,0;14,1;14,2;14,3,0;14,3,1,0;14,3,1,1;14,3,1,2;14,4
+#### Text ####
+By that logic, the closing of a deal could be much further away than three to four months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2509..2520
+14,3,1,3,0;14,3,1,3,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession
+____Arg1____
+2418..2507
+14,0;14,1;14,2;14,3,0;14,3,1,0;14,3,1,1;14,3,1,2;14,4
+#### Text ####
+By that logic, the closing of a deal could be much further away than three to four months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2521..2555
+14,3,1,3,2
+#### Text ####
+the eventual price might be higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2950
+17
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2783..2948
+16
+#### Text ####
+The pilots have a strong financing tool in their willingness to cut their annual compensation by $200 million, and to commit $200 million from their retirement funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2950..3019
+17
+#### Text ####
+On Friday, they also persuaded the UAL flight attendants to join them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2966..2970
+17,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2783..2948
+16
+#### Text ####
+The pilots have a strong financing tool in their willingness to cut their annual compensation by $200 million, and to commit $200 million from their retirement funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2950..2965;2971..3019
+17,0;17,1;17,2;17,4;17,5
+#### Text ####
+On Friday, they persuaded the UAL flight attendants to join them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3023..3030
+18,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+2783..2948
+16
+#### Text ####
+The pilots have a strong financing tool in their willingness to cut their annual compensation by $200 million, and to commit $200 million from their retirement funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3055..3356
+18,3,1
+#### Text ####
+that banks aren't likely to lend the almost $5 billion that would be necessary for a takeover even at a lower price without someone putting up a hefty wad of cash -- probably even greater than the 17% in cash put up by investors in the leveraged takeover of Northwest Airlines parent NWA Corp. in July
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3032..3054
+18,1;18,2;18,3,0;18,4
+#### Text ####
+investment bankers say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3467
+20
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3360..3465
+19
+#### Text ####
+Banks want to see someone putting up real cash at risk, that is, subordinate to the bank debt in any deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3467..3475;3490..3644
+20,0;20,2;20,3;20,4
+#### Text ####
+That way someone else has an even stronger motivation to make sure the deal is going to work, because they would be losing their money before the banks lost theirs
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3477..3488
+20,1
+#### Text ####
+they figure
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3575..3582
+20,3,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3477..3488
+20,1
+#### Text ####
+they figure
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3467..3475;3490..3573
+20,0;20,2;20,3,0;20,3,1;20,3,2;20,4
+#### Text ####
+That way someone else has an even stronger motivation to make sure the deal is going to work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3583..3644
+20,3,3,1
+#### Text ####
+they would be losing their money before the banks lost theirs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3616..3622
+20,3,3,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3575..3615
+20,3,3,0;20,3,3,1,0;20,3,3,1,1,0;20,3,3,1,1,1,0;20,3,3,1,1,1,1,0;20,3,3,1,1,1,1,1
+#### Text ####
+because they would be losing their money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3623..3644
+20,3,3,1,1,1,1,2,1
+#### Text ####
+the banks lost theirs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3654..3658
+21,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+3467..3644
+20
+#### Text ####
+That way, they figure, someone else has an even stronger motivation to make sure the deal is going to work, because they would be losing their money before the banks lost theirs
+##############
+____Arg1____
+3360..3465
+19
+#### Text ####
+Banks want to see someone putting up real cash at risk, that is, subordinate to the bank debt in any deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3648..3653;3659..3798
+21,0;21,2;21,3
+#### Text ####
+Banks want to be able to call someone on the telephone to fix a problem with a deal that goes bad -- preferably someone other than a union leader
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4088
+24
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+3982..4086
+23
+#### Text ####
+One obstacle to the pilots' finding such a huge amount of cash is their insistence on majority ownership
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4088..4231
+24
+#### Text ####
+Investors such as Marvin Davis of Los Angeles who have sought airline ownership this year have insisted they, not the pilots, must have control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4398
+26
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4235..4396
+25
+#### Text ####
+One way out of that dilemma could be a partial recapitalization in which the pilots would wind up sharing the value of their concessions with public shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4398..4578
+26
+#### Text ####
+The pilots could borrow against the value of their concessions, using the proceeds to buy back stock from the public and give themselves the majority control they have been seeking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4582..4585
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4235..4578
+25;26
+#### Text ####
+One way out of that dilemma could be a partial recapitalization in which the pilots would wind up sharing the value of their concessions with public shareholders.
+The pilots could borrow against the value of their concessions, using the proceeds to buy back stock from the public and give themselves the majority control they have been seeking
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4586..4685
+27,1;27,2;27,3
+#### Text ####
+it isn't clear that banks would lend sufficient money to deliver a big enough price to shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4687
+28
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4582..4685
+27
+#### Text ####
+But it isn't clear that banks would lend sufficient money to deliver a big enough price to shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4687..4761
+28
+#### Text ####
+The lack of any new cash probably would still leave the banks dissatisfied
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4763
+29
+____Arg1____
+4687..4761
+28
+#### Text ####
+The lack of any new cash probably would still leave the banks dissatisfied
+##############
+____Arg2____
+4763..5022
+29
+#### Text ####
+In advising the UAL board on the various bids for the airline, starting with one for $240 a share from Mr. Davis, the investment bank of First Boston came up with a wide range of potential values for the company, depending on appraisal methods and assumptions
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5280
+31
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+5026..5278
+30
+#### Text ####
+Using the the NWA takeover as a benchmark, First Boston on Sept. 14 estimated that UAL was worth $250 to $344 a share based on UAL's results for the 12 months ending last June 30, but only $235 to $266 based on a management estimate of results for 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5280..5365
+31
+#### Text ####
+First Boston's estimates had been higher before management supplied a 1989 projection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5321..5327
+31,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+5280..5320
+31,0;31,1,0;31,1,1,0;31,1,1,1;31,2
+#### Text ####
+First Boston's estimates had been higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5328..5365
+31,1,1,2,1
+#### Text ####
+management supplied a 1989 projection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5785..5788
+33,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5369..5781
+32
+#### Text ####
+Using estimates of the company's future earnings under a variety of scenarios, First Boston estimated UAL's value at $248 to $287 a share if its future labor costs conform to Wall Street projections; $237 to $275 if the company reaches a settlement with pilots similar to one at NWA; $98 to $121 under an adverse labor settlement, and $229 to $270 under a pilot contract imposed by the company following a strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5789..5914
+33,1;33,2;33,3;33,4;33,5
+#### Text ####
+using liquidation value assuming the sale of all UAL assets, First Boston estimated the airline is worth $253 to $303 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5958..5964
+34,3,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+5918..5957
+34,0;34,1;34,2;34,3,0;34,4
+#### Text ####
+Unfortunately, all those estimates came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5965..6029
+34,3,1,1
+#### Text ####
+airline industry fundamentals deteriorated during the past month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6031
+35
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5918..6029
+34
+#### Text ####
+Unfortunately, all those estimates came before airline industry fundamentals deteriorated during the past month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6031..6159
+35
+#### Text ####
+American Airlines parent AMR and USAir Group, both subject to takeover efforts themselves, have each warned of declining results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6237
+37
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6163..6235
+36
+#### Text ####
+Some analysts don't expect a quick revival of any takeover by the pilots
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6237..6249;6284..6304
+37,0;37,1,0;37,1,2;37,1,3;37,2
+#### Text ####
+The deal has so many moving parts
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6251..6281
+37,1,1
+#### Text ####
+as one takeover expert puts it
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6306
+38
+#### Features ####
+Ot, Comm, Null, Null
+6251..6281
+37,1,1
+#### Text ####
+as one takeover expert puts it
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+6237..6249;6284..6304
+37,0;37,1,0;37,1,2;37,1,3;37,2
+#### Text ####
+The deal has so many moving parts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6306..6423
+38
+#### Text ####
+I don't see anybody who's sophisticated getting his name associated with this mess until the moving parts stop moving
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6389..6394
+38,1,2,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+6306..6317
+38,0;38,1,0;38,1,1;38,1,2,0;38,2;38,3
+#### Text ####
+I don't see
+##############
+until, Temporal.Asynchronous.Succession
+____Arg1____
+6318..6388
+38,1,2,1,0;38,1,2,1,1,0;38,1,2,1,1,1
+#### Text ####
+anybody who's sophisticated getting his name associated with this mess
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6395..6423
+38,1,2,1,1,2,1
+#### Text ####
+the moving parts stop moving
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6795..6810
+40,0
+#### Text ####
+In the meantime
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meantime, Temporal.Synchrony
+____Sup1____
+6237..6249;6284..6304
+37,0;37,1,0;37,1,2;37,1,3;37,2
+#### Text ####
+The deal has so many moving parts
+##############
+____Arg1____
+6163..6235
+36
+#### Text ####
+Some analysts don't expect a quick revival of any takeover by the pilots
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6812..6833
+40,1;40,2;40,3;40,4
+#### Text ####
+the arbs are bleeding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6835
+41
+____Arg1____
+6795..6833
+40
+#### Text ####
+In the meantime, the arbs are bleeding
+##############
+____Arg2____
+6835..7008
+41
+#### Text ####
+Wall Street traders and analysts estimate that takeover stock traders own UAL stock and options equal to as many as 6.5 million shares, or about 30% of the total outstanding
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7088
+42
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+6877..7008
+41,1,1
+#### Text ####
+that takeover stock traders own UAL stock and options equal to as many as 6.5 million shares, or about 30% of the total outstanding
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+6835..6876
+41,0;41,1,0;41,2
+#### Text ####
+Wall Street traders and analysts estimate
+##############
+____Arg2____
+7088..7163
+42,1,1
+#### Text ####
+that the arbs paid an average of about $280 a share for their UAL positions
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+7010..7087
+42,0;42,1,0;42,2
+#### Text ####
+Frank Gallagher, an analyst with Phoenix Capital Corp. in New York, estimates
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7165
+43
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+7088..7163
+42,1,1
+#### Text ####
+that the arbs paid an average of about $280 a share for their UAL positions
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+7010..7087
+42,0;42,1,0;42,2
+#### Text ####
+Frank Gallagher, an analyst with Phoenix Capital Corp. in New York, estimates
+##############
+____Arg2____
+7165..7252
+43
+#### Text ####
+That would indicate that the arbs have paper losses on UAL alone totalling $725 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

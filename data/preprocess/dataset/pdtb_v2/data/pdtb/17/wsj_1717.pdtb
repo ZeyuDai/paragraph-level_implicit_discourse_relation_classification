@@ -1,0 +1,124 @@
+________________________________________________________
+____EntRel____
+244
+2
+____Arg1____
+200..242
+1
+#### Text ####
+Doman is based in Duncan, British Columbia
+##############
+____Arg2____
+244..404
+2
+#### Text ####
+The company, founded and controlled by Harbanse Doman, its chairman and president, said the purchase would make it Canada's 10th largest forest products company
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+558..561
+3,2,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+408..556
+3,0;3,1;3,2,0;3,2,1,0;3,2,1,1,0;3,2,1,1,1;3,3
+#### Text ####
+Under terms of the transaction, which was proposed in June, Doman said it acquired International Forest Products Ltd. 's 22% stake in Western Forest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+562..680
+3,2,1,1,3
+#### Text ####
+Western Forest, in a related transaction, bought back a 22% interest in the company from Fletcher Challenge Canada Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+724..728
+4,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+739..749
+4,1,2,2
+#### Text ####
+Doman said
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+558..680
+3,2,1,1,2;3,2,1,1,3
+#### Text ####
+and Western Forest, in a related transaction, bought back a 22% interest in the company from Fletcher Challenge Canada Ltd
+##############
+#### Features ####
+Ot, Comm, Null, Null
+408..438;468..478
+3,0,0;3,0,1,0;3,0,1,1,0;3,0,1,1,1,0;3,0,1,1,1,1;3,0,1,1,1,3;3,1;3,2,0;3,3
+#### Text ####
+Under terms of the transaction Doman said
+##############
+____Arg2____
+684..723;729..737
+4,0;4,1,0;4,1,2,0;4,1,2,1;4,2
+#### Text ####
+The Fletcher Challenge Canada stake was canceled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+820..824
+5,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+802..812
+5,0;5,1,0;5,2
+#### Text ####
+Doman said
+##############
+also, Expansion.Conjunction
+____Sup1____
+684..737
+4,0;4,1,0;4,1,1;4,1,2,0;4,1,2,1;4,2
+#### Text ####
+The Fletcher Challenge Canada stake was then canceled
+##############
+____Arg1____
+751..800
+4,1,2,3
+#### Text ####
+raising Doman's interest in Western Forest to 56%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+739..749
+4,1,2,2
+#### Text ####
+Doman said
+##############
+____Arg2____
+813..819;825..898
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,2,0;5,1,1,1,1,2,1;5,1,1,1,1,2,2,0;5,1,1,1,1,2,2,1;5,1,1,1,1,2,2,2,0;5,1,1,1,1,2,2,2,1,0;5,1,1,1,1,2,2,2,1,1,0;5,1,1,1,1,2,2,2,1,1,1,0;5,1,1,1,1,2,2,2,1,1,1,1;5,1,1,1,1,2,2,2,1,1,1,2
+#### Text ####
+it was granted an option to acquire the remaining 44% interest in Western Forest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

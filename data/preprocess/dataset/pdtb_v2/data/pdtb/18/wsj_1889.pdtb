@@ -1,0 +1,122 @@
+________________________________________________________
+____EntRel____
+158
+1
+____Arg1____
+9..156
+0
+#### Text ####
+Dayton Hudson Corp. said it accepted for purchase seven million common shares at $62.875 each, under the terms of a Dutch auction self-tender offer
+##############
+____Arg2____
+158..199
+1
+#### Text ####
+The offer expired at 12:01 a.m. yesterday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+252..255
+2,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+203..251
+2,0;2,1;2,2
+#### Text ####
+In a Dutch auction, the buyer sets a price range
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+256..336
+2,4
+#### Text ####
+holders give a price in that range at which they're willing to sell their shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+348..352
+3,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+203..336
+2
+#### Text ####
+In a Dutch auction, the buyer sets a price range and holders give a price in that range at which they're willing to sell their shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+338..347;353..452
+3,0;3,2;3,3
+#### Text ####
+The buyer picks a price and buys shares at that price from holders who offered to sell at that price or lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+454
+4
+____Arg1____
+338..452
+3
+#### Text ####
+The buyer then picks a price and buys shares at that price from holders who offered to sell at that price or lower
+##############
+____Arg2____
+454..607
+4
+#### Text ####
+Dayton Hudson's repurchase offer, representing about 9% of its common shares outstanding, had established a range of between $60 and $65 for the buy-back
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+707
+5
+____Arg1____
+611..705
+5,0
+#### Text ####
+Dayton Hudson said it accepted all odd-lot shares tendered at or below the final $62.875 price
+##############
+____Arg2____
+707..800
+5,2
+#### Text ####
+the preliminary proration factor for other shares tendered at or below the final price is 98%
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+902
+7
+____Arg1____
+804..900
+6
+#### Text ####
+The Minneapolis-based retailer said it expects to pay for the seven million shares next Thursday
+##############
+____Arg2____
+902..959
+7
+#### Text ####
+Tendered shares not purchased will be returned to holders
+##############
+________________________________________________________

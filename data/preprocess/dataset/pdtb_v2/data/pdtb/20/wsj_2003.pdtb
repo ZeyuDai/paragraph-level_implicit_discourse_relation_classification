@@ -1,0 +1,140 @@
+________________________________________________________
+____Implicit____
+225
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+141..223
+1
+#### Text ####
+A year earlier, the savings bank had earnings of $8.1 million, or 33 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+225..365
+2
+#### Text ####
+For the nine months, it had a loss of $58.3 million, or $2.44 a share, after earnings of $29.5 million, or $1.20 a share, in the 1988 period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+440..445
+3,1,1,1,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+369..388
+3,0;3,1,0;3,2
+#### Text ####
+Great American said
+##############
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+389..439
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1;3,1,1,1,1,2;3,1,1,1,1,4
+#### Text ####
+it increased its loan-loss reserves by $93 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+446..474
+3,1,1,1,1,3,1
+#### Text ####
+reviewing its loan portfolio
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+541
+4
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+389..474
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1;3,1,1,1,1,2;3,1,1,1,1,3;3,1,1,1,1,4
+#### Text ####
+it increased its loan-loss reserves by $93 million after reviewing its loan portfolio
+##############
+#### Features ####
+Ot, Comm, Null, Null
+369..388
+3,0;3,1,0;3,2
+#### Text ####
+Great American said
+##############
+____Arg2____
+541..570;581..635
+4,0;4,2;4,3;4,4;4,5
+#### Text ####
+Before the loan-loss addition it had operating profit of $10 million for the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+572..579
+4,1
+#### Text ####
+it said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+637
+5
+____Arg1____
+541..635
+4
+#### Text ####
+Before the loan-loss addition, it said, it had operating profit of $10 million for the quarter
+##############
+____Arg2____
+637..782
+5
+#### Text ####
+The move followed a round of similar increases by other lenders against Arizona real estate loans, reflecting a continuing decline in that market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+967..970
+6,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+786..965
+6,0;6,1;6,2;6,3;6,4
+#### Text ####
+In addition to the increased reserve, the savings bank took a special charge of $5 million representing general and administrative expenses from staff reductions and other matters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+971..1041
+6,6,0;6,6,1,0;6,6,1,1;6,6,1,2
+#### Text ####
+it posted a $7.6 million reduction in expected mortgage servicing fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1043..1112
+6,6,1,3
+#### Text ####
+reflecting the fact that more borrowers are prepaying their mortgages
+##############
+________________________________________________________

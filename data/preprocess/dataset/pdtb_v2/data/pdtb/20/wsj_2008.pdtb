@@ -1,0 +1,398 @@
+________________________________________________________
+____AltLex____
+179..197
+1,0,0;1,0,1,0;1,0,1,1,0
+#### Text ####
+That compares with
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast.Juxtaposition
+____Arg1____
+107..177
+0,1,1,1,1,1,3,1,2
+#### Text ####
+that third-quarter earnings rose to between 95 cents and $1.05 a share
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+82..106
+0,1,1,1,1,1,0;0,1,1,1,1,1,2;0,1,1,1,1,1,3,0;0,1,1,1,1,1,3,1,0;0,1,1,1,1,1,3,1,1
+#### Text ####
+with analysts' estimates
+##############
+____Arg2____
+179..272
+1,0
+#### Text ####
+That compares with per-share earnings from continuing operations of 69 cents the year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+274
+1
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+179..272
+1,0
+#### Text ####
+That compares with per-share earnings from continuing operations of 69 cents the year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+274..342
+1,2
+#### Text ####
+including discontinued operations, per-share was 88 cents a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+532
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+346..512
+2
+#### Text ####
+The per-share estimates mean the consumer-products company's net income, increased to between $69.5 million and $76 million, from $47.1 million the year-before period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+532..603
+3,1,1
+#### Text ####
+Colgate's world-wide third-quarter sales rose about 8% to $1.29 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+514..531
+3,0;3,1,0;3,2
+#### Text ####
+Analysts estimate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+711..715
+5,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+607..696
+4
+#### Text ####
+Mr. Mark attributed the earnings growth to strong sales in Latin America, Asia and Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+698..710;716..804
+5,0,0;5,0,1,0;5,0,1,2
+#### Text ####
+Results were bolstered by "a very meaningful" increase in operating profit by Colgate's U.S. business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+806..819
+5,1;5,2;5,3;5,4
+#### Text ####
+Mr. Mark said
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+957..988
+7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0;7,1,1,1,1,1,1,0
+#### Text ####
+the improvement was a result of
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+823..931
+6,0
+#### Text ####
+Operating profit at Colgate's U.S. household products and personal-care businesses jumped 25% in the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+933..947
+6,1;6,2;6,3;6,4
+#### Text ####
+Mr. Mark added
+##############
+____Arg2____
+957..1151
+7,1,1
+#### Text ####
+the improvement was a result of cost savings achieved by consolidating manufacturing operations, blending two sales organizations and focusing more carefully the company's promotional activities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+949..956
+7,0;7,1,0;7,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1242
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1155..1240
+8
+#### Text ####
+The estimated improvement in Colgate's U.S. operations took some analysts by surprise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1242..1279;1352..1377
+9,0,0;9,0,1;9,1;9,2;9,3
+#### Text ####
+Colgate's household products business has been a weak performer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1379
+10
+____Arg1____
+1242..1377
+9
+#### Text ####
+Colgate's household products business, which includes such brands as Fab laundry detergent and Ajax cleanser, has been a weak performer
+##############
+____Arg2____
+1379..1527
+10
+#### Text ####
+Analysts estimate Colgate's sales of household products in the U.S. were flat for the quarter, and they estimated operating margins at only 1% to 3%
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1474..1477
+10,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1379..1472
+10,0
+#### Text ####
+Analysts estimate Colgate's sales of household products in the U.S. were flat for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1478..1527
+10,3
+#### Text ####
+they estimated operating margins at only 1% to 3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1530
+11
+____Arg1____
+1379..1527
+10
+#### Text ####
+Analysts estimate Colgate's sales of household products in the U.S. were flat for the quarter, and they estimated operating margins at only 1% to 3%
+##############
+____Arg2____
+1530..1694
+11
+#### Text ####
+If you could say their business in the U.S. was mediocre, but great everywhere else, that would be fine," says Bonita Austin, an analyst with Wertheim Schroder & Co
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1530..1532
+11,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1636..1694
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says Bonita Austin, an analyst with Wertheim Schroder & Co
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1615..1633
+11,1,1;11,1,2;11,1,3
+#### Text ####
+that would be fine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1533..1613
+11,1,0,1
+#### Text ####
+you could say their business in the U.S. was mediocre, but great everywhere else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1697..1700
+12,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1636..1694
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says Bonita Austin, an analyst with Wertheim Schroder & Co
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1530..1633
+11,1
+#### Text ####
+If you could say their business in the U.S. was mediocre, but great everywhere else, that would be fine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1701..1739
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+it's not mediocre, it's a real problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1868
+14
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+1762..1865
+13,1,1
+#### Text ####
+that Colgate's domestic business, apart from its highly profitable Hill's Pet Products unit, has lagged
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1744..1761
+13,0;13,1,0;13,2
+#### Text ####
+Mr. Mark conceded
+##############
+____Arg2____
+1868..1910
+14,1,0;14,1,1;14,1,2
+#### Text ####
+We've done a lot to improve {U.S.} results
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1942..1955
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Mr. Mark said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1912..1915
+14,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1942..1955
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Mr. Mark said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1868..1910
+14,1,0;14,1,1;14,1,2
+#### Text ####
+We've done a lot to improve {U.S.} results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1916..1939
+14,1,4
+#### Text ####
+a lot more will be done
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1958
+15
+#### Features ####
+Ot, Comm, Null, Null
+1942..1955
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Mr. Mark said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1912..1939
+14,1,3;14,1,4
+#### Text ####
+and a lot more will be done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1958..2045
+15
+#### Text ####
+Improving profitability of U.S. operations is an extremely high priority in the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

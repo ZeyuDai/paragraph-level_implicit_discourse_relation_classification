@@ -1,0 +1,487 @@
+________________________________________________________
+____Explicit____
+100..105
+0,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..98
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+Northrop Corp. 's third-quarter net income fell 25% to $21.5 million, or 46 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+106..193
+0,1,3,1
+#### Text ####
+General Dynamics Corp. reported nearly flat earnings of $76.5 million, or $1.83 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+258..260
+1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+197..257
+1,0;1,1,0;1,1,1;1,2
+#### Text ####
+Los Angeles-based Northrop recorded an 8.2% decline in sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+261..383
+1,1,2,1
+#### Text ####
+B-2 Stealth bomber research-and-development revenue continued to ebb and high costs on some other programs cut into profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+330..333
+1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+258..329
+1,1,2,0;1,1,2,1,0
+#### Text ####
+as B-2 Stealth bomber research-and-development revenue continued to ebb
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+334..383
+1,1,2,1,2
+#### Text ####
+high costs on some other programs cut into profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+385
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+197..257
+1,0;1,1,0;1,1,1;1,2
+#### Text ####
+Los Angeles-based Northrop recorded an 8.2% decline in sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+385..464
+2
+#### Text ####
+The aerospace concern earned $28.8 million, or 61 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+466
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+385..464
+2
+#### Text ####
+The aerospace concern earned $28.8 million, or 61 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+466..556
+3
+#### Text ####
+Sales in the latest period were $1.25 billion, down from $1.36 billion in the 1988 quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+649
+5
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+560..647
+4
+#### Text ####
+At St. Louis-based General Dynamics, sales rose 10% to $2.52 billion from $2.29 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+649..711
+5
+#### Text ####
+It earned $76.4 million, or $1.82 a share, in the 1988 quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+713
+6
+____Arg1____
+649..711
+5
+#### Text ####
+It earned $76.4 million, or $1.82 a share, in the 1988 quarter
+##############
+____Arg2____
+713..901
+6
+#### Text ####
+General Dynamics credited significant earnings gains in its general aviation and material service segments, an earnings recovery in submarine operations, and higher military aircraft sales
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1056..1063
+7,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+905..918
+7,0;7,1,0;7,2
+#### Text ####
+Northrop said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+919..1051
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0
+#### Text ####
+sales fell because of the decline in B-2 development dollars from the government as the plane continues its initial production stage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1052..1055;1064..1181
+7,1,1,1,1,1,1;7,1,1,1,1,1,2,1
+#### Text ####
+and fewer F/A-18 fighter sections are being produced in its subcontract work with prime contractor McDonnell Douglas Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1287
+9
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+1185..1285
+8
+#### Text ####
+In composite trading on the New York Stock Exchange, Northrop shares closed at $21.125, off 25 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1287..1334
+9
+#### Text ####
+General Dynamics closed at $54.875, up 50 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1534..1549
+11,0;11,1,0
+#### Text ####
+Among them were
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+1451..1532
+10,1,1
+#### Text ####
+earnings were hurt by excessive costs on a number of such contracts won years ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1446..1450
+10,0,1;10,0,3;10,1,0
+#### Text ####
+said
+##############
+____Arg2____
+1534..1616
+11
+#### Text ####
+Among them were the ALQ-135 electronic countermeasures system for the F-15 fighter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1646..1650
+12,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1451..1532
+10,1,1
+#### Text ####
+earnings were hurt by excessive costs on a number of such contracts won years ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1338..1346;1446..1450
+10,0,0;10,0,1;10,0,3;10,1,0
+#### Text ####
+Northrop said
+##############
+____Arg2____
+1618..1645;1651..1700
+12,0;12,2;12,3
+#### Text ####
+Northrop's interest expense soared to $35 million from $17 million a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1710
+13
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1618..1700
+12
+#### Text ####
+Northrop's interest expense also soared to $35 million from $17 million a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1710..1840
+13,1,1
+#### Text ####
+debt remained at the $1.22 billion that has prevailed since early 1989, although that compared with $911 million at Sept. 30, 1988
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1702..1709
+13,0;13,1,0;13,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1782..1790
+13,1,1,1,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1702..1709
+13,0;13,1,0;13,2
+#### Text ####
+It said
+##############
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+1710..1780
+13,1,1,0;13,1,1,1,0;13,1,1,1,1,0;13,1,1,1,1,1;13,1,1,1,1,2
+#### Text ####
+debt remained at the $1.22 billion that has prevailed since early 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1791..1840
+13,1,1,1,1,3,1
+#### Text ####
+that compared with $911 million at Sept. 30, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2113
+16
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1963..2111
+15
+#### Text ####
+For the nine months, Northrop reported a net loss of $46.9 million, or $1 a share, compared with profit of $190.3 million, or $4.05 a share, in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2113..2166
+16
+#### Text ####
+Sales dipped 3.6% to $3.92 billion from $4.07 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2416..2420
+18,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2170..2398
+17
+#### Text ####
+At General Dynamics, factors reducing earnings in the military aircraft segment included higher levels of cost-sharing in development of the Advanced Tactical Fighter, and the high cost of an advanced version of the F-16 fighter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2400..2415;2421..2458
+18,0,0;18,0,2,0;18,0,2,1,0;18,0,2,1,1;18,0,2,1,2;18,0,2,1,3;18,0,2,1,4
+#### Text ####
+F-16 deliveries have fallen "slightly behind schedule
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2525..2541
+18,1;18,2;18,3;18,4
+#### Text ####
+the company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2461..2469
+18,0,2,1,5,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2525..2541
+18,1;18,2;18,3;18,4
+#### Text ####
+the company said
+##############
+although, Comparison.Contrast.Opposition
+____Arg1____
+2400..2458
+18,0,0;18,0,1;18,0,2,0;18,0,2,1,0;18,0,2,1,1;18,0,2,1,2;18,0,2,1,3;18,0,2,1,4
+#### Text ####
+F-16 deliveries also have fallen "slightly behind schedule
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2470..2523
+18,0,2,1,5,1
+#### Text ####
+a return to the previous schedule is expected in 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2615
+20
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2545..2613
+19
+#### Text ####
+Backlog at General Dynamics rose to $16.5 billion from $15.8 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2615..2678
+20
+#### Text ####
+Its interest expense surged to $21.5 million from $12.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2680
+21
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2615..2678
+20
+#### Text ####
+Its interest expense surged to $21.5 million from $12.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2680..2871
+21
+#### Text ####
+For the nine months, General Dynamics earned $210.3 million, or $5.03 a share, up marginally from $208.8 million, or $4.97 a share, on a 4.9% rise in sales to $7.41 billion from $7.06 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

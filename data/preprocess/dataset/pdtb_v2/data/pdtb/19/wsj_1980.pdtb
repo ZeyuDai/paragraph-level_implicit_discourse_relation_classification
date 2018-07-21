@@ -1,0 +1,377 @@
+________________________________________________________
+____Explicit____
+512..517
+2,3,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+410..510
+2,0;2,1;2,2;2,3,0;2,3,1;2,3,2;2,4
+#### Text ####
+In a management restructuring, Thomas L. Ringer resigned as chairman, chief executive and a director
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+518..557
+2,3,3,1
+#### Text ####
+Israel Sheinberg resigned as a director
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+559
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+512..557
+2,3,3
+#### Text ####
+while Israel Sheinberg resigned as a director
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+559..608
+3
+#### Text ####
+Mr. Sheinberg remains as executive vice president
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+610
+4
+____Arg1____
+559..608
+3
+#### Text ####
+Mr. Sheinberg remains as executive vice president
+##############
+____Arg2____
+610..795
+4
+#### Text ####
+Thomas M. Hurley and Robert A. Vanourek, who had been designated to take over Recognition's top spots had Prospect's tender offer succeeded, were named co-chief executives and directors
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+797
+5
+____Arg1____
+610..795
+4
+#### Text ####
+Thomas M. Hurley and Robert A. Vanourek, who had been designated to take over Recognition's top spots had Prospect's tender offer succeeded, were named co-chief executives and directors
+##############
+____Arg2____
+797..960
+5
+#### Text ####
+Mr. Hurley was formerly a vice president and general manager of an Avery International division; Mr. Vanourek was a former group vice president of Pitney Bowes Inc
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+894
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+797..892
+5,0
+#### Text ####
+Mr. Hurley was formerly a vice president and general manager of an Avery International division
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+894..960
+5,2
+#### Text ####
+Mr. Vanourek was a former group vice president of Pitney Bowes Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+964..975
+6,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+410..795
+2;3;4
+#### Text ####
+In a management restructuring, Thomas L. Ringer resigned as chairman, chief executive and a director, while Israel Sheinberg resigned as a director.
+Mr. Sheinberg remains as executive vice president.
+Thomas M. Hurley and Robert A. Vanourek, who had been designated to take over Recognition's top spots had Prospect's tender offer succeeded, were named co-chief executives and directors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+977..1165
+6,1;6,2;6,3;6,4
+#### Text ####
+the agreement calls for Gilbert H. Lamphere, chairman of Prospect Group's executive committee, to be named chairman of a restructured board that will include four new independent directors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1167..1171
+7,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+964..1165
+6
+#### Text ####
+In addition, the agreement calls for Gilbert H. Lamphere, chairman of Prospect Group's executive committee, to be named chairman of a restructured board that will include four new independent directors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1172..1275
+7,1;7,2;7,3;7,4
+#### Text ####
+named to the revised board was Thomas A. Loose, Recognition's senior vice president and general counsel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1330..1334
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+204..406
+1
+#### Text ####
+As part of what a Recognition spokeswoman termed an "amiable agreement," Prospect Group will wind up with control of top management posts and an increased stake in the maker of data management equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1279..1328;1335..1378
+8,0;8,2,0;8,2,1,0;8,2,1,1,0;8,2,1,1,1,0;8,2,1,1,1,1;8,2,1,1,1,2,0;8,2,1,1,1,2,1,0;8,2,1,1,1,2,1,1;8,3
+#### Text ####
+Prospect, a New York-based leveraged buy-out firm agreed to invest $15 million in Recognition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1386..1393
+8,2,1,1,1,2,1,2,1,1
+#### Text ####
+in turn
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in turn, Temporal.Asynchronous.Precedence
+____Arg1____
+1279..1378
+8,0;8,1;8,2,0;8,2,1,0;8,2,1,1,0;8,2,1,1,1,0;8,2,1,1,1,1;8,2,1,1,1,2,0;8,2,1,1,1,2,1,0;8,2,1,1,1,2,1,1;8,3
+#### Text ####
+Prospect, a New York-based leveraged buy-out firm, also agreed to invest $15 million in Recognition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1380..1385;1394..1450
+8,2,1,1,1,2,1,2,0;8,2,1,1,1,2,1,2,1,0;8,2,1,1,1,2,1,2,1,2
+#### Text ####
+which agreed to repurchase as much as $20 million of its stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1452..1471
+9,0;9,1,0;9,1,1,0
+#### Text ####
+That would increase
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+1279..1450
+8
+#### Text ####
+Prospect, a New York-based leveraged buy-out firm, also agreed to invest $15 million in Recognition, which in turn agreed to repurchase as much as $20 million of its stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1452..1560
+9
+#### Text ####
+That would increase Prospect's ownership of the company's fully-diluted shares outstanding to 20% from 14.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1562
+10
+____Arg1____
+1452..1560
+9
+#### Text ####
+That would increase Prospect's ownership of the company's fully-diluted shares outstanding to 20% from 14.1%
+##############
+____Arg2____
+1562..1648
+10
+#### Text ####
+Under the agreement, Prospect is permitted to increase its stake in Recognition to 30%
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1650
+11
+____Arg1____
+1562..1648
+10
+#### Text ####
+Under the agreement, Prospect is permitted to increase its stake in Recognition to 30%
+##############
+____Arg2____
+1650..1833
+11
+#### Text ####
+Beyond that, Prospect said it wouldn't offer to acquire additional shares for less than $11.25 a share during the next year or less than $14.06 a share during the subsequent two years
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1849..1853
+12,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+204..406
+1
+#### Text ####
+As part of what a Recognition spokeswoman termed an "amiable agreement," Prospect Group will wind up with control of top management posts and an increased stake in the maker of data management equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1859..2055
+12,2,1
+#### Text ####
+it obtained a commitment from Chemical Bank and Bank of Boston to convert an estimated $18 million in bank debt to a new, 24-month secured term loan to be repaid through the sale of certain assets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1837..1848;1854..1858
+12,0;12,2,0;12,3
+#### Text ####
+Recognition said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2233
+14
+____Arg1____
+2059..2231
+13
+#### Text ####
+In August, Recognition said it was in violation of certain terms of its debt agreements with bank lenders because of a $3.9 million loss for the third quarter ended July 31
+##############
+____Arg2____
+2233..2423
+14
+#### Text ####
+The company attributed the loss to declining revenue and litigation costs relating to criminal charges against the company and two former executives, William G. Moore Jr. and Robert W. Reedy
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2425
+15
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2307..2423
+14,1,2,1,2,1;14,2
+#### Text ####
+relating to criminal charges against the company and two former executives, William G. Moore Jr. and Robert W. Reedy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2425..2515
+15,0;15,1,0;15,1,1,0;15,1,1,1;15,1,1,2;15,1,1,3,0;15,1,1,3,1,0;15,1,1,3,1,1;15,2
+#### Text ####
+The former executives were indicted last October on charges of fraud, theft and conspiracy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2825
+18
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2740..2823
+17
+#### Text ####
+In New York Stock Exchange composite trading, Recognition rose 87.5 cents to $6.625
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2825..2897
+18
+#### Text ####
+Prospect slipped 25 cents to $10.50 in national over-the-counter trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

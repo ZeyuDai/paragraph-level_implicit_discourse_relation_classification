@@ -1,0 +1,583 @@
+________________________________________________________
+____EntRel____
+152
+1
+____Arg1____
+9..150
+0
+#### Text ####
+We're sorry to report that on Monday President Bush accepted the resignation of William Allen as chairman of the U.S. Civil Rights Commission
+##############
+____Arg2____
+152..272
+1
+#### Text ####
+Mr. Allen, appointed by President Reagan, grew understandably tired of dealing with the guerrilla tactics of his enemies
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+385..389
+2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Sup1____
+295..366
+2,0,1;2,0,2
+#### Text ####
+provocatively titled "Blacks?
+Animals?
+Homosexuals?
+What is a Minority?
+##############
+____Arg1____
+276..293;368..384
+2,0,0;2,0,2,4;2,1,0;2,1,1
+#### Text ####
+His recent speech caused an uproar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+390..410
+2,1,2,1
+#### Text ####
+its title leaked out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+412
+3
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+276..293;368..410
+2,0,0;2,0,1;2,0,2,2;2,0,2,4;2,1;2,2
+#### Text ####
+His recent speech caused an uproar when its title leaked out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+412..525
+3
+#### Text ####
+Mr. Allen's commissioners voted to call his unread speech "thoughtless, disgusting and unnecessarily inflammatory
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+528
+4
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+412..525
+3
+#### Text ####
+Mr. Allen's commissioners voted to call his unread speech "thoughtless, disgusting and unnecessarily inflammatory
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+528..644
+4
+#### Text ####
+Commissioner Mary Francis Berry said it was "another sad episode in the saga of the unguided missile who is chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+647
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+528..644
+4
+#### Text ####
+Commissioner Mary Francis Berry said it was "another sad episode in the saga of the unguided missile who is chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+647..783
+5
+#### Text ####
+Rep. Don Edwards, the California Democrat, warned Mr. Allen that the speech would be "outside the scope of the commission's jurisdiction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+786
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+528..783
+4;5
+#### Text ####
+Commissioner Mary Francis Berry said it was "another sad episode in the saga of the unguided missile who is chairman." Rep. Don Edwards, the California Democrat, warned Mr. Allen that the speech would be "outside the scope of the commission's jurisdiction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+786..893
+6
+#### Text ####
+Thomas Stoddard, head of the Lambda Legal Defense Fund, called the prospect of the speech "frankly shocking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1043
+9
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+932..1041
+8
+#### Text ####
+Mr. Allen began it with a warning to his hosts, a California church group that opposes rights for homosexuals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1043..1245
+9
+#### Text ####
+He said that other participants in the conference "do not believe that the rights of Americans should be guaranteed to citizens who are homosexual," but that "I mean to persuade you to the opposite view
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1192..1195
+9,1,1,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1043..1050
+9,0;9,1,0;9,2;9,3
+#### Text ####
+He said
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+1051..1189
+9,1,1,0
+#### Text ####
+that other participants in the conference "do not believe that the rights of Americans should be guaranteed to citizens who are homosexual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1196..1245
+9,1,1,4
+#### Text ####
+that "I mean to persuade you to the opposite view
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1335..1343
+10,1,3,1,2,1,0,0;10,1,3,1,2,1,0,1
+#### Text ####
+now that
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1326..1333
+10,1,3,0;10,1,3,1,0;10,1,3,1,1
+#### Text ####
+arguing
+##############
+now that, Contingency.Cause.Reason, Temporal.Asynchronous.Succession
+____Arg1____
+1405..1439
+10,1,3,1,2,1,1;10,1,3,1,2,1,2;10,1,3,1,2,1,3
+#### Text ####
+we need to do the same for animals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1344..1403
+10,1,3,1,2,1,0,2
+#### Text ####
+we have finally recognized that American blacks have rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1442
+11
+____Arg1____
+1250..1439
+10
+#### Text ####
+He recalled to the audience a "strange, infelicitous" analogy he once heard arguing "now that we have finally recognized that American blacks have rights, we need to do the same for animals
+##############
+____Arg2____
+1442..1595
+11
+#### Text ####
+Mr. Allen objected to this analogy because it seems to "assimilate the status of blacks to that of animals -- as a mere project of charity, of humaneness
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1477..1484
+11,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1442..1476
+11,0;11,1;11,2,0;11,2,1;11,3;11,4
+#### Text ####
+Mr. Allen objected to this analogy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1485..1595
+11,2,2,1
+#### Text ####
+it seems to "assimilate the status of blacks to that of animals -- as a mere project of charity, of humaneness
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1598
+12
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+1477..1595
+11,2,2
+#### Text ####
+because it seems to "assimilate the status of blacks to that of animals -- as a mere project of charity, of humaneness
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1598..1678
+12,0;12,1,0;12,1,1;12,1,2,0;12,2
+#### Text ####
+Rights on such a basis, whether for blacks or homosexuals, are "mere indulgences
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1681..1688
+12,1,2,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1859
+14
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+1729..1857
+13,1,1
+#### Text ####
+the title of his speech was to make his point that Americans have rights as individuals, not as members of certain select groups
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1721..1728
+13,0;13,1,0;13,2
+#### Text ####
+He says
+##############
+____Arg2____
+1859..1969
+14,0;14,1,0;14,1,1,0;14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1,0;14,1,1,1,1,1,1,0;14,1,1,1,1,1,1,1;14,1,1,1,1,1,1,2;14,1,1,1,1,1,1,3,0;14,1,1,1,1,1,1,3,1,0;14,1,1,1,1,1,1,3,1,1,0;14,1,1,1,1,1,1,3,1,1,1,0;14,1,1,1,1,1,1,3,1,1,1,1,0;14,2;14,3
+#### Text ####
+His speech criticized the "idiocy of notions of protected groups in society" as opposed to individual equality
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2024
+15
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1859..2021
+14
+#### Text ####
+His speech criticized the "idiocy of notions of protected groups in society" as opposed to individual equality or, as he put it, in "a common destiny as Americans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2024..2065;2082..2262
+15,0;15,3,1
+#### Text ####
+Instead of lobbying for special treatment that homosexuals and others should try to ensure equal treatment under the law and not aim for special privileges that would risk "invidious retrenchment with government complicity
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2067..2081
+15,1;15,2;15,3,0;15,4;15,5
+#### Text ####
+Mr. Allen said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2318
+17
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2267..2316
+16
+#### Text ####
+This hardly sounds like an anti-homosexual screed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2318..2345
+17
+#### Text ####
+What's really going on here
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2508
+19
+____Arg1____
+2349..2506
+18
+#### Text ####
+The three most important things to understand about Mr. Allen is that he is a black conservative intellectual -- a triple threat to the liberal establishment
+##############
+____Arg2____
+2508..2700
+19
+#### Text ####
+Mr. Allen, who teaches government at prestigious Harvey Mudd College in California and will remain a member of the commission, has spent years arguing that civil rights are individuals' rights
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2702
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2508..2517;2635..2700
+19,0,0;19,0,1;19,0,3;19,1;19,2
+#### Text ####
+Mr. Allen has spent years arguing that civil rights are individuals' rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2702..2822
+20
+#### Text ####
+He last made waves when he dared to defend an Indian girl who had been adopted by non-Indian parents off her reservation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2721..2725
+20,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2702..2720
+20,0;20,1;20,2,0;20,2,1;20,3
+#### Text ####
+He last made waves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2726..2822
+20,2,2,1
+#### Text ####
+he dared to defend an Indian girl who had been adopted by non-Indian parents off her reservation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2824
+21
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+2702..2822
+20
+#### Text ####
+He last made waves when he dared to defend an Indian girl who had been adopted by non-Indian parents off her reservation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2824..2988
+21
+#### Text ####
+Mr. Allen quickly ran up against the liberal establishment again, which somehow elevated the vague concept of "Indian rights" above the rights of individual Indians
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3132..3138
+23,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2992..3130
+22
+#### Text ####
+There is a huge divide between Mr. Allen's we're-all-in-this-together view and the divisive litigation approach of the civil rights groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3140..3212
+23,1;23,2;23,3;23,4
+#### Text ####
+the gap is so large that Mr. Allen's critics refuse to engage the debate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3214
+24
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3132..3212
+23
+#### Text ####
+Indeed, the gap is so large that Mr. Allen's critics refuse to engage the debate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3214..3265
+24
+#### Text ####
+Their ridicule of him is no substitute for argument
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3267
+25
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3214..3265
+24
+#### Text ####
+Their ridicule of him is no substitute for argument
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3267..3374
+25
+#### Text ####
+Their effort to run him out of Washington is an embarrassment to the original purpose of their own movement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3376
+26
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3267..3374
+25
+#### Text ####
+Their effort to run him out of Washington is an embarrassment to the original purpose of their own movement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3376..3506
+26
+#### Text ####
+We hope the next head of the Civil Rights Commission will be as brave as Mr. Allen in making the case for equality of civil rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,787 @@
+________________________________________________________
+____EntRel____
+346
+2
+____Arg1____
+235..344
+1
+#### Text ####
+The plan places an indicated value on the real estate operation, Santa Fe Pacific Realty Corp., of $2 billion
+##############
+____Arg2____
+346..474
+2
+#### Text ####
+Santa Fe Pacific directors are expected to review the plan at a meeting today, according to people familiar with the transaction
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+478..480
+3,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+491..534
+3,1;3,2;3,3,0;3,3,1,0;3,3,1,1,0;3,3,1,1,1,0;3,3,1,1,1,1,0;3,3,1,1,1,1,1;3,3,1,1,1,1,2;3,4
+#### Text ####
+the sale is expected to close by year's end
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+481..489
+3,0,1
+#### Text ####
+approved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+583
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+478..581
+3
+#### Text ####
+If approved, the sale is expected to close by year's end, with the spinoff occurring by the end of 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+583..695
+4
+#### Text ####
+In composite trading on the New York Stock Exchange yesterday, Santa Fe Pacific closed at $20.625, down 25 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+881
+6
+____Arg1____
+699..879
+5
+#### Text ####
+Santa Fe Pacific Realty is a major California land and building owner whose prime properties include 1,850 undeveloped acres in the San Francisco Bay area, and several office sites
+##############
+____Arg2____
+881..994
+6
+#### Text ####
+A spokesman said the properties survived without significant damage in last week's Northern California earthquake
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1341..1345
+9,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+998..1229
+7
+#### Text ####
+As a result of the partial sale and spinoff, the $56 billion California Public Employees Retirement System would obtain two seats on the board of the real estate operation, according to officials of the fund, who described the plan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1171..1229
+7,3,1,2;7,3,1,3;7,4
+#### Text ####
+according to officials of the fund, who described the plan
+##############
+____Arg2____
+1346..1381;1394..1541
+9,1;9,3;9,4;9,5
+#### Text ####
+holding two seats each on the board would be Olympia & York Developments Ltd., controlled by the Reichmann family of Canada, and Itel Corp., controlled by Chicago businessman Sam Zell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1383..1392
+9,2
+#### Text ####
+they said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1543
+10
+____Arg1____
+1341..1541
+9
+#### Text ####
+Also holding two seats each on the board, they said, would be Olympia & York Developments Ltd., controlled by the Reichmann family of Canada, and Itel Corp., controlled by Chicago businessman Sam Zell
+##############
+____Arg2____
+1543..1714
+10
+#### Text ####
+The Reichmanns and Mr. Zell, the largest holders of Santa Fe Pacific stock, have been looking for ways to raise the value of their investments, including possible spinoffs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1772..1775
+11,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1718..1771
+11,0,0
+#### Text ####
+Itel bought a 17% stake in Sante Fe Pacific last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1776..1824
+11,0,2
+#### Text ####
+Olympia & York later purchased about a 20% stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1791..1796
+11,0,2,1
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+1718..1771
+11,0,0
+#### Text ####
+Itel bought a 17% stake in Sante Fe Pacific last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1772..1790;1797..1824
+11,0,1;11,0,2,0;11,0,2,2
+#### Text ####
+and Olympia & York purchased about a 20% stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1826
+11
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1718..1824
+11,0
+#### Text ####
+Itel bought a 17% stake in Sante Fe Pacific last year and Olympia & York later purchased about a 20% stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1826..1925
+11,2
+#### Text ####
+they would have interests in the new realty company in line with their holdings in Sante Fe Pacific
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2140
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1996..2138
+12,1,1,1,1
+#### Text ####
+what could lead to the breakup of Santa Fe Pacific into free-standing companies for its railroad and energy operations, as well as real estate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2140..2244
+13
+#### Text ####
+The debt-laden parent has been under pressure from large shareholders to boost the company's share price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2393
+16
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2308..2391
+15
+#### Text ####
+The California pension fund's planned investment in the real estate unit is unusual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2393..2492
+16
+#### Text ####
+Pension funds rarely own as much as a 20% stake in what is expected to be a publicly traded company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2494..2505
+17,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2393..2492
+16
+#### Text ####
+Pension funds rarely own as much as a 20% stake in what is expected to be a publicly traded company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2507..2620
+17,1;17,2;17,3;17,4
+#### Text ####
+pension funds are rarely given seats on company boards and most often try to avoid them because of legal concerns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2624..2627
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2393..2620
+16;17
+#### Text ####
+Pension funds rarely own as much as a 20% stake in what is expected to be a publicly traded company.
+In addition, pension funds are rarely given seats on company boards and most often try to avoid them because of legal concerns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2648..2910
+18,2,1;19,0
+#### Text ####
+the Santa Fe Pacific Realty investment provides an opportunity to buy a stake in a large real estate portfolio heavily weighted with California properties.
+It also marks a "major commitment to {real estate} development, which we haven't been involved with before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2628..2647
+18,1;18,2,0;18,3
+#### Text ####
+fund officials said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2807..2811
+19,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2624..2647
+18,0;18,1;18,2,0;18,3
+#### Text ####
+But fund officials said
+##############
+also, Expansion.Conjunction
+____Arg1____
+2648..2802
+18,2,1
+#### Text ####
+the Santa Fe Pacific Realty investment provides an opportunity to buy a stake in a large real estate portfolio heavily weighted with California properties
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2804..2806;2812..2866
+19,0,0;19,0,2,0;19,0,2,1,0;19,0,2,1,1,0;19,0,2,1,1,1,0;19,0,2,1,1,1,1
+#### Text ####
+It marks a "major commitment to {real estate} development
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3004..3008
+20,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+998..1229
+7
+#### Text ####
+As a result of the partial sale and spinoff, the $56 billion California Public Employees Retirement System would obtain two seats on the board of the real estate operation, according to officials of the fund, who described the plan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1171..1229
+7,3,1,2;7,3,1,3;7,4
+#### Text ####
+according to officials of the fund, who described the plan
+##############
+____Arg2____
+2964..3003;3009..3200
+20,0;20,1;20,2;20,3,0;20,3,2;20,4
+#### Text ####
+Under the proposed plan, the fund would lend Santa Fe Pacific Realty $75 million in the form of a note that would be convertible into additional shares of the realty company after the second year at the then-prevailing market price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3202
+21
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3072..3200
+20,3,2,3,1,1,1,1
+#### Text ####
+that would be convertible into additional shares of the realty company after the second year at the then-prevailing market price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3202..3392
+21
+#### Text ####
+The note would accrue interest at the rate of 13.5% a year, which would be payable to the fund after five years, according to Stephen E. Roulac, a real estate consultant working for the fund
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3315..3392
+21,1,1,5;21,1,1,6;21,2
+#### Text ####
+according to Stephen E. Roulac, a real estate consultant working for the fund
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3564
+23
+____Arg1____
+3396..3562
+22
+#### Text ####
+The purpose of the note is to provide added capital for the spun-off company in a form that will save it spending cash on immediate interest payments, Mr. Roulac said
+##############
+____Arg2____
+3564..3688
+23
+#### Text ####
+The spun-off concern "clearly will be one of the dominant real estate development companies with a prime portfolio," he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3918
+25
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3820..3916
+24,3,1,4
+#### Text ####
+hurting profits that the parent had generated in the past from periodic sales from its portfolio
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3918..4027
+25,0
+#### Text ####
+Real estate operating income for the first nine months fell to $71.9 million from $143 million a year earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4029..4045
+25,1;25,2;25,3;25,4
+#### Text ####
+the company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4222..4228
+26,4,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4049..4130
+26,0;26,1;26,2;26,3;26,4,0;26,5
+#### Text ####
+In a statement late yesterday, Santa Fe Pacific's chairman, Robert D. Krebs, said
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+4131..4221
+26,4,1,0;26,4,1,1,0;26,4,1,1,1,0;26,4,1,1,1,1,0;26,4,1,1,1,1,1
+#### Text ####
+that Santa Fe Pacific Realty would repay more than $500 million in debt owed to the parent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4229..4248
+26,4,1,1,1,1,2,1
+#### Text ####
+the planned spinoff
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4250..4272
+27,0;27,1,0;27,1,1,0;27,1,1,1,0
+#### Text ####
+That would help reduce
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+4131..4248
+26,4,1
+#### Text ####
+that Santa Fe Pacific Realty would repay more than $500 million in debt owed to the parent before the planned spinoff
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4049..4130
+26,0;26,1;26,2;26,3;26,4,0;26,5
+#### Text ####
+In a statement late yesterday, Santa Fe Pacific's chairman, Robert D. Krebs, said
+##############
+____Arg2____
+4250..4370
+27
+#### Text ####
+That would help reduce Santa Fe Pacific's remaining debt to about $600 million from a high of $3.7 billion in early 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4650..4675
+29,1,1,4
+#### Text ####
+among other possibilities
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+4374..4469
+28,0;28,1,0;28,1,1;28,1,2;28,1,3,0;28,1,3,1,0;28,1,3,1,1,0;28,1,3,1,1,1,0;28,1,3,1,1,1,1,0;28,1,3,1,1,1,1,1,0;28,1,3,1,1,1,1,1,1,0;28,1,3,1,1,1,1,1,1,1,0;28,1,3,1,1,1,1,1,1,1,1,0;28,1,3,1,1,1,1,1,1,1,1,1;28,1,3,1,1,1,1,1,2;28,2
+#### Text ####
+It wasn't clear where Santa Fe Pacific expected to obtain the payment of more than $500 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4579..4675
+29
+#### Text ####
+The realty unit might take on new debt or obtain additional investors, among other possibilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4677
+30
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4579..4675
+29
+#### Text ####
+The realty unit might take on new debt or obtain additional investors, among other possibilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4677..4787
+30
+#### Text ####
+The Santa Fe Pacific spokesman declined to comment on that aspect, saying the deal was still under negotiation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4926..4930
+32,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4791..4921
+31
+#### Text ####
+Santa Fe Pacific Realty owns 2.8 million acres of property, including 219 buildings with more than 11 million square feet of space
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4923..4925;4931..4995
+32,0,0;32,0,2
+#### Text ####
+It holds nearly 40,000 acres of raw land with development potential
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4997..5000
+32,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4923..4995
+32,0
+#### Text ####
+It also holds nearly 40,000 acres of raw land with development potential
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5001..5132
+32,3
+#### Text ####
+under a previously announced strategy, the company has targeted building on 5,400 acres in California, Arizona and the Chicago area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5134
+33
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4997..5132
+32,2;32,3;32,4
+#### Text ####
+but under a previously announced strategy, the company has targeted building on 5,400 acres in California, Arizona and the Chicago area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5134..5240
+33
+#### Text ####
+Among those are the 1,850 acres in the San Francisco Bay area, including 208 acres in the Mission Bay area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5399..5407
+34,1,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+5244..5397
+34,0;34,1,0;34,1,1,0;34,1,1,1;34,1,1,2;34,2
+#### Text ####
+The California pension fund, which has $16 billion already invested in real estate and mortgages, could be a valuable funding source for that development
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5408..5452
+34,1,1,3,1
+#### Text ####
+it isn't obliged to make further investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5454
+35
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+5244..5397
+34,0;34,1,0;34,1,1,0;34,1,1,1;34,1,1,2;34,2
+#### Text ####
+The California pension fund, which has $16 billion already invested in real estate and mortgages, could be a valuable funding source for that development
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5454..5569
+35
+#### Text ####
+The fund is the nation's largest public employee fund, and it has a growing cash flow now topping $3 billion a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5509..5512
+35,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5454..5507
+35,0
+#### Text ####
+The fund is the nation's largest public employee fund
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5513..5569
+35,3
+#### Text ####
+it has a growing cash flow now topping $3 billion a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5663..5666
+36,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5573..5661
+36,0
+#### Text ####
+Fund officials negotiated the final structure of the proposed deal with Santa Fe Pacific
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5667..5752
+36,3
+#### Text ####
+they were approached with the idea by real estate brokers JMB Realty Corp. of Chicago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5754
+37
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+5663..5752
+36,2;36,3;36,4
+#### Text ####
+but they were approached with the idea by real estate brokers JMB Realty Corp. of Chicago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5754..5932
+37
+#### Text ####
+JMB officials are expected to be hired to represent the pension fund on the Santa Fe Pacific Realty board, Mr. Roulac said, to insulate the fund from potential liability problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

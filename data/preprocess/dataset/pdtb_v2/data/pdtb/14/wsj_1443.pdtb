@@ -1,0 +1,147 @@
+________________________________________________________
+____EntRel____
+291
+2
+____Arg1____
+209..289
+1
+#### Text ####
+The molecule is the mouse version of a protein called the interleukin-4 receptor
+##############
+____Arg2____
+291..406
+2
+#### Text ####
+IL-4 is a hormone which directs the growth and function of white blood cells involved in the body's immune response
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+408
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+291..406
+2
+#### Text ####
+IL-4 is a hormone which directs the growth and function of white blood cells involved in the body's immune response
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+408..513
+3
+#### Text ####
+The IL-4 receptor on the surface of such cells receives the hormone's message to rally the body's defense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+517..520
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+291..406
+2
+#### Text ####
+IL-4 is a hormone which directs the growth and function of white blood cells involved in the body's immune response
+##############
+____Arg1____
+408..513
+3
+#### Text ####
+The IL-4 receptor on the surface of such cells receives the hormone's message to rally the body's defense
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+521..738
+4,1;4,2;4,3;4,4;4,5
+#### Text ####
+in certain conditions such as autoimmune diseases and allergies and transplant rejection, doctors would like to damp the immune response so such cells don't touch off harmful inflammatory reactions or cell destruction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+658..660
+4,4,1,1,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+517..629
+4,0;4,1;4,2;4,3;4,4,0;4,4,1,0;4,5
+#### Text ####
+But in certain conditions such as autoimmune diseases and allergies and transplant rejection, doctors would like
+##############
+so, Contingency.Cause.Result
+____Arg1____
+630..657
+4,4,1,1,0;4,4,1,1,1,0;4,4,1,1,1,1,0;4,4,1,1,1,1,1
+#### Text ####
+to damp the immune response
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+661..738
+4,4,1,1,1,1,2,1
+#### Text ####
+such cells don't touch off harmful inflammatory reactions or cell destruction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1056
+7
+____Arg1____
+883..1054
+6
+#### Text ####
+The IL-4 receptor is one of five such receptors to be developed and tested by Receptech Corp., a spinoff of Immunex, through a proposed $30 million initial public offering
+##############
+____Arg2____
+1056..1169
+7
+#### Text ####
+Immunex will contract with the spinoff to provide the research, development and initial testing of the new agents
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1171
+8
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1056..1169
+7
+#### Text ####
+Immunex will contract with the spinoff to provide the research, development and initial testing of the new agents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1171..1245
+8
+#### Text ####
+Immunex will have the option to buy back Receptech shares after five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

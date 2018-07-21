@@ -1,0 +1,1057 @@
+________________________________________________________
+____Implicit____
+481
+3
+#### Features ####
+Ot, Comm, Null, Null
+498..584
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+said Ulric Weil, an analyst at Weil & Associates who had once been high on the company
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+452..479
+2
+#### Text ####
+Unisys is getting clobbered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+481..495
+3,0
+#### Text ####
+Just clobbered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+587
+4
+#### Features ####
+Ot, Comm, Null, Null
+498..584
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+said Ulric Weil, an analyst at Weil & Associates who had once been high on the company
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+481..495
+3,0
+#### Text ####
+Just clobbered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+587..658
+4
+#### Text ####
+The quarter was terrible, and the future looks anything but encouraging
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+613..616
+4,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+498..546
+3,1;3,2;3,3;3,4,0;3,4,1;3,4,2,0;3,4,2,1;3,5
+#### Text ####
+said Ulric Weil, an analyst at Weil & Associates
+##############
+and, Expansion.Conjunction
+____Arg1____
+587..611
+4,1
+#### Text ####
+The quarter was terrible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+617..658
+4,4
+#### Text ####
+the future looks anything but encouraging
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+824..838
+6,0
+#### Text ####
+On top of that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Sup1____
+671..778
+5,0,2
+#### Text ####
+whose revenue inched up 3.7% in the quarter to $2.35 billion from $2.27 billion in the year-earlier quarter
+##############
+____Arg1____
+663..669;780..822
+5,0,0;5,0,1;5,0,3;5,1;5,2
+#### Text ####
+Unisys had an operating loss of about $30 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+824..936
+6
+#### Text ####
+On top of that, the Blue Bell, Pa., concern took a $230 million charge related to the layoffs of 8,000 employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+938
+7
+____Arg1____
+824..936
+6
+#### Text ####
+On top of that, the Blue Bell, Pa., concern took a $230 million charge related to the layoffs of 8,000 employees
+##############
+____Arg2____
+938..1049
+7
+#### Text ####
+That is at the high end of the range of 7,000 to 8,000 employees that Unisys said a month ago would be laid off
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1063
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1032..1049
+7,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+would be laid off
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1003..1031
+7,1,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that Unisys said a month ago
+##############
+____Arg2____
+1063..1204
+8,1,1
+#### Text ####
+that should help it save $500 million a year in costs, again at the high end of the previously reported range of $400 million to $500 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1051..1062
+8,0;8,1,0;8,2
+#### Text ####
+Unisys said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1220..1224
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+824..936
+6
+#### Text ####
+On top of that, the Blue Bell, Pa., concern took a $230 million charge related to the layoffs of 8,000 employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1208..1219;1225..1311
+9,0;9,2,0;9,2,1;9,2,2;9,2,3;9,3
+#### Text ####
+The company took a write-off of $150 million to cover losses on some fixed-price defense contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1313..1315
+9,2,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1208..1311
+9,0;9,1;9,2,0;9,2,1;9,2,2;9,2,3;9,3
+#### Text ####
+The company also took a write-off of $150 million to cover losses on some fixed-price defense contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1316..1398
+9,2,4,1
+#### Text ####
+some new managers took a hard look at the prospects for that slow-growing business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1400..1411
+10,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+824..936;1212..1311
+6;9,0,1;9,1;9,2,0;9,2,1;9,2,2;9,2,3;9,3
+#### Text ####
+On top of that, the Blue Bell, Pa., concern took a $230 million charge related to the layoffs of 8,000 employees company also took a write-off of $150 million to cover losses on some fixed-price defense contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1413..1618
+10,1;10,2;10,3;10,4
+#### Text ####
+Unisys set up an unspecified reserve -- apparently $60 million to $70 million -- to cover the minimum amount it will have to pay the government because of its involvement in the defense-procurement scandal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1627..1631
+11,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1400..1618
+10
+#### Text ####
+In addition, Unisys set up an unspecified reserve -- apparently $60 million to $70 million -- to cover the minimum amount it will have to pay the government because of its involvement in the defense-procurement scandal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1620..1626;1632..1787
+11,0;11,2;11,3
+#### Text ####
+Unisys noted that it paid $78.8 million in taxes during the quarter, even though tax payments normally would be minimal in a quarter that produced such a big loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1694..1705
+11,2,1,1,1,4,0;11,2,1,1,1,4,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+1638..1692
+11,2,1,0;11,2,1,1,0;11,2,1,1,1,0;11,2,1,1,1,1;11,2,1,1,1,2;11,2,1,1,1,3
+#### Text ####
+that it paid $78.8 million in taxes during the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1620..1626;1632..1637
+11,0;11,2,0;11,3
+#### Text ####
+Unisys noted
+##############
+____Arg2____
+1706..1787
+11,2,1,1,1,4,2
+#### Text ####
+tax payments normally would be minimal in a quarter that produced such a big loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1914..1925
+13,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+663..669;780..936;1212..1618;1638..1787
+5,0,0;5,0,1;5,0,3;5,1;5,2;6;9,0,1;9,1;9,2;9,3;10;11,2,1
+#### Text ####
+Unisys had an operating loss of about $30 million.
+On top of that, the Blue Bell, Pa., concern took a $230 million charge related to the layoffs of 8,000 employees company also took a write-off of $150 million to cover losses on some fixed-price defense contracts, as some new managers took a hard look at the prospects for that slow-growing business.
+In addition, Unisys set up an unspecified reserve -- apparently $60 million to $70 million -- to cover the minimum amount it will have to pay the government because of its involvement in the defense-procurement scandal that it paid $78.8 million in taxes during the quarter, even though tax payments normally would be minimal in a quarter that produced such a big loss
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1620..1626;1632..1637
+11,0;11,2,0;11,3
+#### Text ####
+Unisys noted
+##############
+____Arg2____
+1939..2110
+13,3,1
+#### Text ####
+it reduced computer inventories a further $100 million during the quarter, leaving it within $100 million of its goal of a reduction of $500 million by the end of the year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1927..1938
+13,1;13,2;13,3,0;13,4
+#### Text ####
+Unisys said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2114..2119
+14,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+1939..2110
+13,3,1
+#### Text ####
+it reduced computer inventories a further $100 million during the quarter, leaving it within $100 million of its goal of a reduction of $500 million by the end of the year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1927..1938
+13,1;13,2;13,3,0;13,4
+#### Text ####
+Unisys said
+##############
+____Arg2____
+2133..2324
+14,3,1
+#### Text ####
+its European business was weak during the quarter, a worrisome sign given that the company has relied on solid results overseas to overcome weakness in the U.S. over the past several quarters
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2121..2132
+14,1;14,2;14,3,0;14,4
+#### Text ####
+Unisys said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2340..2344
+15,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2114..2324
+14
+#### Text ####
+Still, Unisys said its European business was weak during the quarter, a worrisome sign given that the company has relied on solid results overseas to overcome weakness in the U.S. over the past several quarters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2328..2339;2345..2441
+15,0;15,2;15,3
+#### Text ####
+The company reported slower growth in another important business: systems that use the Unix operating system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2443
+16
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2328..2441
+15
+#### Text ####
+The company also reported slower growth in another important business: systems that use the Unix operating system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2443..2494
+16,0;16,1,0;16,1,1,0;16,1,1,1;16,1,1,2;16,1,1,3;16,2
+#### Text ####
+That would be a huge problem if it were to continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2472..2474
+16,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+2443..2471
+16,0;16,1,0;16,1,1,0;16,1,1,1;16,1,1,3;16,2
+#### Text ####
+That would be a huge problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2475..2494
+16,1,1,2,1
+#### Text ####
+it were to continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2496..2503
+16,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2443..2494
+16,0;16,1,0;16,1,1,0;16,1,1,1;16,1,1,2;16,1,1,3;16,2
+#### Text ####
+That would be a huge problem if it were to continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2504..2735
+16,1,1,4,1
+#### Text ####
+Unisys is betting its business on the assumption that customers want to move away from using operating systems that run on only one manufacturer's equipment and toward systems -- mainly Unix -- that work on almost anyone's machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2739..2750
+17,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2133..2324;2354..2441
+14,3,1;15,2,1;15,3
+#### Text ####
+its European business was weak during the quarter, a worrisome sign given that the company has relied on solid results overseas to overcome weakness in the U.S. over the past several quarters slower growth in another important business: systems that use the Unix operating system
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2121..2132
+14,1;14,2;14,3,0;14,4
+#### Text ####
+Unisys said
+##############
+____Arg2____
+2752..2811
+17,1;17,2;17,3;17,4
+#### Text ####
+Unisys must deal with its increasingly oppressive debt load
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2813
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2739..2811
+17
+#### Text ####
+In addition, Unisys must deal with its increasingly oppressive debt load
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2813..2886
+18
+#### Text ####
+Debt has risen to around $4 billion, or about 50% of total capitalization
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2888..2898
+19,0;19,1,0
+#### Text ####
+That means
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+2813..2886
+18
+#### Text ####
+Debt has risen to around $4 billion, or about 50% of total capitalization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2888..3014
+19
+#### Text ####
+That means Unisys must pay about $100 million in interest every quarter, on top of $27 million in dividends on preferred stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3104
+21
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3054..3094
+20,1,1
+#### Text ####
+he is approaching next year with caution
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3018..3053
+20,0;20,1,0;20,2
+#### Text ####
+Jim Unruh, Unisys's president, said
+##############
+____Arg2____
+3104..3203
+21,1,0,1;21,1,1;21,1,2;21,1,3;21,2
+#### Text ####
+the strength of the world-wide economy is suspect, and doesn't see much revenue growth in the cards
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3096..3103
+21,0;21,1,0,0;21,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3210..3214
+22,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3096..3203
+21
+#### Text ####
+He said the strength of the world-wide economy is suspect, and doesn't see much revenue growth in the cards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3207..3209;3215..3316
+22,0;22,2;22,3
+#### Text ####
+He said that the price wars flaring up in parts of the computer industry will continue through next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3326
+23
+#### Features ####
+Ot, Comm, Null, Null
+3318..3325
+23,0;23,1,0;23,2
+#### Text ####
+He said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3220..3316
+22,2,1
+#### Text ####
+that the price wars flaring up in parts of the computer industry will continue through next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3207..3219
+22,0;22,1;22,2,0;22,3
+#### Text ####
+He also said
+##############
+____Arg2____
+3326..3477
+23,1,1
+#### Text ####
+the move toward standard operating systems means customers aren't locked into buying from their traditional computer supplier and can force prices down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3479..3483;3494..3500
+24,0,0;24,0,2,0;24,0,2,1,0
+#### Text ####
+That is why
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3485..3492
+24,0,1
+#### Text ####
+he said
+##############
+Contingency.Cause.Result
+____Arg1____
+3326..3477
+23,1,1
+#### Text ####
+the move toward standard operating systems means customers aren't locked into buying from their traditional computer supplier and can force prices down
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3318..3325
+23,0;23,1,0;23,2
+#### Text ####
+He said
+##############
+____Arg2____
+3479..3483;3494..3654
+24,0,0;24,0,2;24,1;24,2;24,3
+#### Text ####
+That is why Unisys is overhauling its whole business: It needs to prepare for a world in which profit margins will be lower than computer companies have been used to
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3817
+26
+#### Features ####
+Ot, Comm, Null, Null
+3800..3814
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+Mr. Unruh said
+##############
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3659..3797
+25,1
+#### Text ####
+We've approached this not as a response to a temporary condition in the industry but as a fundamental change the industry is going through
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3817..4013
+26;27
+#### Text ####
+The information-systems industry is still going to be a high-growth business, and we're confident that we have tremendous assets as a company.
+But we don't minimize the challenges of the near term
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3895..3898
+26,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3800..3814
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+Mr. Unruh said
+##############
+and, Expansion.Conjunction
+____Arg1____
+3817..3893
+26,1
+#### Text ####
+The information-systems industry is still going to be a high-growth business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3899..3958
+26,4
+#### Text ####
+we're confident that we have tremendous assets as a company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3960..3963
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3800..3814
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+Mr. Unruh said
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3817..3958
+26
+#### Text ####
+The information-systems industry is still going to be a high-growth business, and we're confident that we have tremendous assets as a company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3964..4013
+27,1;27,2;27,3;27,4
+#### Text ####
+we don't minimize the challenges of the near term
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4114
+29
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4063..4112
+28,1,3
+#### Text ####
+having been burned repeatedly on Unisys this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4114..4258
+29
+#### Text ####
+Some had predicted earnings of more than $4 a share for this year, up from last year's fully diluted $3.27 a share on earnings of $680.6 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4260..4263
+30,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4114..4258
+29
+#### Text ####
+Some had predicted earnings of more than $4 a share for this year, up from last year's fully diluted $3.27 a share on earnings of $680.6 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4264..4506
+30,1;30,2;30,3
+#### Text ####
+the company said Friday that it had losses of $673.3 million through the first nine months, compared with earnings a year earlier of $382.2 million, or $2.22 a share fully diluted, as revenue inched up 1.4% to $7.13 billion from $7.03 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4445..4447
+30,2,2,1,1,6,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4264..4287
+30,1;30,2,0;30,2,1;30,3
+#### Text ####
+the company said Friday
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+4288..4443
+30,2,2,0;30,2,2,1,0;30,2,2,1,1,0;30,2,2,1,1,1;30,2,2,1,1,2;30,2,2,1,1,3;30,2,2,1,1,4;30,2,2,1,1,5
+#### Text ####
+that it had losses of $673.3 million through the first nine months, compared with earnings a year earlier of $382.2 million, or $2.22 a share fully diluted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4448..4506
+30,2,2,1,1,6,1
+#### Text ####
+revenue inched up 1.4% to $7.13 billion from $7.03 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4508..4511
+31,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4288..4506
+30,2,2
+#### Text ####
+that it had losses of $673.3 million through the first nine months, compared with earnings a year earlier of $382.2 million, or $2.22 a share fully diluted, as revenue inched up 1.4% to $7.13 billion from $7.03 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4264..4287
+30,1;30,2,0;30,2,1;30,3
+#### Text ####
+the company said Friday
+##############
+____Arg2____
+4512..4588
+31,1;31,2;31,3
+#### Text ####
+Unisys is expected to do little better than break even in the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4592..4594
+32,0
+#### Text ####
+So
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4595..4632
+32,1;32,2,0;32,3
+#### Text ####
+Steve Milunovich at First Boston said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+4281..4588
+30,2,1;30,2,2;30,3;31
+#### Text ####
+Friday that it had losses of $673.3 million through the first nine months, compared with earnings a year earlier of $382.2 million, or $2.22 a share fully diluted, as revenue inched up 1.4% to $7.13 billion from $7.03 billion.
+And Unisys is expected to do little better than break even in the fourth quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4264..4280
+30,1;30,2,0;30,3
+#### Text ####
+the company said
+##############
+____Arg2____
+4633..4704
+32,2,1
+#### Text ####
+he is cutting his earnings estimate for next year to $2 a share from $3
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4707
+33
+#### Features ####
+Ot, Comm, Null, Null
+4757..4764
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+he said
+##############
+indeed, Contingency.Pragmatic cause.Justification
+____Arg1____
+4633..4704
+32,2,1
+#### Text ####
+he is cutting his earnings estimate for next year to $2 a share from $3
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4592..4632
+32,0;32,1;32,2,0;32,3
+#### Text ####
+So Steve Milunovich at First Boston said
+##############
+____Arg2____
+4707..4754
+33,1
+#### Text ####
+I was feeling like I was too high to begin with
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4908
+35
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+4866..4905
+34,1,2,1,1,1,1
+#### Text ####
+whether even that low target is at risk
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4855..4865
+34,1,2,1,0;34,1,2,1,1,0;34,1,2,1,1,1,0
+#### Text ####
+he wonders
+##############
+____Arg2____
+4908..4978
+35,1
+#### Text ####
+The break-even point for next year is much lower, but is it low enough
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4981..4989
+35,0;35,2;35,3;35,4;35,5
+#### Text ####
+he asked
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4958..4961
+35,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4981..4989
+35,0;35,2;35,3;35,4;35,5
+#### Text ####
+he asked
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4908..4956
+35,1,0
+#### Text ####
+The break-even point for next year is much lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4962..4978
+35,1,3
+#### Text ####
+is it low enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

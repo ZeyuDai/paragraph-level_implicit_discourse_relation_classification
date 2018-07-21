@@ -1,0 +1,565 @@
+________________________________________________________
+____Explicit____
+681..685
+3,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+430..679
+2
+#### Text ####
+Options traders were hurt worse than others on Friday because of the highly volatile nature of options, which often rise or fall in value several times the amount of the price change in the individual stock or index of stocks on which they are based
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+687..822
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+options traders Friday were stuck with losses that also were several times larger than those suffered by many stock traders in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+738..742
+3,4,1,2,1,1,1,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+534..679
+2,1,1,4,2,1,1,2
+#### Text ####
+which often rise or fall in value several times the amount of the price change in the individual stock or index of stocks on which they are based
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+733..737;743..822
+3,4,1,2,1,1,0;3,4,1,2,1,1,1,1;3,4,1,2,1,1,1,2
+#### Text ####
+that were several times larger than those suffered by many stock traders in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+987
+5
+#### Features ####
+Ot, Comm, Null, Null
+826..874
+4,0;4,1,0;4,2
+#### Text ####
+Jeffrey Miller of Miller Tabak Hirsch & Co. said
+##############
+indeed, Expansion.Restatement.Specification
+____Arg1____
+875..985
+4,1,1
+#### Text ####
+that given the high degree of leverage in the options market, it is "very easy for these guys to get wiped out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+987..1057
+5
+#### Text ####
+That may just be the nature of these highly leveraged little creatures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1268
+7
+____Arg1____
+1062..1266
+6
+#### Text ####
+An options contract gives the holder the right to buy (call) or sell (put) a specific amount of stock, or in this case the value of a stock index, based on a predetermined price within a given time period
+##############
+____Arg2____
+1268..1538
+7
+#### Text ####
+Options traders who, in return for a small fee, or premium, had previously sold put options on stocks or stock indexes were forced on Friday to buy those contracts back at the previously agreed prices, which were substantially above those in the market as it was falling
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1521..1523
+7,1,1,2,1,1,3,1,2,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1470..1520
+7,1,1,2,1,1,3,1,2,0;7,1,1,2,1,1,3,1,2,1,0;7,1,1,2,1,1,3,1,2,1,1,0;7,1,1,2,1,1,3,1,2,1,1,1
+#### Text ####
+which were substantially above those in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1524..1538
+7,1,1,2,1,1,3,1,2,1,1,2,1
+#### Text ####
+it was falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1540
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+1268..1538
+7
+#### Text ####
+Options traders who, in return for a small fee, or premium, had previously sold put options on stocks or stock indexes were forced on Friday to buy those contracts back at the previously agreed prices, which were substantially above those in the market as it was falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1540..1663
+8
+#### Text ####
+They then had no choice in many cases but to sell the contracts at prevailing prices -- in most cases at a substantial loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1545..1549
+8,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+1284..1386
+7,0,1
+#### Text ####
+who, in return for a small fee, or premium, had previously sold put options on stocks or stock indexes
+##############
+____Arg1____
+1268..1283;1387..1538
+7,0,0;7,1;7,2
+#### Text ####
+Options traders were forced on Friday to buy those contracts back at the previously agreed prices, which were substantially above those in the market as it was falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1540..1544;1550..1663
+8,0;8,2;8,3
+#### Text ####
+They had no choice in many cases but to sell the contracts at prevailing prices -- in most cases at a substantial loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2071..2074
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1890..2069
+10
+#### Text ####
+Making matters worse was the fact that late Friday afternoon the CBOE halted stock-index options trading in step with the Chicago Mercantile Exchange's halt in stock-index futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2075..2229
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+while the Merc reopened a half hour later, the CBOE remained closed, leaving many options traders unable to make trades that might have reduced the losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2434
+13
+#### Features ####
+Wr, Comm, Null, Null
+however, Expansion.Conjunction
+____Arg1____
+2274..2404
+12,2,1
+#### Text ####
+that, unlike the futures market, the options exchange has to open in a rotation that allows each different options series to trade
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2233..2273
+12,0;12,1;12,2,0;12,3
+#### Text ####
+CBOE Chairman Alger "Duke" Chapman, said
+##############
+____Arg2____
+2434..2532
+13,0,1,1
+#### Text ####
+that they wouldn't have been able to make such a rotation with the time remaining Friday afternoon
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2406..2433
+13,0,0;13,0,1,0
+#### Text ####
+Exchange officials reasoned
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2534..2537
+13,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2406..2532
+13,0
+#### Text ####
+Exchange officials reasoned that they wouldn't have been able to make such a rotation with the time remaining Friday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2538..2679
+13,3
+#### Text ####
+with the stock-index futures on the verge of closing for a second and final time, the CBOE reasoned that its best course was to remain closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2899
+15
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+2683..2897
+14
+#### Text ####
+The damage was so bad at Fossett Corp., an options trading firm here, that it was forced to transfer its accounts to First Options of Chicago, a unit of Continental Bank Corp., as a result of options trading losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2899..3030
+15
+#### Text ####
+Fosset so far is the only member of a financial exchange to be forced to be taken over by another firm as a result of Friday's rout
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3042..3047
+16,0,1
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3247..3278
+16,1;16,2;16,3;16,4
+#### Text ####
+options exchange officials said
+##############
+still, Temporal.Asynchronous.Precedence
+____Arg1____
+2683..2897
+14
+#### Text ####
+The damage was so bad at Fossett Corp., an options trading firm here, that it was forced to transfer its accounts to First Options of Chicago, a unit of Continental Bank Corp., as a result of options trading losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3034..3041;3048..3245
+16,0,0;16,0,2
+#### Text ####
+Fossett had several million dollars in capital left after Friday's close of trading, but not enough that regulators, worried about another potential market plunge yesterday, would let it reopen for trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3282..3286
+17,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+3034..3245
+16,0
+#### Text ####
+Fossett still had several million dollars in capital left after Friday's close of trading, but not enough that regulators, worried about another potential market plunge yesterday, would let it reopen for trading
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3247..3278
+16,1;16,2;16,3;16,4
+#### Text ####
+options exchange officials said
+##############
+____Arg2____
+3288..3647
+17,1;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+in an unprecedented arrangement underscoring the seriousness of the transfer, the CBOE, the American Stock Exchange and the Options Clearing Corp., as well as the firm's owner, Stephen Fossett, put up a total of $50 million to guarantee the customer positions being transferred to the bank holding company subsidiary in case the market plunged again yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3937
+20
+#### Features ####
+Ot, Comm, Null, Null
+3920..3934
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+Mr. Rawls said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3867..3917
+19,1
+#### Text ####
+Steve and his firm were still worth a lot of money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3937..3981
+20,0;20,1;20,2,0;20,2,1,0;20,2,1,1;20,2,1,2;20,2,1,3;20,3;20,4
+#### Text ####
+A package of credit support was put together
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4242
+22
+____Arg1____
+4032..4239
+21
+#### Text ####
+The bailout was cobbled together over the weekend, with officials from the Federal Reserve Board, Securities and Exchange Commission, Comptroller of the Currency and Treasury as well as the options exchanges
+##############
+____Arg2____
+4242..4298
+22
+#### Text ####
+It was great to have the luxury of time," Mr. Rawls said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5002..5005
+27,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4861..4884
+27,0;27,1,0;27,2
+#### Text ####
+A federal official said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4885..5000
+27,1,1,0
+#### Text ####
+that Continental Bank worked with securities and banking regulators over the weekend to fashion the Fossett bailout
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5006..5056
+27,1,1,3
+#### Text ####
+that conditions weren't dictated by those agencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5059
+28
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+5002..5056
+27,1,1,2;27,1,1,3
+#### Text ####
+but that conditions weren't dictated by those agencies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4861..4884
+27,0;27,1,0;27,2
+#### Text ####
+A federal official said
+##############
+____Arg2____
+5059..5089
+28,1
+#### Text ####
+It was their business decision
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5092..5109
+28,0;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+the official said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5332
+30
+#### Features ####
+Ot, Comm, Null, Null
+5400..5460
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+said Paul Stevens, OCC president and chief operating officer
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+5210..5329
+29,1,1
+#### Text ####
+that the $50 million guarantee was unprecedented, but was necessary to help insure the integrity of the options markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5205..5209
+29,0,1,1,1;29,0,1,1,3;29,1,0
+#### Text ####
+said
+##############
+____Arg2____
+5332..5397
+30,1
+#### Text ####
+It was an extraordinary situation that needed extraordinary steps
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5572..5575
+32,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+5464..5570
+31
+#### Text ####
+Mr. Stevens declined to give the specific contributions to the $50 million guarantee from each participant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5576..5779
+32,1;32,2;32,3
+#### Text ####
+CBOE and Amex officials said that Options Clearing Corp. contributed $20 million to the guarantee, the CBOE put up $8 million, the Amex added $4 million and $18 million came from Mr. Fossett's own assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5729..5732
+32,2,1,1,5
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5572..5604
+32,0;32,1;32,2,0;32,3
+#### Text ####
+But CBOE and Amex officials said
+##############
+and, Expansion.Conjunction
+____Arg1____
+5605..5728
+32,2,1,0;32,2,1,1,0;32,2,1,1,1;32,2,1,1,2;32,2,1,1,3;32,2,1,1,4
+#### Text ####
+that Options Clearing Corp. contributed $20 million to the guarantee, the CBOE put up $8 million, the Amex added $4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5733..5779
+32,2,1,1,6
+#### Text ####
+$18 million came from Mr. Fossett's own assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

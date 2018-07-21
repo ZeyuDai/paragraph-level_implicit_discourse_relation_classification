@@ -1,0 +1,1694 @@
+________________________________________________________
+____Explicit____
+9..13
+0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+53..114
+0,1;0,2;0,3;0,4
+#### Text ####
+Westridge Capital Management Inc. takes a back seat to no one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14..51
+0,0,1
+#### Text ####
+it comes to buying and selling shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+252..265
+2,0;2,1,0;2,1,1,0
+#### Text ####
+That makes it
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+118..230
+1,0
+#### Text ####
+Every dollar's worth of stock in the Los Angeles money manager's portfolio is traded seven or eight times a year
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+232..250
+1,1;1,2;1,3;1,4
+#### Text ####
+the firm estimates
+##############
+____Arg2____
+252..388
+2
+#### Text ####
+That makes it the most active trader among all the nation's investment advisers, according to Securities and Exchange Commission filings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+333..388
+2,1,2;2,1,3;2,2
+#### Text ####
+according to Securities and Exchange Commission filings
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+392..395
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+118..388
+1;2
+#### Text ####
+Every dollar's worth of stock in the Los Angeles money manager's portfolio is traded seven or eight times a year, the firm estimates.
+That makes it the most active trader among all the nation's investment advisers, according to Securities and Exchange Commission filings
+##############
+____Arg1____
+9..114
+0
+#### Text ####
+When it comes to buying and selling shares, Westridge Capital Management Inc. takes a back seat to no one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+392..532
+3;4
+#### Text ####
+But wait a second.
+Westridge Capital is an index fund -- the type of stolid long-term investor whose goal is to be nothing more than average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+411
+4
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+392..409
+3
+#### Text ####
+But wait a second
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+411..532
+4
+#### Text ####
+Westridge Capital is an index fund -- the type of stolid long-term investor whose goal is to be nothing more than average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+652
+6
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+536..650
+5
+#### Text ####
+Westridge Capital's frenetic trading reflects the changes sweeping through the previously sleepy world of indexing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+652..853
+6
+#### Text ####
+Indexing for the most part has involved simply buying and then holding stocks in the correct mix to mirror a stock market barometer, such as Standard & Poor's 500-stock index, and match its performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+710..714
+6,2,1,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+692..705
+6,2,1,1,0;6,2,1,1,1,0
+#### Text ####
+simply buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+706..709;715..748
+6,2,1,1,1,1;6,2,1,1,1,2,1;6,2,1,1,1,2,2;6,2,1,1,1,3
+#### Text ####
+and holding stocks in the correct mix
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+749..853
+6,2,1,2
+#### Text ####
+to mirror a stock market barometer, such as Standard & Poor's 500-stock index, and match its performance
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1031
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+857..1029
+7
+#### Text ####
+Institutional investors have poured $210 billion into stock and bond indexing as a cheap and easy form of investment management that promises to post average market returns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1031..1225
+8
+#### Text ####
+These big investors have flocked to indexing because relatively few "active" stock pickers have been able to consistently match the returns of the S&P 500 or other bellwethers, much less beat it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1076..1083
+8,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1031..1075
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,2
+#### Text ####
+These big investors have flocked to indexing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1084..1225
+8,1,1,2,1
+#### Text ####
+relatively few "active" stock pickers have been able to consistently match the returns of the S&P 500 or other bellwethers, much less beat it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1229..1232
+9,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1031..1225
+8
+#### Text ####
+These big investors have flocked to indexing because relatively few "active" stock pickers have been able to consistently match the returns of the S&P 500 or other bellwethers, much less beat it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1233..1355
+9,1;9,2;9,3
+#### Text ####
+the fees investors pay for indexing run a few pennies for each $100 of assets -- a fraction of the cost of active managers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1357..1371
+10,0,0;10,0,1,0;10,0,1,1,0
+#### Text ####
+That's because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+1229..1310
+9,0;9,1;9,2,0;9,2,1,0;9,2,1,1;9,3
+#### Text ####
+And the fees investors pay for indexing run a few pennies for each $100 of assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1357..1459
+10
+#### Text ####
+That's because computers do most of the work, and low trading activity keeps a lid on commission costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1364..1371
+10,0,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1357..1363
+10,0,0;10,0,1,0
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1372..1459
+10,0,1,1,1;10,1;10,2;10,3;10,4
+#### Text ####
+computers do most of the work, and low trading activity keeps a lid on commission costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1403..1406
+10,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1364..1401
+10,0,1,1
+#### Text ####
+because computers do most of the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1407..1459
+10,3
+#### Text ####
+low trading activity keeps a lid on commission costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1463..1466
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+652..853
+6
+#### Text ####
+Indexing for the most part has involved simply buying and then holding stocks in the correct mix to mirror a stock market barometer, such as Standard & Poor's 500-stock index, and match its performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1557
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+today, indexing is moving from a passive investment strategy to an increasingly active one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1559
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1463..1557
+11
+#### Text ####
+But today, indexing is moving from a passive investment strategy to an increasingly active one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1559..1766
+12
+#### Text ####
+Because index-fund managers are no longer satisfied with merely being average, they have developed "enhanced" indexing strategies that are intended to outperform the market as much as three percentage points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1559..1566
+12,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1638..1766
+12,1;12,2;12,3;12,4
+#### Text ####
+they have developed "enhanced" indexing strategies that are intended to outperform the market as much as three percentage points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1567..1636
+12,0,1
+#### Text ####
+index-fund managers are no longer satisfied with merely being average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1855..1858
+13,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1913..2004
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+says Seth M. Lynn, president of Axe Core Investors Inc., an indexer based in Tarrytown, N.Y
+##############
+but, Comparison.Contrast
+____Arg1____
+1771..1853
+13,1,0
+#### Text ####
+Indexing has been the most single successful investment concept in the last decade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1859..1910
+13,1,3
+#### Text ####
+the index money has been just sort of sitting there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2007
+14
+#### Features ####
+Ot, Comm, Null, Null
+1913..2004
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+says Seth M. Lynn, president of Axe Core Investors Inc., an indexer based in Tarrytown, N.Y
+##############
+but, Comparison.Contrast
+____Arg1____
+1771..1910
+13,1
+#### Text ####
+Indexing has been the most single successful investment concept in the last decade, but the index money has been just sort of sitting there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2007..2064
+14
+#### Text ####
+Now the interest is in what else can I do with that money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2067..2106
+15,0
+#### Text ####
+Among the souped-up indexing strategies
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+2007..2064
+14
+#### Text ####
+Now the interest is in what else can I do with that money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2067..2242
+15
+#### Text ####
+Among the souped-up indexing strategies: Indexed portfolios can be built around thousands of stocks, or just a few dozen, rather than being restricted to the S&P 500 companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2244
+16
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2108..2242
+15,1;15,2;15,3;15,4
+#### Text ####
+Indexed portfolios can be built around thousands of stocks, or just a few dozen, rather than being restricted to the S&P 500 companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2244..2441
+16
+#### Text ####
+They can ignore the S&P 500 stocks altogether and focus on particular types of stocks, such as smaller companies, those paying high dividends or companies in a particular industry, state or country
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2648..2652
+18,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2445..2626
+17
+#### Text ####
+With today's computer-driven program trading techniques, index funds can trade back and forth between stock-index futures and the actual stocks making up indexes such as the S&P 500
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2628..2647;2653..2819
+18,0;18,2;18,3
+#### Text ####
+Futures and options make it possible to build "synthetic" index funds that don't actually own a single share of stock, but can produce returns that match or exceed the broad stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2967
+20
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+2855..2964
+19,1,1
+#### Text ####
+that indexing's rapid growth is slowing, particularly for those "plain vanilla" funds that mirror the S&P 500
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2967..3053
+20,1
+#### Text ####
+There isn't a boatload {of big investors} out there still waiting to get into indexing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3056..3136
+20,0;20,2;20,3;20,4;20,5,0;20,5,1;20,5,2,0;20,5,2,1,0;20,5,2,1,1,0;20,6
+#### Text ####
+says P. James Kartalia, vice president of ANB Investment Management Co., Chicago
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3198
+21
+____Arg1____
+2967..3195
+20
+#### Text ####
+There isn't a boatload {of big investors} out there still waiting to get into indexing," says P. James Kartalia, vice president of ANB Investment Management Co., Chicago, which offers both indexing and active management services
+##############
+____Arg2____
+3198..3311
+21
+#### Text ####
+After tripling in size in the past five years, index funds now hold about 20% of the stock owned by pension funds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3198..3203
+21,1,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3245..3311
+21,0;21,2;21,3;21,4;21,5;21,6;21,7
+#### Text ####
+index funds now hold about 20% of the stock owned by pension funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3204..3243
+21,1,1
+#### Text ####
+tripling in size in the past five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3357
+23
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3316..3355
+22
+#### Text ####
+A further problem is razor-thin profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3357..3493
+23
+#### Text ####
+Plain-vanilla funds have become so commonplace that fees they can charge have plunged to almost nothing, and in some cases are just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3495
+24
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3357..3493
+23
+#### Text ####
+Plain-vanilla funds have become so commonplace that fees they can charge have plunged to almost nothing, and in some cases are just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3495..3627
+24
+#### Text ####
+To land customers for their well-paying stock custodial business, big banks sometimes will throw in basic indexing services for free
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3630
+25
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Specification
+____Arg1____
+3495..3627
+24
+#### Text ####
+To land customers for their well-paying stock custodial business, big banks sometimes will throw in basic indexing services for free
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3630..3687
+25,1
+#### Text ####
+It's like getting a free toaster when you open an account
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3690..3714
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+says Axe Core's Mr. Lynn
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3663..3667
+25,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3690..3714
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+says Axe Core's Mr. Lynn
+##############
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+3640..3662
+25,1,1,1,1,0;25,1,1,1,1,1,0;25,1,1,1,1,1,1
+#### Text ####
+getting a free toaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3668..3687
+25,1,1,1,1,1,2,1
+#### Text ####
+you open an account
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3718..3729
+26,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+2967..3311;3357..3714
+20;21;23;24;25
+#### Text ####
+There isn't a boatload {of big investors} out there still waiting to get into indexing," says P. James Kartalia, vice president of ANB Investment Management Co., Chicago, which offers both indexing and active management services. (After tripling in size in the past five years, index funds now hold about 20% of the stock owned by pension funds Plain-vanilla funds have become so commonplace that fees they can charge have plunged to almost nothing, and in some cases are just that.
+To land customers for their well-paying stock custodial business, big banks sometimes will throw in basic indexing services for free. "It's like getting a free toaster when you open an account," says Axe Core's Mr. Lynn
+##############
+____Arg1____
+2855..2964;3316..3355
+19,1,1;22
+#### Text ####
+that indexing's rapid growth is slowing, particularly for those "plain vanilla" funds that mirror the S&P 500 A further problem is razor-thin profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3731..3832
+26,1;26,2;26,3;26,4
+#### Text ####
+indexers have been looking for ways to give investors something more than the average for their money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3834..3837
+27,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3718..3832
+26
+#### Text ####
+As a result, indexers have been looking for ways to give investors something more than the average for their money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3838..3940
+27,1;27,2;27,3
+#### Text ####
+many have been successful, as in the case of the index fund operated by hyper-trader Westridge Capital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4273
+30
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4193..4271
+29
+#### Text ####
+Strategies vary for Westridge Capital, which has $300 million under management
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4273..4496
+30
+#### Text ####
+The firm sometimes buys S&P 500 futures when they are selling at a discount to the actual stocks, and will switch back and forth between stocks and stock-index futures to take advantages of any momentary price discrepencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4313..4317
+30,2,0,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+4273..4312
+30,0;30,1;30,2,0,0;30,2,0,1;30,3
+#### Text ####
+The firm sometimes buys S&P 500 futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4318..4369
+30,2,0,2,1
+#### Text ####
+they are selling at a discount to the actual stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4511..4515
+31,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4273..4496
+30
+#### Text ####
+The firm sometimes buys S&P 500 futures when they are selling at a discount to the actual stocks, and will switch back and forth between stocks and stock-index futures to take advantages of any momentary price discrepencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4500..4510;4516..4630
+31,0;31,2;31,3
+#### Text ####
+Mr. Carder goes through periods when he buys stocks in conjunction with options to boost returns and protect against declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4634..4637
+32,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4500..4630
+31
+#### Text ####
+Mr. Carder also goes through periods when he buys stocks in conjunction with options to boost returns and protect against declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4638..4703
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+in some months, he buys stock-index futures and not stocks at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4706
+33
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4634..4703
+32
+#### Text ####
+And in some months, he buys stock-index futures and not stocks at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4706..4791
+33,1
+#### Text ####
+By their nature, our trades are very short-term and are going to create high turnover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4794..4809
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+Mr. Carder adds
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4812
+34
+#### Features ####
+Ot, Comm, Null, Null
+4794..4809
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+Mr. Carder adds
+##############
+in turn, Expansion.Conjunction
+____Arg1____
+4706..4791
+33,1
+#### Text ####
+By their nature, our trades are very short-term and are going to create high turnover
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4812..4857
+34
+#### Text ####
+The more turnover, the better for our clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4892..4896
+35,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4273..4496
+30
+#### Text ####
+The firm sometimes buys S&P 500 futures when they are selling at a discount to the actual stocks, and will switch back and forth between stocks and stock-index futures to take advantages of any momentary price discrepencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4862..4890;4897..5001
+35,0;35,2;35,3
+#### Text ####
+Big indexer Bankers Trust Co uses futures in a strategy that on average has added one percentage point to its enhanced fund's returns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5094
+36
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+4862..5001
+35
+#### Text ####
+Big indexer Bankers Trust Co. also uses futures in a strategy that on average has added one percentage point to its enhanced fund's returns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5094..5157
+36,1,1
+#### Text ####
+it's a good idea to jump between the S&P 500 stocks and futures
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5003..5093
+36,0;36,1,0;36,2
+#### Text ####
+J. Thomas Allen, president of Pittsburgh-based Advanced Investment Management Inc., agrees
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5160
+37
+#### Features ####
+Ot, Comm, Null, Null
+5237..5244
+37,0;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5094..5157
+36,1,1
+#### Text ####
+it's a good idea to jump between the S&P 500 stocks and futures
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5003..5093
+36,0;36,1,0;36,2
+#### Text ####
+J. Thomas Allen, president of Pittsburgh-based Advanced Investment Management Inc., agrees
+##############
+____Arg2____
+5160..5234
+37,1
+#### Text ####
+You're buying the S&P, and you always want to hold the cheapest form of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5183..5186
+37,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5237..5244
+37,0;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+he says
+##############
+and, Expansion.Conjunction
+____Arg1____
+5160..5181
+37,1,0
+#### Text ####
+You're buying the S&P
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5187..5234
+37,1,3
+#### Text ####
+you always want to hold the cheapest form of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5248..5251
+38,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4862..5157
+35;36
+#### Text ####
+Big indexer Bankers Trust Co. also uses futures in a strategy that on average has added one percentage point to its enhanced fund's returns.
+J. Thomas Allen, president of Pittsburgh-based Advanced Investment Management Inc., agrees it's a good idea to jump between the S&P 500 stocks and futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5252..5363
+38,1;38,2;38,3
+#### Text ####
+some indexers make little or no use of futures, saying that these instruments present added risks for investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5366
+39
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5307..5363
+38,2,3,1,1
+#### Text ####
+that these instruments present added risks for investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5300..5306
+38,2,3,0;38,2,3,1,0
+#### Text ####
+saying
+##############
+____Arg2____
+5366..5445
+39,1
+#### Text ####
+If the futures markets have a problem, then those products could have a problem
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5448..5566
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+says John Zumbrunn, managing director of Prudential Insurance Co. of America's Investment Index Technologies Inc. unit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5366..5368;5405..5409
+39,1,0,0;39,1,2
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5448..5566
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+says John Zumbrunn, managing director of Prudential Insurance Co. of America's Investment Index Technologies Inc. unit
+##############
+if then, Contingency.Condition.General
+____Arg1____
+5369..5403
+39,1,0,1
+#### Text ####
+the futures markets have a problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5410..5445
+39,1,1;39,1,3;39,1,4
+#### Text ####
+those products could have a problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5713..5718
+41,0,1
+#### Text ####
+added
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+5570..5708
+40
+#### Text ####
+Prudential currently is seeking approval to offer a new fund offering a return equal to the S&P 500 index plus 5/100 of a percentage point
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5710..5796
+41
+#### Text ####
+An added feature is that the slighty improved return would be guaranteed by Prudential
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5871
+43
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5800..5869
+42
+#### Text ####
+There are many other strategies to bolster the returns of index funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5871..5905
+43;44
+#### Text ####
+They include: 
+
+LIMITED RISK FUNDS
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5907
+45
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5887..5905
+44
+#### Text ####
+LIMITED RISK FUNDS
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5907..6000
+45
+#### Text ####
+These guarantee protection against stock market declines while still passing along most gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5964..5969
+45,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+5907..5963
+45,0;45,1,0;45,1,1;45,2
+#### Text ####
+These guarantee protection against stock market declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5970..6000
+45,1,2,1
+#### Text ####
+still passing along most gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6002
+46
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5907..6000
+45
+#### Text ####
+These guarantee protection against stock market declines while still passing along most gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6002..6117
+46
+#### Text ####
+Here a fund may promise to pay back, say, $95 of every $100 invested for a year, even if the market goes much lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6083..6090
+46,2,1,1,1,1,7,0;46,2,1,1,1,1,7,1
+#### Text ####
+even if
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+6002..6025
+46,0;46,1;46,2,0;46,2,1,0;46,3
+#### Text ####
+Here a fund may promise
+##############
+if, Comparison.Concession.Expectation
+____Arg1____
+6026..6081
+46,2,1,1,0;46,2,1,1,1,0;46,2,1,1,1,1,0;46,2,1,1,1,1,1;46,2,1,1,1,1,2;46,2,1,1,1,1,3;46,2,1,1,1,1,4;46,2,1,1,1,1,5;46,2,1,1,1,1,6
+#### Text ####
+to pay back, say, $95 of every $100 invested for a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6091..6117
+46,2,1,1,1,1,7,2
+#### Text ####
+the market goes much lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6119
+47
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+6002..6117
+46
+#### Text ####
+Here a fund may promise to pay back, say, $95 of every $100 invested for a year, even if the market goes much lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6119..6326
+47;48
+#### Text ####
+The fund could invest $87 for one year in Treasury bills yielding 8% to return the guaranteed $95.
+That leaves $13, which could be used to buy S&P 500 options that will nearly match any gain in the S&P index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+6218..6229
+48,0;48,1,0
+#### Text ####
+That leaves
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+6119..6216
+47
+#### Text ####
+The fund could invest $87 for one year in Treasury bills yielding 8% to return the guaranteed $95
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6218..6326
+48
+#### Text ####
+That leaves $13, which could be used to buy S&P 500 options that will nearly match any gain in the S&P index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+6357..6360
+50,1,0
+#### Text ####
+Say
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Condition.General
+____Arg1____
+6408..6543
+51,0
+#### Text ####
+Instead of hiring one of the many active managers specializing in growth stocks, indexers can design a portfolio around the same stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6357..6406
+50
+#### Text ####
+Say a big investor is interested in growth stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6545
+51
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+6408..6543
+51,0
+#### Text ####
+Instead of hiring one of the many active managers specializing in growth stocks, indexers can design a portfolio around the same stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6545..6669
+51,2
+#### Text ####
+the portfolio will be maintained by computer, reducing both fees and, in theory, risk (because of the large number of stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6673
+52
+____Arg1____
+6545..6669
+51,2
+#### Text ####
+the portfolio will be maintained by computer, reducing both fees and, in theory, risk (because of the large number of stocks
+##############
+____Arg2____
+6673..6777
+52
+#### Text ####
+We see a lot of interest in those kind of things," says Frank Salerno, a vice president of Bankers Trust
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6780
+53
+#### Features ####
+Ot, Comm, Null, Null
+6724..6777
+52,0;52,2;52,3;52,4;52,5;52,6
+#### Text ####
+says Frank Salerno, a vice president of Bankers Trust
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+6673..6721
+52,1
+#### Text ####
+We see a lot of interest in those kind of things
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6780..6860
+53
+#### Text ####
+People comfortable with the passive approach are using them for other strategies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6911
+56
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+6877..6909
+55
+#### Text ####
+This is an index fund with a bet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6911..7037
+56
+#### Text ####
+Instead of replicating the S&P 500 or some other index exactly, some stocks are overweighted or underweighted in the portfolio
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+7039..7061
+57,0,0;57,0,1,0
+#### Text ####
+One simple approach is
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+6911..7037
+56
+#### Text ####
+Instead of replicating the S&P 500 or some other index exactly, some stocks are overweighted or underweighted in the portfolio
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7039..7123
+57,0
+#### Text ####
+One simple approach is to exclude S&P 500 companies considered bankruptcy candidates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7125
+57
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+7039..7123
+57,0
+#### Text ####
+One simple approach is to exclude S&P 500 companies considered bankruptcy candidates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7125..7215
+57,2
+#### Text ####
+this can avoid weak sisters, but also can hurt when a company like Chrysler Corp. rebounds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7158..7162
+57,2,1,1,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+7125..7152
+57,2,0;57,2,1,0;57,2,1,1,0;57,2,1,1,1
+#### Text ####
+this can avoid weak sisters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7154..7157;7163..7215
+57,2,1,1,2;57,2,1,1,4
+#### Text ####
+but can hurt when a company like Chrysler Corp. rebounds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7172..7176
+57,2,1,1,4,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General, Temporal.Synchrony
+____Arg1____
+7154..7171
+57,2,1,1,2;57,2,1,1,3;57,2,1,1,4,0;57,2,1,1,4,1,0
+#### Text ####
+but also can hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7177..7215
+57,2,1,1,4,1,1,1
+#### Text ####
+a company like Chrysler Corp. rebounds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+7217..7233
+58,0
+#### Text ####
+Another approach
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+7039..7215
+57
+#### Text ####
+One simple approach is to exclude S&P 500 companies considered bankruptcy candidates; this can avoid weak sisters, but also can hurt when a company like Chrysler Corp. rebounds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7217..7373
+58
+#### Text ####
+Another approach: An investor with $100 million might use $75 million to buy the S&P 500 index and spend the other $25 million on a favorite group of stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7522
+61
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+7446..7520
+60,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+such as eliminating the stocks of companies doing business in South Africa
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7522..7637
+61
+#### Text ####
+Other funds have been designed to concentrate on stocks in a geographic area in order to encourage local investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7687..7698
+62,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+7522..7637
+61
+#### Text ####
+Other funds have been designed to concentrate on stocks in a geographic area in order to encourage local investment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7639..7685;7700..7839
+62,0;62,1;62,3;62,4;62,5
+#### Text ####
+Pennsylvania State Employees Retirement System has about $130 million invested in a fund of 244 companies that are either Pennsylvania-based or have 25% of their work forces in the state
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

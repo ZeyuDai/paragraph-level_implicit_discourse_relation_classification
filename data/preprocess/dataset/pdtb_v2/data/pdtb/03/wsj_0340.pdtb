@@ -1,0 +1,87 @@
+________________________________________________________
+____Explicit____
+321..325
+1,3,1,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+98..225
+0,1,2
+#### Text ####
+that it bought 43,000 shares of Cie. de Navigation Mixte, apparently to help fend off an unwelcome takeover bid for the company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..97
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+The portfolio unit of the French bank group Credit Lyonnais told stock market regulators
+##############
+____Arg2____
+291..320;326..405
+1,3,1,2,0;1,3,1,2,1,0;1,3,1,2,1,2
+#### Text ####
+that a unit of Framatome S.A. bought Navigation Mixte shares, this purchase covering more than 160,000 shares
+##############
+#### Features ####
+Ot, Comm, Null, Null
+229..290
+1,0;1,1;1,2;1,3,0;1,3,1,0;1,3,1,1;1,4
+#### Text ####
+Earlier yesterday, the Societe de Bourses Francaises was told
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+587
+4
+____Arg1____
+409..585
+2;3
+#### Text ####
+Both companies are allies of Navigation Mixte in its fight against a hostile takeover bid launched last week by Cie.
+Financiere de Paribas at 1,850 French francs ($297) a share
+##############
+____Arg2____
+587..717
+4
+#### Text ####
+Navigation Mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened Monday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+685..695
+4,1,1,1,1,1,1,1,1,1,2,0;4,1,1,1,1,1,1,1,1,1,2,1;4,1,1,1,1,1,1,1,1,1,2,2,0
+#### Text ####
+as soon as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+587..628
+4,0;4,1,0;4,1,1,0;4,2
+#### Text ####
+Navigation Mixte's chairman had suggested
+##############
+as soon as, Temporal.Asynchronous.Succession
+____Arg1____
+668..684
+4,1,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+to buy its stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+696..717
+4,1,1,1,1,1,1,1,1,1,2,2,1
+#### Text ####
+trading opened Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,573 @@
+________________________________________________________
+____Explicit____
+299..301
+1,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+272..298
+1,0;1,1,0;1,2
+#### Text ####
+The 249-166 roll call came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+302..516
+1,1,1,1
+#### Text ####
+the chamber approved a compromise bill allocating $17.2 billion to the departments of State, Justice, and Commerce in fiscal 1990 and imposing increased fees on business interests making filings with the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+646..649
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+520..644
+2,0
+#### Text ####
+An estimated $40 million would come annually from a new $20,000 charge on pre-merger notifications to the Justice Department
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+650..768
+2,3
+#### Text ####
+Securities and Exchange Commission filing fees would rise by 25% to fund a $26 million increase in the agency's budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1022
+4
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+907..930
+3,1,1,1,1,2,1,1,0,1,2
+#### Text ####
+to find offsetting cuts
+##############
+____Arg1____
+943..1019
+3,1,1,1,1,2,1,1,2,1,1;3,1,1,1,1,2,1,1,2,1,2
+#### Text ####
+as a more realistic path to expediting compensation first authorized in 1988
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+931..942
+3,1,1,1,1,2,1,1,1;3,1,1,1,1,2,1,1,2,0;3,1,1,1,1,2,1,1,2,1,0;3,1,1,1,1,2,1,1,2,1,1
+#### Text ####
+but is seen
+##############
+____Arg2____
+1022..1094
+4,1
+#### Text ####
+The only way to reduce the costs is to say we don't want to pay the bill
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1097..1128
+4,0;4,2;4,3;4,4;4,5,0;4,5,1;4,5,2;4,6
+#### Text ####
+said Rep. Neal Smith (D., Iowa)
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1250
+5
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1130..1247
+4,5,3
+#### Text ####
+who taunted President Bush's party to back up his campaign promise of supporting the claims of $20,000 per individual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1250..1359
+5;6
+#### Text ####
+Read my lips," said Mr. Smith. "If you're for paying the claims . . . I don't know how anyone can oppose this
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1282
+6
+____Arg1____
+1250..1279
+5
+#### Text ####
+Read my lips," said Mr. Smith
+##############
+____Arg2____
+1282..1359
+6
+#### Text ####
+If you're for paying the claims . . . I don't know how anyone can oppose this
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1282..1284
+6,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1265..1279
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said Mr. Smith
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1320..1359
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+I don't know how anyone can oppose this
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1285..1313
+6,1,1
+#### Text ####
+you're for paying the claims
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1401..1404
+7,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1364..1399
+7,0
+#### Text ####
+No payments would be made this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1405..1558
+7,3
+#### Text ####
+beginning in fiscal 1991, the bill commits the government to annual payments of as much as $500 million until the total liability of $1.25 billion is met
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1509..1514
+7,3,3,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1401..1404;1431..1508
+7,2;7,3,1;7,3,2;7,3,3,0;7,3,3,1;7,3,3,2;7,4
+#### Text ####
+but the bill commits the government to annual payments of as much as $500 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1515..1558
+7,3,3,3,1
+#### Text ####
+the total liability of $1.25 billion is met
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1698
+9
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1562..1696
+8
+#### Text ####
+The issue has assumed some of the character of past civil-rights debates and reopens old regional divisions in the Democratic majority
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1698..1889
+9
+#### Text ####
+As much as Republicans led the opposition, among the 53 Democrats voting against treating the payments as an entitlement, 42 came from the 13 states in the Old Dixiecrat South and its borders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1698..1708
+9,0,0;9,0,1,0
+#### Text ####
+As much as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+much as, Comparison.Concession.Expectation
+____Arg1____
+1741..1889
+9,1;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+among the 53 Democrats voting against treating the payments as an entitlement, 42 came from the 13 states in the Old Dixiecrat South and its borders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1709..1739
+9,0,1,1
+#### Text ####
+Republicans led the opposition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2016..2019
+10,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1893..2014
+10,0
+#### Text ####
+The odd mix of departments in the underlying bill makes it one of the more eclectic of the annual appropriations measures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2020..2103
+10,3
+#### Text ####
+it is a lightning rod for a running battle over the fate of the Legal Services Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2216..2221
+11,1,2,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+2162..2215
+11,1,1;11,1,2,0;11,1,2,1;11,1,2,2,0;11,1,2,2,1
+#### Text ####
+but would sharply curb the power of the current board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2222..2273
+11,1,2,2,2,1
+#### Text ####
+successors are agreed to by the Bush administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2275
+12
+____Arg1____
+2107..2273
+11
+#### Text ####
+The measure provides $321 million to maintain services but would sharply curb the power of the current board until successors are agreed to by the Bush administration
+##############
+____Arg2____
+2275..2383
+12
+#### Text ####
+The conservative bent of the incumbent appointees, named by former President Reagan, has divided Republicans
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2385..2388
+13,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2275..2383
+12
+#### Text ####
+The conservative bent of the incumbent appointees, named by former President Reagan, has divided Republicans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2389..2587
+13,1;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+on back-to-back roll calls, 206-199 and 223-178, the Appropriations Committee leadership turned back efforts to weaken or strip the proposed restrictions first added by Sen. Warren Rudman (R., N.H.)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2789..2791
+14,1,1,1,2,1,2,1,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2760..2788
+14,1,1,1,2,1,2,0;14,1,1,1,2,1,2,1,0;14,1,1,1,2,1,2,1,1;14,1,1,1,2,1,2,1,2,0;14,1,1,1,2,1,2,1,2,1
+#### Text ####
+which both face serious cuts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2792..2817
+14,1,1,1,2,1,2,1,2,2,1
+#### Text ####
+the income isn't realized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2819
+15
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2590..2758
+14,0;14,1,0;14,1,1,0;14,1,1,1,0;14,1,1,1,1;14,1,1,1,2,0;14,1,1,1,2,1,0;14,1,1,1,2,1,1;14,2
+#### Text ####
+The estimated $40 million from the new pre-merger notification fee would be divided between the Justice Department's Antitrust Division and the Federal Trade Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2819..2939
+15,0
+#### Text ####
+The Federal Bureau of Investigation is slated to receive $30 million by charging for fingerprint services in civil cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2941..2944
+15,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2819..2939
+15,0
+#### Text ####
+The Federal Bureau of Investigation is slated to receive $30 million by charging for fingerprint services in civil cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2945..3067
+15,3
+#### Text ####
+the judiciary will rely on another $32 million from bankruptcy charges, including a 33% increase in the current filing fee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3233..3236
+16,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3071..3231
+16,0
+#### Text ####
+The $17.2 billion total for the bill doesn't include an estimated $1.2 billion in supplemental anti-drug funds approved by the House-Senate conference yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3237..3322
+16,3
+#### Text ####
+the rush of money is already provoking jealousy among states competing for assistance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3452..3455
+17,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+3326..3451
+17,0
+#### Text ####
+The House agreed to defer for a year a scheduled 50% increase in the required state matching funds for law-enforcement grants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3457..3631
+17,3
+#### Text ####
+by a 287-123 margin, the chamber stripped a Senate initiative to raise the minimum grant for smaller states, such as New Hampshire and Delaware, to $1.6 million from $500,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3817..3821
+19,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal, Contingency
+____Arg1____
+4005..4079
+19,1;19,2;19,3;19,4
+#### Text ####
+Sen. Phil Gramm (R., Texas) insisted last week that the money be preserved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3822..4003
+19,0,1
+#### Text ####
+a House-Senate conference on yesterday's bill rescinded $11.8 million in unexpended funds for a Fort Worth, Texas, economic development project backed by former Speaker James Wright
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4203..4206
+20,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4083..4201
+20,0
+#### Text ####
+The measure includes $2 million secured by Mr. Rudman for a marine-research project at the University of New Hampshire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4207..4337
+20,3
+#### Text ####
+Sen. Ernest Hollings (D., S.C.) used his power to add $10 million for an advanced technology initiative in the Commerce Department
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4339
+21
+____Arg1____
+4083..4337
+20
+#### Text ####
+The measure includes $2 million secured by Mr. Rudman for a marine-research project at the University of New Hampshire, and Sen. Ernest Hollings (D., S.C.) used his power to add $10 million for an advanced technology initiative in the Commerce Department
+##############
+____Arg2____
+4339..4493
+21
+#### Text ####
+This was in addition to a more parochial $4.5 million authorization for a health center in South Carolina upheld by a 273-121 vote in the House last night
+##############
+________________________________________________________

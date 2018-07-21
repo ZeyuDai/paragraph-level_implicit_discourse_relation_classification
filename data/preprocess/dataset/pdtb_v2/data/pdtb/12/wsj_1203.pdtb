@@ -1,0 +1,2217 @@
+________________________________________________________
+____Explicit____
+206..210
+1,1,7
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+175..200
+1,1,1;1,1,2;1,1,3;1,1,4;1,1,5
+#### Text ####
+tried to rally but failed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+202..205;211..253
+1,1,6;1,1,8,0;1,1,8,1;1,1,8,2
+#### Text ####
+and triggered stop-loss orders on its way down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+254..310
+1,1,8,3
+#### Text ####
+to settle at $1.1510 a pound, off 4.50 cents for the day
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+312
+2
+____Arg1____
+131..310
+1
+#### Text ####
+December copper opened near Monday's close, tried to rally but failed, and then triggered stop-loss orders on its way down to settle at $1.1510 a pound, off 4.50 cents for the day
+##############
+____Arg2____
+312..425
+2
+#### Text ####
+Stop-loss orders are placed previously with instructions to execute them if the market hits a predetermined price
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+385..387
+2,1,1,4,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+351..368
+2,1,1,1;2,1,1,3
+#### Text ####
+with instructions
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+369..384
+2,1,1,4,0;2,1,1,4,1,0;2,1,1,4,1,1,0;2,1,1,4,1,1,1
+#### Text ####
+to execute them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+388..425
+2,1,1,4,1,1,2,1
+#### Text ####
+the market hits a predetermined price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+641
+4
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+502..631
+3,1,1
+#### Text ####
+the decline was almost certainly influenced by the early sell-off in the stock market, which partly reflected a weakening economy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+429..501
+3,0;3,1,0;3,2
+#### Text ####
+William Kaiser, president of the Kaiser Financial Group in Chicago, said
+##############
+____Arg2____
+641..734
+4,1,1
+#### Text ####
+the recent decline in copper stocks was misleading in the face of a slowdown in manufacturing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+633..640
+4,0;4,1,0;4,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+752
+5
+#### Features ####
+Ot, Comm, Null, Null
+736..751
+5,0;5,1,0;5,2
+#### Text ####
+Mr. Kaiser said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+641..734
+4,1,1
+#### Text ####
+the recent decline in copper stocks was misleading in the face of a slowdown in manufacturing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+633..640
+4,0;4,1,0;4,2
+#### Text ####
+He said
+##############
+____Arg2____
+752..919
+5,1,1
+#### Text ####
+traders could have picked up signals of an imminent price decline had they been watching the scrap metal markets, which became noticeably weaker two to three weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+923..926
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+502..631
+3,1,1
+#### Text ####
+the decline was almost certainly influenced by the early sell-off in the stock market, which partly reflected a weakening economy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+429..501
+3,0;3,1,0;3,2
+#### Text ####
+William Kaiser, president of the Kaiser Financial Group in Chicago, said
+##############
+____Arg2____
+927..976;995..996;995..1075
+6,1;6,4,1,1;6,4,1,1,0,0
+#### Text ####
+though a weakening economy implies reduced demand h hat Third World copper-producing countries haven't any choice but to sell copper
+##############
+#### Features ####
+Ot, Comm, Null, Null
+978..993
+6,2;6,3;6,4,0;6,5
+#### Text ####
+Mr. Kaiser said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+927..933
+6,1,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+923..926;994..1075
+6,0;6,2;6,4,1;6,5
+#### Text ####
+But that Third World copper-producing countries haven't any choice but to sell copper
+##############
+#### Features ####
+Ot, Comm, Null, Null
+978..993
+6,2;6,3;6,4,0;6,5
+#### Text ####
+Mr. Kaiser said
+##############
+____Arg2____
+934..976
+6,1,1
+#### Text ####
+a weakening economy implies reduced demand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1077
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+923..976;994..1075
+6,0;6,1;6,2;6,4,1;6,5
+#### Text ####
+But though a weakening economy implies reduced demand that Third World copper-producing countries haven't any choice but to sell copper
+##############
+#### Features ####
+Ot, Comm, Null, Null
+978..993
+6,2;6,3;6,4,0;6,5
+#### Text ####
+Mr. Kaiser said
+##############
+____Arg2____
+1077..1126;1137..1212
+7,0;7,1,0;7,1,1;7,1,2,0;7,1,2,1;7,1,2,2;7,1,2,4;7,2
+#### Text ####
+They might even step up sales in a falling market in an effort to maintain the flow of foreign exchange into their treasuries
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1128..1135
+7,1,2,3
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1295..1299
+8,3,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1229..1245
+8,1;8,2;8,3,0;8,4
+#### Text ####
+Mr. Kaiser noted
+##############
+when, Temporal.Synchrony
+____Arg1____
+1246..1294
+8,3,1,0;8,3,1,1,0;8,3,1,1,1,0;8,3,1,1,1,1,0;8,3,1,1,1,1,1;8,3,1,1,1,1,3
+#### Text ####
+that a lot of traders had bought into the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1300..1341
+8,3,1,1,1,1,2,1
+#### Text ####
+the price was in the $1.24 to $1.26 range
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1390
+9
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1246..1388
+8,3,1
+#### Text ####
+that a lot of traders had bought into the market when the price was in the $1.24 to $1.26 range, thinking there was support at the $1.20 level
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1229..1245
+8,1;8,2;8,3,0;8,4
+#### Text ####
+Mr. Kaiser noted
+##############
+____Arg2____
+1390..1533
+9
+#### Text ####
+When the market fell below that level on Monday and then yesterday couldn't climb above that level, traders started selling out their positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1390..1394
+9,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1490..1533
+9,1;9,2;9,3;9,4
+#### Text ####
+traders started selling out their positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1395..1488
+9,0,1
+#### Text ####
+the market fell below that level on Monday and then yesterday couldn't climb above that level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1442..1446
+9,0,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1390..1437
+9,0,0;9,0,1,0;9,0,1,1,0
+#### Text ####
+When the market fell below that level on Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1438..1441;1447..1488
+9,0,1,1,1;9,0,1,1,2,1;9,0,1,1,2,2;9,0,1,1,3
+#### Text ####
+and yesterday couldn't climb above that level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1690
+11
+#### Features ####
+Ot, Comm, Null, Null
+1681..1689
+11,0;11,1,0;11,2
+#### Text ####
+She said
+##############
+for example, Expansion.Instantiation
+____Arg1____
+1629..1679
+10,1,1
+#### Text ####
+that most of the selling was of a technical nature
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1537..1628
+10,0;10,1,0;10,2
+#### Text ####
+Betty Raptopoulos, senior metals analyst at Prudential-Bache Securities in New York, agreed
+##############
+____Arg2____
+1690..1798
+11,1,1
+#### Text ####
+the market hit the $1.18 level at around 10 a.m. EDT where it encountered a large number of stop-loss orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1800
+12
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1690..1798
+11,1,1
+#### Text ####
+the market hit the $1.18 level at around 10 a.m. EDT where it encountered a large number of stop-loss orders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1681..1689
+11,0;11,1,0;11,2
+#### Text ####
+She said
+##############
+____Arg2____
+1800..1905
+12
+#### Text ####
+More stop-loss orders were touched off all the way down to below $1.14, where modest buying was attracted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+1907
+13
+____Arg1____
+1800..1905
+12
+#### Text ####
+More stop-loss orders were touched off all the way down to below $1.14, where modest buying was attracted
+##############
+____Arg2____
+1907..2040
+13
+#### Text ####
+Ms. Raptopoulos said the settling of strikes in Canada and Mexico will have little effect on supplies of copper until early next year
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2053
+14
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1928..2040
+13,1,1
+#### Text ####
+the settling of strikes in Canada and Mexico will have little effect on supplies of copper until early next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1907..1927
+13,0;13,1,0;13,2
+#### Text ####
+Ms. Raptopoulos said
+##############
+____Arg2____
+2053..2119
+14,1,1
+#### Text ####
+the next area of support for copper is in the $1.09 to $1.10 range
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2042..2052
+14,0;14,1,0;14,2
+#### Text ####
+She thinks
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2132
+15
+#### Features ####
+Ot, Comm, Null, Null
+2224..2233
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+she added
+##############
+but, Comparison.Contrast
+____Arg1____
+2053..2119
+14,1,1
+#### Text ####
+the next area of support for copper is in the $1.09 to $1.10 range
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2042..2052
+14,0;14,1,0;14,2
+#### Text ####
+She thinks
+##############
+____Arg2____
+2132..2221
+15,1,1,1
+#### Text ####
+that as soon as the selling abates somewhat we could see a rally back to the $1.20 region
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2122..2131
+15,1,0;15,1,1,0
+#### Text ####
+I believe
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2137..2147
+15,1,1,1,1,0,0;15,1,1,1,1,0,1;15,1,1,1,1,0,2
+#### Text ####
+as soon as
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2122..2131
+15,1,0;15,1,1,0
+#### Text ####
+I believe
+##############
+as soon as, Temporal.Asynchronous.Succession
+____Arg1____
+2132..2136;2176..2221
+15,1,1,1,0;15,1,1,1,1,1;15,1,1,1,1,2
+#### Text ####
+that we could see a rally back to the $1.20 region
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2148..2175
+15,1,1,1,1,0,3
+#### Text ####
+the selling abates somewhat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2314
+17
+____Arg1____
+2237..2312
+16
+#### Text ####
+She thinks a recovery in the stock market would help copper rebound as well
+##############
+____Arg2____
+2314..2459
+17
+#### Text ####
+She noted that the preliminary estimate of the third-quarter gross national product is due out tomorrow and is expected to be up about 2.5% to 3%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2462
+18
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2324..2459
+17,1,1
+#### Text ####
+that the preliminary estimate of the third-quarter gross national product is due out tomorrow and is expected to be up about 2.5% to 3%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2323
+17,0;17,1,0;17,2
+#### Text ####
+She noted
+##############
+____Arg2____
+2462..2577
+18,1
+#### Text ####
+If the number is a little better, then copper will respond positively, if it is worse then more selling could ensue
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2580..2593
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+she predicted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2462..2464;2496..2500
+18,1,0,0,0;18,1,0,2
+#### Text ####
+If then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2580..2593
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+she predicted
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+2465..2494
+18,1,0,0,1
+#### Text ####
+the number is a little better
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2501..2531
+18,1,0,1;18,1,0,3;18,1,0,4
+#### Text ####
+copper will respond positively
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2533..2535;2548..2552
+18,1,2,0,0;18,1,2,1
+#### Text ####
+if then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2580..2593
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+she predicted
+##############
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+2536..2547
+18,1,2,0,1
+#### Text ####
+it is worse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2553..2577
+18,1,2,2;18,1,2,3
+#### Text ####
+more selling could ensue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2700..2711
+20,0,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2619..2687
+19,1,1
+#### Text ####
+that relating economic numbers to specific market activity is tricky
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2597..2618
+19,0;19,1,0;19,2
+#### Text ####
+Ms. Raptopoulos noted
+##############
+____Arg2____
+2689..2698;2714..2796;2810..2940
+20,0,0;20,0,1;20,0,3;20,0,4;20,0,5;20,0,6;20,0,7;20,0,8;20,0,9;21;22
+#### Text ####
+Yesterday the durable goods numbers came out for September and the number was down only 0.1% However, if you exclude defense-related orders then durable goods were down 3.9%.
+I believe that number reflects a slowing economy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2799..2807
+20,1;20,2;20,3
+#### Text ####
+she said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2763..2766
+20,0,6
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2799..2807
+20,1;20,2;20,3
+#### Text ####
+she said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2689..2762
+20,0,0;20,0,1;20,0,2;20,0,3;20,0,4;20,0,5
+#### Text ####
+Yesterday, for example, "the durable goods numbers came out for September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2767..2796
+20,0,7
+#### Text ####
+the number was down only 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2810..2817
+21,1
+#### Text ####
+However
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2799..2807
+20,1;20,2;20,3
+#### Text ####
+she said
+##############
+however, Comparison.Contrast
+____Arg1____
+2763..2796
+20,0,6;20,0,7;20,0,8;20,0,9
+#### Text ####
+and the number was down only 0.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2819..2890
+21,0;21,2;21,3;21,4;21,5;21,6;21,7
+#### Text ####
+if you exclude defense-related orders then durable goods were down 3.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2819..2821;2857..2861
+21,3,0;21,4
+#### Text ####
+if then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2799..2807
+20,1;20,2;20,3
+#### Text ####
+she said
+##############
+if then, Contingency.Condition.Factual present
+____Arg1____
+2822..2856
+21,3,1
+#### Text ####
+you exclude defense-related orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2810..2817;2862..2890
+21,0;21,1;21,2;21,5;21,6;21,7
+#### Text ####
+However durable goods were down 3.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2892
+22
+____Arg1____
+2810..2890
+21
+#### Text ####
+However, if you exclude defense-related orders then durable goods were down 3.9%
+##############
+____Arg2____
+2892..2940
+22
+#### Text ####
+I believe that number reflects a slowing economy
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2972..2976
+23,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2324..2417
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0
+#### Text ####
+that the preliminary estimate of the third-quarter gross national product is due out tomorrow
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2323
+17,0;17,1,0;17,2
+#### Text ####
+She noted
+##############
+____Arg2____
+2952..2971;2977..3063
+23,1,1,0;23,1,1,1,0;23,1,1,1,1,0;23,1,1,1,1,2
+#### Text ####
+copper traders will be looking toward the release of the index of leading economic indicators next Tuesday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2943..2951
+23,0;23,1,0;23,2
+#### Text ####
+She said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3067..3074
+24,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+2902..2940
+22,1,1
+#### Text ####
+that number reflects a slowing economy
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2892..2901
+22,0;22,1,0;22,2;22,3
+#### Text ####
+I believe
+##############
+____Arg2____
+3162..3292
+24,3,1
+#### Text ####
+that so far this year copper consumption is way ahead of the same period of 1988, and that projected production is below last year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3076..3161
+24,1;24,2;24,3,0;24,4
+#### Text ####
+David Threlkeld, president of Threlkeld & Co., an international metals company, noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3244..3247
+24,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3067..3161
+24,0;24,1;24,2;24,3,0;24,4
+#### Text ####
+However, David Threlkeld, president of Threlkeld & Co., an international metals company, noted
+##############
+and, Expansion.Conjunction
+____Arg1____
+3162..3242
+24,3,1,0
+#### Text ####
+that so far this year copper consumption is way ahead of the same period of 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3248..3292
+24,3,1,3
+#### Text ####
+that projected production is below last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3425..3428
+26,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3431..3439
+26,4
+#### Text ####
+he added
+##############
+but, Comparison.Contrast
+____Arg1____
+3315..3385
+25,1,1,0;25,1,1,1,0;25,1,1,1,1,0;25,1,1,1,1,1,0;25,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,0;25,1,1,1,1,1,1,1,1,1;25,1,1,1,1,1,1,1,1,2
+#### Text ####
+the copper market seems to be anticipating a recession in three months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3296..3314
+25,0;25,1,0;25,2
+#### Text ####
+Mr. Threlkeld said
+##############
+____Arg2____
+3442..3512
+26,0;26,2;26,3;26,5;26,6;26,7;26,8;26,9;26,10
+#### Text ####
+we have had that exact same perception six times in the last six years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3515
+27
+____Arg1____
+3425..3512
+26
+#### Text ####
+But," he added, "we have had that exact same perception six times in the last six years
+##############
+____Arg2____
+3515..3602
+27
+#### Text ####
+He noted that currently the ratio of available copper to consumption is about 3.5 weeks
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3612
+28
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+3524..3602
+27,1,1
+#### Text ####
+that currently the ratio of available copper to consumption is about 3.5 weeks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3515..3523
+27,0;27,1,0;27,2
+#### Text ####
+He noted
+##############
+____Arg2____
+3612..3649
+28,1,1
+#### Text ####
+the normal ratio is five to six weeks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3604..3611
+28,0;28,1,0;28,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3767
+30
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3653..3764
+29
+#### Text ####
+According to Mr. Threlkeld, the bottleneck in copper production isn't at the mines but at the copper refineries
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3653..3679
+29,0;29,1
+#### Text ####
+According to Mr. Threlkeld
+##############
+____Arg2____
+3767..3829
+30,1
+#### Text ####
+It takes three months to turn copper concentrate into cathodes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3832..3839
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3841
+31
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3767..3829
+30,1
+#### Text ####
+It takes three months to turn copper concentrate into cathodes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3832..3839
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+he said
+##############
+____Arg2____
+3841..3867;3879..3923
+31,0;31,2;31,3;31,4;31,5
+#### Text ####
+If there isn't a recession we will be out of copper by the end of March
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3869..3876
+31,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3841..3843
+31,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3869..3876
+31,1
+#### Text ####
+he said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3879..3923
+31,2;31,3;31,4;31,5
+#### Text ####
+we will be out of copper by the end of March
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3844..3867
+31,0,1
+#### Text ####
+there isn't a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3925
+32
+#### Features ####
+Ot, Comm, Null, Null
+3869..3876
+31,1
+#### Text ####
+he said
+##############
+however, Comparison.Contrast
+____Arg1____
+3841..3867;3879..3923
+31,0;31,2;31,3;31,4;31,5
+#### Text ####
+If there isn't a recession we will be out of copper by the end of March
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3925..3991
+32
+#### Text ####
+If there is a recession that will change the statistical situation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3925..3927
+32,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3869..3876
+31,1
+#### Text ####
+he said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3949..3991
+32,1;32,2;32,3;32,4
+#### Text ####
+that will change the statistical situation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3928..3948
+32,0,1
+#### Text ####
+there is a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4004
+33
+#### Features ####
+Ot, Comm, Null, Null
+3994..4003
+33,0;33,1,0;33,2
+#### Text ####
+He thinks
+##############
+however, Comparison.Contrast
+____Arg1____
+3925..3991
+32
+#### Text ####
+If there is a recession that will change the statistical situation
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3869..3876
+31,1
+#### Text ####
+he said
+##############
+____Arg2____
+4004..4079
+33,1,1,0;33,1,1,1,0;33,1,1,1,1;33,1,1,1,2,0;33,1,1,1,2,1,0;33,1,1,1,2,1,1,0;33,1,1,1,2,1,1,1;33,1,1,1,2,1,1,2
+#### Text ####
+that without a recession copper prices could exceed a high of $1.65 a pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4452
+37
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+4341..4450
+36,2
+#### Text ####
+The attitude was "wait-and-see" in crude oil futures yesterday in trading on the New York Mercantile Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4452..4636
+37
+#### Text ####
+Prices for the U.S. benchmark West Texas Intermediate crude remained locked in a fairly narrow range before ending the session four cents lower at $19.72 a barrel for December delivery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4553..4559
+37,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+4452..4552
+37,0;37,1;37,3
+#### Text ####
+Prices for the U.S. benchmark West Texas Intermediate crude remained locked in a fairly narrow range
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4560..4636
+37,2,1
+#### Text ####
+ending the session four cents lower at $19.72 a barrel for December delivery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4672
+38
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+4452..4636
+37
+#### Text ####
+Prices for the U.S. benchmark West Texas Intermediate crude remained locked in a fairly narrow range before ending the session four cents lower at $19.72 a barrel for December delivery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4672..4763
+38,1,1
+#### Text ####
+the petroleum market was ready to rally after two days of price declines from profit-taking
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4638..4671
+38,0;38,1,0;38,2
+#### Text ####
+Several analysts and brokers said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4765..4768
+39,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4672..4763
+38,1,1
+#### Text ####
+the petroleum market was ready to rally after two days of price declines from profit-taking
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4638..4671
+38,0;38,1,0;38,2
+#### Text ####
+Several analysts and brokers said
+##############
+____Arg2____
+4769..4856
+39,1;39,2;39,3
+#### Text ####
+an early 80-point drop in the Dow Jones Industrial Average stopped the crude rally cold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4858
+40
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4765..4856
+39
+#### Text ####
+But an early 80-point drop in the Dow Jones Industrial Average stopped the crude rally cold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4858..4971
+40
+#### Text ####
+The industrial average recovered to close only 3.69 points lower, but petroleum futures never shook off the chill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4924..4927
+40,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4858..4922
+40,0
+#### Text ####
+The industrial average recovered to close only 3.69 points lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4928..4971
+40,3
+#### Text ####
+petroleum futures never shook off the chill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4973
+41
+____Arg1____
+4858..4971
+40
+#### Text ####
+The industrial average recovered to close only 3.69 points lower, but petroleum futures never shook off the chill
+##############
+____Arg2____
+4973..5128
+41
+#### Text ####
+Most market participants said they were looking to this week's inventory statistics from the American Petroleum Institute to give the market some direction
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5130
+42
+____Arg1____
+4973..5128
+41
+#### Text ####
+Most market participants said they were looking to this week's inventory statistics from the American Petroleum Institute to give the market some direction
+##############
+____Arg2____
+5130..5189
+42
+#### Text ####
+The report isn't generally available until late on Tuesdays
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5269
+44
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+5210..5267
+43,2
+#### Text ####
+Futures prices inched upward in mostly lackluster trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5269..5315
+44,0
+#### Text ####
+December gold was up $3.20 an ounce at $373.40
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5371
+45
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5269..5369
+44
+#### Text ####
+December gold was up $3.20 an ounce at $373.40; December silver gained 5.7 cents to $5.1950 an ounce
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5371..5418
+45
+#### Text ####
+January platinum rose $2.30 an ounce to $488.60
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5436
+46
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5371..5418
+45
+#### Text ####
+January platinum rose $2.30 an ounce to $488.60
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5436..5490
+46,1,1
+#### Text ####
+there were no fundamental factors moving these markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5420..5435
+46,0;46,1,0;46,2
+#### Text ####
+Mr. Kaiser said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5501
+47
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+5436..5490
+46,1,1
+#### Text ####
+there were no fundamental factors moving these markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5420..5435
+46,0;46,1,0;46,2
+#### Text ####
+Mr. Kaiser said
+##############
+____Arg2____
+5501..5646
+47,0,1,1;47,1;47,2;47,3;47,4
+#### Text ####
+that two weeks ago there were rumors of Soviet sales of precious metals to finance grain purchases, but the sales don't seem to have materialized
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5492..5500
+47,0,0;47,0,1,0
+#### Text ####
+He noted
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5601..5604
+47,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5501..5599
+47,0,1,1
+#### Text ####
+that two weeks ago there were rumors of Soviet sales of precious metals to finance grain purchases
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5492..5500
+47,0,0;47,0,1,0
+#### Text ####
+He noted
+##############
+____Arg2____
+5605..5646
+47,3
+#### Text ####
+the sales don't seem to have materialized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5648
+48
+____Arg1____
+5492..5646
+47
+#### Text ####
+He noted that two weeks ago there were rumors of Soviet sales of precious metals to finance grain purchases, but the sales don't seem to have materialized
+##############
+____Arg2____
+5648..5750
+48
+#### Text ####
+Ms. Raptopoulos thought yesterday's price action reflected weakness in the stock market and the dollar
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5753
+49
+#### Features ####
+Ot, Comm, Null, Null
+5853..5861
+49,0;49,2;49,3;49,4;49,5
+#### Text ####
+she said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5672..5750
+48,1,1
+#### Text ####
+yesterday's price action reflected weakness in the stock market and the dollar
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5648..5671
+48,0;48,1,0;48,2
+#### Text ####
+Ms. Raptopoulos thought
+##############
+____Arg2____
+5753..5851
+49,1
+#### Text ####
+Gold still acts as a haven when uncertainty prevails in the financial markets as it did" yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5780..5784
+49,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5853..5861
+49,0;49,2;49,3;49,4;49,5
+#### Text ####
+she said
+##############
+when, Temporal.Synchrony
+____Arg1____
+5753..5779
+49,1,0;49,1,1;49,1,2,0;49,1,2,1
+#### Text ####
+Gold still acts as a haven
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5785..5851
+49,1,2,2,1
+#### Text ####
+uncertainty prevails in the financial markets as it did" yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5880
+50
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+5753..5851
+49,1
+#### Text ####
+Gold still acts as a haven when uncertainty prevails in the financial markets as it did" yesterday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5853..5861
+49,0;49,2;49,3;49,4;49,5
+#### Text ####
+she said
+##############
+____Arg2____
+5880..5983
+50,1,1
+#### Text ####
+that gold was more than 71 times the price of silver at the close yesterday, which is historically high
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5863..5879
+50,0;50,1,0;50,2
+#### Text ####
+Mr. Kaiser noted
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+5986..6018
+51,1,0,0;51,1,0,1,0;51,1,0,1,1,0;51,1,0,1,1,1
+#### Text ####
+The high ratio reflects the fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement
+____Arg1____
+5880..5955
+50,1,1,0;50,1,1,1,0;50,1,1,1,1,0;50,1,1,1,1,1;50,1,1,1,1,2;50,1,1,1,1,3;50,1,1,1,1,4
+#### Text ####
+that gold was more than 71 times the price of silver at the close yesterday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5863..5879
+50,0;50,1,0;50,2
+#### Text ####
+Mr. Kaiser noted
+##############
+____Arg2____
+5986..6081
+51,1,0
+#### Text ####
+The high ratio reflects the fact that silver is still regarded as about a half-industrial metal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6082..6085
+51,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6175..6182
+51,0;51,2;51,3;51,4;51,5;51,6
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+5986..6081
+51,1,0
+#### Text ####
+The high ratio reflects the fact that silver is still regarded as about a half-industrial metal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6086..6172
+51,1,2
+#### Text ####
+its price lagging relative to gold says that traders are expecting a weakening economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6227..6232
+52,2,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+6186..6226
+52,0;52,1;52,2,0;52,2,1,0;52,2,1,1;52,3
+#### Text ####
+GRAINS AND SOYBEANS: Prices closed lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6233..6353
+52,2,1,2,1;52,2,1,3
+#### Text ####
+trading in relatively narrow ranges because of strong selling in the cash market and continued favorable harvest weather
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6355
+53
+____Arg1____
+6207..6353
+52,2
+#### Text ####
+Prices closed lower after trading in relatively narrow ranges because of strong selling in the cash market and continued favorable harvest weather
+##############
+____Arg2____
+6355..6666
+53
+#### Text ####
+The sale to the Chinese government of 330,000 metric tons of wheat under the government's export enhancement program was announced after the close of trading Monday, but the sale was expected and failed to buoy prices yesterday, said Dale Gustafson, a futures analyst with Drexel Burnham Lambert Inc. in Chicago
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6521..6524
+53,0,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6584..6666
+53,1;53,2;53,3
+#### Text ####
+said Dale Gustafson, a futures analyst with Drexel Burnham Lambert Inc. in Chicago
+##############
+but, Comparison.Contrast
+____Arg1____
+6355..6519
+53,0,0
+#### Text ####
+The sale to the Chinese government of 330,000 metric tons of wheat under the government's export enhancement program was announced after the close of trading Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6525..6582
+53,0,3
+#### Text ####
+the sale was expected and failed to buoy prices yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6668
+54
+#### Features ####
+Ot, Comm, Null, Null
+6805..6812
+54,1;54,2;54,3;54,4
+#### Text ####
+he said
+##############
+while, Expansion.Conjunction
+____Arg1____
+6355..6582
+53,0
+#### Text ####
+The sale to the Chinese government of 330,000 metric tons of wheat under the government's export enhancement program was announced after the close of trading Monday, but the sale was expected and failed to buoy prices yesterday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6584..6666
+53,1;53,2;53,3
+#### Text ####
+said Dale Gustafson, a futures analyst with Drexel Burnham Lambert Inc. in Chicago
+##############
+____Arg2____
+6668..6803
+54,0
+#### Text ####
+As for other export customers, the Soviet Union isn't expected to be back buying U.S. corn in significant amounts until early next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6814
+55
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+6668..6803
+54,0
+#### Text ####
+As for other export customers, the Soviet Union isn't expected to be back buying U.S. corn in significant amounts until early next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6805..6812
+54,1;54,2;54,3;54,4
+#### Text ####
+he said
+##############
+____Arg2____
+6814..6935
+55,0;55,1,0;55,1,1;55,1,2;55,1,3;55,1,4;55,2
+#### Text ####
+A number of commercial grain users buttressed that opinion yesterday by buying certain corn options for delivery in March
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7146..7150
+56,2,2,3,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+7088..7140
+56,2,0;56,2,1;56,2,2,0;56,2,2,1
+#### Text ####
+Futures at first continued the rally begun on Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7142..7145;7151..7176
+56,2,2,2;56,2,2,3,1;56,2,2,3,2;56,2,2,3,3
+#### Text ####
+but faltered and closed lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7178
+57
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+7088..7176
+56,2
+#### Text ####
+Futures at first continued the rally begun on Monday, but then faltered and closed lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7178..7452
+57
+#### Text ####
+The December contract opened just under Monday's close, triggered some previously placed buy orders just above $1,030 a metric ton, pushing the price to $1,040, and then encountered heavy selling by traders who buy and sell for their own accounts and by commercial interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7343..7347
+57,1,5
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+7234..7337
+57,1,1;57,1,2;57,1,3
+#### Text ####
+triggered some previously placed buy orders just above $1,030 a metric ton, pushing the price to $1,040
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7339..7342;7348..7452
+57,1,4;57,1,6;57,2
+#### Text ####
+and encountered heavy selling by traders who buy and sell for their own accounts and by commercial interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7454
+58
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+7178..7452
+57
+#### Text ####
+The December contract opened just under Monday's close, triggered some previously placed buy orders just above $1,030 a metric ton, pushing the price to $1,040, and then encountered heavy selling by traders who buy and sell for their own accounts and by commercial interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7454..7499
+58
+#### Text ####
+The contract settled at $1,014 a ton, off $13
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7501
+59
+____Arg1____
+7454..7499
+58
+#### Text ####
+The contract settled at $1,014 a ton, off $13
+##############
+____Arg2____
+7501..7652
+59
+#### Text ####
+Robert Hafer, senior commodities analyst at Kaiser Financial Group, said Monday's rally continued yesterday for only about 20 minutes after the opening
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7662
+60
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Synchrony
+____Arg1____
+7574..7652
+59,1,1
+#### Text ####
+Monday's rally continued yesterday for only about 20 minutes after the opening
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7501..7573
+59,0;59,1,0;59,2
+#### Text ####
+Robert Hafer, senior commodities analyst at Kaiser Financial Group, said
+##############
+____Arg2____
+7662..7795
+60,1,1
+#### Text ####
+even though there was arbitrage buying in New York because of the weak dollar, cocoa fell to relentless pressure from bearish traders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7654..7661
+60,0;60,1,0;60,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7662..7673
+60,1,1,1,0,0;60,1,1,1,0,1
+#### Text ####
+even though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7654..7661
+60,0;60,1,0;60,2
+#### Text ####
+He said
+##############
+though, Comparison.Concession.Expectation
+____Arg1____
+7741..7795
+60,1,1,1,1;60,1,1,1,2;60,1,1,1,3
+#### Text ####
+cocoa fell to relentless pressure from bearish traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7674..7739
+60,1,1,1,0,2
+#### Text ####
+there was arbitrage buying in New York because of the weak dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7797..7800
+61,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+7741..7795
+60,1,1,1,1;60,1,1,1,2;60,1,1,1,3
+#### Text ####
+cocoa fell to relentless pressure from bearish traders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7654..7661
+60,0;60,1,0;60,2
+#### Text ####
+He said
+##############
+____Arg2____
+7852..7902
+61,2,1,1,2,2,1
+#### Text ####
+there is much more of a decline in store for cocoa
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+7815..7851
+61,2,1,1,0;61,2,1,1,1;61,2,1,1,2,0;61,2,1,1,2,1;61,2,1,1,2,2,0
+#### Text ####
+speculators apparently don't believe
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+7904
+62
+____Arg1____
+7797..7902
+61
+#### Text ####
+But he noted that speculators apparently don't believe there is much more of a decline in store for cocoa
+##############
+____Arg2____
+7904..8079
+62
+#### Text ####
+The December contract reached its life-of-contract low of $975 a ton on Oct. 11; its lifetime high was $1,735, set in 1988, and its recent high was $1,368, set in early August
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8028..8031
+62,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+7985..8026
+62,2,0
+#### Text ####
+its lifetime high was $1,735, set in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8032..8079
+62,2,3
+#### Text ####
+its recent high was $1,368, set in early August
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8081
+63
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+7904..8079
+62
+#### Text ####
+The December contract reached its life-of-contract low of $975 a ton on Oct. 11; its lifetime high was $1,735, set in 1988, and its recent high was $1,368, set in early August
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8081..8149
+63
+#### Text ####
+The last time cocoa traded at prices as low as currently was in 1974
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8151..8154
+64,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+8081..8149
+63
+#### Text ####
+The last time cocoa traded at prices as low as currently was in 1974
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8155..8298
+64,1;64,2;64,3;64,4;64,5
+#### Text ####
+while further modest declines might be ahead, Mr. Hafer said it would be difficult to get through resistance levels just above yesterday's high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8155..8160
+64,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+8216..8298
+64,4,1
+#### Text ####
+it would be difficult to get through resistance levels just above yesterday's high
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8201..8215
+64,2;64,3;64,4,0;64,5
+#### Text ####
+Mr. Hafer said
+##############
+____Arg2____
+8161..8199
+64,1,1
+#### Text ####
+further modest declines might be ahead
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,762 @@
+________________________________________________________
+____Explicit____
+135..145
+1,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..131
+0
+#### Text ####
+The Chicago Mercantile Exchange said it plans to institute an additional "circuit breaker" aimed at stemming market slides
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+147..321
+1,1;1,2;1,3;1,4
+#### Text ####
+John Phelan told a closed House subcommittee meeting in Washington that he would support Securities and Exchange Commission halts of program trading during market emergencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+323..326
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+135..321
+1
+#### Text ####
+Separately, John Phelan told a closed House subcommittee meeting in Washington that he would support Securities and Exchange Commission halts of program trading during market emergencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+327..429
+2,1;2,2,0;2,2,1;2,2,2;2,3
+#### Text ####
+the New York Stock Exchange chairman said he doesn't support reinstating a "collar" on program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+431..479
+2,2,3
+#### Text ####
+arguing that firms could get around such a limit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+603..607
+3,1,1,1,1,1,3,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+483..504
+3,0;3,1,0;3,2
+#### Text ####
+The Chicago Merc said
+##############
+once, Temporal.Asynchronous.Succession, Contingency.Condition.Hypothetical
+____Arg1____
+505..602
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0;3,1,1,1,1,1,0;3,1,1,1,1,1,1;3,1,1,1,1,1,2
+#### Text ####
+a new one-hour price limit would take effect in its Standard & Poor's 500 stock-index futures pit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+608..724
+3,1,1,1,1,1,3,1
+#### Text ####
+S&P 500 futures fell 20 index points -- the equivalent of about a 150-point drop in the Dow Jones Industrial Average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+726
+4
+____Arg1____
+483..724
+3
+#### Text ####
+The Chicago Merc said a new one-hour price limit would take effect in its Standard & Poor's 500 stock-index futures pit once S&P 500 futures fell 20 index points -- the equivalent of about a 150-point drop in the Dow Jones Industrial Average
+##############
+____Arg2____
+726..862
+4
+#### Text ####
+If the 20-point limit is triggered after 1:30 p.m. Chicago time, it would remain in effect until the normal close of trading at 3:15 p.m
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+726..728
+4,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+791..862
+4,1;4,2;4,3;4,4
+#### Text ####
+it would remain in effect until the normal close of trading at 3:15 p.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+729..789
+4,0,1
+#### Text ####
+the 20-point limit is triggered after 1:30 p.m. Chicago time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1202..1205
+6,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1152..1201
+6,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2,0;6,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2,1,0
+#### Text ####
+when the Dow Jones industrials plunged 190 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1206..1248
+6,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2,1,2
+#### Text ####
+stock-index futures prices skidded as well
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1250
+7
+____Arg1____
+992..1248
+6
+#### Text ####
+The exchange said it decided a new circuit breaker was needed following a review of the tumultuous trading in stocks and stock-index futures on Friday Oct. 13, when the Dow Jones industrials plunged 190 points and stock-index futures prices skidded as well
+##############
+____Arg2____
+1250..1440
+7
+#### Text ####
+Late that afternoon the S&P 500 stock-index futures contract fell a total of 30 index points, hitting a Merc circuit breaker limit that remained in effect for the rest of the trading session
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1776..1779
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1706..1774
+9,1,1
+#### Text ####
+that the 12-point limit appeared to lessen the selling panic Oct. 13
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1653..1705
+9,0;9,1,0;9,2
+#### Text ####
+Leo Melamed, Merc executive committee chairman, said
+##############
+____Arg2____
+1780..2029
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+when the contract reopened, the subsequent flood of sell orders that quickly knocked the contract down to the 30-point limit indicated that the intermediate limit of 20 points was needed to help keep stock and stock-index futures prices synchronized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1780..1784
+10,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1776..1779;1808..2029
+10,0;10,2;10,3;10,4;10,5
+#### Text ####
+But the subsequent flood of sell orders that quickly knocked the contract down to the 30-point limit indicated that the intermediate limit of 20 points was needed to help keep stock and stock-index futures prices synchronized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1785..1806
+10,1,1
+#### Text ####
+the contract reopened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2315..2319
+13,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1458..1639
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1,0
+#### Text ####
+that its existing 30-minute, 12-point limit on S&P 500 stock-index futures trading (equal to about 100 points on the Dow Jones industrials), which was triggered Oct. 13, will remain
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1444..1457
+8,0;8,1,0;8,2
+#### Text ####
+The Merc said
+##############
+____Arg2____
+2325..2516
+13,0,2,1
+#### Text ####
+that the 30-point circuit breaker, which currently provides only a one-hour respite during market sell-offs, will become the maximum one-day limit for the S&P 500 stock-index futures contract
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2302..2314;2320..2324
+13,0,0;13,0,2,0
+#### Text ####
+The exchange said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2518
+13
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+2325..2516
+13,0,2,1
+#### Text ####
+that the 30-point circuit breaker, which currently provides only a one-hour respite during market sell-offs, will become the maximum one-day limit for the S&P 500 stock-index futures contract
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2302..2324
+13,0,0;13,0,1;13,0,2,0
+#### Text ####
+The exchange also said
+##############
+____Arg2____
+2518..2558
+13,2
+#### Text ####
+the one-day limit now is 50 index points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2656
+15
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2562..2640
+14
+#### Text ####
+A final modification was made to the five-point opening limit for the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2656..2735
+15,1,1
+#### Text ####
+that five-point limit will remain in effect for the first 10 minutes of trading
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2642..2655
+15,0;15,1,0;15,2
+#### Text ####
+The Merc said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2737
+16
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+2656..2735
+15,1,1
+#### Text ####
+that five-point limit will remain in effect for the first 10 minutes of trading
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2642..2655
+15,0;15,1,0;15,2
+#### Text ####
+The Merc said
+##############
+____Arg2____
+2737..2864
+16
+#### Text ####
+The limit lapses under current exchange rules if contracts trade above the limit price during the opening 10 minutes of trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2783..2785
+16,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2737..2782
+16,0;16,1,0;16,1,1;16,2
+#### Text ####
+The limit lapses under current exchange rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2786..2864
+16,1,2,1
+#### Text ####
+contracts trade above the limit price during the opening 10 minutes of trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3006..3010
+17,3,1,1,1,2,1,0,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2945..3005
+17,3,1,1,1,2,1,0,2,0;17,3,1,1,1,2,1,0,2,1,0;17,3,1,1,1,2,1,0,2,1,1,0;17,3,1,1,1,2,1,0,2,1,1,1
+#### Text ####
+which banned program trades through the Big Board's computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3011..3059
+17,3,1,1,1,2,1,0,2,1,1,2,1
+#### Text ####
+the Dow Jones Industrial Average moved 50 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3087
+18
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2928..3077
+17,3,1,1,1,2
+#### Text ####
+that the collar, which banned program trades through the Big Board's computer when the Dow Jones Industrial Average moved 50 points, didn't work well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2868..2927
+17,0;17,1;17,2;17,3,0;17,3,1,0;17,3,1,1,0;17,3,1,1,1,0;17,3,1,1,1,1;17,4
+#### Text ####
+In Washington, House aides said Mr. Phelan told congressmen
+##############
+____Arg2____
+3087..3154
+18,1,1
+#### Text ####
+that firms could get around the collar by executing trades manually
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3079..3086
+18,0;18,1,0;18,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3541..3544
+20,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3460..3539
+20,0
+#### Text ####
+The program-trading issue is heating up on Capitol Hill as it is on Wall Street
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3545..3655
+20,3
+#### Text ####
+several legislators want to grant the SEC the power to shut off the programs when trading becomes too volatile
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3622..3626
+20,3,1,1,1,1,2,2,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3597..3621
+20,3,1,1,1,1,2,2,0;20,3,1,1,1,1,2,2,1,0;20,3,1,1,1,1,2,2,1,1,0;20,3,1,1,1,1,2,2,1,1,1;20,3,1,1,1,1,2,2,1,1,2
+#### Text ####
+to shut off the programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3627..3655
+20,3,1,1,1,1,2,2,1,1,3,1
+#### Text ####
+trading becomes too volatile
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3657
+21
+____Arg1____
+3545..3655
+20,3
+#### Text ####
+several legislators want to grant the SEC the power to shut off the programs when trading becomes too volatile
+##############
+____Arg2____
+3657..3833
+21
+#### Text ####
+SEC Chairman Richard Breeden has said he would be willing to consider circuit breakers that have preset trigger points, but he doesn't want discretionary power to stop programs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3777..3780
+21,1,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3657..3775
+21,0;21,1,0;21,1,1,0;21,1,1,1,0;21,1,1,1,1,0;21,1,1,1,1,1;21,2
+#### Text ####
+SEC Chairman Richard Breeden has said he would be willing to consider circuit breakers that have preset trigger points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3781..3833
+21,1,1,1,1,3
+#### Text ####
+he doesn't want discretionary power to stop programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3995
+23
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Comparison.Contrast
+____Arg1____
+3860..3992
+22,1,1
+#### Text ####
+that Mr. Phelan was so "vague and mushy" that it was the kind of meeting where people of all viewpoints could "come out feeling good
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3837..3859
+22,0;22,1,0;22,2;22,3
+#### Text ####
+A House aide suggested
+##############
+____Arg2____
+3995..4170
+23
+#### Text ####
+At one point, Mr. Phelan angered the subcommittee's chairman, Rep. Edward Markey (D., Mass.), by not going much beyond what already had been reported in the morning newspapers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4222..4229
+24,1,1,1,1,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4277..4290
+24,0;24,2;24,3;24,4;24,5
+#### Text ####
+the aide said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4175..4220
+24,1,0;24,1,1,0;24,1,1,1,0;24,1,1,1,1,0;24,1,1,1,1,1,0;24,1,1,1,1,1,1,0;24,1,1,1,1,1,1,1,0;24,1,1,1,1,1,1,1,1;24,1,1,1,1,1,1,1,2;24,1,1,1,1,1,1,1,3
+#### Text ####
+Markey said we could have done this in public
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4230..4275
+24,1,1,1,1,1,1,1,4,1
+#### Text ####
+so little sensitive information was disclosed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4303..4307
+25,0,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4384..4398
+25,1;25,2;25,3;25,4
+#### Text ####
+the aide added
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4175..4275
+24,1
+#### Text ####
+Markey said we could have done this in public" because so little sensitive information was disclosed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4277..4290
+24,0;24,2;24,3;24,4;24,5
+#### Text ####
+the aide said
+##############
+____Arg2____
+4292..4302;4308..4382
+25,0,0;25,0,2
+#### Text ####
+Mr. Phelan responded that he would have been happy just writing a report to the panel
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4536
+27
+____Arg1____
+4402..4534
+26
+#### Text ####
+At another point during the hearing, Rep. Markey asked Mr. Phelan what would be discussed at a New York exchange board meeting today
+##############
+____Arg2____
+4536..4610
+27
+#### Text ####
+Mr. Phelan said the Big Board is likely to study the program-trading issue
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4612
+28
+____Arg1____
+4536..4610
+27
+#### Text ####
+Mr. Phelan said the Big Board is likely to study the program-trading issue
+##############
+____Arg2____
+4612..4791
+28
+#### Text ####
+That response annoyed Rep. Markey, House aides said, and the congressman snapped back that there had been enough studies of the issue and that it was time for action on the matter
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4665..4668
+28,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4647..4663
+28,0,1;28,0,2;28,0,3;28,0,4
+#### Text ####
+House aides said
+##############
+and, Expansion.Conjunction
+____Arg1____
+4612..4645
+28,0,0
+#### Text ####
+That response annoyed Rep. Markey
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4669..4791
+28,2
+#### Text ####
+the congressman snapped back that there had been enough studies of the issue and that it was time for action on the matter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4746..4749
+28,2,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4669..4697
+28,2,0;28,2,1,0;28,2,1,1
+#### Text ####
+the congressman snapped back
+##############
+and, Expansion.Conjunction
+____Arg1____
+4698..4745
+28,2,1,2,0
+#### Text ####
+that there had been enough studies of the issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4750..4791
+28,2,1,2,2
+#### Text ####
+that it was time for action on the matter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5185
+31
+____Arg1____
+5036..5183
+30
+#### Text ####
+Mr. Dingell expressed concern, sources said, about jurisdictional problems in regulating program trading, which uses futures to offset stock trades
+##############
+____Arg2____
+5185..5322
+31
+#### Text ####
+The futures industry is regulated by the Commodity Futures Trading Commission, which reports to the Agriculture committees in both houses
+##############
+________________________________________________________

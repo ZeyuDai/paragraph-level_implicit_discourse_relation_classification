@@ -1,0 +1,654 @@
+________________________________________________________
+____Explicit____
+200..202
+0,4,1,1,1,1,2,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+9..117
+0,0;0,1;0,2;0,3;0,4,0;0,4,1,0;0,5
+#### Text ####
+General Motors Corp., in a series of moves that angered union officials in the U.S. and Canada, has signaled
+##############
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+118..199
+0,4,1,1,0;0,4,1,1,1,0;0,4,1,1,1,1,0;0,4,1,1,1,1,1;0,4,1,1,1,1,2,0;0,4,1,1,1,1,2,1
+#### Text ####
+that as many as five North American assembly plants may not survive the mid-1990s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+203..270
+0,4,1,1,1,1,2,2,1
+#### Text ####
+the corporation struggles to cut its excess vehicle-making capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+536..538
+2,1,1,1,2,1,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+511..535
+2,1,1,1,2,1,1,1,1,0;2,1,1,1,2,1,1,1,1,1,0;2,1,1,1,2,1,1,1,1,1,1,0;2,1,1,1,2,1,1,1,1,1,1,1
+#### Text ####
+that became unprofitable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+539..610
+2,1,1,1,2,1,1,1,1,1,1,2,1
+#### Text ####
+the giant auto maker's U.S. market share skidded during the past decade
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+612
+3
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+463..610
+2
+#### Text ####
+GM is under intense pressure to close factories that became unprofitable as the giant auto maker's U.S. market share skidded during the past decade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+612..740
+3
+#### Text ####
+The company, currently using about 80% of its North American vehicle capacity, has vowed it will run at 100% of capacity by 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+742
+4
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+612..740
+3
+#### Text ####
+The company, currently using about 80% of its North American vehicle capacity, has vowed it will run at 100% of capacity by 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+742..882
+4
+#### Text ####
+Just a month ago, GM announced it would make an aging assembly plant in Lakewood, Ga., the eighth U.S. assembly facility to close since 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+989..1002
+6,0;6,1,0
+#### Text ####
+One reason is
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+886..987
+5
+#### Text ####
+Now, GM appears to be stepping up the pace of its factory consolidation to get in shape for the 1990s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+989..1063
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1;6,2
+#### Text ####
+One reason is mounting competition from new Japanese car plants in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1158..1173
+7,0;7,1,0;7,1,1,0
+#### Text ####
+Another is that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.List
+____Arg1____
+989..1156
+6
+#### Text ####
+One reason is mounting competition from new Japanese car plants in the U.S. that are pouring out more than one million vehicles a year at costs lower than GM can match
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1158..1335
+7
+#### Text ####
+Another is that United Auto Workers union officials have signaled they want tighter no-layoff provisions in the new Big Three national contract that will be negotiated next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1337
+8
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1158..1335
+7
+#### Text ####
+Another is that United Auto Workers union officials have signaled they want tighter no-layoff provisions in the new Big Three national contract that will be negotiated next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1337..1448
+8
+#### Text ####
+GM officials want to get their strategy to reduce capacity and the work force in place before those talks begin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1424..1430
+8,1,1,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1337..1354
+8,0;8,1,0;8,2
+#### Text ####
+GM officials want
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1355..1423
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1;8,1,1,1,1,2
+#### Text ####
+to get their strategy to reduce capacity and the work force in place
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1431..1448
+8,1,1,1,1,3,1
+#### Text ####
+those talks begin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1465..1472
+9,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1337..1448
+8
+#### Text ####
+GM officials want to get their strategy to reduce capacity and the work force in place before those talks begin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1452..1463;1474..1625
+9,0;9,1;9,3;9,4;9,5
+#### Text ####
+The problem is that GM's moves are coming at a time when UAW leaders are trying to silence dissidents who charge the union is too passive in the face of GM layoffs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1627
+10
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1452..1625
+9
+#### Text ####
+The problem, however, is that GM's moves are coming at a time when UAW leaders are trying to silence dissidents who charge the union is too passive in the face of GM layoffs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1627..1686;1743..1828
+10,0;10,1;10,2,0;10,2,1;10,2,3;10,3;10,4
+#### Text ####
+Against that backdrop, UAW Vice President Stephen P. Yokich issued a statement Friday blasting GM's "flagrant insensitivity" toward union members
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1830
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1627..1828
+10
+#### Text ####
+Against that backdrop, UAW Vice President Stephen P. Yokich, who recently became head of the union's GM department, issued a statement Friday blasting GM's "flagrant insensitivity" toward union members
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1830..2081
+11
+#### Text ####
+The auto maker's decision to let word of the latest shutdowns and product reassignments trickle out in separate communiques to the affected plants showed "disarray" and an "inability or unwillingness to provide consistent information," Mr. Yokich said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2239..2249
+13,0;13,1,0
+#### Text ####
+That means
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+2152..2237
+12,1,3,1,2
+#### Text ####
+Production of full-sized vans will be consolidated into a single plant in Flint, Mich
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2239..2377
+13
+#### Text ####
+That means two plants -- one in Scarborough, Ontario, and the other in Lordstown, Ohio -- probably will be shut down after the end of 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2379
+14
+____Arg1____
+2239..2377
+13
+#### Text ####
+That means two plants -- one in Scarborough, Ontario, and the other in Lordstown, Ohio -- probably will be shut down after the end of 1991
+##############
+____Arg2____
+2379..2472
+14
+#### Text ####
+The shutdowns will idle about 3,000 Canadian assembly workers and about 2,500 workers in Ohio
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2474
+15
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2379..2472
+14
+#### Text ####
+The shutdowns will idle about 3,000 Canadian assembly workers and about 2,500 workers in Ohio
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2474..2664
+15
+#### Text ####
+Robert White, Canadian Auto Workers union president, used the impending Scarborough shutdown to criticize the U.S.-Canada free trade agreement and its champion, Prime Minister Brian Mulroney
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2668..2671
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+2239..2566
+13;14;15,0;15,1,0;15,1,1;15,2
+#### Text ####
+That means two plants -- one in Scarborough, Ontario, and the other in Lordstown, Ohio -- probably will be shut down after the end of 1991.
+The shutdowns will idle about 3,000 Canadian assembly workers and about 2,500 workers in Ohio.
+Robert White, Canadian Auto Workers union president, used the impending Scarborough shutdown
+##############
+____Arg1____
+2567..2664
+15,1,2
+#### Text ####
+to criticize the U.S.-Canada free trade agreement and its champion, Prime Minister Brian Mulroney
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2672..2782
+16,1;16,2;16,3
+#### Text ####
+Canadian auto workers may benefit from a separate GM move that affects three U.S. car plants and one in Quebec
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3004
+18
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2786..3002
+17
+#### Text ####
+Workers at plants in Van Nuys, Calif., Oklahoma City and Pontiac, Mich., were told their facilities are no longer being considered to build the next generation of the Pontiac Firebird and Chevrolet Camaro muscle cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3004..3142
+18
+#### Text ####
+GM is studying whether it can build the new Camaro-Firebird profitably at a plant in St. Therese, Quebec, company and union officials said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3246
+20
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3146..3244
+19
+#### Text ####
+That announcement left union officials in Van Nuys and Oklahoma City uncertain about their futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3246..3264;3301..3343
+20,0,0;20,0,1;20,0,3;20,1;20,2
+#### Text ####
+The Van Nuys plant doesn't have a product to build after 1993
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3387
+21
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3246..3343
+20
+#### Text ####
+The Van Nuys plant, which employs about 3,000 workers, doesn't have a product to build after 1993
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3387..3463
+21,1,1,0;21,1,1,1,0;21,1,1,1,1,0;21,1,1,1,1,1,0;21,1,1,1,1,1,1;21,1,1,1,1,1,2,0;21,1,1,1,1,1,2,1,0;21,1,1,1,1,1,2,1,1,0;21,1,1,1,1,1,2,1,1,1;21,1,1,1,1,1,2,1,1,2,0;21,1,1,1,1,1,2,1,1,2,1,0;21,1,1,1,1,1,2,1,1,2,1,1,0;21,1,1,1,1,1,2,1,1,2,1,1,1,0;21,1,1,1,1,1,2,1,1,2,1,1,1,1,0;21,1,1,1,1,1,2,1,1,2,1,1,1,1,1,0;21,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,0;21,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,0;21,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1;21,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,2
+#### Text ####
+the facility was asked to draw up plans to continue working as a "flex plant
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3345..3386
+21,0;21,1,0;21,2
+#### Text ####
+Jerry Shrieves, UAW local president, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3759..3762
+22,2,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3670..3719
+22,0,1,1;22,0,1,3;22,1;22,2,0;22,3
+#### Text ####
+Steve Featherston, UAW local vice president, said
+##############
+and, Expansion.Conjunction
+____Arg1____
+3720..3757
+22,2,1,0
+#### Text ####
+the plant has no new product lined up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3764..3811
+22,2,1,4
+#### Text ####
+none of us knows" when the A-body cars will die
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3821
+23
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3720..3811
+22,2,1
+#### Text ####
+the plant has no new product lined up, and "none of us knows" when the A-body cars will die
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3670..3719
+22,0,1,1;22,0,1,3;22,1;22,2,0;22,3
+#### Text ####
+Steve Featherston, UAW local vice president, said
+##############
+____Arg2____
+3821..3893
+23,1,1
+#### Text ####
+he believes GM has plans to keep building A-body cars into the mid-1990s
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3813..3820
+23,0;23,1,0;23,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3909..3916
+24,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3821..3893
+23,1,1
+#### Text ####
+he believes GM has plans to keep building A-body cars into the mid-1990s
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3813..3820
+23,0;23,1,0;23,2
+#### Text ####
+He said
+##############
+____Arg2____
+3897..3907;3918..4090
+24,0;24,1;24,3;24,4;24,5;24,6
+#### Text ####
+At Pontiac the Camaro-Firebird decision appears to erase UAW hopes that GM would reopen the shuttered assembly plant that last built the plastic-bodied, two-seater Pontiac Fiero model
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4170..4176
+25,1,1,4,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+4094..4169
+25,0;25,1,0;25,1,1,0;25,1,1,1;25,1,1,2;25,1,1,3;25,2
+#### Text ####
+The Fiero plant was viewed as a model of union-management cooperation at GM
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4177..4250
+25,1,1,4,1
+#### Text ####
+slow sales of the Fiero forced the company to close the factory last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4301..4312
+26,1,1,3
+#### Text ####
+as a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+4094..4169
+25,0;25,1,0;25,1,1,0;25,1,1,1;25,1,1,2;25,1,1,3;25,2
+#### Text ####
+The Fiero plant was viewed as a model of union-management cooperation at GM
+##############
+____Arg1____
+4170..4250
+25,1,1,4
+#### Text ####
+before slow sales of the Fiero forced the company to close the factory last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4252..4300
+26,0;26,1,0;26,1,1,0;26,1,1,1;26,1,1,2;26,2
+#### Text ####
+Union officials have taken a beating politically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4314
+27
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4252..4312
+26
+#### Text ####
+Union officials have taken a beating politically as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4314..4415
+27
+#### Text ####
+Dissident UAW members have used the Fiero plant as a symbol of labor-management cooperation's failure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

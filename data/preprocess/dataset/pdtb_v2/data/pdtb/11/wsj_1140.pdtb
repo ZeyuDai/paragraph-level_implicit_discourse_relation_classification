@@ -1,0 +1,472 @@
+________________________________________________________
+____Explicit____
+239..242
+1,1,1,2,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+204..238
+1,1,1,2,2,1,1,0
+#### Text ####
+the Nasdaq composite index slid 3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+243..281
+1,1,1,2,2,1,1,2
+#### Text ####
+the New York Stock Exchange tumbled 7%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+283..312
+2,0;2,1,0;2,1,1,0;2,1,1,1,0
+#### Text ####
+The coincidence might lead to
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+127..281
+1
+#### Text ####
+The most recent OTC short interest statistics were compiled Oct. 13, the day the Nasdaq composite index slid 3% and the New York Stock Exchange tumbled 7%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+283..408
+2
+#### Text ####
+The coincidence might lead to the conclusion that short-sellers bet heavily on that day that OTC stocks would decline further
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+508..515
+4,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+427..506
+3,1;3,2;3,3;3,4
+#### Text ####
+the Nasdaq composite did continue to fall for two days after the initial plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+517..805
+4,1;4,2;4,3;4,4
+#### Text ####
+the short interest figures reported by brokerage and securities clearing firms to the National Association of Securities Dealers include only those trades completed, or settled, by Oct. 13, rather than trades that occurred on that day, according to Gene Finn, chief economist for the NASD
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1124..1174
+7,0;7,1,0;7,1,1,0
+#### Text ####
+The sharp rise in OTC short interest compares with
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast
+____Arg1____
+923..1122
+6
+#### Text ####
+The total short interest in Nasdaq stocks as of mid-October was 237.1 million shares, up from 223.7 million in September but well below the record level of 279 million shares established in July 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1124..1323
+7
+#### Text ####
+The sharp rise in OTC short interest compares with the 4.2% decline in short interest on the New York Stock Exchange and the 3% rise on the American Stock Exchange during the September-October period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1457..1462
+8,0,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+1406..1432
+8,0,3,2,1,1,1,1,0;8,0,3,2,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,0
+#### Text ####
+by selling borrowed shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1433..1456
+8,0,3,2,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that are to be replaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1464
+8
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1327..1462
+8,0
+#### Text ####
+Generally, a short seller expects a fall in a stock's price and aims to profit by selling borrowed shares that are to be replaced later
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1464..1563
+8,2
+#### Text ####
+the short seller hopes the replacement shares bought later will cost less than those that were sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1517..1522
+8,2,1,1,1,0,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+1406..1432
+8,0,3,2,1,1,1,1,0;8,0,3,2,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,0;8,0,3,2,1,1,1,1,1,1,1,0
+#### Text ####
+by selling borrowed shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1510..1516
+8,2,1,1,1,0,1,0;8,2,1,1,1,0,1,1
+#### Text ####
+bought
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1565
+9
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1464..1563
+8,2
+#### Text ####
+the short seller hopes the replacement shares bought later will cost less than those that were sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1565..1579;1660..1711
+9,0,0;9,0,1;9,1;9,2
+#### Text ####
+Short interest can be a bad-expectations barometer for many stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1848
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1715..1846
+10
+#### Text ####
+Among 2,412 of the largest OTC issues, short interest rose to 196.8 million shares, from 185.7 million in 2,379 stocks in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1848..1966
+11
+#### Text ####
+Big stocks with large short interest gains as of Oct. 13 included First Executive, Intel, Campeau and LIN Broadcasting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2050
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1970..2048
+12
+#### Text ####
+Short interest in First Executive, an insurance issue, rose 55% to 3.8 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2050..2114
+13
+#### Text ####
+Intel's short interest jumped 42%, while Campeau's increased 62%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2085..2090
+13,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2050..2083
+13,0;13,1,0;13,1,1;13,1,2;13,2
+#### Text ####
+Intel's short interest jumped 42%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2091..2114
+13,1,3,1
+#### Text ####
+Campeau's increased 62%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2116
+14
+____Arg1____
+2050..2114
+13
+#### Text ####
+Intel's short interest jumped 42%, while Campeau's increased 62%
+##############
+____Arg2____
+2116..2212
+14
+#### Text ####
+Intel makes semiconductors and Campeau operates department-store chains and is strained for cash
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2143..2146
+14,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2116..2142
+14,0
+#### Text ####
+Intel makes semiconductors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2147..2187
+14,2,0;14,2,1,0
+#### Text ####
+Campeau operates department-store chains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2335
+16
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2216..2333
+15
+#### Text ####
+Meritor Savings again had the dubious honor of being the OTC stock with the biggest short interest position on Nasdaq
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2335..2372
+16
+#### Text ####
+Meritor has headed the list since May
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2374
+17
+____Arg1____
+2335..2372
+16
+#### Text ####
+Meritor has headed the list since May
+##############
+____Arg2____
+2374..2453
+17
+#### Text ####
+First Executive and troubled Valley National Corp. of Arizona were next in line
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2517
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2457..2515
+18
+#### Text ####
+Short selling isn't necessarily bad for the overall market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2517..2574
+19
+#### Text ####
+Shorted shares must eventually be replaced through buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2576..2587
+20,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2517..2574
+19
+#### Text ####
+Shorted shares must eventually be replaced through buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2589..2656
+20,1;20,2;20,3;20,4
+#### Text ####
+changes in short interest in some stocks may be caused by arbitrage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2658..2669
+21,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2576..2656
+20
+#### Text ####
+In addition, changes in short interest in some stocks may be caused by arbitrage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2671..2809
+21,1;21,2;21,3;21,4
+#### Text ####
+an investor may seek to profit during some takeover situations by buying stock in one company involved and shorting the stock of the other
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2890
+23
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2813..2888
+22
+#### Text ####
+Two big stocks involved in takeover activity saw their short interest surge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2890..3019
+23
+#### Text ####
+Short interest in the American depositary receipts of Jaguar, the target of both Ford Motor and General Motors, more than doubled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

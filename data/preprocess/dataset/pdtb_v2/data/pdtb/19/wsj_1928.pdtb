@@ -1,0 +1,1167 @@
+________________________________________________________
+____EntRel____
+429
+2
+____Arg1____
+205..427
+1
+#### Text ####
+The Financial Services division has guaranteed the Dorrance family that it will receive a minimum of $100 million for the collection, regardless of what the bids for the art works total, people close to the transaction say
+##############
+____Arg2____
+429..596
+2
+#### Text ####
+The collection, which includes two early Picassos, a van Gogh, a Monet, other paintings, furniture and porcelains, went on sale last night in the first of six auctions
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+681
+4
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+600..679
+3
+#### Text ####
+What Sotheby's is doing closely resembles an underwriting by an investment bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+681..844
+4
+#### Text ####
+A corporation that wants to sell stock or bonds goes to a Wall Street firm, which purchases the securities outright, accepting the financial risk of finding buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+846
+5
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+681..844
+4
+#### Text ####
+A corporation that wants to sell stock or bonds goes to a Wall Street firm, which purchases the securities outright, accepting the financial risk of finding buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+846..953
+5
+#### Text ####
+If the investment bank can sell the securities at a higher price than it paid the issuer, it makes a profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+846..848
+5,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+936..953
+5,1;5,2;5,3;5,4
+#### Text ####
+it makes a profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+849..934
+5,0,1
+#### Text ####
+the investment bank can sell the securities at a higher price than it paid the issuer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+989..1000
+6,0,1,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+846..953
+5
+#### Text ####
+If the investment bank can sell the securities at a higher price than it paid the issuer, it makes a profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+957..987;1004..1078
+6,0,0;6,0,1,0;6,0,1,1;6,0,1,3;6,0,1,4;6,0,1,5;6,1;6,2;6,3
+#### Text ####
+At the initial sale last night the sale featuring the Impressionists masters -- bids totaled $116 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1080
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+957..1000;1053..1078
+6,0,0;6,0,1,0;6,0,1,1;6,0,1,2;6,0,1,3;6,0,1,5;6,1;6,2;6,3
+#### Text ####
+At the initial sale last night, for example bids totaled $116 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1080..1146
+7
+#### Text ####
+That was slightly above Sotheby's presale estimate of $111 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1148
+8
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Expansion
+____Arg1____
+1080..1146
+7
+#### Text ####
+That was slightly above Sotheby's presale estimate of $111 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1148..1217
+8
+#### Text ####
+Normally, Sotheby's would have earned 20% of the total in commissions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1219..1226
+9,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1228..1269
+9,1
+#### Text ####
+people familiar with the transaction said
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1148..1217
+8
+#### Text ####
+Normally, Sotheby's would have earned 20% of the total in commissions
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1271..1430
+9,2;9,3;9,4
+#### Text ####
+the auction house opted to forgo that percentage in order to obtain the collection and in exchange for taking a bigger chunk of proceeds exceeding $100 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1455..1460
+10,1,1,1,0,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1434..1449
+10,0;10,1,0;10,2
+#### Text ####
+Art dealers say
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1450..1454;1561..1613
+10,1,1,0;10,1,1,1,1;10,1,1,1,2;10,1,1,1,3
+#### Text ####
+that a financial commitment of this size is unprecedented
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1461..1559
+10,1,1,1,0,1
+#### Text ####
+auction houses occasionally guarantee the seller of a highly desirable work of art a minimum price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1841..1848
+12,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1617..1751
+11,0;11,1,0;11,1,1;11,1,2;11,1,3;11,2;11,3
+#### Text ####
+Diana D. Brooks, president of Sotheby's North America division, vehemently denies it offered the Dorrance heirs a money-back guarantee
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1788..1839;1850..1931
+12,0;12,1;12,3;12,4;12,5;12,6;12,7
+#### Text ####
+Buried in the glossy hardbound catalog for the sale appears the statement, "Sotheby's has an interest in the property in this catalog
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2013
+14
+#### Features ####
+Ot, Comm, Null, Null
+1936..1968
+13,0;13,1;13,2;13,4
+#### Text ####
+Explains a Sotheby's spokeswoman
+##############
+that is, Expansion.Restatement.Specification
+____Arg1____
+1970..2011
+13,3
+#### Text ####
+the statement "means exactly what it says
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2013..2072
+14
+#### Text ####
+We have some level of financial interest" in the collection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2075
+15
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2013..2072
+14
+#### Text ####
+We have some level of financial interest" in the collection
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2075..2102
+15
+#### Text ####
+We don't disclose specifics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2491..2495
+18,0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+2583..2676
+18,0,1;18,0,2;18,0,3;18,0,4
+#### Text ####
+representatives of the Dorrance family "told us it was a question of financial considerations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2496..2581
+18,0,0,1
+#### Text ####
+Christie's officials asked why the firm wasn't picked to sell the Dorrance collection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2873..2876
+19,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2758..2872
+19,0
+#### Text ####
+Collectors who have made their money on Wall Street have become an increasingly important part of the art business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2877..2917
+19,2
+#### Text ####
+their money has helped fuel the art boom
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2919..2922
+19,4
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2758..2917
+19,0;19,1;19,2;19,3
+#### Text ####
+Collectors who have made their money on Wall Street have become an increasingly important part of the art business and their money has helped fuel the art boom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2923..2986
+19,5
+#### Text ####
+recently it appears Sotheby's has been returning the compliment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3202
+21
+#### Features ####
+Wr, Comm, Null, Null
+at the time, Temporal.Synchrony
+____Arg1____
+2990..3200
+20
+#### Text ####
+In November 1987, Sotheby's essentially offered a Wall Street-style "bridge loan" of about $27 million to Australian businessman Alan Bond to enable him to purchase Vincent van Gogh's "Irises" for $53.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3202..3253
+21
+#### Text ####
+It was the highest bid in history for a work of art
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3255..3258
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2990..3253
+20;21
+#### Text ####
+In November 1987, Sotheby's essentially offered a Wall Street-style "bridge loan" of about $27 million to Australian businessman Alan Bond to enable him to purchase Vincent van Gogh's "Irises" for $53.9 million.
+It was the highest bid in history for a work of art
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3259..3375
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+two weeks ago, Sotheby's said that it has the painting under lock and key because the loan had not been fully repaid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3333..3340
+22,4,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3259..3288
+22,1;22,2;22,3;22,4,0;22,5
+#### Text ####
+two weeks ago, Sotheby's said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3289..3332
+22,4,1,0;22,4,1,1,0;22,4,1,1,1,0;22,4,1,1,1,1;22,4,1,1,1,2
+#### Text ####
+that it has the painting under lock and key
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3341..3375
+22,4,1,1,1,3,1
+#### Text ####
+the loan had not been fully repaid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3412..3419
+23,0,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3494..3556
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+says Ralph Lerner, an attorney and author of the book "Art Law
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3379..3411
+23,0,0;23,0,1,0;23,0,1,1,0;23,0,1,1,1
+#### Text ####
+Sotheby's is offering such deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3420..3447
+23,0,1,1,2,1,0;23,0,1,1,2,1,1,0;23,0,1,1,2,1,1,1;23,0,1,1,2,1,1,2
+#### Text ####
+it's an art sellers' market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3449..3492
+23,0,1,1,2,1,1,3
+#### Text ####
+at least where the best works are concerned
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3560
+24
+#### Features ####
+Ot, Comm, Null, Null
+3699..3706
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+he says
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3379..3492
+23,0
+#### Text ####
+Sotheby's is offering such deals because it's an art sellers' market, at least where the best works are concerned
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3494..3556
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+says Ralph Lerner, an attorney and author of the book "Art Law
+##############
+____Arg2____
+3560..3629
+24
+#### Text ####
+There seems to be a lot of art for sale, but there's more competition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3601..3604
+24,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3494..3556
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+says Ralph Lerner, an attorney and author of the book "Art Law
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3560..3599
+24,1
+#### Text ####
+There seems to be a lot of art for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3605..3629
+24,4
+#### Text ####
+there's more competition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3631..3652
+25,0,0;25,0,1,0
+#### Text ####
+The competition gives
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3699..3706
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+he says
+##############
+Contingency.Cause.Result
+____Arg1____
+3601..3629
+24,3;24,4;24,5
+#### Text ####
+but there's more competition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3631..3696
+25,0
+#### Text ####
+The competition gives the seller the ability to cut a better deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3735..3740
+26,0,1,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast.Juxtaposition
+____Arg1____
+1219..1226;1271..1430
+9,0;9,2;9,3;9,4
+#### Text ####
+Instead the auction house opted to forgo that percentage in order to obtain the collection and in exchange for taking a bigger chunk of proceeds exceeding $100 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1228..1269
+9,1
+#### Text ####
+people familiar with the transaction said
+##############
+____Arg2____
+3710..3734;3741..3813
+26,0,0;26,0,1,0;26,0,1,2
+#### Text ####
+The Dorrance family will receive a substantial portion of the auction proceeds above $100 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3815..3856
+26,1;26,2;26,3;26,4
+#### Text ####
+people familiar with the transaction said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3858..3861
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3710..3813
+26,0
+#### Text ####
+The Dorrance family will still receive a substantial portion of the auction proceeds above $100 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3815..3856
+26,1;26,2;26,3;26,4
+#### Text ####
+people familiar with the transaction said
+##############
+____Arg2____
+3862..3929;3951..3988
+27,1;27,2,0;27,2,1;27,2,2,0;27,2,2,1,0;27,2,2,1,1,0;27,2,2,1,1,1,0;27,2,2,1,1,1,1,0;27,2,2,1,1,1,1,1;27,2,2,1,1,1,1,3;27,2,2,1,1,1,2;27,3
+#### Text ####
+it's likely that Sotheby's will take a higher than usual commission on the amount exceeding the guarantee
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3931..3949
+27,2,2,1,1,1,1,2
+#### Text ####
+called an override
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4053
+29
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3992..4051
+28
+#### Text ####
+Sotheby's has been aggressively promoting the Dorrance sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4053..4172
+29
+#### Text ####
+At a news conference last May announcing plans for the auction, Sotheby's estimated its value in excess of $100 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4174
+30
+#### Features ####
+Wr, Comm, Null, Null
+and, Comparison.Contrast.Juxtaposition
+____Arg1____
+4053..4172
+29
+#### Text ####
+At a news conference last May announcing plans for the auction, Sotheby's estimated its value in excess of $100 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4174..4251
+30
+#### Text ####
+More recently, Sotheby's has predicted the collection will fetch $140 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4253
+31
+____Arg1____
+4174..4251
+30
+#### Text ####
+More recently, Sotheby's has predicted the collection will fetch $140 million
+##############
+____Arg2____
+4253..4323
+31
+#### Text ####
+That's the highest estimate for a single collection in auction history
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4396..4401
+32,1,3,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+4327..4394
+32,0;32,1,0;32,1,1;32,1,2;32,2
+#### Text ####
+The decision to put the entire collection on the block stunned many
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4402..4550
+32,1,3,1
+#### Text ####
+Mr. Dorrance had served as chairman of the Philadelphia Museum of Art, and it had been assumed many of the works would be donated to the institution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4473..4476
+32,1,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4396..4471
+32,1,3,0;32,1,3,1,0;32,1,3,1,1
+#### Text ####
+since Mr. Dorrance had served as chairman of the Philadelphia Museum of Art
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4477..4550
+32,1,3,1,3
+#### Text ####
+it had been assumed many of the works would be donated to the institution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4748..4757
+34,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+4327..4394
+32,0;32,1,0;32,1,1;32,1,2;32,2
+#### Text ####
+The decision to put the entire collection on the block stunned many
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4759..4815
+34,1;34,2;34,3;34,4
+#### Text ####
+Sotheby's guarantee is raising eyebrows in the art world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4818
+35
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4748..4815
+34
+#### Text ####
+Meanwhile, Sotheby's guarantee is raising eyebrows in the art world
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4818..4908
+35,1
+#### Text ####
+The consumer has to throw out the idea that the auction house is a disinterested middleman
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4911..4948
+35,0;35,2;35,3;35,4;35,5;35,6
+#### Text ####
+says New York art dealer David Tunick
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4950
+36
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+4818..4908
+35,1
+#### Text ####
+The consumer has to throw out the idea that the auction house is a disinterested middleman
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4911..4948
+35,0;35,2;35,3;35,4;35,5;35,6
+#### Text ####
+says New York art dealer David Tunick
+##############
+____Arg2____
+4950..4955;4964..5109
+36,0,0;36,0,1,1,1;36,1;36,2;36,3;36,4;36,5;36,6
+#### Text ####
+While that he has no problem with auction houses who sell works in which they have a financial interest, "It ought not to be hidden in some small print
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4956..4963
+36,0,1,0;36,0,1,1,0
+#### Text ####
+he adds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4950..4955
+36,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+5064..5109
+36,1;36,2;36,3;36,4;36,5;36,6
+#### Text ####
+It ought not to be hidden in some small print
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4911..4948
+35,0;35,2;35,3;35,4;35,5;35,6
+#### Text ####
+says New York art dealer David Tunick
+##############
+____Arg2____
+4964..5061
+36,0,1,1,1
+#### Text ####
+that he has no problem with auction houses who sell works in which they have a financial interest
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4956..4963
+36,0,1,0;36,0,1,1,0
+#### Text ####
+he adds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5197..5208
+38,0,0
+#### Text ####
+For example
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5335..5342
+38,1;38,2;38,3;38,4;38,5
+#### Text ####
+he says
+##############
+for example, Expansion.Instantiation
+____Arg1____
+5114..5132;5143..5194
+37,0;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+In such situations the house "is going to put the best light on things
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5134..5141
+37,1
+#### Text ####
+he says
+##############
+____Arg2____
+5210..5332
+38,0,1;38,0,2;38,0,3
+#### Text ####
+an auction house's comments on the condition of a work of art that is up for sale should be looked at with "very open eyes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5483
+40
+#### Features ####
+Ot, Comm, Null, Null
+5417..5481
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+says Bruce Miller, president of Art Funding Corp., an art lender
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5347..5414
+39,1
+#### Text ####
+There's more and more of this cash-up-front going on at every level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5483..5581
+40,0
+#### Text ####
+Dealers and auction houses "know if they don't lay out a half a million for this, another one will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5516..5518
+40,0,2,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+5483..5515
+40,0,0;40,0,1;40,0,2,0
+#### Text ####
+Dealers and auction houses "know
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+5565..5581
+40,0,2,1,1,1;40,0,2,1,1,2;40,0,2,1,1,3
+#### Text ####
+another one will
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5519..5563
+40,0,2,1,1,0,1
+#### Text ####
+they don't lay out a half a million for this
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5583
+40
+#### Features ####
+Ot, Comm, Null, Null
+5417..5481
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+says Bruce Miller, president of Art Funding Corp., an art lender
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5516..5581
+40,0,2,1
+#### Text ####
+if they don't lay out a half a million for this, another one will
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+5483..5515
+40,0,0;40,0,1;40,0,2,0
+#### Text ####
+Dealers and auction houses "know
+##############
+____Arg2____
+5583..5604
+40,2
+#### Text ####
+it's that competitive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5878..5883
+42,1,1,1,0,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5843..5872
+42,0;42,1,0;42,2
+#### Text ####
+A Christie's spokeswoman said
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+5873..5877;6012..6055
+42,1,1,0;42,1,1,1,1;42,1,1,1,2,0;42,1,1,1,2,1;42,1,1,1,2,2,0;42,1,1,1,2,2,1
+#### Text ####
+that Christie's won't offer financial guarantees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5884..5942
+42,1,1,1,0,1,0;42,1,1,1,0,1,1;42,1,1,1,0,1,2,0;42,1,1,1,0,1,2,1
+#### Text ####
+the auction house sometimes waives its seller's commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5943..5963
+42,1,1,1,0,1,2,2
+#### Text ####
+to attract art works
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6056..6063
+42,1,1,1,2,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5843..5872
+42,0;42,1,0;42,2
+#### Text ####
+A Christie's spokeswoman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5873..5877;6012..6055
+42,1,1,0;42,1,1,1,1;42,1,1,1,2,0;42,1,1,1,2,1;42,1,1,1,2,2,0;42,1,1,1,2,2,1
+#### Text ####
+that Christie's won't offer financial guarantees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6065..6189
+42,1,1,1,2,2,2,2
+#### Text ####
+Christie's believes its primary role is as an auction house, and therefore as an agent {for buyer and seller}, not as a bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6130..6139
+42,1,1,1,2,2,2,2,1,1,1,1,1,3
+#### Text ####
+therefore
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+6065..6084
+42,1,1,1,2,2,2,2,0;42,1,1,1,2,2,2,2,1,0
+#### Text ####
+Christie's believes
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+6085..6124
+42,1,1,1,2,2,2,2,1,1,0;42,1,1,1,2,2,2,2,1,1,1,0;42,1,1,1,2,2,2,2,1,1,1,1,0;42,1,1,1,2,2,2,2,1,1,1,1,1,0;42,1,1,1,2,2,2,2,1,1,1,1,1,1
+#### Text ####
+its primary role is as an auction house
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6126..6129;6140..6189
+42,1,1,1,2,2,2,2,1,1,1,1,1,2;42,1,1,1,2,2,2,2,1,1,1,1,1,4;42,1,1,1,2,2,2,2,1,1,1,1,1,5;42,1,1,1,2,2,2,2,1,1,1,1,1,6;42,1,1,1,2,2,2,2,1,1,1,1,1,7
+#### Text ####
+and as an agent {for buyer and seller}, not as a bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

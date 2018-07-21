@@ -1,0 +1,487 @@
+________________________________________________________
+____Explicit____
+9..11
+0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Pragmatic condition.Relevance
+____Arg1____
+90..134
+0,1;0,2;0,3;0,4
+#### Text ####
+consider the case of Columbia Savings & Loan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12..88
+0,0,1
+#### Text ####
+you're still wondering about the causes of the slump in the junk-bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+136
+1
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+9..134
+0
+#### Text ####
+If you're still wondering about the causes of the slump in the junk-bond market, consider the case of Columbia Savings & Loan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+136..210
+1
+#### Text ####
+The California thrift has just announced a $226 million third-quarter loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+212
+2
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+136..210
+1
+#### Text ####
+The California thrift has just announced a $226 million third-quarter loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+212..231
+2
+#### Text ####
+How did this happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+241..245
+3,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+235..239;354..504
+3,0;3,1;3,3;3,4;3,5;3,6
+#### Text ####
+Well it not only artificially increased the supply of these bonds in the market but also eliminated one of the few profitable investments thrifts have made
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+246..352
+3,2,1
+#### Text ####
+Congress in its recent S&L bailout mandated that the thrifts sell off all their junk-bond holdings by 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+433..437
+3,5,4,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+241..352
+3,2
+#### Text ####
+when Congress in its recent S&L bailout mandated that the thrifts sell off all their junk-bond holdings by 1994
+##############
+____Arg1____
+235..239;354..428
+3,0;3,1;3,3;3,4;3,5,0;3,5,1;3,5,2
+#### Text ####
+Well it not only artificially increased the supply of these bonds in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+429..432;438..504
+3,5,3;3,5,4,1;3,5,4,2;3,6
+#### Text ####
+but eliminated one of the few profitable investments thrifts have made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+506..509
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+235..504
+3
+#### Text ####
+Well, when Congress in its recent S&L bailout mandated that the thrifts sell off all their junk-bond holdings by 1994, it not only artificially increased the supply of these bonds in the market but also eliminated one of the few profitable investments thrifts have made
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+510..561
+4,1;4,2;4,3
+#### Text ####
+there is a grimly ironic twist to the Columbia loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+818
+6
+____Arg1____
+565..816
+5
+#### Text ####
+As followers of the debate over a capital-gains tax cut know, there is much talk in Congress and indeed all over Washington about the need to "encourage" long-term investment and discourage the financial sector's presumed obsession with the short term
+##############
+____Arg2____
+818..939
+6
+#### Text ####
+Now, we regard this as a largely phony issue, but the "long term" is nonetheless a big salon topic all around the Beltway
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+864..867
+6,4
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+818..862
+6,0;6,1;6,2;6,3
+#### Text ####
+Now, we regard this as a largely phony issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+868..939
+6,5
+#### Text ####
+the "long term" is nonetheless a big salon topic all around the Beltway
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+887..898
+6,5,1,1
+#### Text ####
+nonetheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nonetheless, Comparison.Concession.Contra-expectation
+____Arg1____
+818..862
+6,0;6,1;6,2;6,3
+#### Text ####
+Now, we regard this as a largely phony issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+864..886;899..939
+6,4;6,5,0;6,5,1,0;6,5,1,2;6,5,1,3;6,6
+#### Text ####
+but the "long term" is a big salon topic all around the Beltway
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+941
+7
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+818..939
+6
+#### Text ####
+Now, we regard this as a largely phony issue, but the "long term" is nonetheless a big salon topic all around the Beltway
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+941..1166
+7
+#### Text ####
+It turns out that Columbia had this huge loss in large part because the new congressionally mandated rules forced it to adjust the book value of its soon-to-be-sold junk bonds to the lower of either their cost or market value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+987..1008
+7,1,2,1,1,2,0;7,1,2,1,1,2,1
+#### Text ####
+in large part because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+954..986
+7,1,2,0;7,1,2,1,0;7,1,2,1,1,0;7,1,2,1,1,1
+#### Text ####
+that Columbia had this huge loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1009..1166
+7,1,2,1,1,2,2
+#### Text ####
+the new congressionally mandated rules forced it to adjust the book value of its soon-to-be-sold junk bonds to the lower of either their cost or market value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1168
+8
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+941..1166
+7
+#### Text ####
+It turns out that Columbia had this huge loss in large part because the new congressionally mandated rules forced it to adjust the book value of its soon-to-be-sold junk bonds to the lower of either their cost or market value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1168..1263
+8
+#### Text ####
+They could no longer be classified as what Columbia regarded them, namely long-term investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1512
+10
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1267..1510
+9
+#### Text ####
+Congress's ham-handed treatment of the existing structure of junk-bond holdings reminds us of a story in the Journal earlier this year about the Baby Bell companies' desire to have the court-ordered bans lifted on offering information services
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1512..1851
+10;11;12;13
+#### Text ####
+The issue of seeking relief from Congress was raised to Delbert Staley, the chairman of Nynex.
+Mr. Staley replied: 
+
+"Legislation tends to be compromised.
+I believe we have to take a shot at getting as much done as we can through the court, through Justice and through state and federal regulatory agencies.
+I see Congress as a last resort
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1607
+11
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1512..1605
+10
+#### Text ####
+The issue of seeking relief from Congress was raised to Delbert Staley, the chairman of Nynex
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1607..1625
+11,0;11,1,0;11,1,1;11,2
+#### Text ####
+Mr. Staley replied
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1677
+12
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1630..1665
+11,1,2
+#### Text ####
+Legislation tends to be compromised
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1677..1818
+12,1,1
+#### Text ####
+we have to take a shot at getting as much done as we can through the court, through Justice and through state and federal regulatory agencies
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1667..1676
+12,0;12,1,0;12,2
+#### Text ####
+I believe
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1820
+13
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Generalization
+____Arg1____
+1667..1818
+12
+#### Text ####
+I believe we have to take a shot at getting as much done as we can through the court, through Justice and through state and federal regulatory agencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1820..1851
+13
+#### Text ####
+I see Congress as a last resort
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1854
+14
+____Arg1____
+1820..1851
+13
+#### Text ####
+I see Congress as a last resort
+##############
+____Arg2____
+1854..1943
+14
+#### Text ####
+Healthy thrifts such as Columbia or the junk-bond market itself should have been so lucky
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1945
+15
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement
+____Arg1____
+1854..1943
+14
+#### Text ####
+Healthy thrifts such as Columbia or the junk-bond market itself should have been so lucky
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1945..2072
+15
+#### Text ####
+The reality of life in modern America is that if you want to wreck something that works, let it fall into the hands of Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1991..1993
+15,1,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1607..1625
+11,0;11,1,0;11,1,1;11,2
+#### Text ####
+Mr. Staley replied
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1986..1990;2034..2072
+15,1,1,0;15,1,1,1,1;15,1,1,1,2;15,1,1,1,3
+#### Text ####
+that let it fall into the hands of Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1994..2032
+15,1,1,1,0,1
+#### Text ####
+you want to wreck something that works
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

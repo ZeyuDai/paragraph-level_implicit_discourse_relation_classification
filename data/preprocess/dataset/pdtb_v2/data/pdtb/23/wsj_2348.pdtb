@@ -1,0 +1,640 @@
+________________________________________________________
+____Explicit____
+130..133
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..128
+0,0
+#### Text ####
+The government sold the deposits of four savings-and-loan institutions, in its first wave of sales of big, sick thrifts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+134..172
+0,3
+#### Text ####
+low bids prevented the sale of a fifth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+314..319
+1,1,1,4,1,1,2,1,1,1,1,3,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+242..312
+1,1,1,4,1,1,2,1,1,0;1,1,1,4,1,1,2,1,1,1,0;1,1,1,4,1,1,2,1,1,1,1,0;1,1,1,4,1,1,2,1,1,1,1,1;1,1,1,4,1,1,2,1,1,1,1,2
+#### Text ####
+of the 28 previous transactions initiated by the Resolution Trust Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+320..380
+1,1,1,4,1,1,2,1,1,1,1,3,1
+#### Text ####
+it was created in the S&L bailout legislation two months ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+534
+3
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+384..451
+2,0;2,1,0;2,1,1,0;2,1,1,1;2,1,1,2,0;2,1,1,2,1,0;2,1,1,2,1,1;2,1,1,2,1,2;2,1,1,2,1,3;2,2
+#### Text ####
+Two of the four big thrifts were sold to NCNB Corp., Charlotte, N.C
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+534..621
+3
+#### Text ####
+A Canadian bank bought another thrift, in the first RTC transaction with a foreign bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+700
+5
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+625..698
+4
+#### Text ####
+Under these deals, the RTC sells just the deposits and the healthy assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+700..819
+5
+#### Text ####
+These "clean-bank" transactions leave the bulk of bad assets, mostly real estate, with the government, to be sold later
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+814..819
+5,1,4,1,1,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+625..698
+4
+#### Text ####
+Under these deals, the RTC sells just the deposits and the healthy assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+803..813
+5,1,4,0;5,1,4,1,0;5,1,4,1,1,0;5,1,4,1,1,1,0;5,1,4,1,1,1,1
+#### Text ####
+to be sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+836..848
+6,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+700..801
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+These "clean-bank" transactions leave the bulk of bad assets, mostly real estate, with the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+821..834;850..899
+6,0;6,1;6,3;6,4;6,5;6,6
+#### Text ####
+In these four the RTC is stuck with $4.51 billion in bad assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+901
+7
+____Arg1____
+821..899
+6
+#### Text ####
+In these four, for instance, the RTC is stuck with $4.51 billion in bad assets
+##############
+____Arg2____
+901..1037
+7
+#### Text ####
+Acquirers paid premiums ranging from 1.5% to 3.7% for the deposits and branch systems, roughly in line with what analysts were expecting
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1057..1061
+8,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+901..1037
+7
+#### Text ####
+Acquirers paid premiums ranging from 1.5% to 3.7% for the deposits and branch systems, roughly in line with what analysts were expecting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1041..1056;1062..1151
+8,0;8,1,0;8,1,2;8,2
+#### Text ####
+The buyers will be locked into deposit rates for just two weeks, as has been the case with previous deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1153..1163
+9,0
+#### Text ####
+After that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+1041..1151
+8
+#### Text ####
+The buyers will also be locked into deposit rates for just two weeks, as has been the case with previous deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1153..1226
+9
+#### Text ####
+After that, the buyers may repudiate the rates paid by the former thrifts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1228..1231
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1153..1226
+9
+#### Text ####
+After that, the buyers may repudiate the rates paid by the former thrifts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1232..1295
+10,1;10,2;10,3
+#### Text ####
+it's uncertain whether these institutions will take those steps
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1303..1314
+11,0,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1228..1295
+10
+#### Text ####
+But it's uncertain whether these institutions will take those steps
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1297..1301;1316..1449
+11,0,0;11,0,1;11,0,3;11,0,4;11,1;11,2;11,3;11,4
+#### Text ####
+NCNB has been one of the highest rate payers in the Texas market, and in Florida, rates are especially sensitive in retirement communities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1377..1380
+11,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1297..1375
+11,0
+#### Text ####
+NCNB, for example, has been one of the highest rate payers in the Texas market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1381..1449
+11,3
+#### Text ####
+in Florida, rates are especially sensitive in retirement communities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1569..1572
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1453..1513
+12,0,0;12,0,1,0;12,0,1,1;12,0,1,2,0;12,0,1,2,1;12,0,1,2,2
+#### Text ####
+The RTC had previously targeted five thrifts for quick sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1573..1628
+12,3
+#### Text ####
+the delays illustrate the tough chore facing the agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1631
+13
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1569..1628
+12,2;12,3;12,4
+#### Text ####
+but the delays illustrate the tough chore facing the agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1631..1663
+13,1
+#### Text ####
+These thrifts are beached whales
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1666..1727
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said Bert Ely, an industry consultant based in Alexandria, Va
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1729..1740
+14,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1569..1628
+12,2;12,3;12,4
+#### Text ####
+but the delays illustrate the tough chore facing the agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1742..1938
+14,1;14,2;14,3;14,4
+#### Text ####
+the delay in selling People's Heritage Savings, Salina, Kan., with $1.7 billion in assets, has forced the RTC to consider selling off the thrift branch-by-branch, instead of as a whole institution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2003
+16
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1942..2001
+15
+#### Text ####
+NCNB continued its foray into the Florida and Texas markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2003..2068
+16,0;16,1,0;16,1,1,0;16,1,1,1,0;16,1,1,1,1;16,1,1,1,2;16,1,1,1,3;16,2
+#### Text ####
+NCNB will acquire University Federal Savings Association, Houston
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2104
+17
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2003..2102
+16
+#### Text ####
+NCNB will acquire University Federal Savings Association, Houston, which had assets of $2.8 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2104..2200
+17
+#### Text ####
+NCNB Texas National Bank will pay the RTC a premium of $129 million for $3.5 billion in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2202
+18
+____Arg1____
+2104..2200
+17
+#### Text ####
+NCNB Texas National Bank will pay the RTC a premium of $129 million for $3.5 billion in deposits
+##############
+____Arg2____
+2202..2349
+18
+#### Text ####
+As a measure of the depths to which the Texas real estate market has sunk, the RTC will pay $3.8 billion to NCNB to take $750 million of bad assets
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2358..2362
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2003..2349
+16;17;18
+#### Text ####
+NCNB will acquire University Federal Savings Association, Houston, which had assets of $2.8 billion.
+NCNB Texas National Bank will pay the RTC a premium of $129 million for $3.5 billion in deposits.
+As a measure of the depths to which the Texas real estate market has sunk, the RTC will pay $3.8 billion to NCNB to take $750 million of bad assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2353..2357;2363..2655
+19,0;19,2;19,3;20;21
+#### Text ####
+NCNB acquired Freedom Savings & Loan Association, Tampa, Fla., which had total assets of $900 million.
+NCNB will pay the RTC a premium of $40.4 million for $1.1 billion in deposits.
+NCNB will also acquire $266 million of Freedom's assets from the RTC, which will require $875 million in assistance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2461
+20
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+2353..2459
+19
+#### Text ####
+NCNB also acquired Freedom Savings & Loan Association, Tampa, Fla., which had total assets of $900 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2461..2538
+20
+#### Text ####
+NCNB will pay the RTC a premium of $40.4 million for $1.1 billion in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2550..2554
+21,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2461..2538
+20
+#### Text ####
+NCNB will pay the RTC a premium of $40.4 million for $1.1 billion in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2540..2549;2555..2608
+21,0;21,1,0;21,1,2,0;21,1,2,1;21,1,2,2,0;21,1,2,2,1,0;21,1,2,2,1,1;21,2
+#### Text ####
+NCNB will acquire $266 million of Freedom's assets from the RTC
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2794
+23
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2659..2792
+22
+#### Text ####
+Meridian Bancorp Inc., Reading, Pa., will acquire Hill Financial Savings Association, Red Hill, Pa., which had $2.3 billion in assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2794..2871
+23
+#### Text ####
+Meridian will pay a premium of $30.5 million to assume $2 billion in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2881..2885
+24,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2794..2871
+23
+#### Text ####
+Meridian will pay a premium of $30.5 million to assume $2 billion in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2873..2880;2886..2967
+24,0;24,1,0;24,1,2;24,2
+#### Text ####
+It will purchase $845 million of the thrift's assets, with $1.9 billion in RTC assistance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3140
+26
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2971..3138
+25
+#### Text ####
+In the first RTC transaction with a foreign buyer, Royal Trustco Ltd., Toronto, will acquire Pacific Savings Bank, Costa Mesa, Calif., which had $949 million in assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3140..3217
+26
+#### Text ####
+Royal Trustco will pay the RTC $25 million to assume $989 million in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3227..3231
+27,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3140..3217
+26
+#### Text ####
+Royal Trustco will pay the RTC $25 million to assume $989 million in deposits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3219..3226;3232..3316
+27,0;27,1,0;27,1,2;27,2
+#### Text ####
+It will purchase $473 million in assets, and receive $550 million in assistance from the RTC
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

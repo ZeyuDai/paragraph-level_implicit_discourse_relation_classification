@@ -1,0 +1,185 @@
+________________________________________________________
+____Implicit____
+233
+1
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Concession.Contra-expectation
+____Arg1____
+9..154
+0,0;0,1,0;0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,1,1,1,1,2,0;0,1,1,1,1,2,1;0,1,1,1,1,2,2,0;0,1,1,1,1,2,2,1;0,1,1,1,1,2,2,2;0,1,1,1,1,2,2,3;0,1,1,1,1,2,2,4;0,2
+#### Text ####
+Moody's Investors Service Inc. said it lowered the ratings of some $145 million of Pinnacle debt because of "accelerating deficiency in liquidity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+233..338
+1
+#### Text ####
+Henry Sargent Jr., Pinnacle executive vice president, said the action "won't really have any effect on us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+340
+2
+#### Features ####
+Ot, Comm, Null, Null
+233..291
+1,0;1,1,0;1,2
+#### Text ####
+Henry Sargent Jr., Pinnacle executive vice president, said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+292..338
+1,1,1
+#### Text ####
+the action "won't really have any effect on us
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+340..439
+2
+#### Text ####
+We aren't selling bonds right now, and I don't think it will affect the value of our existing bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+375..378
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+233..291
+1,0;1,1,0;1,2
+#### Text ####
+Henry Sargent Jr., Pinnacle executive vice president, said
+##############
+and, Expansion.Conjunction
+____Arg1____
+340..373
+2,0
+#### Text ####
+We aren't selling bonds right now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+379..439
+2,3
+#### Text ####
+I don't think it will affect the value of our existing bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+442
+3
+____Arg1____
+340..439
+2
+#### Text ####
+We aren't selling bonds right now, and I don't think it will affect the value of our existing bonds
+##############
+____Arg2____
+442..583
+3
+#### Text ####
+The rating agency said it lowered the ratings on $75 million of the holding company's convertible subordinated Eurodebentures to B-3 from B-1
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+601..605
+4,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+585..597
+4,0;4,1,0;4,2
+#### Text ####
+Moody's said
+##############
+also, Expansion.Conjunction
+____Arg1____
+465..583
+3,1,1
+#### Text ####
+it lowered the ratings on $75 million of the holding company's convertible subordinated Eurodebentures to B-3 from B-1
+##############
+#### Features ####
+Ot, Comm, Null, Null
+442..464
+3,0;3,1,0;3,2
+#### Text ####
+The rating agency said
+##############
+____Arg2____
+598..600;606..755
+4,1,1,0;4,1,1,1,0;4,1,1,1,2
+#### Text ####
+it lowered the ratings of $70 million of Pinnacle's MeraBank thrift unit long-term deposits to B-3 from B-2, and on its subordinated debt to Ca from Caa
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+757
+5
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+598..755
+4,1,1
+#### Text ####
+it also lowered the ratings of $70 million of Pinnacle's MeraBank thrift unit long-term deposits to B-3 from B-2, and on its subordinated debt to Ca from Caa
+##############
+#### Features ####
+Ot, Comm, Null, Null
+585..597
+4,0;4,1,0;4,2
+#### Text ####
+Moody's said
+##############
+____Arg2____
+757..816
+5
+#### Text ####
+MeraBank's rating for short-term deposits remains Not Prime
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+818
+6
+____Arg1____
+757..816
+5
+#### Text ####
+MeraBank's rating for short-term deposits remains Not Prime
+##############
+____Arg2____
+818..935
+6
+#### Text ####
+Securities of MeraBank were placed under review last May, and will remain under review for downgrade, the agency said
+##############
+________________________________________________________

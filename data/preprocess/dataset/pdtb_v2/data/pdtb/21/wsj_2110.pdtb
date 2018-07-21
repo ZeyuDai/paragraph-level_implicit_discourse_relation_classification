@@ -1,0 +1,703 @@
+________________________________________________________
+____EntRel____
+364
+2
+____Arg1____
+174..362
+1
+#### Text ####
+The CFTC said it will propose the restrictions after the release of a study that shows little economic benefit resulting from dual trading and cites "problems" associated with the practice
+##############
+____Arg2____
+364..463
+2
+#### Text ####
+Dual trading gives an exchange trader the right to trade both for his own account and for customers
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+496..501
+3,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+467..495
+3,0;3,1,0;3,1,1;3,2
+#### Text ####
+The issue exploded this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+502..651
+3,1,2,1
+#### Text ####
+a Federal Bureau of Investigation operation led to charges of widespread trading abuses at the Chicago Board of Trade and Chicago Mercantile Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+653
+4
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+467..651
+3
+#### Text ####
+The issue exploded this year after a Federal Bureau of Investigation operation led to charges of widespread trading abuses at the Chicago Board of Trade and Chicago Mercantile Exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+653..777
+4
+#### Text ####
+While not specifically mentioned in the FBI charges, dual trading became a focus of attempts to tighten industry regulations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+779
+5
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+653..777
+4
+#### Text ####
+While not specifically mentioned in the FBI charges, dual trading became a focus of attempts to tighten industry regulations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+779..901
+5
+#### Text ####
+Critics contend that traders were putting buying or selling for their own accounts ahead of other traders' customer orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+952..959
+6,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+905..951
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1,0;6,1,1,1,1,1,1;6,2
+#### Text ####
+Traders are likely to oppose such restrictions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+960..1064
+6,1,1,1,1,1,2,1
+#### Text ####
+dual trading provides a way to make money in slower markets where there is a shortage of customer orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1142..1149
+7,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1068..1089
+7,0;7,1,0;7,2
+#### Text ####
+The exchanges contend
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1090..1141
+7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1
+#### Text ####
+that dual trading improves liquidity in the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1150..1224
+7,1,1,1,1,2,1
+#### Text ####
+traders can buy or sell even when they don't have a customer order in hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1174..1183
+7,1,1,1,1,2,1,1,1,3,0;7,1,1,1,1,2,1,1,1,3,1
+#### Text ####
+even when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1068..1089
+7,0;7,1,0;7,2
+#### Text ####
+The exchanges contend
+##############
+when, Comparison.Concession.Expectation
+____Arg1____
+1142..1173
+7,1,1,1,1,2,0;7,1,1,1,1,2,1,0;7,1,1,1,1,2,1,1,0;7,1,1,1,1,2,1,1,1,0;7,1,1,1,1,2,1,1,1,1;7,1,1,1,1,2,1,1,1,2
+#### Text ####
+because traders can buy or sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1184..1224
+7,1,1,1,1,2,1,1,1,3,2
+#### Text ####
+they don't have a customer order in hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1244
+8
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1090..1224
+7,1,1
+#### Text ####
+that dual trading improves liquidity in the markets because traders can buy or sell even when they don't have a customer order in hand
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1068..1089
+7,0;7,1,0;7,2
+#### Text ####
+The exchanges contend
+##############
+____Arg2____
+1244..1365
+8,1,1
+#### Text ####
+liquidity becomes a severe problem for thinly traded contracts such as those with a long time remaining before expiration
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1226..1243
+8,0;8,1,0;8,2
+#### Text ####
+The exchanges say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1460
+10
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1369..1458
+9
+#### Text ####
+The CFTC may take those arguments into account by allowing exceptions to its restrictions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1460..1635
+10
+#### Text ####
+The agency didn't cite specific situations where dual trading might be allowed, but smaller exchanges or contracts that need additional liquidity are expected to be among them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1540..1543
+10,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Restatement.Specification
+____Arg1____
+1460..1538
+10,0
+#### Text ####
+The agency didn't cite specific situations where dual trading might be allowed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1544..1635
+10,3
+#### Text ####
+smaller exchanges or contracts that need additional liquidity are expected to be among them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1637
+11
+____Arg1____
+1460..1635
+10
+#### Text ####
+The agency didn't cite specific situations where dual trading might be allowed, but smaller exchanges or contracts that need additional liquidity are expected to be among them
+##############
+____Arg2____
+1637..1822
+11
+#### Text ####
+Wendy Gramm, the agency's chairman, told the Senate Agriculture Committee that she expects the study to be released within two weeks and the rule changes to be completed by Thanksgiving
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1770..1773
+11,1,2,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1711..1727
+11,1,2,0;11,1,2,1,0;11,1,2,1,1,0
+#### Text ####
+that she expects
+##############
+and, Expansion.Conjunction
+____Arg1____
+1728..1769
+11,1,2,1,1,1,0
+#### Text ####
+the study to be released within two weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1774..1822
+11,1,2,1,1,1,2
+#### Text ####
+the rule changes to be completed by Thanksgiving
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1948
+13
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1826..1912
+12,0
+#### Text ####
+The study, by the CFTC's division of economic analysis, shows that "a trade is a trade
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1915..1946
+12,1;12,2;12,3;12,4;12,5
+#### Text ####
+a member of the study team said
+##############
+____Arg2____
+1948..1999;2019..2060
+13,0;13,2;13,3;13,4;13,5
+#### Text ####
+Whether a trade is done on a dual or non-dual basis doesn't seem to have much economic impact
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2001..2016
+13,1
+#### Text ####
+the member said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2237
+15
+____Arg1____
+2065..2234
+14
+#### Text ####
+Currently, most traders on commodity exchanges specialize in trading either for customer accounts, which makes them brokers, or for their own accounts as socalled locals
+##############
+____Arg2____
+2237..2407
+15
+#### Text ####
+The tests indicate that dual and non-dual traders are similar in terms of the trade executions and liquidity they provide to the market," Mrs. Gramm told the Senate panel
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2511
+17
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2411..2509
+16
+#### Text ####
+Members of Congress have proposed restricting dual trading in bills to reauthorize CFTC operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2511..2619
+17,0;17,1,0;17,1,1,0;17,1,1,1;17,1,1,2,0;17,1,1,2,1,0;17,1,1,2,1,1;17,2
+#### Text ####
+The House's bill would prohibit dual trading in markets with daily average volume of 7,000 contracts or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2713
+18
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2511..2619
+17,0;17,1,0;17,1,1,0;17,1,1,1;17,1,1,2,0;17,1,1,2,1,0;17,1,1,2,1,1;17,2
+#### Text ####
+The House's bill would prohibit dual trading in markets with daily average volume of 7,000 contracts or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2713..2856
+18
+#### Text ####
+The Senate bill would force the CFTC to suspend dual trading if an exchange can't show that its oversight system can detect dual-trading abuses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2922
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2860..2920
+19
+#### Text ####
+So far, one test of restricting dual trading has worked well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2922..3335
+20;21;22;23
+#### Text ####
+The Chicago Merc banned dual trading in its Standard & Poor's 500-stock index futures pit in 1987.
+Under the rules, traders decide before a session begins whether they will trade for their own account or for customers.
+Traders who stand on the pit's top step, where most customer orders are executed, can't trade for themselves. 
+
+A Merc spokesman said the plan hasn't made much difference in liquidity in the pit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3021
+21
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2922..3019
+20
+#### Text ####
+The Chicago Merc banned dual trading in its Standard & Poor's 500-stock index futures pit in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3021..3139
+21
+#### Text ####
+Under the rules, traders decide before a session begins whether they will trade for their own account or for customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3053..3059
+21,3,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3021..3052;3077..3139
+21,0;21,1;21,2;21,3,0;21,3,2;21,4
+#### Text ####
+Under the rules, traders decide whether they will trade for their own account or for customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3060..3076
+21,3,1,1
+#### Text ####
+a session begins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3141
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3021..3139
+21
+#### Text ####
+Under the rules, traders decide before a session begins whether they will trade for their own account or for customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3141..3249
+22
+#### Text ####
+Traders who stand on the pit's top step, where most customer orders are executed, can't trade for themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3338
+24
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3275..3335
+23,1,1
+#### Text ####
+the plan hasn't made much difference in liquidity in the pit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3253..3274
+23,0;23,1,0;23,2
+#### Text ####
+A Merc spokesman said
+##############
+____Arg2____
+3338..3409
+24,1
+#### Text ####
+It's too soon to tell . . . but people don't seem to be unhappy with it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3412..3419
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3366..3369
+24,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3412..3419
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+he said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3338..3359
+24,1,0
+#### Text ####
+It's too soon to tell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3370..3409
+24,1,3
+#### Text ####
+people don't seem to be unhappy with it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3421
+25
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3338..3419
+24
+#### Text ####
+It's too soon to tell . . . but people don't seem to be unhappy with it," he said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3421..3511
+25
+#### Text ####
+He said he wouldn't comment on the CFTC plan until the exchange has seen the full proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3466..3471
+25,1,1,1,1,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3421..3428
+25,0;25,1,0;25,2
+#### Text ####
+He said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+3429..3465
+25,1,1,0;25,1,1,1,0;25,1,1,1,1,0;25,1,1,1,1,1;25,1,1,1,1,2,0;25,1,1,1,1,2,1
+#### Text ####
+he wouldn't comment on the CFTC plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3472..3511
+25,1,1,1,1,2,2,1
+#### Text ####
+the exchange has seen the full proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3515..3518
+26,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3429..3511
+25,1,1
+#### Text ####
+he wouldn't comment on the CFTC plan until the exchange has seen the full proposal
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3421..3428
+25,0;25,1,0;25,2
+#### Text ####
+He said
+##############
+____Arg2____
+3519..3685
+26,1;26,2;26,3;26,4;26,5;27
+#### Text ####
+at a meeting last week, Tom Donovan, the Board of Trade's president, told commodity lawyers: "Dual trading is definitely worth saving.
+It adds something to the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3654
+27
+#### Features ####
+Ot, Comm, Null, Null
+3543..3610
+26,2;26,3;26,4,0;26,4,1;26,4,2;26,5
+#### Text ####
+Tom Donovan, the Board of Trade's president, told commodity lawyers
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3613..3652
+26,4,3
+#### Text ####
+Dual trading is definitely worth saving
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3654..3685
+27
+#### Text ####
+It adds something to the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

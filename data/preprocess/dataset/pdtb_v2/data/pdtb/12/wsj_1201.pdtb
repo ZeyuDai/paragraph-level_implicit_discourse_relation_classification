@@ -1,0 +1,1111 @@
+________________________________________________________
+____Explicit____
+267..272
+1,0,2,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+257..266
+1,0,1;1,0,2,0;1,0,2,1;1,0,3
+#### Text ####
+announced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+273..297
+1,0,2,2,1
+#### Text ####
+the market closed Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+527..534
+2,0,1,1,2,1,0
+#### Text ####
+by then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by then, Temporal.Asynchronous.Succession
+____Arg1____
+471..521
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1;2,0,1,1,3
+#### Text ####
+The deepening bloodbath for takeover-stock traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+523..526;535..578
+2,0,1,1,2,0;2,0,1,1,2,1,1;2,0,1,1,2,1,2
+#### Text ####
+who had seen UAL stock tumble 49% since Oct. 12
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+580..584
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+235..255;299..349
+1,0,0;1,0,1;1,0,3;1,1;1,2,0;1,2,1,0;1,2,1,1,0;1,2,1,1,1,0;1,2,1,1,1,1;1,3
+#### Text ####
+The board's decision initially prompted a severe sell-off in UAL shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+471..521;585..697
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1;2,0,1,1,3;2,2;2,3
+#### Text ####
+The deepening bloodbath for takeover-stock traders triggered a marketwide sell-off that sent the Dow Jones Industrial Average down more than 80 points at 10:40 a.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+701..704
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+471..521;580..697
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1;2,0,1,1,3;2,1;2,2;2,3
+#### Text ####
+The deepening bloodbath for takeover-stock traders also triggered a marketwide sell-off that sent the Dow Jones Industrial Average down more than 80 points at 10:40 a.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+705..760;813..894
+3,1;3,2,0;3,2,1,0;3,2,1,1,0;3,2,1,1,1;3,2,1,1,3;3,3;3,4
+#### Text ####
+then steady, concentrated buying by Bear, Stearns & Co. took hold and steadied the fall in UAL, which eventually buoyed the entire market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+705..709
+3,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+523..578
+2,0,1,1,2
+#### Text ####
+who by then had seen UAL stock tumble 49% since Oct. 12
+##############
+____Arg1____
+471..521;580..697
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1;2,0,1,1,3;2,1;2,2;2,3
+#### Text ####
+The deepening bloodbath for takeover-stock traders also triggered a marketwide sell-off that sent the Dow Jones Industrial Average down more than 80 points at 10:40 a.m
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+701..704;710..760;813..851
+3,0;3,2,0;3,2,1,0;3,2,1,1,0;3,2,1,1,1;3,2,1,1,3;3,3,0;3,3,1;3,4
+#### Text ####
+But steady, concentrated buying by Bear, Stearns & Co. took hold and steadied the fall in UAL
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+762..811;853..894
+3,2,1,1,2;3,3,2
+#### Text ####
+which frequently buys stock for corporate raiders which eventually buoyed the entire market
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+896
+4
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Conjunction
+____Arg1____
+701..894
+3
+#### Text ####
+But then steady, concentrated buying by Bear, Stearns & Co., which frequently buys stock for corporate raiders, took hold and steadied the fall in UAL, which eventually buoyed the entire market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+896..958
+4
+#### Text ####
+The industrial average closed down only 3.69 points at 2659.22
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1235
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1188..1233
+6
+#### Text ####
+UAL stock closed at $170 a share, down $8.375
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1235..1328
+7
+#### Text ####
+Volume was a tumultuous 4.9 million shares, or 22% of the 21.8 million UAL shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1348
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1235..1328
+7
+#### Text ####
+Volume was a tumultuous 4.9 million shares, or 22% of the 21.8 million UAL shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1348..1400
+8,1,1
+#### Text ####
+that Bear, Stearns bought more than 1 million shares
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1330..1347
+8,0;8,1,0;8,2
+#### Text ####
+Traders estimated
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1664..1671
+10,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+1444..1473;1499..1534;1585..1662
+9,0,2;9,1,1,0,2;9,1,1,2,2
+#### Text ####
+neither of whom would comment which battled the UAL board in 1987 who recently made and withdrew an offer for American Airlines parent AMR Corp
+##############
+____Arg1____
+1404..1442;1475..1497;1536..1583
+9,0,0;9,0,1;9,0,3;9,1,0;9,1,1,0,0;9,1,1,0,1;9,1,1,0,3;9,1,1,1;9,1,1,2,0;9,1,1,2,1
+#### Text ####
+The two most frequently rumored buyers were Coniston Partners and New York real estate developer Donald Trump
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1673..1850
+10,1;10,2;10,3;10,4
+#### Text ####
+one person familiar with UAL said the signs pointed to Coniston because Mr. Trump hasn't asked for permission to buy more than $15 million of stock under federal antitrust rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1737..1744
+10,3,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1673..1706
+10,1;10,2;10,3,0;10,4
+#### Text ####
+one person familiar with UAL said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1707..1736
+10,3,1,0;10,3,1,1,0;10,3,1,1,1,0;10,3,1,1,1,1
+#### Text ####
+the signs pointed to Coniston
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1745..1850
+10,3,1,1,1,2,1
+#### Text ####
+Mr. Trump hasn't asked for permission to buy more than $15 million of stock under federal antitrust rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2063
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1854..2061
+11
+#### Text ####
+Takeover-stock traders, stung by their huge losses in UAL stock, remained eager for some action by an outside catalyst following the collapse Oct. 13 of a $300-a-share, $6.79 billion labor-management buy-out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2063..2166
+12
+#### Text ####
+Their hope was that the catalyst would seek to oust the board in a solicitation of shareholder consents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2333..2336
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2170..2331
+13
+#### Text ####
+Baker, Nye Investments, a New York takeover-stock trader that owns UAL stock, wouldn't comment on reports the firm is considering seeking such a shareholder vote
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2337..2452
+14,1;14,2;14,3
+#### Text ####
+partner Richard Nye said, "This is the most extraordinary failed transaction I've seen in 25 years in this business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2454
+15
+____Arg1____
+2333..2452
+14
+#### Text ####
+But partner Richard Nye said, "This is the most extraordinary failed transaction I've seen in 25 years in this business
+##############
+____Arg2____
+2454..2495
+15
+#### Text ####
+It would make sense for somebody to do it
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2497
+16
+#### Features ####
+Ot, Comm, Null, Null
+2333..2361
+14,0;14,1;14,2,0;14,2,1;14,2,2;14,3
+#### Text ####
+But partner Richard Nye said
+##############
+but, Comparison.Contrast
+____Arg1____
+2454..2495
+15
+#### Text ####
+It would make sense for somebody to do it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2497..2568
+16
+#### Text ####
+I have never seen a case of incompetence shared by so many participants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2662..2672
+17,3,1,2,1,1
+#### Text ####
+ultimately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+ultimately, Temporal.Asynchronous.Precedence, Contingency.Cause.Result
+____Arg1____
+2573..2655
+17,0;17,1;17,2;17,3,0;17,3,1,0;17,3,1,1;17,4
+#### Text ####
+In 1986, Baker, Nye waged a proxy fight for control of Leaseway Transportation Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2657..2661;2673..2701
+17,3,1,2,0;17,3,1,2,1,0;17,3,1,2,1,2
+#### Text ####
+that led to Leaseway's being sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2863..2866
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2806..2861
+18,1,2,1,2
+#### Text ####
+that recapitalizations could yield $245 to $280 a share
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2739..2804
+18,1,2,1,0;18,1,2,1,1
+#### Text ####
+earlier estimates by UAL's investment adviser, First Boston Corp.
+##############
+____Arg2____
+2867..2906
+19,1;19,2;19,3
+#### Text ####
+those would require pilots' cooperation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3043
+21
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2910..3041
+20
+#### Text ####
+Any investor who acquires UAL stock in an attempt to force a buy-out or recapitalization must deal with United's contentious unions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3043..3139
+21
+#### Text ####
+The pilots are working under an expired contract, and the machinists contract expires next month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3093..3096
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3043..3091
+21,0
+#### Text ####
+The pilots are working under an expired contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3097..3139
+21,3
+#### Text ####
+the machinists contract expires next month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3141
+22
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3043..3139
+21
+#### Text ####
+The pilots are working under an expired contract, and the machinists contract expires next month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3141..3269
+22
+#### Text ####
+That gives them enormous leverage, including the threat of a strike to block any buy-out or recapitalization attempt they oppose
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3273..3280
+23,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+3043..3269
+21;22
+#### Text ####
+The pilots are working under an expired contract, and the machinists contract expires next month.
+That gives them enormous leverage, including the threat of a strike to block any buy-out or recapitalization attempt they oppose
+##############
+____Arg1____
+2910..3041
+20
+#### Text ####
+Any investor who acquires UAL stock in an attempt to force a buy-out or recapitalization must deal with United's contentious unions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3282..3450
+23,1;23,2;23,3;23,4
+#### Text ####
+a catalyst like Coniston could seek shareholder support for a sale to a labor-management group at the last price discussed by that group before the board meeting Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3452
+24
+#### Features ####
+Wr, Comm, Null, Null
+at the time, Temporal.Synchrony
+____Arg1____
+3273..3450
+23
+#### Text ####
+However, a catalyst like Coniston could seek shareholder support for a sale to a labor-management group at the last price discussed by that group before the board meeting Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3452..3561
+24
+#### Text ####
+The pilots had been working on a buy-out bid between $225 and $240 a share, or $5.09 billion to $5.42 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3778..3796
+25,1,1,1,1,4,0;25,1,1,1,1,4,1
+#### Text ####
+particularly since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3565..3598
+25,0;25,1,0;25,2
+#### Text ####
+One person familiar with UAL said
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+3599..3775
+25,1,1,0;25,1,1,1,0;25,1,1,1,1,0;25,1,1,1,1,1;25,1,1,1,1,2;25,1,1,1,1,3
+#### Text ####
+the unsettled labor situation and the uncertain world-wide financial markets contributed to the board's decision to avoid "rushing around selling the company at a bargain price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3797..3845
+25,1,1,1,1,4,2
+#### Text ####
+it accepted a $300-a-share offer just last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3933..3936
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+3887..3931
+26,1,1
+#### Text ####
+they couldn't quarrel with the board's logic
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3849..3886
+26,0;26,1,0;26,2
+#### Text ####
+Even some takeover-stock traders said
+##############
+____Arg2____
+3937..4006
+27,1;27,2;27,3
+#### Text ####
+the board's decision prompted many to bail out of the stock yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4009
+28
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3933..4006
+27
+#### Text ####
+But the board's decision prompted many to bail out of the stock yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4009..4060
+28,1
+#### Text ####
+We had a lot of people who threw in the towel today
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4063..4169
+28,0;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+said Earl Ellis, a partner in Benjamin Jacobson & Sons, a specialist in trading UAL stock on the Big Board
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4320
+30
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4194..4317
+29,1,1
+#### Text ####
+that many arbitrage firms are afraid to sell their UAL stock at the bottom, but already own so much they can't buy any more
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4173..4193
+29,0;29,1,0;29,2
+#### Text ####
+Another trader noted
+##############
+____Arg2____
+4320..4351
+30,1
+#### Text ####
+This deal is like a Roach Motel
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4354..4361
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4364
+31
+#### Features ####
+Ot, Comm, Null, Null
+4354..4361
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4320..4351
+30,1
+#### Text ####
+This deal is like a Roach Motel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4364..4403
+31
+#### Text ####
+They check in, but they can't check out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4379..4382
+31,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4354..4361
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+he said
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+4364..4377
+31,1
+#### Text ####
+They check in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4383..4403
+31,4
+#### Text ####
+they can't check out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4408..4411
+32,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+3043..3269
+21;22
+#### Text ####
+The pilots are working under an expired contract, and the machinists contract expires next month.
+That gives them enormous leverage, including the threat of a strike to block any buy-out or recapitalization attempt they oppose
+##############
+____Arg1____
+2910..3041
+20
+#### Text ####
+Any investor who acquires UAL stock in an attempt to force a buy-out or recapitalization must deal with United's contentious unions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4412..4481
+32,1;32,2;32,3
+#### Text ####
+both the traders and the pilots remain interested in some transaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4483..4489
+33,0
+#### Text ####
+So too
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+4408..4481
+32
+#### Text ####
+But both the traders and the pilots remain interested in some transaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4483..4588
+33
+#### Text ####
+So too, according to many reports, is British Airways PLC, despite its public withdrawal from the buy-out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4705
+35
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4592..4703
+34
+#### Text ####
+The pilots might end up teaming up with their longtime adversaries, the machinists union, in a recapitalization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4705..4869
+35
+#### Text ####
+The machinists are reviewing proposals they made in the past for recapitalizations that would pay a special shareholder dividend and give employees a minority stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4871
+36
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Expectation
+____Arg1____
+4705..4869
+35
+#### Text ####
+The machinists are reviewing proposals they made in the past for recapitalizations that would pay a special shareholder dividend and give employees a minority stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4871..4912
+36
+#### Text ####
+The company rejected those past proposals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4931..4938
+37,1,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4592..4703
+34
+#### Text ####
+The pilots might end up teaming up with their longtime adversaries, the machinists union, in a recapitalization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4916..4929;4940..4988
+37,0;37,1,0;37,1,1;37,1,2;37,1,4;37,1,5,0;37,1,5,1,0;37,1,5,1,1,0;37,1,5,1,1,1,0;37,1,5,1,1,1,1;37,1,5,1,1,1,2;37,2
+#### Text ####
+It is unclear if the machinists would support a majority stake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5036
+38
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4916..5008
+37
+#### Text ####
+It is unclear, however, if the machinists would support a majority stake, as the pilots want
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5036..5143
+38,1,1
+#### Text ####
+that would depend on how much in concessions machinists would have to give in return for the majority stake
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5010..5035
+38,0;38,1,0;38,2
+#### Text ####
+A machinist official said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5261
+40
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5147..5258
+39
+#### Text ####
+Some investors whose names were bandied about by traders as potential UAL stock buyers said they weren't buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5261..5317
+40
+#### Text ####
+I'm not interested," said Dallas investor Harold Simmons
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5319
+41
+#### Features ####
+Wr, Comm, Null, Null
+likewise, Expansion.Conjunction
+____Arg1____
+5261..5317
+40
+#### Text ####
+I'm not interested," said Dallas investor Harold Simmons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5319..5455
+41
+#### Text ####
+A source close to Carl Icahn, a corporate raider who owns Trans World Airlines Inc., said he hasn't owned any UAL stock and isn't buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5562..5565
+43,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5459..5560
+42
+#### Text ####
+One person familiar with Texas billionaire Robert Bass said he isn't likely to make any hostile moves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5566..5723
+43,1;43,2;43,3
+#### Text ####
+a spokesman for Reliance Group Holdings Inc., which had held 7% of UAL before the first buy-out bid but later reduced its holdings below 5%, wouldn't comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5670..5675
+43,1,1,1,2,1,1,2,0
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+5612..5665
+43,1,1,1,2,0;43,1,1,1,2,1,0;43,1,1,1,2,1,1,0
+#### Text ####
+which had held 7% of UAL before the first buy-out bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5666..5669;5676..5705
+43,1,1,1,2,1,1,1;43,1,1,1,2,1,1,2,1;43,1,1,1,2,1,1,2,2;43,1,1,1,2,1,1,2,3
+#### Text ####
+but reduced its holdings below 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5903
+45
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5727..5901
+44
+#### Text ####
+Marvin Davis, whose $5.4 billion takeover bid originally put the nation's second-largest airline in play, is limited by a standstill agreement with UAL he signed in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5903..6079
+45
+#### Text ####
+The Los Angeles investor can't buy UAL stock, solicit shareholder consents or make a new offer unless he makes a formal offer of $300 a share or UAL accepts an offer below $300
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5998..6004
+45,1,2,5,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+5903..5997
+45,0;45,1,0;45,1,1;45,1,2,0;45,1,2,1;45,1,2,2;45,1,2,3;45,1,2,4;45,2
+#### Text ####
+The Los Angeles investor can't buy UAL stock, solicit shareholder consents or make a new offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6005..6079
+45,1,2,5,1
+#### Text ####
+he makes a formal offer of $300 a share or UAL accepts an offer below $300
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6083..6090
+46,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+5903..6079
+45
+#### Text ####
+The Los Angeles investor can't buy UAL stock, solicit shareholder consents or make a new offer unless he makes a formal offer of $300 a share or UAL accepts an offer below $300
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6092..6241
+46,1;46,2;46,3;46,4
+#### Text ####
+Mr. Davis could pressure the board by asking that the agreement be waived, or letting it be known that he has financing for an offer at a lower price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

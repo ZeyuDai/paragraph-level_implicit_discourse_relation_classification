@@ -1,0 +1,941 @@
+________________________________________________________
+____Explicit____
+9..17
+0,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+56..82
+0,1;0,2;0,3,0;0,4
+#### Text ####
+many currency analysts say
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+83..141
+0,3,1
+#### Text ####
+a massive sell-off probably won't occur in the near future
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+18..54
+0,0,1
+#### Text ####
+bullish dollar sentiment has fizzled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+145..150
+1,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation, Temporal.Synchrony
+____Arg1____
+241..310
+1,1;1,2;1,3
+#### Text ####
+weakness in the pound and the yen is expected to offset those factors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+151..239
+1,0,1
+#### Text ####
+Wall Street's tough times and lower U.S. interest rates continue to undermine the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+313
+2
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+145..310
+1
+#### Text ####
+While Wall Street's tough times and lower U.S. interest rates continue to undermine the dollar, weakness in the pound and the yen is expected to offset those factors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+313..396
+2,0
+#### Text ####
+By default," the dollar probably will be able to hold up pretty well in coming days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+398..469
+2,1;2,2;2,3;2,4
+#### Text ####
+says Francoise Soares-Kemp, a foreign-exchange adviser at Credit Suisse
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+472
+3
+#### Features ####
+Ot, Comm, Null, Null
+524..536
+3,0;3,2;3,3;3,4;3,5
+#### Text ####
+she contends
+##############
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+313..396
+2,0
+#### Text ####
+By default," the dollar probably will be able to hold up pretty well in coming days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+398..469
+2,1;2,2;2,3;2,4
+#### Text ####
+says Francoise Soares-Kemp, a foreign-exchange adviser at Credit Suisse
+##############
+____Arg2____
+472..522
+3,1
+#### Text ####
+We're close to the bottom" of the near-term ranges
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+684
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+540..682
+4
+#### Text ####
+In late Friday afternoon New York trading, the dollar was at 1.8300 marks and 141.65 yen, off from late Thursday's 1.8400 marks and 142.10 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+684..730
+5
+#### Text ####
+The pound strengthened to $1.5795 from $1.5765
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1058..1074
+8,0;8,1,0;8,1,1,0
+#### Text ####
+The rise came as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+851..1056
+7
+#### Text ####
+The dollar began Friday on a firm note, gaining against all major currencies in Tokyo dealings and early European trading despite reports that the Bank of Japan was seen unloading dollars around 142.70 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1058..1200
+8
+#### Text ####
+The rise came as traders continued to dump the pound after the sudden resignation Thursday of British Chancellor of the Exchequer Nigel Lawson
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1072..1074
+8,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1058..1071
+8,0;8,1,0;8,2
+#### Text ####
+The rise came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1075..1200
+8,1,1,1
+#### Text ####
+traders continued to dump the pound after the sudden resignation Thursday of British Chancellor of the Exchequer Nigel Lawson
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1204..1207
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1351..1362
+9,4,1,2
+#### Text ####
+traders say
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+1058..1200
+8
+#### Text ####
+The rise came as traders continued to dump the pound after the sudden resignation Thursday of British Chancellor of the Exchequer Nigel Lawson
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1208..1349;1364..1460
+9,1;9,2;9,3;9,4,0;9,4,1,0;9,4,1,1;9,4,1,3;9,5
+#### Text ####
+once the pound steadied with help from purchases by the Bank of England and the Federal Reserve Bank of New York, the dollar was dragged down by the stock-market slump that left the Dow Jones Industrial Average with a loss of 17.01 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1208..1212
+9,1,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1351..1362
+9,4,1,2
+#### Text ####
+traders say
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+1204..1207;1322..1349;1364..1460
+9,0;9,2;9,3;9,4,0;9,4,1,0;9,4,1,1;9,4,1,3;9,5
+#### Text ####
+But the dollar was dragged down by the stock-market slump that left the Dow Jones Industrial Average with a loss of 17.01 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1213..1320
+9,1,1
+#### Text ####
+the pound steadied with help from purchases by the Bank of England and the Federal Reserve Bank of New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1737
+11
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1464..1734
+10
+#### Text ####
+With the stock market wobbly and dollar buyers discouraged by signs of U.S. economic weakness and the recent decline in U.S. interest rates that has diminished the attractiveness of dollar-denominated investments, traders say the dollar is still in a precarious position
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1737..1784
+11,1
+#### Text ####
+They'll be looking at levels to sell the dollar
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1787..1871
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+says James Scalfaro, a foreign-exchange marketing representative at Bank of Montreal
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1875..1880
+12,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1967..2077
+12,1;12,2;12,3;12,4
+#### Text ####
+Mr. Scalfaro and others don't see the currency decisively sliding under support at 1.80 marks and 140 yen soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1881..1965
+12,0,1
+#### Text ####
+some analysts say the dollar eventually could test support at 1.75 marks and 135 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2246..2250
+13,1,1,2,2,1,1,2,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2218..2245
+13,1,1,2,2,1,1,2,2,0;13,1,1,2,2,1,1,2,2,1,0;13,1,1,2,2,1,1,2,2,1,1,0;13,1,1,2,2,1,1,2,2,1,1,1
+#### Text ####
+to strengthen substantially
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2251..2276
+13,1,1,2,2,1,1,2,2,1,1,2,1
+#### Text ####
+there are dollar retreats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2278
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2081..2276
+13
+#### Text ####
+Predictions for limited dollar losses are based largely on the pound's weak state after Mr. Lawson's resignation and the yen's inability to strengthen substantially when there are dollar retreats
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2278..2420
+14,0
+#### Text ####
+With the pound and the yen lagging behind other major currencies, "you don't have a confirmation" that a sharp dollar downturn is in the works
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2422..2489
+14,1;14,2;14,3;14,4
+#### Text ####
+says Mike Malpede, senior currency analyst at Refco Inc. in Chicago
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2629..2634
+16,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2673..2694
+16,1;16,2;16,3,0;16,4
+#### Text ####
+currency analysts say
+##############
+while, Comparison.Concession.Expectation
+____Arg1____
+2695..2722
+16,3,1
+#### Text ####
+it is in critical condition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2635..2671
+16,0,1
+#### Text ####
+the pound has attempted to stabilize
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2724
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for example, Expansion.Instantiation
+____Arg1____
+2629..2722
+16
+#### Text ####
+While the pound has attempted to stabilize, currency analysts say it is in critical condition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2724..2904
+17
+#### Text ####
+Sterling plunged about four cents Thursday and hit the week's low of $1.5765 when Mr. Lawson resigned from his six-year post because of a policy squabble with other cabinet members
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2801..2805
+17,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Sup1____
+2724..2766
+17,0;17,1,0;17,2
+#### Text ####
+Sterling plunged about four cents Thursday
+##############
+____Arg1____
+2767..2800
+17,1,1;17,1,2,0;17,1,2,1
+#### Text ####
+and hit the week's low of $1.5765
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2806..2904
+17,1,2,2,1
+#### Text ####
+Mr. Lawson resigned from his six-year post because of a policy squabble with other cabinet members
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3114..3117
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2940..3112
+18,1,1,2,1,2
+#### Text ####
+who Friday expressed a desire for a firm pound and supported the relatively high British interest rates that he said "are working exactly as intended" in reducing inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3118..3209
+19,1
+#### Text ####
+the market remains uneasy about Mr. Major's policy strategy and the prospects for the pound
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3211..3236
+19,2;19,3;19,4;19,5
+#### Text ####
+currency analysts contend
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3240..3248
+20,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+3370..3513
+20,1;20,2;20,3;20,4
+#### Text ####
+it is widely believed that Mr. Lawson's willingness to prop up the pound with interest-rate increases helped stem pound selling in recent weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3249..3368
+20,0,1
+#### Text ####
+the Bank of England's tight monetary policy has fueled worries that Britain's slowing economy is headed for a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3515
+21
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3240..3513
+20
+#### Text ####
+Although the Bank of England's tight monetary policy has fueled worries that Britain's slowing economy is headed for a recession, it is widely believed that Mr. Lawson's willingness to prop up the pound with interest-rate increases helped stem pound selling in recent weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3515..3685
+21
+#### Text ####
+If there are any signs that Mr. Major will be less inclined to use interest-rate boosts to rescue the pound from another plunge, that currency is expected to fall sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3515..3517
+21,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3644..3685
+21,1;21,2;21,3;21,4
+#### Text ####
+that currency is expected to fall sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3518..3642
+21,0,1
+#### Text ####
+there are any signs that Mr. Major will be less inclined to use interest-rate boosts to rescue the pound from another plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3949..3952
+23,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3890..3928
+23,0,1
+#### Text ####
+There's very little upside to sterling
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3931..3947
+23,0,0;23,0,2;23,0,3;23,0,4;23,0,5
+#### Text ####
+Mr. Roberts says
+##############
+____Arg2____
+3961..4088
+23,3,1,1
+#### Text ####
+that near-term losses may be small because the selling wave that followed Mr. Major's appointment apparently has run its course
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3953..3960
+23,3,0;23,3,1,0
+#### Text ####
+he adds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3996..4003
+23,3,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3953..3960
+23,3,0;23,3,1,0
+#### Text ####
+he adds
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3961..3995
+23,3,1,1,0;23,3,1,1,1,0;23,3,1,1,1,1,0;23,3,1,1,1,1,1,0;23,3,1,1,1,1,1,1
+#### Text ####
+that near-term losses may be small
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4004..4088
+23,3,1,1,1,1,1,2,1
+#### Text ####
+the selling wave that followed Mr. Major's appointment apparently has run its course
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4092..4095
+24,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3890..4088
+23
+#### Text ####
+There's very little upside to sterling," Mr. Roberts says, but he adds that near-term losses may be small because the selling wave that followed Mr. Major's appointment apparently has run its course
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4096..4357
+24,1;24,2;24,3
+#### Text ####
+some other analysts have a stormier forecast for the pound, particularly because Britain's inflation is hovering at a relatively lofty annual rate of about 7.6% and the nation is burdened with a struggling government and large current account and trade deficits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4156..4176
+24,2,4,0;24,2,4,1
+#### Text ####
+particularly because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4092..4154
+24,0;24,1;24,2,0;24,2,1;24,2,2;24,2,3;24,3
+#### Text ####
+But some other analysts have a stormier forecast for the pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4177..4357
+24,2,4,2
+#### Text ####
+Britain's inflation is hovering at a relatively lofty annual rate of about 7.6% and the nation is burdened with a struggling government and large current account and trade deficits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4257..4260
+24,2,4,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+4156..4256
+24,2,4,0;24,2,4,1;24,2,4,2,0
+#### Text ####
+particularly because Britain's inflation is hovering at a relatively lofty annual rate of about 7.6%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4261..4357
+24,2,4,2,2
+#### Text ####
+the nation is burdened with a struggling government and large current account and trade deficits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4539
+26
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+4361..4458
+25,0
+#### Text ####
+The pound likely will fall in coming days and may trade as low as 2.60 marks within the next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4460..4537
+25,1;25,2;25,3;25,4
+#### Text ####
+says Nigel Rendell, an international economist at James Capel & Co. in London
+##############
+____Arg2____
+4539..4640
+26
+#### Text ####
+The pound was at 2.8896 marks late Friday, off sharply from 2.9511 in New York trading a week earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4644..4646
+27,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4775..4791
+27,1;27,2;27,3;27,4
+#### Text ####
+says Mr. Rendell
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4685..4773
+27,0,1;27,0,2;27,0,3
+#### Text ####
+the Bank of England may raise Britain's base lending rate by one percentage point to 16%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4647..4683
+27,0,0,1
+#### Text ####
+the pound falls closer to 2.80 marks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4793..4796
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4815..4822
+28,2
+#### Text ####
+he says
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4644..4773
+27,0
+#### Text ####
+If the pound falls closer to 2.80 marks, the Bank of England may raise Britain's base lending rate by one percentage point to 16%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4775..4791
+27,1;27,2;27,3;27,4
+#### Text ####
+says Mr. Rendell
+##############
+____Arg2____
+4797..4813;4824..4877
+28,1;28,3;28,4;28,5
+#### Text ####
+such an increase could be viewed by the market as "too little too late
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4880
+29
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4793..4813;4824..4877
+28,0;28,1;28,3;28,4;28,5
+#### Text ####
+But such an increase could be viewed by the market as "too little too late
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4815..4822
+28,2
+#### Text ####
+he says
+##############
+____Arg2____
+4880..5061
+29,0
+#### Text ####
+The Bank of England indicated its desire to leave its monetary policy unchanged Friday by declining to raise the official 15% discount-borrowing rate that it charges discount houses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5063..5075
+29,1;29,2;29,3;29,4
+#### Text ####
+analysts say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5257..5264
+31,0,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5334..5371
+31,1;31,2;31,3;31,4
+#### Text ####
+says Ms. Soares-Kemp of Credit Suisse
+##############
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+5199..5256
+31,0,0;31,0,1,0;31,0,1,1;31,0,1,2
+#### Text ####
+The dollar has a "natural base of support" around 140 yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5265..5332
+31,0,1,3,1
+#### Text ####
+the Japanese currency hasn't been purchased heavily in recent weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5373
+32
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+5199..5332
+31,0
+#### Text ####
+The dollar has a "natural base of support" around 140 yen because the Japanese currency hasn't been purchased heavily in recent weeks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5334..5371
+31,1;31,2;31,3;31,4
+#### Text ####
+says Ms. Soares-Kemp of Credit Suisse
+##############
+____Arg2____
+5373..5391;5403..5593
+32,0;32,2;32,3;32,4
+#### Text ####
+The yen's softness apparently stems from Japanese investors' interest in buying dollars against the yen to purchase U.S. bond issues and persistent worries about this year's upheaval in the Japanese government
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5393..5401
+32,1
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5737
+34
+____Arg1____
+5597..5735
+33
+#### Text ####
+On New York's Commodity Exchange Friday, gold for current delivery jumped $5.80, to $378.30 an ounce, the highest settlement since July 12
+##############
+____Arg2____
+5737..5786
+34
+#### Text ####
+Estimated volume was a heavy seven million ounces
+##############
+________________________________________________________

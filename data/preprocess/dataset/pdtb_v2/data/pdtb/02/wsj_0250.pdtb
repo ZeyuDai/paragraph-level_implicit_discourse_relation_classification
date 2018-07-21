@@ -1,0 +1,617 @@
+________________________________________________________
+____Implicit____
+287
+2
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+177..285
+1
+#### Text ####
+The agreement ended a long impasse between the congressional leaders and the White House over the wage issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+287..467
+2
+#### Text ####
+President Bush in June vetoed a measure passed by Congress and said he wouldn't accept any minimum-wage rise that went beyond limits he set early in this year's debate on the issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+568
+4
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+471..566
+3
+#### Text ####
+The compromise was a somewhat softened version of what the White House had said it would accept
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+568..712
+4
+#### Text ####
+Under the agreement with the House and Senate leaders, the minimum wage would rise from the current $3.35 an hour to $4.25 an hour by April 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+730..734
+5,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+568..712
+4
+#### Text ####
+Under the agreement with the House and Senate leaders, the minimum wage would rise from the current $3.35 an hour to $4.25 an hour by April 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+714..729;735..923
+5,0;5,1,0;5,1,2;5,2
+#### Text ####
+Employers could pay a subminimum "training wage" for 90 days to new workers who are up to 19 years old, and then for another 90 days if the company institutes a specific training program for the newcomers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+827..831
+5,1,2,3
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+714..821
+5,0;5,1,0;5,1,1;5,1,2,0;5,1,2,1
+#### Text ####
+Employers could also pay a subminimum "training wage" for 90 days to new workers who are up to 19 years old
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+823..826;832..923
+5,1,2,2;5,1,2,4;5,2
+#### Text ####
+and for another 90 days if the company institutes a specific training program for the newcomers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+852..854
+5,1,2,4,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+823..851
+5,1,2,2;5,1,2,3;5,1,2,4,0
+#### Text ####
+and then for another 90 days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+855..923
+5,1,2,4,1,1
+#### Text ####
+the company institutes a specific training program for the newcomers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1291..1299
+8,1,1,1,0,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1263..1285
+8,0;8,1,0;8,2
+#### Text ####
+White House aides said
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+1286..1290;1363..1434
+8,1,1,0;8,1,1,1,1;8,1,1,1,2;8,1,1,1,3
+#### Text ####
+that the final minimum-wage increase will meet the standards set by Mr. Bush
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1300..1361
+8,1,1,1,0,1
+#### Text ####
+they made a small compromise on the length of a training wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1845
+11
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1663..1843
+10
+#### Text ####
+Mr. Bush had been holding out for a bill boosting the wage floor to $4.25 an hour by the end of 1991, coupled with a six-month training wage for workers newly hired by any employer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1845..2005
+11
+#### Text ####
+Under the compromise, the $4.25 level would be reached nine months earlier, while the training subminimum would be shorter, unless it is tied to a training plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1921..1926
+11,3,1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1845..1919
+11,0;11,1;11,2;11,3,0;11,3,1,0;11,3,1,1,0;11,3,1,1,1;11,3,1,1,2;11,3,1,1,3
+#### Text ####
+Under the compromise, the $4.25 level would be reached nine months earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1927..2005
+11,3,1,1,4,1;11,3,1,1,5;11,3,1,1,6;11,4
+#### Text ####
+the training subminimum would be shorter, unless it is tied to a training plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1969..1975
+11,3,1,1,6,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1921..1967
+11,3,1,1,4
+#### Text ####
+while the training subminimum would be shorter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1976..2005
+11,3,1,1,6,1
+#### Text ####
+it is tied to a training plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2116..2121
+12,1,1,1,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2009..2025
+12,0;12,1,0;12,2
+#### Text ####
+Democrats argued
+##############
+while, Comparison.Contrast
+____Arg1____
+2026..2114
+12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1,0;12,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,1,1,1,1;12,1,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+that the training wage was a way of allowing employers to pay less than the minimum wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2122..2192
+12,1,1,1,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+new workers need far less than six months to be trained for their jobs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2294
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2196..2292
+13
+#### Text ####
+Democrats had been negotiating with some Republican congressional leaders on a compromise lately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2294..2527
+14
+#### Text ####
+With congressional elections next year, GOP leaders have worried about opposing a minimum-wage rise for low-paid workers at a time when Congress is moving toward a capital-gains tax cut that would directly benefit wealthier taxpayers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2529
+15
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2294..2527
+14
+#### Text ####
+With congressional elections next year, GOP leaders have worried about opposing a minimum-wage rise for low-paid workers at a time when Congress is moving toward a capital-gains tax cut that would directly benefit wealthier taxpayers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2529..2608
+15
+#### Text ####
+Republicans have been imploring the White House to compromise on the wage issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2802..2805
+16,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2612..2800
+16,0
+#### Text ####
+In the Senate, Edward Kennedy (D., Mass.), chairman of the Labor Committee, and Pete Domenici, (R., N.M.) ranking minority member of the Budget Committee, have been working on a compromise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2806..2920
+16,3,0
+#### Text ####
+their soundings showed that the Senate appeared to be heading toward enough strength to override another Bush veto
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2922..2954
+16,3,1;16,3,2;16,3,3
+#### Text ####
+a Democratic staff official said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3108
+18
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2958..3106
+17
+#### Text ####
+The House is scheduled to vote this week on the compromise, as a substitute to a new Democratic bill, itself watered down from last spring's version
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3108..3156
+18
+#### Text ####
+The Senate will probably vote not long afterward
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3221
+20
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3160..3219
+19
+#### Text ####
+Some Democrats thought they might have compromised too much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3221..3372
+20
+#### Text ####
+Rep. Austin Murphy (D., Pa.), chairman of the House labor standards subcommittee, said they might have done better "if we'd held their feet to the fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3337..3339
+20,1,1,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3221..3307
+20,0;20,1,0;20,2;20,3
+#### Text ####
+Rep. Austin Murphy (D., Pa.), chairman of the House labor standards subcommittee, said
+##############
+if, Contingency.Condition.Unreal past
+____Arg1____
+3308..3335
+20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0;20,1,1,1,1,1,1,0;20,1,1,1,1,1,1,1;20,1,1,1,1,1,1,2
+#### Text ####
+they might have done better
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3340..3372
+20,1,1,1,1,1,1,3,1
+#### Text ####
+we'd held their feet to the fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3375
+21
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+3221..3372
+20
+#### Text ####
+Rep. Austin Murphy (D., Pa.), chairman of the House labor standards subcommittee, said they might have done better "if we'd held their feet to the fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3375..3560
+21
+#### Text ####
+Mr. Kennedy suggested Democrats "yielded a great deal" on the size of the increase, but he cited concessions from the White House on the training wage, which he said make it "less harsh
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3459..3462
+21,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3397..3457
+21,0,1,1
+#### Text ####
+Democrats "yielded a great deal" on the size of the increase
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3375..3396
+21,0,0;21,0,1,0
+#### Text ####
+Mr. Kennedy suggested
+##############
+____Arg2____
+3472..3560
+21,3,1,1
+#### Text ####
+concessions from the White House on the training wage, which he said make it "less harsh
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3463..3471
+21,3,0;21,3,1,0
+#### Text ####
+he cited
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3745..3755
+23,0,2,1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+3726..3737;3802..3914
+23,0,0;23,0,1;23,0,3;23,1;23,2;23,3
+#### Text ####
+The AFL-CIO said the compromise has "adequate safeguards, so the youth are not exploited and older workers are not displaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3739..3744;3756..3800
+23,0,2,0;23,0,2,1,0;23,0,2,1,2
+#### Text ####
+which opposed the administration's subminimum idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3807
+23
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3565..3715
+22,0
+#### Text ####
+With only 16-year-olds to 19-year-olds eligible, 68% of workers getting less than $4.25 an hour, who are adults, won't be subject to the training wage
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3717..3724
+22,1;22,2;22,3;22,4
+#### Text ####
+he said
+##############
+____Arg2____
+3807..3914
+23,1,1
+#### Text ####
+the compromise has "adequate safeguards, so the youth are not exploited and older workers are not displaced
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3726..3806
+23,0;23,1,0;23,2;23,3
+#### Text ####
+The AFL-CIO, which previously opposed the administration's subminimum idea, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3848..3850
+23,1,1,1,1,4,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3726..3737;3802..3806
+23,0,0;23,0,1;23,0,3;23,1,0
+#### Text ####
+The AFL-CIO said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3807..3846
+23,1,1,0;23,1,1,1,0;23,1,1,1,1,0;23,1,1,1,1,1;23,1,1,1,1,2;23,1,1,1,1,3
+#### Text ####
+the compromise has "adequate safeguards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3851..3914
+23,1,1,1,1,4,1
+#### Text ####
+the youth are not exploited and older workers are not displaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3879..3882
+23,1,1,1,1,4,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3726..3737;3802..3806
+23,0,0;23,0,1;23,0,3;23,1,0
+#### Text ####
+The AFL-CIO said
+##############
+and, Expansion.Conjunction
+____Arg1____
+3848..3878
+23,1,1,1,1,4,0;23,1,1,1,1,4,1,0
+#### Text ####
+so the youth are not exploited
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3883..3914
+23,1,1,1,1,4,1,2
+#### Text ####
+older workers are not displaced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,122 @@
+________________________________________________________
+____EntRel____
+249
+2
+____Arg1____
+167..247
+1
+#### Text ####
+Warner said it will provide financing for the venture, but didn't disclose terms
+##############
+____Arg2____
+249..346
+2
+#### Text ####
+Mr. Azoff hasn't named the company yet, but any records it produces will be distributed by Warner
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+289..292
+2,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+249..287
+2,0
+#### Text ####
+Mr. Azoff hasn't named the company yet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+293..346
+2,3
+#### Text ####
+any records it produces will be distributed by Warner
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+458
+4
+____Arg1____
+350..456
+3
+#### Text ####
+Warner is part of Warner Communications Inc., which is in the process of being acquired by Time Warner Inc
+##############
+____Arg2____
+458..599
+4
+#### Text ####
+Mr. Azoff resigned as head of MCA Records, a unit of MCA Inc., in September, and had been discussing a joint venture with both Warner and MCA
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+642
+5
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+535..599
+4,2;4,3;4,4
+#### Text ####
+and had been discussing a joint venture with both Warner and MCA
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+642..758
+5,4,1
+#### Text ####
+he chose Warner, the largest record company, because "their standing in the entertainment industry is second to none
+##############
+#### Features ####
+Ot, Comm, Null, Null
+627..641
+5,2;5,3;5,4,0;5,5
+#### Text ####
+Mr. Azoff said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+687..694
+5,4,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+601..641
+5,0;5,1;5,2;5,3;5,4,0;5,5
+#### Text ####
+In a statement yesterday, Mr. Azoff said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+642..685
+5,4,1,0;5,4,1,1,0;5,4,1,1,1,0;5,4,1,1,1,1
+#### Text ####
+he chose Warner, the largest record company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+696..758
+5,4,1,1,1,2,2
+#### Text ####
+their standing in the entertainment industry is second to none
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

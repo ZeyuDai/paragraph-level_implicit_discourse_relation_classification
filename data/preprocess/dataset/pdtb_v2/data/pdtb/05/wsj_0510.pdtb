@@ -1,0 +1,44 @@
+________________________________________________________
+____EntRel____
+263
+2
+____Arg1____
+178..261
+1
+#### Text ####
+The company was to repay $58 million in debt on Dec. 31 and $15 million on March 31
+##############
+____Arg2____
+263..347
+2
+#### Text ####
+The company acquired the debt when it paid $155 million to purchase Wilson last year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+293..297
+2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+263..292
+2,0;2,1,0;2,1,1;2,2
+#### Text ####
+The company acquired the debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+298..347
+2,1,2,1
+#### Text ####
+it paid $155 million to purchase Wilson last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

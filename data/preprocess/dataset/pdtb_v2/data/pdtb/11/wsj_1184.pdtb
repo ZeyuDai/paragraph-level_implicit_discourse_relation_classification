@@ -1,0 +1,410 @@
+________________________________________________________
+____Implicit____
+698
+3
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+490..695
+2
+#### Text ####
+In a strongly worded response summarizing a filing made in the same court yesterday, GE asserted that "prosecutors have misstated the testimony of witnesses, distorted documents and ignored important facts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+698..911
+3
+#### Text ####
+The company attacked the government's allegations as "reckless and baseless mudslinging," and said its management "promptly and accurately reported" to the Pentagon all relevant information about billing practices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1177..1179
+4,4,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1126..1176
+4,3;4,4,0;4,4,1,0;4,4,1,1;4,5
+#### Text ####
+and could cause a loss of future defense contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1180..1241
+4,4,1,2,1
+#### Text ####
+Pentagon and Justice Department officials take a tough stance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1391..1394
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1245..1389
+5
+#### Text ####
+The company has been considered an industry leader in advocating cooperation and voluntary disclosures of improper or inflated billing practices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1395..1618
+6,1;6,2;6,3;6,4
+#### Text ####
+the government now claims that a group of company managers and lawyers engaged in an elaborate strategy over five years to obscure from federal authorities the extent and details of "widespread" fraudulent billing practices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1829
+8
+____Arg1____
+1622..1827
+7
+#### Text ####
+The problems were uncovered during a series of internal investigations of the company's Space Systems division, which has been the focus of two separate overcharge prosecutions by the government since 1985
+##############
+____Arg2____
+1829..2006
+8
+#### Text ####
+The dispute stems from pretrial maneuvering in the pending court case, in which prosecutors have been demanding access to a host of internal company memos, reports and documents
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2008
+9
+____Arg1____
+1829..2006
+8
+#### Text ####
+The dispute stems from pretrial maneuvering in the pending court case, in which prosecutors have been demanding access to a host of internal company memos, reports and documents
+##############
+____Arg2____
+2008..2197
+9
+#### Text ####
+Last November, a federal grand jury indicted GE on charges of fraud and false claims in connection with an alleged scheme to defraud the Army of $21 million on a logistics computer contract
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2366
+11
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+2201..2364
+10
+#### Text ####
+The company, for its part, maintains that many of the disputed documents are privileged attorney-client communications that shouldn't be turned over to prosecutors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2366..2407
+11
+#### Text ####
+A hearing is scheduled on the issue today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2645
+13
+#### Features ####
+Wr, Comm, Null, Null
+at the time, Temporal.Synchrony
+____Arg1____
+2411..2643
+12
+#### Text ####
+The government's 136-page filing covers events leading up to the current case and an earlier indictment in March 1985, when GE was accused of defrauding the Pentagon by illegally claiming cost overruns on Minuteman missile contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2645..2848
+13
+#### Text ####
+GE pleaded guilty and paid a fine of more than $1 million in the Minuteman case, which involved some of the same individuals and operations that are at the center of the dispute in the Philadelphia court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2926..2935
+14,0,2,1,1,1,1,1,2
+#### Text ####
+therefore
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+2852..2868
+14,0,0;14,0,1;14,0,2,0;14,0,2,1,0;14,0,2,1,1,0
+#### Text ####
+In order to show
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+2869..2921
+14,0,2,1,1,1,0;14,0,2,1,1,1,1,0;14,0,2,1,1,1,1,1,0
+#### Text ####
+that all of its units had corrected billing problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2922..2925;2936..2982
+14,0,2,1,1,1,1,1,1;14,0,2,1,1,1,1,1,3
+#### Text ####
+and should become eligible again for new contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3606..3610
+17,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3666..3783
+17,3,1
+#### Text ####
+that Mr. Orr "was erroneously informed that the {suspected} practices had only just been discovered" by GE management
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3646..3665
+17,1;17,2;17,3,0;17,4
+#### Text ####
+prosecutors contend
+##############
+____Arg2____
+3611..3644
+17,0,1
+#### Text ####
+GE finally disclosed the problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3614..3621
+17,0,1,1
+#### Text ####
+finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+3489..3604
+16,1,1,1
+#### Text ####
+that allegedly sat on damaging evidence of overcharges from 1983 to 1985, despite warnings from an internal auditor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3460..3488
+16,0;16,1,0;16,1,1,0;16,2
+#### Text ####
+Prosecutors depict a company
+##############
+____Arg2____
+3606..3613;3622..3644
+17,0,0;17,0,1,0;17,0,1,2
+#### Text ####
+When GE disclosed the problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3666
+17
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3479..3604
+16,1,1;16,2
+#### Text ####
+a company that allegedly sat on damaging evidence of overcharges from 1983 to 1985, despite warnings from an internal auditor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3460..3478
+16,0;16,1,0;16,2
+#### Text ####
+Prosecutors depict
+##############
+____Arg2____
+3666..3783
+17,3,1
+#### Text ####
+that Mr. Orr "was erroneously informed that the {suspected} practices had only just been discovered" by GE management
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3606..3665
+17,0;17,1;17,2;17,3,0;17,4
+#### Text ####
+When GE finally disclosed the problems, prosecutors contend
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4173..4176
+19,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3966..3968;4074..4083
+19,0,0;19,0,1;19,0,3;19,1,0
+#### Text ####
+GE countered
+##############
+and, Expansion.Conjunction
+____Arg1____
+4084..4171
+19,1,1,0
+#### Text ####
+that senior GE managers didn't find out about questionable billing practices until 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4177..4280
+19,1,1,3
+#### Text ####
+that the information was passed on quickly to Mr. Orr at his first meeting with company representatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4282
+20
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4173..4280
+19,1,1,2;19,1,1,3
+#### Text ####
+and that the information was passed on quickly to Mr. Orr at his first meeting with company representatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4282..4531
+20
+#### Text ####
+Subsequent meetings, initiated after the company and two of its units were briefly suspended from federal contracts, were held to familiarize Mr. Orr with the company's self-policing procedures and to disclose additional information, according to GE
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4313..4318
+20,0,2,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4516..4531
+20,1,1,1;20,1,1,3;20,1,1,4;20,2
+#### Text ####
+according to GE
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4303..4312
+20,0,1;20,0,2,0;20,0,2,1;20,0,3
+#### Text ####
+initiated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4319..4397
+20,0,2,2,1
+#### Text ####
+the company and two of its units were briefly suspended from federal contracts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4816..4831
+23,1
+#### Text ####
+On the contrary
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4795..4813
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+GE's brief asserts
+##############
+on the contrary, Comparison.Contrast
+____Arg1____
+4684..4792
+22,0
+#### Text ####
+The company's conduct "does not even raise a question of wrongful corporate intent, ratification or cover-up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4833..4942
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+it shows a corporation reacting swiftly and aggressively to very difficult issues in largely uncharted waters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

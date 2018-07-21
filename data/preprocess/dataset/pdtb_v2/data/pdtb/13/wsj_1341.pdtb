@@ -1,0 +1,127 @@
+________________________________________________________
+____EntRel____
+174
+2
+____Arg1____
+48..172
+1
+#### Text ####
+Gerald C. Beddall, 47 years old, was named president of the Clairol division of this pharmaceuticals and health-care company
+##############
+____Arg2____
+174..232
+2
+#### Text ####
+He succeeds C. Benjamin Brooks Jr., who will retire Nov. 1
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+234
+3
+____Arg1____
+174..232
+2
+#### Text ####
+He succeeds C. Benjamin Brooks Jr., who will retire Nov. 1
+##############
+____Arg2____
+234..317
+3
+#### Text ####
+Mr. Brooks declined to give his age, but he said his leaving is a normal retirement
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+271..274
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+234..269
+3,0
+#### Text ####
+Mr. Brooks declined to give his age
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+283..317
+3,3,1,1
+#### Text ####
+his leaving is a normal retirement
+##############
+#### Features ####
+Ot, Comm, Null, Null
+275..282
+3,3,0;3,3,1,0
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+319
+4
+____Arg1____
+234..317
+3
+#### Text ####
+Mr. Brooks declined to give his age, but he said his leaving is a normal retirement
+##############
+____Arg2____
+319..392
+4
+#### Text ####
+Mr. Beddall had been executive vice president of the division since April
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+394
+5
+____Arg1____
+319..392
+4
+#### Text ####
+Mr. Beddall had been executive vice president of the division since April
+##############
+____Arg2____
+394..520
+5
+#### Text ####
+Clairol, which makes hair and skin products, was a division of Bristol-Myers Co. before that company's merger with Squibb Corp
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+475..481
+5,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+394..401;439..473
+5,0,0;5,0,1;5,0,3;5,1,0;5,1,1
+#### Text ####
+Clairol was a division of Bristol-Myers Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+482..520
+5,1,2,1;5,2
+#### Text ####
+that company's merger with Squibb Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

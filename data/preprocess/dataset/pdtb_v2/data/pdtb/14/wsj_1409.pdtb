@@ -1,0 +1,487 @@
+________________________________________________________
+____Implicit____
+378
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+305..376
+2
+#### Text ####
+He sent out thousands of news releases from his Kensington, Md., office
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+378..502
+3
+#### Text ####
+He plugged the contest on Larry King's radio show, on Pat Sajak's television show and on the C-SPAN cable television network
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+504
+4
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+305..502
+2;3
+#### Text ####
+He sent out thousands of news releases from his Kensington, Md., office.
+He plugged the contest on Larry King's radio show, on Pat Sajak's television show and on the C-SPAN cable television network
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+504..546
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+He talked about it in every speech he made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+547..549
+4,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+504..546
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+He talked about it in every speech he made
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+550..591
+4,1,3,1,0;4,1,3,1,1,0,0;4,1,3,1,1,0,1;4,1,3,1,1,0,2,0;4,1,3,1,1,0,2,1,0;4,1,3,1,1,0,2,1,1,0;4,1,3,1,1,0,2,1,1,1
+#### Text ####
+he roamed the country promoting his books
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+593..678
+4,1,3,1,1,0,2,1,1,2
+#### Text ####
+which dispense handy how-to advice on using government information for fun and profit
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+741
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+682..739
+5
+#### Text ####
+Mr. Lesko figured he would be flooded with entries by now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+741..750;762..799
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+After all we've got like 15 million bureaucrats
+##############
+#### Features ####
+Ot, Comm, Null, Null
+752..759
+6,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+802..805
+7,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+741..750;762..799
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+After all we've got like 15 million bureaucrats
+##############
+#### Features ####
+Ot, Comm, Null, Null
+752..759
+6,1
+#### Text ####
+he says
+##############
+____Arg2____
+806..933
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+in addition to the $5,000, he has promised the winner a "My Favorite Bureaucrat" plaque and offered each of two runners-up $500
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+945..951
+8,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Sup1____
+741..933
+6;7
+#### Text ####
+After all, he says, "we've got like 15 million bureaucrats." And in addition to the $5,000, he has promised the winner a "My Favorite Bureaucrat" plaque and offered each of two runners-up $500
+##############
+____Arg1____
+682..739
+5
+#### Text ####
+Mr. Lesko figured he would be flooded with entries by now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+937..943;953..990
+8,0;8,1;8,3;8,4;8,5;8,6
+#### Text ####
+So far Mr. Lesko has received only one entry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+992..1013
+9,0,1
+#### Text ####
+To make matters worse
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+937..990
+8
+#### Text ####
+So far, though, Mr. Lesko has received only one entry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+992..1063
+9,0;9,1;9,2;9,3,0;9,3,1,0;9,3,1,1,0;9,3,1,1,1;9,4
+#### Text ####
+To make matters worse, the lone nomination came from another bureaucrat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1193..1195
+10,0,2,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1169..1192
+10,0,2,0;10,0,2,1,0;10,0,2,1,1,0;10,0,2,1,1,1,0;10,0,2,1,1,1,1
+#### Text ####
+who is making the rules
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1196..1203
+10,0,2,1,1,1,2,1
+#### Text ####
+he goes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1287..1290
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1158..1285
+10
+#### Text ####
+Mr. Lesko, who is making the rules as he goes, has determined that bureaucrats are eligible for nomination by other bureaucrats
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1299..1358
+11,2,1
+#### Text ####
+he would prefer to get nominations from rank-and-file folks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1291..1298
+11,1;11,2,0;11,3
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1444
+13
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1372..1442
+12,1,1
+#### Text ####
+that he hasn't had much luck generating free publicity for his contest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1444..1516
+13
+#### Text ####
+Newspapers, including this one, have generally ignored his news releases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1518
+14
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1444..1516
+13
+#### Text ####
+Newspapers, including this one, have generally ignored his news releases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1518..1558
+14
+#### Text ####
+Talk show hosts quickly change the topic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1562..1565
+15,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1362..1442
+12
+#### Text ####
+He admits that he hasn't had much luck generating free publicity for his contest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1566..1669
+15,1;15,2;15,3
+#### Text ####
+Mr. Lesko's staff is beginning to wonder whether there isn't some larger phenomenon foiling the contest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1672
+16
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+1562..1669
+15
+#### Text ####
+But Mr. Lesko's staff is beginning to wonder whether there isn't some larger phenomenon foiling the contest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1672..1755
+16
+#### Text ####
+Is the government not helping anybody?" asks Toni Murray, an assistant to Mr. Lesko
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1825
+18
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1759..1822
+17
+#### Text ####
+Mr. Lesko himself isn't yet prepared to accept that explanation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1825..1855
+18
+#### Text ####
+People hate to write," he says
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1858
+19
+#### Features ####
+Ot, Comm, Null, Null
+1848..1855
+18,1;18,2;18,3
+#### Text ####
+he says
+##############
+or, Expansion.Alternative
+____Arg1____
+1825..1845
+18,0
+#### Text ####
+People hate to write
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1858..1915
+19
+#### Text ####
+Maybe people don't believe I want to give this money away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2061
+21
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+1920..2059
+20
+#### Text ####
+Maybe Americans are just so annoyed with government that they aren't interested in admitting that bureaucrats come in handy once in a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2061..2169
+21
+#### Text ####
+If he sponsored a contest on how a bureaucrat mishandled something, Mr. Lesko admits, "I'd get 5,000 entries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2061..2063
+21,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2129..2145
+21,1
+#### Text ####
+Mr. Lesko admits
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+2148..2169
+21,2;21,3;21,4;21,5;21,6;21,7
+#### Text ####
+I'd get 5,000 entries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2064..2127
+21,0,1
+#### Text ####
+he sponsored a contest on how a bureaucrat mishandled something
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2172
+22
+____Arg1____
+2061..2169
+21
+#### Text ####
+If he sponsored a contest on how a bureaucrat mishandled something, Mr. Lesko admits, "I'd get 5,000 entries
+##############
+____Arg2____
+2172..2191
+22
+#### Text ####
+Now there's an idea
+##############
+________________________________________________________

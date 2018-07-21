@@ -1,0 +1,244 @@
+________________________________________________________
+____EntRel____
+347
+2
+____Arg1____
+238..345
+1,1;1,2;1,3
+#### Text ####
+$475 million of senior subordinated resettable debentures, due Oct. 15, 2001, priced at par to yield 14.75%
+##############
+____Arg2____
+347..440
+2
+#### Text ####
+The coupon will be reset in one year at a rate that will give the issue a market value of 101
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+442..449
+3,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession
+____Arg1____
+347..440
+2
+#### Text ####
+The coupon will be reset in one year at a rate that will give the issue a market value of 101
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+451..522
+3,1;3,2;3,3;3,4
+#### Text ####
+the maximum coupon rate on the issue when it is reset can only be 15.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+488..492
+3,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+442..487;505..522
+3,0;3,1;3,2,0;3,2,1;3,3;3,4
+#### Text ####
+However, the maximum coupon rate on the issue can only be 15.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+493..504
+3,2,2,1
+#### Text ####
+it is reset
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+547..551
+4,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+442..522
+3
+#### Text ####
+However, the maximum coupon rate on the issue when it is reset can only be 15.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+524..546;552..617
+4,0;4,1,0;4,1,2;4,2
+#### Text ####
+Debenture holders will receive the equivalent of 10% of the common stock of CNW Holdings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+619
+5
+____Arg1____
+524..617
+4
+#### Text ####
+Debenture holders will also receive the equivalent of 10% of the common stock of CNW Holdings
+##############
+____Arg2____
+619..828
+5
+#### Text ####
+The equity kicker is not attached to the offering, but underwriters said it will be offered after a filing for 68,548 common shares of CNW Holdings is declared effective by the Securities & Exchange Commission
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+670..673
+5,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+619..668
+5,0
+#### Text ####
+The equity kicker is not attached to the offering
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+692..828
+5,3,1,1
+#### Text ####
+it will be offered after a filing for 68,548 common shares of CNW Holdings is declared effective by the Securities & Exchange Commission
+##############
+#### Features ####
+Ot, Comm, Null, Null
+674..691
+5,3,0;5,3,1,0
+#### Text ####
+underwriters said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+711..716
+5,3,1,1,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+674..691
+5,3,0;5,3,1,0
+#### Text ####
+underwriters said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+692..710
+5,3,1,1,0;5,3,1,1,1,0;5,3,1,1,1,1,0;5,3,1,1,1,1,1,0;5,3,1,1,1,1,1,1,0;5,3,1,1,1,1,1,1,1
+#### Text ####
+it will be offered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+717..828
+5,3,1,1,1,1,1,1,2,1
+#### Text ####
+a filing for 68,548 common shares of CNW Holdings is declared effective by the Securities & Exchange Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+830
+6
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+619..828
+5
+#### Text ####
+The equity kicker is not attached to the offering, but underwriters said it will be offered after a filing for 68,548 common shares of CNW Holdings is declared effective by the Securities & Exchange Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+830..952
+6
+#### Text ####
+The issue is noncallable for five years and has a sinking fund starting in 2000 to retire 50% of the issue before maturity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+954
+7
+____Arg1____
+830..952
+6
+#### Text ####
+The issue is noncallable for five years and has a sinking fund starting in 2000 to retire 50% of the issue before maturity
+##############
+____Arg2____
+954..1146
+7
+#### Text ####
+Rated single-B-2 by Moody's Investors Service Inc. and single-B-minus by Standard & Poor's Corp., the issue will be sold through underwriters led by Donaldson Lufkin & Jenrette Securities Corp
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1315
+9
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1179..1313
+8,0,0,1,0;8,0,0,1,2;8,0,1;8,0,2;8,0,3
+#### Text ####
+$200 million of Eurobonds due Nov. 9, 1993, with equity-purchase warrants, indicating a 4% coupon at par, via Nomura International Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1315..1518
+9
+#### Text ####
+Each $5,000 bond carries one warrant, exercisable from Nov. 28, 1989, through Oct. 28, 1993, to buy company shares at an expected premium of 2 1/2% to the closing share price when terms are fixed Oct. 27
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

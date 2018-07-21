@@ -1,0 +1,139 @@
+________________________________________________________
+____EntRel____
+425
+3
+____Arg1____
+307..423
+2
+#### Text ####
+Traditional declined to estimate the amount of the loss and wouldn't say if it expects to show a profit for the year
+##############
+____Arg2____
+425..523
+3
+#### Text ####
+In the year ended June 30, 1988, Traditional reported net income of $4.9 million, or $1.21 a share
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+525
+4
+____Arg1____
+425..523
+3
+#### Text ####
+In the year ended June 30, 1988, Traditional reported net income of $4.9 million, or $1.21 a share
+##############
+____Arg2____
+525..580
+4
+#### Text ####
+The company didn't break out its fourth-quarter results
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+582
+5
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+525..580
+4
+#### Text ####
+The company didn't break out its fourth-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+582..682
+5
+#### Text ####
+In the latest nine months net income was $4.7 million, or $1.31 a share, on revenue of $44.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+686..696
+6,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..144
+0
+#### Text ####
+Traditional Industries Inc. said it expects to report a net loss for the fourth quarter that ended June 30 and is seeking new financing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+698..831
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+the company said it would file a delayed fiscal-year report with the Securities and Exchange Commission "within approximately 45 days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+842..865
+7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0
+#### Text ####
+the delay resulted from
+##############
+#### Features ####
+Ot, Comm, Null, Null
+834..841
+7,0;7,1,0;7,2
+#### Text ####
+It said
+##############
+Contingency.Cause.Reason
+____Arg1____
+715..831
+6,3,1
+#### Text ####
+it would file a delayed fiscal-year report with the Securities and Exchange Commission "within approximately 45 days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+686..714
+6,0;6,1;6,2;6,3,0;6,4;6,5
+#### Text ####
+Separately, the company said
+##############
+____Arg2____
+842..956
+7,1,1
+#### Text ####
+the delay resulted from difficulties in resolving its accounting of a settlement with the Federal Trade Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+958
+8
+____Arg1____
+834..956
+7
+#### Text ####
+It said the delay resulted from difficulties in resolving its accounting of a settlement with the Federal Trade Commission
+##############
+____Arg2____
+958..1169
+8
+#### Text ####
+Under an agreement filed in federal court in August to settle FTC objections to some Traditional sales practices, Traditional said it would establish a $250,000 trust fund to provide refunds to certain customers
+##############
+________________________________________________________

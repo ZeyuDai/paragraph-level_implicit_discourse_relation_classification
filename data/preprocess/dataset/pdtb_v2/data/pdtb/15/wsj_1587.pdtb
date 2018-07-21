@@ -1,0 +1,268 @@
+________________________________________________________
+____Explicit____
+92..95
+0,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+236..267
+0,1;0,2;0,3;0,4
+#### Text ####
+company and city officials said
+##############
+and, Expansion.Conjunction
+____Arg1____
+9..90
+0,0,0
+#### Text ####
+Four workers at GTE Corp. 's headquarters have been diagnosed as having hepatitis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+96..234
+0,0,3
+#### Text ####
+city health officials are investigating whether a cafeteria worker may have exposed hundreds of other GTE employees to the viral infection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+418..423
+2,0,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+590..604
+2,1;2,2;2,3;2,4
+#### Text ####
+officials said
+##############
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+372..417
+2,0,0;2,0,1,0;2,0,1,1;2,0,1,2;2,0,1,3
+#### Text ####
+GTE shut down its cafeteria Tuesday afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+424..588
+2,0,1,4,1
+#### Text ####
+testing determined that at least one cafeteria worker employed by GTE's private food vending contractor, ARA Services Inc., was suffering from a strain of the virus
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+606
+3
+____Arg1____
+372..604
+2
+#### Text ####
+GTE shut down its cafeteria Tuesday afternoon after testing determined that at least one cafeteria worker employed by GTE's private food vending contractor, ARA Services Inc., was suffering from a strain of the virus, officials said
+##############
+____Arg2____
+606..651
+3
+#### Text ####
+More than 700 people work in the GTE building
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+653
+4
+____Arg1____
+606..651
+3
+#### Text ####
+More than 700 people work in the GTE building
+##############
+____Arg2____
+653..681
+4
+#### Text ####
+The cafeteria remains closed
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1205..1212
+8,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1254..1300
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Dr. Frank Provato, GTE's medical director
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1155..1204
+8,1,0;8,1,1;8,1,2,0;8,1,2,1
+#### Text ####
+From a public health point of view we're relieved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1213..1251
+8,1,2,2,1
+#### Text ####
+hepatitis A is rarely life-threatening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1329..1335
+9,2,2
+#### Text ####
+though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1254..1300
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Dr. Frank Provato, GTE's medical director
+##############
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+1205..1251
+8,1,2,2
+#### Text ####
+because hepatitis A is rarely life-threatening
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1155..1204
+8,1,0;8,1,1;8,1,2,0;8,1,2,1
+#### Text ####
+From a public health point of view we're relieved
+##############
+____Arg2____
+1303..1328
+9,0;9,1;9,2,0;9,2,1;9,2,3;9,3;9,4
+#### Text ####
+It's a double-edged sword
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1337..1344
+9,2,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1254..1300
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Dr. Frank Provato, GTE's medical director
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1303..1335
+9,0;9,1;9,2,0;9,2,1;9,2,2;9,2,3;9,3;9,4
+#### Text ####
+It's a double-edged sword though
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1345..1393
+9,2,4,1
+#### Text ####
+it is also the most contagious kind of hepatitis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1351..1355
+9,2,4,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1254..1300
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Dr. Frank Provato, GTE's medical director
+##############
+also, Expansion.Conjunction
+____Arg1____
+1205..1251
+8,1,2,2
+#### Text ####
+because hepatitis A is rarely life-threatening
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1155..1204
+8,1,0;8,1,1;8,1,2,0;8,1,2,1
+#### Text ####
+From a public health point of view we're relieved
+##############
+____Arg2____
+1337..1350;1356..1393
+9,2,4,0;9,2,4,1,0;9,2,4,1,1,0;9,2,4,1,1,2
+#### Text ####
+because it is the most contagious kind of hepatitis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1871..1874
+12,4
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1849..1868
+12,2
+#### Text ####
+Mr. Mattausch added
+##############
+and, Expansion.Conjunction
+____Arg1____
+1751..1846
+12,1
+#### Text ####
+We're strongly recommending that anyone who has eaten in the cafeteria this month have the shot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1875..1919
+12,5
+#### Text ####
+that means virtually everyone who works here
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

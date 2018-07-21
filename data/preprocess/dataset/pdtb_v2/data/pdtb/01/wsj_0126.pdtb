@@ -1,0 +1,844 @@
+________________________________________________________
+____Explicit____
+9..17
+0,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+50..120
+0,1;0,2;0,3;0,4
+#### Text ####
+San Francisco Giants owner Bob Lurie hopes to have a new home for them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+18..48
+0,0,1
+#### Text ####
+his team lost the World Series
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+122
+1
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+50..120
+0,1;0,2;0,3;0,4
+#### Text ####
+San Francisco Giants owner Bob Lurie hopes to have a new home for them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+122..227
+1
+#### Text ####
+He is an avid fan of a proposition on next week's ballot to help build a replacement for Candlestick Park
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+229
+2
+____Arg1____
+122..227
+1
+#### Text ####
+He is an avid fan of a proposition on next week's ballot to help build a replacement for Candlestick Park
+##############
+____Arg2____
+229..332
+2
+#### Text ####
+Small wonder, since he's asking San Francisco taxpayers to sink up to $100 million into the new stadium
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+243..248
+2,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+229..241
+2,0;2,1;2,3
+#### Text ####
+Small wonder
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+249..332
+2,2,1
+#### Text ####
+he's asking San Francisco taxpayers to sink up to $100 million into the new stadium
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+334
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+229..332
+2
+#### Text ####
+Small wonder, since he's asking San Francisco taxpayers to sink up to $100 million into the new stadium
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+334..461
+3
+#### Text ####
+As San Francisco digs out from The Pretty Big One, opponents say the last thing the city can afford is an expensive new stadium
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+334..336
+3,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+385..461
+3,1;3,2;3,3;3,4
+#### Text ####
+opponents say the last thing the city can afford is an expensive new stadium
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+337..383
+3,0,1
+#### Text ####
+San Francisco digs out from The Pretty Big One
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+506..520
+5,0;5,1,0;5,1,1,0;5,1,1,2,0
+#### Text ####
+It's fueled by
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+465..504
+4
+#### Text ####
+A stadium craze is sweeping the country
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+506..571
+5
+#### Text ####
+It's fueled by the increasing profitability of major-league teams
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+573
+6
+____Arg1____
+506..571
+5
+#### Text ####
+It's fueled by the increasing profitability of major-league teams
+##############
+____Arg2____
+573..721
+6
+#### Text ####
+Something like one-third of the nation's 60 largest cities are thinking about new stadiums, ranging from Cleveland to San Antonio and St. Petersburg
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+806
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+725..804
+7
+#### Text ####
+Most boosters claim the new sports complexes will be moneymakers for their city
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+806..862
+8
+#### Text ####
+Pepperdine University economist Dean Baim scoffs at that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+864
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+806..862
+8
+#### Text ####
+Pepperdine University economist Dean Baim scoffs at that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+864..1015
+9
+#### Text ####
+He has looked at 14 baseball and football stadiums and found that only one -- private Dodger Stadium -- brought more money into a city than it took out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1017
+10
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Restatement.Specification
+____Arg1____
+915..938;968..1015
+9,1,1,1;9,1,1,2,0;9,1,1,2,1,0;9,1,1,2,1,1,0,0;9,1,1,2,1,1,0,1;9,1,1,2,1,1,0,3;9,1,1,2,1,1,1
+#### Text ####
+and found that only one brought more money into a city than it took out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1017..1104
+10
+#### Text ####
+Stadiums tend to redistribute existing wealth within a community, not create more of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1131..1135
+11,2,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1108..1130
+11,0;11,1;11,2,0;11,3
+#### Text ####
+Voters generally agree
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1136..1236
+11,2,1,1
+#### Text ####
+they are given a chance to decide if they want to sink their own tax dollars into a new mega-stadium
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1238
+12
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1108..1236
+11
+#### Text ####
+Voters generally agree when they are given a chance to decide if they want to sink their own tax dollars into a new mega-stadium
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1238..1296
+12
+#### Text ####
+San Francisco voters rejected a new ballpark two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1298
+13
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+1238..1296
+12
+#### Text ####
+San Francisco voters rejected a new ballpark two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1298..1394
+13
+#### Text ####
+Last month, Phoenix voters turned thumbs down on a $100 million stadium bond and tax proposition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1396
+14
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Concession.Expectation
+____Arg1____
+1298..1394
+13
+#### Text ####
+Last month, Phoenix voters turned thumbs down on a $100 million stadium bond and tax proposition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1396..1454;1519..1550
+14,0;14,1,0,0;14,1,0,1,0;14,1,0,1,1;14,1,0,1,2,0;14,1,0,1,2,2;14,1,1;14,1,2;14,2
+#### Text ####
+Its backers fielded every important interest on their team and spent $100,000 on promotion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1552..1555
+15,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1396..1550
+14
+#### Text ####
+Its backers fielded every important interest on their team -- a popular mayor, the Chamber of Commerce, the major media -- and spent $100,000 on promotion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1556..1670
+15,1;15,2;15,3
+#### Text ####
+voters decided that if the stadium was such a good idea someone would build it himself, and rejected it 59% to 41%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1576..1578
+15,2,0,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1556..1570
+15,1;15,2,0,0;15,3
+#### Text ####
+voters decided
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+1571..1575;1612..1642
+15,2,0,1,0;15,2,0,1,1,1;15,2,0,1,1,2
+#### Text ####
+that someone would build it himself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1579..1611
+15,2,0,1,1,0,1
+#### Text ####
+the stadium was such a good idea
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1763
+17
+____Arg1____
+1674..1761
+16
+#### Text ####
+In San Francisco, its backers concede the ballpark is at best running even in the polls
+##############
+____Arg2____
+1763..1900
+17
+#### Text ####
+George Christopher, the former San Francisco mayor who built Candlestick Park for the Giants in the 1960s, won't endorse the new ballpark
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1902
+18
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1763..1900
+17
+#### Text ####
+George Christopher, the former San Francisco mayor who built Candlestick Park for the Giants in the 1960s, won't endorse the new ballpark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1902..2136
+18;19
+#### Text ####
+He says he had Candlestick built because the Giants claimed they needed 10,000 parking spaces.
+Since the new park will have only 1,500 spaces, Mr. Christopher thinks backers are playing some fiscal "games" of their own with the voters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1935..1942
+18,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1902..1909
+18,0;18,1,0;18,2
+#### Text ####
+He says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1910..1934
+18,1,1,0;18,1,1,1,0;18,1,1,1,1,0;18,1,1,1,1,1
+#### Text ####
+he had Candlestick built
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1943..1995
+18,1,1,1,1,2,1
+#### Text ####
+the Giants claimed they needed 10,000 parking spaces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1997
+19
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1910..1995
+18,1,1
+#### Text ####
+he had Candlestick built because the Giants claimed they needed 10,000 parking spaces
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1902..1909
+18,0;18,1,0;18,2
+#### Text ####
+He says
+##############
+____Arg2____
+1997..2043;2068..2136
+19,0;19,3,1
+#### Text ####
+Since the new park will have only 1,500 spaces backers are playing some fiscal "games" of their own with the voters
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2045..2067
+19,1;19,2;19,3,0;19,4
+#### Text ####
+Mr. Christopher thinks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1997..2002
+19,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+2045..2136
+19,1;19,2;19,3;19,4
+#### Text ####
+Mr. Christopher thinks backers are playing some fiscal "games" of their own with the voters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2003..2043
+19,0,1
+#### Text ####
+the new park will have only 1,500 spaces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2216
+21
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2140..2214
+20
+#### Text ####
+Stadium boosters claim that without public money they would never be built
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2216..2278
+21
+#### Text ####
+Miami Dolphins owner Joe Robbie disagrees, and he can prove it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2259..2262
+21,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2216..2257
+21,0
+#### Text ####
+Miami Dolphins owner Joe Robbie disagrees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2263..2278
+21,3
+#### Text ####
+he can prove it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2280
+22
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2216..2278
+21
+#### Text ####
+Miami Dolphins owner Joe Robbie disagrees, and he can prove it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2280..2439
+22
+#### Text ####
+Several years ago he gave up trying to persuade Miami to improve its city-owned Orange Bowl, and instead built his own $100 million coliseum with private funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2377..2384
+22,2,3
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2309..2371
+22,2,0,2
+#### Text ####
+trying to persuade Miami to improve its city-owned Orange Bowl
+##############
+#### Features ####
+Ot, Ctrl, Neg, Null
+2280..2308
+22,0;22,1;22,2,0,0;22,2,0,1;22,3
+#### Text ####
+Several years ago he gave up
+##############
+____Arg2____
+2373..2376;2385..2439
+22,2,2;22,2,4;22,3
+#### Text ####
+and built his own $100 million coliseum with private funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2441
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2280..2439
+22
+#### Text ####
+Several years ago he gave up trying to persuade Miami to improve its city-owned Orange Bowl, and instead built his own $100 million coliseum with private funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2441..2543
+23
+#### Text ####
+He didn't see why the taxpayers should help build something he would then use to turn a healthy profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2546
+24
+____Arg1____
+2441..2543
+23
+#### Text ####
+He didn't see why the taxpayers should help build something he would then use to turn a healthy profit
+##############
+____Arg2____
+2546..2632
+24
+#### Text ####
+This stadium shows that anything government can do, we can do better," Mr. Robbie says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2636..2639
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2546..2614
+24,1
+#### Text ####
+This stadium shows that anything government can do, we can do better
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2617..2632
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+Mr. Robbie says
+##############
+____Arg2____
+2640..2819
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+to Moon Landrieu, the former New Orleans mayor who helped build that city's cavernous, money-losing Superdome, questions of who benefits or the bottom line are of little relevance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2822
+26
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2636..2819
+25
+#### Text ####
+But to Moon Landrieu, the former New Orleans mayor who helped build that city's cavernous, money-losing Superdome, questions of who benefits or the bottom line are of little relevance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2822..2884
+26,1
+#### Text ####
+The Superdome is an exercise in optimism, a statement of faith
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2887..2898
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+he has said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2901
+27
+#### Features ####
+Ot, Comm, Null, Null
+2887..2898
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+he has said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2822..2884
+26,1
+#### Text ####
+The Superdome is an exercise in optimism, a statement of faith
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2901..2993
+27
+#### Text ####
+It is the very building of it that is important, not how much of it is used or its economics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3067..3070
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2998..3065
+28
+#### Text ####
+An Egyptian Pharaoh couldn't have justified his pyramids any better
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3071..3112
+29,1;29,2;29,3
+#### Text ####
+civilization has moved forward since then
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3114
+30
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3067..3112
+29
+#### Text ####
+But civilization has moved forward since then
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3114..3312
+30
+#### Text ####
+Today taxpayers get to vote, most of the time, on whether they want to finance the building schemes of our modern political pharaohs, or let private money erect these playgrounds for public passions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

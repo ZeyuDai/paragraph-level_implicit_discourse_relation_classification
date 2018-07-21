@@ -1,0 +1,393 @@
+________________________________________________________
+____Implicit____
+384
+2
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+277..374
+1,1,1
+#### Text ####
+it made the offer within the past several weeks as part of an effort to improve shareholder value
+##############
+#### Features ####
+Ot, Comm, Null, Null
+263..276
+1,0;1,1,0;1,2
+#### Text ####
+Manville said
+##############
+____Arg2____
+384..427
+2,1,1
+#### Text ####
+it would purchase the stock at market price
+##############
+#### Features ####
+Ot, Comm, Null, Null
+376..383
+2,0;2,1,0;2,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+518..521
+3,1,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+431..476
+3,0;3,1,0;3,2
+#### Text ####
+Manville and a spokeswoman for the trust said
+##############
+but, Comparison.Contrast
+____Arg1____
+477..517
+3,1,1,0;3,1,1,1,0
+#### Text ####
+that the two are discussing the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+522..549
+3,1,1,1,2
+#### Text ####
+a decision hasn't been made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+552
+4
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+477..549
+3,1,1
+#### Text ####
+that the two are discussing the proposal but a decision hasn't been made
+##############
+#### Features ####
+Ot, Comm, Null, Null
+431..476
+3,0;3,1,0;3,2
+#### Text ####
+Manville and a spokeswoman for the trust said
+##############
+____Arg2____
+552..615
+4,1
+#### Text ####
+We are considering that offer along with all other alternatives
+##############
+#### Features ####
+Ot, Comm, Null, Null
+618..644
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+the trust spokeswoman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+647
+5
+#### Features ####
+Ot, Comm, Null, Null
+618..644
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+the trust spokeswoman said
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+552..615
+4,1
+#### Text ####
+We are considering that offer along with all other alternatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+647..720
+5
+#### Text ####
+We need to look at how to maximize our cash flow to pay our beneficiaries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+980..984
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+725..734;848..968
+6,0;6,1;6,3;6,4;6,5
+#### Text ####
+The trust owns 7.2 million of the Series A convertible preferred shares, which are each convertible into 10 Manville common shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+970..979;985..1045
+7,0;7,2;7,3
+#### Text ####
+The trust owns half of Manville's 48 million common shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1384..1387
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1241..1382
+9
+#### Text ####
+In addition to the stock and 20% of Manville's profits beginning in 1992, the trust is supposed to receive $2.5 billion over its 27-year life
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1388..1467
+10,1;10,2;10,3;10,4
+#### Text ####
+it initially was funded with about $765 million and may soon face a cash crunch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1469
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1436..1467
+10,3,1;10,3,2;10,4
+#### Text ####
+and may soon face a cash crunch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1469..1648
+11
+#### Text ####
+As of June 30, it had settled about 15,000 of 81,000 claims filed and its unpaid claims totaled $136 million, a large portion of its $268 million in cash and marketable securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1535..1538
+11,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1469..1534
+11,0;11,1;11,2
+#### Text ####
+As of June 30, it had settled about 15,000 of 81,000 claims filed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1539..1648
+11,4
+#### Text ####
+its unpaid claims totaled $136 million, a large portion of its $268 million in cash and marketable securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1650
+12
+____Arg1____
+1469..1648
+11
+#### Text ####
+As of June 30, it had settled about 15,000 of 81,000 claims filed and its unpaid claims totaled $136 million, a large portion of its $268 million in cash and marketable securities
+##############
+____Arg2____
+1650..1788
+12
+#### Text ####
+Since most of its assets are tied to Manville, a forest and building products concern, the trust might also want to diversify its holdings
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1650..1655
+12,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1737..1788
+12,1;12,2;12,3;12,4
+#### Text ####
+the trust might also want to diversify its holdings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1656..1735
+12,0,1
+#### Text ####
+most of its assets are tied to Manville, a forest and building products concern
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1983
+14
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1792..1980
+13
+#### Text ####
+As part of its offer, Manville said it requested changes in some covenants between it and the trust to allow Manville to "reflect a more typical corporate ownership and financial structure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1983..2046
+14
+#### Text ####
+A Manville spokesman wouldn't elaborate on the proposed changes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2048..2051
+15,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1983..2046
+14
+#### Text ####
+A Manville spokesman wouldn't elaborate on the proposed changes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2052..2148
+15,1;15,2;15,3
+#### Text ####
+he said they are "to a large degree, housekeeping," although some may generate some disagreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2104..2112
+15,2,1,0,1,1,4,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2052..2059
+15,1;15,2,0;15,3
+#### Text ####
+he said
+##############
+although, Comparison.Contrast
+____Arg1____
+2060..2101
+15,2,1,0,0;15,2,1,0,1,0;15,2,1,0,1,1,0;15,2,1,0,1,1,1;15,2,1,0,1,1,2;15,2,1,0,1,1,3;15,2,1,0,1,1,4,0;15,2,1,0,1,1,4,1;15,2,1,0,1,1,4,2
+#### Text ####
+they are "to a large degree, housekeeping
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2113..2148
+15,2,1,0,1,1,4,3,1
+#### Text ####
+some may generate some disagreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2234..2237
+16,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2152..2165
+16,0;16,1,0;16,2
+#### Text ####
+Manville said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2166..2232
+16,1,1,0
+#### Text ####
+the shares issued to the trust were intended to be sold, as needed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2238..2302
+16,1,1,2
+#### Text ####
+that Manville has the right of first refusal to buy those shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

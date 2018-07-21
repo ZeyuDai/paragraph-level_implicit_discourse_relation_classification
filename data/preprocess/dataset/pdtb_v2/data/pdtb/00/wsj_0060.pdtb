@@ -1,0 +1,714 @@
+________________________________________________________
+____Explicit____
+105..108
+0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+10..103
+0,0
+#### Text ####
+The Cosby Show" may have single-handedly turned around ratings at NBC since its debut in 1984
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+109..199
+0,3
+#### Text ####
+the Huxtable family still keeps millions of viewers laughing Thursday night on the network
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+203..206
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+10..199
+0
+#### Text ####
+The Cosby Show" may have single-handedly turned around ratings at NBC since its debut in 1984, and the Huxtable family still keeps millions of viewers laughing Thursday night on the network
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+207..321
+1,1;1,2;1,3
+#### Text ####
+some of the TV stations that bought "Cosby" reruns for record prices two years ago aren't laughing much these days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+323
+2
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+203..321
+1
+#### Text ####
+But some of the TV stations that bought "Cosby" reruns for record prices two years ago aren't laughing much these days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+323..438
+2
+#### Text ####
+The reruns have helped ratings at many of the 187 network affiliates and independent TV stations that air the shows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+440..443
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+323..438
+2
+#### Text ####
+The reruns have helped ratings at many of the 187 network affiliates and independent TV stations that air the shows
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+444..491;493..580
+3,1;3,3;3,4;3,5
+#### Text ####
+the ratings are considerably below expectations and some stations say they may not buy new episodes when their current contracts expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+493..496
+3,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+440..491
+3,0;3,1;3,2
+#### Text ####
+But the ratings are considerably below expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+497..580
+3,4
+#### Text ####
+some stations say they may not buy new episodes when their current contracts expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+545..549
+3,4,1,1,1,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+497..514
+3,4,0;3,4,1,0
+#### Text ####
+some stations say
+##############
+when, Temporal.Synchrony
+____Arg1____
+515..544
+3,4,1,1,0;3,4,1,1,1,0;3,4,1,1,1,1,0;3,4,1,1,1,1,1;3,4,1,1,1,1,2,0;3,4,1,1,1,1,2,1
+#### Text ####
+they may not buy new episodes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+550..580
+3,4,1,1,1,1,2,2,1
+#### Text ####
+their current contracts expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+584..593
+4,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+440..580
+3
+#### Text ####
+But the ratings are considerably below expectations, and some stations say they may not buy new episodes when their current contracts expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+595..802
+4,1;4,2;4,3;4,4
+#### Text ####
+stations are fuming because, many of them say, the show's distributor, Viacom Inc., is giving an ultimatum: Either sign new long-term commitments to buy future episodes or risk losing "Cosby" to a competitor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+615..622
+4,3,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+624..640
+4,3,1,1,1,0
+#### Text ####
+many of them say
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+584..614
+4,0;4,1;4,2;4,3,0;4,3,1,0;4,4
+#### Text ####
+Meanwhile, stations are fuming
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+642..802
+4,3,1,1,1,1;4,3,1,1,1,2
+#### Text ####
+the show's distributor, Viacom Inc., is giving an ultimatum: Either sign new long-term commitments to buy future episodes or risk losing "Cosby" to a competitor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+703..709;764..766
+4,3,1,1,1,2,1,1,2,1,0;4,3,1,1,1,2,1,1,2,1,2
+#### Text ####
+Either or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+642..701
+4,3,1,1,1,1;4,3,1,1,1,2,0;4,3,1,1,1,2,1,0;4,3,1,1,1,2,1,1,0;4,3,1,1,1,2,1,1,1
+#### Text ####
+the show's distributor, Viacom Inc., is giving an ultimatum
+##############
+either or, Expansion.Alternative
+____Arg1____
+710..763
+4,3,1,1,1,2,1,1,2,1,1
+#### Text ####
+sign new long-term commitments to buy future episodes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+767..802
+4,3,1,1,1,2,1,1,2,1,3
+#### Text ####
+risk losing "Cosby" to a competitor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1016
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+986..1013
+6,1,1
+#### Text ####
+it's using pressure tactics
+##############
+#### Features ####
+Ot, Comm, Neg, Null
+972..985
+6,0;6,1,0;6,2
+#### Text ####
+Viacom denies
+##############
+____Arg2____
+1016..1042
+7,1
+#### Text ####
+We're willing to negotiate
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1045..1105
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+says Dennis Gillespie, executive vice president of marketing
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1108
+8
+#### Features ####
+Ot, Comm, Null, Null
+1045..1105
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+says Dennis Gillespie, executive vice president of marketing
+##############
+however, Comparison.Contrast
+____Arg1____
+1016..1042
+7,1
+#### Text ####
+We're willing to negotiate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1108..1172
+8
+#### Text ####
+We're offering this plan now because we feel it's the right time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1137..1144
+8,2,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1045..1105
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+says Dennis Gillespie, executive vice president of marketing
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1108..1136
+8,0;8,1;8,2,0;8,2,1,0;8,2,1,1;8,2,1,2;8,3;8,4
+#### Text ####
+We're offering this plan now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1145..1172
+8,2,1,3,1
+#### Text ####
+we feel it's the right time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1177..1180
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+1016..1105
+7
+#### Text ####
+We're willing to negotiate," says Dennis Gillespie, executive vice president of marketing
+##############
+____Arg1____
+972..1013
+6
+#### Text ####
+Viacom denies it's using pressure tactics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1182..1326
+9,1;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+says the general manager of a network affiliate in the Midwest, "I think if I tell them I need more time, they'll take `Cosby' across the street
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1255..1257
+9,4,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1247..1254
+9,2;9,3;9,4,0;9,5;9,6
+#### Text ####
+I think
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1288..1326
+9,4,1,1,1;9,4,1,1,2;9,4,1,1,3
+#### Text ####
+they'll take `Cosby' across the street
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1258..1286
+9,4,1,1,0,1
+#### Text ####
+I tell them I need more time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1351..1353
+10,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1331..1350
+10,0;10,1,0;10,2
+#### Text ####
+Viacom's move comes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1354..1456
+10,1,1,1
+#### Text ####
+the syndication market is being flooded with situation comedies that are still running on the networks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1483
+11
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+1331..1456
+10
+#### Text ####
+Viacom's move comes as the syndication market is being flooded with situation comedies that are still running on the networks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1483..1533
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0;11,1,1,1,1,1
+#### Text ####
+he believes Viacom's move is a "pre-emptive strike
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1458..1482
+11,0;11,1,0;11,2
+#### Text ####
+One station manager says
+##############
+____Sup2____
+1535..1647
+11,1,1,1,1,2
+#### Text ####
+because the company is worried that "Cosby" ratings will continue to drop in syndication over the next few years
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1535..1542
+11,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1483..1494
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0
+#### Text ####
+he believes
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1495..1533
+11,1,1,1,1,1
+#### Text ####
+Viacom's move is a "pre-emptive strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1543..1647
+11,1,1,1,1,2,1
+#### Text ####
+the company is worried that "Cosby" ratings will continue to drop in syndication over the next few years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1650
+12
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction, Contingency.Pragmatic cause.Justification
+____Arg1____
+1535..1647
+11,1,1,1,1,2
+#### Text ####
+because the company is worried that "Cosby" ratings will continue to drop in syndication over the next few years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1650..1769
+12
+#### Text ####
+Cosby" is down a full ratings point in the week of Oct. 2-8 over the same week a year ago, according to A.C. Nielsen Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1828..1831
+14,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1650..1769
+12
+#### Text ####
+Cosby" is down a full ratings point in the week of Oct. 2-8 over the same week a year ago, according to A.C. Nielsen Co
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1741..1769
+12,3,4;12,3,5;12,4
+#### Text ####
+according to A.C. Nielsen Co
+##############
+____Arg2____
+1974..2009
+14,2,1
+#### Text ####
+they may very well not renew "Cosby
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1832..1973
+14,1;14,2,0;14,3;14,4
+#### Text ####
+executives at stations in such major markets as Washington; Providence, R.I.; Cleveland; Raleigh, N.C.; Minneapolis, and Louisville, Ky., say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2084..2095
+15,1,1
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1828..2009
+14
+#### Text ####
+And executives at stations in such major markets as Washington; Providence, R.I.; Cleveland; Raleigh, N.C.; Minneapolis, and Louisville, Ky., say they may very well not renew "Cosby
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2012..2082;2097..2149
+15,0;15,1,0;15,1,2;15,2;15,3;15,4
+#### Text ####
+Dick Lobo, the general manager of WTVJ, the NBC-owned station in Miami says the show has "been a major disappointment to us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2153
+16
+#### Features ####
+Ot, Comm, Null, Null
+2012..2101
+15,0;15,1;15,2,0;15,3;15,4
+#### Text ####
+Dick Lobo, the general manager of WTVJ, the NBC-owned station in Miami, for example, says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2102..2149
+15,2,1
+#### Text ####
+the show has "been a major disappointment to us
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2153..2233
+16
+#### Text ####
+At the prices we were charged, there should have been some return for the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2235
+17
+#### Features ####
+Ot, Comm, Null, Null
+2012..2101
+15,0;15,1;15,2,0;15,3;15,4
+#### Text ####
+Dick Lobo, the general manager of WTVJ, the NBC-owned station in Miami, for example, says
+##############
+but, Comparison
+____Arg1____
+2153..2233
+16
+#### Text ####
+At the prices we were charged, there should have been some return for the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2235..2247
+17
+#### Text ####
+There wasn't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2374..2377
+18,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2252..2330
+18,0;18,1,0;18,2;18,3
+#### Text ####
+Neil Kuvin, the general manager of WHAS, the CBS affiliate in Louisville, says
+##############
+and, Expansion.Conjunction
+____Arg1____
+2332..2373
+18,1,1,0
+#### Text ####
+Cosby" gets the station's highest ratings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2378..2391
+18,1,1,2
+#### Text ####
+he's "pleased
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2394..2397
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2252..2391
+18
+#### Text ####
+Neil Kuvin, the general manager of WHAS, the CBS affiliate in Louisville, says "Cosby" gets the station's highest ratings and he's "pleased
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2398..2491
+19,1;19,2;19,3
+#### Text ####
+he adds, "I feel pressured, disappointed, uncomfortable and, frankly, quite angry with Viacom
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

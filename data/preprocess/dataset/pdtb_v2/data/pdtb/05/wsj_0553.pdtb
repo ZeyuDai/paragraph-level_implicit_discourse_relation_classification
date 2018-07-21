@@ -1,0 +1,1862 @@
+________________________________________________________
+____Implicit____
+82
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..80
+0
+#### Text ####
+We're sorry to see Nigel Lawson's departure from the British government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+82..245
+1
+#### Text ####
+He is a politician with the courage of true conviction, as in summarily sacking exchange controls and in particular slashing the top rate of income taxation to 40%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+184..197
+1,1,3,1,1,1,2,0
+#### Text ####
+in particular
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+138..179
+1,1,2;1,1,3,0;1,1,3,1,0;1,1,3,1,1,0;1,1,3,1,1,1,0
+#### Text ####
+as in summarily sacking exchange controls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+180..183;198..245
+1,1,3,1,1,1,1;1,1,3,1,1,1,2,1;1,1,3,1,1,1,2,2;1,1,3,1,1,1,2,3
+#### Text ####
+and slashing the top rate of income taxation to 40%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+247..250
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+82..245
+1
+#### Text ####
+He is a politician with the courage of true conviction, as in summarily sacking exchange controls and in particular slashing the top rate of income taxation to 40%
+##############
+____Arg1____
+9..80
+0
+#### Text ####
+We're sorry to see Nigel Lawson's departure from the British government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+251..328
+2,1;2,2;2,3,0;2,3,1,0;2,3,1,1;2,3,1,2;2,4
+#### Text ####
+in the end his resignation as Chancellor of the Exchequer may be a good thing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+330..497
+2,3,1,3
+#### Text ####
+especially if it works as he no doubt intends -- by forcing Prime Minister Thatcher and her counterparts elsewhere to confront the genuine intellectual issues involved
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+251..261
+2,1
+#### Text ####
+in the end
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..80
+0
+#### Text ####
+We're sorry to see Nigel Lawson's departure from the British government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+247..250;262..328
+2,0;2,2;2,3,0;2,3,1,0;2,3,1,1;2,3,1,2;2,4
+#### Text ####
+But his resignation as Chancellor of the Exchequer may be a good thing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+330..343
+2,3,1,3,0;2,3,1,3,1
+#### Text ####
+especially if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical, Expansion.Restatement.Specification
+____Arg1____
+247..328
+2,0;2,1;2,2;2,3,0;2,3,1,0;2,3,1,1;2,3,1,2;2,4
+#### Text ####
+But in the end his resignation as Chancellor of the Exchequer may be a good thing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+344..497
+2,3,1,3,2
+#### Text ####
+it works as he no doubt intends -- by forcing Prime Minister Thatcher and her counterparts elsewhere to confront the genuine intellectual issues involved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+570
+4
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+501..516;528..568
+3,0;3,2;3,3
+#### Text ####
+The early omens scarcely suggest so wholesome an outcome
+##############
+#### Features ####
+Wr, Ftv, Null, Null
+518..526
+3,1
+#### Text ####
+we admit
+##############
+____Arg2____
+570..669
+4
+#### Text ####
+The Fleet Street reaction was captured in the Guardian headline, "Departure Reveals Thatcher Poison
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+672
+5
+____Arg1____
+570..669
+4
+#### Text ####
+The Fleet Street reaction was captured in the Guardian headline, "Departure Reveals Thatcher Poison
+##############
+____Arg2____
+672..793
+5
+#### Text ####
+British politicians divide into two groups of chickens, those with their necks cut and those screaming the sky is falling
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+795
+6
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+672..793
+5
+#### Text ####
+British politicians divide into two groups of chickens, those with their necks cut and those screaming the sky is falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+795..1042
+6
+#### Text ####
+So far as we can see only two persons are behaving with a dignity recognizing the seriousness of the issues: Mr. Lawson and Sir Alan Walters, the counterpoint of the Chancellor's difficulties, who also resigned as personal adviser to Mrs. Thatcher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+992..996
+6,2,1,3,2,4,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+28..80
+0,1,1,1,1,1,1
+#### Text ####
+Nigel Lawson's departure from the British government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+988..991;997..1042
+6,2,1,3,2,4,0;6,2,1,3,2,4,1,0;6,2,1,3,2,4,1,2
+#### Text ####
+who resigned as personal adviser to Mrs. Thatcher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1208
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1046..1206
+7
+#### Text ####
+The problem is that on the vital issue of monetary policy and exchange rates, conservative, free-market economists divide into at least three incompatible camps
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1208..1366
+8
+#### Text ####
+There are the strict monetarists, who believe that floating exchange rates free an economy to stabilize its price level by stabilizing the monetary aggregates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1368
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1208..1366
+8
+#### Text ####
+There are the strict monetarists, who believe that floating exchange rates free an economy to stabilize its price level by stabilizing the monetary aggregates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1368..1489
+9
+#### Text ####
+There are the supply-side globalists, who seek to spread the advantages of a common currency through fixed exchange rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1491..1494
+10,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1368..1489
+9
+#### Text ####
+There are the supply-side globalists, who seek to spread the advantages of a common currency through fixed exchange rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1495..1590
+10,1;10,2;10,3
+#### Text ####
+there are the twin-deficit Keynesians, who predict/advocate devaluations to balance trade flows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+1592
+11
+____Arg1____
+1491..1590
+10
+#### Text ####
+And there are the twin-deficit Keynesians, who predict/advocate devaluations to balance trade flows
+##############
+____Arg2____
+1592..1773
+11
+#### Text ####
+This is a problem not only for Prime Minister Thatcher but for President Bush, as shown in the ongoing bickering over the dollar between the Federal Reserve and the Mulford Treasury
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1868
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Pragmatic cause.Justification, Contingency.Cause.Reason
+____Arg1____
+1777..1866
+12
+#### Text ####
+In the British case, Mr. Lawson is the closest thing in London to a supply-side globalist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1868..2066
+13
+#### Text ####
+He not only slashed marginal tax rates, initially sparking fresh growth in Britain, but he wanted to regulate monetary policy by targeting exchange rates, indeed joining the European Monetary System
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1952..1955
+13,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+1868..1950
+13,0
+#### Text ####
+He not only slashed marginal tax rates, initially sparking fresh growth in Britain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1956..2066
+13,3
+#### Text ####
+he wanted to regulate monetary policy by targeting exchange rates, indeed joining the European Monetary System
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2068
+14
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+1868..2066
+13
+#### Text ####
+He not only slashed marginal tax rates, initially sparking fresh growth in Britain, but he wanted to regulate monetary policy by targeting exchange rates, indeed joining the European Monetary System
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2068..2217
+14
+#### Text ####
+While no doubt agreeing with Mr. Lawson on everything else, Sir Alan is a dyed-in-the-wool monetarist, inclined to defend floating rates to the death
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2068..2073
+14,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+2128..2217
+14,1;14,2;14,3;14,4
+#### Text ####
+Sir Alan is a dyed-in-the-wool monetarist, inclined to defend floating rates to the death
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2074..2126
+14,0,1
+#### Text ####
+no doubt agreeing with Mr. Lawson on everything else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2415
+16
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2297..2413
+15,3,1,1
+#### Text ####
+that Mr. Lawson's tax cuts would have profound effects on Britain's international accounts and the value of sterling
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+2258..2296
+15,1;15,2;15,3,0;15,3,1,0;15,4
+#### Text ####
+the earlier U.S. experience made clear
+##############
+____Arg2____
+2415..2547
+16
+#### Text ####
+They increased the after-tax rate of return and made Britain a far more attractive place to invest, producing sudden capital inflows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2576..2595
+17,2;17,3,0;17,3,1,1,0;17,3,1,1,1,0
+#### Text ####
+this had to produce
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+2415..2547
+16
+#### Text ####
+They increased the after-tax rate of return and made Britain a far more attractive place to invest, producing sudden capital inflows
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2549..2618
+17
+#### Text ####
+By accounting definitions, this had to produce a sudden trade deficit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2639..2643
+18,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2549..2618
+17
+#### Text ####
+By accounting definitions, this had to produce a sudden trade deficit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2620..2638;2644..2759
+18,0;18,1;18,2;18,4;18,5
+#### Text ####
+As in the U.S., it produced a sudden burst in the demand for sterling, that is a surge in the sterling monetary aggregates, M-Whatever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2904
+20
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+2763..2902
+19
+#### Text ####
+At this point, the options were: Crunch money to stop the boost in the aggregates, as Sir Alan surely advised, and forget the soaring pound
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2904..3016
+20
+#### Text ####
+To push the pound even lower trying to cure the trade deficit, a policy Britain has repeatedly proved disastrous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3262..3268
+22,3,3,1,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+3195..3259
+22,0;22,1;22,2;22,3,0;22,3,1;22,3,2;22,4
+#### Text ####
+Faced with a similar situation, Paul Volcker let the dollar soar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3269..3366
+22,3,3,1,1
+#### Text ####
+monetary aggregates also grew so rapidly monetarists issued egg-on-the-face warnings of inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3289..3293
+22,3,3,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3195..3259
+22,0;22,1;22,2;22,3,0;22,3,1;22,3,2;22,4
+#### Text ####
+Faced with a similar situation, Paul Volcker let the dollar soar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3262..3288;3294..3366
+22,3,3,0;22,3,3,1,0;22,3,3,1,1,0;22,3,3,1,1,2;22,3,3,2
+#### Text ####
+though monetary aggregates grew so rapidly monetarists issued egg-on-the-face warnings of inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3369..3372
+23,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Contingency.Cause.Result
+____Sup1____
+3262..3366
+22,3,3
+#### Text ####
+though monetary aggregates also grew so rapidly monetarists issued egg-on-the-face warnings of inflation
+##############
+____Arg1____
+3195..3259
+22,0;22,1;22,2;22,3,0;22,3,1;22,3,2;22,4
+#### Text ####
+Faced with a similar situation, Paul Volcker let the dollar soar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3373..3418
+23,1;23,2,0;23,2,1;23,2,2;23,3
+#### Text ####
+this devastated the U.S. manufacturing sector
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3420..3453
+23,2,3
+#### Text ####
+laying the seeds of protectionism
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3455
+24
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3369..3453
+23
+#### Text ####
+But this devastated the U.S. manufacturing sector, laying the seeds of protectionism
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3455..3538
+24
+#### Text ####
+Mr. Lawson, though not allowed to join the EMS, chose to "shadow" the deutsche mark
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3467..3473
+24,2,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+3455..3465;3503..3538
+24,0;24,1;24,3;24,4;24,5
+#### Text ####
+Mr. Lawson chose to "shadow" the deutsche mark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3474..3501
+24,2,1
+#### Text ####
+not allowed to join the EMS
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3540
+25
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+3455..3538
+24
+#### Text ####
+Mr. Lawson, though not allowed to join the EMS, chose to "shadow" the deutsche mark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3540..3656
+25
+#### Text ####
+He reaped inflation along with rapid growth, no doubt validating Sir Alan's predictions in the Prime Minister's mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3658..3661
+26,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3540..3656
+25
+#### Text ####
+He reaped inflation along with rapid growth, no doubt validating Sir Alan's predictions in the Prime Minister's mind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3662..3822
+26,1;26,2;26,3;26,4;26,5
+#### Text ####
+more recently, the pound has been falling with high inflation, which has also seemed almost impervious to the high interest rates Mr. Lawson deployed to stop it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3735..3739
+26,4,1,1,1,1,2,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3658..3723
+26,0;26,1;26,2;26,3;26,4,0;26,4,1,0;26,4,1,1,0;26,4,1,1,1,0;26,4,1,1,1,1,0;26,4,1,1,1,1,1;26,5
+#### Text ####
+But more recently, the pound has been falling with high inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3725..3734;3740..3822
+26,4,1,1,1,1,2,0;26,4,1,1,1,1,2,1,0;26,4,1,1,1,1,2,1,1,0;26,4,1,1,1,1,2,1,1,2
+#### Text ####
+which has seemed almost impervious to the high interest rates Mr. Lawson deployed to stop it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3826..3828
+27,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3658..3822
+26
+#### Text ####
+But more recently, the pound has been falling with high inflation, which has also seemed almost impervious to the high interest rates Mr. Lawson deployed to stop it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3829..3922
+27,1;27,2;27,3
+#### Text ####
+the British experience presents a genuine puzzle that reaches far beyond the shores of Albion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3924
+28
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+3826..3922
+27
+#### Text ####
+So the British experience presents a genuine puzzle that reaches far beyond the shores of Albion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3924..4097
+28
+#### Text ####
+We had been soliciting opinions on it long before Mr. Lawson's resignation, and offer some of the collection for the benefit of his successor and one-time deputy, John Major
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3962..3973
+28,1,0,1,1,2,0;28,1,0,1,1,2,1
+#### Text ####
+long before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3924..3961
+28,0;28,1,0,0;28,1,0,1,0;28,1,0,1,1,0;28,1,0,1,1,1;28,2
+#### Text ####
+We had been soliciting opinions on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3974..3998
+28,1,0,1,1,2,2;28,1,1
+#### Text ####
+Mr. Lawson's resignation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4099..4112
+29,0,1
+#### Text ####
+To begin with
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+3924..4097
+28
+#### Text ####
+We had been soliciting opinions on it long before Mr. Lawson's resignation, and offer some of the collection for the benefit of his successor and one-time deputy, John Major
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4099..4216
+29
+#### Text ####
+To begin with, we should note that in contrast to the U.S. deficit, Britain has been running largish budget surpluses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4218
+30
+____Arg1____
+4099..4216
+29
+#### Text ####
+To begin with, we should note that in contrast to the U.S. deficit, Britain has been running largish budget surpluses
+##############
+____Arg2____
+4218..4301
+30
+#### Text ####
+In pursuit of this mystery, Keynesian adepts and twin-deficit mavens need not apply
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4315..4319
+31,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4099..4216
+29
+#### Text ####
+To begin with, we should note that in contrast to the U.S. deficit, Britain has been running largish budget surpluses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4305..4314;4320..4373
+31,0;31,1,0;31,1,2;31,2
+#### Text ####
+We should add Mr. Lawson's own explanation, as we understand it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4375
+32
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4305..4373
+31
+#### Text ####
+We should also add Mr. Lawson's own explanation, as we understand it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4375..4455
+32
+#### Text ####
+Unlike the U.S., Britain never achieved even a momentary reduction in real wages
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4457
+33
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4375..4455
+32
+#### Text ####
+Unlike the U.S., Britain never achieved even a momentary reduction in real wages
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4457..4590
+33
+#### Text ####
+The wage stickiness, which OECD studies confirm is particularly high in Britain, gives its economy a structural bias toward inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4592
+34
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4375..4590
+32;33
+#### Text ####
+Unlike the U.S., Britain never achieved even a momentary reduction in real wages.
+The wage stickiness, which OECD studies confirm is particularly high in Britain, gives its economy a structural bias toward inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4592..4642
+34
+#### Text ####
+Inflation is easier to spark and harder to control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4656..4660
+35,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4305..4373
+31
+#### Text ####
+We should also add Mr. Lawson's own explanation, as we understand it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4646..4655;4661..4783
+35,0;35,1,0;35,1,2;35,2
+#### Text ####
+We should concede that in the British experience the monetarist cause regains some of the credibility it lost in the U.S. experience
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+4785
+36
+____Arg1____
+4646..4783
+35
+#### Text ####
+We should also concede that in the British experience the monetarist cause regains some of the credibility it lost in the U.S. experience
+##############
+____Arg2____
+4785..4897
+36
+#### Text ####
+Nearby Paul Craig Roberts, a distinguished supply-sider with monetarist sympathies, argues the case for Sir Alan
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+4899
+37
+____Arg1____
+4785..4897
+36
+#### Text ####
+Nearby Paul Craig Roberts, a distinguished supply-sider with monetarist sympathies, argues the case for Sir Alan
+##############
+____Arg2____
+4899..5095
+37
+#### Text ####
+Perhaps the fiscal shock of tax cuts is after all best absorbed by floating rates, though of course in the event Mr. Lawson resigned over whether to support a weak pound, not restrain a strong one
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4982..4988
+37,2,2,5,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+4899..4980
+37,0;37,1;37,2,0;37,2,1;37,2,2,0;37,2,2,1;37,2,2,2;37,2,2,3;37,2,2,4;37,3
+#### Text ####
+Perhaps the fiscal shock of tax cuts is after all best absorbed by floating rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4989..5095
+37,2,2,5,1
+#### Text ####
+of course in the event Mr. Lawson resigned over whether to support a weak pound, not restrain a strong one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5107
+38
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+4899..5095
+37
+#### Text ####
+Perhaps the fiscal shock of tax cuts is after all best absorbed by floating rates, though of course in the event Mr. Lawson resigned over whether to support a weak pound, not restrain a strong one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5107..5306
+38,1,1
+#### Text ####
+that Mr. Roberts not only chides the Chancellor for being too easy because of a desire to constrain sterling, but also led the chorus saying that Mr. Volcker was too tight when he let the dollar rise
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+5097..5106
+38,0;38,1,0;38,2
+#### Text ####
+We recall
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5221..5225
+38,1,1,1,1,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5107..5215
+38,1,1,0;38,1,1,1,0;38,1,1,1,1,0;38,1,1,1,1,1;38,1,1,1,1,2
+#### Text ####
+that Mr. Roberts not only chides the Chancellor for being too easy because of a desire to constrain sterling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5217..5220;5226..5306
+38,1,1,1,1,3,0;38,1,1,1,1,4
+#### Text ####
+but led the chorus saying that Mr. Volcker was too tight when he let the dollar rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5279..5283
+38,1,1,1,1,4,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5241..5247
+38,1,1,1,1,4,1,1,0
+#### Text ####
+saying
+##############
+when, Temporal.Synchrony
+____Arg1____
+5248..5278
+38,1,1,1,1,4,1,1,1,0;38,1,1,1,1,4,1,1,1,1,0;38,1,1,1,1,4,1,1,1,1,1,0;38,1,1,1,1,4,1,1,1,1,1,1
+#### Text ####
+that Mr. Volcker was too tight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5284..5306
+38,1,1,1,1,4,1,1,1,1,1,2,1
+#### Text ####
+he let the dollar rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5308
+39
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+5107..5306
+38,1,1
+#### Text ####
+that Mr. Roberts not only chides the Chancellor for being too easy because of a desire to constrain sterling, but also led the chorus saying that Mr. Volcker was too tight when he let the dollar rise
+##############
+#### Features ####
+Wr, Ftv, Null, Null
+5097..5106
+38,0;38,1,0;38,2
+#### Text ####
+We recall
+##############
+____Arg2____
+5308..5437
+39
+#### Text ####
+Somewhere in between there must be a golden mean, perhaps measured by M-Whatever, but perhaps measured by purchasing power parity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5566..5577
+41,0,2,2,1
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5441..5505
+40
+#### Text ####
+The globalists tend to think Mr. Lawson ran onto technical reefs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5507..5564;5579..5624
+41,0,0;41,0,1;41,0,2,0;41,0,2,1;41,0,2,2,0;41,0,2,2,2;41,1;41,2;41,3
+#### Text ####
+In fixing rates the choice of initial parities is crucial and perhaps he picked the wrong pound-DM rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5579..5582
+41,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5507..5577
+41,0
+#### Text ####
+In fixing rates the choice of initial parities is crucial, for example
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5583..5624
+41,2
+#### Text ####
+perhaps he picked the wrong pound-DM rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5626
+42
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+5507..5624
+41
+#### Text ####
+In fixing rates the choice of initial parities is crucial, for example, and perhaps he picked the wrong pound-DM rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5626..5681
+42
+#### Text ####
+For that matter, perhaps he fixed to the wrong currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5683
+43
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+5626..5681
+42
+#### Text ####
+For that matter, perhaps he fixed to the wrong currency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5683..5818
+43
+#### Text ####
+We sympathize with Mrs. Thatcher's reluctance to tie her currency to one governed by the domestic political imperatives of West Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5820
+44
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+5683..5818
+43
+#### Text ####
+We sympathize with Mrs. Thatcher's reluctance to tie her currency to one governed by the domestic political imperatives of West Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5820..5927
+44
+#### Text ####
+Perhaps the shock would have been less if they'd fixed to another low-tax, deregulated, supply-side economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5859..5861
+44,2,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal past
+____Arg1____
+5820..5858
+44,0;44,1;44,2,0;44,2,1,0;44,2,1,1,0;44,2,1,1,1;44,3
+#### Text ####
+Perhaps the shock would have been less
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5862..5927
+44,2,1,1,2,1
+#### Text ####
+they'd fixed to another low-tax, deregulated, supply-side economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6118
+46
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5980..6044
+45,1,1,2
+#### Text ####
+that the unrecognized inflationary culprit is the budget surplus
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5931..5979
+45,0;45,1,0;45,1,1,0;45,1,1,1;45,2
+#### Text ####
+Alan Reynolds of Polyconomics adds his suspicion
+##############
+____Arg2____
+6118..6210
+46,1,1,1
+#### Text ####
+that the retirement of gilts for cash is equivalent to an expansionary open-market operation
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+6046..6117
+46,0;46,1,0;46,1,1,0;46,1,1,2;46,2
+#### Text ####
+Those who can shake Keynesian ghosts out of their heads might recognize
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6212..6218
+46,1,1,3,0
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+6118..6210
+46,1,1,1
+#### Text ####
+that the retirement of gilts for cash is equivalent to an expansionary open-market operation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6220..6295
+46,1,1,3,1;46,1,1,3,2;46,1,1,3,3
+#### Text ####
+it is the definition of an open market operation to expand the money supply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6310..6314
+47,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5931..6044
+45
+#### Text ####
+Alan Reynolds of Polyconomics adds his suspicion that the unrecognized inflationary culprit is the budget surplus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6297..6309;6315..6453
+47,0;47,2;47,3
+#### Text ####
+Mr. Reynolds notes that since British banks have no reserve requirements, high interest rates are less likely to curb inflation than to cause recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6326..6331
+47,2,1,1,0,0
+#### Text ####
+since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6297..6309;6315..6320
+47,0;47,2,0;47,3
+#### Text ####
+Mr. Reynolds notes
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+6321..6325;6376..6453
+47,2,1,0;47,2,1,1,1;47,2,1,1,2;47,2,1,1,3
+#### Text ####
+that high interest rates are less likely to curb inflation than to cause recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6332..6374
+47,2,1,1,0,1
+#### Text ####
+British banks have no reserve requirements
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6581..6591
+49,0
+#### Text ####
+In the end
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Conjunction
+____Arg1____
+6531..6579
+48,1,1,1,1,3,1,1,1
+#### Text ####
+to decide between the Chancellor and her adviser
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6593..6620
+49,2
+#### Text ####
+neither policy was followed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6622..6625
+49,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6581..6620
+49,0;49,1;49,2;49,3
+#### Text ####
+In the end, neither policy was followed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6626..6681
+49,5
+#### Text ####
+instead of learning anything we are left with a mystery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6683..6696
+50,0,0
+#### Text ####
+In particular
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+6581..6681
+49
+#### Text ####
+In the end, neither policy was followed, and instead of learning anything we are left with a mystery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6699..6820
+50,0,1;50,0,2;50,0,3;50,1;50,2;50,3
+#### Text ####
+shadowing" a currency is anything but fixing; it is an open announcement that the exchange rate target has no credibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6745
+50
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+6683..6743
+50,0
+#### Text ####
+In particular, "shadowing" a currency is anything but fixing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6745..6820
+50,2
+#### Text ####
+it is an open announcement that the exchange rate target has no credibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+6822..6842
+51,0,1;51,0,2;51,0,3;51,1,0
+#### Text ####
+All the more so when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Specification
+____Arg1____
+6745..6820
+50,2
+#### Text ####
+it is an open announcement that the exchange rate target has no credibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6822..6886
+51
+#### Text ####
+All the more so when strong voices are heard opposing the policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6838..6842
+51,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+6822..6837
+51,0;51,2
+#### Text ####
+All the more so
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6843..6886
+51,1,1
+#### Text ####
+strong voices are heard opposing the policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6888
+52
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+6822..6886
+51
+#### Text ####
+All the more so when strong voices are heard opposing the policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6888..6952
+52
+#### Text ####
+Better to have a true monetarist policy, just for the experience
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6956..6958
+53,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+6683..6952
+50;51;52
+#### Text ####
+In particular, "shadowing" a currency is anything but fixing; it is an open announcement that the exchange rate target has no credibility.
+All the more so when strong voices are heard opposing the policy.
+Better to have a true monetarist policy, just for the experience
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6959..6983
+53,1;53,2;53,3
+#### Text ####
+Mr. Lawson had to resign
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6985..6995
+54,0
+#### Text ####
+In the end
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Restatement.Specification
+____Arg1____
+6956..6983
+53
+#### Text ####
+So Mr. Lawson had to resign
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6996..7134
+54,1;54,2;54,3
+#### Text ####
+his move was sparked by remarks in excerpts from Sir Alan's autobiography in The American Economist, a 10,000-circulation academic journal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7136..7139
+55,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+6985..7134
+54
+#### Text ####
+In the end his move was sparked by remarks in excerpts from Sir Alan's autobiography in The American Economist, a 10,000-circulation academic journal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7140..7195
+55,1;55,2;55,3
+#### Text ####
+it was the underlying situation that became intolerable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7264
+57
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7199..7262
+56
+#### Text ####
+What Mr. Major and Mrs. Thatcher will do now remains to be seen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7264..7347
+57
+#### Text ####
+They confront stubborn inflation and a sagging economy, that is to say, stagflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7349
+58
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+7264..7347
+57
+#### Text ####
+They confront stubborn inflation and a sagging economy, that is to say, stagflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7349..7402
+58,0
+#### Text ####
+This cannot be solved by provoking a further downturn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7404
+58
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7349..7402
+58,0
+#### Text ####
+This cannot be solved by provoking a further downturn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7404..7457
+58,2
+#### Text ####
+reducing the supply of goods does not solve inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7459
+59
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+instead, Expansion.Alternative, Expansion.Alternative.Chosen alternative
+____Arg1____
+7349..7457
+58
+#### Text ####
+This cannot be solved by provoking a further downturn; reducing the supply of goods does not solve inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7459..7660
+59,0;59,1,0;59,1,1,0;59,1,1,1;59,1,1,2,0;59,1,1,2,1,0;59,1,1,2,1,1;59,1,1,2,1,2;59,1,1,2,1,3,0;59,1,1,2,1,3,1,0;59,1,1,2,1,3,1,1,0;59,1,1,2,1,3,1,1,1,0;59,1,1,2,1,3,1,1,1,1;59,2
+#### Text ####
+Our advice is this: Immediately return the government surpluses to the economy through incentive-maximizing tax cuts, and find some monetary policy target that balances both supply and demand for money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7715
+60
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+7662..7712
+59,1,1,2,1,3,1,1,1,2
+#### Text ####
+which neither aggregates nor interest rates can do
+##############
+____Arg1____
+7479..7660
+59,1,1,2,0;59,1,1,2,1,0;59,1,1,2,1,1;59,1,1,2,1,2;59,1,1,2,1,3,0;59,1,1,2,1,3,1,0;59,1,1,2,1,3,1,1,0;59,1,1,2,1,3,1,1,1,0;59,1,1,2,1,3,1,1,1,1
+#### Text ####
+Immediately return the government surpluses to the economy through incentive-maximizing tax cuts, and find some monetary policy target that balances both supply and demand for money
+##############
+#### Features ####
+Wr, Ctrl, Null, Null
+7459..7477
+59,0;59,1,0;59,1,1,0;59,1,1,1;59,2
+#### Text ####
+Our advice is this
+##############
+____Arg2____
+7715..7901
+60
+#### Text ####
+This was the version of supply-side economics that, in the late 1970s and early '80s, worked in America and world-wide to solve a far more serious stagflation than afflicts Britain today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

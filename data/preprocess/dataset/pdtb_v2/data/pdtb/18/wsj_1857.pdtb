@@ -1,0 +1,972 @@
+________________________________________________________
+____Explicit____
+235..240
+1,1,1,1,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+210..234
+1,1,1,1,1,0;1,1,1,1,1,1,0;1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1
+#### Text ####
+than what insurers faced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+241..313
+1,1,1,1,1,1,1,1,2,1
+#### Text ####
+Hurricane Hugo ripped through the Caribbean and the Carolinas last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+315
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+129..313
+1
+#### Text ####
+Getting a grip on the extent of the damages is proving a far more difficult task than what insurers faced after Hurricane Hugo ripped through the Caribbean and the Carolinas last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+315..445
+2,0
+#### Text ####
+The earthquake's toll, including possible deep structural damage, goes far beyond the more easily observed damage from a hurricane
+##############
+#### Features ####
+Ot, Comm, Null, Null
+447..541
+2,1;2,2;2,3;2,4
+#### Text ####
+says George Reider, a vice president in Aetna Life & Casualty Insurance Co. 's claims division
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+545..548
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+315..541
+2
+#### Text ####
+The earthquake's toll, including possible deep structural damage, goes far beyond the more easily observed damage from a hurricane, says George Reider, a vice president in Aetna Life & Casualty Insurance Co. 's claims division
+##############
+____Arg1____
+129..313
+1
+#### Text ####
+Getting a grip on the extent of the damages is proving a far more difficult task than what insurers faced after Hurricane Hugo ripped through the Caribbean and the Carolinas last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+549..758
+3,1;3,2;3,3
+#### Text ####
+investors are betting that the financial and psychological impact of the earthquake, coming so soon after the hurricane, will help stem more than two years of intense price-cutting wars among business insurers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+760..781
+4,0,1
+#### Text ####
+Reflecting that logic
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+545..758
+3
+#### Text ####
+But investors are betting that the financial and psychological impact of the earthquake, coming so soon after the hurricane, will help stem more than two years of intense price-cutting wars among business insurers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+760..827
+4
+#### Text ####
+Reflecting that logic, insurance-company stocks posted strong gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+931
+6
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+831..929
+5
+#### Text ####
+Aetna and other insurers are hiring engineers and architects to help them assess structural damage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+931..1068
+6
+#### Text ####
+Most insurers already have mobilized their "catastrophe" teams to begin processing claims from their policyholders in northern California
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1072..1077
+7,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Sup1____
+1123..1146
+7,2,1;7,2,2
+#### Text ####
+based in Hartford, Conn
+##############
+____Arg1____
+1116..1122;1149..1262
+7,1;7,2,0;7,2,2,2,1,3;7,3;7,4
+#### Text ####
+Aetna, chartered three planes to fly claims adjusters into Sacramento and then planned for them to drive to the Bay area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1078..1114
+7,0,1
+#### Text ####
+commercial air travel is interrupted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1216..1220
+7,3,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+1123..1146
+7,2,1;7,2,2
+#### Text ####
+based in Hartford, Conn
+##############
+____Arg1____
+1116..1121;1149..1211
+7,1;7,2,0;7,2,2,2,1,3;7,3,0
+#### Text ####
+Aetna chartered three planes to fly claims adjusters into Sacramento
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1212..1215;1221..1262
+7,3,1;7,3,3;7,4
+#### Text ####
+and planned for them to drive to the Bay area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1264
+8
+____Arg1____
+1072..1262
+7
+#### Text ####
+Since commercial air travel is interrupted, Aetna, based in Hartford, Conn., chartered three planes to fly claims adjusters into Sacramento and then planned for them to drive to the Bay area
+##############
+____Arg2____
+1264..1381
+8
+#### Text ####
+About 25 adjusters were dispatched yesterday afternoon, along with laptop computers, cellular phones and blank checks
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2283
+14
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Specification
+____Arg1____
+2092..2265
+13
+#### Text ####
+Earthquake insurance is sold as a separate policy or a specific endorsement "rider" on a homeowner's policy in California, because of the area's vulnerability to earthquakes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2283..2368
+14,1,1
+#### Text ####
+about 25% of its policyholders in California have also purchased earthquake insurance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2267..2282
+14,0;14,1,0;14,2
+#### Text ####
+State Farm said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2431
+15
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2283..2368
+14,1,1
+#### Text ####
+about 25% of its policyholders in California have also purchased earthquake insurance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2267..2282
+14,0;14,1,0;14,2
+#### Text ####
+State Farm said
+##############
+____Arg2____
+2431..2550
+15,1,1
+#### Text ####
+about 23% of its personal property policyholders -- about 28% in the San Franciso area -- also have earthquake coverage
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2370..2430
+15,0;15,1,0;15,2
+#### Text ####
+Allstate Insurance Co., a unit of Sears, Roebuck & Co., said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2521..2525
+15,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2370..2430
+15,0;15,1,0;15,2
+#### Text ####
+Allstate Insurance Co., a unit of Sears, Roebuck & Co., said
+##############
+also, Expansion.Conjunction
+____Arg1____
+2283..2368
+14,1,1
+#### Text ####
+about 25% of its policyholders in California have also purchased earthquake insurance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2267..2282
+14,0;14,1,0;14,2
+#### Text ####
+State Farm said
+##############
+____Arg2____
+2431..2517;2526..2550
+15,1,1,0;15,1,1,1,0;15,1,1,1,2
+#### Text ####
+about 23% of its personal property policyholders -- about 28% in the San Franciso area have earthquake coverage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2671..2674
+16,0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2614..2669
+16,0,0,1,1
+#### Text ####
+damage to residential property could total $500 million
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2554..2613
+16,0,0,0;16,0,0,1,0
+#### Text ####
+The Association of California Insurance Companies estimated
+##############
+____Arg2____
+2675..2719
+16,0,3
+#### Text ####
+only $100 million to $150 million is insured
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2721..2728
+16,1;16,2;16,3;16,4
+#### Text ####
+it said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2947
+18
+____Arg1____
+2732..2945
+17
+#### Text ####
+Officials from the American Insurance Association's property-claim service division, which coordinates the efforts of the claims adjusters in an area after a natural disaster, will be flying to San Francisco today
+##############
+____Arg2____
+2947..3020
+18
+#### Text ####
+They expect to have a preliminary estimate of the damages in a day or two
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3114
+20
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+3024..3112
+19
+#### Text ####
+Roads and bridges in the Bay area appear to have suffered some of the most costly damage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3114..3122;3189..3228
+20,0,0;20,0,1;20,0,3;20,1;20,2;20,3
+#### Text ####
+Highways generally don't have insurance coverage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3322..3328
+21,1,1,1,0,1,3
+#### Text ####
+either
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+3114..3122;3189..3228
+20,0,0;20,0,1;20,0,3;20,1;20,2;20,3
+#### Text ####
+Highways generally don't have insurance coverage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3253..3267;3294..3328
+21,1,1,1,0,0,0;21,1,1,1,0,0,1,0;21,1,1,1,0,0,1,2;21,1,1,1,0,1
+#### Text ####
+the Bay Bridge has no earthquake coverage, either
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3230..3252
+21,0;21,1,0;21,2
+#### Text ####
+Industry officials say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3330..3332
+21,1,1,1,2
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3230..3252
+21,0;21,1,0;21,2
+#### Text ####
+Industry officials say
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3253..3328
+21,1,1,1,0
+#### Text ####
+the Bay Bridge -- unlike some bridges -- has no earthquake coverage, either
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3333..3425
+21,1,1,1,3
+#### Text ####
+the cost of repairing it probably would have to be paid out of state general operating funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3429..3436
+22,0
+#### Text ####
+However
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3230..3252
+21,0;21,1,0;21,2
+#### Text ####
+Industry officials say
+##############
+however, Comparison.Contrast.Juxtaposition
+____Sup1____
+3330..3425
+21,1,1,1,1;21,1,1,1,2;21,1,1,1,3
+#### Text ####
+so the cost of repairing it probably would have to be paid out of state general operating funds
+##############
+____Arg1____
+3253..3328
+21,1,1,1,0
+#### Text ####
+the Bay Bridge -- unlike some bridges -- has no earthquake coverage, either
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3438..3448;3484..3615
+22,1;22,2,0;22,2,1;22,2,3;22,3;22,4
+#### Text ####
+the bridge does have "loss of income" insurance to replace lost revenue if the operation of the bridge is interrupted for more than seven days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3450..3482
+22,2,2
+#### Text ####
+which charges a $1 toll each way
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3545..3547
+22,3,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3521..3544
+22,3,1,1,1,0;22,3,1,1,1,1,0;22,3,1,1,1,1,1,0;22,3,1,1,1,1,1,1,0;22,3,1,1,1,1,1,1,1
+#### Text ####
+to replace lost revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3548..3615
+22,3,1,1,1,1,1,1,2,1
+#### Text ####
+the operation of the bridge is interrupted for more than seven days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3617
+23
+____Arg1____
+3429..3615
+22
+#### Text ####
+However, the bridge, which charges a $1 toll each way, does have "loss of income" insurance to replace lost revenue if the operation of the bridge is interrupted for more than seven days
+##############
+____Arg2____
+3617..3776
+23
+#### Text ####
+That coverage is provided by a syndicate of insurance companies including Fireman's Fund Corp., based in Novato, Calif., and Cigna Corp., based in Philadelphia
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3901..3908
+25,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+3822..3899
+24,1,2,1
+#### Text ####
+to cause significant financial problems for the insurance industry as a whole
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+3780..3821
+24,0;24,1,0;24,1,1;24,1,2,0;24,2
+#### Text ####
+Earthquake-related claims aren't expected
+##############
+____Arg2____
+3992..4083
+25,5,1
+#### Text ####
+the total capital of the industry is likely to be higher at year end than it was at midyear
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3910..3991
+25,1;25,2;25,3;25,4;25,5,0;25,6
+#### Text ####
+even with the liabilities of two natural disasters in recent weeks, analysts said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4087..4093
+26,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+3901..3976;3992..4083
+25,0;25,1;25,2;25,3;25,5,1;25,6
+#### Text ####
+Instead, even with the liabilities of two natural disasters in recent weeks the total capital of the industry is likely to be higher at year end than it was at midyear
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3978..3991
+25,1;25,3;25,4;25,5,0;25,6
+#### Text ####
+analysts said
+##############
+____Arg2____
+4095..4185
+26,1;26,2;26,3;26,4
+#### Text ####
+the earthquake could contribute to a turnaround in the insurance cycle in a couple of ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4187..4198
+27,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4087..4185
+26
+#### Text ####
+Indeed, the earthquake could contribute to a turnaround in the insurance cycle in a couple of ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4200..4534
+27,1;27,2;27,3;27,4;28
+#### Text ####
+insurers may seek to limit their future exposure to catastrophes by increasing the amount of reinsurance they buy.
+Such increased demand for reinsurance, along with the losses the reinsurers will bear from these two disasters, are likely to spur increases in reinsurance prices that will later be translated into an overall price rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4315
+28
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4187..4313
+27
+#### Text ####
+For example, insurers may seek to limit their future exposure to catastrophes by increasing the amount of reinsurance they buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4315..4534
+28
+#### Text ####
+Such increased demand for reinsurance, along with the losses the reinsurers will bear from these two disasters, are likely to spur increases in reinsurance prices that will later be translated into an overall price rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4488..4493
+28,4,1,1,1,1,1,2,1,1,1
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+4315..4477
+28,0;28,1;28,2;28,3;28,4,0;28,4,1,0;28,4,1,1,0;28,4,1,1,1,0;28,4,1,1,1,1,0;28,4,1,1,1,1,1,0;28,4,1,1,1,1,1,1;28,5
+#### Text ####
+Such increased demand for reinsurance, along with the losses the reinsurers will bear from these two disasters, are likely to spur increases in reinsurance prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4478..4487;4494..4534
+28,4,1,1,1,1,1,2,0;28,4,1,1,1,1,1,2,1,0;28,4,1,1,1,1,1,2,1,1,0;28,4,1,1,1,1,1,2,1,1,2
+#### Text ####
+that will be translated into an overall price rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4536
+29
+____Arg1____
+4315..4534
+28
+#### Text ####
+Such increased demand for reinsurance, along with the losses the reinsurers will bear from these two disasters, are likely to spur increases in reinsurance prices that will later be translated into an overall price rise
+##############
+____Arg2____
+4536..4605
+29
+#### Text ####
+Reinsurance is protection taken out by the insurance firms themselves
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4835
+31
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+4652..4720
+30,1,1,1,1,1,2
+#### Text ####
+this is the event that will change the psychology of the marketplace
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4723..4833
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+said William Yankus, an analyst with Conning & Co., a Hartford firm that specializes in the insurance industry
+##############
+____Arg2____
+4835..4927
+31
+#### Text ####
+His firm, along with some others, issued new buy recommendations on insurer stocks yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5149..5154
+33,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Sup1____
+3901..4083
+25
+#### Text ####
+Instead, even with the liabilities of two natural disasters in recent weeks, analysts said the total capital of the industry is likely to be higher at year end than it was at midyear
+##############
+____Arg1____
+3780..3899
+24
+#### Text ####
+Earthquake-related claims aren't expected to cause significant financial problems for the insurance industry as a whole
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5156..5229
+33,1;33,2;33,3;33,4
+#### Text ####
+a few individual companies, most likely smaller ones, could be devastated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5240
+34
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+5149..5229
+33
+#### Text ####
+Still, a few individual companies, most likely smaller ones, could be devastated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5240..5311
+34,1,1,1
+#### Text ####
+there is a damned good chance someone is going to hit the skids on this
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5232..5239
+34,1,0;34,1,1,0
+#### Text ####
+I think
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5372
+35
+#### Features ####
+Ot, Comm, Null, Null
+5314..5358
+34,0;34,2;34,3;34,4;34,5;34,6
+#### Text ####
+said Oppenheimer & Co. analyst Myron Picoult
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+5240..5311
+34,1,1,1
+#### Text ####
+there is a damned good chance someone is going to hit the skids on this
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5232..5239
+34,1,0;34,1,1,0
+#### Text ####
+I think
+##############
+____Arg2____
+5372..5516
+35,1,1
+#### Text ####
+some insurers who had purchased reinsurance to limit their exposure to catastrophes will discover that reinsurance was used up by Hurricane Hugo
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5360..5371
+35,0;35,1,0;35,2
+#### Text ####
+He suspects
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5654
+37
+____Arg1____
+5520..5652
+36
+#### Text ####
+British, West German, Scandinavian and other overseas insurers are bracing for big claims from the San Francisco earthquake disaster
+##############
+____Arg2____
+5654..5817
+37
+#### Text ####
+Although it's unclear how much exposure the London market will face, U.K. underwriters traditionally have a large reinsurance exposure to U.S. catastrophe coverage
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5654..5662
+37,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+5723..5817
+37,1;37,2;37,3;37,4;37,5
+#### Text ####
+U.K. underwriters traditionally have a large reinsurance exposure to U.S. catastrophe coverage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5663..5721
+37,0,1
+#### Text ####
+it's unclear how much exposure the London market will face
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5819
+38
+____Arg1____
+5654..5817
+37
+#### Text ####
+Although it's unclear how much exposure the London market will face, U.K. underwriters traditionally have a large reinsurance exposure to U.S. catastrophe coverage
+##############
+____Arg2____
+5819..5951
+38
+#### Text ####
+Jack Byrne, chairman of Fireman's Fund, said this disaster will test the catastrophe reinsurance market, causing these rates to soar
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6204
+40
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+5955..6078
+39,0;39,1,0;39,1,1;39,1,2,0;39,1,2,1;39,1,2,2;39,1,2,3,0;39,1,2,3,1,0;39,1,2,3,1,1;39,2
+#### Text ####
+The catastrophe losses sustained by insurers this year will probably be the worst on an inflation-adjusted basis since 1906
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6204..6316
+40,1,1
+#### Text ####
+that the 1906 San Francisco destruction, on an inflation-adjusted basis, included insured losses of $5.8 billion
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+6144..6203
+40,0;40,1,0;40,2
+#### Text ####
+Orin Kramer, an insurance consultant in New York, estimates
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6335
+41
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+6204..6316
+40,1,1
+#### Text ####
+that the 1906 San Francisco destruction, on an inflation-adjusted basis, included insured losses of $5.8 billion
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+6144..6203
+40,0;40,1,0;40,2
+#### Text ####
+Orin Kramer, an insurance consultant in New York, estimates
+##############
+____Arg2____
+6335..6481
+41,1,1,1
+#### Text ####
+this week's disaster will generate insured losses of $2 billion to $4 billion, following about $4 billion in costs to insurers from Hurricane Hugo
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+6318..6334
+41,0;41,1,0;41,1,1,0;41,2
+#### Text ####
+He is estimating
+##############
+________________________________________________________

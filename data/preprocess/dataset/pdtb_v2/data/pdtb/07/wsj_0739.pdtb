@@ -1,0 +1,523 @@
+________________________________________________________
+____Implicit____
+315
+2
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+183..313
+1,1,1
+#### Text ####
+they managed to induce bacteria to produce a non-toxic version of the poisons produced by the bacterium that causes whooping cough
+##############
+#### Features ####
+Ot, Comm, Null, Null
+165..182
+1,0;1,1,0;1,2
+#### Text ####
+The team reported
+##############
+____Arg2____
+315..431
+2,0
+#### Text ####
+Laboratory tests showed that non-toxic versions of the poisons are capable of inducing an immunity to whooping cough
+##############
+#### Features ####
+Ot, Comm, Null, Null
+433..501
+2,1;2,2;2,3;2,4
+#### Text ####
+the researchers reported in this week's issue of the journal Science
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+661
+4
+____Arg1____
+505..659
+3
+#### Text ####
+The current vaccine for whooping cough, or pertussis, is part of the "DPT" (for diphtheria, pertussis, tetanus) shot given most infants and young children
+##############
+____Arg2____
+661..814
+4
+#### Text ####
+The vaccine is effective in preventing a disease that still afflicts about 60 million children a year world-wide, causing an estimated one million deaths
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+831..838
+5,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+661..814
+4
+#### Text ####
+The vaccine is effective in preventing a disease that still afflicts about 60 million children a year world-wide, causing an estimated one million deaths
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+818..829;840..883
+5,0;5,1;5,3;5,4;5,5
+#### Text ####
+The vaccine causes allergic reactions that can be fatal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+885..922
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1;6,1,1,1,2,0
+#### Text ####
+The reactions stem from the fact that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+818..883
+5
+#### Text ####
+The vaccine, however, causes allergic reactions that can be fatal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+885..1175
+6;7;8
+#### Text ####
+The reactions stem from the fact that the vaccine contains multiple copies of the whole Bordetella pertussis bacterium, which causes whooping cough.
+This bacterium produces a toxin that, if used as a vaccine, can induce immunity to whooping cough.
+Unfortunately, the toxin is also poisonous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1034
+7
+____Arg1____
+885..1032
+6
+#### Text ####
+The reactions stem from the fact that the vaccine contains multiple copies of the whole Bordetella pertussis bacterium, which causes whooping cough
+##############
+____Arg2____
+1034..1131
+7
+#### Text ####
+This bacterium produces a toxin that, if used as a vaccine, can induce immunity to whooping cough
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1072..1074
+7,1,1,1,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1066..1070;1094..1131
+7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,2;7,1,1,1,1,3;7,1,1,1,1,4
+#### Text ####
+that can induce immunity to whooping cough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1075..1092
+7,1,1,1,1,1,1
+#### Text ####
+used as a vaccine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1133
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1034..1131
+7
+#### Text ####
+This bacterium produces a toxin that, if used as a vaccine, can induce immunity to whooping cough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1133..1175
+8
+#### Text ####
+Unfortunately, the toxin is also poisonous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1161..1165
+8,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1066..1131
+7,1,1,1
+#### Text ####
+that, if used as a vaccine, can induce immunity to whooping cough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1133..1160;1166..1175
+8,0;8,1;8,2;8,3,0;8,3,2;8,4
+#### Text ####
+Unfortunately, the toxin is poisonous
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1374
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1216..1347
+9,1,1
+#### Text ####
+they had succeeded in getting bacteria to produce a non-toxic version of the pertussis toxin, which could be used as a safe vaccine
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1179..1215
+9,0;9,1,0;9,2
+#### Text ####
+The Italian-led scientific team said
+##############
+____Arg2____
+1374..1822;1845..2503
+10,1,1;11;12;13,0,1,1;13,1;13,2;13,3;13,4;14;15;16;17;18
+#### Text ####
+they have been able to pluck the five genes that produced the toxin out of the pertussis bacterium.
+It turned out that although it took all five genes to produce the toxin, only one was responsible for the toxin's virulence. 
+
+Ordinarily in genetic engineering each of these genes, minus the one that caused the virulence, would have been transferred to another bacterium, called E. coli, which would then produce a nonvirulent version of the toxin they did this, but the toxin didn't induce immunity to whooping cough. 
+
+The scientists then took the five toxin genes and triggered a mutation in the one gene that caused virulence.
+Then, using a new technique (called homologous recombination) for introducing genes into cells, they transferred all five genes to bacteria closely related to the pertussis organism.
+These bacterial "cousins" ordinarily don't make the toxin.
+But the genes were accompanied by a piece of DNA, called a promoter, that turns the genes on. 
+
+The new bacteria recipients of the genes began producing pertussis toxin which, because of the mutant virulence gene, was no longer toxic
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1349..1373;1824..1844
+10,0;10,1,0;10,2;13,0,0;13,0,1,0
+#### Text ####
+The researchers reported The researchers said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1474
+11
+#### Features ####
+Ot, Comm, Null, Null
+1349..1373
+10,0;10,1,0;10,2
+#### Text ####
+The researchers reported
+##############
+in the end, Expansion.Restatement.Generalization
+____Arg1____
+1374..1472
+10,1,1
+#### Text ####
+they have been able to pluck the five genes that produced the toxin out of the pertussis bacterium
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1474..1597
+11
+#### Text ####
+It turned out that although it took all five genes to produce the toxin, only one was responsible for the toxin's virulence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1493..1501
+11,1,2,1,0,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1488..1492;1547..1597
+11,1,2,0;11,1,2,1,1;11,1,2,1,2;11,1,2,1,3
+#### Text ####
+that only one was responsible for the toxin's virulence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1502..1545
+11,1,2,1,0,1
+#### Text ####
+it took all five genes to produce the toxin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1775..1779
+12,3,1,1,1,2,1,4,1,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1601..1761
+12,0;12,1;12,2;12,3,0;12,3,1,0;12,3,1,1,0;12,3,1,1,1,0;12,3,1,1,1,1;12,3,1,1,1,2,0;12,3,1,1,1,2,1,0;12,3,1,1,1,2,1,1;12,3,1,1,1,2,1,2;12,3,1,1,1,2,1,3;12,4
+#### Text ####
+Ordinarily in genetic engineering each of these genes, minus the one that caused the virulence, would have been transferred to another bacterium, called E. coli
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1763..1774;1780..1822
+12,3,1,1,1,2,1,4,0;12,3,1,1,1,2,1,4,1,0;12,3,1,1,1,2,1,4,1,1,0;12,3,1,1,1,2,1,4,1,1,2
+#### Text ####
+which would produce a nonvirulent version of the toxin
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1845
+13
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1601..1822
+12
+#### Text ####
+Ordinarily in genetic engineering each of these genes, minus the one that caused the virulence, would have been transferred to another bacterium, called E. coli, which would then produce a nonvirulent version of the toxin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1845..1914
+13,0,1,1;13,1;13,2;13,3;13,4
+#### Text ####
+they did this, but the toxin didn't induce immunity to whooping cough
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1824..1844
+13,0,0;13,0,1,0
+#### Text ####
+The researchers said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1860..1863
+13,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1824..1858
+13,0
+#### Text ####
+The researchers said they did this
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1864..1914
+13,3
+#### Text ####
+the toxin didn't induce immunity to whooping cough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1933..1937
+14,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+1860..1914
+13,2;13,3;13,4
+#### Text ####
+but the toxin didn't induce immunity to whooping cough
+##############
+____Arg1____
+1845..1858
+13,0,1,1
+#### Text ####
+they did this
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1824..1844
+13,0,0;13,0,1,0
+#### Text ####
+The researchers said
+##############
+____Arg2____
+1918..1932;1938..2026
+14,0;14,2;14,3
+#### Text ####
+The scientists took the five toxin genes and triggered a mutation in the one gene that caused virulence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2028..2032
+15,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1918..2026
+14
+#### Text ####
+The scientists then took the five toxin genes and triggered a mutation in the one gene that caused virulence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2034..2209
+15,1;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+using a new technique (called homologous recombination) for introducing genes into cells, they transferred all five genes to bacteria closely related to the pertussis organism
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2211
+16
+____Arg1____
+2028..2209
+15
+#### Text ####
+Then, using a new technique (called homologous recombination) for introducing genes into cells, they transferred all five genes to bacteria closely related to the pertussis organism
+##############
+____Arg2____
+2211..2268
+16
+#### Text ####
+These bacterial "cousins" ordinarily don't make the toxin
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2270..2273
+17,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+2211..2268
+16
+#### Text ####
+These bacterial "cousins" ordinarily don't make the toxin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2274..2362
+17,1;17,2;17,3
+#### Text ####
+the genes were accompanied by a piece of DNA, called a promoter, that turns the genes on
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2505
+19
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2366..2503
+18
+#### Text ####
+The new bacteria recipients of the genes began producing pertussis toxin which, because of the mutant virulence gene, was no longer toxic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2505..2760
+19
+#### Text ####
+Experiments showed that the new, non-virulent toxin is capable of inducing immunity, according to the researchers from the Selavo Research Center in Siena, Italy, the Medical College of Wisconsin in Milwaukee and the Japanese National Institutes of Health
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2590..2760
+19,1,1,1,1,2;19,1,1,1,1,3
+#### Text ####
+according to the researchers from the Selavo Research Center in Siena, Italy, the Medical College of Wisconsin in Milwaukee and the Japanese National Institutes of Health
+##############
+________________________________________________________

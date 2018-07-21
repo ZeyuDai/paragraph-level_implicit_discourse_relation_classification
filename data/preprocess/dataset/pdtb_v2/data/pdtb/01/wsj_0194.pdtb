@@ -1,0 +1,663 @@
+________________________________________________________
+____Explicit____
+62..64
+0,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..60
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+USX Corp. posted a 23% drop in third-quarter profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+65..147
+0,1,3,1
+#### Text ####
+improved oil results failed to offset weakness in steel and natural gas operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+291
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+151..289
+1
+#### Text ####
+The nation's largest steelmaker earned $175 million, or 62 cents a share, compared with the year-earlier $228 million, or 80 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+291..429
+2
+#### Text ####
+The recent quarter includes pretax gains of $98 million from asset sales, while like gains in the year-earlier quarter totaled $61 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+365..370
+2,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+291..363
+2,0;2,1,0;2,1,1;2,1,2;2,2
+#### Text ####
+The recent quarter includes pretax gains of $98 million from asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+371..429
+2,1,3,1
+#### Text ####
+like gains in the year-earlier quarter totaled $61 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+455..459
+3,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+365..429
+2,1,3
+#### Text ####
+while like gains in the year-earlier quarter totaled $61 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+431..454;460..522
+3,0;3,1;3,2;3,4;3,5
+#### Text ####
+In the 1988 period, USX had a $71 million after-tax gain from a tax dispute settlement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+524
+4
+____Arg1____
+431..522
+3
+#### Text ####
+In the 1988 period, USX also had a $71 million after-tax gain from a tax dispute settlement
+##############
+____Arg2____
+524..571
+4
+#### Text ####
+Sales rose 5% to $4.4 billion from $4.2 billion
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+755..762
+6,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+683..753
+5,1,2,1,1,1,2
+#### Text ####
+when the company was riding an industrywide boom in demand and pricing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+764..803
+6,1;6,2;6,3,0;6,3,1;6,3,2;6,4
+#### Text ####
+third-quarter operating profit fell 14%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+805..807
+6,3,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+755..803
+6,0;6,1;6,2;6,3,0;6,3,1;6,3,2;6,4
+#### Text ####
+However, third-quarter operating profit fell 14%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+808..911
+6,3,3,1
+#### Text ####
+USX sold sizable chunks of its diversified and steel segments, eliminating income from those operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+956..962
+7,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Sup1____
+755..803
+6,0;6,1;6,2;6,3,0;6,3,1;6,3,2;6,4
+#### Text ####
+However, third-quarter operating profit fell 14%
+##############
+____Arg1____
+805..911
+6,3,3
+#### Text ####
+as USX sold sizable chunks of its diversified and steel segments, eliminating income from those operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+915..954;964..1094
+7,0;7,1;7,3;7,4;7,5;7,6
+#### Text ####
+Among segments that continue to operate the company's steel division continued to suffer from soft demand for its tubular goods serving the oil industry and other markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1149
+8
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+964..1094
+7,1;7,3;7,4;7,5;7,6
+#### Text ####
+the company's steel division continued to suffer from soft demand for its tubular goods serving the oil industry and other markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1149..1248
+8,1,1
+#### Text ####
+that a downturn in the appliance industry, coupled with sluggish automotive sales, hurt USX results
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1096..1148
+8,0;8,1,0;8,2
+#### Text ####
+Peter Marcus, an analyst with PaineWebber Inc., said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1250..1258
+9,0,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+1149..1248
+8,1,1
+#### Text ####
+that a downturn in the appliance industry, coupled with sluggish automotive sales, hurt USX results
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1096..1148
+8,0;8,1,0;8,2
+#### Text ####
+Peter Marcus, an analyst with PaineWebber Inc., said
+##############
+____Arg2____
+1260..1368
+9,0,1;9,0,2;9,0,3;9,1;9,2;9,3;9,4
+#### Text ####
+USX exports more than other steelmakers, and the overseas market has been under more severe pricing pressure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1301..1304
+9,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1250..1299
+9,0
+#### Text ####
+Moreover, USX exports more than other steelmakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1305..1368
+9,3
+#### Text ####
+the overseas market has been under more severe pricing pressure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1629
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1561..1627
+11
+#### Text ####
+In the steel division, operating profit dropped 11% to $85 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1629..1748
+12,0
+#### Text ####
+Profit per ton of steel shipped dropped to about $33 a ton from $42 a ton last year and $53 a ton in the second quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1750..1763
+12,1;12,2;12,3;12,4
+#### Text ####
+analysts said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1765..1770
+13,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast.Juxtaposition
+____Sup1____
+1629..1763
+12
+#### Text ####
+Profit per ton of steel shipped dropped to about $33 a ton from $42 a ton last year and $53 a ton in the second quarter, analysts said
+##############
+____Arg1____
+1561..1627
+11
+#### Text ####
+In the steel division, operating profit dropped 11% to $85 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1772..1890;1931..1961
+13,1;13,2;13,3,0;13,3,1;13,3,2;13,3,3,0;13,3,3,1,0;13,3,3,1,1,0;13,3,3,1,1,1;13,3,3,1,1,2,0;13,3,3,1,1,2,1,0;13,3,3,1,1,2,1,1,0;13,3,3,1,1,2,1,1,1;13,3,3,1,1,2,1,1,3;13,3,3,1,1,2,1,2;13,3,3,1,1,2,1,3,0;13,3,3,1,1,2,1,3,1;13,4
+#### Text ####
+USX fared better than other major steelmakers, earning more per ton of steel shipped than either Bethlehem Steel Corp. or Inland Steel Industries Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2090..2092
+14,4,5,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1994..2088
+14,0;14,1;14,2;14,3;14,4,0;14,4,1;14,4,2;14,4,3;14,4,4;14,5
+#### Text ####
+In New York Stock Exchange composite trading yesterday, USX shares closed up $1.25, at $34.625
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2093..2205
+14,4,5,1
+#### Text ####
+the reported earnings exceeded projections by some analysts who hadn't expected as great a volume of asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2241..2245
+15,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2090..2205
+14,4,5
+#### Text ####
+as the reported earnings exceeded projections by some analysts who hadn't expected as great a volume of asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2207..2240;2246..2329
+15,0;15,1,0;15,1,2;15,2
+#### Text ####
+The rise in the stock's price may reflect the fact that USX's steel segment fared better than some other steelmakers'
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2520..2524
+17,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2508..2515
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+also, Expansion.Conjunction
+____Arg1____
+2403..2506
+16,1,1
+#### Text ####
+USX may have received orders lost by competitors who were involved in labor contracts earlier this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2333..2402
+16,0;16,1,0;16,2
+#### Text ####
+Charles Bradford, an analyst with Merrill Lynch Capital Markets, said
+##############
+____Arg2____
+2516..2519;2525..2670
+17,1,1,0;17,1,1,1,0;17,1,1,1,2
+#### Text ####
+USX appeared to sell a richer mix of steel products, such as the more profitable pipe and galvanized coated sheet, than lower-priced structural goods
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2767
+19
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2674..2765
+18
+#### Text ####
+The energy segment, with a 15% rise in operating profit, is clearly the company's strongest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2767..2884
+19
+#### Text ####
+Higher crude oil prices helped boost operating profit for the Marathon Oil Co. unit to $198 million from $180 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2886
+20
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2767..2884
+19
+#### Text ####
+Higher crude oil prices helped boost operating profit for the Marathon Oil Co. unit to $198 million from $180 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2886..3003
+20
+#### Text ####
+The Texas Oil & Gas division continues to operate in the red, although losses narrowed to $9 million from $15 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2948..2956
+20,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2886..2946
+20,0;20,1,0;20,1,1;20,1,2;20,2
+#### Text ####
+The Texas Oil & Gas division continues to operate in the red
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2957..3003
+20,1,3,1
+#### Text ####
+losses narrowed to $9 million from $15 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3005
+21
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+2886..2946
+20,0;20,1,0;20,1,1;20,1,2;20,2
+#### Text ####
+The Texas Oil & Gas division continues to operate in the red
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3005..3092
+21
+#### Text ####
+USX announced in October that it was soliciting bids to sell TXO's oil and gas reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3169
+23
+____Arg1____
+3096..3167
+22
+#### Text ####
+Proceeds of that sale are to be used to reduce debt and buy back shares
+##############
+____Arg2____
+3169..3340
+23
+#### Text ####
+The company noted that it has reduced debt by $1.6 billion since the end of 1988 and bought back about 15.5 million shares of common stock since the fourth quarter of 1987
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3342
+24
+____Arg1____
+3169..3340
+23
+#### Text ####
+The company noted that it has reduced debt by $1.6 billion since the end of 1988 and bought back about 15.5 million shares of common stock since the fourth quarter of 1987
+##############
+____Arg2____
+3342..3421
+24
+#### Text ####
+USX has about $5.5 billion in long-term debt and 257 million shares outstanding
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3603
+26
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3481..3601
+25,1,1,2,1,1
+#### Text ####
+that investor Carl Icahn had increased his stake in USX to 13.1% and threatened a takeover or other business combination
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3603..3701
+26
+#### Text ####
+Mr. Icahn has said he believes USX would be worth more if broken up into steel and energy segments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3658..3660
+26,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3622..3633
+26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1,0
+#### Text ####
+he believes
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3634..3657
+26,1,1,1,1,1,1,0;26,1,1,1,1,1,1,1,0;26,1,1,1,1,1,1,1,1,0;26,1,1,1,1,1,1,1,1,1,0;26,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+USX would be worth more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3661..3701
+26,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+broken up into steel and energy segments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3815
+28
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3705..3813
+27
+#### Text ####
+Profit for the nine months jumped 21% to $721 million, or $2.62 a share, from $598 million, or $2.07 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3815..3865
+28
+#### Text ####
+Sales rose 10% to $13.8 billion from $12.5 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

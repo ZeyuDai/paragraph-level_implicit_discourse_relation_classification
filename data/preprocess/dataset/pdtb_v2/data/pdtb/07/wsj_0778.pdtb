@@ -1,0 +1,844 @@
+________________________________________________________
+____Explicit____
+146..149
+1,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9..144
+0
+#### Text ####
+The government is sharpening its newest weapon against white-collar defendants: the power to prevent them from paying their legal bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+150..229
+1,1;1,2;1,3
+#### Text ####
+defense lawyers are warning that they won't stick around if they don't get paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+207..209
+1,2,1,1,1,1,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+150..177
+1,1;1,2,0;1,2,1,0;1,3
+#### Text ####
+defense lawyers are warning
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+178..206
+1,2,1,1,0;1,2,1,1,1,0;1,2,1,1,1,1,0;1,2,1,1,1,1,1;1,2,1,1,1,1,2,0;1,2,1,1,1,1,2,1
+#### Text ####
+that they won't stick around
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+210..229
+1,2,1,1,1,1,2,2,1
+#### Text ####
+they don't get paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+346..348
+2,1,1,2,1,2,1,1,1,2,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+285..340
+2,1,1,2,1,2,1,0;2,1,1,2,1,2,1,1,0;2,1,1,2,1,2,1,1,1,0;2,1,1,2,1,2,1,1,1,1;2,1,1,2,1,2,1,1,1,3
+#### Text ####
+federal prosecutors have warned lawyers for Eddie Antar
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+341..345;414..498
+2,1,1,2,1,2,1,1,1,2,0;2,1,1,2,1,2,1,1,1,2,1,1;2,1,1,2,1,2,1,1,1,2,1,2;2,1,1,2,1,2,1,1,1,2,1,3
+#### Text ####
+that the government may move to seize the money that Mr. Antar is using to pay legal fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+349..412
+2,1,1,2,1,2,1,1,1,2,1,0,1
+#### Text ####
+the founder and former chairman of Crazy Eddie Inc. is indicted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+603
+4
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+502..601
+3
+#### Text ####
+The warning by the U.S. attorney's office follows two decisions by the U.S. Supreme Court last June
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+603..817
+4
+#### Text ####
+In those cases, the high court ruled that federal law gives prosecutors broad authority to seize assets of people accused of racketeering and drug-related crimes, including fees paid to lawyers before an indictment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+821..823
+5,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+879..935
+5,1;5,2;5,3,0;5,3,1,0;5,3,1,1,0;5,3,1,1,1;5,3,1,1,2;5,3,1,1,3;5,3,1,1,5;5,4
+#### Text ####
+he could be left without top-flight legal representation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+824..877
+5,0,1
+#### Text ####
+the government succeeds in seizing Mr. Antar's assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+937..944
+5,3,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+979..1026
+5,3,1,1,5;5,3,1,1,6;5,4
+#### Text ####
+according to individuals familiar with the case
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+879..935;979..1026
+5,1;5,2;5,3,0;5,3,1,0;5,3,1,1,0;5,3,1,1,1;5,3,1,1,2;5,3,1,1,3;5,3,1,1,5;5,3,1,1,6;5,4
+#### Text ####
+he could be left without top-flight legal representation according to individuals familiar with the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+945..977
+5,3,1,1,4,1
+#### Text ####
+his attorneys are likely to quit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1038..1042
+6,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+821..1026
+5
+#### Text ####
+If the government succeeds in seizing Mr. Antar's assets, he could be left without top-flight legal representation, because his attorneys are likely to quit, according to individuals familiar with the case
+##############
+#### Features ####
+Ot, Comm, Null, Null
+979..1026
+5,3,1,1,5;5,3,1,1,6;5,4
+#### Text ####
+according to individuals familiar with the case
+##############
+____Arg2____
+1028..1037;1043..1182
+6,0;6,2;6,3
+#### Text ####
+A seizure would make the case the largest -- and one of the first -- in which lawyers' fees have been confiscated in a prosecution unrelated to drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1242..1245
+7,0,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1384..1433
+7,1;7,2,0;7,2,1;7,2,2,0;7,3
+#### Text ####
+says Gerald Lefcourt, a criminal defense attorney
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1187..1240
+7,0,1
+#### Text ####
+The people who suffer in the short run are defendants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1246..1381
+7,0,4;7,0,5;7,0,6;7,0,7;7,0,8
+#### Text ####
+the people who suffer in the long run are all of the people, because there won't be a vigorous private bar to defend the Bill of Rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1307..1314
+7,0,6,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1384..1433
+7,1;7,2,0;7,2,1;7,2,2,0;7,3
+#### Text ####
+says Gerald Lefcourt, a criminal defense attorney
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1242..1305
+7,0,3;7,0,4;7,0,5;7,0,7;7,0,8
+#### Text ####
+but the people who suffer in the long run are all of the people
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1315..1381
+7,0,6,1
+#### Text ####
+there won't be a vigorous private bar to defend the Bill of Rights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1697
+9
+____Arg1____
+1514..1695
+8
+#### Text ####
+Mr. Antar is being investigated by a federal grand jury in Newark, where prosecutors have told him that they may soon seek an indictment on racketeering and securities fraud charges
+##############
+____Arg2____
+1697..1861
+9
+#### Text ####
+Under the Racketeer Influenced and Corrupt Organizations law, or RICO, the government has the authority to seek to freeze or seize a defendant's assets before trial
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1965..1970
+10,3,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1865..1920
+10,0;10,1
+#### Text ####
+According to individuals familiar with Mr. Antar's case
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1865..1964
+10,0;10,1;10,2;10,3,0;10,3,1;10,3,2;10,4
+#### Text ####
+According to individuals familiar with Mr. Antar's case, prosecutors issued their warning this week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1971..2052
+10,3,3,1
+#### Text ####
+one of Mr. Antar's attorneys asked whether legal fees might be subject to seizure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2054
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1865..2052
+10
+#### Text ####
+According to individuals familiar with Mr. Antar's case, prosecutors issued their warning this week after one of Mr. Antar's attorneys asked whether legal fees might be subject to seizure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2054..2224
+11
+#### Text ####
+In a letter, prosecutors told Mr. Antar's lawyers that because of the recent Supreme Court rulings, they could expect that any fees collected from Mr. Antar may be seized
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2226
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2054..2224
+11
+#### Text ####
+In a letter, prosecutors told Mr. Antar's lawyers that because of the recent Supreme Court rulings, they could expect that any fees collected from Mr. Antar may be seized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2226..2503
+12;13
+#### Text ####
+Prosecutors have told Mr. Antar's attorneys that they believe Mr. Antar's allegedly ill-gotten gains are so great that any money he has used to pay attorneys derives from illegal activities.
+Therefore, they said, the money can be taken from the lawyers even after they are paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2417..2426
+13,0
+#### Text ####
+Therefore
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2428..2437
+13,1
+#### Text ####
+they said
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+2340..2415
+12,1,1,2,1,1,1,1,1,1,2
+#### Text ####
+that any money he has used to pay attorneys derives from illegal activities
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2275..2287
+12,1,1,2,1,0;12,1,1,2,1,1,0
+#### Text ####
+they believe
+##############
+____Arg2____
+2439..2503
+13,2;13,3;13,4
+#### Text ####
+the money can be taken from the lawyers even after they are paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2479..2489
+13,3,1,1,3,0;13,3,1,1,3,1
+#### Text ####
+even after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2428..2437
+13,1
+#### Text ####
+they said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2417..2426;2439..2478
+13,0;13,2;13,3,0;13,3,1,0;13,3,1,1,0;13,3,1,1,1;13,3,1,1,2;13,4
+#### Text ####
+Therefore the money can be taken from the lawyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2490..2503
+13,3,1,1,3,2
+#### Text ####
+they are paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2767
+16
+#### Features ####
+Ot, Comm, Null, Null
+2752..2766
+16,0;16,1,0;16,2;16,3
+#### Text ####
+Mr. Alito said
+##############
+however, Comparison
+____Arg1____
+2672..2749
+15,3,2,2,2,1
+#### Text ####
+there's any legal reason to limit forfeiture of attorney's fees to drug cases
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+2658..2671
+15,3,2,0;15,3,2,1;15,3,2,2,0;15,3,2,2,1;15,3,2,2,2,0
+#### Text ####
+I don't think
+##############
+____Arg2____
+2767..2945
+16,1,1
+#### Text ####
+his office "just responded to an attorney's question about whether we would go after attorney's fees, and that is different from actually doing it, although we reserve that right
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2869..2872
+16,1,1,1,3,1,1,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2752..2766
+16,0;16,1,0;16,2;16,3
+#### Text ####
+Mr. Alito said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2767..2867
+16,1,1,0;16,1,1,1,0;16,1,1,1,1;16,1,1,1,2;16,1,1,1,3,0;16,1,1,1,3,1,0;16,1,1,1,3,1,1,0;16,1,1,1,3,1,1,1,0;16,1,1,1,3,1,1,1,1,0;16,1,1,1,3,1,1,1,1,1,0;16,1,1,1,3,1,1,1,1,1,1
+#### Text ####
+his office "just responded to an attorney's question about whether we would go after attorney's fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2873..2945
+16,1,1,1,3,1,1,1,1,1,3
+#### Text ####
+that is different from actually doing it, although we reserve that right
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2915..2923
+16,1,1,1,3,1,1,1,1,1,3,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2752..2766
+16,0;16,1,0;16,2;16,3
+#### Text ####
+Mr. Alito said
+##############
+although, Comparison
+____Sup1____
+2767..2867
+16,1,1,0;16,1,1,1,0;16,1,1,1,1;16,1,1,1,2;16,1,1,1,3,0;16,1,1,1,3,1,0;16,1,1,1,3,1,1,0;16,1,1,1,3,1,1,1,0;16,1,1,1,3,1,1,1,1,0;16,1,1,1,3,1,1,1,1,1,0;16,1,1,1,3,1,1,1,1,1,1
+#### Text ####
+his office "just responded to an attorney's question about whether we would go after attorney's fees
+##############
+____Arg1____
+2869..2913
+16,1,1,1,3,1,1,1,1,1,2;16,1,1,1,3,1,1,1,1,1,3,0;16,1,1,1,3,1,1,1,1,1,3,1,0;16,1,1,1,3,1,1,1,1,1,3,1,1;16,1,1,1,3,1,1,1,1,1,3,1,2
+#### Text ####
+and that is different from actually doing it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2924..2945
+16,1,1,1,3,1,1,1,1,1,3,1,3,1
+#### Text ####
+we reserve that right
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3075
+18
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2950..3073
+17
+#### Text ####
+Mr. Antar was charged last month in a civil suit filed in federal court in Newark by the Securities and Exchange Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3075..3238
+18
+#### Text ####
+In that suit, the SEC accused Mr. Antar of engaging in a "massive financial fraud" to overstate the earnings of Crazy Eddie, Edison, N.J., over a three-year period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3240
+19
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+3075..3238
+18
+#### Text ####
+In that suit, the SEC accused Mr. Antar of engaging in a "massive financial fraud" to overstate the earnings of Crazy Eddie, Edison, N.J., over a three-year period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3240..3390
+19
+#### Text ####
+Through his lawyers, Mr. Antar has denied allegations in the SEC suit and in civil suits previously filed by shareholders against Mr. Antar and others
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3557
+21
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Specification
+____Arg1____
+3414..3555
+20,1,1,1
+#### Text ####
+that Mr. Antar aimed to pump up the company's stock price through false financial statements in order to sell his stake and reap huge profits
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3394..3413
+20,0;20,1,0;20,1,1,0;20,2
+#### Text ####
+The SEC has alleged
+##############
+____Arg2____
+3557..3566;3582..3658
+21,0;21,2;21,3
+#### Text ####
+Mr. Antar made more than $60 million from the sale of his shares between 1985 and 1987
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3568..3580
+21,1
+#### Text ####
+the SEC said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3768
+23
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3700..3766
+22,1,1,1
+#### Text ####
+that the government's fee-forfeiture power is to be used sparingly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3662..3699
+22,0;22,1,0;22,1,1,0;22,2
+#### Text ####
+The Justice Department has emphasized
+##############
+____Arg2____
+3768..3941
+23
+#### Text ####
+According to department policy, prosecutors must make a strong showing that lawyers' fees came from assets tainted by illegal profits before any attempts at seizure are made
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3768..3798
+23,0;23,1
+#### Text ####
+According to department policy
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3902..3908
+23,3,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3768..3798
+23,0;23,1
+#### Text ####
+According to department policy
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+3768..3901
+23,0;23,1;23,2;23,3,0;23,3,1,0;23,3,1,1;23,4
+#### Text ####
+According to department policy, prosecutors must make a strong showing that lawyers' fees came from assets tainted by illegal profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3909..3941
+23,3,1,2,1
+#### Text ####
+any attempts at seizure are made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3945..3950
+24,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+3768..3941
+23
+#### Text ####
+According to department policy, prosecutors must make a strong showing that lawyers' fees came from assets tainted by illegal profits before any attempts at seizure are made
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3768..3798
+23,0;23,1
+#### Text ####
+According to department policy
+##############
+____Arg2____
+3952..4118
+24,1;24,2;24,3;24,4
+#### Text ####
+criminal defense lawyers worry that defendants are being deprived of their Sixth Amendment right to counsel and a fair trial if the government can seize lawyers' fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4077..4079
+24,3,1,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3952..3982
+24,1;24,2;24,3,0;24,4
+#### Text ####
+criminal defense lawyers worry
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3983..4076
+24,3,1,0;24,3,1,1,0;24,3,1,1,1,0;24,3,1,1,1,1,0;24,3,1,1,1,1,1,0;24,3,1,1,1,1,1,1;24,3,1,1,1,1,1,2
+#### Text ####
+that defendants are being deprived of their Sixth Amendment right to counsel and a fair trial
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4080..4118
+24,3,1,1,1,1,1,3,1
+#### Text ####
+the government can seize lawyers' fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4125..4129
+25,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3945..4118
+24
+#### Text ####
+Still, criminal defense lawyers worry that defendants are being deprived of their Sixth Amendment right to counsel and a fair trial if the government can seize lawyers' fees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4120..4124;4130..4301
+25,0;25,2;25,3
+#### Text ####
+They worry that if the government applies asset-forfeiture laws broadly, the best defense lawyers will be unwilling to take criminal cases unless they are assured of being paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4141..4143
+25,2,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+4120..4135
+25,0;25,1;25,2,0;25,3
+#### Text ####
+They also worry
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4136..4140;4198..4301
+25,2,1,0;25,2,1,1,1;25,2,1,1,2;25,2,1,1,3
+#### Text ####
+that the best defense lawyers will be unwilling to take criminal cases unless they are assured of being paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4144..4196
+25,2,1,1,0,1
+#### Text ####
+the government applies asset-forfeiture laws broadly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4264..4270
+25,2,1,1,3,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4120..4135
+25,0;25,1;25,2,0;25,3
+#### Text ####
+They also worry
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+4136..4140;4198..4263
+25,2,1,0;25,2,1,1,1;25,2,1,1,2;25,2,1,1,3,0;25,2,1,1,3,1,0;25,2,1,1,3,1,1
+#### Text ####
+that the best defense lawyers will be unwilling to take criminal cases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4271..4301
+25,2,1,1,3,1,2,1
+#### Text ####
+they are assured of being paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

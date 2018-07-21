@@ -1,0 +1,152 @@
+________________________________________________________
+____Explicit____
+81..83
+0,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..46
+0,0;0,1,0;0,2
+#### Text ####
+Schlumberger Ltd., New York, reported
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+47..80
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1
+#### Text ####
+third-quarter net income edged up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+84..159
+0,1,1,1,1,2,1
+#### Text ####
+growth in its oil-field services sector offset a decline in interest income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+198..205
+1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+163..197
+1,0;1,1,0;1,2
+#### Text ####
+The lower interest income occurred
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+206..269
+1,1,1,1
+#### Text ####
+Schlumberger spent $1.2 billion buying back its stock last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+455
+3
+____Arg1____
+273..453
+2
+#### Text ####
+Net for the oil-field services and electronic measurements and systems concern rose to $114.2 million, or 48 cents a share, from $112.2 million, or 42 cents a share, a year earlier
+##############
+____Arg2____
+455..510
+3
+#### Text ####
+Per-share earnings advanced 14% because of the buy-back
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+573..576
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+514..571
+4
+#### Text ####
+Revenue declined 6.3% to $1.11 billion from $1.18 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+577..655
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+excluding businesses acquired or sold, revenue was flat at about $1.24 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+776
+7
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+659..774
+6
+#### Text ####
+Nine-month net fell 9.5% to $323.4 million, or $1.36 a share, from $357.2 million, or $1.32 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+776..832
+7
+#### Text ####
+Revenue dropped 5.4% to $3.48 billion from $3.68 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1065
+9
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+836..1063
+8
+#### Text ####
+This year's nine-month results include gains of $13 million, or five cents a share, from the sale of Schlumberger's defense systems business, and $22 million, or nine cents a share, from an award by the IranU.S.
+Claims Tribunal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1065..1216
+9
+#### Text ####
+The year-earlier nine months include a gain of $35 million, or 13 cents a share, from sale of the company's Electricity Control & Transformers division
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

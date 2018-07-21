@@ -1,0 +1,282 @@
+________________________________________________________
+____Explicit____
+100..103
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+9..98
+0,0
+#### Text ####
+Comments by Federal Reserve Board Chairman Alan Greenspan lent some support to the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+104..169
+0,3
+#### Text ####
+the U.S. unit ended yesterday lower against most major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1010..1017
+6,1,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+860..995
+5
+#### Text ####
+In perhaps his most telling remark, Mr. Greenspan termed the current U.S. inflation rate of around 4.5% as "much too high to be ignored
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1000..1008;1019..1117
+6,0;6,1,0;6,1,1;6,1,3;6,1,4;6,2
+#### Text ####
+He added that inflation could be brought down "close to zero" without throwing the economy into a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1375..1377
+8,1,4,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1345..1374
+8,1,4,0;8,1,4,1,0;8,1,4,1,1;8,1,4,1,2
+#### Text ####
+settling lower in later trade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1378..1484
+8,1,4,1,3,1
+#### Text ####
+dealers squared positions ahead of today's preliminary report on third-quarter U.S. gross national product
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1647
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1488..1645
+9
+#### Text ####
+In late New York trading yesterday, the dollar was quoted at 1.8353 marks, down from 1.8355 marks Tuesday, and at 141.52 yen, up from 141.45 yen late Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1647..1707
+10
+#### Text ####
+Sterling was quoted at $1.6145, up from $1.6055 late Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2006..2010
+12,1,2,1,1,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1905..1916
+12,1,1;12,1,2,0
+#### Text ####
+and predict
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1917..2001
+12,1,2,1,0;12,1,2,1,1,0;12,1,2,1,1,1,0;12,1,2,1,1,1,1,0
+#### Text ####
+the U.S. currency will remain stuck in its relatively narrow ranges in the near term
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2002..2005;2011..2022
+12,1,2,1,1,1,1,1;12,1,2,1,1,1,1,2,1;12,1,2,1,1,1,1,2,2
+#### Text ####
+and shift lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2026..2029
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1831..2022
+12
+#### Text ####
+Many traders forecast a continuation of the market's recent bearish trend and predict the U.S. currency will remain stuck in its relatively narrow ranges in the near term and then shift lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2030..2232
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+according to Doug Madison, a corporate trader with Bank of America in Los Angeles, a large number of short positions must first be corrected, spurring a temporary upswing, before the unit can turn lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2202..2208
+13,4,2,1,5,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2030..2055
+13,1,0;13,1,1,0;13,1,1,1,0;13,1,1,1,1
+#### Text ####
+according to Doug Madison
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2026..2170
+13,0;13,1;13,2;13,3;13,4,0;13,4,1;13,4,2,0;13,4,2,1,0;13,4,2,1,1;13,4,2,1,2;13,4,2,1,4;13,5
+#### Text ####
+But according to Doug Madison, a corporate trader with Bank of America in Los Angeles, a large number of short positions must first be corrected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2209..2232
+13,4,2,1,5,1
+#### Text ####
+the unit can turn lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2597..2605
+15,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2516..2595
+15,1,1
+#### Text ####
+today's GNP report will offer more substantial evidence on U.S. economic growth
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2491..2515
+15,0;15,1,0;15,1,2;15,2
+#### Text ####
+Market participants hope
+##############
+____Arg2____
+2638..2688
+15,1,3,1,1,1,1,1,1,2
+#### Text ####
+that the figures may overstate the economy's vigor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2606..2637
+15,1,3,1,0;15,1,3,1,1,0;15,1,3,1,1,1,0;15,1,3,1,1,1,1,0;15,1,3,1,1,1,1,1,0;15,1,3,1,1,1,1,1,1,0;15,1,3,1,1,1,1,1,1,1
+#### Text ####
+analysts are quick to point out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2903..2908
+17,1,1,1,0,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2880..2897
+17,0;17,1,0;17,2
+#### Text ####
+Some dealers note
+##############
+while, Comparison.Concession.Expectation
+____Arg1____
+2898..2902;3068..3171
+17,1,1,0;17,1,1,1,2;17,1,1,1,3
+#### Text ####
+that it would take a significantly stronger figure to alter market perceptions that the economy is softening
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2909..2964
+17,1,1,1,0,1
+#### Text ####
+the third-quarter figures may appear relatively bullish
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3483
+20
+____Arg1____
+3377..3481
+19
+#### Text ####
+On the Commodity Exchange in New York, gold for current delivery settled at $369.10 an ounce, down $1.10
+##############
+____Arg2____
+3483..3530
+20
+#### Text ####
+Estimated volume was a light 1.7 million ounces
+##############
+________________________________________________________

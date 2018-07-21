@@ -1,0 +1,95 @@
+________________________________________________________
+____Explicit____
+349..352
+2,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+304..348
+2,0
+#### Text ####
+NASA awarded the contract to CSC in November
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+353..543
+2,2;2,3;2,4;2,5
+#### Text ####
+an appeal by Sterling Software Inc. of Dallas sent the contract to the General Services Administration Board of Contract Appeals and the board required NASA to re-evaluate bidders' proposals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+482..485
+2,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+349..481
+2,1;2,2
+#### Text ####
+but an appeal by Sterling Software Inc. of Dallas sent the contract to the General Services Administration Board of Contract Appeals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..543
+2,4
+#### Text ####
+the board required NASA to re-evaluate bidders' proposals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+545
+3
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+349..543
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+but an appeal by Sterling Software Inc. of Dallas sent the contract to the General Services Administration Board of Contract Appeals and the board required NASA to re-evaluate bidders' proposals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+545..626
+3
+#### Text ####
+Sterling had completed a five-year contract for NASA but lost its bid for renewal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+628
+4
+____Arg1____
+545..626
+3
+#### Text ####
+Sterling had completed a five-year contract for NASA but lost its bid for renewal
+##############
+____Arg2____
+628..703
+4
+#### Text ####
+As directed by the board, NASA completed the evaluation and again chose CSC
+##############
+________________________________________________________

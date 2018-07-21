@@ -1,0 +1,472 @@
+________________________________________________________
+____Explicit____
+258..262
+1,0,1,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+361..377
+1,1;1,2;1,3;1,4
+#### Text ####
+researchers said
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+202..257
+1,0,0;1,0,1,0;1,0,1,1;1,0,1,3
+#### Text ####
+The asbestos fiber, crocidolite, is unusually resilient
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+263..282
+1,0,1,2,1
+#### Text ####
+it enters the lungs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+379
+2
+____Arg1____
+202..377
+1
+#### Text ####
+The asbestos fiber, crocidolite, is unusually resilient once it enters the lungs, with even brief exposures to it causing symptoms that show up decades later, researchers said
+##############
+____Arg2____
+379..530
+2
+#### Text ####
+Lorillard Inc., the unit of New York-based Loews Corp. that makes Kent cigarettes, stopped using crocidolite in its Micronite cigarette filters in 1956
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+534..542
+3,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+600..722
+3,1;3,2;3,3;3,4
+#### Text ####
+the latest results appear in today's New England Journal of Medicine, a forum likely to bring new attention to the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+543..598
+3,0,1
+#### Text ####
+preliminary findings were reported more than a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+778
+5
+#### Features ####
+Ot, Comm, Null, Null
+726..753
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+A Lorillard spokewoman said
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+756..776
+4,1,3
+#### Text ####
+This is an old story
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+778..874
+5
+#### Text ####
+We're talking about years ago before anyone heard of asbestos having any questionable properties
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+876
+6
+#### Features ####
+Ot, Comm, Null, Null
+726..753
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+A Lorillard spokewoman said
+##############
+besides, Expansion.Conjunction, Comparison
+____Arg1____
+778..874
+5
+#### Text ####
+We're talking about years ago before anyone heard of asbestos having any questionable properties
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+876..916
+6
+#### Text ####
+There is no asbestos in our products now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1046
+8
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+921..1043
+7
+#### Text ####
+Neither Lorillard nor the researchers who studied the workers were aware of any research on smokers of the Kent cigarettes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1046..1104
+8,1
+#### Text ####
+We have no useful information on whether users are at risk
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1107..1169
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said James A. Talcott of Boston's Dana-Farber Cancer Institute
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1171
+9
+____Arg1____
+1046..1169
+8
+#### Text ####
+We have no useful information on whether users are at risk," said James A. Talcott of Boston's Dana-Farber Cancer Institute
+##############
+____Arg2____
+1171..1311
+9
+#### Text ####
+Dr. Talcott led a team of researchers from the National Cancer Institute and the medical schools of Harvard University and Boston University
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1494
+11
+____Arg1____
+1315..1492
+10
+#### Text ####
+The Lorillard spokeswoman said asbestos was used in "very modest amounts" in making paper for the filters in the early 1950s and replaced with a different type of filter in 1956
+##############
+____Arg2____
+1494..1585
+11
+#### Text ####
+From 1953 to 1955, 9.8 billion Kent cigarettes with the filters were sold, the company said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1700
+13
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1589..1698
+12
+#### Text ####
+Among 33 men who worked closely with the substance, 28 have died -- more than three times the expected number
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1700..1813
+13
+#### Text ####
+Four of the five surviving workers have asbestos-related diseases, including three with recently diagnosed cancer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1815
+14
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1589..1813
+12;13
+#### Text ####
+Among 33 men who worked closely with the substance, 28 have died -- more than three times the expected number.
+Four of the five surviving workers have asbestos-related diseases, including three with recently diagnosed cancer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1815..1922
+14,0
+#### Text ####
+The total of 18 deaths from malignant mesothelioma, lung cancer and asbestosis was far higher than expected
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1924..1944
+14,1;14,2;14,3;14,4
+#### Text ####
+the researchers said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2267
+17
+____Arg1____
+2066..2265
+16
+#### Text ####
+The percentage of lung cancer deaths among the workers at the West Groton, Mass., paper factory appears to be the highest for any asbestos workers studied in Western industrialized countries, he said
+##############
+____Arg2____
+2267..2385
+17
+#### Text ####
+The plant, which is owned by Hollingsworth & Vose Co., was under contract with Lorillard to make the cigarette filters
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2935
+20
+____Arg1____
+2639..2933
+19
+#### Text ####
+The U.S. is one of the few industrialized nations that doesn't have a higher standard of regulation for the smooth, needle-like fibers such as crocidolite that are classified as amphobiles, according to Brooke T. Mossman, a professor of pathlogy at the University of Vermont College of Medicine
+##############
+____Arg2____
+2935..3038
+20
+#### Text ####
+More common chrysotile fibers are curly and are more easily rejected by the body, Dr. Mossman explained
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3144
+22
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3042..3142
+21
+#### Text ####
+In July, the Environmental Protection Agency imposed a gradual ban on virtually all uses of asbestos
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3144..3222
+22
+#### Text ####
+By 1997, almost all remaining uses of cancer-causing asbestos will be outlawed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3333
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3226..3331
+23
+#### Text ####
+About 160 workers at a factory that made paper for the Kent filters were exposed to asbestos in the 1950s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3333..3408
+24
+#### Text ####
+Areas of the factory were particularly dusty where the crocidolite was used
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3410
+25
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3333..3408
+24
+#### Text ####
+Areas of the factory were particularly dusty where the crocidolite was used
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3410..3593
+25
+#### Text ####
+Workers dumped large burlap sacks of the imported material into a huge bin, poured in cotton and acetate fibers and mechanically mixed the dry fibers in a process used to make filters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+3595
+26
+____Arg1____
+3410..3593
+25
+#### Text ####
+Workers dumped large burlap sacks of the imported material into a huge bin, poured in cotton and acetate fibers and mechanically mixed the dry fibers in a process used to make filters
+##############
+____Arg2____
+3595..3716
+26
+#### Text ####
+Workers described "clouds of blue dust" that hung over parts of the factory, even though exhaust fans ventilated the area
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3672..3683
+26,1,1,4,1,1,3,0;26,1,1,4,1,1,3,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+3635..3670
+26,1,1,4,0;26,1,1,4,1,0;26,1,1,4,1,1,0;26,1,1,4,1,1,1;26,1,1,4,1,1,2
+#### Text ####
+that hung over parts of the factory
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3595..3612
+26,0;26,1,0;26,1,1,0;26,1,1,3;26,2
+#### Text ####
+Workers described
+##############
+____Arg2____
+3684..3716
+26,1,1,4,1,1,3,2
+#### Text ####
+exhaust fans ventilated the area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3904..3907
+28,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3820..3901
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+said Darrell Phillips, vice president of human resources for Hollingsworth & Vose
+##############
+but, Comparison.Contrast
+____Arg1____
+3721..3817
+27,1
+#### Text ####
+There's no question that some of those workers and managers contracted asbestos-related diseases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3908..3971
+28,0;28,2;28,3;28,4
+#### Text ####
+you have to recognize that these events took place 35 years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3973
+29
+#### Features ####
+Ot, Comm, Null, Null
+3820..3901
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+said Darrell Phillips, vice president of human resources for Hollingsworth & Vose
+##############
+in other words, Expansion, Contingency
+____Arg1____
+3930..3971
+28,3,1,1,1,1
+#### Text ####
+that these events took place 35 years ago
+##############
+#### Features ####
+Ot, Ftv, Null, Indet
+3908..3929
+28,0;28,2;28,3,0;28,3,1,0;28,3,1,1,0;28,3,1,1,1,0;28,4
+#### Text ####
+you have to recognize
+##############
+____Arg2____
+3973..4014
+29
+#### Text ####
+It has no bearing on our work force today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

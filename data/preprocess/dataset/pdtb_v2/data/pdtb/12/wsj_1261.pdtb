@@ -1,0 +1,360 @@
+________________________________________________________
+____Explicit____
+364..375
+2,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+145..180
+1,0;1,1,0;1,2
+#### Text ####
+The Des Moines-based publisher said
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+181..362
+1,1,1
+#### Text ####
+it created a new Custom Marketing Group that will offer advertisers special rates for combination packages in its magazines, such as Ladies Home Journal and Better Homes and Gardens
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+377..485
+2,1;2,2;2,3;2,4
+#### Text ####
+the group will create custom-designed media such as cookbooks, newspaper inserts and videos for ad campaigns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+623
+4
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+489..621
+3
+#### Text ####
+Earlier this year, Meredith sold its first such package for $3 million to Kraft Inc., now a unit of New York-based Philip Morris Cos
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+623..805
+4
+#### Text ####
+The Kraft package included a specially published cookbook, a national free-standing insert in Sunday newspapers, and a Kraft "advertorial" section that ran in five Meredith magazines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+807
+5
+____Arg1____
+623..805
+4
+#### Text ####
+The Kraft package included a specially published cookbook, a national free-standing insert in Sunday newspapers, and a Kraft "advertorial" section that ran in five Meredith magazines
+##############
+____Arg2____
+807..895
+5
+#### Text ####
+Kraft recently agreed to spend an additional $3 million on similar programs through 1990
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1058..1061
+6,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+899..1056
+6,0
+#### Text ####
+Bill Murphy, director of the new marketing unit, said Meredith is negotiating other large-scale packages with leading companies in several product categories
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1062..1094
+6,3
+#### Text ####
+he wouldn't disclose their names
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1096
+7
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1058..1094
+6,2;6,3;6,4
+#### Text ####
+but he wouldn't disclose their names
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1096..1318
+7
+#### Text ####
+Sources close to the company and ad agencies that work with Meredith said leading advertisers in consumer electronics, packaged goods and automotive products were among those negotiating ad packages with the Meredith group
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1398
+9
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1322..1396
+8
+#### Text ####
+Other magazine publishing companies have been moving in the same direction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1398..1573
+9
+#### Text ####
+The New York Times Co. 's Magazine Group earlier this year began offering advertisers extensive merchandising services built around buying ad pages in its Golf Digest magazine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1575
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1398..1573
+9
+#### Text ####
+The New York Times Co. 's Magazine Group earlier this year began offering advertisers extensive merchandising services built around buying ad pages in its Golf Digest magazine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1575..1757
+10
+#### Text ####
+Time Warner Inc. recently formed a "synergy department" to seek out ways to offer advertisers packages that could combine Time's magazines with Warner products such as videocassettes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1887
+12
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1829..1884
+11,1,1
+#### Text ####
+Meredith is the leader in providing multimedia packages
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1761..1828
+11,0;11,1,0;11,2
+#### Text ####
+Paul DuCharme, director of media services at Grey Advertising, said
+##############
+____Arg2____
+1887..2029
+12,1
+#### Text ####
+They may get passed up later when other publishers get their acts together, but for now they are the quickest offering the most extensive plan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2032..2039
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1910..1915
+12,1,0,1,1,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2032..2039
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he said
+##############
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+1963..2029
+12,1,2;12,1,3
+#### Text ####
+but for now they are the quickest offering the most extensive plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1887..1909;1916..1961
+12,1,0,0;12,1,0,1,0;12,1,0,1,1,0;12,1,0,1,1,1,0;12,1,0,1,1,1,1;12,1,0,1,1,1,3
+#### Text ####
+They may get passed up when other publishers get their acts together
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1963..1966
+12,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2032..2039
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he said
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1887..1961
+12,1,0
+#### Text ####
+They may get passed up later when other publishers get their acts together
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1967..2029
+12,1,3
+#### Text ####
+for now they are the quickest offering the most extensive plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2580..2583
+15,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2562..2577
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+said Mr. Murphy
+##############
+but, Comparison.Contrast
+____Arg1____
+2453..2559
+14,1
+#### Text ####
+Five years ago, magazine publishers would simply bid on an advertiser's big ad schedule for their magazine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2584..2607
+15,0;15,2;15,3;15,4
+#### Text ####
+the marketplace changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2609
+16
+#### Features ####
+Ot, Comm, Null, Null
+2562..2577
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+said Mr. Murphy
+##############
+as, Expansion.Conjunction
+____Arg1____
+2580..2607
+15
+#### Text ####
+But the marketplace changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2609..2685
+16
+#### Text ####
+Advertisers now say `Help us improve our image and extend our selling season
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2689
+17
+#### Features ####
+Ot, Comm, Null, Null
+2562..2577
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+said Mr. Murphy
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+2609..2685
+16
+#### Text ####
+Advertisers now say `Help us improve our image and extend our selling season
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2689..2736
+17
+#### Text ####
+They are coming to publishers looking for ideas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

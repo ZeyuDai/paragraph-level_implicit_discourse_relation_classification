@@ -1,0 +1,318 @@
+________________________________________________________
+____Explicit____
+258..268
+1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+9..171
+0
+#### Text ####
+Dow Jones & Co. extended its tender offer of $18 a share, or about $576 million, for the 33% of Telerate Inc. that it doesn't already own until 5 p.m. EST, Nov. 6
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+175..184;269..316
+1,0,0;1,0,1;1,0,3;1,2;1,3
+#### Text ####
+The offer had been scheduled to expire at midnight Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+333
+2
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+186..256
+1,0,2
+#### Text ####
+which Telerate's two independent directors have rejected as inadequate
+##############
+____Arg1____
+175..184;258..316
+1,0,0;1,0,1;1,0,3;1,1;1,2;1,3
+#### Text ####
+The offer previously had been scheduled to expire at midnight Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+333..470
+2,1,1
+#### Text ####
+it extended the offer to allow shareholders time to review a supplement to the Dow Jones tender offer circular that it mailed last Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+318..332
+2,0;2,1,0;2,2
+#### Text ####
+Dow Jones said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+582..587
+3,0,1,1,1,1,1,1,1,3,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+518..581
+3,0,1,1,1,0;3,0,1,1,1,1,0;3,0,1,1,1,1,1,0;3,0,1,1,1,1,1,1,0;3,0,1,1,1,1,1,1,1,0;3,0,1,1,1,1,1,1,1,1;3,0,1,1,1,1,1,1,1,2
+#### Text ####
+that has been filed with the Securities and Exchange Commission
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+588..628
+3,0,1,1,1,1,1,1,1,3,1
+#### Text ####
+Dow Jones launched the offer on Sept. 26
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+630..633
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+474..628
+3,0
+#### Text ####
+The supplement contains various information that has been filed with the Securities and Exchange Commission since Dow Jones launched the offer on Sept. 26
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+634..726
+3,3
+#### Text ####
+it doesn't change the terms and conditions of the offer except to extend its expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+690..696
+3,3,1,2,2,0
+#### Text ####
+except
+##############
+#### Features ####
+Wr, Comm, Null, Null
+except, Expansion.Exception
+____Arg1____
+630..689
+3,2;3,3,0;3,3,1,0;3,3,1,1;3,3,1,2,0;3,3,1,2,1;3,4
+#### Text ####
+but it doesn't change the terms and conditions of the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+697..726
+3,3,1,2,2,1
+#### Text ####
+to extend its expiration date
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+908..913
+4,3,1,2,1,1,2,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+730..802
+4,0;4,1;4,2;4,3,0;4,3,1,0;4,3,1,1;4,4
+#### Text ####
+In Delaware Chancery Court litigation, Telerate has criticized Dow Jones
+##############
+while, Comparison.Contrast
+____Arg1____
+822..906
+4,3,1,2,1,1,2,0;4,3,1,2,1,1,2,1,0;4,3,1,2,1,1,2,1,1,0;4,3,1,2,1,1,2,1,1,1;4,3,1,2,1,1,2,1,1,2
+#### Text ####
+that Telerate's management expects the company's revenue to increase by 20% annually
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+914..1004
+4,3,1,2,1,1,2,1,1,3,1
+#### Text ####
+Dow Jones based its projections of Telerate's performance on a 12% revenue growth forecast
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1006
+5
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+730..1004
+4
+#### Text ####
+In Delaware Chancery Court litigation, Telerate has criticized Dow Jones for not disclosing that Telerate's management expects the company's revenue to increase by 20% annually, while Dow Jones based its projections of Telerate's performance on a 12% revenue growth forecast
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1006..1263
+5
+#### Text ####
+In the tender offer supplement, Dow Jones discloses the different growth forecasts but says it views the 20% growth rate "as a hoped-for goal" of Telerate's management "and not as a realistic basis on which to project the company's likely future performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1375
+7
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1268..1373
+6
+#### Text ####
+Telerate shares fell 50 cents on Friday to close at $20 each in New York Stock Exchange composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1375..1461
+7
+#### Text ####
+Dow Jones shares also fell 50 cents to close at $36.125 in Big Board composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1392..1396
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Restatement.Specification
+____Arg1____
+1268..1373
+6
+#### Text ####
+Telerate shares fell 50 cents on Friday to close at $20 each in New York Stock Exchange composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1375..1391;1397..1461
+7,0;7,2;7,3
+#### Text ####
+Dow Jones shares fell 50 cents to close at $36.125 in Big Board composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1563
+9
+____Arg1____
+1465..1561
+8
+#### Text ####
+Dow Jones has said it believes the $18-a-share price is fair to Telerate's minority shareholders
+##############
+____Arg2____
+1563..1727
+9
+#### Text ####
+Late last week, representatives of Dow Jones and Telerate began negotiations about the terms of the offer, but those talks didn't result in any changes in the offer
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1670..1673
+9,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1563..1668
+9,0
+#### Text ####
+Late last week, representatives of Dow Jones and Telerate began negotiations about the terms of the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1674..1727
+9,3
+#### Text ####
+those talks didn't result in any changes in the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1816
+11
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1731..1814
+10
+#### Text ####
+Telerate provides information about financial markets through an electronic network
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1816..1990
+11
+#### Text ####
+Dow Jones, which owns 67% of Telerate, publishes The Wall Street Journal, Barron's magazine, community newspapers and operates financial news services and computer data bases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

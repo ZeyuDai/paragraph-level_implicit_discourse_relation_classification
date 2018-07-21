@@ -1,0 +1,211 @@
+________________________________________________________
+____Explicit____
+231..235
+1,0,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General, Temporal.Synchrony
+____Arg1____
+83..230
+1,0,0;1,0,1,0;1,0,1,1,0;1,0,1,1,1
+#### Text ####
+Individual investors, investment firms and arbitragers who speculate in the stocks of takeover candidates can suffer liquidity and payment problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+236..247
+1,0,1,1,2,1
+#### Text ####
+stocks dive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+249
+1
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+83..247
+1,0
+#### Text ####
+Individual investors, investment firms and arbitragers who speculate in the stocks of takeover candidates can suffer liquidity and payment problems when stocks dive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+249..350
+1,2
+#### Text ####
+those investors often borrow heavily to buy their holdings and use the stocks as collateral for loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+352..355
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+249..350
+1,2
+#### Text ####
+those investors often borrow heavily to buy their holdings and use the stocks as collateral for loans
+##############
+____Arg1____
+83..247
+1,0
+#### Text ####
+Individual investors, investment firms and arbitragers who speculate in the stocks of takeover candidates can suffer liquidity and payment problems when stocks dive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+356..478
+2,1;2,2;2,3
+#### Text ####
+several large banks said yesterday they detected no signs of unusual demand for credit that would signal such difficulties
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+563
+4
+____Arg1____
+483..560
+3
+#### Text ####
+We're seeing nothing out of the ordinary," said one official at a Top 10 bank
+##############
+____Arg2____
+563..614
+4
+#### Text ####
+That's good news, because we all swim in this water
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+581..588
+4,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+526..560
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+said one official at a Top 10 bank
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+563..579
+4,0;4,1;4,2,0;4,2,1;4,2,2;4,3;4,4
+#### Text ####
+That's good news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+589..614
+4,2,3,1
+#### Text ####
+we all swim in this water
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+617
+5
+____Arg1____
+563..614
+4
+#### Text ####
+That's good news, because we all swim in this water
+##############
+____Arg2____
+617..773
+5
+#### Text ####
+Added another executive at a big bank: "We were all a little goosey over the weekend trying to forecast what would happen {Monday}, but it's been very quiet
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+749..752
+5,4,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+617..654
+5,0;5,1;5,2;5,3;5,5
+#### Text ####
+Added another executive at a big bank
+##############
+but, Comparison
+____Arg1____
+657..747
+5,4,0
+#### Text ####
+We were all a little goosey over the weekend trying to forecast what would happen {Monday}
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+753..773
+5,4,3
+#### Text ####
+it's been very quiet
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+775
+6
+#### Features ####
+Ot, Comm, Null, Null
+617..654
+5,0;5,1;5,2;5,3;5,5
+#### Text ####
+Added another executive at a big bank
+##############
+but, Comparison.Contrast
+____Arg1____
+749..773
+5,4,2;5,4,3
+#### Text ####
+but it's been very quiet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+775..812
+6
+#### Text ####
+Now, as for tomorrow, hell, who knows
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

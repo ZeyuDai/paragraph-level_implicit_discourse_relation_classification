@@ -1,0 +1,818 @@
+________________________________________________________
+____Implicit____
+258
+2
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+152..256
+1
+#### Text ####
+They accounted for a hefty 16% of New York Stock Exchange volume Monday, the fourth busiest session ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+258..320
+2
+#### Text ####
+On Friday, 13% of volume was in computer-guided program trades
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+333..344
+3,2
+#### Text ####
+by contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+152..320
+1;2
+#### Text ####
+They accounted for a hefty 16% of New York Stock Exchange volume Monday, the fourth busiest session ever.
+On Friday, 13% of volume was in computer-guided program trades
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+322..331;346..404
+3,0;3,1;3,3;3,4;3,5;3,6
+#### Text ####
+In August program trading averaged 10.3% of daily Big Board turnover
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+494..497
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+408..492
+4,0
+#### Text ####
+Program traders were publicly castigated following the 508-point crash Oct. 19, 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+498..574
+4,3
+#### Text ####
+a number of brokerage firms pulled back from using this strategy for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+576..579
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+408..574
+4
+#### Text ####
+Program traders were publicly castigated following the 508-point crash Oct. 19, 1987, and a number of brokerage firms pulled back from using this strategy for a while
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+580..635
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+as the outcry faded by the spring of 1988, they resumed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+580..582
+5,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+576..579;623..635
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+But they resumed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+583..621
+5,1,1
+#### Text ####
+the outcry faded by the spring of 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+637
+6
+____Arg1____
+576..635
+5
+#### Text ####
+But as the outcry faded by the spring of 1988, they resumed
+##############
+____Arg2____
+637..771
+6
+#### Text ####
+Some observers thought that after Friday's sharp drop, the firms would rein in their program traders to avoid stoking more controversy
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+775..778
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+637..771
+6
+#### Text ####
+Some observers thought that after Friday's sharp drop, the firms would rein in their program traders to avoid stoking more controversy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+779..851
+7,1;7,2;7,3
+#### Text ####
+the statistics released yesterday show the firms did nothing of the sort
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+853..863;876..879
+8,0;8,2,0
+#### Text ####
+One reason was
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+775..851
+7
+#### Text ####
+But the statistics released yesterday show the firms did nothing of the sort
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+853..863;876..961
+8,0;8,2;8,3
+#### Text ####
+One reason was that the official reports on the 1987 crash exonerated program trading as a cause
+##############
+#### Features ####
+Ot, Comm, Null, Null
+865..874
+8,1
+#### Text ####
+they said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1037..1044
+9,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+965..1036
+9,0;9,1,0;9,1,1;9,2
+#### Text ####
+Stock-index arbitrage is the most controversial form of program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1045..1102
+9,1,2,1
+#### Text ####
+it accelerates market moves, if not actually causing them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1074..1076
+9,1,2,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Comparison.Contrast.Juxtaposition
+____Arg1____
+1037..1072
+9,1,2,0;9,1,2,1,0;9,1,2,1,1,0;9,1,2,1,1,1;9,1,2,1,1,2
+#### Text ####
+because it accelerates market moves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1077..1102
+9,1,2,1,1,3,1
+#### Text ####
+not actually causing them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1104
+10
+____Arg1____
+965..1102
+9
+#### Text ####
+Stock-index arbitrage is the most controversial form of program trading because it accelerates market moves, if not actually causing them
+##############
+____Arg2____
+1104..1241
+10
+#### Text ####
+In it, traders buy or sell stocks and offset those positions in stock-index futures contracts to profit from fleeting price discrepancies
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1243
+11
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1104..1241
+10
+#### Text ####
+In it, traders buy or sell stocks and offset those positions in stock-index futures contracts to profit from fleeting price discrepancies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1243..1411
+11
+#### Text ####
+Under the exchange's definitions, program trading also describes a number of other strategies that, in the opinion of some traders, don't cause big swings in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1293..1297
+11,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+965..1102
+9
+#### Text ####
+Stock-index arbitrage is the most controversial form of program trading because it accelerates market moves, if not actually causing them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1243..1292;1298..1411
+11,0;11,1;11,2;11,4;11,5
+#### Text ####
+Under the exchange's definitions, program trading describes a number of other strategies that, in the opinion of some traders, don't cause big swings in the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1501
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1415..1499
+12
+#### Text ####
+The Big Board's disclosure of program trading activity on these two days was unusual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1501..1632
+13
+#### Text ####
+Though it collects such data daily, its monthly reports on program trading usually come out about three weeks after each month ends
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1501..1507
+13,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+1537..1632
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+its monthly reports on program trading usually come out about three weeks after each month ends
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1508..1535
+13,0,1
+#### Text ####
+it collects such data daily
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1593..1616
+13,4,2,0;13,4,2,1
+#### Text ####
+about three weeks after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1537..1592
+13,1;13,2;13,3;13,4,0;13,4,1;13,5
+#### Text ####
+its monthly reports on program trading usually come out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1617..1632
+13,4,2,2
+#### Text ####
+each month ends
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1634
+14
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1501..1632
+13
+#### Text ####
+Though it collects such data daily, its monthly reports on program trading usually come out about three weeks after each month ends
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1634..1688
+14
+#### Text ####
+The September figures are due to be released this week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1821..1824
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1692..1819
+15
+#### Text ####
+The Big Board declined to name the Wall Street firms involved in the activity Friday and Monday, or the type of strategies used
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1825..1993
+16,1;16,2;16,3
+#### Text ####
+traders on the exchange floor, who can observe the computer-guided trading activity on monitor screens, said most of the top program-trading firms were active both days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2180..2186
+18,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+2287..2334
+18,3,1
+#### Text ####
+that few executives would comment on the record
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2187..2244
+18,0,1
+#### Text ####
+brokerage officials defended their use of program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2336
+19
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2180..2334
+18
+#### Text ####
+Though brokerage officials defended their use of program trading, one sign of what an issue it remains was that few executives would comment on the record
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2336..2520
+19
+#### Text ####
+Besides reciting the pardon for program trading contained in the Brady Commission report, they said stock-index arbitrage was actually needed Monday to restore the markets' equilibrium
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2336..2343
+19,0,0
+#### Text ####
+Besides
+##############
+#### Features ####
+Wr, Comm, Null, Null
+besides, Expansion.Conjunction
+____Arg1____
+2426..2520
+19,1;19,2;19,3;19,4
+#### Text ####
+they said stock-index arbitrage was actually needed Monday to restore the markets' equilibrium
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2344..2424
+19,0,1
+#### Text ####
+reciting the pardon for program trading contained in the Brady Commission report
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2601..2605
+20,3,0,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+2524..2600
+20,0;20,1;20,2;20,3,0,0;20,3,0,1,0;20,3,0,1,1;20,3,0,1,2
+#### Text ####
+On Friday, the stock-index futures market was unhinged from the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2606..2794
+20,3,0,1,3,1;20,3,1;20,3,2;20,4
+#### Text ####
+the Chicago Mercantile Exchange halted trading in Standard & Poor's 500 futures contract -- a "circuit breaker" procedure instituted after the 1987 crash and implemented for the first time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2796
+21
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2524..2694
+20,0;20,1;20,2;20,3,0;20,3,1;20,4
+#### Text ####
+On Friday, the stock-index futures market was unhinged from the stock market when the Chicago Mercantile Exchange halted trading in Standard & Poor's 500 futures contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2796..2949
+21
+#### Text ####
+Futures trading resumed a half-hour later, but the session ended shortly thereafter, leaving the stock market set up for more sell programs, traders said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2839..2842
+21,0,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2937..2949
+21,1;21,2;21,3;21,4
+#### Text ####
+traders said
+##############
+but, Comparison.Contrast
+____Arg1____
+2796..2837
+21,0,0
+#### Text ####
+Futures trading resumed a half-hour later
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2843..2935
+21,0,3
+#### Text ####
+the session ended shortly thereafter, leaving the stock market set up for more sell programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2861..2879
+21,0,3,1,1
+#### Text ####
+shortly thereafter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2937..2949
+21,1;21,2;21,3;21,4
+#### Text ####
+traders said
+##############
+thereafter, Temporal.Asynchronous.Precedence
+____Arg1____
+2796..2837
+21,0,0
+#### Text ####
+Futures trading resumed a half-hour later
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2839..2860
+21,0,2;21,0,3,0;21,0,3,1,0;21,0,3,1,2
+#### Text ####
+but the session ended
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2951
+22
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2839..2935
+21,0,2;21,0,3
+#### Text ####
+but the session ended shortly thereafter, leaving the stock market set up for more sell programs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2937..2949
+21,1;21,2;21,3;21,4
+#### Text ####
+traders said
+##############
+____Arg2____
+2951..2968;2981..3072
+22,0;22,2;22,3;22,4
+#### Text ####
+By Monday morning stock-index arbitrage sell programs helped re-establish the link between stocks and futures
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2970..2979
+22,1
+#### Text ####
+they said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3076..3079
+23,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2951..2968;2981..3072
+22,0;22,2;22,3;22,4
+#### Text ####
+By Monday morning stock-index arbitrage sell programs helped re-establish the link between stocks and futures
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2970..2979
+22,1
+#### Text ####
+they said
+##############
+____Arg2____
+3080..3127
+23,1;23,2;23,3
+#### Text ####
+stunning volatility was produced in the process
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3129
+24
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3076..3127
+23
+#### Text ####
+But stunning volatility was produced in the process
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3129..3288
+24
+#### Text ####
+The Dow Jones Industrial Average plunged a breathtaking 63.52 points in the first 40 minutes of trading Monday as stock-index arbitrage sell programs kicked in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3240..3242
+24,1,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3129..3239
+24,0;24,1,0;24,1,1;24,1,2;24,1,3;24,2
+#### Text ####
+The Dow Jones Industrial Average plunged a breathtaking 63.52 points in the first 40 minutes of trading Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3243..3288
+24,1,4,1
+#### Text ####
+stock-index arbitrage sell programs kicked in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3290
+25
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3129..3288
+24
+#### Text ####
+The Dow Jones Industrial Average plunged a breathtaking 63.52 points in the first 40 minutes of trading Monday as stock-index arbitrage sell programs kicked in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3290..3386
+25
+#### Text ####
+At about 10:10 a.m. EDT, the market abruptly turned upward on stock-index arbitrage buy programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3388
+26
+#### Features ####
+Wr, Comm, Null, Null
+finally, Expansion.Restatement
+____Arg1____
+3290..3386
+25
+#### Text ####
+At about 10:10 a.m. EDT, the market abruptly turned upward on stock-index arbitrage buy programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3388..3481
+26
+#### Text ####
+By day's end, the Dow industrials had rebounded 88.12 points, or nearly half of Friday's drop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

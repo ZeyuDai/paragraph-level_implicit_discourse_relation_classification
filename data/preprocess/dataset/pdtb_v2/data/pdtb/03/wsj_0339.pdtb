@@ -1,0 +1,357 @@
+________________________________________________________
+____EntRel____
+236
+2
+____Arg1____
+159..234
+1
+#### Text ####
+LUTHER BURBANK CROSS-BRED PLANTS to produce the billion-dollar Idaho potato
+##############
+____Arg2____
+236..337
+2
+#### Text ####
+Bioengineers set out to duplicate that feat -- scientifically and commercially -- with new life forms
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+469
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+341..467
+3
+#### Text ####
+In 1953, James Watson and his colleagues unlocked the double helix of DNA (deoxyribonucleic acid), the genetic key to heredity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+469..647
+4
+#### Text ####
+Twenty years later, two California academics, Stanley Cohen and Herbert Boyer, made "recombinant" DNA, transplanting a toad's gene into bacteria, which then reproduced toad genes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+621..625
+4,3,3,1,2,1,2,1,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+572..613
+4,3,3,0;4,3,3,1,0;4,3,3,1,1;4,3,3,1,2,0;4,3,3,1,2,1,0;4,3,3,1,2,1,1
+#### Text ####
+transplanting a toad's gene into bacteria
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+615..620;626..647
+4,3,3,1,2,1,2,0;4,3,3,1,2,1,2,1,1;4,3,3,1,2,1,2,1,2
+#### Text ####
+which reproduced toad genes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+651..655
+5,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+737..758
+5,1;5,2;5,3;5,4
+#### Text ####
+they saw dollar signs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+656..735
+5,0,1
+#### Text ####
+Boyer met Robert Swanson, an M.I.T.-trained chemist-turned-entrepreneur in 1976
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+760
+6
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+651..758
+5
+#### Text ####
+When Boyer met Robert Swanson, an M.I.T.-trained chemist-turned-entrepreneur in 1976, they saw dollar signs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+760..839
+6
+#### Text ####
+With $500 apiece and an injection of outside capital, they formed Genentech Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+841
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Temporal.Synchrony
+thus, Contingency.Cause.Result
+____Arg1____
+760..839
+6
+#### Text ####
+With $500 apiece and an injection of outside capital, they formed Genentech Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+841..874
+7
+#### Text ####
+Commercial gene-splicing was born
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+965..986
+9,0,0,0;9,0,0,1,1,1,0;9,0,0,1,1,1,1,0;9,0,0,1,1,1,1,1,0
+#### Text ####
+The next to be cloned
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+878..963
+8
+#### Text ####
+Genentech's first product, a brain protein called somatostatin, proved its technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+965..1132
+9
+#### Text ####
+The next to be cloned, human insulin, had market potential and Genentech licensed it to Eli Lilly, which produced 80% of the insulin used by 1.5 million U.S. diabetics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1024..1027
+9,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+965..1023
+9,0
+#### Text ####
+The next to be cloned, human insulin, had market potential
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1028..1132
+9,2
+#### Text ####
+Genentech licensed it to Eli Lilly, which produced 80% of the insulin used by 1.5 million U.S. diabetics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1386..1397
+12,0
+#### Text ####
+Nonetheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nonetheless, Comparison.Concession.Contra-expectation
+____Arg1____
+1228..1384
+11
+#### Text ####
+At the time, Genentech had only one profitable year behind it (a modest $116,000 on revenue of $2.6 million in 1979) and no product of its own on the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1399..1491
+12,1;12,2;12,3;12,4
+#### Text ####
+the $36 million issue they floated in 1980 opened at $35 and leaped to $89 within 20 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1563..1575
+14,0,0,1,1
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1495..1544
+13
+#### Text ####
+The trip from the test tube was not without snags
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1546..1561;1577..1738
+14,0,0,0;14,0,0,1,0;14,0,0,1,2;14,0,0,2;14,0,0,3;14,0,1;14,1;14,2;14,3;14,4;14,5
+#### Text ####
+Boyer and Cohen both still university researchers, had to be talked into applying for a patent on their gene-splicing technique -- and then the Patent Office refused to grant it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1692..1695
+14,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1546..1688
+14,0
+#### Text ####
+Boyer and Cohen, for instance, both still university researchers, had to be talked into applying for a patent on their gene-splicing technique
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1696..1738
+14,3;14,4;14,5
+#### Text ####
+then the Patent Office refused to grant it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1696..1700
+14,3
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1546..1688
+14,0
+#### Text ####
+Boyer and Cohen, for instance, both still university researchers, had to be talked into applying for a patent on their gene-splicing technique
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1692..1695;1701..1738
+14,2;14,4;14,5
+#### Text ####
+and the Patent Office refused to grant it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1755..1762
+15,2
+#### Text ####
+in turn
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in turn, Temporal.Asynchronous.Precedence
+____Arg1____
+1692..1738
+14,2;14,3;14,4;14,5
+#### Text ####
+and then the Patent Office refused to grant it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1740..1753;1764..1802
+15,0;15,1;15,3;15,4,0;15,4,1,0;15,4,1,1;15,4,1,2;15,4,1,3;15,5
+#### Text ####
+That judgment was reversed by the U.S. Supreme Court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1976
+17
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1916..1974
+16
+#### Text ####
+Gene-splicing now is an integral part of the drug business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1976..2058
+17
+#### Text ####
+Genentech's 1988 sales were $335 million, both from licensing and its own products
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,381 @@
+________________________________________________________
+____Explicit____
+227..231
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+105..215
+0,1,3
+#### Text ####
+purchasing 63 million shares, or 86%, of the Los Angeles-based health-care services concern for $26.50 a share
+##############
+____Arg1____
+9..102
+0,0;0,1,0;0,1,1;0,1,2;0,2
+#### Text ####
+IMA Holdings Corp. completed its $3 billion acquisition of American Medical International Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+217..226;232..281
+1,0;1,2;1,3
+#### Text ####
+The price includes assumption of about $1.4 billion in debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+439
+3
+____Arg1____
+285..437
+2
+#### Text ####
+IMA is a group that includes First Boston Corp. and the Pritzker family of Chicago through the leveraged buy-out fund Harry Gray Melvyn Klein & Partners
+##############
+____Arg2____
+439..564
+3
+#### Text ####
+Harry J. Gray and Melvyn N. Klein, along with five other IMA designees, were named to join American Medical's 10-member board
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+643
+5
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Restatement.Specification
+____Arg1____
+568..641
+4
+#### Text ####
+The completion of the merger agreement follows months of twists and turns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+643..738
+5,0;5,1;5,2;5,3,0;5,3,1;5,3,2,0;5,3,2,1;5,3,2,2;5,4
+#### Text ####
+In January, American Medical brought in a new chief executive officer, Richard A. Gilleland, 45
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+800
+6
+#### Features ####
+Wr, Comm, Null, Null
+next, Temporal.Asynchronous.Precedence
+____Arg1____
+643..738
+5,0;5,1;5,2;5,3,0;5,3,1;5,3,2,0;5,3,2,1;5,3,2,2;5,4
+#### Text ####
+In January, American Medical brought in a new chief executive officer, Richard A. Gilleland, 45
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+800..953
+6
+#### Text ####
+A few days later, American Medical announced sharply lower earnings, taking charges of $24 million for insurance reserves and canceled real estate leases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1105..1109
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+957..1100
+7
+#### Text ####
+In March, American Medical received a $24-a-share offer to take the company private from an investor group including large holder M. Lee Pearce
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1102..1104;1110..1171
+8,0;8,2;8,3
+#### Text ####
+It was considering a restructuring to help boost the stock price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1173
+9
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1102..1171
+8
+#### Text ####
+It also was considering a restructuring to help boost the stock price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1173..1305
+9
+#### Text ####
+A group including several members of the the Bass family of Texas urged the company to take some steps to maximize shareholder value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1366
+11
+____Arg1____
+1309..1364
+10
+#### Text ####
+The following month, the company put itself up for sale
+##############
+____Arg2____
+1366..1517
+11
+#### Text ####
+It received more offers, but the auction was surprisingly won by IMA, which bid $28 a share and asked Mr. Gilleland to stay on as an equity participant
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1391..1394
+11,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1366..1389
+11,0
+#### Text ####
+It received more offers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1395..1434
+11,3,0;11,3,1,0;11,3,1,1;11,3,1,2,0;11,3,1,2,1;11,3,1,2,2,0;11,3,1,2,2,1,0;11,3,1,2,2,1,1
+#### Text ####
+the auction was surprisingly won by IMA
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1519
+12
+____Arg1____
+1366..1517
+11
+#### Text ####
+It received more offers, but the auction was surprisingly won by IMA, which bid $28 a share and asked Mr. Gilleland to stay on as an equity participant
+##############
+____Arg2____
+1519..1586
+12
+#### Text ####
+He indicated that some assets might be sold off to service the debt
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1590..1594
+13,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+1519..1586
+12
+#### Text ####
+He indicated that some assets might be sold off to service the debt
+##############
+____Arg1____
+1391..1517
+11,2;11,3;11,4
+#### Text ####
+but the auction was surprisingly won by IMA, which bid $28 a share and asked Mr. Gilleland to stay on as an equity participant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1673..1769
+13,1;13,3;13,4;13,5;13,6;13,7
+#### Text ####
+IMA early this month lowered its offer to $26.50 a share amid turbulence in the junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1596..1671
+13,2
+#### Text ####
+after extending its offer four times waiting for a congressional tax ruling
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1596..1601
+13,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1590..1594;1673..1769
+13,0;13,1;13,3;13,4;13,5;13,6;13,7
+#### Text ####
+Then IMA early this month lowered its offer to $26.50 a share amid turbulence in the junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1602..1671
+13,2,1
+#### Text ####
+extending its offer four times waiting for a congressional tax ruling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1771
+14
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+1590..1769
+13
+#### Text ####
+Then, after extending its offer four times waiting for a congressional tax ruling, IMA early this month lowered its offer to $26.50 a share amid turbulence in the junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1771..1806
+14,0;14,1,0;14,1,1;14,1,2;14,2
+#### Text ####
+American Medical accepted the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1808..1817
+14,1,3,0
+#### Text ####
+meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+1771..1806
+14,0;14,1,0;14,1,1;14,1,2;14,2
+#### Text ####
+American Medical accepted the offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1818..1864
+14,1,3,1;14,1,3,2
+#### Text ####
+indicating it had heard from two other suitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1866..1869
+15,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1771..1864
+14
+#### Text ####
+American Medical accepted the offer, meanwhile indicating it had heard from two other suitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1870..1934
+15,1;15,2;15,3;15,4
+#### Text ####
+they never materialized and IMA completed the purchase yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1894..1897
+15,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1866..1893
+15,0;15,1
+#### Text ####
+But they never materialized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1898..1934
+15,3
+#### Text ####
+IMA completed the purchase yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

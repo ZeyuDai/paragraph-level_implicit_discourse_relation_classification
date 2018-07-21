@@ -1,0 +1,933 @@
+________________________________________________________
+____Explicit____
+91..93
+0,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+9..90
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+The market for $200 billion of high-yield junk bonds regained some of its footing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+94..157
+0,1,2,1
+#### Text ####
+the Dow Jones Industrial Average rebounded from Friday's plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+161..164
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..157
+0
+#### Text ####
+The market for $200 billion of high-yield junk bonds regained some of its footing as the Dow Jones Industrial Average rebounded from Friday's plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+165..240
+1,1;1,2;1,3
+#### Text ####
+the junk recovery, led by the bellwether RJR Holdings bonds, was precarious
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+242
+2
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+161..182;226..240
+1,0;1,1,0;1,1,1;1,1,3;1,2;1,3
+#### Text ####
+But the junk recovery was precarious
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+242..296
+2,0
+#### Text ####
+No trading existed for the vast majority of junk bonds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+298..332
+2,1;2,2;2,3;2,4
+#### Text ####
+securities industry officials said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+334
+3
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+242..296
+2,0
+#### Text ####
+No trading existed for the vast majority of junk bonds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+298..332
+2,1;2,2;2,3;2,4
+#### Text ####
+securities industry officials said
+##############
+____Arg2____
+334..504
+3
+#### Text ####
+On Friday, trading in practically every issue ground to a halt as potential buyers fled and brokerage firms were unwilling to provide bid and offer prices for most issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+397..399
+3,3,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+334..396
+3,0;3,1;3,2;3,3,0;3,3,1;3,4
+#### Text ####
+On Friday, trading in practically every issue ground to a halt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+400..504
+3,3,2,1
+#### Text ####
+potential buyers fled and brokerage firms were unwilling to provide bid and offer prices for most issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+422..425
+3,3,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+397..421
+3,3,2,0;3,3,2,1,0
+#### Text ####
+as potential buyers fled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+426..504
+3,3,2,1,2
+#### Text ####
+brokerage firms were unwilling to provide bid and offer prices for most issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+535..538
+4,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+614..685
+4,0;4,2;4,3;4,4;4,5
+#### Text ####
+said Raymond Minella, co-head of merchant banking at Merrill Lynch & Co
+##############
+and, Expansion.Conjunction
+____Arg1____
+509..533
+4,1,0
+#### Text ####
+Nothing traded on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+539..612
+4,1,3
+#### Text ####
+people weren't really sure where the market should have opened" yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+688..691
+5,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+614..685
+4,0;4,2;4,3;4,4;4,5
+#### Text ####
+said Raymond Minella, co-head of merchant banking at Merrill Lynch & Co
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+509..612
+4,1
+#### Text ####
+Nothing traded on Friday, and people weren't really sure where the market should have opened" yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+692..728
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+we had a fairly active day yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+896
+7
+#### Features ####
+Ot, Comm, Null, Null
+855..893
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+said David Feinman, a junk bond trader
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+805..852
+6,0,1;6,0,2;6,0,3;6,0,4
+#### Text ####
+I was prepared to be in a very bad mood tonight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+896..946
+7
+#### Text ####
+Now, I feel maybe there's a little bit of euphoria
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+949..952
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1026..1033
+8,2
+#### Text ####
+he said
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+908..946
+7,4,1
+#### Text ####
+maybe there's a little bit of euphoria
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+896..907
+7,0;7,1;7,2;7,3;7,4,0;7,5;7,6
+#### Text ####
+Now, I feel
+##############
+____Arg2____
+953..1024;1036..1097
+8,1;8,3;8,4;8,5;8,6;8,7;8,8
+#### Text ####
+before the stock market rebounded from a sharp early sell-off yesterday You couldn't buy {junk bonds} and you couldn't give them away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+953..959
+8,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+949..952;1036..1097
+8,0;8,3;8,4;8,5;8,6;8,7;8,8
+#### Text ####
+But You couldn't buy {junk bonds} and you couldn't give them away
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1026..1033
+8,2
+#### Text ####
+he said
+##############
+____Arg2____
+960..1024
+8,1,1
+#### Text ####
+the stock market rebounded from a sharp early sell-off yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1066..1069
+8,5
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1026..1033
+8,2
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1036..1064
+8,4
+#### Text ####
+You couldn't buy {junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1070..1097
+8,6
+#### Text ####
+you couldn't give them away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1243..1249
+9,1,1,2,1,2,1,2,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1159..1242
+9,1,1,2,1,2,0;9,1,1,2,1,2,1,0;9,1,1,2,1,2,1,1;9,1,1,2,1,2,1,2,0;9,1,1,2,1,2,1,2,1;9,1,1,2,1,2,1,2,2
+#### Text ####
+which initially tumbled three points, or $30 for each $1,000 face amount, to 96 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1250..1270
+9,1,1,2,1,2,1,2,3,1
+#### Text ####
+rebounding to 99 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1336..1340
+10,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1102..1270
+9
+#### Text ####
+Yesterday's rally was led by RJR Holdings 13 3/4% bonds, which initially tumbled three points, or $30 for each $1,000 face amount, to 96 1/4 before rebounding to 99 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1272..1335;1341..1425
+10,0;10,2;10,3
+#### Text ####
+Bonds issued by Kroger, Duracell, Safeway and American Standard showed big gains, recovering almost all their losses from Friday and early yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1429..1432
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1159..1425
+9,1,1,2,1,2;10
+#### Text ####
+which initially tumbled three points, or $30 for each $1,000 face amount, to 96 1/4 before rebounding to 99 3/4.
+Bonds issued by Kroger, Duracell, Safeway and American Standard also showed big gains, recovering almost all their losses from Friday and early yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1446..1711
+11,2,1
+#### Text ####
+the junk bond market increasingly is separating into a top-tier group, in which trades can be executed easily, and a larger group of lower-quality bonds in which liquidity -- or the ability to trade without too much difficulty -- has steadily deteriorated this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1433..1445
+11,1;11,2,0;11,3
+#### Text ####
+traders said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1979
+15
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1882..1977
+14
+#### Text ####
+Analysts are concerned that much of the high-yield market will remain treacherous for investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1979..2301
+15
+#### Text ####
+Paul Asquith, associate professor at the Massachusetts Institute of Technology's Sloan School of Management, citing a pattern of junk-bond default rates that are low in the early years after issuance and rise later, says, "We're now in a period where we're starting to see defaults from the big issue years of 1984 to 1986
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2188..2193
+15,2,1,1,1,1,1,1,1,2,1
+#### Text ####
+later
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2088..2131
+15,2,0;15,2,1,0;15,2,1,1,0;15,2,1,1,1,0;15,2,1,1,1,1,0
+#### Text ####
+citing a pattern of junk-bond default rates
+##############
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+2132..2178
+15,2,1,1,1,1,1,0;15,2,1,1,1,1,1,1,0;15,2,1,1,1,1,1,1,1,0
+#### Text ####
+that are low in the early years after issuance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2179..2187
+15,2,1,1,1,1,1,1,1,1;15,2,1,1,1,1,1,1,1,2,0
+#### Text ####
+and rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2589
+18
+#### Features ####
+Ot, Comm, Null, Null
+2516..2586
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said Lewis Glucksman, vice chairman of Smith Barney, Harris Upham & Co
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+2472..2513
+17,1
+#### Text ####
+Junk bonds are a highly stratified market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2589..2683
+18
+#### Text ####
+There's a whole bunch of stuff that's money good and a whole bunch of stuff that's not so good
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2793
+20
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2688..2791
+19
+#### Text ####
+Analysts at Standard & Poor's say junk bond offerings by "tightly stretched" issuers seem to be growing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2793..3099
+20
+#### Text ####
+Almost $8 billion of junk bonds that are considered untradeable include issues from SCI TV, Gillette Holdings (not related to Gillette Co.), Interco, Seaman Furniture, Allied Stores, Federated Department Stores, National Gypsum, M.D.C. Holdings, Micropolis, Leaseway Transportation and Price Communications
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3173
+22
+#### Features ####
+Ot, Comm, Null, Null
+3153..3170
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said Mr. Bachmann
+##############
+indeed, Expansion.Restatement.Specification
+____Arg1____
+3104..3150
+21,1
+#### Text ####
+You could still have some very bad times ahead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3173..3308
+22
+#### Text ####
+It's possible to have a 10% default rate in one year, because we're already seeing big problems in the midst of a pretty strong economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3227..3234
+22,2,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3153..3170
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said Mr. Bachmann
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3173..3225
+22,0;22,1;22,2,0;22,2,1;22,2,2;22,2,3;22,3
+#### Text ####
+It's possible to have a 10% default rate in one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3235..3308
+22,2,4,1
+#### Text ####
+we're already seeing big problems in the midst of a pretty strong economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3310
+23
+#### Features ####
+Ot, Comm, Null, Null
+3153..3170
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said Mr. Bachmann
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3173..3308
+22
+#### Text ####
+It's possible to have a 10% default rate in one year, because we're already seeing big problems in the midst of a pretty strong economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3310..3368
+23
+#### Text ####
+I'm certainly not comfortable saying we've seen the bottom
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3373..3376
+24,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3104..3150
+21,1
+#### Text ####
+You could still have some very bad times ahead
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3153..3170
+21,0;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+said Mr. Bachmann
+##############
+____Arg2____
+3377..3452
+24,1;24,2;24,3
+#### Text ####
+yesterday's rally among "good" junk was a badly needed tonic for the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3454
+25
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3373..3452
+24
+#### Text ####
+But yesterday's rally among "good" junk was a badly needed tonic for the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3454..3488;3509..3598
+25,0;25,2;25,3;25,4
+#### Text ####
+Many issues "bounced off the floor and benchmark junk issues "recovered all of their losses" from Friday and early yesterday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3491..3507
+25,1
+#### Text ####
+Mr. Minella said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3509..3512
+25,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3491..3507
+25,1
+#### Text ####
+Mr. Minella said
+##############
+and, Expansion.Conjunction
+____Arg1____
+3454..3488
+25,0
+#### Text ####
+Many issues "bounced off the floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3513..3598
+25,3
+#### Text ####
+benchmark junk issues "recovered all of their losses" from Friday and early yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3600..3611
+26,0
+#### Text ####
+In contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in contrast, Comparison.Contrast
+____Arg1____
+3454..3488;3509..3598
+25,0;25,2;25,3;25,4
+#### Text ####
+Many issues "bounced off the floor and benchmark junk issues "recovered all of their losses" from Friday and early yesterday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3491..3507
+25,1
+#### Text ####
+Mr. Minella said
+##############
+____Arg2____
+3623..3759
+26,2;26,3;26,4;26,5;26,6;26,7;26,8
+#### Text ####
+The stock market gained back only about half what it lost Friday, and the {government} bond market lost about half what it gained Friday
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3613..3620
+26,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3689..3692
+26,5
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3600..3620
+26,0;26,1;26,2;26,4
+#### Text ####
+In contrast, he says
+##############
+and, Expansion.Conjunction
+____Arg1____
+3623..3687
+26,3
+#### Text ####
+The stock market gained back only about half what it lost Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3693..3759
+26,6
+#### Text ####
+the {government} bond market lost about half what it gained Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3898..3909
+28,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3764..3776
+27,0;27,1,0;27,2
+#### Text ####
+Traders said
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+3777..3896
+27,1,1
+#### Text ####
+yesterday's rally was fueled by insurance companies looking for bargains after a drastic slide in prices the past month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3911..3998
+28,1;28,2;28,3;28,4
+#### Text ####
+mutual funds didn't appear to be major sellers of high-yield securities as was expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4065
+30
+#### Features ####
+Ot, Comm, Null, Null
+4037..4062
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+said Drexel's Mr. Feinman
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4003..4034
+29,1
+#### Text ####
+Sometimes a shakeout is healthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4065..4105
+30
+#### Text ####
+People will learn to be more circumspect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4107
+31
+#### Features ####
+Ot, Comm, Null, Null
+4037..4062
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+said Drexel's Mr. Feinman
+##############
+that is, Expansion.Restatement.Specification
+____Arg1____
+4083..4105
+30,2,1,1
+#### Text ####
+to be more circumspect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4107..4173
+31
+#### Text ####
+If they do good credit analysis, they will avoid the hand grenades
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4183
+32
+#### Features ####
+Ot, Comm, Null, Null
+4037..4062
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+said Drexel's Mr. Feinman
+##############
+thus, Contingency.Cause.Result
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+4107..4173
+31
+#### Text ####
+If they do good credit analysis, they will avoid the hand grenades
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4183..4210
+32,1,1
+#### Text ####
+the market is in good shape
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4175..4182
+32,0;32,1,0;32,2
+#### Text ####
+I think
+##############
+________________________________________________________

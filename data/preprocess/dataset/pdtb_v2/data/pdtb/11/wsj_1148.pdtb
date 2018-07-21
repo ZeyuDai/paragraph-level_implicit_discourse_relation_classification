@@ -1,0 +1,299 @@
+________________________________________________________
+____Explicit____
+205..208
+1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+171..203
+1,0
+#### Text ####
+The size of the cuts isn't known
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+209..373
+1,3
+#### Text ####
+they'll be centered in the exploration and production division, which is responsible for locating oil reserves, drilling wells and pumping crude oil and natural gas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+414
+3
+____Arg1____
+377..412
+2
+#### Text ####
+Employees haven't yet been notified
+##############
+____Arg2____
+414..546
+3
+#### Text ####
+Sources said that meetings to discuss the staff reductions have been scheduled for Friday at Mobil offices in New Orleans and Denver
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+742
+5
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+550..595
+4,0;4,1,0;4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1,0;4,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,0;4,1,1,1,1,1,1,1,1;4,2
+#### Text ####
+This would be a second round of cuts by Mobil
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+742..876
+5
+#### Text ####
+Mobil's latest move could signal the beginning of further reductions by other oil companies in their domestic oil-producing operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1051
+7
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+880..1049
+6
+#### Text ####
+In yesterday's third-quarter earnings report, the company alluded to a $40 million provision for restructuring costs involving U.S. exploration and production operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1051..1223
+7
+#### Text ####
+The report says that "the restructuring will take place over a two-year period and will principally involve the transfer and termination of employees in our U.S. operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1722
+11
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1623..1698
+10,1,1
+#### Text ####
+that Mobil is reducing its U.S. work force because of declining U.S. output
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1576..1622
+10,0;10,1,0;10,2
+#### Text ####
+Individuals familiar with Mobil's strategy say
+##############
+____Arg2____
+1722..1812
+11,3,1,0;11,3,1,1,0;11,3,1,1,1,0;11,3,1,1,1,1;11,3,1,1,1,2;11,3,1,1,1,3
+#### Text ####
+domestic exploration and production operations had a $16 million loss in the third quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1700..1721
+11,0;11,1;11,2;11,3,0;11,4
+#### Text ####
+Yesterday, Mobil said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1814..1819
+11,3,1,1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1700..1721
+11,0;11,1;11,2;11,3,0;11,4
+#### Text ####
+Yesterday, Mobil said
+##############
+while, Comparison.Contrast.Opposition
+____Arg1____
+1722..1812
+11,3,1,0;11,3,1,1,0;11,3,1,1,1,0;11,3,1,1,1,1;11,3,1,1,1,2;11,3,1,1,1,3
+#### Text ####
+domestic exploration and production operations had a $16 million loss in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1820..1869
+11,3,1,1,1,4,1
+#### Text ####
+comparable foreign operations earned $234 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2011
+13
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1873..2009
+12
+#### Text ####
+Industrywide, oil production in this country fell by 500,000 barrels a day to 7.7 million barrels in the first eight months of this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2011..2092
+13
+#### Text ####
+Daily output is expected to decline by at least another 500,000 barrels next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2201..2207
+14,1,1,1,1,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+2096..2131
+14,0;14,1,0;14,1,1,0;14,2
+#### Text ####
+Some Mobil executives were dismayed
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2132..2200
+14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1,0;14,1,1,1,1,1,1,0;14,1,1,1,1,1,1,1;14,1,1,1,1,1,1,2
+#### Text ####
+that a reference to the cutbacks was included in the earnings report
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2208..2229
+14,1,1,1,1,1,1,3,1
+#### Text ####
+workers were notified
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2231
+15
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2096..2229
+14
+#### Text ####
+Some Mobil executives were dismayed that a reference to the cutbacks was included in the earnings report before workers were notified
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2231..2365
+15
+#### Text ####
+One Mobil executive said that the $40 million charge related to the action indicates "a substantial" number of people will be involved
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2367
+16
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2256..2365
+15,1,1
+#### Text ####
+that the $40 million charge related to the action indicates "a substantial" number of people will be involved
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2231..2255
+15,0;15,1,0;15,2
+#### Text ####
+One Mobil executive said
+##############
+____Arg2____
+2367..2469
+16
+#### Text ####
+Some will likely be offered severance packages while others will be transferred to overseas operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2414..2419
+16,1,2,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2231..2255
+15,0;15,1,0;15,2
+#### Text ####
+One Mobil executive said
+##############
+while, Comparison.Contrast
+____Arg1____
+2367..2413
+16,0;16,1,0;16,1,1;16,1,2,0;16,1,2,1,0;16,1,2,1,1;16,1,2,1,2;16,2
+#### Text ####
+Some will likely be offered severance packages
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2420..2469
+16,1,2,1,3,1
+#### Text ####
+others will be transferred to overseas operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,220 @@
+________________________________________________________
+____Explicit____
+222..229
+0,1,1,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..80
+0,0;0,1,0;0,2
+#### Text ####
+Your Oct. 13 page-one story on the renewed plight of Western Union says
+##############
+because, Contingency.Cause.Reason
+____Sup1____
+81..151
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1,0;0,1,1,1,1,1,1;0,1,1,1,1,1,3
+#### Text ####
+that Western Union had lost its chance to be in the telephone business
+##############
+____Arg1____
+152..220
+0,1,1,1,1,1,2
+#### Text ####
+by turning down Alexander Graham Bell's offer to it of his invention
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+230..307
+0,1,1,1,1,1,4,1
+#### Text ####
+it supposedly felt that voice communication would never replace the telegraph
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+336
+2
+#### Features ####
+Wr, Comm, Null, Null
+rather, Comparison.Contrast
+____Arg1____
+311..334
+1
+#### Text ####
+Such is hardly the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+336..475
+2,0;2,1,0;2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,1;2,1,1,1,1,1,1,1,2;2,2
+#### Text ####
+Bell's father-in-law, Gardner G. Hubbard, wealthy and well-connected, obtained financing to start the American Bell Telephone Co. in Boston
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+555
+3
+____Arg1____
+336..553
+2
+#### Text ####
+Bell's father-in-law, Gardner G. Hubbard, wealthy and well-connected, obtained financing to start the American Bell Telephone Co. in Boston, which even had a subsidiary in New York called the Telephone Co. of New York
+##############
+____Arg2____
+555..588
+3
+#### Text ####
+This is where Bell's patents went
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+606..612
+4,1
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Comparison
+____Sup1____
+222..307
+0,1,1,1,1,1,4
+#### Text ####
+because it supposedly felt that voice communication would never replace the telegraph
+##############
+____Arg1____
+311..334
+1
+#### Text ####
+Such is hardly the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+592..605;613..654
+4,0;4,2;4,3
+#### Text ####
+Western Union wanted to get into the telephone business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+656
+5
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+592..654
+4
+#### Text ####
+Western Union indeed wanted to get into the telephone business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+656..910
+5
+#### Text ####
+It acquired Thomas Edison's microphone patent and then immediately sued the Bell Co. claiming that the microphone invented by my grandfather, Emile Berliner, which had been sold to Bell for a princely $50,000, infringed upon Western Union's Edison patent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+706..710
+5,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+656..701
+5,0;5,1,0;5,2
+#### Text ####
+It acquired Thomas Edison's microphone patent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+702..705;711..739
+5,1,1;5,1,2,1;5,1,2,2;5,1,2,3
+#### Text ####
+and immediately sued the Bell Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+741..910
+5,1,2,4
+#### Text ####
+claiming that the microphone invented by my grandfather, Emile Berliner, which had been sold to Bell for a princely $50,000, infringed upon Western Union's Edison patent
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+912
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+656..910
+5
+#### Text ####
+It acquired Thomas Edison's microphone patent and then immediately sued the Bell Co. claiming that the microphone invented by my grandfather, Emile Berliner, which had been sold to Bell for a princely $50,000, infringed upon Western Union's Edison patent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+912..1100
+6,0;6,1;6,2;6,3,0;6,3,1;6,3,2,0;6,3,2,1;6,4
+#### Text ####
+When Bell established that the Berliner patent caveat was registered 10 days before Edison's application, Western Union dropped the lawsuit and agreed never to enter the telephone business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+912..916
+6,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+1018..1146
+6,1;6,2;6,3;6,4
+#### Text ####
+Western Union dropped the lawsuit and agreed never to enter the telephone business -- the basis for the company's current plight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+917..1016
+6,0,1
+#### Text ####
+Bell established that the Berliner patent caveat was registered 10 days before Edison's application
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

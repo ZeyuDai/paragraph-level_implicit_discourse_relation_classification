@@ -1,0 +1,1130 @@
+________________________________________________________
+____Explicit____
+58..61
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..56
+0
+#### Text ####
+BROKERAGE HIRING languishes amid market turmoil
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+62..81
+1,1;1,2;1,3
+#### Text ####
+survivors earn more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+253
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+85..251
+2
+#### Text ####
+Shearson Lehman Hutton Inc. counts under 39,000 workers, down 100 from the start of the year and off 8,500 from after its merger and the market collapse two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+253..331
+3
+#### Text ####
+Another major firm has cut 6,000 workers, 13% of its staff, since Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+333
+4
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+253..331
+3
+#### Text ####
+Another major firm has cut 6,000 workers, 13% of its staff, since Black Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+333..472
+4
+#### Text ####
+The Bureau of Labor Statistics says securities firms in New York City alone have slashed 17,000 jobs from the December 1987 peak of 163,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+525..531
+5,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+85..472
+2;3;4
+#### Text ####
+Shearson Lehman Hutton Inc. counts under 39,000 workers, down 100 from the start of the year and off 8,500 from after its merger and the market collapse two years ago.
+Another major firm has cut 6,000 workers, 13% of its staff, since Black Monday.
+The Bureau of Labor Statistics says securities firms in New York City alone have slashed 17,000 jobs from the December 1987 peak of 163,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+474..523;533..581
+5,0;5,1;5,3;5,4;5,5
+#### Text ####
+Average annual earnings of those who have hung on surged to $78,625 last year from $69,553 in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+625
+7
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+585..623
+6
+#### Text ####
+Any hiring is confined to retail sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+625..814
+7;8;9
+#### Text ####
+Illinois Company Investments had been trimming its ranks until last summer.
+But then it was acquired by Household International Inc. Now it offers richer commissions to lure a broker a week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+701..704
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+625..699
+7
+#### Text ####
+Illinois Company Investments had been trimming its ranks until last summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+705..756
+8,1;8,2;8,3;8,4
+#### Text ####
+then it was acquired by Household International Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+758..814
+9
+#### Text ####
+Now it offers richer commissions to lure a broker a week
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+705..709
+8,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+625..699
+7
+#### Text ####
+Illinois Company Investments had been trimming its ranks until last summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+701..704;710..756
+8,0;8,2;8,3;8,4
+#### Text ####
+But it was acquired by Household International Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+758
+9
+____Arg1____
+701..756
+8
+#### Text ####
+But then it was acquired by Household International Inc
+##############
+____Arg2____
+758..814
+9
+#### Text ####
+Now it offers richer commissions to lure a broker a week
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+816
+10
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+758..814
+9
+#### Text ####
+Now it offers richer commissions to lure a broker a week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+816..922
+10
+#### Text ####
+Interstate/Johnson Lane Inc. this year adds 70 people -- 60 of them in retail -- to its 1,300-member staff
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+924
+11
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+701..922
+8;9;10
+#### Text ####
+But then it was acquired by Household International Inc. Now it offers richer commissions to lure a broker a week.
+Interstate/Johnson Lane Inc. this year adds 70 people -- 60 of them in retail -- to its 1,300-member staff
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+924..999
+11
+#### Text ####
+A.G. Edwards & Sons runs training classes and looks for experienced brokers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1303
+15
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+1169..1223
+14,1
+#### Text ####
+I don't foresee any shortages over the next few months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1226..1301
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+says Ken Allen, an official of Operating Engineers Local 3 in San Francisco
+##############
+____Arg2____
+1303..1416
+15
+#### Text ####
+Ironically, "up until the quake, we desperately tried to fill jobs," especially for crane and bulldozer operators
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1418..1421
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1303..1416
+15
+#### Text ####
+Ironically, "up until the quake, we desperately tried to fill jobs," especially for crane and bulldozer operators
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1226..1301
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+says Ken Allen, an official of Operating Engineers Local 3 in San Francisco
+##############
+____Arg2____
+1422..1525
+16,1;16,2;16,3;16,4;16,5;16,7
+#### Text ####
+the Oct. 17 temblor put a halt to much nonessential building, and heavy rains last week slowed the rest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1527..1578
+16,6
+#### Text ####
+freeing construction workers for earthquake repairs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1484..1487
+16,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1418..1482
+16,0;16,1;16,2
+#### Text ####
+But the Oct. 17 temblor put a halt to much nonessential building
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1488..1525
+16,4
+#### Text ####
+heavy rains last week slowed the rest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1527..1578
+16,6
+#### Text ####
+freeing construction workers for earthquake repairs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1625..1631
+17,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Sup1____
+1169..1578
+14;15;16
+#### Text ####
+I don't foresee any shortages over the next few months," says Ken Allen, an official of Operating Engineers Local 3 in San Francisco.
+Ironically, "up until the quake, we desperately tried to fill jobs," especially for crane and bulldozer operators.
+But the Oct. 17 temblor put a halt to much nonessential building, and heavy rains last week slowed the rest, freeing construction workers for earthquake repairs
+##############
+____Arg1____
+1096..1164
+13
+#### Text ####
+SKILLED WORKERS aplenty are available to cope with earthquake damage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1582..1623;1633..1643
+17,0;17,1;17,3;17,4;17,5
+#### Text ####
+The supply of experienced civil engineers is tighter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1645
+18
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1582..1643
+17
+#### Text ####
+The supply of experienced civil engineers, though, is tighter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1645..1808
+18
+#### Text ####
+In recent months, California's Transportation Department has been recruiting in Pennsylvania, Arizona and Texas for engineers experienced in road and bridge design
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1810..1813
+19,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1645..1808
+18
+#### Text ####
+In recent months, California's Transportation Department has been recruiting in Pennsylvania, Arizona and Texas for engineers experienced in road and bridge design
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1815..1938
+19,0,1;19,0,2;19,0,3;19,0,4;19,0,5;19,0,6;19,0,7;19,0,8
+#### Text ####
+with the state offering only $39,000 a year and California's high standard of living, "there aren't too many to choose from
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1941..1979
+19,1;19,2;19,3
+#### Text ####
+says Brent Scott, a recruiting officer
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1989
+20
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1810..1938
+19,0
+#### Text ####
+But, with the state offering only $39,000 a year and California's high standard of living, "there aren't too many to choose from
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1941..1979
+19,1;19,2;19,3
+#### Text ####
+says Brent Scott, a recruiting officer
+##############
+____Arg2____
+1989..2085
+20,1,1
+#### Text ####
+the department now has 75 openings and wants to hire 625 civil engineers over the next 15 months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1981..1988
+20,0;20,1,0;20,2
+#### Text ####
+He says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2142..2145
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2089..2140
+21
+#### Text ####
+THE IRS may taketh what the Labor Department giveth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2146..2156
+22,1;22,2;22,3
+#### Text ####
+stay tuned
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2440
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2239..2438
+23,1,2,1,1
+#### Text ####
+when the Labor Department backed away from a proposal that companies let former employees and beneficiaries -- along with active workers -- borrow against balances in 401(k) and similar savings plans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2440..2553
+24,0;24,1;24,2;24,3,0;24,3,1,0;24,3,1,1;24,3,1,2,0;24,3,1,2,1;24,3,1,2,2;24,3,1,2,3,0;24,3,1,2,3,1,0;24,3,1,2,3,1,1,0;24,3,1,2,3,1,1,1;24,3,1,2,3,1,1,2,0;24,3,1,2,3,1,1,2,1,0;24,3,1,2,3,1,1,2,1,1;24,3,1,2,3,1,1,2,1,2;24,3,1,2,3,1,1,2,1,3;24,3,1,2,3,1,1,2,1,4;24,4
+#### Text ####
+In an advisory letter, the department said that, starting Oct. 18, loans could be limited to "parties in interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2769..2771
+25,2,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2670..2684
+25,0;25,1;25,2,0;25,3
+#### Text ####
+Now comes word
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2685..2768
+25,2,1,0;25,2,1,1,0;25,2,1,1,1,0;25,2,1,1,1,1,0;25,2,1,1,1,1,1;25,2,1,1,1,1,2
+#### Text ####
+that IRS regulations being drafted could put companies in violation of the tax code
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2772..2903
+25,2,1,1,1,1,3,1
+#### Text ####
+they make loans to retiree shareholders and directors but don't make them available to other former workers who usually earned less
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2918
+26
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2685..2903
+25,2,1
+#### Text ####
+that IRS regulations being drafted could put companies in violation of the tax code if they make loans to retiree shareholders and directors but don't make them available to other former workers who usually earned less
+##############
+#### Features ####
+Arb, Comm, Null, Null
+2670..2684
+25,0;25,1;25,2,0;25,3
+#### Text ####
+Now comes word
+##############
+____Arg2____
+2918..2989
+26,1,1
+#### Text ####
+the question won't be settled until the regulations are issued "shortly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2905..2917
+26,0;26,1,0;26,2;26,3
+#### Text ####
+The IRS says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2948..2953
+26,1,1,1,1,2,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2905..2917
+26,0;26,1,0;26,2;26,3
+#### Text ####
+The IRS says
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+2918..2947
+26,1,1,0;26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1;26,1,1,1,1,2,0;26,1,1,1,1,2,1,0;26,1,1,1,1,2,1,1
+#### Text ####
+the question won't be settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2954..2989
+26,1,1,1,1,2,1,2,1
+#### Text ####
+the regulations are issued "shortly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2992..2995
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2905..2989
+26
+#### Text ####
+The IRS says the question won't be settled until the regulations are issued "shortly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2996..3074
+27,1;27,2;27,3
+#### Text ####
+violation could bring substantial tax penalties to both employer and employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3077
+28
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement.Generalization
+____Arg1____
+2992..3074
+27
+#### Text ####
+But violation could bring substantial tax penalties to both employer and employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3077..3118
+28,1
+#### Text ####
+It's a severe case of regulatory whiplash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3121..3180
+28,0;28,2;28,3;28,4;28,5;28,6
+#### Text ####
+complains Henry Saveth of consultant A. Foster Higgins & Co
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3365
+31
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3285..3317
+30
+#### Text ####
+CORPORATE DOWNSIZING digs deeper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3365..3442
+31,1,1,1,0
+#### Text ####
+the average pay of its clients fell to $66,743 last year from $70,765 in 1987
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3319..3364
+31,0;31,1,0;31,2
+#### Text ####
+Outplacement consultant Right Associates says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3444
+31
+#### Features ####
+Ot, Comm, Null, Null
+3319..3364
+31,0;31,1,0;31,2
+#### Text ####
+Outplacement consultant Right Associates says
+##############
+and, Expansion.Conjunction
+____Arg1____
+3365..3442
+31,1,1,1,0
+#### Text ####
+the average pay of its clients fell to $66,743 last year from $70,765 in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3444..3485
+31,1,1,1,2
+#### Text ####
+severance pay dropped to 25 weeks from 29
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3487..3499
+32,0;32,1,0
+#### Text ####
+Both reflect
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+3365..3485
+31,1,1
+#### Text ####
+the average pay of its clients fell to $66,743 last year from $70,765 in 1987; severance pay dropped to 25 weeks from 29
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3319..3364
+31,0;31,1,0;31,2
+#### Text ####
+Outplacement consultant Right Associates says
+##############
+____Arg2____
+3487..3558
+32
+#### Text ####
+Both reflect the dismissal of lower-level and shorter-tenure executives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3669..3672
+35,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3583..3667
+34
+#### Text ####
+Executives universally believe workers should know their employer-sponsored benefits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3673..3754
+35,0,1;35,0,2
+#### Text ####
+three out of four managers can't accurately state the value of their own packages
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3756..3785
+35,1;35,2;35,3;35,4
+#### Text ####
+consultant Noble Lowndes says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4133
+40
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4007..4100
+39,0
+#### Text ####
+Only one in four companies with flexible benefit plans lets workers buy or sell vacation days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4102..4131
+39,1;39,2;39,3;39,4
+#### Text ####
+consultant Towers Perrin says
+##############
+____Arg2____
+4133..4194
+40
+#### Text ####
+Employees like the option but firms say it's too tough to run
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4159..4162
+40,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4133..4158
+40,0
+#### Text ####
+Employees like the option
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4163..4194
+40,2
+#### Text ####
+firms say it's too tough to run
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+4196
+41
+____Arg1____
+4133..4194
+40
+#### Text ####
+Employees like the option but firms say it's too tough to run
+##############
+____Arg2____
+4196..4250
+41
+#### Text ####
+STUDENTS SHUN burger flipping for jobs tied to careers
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4252
+42
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+4196..4250
+41
+#### Text ####
+STUDENTS SHUN burger flipping for jobs tied to careers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4252..4267
+42
+#### Text ####
+Some even study
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4351
+44
+#### Features ####
+Ot, Comm, Null, Null
+4369..4381
+44,1
+#### Text ####
+she explains
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4272..4325
+43,1
+#### Text ####
+Fast-food jobs aren't popular no matter what they pay
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4328..4349
+43,0;43,2;43,3;43,4;43,5;43,6
+#### Text ####
+says a Tufts official
+##############
+____Arg2____
+4351..4367;4383..4406
+44,0;44,2;44,3;44,4
+#### Text ####
+Working students want "some satisfaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4409
+45
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+4351..4367;4383..4406
+44,0;44,2;44,3;44,4
+#### Text ####
+Working students want "some satisfaction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4369..4381
+44,1
+#### Text ####
+she explains
+##############
+____Arg2____
+4409..4481
+45
+#### Text ####
+University of Michigan students look for jobs related to planned careers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4500..4506
+46,0,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+4272..4481
+43;44;45
+#### Text ####
+Fast-food jobs aren't popular no matter what they pay," says a Tufts official.
+Working students, she explains, want "some satisfaction." University of Michigan students look for jobs related to planned careers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4483..4498;4508..4589
+46,0,0;46,0,1;46,0,3;46,0,4
+#### Text ####
+Carnegie Mellon says some students conclude they can help their careers most by hitting the books
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4592..4686
+46,3
+#### Text ####
+They're opting to build their resumes through good grades and leadership roles in fraternities
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4592
+46
+#### Features ####
+Ot, Comm, Null, Null
+4483..4512
+46,0,0;46,0,1;46,0,2;46,0,3;46,0,4,0
+#### Text ####
+Carnegie Mellon, though, says
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+4513..4589
+46,0,4,1
+#### Text ####
+some students conclude they can help their careers most by hitting the books
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4592..4686
+46,3
+#### Text ####
+They're opting to build their resumes through good grades and leadership roles in fraternities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4745
+48
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4691..4743
+47
+#### Text ####
+Slowing economies in some areas limit student choice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4745..4834
+48
+#### Text ####
+Student job postings at Boston University slip 10% this year following a 10% drop in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4836..4841
+49,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+4745..4834
+48
+#### Text ####
+Student job postings at Boston University slip 10% this year following a 10% drop in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4859..4936
+49,3,1
+#### Text ####
+there are an ample number and pay is up to $7.20 an hour from $6.90 last year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4843..4858
+49,1;49,2;49,3,0;49,4
+#### Text ####
+the school says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4885..4888
+49,3,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4836..4884
+49,0;49,1;49,2;49,3,0;49,3,1,0;49,3,1,1,0;49,4
+#### Text ####
+Still, the school says there are an ample number
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4889..4936
+49,3,1,1,2
+#### Text ####
+pay is up to $7.20 an hour from $6.90 last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+5250
+53
+____Arg1____
+5064..5242
+51,1;51,2;51,3;52
+#### Text ####
+Fiery ambition: Hyatt Corp. hires a University of Wyoming graduate with degrees in geology and petroleum engineering for $7.50 an hour to tend wood fires at a Colorado ski resort
+##############
+____Arg2____
+5250..5282
+53
+#### Text ####
+Is somebody telling us something
+##############
+________________________________________________________

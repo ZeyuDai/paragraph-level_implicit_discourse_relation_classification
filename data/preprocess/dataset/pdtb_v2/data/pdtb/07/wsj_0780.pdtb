@@ -1,0 +1,171 @@
+________________________________________________________
+____Implicit____
+262
+2
+#### Features ####
+Ot, Comm, Null, Null
+165..259
+1,1;1,2;1,3;1,4
+#### Text ####
+said Mr. Leigh-Pemberton in a speech to the Association of Corporate Treasurers' annual dinner
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+119..162
+1,0
+#### Text ####
+Caution should . . . be the rule of the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+262..426
+2
+#### Text ####
+It would be damaging to industry and to the financial sector in general, to say nothing of banks, if prudence does not guide the financing of leveraged transactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+360..362
+2,2,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+165..259
+1,1;1,2;1,3;1,4
+#### Text ####
+said Mr. Leigh-Pemberton in a speech to the Association of Corporate Treasurers' annual dinner
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+262..358
+2,0;2,1;2,2,0;2,2,1,0;2,2,1,1,0;2,2,1,1,1;2,3;2,4
+#### Text ####
+It would be damaging to industry and to the financial sector in general, to say nothing of banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+363..426
+2,2,1,1,2,1
+#### Text ####
+prudence does not guide the financing of leveraged transactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+473..479
+3,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+431..472
+3,0;3,1,0;3,1,1,0;3,1,1,1;3,1,1,2;3,2
+#### Text ####
+His remarks were distributed to the press
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+480..559
+3,1,1,3,1
+#### Text ####
+Chancellor of the Exchequer Nigel Lawson announced his resignation last evening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+561
+4
+____Arg1____
+431..559
+3
+#### Text ####
+His remarks were distributed to the press before Chancellor of the Exchequer Nigel Lawson announced his resignation last evening
+##############
+____Arg2____
+561..651
+4
+#### Text ####
+Bank of England officials said the central bank had no comment on Mr. Lawson's resignation
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+786..793
+6,0,0
+#### Text ####
+However
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1019..1026
+6,1;6,2;6,3;6,4
+#### Text ####
+he said
+##############
+however, Comparison
+____Arg1____
+686..783
+5,1,1
+#### Text ####
+that the exposure of United Kingdom banks to leveraged deals haven't yet reached "worrying levels
+##############
+#### Features ####
+Ot, Comm, Null, Null
+655..685
+5,0;5,1,0;5,2;5,3
+#### Text ####
+Mr. Leigh-Pemberton reiterated
+##############
+____Arg2____
+795..1017
+6,0,1;6,0,2;6,0,3;6,0,4;6,0,5
+#### Text ####
+in light of the risks involved in such transactions, banks should satisfy themselves that they have the skills to participate in this market and clear policy guidelines on acceptable levels of exposure to such transactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1166
+8
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1030..1163
+7
+#### Text ####
+In other comments, he said takeovers may not always be the most efficient way of securing a change of corporate direction or strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1166..1249
+8,1
+#### Text ####
+A similar result could sometimes be achieved, at less cost, by changing managements
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1252..1259
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+he said
+##############
+________________________________________________________

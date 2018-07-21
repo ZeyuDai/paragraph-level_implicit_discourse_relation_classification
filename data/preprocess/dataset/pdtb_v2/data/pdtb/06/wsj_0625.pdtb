@@ -1,0 +1,175 @@
+________________________________________________________
+____Implicit____
+222
+3
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+177..220
+2
+#### Text ####
+No non-competitive tenders will be accepted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+222..352
+3
+#### Text ####
+Tenders, available in minimum denominations of $1 million, must be received by noon EST today at Federal Reserve Banks or branches
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+369..373
+4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..114
+0
+#### Text ####
+The Treasury said it plans to sell $2 billion of 51-day cash-management bills today, raising all new cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+356..368;374..427
+4,0;4,2,0;4,2,1,0;4,2,1,1,0;4,2,1,1,1,0;4,2,1,1,1,1;4,3
+#### Text ####
+The Treasury announced details of this week's unusual bill auction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+429..530
+4,2,1,1,1,2
+#### Text ####
+which has been changed to accommodate the expiration of the federal debt ceiling at midnight tomorrow
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+641
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+534..639
+5
+#### Text ####
+The 13-week and 27-week bills will be issued tomorrow rather than Thursday, Nov. 2, as originally planned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+641..733
+6
+#### Text ####
+The three-month bills will still mature Feb. 1, 1990, and the six-month bills on May 3, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+750..754
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+429..530
+4,2,1,1,1,2
+#### Text ####
+which has been changed to accommodate the expiration of the federal debt ceiling at midnight tomorrow
+##############
+____Arg1____
+356..427
+4,0;4,1;4,2,0;4,2,1,0;4,2,1,1,0;4,2,1,1,1,0;4,2,1,1,1,1;4,3
+#### Text ####
+The Treasury also announced details of this week's unusual bill auction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+737..749;755..889
+7,0;7,2;7,3
+#### Text ####
+The Treasury said noncompetitive tenders will be considered timely if postmarked no later than Sunday, Oct. 29, and received no later than tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+809..811
+7,2,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+737..759
+7,0;7,1;7,2,0;7,3
+#### Text ####
+The Treasury also said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+760..808
+7,2,1,0;7,2,1,1,0;7,2,1,1,1,0;7,2,1,1,1,1,0;7,2,1,1,1,1,1,0;7,2,1,1,1,1,1,1
+#### Text ####
+noncompetitive tenders will be considered timely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+812..889
+7,2,1,1,1,1,1,2,1
+#### Text ####
+postmarked no later than Sunday, Oct. 29, and received no later than tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1039
+9
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+911..1037
+8,1,1
+#### Text ####
+it won't be able to honor reinvestment requests from holders of bills maturing Nov. 2 held in the Treasury's book-entry system
+##############
+#### Features ####
+Ot, Comm, Null, Null
+893..910
+8,0;8,1,0;8,2
+#### Text ####
+The Treasury said
+##############
+____Arg2____
+1039..1250
+9
+#### Text ####
+The department will make payment for bills maturing on Nov. 2 to all investors who have requested reinvestment of their bills on that date, as well as to all account holders who have previously requested payment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,83 @@
+________________________________________________________
+____Explicit____
+252..255
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+207..250
+4,0
+#### Text ####
+The guest paid his bill at the resort hotel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+256..320
+4,3
+#### Text ####
+as he departed he noticed a sign saying, "Have You Left Anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+256..258
+4,3,0,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+252..255;271..320
+4,2;4,3,1;4,3,2
+#### Text ####
+and he noticed a sign saying, "Have You Left Anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+259..270
+4,3,0,1
+#### Text ####
+he departed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+402
+6
+#### Features ####
+Ot, Comm, Null, Null
+392..399
+5,2,0;5,2,2;5,2,3;5,2,4;5,2,5
+#### Text ####
+he said
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+371..389
+5,2,1
+#### Text ####
+That sign is wrong
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+402..441
+6
+#### Text ####
+It should read, "Have You Anything Left
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

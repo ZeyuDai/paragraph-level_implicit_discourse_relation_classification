@@ -1,0 +1,413 @@
+________________________________________________________
+____Implicit____
+659
+3
+#### Features ####
+Wr, Comm, Null, Null
+at the time, Temporal.Synchrony
+____Arg1____
+411..657
+2
+#### Text ####
+HomeFed had been one of the handful of large West Coast thrifts that in recent quarters had counteracted interest-rate problems dogging the industry by keeping a lid on problem assets and lending heavily into the furious California housing market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+659..767
+3
+#### Text ####
+Analysts had been projecting fully diluted earnings in the third quarter in the range of about $1.30 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+771..778
+4,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+659..767
+3
+#### Text ####
+Analysts had been projecting fully diluted earnings in the third quarter in the range of about $1.30 a share
+##############
+____Arg1____
+411..657
+2
+#### Text ####
+HomeFed had been one of the handful of large West Coast thrifts that in recent quarters had counteracted interest-rate problems dogging the industry by keeping a lid on problem assets and lending heavily into the furious California housing market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+780..898
+4,1;4,2;4,3;4,4
+#### Text ####
+HomeFed's loan originations and purchases plunged 26% in the quarter, to $1.4 billion from $1.9 billion a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+900..909
+5,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Comparison.Contrast.Opposition
+____Arg1____
+771..898
+4
+#### Text ####
+However, HomeFed's loan originations and purchases plunged 26% in the quarter, to $1.4 billion from $1.9 billion a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+911..973
+5,1;5,2;5,3;5,4
+#### Text ####
+non-performing assets rose to $593 million from $518.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+975
+6
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+900..973
+5
+#### Text ####
+Meanwhile, non-performing assets rose to $593 million from $518.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+975..1128
+6
+#### Text ####
+Some $380 million of the troubled assets is repossessed real estate, a 55.6% surge from the $244.2 million of repossesed property HomeFed held a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1130
+7
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Conjunction
+____Arg1____
+975..1128
+6
+#### Text ####
+Some $380 million of the troubled assets is repossessed real estate, a 55.6% surge from the $244.2 million of repossesed property HomeFed held a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1130..1165
+7
+#### Text ####
+HomeFed has $17.9 billion of assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1292
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1182..1282
+8,1,1
+#### Text ####
+most of the troubled assets are apartment complexes, shopping malls and other commercial real estate
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1169..1181
+8,0;8,1,0;8,2
+#### Text ####
+HomeFed said
+##############
+____Arg2____
+1292..1364
+9,1,1
+#### Text ####
+about half are in California, with the rest scattered across the country
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1284..1291
+9,0;9,1,0;9,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1374
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1292..1364
+9,1,1
+#### Text ####
+about half are in California, with the rest scattered across the country
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1284..1291
+9,0;9,1,0;9,2
+#### Text ####
+It said
+##############
+____Arg2____
+1374..1505
+10,1,1
+#### Text ####
+sales of such properties were slower than anticipated in the third quarter, but it expects sales to pick up in the rest of the year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1366..1373
+10,0;10,1,0;10,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1450..1453
+10,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1366..1373
+10,0;10,1,0;10,2
+#### Text ####
+It said
+##############
+but, Comparison.Contrast
+____Arg1____
+1374..1448
+10,1,1,1,0
+#### Text ####
+sales of such properties were slower than anticipated in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1454..1505
+10,1,1,1,3
+#### Text ####
+it expects sales to pick up in the rest of the year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1630
+12
+____Arg1____
+1509..1628
+11
+#### Text ####
+HomeFed said the slide in loan originations was more a matter of design than a sign of cooling in the California market
+##############
+____Arg2____
+1630..1794
+12
+#### Text ####
+Any such downturn in California would be grim news for West Coast thrifts, particularly the less healthy ones, which have performed poorly even with a torrid market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1796..1799
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1630..1794
+12
+#### Text ####
+Any such downturn in California would be grim news for West Coast thrifts, particularly the less healthy ones, which have performed poorly even with a torrid market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1813..2036
+13,2,1
+#### Text ####
+it purposely curbed loan originations in the quarter because of uncertainty over the new capital requirements and regulations that will emerge from negotiations over implementing the government's massive thrift bailout bill
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1800..1812
+13,1;13,2,0;13,3
+#### Text ####
+HomeFed said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2046
+14
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1813..2036
+13,2,1
+#### Text ####
+it purposely curbed loan originations in the quarter because of uncertainty over the new capital requirements and regulations that will emerge from negotiations over implementing the government's massive thrift bailout bill
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1796..1812
+13,0;13,1;13,2,0;13,3
+#### Text ####
+But HomeFed said
+##############
+____Arg2____
+2046..2166
+14,1,1
+#### Text ####
+its real-estate operations earned a record $21.7 million, more than double year-earlier real estate profit of $9 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2038..2045
+14,0;14,1,0;14,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2168..2171
+15,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2046..2166
+14,1,1
+#### Text ####
+its real-estate operations earned a record $21.7 million, more than double year-earlier real estate profit of $9 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2038..2045
+14,0;14,1,0;14,2
+#### Text ####
+It said
+##############
+____Arg2____
+2186..2284
+15,2,1
+#### Text ####
+they see no signs of an imminent swoon in California real estate, even with last week's earthquake
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2172..2185
+15,1;15,2,0;15,3
+#### Text ####
+analysts said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2313..2317
+16,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+900..973
+5
+#### Text ####
+Meanwhile, non-performing assets rose to $593 million from $518.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2304..2312;2318..2471
+16,1,1,0;16,1,1,1,0;16,1,1,1,2
+#### Text ####
+earnings were nicked in the quarter by a $4 million provision for losses associated with its previously reported plan to liquidate a real-estate franchise network
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2288..2303
+16,0;16,1,0;16,2
+#### Text ####
+The thrift said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2473
+17
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Conjunction
+____Arg1____
+2304..2471
+16,1,1
+#### Text ####
+earnings also were nicked in the quarter by a $4 million provision for losses associated with its previously reported plan to liquidate a real-estate franchise network
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2288..2303
+16,0;16,1,0;16,2
+#### Text ####
+The thrift said
+##############
+____Arg2____
+2473..2649
+17
+#### Text ####
+For the nine months, HomeFed earned $82.5 million, or $3.52 a fully diluted share, a 4.3% increase from year-earlier net income of $79.1 million, or $3.43 a fully diluted share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

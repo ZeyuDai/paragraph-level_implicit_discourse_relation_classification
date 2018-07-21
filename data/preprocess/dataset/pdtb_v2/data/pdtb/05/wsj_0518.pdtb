@@ -1,0 +1,1258 @@
+________________________________________________________
+____Explicit____
+145..148
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..143
+0
+#### Text ####
+Small businesses say a recent trend is like a dream come true: more-affordable rates for employee-health insurance, initially at least
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+149..181
+1,1;1,2;1,3;1,4
+#### Text ####
+then they wake up to a nightmare
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+149..153
+1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+9..143
+0
+#### Text ####
+Small businesses say a recent trend is like a dream come true: more-affordable rates for employee-health insurance, initially at least
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+145..148;154..181
+1,0;1,2;1,3;1,4
+#### Text ####
+But they wake up to a nightmare
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+261..263
+2,0,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+304..317
+2,1;2,2;2,3;2,4
+#### Text ####
+they complain
+##############
+if, Contingency.Condition.General
+____Arg1____
+185..260
+2,0,0;2,0,1,0;2,0,1,1,0;2,0,1,1,1,0;2,0,1,1,1,1;2,0,1,1,1,2
+#### Text ####
+The reasonable first-year rates can be followed by increases of 60% or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+264..302
+2,0,1,1,1,3,1
+#### Text ####
+a covered employee files a major claim
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+319
+3
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+185..302
+2,0
+#### Text ####
+The reasonable first-year rates can be followed by increases of 60% or more if a covered employee files a major claim
+##############
+#### Features ####
+Ot, Comm, Null, Null
+304..317
+2,1;2,2;2,3;2,4
+#### Text ####
+they complain
+##############
+____Arg2____
+319..488
+3
+#### Text ####
+Insurance premiums for one small Maryland concern went up 130% in less than two years, the last increase coming after one of its three workers developed a herniated disk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+431..436
+3,1,5,1,1,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+406..430
+3,1,5,0;3,1,5,1,0
+#### Text ####
+the last increase coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+437..488
+3,1,5,1,1,1
+#### Text ####
+one of its three workers developed a herniated disk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+680
+5
+#### Features ####
+Ot, Comm, Null, Null
+671..679
+5,0,0;5,0,1,0
+#### Text ####
+She said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+493..556
+4,1
+#### Text ####
+There's a distinct possibility that I may lose my job over this
+##############
+#### Features ####
+Ot, Comm, Null, Null
+559..669
+4,0;4,2;4,3;4,4;4,5;4,6;4,7;4,8
+#### Text ####
+the employee, Karen Allen, of Floor Covering Resources, Kensington, Md., recently told a congressional hearing
+##############
+____Arg2____
+680..724
+5,0,1,1
+#### Text ####
+her employer can't afford the rate increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+726..729
+5,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+671..724
+5,0
+#### Text ####
+She said her employer can't afford the rate increases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+730..807
+5,3
+#### Text ####
+she fears she won't find another job with a benefit plan covering her ailment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+893
+7
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Contingency.Pragmatic cause.Justification
+____Arg1____
+811..867
+6
+#### Text ####
+For employee and employer alike, the worry is widespread
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+893..1010
+7,2,1
+#### Text ####
+that small-business owners rank the availability and rising cost of health insurance as one of their biggest concerns
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+869..892
+7,0;7,1;7,2,0;7,3
+#### Text ####
+Surveys repeatedly show
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1244..1246
+8,1,1,1,1,1,1,1,1,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1158..1243
+8,1,1,1,1,1,0;8,1,1,1,1,1,1,0;8,1,1,1,1,1,1,1,0;8,1,1,1,1,1,1,1,1,0;8,1,1,1,1,1,1,1,1,1;8,1,1,1,1,1,1,1,1,2,0;8,1,1,1,1,1,1,1,1,2,1;8,1,1,1,1,1,1,1,2
+#### Text ####
+that small businesses not only can't keep reasonably priced employee-health insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1247..1263
+8,1,1,1,1,1,1,1,1,2,2,1
+#### Text ####
+claims are filed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1301..1303
+8,1,1,1,1,1,1,1,4,3,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1265..1300
+8,1,1,1,1,1,1,1,3;8,1,1,1,1,1,1,1,4,0;8,1,1,1,1,1,1,1,4,1;8,1,1,1,1,1,1,1,4,2;8,1,1,1,1,1,1,1,4,3,0;8,1,1,1,1,1,1,1,4,3,1;8,1,1,1,1,1,1,1,4,3,2
+#### Text ####
+but often can't get coverage at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1304..1344
+8,1,1,1,1,1,1,1,4,3,3,1
+#### Text ####
+a worker is termed medically uninsurable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1466
+10
+#### Features ####
+Ot, Comm, Null, Null
+1447..1463
+9,0;9,2;9,3;9,4;9,5;9,6;9,7
+#### Text ####
+Rep. Waxman says
+##############
+but, Expansion.Conjunction
+____Arg1____
+1349..1444
+9,1
+#### Text ####
+I have an old-fashioned name for people in that position: sick people who need health insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1466..1611
+10
+#### Text ####
+What we're seeing now makes a mockery of the idea of insurance: collect premiums from the healthy, dump the sick and let them pay their own bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1579..1582
+10,1,3,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1447..1463
+9,0;9,2;9,3;9,4;9,5;9,6;9,7
+#### Text ####
+Rep. Waxman says
+##############
+and, Expansion.Conjunction
+____Arg1____
+1530..1578
+10,1,3,0;10,1,3,1,0;10,1,3,1,1;10,1,3,1,2
+#### Text ####
+collect premiums from the healthy, dump the sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1583..1611
+10,1,3,1,4
+#### Text ####
+let them pay their own bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1614
+11
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+1466..1611
+10
+#### Text ####
+What we're seeing now makes a mockery of the idea of insurance: collect premiums from the healthy, dump the sick and let them pay their own bills
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1447..1463
+9,0;9,2;9,3;9,4;9,5;9,6;9,7
+#### Text ####
+Rep. Waxman says
+##############
+____Arg2____
+1614..1696
+11
+#### Text ####
+Some lawmakers may seek legislation to limit overly restrictive insurance policies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1793
+13
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1759..1791
+12,1,1,1,1,2
+#### Text ####
+to woo the small-business market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1793..1993
+13
+#### Text ####
+As larger companies increasingly self-insure, or use reserves to pay their own workers' medical bills, the insurance industry has turned to the small-employer market that was once a backwater for them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1793..1795
+13,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Temporal.Synchrony
+____Arg1____
+1896..1993
+13,1;13,2;13,3;13,4
+#### Text ####
+the insurance industry has turned to the small-employer market that was once a backwater for them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1796..1894
+13,0,1
+#### Text ####
+larger companies increasingly self-insure, or use reserves to pay their own workers' medical bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2041..2043
+14,1,0,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2090..2149
+14,0;14,2;14,3;14,4;14,5,0;14,5,1,0;14,5,1,1,0;14,5,1,1,1;14,6
+#### Text ####
+says Rosemary Heinhold of the Small Business Service Bureau
+##############
+if, Contingency.Condition.General
+____Arg1____
+1998..2040
+14,1,0,0;14,1,0,1,0;14,1,0,1,1,0;14,1,0,1,1,1
+#### Text ####
+Insurance companies will offer a good rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2044..2058
+14,1,0,1,1,2,1
+#### Text ####
+no one is sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2060..2063
+14,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2090..2149
+14,0;14,2;14,3;14,4;14,5,0;14,5,1,0;14,5,1,1,0;14,5,1,1,1;14,6
+#### Text ####
+says Rosemary Heinhold of the Small Business Service Bureau
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1998..2058
+14,1,0
+#### Text ####
+Insurance companies will offer a good rate if no one is sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2064..2087
+14,1,3
+#### Text ####
+it's a roll of the dice
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2209
+15
+#### Features ####
+Ot, Comm, Null, Null
+2090..2206
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+says Rosemary Heinhold of the Small Business Service Bureau, a group representing 35,000 small businesses nationwide
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1998..2087
+14,1
+#### Text ####
+Insurance companies will offer a good rate if no one is sick, but it's a roll of the dice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2209..2299
+15
+#### Text ####
+One case of cancer or a high-risk pregnancy with a sick infant, and rates go up 40% to 60%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2273..2276
+15,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2090..2149
+14,0;14,2;14,3;14,4;14,5,0;14,5,1,0;14,5,1,1,0;14,5,1,1,1;14,6
+#### Text ####
+says Rosemary Heinhold of the Small Business Service Bureau
+##############
+and, Contingency.Cause.Result
+____Arg1____
+2209..2271
+15,0;15,1;15,2
+#### Text ####
+One case of cancer or a high-risk pregnancy with a sick infant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2277..2299
+15,4
+#### Text ####
+rates go up 40% to 60%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2301
+16
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2209..2299
+15
+#### Text ####
+One case of cancer or a high-risk pregnancy with a sick infant, and rates go up 40% to 60%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2301..2404
+16
+#### Text ####
+Small-business people end up paying insurance premiums worth two to three times the cost of one illness
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2409..2420
+17,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2422..2436
+17,1;17,2;17,3,0;17,4
+#### Text ####
+the group says
+##############
+in addition, Expansion.Conjunction
+____Arg1____
+2301..2404
+16
+#### Text ####
+Small-business people end up paying insurance premiums worth two to three times the cost of one illness
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2090..2149
+14,0;14,2;14,3;14,4;14,5,0;14,5,1,0;14,5,1,1,0;14,5,1,1,1;14,6
+#### Text ####
+says Rosemary Heinhold of the Small Business Service Bureau
+##############
+____Arg2____
+2437..2654
+17,3,1
+#### Text ####
+some of its member companies have been denied insurance because individual workers had medical problems that ranged from a mild cardiac condition to psychological counseling after a divorce, hemorrhoids and overweight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2493..2500
+17,3,1,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2422..2436
+17,1;17,2;17,3,0;17,4
+#### Text ####
+the group says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2437..2492
+17,3,1,0;17,3,1,1,0;17,3,1,1,1,0;17,3,1,1,1,1,0;17,3,1,1,1,1,1,0;17,3,1,1,1,1,1,1;17,3,1,1,1,1,1,2
+#### Text ####
+some of its member companies have been denied insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2501..2654
+17,3,1,1,1,1,1,3,1
+#### Text ####
+individual workers had medical problems that ranged from a mild cardiac condition to psychological counseling after a divorce, hemorrhoids and overweight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2919..2922
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2923..2930
+19,1;19,2,0;19,3
+#### Text ####
+it says
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2742..2917
+18,1,1
+#### Text ####
+that stiff competition among its members to insure businesses likely to be good risks during the first year of coverage has aggravated the problem in the small-business market
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+2658..2741
+18,0;18,1,0;18,2
+#### Text ####
+The Health Insurance Association of America, an insurers' trade group, acknowledges
+##############
+____Arg2____
+2931..3009
+19,2,1
+#### Text ####
+that rapid rate increases are directly tied to the soaring cost of health care
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3109
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3013..3098
+20
+#### Text ####
+Some business analysts blame the problem on tough competition in the insurance market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3109..3199
+21,1,1
+#### Text ####
+insurance companies use policies aimed at excluding bad risks because their competitors do
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3100..3108
+21,0;21,1,0;21,2
+#### Text ####
+They say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3171..3178
+21,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3100..3108
+21,0;21,1,0;21,2
+#### Text ####
+They say
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3109..3170
+21,1,1,0;21,1,1,1,0;21,1,1,1,1,0;21,1,1,1,1,1
+#### Text ####
+insurance companies use policies aimed at excluding bad risks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3179..3199
+21,1,1,1,1,2,1
+#### Text ####
+their competitors do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3201..3204
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3109..3199
+21,1,1
+#### Text ####
+insurance companies use policies aimed at excluding bad risks because their competitors do
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3100..3108
+21,0;21,1,0;21,2
+#### Text ####
+They say
+##############
+____Arg2____
+3205..3302
+22,1;22,2,0;22,2,1,0;22,2,1,1;22,2,1,2,0;22,2,1,2,1,0;22,2,1,2,1,1,0;22,2,1,2,1,1,1;22,2,1,2,1,1,2;22,2,1,2,1,1,3;22,3
+#### Text ####
+the general practice makes it more difficult to combine small groups of people into larger groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3304..3308
+22,2,1,2,1,1,4,0
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+3250..3302
+22,2,1,2,0;22,2,1,2,1,0;22,2,1,2,1,1,0;22,2,1,2,1,1,1;22,2,1,2,1,1,2;22,2,1,2,1,1,3
+#### Text ####
+to combine small groups of people into larger groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3309..3358
+22,2,1,2,1,1,4,1;22,2,1,2,1,1,4,2
+#### Text ####
+spreading the risk over a larger base of premiums
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3490
+24
+#### Features ####
+Ot, Comm, Null, Null
+3414..3487
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+Robert Patricelli of the U.S. Chamber of Commerce told Mr. Waxman's panel
+##############
+because, Contingency.Pragmatic cause.Justification, Contingency.Cause.Reason
+____Arg1____
+3363..3411
+23,1
+#### Text ####
+I'm not accusing insurers of dereliction of duty
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3490..3593
+24
+#### Text ####
+You can't ask one carrier to underwrite on social grounds when that might destroy it in the marketplace
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3548..3552
+24,2,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3414..3487
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+Robert Patricelli of the U.S. Chamber of Commerce told Mr. Waxman's panel
+##############
+when, Temporal.Synchrony, Contingency.Condition.Hypothetical
+____Arg1____
+3490..3547
+24,0;24,1;24,2,0;24,2,1;24,2,2,0;24,2,2,1;24,3;24,4
+#### Text ####
+You can't ask one carrier to underwrite on social grounds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3553..3593
+24,2,2,2,1
+#### Text ####
+that might destroy it in the marketplace
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3713
+26
+____Arg1____
+3598..3711
+25
+#### Text ####
+Rep. Waxman and Democratic Sen. Edward Kennedy of Massachusetts have proposed regulation to deal with the problem
+##############
+____Arg2____
+3713..3921
+26
+#### Text ####
+The proposal is just part of legislation that would require businesses to provide health benefits, an idea that is strongly opposed by small business who say it would just compound the insurance-cost problems
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3925..3928
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3820..3921
+26,1,1,1,1,3,2
+#### Text ####
+that is strongly opposed by small business who say it would just compound the insurance-cost problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3958..4267
+27,2,1
+#### Text ####
+they support the idea, included in the Kennedy-Waxman bill, of new laws or regulations requiring greater use of community rating, which pegs rates to the use of health care by a community or other large group, and is designed to prevent insurance companies from taking only low-risk small companies as clients
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3929..3957
+27,1;27,2,0;27,3
+#### Text ####
+small-business lobbyists say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4271..4274
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4308..4360
+28,3
+#### Text ####
+says the National Federation of Independent Business
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3958..4267
+27,2,1
+#### Text ####
+they support the idea, included in the Kennedy-Waxman bill, of new laws or regulations requiring greater use of community rating, which pegs rates to the use of health care by a community or other large group, and is designed to prevent insurance companies from taking only low-risk small companies as clients
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3925..3957
+27,0;27,1;27,2,0;27,3
+#### Text ####
+But small-business lobbyists say
+##############
+____Arg2____
+4275..4306;4362..4479
+28,1;28,2;28,4;28,5;28,6
+#### Text ####
+first on the list of priorities is to prohibit state laws requiring the inclusion of specialty items, such as psychiatric care, in basic health plans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4481
+29
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4271..4306;4362..4479
+28,0;28,1;28,2;28,4;28,5;28,6
+#### Text ####
+But first on the list of priorities is to prohibit state laws requiring the inclusion of specialty items, such as psychiatric care, in basic health plans
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4308..4360
+28,3
+#### Text ####
+says the National Federation of Independent Business
+##############
+____Arg2____
+4481..4498;4512..4582
+29,0;29,2;29,3
+#### Text ####
+Such requirements make it difficult to provide a basic, low-cost health-benefits package
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4500..4510
+29,1
+#### Text ####
+they argue
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4587..4593
+30,1,0,0,0
+#### Text ####
+Before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4737..4774
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+says Carolyn Miller, an NFIB lobbyist
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+4662..4715
+30,1,0,1;30,1,0,2;30,1,0,3
+#### Text ####
+there were only 70 mental-health clinics in the state
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4594..4660
+30,1,0,0,1
+#### Text ####
+the state of Wisconsin mandated that mental-health care be covered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4717
+30
+#### Features ####
+Ot, Comm, Null, Null
+4737..4774
+30,0;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+says Carolyn Miller, an NFIB lobbyist
+##############
+whereas, Comparison.Contrast.Juxtaposition, Temporal.Asynchronous.Precedence
+____Arg1____
+4587..4715
+30,1,0
+#### Text ####
+Before the state of Wisconsin mandated that mental-health care be covered, there were only 70 mental-health clinics in the state
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4717..4734
+30,1,2
+#### Text ####
+now there are 400
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4776
+31
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+4587..4774
+30
+#### Text ####
+Before the state of Wisconsin mandated that mental-health care be covered, there were only 70 mental-health clinics in the state; now there are 400," says Carolyn Miller, an NFIB lobbyist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4776..4879
+31
+#### Text ####
+She contends that similar mandates have driven up insurance costs 20% in Maryland and 30% in California
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4918..4922
+32,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5011..5057
+32,2,2,1,2,1,0;32,2,2,1,2,1,2;32,2,2,1,2,1,3;32,2,2,1,2,1,4;32,2,2,1,2,1,5
+#### Text ####
+argues James Dorsch, HIAA's Washington counsel
+##############
+also, Expansion.Conjunction
+____Sup1____
+4481..4582
+29
+#### Text ####
+Such requirements, they argue, make it difficult to provide a basic, low-cost health-benefits package
+##############
+____Arg1____
+4271..4306;4362..4479
+28,0;28,1;28,2;28,4;28,5;28,6
+#### Text ####
+But first on the list of priorities is to prohibit state laws requiring the inclusion of specialty items, such as psychiatric care, in basic health plans
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4308..4360
+28,3
+#### Text ####
+says the National Federation of Independent Business
+##############
+____Arg2____
+4883..4917;4923..5008
+32,0;32,2,0;32,2,1;32,2,2,0;32,2,2,1,0;32,2,2,1,1;32,2,2,1,2,0;32,2,2,1,2,1,0;32,2,2,1,2,1,1;32,2,2,1,2,1,2;32,2,2,1,2,1,3;32,3
+#### Text ####
+The insurance-industry association strongly disagrees with the proposed community rating, which "doesn't save one dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5060
+33
+#### Features ####
+Ot, Comm, Null, Null
+5011..5057
+32,2,2,1,2,1,0;32,2,2,1,2,1,2;32,2,2,1,2,1,3;32,2,2,1,2,1,4;32,2,2,1,2,1,5
+#### Text ####
+argues James Dorsch, HIAA's Washington counsel
+##############
+in fact, Comparison.Contrast.Juxtaposition
+____Arg1____
+4978..5008
+32,2,2,1,2,0;32,2,2,1,2,1,0;32,2,2,1,2,1,1;32,2,2,1,2,1,2;32,2,2,1,2,1,3
+#### Text ####
+which "doesn't save one dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5060..5184
+33
+#### Text ####
+It just makes healthy businesses subsidize unhealthy ones and gives each employer less incentive to keep his workers healthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5203
+34
+#### Features ####
+Ot, Comm, Null, Null
+5187..5202
+34,0;34,1,0;34,2
+#### Text ####
+Mr. Dorsch says
+##############
+so, Contingency.Cause.Result
+instead, Comparison.Contrast
+____Arg1____
+5060..5184
+33
+#### Text ####
+It just makes healthy businesses subsidize unhealthy ones and gives each employer less incentive to keep his workers healthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5203..5378
+34,1,1
+#### Text ####
+the HIAA is working on a proposal to establish a privately funded reinsurance mechanism to help cover small groups that can't get insurance without excluding certain employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5463..5466
+36,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+5382..5461
+35
+#### Text ####
+The complexities of the insurance problem make the outcome difficult to predict
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5467..5575
+36,1;36,2;36,3;36,4
+#### Text ####
+to Ms. Allen, the employee whose back problem triggered a huge insurance-rate increase, the issue was simple
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5578
+37
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5463..5479;5555..5575
+36,0;36,1,0;36,1,1,0;36,1,1,1;36,1,1,3;36,2;36,3;36,4
+#### Text ####
+But to Ms. Allen the issue was simple
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5578..5614;5629..5713
+37,0;37,1;37,2,0;37,2,1;37,2,3;37,2,4;37,3
+#### Text ####
+What good is having health insurance when it's so expensive that it becomes impossible to keep after only one major claim
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5617..5626
+37,2,2
+#### Text ####
+she asked
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5629..5633
+37,2,4,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5617..5626
+37,2,2
+#### Text ####
+she asked
+##############
+when, Temporal.Synchrony
+____Arg1____
+5578..5614
+37,0;37,1;37,2,0;37,2,1;37,2,3;37,3
+#### Text ####
+What good is having health insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5634..5713
+37,2,4,1
+#### Text ####
+it's so expensive that it becomes impossible to keep after only one major claim
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

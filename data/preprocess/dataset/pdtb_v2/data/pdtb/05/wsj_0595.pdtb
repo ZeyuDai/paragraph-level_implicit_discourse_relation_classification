@@ -1,0 +1,869 @@
+________________________________________________________
+____Explicit____
+33..37
+0,1,2,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+9..30
+0,0;0,1,0;0,1,1;0,1,2,0
+#### Text ####
+Wives May Not Benefit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+38..51
+0,1,2,1,1
+#### Text ####
+Men Do Chores
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+54..58
+1,0,0
+#### Text ####
+WHEN
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+92..167
+1,1;1,2;1,3;1,4
+#### Text ####
+they tend to substitute for chores done by the kids rather than by the wife
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+59..90
+1,0,1
+#### Text ####
+HUSBANDS take on more housework
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+336
+3
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+171..334
+2
+#### Text ####
+Rand Corp. researchers Linda Waite and Frances Goldscheider analyzed a large sample of married women with at least one child at home between the ages of six and 18
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+336..447
+3
+#### Text ####
+The women indicated which family member usually did various household chores and the approximate share each did
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+668
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+451..666
+4
+#### Text ####
+Not unexpectedly, wives, whether working or non-working, did by far the most -- about 80% of the shopping, laundry and cooking, and about two-thirds of housecleaning, washing dishes, child care and family paper work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+668..734
+5
+#### Text ####
+Only for yardwork and home maintenance did women do less than half
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+738..741
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+451..734
+4;5
+#### Text ####
+Not unexpectedly, wives, whether working or non-working, did by far the most -- about 80% of the shopping, laundry and cooking, and about two-thirds of housecleaning, washing dishes, child care and family paper work.
+Only for yardwork and home maintenance did women do less than half
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+742..991
+6,1;6,2;6,3;6,4
+#### Text ####
+the researchers found that while children's household tasks eased the mother's burden appreciably, the husband's helping hand "appears to lighten the children's load almost on a one-for-one basis and to reduce the wife's responsibility only modestly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+769..774
+6,2,1,1,0,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+742..763
+6,1;6,2,0;6,3;6,4
+#### Text ####
+the researchers found
+##############
+while, Comparison.Contrast
+____Arg1____
+764..768;841..991
+6,2,1,0;6,2,1,1,1;6,2,1,1,2;6,2,1,1,3;6,2,1,1,4
+#### Text ####
+that the husband's helping hand "appears to lighten the children's load almost on a one-for-one basis and to reduce the wife's responsibility only modestly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+775..839
+6,2,1,1,0,1
+#### Text ####
+children's household tasks eased the mother's burden appreciably
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1070
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+996..1068
+7
+#### Text ####
+This pattern was particularly evident among more highly educated couples
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1070..1172
+8
+#### Text ####
+In these families, husbands took on 80% more chores than in couples with only grammar school education
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1174..1177
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1070..1172
+8
+#### Text ####
+In these families, husbands took on 80% more chores than in couples with only grammar school education
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1178..1275
+9,1;9,2;9,3
+#### Text ####
+the kids with highly educated parents did 68% less housework than those in less-educated families
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1409
+11
+#### Features ####
+Ot, Comm, Null, Null
+1294..1308
+10,2,2
+#### Text ####
+Ms. Waite says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1280..1291;1311..1407
+10,0;10,1;10,2,0;10,2,1;10,2,3;10,2,4;10,3
+#### Text ####
+It is clear that most of the effect of increasing education has been to shift who is helping the wife/mother
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1409..1447
+11
+#### Text ####
+Her share decreases, but only slightly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1735..1737
+14,1,2,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1666..1734
+14,1,2,0;14,1,2,1,0;14,1,2,1,1;14,1,2,1,2
+#### Text ####
+on how much property people may own or how much income they may keep
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1738..1777
+14,1,2,1,3,1
+#### Text ####
+they want welfare help on medical bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1779
+15
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1624..1777
+14
+#### Text ####
+State governments place very low ceilings on how much property people may own or how much income they may keep if they want welfare help on medical bills
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1779..1980
+15
+#### Text ####
+Conventional wisdom has long held that anywhere from one-fourth to one-half of all elderly long-term care patients are obliged to spend themselves into poverty before qualifying for Medicaid assistance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1939..1945
+15,1,2,1,1,1,1,1,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1779..1812
+15,0;15,1,0;15,1,1;15,1,2,0;15,2
+#### Text ####
+Conventional wisdom has long held
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1813..1938
+15,1,2,1,0;15,1,2,1,1,0;15,1,2,1,1,1,0;15,1,2,1,1,1,1,0;15,1,2,1,1,1,1,1,0;15,1,2,1,1,1,1,1,1,0;15,1,2,1,1,1,1,1,1,1,0;15,1,2,1,1,1,1,1,1,1,1;15,1,2,1,1,1,1,1,1,1,2
+#### Text ####
+that anywhere from one-fourth to one-half of all elderly long-term care patients are obliged to spend themselves into poverty
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1946..1980
+15,1,2,1,1,1,1,1,1,1,3,1
+#### Text ####
+qualifying for Medicaid assistance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1982..1985
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1813..1980
+15,1,2,1
+#### Text ####
+that anywhere from one-fourth to one-half of all elderly long-term care patients are obliged to spend themselves into poverty before qualifying for Medicaid assistance
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+1779..1812
+15,0;15,1,0;15,1,1;15,1,2,0;15,2
+#### Text ####
+Conventional wisdom has long held
+##############
+____Arg2____
+2112..2312
+16,2,1
+#### Text ####
+that "a surprisingly small proportion" -- only about 10% -- of residents start out as private payers but "spend down" to Medicaid levels in a single nursing home stay before they die or are discharged
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1986..2111
+16,1;16,2,0;16,3
+#### Text ####
+separate reports from Joshua Weiner and Denise Spence of the Brookings Institution and Korbin Liu of the Urban Institute find
+##############
+____Sup2____
+2315..2454
+17
+#### Text ####
+Another one-third are already on Medicaid when they enter the nursing homes, a considerably higher proportion than the analysts anticipated
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2279..2285
+16,2,1,1,1,2,6,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1986..2111
+16,1;16,2,0;16,3
+#### Text ####
+separate reports from Joshua Weiner and Denise Spence of the Brookings Institution and Korbin Liu of the Urban Institute find
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2213..2278
+16,2,1,1,1,1;16,2,1,1,1,2,0;16,2,1,1,1,2,1;16,2,1,1,1,2,2;16,2,1,1,1,2,3;16,2,1,1,1,2,4;16,2,1,1,1,2,5
+#### Text ####
+but "spend down" to Medicaid levels in a single nursing home stay
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2286..2312
+16,2,1,1,1,2,6,1
+#### Text ####
+they die or are discharged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2315
+17
+#### Features ####
+Ot, Comm, Null, Null
+1982..2111
+16,0;16,1;16,2,0;16,3
+#### Text ####
+But separate reports from Joshua Weiner and Denise Spence of the Brookings Institution and Korbin Liu of the Urban Institute find
+##############
+and, Expansion.Conjunction
+____Arg1____
+2112..2312
+16,2,1
+#### Text ####
+that "a surprisingly small proportion" -- only about 10% -- of residents start out as private payers but "spend down" to Medicaid levels in a single nursing home stay before they die or are discharged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2315..2454
+17
+#### Text ####
+Another one-third are already on Medicaid when they enter the nursing homes, a considerably higher proportion than the analysts anticipated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2357..2361
+17,2,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1986..2111
+16,1;16,2,0;16,3
+#### Text ####
+separate reports from Joshua Weiner and Denise Spence of the Brookings Institution and Korbin Liu of the Urban Institute find
+##############
+when, Temporal.Synchrony
+____Arg1____
+2314..2356;2392..2456
+17,0;17,1;17,2,0;17,2,1;17,2,2;17,2,4;17,2,5;17,3;17,4
+#### Text ####
+(Another one-third are already on Medicaid a considerably higher proportion than the analysts anticipated.)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2362..2390
+17,2,3,1
+#### Text ####
+they enter the nursing homes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2459..2462
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1986..2111
+16,1;16,2,0;16,3
+#### Text ####
+separate reports from Joshua Weiner and Denise Spence of the Brookings Institution and Korbin Liu of the Urban Institute find
+##############
+but, Comparison.Contrast
+____Arg1____
+2112..2312
+16,2,1
+#### Text ####
+that "a surprisingly small proportion" -- only about 10% -- of residents start out as private payers but "spend down" to Medicaid levels in a single nursing home stay before they die or are discharged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2463..2575
+18,1;18,2;18,3
+#### Text ####
+a remarkably high percentage -- over half -- are private payers throughout their stay, even a fairly lengthy one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2577
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2459..2575
+18
+#### Text ####
+But a remarkably high percentage -- over half -- are private payers throughout their stay, even a fairly lengthy one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2577..2721
+19
+#### Text ####
+About one-third pay out of their own pockets, while the rest are covered throughout by Medicare, private insurers or the Veterans Administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2623..2628
+19,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1986..2111
+16,1;16,2,0;16,3
+#### Text ####
+separate reports from Joshua Weiner and Denise Spence of the Brookings Institution and Korbin Liu of the Urban Institute find
+##############
+while, Comparison.Contrast
+____Arg1____
+2577..2621
+19,0;19,1,0;19,1,1;19,1,2;19,2
+#### Text ####
+About one-third pay out of their own pockets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2629..2721
+19,1,3,1
+#### Text ####
+the rest are covered throughout by Medicare, private insurers or the Veterans Administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+2723
+20
+____Arg1____
+2577..2721
+19
+#### Text ####
+About one-third pay out of their own pockets, while the rest are covered throughout by Medicare, private insurers or the Veterans Administration
+##############
+____Arg2____
+2723..2821
+20
+#### Text ####
+Both reports are based on several thousand patients sampled in a 1985 nationwide government survey
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2876..2883
+21,1,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2623..2721
+19,1,3
+#### Text ####
+while the rest are covered throughout by Medicare, private insurers or the Veterans Administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2825..2874;2885..3043
+21,0;21,1,0;21,1,1;21,1,3;21,1,4;21,2
+#### Text ####
+The Brookings and Urban Institute authors caution that most nursing home stays are of comparatively short duration, and reaching the Medicaid level is more likely with an unusually long stay or repeated stays
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2951..2954
+21,1,4,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2825..2874
+21,0;21,1,0;21,1,1;21,1,3;21,2
+#### Text ####
+The Brookings and Urban Institute authors caution
+##############
+and, Expansion.Conjunction
+____Arg1____
+2885..2949
+21,1,4,0;21,1,4,1,0;21,1,4,1,1
+#### Text ####
+that most nursing home stays are of comparatively short duration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2955..3043
+21,1,4,1,3
+#### Text ####
+reaching the Medicaid level is more likely with an unusually long stay or repeated stays
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3045..3053
+22,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3055..3064
+22,1
+#### Text ####
+they note
+##############
+moreover, Expansion.Conjunction
+____Arg1____
+2885..3043
+21,1,4
+#### Text ####
+that most nursing home stays are of comparatively short duration, and reaching the Medicaid level is more likely with an unusually long stay or repeated stays
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2825..2883
+21,0;21,1,0;21,1,1;21,1,2;21,1,3;21,2
+#### Text ####
+The Brookings and Urban Institute authors caution, however
+##############
+____Arg2____
+3066..3217
+22,2;22,3;22,4;22,5
+#### Text ####
+those who manage to pay their own way often do so only by selling their homes, using up life savings or drawing heavily on children and other relatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3674..3680
+26,1,1,1
+#### Text ####
+indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+3533..3612
+25,1,1,1
+#### Text ####
+that the Reagan years would produce a staunchly conservative younger generation
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3493..3532
+25,0;25,1,0;25,1,1,0;25,2
+#### Text ####
+Many political analysts have speculated
+##############
+____Arg2____
+3654..3673;3681..3742
+26,1,1,0;26,1,1,2
+#### Text ####
+the youngest adults somewhat more pro-Reagan and pro-Republican than other adults
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3614..3653
+26,0;26,1,0;26,2
+#### Text ####
+NORC's most recent opinion surveys find
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3744..3747
+27,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3749..3782
+27,2
+#### Text ####
+says chief investigator Tom Smith
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3654..3742
+26,1,1
+#### Text ####
+the youngest adults indeed somewhat more pro-Reagan and pro-Republican than other adults
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3614..3653
+26,0;26,1,0;26,2
+#### Text ####
+NORC's most recent opinion surveys find
+##############
+____Arg2____
+3784..3916
+27,1;27,3;27,4;27,5;27,6;27,7;27,8
+#### Text ####
+this "does not translate into support for conservatism in general or into conservative positions on feminist and civil rights issues
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4200..4204
+29,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4007..4188
+28,1,1
+#### Text ####
+that men and women in the 18 to 24 age bracket are considerably more liberal on race and gender than were the 18 to 24 year olds in NORC's polling in the early 1970s and early 1980s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4190..4199;4205..4289
+29,0;29,1,0;29,1,2;29,2
+#### Text ####
+They were as liberal or more liberal than any other age group in the 1986 through 1989 surveys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4293..4304
+30,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3921..4188
+28
+#### Text ####
+Answers to a dozen questions in the 1986, 1987, 1988 and 1989 national surveys reveal that men and women in the 18 to 24 age bracket are considerably more liberal on race and gender than were the 18 to 24 year olds in NORC's polling in the early 1970s and early 1980s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4306..4600
+30,1;30,2;30,3;30,4;31
+#### Text ####
+66% of the 18 to 24 year olds in the four latest surveys favored an "open housing" law prohibiting homeowners from refusing on racial grounds to sell to prospective buyers.
+That compares with 58% of the similar age group in the 1980 through 1982 surveys and 55% in the 1972 through 1975 surveys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4479..4497
+31,0;31,1,0;31,1,1,0
+#### Text ####
+That compares with
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast.Juxtaposition
+____Arg1____
+4293..4477
+30
+#### Text ####
+For example, 66% of the 18 to 24 year olds in the four latest surveys favored an "open housing" law prohibiting homeowners from refusing on racial grounds to sell to prospective buyers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4479..4600
+31
+#### Text ####
+That compares with 58% of the similar age group in the 1980 through 1982 surveys and 55% in the 1972 through 1975 surveys
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+4990
+35
+____Arg1____
+4848..4982
+34
+#### Text ####
+SEPARATED and divorced men and women are far more likely to be smokers than married persons, the Centers for Disease Control discovers
+##############
+____Arg2____
+4990..5113
+35
+#### Text ####
+Graduate students are taking longer than ever to get their doctor of philosophy degrees, the National Research Council says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5128
+36
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4990..5077
+35,0
+#### Text ####
+Graduate students are taking longer than ever to get their doctor of philosophy degrees
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5079..5113
+35,1;35,2;35,3;35,4
+#### Text ####
+the National Research Council says
+##############
+____Arg2____
+5128..5344
+36,1,1
+#### Text ####
+the time between college graduation and the awarding of a Ph. D. has lengthened by 30% over the past 20 years, with the average gap now ranging from about 7.4 years in the physical sciences to 16.2 years in education
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5115..5127
+36,0;36,1,0;36,2
+#### Text ####
+It estimates
+##############
+________________________________________________________

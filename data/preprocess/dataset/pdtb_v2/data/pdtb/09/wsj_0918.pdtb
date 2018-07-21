@@ -1,0 +1,622 @@
+________________________________________________________
+____Explicit____
+195..199
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..183
+0
+#### Text ####
+Du Pont Co. reported that third-quarter profit grew a robust 19% from a year ago on the strength of the company's operations in various chemicals and fibers, and in petroleum
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+187..194;200..345
+1,0;1,2;1,3
+#### Text ####
+Du Pont raised its quarterly dividend to $1.20 a share from $1.05, a change that will increase the annualized payout to shareholders by some $140 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+494
+3
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+349..492
+2
+#### Text ####
+Du Pont, unlike companies hurt badly by sharp price declines for basic chemicals and plastics, is benefiting from its broad range of businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+494..715
+3
+#### Text ####
+The profit gain was made despite a weakening in the housing market, for which the company is a supplier, and a strengthening in the dollar, which lowers the value of overseas earnings when they are translated into dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+678..682
+3,1,1,2,1,3,3,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+634..677
+3,1,1,2,1,3,3,0;3,1,1,2,1,3,3,1,0;3,1,1,2,1,3,3,1,1,0;3,1,1,2,1,3,3,1,1,1,0;3,1,1,2,1,3,3,1,1,1,1
+#### Text ####
+which lowers the value of overseas earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+683..715
+3,1,1,2,1,3,3,1,1,1,2,1
+#### Text ####
+they are translated into dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+843
+5
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+719..795
+4,0;4,1,0;4,1,1,0;4,1,1,1;4,1,1,2;4,2
+#### Text ####
+The Wilmington, Del., company reported net of $547 million, or $2.36 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+843..920
+5
+#### Text ####
+In the year-earlier period, the company earned $461 million, or $1.91 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+922
+6
+____Arg1____
+843..920
+5
+#### Text ####
+In the year-earlier period, the company earned $461 million, or $1.91 a share
+##############
+____Arg2____
+922..996
+6
+#### Text ####
+Sales in the latest quarter were $8.59 billion, up 9.4% from $7.85 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1156
+8
+#### Features ####
+Wr, Comm, Null, Null
+for example, Contingency.Cause.Reason
+____Arg1____
+1101..1153
+7,1,2,1,1,2
+#### Text ####
+that they intend to increase rewards to shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1156..1367
+8
+#### Text ####
+We haven't benefited the shareholder as much as we need to," said Edgar Woolard Jr., Du Pont's chairman and chief executive officer, in an interview several months before he entered his current position in April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1305..1326
+8,7,0;8,7,1
+#### Text ####
+several months before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1156..1304
+8,0;8,1;8,2;8,3;8,4;8,5;8,6;8,8
+#### Text ####
+We haven't benefited the shareholder as much as we need to," said Edgar Woolard Jr., Du Pont's chairman and chief executive officer, in an interview
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1327..1367
+8,7,2
+#### Text ####
+he entered his current position in April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1552
+10
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1371..1413
+9,0;9,1,0;9,1,1,0;9,1,1,1,0;9,1,1,1,1;9,2
+#### Text ####
+The largest beneficiary will be Seagram Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1552..1670
+10,1,1
+#### Text ####
+the company will post additional pretax profit of about $33 million a year because of the additional Du Pont dividends
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1449..1551
+10,0;10,1,0;10,2
+#### Text ####
+A spokesman for Seagram, the Montreal wine and spirits concern controlled by the Bronfman family, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1682..1686
+11,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+719..795
+4,0;4,1,0;4,1,1,0;4,1,1,1;4,1,1,2;4,2
+#### Text ####
+The Wilmington, Del., company reported net of $547 million, or $2.36 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1674..1681;1687..1728
+11,0;11,2,0;11,2,1;11,2,2;11,3
+#### Text ####
+Du Pont announced plans for a 3-for-1 stock split
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1730..1738
+11,2,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+1674..1728
+11,0;11,1;11,2,0;11,2,1;11,2,2;11,3
+#### Text ####
+Du Pont also announced plans for a 3-for-1 stock split
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1739..1799
+11,2,3,1
+#### Text ####
+the initial higher dividend will be paid on pre-split shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1801
+12
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+1730..1799
+11,2,3
+#### Text ####
+although the initial higher dividend will be paid on pre-split shares
+##############
+____Arg1____
+1552..1670;1674..1728
+10,1,1;11,0;11,1;11,2,0;11,2,1;11,2,2;11,3
+#### Text ####
+the company will post additional pretax profit of about $33 million a year because of the additional Du Pont dividends Du Pont also announced plans for a 3-for-1 stock split
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1801..1911
+12
+#### Text ####
+Du Pont's stock rose $2.50 a share to close at $117.375 in New York Stock Exchange composite trading yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1913
+13
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+1801..1911
+12
+#### Text ####
+Du Pont's stock rose $2.50 a share to close at $117.375 in New York Stock Exchange composite trading yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1913..1981
+13
+#### Text ####
+Seagram closed at $84.75, up 12.5 cents a share in Big Board trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2143
+15
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Sup1____
+2074..2141
+14,2,2
+#### Text ####
+where profit soared to $155 million from $99 million a year earlier
+##############
+____Arg1____
+1985..2072
+14,0;14,1;14,2,0;14,2,1;14,3
+#### Text ####
+Leading the gains for Du Pont in the latest quarter was its industrial products segment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2143..2292
+15
+#### Text ####
+The company benefited from continued strong demand and higher selling prices for titanium dioxide, a white pigment used in paints, paper and plastics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2437..2444
+16,1,1,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2296..2386
+16,0;16,1,0;16,2
+#### Text ####
+James Fallon, a New Providence, N.J., marketing consultant to the chemicals industry, says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2387..2436
+16,1,1,0;16,1,1,1,0;16,1,1,1,1;16,1,1,1,2,0;16,1,1,1,2,1;16,1,1,1,2,2
+#### Text ####
+Du Pont still holds an edge in making the pigment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2445..2506
+16,1,1,1,2,3,1
+#### Text ####
+the company was "first in with the technology" to lower costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2516
+17
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2387..2506
+16,1,1
+#### Text ####
+Du Pont still holds an edge in making the pigment because the company was "first in with the technology" to lower costs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2296..2386
+16,0;16,1,0;16,2
+#### Text ####
+James Fallon, a New Providence, N.J., marketing consultant to the chemicals industry, says
+##############
+____Arg2____
+2516..2725
+17,1,1
+#### Text ####
+Du Pont holds about 23% of the world-wide market, the largest single share, at a time when growing uses for the pigment have kept it in tight supply, although others are now adding low-cost production capacity
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2508..2515
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2666..2674
+17,1,1,1,1,4,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2508..2515
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+although, Comparison.Contrast
+____Arg1____
+2516..2664
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0;17,1,1,1,1,1;17,1,1,1,1,2;17,1,1,1,1,3
+#### Text ####
+Du Pont holds about 23% of the world-wide market, the largest single share, at a time when growing uses for the pigment have kept it in tight supply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2675..2725
+17,1,1,1,1,4,1
+#### Text ####
+others are now adding low-cost production capacity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2802..2804
+18,1,5,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+2729..2800
+18,0;18,1,0;18,1,1;18,1,2;18,1,3;18,1,4;18,2
+#### Text ####
+Profit climbed to $98 million from $71 million in the petroleum segment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2805..2936
+18,1,5,1
+#### Text ####
+Du Pont's Conoco Inc. oil company was helped by crude oil prices higher than a year ago and by higher natural gas prices and volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3155
+20
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+because, Contingency.Cause.Reason
+____Arg1____
+2940..3048
+19
+#### Text ####
+In the diversifed businesses segment, which includes herbicides, profit grew to $64 million from $27 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3155..3197
+20,1,1,1,1,1,4;20,1,1,1,1,1,5;20,1,1,1,1,1,6
+#### Text ####
+thus increasing sales in the third quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3050..3066
+20,0;20,1,0;20,2
+#### Text ####
+A spokesman said
+##############
+____Sup2____
+3067..3153
+20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0;20,1,1,1,1,1,1;20,1,1,1,1,1,2;20,1,1,1,1,1,3
+#### Text ####
+herbicide use in some areas of the U.S. was delayed earlier in the year by heavy rains
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3155..3159
+20,1,1,1,1,1,5
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3050..3066
+20,0;20,1,0;20,2
+#### Text ####
+A spokesman said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+3067..3153
+20,1,1,0;20,1,1,1,0;20,1,1,1,1,0;20,1,1,1,1,1,0;20,1,1,1,1,1,1;20,1,1,1,1,1,2;20,1,1,1,1,1,3;20,1,1,1,1,1,4
+#### Text ####
+herbicide use in some areas of the U.S. was delayed earlier in the year by heavy rains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3160..3197
+20,1,1,1,1,1,6
+#### Text ####
+increasing sales in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3407
+23
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3355..3405
+22
+#### Text ####
+Two segments posted lower earnings for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3407..3496
+23
+#### Text ####
+Profit from coal fell to $41 million from $58 million, partly because of a miners' strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3498..3501
+24,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3407..3496
+23
+#### Text ####
+Profit from coal fell to $41 million from $58 million, partly because of a miners' strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3502..3665
+24,1;24,2;24,3
+#### Text ####
+profit from polymers dropped to $107 million from $122 million amid what Du Pont called lower demand and selling prices in certain packaging and industrial markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3796
+26
+____Arg1____
+3669..3794
+25
+#### Text ####
+For the nine months, Du Pont earned $2 billion, or $8.46 a share, up 18% from $1.69 billion, or $7.03 a share, a year earlier
+##############
+____Arg2____
+3796..3853
+26
+#### Text ####
+Sales increased 10% to $26.54 billion from $24.05 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3931
+28
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3857..3929
+27
+#### Text ####
+The increased dividend will be paid Dec. 14 to holders of record Nov. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3931..4066
+28
+#### Text ####
+The stock split, which is subject to holder approval, would be paid on a still unspecified date in January to holders of record Dec. 21
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

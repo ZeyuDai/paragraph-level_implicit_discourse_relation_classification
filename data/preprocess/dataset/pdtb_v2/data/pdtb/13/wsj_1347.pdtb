@@ -1,0 +1,407 @@
+________________________________________________________
+____EntRel____
+286
+2
+____Arg1____
+178..284
+1
+#### Text ####
+The action is a counterclaim to a suit filed by Alaska in August against Exxon and six other oil companies
+##############
+____Arg2____
+286..438
+2
+#### Text ####
+The state's suit alleges that Exxon's response to the spill failed to prevent contamination of hundreds of miles of shoreline along Prince William Sound
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+440
+3
+____Arg1____
+286..438
+2
+#### Text ####
+The state's suit alleges that Exxon's response to the spill failed to prevent contamination of hundreds of miles of shoreline along Prince William Sound
+##############
+____Arg2____
+440..514
+3
+#### Text ####
+That suit and Exxon's countersuit were filed in a state court in Anchorage
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+561..576
+4,1,3,0;4,1,3,1
+#### Text ####
+largely because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+518..559
+4,0;4,1,0;4,1,1;4,1,2;4,2
+#### Text ####
+Neither suit lists specific dollar claims
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+577..620
+4,1,3,2
+#### Text ####
+damage assessment hasn't yet been completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+644
+5
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+518..620
+4
+#### Text ####
+Neither suit lists specific dollar claims, largely because damage assessment hasn't yet been completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+644..724
+5,1,1
+#### Text ####
+that damage claims against the oil giant and others could well exceed $1 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+622..643
+5,0;5,1,0;5,2
+#### Text ####
+Legal strategists say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+726
+6
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+644..724
+5,1,1
+#### Text ####
+that damage claims against the oil giant and others could well exceed $1 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+622..643
+5,0;5,1,0;5,2
+#### Text ####
+Legal strategists say
+##############
+____Arg2____
+726..790
+6
+#### Text ####
+Litigation, if not settled out of court, could drag on for years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+738..740
+6,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+726..736;767..790
+6,0;6,1;6,3;6,4;6,5
+#### Text ####
+Litigation could drag on for years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+741..765
+6,2,1
+#### Text ####
+not settled out of court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+960
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+817..958
+7,1,2
+#### Text ####
+that it will seek reimbursement from the state for that part of the cleanup costs and damage claims it says resulted from the state's conduct
+##############
+#### Features ####
+Ot, Comm, Null, Null
+794..816
+7,0;7,1,0;7,1,1;7,2
+#### Text ####
+Exxon said in its suit
+##############
+____Arg2____
+960..1147
+8
+#### Text ####
+The oil company claims that Alaskan officials prevented Exxon from spraying dispersant onto the almost 11 million gallons of oil dumped when one of its tankers ran into an underwater reef
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1096..1100
+8,1,1,1,1,2,1,1,2,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+1089..1095
+8,1,1,1,1,2,1,1,2,1,2,0;8,1,1,1,1,2,1,1,2,1,2,1
+#### Text ####
+dumped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1101..1147
+8,1,1,1,1,2,1,1,2,1,2,2,1
+#### Text ####
+one of its tankers ran into an underwater reef
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1275
+10
+#### Features ####
+Ot, Comm, Null, Null
+1151..1235
+9,0;9,1,0;9,1,1;9,1,2;9,2
+#### Text ####
+Craig Tillery, an Alaska assistant attorney general, said in an interview last night
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1236..1273
+9,1,3
+#### Text ####
+that Exxon's accusations "are not new
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1275..1357
+10
+#### Text ####
+Exxon has made them before, at which point the state demonstrated they were untrue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1359
+11
+____Arg1____
+1275..1357
+10
+#### Text ####
+Exxon has made them before, at which point the state demonstrated they were untrue
+##############
+____Arg2____
+1359..1416
+11
+#### Text ####
+The state will vigorously defend against any counterclaim
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1798..1801
+13,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1658..1670
+13,0;13,1,0;13,2
+#### Text ####
+Exxon claims
+##############
+and, Expansion.Conjunction
+____Arg1____
+1671..1797
+13,1,1,0
+#### Text ####
+that use of dispersants, which break an oil slick into microscopic droplets, was a crucial part of its immediate-response plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1802..1895
+13,1,1,2
+#### Text ####
+that state officials banned their use during the two days of fair weather following the spill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2095
+15
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1899..2093
+14
+#### Text ####
+The oil company claims that it had permission from the U.S. Environmental Protection Agency prior to the spill to use dispersant during such an incident at the discretion of the U.S. Coast Guard
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2095..2143;2157..2209
+15,0;15,2;15,3;15,4
+#### Text ####
+The state's opposition to the use of dispersants caused the Coast Guard "to delay granting permission
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2145..2155
+15,1
+#### Text ####
+Exxon says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2284..2291
+16,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2214..2251
+16,0;16,1,0;16,2
+#### Text ####
+Alaskan and Coast Guard officials say
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2252..2283
+16,1,1,0;16,1,1,1,0;16,1,1,1,1,0;16,1,1,1,1,1;16,1,1,1,1,2
+#### Text ####
+Exxon's charges aren't relevant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2292..2402
+16,1,1,1,1,3,1
+#### Text ####
+tests conducted during the first two days following the spill showed that the dispersant wasn't working anyway
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2404
+17
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2252..2402
+16,1,1
+#### Text ####
+Exxon's charges aren't relevant because tests conducted during the first two days following the spill showed that the dispersant wasn't working anyway
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2214..2251
+16,0;16,1,0;16,2
+#### Text ####
+Alaskan and Coast Guard officials say
+##############
+____Arg2____
+2404..2493
+17,0
+#### Text ####
+Use of dispersants was approved when a test on the third day showed some positive results
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2495..2509
+17,1;17,2;17,3;17,4
+#### Text ####
+officials said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2436..2440
+17,0,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2495..2509
+17,1;17,2;17,3;17,4
+#### Text ####
+officials said
+##############
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+2404..2435
+17,0,0;17,0,1,0;17,0,1,1,0;17,0,1,1,1
+#### Text ####
+Use of dispersants was approved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2441..2493
+17,0,1,1,2,1
+#### Text ####
+a test on the third day showed some positive results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

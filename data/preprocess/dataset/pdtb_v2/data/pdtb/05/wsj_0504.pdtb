@@ -1,0 +1,515 @@
+________________________________________________________
+____Explicit____
+356..359
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+313..354
+2,0
+#### Text ####
+Executives at Nekoosa couldn't be reached
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+360..408
+2,3
+#### Text ####
+officials at Georgia Pacific declined to comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+420..427
+3,1,1
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+313..408
+2
+#### Text ####
+Executives at Nekoosa couldn't be reached, and officials at Georgia Pacific declined to comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+410..418;429..443
+3,0;3,1,0;3,1,2;3,2,0;3,2,1,0;3,2,1,1;3,3
+#### Text ####
+Analysts were surprised
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+444..451
+3,2,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+410..443
+3,0;3,1;3,2,0;3,2,1,0;3,2,1,1;3,3
+#### Text ####
+Analysts, however, were surprised
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+452..489
+3,2,1,2,1
+#### Text ####
+the tender offer appeared unsolicited
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+492
+4
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+410..489
+3
+#### Text ####
+Analysts, however, were surprised because the tender offer appeared unsolicited
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+492..595
+4
+#### Text ####
+It's quite a bombshell," said one, adding that the offer could spark a period of industry consolidation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+688..691
+5,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+599..686
+5,0
+#### Text ####
+The two companies would appear to be a logical fit because of their complementary lines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+692..720;778..785
+5,3,0;5,3,1,0;5,3,1,1,0;5,3,1,1,1;5,3,1,2;5,3,1,3
+#### Text ####
+analysts described the offer as fair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+722..776
+5,3,1,1,2
+#### Text ####
+representing a 36% premium over Nekoosa's market price
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+787
+6
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+599..785
+5
+#### Text ####
+The two companies would appear to be a logical fit because of their complementary lines, and analysts described the offer, representing a 36% premium over Nekoosa's market price, as fair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+787..877
+6
+#### Text ####
+Nekoosa closed yesterday at $42.75, up $2.75, in New York Stock Exchange composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+881..884
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+787..877
+6
+#### Text ####
+Nekoosa closed yesterday at $42.75, up $2.75, in New York Stock Exchange composite trading
+##############
+____Arg1____
+599..785
+5
+#### Text ####
+The two companies would appear to be a logical fit because of their complementary lines, and analysts described the offer, representing a 36% premium over Nekoosa's market price, as fair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+885..968
+7,1;7,2;7,3;7,4
+#### Text ####
+industry observers still questioned whether Georgia Pacific will ultimately prevail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+904..909
+7,2
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+599..785
+5
+#### Text ####
+The two companies would appear to be a logical fit because of their complementary lines, and analysts described the offer, representing a 36% premium over Nekoosa's market price, as fair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+881..903;910..968
+7,0;7,1;7,3;7,4
+#### Text ####
+But industry observers questioned whether Georgia Pacific will ultimately prevail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+971
+8
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Pragmatic cause.Justification
+____Arg1____
+921..968
+7,3,1
+#### Text ####
+whether Georgia Pacific will ultimately prevail
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+881..920
+7,0;7,1;7,2;7,3,0;7,4
+#### Text ####
+But industry observers still questioned
+##############
+____Arg2____
+971..1008
+8,1
+#### Text ####
+You have to watch out for counterbids
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1011..1027
+8,0;8,2;8,3;8,4;8,5;8,6;8,7
+#### Text ####
+said one analyst
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1030
+9
+#### Features ####
+Ot, Comm, Null, Null
+1011..1027
+8,0;8,2;8,3;8,4;8,5;8,6;8,7
+#### Text ####
+said one analyst
+##############
+for example, Expansion.Instantiation
+____Arg1____
+971..1008
+8,1
+#### Text ####
+You have to watch out for counterbids
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1030..1079
+9
+#### Text ####
+International Paper or Weyerhaeuser could step in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1572..1577
+12,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+1653..1701
+12,1;12,2;12,3;12,4
+#### Text ####
+Nekoosa has lagged the market in the same period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1578..1651
+12,0,1
+#### Text ####
+Georgia-Pacific's stock has outperformed the market in the past two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2218
+16
+#### Features ####
+Ot, Comm, Null, Null
+2199..2215
+16,0;16,1,0;16,1,1;16,1,2;16,2;16,3
+#### Text ####
+Value Line added
+##############
+moreover, Expansion.Conjunction
+____Arg1____
+2026..2197
+15
+#### Text ####
+According to the Value Line Investment Survey, demand for Nekoosa's commodity paper has weakened, prompting earnings to decline by 6.6% in the third quarter ended Sept. 30
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2026..2071
+15,0;15,1
+#### Text ####
+According to the Value Line Investment Survey
+##############
+____Arg2____
+2218..2369
+16,1,3
+#### Text ####
+With discounts widening on business papers, and with newsprint and corrugated shipments flat, we expect negative earnings comparisons through next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2374..2385
+17,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2387..2402
+17,1;17,2;17,3,0;17,4
+#### Text ####
+Value Line said
+##############
+by contrast, Comparison.Contrast
+____Sup1____
+2199..2369
+16
+#### Text ####
+Value Line added, "With discounts widening on business papers, and with newsprint and corrugated shipments flat, we expect negative earnings comparisons through next year
+##############
+____Arg1____
+2026..2197
+15
+#### Text ####
+According to the Value Line Investment Survey, demand for Nekoosa's commodity paper has weakened, prompting earnings to decline by 6.6% in the third quarter ended Sept. 30
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2026..2071
+15,0;15,1
+#### Text ####
+According to the Value Line Investment Survey
+##############
+____Arg2____
+2403..2492
+17,3,1,0;17,3,1,1,0;17,3,1,1,1;17,3,1,1,2,0;17,3,1,1,2,1;17,3,1,1,2,2;17,3,1,1,2,3
+#### Text ####
+Georgia-Pacific "is in a comparatively good position to deal with weakening paper markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2495..2661
+17,3,1,1,2,4
+#### Text ####
+because its production is concentrated not in the Northwest but in the South, where it should be able to avoid some of the cost pressures from rising wood-chip prices
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2495..2502
+17,3,1,1,2,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2387..2402
+17,1;17,2;17,3,0;17,4
+#### Text ####
+Value Line said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2403..2492
+17,3,1,0;17,3,1,1,0;17,3,1,1,1;17,3,1,1,2,0;17,3,1,1,2,1;17,3,1,1,2,2;17,3,1,1,2,3
+#### Text ####
+Georgia-Pacific "is in a comparatively good position to deal with weakening paper markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2503..2571
+17,3,1,1,2,4,1,0;17,3,1,1,2,4,1,1,0;17,3,1,1,2,4,1,1,1,0;17,3,1,1,2,4,1,1,1,1;17,3,1,1,2,4,1,1,1,2,0;17,3,1,1,2,4,1,1,1,2,1;17,3,1,1,2,4,1,1,1,2,2;17,3,1,1,2,4,1,1,1,2,3,0;17,3,1,1,2,4,1,1,1,2,3,1,0;17,3,1,1,2,4,1,1,1,2,3,1,1
+#### Text ####
+its production is concentrated not in the Northwest but in the South
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2573..2661
+17,3,1,1,2,4,1,1,1,2,3,1,2
+#### Text ####
+where it should be able to avoid some of the cost pressures from rising wood-chip prices
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2663..2667
+18,0
+#### Text ####
+Also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2387..2402
+17,1;17,2;17,3,0;17,4
+#### Text ####
+Value Line said
+##############
+also, Expansion.Conjunction
+____Sup1____
+2573..2661
+17,3,1,1,2,4,1,1,1,2,3,1,2
+#### Text ####
+where it should be able to avoid some of the cost pressures from rising wood-chip prices
+##############
+____Arg1____
+2495..2571
+17,3,1,1,2,4,0;17,3,1,1,2,4,1,0;17,3,1,1,2,4,1,1,0;17,3,1,1,2,4,1,1,1,0;17,3,1,1,2,4,1,1,1,1;17,3,1,1,2,4,1,1,1,2,0;17,3,1,1,2,4,1,1,1,2,1;17,3,1,1,2,4,1,1,1,2,2;17,3,1,1,2,4,1,1,1,2,3,0;17,3,1,1,2,4,1,1,1,2,3,1,0;17,3,1,1,2,4,1,1,1,2,3,1,1
+#### Text ####
+because its production is concentrated not in the Northwest but in the South
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2669..2773
+18,1;18,2;18,3;18,4
+#### Text ####
+it isn't exposed to the weakening newsprint business, and is strong in the less-cyclical tissue business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2906
+20
+____Arg1____
+2777..2904
+19
+#### Text ####
+The purchase of Nekoosa would easily eclipse Georgia-Pacific's $530 million acquisition of Brunswick Pulp & Paper Co. last year
+##############
+____Arg2____
+2906..3128
+20
+#### Text ####
+That acquisition, which also included the assumption of $135 million in debt, was designed to allow Georgia-Pacific to capitalize on the strong demand for softwood pulp, as well as reduce its exposure to the housing market
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2930..2934
+20,0,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2822..2904
+19,1,1,2;19,2
+#### Text ####
+Georgia-Pacific's $530 million acquisition of Brunswick Pulp & Paper Co. last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2924..2929;2935..2982
+20,0,2,0;20,0,2,1,0;20,0,2,1,2
+#### Text ####
+which included the assumption of $135 million in debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

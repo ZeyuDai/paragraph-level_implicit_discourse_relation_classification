@@ -1,0 +1,809 @@
+________________________________________________________
+____Explicit____
+419..423
+2,0,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+192..293;319..391
+1,0;1,1,0;1,1,3;1,1,4;1,2
+#### Text ####
+GM sought U.S. antitrust clearance last week to purchase more than $15 million worth of Jaguar shares according to GM officials here and at the company's Detroit headquarters
+##############
+#### Features ####
+Ot, Comm, Null, Null
+319..391
+1,1,3;1,1,4;1,2
+#### Text ####
+according to GM officials here and at the company's Detroit headquarters
+##############
+____Arg2____
+393..418;424..535
+2,0,0;2,0,2
+#### Text ####
+The No. 1 U.S. auto maker wrote Jaguar that it intends "to go to that 15%" level once it wins the U.S. clearance to go beyond $15 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+537..570
+2,1;2,2;2,3;2,4
+#### Text ####
+a Jaguar spokesman said yesterday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+479..483
+2,0,2,2,1,1,1,2,1,2,0
+#### Text ####
+once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+393..436
+2,0,0;2,0,1;2,0,2,0;2,0,2,1
+#### Text ####
+The No. 1 U.S. auto maker then wrote Jaguar
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+437..478
+2,0,2,2,0;2,0,2,2,1,0;2,0,2,2,1,1,0;2,0,2,2,1,1,1,0;2,0,2,2,1,1,1,1;2,0,2,2,1,1,1,2,0;2,0,2,2,1,1,1,2,1,0;2,0,2,2,1,1,1,2,1,1
+#### Text ####
+that it intends "to go to that 15%" level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+484..535
+2,0,2,2,1,1,1,2,1,2,1
+#### Text ####
+it wins the U.S. clearance to go beyond $15 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+725
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+574..723
+3
+#### Text ####
+The GM move follows Tuesday's declaration by Ford, which holds an unwelcome 12.45% stake in Jaguar, that it is prepared to bid for the entire company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+725..859
+4
+#### Text ####
+GM is close to completing a friendly deal with Jaguar that is likely to involve an eventual 30% stake and joint manufacturing ventures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+861
+5
+____Arg1____
+725..859
+4
+#### Text ####
+GM is close to completing a friendly deal with Jaguar that is likely to involve an eventual 30% stake and joint manufacturing ventures
+##############
+____Arg2____
+861..1083
+5
+#### Text ####
+Speculative investors, betting on an imminent clash between Ford and GM, pushed up Jaguar's share price five pence (eight U.S. cents) to a near-record 720 pence ($11.60) in late trading on London's stock exchange yesterday
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1085
+6
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+861..882;934..1083
+5,0;5,1;5,3;5,4;5,5
+#### Text ####
+Speculative investors pushed up Jaguar's share price five pence (eight U.S. cents) to a near-record 720 pence ($11.60) in late trading on London's stock exchange yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1085..1132
+6
+#### Text ####
+Since Tuesday, the shares have gained nearly 4%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1136..1139
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+861..1083
+5
+#### Text ####
+Speculative investors, betting on an imminent clash between Ford and GM, pushed up Jaguar's share price five pence (eight U.S. cents) to a near-record 720 pence ($11.60) in late trading on London's stock exchange yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1140..1252
+7,1;7,2;7,3
+#### Text ####
+an all-out bidding war between the world's top auto giants for Britain's leading luxury-car maker seems unlikely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1255
+8
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1136..1252
+7
+#### Text ####
+But an all-out bidding war between the world's top auto giants for Britain's leading luxury-car maker seems unlikely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1255..1290
+8,0
+#### Text ####
+We will not go over a certain level
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1293..1400
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+said David N. McCammon, Ford's vice president for finance, at a news conference yesterday in Dearborn, Mich
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1403
+9
+#### Features ####
+Ot, Comm, Null, Null
+1293..1400
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+said David N. McCammon, Ford's vice president for finance, at a news conference yesterday in Dearborn, Mich
+##############
+that is, Expansion.Restatement
+____Arg1____
+1255..1290
+8,0
+#### Text ####
+We will not go over a certain level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1403..1448
+9
+#### Text ####
+There's some price at which we'd stop bidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1451
+10
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1403..1448
+9
+#### Text ####
+There's some price at which we'd stop bidding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1293..1400
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+said David N. McCammon, Ford's vice president for finance, at a news conference yesterday in Dearborn, Mich
+##############
+____Arg2____
+1451..1482
+10
+#### Text ####
+He wouldn't specify what it was
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1486..1489
+11,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1136..1252
+7
+#### Text ####
+But an all-out bidding war between the world's top auto giants for Britain's leading luxury-car maker seems unlikely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1490..1686
+11,1;11,2;11,3
+#### Text ####
+powerful political pressures may convince the Conservative government to keep its so-called golden share, which limits any individual holding to 15%, until the restriction expires on Dec. 31, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1640..1645
+11,2,1,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1596..1638
+11,2,1,1,1,1,1,2
+#### Text ####
+which limits any individual holding to 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1646..1686
+11,2,1,1,1,1,2,1
+#### Text ####
+the restriction expires on Dec. 31, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1940
+13
+____Arg1____
+1691..1937
+12
+#### Text ####
+I really don't see the government doing something that Jaguar doesn't want over the next 14 months," said Kenneth Warren, a Conservative member of Parliament and chairman of the Select Committee on Trade and Industry in Britain's House of Commons
+##############
+____Arg2____
+1940..2001
+13
+#### Text ####
+The golden share is a single share, but it is the magic share
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1976..1979
+13,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1792..1937
+12,1;12,2;12,3
+#### Text ####
+said Kenneth Warren, a Conservative member of Parliament and chairman of the Select Committee on Trade and Industry in Britain's House of Commons
+##############
+but, Comparison
+____Arg1____
+1940..1974
+13,1
+#### Text ####
+The golden share is a single share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1980..2001
+13,4
+#### Text ####
+it is the magic share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2047..2052
+14,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2006..2046;2092..2212
+14,0;14,1,0;14,1,1;14,1,2,1,1,1;14,1,2,1,1,2;14,2
+#### Text ####
+The government retained the single share part of a nationalistic practice of protecting former government-owned enterprises to deflect criticism of privatization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2053..2088
+14,1,2,1,0;14,1,2,1,1,0
+#### Text ####
+selling its stake in Jaguar in 1984
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2214
+15
+____Arg1____
+2006..2212
+14
+#### Text ####
+The government retained the single share after selling its stake in Jaguar in 1984 -- part of a nationalistic practice of protecting former government-owned enterprises to deflect criticism of privatization
+##############
+____Arg2____
+2214..2280
+15
+#### Text ####
+The 15% restriction covers any would-be suitor, British or foreign
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2335..2337
+16,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2284..2334
+16,0;16,1,0;16,1,1;16,2
+#### Text ####
+Ford is willing to bid for 100% of Jaguar's shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2338..2434
+16,1,2,1
+#### Text ####
+both the government and Jaguar shareholders agree to relax the anti-takeover barrier prematurely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2436
+17
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2284..2434
+16
+#### Text ####
+Ford is willing to bid for 100% of Jaguar's shares if both the government and Jaguar shareholders agree to relax the anti-takeover barrier prematurely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2436..2612
+17
+#### Text ####
+As Jaguar's biggest holder and Britain's biggest car maker, Ford could turn up the heat by convening a special shareholders' meeting and urging holders to drop the limits early
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2614
+18
+____Arg1____
+2436..2612
+17
+#### Text ####
+As Jaguar's biggest holder and Britain's biggest car maker, Ford could turn up the heat by convening a special shareholders' meeting and urging holders to drop the limits early
+##############
+____Arg2____
+2614..2801
+18
+#### Text ####
+Ford might succeed because many shareholders are speculators keen for a full bid or institutional investors unhappy over Jaguar management's handling of its current financial difficulties
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2633..2640
+18,1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2614..2632
+18,0;18,1,0;18,1,1,0;18,2
+#### Text ####
+Ford might succeed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2641..2801
+18,1,1,1,1
+#### Text ####
+many shareholders are speculators keen for a full bid or institutional investors unhappy over Jaguar management's handling of its current financial difficulties
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2882..2889
+19,2,2,5
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Sup1____
+2614..2801
+18
+#### Text ####
+Ford might succeed because many shareholders are speculators keen for a full bid or institutional investors unhappy over Jaguar management's handling of its current financial difficulties
+##############
+____Arg1____
+2436..2612
+17
+#### Text ####
+As Jaguar's biggest holder and Britain's biggest car maker, Ford could turn up the heat by convening a special shareholders' meeting and urging holders to drop the limits early
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2805..2880
+19,0;19,1;19,2,0;19,2,1;19,2,2,0;19,2,2,1;19,2,2,2;19,2,2,3;19,2,2,4;19,3
+#### Text ####
+The government probably wouldn't give in readily to a hostile foray by Ford
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2891
+20
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2805..2889
+19
+#### Text ####
+The government probably wouldn't give in readily to a hostile foray by Ford, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2891..3035
+20
+#### Text ####
+It has relinquished a golden share only once before -- during British Petroleum Co. 's #2.5 billion ($4 billion) takeover of Britoil PLC in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3188
+22
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3039..3186
+21
+#### Text ####
+In wooing British lawmakers, GM has pointed out that its willingness to settle for a minority stake would keep Jaguar British-owned and independent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3188..3334
+22
+#### Text ####
+This week, the U.S. auto giant paid for 10 House of Commons members and two House of Lords members to fly to Detroit and tour its operations there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3336
+23
+____Arg1____
+3188..3334
+22
+#### Text ####
+This week, the U.S. auto giant paid for 10 House of Commons members and two House of Lords members to fly to Detroit and tour its operations there
+##############
+____Arg2____
+3336..3464
+23
+#### Text ####
+While the visit was unrelated to Jaguar, GM Chairman Roger Smith answered the legislators' questions about it over lunch Tuesday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3336..3341
+23,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+3377..3464
+23,1;23,2;23,3;23,4
+#### Text ####
+GM Chairman Roger Smith answered the legislators' questions about it over lunch Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3342..3375
+23,0,1
+#### Text ####
+the visit was unrelated to Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3466
+24
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3377..3464
+23,1;23,2;23,3;23,4
+#### Text ####
+GM Chairman Roger Smith answered the legislators' questions about it over lunch Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3466..3519
+24,0
+#### Text ####
+He said Jaguar "shouldn't be smothered by anyone else
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3522..3546
+24,1;24,2;24,3
+#### Text ####
+recalled one participant
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3559..3563
+25,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+1596..1686
+11,2,1,1,1,1,1,1;11,2,1,1,1,1,1,2;11,2,1,1,1,1,1,3;11,2,1,1,1,1,2
+#### Text ####
+which limits any individual holding to 15%, until the restriction expires on Dec. 31, 1990
+##############
+____Arg1____
+1486..1594
+11,0;11,1;11,2,0;11,2,1,0;11,2,1,1,0;11,2,1,1,1,0;11,2,1,1,1,1,0;11,2,1,1,1,1,1,0;11,3
+#### Text ####
+And powerful political pressures may convince the Conservative government to keep its so-called golden share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3550..3558;3564..3633
+25,0;25,2;25,3
+#### Text ####
+Politics influences the government's thinking on the anti-takeover restriction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3635
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3550..3633
+25
+#### Text ####
+Politics also influences the government's thinking on the anti-takeover restriction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3635..3706
+26,0,0;26,0,1,0;26,0,1,1;26,0,1,2,0;26,0,1,2,1,0;26,0,1,2,1,1,0;26,0,1,2,1,1,1,0;26,0,1,2,1,1,1,1,0;26,0,1,2,1,1,1,1,1,0;26,0,1,2,1,1,1,1,1,1
+#### Text ####
+The Conservatives don't dare jeopardize marginal Tory seats in Coventry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3739..3742
+26,2
+#### Text ####
+nor
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nor, Expansion.Alternative.Conjunctive
+____Arg1____
+3635..3737
+26,0
+#### Text ####
+The Conservatives don't dare jeopardize marginal Tory seats in Coventry, where Jaguar has headquarters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3743..3933
+26,3
+#### Text ####
+can the government easily back down on promised protection for a privatized company while it proceeds with controversial plans to privatize most of Britain's water and electricity industries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3827..3832
+26,3,2,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+3739..3826
+26,2;26,3,0;26,3,1;26,3,2,0;26,3,2,1;26,3,2,2;26,3,2,3;26,4
+#### Text ####
+nor can the government easily back down on promised protection for a privatized company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3833..3933
+26,3,2,4,1
+#### Text ####
+it proceeds with controversial plans to privatize most of Britain's water and electricity industries
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3977..3984
+27,1,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+3635..3933
+26
+#### Text ####
+The Conservatives don't dare jeopardize marginal Tory seats in Coventry, where Jaguar has headquarters, nor can the government easily back down on promised protection for a privatized company while it proceeds with controversial plans to privatize most of Britain's water and electricity industries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3937..3975;3986..4156
+27,0;27,1,0;27,1,1;27,1,3;27,1,4;27,2
+#### Text ####
+Prime Minister Margaret Thatcher might be receptive to any request by Jaguar Chairman Sir John Egan for the restriction's early removal to let GM amass more than 15% or mount a friendly suitor bid against Ford
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4158..4168
+28,0
+#### Text ####
+In the end
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Restatement.Generalization
+____Arg1____
+3937..4156
+27
+#### Text ####
+Prime Minister Margaret Thatcher might, however, be receptive to any request by Jaguar Chairman Sir John Egan for the restriction's early removal to let GM amass more than 15% or mount a friendly suitor bid against Ford
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4170..4281
+28,1;28,2;28,3;28,4
+#### Text ####
+Sir John -- rather than the government or Jaguar shareholders -- may hold the key that unlocks the golden share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

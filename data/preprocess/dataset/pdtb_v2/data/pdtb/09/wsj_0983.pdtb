@@ -1,0 +1,1408 @@
+________________________________________________________
+____Implicit____
+68
+0
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9..66
+0,0
+#### Text ####
+Many small investors are facing a double whammy this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+68..131
+0,2,0
+#### Text ####
+They got hurt by investing in the highly risky junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+133..136
+0,2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+68..131
+0,2,0
+#### Text ####
+They got hurt by investing in the highly risky junk bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+137..194
+0,2,3
+#### Text ####
+the pain is worse because they did it with borrowed money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+155..162
+0,2,3,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+133..154
+0,2,2;0,2,3,0;0,2,3,1,0;0,2,3,1,1
+#### Text ####
+and the pain is worse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+163..194
+0,2,3,1,2,1
+#### Text ####
+they did it with borrowed money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+490
+3
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Generalization
+____Sup1____
+344..383
+2,0;2,1,0;2,1,1;2,1,2,0;2,1,2,1,0;2,1,2,1,1;2,2
+#### Text ####
+It's a good strategy in a rising market
+##############
+____Arg1____
+385..488
+2,1,2,1,2
+#### Text ####
+where a 25% leveraged portfolio in effect allows investors to have 125% of their money working for them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+490..564
+3
+#### Text ####
+The strategy boosts current yield by putting more bonds into the portfolio
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+624..628
+5,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+580..622
+4,1,2
+#### Text ####
+junk bond prices have been weak for months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+630..684
+5,1;5,2;5,3;5,4
+#### Text ####
+the leverage has amplified the funds' portfolio losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+686..689
+6,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+624..684
+5
+#### Text ####
+Thus, the leverage has amplified the funds' portfolio losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+690..792
+6,1;6,2;6,3;6,4
+#### Text ####
+shares of leveraged junk funds this year have been clobbered even harder than the junk bonds they hold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+930
+8
+#### Features ####
+Ot, Comm, Null, Null
+1042..1049
+8,1;8,2;8,3;8,4
+#### Text ####
+he says
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+797..834
+7,1
+#### Text ####
+That's really where the leverage hurt
+##############
+#### Features ####
+Ot, Comm, Null, Null
+837..927
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+says Thomas Herzfeld, a Miami-based investment manager who specializes in closed-end funds
+##############
+____Arg2____
+930..992
+8,0,0;8,0,1;8,0,2,0;8,0,2,1
+#### Text ####
+Share prices performed even worse than the funds' asset values
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+993..1000
+8,0,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1042..1049
+8,1;8,2;8,3;8,4
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+930..992
+8,0,0;8,0,1;8,0,2,0;8,0,2,1
+#### Text ####
+Share prices performed even worse than the funds' asset values
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1001..1040
+8,0,2,2,1
+#### Text ####
+fear has taken hold" in the junk market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1198
+10
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Sup1____
+1053..1124
+9,0;9,1,0;9,1,1;9,1,2;9,1,3,0;9,1,3,1,0;9,1,3,1,1;9,2
+#### Text ####
+Leverage is never a problem for the traditional "open end" mutual funds
+##############
+____Arg1____
+1126..1196
+9,1,3,1,2
+#### Text ####
+which aren't publicly traded and aren't allowed to use leverage at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1198..1251
+10
+#### Text ####
+Leverage is used only by some of the closed-end funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1385
+12
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1255..1383
+11
+#### Text ####
+The usual maneuver is to borrow against the portfolio value or issue preferred stock, using the proceeds to buy additional bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1385..1434
+12
+#### Text ####
+The fallout for investors lately has been painful
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1481
+14
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1438..1479
+13
+#### Text ####
+Consider the New America High Income Fund
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1481..1578
+14
+#### Text ####
+With a leveraged position of about 45%, the fund's share price has plunged 28.5% so far this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1580
+15
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1481..1578
+14
+#### Text ####
+With a leveraged position of about 45%, the fund's share price has plunged 28.5% so far this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1580..1740
+15
+#### Text ####
+That's worse than the price drop sustained by the bonds in its portfolio, whose total return (bond-price changes plus interest) has amounted to a negative 6.08%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1791..1804
+17,0,0,1
+#### Text ####
+in particular
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1744..1773
+16
+#### Text ####
+Such problems may not be over
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1775..1790;1806..1836
+17,0,0,0;17,0,1;17,0,2,0;17,0,2,1;17,0,2,2;17,0,2,3;17,0,3;17,0,4
+#### Text ####
+Leveraged funds are still extremely vulnerable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1908..1998
+17,1;17,2;17,3
+#### Text ####
+says George Foot, a managing partner at Newgate Management Associates in Northampton, Mass
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1838..1845
+17,0,2,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1908..1998
+17,1;17,2;17,3
+#### Text ####
+says George Foot, a managing partner at Newgate Management Associates in Northampton, Mass
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1775..1836
+17,0,0;17,0,1;17,0,2,0;17,0,2,1;17,0,2,2;17,0,2,3;17,0,3;17,0,4
+#### Text ####
+Leveraged funds in particular "are still extremely vulnerable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1846..1905
+17,0,2,4,1
+#### Text ####
+we're still at the beginning of problems in the junk market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2093
+19
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2002..2090
+18
+#### Text ####
+Many investors are unaware their funds have borrowed to speculate in such a risky market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2093..2165;2234..2253
+19,0;19,1;19,2;19,3;19,5;19,6;19,7
+#### Text ####
+If someone actually sat down and thought about what they were being sold they might shy away
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2168..2232
+19,4
+#### Text ####
+says Gerald Perritt, editor of the Mutual Fund Letter in Chicago
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2093..2095
+19,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2168..2232
+19,4
+#### Text ####
+says Gerald Perritt, editor of the Mutual Fund Letter in Chicago
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+2234..2253
+19,0;19,2;19,3;19,5;19,6;19,7
+#### Text ####
+they might shy away
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2096..2165
+19,1,1
+#### Text ####
+someone actually sat down and thought about what they were being sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2424
+21
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2257..2422
+20
+#### Text ####
+In a typical leverage strategy, a fund tries to capture the spread between what it costs to borrow and the higher return on the bonds it buys with the borrowed money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2424..2484
+21,0
+#### Text ####
+If the market surges, holders can make that much more profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2424..2426
+21,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2446..2484
+21,0,1;21,0,2;21,0,3
+#### Text ####
+holders can make that much more profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2427..2444
+21,0,0,1
+#### Text ####
+the market surges
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2486
+21
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2424..2484
+21,0
+#### Text ####
+If the market surges, holders can make that much more profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2486..2564
+21,2
+#### Text ####
+the leverage effectively acts as an interest-free margin account for investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2568..2571
+22,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2424..2564
+21
+#### Text ####
+If the market surges, holders can make that much more profit; the leverage effectively acts as an interest-free margin account for investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2572..2731
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+when the market moves against the fund, investors lose more than other junk holders because the market decline is magnified by the amount the fund is leveraged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2572..2576
+22,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+2568..2571;2612..2655
+22,0;22,2;22,3;22,4,0;22,4,1;22,5
+#### Text ####
+But investors lose more than other junk holders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2577..2610
+22,1,1
+#### Text ####
+the market moves against the fund
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2656..2663
+22,4,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2568..2655
+22,0;22,1;22,2;22,3;22,4,0;22,4,1;22,5
+#### Text ####
+But when the market moves against the fund, investors lose more than other junk holders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2664..2731
+22,4,2,1
+#### Text ####
+the market decline is magnified by the amount the fund is leveraged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2796
+24
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2735..2794
+23
+#### Text ####
+Fund managers, for their part, defend their use of leverage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2796..2925
+24
+#### Text ####
+Carl Ericson, who runs the Colonial Intermediate High Income Fund, says the fund's 25% leverage has jacked up its interest income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2928
+25
+#### Features ####
+Ot, Comm, Null, Null
+3020..3032
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+he maintains
+##############
+because, Contingency.Cause.Reason
+for example, Expansion.Restatement.Specification
+____Arg1____
+2868..2925
+24,1,1
+#### Text ####
+the fund's 25% leverage has jacked up its interest income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2863..2867
+24,0,1;24,0,3;24,1,0
+#### Text ####
+says
+##############
+____Arg2____
+2928..3017
+25,1
+#### Text ####
+As long as I am borrowing at 9.9% and each {bond} yields over that, it enhances the yield
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2928..2938
+25,1,0,0;25,1,0,1,0
+#### Text ####
+As long as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3020..3032
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+he maintains
+##############
+as long as, Contingency.Condition.General
+____Arg1____
+2996..3017
+25,1,1;25,1,2;25,1,3
+#### Text ####
+it enhances the yield
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2939..2994
+25,1,0,1,1
+#### Text ####
+I am borrowing at 9.9% and each {bond} yields over that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2962..2965
+25,1,0,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3020..3032
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+he maintains
+##############
+and, Expansion.Conjunction
+____Arg1____
+2928..2961
+25,1,0,0;25,1,0,1,0;25,1,0,1,1,0
+#### Text ####
+As long as I am borrowing at 9.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2966..2994
+25,1,0,1,1,2
+#### Text ####
+each {bond} yields over that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3034
+26
+____Arg1____
+2928..3032
+25
+#### Text ####
+As long as I am borrowing at 9.9% and each {bond} yields over that, it enhances the yield," he maintains
+##############
+____Arg2____
+3034..3119
+26
+#### Text ####
+Mr. Ericson says he tries to offset the leverage by diversifying the fund's portfolio
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3123..3126
+27,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Comparison
+____Arg1____
+2735..2794
+23
+#### Text ####
+Fund managers, for their part, defend their use of leverage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3127..3164
+27,1;27,2;27,3
+#### Text ####
+some funds have pulled in their horns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3209
+28
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+3123..3164
+27
+#### Text ####
+Yet some funds have pulled in their horns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3209..3324
+28,2,1
+#### Text ####
+that it plans to reduce its leverage position by buying back $5 million in preferred stock and notes from investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3166..3208
+28,0;28,1;28,2,0;28,3
+#### Text ####
+New America High Income Fund recently said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3326
+29
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3209..3324
+28,2,1
+#### Text ####
+that it plans to reduce its leverage position by buying back $5 million in preferred stock and notes from investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3166..3208
+28,0;28,1;28,2,0;28,3
+#### Text ####
+New America High Income Fund recently said
+##############
+____Arg2____
+3326..3372
+29
+#### Text ####
+The fund made a similar move earlier this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3523
+31
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+3377..3521
+30
+#### Text ####
+We are trying to increase our flexibility," says Ellen E. Terry, a vice president at Ostrander Capital Management, the fund's investment adviser
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3523..3548
+31,0;31,1,0;31,2
+#### Text ####
+She declined to elaborate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3724..3728
+32,1,1,1,1,2,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+3687..3722
+32,1,1,1,1,2,1,0;32,1,1,1,1,2,1,1,0;32,1,1,1,1,2,1,1,1,0;32,1,1,1,1,2,1,1,1,1;32,1,1,1,1,2,1,1,1,2
+#### Text ####
+what happens in a leveraged product
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3729..3757
+32,1,1,1,1,2,1,1,1,3,1
+#### Text ####
+the market doesn't cooperate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3760
+33
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast.Opposition
+____Arg1____
+3644..3757
+32,1,1,1
+#### Text ####
+the fund's recent performance "illustrates what happens in a leveraged product" when the market doesn't cooperate
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3626..3643
+32,0;32,1,0;32,1,1,0;32,2
+#### Text ####
+Ms. Terry did say
+##############
+____Arg2____
+3760..3788;3802..3867
+33,0;33,1;33,2;33,3;33,5;33,6;33,7;33,8;33,9
+#### Text ####
+When the market turns around it will give a nice picture" of how leverage can help performance
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3791..3799
+33,4
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3760..3764
+33,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3791..3799
+33,4
+#### Text ####
+she says
+##############
+when, Contingency.Condition.General, Temporal
+____Arg1____
+3802..3867
+33,0;33,2;33,3;33,5;33,6;33,7;33,8;33,9
+#### Text ####
+it will give a nice picture" of how leverage can help performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3765..3788
+33,1,1
+#### Text ####
+the market turns around
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3936..3943
+34,0,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3993..4012
+34,1;34,2;34,3;34,4
+#### Text ####
+fund officials said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3871..3935
+34,0,0;34,0,1,0;34,0,1,1;34,0,1,2,0;34,0,1,2,1
+#### Text ####
+Several leveraged funds don't want to cut the amount they borrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3944..3991
+34,0,1,2,2,1
+#### Text ####
+it would slash the income they pay shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4014..4017
+35,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3871..3991
+34,0
+#### Text ####
+Several leveraged funds don't want to cut the amount they borrow because it would slash the income they pay shareholders
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3993..4012
+34,1;34,2;34,3;34,4
+#### Text ####
+fund officials said
+##############
+____Arg2____
+4018..4062
+35,1;35,2;35,3
+#### Text ####
+a few funds have taken other defensive steps
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4064
+36
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4014..4062
+35
+#### Text ####
+But a few funds have taken other defensive steps
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4064..4118
+36
+#### Text ####
+Some have raised their cash positions to record levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4120
+37
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4064..4118
+36
+#### Text ####
+Some have raised their cash positions to record levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4120..4180
+37
+#### Text ####
+High cash positions help buffer a fund when the market falls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4159..4163
+37,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency
+____Arg1____
+4120..4158
+37,0;37,1,0;37,1,1,0;37,1,1,1,0;37,1,1,1,1;37,2
+#### Text ####
+High cash positions help buffer a fund
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4164..4180
+37,1,1,1,2,1
+#### Text ####
+the market falls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4223..4235
+38,0,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4064..4118
+36
+#### Text ####
+Some have raised their cash positions to record levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4184..4221;4237..4335
+38,0,0;38,0,1;38,0,3;38,0,4;38,0,5
+#### Text ####
+Prospect Street High Income Portfolio now holds about 15% in cash and equivalents, nearly quintuple the amount it held earlier this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4337..4377
+38,1;38,2;38,3
+#### Text ####
+says John Frabotta, portfolio co-manager
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4387
+39
+#### Features ####
+Ot, Comm, Null, Null
+4379..4386
+39,0;39,1,0;39,2
+#### Text ####
+He says
+##############
+as a result, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+4184..4335
+38,0
+#### Text ####
+Prospect Street High Income Portfolio, for instance, now holds about 15% in cash and equivalents, nearly quintuple the amount it held earlier this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4337..4377
+38,1;38,2;38,3
+#### Text ####
+says John Frabotta, portfolio co-manager
+##############
+____Arg2____
+4387..4527
+39,1,1
+#### Text ####
+the fund, which is 40% leveraged, has maintained a "substantial cushion" between its borrowing costs and the yields of the portfolio's bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4530
+40
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4387..4527
+39,1,1
+#### Text ####
+the fund, which is 40% leveraged, has maintained a "substantial cushion" between its borrowing costs and the yields of the portfolio's bonds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4379..4386
+39,0;39,1,0;39,2
+#### Text ####
+He says
+##############
+____Arg2____
+4530..4578
+40,1
+#### Text ####
+I don't want to be in a position to have to sell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4581..4598
+40,0;40,2;40,3;40,4;40,5;40,6
+#### Text ####
+Mr. Frabotta says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4664
+42
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4602..4662
+41
+#### Text ####
+Other funds have recently sold weak junk bonds to raise cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4664..4857
+42
+#### Text ####
+At the 50%-leveraged Zenith Income Fund, portfolio manager John Bianchi recently dumped Mesa Petroleum, Wickes and Horsehead Industries, among others, to raise his cash position to a record 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4879..4886
+43,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4927..4943
+43,0;43,2;43,3;43,4;43,5;43,6
+#### Text ####
+Mr. Bianchi says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4862..4878
+43,1,0;43,1,1,0;43,1,1,1
+#### Text ####
+That's a problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4887..4924
+43,1,1,2,1
+#### Text ####
+cash isn't earning us very much money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4959
+44
+#### Features ####
+Ot, Ftv, Null, Null
+4945..4956
+44,0;44,1,0;44,1,1;44,1,2;44,2;44,3
+#### Text ####
+He concedes
+##############
+indeed, Expansion.Conjunction, Contingency
+____Arg1____
+4862..4924
+43,1
+#### Text ####
+That's a problem because cash isn't earning us very much money
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4927..4943
+43,0;43,2;43,3;43,4;43,5;43,6
+#### Text ####
+Mr. Bianchi says
+##############
+____Arg2____
+4959..5019
+44,1,3
+#### Text ####
+This is the most difficult market that I've been involved in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5117..5124
+45,3,1,1,1,1,1,1
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Comparison.Contrast
+____Arg1____
+4664..4813
+42,0;42,1;42,2;42,3;42,4,0;42,4,1;42,4,2;42,4,3;42,4,4;42,5
+#### Text ####
+At the 50%-leveraged Zenith Income Fund, portfolio manager John Bianchi recently dumped Mesa Petroleum, Wickes and Horsehead Industries, among others
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5024..5116;5126..5157
+45,0;45,1;45,2;45,3,0;45,3,1,0;45,3,1,1,0;45,3,1,1,1,0;45,3,1,1,1,1,0;45,3,1,1,1,1,1,0;45,3,1,1,1,1,1,2;45,3,1,1,1,1,1,3;45,4
+#### Text ####
+Because of the recent junk-market turmoil, the fund is considering investing in other issues including mortgage-backed bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5328
+47
+#### Features ####
+Ot, Comm, Null, Null
+5211..5325
+46,0;46,2;46,3;46,4;46,5;46,6
+#### Text ####
+says Robert Moore, president of Bernstein-Macaulay Inc., a Shearson Lehman Hutton Inc. unit and the fund's adviser
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5162..5208
+46,1
+#### Text ####
+We're looking at the leverage factor every day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5328..5387;5430..5464
+47,0;47,1;47,2;47,3;47,5;47,6;47,7
+#### Text ####
+At some point, if we are unable to cover our leveraged cost we're going to have to make a move
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5343..5345
+47,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5211..5325
+46,0;46,2;46,3;46,4;46,5;46,6
+#### Text ####
+says Robert Moore, president of Bernstein-Macaulay Inc., a Shearson Lehman Hutton Inc. unit and the fund's adviser
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+5328..5341;5430..5464
+47,0;47,1;47,2;47,5;47,6;47,7
+#### Text ####
+At some point we're going to have to make a move
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5346..5387
+47,3,1
+#### Text ####
+we are unable to cover our leveraged cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5391..5426
+47,4,1;47,4,2;47,4,3;47,4,4
+#### Text ####
+and at the moment we're right on it
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5391..5394
+47,4,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5211..5325
+46,0;46,2;46,3;46,4;46,5;46,6
+#### Text ####
+says Robert Moore, president of Bernstein-Macaulay Inc., a Shearson Lehman Hutton Inc. unit and the fund's adviser
+##############
+and, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+5328..5387;5430..5464
+47,0;47,1;47,2;47,3;47,5;47,6;47,7
+#### Text ####
+At some point, if we are unable to cover our leveraged cost we're going to have to make a move
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5395..5426
+47,4,2;47,4,3;47,4,4
+#### Text ####
+at the moment we're right on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

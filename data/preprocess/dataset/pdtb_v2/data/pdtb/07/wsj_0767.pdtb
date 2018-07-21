@@ -1,0 +1,620 @@
+________________________________________________________
+____Implicit____
+401
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+244..399
+1
+#### Text ####
+The FCC moves were good news for AT&T, which has been striving since the breakup of the phone system for greater latitude in pricing and reduced regulation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+401..543
+2
+#### Text ####
+Alfred Sikes, the new FCC chairman, championed deregulation of AT&T at his last job as head of a Commerce Department telecommunications agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+545..548
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+401..543
+2
+#### Text ####
+Alfred Sikes, the new FCC chairman, championed deregulation of AT&T at his last job as head of a Commerce Department telecommunications agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+549..737
+3,1;3,2;3,3
+#### Text ####
+it has been an open question whether Mr. Sikes, an extraordinarily cautious man, would continue pushing deregulation at the FCC in the face of what is likely to be great political pressure
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+915
+5
+____Arg1____
+742..912
+4
+#### Text ####
+It means that Sikes is serious about the deregulation of long distance," said Jack Grubman, a telecommunications analyst at PaineWebber Inc., who attended the FCC meeting
+##############
+____Arg2____
+915..1036
+5
+#### Text ####
+All the commissioners were in amazing agreement {to re-examine regulation} for only having been together for a few months
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1093
+7
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Restatement.Specification
+____Arg1____
+1041..1091
+6
+#### Text ####
+The FCC took three specific actions regarding AT&T
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1093..1187
+7,0;7,1;7,2;7,3,0;7,3,1,0;7,3,1,1,0;7,3,1,1,1,0;7,3,1,1,1,1,0;7,3,1,1,1,1,1,0;7,3,1,1,1,1,1,1;7,3,1,1,1,1,1,2;7,3,1,1,1,1,1,3;7,3,2;7,4
+#### Text ####
+By a 4-0 vote, it allowed AT&T to continue offering special discount packages to big customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1278..1282
+8,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Sup1____
+1207..1276
+7,3,3
+#### Text ####
+rejecting appeals by AT&T competitors that the discounts were illegal
+##############
+____Arg1____
+1093..1205
+7,0;7,1;7,2;7,3,0;7,3,1;7,3,2;7,4
+#### Text ####
+By a 4-0 vote, it allowed AT&T to continue offering special discount packages to big customers, called Tariff 12
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1283..1440
+8,1;8,2;8,3;8,4;8,5
+#### Text ####
+by a separate 4-0 vote, it chose the narrowest possible grounds to strike down a different discount plan, called Tariff 15, that AT&T offered to Holiday Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1637
+10
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+1444..1619
+9
+#### Text ####
+AT&T gave a 5% to 10% discount to the Memphis, Tenn., company that oversees Holiday Inns, in response to a similar discount offered to Holiday Corp. by MCI Communications Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1637..1723
+10,1,1
+#### Text ####
+that because MCI's offer had expired AT&T couldn't continue to offer its discount plan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1621..1636
+10,0;10,1,0;10,2
+#### Text ####
+The agency said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1642..1649
+10,1,1,1,0,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1621..1636
+10,0;10,1,0;10,2
+#### Text ####
+The agency said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1637..1641;1674..1723
+10,1,1,0;10,1,1,1,1;10,1,1,1,2
+#### Text ####
+that AT&T couldn't continue to offer its discount plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1650..1673
+10,1,1,1,0,1
+#### Text ####
+MCI's offer had expired
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1725..1728
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1621..1723
+10
+#### Text ####
+The agency said that because MCI's offer had expired AT&T couldn't continue to offer its discount plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1729..1898
+11,1;11,2;11,3;11,4
+#### Text ####
+the agency specifically didn't rule whether AT&T had the right to match offers by competitors if that means giving discounts not generally available to other phone users
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1740..1752
+11,2
+#### Text ####
+specifically
+##############
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1621..1723
+10
+#### Text ####
+The agency said that because MCI's offer had expired AT&T couldn't continue to offer its discount plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1725..1739;1753..1898
+11,0;11,1;11,3;11,4
+#### Text ####
+But the agency didn't rule whether AT&T had the right to match offers by competitors if that means giving discounts not generally available to other phone users
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1823..1825
+11,3,2,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+1729..1764
+11,1;11,2;11,3,0;11,3,1;11,3,2,0;11,4
+#### Text ####
+the agency specifically didn't rule
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1765..1822
+11,3,2,1,0;11,3,2,1,1,0;11,3,2,1,1,1,0;11,3,2,1,1,1,1
+#### Text ####
+whether AT&T had the right to match offers by competitors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1826..1898
+11,3,2,1,1,1,2,1
+#### Text ####
+that means giving discounts not generally available to other phone users
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1902..1908
+12,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+1765..1822
+11,3,2,1,0;11,3,2,1,1,0;11,3,2,1,1,1,0;11,3,2,1,1,1,1
+#### Text ####
+whether AT&T had the right to match offers by competitors
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+1729..1764
+11,1;11,2;11,3,0;11,3,1;11,3,2,0;11,4
+#### Text ####
+the agency specifically didn't rule
+##############
+____Arg2____
+1988..2107
+12,3,1
+#### Text ####
+AT&T offered a similar Tariff 15 discount to Resort Condominium International, of Indianapolis, to meet another MCI bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1910..1987
+12,1;12,2;12,3,0;12,4
+#### Text ####
+Joe Nacchio, AT&T's vice president for business-communications services, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2109
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1988..2107
+12,3,1
+#### Text ####
+AT&T offered a similar Tariff 15 discount to Resort Condominium International, of Indianapolis, to meet another MCI bid
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1983..1987
+12,2,1;12,2,3;12,3,0
+#### Text ####
+said
+##############
+____Arg2____
+2109..2151
+13,0
+#### Text ####
+The FCC "didn't say I couldn't do it again
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2154..2161
+13,1;13,2;13,3
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2292..2297
+14,3,1,1,1,1,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2165..2243
+14,0;14,1;14,2;14,3,0;14,4
+#### Text ####
+Apart from those two actions, Mr. Sikes and the three other commissioners said
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+2244..2291
+14,3,1,0;14,3,1,1,0;14,3,1,1,1,0;14,3,1,1,1,1,0;14,3,1,1,1,1,1,0;14,3,1,1,1,1,1,1,0;14,3,1,1,1,1,1,1,1
+#### Text ####
+they expect to re-examine how AT&T is regulated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2298..2323
+14,3,1,1,1,1,1,1,2,1
+#### Text ####
+competition has increased
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2403
+15
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2244..2323
+14,3,1
+#### Text ####
+they expect to re-examine how AT&T is regulated since competition has increased
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2195..2243
+14,1;14,2;14,3,0;14,4
+#### Text ####
+Mr. Sikes and the three other commissioners said
+##############
+____Arg2____
+2403..2444
+15,1,1,1,1,1
+#### Text ####
+the agency to propose new rules next year
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2391..2402
+15,1,1,0;15,1,1,1,0;15,1,1,1,1,0
+#### Text ####
+he expected
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2483
+17
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2448..2480
+16
+#### Text ####
+AT&T applauded the FCC's actions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2483..2664
+17
+#### Text ####
+The time is long overdue to take a look at the fierce competition in the long-distance business and the rules governing it," the New York telecommunications firm said in a statement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2666..2669
+18,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2448..2480
+16
+#### Text ####
+AT&T applauded the FCC's actions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2670..2747
+18,1;18,2,0;18,2,1;18,2,2;18,3;18,4
+#### Text ####
+MCI, of Washington, was displeased with the FCC decision concerning Tariff 12
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2951
+20
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+2864..2930
+19,1,1
+#### Text ####
+it was "obviously disappointed" with the FCC decision on Tariff 12
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2810..2863
+19,0;19,1,0;19,2
+#### Text ####
+United Telecommunications Inc. 's US Sprint unit said
+##############
+____Arg2____
+2951..3001
+20,1,1,0,1
+#### Text ####
+it will petition the FCC decision in federal court
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2932..2946
+20,0;20,1,0;20,2
+#### Text ####
+US Sprint said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3004
+21
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2951..3001
+20,1,1,0,1
+#### Text ####
+it will petition the FCC decision in federal court
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2932..2946
+20,0;20,1,0;20,2
+#### Text ####
+US Sprint said
+##############
+____Arg2____
+3004..3051
+21,0
+#### Text ####
+We believe that the court will find it unlawful
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3054..3080
+21,1;21,2;21,3
+#### Text ####
+said a US Sprint spokesman
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3084..3094
+22,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..240
+0
+#### Text ####
+The Federal Communications Commission allowed American Telephone & Telegraph Co. to continue offering discount phone services for large-business customers and said it would soon re-examine its regulation of the long-distance market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3096..3220
+22,1;22,2;22,3;22,4
+#### Text ####
+AT&T filed a countersuit against MCI accusing it of misleading consumers through allegedly "false and deceptive" advertising
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3222
+23
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3084..3220
+22
+#### Text ####
+Separately, AT&T filed a countersuit against MCI accusing it of misleading consumers through allegedly "false and deceptive" advertising
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3222..3279
+23
+#### Text ####
+The AT&T action was the most recent blow in a nasty fight
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3281
+24
+#### Features ####
+Wr, Comm, Null, Null
+inasmuch as, Contingency.Cause.Reason
+____Arg1____
+3222..3279
+23
+#### Text ####
+The AT&T action was the most recent blow in a nasty fight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3281..3376
+24
+#### Text ####
+Earlier this month, MCI sued AT&T in federal district court, claiming that AT&T's ads are false
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3490
+26
+____Arg1____
+3380..3487
+25
+#### Text ####
+AT&T assembled three of its top executives in Washington, all visibly angry, to try to refute MCI's charges
+##############
+____Arg2____
+3490..3672
+26
+#### Text ####
+MCI has made hawks out of the upper echelon of AT&T," said PaineWebber's Mr. Grubman, who said he expected AT&T to become increasingly aggressive in dealing with its longtime nemesis
+##############
+________________________________________________________

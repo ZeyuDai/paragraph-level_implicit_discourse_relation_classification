@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<html>
+
+<head>
+  <title>Penn Discourse Treebank Version 2.0</title>
+  <meta http-equiv="Content-type" content="text/html/css;charset=UTF-8">
+  <meta name="description" content="Documentation for Penn Discourse Treebank Version 2.0">
+  <meta name="keywords" content="Linguistic Data Consortium">
+  <meta name="keywords" content="LDC">
+  <meta name="keywords" content="Documentation">
+  <meta name="keywords" content="Penn Discourse Treebank Version 2.0">
+  <style type="text/css">
+  		body{
+  			background-color: #ffffff;
+  			color: #000000;
+  		}
+  		a:link{color : #990000;}
+  		a:visited{color:#990000;}
+  		a:active {color:#990000;}
+  		h1{
+			text-align:center;
+			color:#990000; 			
+  		}
+  		h3.subtitle{
+			text-align:center;
+			color:#990000;
+		}
+  		ul{
+  			line-height:130%;
+  		}
+  		p.cited{
+  			padding-left:2em;
+  			text-indent:-2em;
+  		}
+  		p.footer{
+  			font-size:0.85em;
+  		}
+  		
+  </style>
+  </head>
+
+<body>
+<h1> Penn Discourse Treebank Version 2.0</h1>
+<h3 class="subtitle">LDC2008T05</h3>
+
+
+    <h3>Introduction</h3> 
+
+    
+<p>This file contains documentation for Penn Discourse Treebank Version 2.0, Linguistic 
+  Data Consortium (LDC) catalog number LDC2008T05 and isbn 1-58563-466-2. 
+<p>The <a href="http://www.seas.upenn.edu/~pdtb">Penn Discourse Treebank (PDTB)</a> 
+  Project, located at the <a href="http://www.ircs.upenn.edu/">Institute for Research 
+  in Cognitive Science</a> at the <a href="http://www.upenn.edu/">Univeristy of 
+  Pennsylvania</a>, is funded by the <a href="http://www.nsf.gov/">National Science 
+  Foundation</a>, Grant No. EIA 02-24417. The goal of the project is to develop 
+  a large scale corpus annotated with information related to discourse structure. 
+  Penn Discourse Treebank Version 2.0 contains annotations of discourse relations 
+  and their arguments on the one million word Wall Street Journal (WSJ) data in 
+  <a href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC95T7">Treebank-2 
+  (LDC95T7).</a></p>
+<p>While there are many aspects of discourse that are crucial to a complete understanding 
+  of natural language, the PDTB focuses on encoding discourse relations associated 
+  with discourse connectives, adopting a lexically grounded approach for the annotation. 
+  The corpus provides annotations for the argument structure of Explicit and Implicit 
+  connectives, the senses of connectives and the attribution of connectives and 
+  their arguments. The lexically grounded approach exposes a clearly defined level 
+  of discourse structure which will support the extraction of a range of inferences 
+  associated with discourse connectives.</p>
+<p>To date, the PDTB group has carried out various experiments on the corpus, 
+  particularly examining the following issues:
+  
+<UL>
+  <LI> alignment between syntax and discourse, particularly with regards to attribution</LI>
+  <LI>sense disambiguation of discourse connectives</LI>
+  <LI>complexity of dependencies in discourse</LI>
+</UL>
+
+<p>The annotations in Penn Discourse Treebank Version 2.0 are linked to the <a href="http://www.cis.upenn.edu/~treebank/home.html">Penn 
+  Treebank</a> .</p>
+
+<p>The PDTB group will continue to explore these issues and to focus on more extended 
+  projects such as discourse parsing, automatic summarization, and natural language 
+  generation. Further work will also explore foundational issues in discourse.</p>
+  
+
+
+<h3>Data</h3>
+<p>Following the approach towards discourse structure and discourse semantics 
+  in D-LTAG, the PDTB annotates semantic or informational relations holding between 
+  two (and only two) Abstract Objects (AOs), expressed either explicitly via lexical 
+  items or implicitly via adjacency. For the former, the lexical items anchoring 
+  the relation are annotated as Explicit connectives. For the latter, the implicit 
+  inferrable relations are annotated by inserting an Implicit connective that 
+  best expresses the inferred relation.</p>
+<p>Explicit connectives are identified from three grammatical classes: subordinating 
+  conjunctions (e.g., because, when), coordinating conjunctions (e.g., and, or), 
+  and discourse adverbials (e.g., however, otherwise). Arguments of connectives 
+  are simply labelled Arg2 for the argument appearing in the clause syntactically 
+  bound to the connective, and Arg1 for the other argument. In the examples in 
+  this section, Arg1 appears in italics while Arg2 appears in bold. In addition 
+  to the argument structure of discourse relations, the PDTB also annotates the 
+  attribution of relations (both explicit and implicit) as well as of each of 
+  their arguments. A variety of cases can be distinguished depending on the attribution 
+  source of the discourse relation or its arguments; i.e., whether the relation 
+  or arguments are ascribed to the writer of the text or to someone other than 
+  the writer.</p>
+  
+<p>The corpus annotates 40600 discourse relations, distributed into the following five types:</p>
+	<ul>
+		<li>18459 Explicit Relations</li>
+		<li>16053 Implicit Relations</li>
+		<li>624 Alternative Lexicalizations</li>
+		<li>5210 Entity Relations</li>
+		<li>254 No Relations</li>
+	</ul>
+
+
+
+
+<p>Please see <a href="docs/file.tbl"
+    style="text-decoration:none">file.tbl</a> for the directory structure of
+    this publication, as well as a complete list of files.
+
+    <p>Please go to <a href="data/"
+    style="text-decoration:none">data</a> for a listing of data files.</p>
+	
+	<p>This release includes a tool to convert the PDTB into a "pipe" delimited file suitable for loading into spreadsheets or manipulaton with scripts.  That tool may be found in the <a href="util">util</a> directory.</p>
+
+    <p>Other documentation files are:
+     
+<ul>
+  <li><a href="docs/manual/pdtb-annotation-manual.pdf" STYLE="text-decoration:none">The 
+    Penn Discourse Treebank 2.0 Annotation Manual</a></li>
+  <li><a href="docs/papers/index.html" STYLE="text-decoration:none">Papers on 
+    the Penn Discourse Treebank</a></li>
+  <li><a href="docs/manual/fileformat.pdf">PDTB File Formats</a></li>
+</ul>
+<p>The Penn Discourse Treebank project provides a <a href="http://www.seas.upenn.edu/~pdtb/PDTBAPI/">browser</a> 
+  for exploring the Penn Discourse Treebank and the Prenn Treebank. In order to 
+  use this software, users must also possess the Penn Treebank as it uses both 
+  the raw Wall Street Journal text and the parse trees from that corpus. The project 
+  also has extensive <a href="http://www.seas.upenn.edu/~pdtb/PDTBAPI/docs/index.html">APIs</a> 
+  for developing further applications for use with the Penn Discourse Treebank.</p>
+<h3>Updates</h3>   
+
+    <p>Additional information, updates, bug fixes may be available in the LDC
+    catalog entry for this corpus at <a
+    href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2008T05"
+    style="text-decoration:none">LDC2008T05</a>.</p>
+	<p>The developers of the Penn Discourse Treebank Version 2.0 
+	<a href="http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC2008T05">LDC2008T05</a>
+	have updated this release to add metadata to the Wall Street Journal (WSJ) news
+	stories in the corpus. The goal is to aid understanding PDTB files as texts and to
+	support distinguishing texts from different genres within the WSJ. </p>
+
+<p>The metadata includes of the following fields: Consult this 
+<a href="./docs/meta-data-documentation.html">metadata documentation</a> for more information.</p>
+<ul>
+<li> DD: the date the article appeared in the WSJ 
+<li>AN: unique identifier for the article 
+<li>HL: the column name (for regular features such as Who's News, Marketing & Media, Technology), its headline and by-line 
+<li>SO: the source of the article 
+<li>IN: manually-assigned codes or keywords for the article 
+<li>CO: manually-assigned codes for companies or other organizations 
+<li>DATELINE: normally the location where the article was filed, but sometimes has very unexpected contents 
+<li>GV: Branch of Government or Government Agency mentioned in the article 
+<li>SBREAKS: the byte position of section breaks present in the file 
+<li>ARTICLEBREAK: separates files that contain more than one article 
+</ul>
+
+<p>This update may be of value to discourse researchers. The meta-data can, for example, enable the texts to be distinguished by genre (news reports, editorials, etc.
+[<a href="http://www.aclweb.org/anthology-new/P/P09/Po9-1076.pdf">Webber, 2009</a>])
+or by topic
+[<a href="http://www.aclweb.org/anthology-new/J/J11/J11-2004.pdf">Petrenz and Webber,
+2011</a>]. These can then be used, for example, in text segmentation and
+text summarization, or in testing hypotheses about domain adaptation
+[<a href="http://www.aclweb.org/anthology-new/P/P11/P11-1157.pdf">Plank and van
+Noord, 2011</a>]. The data, on the other hand, can allow researchers to distinguish separate texts within a single file (e.g. the four separate letters to the editor in file wsj_0105) and thereby avoid, for example, attempting to produce one summary for the entire file. </p>
+<p>As of February, 2017, 2,499 "raw" wsj files were added from Treebank-2 (<a href="https://catalog.ldc.upenn.edu/LDC95T7">LDC95T7</a>), to make PDTB more useful.</p>
+
+<h3>Recognizing Textual Entailment Data</h3>
+<p>These data have been used to run the textual entailment experiments described in:
+Sara Tonelli and Elena Cabrio "Hunting for Entailing Pairs in the Penn Discourse Treebank", in Proceedings of Coling 2012, Mumbay, India.
+The files contain Text - Hypothesis pairs in the standard RTE xml format (for more details, see 
+<a href="http://www.nist.gov/tac/2011/RTE/">http://www.nist.gov/tac/2011/RTE/</a>), which have been manually annotated as entailing or 
+not entailing. All sentence pairs have been extracted from the Penn Discourse Treebank, and are therefore connected by a discourse relation label.</p>
+<p>For more information, consult the
+<a href="http://www.ldc.upenn.edu/Catalog/docs/LDC2008T05/RTE-README.txt">readme</a>. 
+The data are not included in the general release of Penn Discourse Treebank Version 2.0, but are freely available for 
+<a href="http://www.ldc.upenn.edu/Catalog/docs/LDC2008T05/RTE-PDTB.tgz">download</a>.
+</p>
+
+    <h3>Content Copyright</h3>   
+    
+<p>Portions &copy; 1989 Dow Jones &amp; Company, Inc., &copy; 2008 The Penn Discourse 
+  Treebank Group, &copy; 2008, 2012 Trustees of the University of Pennsylvania </p>
+<hr>
+
+    <p class="footer">
+    
+    Contact: <a href="mailto:ldc@ldc.upenn.edu">
+
+    <b>ldc@ldc.upenn.edu</b></a><br> &copy; 2012 <A
+    HREF="http://www.ldc.upenn.edu">
+
+    <b>Linguistic Data Consortium</b></a>,
+    <a href="http://www.upenn.edu">
+
+    <b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    </p>
+
+</body>
+
+</html>
+

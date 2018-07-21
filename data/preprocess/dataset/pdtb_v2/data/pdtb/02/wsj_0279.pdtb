@@ -1,0 +1,300 @@
+________________________________________________________
+____Implicit____
+341
+2
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+189..339
+1
+#### Text ####
+Gulf Power's guilty plea before U.S. District Judge Robert L. Vining yesterday marks the end of only one part of a wide-ranging inquiry of Southern Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+341..546
+2
+#### Text ####
+The company is the subject of a federal grand jury investigation into whether its officials and its utility subsidiaries conspired to cover up their accounting for spare parts to evade federal income taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+669
+4
+#### Features ####
+Ot, Comm, Null, Null
+633..666
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+said U.S. Attorney Robert L. Barr
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+551..630
+3,1
+#### Text ####
+The terms announced today are strictly between the United States and Gulf Power
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+669..723
+4
+#### Text ####
+This is only a further step in a lengthy investigation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+910
+6
+____Arg1____
+728..908
+5
+#### Text ####
+The plea settlement does not allow Southern Co. to charge any of the $500,000 to its customers, or take action against employees who provided information during the federal inquiry
+##############
+____Arg2____
+910..1065
+6
+#### Text ####
+Gulf Power had been under investigation for violating the Utility Holding Company Act, which prohibits public utilities from making political contributions
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1219..1222
+8,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1069..1130
+7,0;7,1;7,2;7,3,0;7,3,1;7,3,2;7,4
+#### Text ####
+In a statement, Southern Co. President Edward L. Addison said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1133..1217
+7,3,3
+#### Text ####
+We believe our decision to plead (guilty) to these charges is responsible and proper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1223..1311
+8,1;8,2;8,3;8,4
+#### Text ####
+our action today will allow Gulf Power to avoid prolonged, distracting legal proceedings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1314
+9
+____Arg1____
+1219..1311
+8
+#### Text ####
+And our action today will allow Gulf Power to avoid prolonged, distracting legal proceedings
+##############
+____Arg2____
+1314..1404
+9
+#### Text ####
+He did not say what effect, if any, the $500,000 fine would have on the company's earnings
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1749..1760
+11,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Sup1____
+1408..1663
+10,0;10,1,0;10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1;10,1,1,1,1,1,2,0;10,1,1,1,1,1,2,1,0;10,1,1,1,1,1,2,1,1,0;10,1,1,1,1,1,2,1,1,1,0;10,1,1,1,1,1,2,1,1,1,1,0;10,1,1,1,1,1,2,1,1,1,1,1,0;10,1,1,1,1,1,2,1,1,1,1,1,1;10,1,1,1,1,1,2,1,1,1,1,1,2,0;10,1,1,1,1,1,2,1,1,1,1,1,2,1,0;10,1,1,1,1,1,2,1,1,1,1,1,2,1,1,0;10,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,0;10,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,1;10,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,3;10,2
+#### Text ####
+Mr. Barr said yesterday's plea by Gulf Power, which came after months of negotiations, was based on evidence that Gulf Power had set up an elaborate payment system through which it reimbursed outside vendors -- primarily three Florida advertising agencies
+##############
+____Arg1____
+1667..1723
+10,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,2
+#### Text ####
+for making illegal political contributions on its behalf
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1727..1747;1762..1850
+11,0;11,1;11,3;11,4;11,5,0;11,5,1
+#### Text ####
+The Appleyard Agency allegedly made contributions from 1982 to 1984 to various funds for political candidates
+##############
+#### Features ####
+Arb, Comm, Null, Null
+1762..1771
+11,3;11,4
+#### Text ####
+allegedly
+##############
+____Sup2____
+1852..1886
+11,5,2;11,5,3;11,6
+#### Text ####
+then submitted bills to Gulf Power
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1852..1856
+11,5,2
+#### Text ####
+then
+##############
+#### Features ####
+Arb, Comm, Null, Null
+1762..1771
+11,3;11,4
+#### Text ####
+allegedly
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1727..1850
+11,0;11,1;11,2;11,3;11,4;11,5,0;11,5,1
+#### Text ####
+The Appleyard Agency, for example, allegedly made contributions from 1982 to 1984 to various funds for political candidates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1857..1886
+11,5,3;11,6
+#### Text ####
+submitted bills to Gulf Power
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1888
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1727..1850
+11,0;11,1;11,2;11,3;11,4;11,5,0;11,5,1;11,6
+#### Text ####
+The Appleyard Agency, for example, allegedly made contributions from 1982 to 1984 to various funds for political candidates
+##############
+#### Features ####
+Arb, Comm, Null, Null
+1762..1771
+11,3;11,4
+#### Text ####
+allegedly
+##############
+____Arg2____
+1888..2095
+12,0
+#### Text ####
+The contributions were funded by monthly payments of $1,000 to $2,000 to Appleyard in the guise of a "special production fee" -- in effect, hiding the nature of the payments from the Internal Revenue Service
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2097..2121
+12,1;12,2;12,3;12,4
+#### Text ####
+federal prosecutors said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2140..2144
+13,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1888..2121
+12
+#### Text ####
+The contributions were funded by monthly payments of $1,000 to $2,000 to Appleyard in the guise of a "special production fee" -- in effect, hiding the nature of the payments from the Internal Revenue Service, federal prosecutors said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2125..2139;2145..2411
+13,0;13,2;13,3
+#### Text ####
+The government indicated that former Gulf Power senior vice president Jacob F. "Jake" Horton was the mastermind behind the use of the ad agencies -- Appleyard, Dick Leonard Group II Inc. and Hemmer & Yates Corp. -- to make payments to various political candidates from 1981 to 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2413
+14
+____Arg1____
+2125..2411
+13
+#### Text ####
+The government also indicated that former Gulf Power senior vice president Jacob F. "Jake" Horton was the mastermind behind the use of the ad agencies -- Appleyard, Dick Leonard Group II Inc. and Hemmer & Yates Corp. -- to make payments to various political candidates from 1981 to 1988
+##############
+____Arg2____
+2413..2618
+14
+#### Text ####
+Mr. Horton, who oversaw Gulf Power's governmental-affairs efforts, died mysteriously in a plane crash in April after learning he might be fired following the uncovering of irregularities in a company audit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2524..2529
+14,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2413..2523
+14,0;14,1,0;14,1,1;14,1,2;14,1,3;14,2
+#### Text ####
+Mr. Horton, who oversaw Gulf Power's governmental-affairs efforts, died mysteriously in a plane crash in April
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2530..2618
+14,1,4,1
+#### Text ####
+learning he might be fired following the uncovering of irregularities in a company audit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

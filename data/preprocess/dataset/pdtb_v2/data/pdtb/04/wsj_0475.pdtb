@@ -1,0 +1,486 @@
+________________________________________________________
+____EntRel____
+390
+2
+____Arg1____
+213..388
+1
+#### Text ####
+In a meeting in New York yesterday, the committee put on hold instructions it gave two weeks ago to its experts to explore other options for Eastern's future, the sources said
+##############
+____Arg2____
+390..451
+2
+#### Text ####
+The consultants had been working to finish a report this week
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+663
+4
+____Arg1____
+455..661
+3
+#### Text ####
+That means Eastern, a unit of Texas Air Corp. of Houston, can go forward with its pitch for creditor approval as early as today, when it is expected to deliver a revised reorganization plan to the committee
+##############
+____Arg2____
+663..743
+4
+#### Text ####
+The committee intends to meet next week to make a recommendation on the new plan
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1081..1084
+7,0,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+938..1062
+6,0
+#### Text ####
+Texas Air has run into difficulty reselling about $20 million of debt securities because of problems in the junk bond market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1064..1079
+6,1;6,2;6,3;6,4
+#### Text ####
+the person said
+##############
+____Arg2____
+1085..1174
+7,0,1;7,0,2
+#### Text ####
+plans to raise another $20 million through changes to an insurance policy have hit a snag
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1176..1191
+7,1;7,2;7,3;7,4
+#### Text ####
+the source said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1220
+8
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+938..1062;1081..1174
+6,0;7,0
+#### Text ####
+Texas Air has run into difficulty reselling about $20 million of debt securities because of problems in the junk bond market And plans to raise another $20 million through changes to an insurance policy have hit a snag
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1064..1079;1176..1191
+6,1;6,2;6,3;6,4;7,1;7,2;7,3;7,4
+#### Text ####
+the person said the source said
+##############
+____Arg2____
+1220..1307
+8,1,2
+#### Text ####
+the $40 million will have no effect whatsoever on the asset structure of Eastern's plan
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1193..1218
+8,0;8,1,0;8,1,1;8,2
+#### Text ####
+An Eastern spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1309
+9
+#### Features ####
+Ot, Comm, Null, Null
+1193..1218
+8,0;8,1,0;8,1,1;8,2
+#### Text ####
+An Eastern spokesman said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1220..1307
+8,1,2
+#### Text ####
+the $40 million will have no effect whatsoever on the asset structure of Eastern's plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1309..1376
+9
+#### Text ####
+Forty million in the total scheme of things is not that significant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1505..1512
+11,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1381..1503
+10
+#### Text ####
+It is unclear what caused the creditors to do an about-face on exploring alternatives to Eastern's new reorganization plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1514..1644
+11,1;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+since Eastern first filed for Chapter 11 protection March 9, it has consistently promised to pay creditors 100 cents on the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1514..1519
+11,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+1505..1512;1575..1644
+11,0;11,1;11,3;11,4;11,5;11,6
+#### Text ####
+However it has consistently promised to pay creditors 100 cents on the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1520..1573
+11,2,1
+#### Text ####
+Eastern first filed for Chapter 11 protection March 9
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1646
+12
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1505..1644
+11
+#### Text ####
+However, since Eastern first filed for Chapter 11 protection March 9, it has consistently promised to pay creditors 100 cents on the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1646..1860
+12
+#### Text ####
+Because the carrier is still pledging to do that, some committee members successfully argued that there's little reason yet to explore a different plan, according to one person familiar with the creditors' position
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1799..1860
+12,3,3;12,3,4;12,4
+#### Text ####
+according to one person familiar with the creditors' position
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1646..1653
+12,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1696..1860
+12,1;12,2;12,3;12,4
+#### Text ####
+some committee members successfully argued that there's little reason yet to explore a different plan, according to one person familiar with the creditors' position
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1654..1694
+12,0,1
+#### Text ####
+the carrier is still pledging to do that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1862
+13
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1646..1860
+12
+#### Text ####
+Because the carrier is still pledging to do that, some committee members successfully argued that there's little reason yet to explore a different plan, according to one person familiar with the creditors' position
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1799..1860
+12,3,3;12,3,4;12,4
+#### Text ####
+according to one person familiar with the creditors' position
+##############
+____Arg2____
+1862..2099
+13
+#### Text ####
+Earlier this month the accounting firm of Ernst & Young and the securities firm of Goldman, Sachs & Co., the experts hired by the creditors, contended that Eastern would have difficulty meeting earnings targets the airline was projecting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2101
+14
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1862..2099
+13
+#### Text ####
+Earlier this month the accounting firm of Ernst & Young and the securities firm of Goldman, Sachs & Co., the experts hired by the creditors, contended that Eastern would have difficulty meeting earnings targets the airline was projecting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2101..2173
+14
+#### Text ####
+Ernst & Young said Eastern's plan would miss projections by $100 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2175
+15
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2101..2173
+14
+#### Text ####
+Ernst & Young said Eastern's plan would miss projections by $100 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2175..2245
+15
+#### Text ####
+Goldman said Eastern would miss the same mark by at least $120 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2697
+19
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2492..2695
+18
+#### Text ####
+Yesterday, Joel Zweibel, an attorney for Eastern's creditors committee, declined to comment on whether the experts had ever been instructed to look at other choices and whether they now were asked not to
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2697..2838
+19
+#### Text ####
+He said only that the committee has not yet taken any position on Eastern's reorganization plan and that the two sides were still negotiating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2793..2796
+19,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2697..2704
+19,0;19,1,0;19,2
+#### Text ####
+He said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2710..2792
+19,1,2,0
+#### Text ####
+that the committee has not yet taken any position on Eastern's reorganization plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2797..2838
+19,1,2,2
+#### Text ####
+that the two sides were still negotiating
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2841
+20
+#### Features ####
+Ot, Comm, Null, Null
+2901..2908
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+2793..2838
+19,1,2,1;19,1,2,2
+#### Text ####
+and that the two sides were still negotiating
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2697..2709
+19,0;19,1,0;19,1,1;19,2
+#### Text ####
+He said only
+##############
+____Arg2____
+2841..2898
+20,1
+#### Text ####
+In every case, people would like to see a consentual plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3122
+22
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2912..3120
+21
+#### Text ####
+Eastern and its creditors agreed in July on a reorganization plan that called for the carrier to sell off $1.8 billion in assets and to emerge from Chapter 11 status in late 1989 at two-thirds its former size
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3122..3240
+22
+#### Text ####
+Eastern eventually decided not to sell off a major chunk, its South American routes, which were valued at $400 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3242
+23
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3122..3240
+22
+#### Text ####
+Eastern eventually decided not to sell off a major chunk, its South American routes, which were valued at $400 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3242..3383
+23
+#### Text ####
+Such a change meant the reorganization plan the creditors had agreed on was no longer valid, and the two sides had to begin negotiating again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3335..3338
+23,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+3242..3333
+23,0;23,1,0;23,1,1,0;23,1,1,1,0;23,1,1,1,1;23,2
+#### Text ####
+Such a change meant the reorganization plan the creditors had agreed on was no longer valid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3339..3383
+23,1,1,1,3
+#### Text ####
+the two sides had to begin negotiating again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

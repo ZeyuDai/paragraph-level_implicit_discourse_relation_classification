@@ -1,0 +1,2762 @@
+________________________________________________________
+____Implicit____
+66
+2
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+42..64
+1
+#### Text ####
+The recession, that is
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+66..166
+2
+#### Text ####
+The economy's stutter steps leave investors wondering whether things are slowing down or speeding up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+168
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+66..166
+2
+#### Text ####
+The economy's stutter steps leave investors wondering whether things are slowing down or speeding up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+168..261
+3
+#### Text ####
+So often are government statistics revised that they seem to resemble a spinning weather vane
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+379
+5
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+265..377
+4
+#### Text ####
+For the past seven years, investors have had the wind at their backs, in the form of a generally growing economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+379..402;458..501
+5,0;5,5
+#### Text ####
+Some may have forgotten what it's like to invest during a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+406..409
+5,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+379..402;458..501
+5,0;5,5
+#### Text ####
+Some may have forgotten what it's like to invest during a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+410..454
+5,3
+#### Text ####
+some younger ones may never have experienced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+503
+6
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+379..402;458..501
+5,0;5,5
+#### Text ####
+Some may have forgotten what it's like to invest during a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+503..600
+6
+#### Text ####
+Different tactics are called for, as losing money becomes easier and making money becomes tougher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+537..539
+6,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+503..535
+6,0;6,1,0;6,1,1,0;6,1,1,1;6,1,1,2;6,2
+#### Text ####
+Different tactics are called for
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+540..600
+6,1,1,3,1
+#### Text ####
+losing money becomes easier and making money becomes tougher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+568..571
+6,1,1,3,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+537..567
+6,1,1,3,0;6,1,1,3,1,0
+#### Text ####
+as losing money becomes easier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+572..600
+6,1,1,3,1,2
+#### Text ####
+making money becomes tougher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+946
+9
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+791..944
+8
+#### Text ####
+In a nutshell, pros advise investors who expect a slowdown to hold fewer stocks than usual and to favor shares of big companies in "defensive" industries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+946..1063
+9
+#### Text ####
+A heavy dose of cash is prescribed, along with a heavier-than-usual allotment to bonds -- preferably government bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1127..1132
+10,1,2,1,1,1,1,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Arb, PAtt, Null, Indet
+1081..1089
+10,1,2,0;10,1,2,1,0;10,1,2,1,1,0
+#### Text ####
+to think
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1090..1126
+10,1,2,1,1,1,0;10,1,2,1,1,1,1,0;10,1,2,1,1,1,1,1,0;10,1,2,1,1,1,1,1,1,0;10,1,2,1,1,1,1,1,1,1,0;10,1,2,1,1,1,1,1,1,1,1
+#### Text ####
+these defensive steps can be delayed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1133..1163
+10,1,2,1,1,1,1,1,1,1,2,1
+#### Text ####
+a recession is clearly at hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1165..1168
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1067..1163
+10
+#### Text ####
+It's tempting to think these defensive steps can be delayed until a recession is clearly at hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1169..1246
+11,1;11,2;11,3
+#### Text ####
+that may not be possible, because recessions often take investors by surprise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1195..1202
+11,2,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1165..1193
+11,0;11,1;11,2,0;11,2,1;11,2,2,0;11,2,2,1;11,2,2,2;11,3
+#### Text ####
+But that may not be possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1203..1246
+11,2,2,3,1
+#### Text ####
+recessions often take investors by surprise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1249
+12
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+1195..1246
+11,2,2,3
+#### Text ####
+because recessions often take investors by surprise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1249..1301
+12
+#### Text ####
+They always seem to come a bit later than you expect
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1337..1432
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+says David A. Wyss, chief financial economist at the Data Resources division of McGraw-Hill Inc
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1303
+13
+#### Features ####
+Ot, Comm, Null, Null
+1337..1432
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+says David A. Wyss, chief financial economist at the Data Resources division of McGraw-Hill Inc
+##############
+but, Comparison.Contrast
+____Arg1____
+1249..1301
+12
+#### Text ####
+They always seem to come a bit later than you expect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1303..1334
+13,0
+#### Text ####
+When they do hit, they hit fast
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1303..1307
+13,0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1337..1432
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+says David A. Wyss, chief financial economist at the Data Resources division of McGraw-Hill Inc
+##############
+when, Temporal.Synchrony
+____Arg1____
+1321..1334
+13,0,1;13,0,2;13,0,3
+#### Text ####
+they hit fast
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1308..1319
+13,0,0,1
+#### Text ####
+they do hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1436..1442
+14,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+1487..1598
+14,1;14,2;14,3
+#### Text ####
+Mr. Wyss advises people who do that "the best thing to be in is long that is, 20-year to 30-year Treasury bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1443..1485
+14,0,1
+#### Text ####
+he himself doesn't expect a recession soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1697
+16
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1641..1694
+15,3
+#### Text ####
+Interest rates almost always decline during recession
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1625..1638
+15,0,1;15,0,2;15,0,3
+#### Text ####
+Mr. Wyss says
+##############
+____Arg2____
+1697..1794
+16
+#### Text ####
+As surely as a seesaw tilts, falling interest rates force up the price of previously issued bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1796
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1697..1794
+16
+#### Text ####
+As surely as a seesaw tilts, falling interest rates force up the price of previously issued bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1796..1875
+17
+#### Text ####
+They are worth more because they pay higher interest than newly issued bonds do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1816..1823
+17,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1796..1815
+17,0;17,1,0;17,1,1;17,2
+#### Text ####
+They are worth more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1824..1875
+17,1,2,1
+#### Text ####
+they pay higher interest than newly issued bonds do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1943..1946
+19,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1879..1941
+18
+#### Text ####
+That effect holds true for both short-term and long-term bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1947..2059
+19,1;19,2;19,3
+#### Text ####
+short-term bonds can't rise too much, because everyone knows they will be redeemed at a preset price fairly soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1985..1992
+19,2,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1943..1983
+19,0;19,1;19,2,0;19,2,1;19,2,2,0;19,2,2,1;19,2,2,2;19,3
+#### Text ####
+But short-term bonds can't rise too much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1993..2059
+19,2,2,3,1
+#### Text ####
+everyone knows they will be redeemed at a preset price fairly soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2061
+20
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+1943..1983
+19,0;19,1;19,2,0;19,2,1;19,2,2,0;19,2,2,1;19,2,2,2;19,3
+#### Text ####
+But short-term bonds can't rise too much
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2061..2076;2116..2142
+20,0,0;20,0,1;20,0,3;20,1;20,2
+#### Text ####
+Long-term bonds swing more widely in price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2146..2149
+21,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1879..2142
+18;19;20
+#### Text ####
+That effect holds true for both short-term and long-term bonds.
+But short-term bonds can't rise too much, because everyone knows they will be redeemed at a preset price fairly soon.
+Long-term bonds, with many years left before maturity, swing more widely in price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2150..2176
+21,1;21,2;21,3
+#### Text ####
+not just any bonds will do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2178
+22
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+2146..2176
+21
+#### Text ####
+But not just any bonds will do
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2178..2236
+22,0
+#### Text ####
+Corporate bonds "are usually not a good bet in a recession
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2239..2252
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+Mr. Wyss says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2254
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2178..2236
+22,0
+#### Text ####
+Corporate bonds "are usually not a good bet in a recession
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2239..2252
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+Mr. Wyss says
+##############
+____Arg2____
+2254..2356
+23
+#### Text ####
+As times get tougher, investors fret about whether companies will have enough money to pay their debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2254..2256
+23,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2276..2356
+23,1;23,2;23,3;23,4
+#### Text ####
+investors fret about whether companies will have enough money to pay their debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2257..2274
+23,0,1
+#### Text ####
+times get tougher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2358
+24
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2254..2356
+23
+#### Text ####
+As times get tougher, investors fret about whether companies will have enough money to pay their debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2358..2397
+24
+#### Text ####
+This hurts the price of corporate bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2399..2403
+25,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2254..2356
+23
+#### Text ####
+As times get tougher, investors fret about whether companies will have enough money to pay their debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2416..2449
+25,1;25,3;25,4;25,5;25,6;25,7
+#### Text ####
+most corporate bonds are callable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2405..2413
+25,2
+#### Text ####
+he notes
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2485..2490
+26,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2465..2483;2530..2622
+26,1,1,0;26,1,1,1,0;26,1,1,1,1;26,1,1,1,3;26,1,1,1,4
+#### Text ####
+that a corporation can buy back its bonds by paying investors the face value (plus, in some cases, a sweetener)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2491..2528
+26,1,1,1,2,1
+#### Text ####
+a specified amount of time has passed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2624
+27
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2454..2621
+26
+#### Text ####
+That means that a corporation, after a specified amount of time has passed, can buy back its bonds by paying investors the face value (plus, in some cases, a sweetener
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2624..2705
+27,0
+#### Text ####
+When interest rates have dropped, it makes sense for corporations to do just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2624..2628
+27,0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony, Contingency.Condition.General
+____Arg1____
+2658..2705
+27,0,1;27,0,2;27,0,3
+#### Text ####
+it makes sense for corporations to do just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2629..2656
+27,0,0,1
+#### Text ####
+interest rates have dropped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2707
+27
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2624..2705
+27,0
+#### Text ####
+When interest rates have dropped, it makes sense for corporations to do just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2707..2739
+27,2
+#### Text ####
+they then save on interest costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2712..2716
+27,2,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2673..2705
+27,0,3,2
+#### Text ####
+for corporations to do just that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2707..2711;2717..2739
+27,2,0;27,2,2
+#### Text ####
+they save on interest costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2741..2744
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2707..2739
+27,2
+#### Text ####
+they then save on interest costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2745..2838
+28,1;28,2;28,3
+#### Text ####
+the investors are left stranded with money to reinvest at a time when interest rates are puny
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2842..2844
+29,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Factual present
+____Arg1____
+2884..2928
+29,1;29,2;29,3;29,4
+#### Text ####
+junk bonds are likely to be the worst of all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2845..2882
+29,0,1
+#### Text ####
+corporate bonds are bad in recessions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2930
+30
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Contingency.Cause.Result
+____Arg1____
+2842..2928
+29
+#### Text ####
+If corporate bonds are bad in recessions, junk bonds are likely to be the worst of all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2930..3017
+30,0
+#### Text ####
+It's an "absolute necessity" to get out of junk bonds when a recession is in the offing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3019..3079
+30,1;30,2;30,3;30,4
+#### Text ####
+says Avner Arbel, professor of finance at Cornell University
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2984..2988
+30,0,1,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3019..3079
+30,1;30,2;30,3;30,4
+#### Text ####
+says Avner Arbel, professor of finance at Cornell University
+##############
+when, Contingency.Condition.General, Temporal.Synchrony
+____Arg1____
+2930..2983
+30,0,0;30,0,1,0;30,0,1,1;30,0,1,2,0;30,0,1,2,1,0;30,0,1,2,1,1,0;30,0,1,2,1,1,1
+#### Text ####
+It's an "absolute necessity" to get out of junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2989..3017
+30,0,1,2,1,1,2,1
+#### Text ####
+a recession is in the offing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3082
+31
+#### Features ####
+Ot, Comm, Null, Null
+3019..3079
+30,1;30,2;30,3;30,4
+#### Text ####
+says Avner Arbel, professor of finance at Cornell University
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2930..3017
+30,0
+#### Text ####
+It's an "absolute necessity" to get out of junk bonds when a recession is in the offing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3082..3127
+31,1
+#### Text ####
+Such bonds are very sensitive to the downside
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3129..3132
+31,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3019..3079
+30,1;30,2;30,3;30,4
+#### Text ####
+says Avner Arbel, professor of finance at Cornell University
+##############
+and, Expansion
+____Arg1____
+3082..3127
+31,1
+#### Text ####
+Such bonds are very sensitive to the downside
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3133..3157
+31,4
+#### Text ####
+this could be a disaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3300
+33
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3162..3298
+32
+#### Text ####
+Municipal bonds are generally a bit safer than corporate bonds in a recession, but not as safe as bonds issued by the federal government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3300..3418
+33
+#### Text ####
+During an economic slump, local tax revenues often go down, raising the risks associated with at least some municipals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3420..3423
+34,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+3300..3418
+33
+#### Text ####
+During an economic slump, local tax revenues often go down, raising the risks associated with at least some municipals
+##############
+____Arg1____
+3162..3298
+32
+#### Text ####
+Municipal bonds are generally a bit safer than corporate bonds in a recession, but not as safe as bonds issued by the federal government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3425..3475
+34,1;34,2;34,3;34,4;34,5;34,6
+#### Text ####
+like corporates, many municipal bonds are callable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3479..3482
+35,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+3300..3475
+33;34
+#### Text ####
+During an economic slump, local tax revenues often go down, raising the risks associated with at least some municipals.
+And, like corporates, many municipal bonds are callable
+##############
+____Arg1____
+3162..3298
+32
+#### Text ####
+Municipal bonds are generally a bit safer than corporate bonds in a recession, but not as safe as bonds issued by the federal government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3483..3602
+35,1;35,2;35,3;35,4;35,5;35,6
+#### Text ####
+a few experts, going against the consensus, don't think bonds would help investors even if a recession is in the offing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3566..3573
+35,5,2,1,1,1,1,2,0;35,5,2,1,1,1,1,2,1
+#### Text ####
+even if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3483..3496;3527..3538
+35,1;35,2;35,4;35,5,0;35,5,1;35,5,2,0;35,6
+#### Text ####
+a few experts don't think
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3539..3565
+35,5,2,1,0;35,5,2,1,1,0;35,5,2,1,1,1,0;35,5,2,1,1,1,1,0;35,5,2,1,1,1,1,1
+#### Text ####
+bonds would help investors
+##############
+#### Features ####
+Inh, Null, Neg, Null
+____Arg2____
+3574..3602
+35,5,2,1,1,1,1,2,2
+#### Text ####
+a recession is in the offing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3604..3619
+36,0;36,1,0
+#### Text ####
+One of these is
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+3479..3496;3527..3602
+35,0;35,1;35,2;35,4;35,5;35,6
+#### Text ####
+But a few experts don't think bonds would help investors even if a recession is in the offing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3604..3786
+36
+#### Text ####
+One of these is Jeffrey L. Beach, director of research for Underwood Neuhaus & Co., a brokerage house in Houston, who thinks that "we're either in a recession or about to go into one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3789..3800
+37,0,0
+#### Text ####
+What's more
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+3718..3786
+36,1,1,4
+#### Text ####
+who thinks that "we're either in a recession or about to go into one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3789..3856
+37,0
+#### Text ####
+What's more, he thinks this could be a nastier recession than usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3859
+37
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Specification
+____Arg1____
+3789..3856
+37,0
+#### Text ####
+What's more, he thinks this could be a nastier recession than usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3859..3921
+37,3
+#### Text ####
+Once the downturn comes, it's going to be very hard to reverse
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3859..3863
+37,3,0,0
+#### Text ####
+Once
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3802..3811
+37,0,1;37,0,2;37,0,3,0
+#### Text ####
+he thinks
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+3884..3921
+37,3,1;37,3,2;37,3,3;37,3,4;37,3,5
+#### Text ####
+it's going to be very hard to reverse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3864..3882
+37,3,0,1
+#### Text ####
+the downturn comes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4007..4011
+38,2,1,4,1,2
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3937..3947
+38,1
+#### Text ####
+he advises
+##############
+also, Expansion.Conjunction
+____Arg1____
+3971..4002
+38,2,1,4,0;38,2,1,4,1,0
+#### Text ####
+holding fewer stocks than usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4003..4006;4012..4026
+38,2,1,4,1,1;38,2,1,4,1,3
+#### Text ####
+and shunning bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4028
+39
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+4003..4026
+38,2,1,4,1,1;38,2,1,4,1,2;38,2,1,4,1,3
+#### Text ####
+and also shunning bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4028..4154
+39
+#### Text ####
+Because he sees a "5% to 6% base rate of inflation in the economy," he doubts that interest rates will fall much any time soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4028..4035
+39,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4096..4154
+39,1;39,2;39,3;39,4;39,5
+#### Text ####
+he doubts that interest rates will fall much any time soon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4036..4093
+39,0,1
+#### Text ####
+he sees a "5% to 6% base rate of inflation in the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4158..4165
+40,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+3926..3935;3950..4026
+38,0;38,2;38,3
+#### Text ####
+Investors should be cautious," holding fewer stocks than usual and also shunning bonds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3937..3947
+38,1
+#### Text ####
+he advises
+##############
+____Arg2____
+4183..4247
+40,1;40,3;40,4;40,5;40,6,0;40,6,1,0;40,6,1,1,0;40,6,1,1,1,0;40,6,1,1,1,1,0;40,6,1,1,1,1,1,0;40,6,1,1,1,1,1,1;40,6,1,1,1,1,1,2;40,7
+#### Text ####
+investors "probably should be carrying a very high level of cash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4167..4181
+40,2
+#### Text ####
+Mr. Beach says
+##############
+____Sup2____
+4250..4340
+40,6,1,1,1,1,1,3
+#### Text ####
+by which he means such so-called cash equivalents as money-market funds and Treasury bills
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4409..4413
+41,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+4250..4340
+40,6,1,1,1,1,1,3
+#### Text ####
+by which he means such so-called cash equivalents as money-market funds and Treasury bills
+##############
+____Arg1____
+4158..4247
+40,0;40,1;40,2;40,3;40,4;40,5;40,6,0;40,6,1,0;40,6,1,1,0;40,6,1,1,1,0;40,6,1,1,1,1,0;40,6,1,1,1,1,1,0;40,6,1,1,1,1,1,1;40,6,1,1,1,1,1,2;40,7
+#### Text ####
+Instead, Mr. Beach says, investors "probably should be carrying a very high level of cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4342..4406;4414..4459
+41,0;41,2;41,3
+#### Text ####
+Greg Confair, president of Sigma Financial Inc. in Allentown, Pa recommends that investors go heavily for cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4461
+42
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+4342..4459
+41
+#### Text ####
+Greg Confair, president of Sigma Financial Inc. in Allentown, Pa., also recommends that investors go heavily for cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4461..4496
+42,0;42,1,0;42,1,1;42,2
+#### Text ####
+He isn't sure a recession is coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4709
+44
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Conjunction
+____Arg1____
+4581..4689
+43,0
+#### Text ####
+This late in an expansion," the economy tends to veer off either into damaging inflation or into a recession
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4691..4707
+43,1;43,2;43,3;43,4
+#### Text ####
+Mr. Confair says
+##############
+____Arg2____
+4709..4761;4773..4829
+44,0;44,2;44,3;44,4
+#### Text ####
+The Federal Reserve Board's plan for a "soft landing requires the Fed to navigate "an ever-narrowing corridor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4764..4771
+44,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4922
+46
+#### Features ####
+Wr, Comm, Null, Null
+instead, Comparison.Contrast
+____Arg1____
+4834..4902
+45,0
+#### Text ####
+A soft landing isn't something that can be achieved once and for all
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4904..4920
+45,1;45,2;45,3;45,4
+#### Text ####
+Mr. Confair adds
+##############
+____Arg2____
+4922..4984
+46
+#### Text ####
+It has to be engineered over and over again, month after month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4998
+47
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+4922..4984
+46
+#### Text ####
+It has to be engineered over and over again, month after month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4998..5124
+47,1,1
+#### Text ####
+that the task facing Fed Chairman Alan Greenspan is so difficult that it resembles "juggling a double-bladed ax and a buzz saw
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4986..4997
+47,0;47,1,0;47,2;47,3
+#### Text ####
+He believes
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5129..5132
+48,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4986..5124
+47
+#### Text ####
+He believes that the task facing Fed Chairman Alan Greenspan is so difficult that it resembles "juggling a double-bladed ax and a buzz saw
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5134..5276
+48,1;48,2;48,3;48,4;48,5;48,6
+#### Text ####
+in a sense, that's the kind of task individuals face in deciding what to do about stocks -- the mainstay of most serious investors' portfolios
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5278
+49
+#### Features ####
+Wr, Comm, Null, Null
+ultimately, Expansion.Restatement.Specification
+____Arg1____
+5129..5222
+48,0;48,1;48,2;48,3;48,4;48,5,0;48,5,1,0;48,5,1,1;48,5,1,2,0;48,5,1,2,1,0;48,5,1,2,1,1,0;48,5,1,2,1,1,1;48,5,1,2,1,1,2,0;48,5,1,2,1,1,2,1,0;48,5,1,2,1,1,2,1,1,0;48,5,1,2,1,1,2,1,1,1,0;48,5,1,2,1,1,2,1,1,1,1,0;48,5,1,2,1,1,2,1,1,1,1,1,0;48,5,1,2,1,1,2,1,1,1,1,1,1,0;48,5,1,2,1,1,2,1,1,1,1,1,1,1;48,5,1,2,1,1,2,1,1,1,1,1,1,2,0;48,5,1,2,1,1,2,1,1,1,1,1,1,2,1,0;48,5,1,2,1,1,2,1,1,1,1,1,1,2,1,1;48,6
+#### Text ####
+And, in a sense, that's the kind of task individuals face in deciding what to do about stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5278..5344
+49
+#### Text ####
+It comes down to a question of whether to try to "time" the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5485
+51
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5348..5465
+50
+#### Text ####
+For people who can ride out market waves through good times and bad, stocks have been rewarding long-term investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5485..5579
+51,1,1,0;51,1,1,1,0;51,1,1,1,1;51,1,1,1,2,0;51,1,1,1,2,1,0;51,1,1,1,2,1,1;51,1,1,1,2,1,2
+#### Text ####
+that buy-and-hold investors historically have earned an annual return from stocks of 9% to 10%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5467..5484
+51,0;51,1,0;51,2
+#### Text ####
+Most studies show
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5630
+52
+____Arg1____
+5467..5628
+51
+#### Text ####
+Most studies show that buy-and-hold investors historically have earned an annual return from stocks of 9% to 10%, including both dividends and price appreciation
+##############
+____Arg2____
+5630..5689
+52
+#### Text ####
+That's well above what bonds or bank certificates have paid
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5693..5701
+53,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+5348..5465
+50
+#### Text ####
+For people who can ride out market waves through good times and bad, stocks have been rewarding long-term investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5703..5838
+53,1;53,2;53,3;53,4;53,5;53,6
+#### Text ####
+because no one knows for sure just when a recession is coming, some analysts think investors shouldn't even worry too much about timing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5703..5710
+53,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5693..5701;5766..5838
+53,0;53,1;53,3;53,4;53,5;53,6
+#### Text ####
+Moreover some analysts think investors shouldn't even worry too much about timing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5711..5764
+53,2,1
+#### Text ####
+no one knows for sure just when a recession is coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5841
+54
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5786..5838
+53,5,1
+#### Text ####
+investors shouldn't even worry too much about timing
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5766..5785
+53,1;53,3;53,4;53,5,0;53,6
+#### Text ####
+some analysts think
+##############
+____Arg2____
+5841..5880
+54,1
+#### Text ####
+Trying to time the economy is a mistake
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5883..5968
+54,0;54,2;54,3;54,4;54,5;54,6
+#### Text ####
+says David Katz, chief investment officer of Value Matrix Management Inc. in New York
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5985
+55
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5841..5968
+54
+#### Text ####
+Trying to time the economy is a mistake," says David Katz, chief investment officer of Value Matrix Management Inc. in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5985..6061
+55,1,1
+#### Text ####
+that some economists have been predicting a recession for at least two years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5970..5984
+55,0;55,1,0;55,2
+#### Text ####
+Mr. Katz notes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6063
+56
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5985..6061
+55,1,1
+#### Text ####
+that some economists have been predicting a recession for at least two years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5970..5984
+55,0;55,1,0;55,2
+#### Text ####
+Mr. Katz notes
+##############
+____Arg2____
+6063..6141
+56,0
+#### Text ####
+Investors who listened, and lightened up on stocks, "have just hurt themselves
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6144..6151
+56,1;56,2;56,3;56,4;56,5
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6293
+58
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+6169..6291
+57,1,1
+#### Text ####
+that people who jump in and out of the stock market need to be right about 70% of the time to beat a buy-and-hold strategy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6155..6168
+57,0;57,1,0;57,2
+#### Text ####
+Mr. Katz adds
+##############
+____Arg2____
+6293..6339
+58
+#### Text ####
+Frequent trading runs up high commission costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6341..6344
+59,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6155..6168
+57,0;57,1,0;57,2
+#### Text ####
+Mr. Katz adds
+##############
+and, Expansion.Conjunction
+____Arg1____
+6293..6339
+58
+#### Text ####
+Frequent trading runs up high commission costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6345..6450
+59,1;59,2;59,3
+#### Text ####
+the in-and-outer might miss the sudden spurts that account for much of the stock market's gains over time
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6454..6459
+60,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+6169..6450
+57,1,1;58;59
+#### Text ####
+that people who jump in and out of the stock market need to be right about 70% of the time to beat a buy-and-hold strategy.
+Frequent trading runs up high commission costs.
+And the in-and-outer might miss the sudden spurts that account for much of the stock market's gains over time
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6155..6168
+57,0;57,1,0;57,2
+#### Text ####
+Mr. Katz adds
+##############
+____Arg2____
+6461..6542
+60,1;60,2;60,3;60,4
+#### Text ####
+few investors are able to sit tight when they are convinced a recession is coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6497..6501
+60,3,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+6454..6496
+60,0;60,1;60,2;60,3,0;60,3,1;60,4
+#### Text ####
+Still, few investors are able to sit tight
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6502..6542
+60,3,2,1
+#### Text ####
+they are convinced a recession is coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6544
+61
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6454..6542
+60
+#### Text ####
+Still, few investors are able to sit tight when they are convinced a recession is coming
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6544..6605
+61
+#### Text ####
+After all, in all five recessions since 1960, stocks declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6607
+62
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+6544..6605
+61
+#### Text ####
+After all, in all five recessions since 1960, stocks declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6607..6839
+62
+#### Text ####
+According to Ned Davis, president of Ned Davis Research Inc. in Nokomis, Fla., the average drop in the Dow Jones Industrial Average was about 21%, and the decrease began an average of six months before a recession officially started
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6607..6683
+62,0;62,1
+#### Text ####
+According to Ned Davis, president of Ned Davis Research Inc. in Nokomis, Fla
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6754..6757
+62,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6607..6752
+62,0;62,1;62,2;62,3
+#### Text ####
+According to Ned Davis, president of Ned Davis Research Inc. in Nokomis, Fla., the average drop in the Dow Jones Industrial Average was about 21%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6758..6839
+62,5
+#### Text ####
+the decrease began an average of six months before a recession officially started
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6777..6808
+62,5,1,1,0;62,5,1,1,1
+#### Text ####
+an average of six months before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+6754..6776
+62,4;62,5,0;62,5,1,0;62,6
+#### Text ####
+and the decrease began
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6809..6839
+62,5,1,1,2
+#### Text ####
+a recession officially started
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6996..6999
+63,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6843..6995
+63,0
+#### Text ####
+By the time a recession is "official" (two consecutive quarters of declining gross national product), much of the damage to stocks has already been done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7001..7056
+63,4
+#### Text ####
+in the typical case, the recession is already half over
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7058
+64
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+6843..6879;6945..6995
+63,0,0,0;63,0,0,1,0;63,0,0,1,1;63,0,0,1,2,0;63,0,0,1,2,2;63,0,1;63,0,2;63,0,3
+#### Text ####
+By the time a recession is "official much of the damage to stocks has already been done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7058..7136
+64,0;64,1;64,2;64,3;64,4,0;64,4,1;64,4,2;64,5
+#### Text ####
+About six months before a recession ends, stocks typically begin to rise again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7058..7081
+64,0,0;64,0,1
+#### Text ####
+About six months before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+7100..7136
+64,1;64,2;64,3;64,4,0;64,4,1;64,4,2;64,5
+#### Text ####
+stocks typically begin to rise again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7082..7098
+64,0,2
+#### Text ####
+a recession ends
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7138..7140
+64,4,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+7058..7136
+64,0;64,1;64,2;64,3;64,4,0;64,4,1;64,4,2;64,5
+#### Text ####
+About six months before a recession ends, stocks typically begin to rise again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7141..7172
+64,4,3,1
+#### Text ####
+investors anticipate a recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7233..7239
+66,2
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+7176..7216
+65
+#### Text ####
+The average recession lasts about a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7218..7231;7241..7370
+66,0;66,1;66,3;66,4;66,5;66,6
+#### Text ####
+Unfortunately recessions vary enough in length so that the average can't reliably be used to guide investors in timing stock sales or purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7274..7281
+66,5,3,0;66,5,3,1
+#### Text ####
+so that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so that, Contingency.Cause.Result
+____Arg1____
+7218..7273
+66,0;66,1;66,2;66,3;66,4;66,5,0;66,5,1;66,5,2;66,6
+#### Text ####
+Unfortunately, though, recessions vary enough in length
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7282..7370
+66,5,3,2
+#### Text ####
+the average can't reliably be used to guide investors in timing stock sales or purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7374..7377
+67,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+7218..7370
+66
+#### Text ####
+Unfortunately, though, recessions vary enough in length so that the average can't reliably be used to guide investors in timing stock sales or purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7378..7492
+67,1;67,2;67,3;67,4;67,5
+#### Text ####
+whatever their advice about timing, none of these experts recommend jettisoning stocks entirely during a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7494
+68
+____Arg1____
+7374..7492
+67
+#### Text ####
+But whatever their advice about timing, none of these experts recommend jettisoning stocks entirely during a recession
+##############
+____Arg2____
+7494..7601
+68
+#### Text ####
+For the portion of an investor's portfolio that stays in stocks, professionals have a number of suggestions
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7603
+69
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+7494..7601
+68
+#### Text ####
+For the portion of an investor's portfolio that stays in stocks, professionals have a number of suggestions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7603..7659
+69,0;69,1,0;69,1,1,0;69,1,1,1,0;69,1,1,1,1,0;69,2
+#### Text ####
+Mr. Katz advocates issues with low price-earnings ratios
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7733
+70
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7603..7659
+69,0;69,1,0;69,1,1,0;69,1,1,1,0;69,1,1,1,1,0;69,2
+#### Text ####
+Mr. Katz advocates issues with low price-earnings ratios
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7733..7748;7759..7818
+70,0;70,2;70,3;70,4;70,5
+#### Text ####
+Low P-E" stocks vastly outperform others "during a recession or bear market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7750..7757
+70,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7821
+71
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+7733..7748;7759..7818
+70,0;70,2;70,3;70,4;70,5
+#### Text ####
+Low P-E" stocks vastly outperform others "during a recession or bear market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7750..7757
+70,1
+#### Text ####
+he says
+##############
+____Arg2____
+7821..7834;7845..7859
+71,0,0;71,0,2;71,0,3
+#### Text ####
+In good times they lag a bit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7836..7843
+71,0,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7861..7864
+71,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7836..7843
+71,0,1
+#### Text ####
+he says
+##############
+but, Comparison.Contrast
+____Arg1____
+7821..7834;7845..7859
+71,0,0;71,0,2;71,0,3
+#### Text ####
+In good times they lag a bit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7865..7906
+71,3
+#### Text ####
+overall they provide superior performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7865..7872
+71,3,0
+#### Text ####
+overall
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7750..7757;7836..7843
+70,1;71,0,1
+#### Text ####
+he says he says
+##############
+overall, Expansion.Restatement.Generalization
+____Arg1____
+7733..7748;7759..7834;7845..7859
+70,0;70,2;70,3;70,4;70,5;71,0,0;71,0,2;71,0,3
+#### Text ####
+Low P-E" stocks vastly outperform others "during a recession or bear market." In good times they lag a bit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7861..7864;7873..7906
+71,2;71,3,1;71,3,2;71,4
+#### Text ####
+but they provide superior performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7976
+73
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7910..7914;7916..7974
+72
+#### Text ####
+Prof Arbel urges investors to discard stocks in small companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7976..8055
+73,0
+#### Text ####
+Small-company shares typically fall more than big-company stocks in a recession
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8057..8064
+73,1;73,2;73,3;73,4
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8066..8069
+74,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+7910..8064
+72;73
+#### Text ####
+Prof.
+Arbel urges investors to discard stocks in small companies.
+Small-company shares typically fall more than big-company stocks in a recession, he says
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8070..8196
+74,1;74,2;74,3;74,4;74,5;74,6;74,7
+#### Text ####
+in any case, he argues, stocks of small companies are "almost as overpriced as they were Sept. 30, 1987, just before the crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8201..8212
+75,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+8066..8081;8094..8196
+74,0;74,1;74,2;74,4;74,5;74,6;74,7
+#### Text ####
+And in any case stocks of small companies are "almost as overpriced as they were Sept. 30, 1987, just before the crash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8083..8092
+74,3
+#### Text ####
+he argues
+##############
+____Arg2____
+8230..8296
+75,2;75,3;75,4
+#### Text ####
+stocks of small companies are selling for about 19 times cash flow
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8214..8228
+75,1
+#### Text ####
+Mr. Arbel says
+##############
+____Sup2____
+8299..8399
+76
+#### Text ####
+Cash flow, basically earnings plus depreciation, is one common gauge of a company's financial health
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+8299
+76
+____Arg1____
+8201..8296
+75
+#### Text ####
+For example, Mr. Arbel says, stocks of small companies are selling for about 19 times cash flow
+##############
+____Arg2____
+8299..8399
+76
+#### Text ####
+Cash flow, basically earnings plus depreciation, is one common gauge of a company's financial health
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+8402
+77
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+8201..8212;8230..8399
+75,0;75,2;75,3;75,4;76
+#### Text ####
+For example stocks of small companies are selling for about 19 times cash flow. (Cash flow, basically earnings plus depreciation, is one common gauge of a company's financial health
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8214..8228
+75,1
+#### Text ####
+Mr. Arbel says
+##############
+____Arg2____
+8402..8504
+77,0
+#### Text ####
+That ratio is dangerously close to the ratio of 19.7 that prevailed before the 1987 stock-market crash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8506..8520
+77,1;77,2;77,3;77,4
+#### Text ####
+Mr. Arbel says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8522..8525
+78,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+8402..8504
+77,0
+#### Text ####
+That ratio is dangerously close to the ratio of 19.7 that prevailed before the 1987 stock-market crash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8506..8520
+77,1;77,2;77,3;77,4
+#### Text ####
+Mr. Arbel says
+##############
+____Arg2____
+8526..8610
+78,1;78,2;78,3
+#### Text ####
+it's way above the ratio (7.5 times cash flow) that bigger companies are selling for
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+8722
+80
+____Arg1____
+8614..8720
+79
+#### Text ####
+Another major trick in making a portfolio recession-resistant is choosing stocks in "defensive" industries
+##############
+____Arg2____
+8722..8781
+80
+#### Text ####
+Food, tobacco, drugs and utilities are the classic examples
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+8783
+81
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+8722..8781
+80
+#### Text ####
+Food, tobacco, drugs and utilities are the classic examples
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8783..8861
+81
+#### Text ####
+Recession or not, people still eat, smoke, and take medicine when they're sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8844..8848
+81,4,5,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+8826..8843
+81,4,4;81,4,5,0;81,4,5,1
+#### Text ####
+and take medicine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8849..8861
+81,4,5,2,1
+#### Text ####
+they're sick
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8975
+83
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+8865..8972
+82
+#### Text ####
+George Putnam III, editor of Turnaround Letter in Boston, offers one final tip for recession-wary investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8975..9028
+83
+#### Text ####
+Keep some money available for opportunities," he says
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9031
+84
+#### Features ####
+Ot, Comm, Null, Null
+9021..9028
+83,0;83,2;83,3;83,4;83,5;83,6
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+8975..9018
+83,1
+#### Text ####
+Keep some money available for opportunities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9031..9142
+84
+#### Text ####
+If the recession does hit, there will be some great investment opportunities just when things seem the blackest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9031..9033
+84,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9021..9028
+83,0;83,2;83,3;83,4;83,5;83,6
+#### Text ####
+he says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+9058..9142
+84,0;84,2;84,3;84,4;84,5;84,6
+#### Text ####
+there will be some great investment opportunities just when things seem the blackest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9034..9056
+84,1,1
+#### Text ####
+the recession does hit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9108..9117
+84,4,1,2,0;84,4,1,2,1
+#### Text ####
+just when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9021..9028
+83,0;83,2;83,3;83,4;83,5;83,6
+#### Text ####
+he says
+##############
+when, Temporal.Synchrony
+____Arg1____
+9058..9107
+84,0;84,2;84,3;84,4,0;84,4,1,0;84,4,1,1;84,5;84,6
+#### Text ####
+there will be some great investment opportunities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9118..9142
+84,4,1,2,2
+#### Text ####
+things seem the blackest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+9305
+87
+____Arg1____
+9233..9303
+86
+#### Text ####
+Some industry groups consistently weather the storm better than others
+##############
+____Arg2____
+9305..9469
+87
+#### Text ####
+The following shows the number of times these industries outperformed the Standard & Poor's 500-Stock Index during the first six months of the past seven recessions
+##############
+________________________________________________________

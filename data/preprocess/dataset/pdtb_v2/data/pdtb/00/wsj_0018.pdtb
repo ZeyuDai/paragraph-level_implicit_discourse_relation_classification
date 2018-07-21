@@ -1,0 +1,913 @@
+________________________________________________________
+____Implicit____
+420
+2
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+214..325
+1
+#### Text ####
+Not only is development of the new company's initial machine tied directly to Mr. Cray, so is its balance sheet
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+420..596
+2,1,1
+#### Text ####
+that Cray Research Inc. will withdraw the almost $100 million in financing it is providing the new firm if Mr. Cray leaves or if the product-design project he heads is scrapped
+##############
+#### Features ####
+Ot, Comm, Null, Null
+327..419
+2,0;2,1,0;2,2
+#### Text ####
+Documents filed with the Securities and Exchange Commission on the pending spinoff disclosed
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+524..526
+2,1,1,1,1,1,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+327..419
+2,0;2,1,0;2,2
+#### Text ####
+Documents filed with the Securities and Exchange Commission on the pending spinoff disclosed
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+420..523
+2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1
+#### Text ####
+that Cray Research Inc. will withdraw the almost $100 million in financing it is providing the new firm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+527..542
+2,1,1,1,1,1,2,0,1
+#### Text ####
+Mr. Cray leaves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+543..545
+2,1,1,1,1,1,2,1
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+327..419
+2,0;2,1,0;2,2
+#### Text ####
+Documents filed with the Securities and Exchange Commission on the pending spinoff disclosed
+##############
+or, Expansion.Alternative.Conjunctive
+____Arg1____
+524..542
+2,1,1,1,1,1,2,0
+#### Text ####
+if Mr. Cray leaves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+546..596
+2,1,1,1,1,1,2,2
+#### Text ####
+if the product-design project he heads is scrapped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+546..548
+2,1,1,1,1,1,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+327..419
+2,0;2,1,0;2,2
+#### Text ####
+Documents filed with the Securities and Exchange Commission on the pending spinoff disclosed
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+420..523
+2,1,1,0;2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0;2,1,1,1,1,1,1
+#### Text ####
+that Cray Research Inc. will withdraw the almost $100 million in financing it is providing the new firm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+543..545;549..596
+2,1,1,1,1,1,2,1;2,1,1,1,1,1,2,2,1
+#### Text ####
+or the product-design project he heads is scrapped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+614..618
+3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+327..596
+2
+#### Text ####
+Documents filed with the Securities and Exchange Commission on the pending spinoff disclosed that Cray Research Inc. will withdraw the almost $100 million in financing it is providing the new firm if Mr. Cray leaves or if the product-design project he heads is scrapped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+600..613;619..803
+3,0;3,2;3,3
+#### Text ####
+The documents said that although the 64-year-old Mr. Cray has been working on the project for more than six years, the Cray-3 machine is at least another year away from a fully operational prototype
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+629..637
+3,2,1,1,0,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+600..623
+3,0;3,1;3,2,0;3,3
+#### Text ####
+The documents also said
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+624..628;720..803
+3,2,1,0;3,2,1,1,1;3,2,1,1,2;3,2,1,1,3
+#### Text ####
+that the Cray-3 machine is at least another year away from a fully operational prototype
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+638..718
+3,2,1,1,0,1
+#### Text ####
+the 64-year-old Mr. Cray has been working on the project for more than six years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+805..813
+4,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Sup1____
+629..718
+3,2,1,1,0
+#### Text ####
+although the 64-year-old Mr. Cray has been working on the project for more than six years
+##############
+____Arg1____
+624..628;720..803
+3,2,1,0;3,2,1,1,1;3,2,1,1,2;3,2,1,1,3
+#### Text ####
+that the Cray-3 machine is at least another year away from a fully operational prototype
+##############
+#### Features ####
+Ot, Comm, Null, Null
+600..623
+3,0;3,1;3,2,0;3,3
+#### Text ####
+The documents also said
+##############
+____Arg2____
+815..862
+4,1;4,2;4,3,0;4,3,1,0;4,3,1,1;4,3,1,2;4,3,1,3;4,4
+#### Text ####
+there have been no orders for the Cray-3 so far
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+864..924
+4,3,1,4
+#### Text ####
+though the company says it is talking with several prospects
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+864..870
+4,3,1,4,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+805..862
+4,0;4,1;4,2;4,3,0;4,3,1,0;4,3,1,1;4,3,1,2;4,3,1,3;4,4
+#### Text ####
+Moreover, there have been no orders for the Cray-3 so far
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+888..924
+4,3,1,4,1,1,1
+#### Text ####
+it is talking with several prospects
+##############
+#### Features ####
+Ot, Comm, Null, Null
+871..887
+4,3,1,4,1,0;4,3,1,4,1,1,0
+#### Text ####
+the company says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+928..933
+5,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison
+____Arg1____
+1042..1122
+5,1;5,2;5,3;5,4
+#### Text ####
+the strings it attached to the financing hadn't been made public until yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+934..1040
+5,0,1
+#### Text ####
+many of the risks were anticipated when Minneapolis-based Cray Research first announced the spinoff in May
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+969..973
+5,0,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+928..968
+5,0,0;5,0,1,0;5,0,1,1,0;5,0,1,1,1,0;5,0,1,1,1,1
+#### Text ####
+While many of the risks were anticipated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+974..1040
+5,0,1,1,1,2,1
+#### Text ####
+Minneapolis-based Cray Research first announced the spinoff in May
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1241..1254
+7,1;7,2,0
+#### Text ####
+The theory is
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1161..1238
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+Cray Computer's chief financial officer, Gregory Barnum, said in an interview
+##############
+Contingency.Cause.Reason
+____Arg1____
+1127..1158
+6,1
+#### Text ####
+We didn't have much of a choice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1241..1346
+7
+#### Text ####
+The theory is that Seymour is the chief designer of the Cray-3, and without him it could not be completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1305..1308
+7,2,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1241..1254
+7,0;7,1;7,2,0;7,3
+#### Text ####
+The theory is
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+1255..1303
+7,2,1,0;7,2,1,1,0;7,2,1,1,1
+#### Text ####
+that Seymour is the chief designer of the Cray-3
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1309..1346
+7,2,1,1,3
+#### Text ####
+without him it could not be completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1348
+8
+#### Features ####
+Ot, Comm, Null, Null
+1161..1238
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+Cray Computer's chief financial officer, Gregory Barnum, said in an interview
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1305..1346
+7,2,1,1,2;7,2,1,1,3
+#### Text ####
+and without him it could not be completed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1348..1421
+8
+#### Text ####
+Cray Research did not want to fund a project that did not include Seymour
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1440..1444
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+600..803
+3
+#### Text ####
+The documents also said that although the 64-year-old Mr. Cray has been working on the project for more than six years, the Cray-3 machine is at least another year away from a fully operational prototype
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1426..1439;1445..1555
+9,0;9,2;9,3
+#### Text ####
+The documents said that Cray Computer anticipates needing perhaps another $120 million in financing beginning next September
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1557..1560
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1450..1555
+9,2,1
+#### Text ####
+that Cray Computer anticipates needing perhaps another $120 million in financing beginning next September
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1426..1449
+9,0;9,1;9,2,0;9,3
+#### Text ####
+The documents also said
+##############
+____Arg2____
+1561..1607
+10,1;10,2;10,3
+#### Text ####
+Mr. Barnum called that "a worst-case" scenario
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1937
+13
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1793..1934
+12,1,2
+#### Text ####
+that Cray Research's decision to link its $98.3 million promissory note to Mr. Cray's presence will complicate a valuation of the new company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1768..1792
+12,0;12,1,0;12,1,1;12,2
+#### Text ####
+Analysts noted yesterday
+##############
+____Arg2____
+1937..1999
+13,1
+#### Text ####
+It has to be considered as an additional risk for the investor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2002..2053
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said Gary P. Smaby of Smaby Group Inc., Minneapolis
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2056
+14
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1937..1999
+13,1
+#### Text ####
+It has to be considered as an additional risk for the investor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2002..2053
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+said Gary P. Smaby of Smaby Group Inc., Minneapolis
+##############
+____Arg2____
+2056..2093
+14,1
+#### Text ####
+Cray Computer will be a concept stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2096..2103
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2106
+15
+#### Features ####
+Ot, Comm, Null, Null
+2096..2103
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2056..2093
+14,1
+#### Text ####
+Cray Computer will be a concept stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2106..2161
+15
+#### Text ####
+You either believe Seymour can do it again or you don't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2149..2151
+15,2
+#### Text ####
+or
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2096..2103
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+he said
+##############
+or, Expansion.Alternative.Disjunctive
+____Arg1____
+2106..2148
+15,1
+#### Text ####
+You either believe Seymour can do it again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2152..2161
+15,3
+#### Text ####
+you don't
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2295
+17
+____Arg1____
+2166..2293
+16
+#### Text ####
+Besides the designer's age, other risk factors for Mr. Cray's new company include the Cray-3's tricky, unproven chip technology
+##############
+____Arg2____
+2295..2454
+17
+#### Text ####
+The SEC documents describe those chips, which are made of gallium arsenide, as being so fragile and minute they will require special robotic handling equipment
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2456..2467
+18,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Sup1____
+2335..2369
+17,1,1,2
+#### Text ####
+which are made of gallium arsenide
+##############
+____Arg1____
+2295..2333;2371..2454
+17,0;17,1,0;17,1,1,0;17,1,1,1;17,1,1,3;17,1,2;17,2
+#### Text ####
+The SEC documents describe those chips as being so fragile and minute they will require special robotic handling equipment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2469..2560
+18,1;18,2;18,3;18,4
+#### Text ####
+the Cray-3 will contain 16 processors -- twice as many as the largest current supercomputer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2578..2582
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2456..2560
+18
+#### Text ####
+In addition, the Cray-3 will contain 16 processors -- twice as many as the largest current supercomputer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2564..2577;2583..2641
+19,0;19,2,0;19,2,1,0;19,2,1,1,0;19,2,1,1,1;19,2,1,1,2,0;19,2,1,1,2,1;19,2,1,1,2,2,0;19,2,1,1,2,2,1;19,3
+#### Text ####
+Cray Computer will face intense competition, not only from Cray Research
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2643..2798
+19,2,1,1,2,2,2
+#### Text ####
+which has about 60% of the world-wide supercomputer market and which is expected to roll out the C-90 machine, a direct competitor with the Cray-3, in 1991
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2812..2816
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+2643..2798
+19,2,1,1,2,2,2
+#### Text ####
+which has about 60% of the world-wide supercomputer market and which is expected to roll out the C-90 machine, a direct competitor with the Cray-3, in 1991
+##############
+____Arg1____
+2564..2641
+19,0;19,1;19,2,0;19,2,1,0;19,2,1,1,0;19,2,1,1,1;19,2,1,1,2,0;19,2,1,1,2,1;19,2,1,1,2,2,0;19,2,1,1,2,2,1;19,3
+#### Text ####
+Cray Computer also will face intense competition, not only from Cray Research
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2800..2811;2817..2937
+20,0;20,2;20,3
+#### Text ####
+The spinoff will compete with International Business Machines Corp. and Japan's Big Three -- Hitachi Ltd., NEC Corp. and Fujitsu Ltd
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3315
+23
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+3121..3313
+22
+#### Text ####
+Under terms of the spinoff, Cray Research stockholders are to receive one Cray Computer share for every two Cray Research shares they own in a distribution expected to occur in about two weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3315..3355
+23
+#### Text ####
+No price for the new shares has been set
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3357..3364
+24,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+3315..3355
+23
+#### Text ####
+No price for the new shares has been set
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3366..3425
+24,1;24,2;24,3;24,4
+#### Text ####
+the companies will leave it up to the marketplace to decide
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3427
+25
+____Arg1____
+3357..3425
+24
+#### Text ####
+Instead, the companies will leave it up to the marketplace to decide
+##############
+____Arg2____
+3427..3471
+25
+#### Text ####
+Cray Computer has applied to trade on Nasdaq
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3553
+27
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3475..3551
+26
+#### Text ####
+Analysts calculate Cray Computer's initial book value at about $4.75 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3553..3682
+27,0;27,1;27,2;27,3,0;27,3,1,0;27,3,1,1,0;27,3,1,1,1,0;27,3,1,1,1,1,0;27,3,1,1,1,1,1;27,3,1,1,1,1,2,0;27,3,1,1,1,1,2,1,0;27,3,1,1,1,1,2,1,1,0;27,3,1,1,1,1,2,1,1,1,0;27,3,1,1,1,1,2,1,1,1,1;27,4
+#### Text ####
+Along with the note, Cray Research is transferring about $53 million in assets, primarily those related to the Cray-3 development
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3815
+29
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3738..3813
+28
+#### Text ####
+Pro-forma balance sheets clearly show why Cray Research favored the spinoff
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3815..4003
+29
+#### Text ####
+Without the Cray-3 research and development expenses, the company would have been able to report a profit of $19.3 million for the first half of 1989 rather than the $5.9 million it posted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4005..4022
+30,0
+#### Text ####
+On the other hand
+##############
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison
+____Arg1____
+3815..4003
+29
+#### Text ####
+Without the Cray-3 research and development expenses, the company would have been able to report a profit of $19.3 million for the first half of 1989 rather than the $5.9 million it posted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4024..4099
+30,1;30,2;30,3;30,4;30,5;30,6
+#### Text ####
+had it existed then, Cray Computer would have incurred a $20.5 million loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4280
+32
+____Arg1____
+4103..4278
+31
+#### Text ####
+Mr. Cray, who couldn't be reached for comment, will work for the new Colorado Springs, Colo., company as an independent contractor -- the arrangement he had with Cray Research
+##############
+____Arg2____
+4280..4378
+32
+#### Text ####
+Regarded as the father of the supercomputer, Mr. Cray was paid $600,000 at Cray Research last year
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4380
+33
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+4280..4378
+32
+#### Text ####
+Regarded as the father of the supercomputer, Mr. Cray was paid $600,000 at Cray Research last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4380..4422
+33
+#### Text ####
+At Cray Computer, he will be paid $240,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4727
+35
+____Arg1____
+4426..4725
+34
+#### Text ####
+Besides Messrs.
+Cray and Barnum, other senior management at the company includes Neil Davenport, 47, president and chief executive officer; Joseph M. Blanchard, 37, vice president, engineering; Malcolm A. Hammerton, 40, vice president, software; and Douglas R. Wheeland, 45, vice president, hardware
+##############
+____Arg2____
+4727..4754
+35
+#### Text ####
+All came from Cray Research
+##############
+________________________________________________________

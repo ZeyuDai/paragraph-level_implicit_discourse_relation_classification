@@ -1,0 +1,453 @@
+________________________________________________________
+____Explicit____
+294..297
+1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+182..292
+1,0
+#### Text ####
+The drug, which is still in the experimental phase, hasn't been approved yet by the Food and Drug Admistration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+298..331
+1,3
+#### Text ####
+its long-term effects are unknown
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+333..336
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+182..331
+1
+#### Text ####
+The drug, which is still in the experimental phase, hasn't been approved yet by the Food and Drug Admistration, and its long-term effects are unknown
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+353..488
+2,2,1
+#### Text ####
+the drug, called FK-506, could revolutionize the transplantation field by reducing harmful side effects and by lowering rejection rates
+##############
+#### Features ####
+Ot, Comm, Null, Null
+337..352
+2,1;2,2,0;2,3
+#### Text ####
+researchers say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+490
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+353..488
+2,2,1
+#### Text ####
+the drug, called FK-506, could revolutionize the transplantation field by reducing harmful side effects and by lowering rejection rates
+##############
+#### Features ####
+Ot, Comm, Null, Null
+333..352
+2,0;2,1;2,2,0;2,3
+#### Text ####
+But researchers say
+##############
+____Arg2____
+490..604
+3
+#### Text ####
+Rejection has been the major obstacle in the approximately 30,000 organ transplants performed world-wide each year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+729
+5
+#### Features ####
+Wr, Comm, Null, Null
+since then, Temporal.Asynchronous.Precedence
+____Arg1____
+608..727
+4
+#### Text ####
+Researchers began using the drug in February on patients who had received kidney, liver, heart and pancreas transplants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+729..775
+5
+#### Text ####
+Only two of 111 transplants have been rejected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+857
+7
+____Arg1____
+779..855
+6
+#### Text ####
+The drug, discovered in 1984, is metabolized from soil fungus found in Japan
+##############
+____Arg2____
+857..967
+7
+#### Text ####
+The Pittsburgh patients are the first humans to be given the drug, which is made by Fujisawa Pharmaceutical Co
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+993..1000
+8,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1023..1151
+8,0;8,2;8,3;8,4;8,5;8,6;8,7;8,8;8,9
+#### Text ####
+said Dr. Thomas E. Starzl, director of the University of Pittsburgh Transplantation Program, at a news conference here yesterday
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+972..991
+8,1,0;8,1,1;8,1,2
+#### Text ####
+We're shocked by it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1001..1020
+8,1,3,1
+#### Text ####
+it's worked so fast
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1154
+9
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+972..1151
+8
+#### Text ####
+We're shocked by it, because it's worked so fast," said Dr. Thomas E. Starzl, director of the University of Pittsburgh Transplantation Program, at a news conference here yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1154..1276
+9
+#### Text ####
+We consider it a life-saving drug, like one for AIDS," said Dr. John Fung, an immunologist at the University of Pittsburgh
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1456..1460
+11,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1296..1445
+10,1,1
+#### Text ####
+they believe FK-506 is 100 times more effective than the traditional anti-rejection drug, cyclosporine, made by Swiss pharmaceutical giant Sandoz Ltd
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1280..1295
+10,0;10,1,0;10,2
+#### Text ####
+Researchers say
+##############
+____Arg2____
+1447..1455;1461..1614
+11,0;11,1,0;11,1,2;11,2
+#### Text ####
+They are encouraged by the relatively mild side effects of FK-506, compared with cyclosporine, which can cause renal failure, morbidity, nausea and other problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1617
+12
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+1519..1614
+11,1,2,2,1,2;11,1,2,2,1,3;11,2
+#### Text ####
+compared with cyclosporine, which can cause renal failure, morbidity, nausea and other problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1617..1701
+12,1
+#### Text ####
+The side effects {of cyclosporine} have made the penalty for its success rather high
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1704..1719
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Dr. Starzl said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1807..1810
+13,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1723..1736
+13,0;13,1,0;13,2
+#### Text ####
+Dr. Fung said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1737..1805
+13,1,1,0
+#### Text ####
+that FK-506 would not be available in the market for at least a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1811..1880
+13,1,1,3
+#### Text ####
+that the FDA approval process usually takes three years to five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1882
+14
+____Arg1____
+1723..1880
+13
+#### Text ####
+Dr. Fung said that FK-506 would not be available in the market for at least a year, and that the FDA approval process usually takes three years to five years
+##############
+____Arg2____
+1882..2035
+14
+#### Text ####
+There are no firm plans to expand the experimental program beyond the University of Pittsburgh, whose hospital performs the most transplants in the world
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2090..2094
+15,0,1,2,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, PAtt, Null, Indet
+2039..2068
+15,0,0;15,0,1,0;15,0,1,1;15,0,1,2,0
+#### Text ####
+Researchers couldn't estimate
+##############
+when, Temporal.Synchrony
+____Arg1____
+2069..2089
+15,0,1,2,1,0;15,0,1,2,1,1
+#### Text ####
+the cost of the drug
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2095..2116
+15,0,1,2,1,2,1
+#### Text ####
+it reaches the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2118..2121
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2039..2116
+15,0
+#### Text ####
+Researchers couldn't estimate the cost of the drug when it reaches the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2122..2312
+15,3
+#### Text ####
+they said FK-506 will enable patients to cut hospital stays by 50% and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2432..2435
+16,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2316..2331
+16,0;16,1,0;16,2
+#### Text ####
+Dr. Starzl said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2332..2430
+16,1,1,0
+#### Text ####
+the research has been largely financed by the National Institute of Health and by university funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2436..2485
+16,1,1,3
+#### Text ####
+that Fujisawa didn't give the hospital any grants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2495
+17
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2332..2485
+16,1,1
+#### Text ####
+the research has been largely financed by the National Institute of Health and by university funds, and that Fujisawa didn't give the hospital any grants
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2316..2331
+16,0;16,1,0;16,2
+#### Text ####
+Dr. Starzl said
+##############
+____Arg2____
+2495..2552
+17,1,1
+#### Text ####
+that the research team had no financial stake in the drug
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2487..2494
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2609..2612
+18,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2680..2695
+18,0;18,2;18,3;18,4;18,5,0;18,5,1;18,5,2;18,6
+#### Text ####
+Dr. Starzl said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2557..2607
+18,1,0
+#### Text ####
+We've known for six months the effect of this drug
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2613..2677
+18,1,3
+#### Text ####
+our advice to our people has been not to buy the company's stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,185 @@
+________________________________________________________
+____NoRel____
+340
+2
+____Arg1____
+175..338
+1
+#### Text ####
+The company said it will move the storage and cross-blending operations to a site 23 miles northeast of Las Vegas to distance the operations from residential areas
+##############
+____Arg2____
+340..474
+2
+#### Text ####
+Ammonium perchlorate is an oxidizer that is mixed with a propellant to make rocket fuel used in the space shuttle and military rockets
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+613
+4
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+478..611
+3
+#### Text ####
+In May 1988, an ammonium perchlorate plant in Henderson owned by an American Pacific Corp. unit was leveled by a series of explosions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+613..727
+4
+#### Text ####
+After the explosion, Kerr-McGee temporarily shut down its facility just south of Las Vegas for a safety inspection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+729
+5
+____Arg1____
+613..727
+4
+#### Text ####
+After the explosion, Kerr-McGee temporarily shut down its facility just south of Las Vegas for a safety inspection
+##############
+____Arg2____
+729..820
+5
+#### Text ####
+American Pacific and Kerr-McGee are the only two U.S. manufacturers of ammonium perchlorate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+824..828
+6,0,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+934..962
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+a KerrMcGee spokeswoman said
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+863..931
+6,0,4,1
+#### Text ####
+everyone got concerned that the same thing would happen at our plant
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+855..862
+6,0,1;6,0,2;6,0,3;6,0,4,0
+#### Text ####
+I think
+##############
+____Arg2____
+829..852
+6,0,0,1
+#### Text ####
+the plant was destroyed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+964..977
+7,0;7,1,0
+#### Text ####
+That prompted
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+824..931
+6,0
+#### Text ####
+When the plant was destroyed, "I think everyone got concerned that the same thing would happen at our plant
+##############
+#### Features ####
+Ot, Comm, Null, Null
+934..962
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+a KerrMcGee spokeswoman said
+##############
+____Arg2____
+964..1096
+7
+#### Text ####
+That prompted Kerr-McGee to consider moving the potentially volatile storage facilities and cross-blending operations away from town
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1238
+9
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1116..1236
+8,1,1
+#### Text ####
+it has purchased 3,350 acres from the federal government in Clark County and plans to begin construction early next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1100..1115
+8,0;8,1,0;8,2
+#### Text ####
+Kerr-McGee said
+##############
+____Arg2____
+1238..1300
+9
+#### Text ####
+The new facility is expected to begin operations in early 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1302
+10
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1238..1300
+9
+#### Text ####
+The new facility is expected to begin operations in early 1991
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1302..1365
+10,0
+#### Text ####
+The Henderson plant will continue its other chemical operations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1367..1383
+10,1;10,2;10,3;10,4
+#### Text ####
+the company said
+##############
+________________________________________________________

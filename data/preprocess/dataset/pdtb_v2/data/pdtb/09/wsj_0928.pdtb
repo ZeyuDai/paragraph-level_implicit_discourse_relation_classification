@@ -1,0 +1,300 @@
+________________________________________________________
+____EntRel____
+343
+2
+____Arg1____
+196..341
+1
+#### Text ####
+Sun, a maker of computer workstations, reported sales of $538.5 million for the quarter ended Sept. 29, up 39% from $388.5 million a year earlier
+##############
+____Arg2____
+343..416
+2
+#### Text ####
+In the 1988 period, the company earned $20.6 million, or 26 cents a share
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+474
+4
+____Arg1____
+420..472
+3
+#### Text ####
+Sun's results were slightly better than expectations
+##############
+____Arg2____
+474..577
+4
+#### Text ####
+Earlier this month, the company said it expected to break even for the quarter on sales of $530 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+769
+6
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion
+____Arg1____
+648..767
+5,3,1
+#### Text ####
+the company's performance was hampered by problems tied to the introduction of a major new family of computers in April
+##############
+#### Features ####
+Ot, Comm, Null, Null
+581..647
+5,0;5,1;5,2;5,3,0;5,4
+#### Text ####
+In a statement, Scott McNealy, Sun's chief executive officer, said
+##############
+____Arg2____
+769..894
+6,0
+#### Text ####
+One of those new computers, called Sparcstation 1, accounted for nearly half of the 28,000 systems Sun shipped in the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+896..903
+6,1;6,2;6,3;6,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+950..959
+7,2
+#### Text ####
+meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+769..894
+6,0
+#### Text ####
+One of those new computers, called Sparcstation 1, accounted for nearly half of the 28,000 systems Sun shipped in the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+896..903
+6,1;6,2;6,3;6,4
+#### Text ####
+he said
+##############
+____Arg2____
+905..948;961..994
+7,0;7,1;7,3;7,4;7,5
+#### Text ####
+More than two-thirds of the systems shipped were products introduced in April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+998..1001
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+905..994
+7
+#### Text ####
+More than two-thirds of the systems shipped, meanwhile, were products introduced in April
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1002..1208
+8,1;8,2;8,3
+#### Text ####
+problems in manufacturing, forecasting demand and getting the bugs out of a new management information system made it extremely difficult for Sun to meet demand for its newest computers well into the summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1225..1229
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+998..1208
+8
+#### Text ####
+But problems in manufacturing, forecasting demand and getting the bugs out of a new management information system made it extremely difficult for Sun to meet demand for its newest computers well into the summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1210..1224;1230..1313
+9,0;9,2;9,3
+#### Text ####
+These problems resulted in Sun reporting a $20.3 million loss for its fourth quarter ended June 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1426..1429
+10,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1334..1424
+10,0,1,1
+#### Text ####
+the issues that hurt Sun's performance earlier this year are now "largely" behind the firm
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1317..1333
+10,0,0;10,0,1,0
+#### Text ####
+Mr. McNealy said
+##############
+____Arg2____
+1443..1510
+10,3,1,1
+#### Text ####
+that Sun's profitability should increase throughout the fiscal year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1430..1442
+10,3,0;10,3,1,0
+#### Text ####
+he indicated
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1518..1522
+11,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+196..341
+1
+#### Text ####
+Sun, a maker of computer workstations, reported sales of $538.5 million for the quarter ended Sept. 29, up 39% from $388.5 million a year earlier
+##############
+____Arg1____
+9..192
+0
+#### Text ####
+Sun Microsystems Inc., snapping back to profitability after its first quarterly loss as a public firm, said it earned $5.2 million, or seven cents a share, in the fiscal first quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1514..1517;1523..1558
+11,0;11,2;11,3
+#### Text ####
+Sun reported a record backlog of orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1560
+12
+____Arg1____
+1514..1558
+11
+#### Text ####
+Sun also reported a record backlog of orders
+##############
+____Arg2____
+1560..1727
+12
+#### Text ####
+While this indicates continued strong demand for the company's desk-top computers, Sun faces increasing competition from Digital Equipment Corp. and Hewlett-Packard Co
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1560..1565
+12,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+1643..1727
+12,1;12,2;12,3;12,4
+#### Text ####
+Sun faces increasing competition from Digital Equipment Corp. and Hewlett-Packard Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1566..1641
+12,0,1
+#### Text ####
+this indicates continued strong demand for the company's desk-top computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1762..1766
+13,3,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1643..1727
+12,1;12,2;12,3;12,4
+#### Text ####
+Sun faces increasing competition from Digital Equipment Corp. and Hewlett-Packard Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1758..1761;1767..1837;1906..1918
+13,3,1,1,1,0;13,3,1,1,1,2,0;13,3,1,1,1,2,1,0;13,3,1,1,1,2,1,1,0;13,3,1,1,1,2,1,1,1,0;13,3,1,1,1,2,1,1,1,1,0;13,3,1,1,1,2,1,1,1,1,1,0,0;13,3,1,1,1,2,1,1,1,1,1,0,1;13,3,1,1,1,2,1,1,1,1,1,0,3;13,3,1,1,1,2,1,1,1,1,1,1;13,3,1,1,1,2,1,1,1,1,1,2
+#### Text ####
+Sun is vulnerable to competition from International Business Machines Corp and Next Inc
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1729..1757
+13,0;13,1;13,2;13,3,0;13,3,1,0;13,4
+#### Text ####
+Recently, analysts have said
+##############
+________________________________________________________

@@ -1,0 +1,349 @@
+________________________________________________________
+____Explicit____
+435..442
+2,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+286..431
+1,1,1
+#### Text ####
+they are setting out to find the most cost-effective fuel for reducing cities' air-pollution problems, with no bias toward any fuel in particular
+##############
+#### Features ####
+Ot, Comm, Null, Null
+215..285
+1,0;1,1,0;1,2
+#### Text ####
+Officials of the Big Three auto makers and 14 petroleum companies said
+##############
+____Arg2____
+444..593
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+their search notably won't include natural gas or pure methanol -- the two front-running alternative fuels -- in tests to be completed by next summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+595..602
+3,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+435..593
+2
+#### Text ####
+However, their search notably won't include natural gas or pure methanol -- the two front-running alternative fuels -- in tests to be completed by next summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+604..658
+3,1;3,2;3,3,0;3,3,1,0;3,3,1,1;3,3,1,2,0;3,3,1,2,1,0;3,3,1,2,1,1;3,4
+#### Text ####
+the tests will focus heavily on new blends of gasoline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+660..804
+3,3,1,2,1,2
+#### Text ####
+which are still undeveloped but which the petroleum industry has been touting as a solution for automobile pollution that is choking urban areas
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+688..691
+3,3,1,2,1,2,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+660..687
+3,3,1,2,1,2,0
+#### Text ####
+which are still undeveloped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+692..804
+3,3,1,2,1,2,2
+#### Text ####
+which the petroleum industry has been touting as a solution for automobile pollution that is choking urban areas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+999..1004
+5,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1097..1215
+5,1;5,2;5,3;5,4
+#### Text ####
+only Atlantic Richfield Co. is now marketing a lower-emission gasoline for older cars currently running on leaded fuel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1005..1095
+5,0,1
+#### Text ####
+major oil companies have been experimenting with cleaner-burning gasoline blends for years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1217
+6
+____Arg1____
+999..1215
+5
+#### Text ####
+While major oil companies have been experimenting with cleaner-burning gasoline blends for years, only Atlantic Richfield Co. is now marketing a lower-emission gasoline for older cars currently running on leaded fuel
+##############
+____Arg2____
+1217..1425
+6
+#### Text ####
+The initial $11 million research program will conduct the most extensive testing to date of reformulated gasolines, said Joe Colucci, head of fuels and lubricants at General Motors Corp. research laboratories
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1427
+7
+#### Features ####
+Ot, Comm, Null, Null
+1333..1425
+6,1;6,2;6,3;6,4
+#### Text ####
+said Joe Colucci, head of fuels and lubricants at General Motors Corp. research laboratories
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1217..1331
+6,0
+#### Text ####
+The initial $11 million research program will conduct the most extensive testing to date of reformulated gasolines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1427..1517
+7
+#### Text ####
+It will compare 21 different blends of gasolines with three mixtures of up to 85% methanol
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1691
+9
+____Arg1____
+1521..1689
+8
+#### Text ####
+A second phase of research, which is still being planned, will test reformulated gasolines on newer engine technologies now being developed for use in 1992 or 1993 cars
+##############
+____Arg2____
+1691..1738
+9
+#### Text ####
+There was no cost estimate for the second phase
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1896..1899
+11,1
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1822..1893
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Keith McHenry, a senior vice president of technology at Amoco Corp
+##############
+and, Expansion.Conjunction
+____Arg1____
+1743..1819
+10,1
+#### Text ####
+The whole idea here is the automobile and oil companies have joint customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1900..1966
+11,0;11,2;11,3;11,4;11,5
+#### Text ####
+we are looking for the most cost-effective way to clean up the air
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1971..1974
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1743..1966
+10;11
+#### Text ####
+The whole idea here is the automobile and oil companies have joint customers," said Keith McHenry, a senior vice president of technology at Amoco Corp. "And we are looking for the most cost-effective way to clean up the air
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1975..2135
+12,1;12,2;12,3
+#### Text ####
+David Hawkins, an environmental lawyer with the Natural Resources Defense Council, said the research appears merely to be a way to promote reformulated gasoline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2302..2309
+14,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2205..2300
+13,1,1,3
+#### Text ####
+to gut Mr. Bush's plans to require auto makers to begin selling alternative-fueled cars by 1995
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2139..2204
+13,0;13,1,0;13,1,1,0;13,1,1,1;13,1,1,2;13,2
+#### Text ####
+Oil and auto companies supported a move on Capitol Hill last week
+##############
+____Arg2____
+2311..2428
+14,1;14,2;14,3;14,4
+#### Text ####
+a House subcommittee adopted a clean-fuels program that specifically mentions reformulated gasoline as an alternative
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2367..2379
+14,3,1,1,1,1
+#### Text ####
+specifically
+##############
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2302..2361
+14,0;14,1;14,2;14,3,0;14,3,1,0;14,4
+#### Text ####
+Instead, a House subcommittee adopted a clean-fuels program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2362..2366;2380..2428
+14,3,1,1,0;14,3,1,1,1,0;14,3,1,1,1,2
+#### Text ####
+that mentions reformulated gasoline as an alternative
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2430
+15
+____Arg1____
+2302..2428
+14
+#### Text ####
+Instead, a House subcommittee adopted a clean-fuels program that specifically mentions reformulated gasoline as an alternative
+##############
+____Arg2____
+2430..2581
+15
+#### Text ####
+The Bush administration has said it will try to resurrect its plan when the House Energy and Commerce Committee takes up a comprehensive clean-air bill
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2497..2501
+15,1,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2430..2462
+15,0;15,1,0;15,1,1,0;15,2
+#### Text ####
+The Bush administration has said
+##############
+when, Temporal.Synchrony
+____Arg1____
+2463..2496
+15,1,1,1,0;15,1,1,1,1,0;15,1,1,1,1,1,0;15,1,1,1,1,1,1,0;15,1,1,1,1,1,1,1
+#### Text ####
+it will try to resurrect its plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2502..2581
+15,1,1,1,1,1,1,2,1
+#### Text ####
+the House Energy and Commerce Committee takes up a comprehensive clean-air bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

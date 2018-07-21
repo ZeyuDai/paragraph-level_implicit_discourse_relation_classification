@@ -1,0 +1,738 @@
+________________________________________________________
+____Explicit____
+65..70
+0,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+9..63
+0,0;0,1,0;0,1,1;0,1,2;0,1,3;0,2
+#### Text ####
+J.P. Morgan & Co. swung to a loss in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+71..160
+0,1,4,1
+#### Text ####
+NCNB Corp. reported net income more than doubled, and Security Pacific Corp. net rose 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+121..124
+0,1,4,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+65..119
+0,1,4,0;0,1,4,1,0;0,1,4,1,1
+#### Text ####
+while NCNB Corp. reported net income more than doubled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+125..160
+0,1,4,1,3
+#### Text ####
+Security Pacific Corp. net rose 10%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+648
+5
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Opposition
+____Arg1____
+600..646
+4
+#### Text ####
+The latest quarter's loss equals $9.92 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+648..723
+5
+#### Text ####
+In the year-earlier quarter, Morgan earned $233.6 million, or $1.25 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+832
+7
+____Arg1____
+727..829
+6
+#### Text ####
+George M. Salem, analyst at Prudential-Bache Securities Inc., called the results "mildly disappointing
+##############
+____Arg2____
+832..959
+7
+#### Text ####
+Excluding the $2 billion provision and allowing for the taxes Morgan paid, earnings were about 65 cents a share, Mr. Salem said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1141
+10
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1062..1139
+9
+#### Text ####
+Net interest income sank 27% in the quarter to $254 million from $347 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1141..1178;1242..1261
+10,0,0,0;10,0,0,1,0;10,0,0,1,1,0;10,0,0,1,1,1;10,0,0,1,1,3;10,0,1
+#### Text ####
+The interest rate on short-term funds was "sharply higher
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1264..1275
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+Morgan said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1372
+11
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1279..1370
+11,0
+#### Text ####
+Morgan received $2 million of interest payments on its medium and long-term Brazilian loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1372..1474
+11,2,0
+#### Text ####
+had they been accruing interest, net interest income would have been $35 million higher in the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1476..1487
+11,2,1;11,2,2;11,2,3
+#### Text ####
+Morgan said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1513..1517
+12,1,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1372..1403
+11,2,0,0
+#### Text ####
+had they been accruing interest
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1476..1487
+11,2,1;11,2,2;11,2,3
+#### Text ####
+Morgan said
+##############
+____Arg2____
+1489..1512;1518..1551
+12,0;12,1,1;12,1,2;12,1,3;12,2
+#### Text ####
+Such loans to Argentina remain classified as non-accruing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1790
+14
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1624..1691
+13,0;13,1,0;13,1,1;13,1,2;13,1,3;13,2
+#### Text ####
+Income from sources other than interest climbed 12% to $414 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1790..1857
+14,1
+#### Text ####
+These increases were partly offset by lower trading-related" income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1859..1872
+14,0;14,2;14,3;14,4;14,5
+#### Text ####
+the bank said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1874
+15
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1790..1857
+14,1
+#### Text ####
+These increases were partly offset by lower trading-related" income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1859..1872
+14,0;14,2;14,3;14,4;14,5
+#### Text ####
+the bank said
+##############
+____Arg2____
+1874..1920
+15
+#### Text ####
+Non-interest expenses grew 16% to $496 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2219
+19
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2077..2217
+18
+#### Text ####
+The Charlotte, N.C., company said earnings rose to $143.6 million, or $1.45 a share, from $58.9 million, or 69 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2219..2405
+19
+#### Text ####
+The latest quarter included a gain of $56.1 million, or 59 cents a share, related to the purchase of the remaining 51% of NCNB Texas National Bank from the Federal Deposit Insurance Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2433..2440
+20,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+2077..2405
+18;19
+#### Text ####
+The Charlotte, N.C., company said earnings rose to $143.6 million, or $1.45 a share, from $58.9 million, or 69 cents a share, a year earlier.
+The latest quarter included a gain of $56.1 million, or 59 cents a share, related to the purchase of the remaining 51% of NCNB Texas National Bank from the Federal Deposit Insurance Corp
+##############
+____Arg1____
+1937..2073
+17
+#### Text ####
+NCNB Corp. 's net income more than doubled in the period, largely because of continued strong performance by the bank's Texas operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2409..2431;2442..2555
+20,0;20,1;20,3;20,4;20,5
+#### Text ####
+The strong performance contrasted with an unexpectedly large increase in the size of NCNB's problem loans, particularly in the Southeast
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2557
+21
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2409..2555
+20
+#### Text ####
+The strong performance, however, contrasted with an unexpectedly large increase in the size of NCNB's problem loans, particularly in the Southeast
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2557..2711
+21
+#### Text ####
+In the third quarter, nonperforming assets jumped to $474.1 million, or 1.43% of net loans and leases, from $232.8 million, or 1.13% in the second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2713
+22
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2557..2711
+21
+#### Text ####
+In the third quarter, nonperforming assets jumped to $474.1 million, or 1.43% of net loans and leases, from $232.8 million, or 1.13% in the second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2713..2789
+22
+#### Text ####
+Nonperformers totaled $230.8 million, or 1.27% in the year-ago third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2791
+23
+____Arg1____
+2713..2789
+22
+#### Text ####
+Nonperformers totaled $230.8 million, or 1.27% in the year-ago third quarter
+##############
+____Arg2____
+2791..2955
+23
+#### Text ####
+Included in the increase in the most recent quarter is a $33 million loan, which NCNB said it "expects to be fully repaid, with no loss, early in the fourth quarter
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3180..3184
+25,1,0
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2960..3144
+24
+#### Text ####
+The deterioration in credit quality offset strong loan growth of 17% in NCNB's Southeast operations, as well as a 28% growth in deposits resulting from an aggressive marketing campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3146..3179;3185..3278
+25,0;25,1,1;25,1,2;25,2
+#### Text ####
+The higher rates paid on deposits helped squeeze NCNB's net interest margin in the Southeast to 3.38% from 3.80% a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3359
+27
+____Arg1____
+3282..3357
+26
+#### Text ####
+In Big Board composite trading yesterday, NCNB jumped $3.50 a share, to $51
+##############
+____Arg2____
+3359..3404
+27
+#### Text ####
+Results were released after the market closed
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3381..3386
+27,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3359..3380
+27,0;27,1,0;27,1,1,0;27,1,1,1;27,2
+#### Text ####
+Results were released
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3387..3404
+27,1,1,2,1
+#### Text ####
+the market closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3577
+29
+____Arg1____
+3408..3575
+28
+#### Text ####
+NCNB Texas National, formed from the remnants of of the failed First RepublicBank Corp. of Dallas, contributed $76.9 million to NCNB's bottom line in the third quarter
+##############
+____Arg2____
+3577..3673
+29
+#### Text ####
+NCNB said its third-quarter results reflect 100% of earnings of the Texas operation since Aug. 1
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3778..3781
+30,1,3,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3741..3776
+30,1,3,0;30,1,3,1,0;30,1,3,1,1
+#### Text ####
+to complete the NCNB Texas purchase
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3782..3856
+30,1,3,1,3
+#### Text ####
+to acquire several small failed thrifts to fill out its regional franchise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3894
+31
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3778..3856
+30,1,3,1,2;30,1,3,1,3
+#### Text ####
+and to acquire several small failed thrifts to fill out its regional franchise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3894..4045
+31,3,1
+#### Text ####
+it purchased both Freedom Savings & Loan Association, Tampa, Fla., and University Federal Savings Association of San Antonio, Texas, for $169.4 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3858..3893
+31,0;31,1;31,2;31,3,0;31,4
+#### Text ####
+Last week, the banking company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4288..4291
+34,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4224..4286
+34,0
+#### Text ####
+Security Pacific's earnings growth slowed in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4292..4451
+34,3
+#### Text ####
+the Los Angeles bank holding company was still able to post a 10% increase in net income because of robust growth in residential real-estate and consumer loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4333..4338
+34,3,1,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+4224..4286
+34,0
+#### Text ####
+Security Pacific's earnings growth slowed in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4288..4332;4339..4451
+34,2;34,3,0;34,3,1,0;34,3,1,2;34,4
+#### Text ####
+but the Los Angeles bank holding company was able to post a 10% increase in net income because of robust growth in residential real-estate and consumer loans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4573..4602
+36,1,1,1,0;36,1,1,1,1,0;36,1,1,1,1,1;36,1,1,1,1,2,0
+#### Text ####
+the gain resulted mainly from
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+4455..4554
+35
+#### Text ####
+Net rose to $185.1 million, or $1.55 a share, from $167.9 million, or $1.47 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4573..4648
+36,1,1,0;36,1,1,1,0;36,1,1,1,1,0;36,1,1,1,1,1;36,1,1,1,1,2;36,1,1,1,1,3
+#### Text ####
+the gain resulted mainly from a $54 million increase in net interest income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4556..4572
+36,0;36,1,0;36,2
+#### Text ####
+The company said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4753
+37
+____Arg1____
+4556..4751
+36
+#### Text ####
+The company said the gain resulted mainly from a $54 million increase in net interest income, reflecting a 33% increase in real estate loans (mainly residential), and a 19% rise in consumer loans
+##############
+____Arg2____
+4753..4879
+37
+#### Text ####
+These high-yielding loans in effect replaced some low-yielding assets such as inter-bank loans, which were allowed to decrease
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4881..4892
+38,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+4753..4879
+37
+#### Text ####
+These high-yielding loans in effect replaced some low-yielding assets such as inter-bank loans, which were allowed to decrease
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4894..5021
+38,1;38,2;38,3,0;38,3,1,0;38,3,1,1;38,3,1,2,0;38,3,1,2,1,0;38,3,1,2,1,1,0;38,3,1,2,1,1,1;38,3,1,2,1,1,2;38,4
+#### Text ####
+Security Pacific's net interest margin fell only 13 basis points, a more mild decrease than some major banks outside California
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5023..5071
+38,3,1,2,1,1,3
+#### Text ####
+which have been reporting more sluggish earnings
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5363
+42
+____Arg1____
+5272..5361
+41
+#### Text ####
+The loan growth offset continuing real-estate loan losses in the depressed Arizona market
+##############
+____Arg2____
+5363..5499
+42
+#### Text ####
+Security Pacific reported a 33% increase in net credit losses for the quarter, to $109 million from $81.9 million in the year-ago period
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5670..5677
+44,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5599..5668
+44,0;44,1,0;44,1,1;44,2
+#### Text ####
+Security Pacific's loan-loss provision was down 22%, or $30.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5678..5730
+44,1,2,1
+#### Text ####
+it added to its foreign-debt reserve the year before
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5732
+45
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5599..5730
+44
+#### Text ####
+Security Pacific's loan-loss provision was down 22%, or $30.4 million, because it added to its foreign-debt reserve the year before
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5732..5870
+45
+#### Text ####
+Non-interest income fell 6% in the quarter, mainly because of an unusual gain a year earlier from the sale of Hong Kong banking operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5872
+46
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Juxtaposition, Temporal.Synchrony
+____Arg1____
+5732..5870
+45
+#### Text ####
+Non-interest income fell 6% in the quarter, mainly because of an unusual gain a year earlier from the sale of Hong Kong banking operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5872..5919
+46
+#### Text ####
+Non-interest expense grew only 4% in the period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

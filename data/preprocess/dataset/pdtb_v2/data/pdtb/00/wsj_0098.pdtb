@@ -1,0 +1,552 @@
+________________________________________________________
+____Implicit____
+308
+2
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+177..306
+1
+#### Text ####
+The vote came after a debate replete with complaints from both proponents and critics of a substantial increase in the wage floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+308..414
+2,0;2,1,0;2,1,1;2,1,2;2,2
+#### Text ####
+Advocates said the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+416..421
+2,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+308..414
+2,0;2,1,0;2,1,1;2,1,2;2,2
+#### Text ####
+Advocates said the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+422..519
+2,1,3,1
+#### Text ####
+opponents argued that the increase will still hurt small business and cost many thousands of jobs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+462..467
+2,1,3,1,1,1,1,1,1
+#### Text ####
+still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+323..414
+2,1,1
+#### Text ####
+the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+308..322
+2,0;2,1,0;2,1,2;2,2
+#### Text ####
+Advocates said
+##############
+____Arg2____
+439..461;468..519
+2,1,3,1,1,1,0;2,1,3,1,1,1,1,0;2,1,3,1,1,1,1,1,0;2,1,3,1,1,1,1,1,2
+#### Text ####
+that the increase will hurt small business and cost many thousands of jobs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+422..438
+2,1,3,1,0;2,1,3,1,1,0
+#### Text ####
+opponents argued
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+523..526
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+308..519
+2
+#### Text ####
+Advocates said the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor, while opponents argued that the increase will still hurt small business and cost many thousands of jobs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+527..639
+3,1;3,2,0;3,2,1,0;3,2,1,1,0;3,2,1,1,1;3,2,1,1,2;3,2,1,1,3;3,2,1,1,4;3,3
+#### Text ####
+the legislation reflected a compromise agreed to on Tuesday by President Bush and Democratic leaders in Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+641..751
+3,2,1,1,5
+#### Text ####
+after congressional Republicans urged the White House to bend a bit from its previous resistance to compromise
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+641..646
+3,2,1,1,5,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+566..639
+3,2,1,1,0;3,2,1,1,1;3,2,1,1,2;3,2,1,1,3;3,2,1,1,4
+#### Text ####
+agreed to on Tuesday by President Bush and Democratic leaders in Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+647..751
+3,2,1,1,5,1
+#### Text ####
+congressional Republicans urged the White House to bend a bit from its previous resistance to compromise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+755..757
+4,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+523..751
+3
+#### Text ####
+But the legislation reflected a compromise agreed to on Tuesday by President Bush and Democratic leaders in Congress, after congressional Republicans urged the White House to bend a bit from its previous resistance to compromise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+758..792
+4,1;4,2,0;4,2,1,0;4,2,1,1;4,3
+#### Text ####
+both sides accepted the compromise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+794..939
+4,2,1,2
+#### Text ####
+which would lead to the first lifting of the minimum wage since a four-year law was enacted in 1977, raising the wage to $3.35 an hour from $2.65
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+852..857
+4,2,1,2,1,1,1,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+814..851
+4,2,1,2,1,1,1,1,1,0;4,2,1,2,1,1,1,1,1,1
+#### Text ####
+the first lifting of the minimum wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+858..893
+4,2,1,2,1,1,1,1,1,2,1,0;4,2,1,2,1,1,1,1,1,2,1,1,0;4,2,1,2,1,1,1,1,1,2,1,1,1,0;4,2,1,2,1,1,1,1,1,2,1,1,1,1;4,2,1,2,1,1,1,1,1,2,1,1,1,2;4,2,1,2,1,1,1,1,1,2,1,1,1,3
+#### Text ####
+a four-year law was enacted in 1977
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+941
+5
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+755..939
+4
+#### Text ####
+So both sides accepted the compromise, which would lead to the first lifting of the minimum wage since a four-year law was enacted in 1977, raising the wage to $3.35 an hour from $2.65
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+941..1024
+5
+#### Text ####
+Under the measure passed yesterday, the minimum wage would rise to $3.80 next April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1217..1220
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1145..1215
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+Rep. Pat Williams (D., Mont.) said during House floor debate yesterday
+##############
+but, Comparison
+____Arg1____
+1107..1142
+7,1
+#### Text ####
+There are no smiles about this bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1222..1274
+8,1;8,2;8,3;8,4;8,5;8,6;8,7
+#### Text ####
+because it's all we've got, I'm going to vote for it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1222..1229
+8,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1145..1215
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+Rep. Pat Williams (D., Mont.) said during House floor debate yesterday
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1217..1220;1250..1274
+8,0;8,1;8,3;8,4;8,5;8,6;8,7
+#### Text ####
+But I'm going to vote for it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1230..1248
+8,2,1
+#### Text ####
+it's all we've got
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1279..1284
+9,0,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1464..1481
+9,1;9,2;9,3;9,4
+#### Text ####
+Mr. Williams said
+##############
+while, Comparison.Contrast
+____Arg1____
+1377..1462
+9,0,1;9,0,2;9,0,3;9,0,4
+#### Text ####
+the level of $4.25 an hour in 1991 will still be less than 35% of average factory pay
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1285..1375
+9,0,0,1
+#### Text ####
+the minimum wage had traditionally been pegged at half the average U.S. manufacturing wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1417..1422
+9,0,4,1
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1464..1481
+9,1;9,2;9,3;9,4
+#### Text ####
+Mr. Williams said
+##############
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+1279..1375
+9,0,0
+#### Text ####
+While the minimum wage had traditionally been pegged at half the average U.S. manufacturing wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1377..1416;1423..1462
+9,0,1;9,0,2;9,0,3;9,0,4,0;9,0,4,2
+#### Text ####
+the level of $4.25 an hour in 1991 will be less than 35% of average factory pay
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1485..1488
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+1217..1481
+8;9
+#### Text ####
+But "because it's all we've got, I'm going to vote for it." 
+
+While the minimum wage had traditionally been pegged at half the average U.S. manufacturing wage, the level of $4.25 an hour in 1991 will still be less than 35% of average factory pay, Mr. Williams said
+##############
+____Arg1____
+1107..1215
+7
+#### Text ####
+There are no smiles about this bill," Rep. Pat Williams (D., Mont.) said during House floor debate yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1489..1654
+10,1;10,2;10,3;10,4
+#### Text ####
+Rep. Marge Roukema (R., N.J.) instead praised the House's acceptance of a new youth "training" wage, a subminimum that GOP administrations have sought for many years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1519..1526
+10,2
+#### Text ####
+instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Sup1____
+1217..1481
+8;9
+#### Text ####
+But "because it's all we've got, I'm going to vote for it." 
+
+While the minimum wage had traditionally been pegged at half the average U.S. manufacturing wage, the level of $4.25 an hour in 1991 will still be less than 35% of average factory pay, Mr. Williams said
+##############
+____Arg1____
+1107..1215
+7
+#### Text ####
+There are no smiles about this bill," Rep. Pat Williams (D., Mont.) said during House floor debate yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1485..1518;1527..1654
+10,0;10,1;10,3;10,4
+#### Text ####
+But Rep. Marge Roukema (R., N.J.) praised the House's acceptance of a new youth "training" wage, a subminimum that GOP administrations have sought for many years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1656
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1535..1588
+10,3,1,0;10,3,1,1,0;10,3,1,1,1,0;10,3,1,1,1,1
+#### Text ####
+the House's acceptance of a new youth "training" wage
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1485..1534
+10,0;10,1;10,2;10,3,0;10,4
+#### Text ####
+But Rep. Marge Roukema (R., N.J.) instead praised
+##############
+____Arg2____
+1656..1751
+11,0
+#### Text ####
+Adopting a training-wage policy means "getting beyond the nickel and diming of the minimum wage
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1754..1771
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+Mrs. Roukema said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1886..1889
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1775..1884
+12,0
+#### Text ####
+Policy makers regard the youth wage as helping to limit the loss of jobs from an increase in the minimum wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1890..1987
+12,3
+#### Text ####
+they have lately touted it as necessary to help impart job skills to entrants into the work force
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2114
+14
+____Arg1____
+1991..2112
+13
+#### Text ####
+Labor unions and Democrats long fought the idea, but recently acceded to it in the face of Bush administration insistence
+##############
+____Arg2____
+2114..2244
+14
+#### Text ####
+The compromise sets the training wage at $3.35 an hour next April, and at $3.61 an hour, or 85% of the minimum wage, in April 1991
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2395..2397
+15,1,1,3,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2371..2394
+15,1,1,2;15,1,1,3,0
+#### Text ####
+and for another 90 days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2398..2476
+15,1,1,3,1,1
+#### Text ####
+the company uses a government-certified training program for the young workers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2478
+16
+____Arg1____
+2248..2476
+15
+#### Text ####
+Employers can pay the subminimum for 90 days, without restriction, to workers with less than six months of job experience, and for another 90 days if the company uses a government-certified training program for the young workers
+##############
+____Arg2____
+2478..2542
+16
+#### Text ####
+The training wage covers only workers who are 16 to 19 years old
+##############
+________________________________________________________

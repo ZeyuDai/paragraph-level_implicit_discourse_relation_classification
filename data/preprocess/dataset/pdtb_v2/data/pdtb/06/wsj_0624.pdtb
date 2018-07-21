@@ -1,0 +1,183 @@
+________________________________________________________
+____Explicit____
+227..229
+1,1,1,5,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+154..225
+1,0;1,1,0;1,1,1,0;1,1,1,1;1,1,1,2;1,1,1,3;1,1,1,4;1,2
+#### Text ####
+The agreement was announced by Costa Rican President Oscar Arias Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+230..361
+1,1,1,5,1
+#### Text ####
+President Bush and other leaders from the Western Hemisphere gathered in the Central American nation for a celebration of democracy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+363
+2
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+154..361
+1
+#### Text ####
+The agreement was announced by Costa Rican President Oscar Arias Friday, as President Bush and other leaders from the Western Hemisphere gathered in the Central American nation for a celebration of democracy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+363..524
+2
+#### Text ####
+Costa Rica had been negotiating with the U.S. and other banks for three years, but the debt plan was rushed to completion in order to be announced at the meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+442..445
+2,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Expectation
+____Arg1____
+363..440
+2,0
+#### Text ####
+Costa Rica had been negotiating with the U.S. and other banks for three years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+446..524
+2,3
+#### Text ####
+the debt plan was rushed to completion in order to be announced at the meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+526
+3
+____Arg1____
+363..524
+2
+#### Text ####
+Costa Rica had been negotiating with the U.S. and other banks for three years, but the debt plan was rushed to completion in order to be announced at the meeting
+##############
+____Arg2____
+526..592
+3
+#### Text ####
+The government had fallen $300 million behind in interest payments
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+735..739
+4,1,4,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+714..720
+4,1,4,0;4,1,4,1,0
+#### Text ####
+noting
+##############
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+721..733;753..839
+4,1,4,1,1,0;4,1,4,1,1,1,0;4,1,4,1,1,1,1,0;4,1,4,1,1,1,1,1;4,1,4,1,1,1,1,3;4,1,4,1,1,1,1,4
+#### Text ####
+that it will provide significant reduction in the level of debt and debt service owed by Costa Rica
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+740..751
+4,1,4,1,1,1,1,2,1
+#### Text ####
+implemented
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1006
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+844..1004
+5
+#### Text ####
+Under the plan, Costa Rica will buy back roughly 60% of its bank debt outstanding at a deeply discounted price, according to officials involved in the agreement
+##############
+#### Features ####
+Ot, Comm, Null, Null
+956..1004
+5,3,1,4;5,3,1,5;5,4
+#### Text ####
+according to officials involved in the agreement
+##############
+____Arg2____
+1006..1103
+6
+#### Text ####
+The remainder of the debt will be exchanged for new Costa Rican bonds with a 6 1/4% interest rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1235..1238
+7,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1107..1233
+7,0
+#### Text ####
+The International Monetary Fund and the World Bank are expected to provide approximately $180 million to help support the deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1239..1279
+7,3
+#### Text ####
+additional funds are expected from Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

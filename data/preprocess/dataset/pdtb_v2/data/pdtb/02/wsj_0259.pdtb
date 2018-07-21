@@ -1,0 +1,585 @@
+________________________________________________________
+____Explicit____
+657..664
+3,0
+#### Text ####
+Instead
+##############
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+384..500
+1,3,2,1,1,1,1
+#### Text ####
+to raise temporary working capital through debt issued from an agency that wouldn't be counted on the federal budget
+##############
+#### Features ####
+Ot, Comm, Null, Null
+176..297;332..366
+1,0;1,1;1,2,0;1,2,1;1,2,3;1,3,0;1,3,1;1,4
+#### Text ####
+In a hearing before the House Ways and Means Committee, the General Accounting Office and the Congressional Budget Office advised the new S&L bailout agency
+##############
+____Arg2____
+716..759
+3,2;3,3,0;3,3,1,0;3,3,1,1,0;3,3,1,1,1,0;3,3,1,1,1,1,0;3,3,1,1,1,1,1;3,4
+#### Text ####
+the RTC should consider using Treasury debt
+##############
+#### Features ####
+Ot, Comm, Null, Null
+666..714
+3,1
+#### Text ####
+the GAO and the Congressional Budget Office said
+##############
+____Sup2____
+761..821
+3,3,1,1,1,1,2
+#### Text ####
+which is less expensive and subject to oversight by Congress
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+823
+4
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+since, Contingency.Cause.Reason
+____Arg1____
+657..664;716..821
+3,0;3,2;3,3;3,4
+#### Text ####
+Instead the RTC should consider using Treasury debt, which is less expensive and subject to oversight by Congress
+##############
+#### Features ####
+Ot, Comm, Null, Null
+666..714
+3,1
+#### Text ####
+the GAO and the Congressional Budget Office said
+##############
+____Arg2____
+823..923
+4
+#### Text ####
+The spending could be exempted from meeting deficit-reduction targets in the Gramm-Rudman budget law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1036
+6
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+927..1034
+5
+#### Text ####
+The RTC has projected that it will require between $50 billion to $100 billion in temporary working capital
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1036..1123
+6
+#### Text ####
+The borrowing to raise these funds would be paid off as assets of sick thrifts are sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1089..1091
+6,1,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1036..1088
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1;6,1,1,1,2;6,2
+#### Text ####
+The borrowing to raise these funds would be paid off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1092..1123
+6,1,1,1,3,1
+#### Text ####
+assets of sick thrifts are sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1125
+7
+____Arg1____
+1036..1123
+6
+#### Text ####
+The borrowing to raise these funds would be paid off as assets of sick thrifts are sold
+##############
+____Arg2____
+1125..1225
+7
+#### Text ####
+The new S&L law allows the RTC to issue notes for as much as 85% of the value of the assets it holds
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1229..1232
+8,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1148..1225
+7,1,1
+#### Text ####
+the RTC to issue notes for as much as 85% of the value of the assets it holds
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1125..1147
+7,0;7,1,0;7,2
+#### Text ####
+The new S&L law allows
+##############
+____Arg2____
+1233..1369
+8,0,1;8,0,2
+#### Text ####
+higher interest rates paid on off-budget debt could add billions to the bailout costs, and wouldn't be subject to congressional scrutiny
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1371..1400
+8,1;8,2;8,3;8,4
+#### Text ####
+Ways and Means members argued
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1403
+9
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+1229..1369
+8,0
+#### Text ####
+But higher interest rates paid on off-budget debt could add billions to the bailout costs, and wouldn't be subject to congressional scrutiny
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1371..1400
+8,1;8,2;8,3;8,4
+#### Text ####
+Ways and Means members argued
+##############
+____Arg2____
+1403..1522
+9,1
+#### Text ####
+To allow this massive level of unfettered federal borrowing without prior congressional approval would be irresponsible
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1525..1561
+9,0;9,2;9,3;9,4;9,5,0;9,5,1;9,5,2;9,6
+#### Text ####
+said Rep. Fortney Stark (D., Calif.)
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1727
+11
+____Arg1____
+1635..1725
+10
+#### Text ####
+The RTC will have to sell or merge hundreds of insolvent thrifts over the next three years
+##############
+____Arg2____
+1727..1849
+11
+#### Text ####
+The new S&L bailout law allows $50 billion to be spent to sell or merge sick S&Ls and their assets, but that is a net cost
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1827..1830
+11,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1758..1825
+11,0,1,1
+#### Text ####
+$50 billion to be spent to sell or merge sick S&Ls and their assets
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1727..1757
+11,0,0;11,0,1,0
+#### Text ####
+The new S&L bailout law allows
+##############
+____Arg2____
+1831..1849
+11,3
+#### Text ####
+that is a net cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1851..1866
+12,0
+#### Text ####
+In the meantime
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meantime, Temporal.Synchrony
+____Sup1____
+1727..1849
+11
+#### Text ####
+The new S&L bailout law allows $50 billion to be spent to sell or merge sick S&Ls and their assets, but that is a net cost
+##############
+____Arg1____
+1635..1725
+10
+#### Text ####
+The RTC will have to sell or merge hundreds of insolvent thrifts over the next three years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1868..1958
+12,1;12,2;12,3;12,4
+#### Text ####
+the agency must raise cash to maintain assets, such as real estate, until they can be sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1936..1941
+12,3,1,2,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Contingency.Condition.Hypothetical
+____Arg1____
+1851..1934
+12,0;12,1;12,2;12,3,0;12,3,1,0;12,3,1,1;12,3,1,2,0;12,3,1,2,1,0;12,3,1,2,1,1,0;12,3,1,2,1,1,1;12,4
+#### Text ####
+In the meantime, the agency must raise cash to maintain assets, such as real estate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1942..1958
+12,3,1,2,1,1,2,1
+#### Text ####
+they can be sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1960..1964
+13,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1851..1958
+12
+#### Text ####
+In the meantime, the agency must raise cash to maintain assets, such as real estate, until they can be sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1965..2039
+13,1;13,2;13,3
+#### Text ####
+the short-term debt is paid off through the proceeds of selling the assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2255..2259
+14,1,1,1,1,1,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Ctrl, Null, Indet
+2180..2191
+14,1,1,1,1,1,1,1,1,0,3,0;14,1,1,1,1,1,1,1,1,0,3,1,0;14,1,1,1,1,1,1,1,1,0,3,1,1,0
+#### Text ####
+by allowing
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2192..2253
+14,1,1,1,1,1,1,1,1,0,3,1,1,1
+#### Text ####
+the agency to sell savings and loans without their bad assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2260..2325
+14,1,1,1,1,1,1,1,1,1;14,1,1,1,1,1,1,1,1,3
+#### Text ####
+hold the assets until they can be sold under favorable conditions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2276..2281
+14,1,1,1,1,1,1,1,1,3,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Arb, Ctrl, Null, Indet
+2180..2191
+14,1,1,1,1,1,1,1,1,0,3,0;14,1,1,1,1,1,1,1,1,0,3,1,0;14,1,1,1,1,1,1,1,1,0,3,1,1,0
+#### Text ####
+by allowing
+##############
+until, Contingency.Condition.Hypothetical
+____Arg1____
+2255..2275
+14,1,1,1,1,1,1,1,1,1;14,1,1,1,1,1,1,1,1,2;14,1,1,1,1,1,1,1,1,3,0;14,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+then hold the assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2282..2325
+14,1,1,1,1,1,1,1,1,3,2,1
+#### Text ####
+they can be sold under favorable conditions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2400..2403
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2329..2336
+15,0,0;15,0,1,0
+#### Text ####
+He said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2337..2398
+15,0,1,1
+#### Text ####
+it hasn't yet been determined how the RTC will raise the cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2404..2475
+15,3,0;15,3,1,0;15,3,1,1;15,3,1,2,0;15,3,1,2,1;15,3,1,2,2
+#### Text ####
+the administration doesn't want it to be included on the federal budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2477..2484
+15,3,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2329..2336
+15,0,0;15,0,1,0
+#### Text ####
+He said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2400..2475
+15,2;15,3,0;15,3,1,0;15,3,1,1;15,3,1,2,0;15,3,1,2,1;15,3,1,2,2;15,4
+#### Text ####
+but the administration doesn't want it to be included on the federal budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2485..2522
+15,3,1,2,3,1,0;15,3,1,2,3,1,1,0;15,3,1,2,3,1,1,1,0;15,3,1,2,3,1,1,1,1;15,3,1,2,3,1,1,1,2;15,3,1,2,3,1,1,1,3
+#### Text ####
+it would "distort" the budget process
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2523..2610
+15,3,1,2,3,1,1,1,4
+#### Text ####
+by requiring either exemptions from Gramm-Rudman or big increases in the budget deficit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2614..2617
+16,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2677..2684
+16,1;16,2;16,3;16,4
+#### Text ####
+he said
+##############
+but, Comparison.Contrast
+____Arg1____
+2337..2610
+15,0,1,1;15,1;15,2;15,3;15,4
+#### Text ####
+it hasn't yet been determined how the RTC will raise the cash, but the administration doesn't want it to be included on the federal budget, because it would "distort" the budget process by requiring either exemptions from Gramm-Rudman or big increases in the budget deficit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2329..2336
+15,0,0;15,0,1,0
+#### Text ####
+He said
+##############
+____Arg2____
+2618..2675
+16,0,1;16,0,2
+#### Text ####
+the worst possibility would be raising no working capital
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2687
+17
+#### Features ####
+Ot, Comm, Null, Null
+2734..2741
+17,4
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2614..2675
+16,0
+#### Text ####
+But the worst possibility would be raising no working capital
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2677..2684
+16,1;16,2;16,3;16,4
+#### Text ####
+he said
+##############
+____Arg2____
+2687..2731;2744..2823
+17,0;17,1;17,2;17,3;17,5;17,6;17,7;17,8;17,9
+#### Text ####
+If working capital financing is not provided the RTC may have to slow {S&L sales} or dump acquired assets through fire sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2687..2689
+17,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2734..2741
+17,4
+#### Text ####
+he said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2744..2823
+17,0;17,2;17,3;17,5;17,6;17,7;17,8;17,9
+#### Text ####
+the RTC may have to slow {S&L sales} or dump acquired assets through fire sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2690..2731
+17,1,1
+#### Text ####
+working capital financing is not provided
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

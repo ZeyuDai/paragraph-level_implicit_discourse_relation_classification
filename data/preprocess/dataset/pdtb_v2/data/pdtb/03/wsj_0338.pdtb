@@ -1,0 +1,102 @@
+________________________________________________________
+____EntRel____
+348
+2
+____Arg1____
+114..346
+1
+#### Text ####
+Shop Television Network Inc., of Los Angeles, said Penney agreed to continue its exclusive arrangement with Shop Television, which does the production, marketing and cable distribution for the J.C. Penney Television Shopping Channel
+##############
+____Arg2____
+348..410
+2
+#### Text ####
+The channel reaches 6.5 million homes, a Penney spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+547
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+464..545
+3,1,1
+#### Text ####
+Penney decided to extend its involvement with the service for at least five years
+##############
+#### Features ####
+Ot, Comm, Null, Null
+414..463
+3,0;3,1,0;3,2
+#### Text ####
+Michael Rosen, president of Shop Television, said
+##############
+____Arg2____
+547..651
+4
+#### Text ####
+If, by that time, the network reaches 14 million homes, the contract will be renewed for five more years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+547..549
+4,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+414..463
+3,0;3,1,0;3,2
+#### Text ####
+Michael Rosen, president of Shop Television, said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+603..651
+4,1;4,2;4,3;4,4
+#### Text ####
+the contract will be renewed for five more years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..601
+4,0,1
+#### Text ####
+by that time, the network reaches 14 million homes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+775
+6
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+655..773
+5
+#### Text ####
+Earlier this year, Penney abandoned another home shopping venture, Telaction Corp., after investing $106 million in it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+775..893
+6
+#### Text ####
+The company took a $20 million charge in the fiscal first quarter ended April 29, related to discontinuing the service
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

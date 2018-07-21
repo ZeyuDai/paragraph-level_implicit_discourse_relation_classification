@@ -1,0 +1,1349 @@
+________________________________________________________
+____Explicit____
+44..46
+0,2,1,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+27..43
+0,2,1,1,0;0,2,1,1,1,0;0,2,1,1,1,1
+#### Text ####
+to buy computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+47..74
+0,2,1,1,1,2,1
+#### Text ####
+we can get more information
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+76..80
+1,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+9..74
+0
+#### Text ####
+First they get us to buy computers so we can get more information
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+81..141
+1,1;1,2;1,3
+#### Text ####
+the computers give us more information than we can ever read
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+143
+2
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+76..141
+1
+#### Text ####
+Then the computers give us more information than we can ever read
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+143..253
+2
+#### Text ####
+Now they plan to sell us products that sift through all the information to give us what we really want to know
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+552
+5
+#### Features ####
+Ot, Comm, Null, Null
+457..549
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+says Esther Dyson, editor of Release 1.0, an industry newsletter that spots new developments
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+421..454
+4,1
+#### Text ####
+Filtered news is what people want
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+552..640
+5
+#### Text ####
+Most people read 10 times more than necessary in order to find out what they really need
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+837..844
+6,1,3,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+645..664;775..779
+6,0,0;6,0,1;6,0,3;6,1,0;6,1,1;6,1,2
+#### Text ####
+Geoffrey Goodfellow says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+782..836
+6,1,3,0;6,1,3,1,0;6,1,3,1,1,0;6,1,3,1,1,1
+#### Text ####
+Old network hands have started to turn off the network
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+845..890
+6,1,3,1,1,2,1
+#### Text ####
+they don't have time to wade through the muck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+893
+7
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+782..890
+6,1,3
+#### Text ####
+Old network hands have started to turn off the network because they don't have time to wade through the muck
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+893..1035
+7
+#### Text ####
+Mr. Goodfellow has started a Menlo Park, Calif., company called Anterior Technology that provides human editors for public electronic networks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1038
+8
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Equivalence
+____Arg1____
+977..1035
+7,1,1,1,2
+#### Text ####
+that provides human editors for public electronic networks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1038..1074
+8,1
+#### Text ####
+I see it as a sewage treatment plant
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1077..1084
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1267
+10
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1088..1265
+9
+#### Text ####
+A new product, NewsEdge, carries five business news wires simultaneously into a user's computer and beeps and flashes whenever an article appears that is of interest to the user
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1267..1278;1352..1433
+10,0,0;10,0,1;10,0,2,2,1,2,1,2,1,1;10,0,2,2,1,2,1,2,1,3;10,1;10,2
+#### Text ####
+The product scans the wires looking for articles that contain key words specified by the user
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1582
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1531..1572
+11,1,1
+#### Text ####
+he uses it to track takeover developments
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1453..1530
+11,0,1;11,0,2;11,1,0
+#### Text ####
+David Semmel, a Chicago venture capitalist and investor in Desktop Data, says
+##############
+____Arg2____
+1582..1712
+12,1,1
+#### Text ####
+he told NewsEdge to look for stories containing such words as takeover, acquisition, acquire, LBO, tender, merger, junk and halted
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1574..1581
+12,0;12,1,0;12,2
+#### Text ####
+He says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1715
+13
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1582..1712
+12,1,1
+#### Text ####
+he told NewsEdge to look for stories containing such words as takeover, acquisition, acquire, LBO, tender, merger, junk and halted
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1574..1581
+12,0;12,1,0;12,2
+#### Text ####
+He says
+##############
+____Arg2____
+1715..1759
+13,1
+#### Text ####
+I'm pretty confident I'm catching everything
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1762..1769
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1845..1847
+14,2,2,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1830..1844
+14,2,1;14,2,2,0
+#### Text ####
+$40,000 a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1848..1890
+14,2,2,1,1
+#### Text ####
+the cost of all the news wires is included
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1892..1895
+15,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1773..1890
+14
+#### Text ####
+NewsEdge is pricey: $7,500 a year for a limited version, $40,000 a year if the cost of all the news wires is included
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1896..1944
+15,1;15,2;15,3
+#### Text ####
+it works best in high-powered personal computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1946..1949
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1773..1944
+14;15
+#### Text ####
+NewsEdge is pricey: $7,500 a year for a limited version, $40,000 a year if the cost of all the news wires is included.
+And it works best in high-powered personal computers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1950..2015
+16,1;16,2;16,3
+#### Text ####
+some investors and consultants who have tried it are enthusiastic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2017
+17
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1946..2015
+16
+#### Text ####
+But some investors and consultants who have tried it are enthusiastic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2017..2183
+17
+#### Text ####
+Jeffrey Tarter, editor of SoftLetter, a Watertown, Mass., industry newsletter, says: "I've seen a lot of people fooling around on the fringes of filtering information
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2185
+18
+#### Features ####
+Ot, Comm, Null, Null
+2017..2100
+17,0;17,1,0;17,1,1;17,1,2;17,2
+#### Text ####
+Jeffrey Tarter, editor of SoftLetter, a Watertown, Mass., industry newsletter, says
+##############
+but, Comparison.Contrast
+____Arg1____
+2103..2183
+17,1,3
+#### Text ####
+I've seen a lot of people fooling around on the fringes of filtering information
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2185..2265
+18
+#### Text ####
+This is the first time I've seen something I could imagine a lot of people using
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2439
+20
+____Arg1____
+2270..2437
+19
+#### Text ####
+NewsEdge uses an FM radio band to carry news wires provided by Reuters, McGraw-Hill and Dow Jones & Co., as well as PR Newswire, which carries corporate press releases
+##############
+____Arg2____
+2439..2517
+20
+#### Text ####
+An FM receiver attached to a user's personal computer receives the information
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2603..2605
+21,1,1,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2571..2602
+21,1,1,1,1,0;21,1,1,1,1,1,0;21,1,1,1,1,1,1,0;21,1,1,1,1,1,1,1,0;21,1,1,1,1,1,1,1,1
+#### Text ####
+to sort through news wire items
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2606..2618
+21,1,1,1,1,1,1,1,2,1
+#### Text ####
+they come in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2620
+22
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2521..2618
+21
+#### Text ####
+Some organizations have devised their own systems to sort through news wire items as they come in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2620..2776
+22
+#### Text ####
+George Goodwin, an account manager at Royal Bank of Canada, adapted a Lotus Development Corp. program called Agenda to sort through international news wires
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2778
+23
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2736..2776
+22,1,2
+#### Text ####
+to sort through international news wires
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2778..2916
+23
+#### Text ####
+It automatically selects stories from particular countries for reading by the international bankers responsible for lending in those areas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3464
+27
+____Arg1____
+3304..3462
+26
+#### Text ####
+We are operating an information refinery that takes a broad stream of raw data and turns it into actionable knowledge," says Yosi Amram, founder and president
+##############
+____Arg2____
+3464..3742
+27
+#### Text ####
+The daily newsletter, which isn't widely available yet, will have a base cost of $2,000 a year and provides full text of relevant articles under license agreements with Reuters, McGraw Hill, United Press International, two press release news wires and Japan's Kyodo news service
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3806
+29
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3746..3803
+28
+#### Text ####
+One early user is NEC Corp. 's U.S. printer marketing arm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3806..3885
+29,1
+#### Text ####
+They want the full press releases on printer announcements by their competition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3888..3902
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+Mr. Amram says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3907..3911
+30,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3806..3885
+29,1
+#### Text ####
+They want the full press releases on printer announcements by their competition
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3888..3902
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+Mr. Amram says
+##############
+____Arg2____
+3904..3906;3912..3992
+30,0;30,2;30,3
+#### Text ####
+It tracks personnel and financial announcements by NEC's distributors and customers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4087
+32
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+for instance, Expansion.Restatement.Specification
+____Arg1____
+3996..4085
+31
+#### Text ####
+Individual Inc. 's technology goes beyond word searches by using a computerized thesaurus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4087..4235
+32,0
+#### Text ####
+If a customer asks for stories about "IBM," the computer will also supply stories that mention "I.B.M., International Business Machines, or Big Blue
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4238..4252
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+Mr. Amram says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4087..4089
+32,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4238..4252
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+Mr. Amram says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4131..4235
+32,0,1;32,0,2;32,0,3;32,0,4
+#### Text ####
+the computer will also supply stories that mention "I.B.M., International Business Machines, or Big Blue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4090..4128
+32,0,0,1
+#### Text ####
+a customer asks for stories about "IBM
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4149..4153
+32,0,4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3996..4085
+31
+#### Text ####
+Individual Inc. 's technology goes beyond word searches by using a computerized thesaurus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4087..4148;4154..4235
+32,0,0;32,0,1;32,0,2;32,0,3;32,0,4,0;32,0,4,2
+#### Text ####
+If a customer asks for stories about "IBM," the computer will supply stories that mention "I.B.M., International Business Machines, or Big Blue
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4238..4252
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+Mr. Amram says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4256..4264
+33,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+3996..4085
+31
+#### Text ####
+Individual Inc. 's technology goes beyond word searches by using a computerized thesaurus
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4266..4398
+33,1;33,2;33,3;33,4;33,5
+#### Text ####
+Individual Inc. 's computers can weigh the value of an article based on how closely the story matches the subscriber's interest area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4400
+34
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4256..4398
+33
+#### Text ####
+Moreover, Individual Inc. 's computers can weigh the value of an article based on how closely the story matches the subscriber's interest area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4400..4511
+34
+#### Text ####
+It compares the position of key words in the story; words in the headline or first paragraph get a higher value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4452
+34
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4400..4450
+34,0
+#### Text ####
+It compares the position of key words in the story
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4452..4511
+34,2
+#### Text ####
+words in the headline or first paragraph get a higher value
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4513..4516
+35,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4400..4511
+34
+#### Text ####
+It compares the position of key words in the story; words in the headline or first paragraph get a higher value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4517..4630
+35,1;35,2;35,3
+#### Text ####
+it calculates how often the words appear in the story compared with how often they appear in the entire data base
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4632
+36
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Restatement.Specification
+____Arg1____
+4513..4630
+35
+#### Text ####
+And it calculates how often the words appear in the story compared with how often they appear in the entire data base
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4632..4720
+36
+#### Text ####
+The higher the ratio of hits to total words, the higher the presumed value to the reader
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4994
+38
+#### Features ####
+Wr, Comm, Null, Null
+so, Expansion.Restatement.Specification
+____Arg1____
+4724..4749;4889..4991
+37,0,0;37,0,1;37,0,3;37,0,5;37,1;37,2
+#### Text ####
+Pinpoint Information Corp relies on 12 human readers to code news releases by topic in order to select items for each subscriber
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4994..5074
+38
+#### Text ####
+The computers find all the key words they can, but the editors confirm every one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5041..5044
+38,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5109..5162
+39,1;39,2;39,3;39,4;39,5
+#### Text ####
+says Harvey Golomb, president and founder of Pinpoint
+##############
+but, Comparison.Contrast
+____Arg1____
+4994..5039
+38,1
+#### Text ####
+The computers find all the key words they can
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5045..5074
+38,4
+#### Text ####
+the editors confirm every one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5076
+39
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4994..5074
+38
+#### Text ####
+The computers find all the key words they can, but the editors confirm every one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5076..5106
+39,0
+#### Text ####
+Computer picking isn't perfect
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5109..5162
+39,1;39,2;39,3;39,4;39,5
+#### Text ####
+says Harvey Golomb, president and founder of Pinpoint
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5175..5179
+40,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4916..4991
+37,1,2;37,1,3;37,2
+#### Text ####
+to code news releases by topic in order to select items for each subscriber
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5164..5174;5180..5252
+40,0;40,2;40,3
+#### Text ####
+The humans write abstracts of articles from some 200 computer industry publications
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5256..5260
+41,0,0,0
+#### Text ####
+Once
+##############
+#### Features ####
+Wr, Comm, Null, Null
+once, Temporal.Asynchronous.Succession
+____Arg1____
+5312..5434
+41,0,1;41,0,2;41,0,3
+#### Text ####
+Pinpoint's computers pick the most relevant for each subscriber and lay them out in a three-to-five-page newsletter format
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5261..5310
+41,0,0,1
+#### Text ####
+all the articles are coded and put in a data base
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5436
+41
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5312..5434
+41,0,1;41,0,2;41,0,3
+#### Text ####
+Pinpoint's computers pick the most relevant for each subscriber and lay them out in a three-to-five-page newsletter format
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5436..5518
+41,2
+#### Text ####
+each newsletter is sent directly from the computer to the subscriber's fax machine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5520
+42
+____Arg1____
+5256..5518
+41
+#### Text ####
+Once all the articles are coded and put in a data base, Pinpoint's computers pick the most relevant for each subscriber and lay them out in a three-to-five-page newsletter format; each newsletter is sent directly from the computer to the subscriber's fax machine
+##############
+____Arg2____
+5520..5614
+42
+#### Text ####
+Mr. Golomb says each of his computers can produce and send about 75 unique newsletters a night
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5735
+44
+____Arg1____
+5618..5733
+43
+#### Text ####
+Many computer network users who never see news wires would like to sort through their electronic mail automatically
+##############
+____Arg2____
+5735..5895
+44
+#### Text ####
+So-called E-mail is the collection of inter-office memos, gossip, technical data, schedules and directives distributed over local and national computer networks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5977..5980
+45,1,1,1,2,1,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6000..6055
+45,0;45,2;45,3;45,4;45,5,0;45,5,1;45,5,2,0;45,6
+#### Text ####
+says Chuck Digate, a former Lotus Development executive
+##############
+and, Expansion.Conjunction
+____Arg1____
+5965..5976
+45,1,1,1,2,1,1,2,0
+#### Text ####
+what's junk
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5981..5997
+45,1,1,1,2,1,1,2,2
+#### Text ####
+what's important
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6128
+46
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+6056..6110
+45,5,2,1
+#### Text ####
+who has started a new company to cope with the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6128..6286
+46,1,1
+#### Text ####
+his firm, Beyond Inc., has licensed technology known as Information Lens from Massachusetts Institute of Technology and plans to develop it for commercial use
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6112..6127
+46,0;46,1,0;46,2
+#### Text ####
+Mr. Digate says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6378..6380
+47,1,1,1,2,1,1,2,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6330..6377
+47,1,1,1,2,1,0;47,1,1,1,2,1,1,0;47,1,1,1,2,1,1,1;47,1,1,1,2,1,1,2,0;47,1,1,1,2,1,1,2,1;47,1,1,1,2,1,1,2,2;47,1,1,1,2,1,1,2,4
+#### Text ####
+to be automatically categorized as top priority
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6381..6467
+47,1,1,1,2,1,1,2,3,1
+#### Text ####
+it comes from certain designated senders or requires action in the next couple of days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6485
+48
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+6290..6467
+47
+#### Text ####
+The MIT project devised ways for E-mail to be automatically categorized as top priority if it comes from certain designated senders or requires action in the next couple of days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6485..6609
+48,1,1
+#### Text ####
+that Beyond will refine the product "so the message will be smart enough to know to come back and bother you again next week
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6469..6484
+48,0;48,1,0;48,2;48,3
+#### Text ####
+Mr. Digate says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6522..6524
+48,1,1,1,1,1,3,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6469..6484
+48,0;48,1,0;48,2;48,3
+#### Text ####
+Mr. Digate says
+##############
+so, Contingency.Cause.Result
+____Arg1____
+6485..6520
+48,1,1,0;48,1,1,1,0;48,1,1,1,1,0;48,1,1,1,1,1,0;48,1,1,1,1,1,1;48,1,1,1,1,1,2
+#### Text ####
+that Beyond will refine the product
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6525..6609
+48,1,1,1,1,1,3,1
+#### Text ####
+the message will be smart enough to know to come back and bother you again next week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6612..6615
+49,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6469..6484
+48,0;48,1,0;48,2;48,3
+#### Text ####
+Mr. Digate says
+##############
+and, Expansion.Conjunction
+____Arg1____
+6485..6609
+48,1,1
+#### Text ####
+that Beyond will refine the product "so the message will be smart enough to know to come back and bother you again next week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6616..6709
+49,1;49,2;49,3;49,4;49,5;49,6;49,7;49,8
+#### Text ####
+if a user is busy, "he can set it for crisis mode: `Don't bother me with reports until Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6616..6618
+49,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6469..6484
+48,0;48,1,0;48,2;48,3
+#### Text ####
+Mr. Digate says
+##############
+if, Contingency.Condition.General
+____Sup1____
+6668..6709
+49,5,1,2,1,3
+#### Text ####
+Don't bother me with reports until Monday
+##############
+____Arg1____
+6612..6615;6636..6665
+49,0;49,2;49,3;49,4;49,5,0;49,5,1,0;49,5,1,1;49,5,1,2,0;49,5,1,2,1,0;49,5,1,2,1,1;49,5,1,2,1,2;49,6;49,7;49,8
+#### Text ####
+And he can set it for crisis mode
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6619..6633
+49,1,1
+#### Text ####
+a user is busy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6777..6781
+50,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+6290..6467
+47
+#### Text ####
+The MIT project devised ways for E-mail to be automatically categorized as top priority if it comes from certain designated senders or requires action in the next couple of days
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6716..6738;6782..6832
+50,0,0;50,0,1;50,0,2;50,0,4;50,2;50,3
+#### Text ####
+A program called Notes is designed to sort E-mail sent within work groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6834
+51
+____Arg1____
+6716..6832
+50
+#### Text ####
+A program called Notes, which is under development by Lotus, also is designed to sort E-mail sent within work groups
+##############
+____Arg2____
+6834..6920
+51
+#### Text ####
+One thing that makes E-mail difficult to sift through is that each item looks the same
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6922
+52
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+6834..6920
+51
+#### Text ####
+One thing that makes E-mail difficult to sift through is that each item looks the same
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6922..6927;6993..7049
+52,0,0;52,0,1;52,0,3;52,1;52,2
+#### Text ####
+Notes allows mail senders to put different logos on their mail
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7101..7112
+53,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+6922..7049
+52
+#### Text ####
+Notes, which is designed for advanced computers that display graphics, allows mail senders to put different logos on their mail
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7051..7099;7114..7195
+53,0;53,1;53,3;53,4;53,5
+#### Text ####
+A daily news briefing from the company librarian would have a distinctive format on the screen, just as a paper version would have
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7300
+55
+#### Features ####
+Ot, Comm, Null, Null
+7256..7297
+54,0;54,2;54,3;54,4;54,5;54,6
+#### Text ####
+says Mr. Tarter, the editor of SoftLetter
+##############
+but, Comparison.Contrast
+____Arg1____
+7200..7253
+54,1
+#### Text ####
+With E-mail, you don't have the visual clues of paper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7300..7337
+55
+#### Text ####
+With Notes, they're visually distinct
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

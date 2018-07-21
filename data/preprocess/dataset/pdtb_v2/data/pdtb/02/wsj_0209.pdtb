@@ -1,0 +1,1133 @@
+________________________________________________________
+____Explicit____
+277..281
+2,1
+#### Text ####
+thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+228..266
+1,1,1,1,1,1,1,1
+#### Text ####
+that prevents the production of pollen
+##############
+#### Features ####
+Ot, Comm, Null, Null
+175..195
+1,0;1,1,0;1,2
+#### Text ####
+The researchers said
+##############
+____Arg2____
+268..276;282..325
+2,0;2,2;2,3
+#### Text ####
+The gene can prevent a plant from fertilizing itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+366..370
+3,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+268..325
+2
+#### Text ####
+The gene thus can prevent a plant from fertilizing itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+327..365;371..427
+3,0;3,1,0;3,1,2,0;3,1,2,1,0;3,1,2,1,1;3,1,2,1,2;3,1,2,1,3;3,2
+#### Text ####
+Such so-called male-sterile plants can be fertilized by pollen from another strain of the plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+429..436
+3,1,2,1,4,0
+#### Text ####
+thereby
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thereby, Contingency.Cause.Result
+____Arg1____
+327..427
+3,0;3,1,0;3,1,1;3,1,2,0;3,1,2,1,0;3,1,2,1,1;3,1,2,1,2;3,1,2,1,3;3,2
+#### Text ####
+Such so-called male-sterile plants can then be fertilized by pollen from another strain of the plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+437..458
+3,1,2,1,4,1;3,1,2,1,4,2
+#### Text ####
+producing hybrid seed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+460
+4
+____Arg1____
+327..458
+3
+#### Text ####
+Such so-called male-sterile plants can then be fertilized by pollen from another strain of the plant, thereby producing hybrid seed
+##############
+____Arg2____
+460..605
+4
+#### Text ####
+The new generation of plants will possess the flourishing, high-production trait known as "hybrid vigor," similar to that now seen in hybrid corn
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+975..989
+7,0;7,1,0;7,1,1,0
+#### Text ####
+That's because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+844..973
+6
+#### Text ####
+On a commercial scale, the sterilization of the pollen-producing male part has only been achieved in corn and sorghum feed grains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+975..1083
+7
+#### Text ####
+That's because the male part, the tassel, and the female, the ear, are some distance apart on the corn plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+982..989
+7,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+975..981
+7,0;7,1,0;7,2
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+990..1083
+7,1,1,1
+#### Text ####
+the male part, the tassel, and the female, the ear, are some distance apart on the corn plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1085
+8
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+975..1083
+7
+#### Text ####
+That's because the male part, the tassel, and the female, the ear, are some distance apart on the corn plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1085..1283
+8;9
+#### Text ####
+In a labor-intensive process, the seed companies cut off the tassels of each plant, making it male sterile.
+They sow a row of male-fertile plants nearby, which then pollinate the male-sterile plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1193
+9
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1085..1191
+8
+#### Text ####
+In a labor-intensive process, the seed companies cut off the tassels of each plant, making it male sterile
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1193..1237
+9,0;9,1,0;9,1,1;9,1,2;9,1,3;9,2
+#### Text ####
+They sow a row of male-fertile plants nearby
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1245..1249
+9,1,4,1,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1193..1237
+9,0;9,1,0;9,1,1;9,1,2;9,1,3;9,2
+#### Text ####
+They sow a row of male-fertile plants nearby
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1239..1244;1250..1283
+9,1,4,0;9,1,4,1,1;9,1,4,1,2
+#### Text ####
+which pollinate the male-sterile plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1285
+10
+____Arg1____
+1085..1283
+8;9
+#### Text ####
+In a labor-intensive process, the seed companies cut off the tassels of each plant, making it male sterile.
+They sow a row of male-fertile plants nearby, which then pollinate the male-sterile plants
+##############
+____Arg2____
+1285..1456
+10
+#### Text ####
+The first hybrid corn seeds produced using this mechanical approach were introduced in the 1930s and they yielded as much as 20% more corn than naturally pollinated plants
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1382..1385
+10,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1285..1381
+10,0
+#### Text ####
+The first hybrid corn seeds produced using this mechanical approach were introduced in the 1930s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1386..1456
+10,2
+#### Text ####
+they yielded as much as 20% more corn than naturally pollinated plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1458
+11
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1285..1456
+10
+#### Text ####
+The first hybrid corn seeds produced using this mechanical approach were introduced in the 1930s and they yielded as much as 20% more corn than naturally pollinated plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1458..1555
+11
+#### Text ####
+The vast majority of the U.S. corn crop now is grown from hybrid seeds produced by seed companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1660
+13
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1559..1658
+12
+#### Text ####
+A similar technique is almost impossible to apply to other crops, such as cotton, soybeans and rice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1660..1866
+13;14
+#### Text ####
+The male part, the anthers of the plant, and the female, the pistils, of the same plant are within a fraction of an inch or even attached to each other.
+The anthers in these plants are difficult to clip off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1813
+14
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1660..1811
+13
+#### Text ####
+The male part, the anthers of the plant, and the female, the pistils, of the same plant are within a fraction of an inch or even attached to each other
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1813..1866
+14
+#### Text ####
+The anthers in these plants are difficult to clip off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1868
+15
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Concession.Contra-expectation
+____Arg1____
+1559..1866
+12;13;14
+#### Text ####
+A similar technique is almost impossible to apply to other crops, such as cotton, soybeans and rice.
+The male part, the anthers of the plant, and the female, the pistils, of the same plant are within a fraction of an inch or even attached to each other.
+The anthers in these plants are difficult to clip off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1868..2051
+15
+#### Text ####
+In China, a great number of workers are engaged in pulling out the male organs of rice plants using tweezers, and one-third of rice produced in that country is grown from hybrid seeds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1978..1981
+15,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1868..1976
+15,0
+#### Text ####
+In China, a great number of workers are engaged in pulling out the male organs of rice plants using tweezers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1982..2051
+15,3
+#### Text ####
+one-third of rice produced in that country is grown from hybrid seeds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2053
+16
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Juxtaposition
+____Arg1____
+1868..2051
+15
+#### Text ####
+In China, a great number of workers are engaged in pulling out the male organs of rice plants using tweezers, and one-third of rice produced in that country is grown from hybrid seeds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2053..2186
+16
+#### Text ####
+At Plant Genetic Systems, researchers have isolated a pollen-inhibiting gene that can be inserted in a plant to confer male sterility
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2188
+17
+____Arg1____
+2053..2186
+16
+#### Text ####
+At Plant Genetic Systems, researchers have isolated a pollen-inhibiting gene that can be inserted in a plant to confer male sterility
+##############
+____Arg2____
+2188..2444
+17
+#### Text ####
+Jan Leemans, research director, said this gene was successfully introduced in oil-producing rapeseed plants, a major crop in Europe and Canada, using as a carrier a "promoter gene" developed by Robert Goldberg at the University of California in Los Angeles
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2482..2493
+18,0,1,1,2,0;18,0,1,1,2,1
+#### Text ####
+just before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2448..2481
+18,0,0;18,0,1,0;18,0,1,1,0;18,0,1,1,1
+#### Text ####
+The sterilizing gene is expressed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2494..2524
+18,0,1,1,2,2
+#### Text ####
+the pollen is about to develop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2525..2528
+18,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2448..2524
+18,0
+#### Text ####
+The sterilizing gene is expressed just before the pollen is about to develop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2529..2584
+18,2
+#### Text ####
+it deactivates the anthers of every flower in the plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2586
+19
+____Arg1____
+2448..2584
+18
+#### Text ####
+The sterilizing gene is expressed just before the pollen is about to develop and it deactivates the anthers of every flower in the plant
+##############
+____Arg2____
+2586..2666
+19
+#### Text ####
+Mr. Leemans said this genetic manipulation doesn't hurt the growth of that plant
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2686..2690
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2053..2186
+16
+#### Text ####
+At Plant Genetic Systems, researchers have isolated a pollen-inhibiting gene that can be inserted in a plant to confer male sterility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2670..2685;2691..2837
+20,0;20,2;20,3
+#### Text ####
+The researchers pulled off a second genetic engineering trick in order to get male-sterile plants in large enough numbers to produce a commercial hybrid seed crop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2839
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2670..2837
+20
+#### Text ####
+The researchers also pulled off a second genetic engineering trick in order to get male-sterile plants in large enough numbers to produce a commercial hybrid seed crop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2839..3419
+21;22;23;24
+#### Text ####
+They attached a second gene, for herbicide resistance, to the pollen-inhibiting gene.
+Both genes are then inserted into a few greenhouse plants, which are then pollinated and allowed to mature and produce seed. 
+
+The laws of heredity dictate that half of the plants springing from these greenhouse-produced seeds will be male sterile and herbicide resistant and half will be male fertile and herbicide susceptible.
+The application of herbicide would kill off the male-fertile plants, leaving a large field of male-sterile plants that can be cross-pollinated to produce hybrid seed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2940..2944
+22,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2839..2923
+21
+#### Text ####
+They attached a second gene, for herbicide resistance, to the pollen-inhibiting gene
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2925..2939;2945..2982
+22,0;22,1,0;22,1,2,0;22,1,2,1;22,1,2,2,0;22,1,2,2,1,0;22,1,2,2,1,1;22,2
+#### Text ####
+Both genes are inserted into a few greenhouse plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2994..2998
+22,1,2,2,1,2,1,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2925..2982
+22,0;22,1,0;22,1,1;22,1,2,0;22,1,2,1;22,1,2,2,0;22,1,2,2,1,0;22,1,2,2,1,1;22,2
+#### Text ####
+Both genes are then inserted into a few greenhouse plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2984..2993;2999..3048
+22,1,2,2,1,2,0;22,1,2,2,1,2,1,0;22,1,2,2,1,2,1,1,0;22,1,2,2,1,2,1,1,2
+#### Text ####
+which are pollinated and allowed to mature and produce seed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3197..3200
+23,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3052..3080
+23,0;23,1,0;23,2
+#### Text ####
+The laws of heredity dictate
+##############
+and, Expansion.Conjunction
+____Arg1____
+3081..3196
+23,1,1,0;23,1,1,1,0
+#### Text ####
+that half of the plants springing from these greenhouse-produced seeds will be male sterile and herbicide resistant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3201..3252
+23,1,1,1,2
+#### Text ####
+half will be male fertile and herbicide susceptible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3254
+24
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3052..3252
+23
+#### Text ####
+The laws of heredity dictate that half of the plants springing from these greenhouse-produced seeds will be male sterile and herbicide resistant and half will be male fertile and herbicide susceptible
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3254..3419
+24
+#### Text ####
+The application of herbicide would kill off the male-fertile plants, leaving a large field of male-sterile plants that can be cross-pollinated to produce hybrid seed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3748
+27
+____Arg1____
+3575..3746
+26
+#### Text ####
+This technique is applicable to a wide variety of crops," he said, and added that some modifications may be necessary to accommodate the peculiarities of each type of crop
+##############
+____Arg2____
+3748..3871
+27
+#### Text ####
+He said the company is experimenting with the technique on alfalfa, and plans to include cotton and corn, among other crops
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3873
+28
+____Arg1____
+3748..3871
+27
+#### Text ####
+He said the company is experimenting with the technique on alfalfa, and plans to include cotton and corn, among other crops
+##############
+____Arg2____
+3873..4095
+28
+#### Text ####
+He said that even though virtually all corn seeds currently planted are hybrids, the genetic approach will obviate the need for mechanical emasculation of anthers, which costs U.S. seed producers about $70 million annually
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3886..3897
+28,1,1,1,0,0;28,1,1,1,0,1
+#### Text ####
+even though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3873..3880
+28,0;28,1,0;28,2
+#### Text ####
+He said
+##############
+though, Comparison.Concession.Expectation
+____Sup1____
+4037..4095
+28,1,1,1,3,1,1,1,1,2
+#### Text ####
+which costs U.S. seed producers about $70 million annually
+##############
+____Arg1____
+3881..3885;3954..4035
+28,1,1,0;28,1,1,1,1;28,1,1,1,2;28,1,1,1,3,0;28,1,1,1,3,1,0;28,1,1,1,3,1,1,0;28,1,1,1,3,1,1,1,0;28,1,1,1,3,1,1,1,1,0;28,1,1,1,3,1,1,1,1,1
+#### Text ####
+that the genetic approach will obviate the need for mechanical emasculation of anthers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3898..3952
+28,1,1,1,0,2
+#### Text ####
+virtually all corn seeds currently planted are hybrids
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4272
+30
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4099..4270
+29
+#### Text ####
+In recent years, demand for hybrid seeds has spurred research at a number of chemical and biotechnology companies, including Monsanto Co., Shell Oil Co. and Eli Lilly & Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4272..4387
+30
+#### Text ####
+One technique developed by some of these companies involves a chemical spray supposed to kill only a plant's pollen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4389..4392
+31,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4272..4387
+30
+#### Text ####
+One technique developed by some of these companies involves a chemical spray supposed to kill only a plant's pollen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4393..4577
+31,1;31,2;31,3
+#### Text ####
+there have been problems with chemical sprays damaging plants' female reproductive organs and concern for the toxicity of such chemical sprays to humans, animals and beneficial insects
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4581..4588
+32,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+4389..4577
+31
+#### Text ####
+But there have been problems with chemical sprays damaging plants' female reproductive organs and concern for the toxicity of such chemical sprays to humans, animals and beneficial insects
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4649..4737
+32,3,1
+#### Text ####
+the company's chemical spray overcomes these problems and is "gentle on the female organ
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4590..4648
+32,1;32,2;32,3,0;32,4;32,5
+#### Text ####
+Paul Johanson, Monsanto's director of plant sciences, said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4931
+34
+____Arg1____
+4742..4929
+33
+#### Text ####
+Biosource Genetics Corp., Vacaville, Calif., is developing a spray containing a gene that spreads from cell to cell and interferes with the genes that are responsible for producing pollen
+##############
+____Arg2____
+4931..5034
+34
+#### Text ####
+This gene, called "gametocide," is carried into the plant by a virus that remains active for a few days
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+5036
+35
+____Arg1____
+4931..5034
+34
+#### Text ####
+This gene, called "gametocide," is carried into the plant by a virus that remains active for a few days
+##############
+____Arg2____
+5036..5175
+35
+#### Text ####
+Robert Erwin, president of Biosource, called Plant Genetic's approach "interesting" and "novel," and "complementary rather than competitive
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5179
+36
+#### Features ####
+Ot, Comm, Null, Null
+5239..5246
+36,0;36,2;36,3;36,4;36,5;36,6
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5081..5175
+35,1,1
+#### Text ####
+Plant Genetic's approach "interesting" and "novel," and "complementary rather than competitive
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5036..5080
+35,0;35,1,0;35,2;35,3
+#### Text ####
+Robert Erwin, president of Biosource, called
+##############
+____Arg2____
+5179..5236
+36,1
+#### Text ####
+There is a large market out there hungry for hybrid seeds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5471..5485
+38,0;38,1,0;38,1,1,0
+#### Text ####
+That's because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5250..5319
+37,0;37,1,0;37,2
+#### Text ####
+Mr. Robinson of Delta & Pine, the seed producer in Scott, Miss., said
+##############
+Contingency.Cause.Reason
+____Arg1____
+5320..5469
+37,1,1
+#### Text ####
+Plant Genetic's success in creating genetically engineered male steriles doesn't automatically mean it would be simple to create hybrids in all crops
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5471..5619
+38
+#### Text ####
+That's because pollination, while easy in corn because the carrier is wind, is more complex and involves insects as carriers in crops such as cotton
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5478..5485
+38,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5471..5477
+38,0;38,1,0;38,2
+#### Text ####
+That's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5486..5497;5547..5619
+38,1,1,1,0,0;38,1,1,1,0,1;38,1,1,1,0,3;38,1,1,1,1
+#### Text ####
+pollination is more complex and involves insects as carriers in crops such as cotton
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+5499..5545
+38,1,1,1,0,2
+#### Text ####
+while easy in corn because the carrier is wind
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5499..5504
+38,1,1,1,0,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+5478..5497;5547..5619
+38,1,1,0;38,1,1,1,0,0;38,1,1,1,0,1;38,1,1,1,0,3;38,1,1,1,1
+#### Text ####
+because pollination is more complex and involves insects as carriers in crops such as cotton
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5505..5545
+38,1,1,1,0,2,1
+#### Text ####
+easy in corn because the carrier is wind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5518..5525
+38,1,1,1,0,2,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5499..5517
+38,1,1,1,0,2,0;38,1,1,1,0,2,1,0;38,1,1,1,0,2,1,1;38,1,1,1,0,2,1,2
+#### Text ####
+while easy in corn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5526..5545
+38,1,1,1,0,2,1,3,1
+#### Text ####
+the carrier is wind
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5622
+39
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+5320..5619
+37,1,1;38
+#### Text ####
+Plant Genetic's success in creating genetically engineered male steriles doesn't automatically mean it would be simple to create hybrids in all crops.
+That's because pollination, while easy in corn because the carrier is wind, is more complex and involves insects as carriers in crops such as cotton
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5250..5319
+37,0;37,1,0;37,2
+#### Text ####
+Mr. Robinson of Delta & Pine, the seed producer in Scott, Miss., said
+##############
+____Arg2____
+5622..5715
+39,1
+#### Text ####
+It's one thing to say you can sterilize, and another to then successfully pollinate the plant
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5718..5725
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5678..5682
+39,1,1,3,1,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5718..5725
+39,0;39,2;39,3;39,4;39,5;39,6
+#### Text ####
+he said
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5644..5661
+39,1,1,0,2,1,1,1
+#### Text ####
+you can sterilize
+##############
+#### Features ####
+Inh, Null, Null, Indet
+____Arg2____
+5675..5677;5683..5715
+39,1,1,3,1,0;39,1,1,3,1,1,0;39,1,1,3,1,1,2
+#### Text ####
+to successfully pollinate the plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5727..5739
+40,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5741..5748
+40,1
+#### Text ####
+he said
+##############
+nevertheless, Comparison.Contrast.Juxtaposition
+____Sup1____
+5471..5619
+38
+#### Text ####
+That's because pollination, while easy in corn because the carrier is wind, is more complex and involves insects as carriers in crops such as cotton
+##############
+____Arg1____
+5320..5469
+37,1,1
+#### Text ####
+Plant Genetic's success in creating genetically engineered male steriles doesn't automatically mean it would be simple to create hybrids in all crops
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5250..5319
+37,0;37,1,0;37,2
+#### Text ####
+Mr. Robinson of Delta & Pine, the seed producer in Scott, Miss., said
+##############
+____Arg2____
+5750..5842
+40,2;40,3;40,4
+#### Text ####
+he is negotiating with Plant Genetic to acquire the technology to try breeding hybrid cotton
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

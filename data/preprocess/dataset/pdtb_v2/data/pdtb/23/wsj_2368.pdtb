@@ -1,0 +1,235 @@
+________________________________________________________
+____Explicit____
+216..228
+1,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+135..214
+0,2
+#### Text ####
+unfortunately neither he nor the producers of the show have done their homework
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+231..293
+1,1;1,2;1,3;1,4;1,5
+#### Text ####
+Haole" (white) is not the ultimate insult; "Mainland haole" is
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+275
+1
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+216..272
+1,0;1,1;1,2;1,3;1,5
+#### Text ####
+For instance: "Haole" (white) is not the ultimate insult
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+275..293
+1,4
+#### Text ####
+Mainland haole" is
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+295
+2
+____Arg1____
+216..293
+1
+#### Text ####
+For instance: "Haole" (white) is not the ultimate insult; "Mainland haole" is
+##############
+____Arg2____
+295..405
+2
+#### Text ####
+Richard Chamberlain dresses as a "Mainland haole," tucking in a Hawaiian shirt and rolling up its long sleeves
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+407..410
+3,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Sup1____
+295..405
+2
+#### Text ####
+Richard Chamberlain dresses as a "Mainland haole," tucking in a Hawaiian shirt and rolling up its long sleeves
+##############
+____Arg1____
+216..293
+1
+#### Text ####
+For instance: "Haole" (white) is not the ultimate insult; "Mainland haole" is
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+411..467
+3,1;3,2;3,3;3,4
+#### Text ####
+the local expression for brother is "brah," not "bruddah
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+470..473
+4,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+407..467
+3
+#### Text ####
+And the local expression for brother is "brah," not "bruddah
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+474..615
+4,1;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+474..481
+4,1,0;4,1,1
+#### Text ####
+even if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+470..473;536..615
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+And if she were engaged she would know to wear them behind her left, not right, ear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+482..534
+4,1,2
+#### Text ####
+a nurse would wear flowers in her hair while on duty
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+521..526
+4,1,2,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+474..520
+4,1,0;4,1,1;4,1,2,0;4,1,2,1,0;4,1,2,1,1,0;4,1,2,1,1,1;4,1,2,1,1,2
+#### Text ####
+even if a nurse would wear flowers in her hair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+527..534
+4,1,2,1,1,3,1
+#### Text ####
+on duty
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+536..538
+4,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+470..473;556..615
+4,0;4,2;4,4;4,5;4,6
+#### Text ####
+And she would know to wear them behind her left, not right, ear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+539..555
+4,3,1
+#### Text ####
+she were engaged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+617
+5
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Restatement.Generalization
+____Arg1____
+216..615
+1;2;3;4
+#### Text ####
+For instance: "Haole" (white) is not the ultimate insult; "Mainland haole" is.
+Richard Chamberlain dresses as a "Mainland haole," tucking in a Hawaiian shirt and rolling up its long sleeves.
+And the local expression for brother is "brah," not "bruddah." And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+617..700
+5
+#### Text ####
+Sorry, the show does not even have the one redeeming quality of genuine local color
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

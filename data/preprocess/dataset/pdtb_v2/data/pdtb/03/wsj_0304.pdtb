@@ -1,0 +1,467 @@
+________________________________________________________
+____Explicit____
+254..257
+1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+206..252
+1,0
+#### Text ####
+Chemical said Steven Edelson resigned recently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+258..327
+1,3
+#### Text ####
+one individual close to the situation said the resignation was forced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+329
+2
+____Arg1____
+206..327
+1
+#### Text ####
+Chemical said Steven Edelson resigned recently, but one individual close to the situation said the resignation was forced
+##############
+____Arg2____
+329..372
+2
+#### Text ####
+Mr. Edelson couldn't be reached for comment
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+508
+4
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+376..506
+3
+#### Text ####
+A separate inquiry by Chemical cleared Mr. Edelson of allegations that he had been lavishly entertained by a New York money broker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+508..598
+4
+#### Text ####
+That inquiry hasn't resolved similar allegations involving another Chemical options trader
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1131
+8
+____Arg1____
+877..1129
+7
+#### Text ####
+-- Lee Wakeman, vice president in charge of options research who discovered the valuation errors and was asked by senior management to straighten out the mess, resigned to take a position in asset and liability management at Continental Bank in Chicago
+##############
+____Arg2____
+1131..1204
+8
+#### Text ####
+Mr. Wakeman, whom Chemical tried to keep, didn't return calls for comment
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1208..1218
+9,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..202
+0
+#### Text ####
+The head trader of Chemical Banking Corp. 's interest-rate options group has left the company, following valuation errors that resulted in a $33 million charge against its third-quarter results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1220..1409
+9,1;9,2;9,3;9,4
+#### Text ####
+Chemical confirmed that it took an undisclosed charge in the second quarter for losses on forward-rate agreements involving foreign currency written by its branch in Frankfurt, West Germany
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1486..1489
+10,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1413..1440
+10,0;10,1,0;10,2
+#### Text ####
+A Chemical spokeswoman said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1441..1484
+10,1,1,0
+#### Text ####
+the second-quarter charge was "not material
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1490..1537
+10,1,1,2
+#### Text ####
+that no personnel changes were made as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1526..1537
+10,1,1,2,1,1,1,2
+#### Text ####
+as a result
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1413..1440
+10,0;10,1,0;10,2
+#### Text ####
+A Chemical spokeswoman said
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+1441..1484
+10,1,1,0
+#### Text ####
+the second-quarter charge was "not material
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1486..1525
+10,1,1,1;10,1,1,2,0;10,1,1,2,1,0;10,1,1,2,1,1,0;10,1,1,2,1,1,1,0;10,1,1,2,1,1,1,1
+#### Text ####
+and that no personnel changes were made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1539
+11
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1413..1537
+10
+#### Text ####
+A Chemical spokeswoman said the second-quarter charge was "not material" and that no personnel changes were made as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1539..1655
+11
+#### Text ####
+The spokeswoman said the Frankfurt situation was "totally different" from problems in the interest-rate options unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1938..1943
+13,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+2052..2206
+13,3,1
+#### Text ####
+they echo a 1987 incident in which Bankers Trust New York Corp. restated the value of its foreign exchange options contracts downward by about $80 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2033..2051
+13,1;13,2;13,3,0;13,4
+#### Text ####
+some observers say
+##############
+____Arg2____
+1944..2031
+13,0,1
+#### Text ####
+the incidents involving interest-rate options and forward-rate agreements are unrelated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2258..2265
+14,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2210..2257
+14,0;14,1,0;14,1,1;14,2
+#### Text ####
+These complex products require close monitoring
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2266..2334
+14,1,2,1
+#### Text ####
+each must be valued separately in light of current market conditions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2336
+15
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2210..2334
+14
+#### Text ####
+These complex products require close monitoring because each must be valued separately in light of current market conditions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2336..2494
+15
+#### Text ####
+In an interest-rate options contract, a client pays a fee to a bank for custom-tailored protection against adverse interest-rate swings for a specified period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2496
+16
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2336..2494
+15
+#### Text ####
+In an interest-rate options contract, a client pays a fee to a bank for custom-tailored protection against adverse interest-rate swings for a specified period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2496..2593
+16
+#### Text ####
+In a forward-rate agreement, a client agrees to an exchange rate on a future currency transaction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2877
+19
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2779..2875
+18
+#### Text ####
+Started three years ago, Chemical's interest-rate options group was a leading force in the field
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2877..2991
+19
+#### Text ####
+From 1987 to 1988, the value of Chemical's option contracts outstanding mushroomed to $37 billion from $17 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+2993..3009
+20,0
+#### Text ####
+More importantly
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+2877..2991
+19
+#### Text ####
+From 1987 to 1988, the value of Chemical's option contracts outstanding mushroomed to $37 billion from $17 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2993..3082
+20
+#### Text ####
+More importantly, the volume of options written exceeded those purchased by almost 2-to-1
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3084
+21
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2993..3082
+20
+#### Text ####
+More importantly, the volume of options written exceeded those purchased by almost 2-to-1
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3084..3120;3135..3198
+21,0;21,2;21,3;21,4
+#### Text ####
+With such a lopsided book of options Chemical was more vulnerable to erroneous valuation assumptions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3122..3133
+21,1
+#### Text ####
+traders say
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3296
+23
+____Arg1____
+3202..3293
+22
+#### Text ####
+The Chemical spokeswoman said the bank has examined its methodologies and internal controls
+##############
+____Arg2____
+3296..3412
+23
+#### Text ####
+We consider our internal controls to have worked well," she said, adding that some procedures have been strengthened
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3414
+24
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3296..3349
+23,1
+#### Text ####
+We consider our internal controls to have worked well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3352..3412
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+she said, adding that some procedures have been strengthened
+##############
+____Arg2____
+3414..3441;3454..3502
+24,0;24,2;24,3;24,4
+#### Text ####
+Its valuation methodologies are recognized as some of the best on the Street
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3443..3451
+24,1
+#### Text ####
+she said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3504
+25
+#### Features ####
+Ot, Comm, Null, Null
+3443..3451
+24,1
+#### Text ####
+she said
+##############
+therefore, Contingency.Cause.Result
+____Arg1____
+3415..3441;3453..3502
+24,0;24,2;24,3;24,4
+#### Text ####
+ts valuation methodologies "are recognized as some of the best on the Street
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3504..3535
+25
+#### Text ####
+Not a lot was needed to be done
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

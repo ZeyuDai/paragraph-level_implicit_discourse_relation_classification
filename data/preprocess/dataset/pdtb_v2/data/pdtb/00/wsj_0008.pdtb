@@ -1,0 +1,152 @@
+________________________________________________________
+____Explicit____
+70..77
+0,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+9..69
+0,0;0,1,0;0,1,1;0,2
+#### Text ####
+The federal government suspended sales of U.S. savings bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+78..131
+0,1,2,1
+#### Text ####
+Congress hasn't lifted the ceiling on government debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+135..140
+1,0,0,0
+#### Text ####
+Until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+235..252
+1,1;1,2;1,3;1,4
+#### Text ####
+the Treasury said
+##############
+until, Contingency.Condition.General
+____Arg1____
+156..233
+1,0,1;1,0,2;1,0,3
+#### Text ####
+the government hasn't any authority to issue new debt obligations of any kind
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+141..154
+1,0,0,1
+#### Text ####
+Congress acts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+360
+3
+____Arg1____
+256..358
+2
+#### Text ####
+The government's borrowing authority dropped at midnight Tuesday to $2.80 trillion from $2.87 trillion
+##############
+____Arg2____
+360..455
+3
+#### Text ####
+Legislation to lift the debt ceiling is ensnarled in the fight over cutting capital-gains taxes
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+518..521
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+459..516
+4,0
+#### Text ####
+The House has voted to raise the ceiling to $3.1 trillion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+522..586
+4,3
+#### Text ####
+the Senate isn't expected to act until next week at the earliest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+588
+5
+____Arg1____
+459..586
+4
+#### Text ####
+The House has voted to raise the ceiling to $3.1 trillion, but the Senate isn't expected to act until next week at the earliest
+##############
+____Arg2____
+588..669
+5
+#### Text ####
+The Treasury said the U.S. will default on Nov. 9 if Congress doesn't act by then
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+638..640
+5,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+588..605
+5,0;5,1,0;5,2
+#### Text ####
+The Treasury said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+606..637
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1,0;5,1,1,1,1,1,1
+#### Text ####
+the U.S. will default on Nov. 9
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+641..669
+5,1,1,1,1,1,2,1
+#### Text ####
+Congress doesn't act by then
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

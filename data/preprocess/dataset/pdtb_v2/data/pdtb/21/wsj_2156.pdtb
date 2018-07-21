@@ -1,0 +1,444 @@
+________________________________________________________
+____Explicit____
+329..334
+1,1,1,1,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+270..285
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0
+#### Text ####
+that he expects
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+286..328
+1,1,1,1,1,1,0;1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,0;1,1,1,1,1,1,1,1,1
+#### Text ####
+analysts to raise their forecasts for 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+335..374
+1,1,1,1,1,1,1,1,2,1
+#### Text ####
+the company releases its earnings today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+376..382
+2,0
+#### Text ####
+So far
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Succession
+____Arg1____
+196..374
+1
+#### Text ####
+D. Wayne Calloway, also chief executive officer of the company, indicated that he expects analysts to raise their forecasts for 1989 after the company releases its earnings today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+376..446
+2
+#### Text ####
+So far, analysts have said they are looking for $3.30 to $3.35 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+448
+3
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+403..446
+2,3,1,1
+#### Text ####
+they are looking for $3.30 to $3.35 a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+376..402
+2,0;2,1;2,2;2,3,0;2,3,1,0;2,4
+#### Text ####
+So far, analysts have said
+##############
+____Arg2____
+448..527
+3
+#### Text ####
+After today's announcement, that range could increase to $3.35 to $3.40 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+550..554
+4,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+529..546
+4,0;4,1,0;4,2
+#### Text ####
+The official said
+##############
+also, Expansion.Conjunction
+____Arg1____
+39..192
+0,1,1
+#### Text ####
+he is "more than comfortable with" analysts' estimates that third-quarter earnings rose to at least 98 cents to $1 a share from 91 cents the year earlier
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..38
+0,0;0,1,0;0,2
+#### Text ####
+PepsiCo Inc. 's chairman said
+##############
+____Arg2____
+547..549;555..595
+4,1,1,0;4,1,1,1,0;4,1,1,1,2
+#### Text ####
+he would be comfortable with that new range
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+597
+5
+____Arg1____
+448..595
+3;4
+#### Text ####
+After today's announcement, that range could increase to $3.35 to $3.40 a share.
+The official said he also would be comfortable with that new range
+##############
+____Arg2____
+597..647
+5
+#### Text ####
+In 1988, the soft-drink giant earned $2.90 a share
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+649
+6
+____Arg1____
+597..647
+5
+#### Text ####
+In 1988, the soft-drink giant earned $2.90 a share
+##############
+____Arg2____
+649..775
+6
+#### Text ####
+Results for 1989 will include about 40 cents a share from the dilutive effects of snack-food and bottling company acquisitions
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1377
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1321..1324;1355..1362
+10,1,2,1,3;10,1,2,1,4,0;10,1,2,1,4,2;10,1,2,1,5;10,2
+#### Text ####
+and pricing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1377..1434
+11,1,1
+#### Text ####
+its soft-drink prices were about 2% higher in the quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1364..1376
+11,0;11,1,0;11,2
+#### Text ####
+PepsiCo said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1449..1453
+12,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1222..1362
+10
+#### Text ####
+Mr. Calloway blamed the slower volume on rainier weather, a dearth of new products in the industry and -- to a much lesser extent -- pricing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1436..1448;1454..1527
+12,0;12,2,0;12,2,1,0;12,2,1,1,0;12,2,1,1,1,0;12,2,1,1,1,1;12,2,1,1,1,2;12,2,1,1,1,3;12,3
+#### Text ####
+Mr. Calloway noted that soft-drink volume rose a hefty 9% in last year's third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1567
+13
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1460..1527
+12,2,1,0;12,2,1,1,0;12,2,1,1,1,0;12,2,1,1,1,1;12,2,1,1,1,2;12,2,1,1,1,3
+#### Text ####
+that soft-drink volume rose a hefty 9% in last year's third quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1436..1459
+12,0;12,1;12,2,0;12,3
+#### Text ####
+Mr. Calloway also noted
+##############
+____Arg2____
+1567..1614
+13
+#### Text ####
+International soft-drink volume was up about 6%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1750
+15
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+1618..1729
+14,0
+#### Text ####
+Snack-food tonnage increased a strong 7% in the third quarter, while domestic profit increased in double digits
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1731..1748
+14,1;14,2;14,3;14,4
+#### Text ####
+Mr. Calloway said
+##############
+____Arg2____
+1750..1900
+15
+#### Text ####
+Excluding the British snack-food business acquired in July, snack-food international tonnage jumped 40%, with sales strong in Spain, Mexico and Brazil
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1902
+16
+____Arg1____
+1750..1900
+15
+#### Text ####
+Excluding the British snack-food business acquired in July, snack-food international tonnage jumped 40%, with sales strong in Spain, Mexico and Brazil
+##############
+____Arg2____
+1902..1934
+16
+#### Text ####
+Total snack-food profit rose 30%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2056
+18
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1938..2054
+17
+#### Text ####
+Led by Pizza Hut and Taco Bell, restaurant earnings increased about 25% in the third quarter on a 22% sales increase
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2056..2199
+18
+#### Text ####
+Same-store sales for Pizza Hut rose about 13%, while Taco Bell's increased 22%, as the chain continues to benefit from its price-value strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2136..2138
+18,1,3,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2103..2134
+18,1,3,0;18,1,3,1,0;18,1,3,1,1,0;18,1,3,1,1,1;18,1,3,1,1,2
+#### Text ####
+while Taco Bell's increased 22%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2139..2199
+18,1,3,1,1,3,1
+#### Text ####
+the chain continues to benefit from its price-value strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2201
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2136..2199
+18,1,3,1,1,3
+#### Text ####
+as the chain continues to benefit from its price-value strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2201..2301
+19
+#### Text ####
+Taco Bell has turned around declining customer counts by permanently lowering the price of its tacos
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2303
+20
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+2201..2301
+19
+#### Text ####
+Taco Bell has turned around declining customer counts by permanently lowering the price of its tacos
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2303..2346;2455..2467
+20,0,0;20,0,1,0;20,0,1,1,0;20,0,1,1,1;20,0,1,1,3;20,1;20,2
+#### Text ####
+Same store-sales for Kentucky Fried Chicken rose only 1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2675
+22
+____Arg1____
+2471..2673
+21
+#### Text ####
+The operation, which has been slow to respond to consumers' shifting tastes away from fried foods, has been developing a grilled-chicken product that may be introduced nationally at the end of next year
+##############
+____Arg2____
+2675..2764
+22
+#### Text ####
+The new product has performed well in a market test in Las Vegas, Nev., Mr. Calloway said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3017..3020
+24,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2953..3015
+23,3,1
+#### Text ####
+he doesn't expect any major acquisition in the next year or so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2935..2952
+23,1;23,2;23,3,0;23,4
+#### Text ####
+Mr. Calloway said
+##############
+____Arg2____
+3023..3041
+24,3
+#### Text ####
+You never can tell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3044..3052
+24,6
+#### Text ####
+he added
+##############
+________________________________________________________

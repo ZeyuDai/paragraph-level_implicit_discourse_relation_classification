@@ -1,0 +1,791 @@
+________________________________________________________
+____Implicit____
+387
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+229..385
+1
+#### Text ####
+A core group of six or so Democratic senators has been working behind the scenes to develop a proposal to reduce the tax on the gain from the sale of assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+387..505
+2
+#### Text ####
+The plan was complete except for finishing touches, and there was talk that it would be unveiled as early as yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+439..442
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+387..437
+2,0
+#### Text ####
+The plan was complete except for finishing touches
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+443..505
+2,3
+#### Text ####
+there was talk that it would be unveiled as early as yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+509..512
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+387..505
+2
+#### Text ####
+The plan was complete except for finishing touches, and there was talk that it would be unveiled as early as yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+513..684
+3,1;3,2;3,3
+#### Text ####
+Senate Majority Leader George Mitchell (D., Maine), a vigorous opponent of the capital-gains tax cut, called the group to meet with him Wednesday night and again yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+686
+4
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+509..684
+3
+#### Text ####
+But Senate Majority Leader George Mitchell (D., Maine), a vigorous opponent of the capital-gains tax cut, called the group to meet with him Wednesday night and again yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+686..720
+4
+#### Text ####
+Sen. Mitchell urged them to desist
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+722..731
+5,0
+#### Text ####
+Afterward
+##############
+#### Features ####
+Wr, Comm, Null, Null
+afterward, Temporal.Asynchronous.Precedence
+____Sup1____
+509..684
+3
+#### Text ####
+But Senate Majority Leader George Mitchell (D., Maine), a vigorous opponent of the capital-gains tax cut, called the group to meet with him Wednesday night and again yesterday
+##############
+____Arg1____
+686..720
+4
+#### Text ####
+Sen. Mitchell urged them to desist
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+733..776
+5,1;5,2;5,3,0;5,3,1;5,4
+#### Text ####
+leaders of the dissident Democrats relented
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+992
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+849..893
+6,0;6,1,0;6,1,1,0;6,1,1,1,0;6,1,1,1,1,0;6,1,1,1,1,1;6,2
+#### Text ####
+The decision is a setback for President Bush
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+992..1076
+7
+#### Text ####
+Having a proposal sponsored by Democrats would have given the president an advantage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1078
+8
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+992..1076
+7
+#### Text ####
+Having a proposal sponsored by Democrats would have given the president an advantage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1078..1132
+8
+#### Text ####
+Having only a Republican measure makes the task harder
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1136..1141
+9,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+992..1132
+7;8
+#### Text ####
+Having a proposal sponsored by Democrats would have given the president an advantage.
+Having only a Republican measure makes the task harder
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1143..1286
+9,1;9,2;9,3;9,4
+#### Text ####
+Sen. Bob Packwood (R., Ore.), the lead sponsor of the Republican capital-gains amendment, predicted that the tax cut would be enacted this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1296
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1243..1286
+9,3,1
+#### Text ####
+that the tax cut would be enacted this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1143..1242
+9,1;9,2;9,3,0;9,4
+#### Text ####
+Sen. Bob Packwood (R., Ore.), the lead sponsor of the Republican capital-gains amendment, predicted
+##############
+____Arg2____
+1296..1347
+10,1,1,0
+#### Text ####
+a clear majority of senators back the tax reduction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1288..1295
+10,0;10,1,0;10,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1348..1351
+10,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1288..1295
+10,0;10,1,0;10,2
+#### Text ####
+He said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1296..1347
+10,1,1,0
+#### Text ####
+a clear majority of senators back the tax reduction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1470
+10,1,1,2
+#### Text ####
+that ultimately there would be enough senators to overcome any procedural hurdle the Democratic leadership might erect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1357..1367
+10,1,1,2,1,0
+#### Text ####
+ultimately
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1288..1295
+10,0;10,1,0;10,2
+#### Text ####
+He said
+##############
+ultimately, Expansion.Conjunction
+____Arg1____
+1296..1347
+10,1,1,0
+#### Text ####
+a clear majority of senators back the tax reduction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1348..1356;1368..1470
+10,1,1,1;10,1,1,2,0;10,1,1,2,1,1;10,1,1,2,1,2
+#### Text ####
+and that there would be enough senators to overcome any procedural hurdle the Democratic leadership might erect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1474..1477
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1288..1470
+10
+#### Text ####
+He said a clear majority of senators back the tax reduction and that ultimately there would be enough senators to overcome any procedural hurdle the Democratic leadership might erect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1478..1557
+11,1;11,2;11,3;11,4
+#### Text ####
+Sen. Mitchell, buoyed by his victory among fellow Democrats, strongly disagreed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1559
+12
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1474..1491;1539..1557
+11,0;11,1,0;11,1,1;11,1,3;11,2;11,3;11,4
+#### Text ####
+But Sen. Mitchell strongly disagreed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1559..1644
+12
+#### Text ####
+Mr. Mitchell has been predicting that the president's initiative would fail this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1683
+13
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1592..1644
+12,1,1,1,1
+#### Text ####
+that the president's initiative would fail this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1559..1591
+12,0;12,1,0;12,1,1,0;12,1,1,1,0;12,2
+#### Text ####
+Mr. Mitchell has been predicting
+##############
+____Arg2____
+1683..1790
+13,5,1
+#### Text ####
+that the Democrats' decision "increases the likelihood that a capital-gains tax cut will not pass this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1674..1682
+13,1;13,3;13,4;13,5,0
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1793
+14
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+1683..1790
+13,5,1
+#### Text ####
+that the Democrats' decision "increases the likelihood that a capital-gains tax cut will not pass this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1646..1682
+13,0;13,1;13,2;13,3;13,4;13,5,0
+#### Text ####
+Yesterday, in an interview, he added
+##############
+____Arg2____
+1793..1931
+14
+#### Text ####
+Mr. Mitchell's first victory came last week, when the Senate passed a deficit-reduction bill that didn't contain a capital-gains provision
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1933
+15
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1793..1931
+14
+#### Text ####
+Mr. Mitchell's first victory came last week, when the Senate passed a deficit-reduction bill that didn't contain a capital-gains provision
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1933..2024
+15,0;15,1,0;15,1,1,0;15,1,1,1;15,1,1,2,0;15,1,1,2,1,0;15,1,1,2,1,1,0;15,1,1,2,1,1,1,0;15,1,1,2,1,1,1,1,0;15,1,1,2,1,1,1,1,1;15,1,1,2,1,1,1,1,2,0;15,1,1,2,1,1,1,1,2,1,0;15,1,1,2,1,1,1,1,2,1,1;15,2
+#### Text ####
+That vote made it unlikely that a capital-gains tax cut would be included in the final bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2077
+16
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1933..2075
+15
+#### Text ####
+That vote made it unlikely that a capital-gains tax cut would be included in the final bill, now being drafted by House and Senate negotiators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2077..2131
+16
+#### Text ####
+The House version of the bill does include the tax cut
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2379
+18
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2135..2233
+17,0;17,1;17,2,0;17,2,1,0;17,2,1,1,0;17,2,1,1,1,0;17,2,1,1,1,1,0;17,2,1,1,1,1,1;17,2,1,1,1,1,2,0;17,2,1,1,1,1,2,1,0;17,2,1,1,1,1,2,1,1;17,3
+#### Text ####
+Now Republican leaders are concentrating on attaching a capital-gains amendment to some other bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2379..2588
+18
+#### Text ####
+To help lay the groundwork for that fight, President Bush plans early next week to meet at the White House with some 20 Democratic senators who favor cutting the capital-gains tax or are undecided on the issue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2667..2670
+19,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2592..2665
+19,0
+#### Text ####
+The president apparently will have only one bill to push, Sen. Packwood's
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2671..2730
+19,3
+#### Text ####
+at least some of the dissident Democrats plan to support it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2733
+20
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2667..2730
+19,2;19,3;19,4
+#### Text ####
+and at least some of the dissident Democrats plan to support it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2733..2821
+20,1
+#### Text ####
+I may want to offer additional amendments to improve it when the bill comes to the floor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2824..2886
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+said Sen. David Boren (D., Okla.), a leader of those Democrats
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2789..2793
+20,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2824..2886
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+said Sen. David Boren (D., Okla.), a leader of those Democrats
+##############
+when, Temporal.Synchrony
+____Arg1____
+2733..2788
+20,1,0;20,1,1,0;20,1,1,1,0;20,1,1,1,1
+#### Text ####
+I may want to offer additional amendments to improve it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2794..2821
+20,1,1,1,2,1
+#### Text ####
+the bill comes to the floor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3046
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2890..3044
+21
+#### Text ####
+The Packwood plan, as expected, would allow individuals to exclude from income 5% of the gain from the sale of a capital asset held for more than one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3046..3179
+22
+#### Text ####
+The exclusion would rise five percentage points for each year the asset was held, until it reached a maximum of 35% after seven years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3128..3133
+22,1,1,4,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+3046..3126
+22,0;22,1,0;22,1,1,0;22,1,1,1;22,1,1,2;22,1,1,3;22,2
+#### Text ####
+The exclusion would rise five percentage points for each year the asset was held
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3134..3179
+22,1,1,4,1
+#### Text ####
+it reached a maximum of 35% after seven years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3181
+23
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2890..3179
+21;22
+#### Text ####
+The Packwood plan, as expected, would allow individuals to exclude from income 5% of the gain from the sale of a capital asset held for more than one year.
+The exclusion would rise five percentage points for each year the asset was held, until it reached a maximum of 35% after seven years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3181..3234
+23
+#### Text ####
+The exclusion would apply to assets sold after Oct. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3236..3253
+24,0
+#### Text ####
+As an alternative
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as an alternative, Expansion.Alternative.Disjunctive
+____Arg1____
+2934..3044
+21,4,1,1
+#### Text ####
+individuals to exclude from income 5% of the gain from the sale of a capital asset held for more than one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3255..3320
+24,1;24,2;24,3;24,4
+#### Text ####
+taxpayers could chose to reduce their gains by an inflation index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3466
+26
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3324..3464
+25
+#### Text ####
+For corporations, the top tax rate on the sale of assets held for more than three years would be cut to 33% from the current top rate of 34%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3466..3558
+26
+#### Text ####
+That rate would gradually decline to as little as 29% for corporate assets held for 15 years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3580..3584
+27,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+3611..3651
+27,2,1,1,1;27,2,1,1,2;27,2,1,1,3
+#### Text ####
+designed by Sen. William Roth (R., Del.)
+##############
+____Arg1____
+2890..2907;2922..3044
+21,0;21,1;21,3;21,4;21,5
+#### Text ####
+The Packwood plan would allow individuals to exclude from income 5% of the gain from the sale of a capital asset held for more than one year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3562..3579;3585..3609;3653..3722
+27,0;27,2,0;27,2,1,0;27,2,1,1,0;27,2,1,1,4;27,3
+#### Text ####
+The Packwood plan would include a proposal that would create new tax benefits for individual retirement accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3724
+28
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3562..3722
+27
+#### Text ####
+The Packwood plan also would include a proposal, designed by Sen. William Roth (R., Del.), that would create new tax benefits for individual retirement accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3724..3929
+28
+#### Text ####
+The Roth plan would create a new, non-deductible IRA from which money could be withdrawn tax-free not only for retirement, but also for the purchase of a first home, education expenses and medical expenses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3931
+29
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+3724..3929
+28
+#### Text ####
+The Roth plan would create a new, non-deductible IRA from which money could be withdrawn tax-free not only for retirement, but also for the purchase of a first home, education expenses and medical expenses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3931..4029
+29
+#### Text ####
+Current IRAs could be rolled over into the new IRAs, but would be subject to tax though no penalty
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

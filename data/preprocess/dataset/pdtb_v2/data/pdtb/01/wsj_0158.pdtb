@@ -1,0 +1,359 @@
+________________________________________________________
+____EntRel____
+312
+2
+____Arg1____
+175..310
+1
+#### Text ####
+Mr. Reupke, 52 years old and a 27-year Reuters veteran, had been the information-services company's general manager for only six months
+##############
+____Arg2____
+312..469
+2
+#### Text ####
+His appointment to that post, which has senior administrative, staff and policy responsibilities, followed a several-year tenure as Reuters's editor in chief
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+471
+3
+____Arg1____
+312..469
+2
+#### Text ####
+His appointment to that post, which has senior administrative, staff and policy responsibilities, followed a several-year tenure as Reuters's editor in chief
+##############
+____Arg2____
+471..594
+3
+#### Text ####
+No successor was named, and Mr. Reupke's duties will be split among three other senior Reuters executives, the company said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+495..498
+3,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+471..493
+3,0,0
+#### Text ####
+No successor was named
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+499..576
+3,0,3
+#### Text ####
+Mr. Reupke's duties will be split among three other senior Reuters executives
+##############
+#### Features ####
+Ot, Comm, Null, Null
+578..594
+3,1;3,2;3,3;3,4
+#### Text ####
+the company said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+713
+5
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+640..710
+4,3,1
+#### Text ####
+his departure was for "personal reasons," which he declined to specify
+##############
+#### Features ####
+Ot, Comm, Null, Null
+624..639
+4,1;4,2;4,3,0;4,4
+#### Text ####
+Mr. Reupke said
+##############
+____Arg2____
+713..792
+5,1
+#### Text ####
+There is no business reason for my departure," nor any disagreement over policy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+794..802
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+807..811
+6,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+598..710
+4
+#### Text ####
+In a telephone interview, Mr. Reupke said his departure was for "personal reasons," which he declined to specify
+##############
+____Arg1____
+713..802
+5
+#### Text ####
+There is no business reason for my departure," nor any disagreement over policy, he added
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+804..806;812..980
+6,0;6,2;6,3
+#### Text ####
+He rejected reports that his departure stemmed from disappointment the general manager's post hadn't also led to a board directorship at the London-based news organization
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1129
+8
+____Arg1____
+984..1126
+7
+#### Text ####
+Mr. Reupke was one of three executives on Reuters's eight-person executive committee who didn't also serve on the company's board of directors
+##############
+____Arg2____
+1129..1237
+8
+#### Text ####
+If I were choosing the people of tomorrow, I would have chosen the people who are now on the board," he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1129..1131
+8,1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1230..1237
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+he said
+##############
+if, Contingency.Condition.Unreal past
+____Arg1____
+1172..1227
+8,1,1;8,1,2;8,1,3
+#### Text ####
+I would have chosen the people who are now on the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1132..1170
+8,1,0,1
+#### Text ####
+I were choosing the people of tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1325
+10
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+1241..1322
+9
+#### Text ####
+A Reuters spokesman said the departure reflects "no change in strategy or profits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1325..1459
+10
+#### Text ####
+Mark Shepperd, an analyst at UBS Phillips & Drew in London, said, "I suspect (the departure) will be fairly irrelevant for the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1461
+11
+#### Features ####
+Ot, Comm, Null, Null
+1325..1389
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+Mark Shepperd, an analyst at UBS Phillips & Drew in London, said
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1392..1459
+10,1,3
+#### Text ####
+I suspect (the departure) will be fairly irrelevant for the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1461..1567
+11
+#### Text ####
+I would be very surprised if his departure signals any change in strategy or change in profit expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1487..1489
+11,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1325..1389
+10,0;10,1,0;10,1,1;10,1,2;10,2
+#### Text ####
+Mark Shepperd, an analyst at UBS Phillips & Drew in London, said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1461..1486
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,2;11,3
+#### Text ####
+I would be very surprised
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1490..1567
+11,1,1,2,1
+#### Text ####
+his departure signals any change in strategy or change in profit expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1570
+12
+____Arg1____
+1461..1567
+11
+#### Text ####
+I would be very surprised if his departure signals any change in strategy or change in profit expectations
+##############
+____Arg2____
+1570..1650
+12
+#### Text ####
+On London's Stock Exchange, Reuters shares rose five pence to 913 pence ($14.43)
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1652
+13
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Juxtaposition
+____Arg1____
+1570..1650
+12
+#### Text ####
+On London's Stock Exchange, Reuters shares rose five pence to 913 pence ($14.43)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1652..1809
+13
+#### Text ####
+In the U.S. over-the-counter market, American depositary shares for Reuters, each representing three shares in the London market, closed unchanged at $43.875
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1951
+15
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+1813..1949
+14
+#### Text ####
+The senior of the three executives who will assume Mr. Reupke's duties is Nigel Judah, 58, finance director and a Reuters board director
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1951..2031
+15
+#### Text ####
+Peter Holland, 45, deputy general manager, becomes director of corporate affairs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2033..2036
+16,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1951..2031
+15
+#### Text ####
+Peter Holland, 45, deputy general manager, becomes director of corporate affairs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2037..2132
+16,1;16,2;16,3
+#### Text ####
+Patrick Mannix, 46, international technical manager, becomes director of group quality programs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

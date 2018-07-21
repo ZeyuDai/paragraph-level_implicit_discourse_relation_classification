@@ -1,0 +1,958 @@
+________________________________________________________
+____Explicit____
+154..156
+0,1,1,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+97..150
+0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1,0;0,1,1,1,1,1,1;0,1,1,1,1,1,2
+#### Text ####
+that foreign companies can acquire Japanese companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+157..211
+0,1,1,1,1,1,3,1
+#### Text ####
+the alternative for the Japanese company is extinction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+447
+2
+____Arg1____
+215..445
+1
+#### Text ####
+Polly Peck, a fast-growing British conglomerate, will pay 15.6 billion yen ($110 million) for 39 million new shares of Sansui, a well-known maker of high-fidelity audio equipment that failed to adjust to changing market conditions
+##############
+____Arg2____
+447..625
+2
+#### Text ####
+Japanese government officials, eager to rebut foreign criticism of Japanese investments overseas, hailed the transaction as proof foreigners can make similar investments in Japan
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+627
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+447..625
+2
+#### Text ####
+Japanese government officials, eager to rebut foreign criticism of Japanese investments overseas, hailed the transaction as proof foreigners can make similar investments in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+627..737
+3
+#### Text ####
+Polly Peck's chairman, Asil Nadir, echoed the official Japanese view of the accord, which was announced Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+862..865
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+866..878
+5,1;5,2,0;5,3
+#### Text ####
+analysts say
+##############
+but, Comparison.Contrast
+____Arg1____
+742..803;814..841
+4,1,0;4,1,1,0;4,1,1,2
+#### Text ####
+The myths that Japan is not open to concerns from outside has been demolished at a stroke
+##############
+#### Features ####
+Ot, Comm, Null, Null
+844..858
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+Mr. Nadir said
+##############
+____Arg2____
+879..903
+5,2,1
+#### Text ####
+Sansui is a special case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+905
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+879..903
+5,2,1
+#### Text ####
+Sansui is a special case
+##############
+#### Features ####
+Ot, Comm, Null, Null
+862..878
+5,0;5,1;5,2,0;5,3
+#### Text ####
+But analysts say
+##############
+____Arg2____
+905..1052
+6
+#### Text ####
+It expects to post a loss of 6.4 billion yen for the year ending tomorrow and its liabilities currently exceed its assets by about 13.8 billion yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+979..982
+6,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+905..978
+6,0
+#### Text ####
+It expects to post a loss of 6.4 billion yen for the year ending tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+983..1052
+6,2
+#### Text ####
+its liabilities currently exceed its assets by about 13.8 billion yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1055
+7
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Arg1____
+862..1052
+5;6
+#### Text ####
+But analysts say Sansui is a special case.
+It expects to post a loss of 6.4 billion yen for the year ending tomorrow and its liabilities currently exceed its assets by about 13.8 billion yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1055..1123
+7,0
+#### Text ####
+If you find sound, healthy companies in Japan, they are not for sale
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1126..1213
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+said George Watanabe, a management-consultant at Tokyo-based Asia Advisory Services Inc
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1055..1057
+7,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1126..1213
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+said George Watanabe, a management-consultant at Tokyo-based Asia Advisory Services Inc
+##############
+if, Contingency.Condition.General
+____Arg1____
+1102..1123
+7,0,1;7,0,2;7,0,3
+#### Text ####
+they are not for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1058..1100
+7,0,0,1
+#### Text ####
+you find sound, healthy companies in Japan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1274..1281
+8,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1217..1272
+8,0;8,1,0;8,1,1;8,1,2;8,2
+#### Text ####
+Statistics on acquisitions by foreigners vary in detail
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1282..1295;1353..1425
+8,1,3,1,0,0;8,1,3,1,0,1,0;8,1,3,1,0,1,1;8,1,3,1,0,1,3;8,1,3,1,1;8,1,3,1,2
+#### Text ####
+unlike Sansui most of the Japanese companies acquired by foreigners are privately held
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1427..1430
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1217..1425
+8
+#### Text ####
+Statistics on acquisitions by foreigners vary in detail, because unlike Sansui, which is listed on the Tokyo and Osaka stock exchanges, most of the Japanese companies acquired by foreigners are privately held
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1431..1602
+9,1;9,2;9,3;9,4
+#### Text ####
+by all accounts foreign companies have bought only a relative handful of Japanese companies this year, while Japanese companies have acquired hundreds of foreign companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1534..1539
+9,3,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+1427..1532
+9,0;9,1;9,2;9,3,0;9,3,1,0;9,3,1,1;9,3,1,2;9,3,1,3;9,4
+#### Text ####
+But by all accounts foreign companies have bought only a relative handful of Japanese companies this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1540..1602
+9,3,1,4,1
+#### Text ####
+Japanese companies have acquired hundreds of foreign companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1606..1609
+10,0
+#### Text ####
+Nor
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nor, Expansion.Conjunction
+____Sup1____
+1534..1602
+9,3,1,4
+#### Text ####
+while Japanese companies have acquired hundreds of foreign companies
+##############
+____Arg1____
+1427..1532
+9,0;9,1;9,2;9,3,0;9,3,1,0;9,3,1,1;9,3,1,2;9,3,1,3;9,4
+#### Text ####
+But by all accounts foreign companies have bought only a relative handful of Japanese companies this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1610..1691
+10,1;10,2;10,3;10,4
+#### Text ####
+do analysts expect the Sansui deal to touch off a fresh wave of foreign purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1693
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1606..1691
+10
+#### Text ####
+Nor do analysts expect the Sansui deal to touch off a fresh wave of foreign purchases
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1693..1933
+11
+#### Text ####
+If the strong yen and the high stock prices of Japanese companies weren't deterrents enough, webs of cross-shareholdings between friendly Japanese companies and fiercely independent Japanese corporate attitudes repel most would-be acquirers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1693..1695
+11,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+1786..1933
+11,1;11,2;11,3;11,4
+#### Text ####
+webs of cross-shareholdings between friendly Japanese companies and fiercely independent Japanese corporate attitudes repel most would-be acquirers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1696..1784
+11,0,1
+#### Text ####
+the strong yen and the high stock prices of Japanese companies weren't deterrents enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1945..1949
+12,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+1937..1944;1987..2020
+12,0;12,2;12,3;12,4;12,5
+#### Text ####
+Usually it has few alternatives remaining
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1950..1985
+12,1,1
+#### Text ####
+a Japanese company is ready to sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2022..2025
+12,6
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1937..2020
+12,0;12,1;12,2;12,3;12,4;12,5
+#### Text ####
+Usually when a Japanese company is ready to sell, it has few alternatives remaining
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2026..2160
+12,7
+#### Text ####
+the grim demeanors of Sansui's directors at a joint news conference here left little doubt that this was not the company's finest hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2162
+13
+#### Features ####
+Wr, Comm, Null, Null
+even though, Comparison.Concession.Expectation
+____Arg1____
+2117..2160
+12,7,1,1,2
+#### Text ####
+that this was not the company's finest hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2162..2262
+13
+#### Text ####
+Sansui was once one of Japan's premier makers of expensive, high-quality stereo gear for audiophiles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2266..2269
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2162..2262
+13
+#### Text ####
+Sansui was once one of Japan's premier makers of expensive, high-quality stereo gear for audiophiles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2270..2454
+14,1;14,2;14,3;14,4;14,5
+#### Text ####
+in recent years, the market has moved toward less expensive "mini-component" sets, miniaturized amplifiers and receivers and software players that could be stacked on top of each other
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2813
+16
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2458..2811
+15
+#### Text ####
+Some of Sansui's fellow audio-specialty companies, such as Aiwa Co. and Pioneer Electric Corp., responded to the challenge by quickly bringing out mini-component products of their own, by moving heavily into the booming compact disk businesses or by diversifying into other consumer-electronics fields, including laser disks or portable cassette players
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2813..2908
+16
+#### Text ####
+Sansui was late into the mini-component business and failed to branch into other new businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2912..2914
+17,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2947..3008
+17,1;17,2;17,3;17,4
+#### Text ####
+Sansui's deepening financial problems became a vicious circle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2915..2945
+17,0,1
+#### Text ####
+the yen soared in recent years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3010
+18
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2912..3008
+17
+#### Text ####
+As the yen soared in recent years, Sansui's deepening financial problems became a vicious circle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3010..3181
+18
+#### Text ####
+While competitors moved production offshore in response to the sagging competitiveness of Japanese factories, Sansui lacked the money to build new plants in Southeast Asia
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3010..3015
+18,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+3120..3181
+18,1;18,2;18,3;18,4
+#### Text ####
+Sansui lacked the money to build new plants in Southeast Asia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3016..3118
+18,0,1
+#### Text ####
+competitors moved production offshore in response to the sagging competitiveness of Japanese factories
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3184
+19
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+3120..3181
+18,1;18,2;18,3;18,4
+#### Text ####
+Sansui lacked the money to build new plants in Southeast Asia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3184..3271
+19,1
+#### Text ####
+Our company has not been able to cope very effectively with" changes in the marketplace
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3273..3309
+19,0;19,2;19,3;19,4;19,5
+#### Text ####
+said Ryosuke Ito, Sansui's president
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3313..3316
+20,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3423..3459
+20,1;20,2;20,3;20,4
+#### Text ####
+some management consultants maintain
+##############
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+2912..3181
+17;18
+#### Text ####
+As the yen soared in recent years, Sansui's deepening financial problems became a vicious circle.
+While competitors moved production offshore in response to the sagging competitiveness of Japanese factories, Sansui lacked the money to build new plants in Southeast Asia
+##############
+____Arg1____
+3184..3271
+19,1
+#### Text ####
+Our company has not been able to cope very effectively with" changes in the marketplace
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3273..3309
+19,0;19,2;19,3;19,4;19,5
+#### Text ####
+said Ryosuke Ito, Sansui's president
+##############
+____Arg2____
+3317..3421
+20,0,1;20,0,2
+#### Text ####
+even a Japanese company that looks like a dog may turn out to be a good investment for a foreign concern
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3670
+22
+#### Features ####
+Ot, Comm, Null, Null
+3761..3778
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+Mr. Murasawa said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3552..3667
+21,1,1
+#### Text ####
+his firm will likely be recommending acquisitions of Japanese companies more often to foreign clients in the future
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3463..3551
+21,0;21,1,0;21,2
+#### Text ####
+Yoshihisa Murasawa, a management consultant for Booz-Allen & Hamilton (Japan) Inc., said
+##############
+____Arg2____
+3670..3758
+22,1
+#### Text ####
+Attitudes {toward being acquired} are still negative, but they're becoming more positive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3724..3727
+22,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3761..3778
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+Mr. Murasawa said
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+3670..3722
+22,1,0
+#### Text ####
+Attitudes {toward being acquired} are still negative
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3728..3758
+22,1,3
+#### Text ####
+they're becoming more positive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3781
+23
+#### Features ####
+Ot, Comm, Null, Null
+3761..3778
+22,0;22,2;22,3;22,4;22,5;22,6
+#### Text ####
+Mr. Murasawa said
+##############
+in fact, Expansion
+____Arg1____
+3670..3758
+22,1
+#### Text ####
+Attitudes {toward being acquired} are still negative, but they're becoming more positive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3781..3846
+23
+#### Text ####
+In some industries, like pharmaceuticals, acquisitions make sense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3916..3919
+24,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3851..3914
+24,0
+#### Text ####
+Whether Polly Peck's acquisition makes sense remains to be seen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3920..4013
+24,3
+#### Text ####
+at the news conference, Mr. Nadir brimmed with self-confidence that he can turn Sansui around
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4015
+25
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3944..4013
+24,3,1;24,3,2;24,3,3
+#### Text ####
+Mr. Nadir brimmed with self-confidence that he can turn Sansui around
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4015..4021;4032..4251
+25,0;25,2;25,3
+#### Text ####
+Sansui is a perfect fit for Polly Peck's electronics operations, which make televisions, videocassette recorders, microwaves and other products on an "original equipment maker" basis for sale under other companies' brand names
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4023..4030
+25,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4537..4539
+27,1,0,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4671..4685
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+Mr. Nadir said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+4519..4536
+27,1,0,1,0;27,1,0,1,1,0;27,1,0,1,1,1
+#### Text ####
+it (Sansui) needs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4540..4637
+27,1,0,1,1,2,1
+#### Text ####
+it can compete and become a totally global entity capable of competing with the best in the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4689..4692
+28,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4317..4368
+26,1,1,1,1,0,1,4
+#### Text ####
+using Sansui's engineers to design the new products
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4255..4262
+26,0;26,1,0;26,2
+#### Text ####
+He said
+##############
+____Arg2____
+4693..4883
+28,1;28,2;28,3;28,4;28,5
+#### Text ####
+while Polly Peck isn't jettisoning the existent top-management structure of Sansui, it is bringing in a former Toshiba Corp. executive as executive vice president and chief operating officer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4693..4698
+28,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+4689..4692;4777..4883
+28,0;28,2;28,3;28,4;28,5
+#### Text ####
+And it is bringing in a former Toshiba Corp. executive as executive vice president and chief operating officer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4699..4775
+28,1,1
+#### Text ####
+Polly Peck isn't jettisoning the existent top-management structure of Sansui
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5007
+30
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4887..5005
+29
+#### Text ####
+Such risk taking is an everyday matter for the brash Mr. Nadir, who is 25% owner of Polly Peck as well as its chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5007..5162
+30
+#### Text ####
+He took Polly Peck, once a small fabric wholesaler, and used it at as a base to build a conglomerate that has been doubling its profits annually since 1980
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5164
+31
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5007..5162
+30
+#### Text ####
+He took Polly Peck, once a small fabric wholesaler, and used it at as a base to build a conglomerate that has been doubling its profits annually since 1980
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5164..5311
+31
+#### Text ####
+In September, it announced plans to acquire the tropical-fruit business of RJR Nabisco Inc. 's Del Monte foods unit for #557 million ($878 million)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

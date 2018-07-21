@@ -1,0 +1,649 @@
+________________________________________________________
+____Explicit____
+86..89
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+9..82
+0
+#### Text ####
+Brooks Armored Car Service Inc. never wanted to get into money laundering
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+90..367
+1,1;1,2;1,3;1,4;1,5;2
+#### Text ####
+July 5, a thunderstorm in Wilmington, Del., caused Shellpot Creek to rise 15 feet, pouring 1.3 million gallons of water into basement vaults.
+The water destroyed about $75 million in currency and caked $4 million of coins with mud, rendering them dangerous to counting machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+232
+2
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+86..230
+1
+#### Text ####
+But July 5, a thunderstorm in Wilmington, Del., caused Shellpot Creek to rise 15 feet, pouring 1.3 million gallons of water into basement vaults
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+232..367
+2
+#### Text ####
+The water destroyed about $75 million in currency and caked $4 million of coins with mud, rendering them dangerous to counting machines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+403..411
+3,2,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+371..401;439..518
+3,0;3,1;3,3;3,4;3,5
+#### Text ####
+The $75 million in paper money was exchanged through the Federal Reserve Bank of Philadelphia without incident
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+412..437
+3,2,1
+#### Text ####
+moldy, mildewy and smelly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+520..523
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+371..518
+3
+#### Text ####
+The $75 million in paper money, although moldy, mildewy and smelly, was exchanged through the Federal Reserve Bank of Philadelphia without incident
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+524..596
+4,1;4,2;4,3
+#### Text ####
+Brooks was unable to reach a coin-cleaning agreement with the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+684
+6
+#### Features ####
+Ot, Comm, Null, Null
+805..812
+6,1;6,2;6,3;6,4
+#### Text ####
+he says
+##############
+in particular, Expansion.Restatement.Specification
+____Arg1____
+601..644
+5,1
+#### Text ####
+We kind of got caught between bureaucracies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+647..682
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+says President William F. Brooks Jr
+##############
+____Arg2____
+684..803
+6,0
+#### Text ####
+The U.S. Mint wouldn't take the coin because it wasn't mutilated, and the Federal Reserve Bank accepts only clean coins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+721..728
+6,0,0,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+805..812
+6,1;6,2;6,3;6,4
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+684..720
+6,0,0,0;6,0,0,1,0;6,0,0,1,1;6,0,0,1,2,0;6,0,0,1,2,1
+#### Text ####
+The U.S. Mint wouldn't take the coin
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+729..748
+6,0,0,1,2,2,1
+#### Text ####
+it wasn't mutilated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+750..803
+6,0,2;6,0,3
+#### Text ####
+and the Federal Reserve Bank accepts only clean coins
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+750..753
+6,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+805..812
+6,1;6,2;6,3;6,4
+#### Text ####
+he says
+##############
+and, Expansion.Conjunction
+____Arg1____
+684..748
+6,0,0
+#### Text ####
+The U.S. Mint wouldn't take the coin because it wasn't mutilated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+754..803
+6,0,3
+#### Text ####
+the Federal Reserve Bank accepts only clean coins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+925
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+842..922
+7,1,1
+#### Text ####
+it is merely an "agent" for coins, responsible only for storage and distribution
+##############
+#### Features ####
+Ot, Comm, Null, Null
+816..841
+7,0;7,1,0;7,2
+#### Text ####
+The Philadelphia Fed says
+##############
+____Arg2____
+925..969
+8,1
+#### Text ####
+We issue paper money; we destroy paper money
+##############
+#### Features ####
+Ot, Comm, Null, Null
+972..1020
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+says Jane Hinkle, a Philadelphia Fed spokeswoman
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+947
+8
+#### Features ####
+Ot, Comm, Null, Null
+972..1020
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+says Jane Hinkle, a Philadelphia Fed spokeswoman
+##############
+and, Expansion.Conjunction
+____Arg1____
+925..945
+8,1,0
+#### Text ####
+We issue paper money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+947..969
+8,1,2
+#### Text ####
+we destroy paper money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1023
+9
+#### Features ####
+Ot, Comm, Null, Null
+972..1020
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+says Jane Hinkle, a Philadelphia Fed spokeswoman
+##############
+but, Comparison.Contrast
+____Arg1____
+925..969
+8,1
+#### Text ####
+We issue paper money; we destroy paper money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1023..1048
+9
+#### Text ####
+The coin is their problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1178..1181
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1074..1176
+10,1,1
+#### Text ####
+the agency offered to clean the coins for its "bare-bones" cost of $17,000 plus certain other expenses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1053..1073
+10,0;10,1,0;10,2
+#### Text ####
+A Mint official says
+##############
+____Arg2____
+1182..1197
+11,1;11,2,0;11,2,1;11,3
+#### Text ####
+Brooks declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1199..1297
+11,2,2
+#### Text ####
+figuring that transporting the mucked up money to Washington would cost the company thousands more
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1301..1303
+12,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1208..1297
+11,2,2,1,1
+#### Text ####
+that transporting the mucked up money to Washington would cost the company thousands more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1304..1347
+12,1;12,2,0;12,2,1;12,2,2,0;12,2,2,1,0;12,2,2,1,1;12,3
+#### Text ####
+Brooks gave the dirty work to Coin Wrap Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1572
+14
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1392..1570
+13
+#### Text ####
+For eight hours a day for the past two weeks, in aggregates of as much as 27,000 pounds (equaling $20,000 in pennies), Coin Wrap has been pouring money into a cement-mixing truck
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1572..1664
+14
+#### Text ####
+A giant heater, working like a blowtorch, causes the mud to crust and burns off any wrappers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1666
+15
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1572..1664
+14
+#### Text ####
+A giant heater, working like a blowtorch, causes the mud to crust and burns off any wrappers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1666..1823
+15
+#### Text ####
+After clanging around for an hour or so, the shiny, hot money pours out of the cement chute, where a giant vacuum sucks away the dried mud and burnt wrappers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1854..1858
+16,3,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1825..1838
+16,0
+#### Text ####
+After cooling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1840..1853;1859..1868
+16,1;16,2;16,3,0;16,3,2;16,4
+#### Text ####
+the coins are rewrapped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1967..1970
+18,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1872..1965
+17
+#### Text ####
+Brooks expects to pay Coin Wrap a total of about $20,000 -- a cost that insurance won't cover
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1971..2021
+18,1;18,2;18,3;18,4;18,5
+#### Text ####
+while the job is half done, Brooks is still bitter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1971..1976
+18,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+1967..1970;1999..2021
+18,0;18,2;18,3;18,4;18,5
+#### Text ####
+And Brooks is still bitter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1977..1997
+18,1,1
+#### Text ####
+the job is half done
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2023..2030
+19,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Comparison.Contrast
+____Sup1____
+1971..1997
+18,1
+#### Text ####
+while the job is half done
+##############
+____Arg1____
+1967..1970;1999..2021
+18,0;18,2;18,3;18,4;18,5
+#### Text ####
+And Brooks is still bitter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2032..2168
+19,1;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+there's only one person involved who's happy, and that's Floyd String, president of Coin Wrap and conceiver of the cement-truck solution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2078..2081
+19,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Restatement.Specification
+____Arg1____
+2023..2076
+19,0;19,1;19,2;19,3
+#### Text ####
+In fact, there's only one person involved who's happy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2082..2168
+19,5
+#### Text ####
+that's Floyd String, president of Coin Wrap and conceiver of the cement-truck solution
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2170
+20
+#### Features ####
+Ot, Comm, Null, Null
+2260..2275
+20,4,1
+#### Text ####
+Mr. String says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2023..2168
+19
+#### Text ####
+In fact, there's only one person involved who's happy, and that's Floyd String, president of Coin Wrap and conceiver of the cement-truck solution
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2170..2258;2277..2325
+20,0;20,1;20,2;20,3;20,4,0;20,4,2;20,4,3;20,4,4;20,5
+#### Text ####
+Not only did his company find $20,000 worth of work, but when the approach was suggested Brooks officials "didn't laugh at me or anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2223..2226
+20,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2260..2275
+20,4,1
+#### Text ####
+Mr. String says
+##############
+but, Expansion.Conjunction
+____Arg1____
+2170..2221
+20,0;20,1;20,2
+#### Text ####
+Not only did his company find $20,000 worth of work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2227..2258;2277..2325
+20,4,0;20,4,2;20,4,3;20,4,4
+#### Text ####
+when the approach was suggested Brooks officials "didn't laugh at me or anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2227..2231
+20,4,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2260..2275
+20,4,1
+#### Text ####
+Mr. String says
+##############
+when, Temporal.Synchrony
+____Arg1____
+2223..2226;2277..2325
+20,3;20,4,2;20,4,3;20,4,4;20,5
+#### Text ####
+but Brooks officials "didn't laugh at me or anything
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2232..2258
+20,4,0,1
+#### Text ####
+the approach was suggested
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

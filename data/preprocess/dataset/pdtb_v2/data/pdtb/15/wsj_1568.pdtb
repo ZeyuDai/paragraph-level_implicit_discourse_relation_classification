@@ -1,0 +1,1493 @@
+________________________________________________________
+____Implicit____
+313
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+234..311
+1
+#### Text ####
+They root among the designer offerings at Neiman-Marcus and Bullocks Wilshire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+313..381
+2
+#### Text ####
+They stroll through the marble-encased corridors of the Atrium Court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+383
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+234..381
+1;2
+#### Text ####
+They root among the designer offerings at Neiman-Marcus and Bullocks Wilshire.
+They stroll through the marble-encased corridors of the Atrium Court
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+383..554
+3
+#### Text ####
+They graze at the Farmers Market, a combination gourmet food court and grocery store, while a pianist accompanies the noon fashion show with a selection of dreamy melodies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+469..474
+3,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+383..467
+3,0;3,1,0;3,1,1;3,1,2;3,2
+#### Text ####
+They graze at the Farmers Market, a combination gourmet food court and grocery store
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+475..554
+3,1,3,1
+#### Text ####
+a pianist accompanies the noon fashion show with a selection of dreamy melodies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+557
+4
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+469..554
+3,1,3
+#### Text ####
+while a pianist accompanies the noon fashion show with a selection of dreamy melodies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+557..650
+4
+#### Text ####
+The beautiful look of wool," croons the show's narrator, "slightly Victorian in its influence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+658..667
+5,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Sup1____
+234..650
+1;2;3;4
+#### Text ####
+They root among the designer offerings at Neiman-Marcus and Bullocks Wilshire.
+They stroll through the marble-encased corridors of the Atrium Court.
+They graze at the Farmers Market, a combination gourmet food court and grocery store, while a pianist accompanies the noon fashion show with a selection of dreamy melodies. "The beautiful look of wool," croons the show's narrator, "slightly Victorian in its influence
+##############
+____Arg1____
+9..230
+0
+#### Text ####
+At the ritzy Fashion Island Shopping Center, the tanned and elegant ladies of this wealthy Southern California beach community disembark from their Mercedes-Benzes and BMWs for another day of exercising their credit cards
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+669..774
+5,1;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+in the squat office buildings that ring Fashion Island, the odds are good that someone is getting fleeced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+808
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+658..774
+5
+#### Text ####
+Meanwhile, in the squat office buildings that ring Fashion Island, the odds are good that someone is getting fleeced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+808..925
+6,1,1
+#### Text ####
+that at any given time, a host of fraudulent telemarketing operations mingle with the many legitimate businesses here
+##############
+#### Features ####
+Ot, Comm, Null, Null
+776..807
+6,0;6,1,0;6,2
+#### Text ####
+Law-enforcement authorities say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+928
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+808..925
+6,1,1
+#### Text ####
+that at any given time, a host of fraudulent telemarketing operations mingle with the many legitimate businesses here
+##############
+#### Features ####
+Ot, Comm, Null, Null
+776..807
+6,0;6,1,0;6,2
+#### Text ####
+Law-enforcement authorities say
+##############
+____Arg2____
+928..968
+7,1
+#### Text ####
+They seem to like these industrial parks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..1041
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+says Kacy McClelland, a postal inspector who specializes in mail fraud
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1044
+8
+____Arg1____
+928..1041
+7
+#### Text ####
+They seem to like these industrial parks," says Kacy McClelland, a postal inspector who specializes in mail fraud
+##############
+____Arg2____
+1044..1068
+8
+#### Text ####
+We call them fraud farms
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1138
+10
+____Arg1____
+1073..1136
+9
+#### Text ####
+Welcome to that welter of contradictions known as Newport Beach
+##############
+____Arg2____
+1138..1216
+10
+#### Text ####
+This city of more than 70,000 is known for sunshine, yachts and rich residents
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1224..1228
+11,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1138..1216
+10
+#### Text ####
+This city of more than 70,000 is known for sunshine, yachts and rich residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1218..1223;1229..1266
+11,0;11,1,0;11,1,2,0;11,1,2,1;11,1,2,2;11,1,2,3;11,2
+#### Text ####
+It is known as the fraud capital of the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1687
+15
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+1665..1685
+14,2,1,5;14,2,1,6;14,3
+#### Text ####
+and lots of sunshine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1687..1768
+15
+#### Text ####
+You don't hear much about unusual concentrations of fraud in Green Bay or Buffalo
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1770
+16
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1687..1768
+15
+#### Text ####
+You don't hear much about unusual concentrations of fraud in Green Bay or Buffalo
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1770..1787
+16
+#### Text ####
+Con men hate snow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1854
+18
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1791..1852
+17
+#### Text ####
+Newport Beach fits the scam artists' specifications perfectly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1854..1914
+18
+#### Text ####
+What more could a con man in search of the easy life ask for
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1941
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1916..1939
+19
+#### Text ####
+Nothing seems hard here
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1941..2014
+20
+#### Text ####
+The breezes are soft, the waves lap gently and the palm trees sway lazily
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1984..1987
+20,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1941..1983
+20,0;20,1;20,2
+#### Text ####
+The breezes are soft, the waves lap gently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1988..2014
+20,4
+#### Text ####
+the palm trees sway lazily
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2016
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1941..2014
+20
+#### Text ####
+The breezes are soft, the waves lap gently and the palm trees sway lazily
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2016..2038
+21
+#### Text ####
+Nightlife is plentiful
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2042..2050
+22,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+1916..1939;2016..2038
+19;21
+#### Text ####
+Nothing seems hard here Nightlife is plentiful
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2052..2078
+22,1;22,2;22,3;22,4
+#### Text ####
+ostentation is appreciated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2080
+23
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2042..2078
+22
+#### Text ####
+Moreover, ostentation is appreciated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2080..2117
+23,0
+#### Text ####
+The median price of homes is $547,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2119
+23
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2080..2117
+23,0
+#### Text ####
+The median price of homes is $547,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2119..2224
+23,2
+#### Text ####
+more than 9,000 vessels fill what the chamber of commerce calls the nation's largest pleasure-boat harbor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2227
+24
+____Arg1____
+2080..2224
+23
+#### Text ####
+The median price of homes is $547,000; more than 9,000 vessels fill what the chamber of commerce calls the nation's largest pleasure-boat harbor
+##############
+____Arg2____
+2227..2282
+24
+#### Text ####
+Blondes, cocaine and Corvettes," mutters Mr. McClelland
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2285
+25
+____Arg1____
+2227..2282
+24
+#### Text ####
+Blondes, cocaine and Corvettes," mutters Mr. McClelland
+##############
+____Arg2____
+2285..2310
+25
+#### Text ####
+That's what they're after
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2347..2351
+26,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1791..1852
+17
+#### Text ####
+Newport Beach fits the scam artists' specifications perfectly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2315..2346;2352..2414
+26,0;26,2;26,3
+#### Text ####
+The rich image of Newport Beach helps lend the con artists' operation an air of respectability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2417
+27
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2315..2414
+26
+#### Text ####
+The rich image of Newport Beach also helps lend the con artists' operation an air of respectability
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2417..2497
+27,1
+#### Text ####
+One reason they use Newport Beach is that it sounds swankier than most addresses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2500..2532
+27,0;27,2;27,3;27,4;27,5,0;27,5,1;27,5,2,0;27,6
+#### Text ####
+says David Katz, a U.S. attorney
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2615
+28
+#### Features ####
+Ot, Comm, Null, Null
+2500..2532
+27,0;27,2;27,3;27,4;27,5,0;27,5,1;27,5,2,0;27,6
+#### Text ####
+says David Katz, a U.S. attorney
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2417..2497
+27,1
+#### Text ####
+One reason they use Newport Beach is that it sounds swankier than most addresses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2615..2685
+28
+#### Text ####
+Newport Beach is known in Rhode Island for having a lot of rich people
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2840..2843
+30,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+2690..2838
+29
+#### Text ####
+No wonder all kinds of big-time scams have flourished here, from phony tax-sheltered Bible sales to crooked car dealers to bogus penny-stock traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2844..3042
+30,1;30,2;30,3;30,4;30,5
+#### Text ####
+above all, this is the national headquarters for boiler-room operators, those slick-talking snake-oil salesmen who use the telephone to extract money from the gullible and the greedy and then vanish
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3031..3035
+30,4,1,1,1,2,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2955..3026
+30,4,1,1,1,2,1,0;30,4,1,1,1,2,1,1,0;30,4,1,1,1,2,1,1,1,0
+#### Text ####
+who use the telephone to extract money from the gullible and the greedy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3027..3030;3036..3042
+30,4,1,1,1,2,1,1,1,1;30,4,1,1,1,2,1,1,1,3
+#### Text ####
+and vanish
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3046..3053
+31,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3099..3178
+31,1;31,2;31,3;31,4;31,5
+#### Text ####
+nobody really knows how much money bogus telemarketing operators really harvest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3054..3097
+31,0,1
+#### Text ####
+only a fraction of them are ever prosecuted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3181
+32
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+3099..3178
+31,1;31,2;31,3;31,4;31,5
+#### Text ####
+nobody really knows how much money bogus telemarketing operators really harvest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3181..3264
+32,1
+#### Text ####
+I've heard that there is $40 billion taken in nationwide by boiler rooms every year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3267..3286
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+Mr. McClelland says
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3289
+33
+____Arg1____
+3181..3286
+32
+#### Text ####
+I've heard that there is $40 billion taken in nationwide by boiler rooms every year," Mr. McClelland says
+##############
+____Arg2____
+3289..3349
+33
+#### Text ####
+If that's true, Orange County has to be at least 10% of that
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3289..3291
+33,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3267..3286
+32,0;32,2;32,3;32,4;32,5;32,6
+#### Text ####
+Mr. McClelland says
+##############
+if, Contingency.Condition.Factual present
+____Arg1____
+3305..3349
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+Orange County has to be at least 10% of that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3292..3303
+33,1,1
+#### Text ####
+that's true
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3354..3357
+34,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+3181..3286
+32
+#### Text ####
+I've heard that there is $40 billion taken in nationwide by boiler rooms every year," Mr. McClelland says
+##############
+____Arg1____
+3289..3349
+33
+#### Text ####
+If that's true, Orange County has to be at least 10% of that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3358..3596
+34,1;34,2;34,3;34,4
+#### Text ####
+most of the truly big scams in Orange County seem to originate in Newport Beach or one of the other well-heeled communities that surround this sliver-like city that hooks around a point of land on the California coast south of Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3600..3607
+35,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3354..3596
+34
+#### Text ####
+And most of the truly big scams in Orange County seem to originate in Newport Beach or one of the other well-heeled communities that surround this sliver-like city that hooks around a point of land on the California coast south of Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3609..3730
+35,1;35,2;35,3;35,4
+#### Text ####
+sophisticated big-bucks boiler-room scams are known generically among law-enforcement types as "Newport Beach" operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3732..3751
+36,0;36,1,0;36,1,1,0
+#### Text ####
+That contrasts with
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Comparison.Contrast.Juxtaposition
+____Arg1____
+3600..3730
+35
+#### Text ####
+In fact, sophisticated big-bucks boiler-room scams are known generically among law-enforcement types as "Newport Beach" operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3732..3866
+36
+#### Text ####
+That contrasts with the penny-ante sales of things such as pen-and-pencil sets and office supplies that are known as "Hollywood" scams
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4000
+38
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3870..3998
+37
+#### Text ####
+Newport Beach telemarketers concentrate on precious metals and oil-leasing deals that typically cost thousands of dollars a shot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4000..4065
+38
+#### Text ####
+The investors range from elderly widows to affluent professionals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4424
+40
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4069..4422
+39
+#### Text ####
+In one ingenious recent example of a Newport Beach boiler room, prospective investors in Capital Trust Inc. were allegedly told that their investment in precious metals was insured against losses "caused by employees due to dishonesty, destruction or disappearance," according to an indictment handed up by a federal grand jury in Los Angeles last month
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4336..4422
+39,3,2,3;39,3,2,4;39,3,2,5;39,4
+#### Text ####
+according to an indictment handed up by a federal grand jury in Los Angeles last month
+##############
+____Arg2____
+4424..4554
+40,0
+#### Text ####
+Thus falsely reassured, investors sent $11.4 million to the Newport Beach company, most of which was diverted to unauthorized uses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4556..4578
+40,1;40,2;40,3;40,4
+#### Text ####
+the indictment charges
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4424..4428
+40,0,0,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+4069..4422
+39
+#### Text ####
+In one ingenious recent example of a Newport Beach boiler room, prospective investors in Capital Trust Inc. were allegedly told that their investment in precious metals was insured against losses "caused by employees due to dishonesty, destruction or disappearance," according to an indictment handed up by a federal grand jury in Los Angeles last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4429..4554
+40,0,0,1;40,0,0,2;40,0,1;40,0,2;40,0,3
+#### Text ####
+falsely reassured, investors sent $11.4 million to the Newport Beach company, most of which was diverted to unauthorized uses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4556..4578
+40,1;40,2;40,3;40,4
+#### Text ####
+the indictment charges
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4762
+42
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+4694..4759
+41,1,1
+#### Text ####
+his client denies that there was any attempt to defraud investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4582..4693
+41,0;41,1,0;41,2
+#### Text ####
+Douglas Jones, an attorney representing Richard O. Kelly Sr., the chairman and president of Capital Trust, says
+##############
+____Arg2____
+4762..4806
+42,0;42,1;42,2,0;42,2,1,0;42,2,1,2;42,3;42,4
+#### Text ####
+There were some business deals that went bad
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4809..4823
+42,2,1,1
+#### Text ####
+Mr. Jones says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4853
+43
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+4762..4850
+42
+#### Text ####
+There were some business deals that went bad," Mr. Jones says, "but no intent to defraud
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4853..4947
+43
+#### Text ####
+Newport Beach operations differ from the Hollywood boiler rooms in style as well as in dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4949
+44
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+4853..4947
+43
+#### Text ####
+Newport Beach operations differ from the Hollywood boiler rooms in style as well as in dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4949..5052
+44
+#### Text ####
+Traditionally, boiler rooms operate on the cheap, since few, if any, customers ever visit their offices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4999..5004
+44,3,3,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+4949..4997
+44,0;44,1;44,2;44,3,0;44,3,1;44,3,2;44,4
+#### Text ####
+Traditionally, boiler rooms operate on the cheap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5005..5052
+44,3,3,1
+#### Text ####
+few, if any, customers ever visit their offices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5054..5060
+45,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+4949..5052
+44
+#### Text ####
+Traditionally, boiler rooms operate on the cheap, since few, if any, customers ever visit their offices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5062..5176
+45,1;45,2;45,3;45,4
+#### Text ####
+the name derives from the tendency among telemarketing scammers to rent cheap basement space, near the boiler room
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5180..5183
+46,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5185..5217
+46,1
+#### Text ####
+says Mr. Katz, the U.S. attorney
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4949..5052
+44
+#### Text ####
+Traditionally, boiler rooms operate on the cheap, since few, if any, customers ever visit their offices
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+5220..5361
+46,2;46,3;46,4;46,5
+#### Text ####
+the interesting thing about Newport Beach operations is that they give themselves the indulgence of beautiful offices, with plush furnishings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5363
+47
+#### Features ####
+Ot, Comm, Null, Null
+5185..5217
+46,1
+#### Text ####
+says Mr. Katz, the U.S. attorney
+##############
+indeed, Expansion.Restatement.Specification
+____Arg1____
+5276..5361
+46,4,1
+#### Text ####
+that they give themselves the indulgence of beautiful offices, with plush furnishings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5363..5517
+47
+#### Text ####
+When we go there, it's quite different from these Hollywood places where the sandwiches are spread out on the table and the people are picking their noses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5363..5367
+47,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5185..5217
+46,1
+#### Text ####
+says Mr. Katz, the U.S. attorney
+##############
+when, Contingency.Condition.General
+____Arg1____
+5381..5517
+47,1;47,2;47,3;47,4;47,5
+#### Text ####
+it's quite different from these Hollywood places where the sandwiches are spread out on the table and the people are picking their noses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5368..5379
+47,0,1
+#### Text ####
+we go there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5479..5482
+47,3,1,2,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5185..5217
+46,1
+#### Text ####
+says Mr. Katz, the U.S. attorney
+##############
+and, Expansion.List
+____Arg1____
+5430..5478
+47,3,1,2,1,1,0;47,3,1,2,1,1,1,0
+#### Text ####
+where the sandwiches are spread out on the table
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5483..5517
+47,3,1,2,1,1,1,2
+#### Text ####
+the people are picking their noses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5550..5554
+48,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5276..5361
+46,4,1
+#### Text ####
+that they give themselves the indulgence of beautiful offices, with plush furnishings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5185..5217
+46,1
+#### Text ####
+says Mr. Katz, the U.S. attorney
+##############
+____Arg2____
+5522..5549;5555..5591
+48,0;48,2;48,3
+#### Text ####
+The Newport Beach operators tend to indulge themselves privately
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5612
+49
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5522..5591
+48
+#### Text ####
+The Newport Beach operators also tend to indulge themselves privately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5612..5824
+49,1,1;49,2
+#### Text ####
+the case of Matthew Valentine, who is currently serving a six-year sentence at Lompoc Federal Prison for his role in Intech Investment Corp., which promised investors returns of as much as 625% on precious metals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5593..5611
+49,0;49,1,0;49,2
+#### Text ####
+Investigators cite
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5826
+50
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5612..5641
+49,1,1,0;49,1,1,1,0;49,1,1,1,1,0;49,1,1,1,1,1
+#### Text ####
+the case of Matthew Valentine
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5593..5611
+49,0;49,1,0;49,2
+#### Text ####
+Investigators cite
+##############
+____Arg2____
+5826..6043
+50
+#### Text ####
+Mr. Valentine, who pleaded guilty to five counts of fraud in federal court in Los Angeles, drove a leased Mercedes and lived in an expensive home on Lido Isle, an island in Newport's harbor, according to investigators
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6017..6043
+50,1,3;50,1,4;50,2
+#### Text ####
+according to investigators
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6045
+51
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5826..5839;5917..6043
+50,0,0;50,0,1;50,0,3;50,1;50,2
+#### Text ####
+Mr. Valentine drove a leased Mercedes and lived in an expensive home on Lido Isle, an island in Newport's harbor, according to investigators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6045..6256
+51
+#### Text ####
+With the $3 million received from investors, he took frequent junkets with friends to exotic locales and leased an expensive BMW for his girlfriend, whom he met at the shop where he got his custom-tailored suits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6259
+52
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+6045..6256
+51
+#### Text ####
+With the $3 million received from investors, he took frequent junkets with friends to exotic locales and leased an expensive BMW for his girlfriend, whom he met at the shop where he got his custom-tailored suits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6259..6367
+52,1
+#### Text ####
+It's amazing the amount of money that goes up their nose, out to the dog track or to the tables in Las Vegas
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6370..6383
+52,0;52,2;52,3;52,4;52,5;52,6
+#### Text ####
+Mr. Katz says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6483
+54
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+6387..6481
+53
+#### Text ####
+All this talk of boiler rooms and fraud is unnerving to the city's legitimate business element
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6483..6762
+54
+#### Text ####
+Vincent M Ciavarella, regional manager of Property Management Systems, insists he doesn't know of any bogus telemarketers operating in the 1.6 million square feet of office space around Fashion Island that his company leases for Irvine Co., the owner and developer of the project
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6883
+55
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+6483..6762
+54
+#### Text ####
+Vincent M Ciavarella, regional manager of Property Management Systems, insists he doesn't know of any bogus telemarketers operating in the 1.6 million square feet of office space around Fashion Island that his company leases for Irvine Co., the owner and developer of the project
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6883..6937
+55,1,2,1
+#### Text ####
+that illegitimate operators "are not easily detectable
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+6866..6882
+55,1,1;55,1,2,0
+#### Text ####
+and acknowledges
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6962
+56
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+6764..6937
+55
+#### Text ####
+Mr. Ciavarella has rejected a few prospective tenants who provided "incomplete" financial information and acknowledges that illegitimate operators "are not easily detectable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6962..7051
+56,3,1
+#### Text ####
+that building owners are victims, too, since boiler rooms often leave without paying rent
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6941..6961
+56,0;56,1;56,2;56,3,0;56,4;56,5
+#### Text ####
+Investigators stress
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7001..7006
+56,3,1,1,1,5,0
+#### Text ####
+since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6941..6961
+56,0;56,1;56,2;56,3,0;56,4;56,5
+#### Text ####
+Investigators stress
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+6962..6999
+56,3,1,0;56,3,1,1,0;56,3,1,1,1,0;56,3,1,1,1,1;56,3,1,1,1,2;56,3,1,1,1,3;56,3,1,1,1,4
+#### Text ####
+that building owners are victims, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7007..7051
+56,3,1,1,1,5,1
+#### Text ####
+boiler rooms often leave without paying rent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7191
+58
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+7136..7188
+57,1,1
+#### Text ####
+boiler rooms a "negative we wish we could get rid of
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7056..7135
+57,0;57,1,0;57,2;57,3
+#### Text ####
+Richard Luehrs, president of the Newport Harbor Area Chamber of Commerce, calls
+##############
+____Arg2____
+7191..7249;7265..7304
+58,0;58,1;58,2;58,3;58,4,0;58,4,1;58,4,2,0;58,4,2,1;58,4,2,3;58,4,2,4;58,5;58,6
+#### Text ####
+Actually, "we don't get much negative publicity about this except for the press who write about it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7252..7262
+58,4,2,2
+#### Text ####
+he insists
+##############
+________________________________________________________

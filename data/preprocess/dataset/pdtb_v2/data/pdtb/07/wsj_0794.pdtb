@@ -1,0 +1,959 @@
+________________________________________________________
+____EntRel____
+279
+2
+____Arg1____
+196..277
+1
+#### Text ####
+I was struck a couple of years ago by the drug-interdiction effort in the Bahamas
+##############
+____Arg2____
+279..361
+2
+#### Text ####
+We had intercepted during the year an estimated $5 billion street value of cocaine
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+363
+3
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+279..361
+2
+#### Text ####
+We had intercepted during the year an estimated $5 billion street value of cocaine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+363..396
+3
+#### Text ####
+I don't know how much got through
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+398
+4
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+363..396
+3
+#### Text ####
+I don't know how much got through
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+398..430
+4
+#### Text ####
+Nobody has any credible estimate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+432
+5
+____Arg1____
+398..430
+4
+#### Text ####
+Nobody has any credible estimate
+##############
+____Arg2____
+432..512
+5
+#### Text ####
+The GNP of the Bahamas is probably somewhere between one and two billion dollars
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+514..516
+6,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+279..361;432..512
+2;5
+#### Text ####
+We had intercepted during the year an estimated $5 billion street value of cocaine The GNP of the Bahamas is probably somewhere between one and two billion dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+517..612
+6,1;6,2;6,3
+#### Text ####
+you get an idea of the leverage there and elsewhere that our market for drugs has brought about
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+682
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+616..680
+7
+#### Text ####
+I welcome the emphasis that is now being put on the drug problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+682..1012
+8
+#### Text ####
+The efforts to get to the people who are addicted, try to rehabilitate them; if they cannot be rehabilitated, at least to contain them; to educate people, to strongly discourage use of drugs by people who are casual users and first users, to stop this process among the young -- all of these things I think are extremely important
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+759..761
+8,0,0,2,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+792..816
+8,0,0,2,2,1;8,0,0,2,2,2;8,0,0,2,2,3;8,0,0,2,2,4
+#### Text ####
+at least to contain them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+762..790
+8,0,0,2,2,0,1
+#### Text ####
+they cannot be rehabilitated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1016..1019
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+1040..1059
+9,3,1,1,1,2,0;9,3,1,1,1,2,1,0;9,3,1,1,1,2,1,1,0;9,3,1,1,1,2,1,1,1
+#### Text ####
+that it seems to me
+##############
+but, Comparison
+____Arg1____
+682..980;989..1012
+8,0;8,2;8,3
+#### Text ####
+The efforts to get to the people who are addicted, try to rehabilitate them; if they cannot be rehabilitated, at least to contain them; to educate people, to strongly discourage use of drugs by people who are casual users and first users, to stop this process among the young -- all of these things are extremely important
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+981..988
+8,1
+#### Text ####
+I think
+##############
+____Arg2____
+1060..1155
+9,3,1,1,1,2,1,1,2
+#### Text ####
+that the conceptual base of the current program is flawed and the program is not likely to work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1118..1121
+9,3,1,1,1,2,1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+1040..1059
+9,3,1,1,1,2,0;9,3,1,1,1,2,1,0;9,3,1,1,1,2,1,1,0;9,3,1,1,1,2,1,1,1
+#### Text ####
+that it seems to me
+##############
+and, Expansion.Conjunction
+____Arg1____
+1060..1117
+9,3,1,1,1,2,1,1,2,0;9,3,1,1,1,2,1,1,2,1,0
+#### Text ####
+that the conceptual base of the current program is flawed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1122..1155
+9,3,1,1,1,2,1,1,2,1,2
+#### Text ####
+the program is not likely to work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1157
+10
+____Arg1____
+1045..1155
+9,3,1,1,1,2,1
+#### Text ####
+it seems to me that the conceptual base of the current program is flawed and the program is not likely to work
+##############
+____Arg2____
+1157..1377
+10
+#### Text ####
+The conceptual base -- a criminal-justice approach -- is the same that I have worked through before, in the Nixon administration when I was budget director and secretary of the treasury with jurisdiction over the Customs
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1379
+11
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1157..1256
+10,0;10,1,0;10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1,0;10,1,1,1,1,1,1,1;10,1,1,1,1,1,1,2;10,1,1,1,1,1,1,3;10,2
+#### Text ####
+The conceptual base -- a criminal-justice approach -- is the same that I have worked through before
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1379..1440
+11
+#### Text ####
+We designed a comprehensive program, and we worked hard on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1416..1419
+11,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1379..1414
+11,0
+#### Text ####
+We designed a comprehensive program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1420..1440
+11,3
+#### Text ####
+we worked hard on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1442
+12
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1379..1440
+11
+#### Text ####
+We designed a comprehensive program, and we worked hard on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1442..1533
+12
+#### Text ####
+In the Reagan administration we designed a comprehensive program; we worked very hard on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1535
+13
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1442..1533
+12
+#### Text ####
+In the Reagan administration we designed a comprehensive program; we worked very hard on it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1535..1594
+13
+#### Text ####
+Our international efforts were far greater than ever before
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1596
+14
+____Arg1____
+1535..1594
+13
+#### Text ####
+Our international efforts were far greater than ever before
+##############
+____Arg2____
+1596..1723
+14
+#### Text ####
+You're looking at a guy whose motorcade was attacked in Bolivia by the drug terrorists, so I'm personally a veteran of this war
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1684..1686
+14,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1596..1682
+14,0
+#### Text ####
+You're looking at a guy whose motorcade was attacked in Bolivia by the drug terrorists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1687..1723
+14,3
+#### Text ####
+I'm personally a veteran of this war
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1865..1895
+16,0;16,1,0;16,1,1;16,1,2,1,0
+#### Text ####
+These efforts wind up creating
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+1727..1863
+15
+#### Text ####
+What we have before us now is essentially the same program but with more resources plowed into all of the efforts to enforce and control
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1865..1944
+16
+#### Text ####
+These efforts wind up creating a market where the price vastly exceeds the cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1946
+17
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+1865..1944
+16
+#### Text ####
+These efforts wind up creating a market where the price vastly exceeds the cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1946..2035
+17
+#### Text ####
+With these incentives, demand creates its own supply and a criminal network along with it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2037
+18
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1946..2035
+17
+#### Text ####
+With these incentives, demand creates its own supply and a criminal network along with it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2037..2194
+18
+#### Text ####
+It seems to me we're not really going to get anywhere until we can take the criminality out of the drug business and the incentives for criminality out of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2091..2096
+18,1,2,1,1,2,2,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+2037..2051
+18,0;18,1,0;18,1,1;18,2
+#### Text ####
+It seems to me
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+2052..2090
+18,1,2,0;18,1,2,1,0;18,1,2,1,1,0;18,1,2,1,1,1;18,1,2,1,1,2,0;18,1,2,1,1,2,1;18,1,2,1,1,2,2,0;18,1,2,1,1,2,2,1,0;18,1,2,1,1,2,2,1,1,0;18,1,2,1,1,2,2,1,1,1
+#### Text ####
+we're not really going to get anywhere
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2097..2194
+18,1,2,1,1,2,2,1,1,2,1
+#### Text ####
+we can take the criminality out of the drug business and the incentives for criminality out of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2196
+19
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+2037..2194
+18
+#### Text ####
+It seems to me we're not really going to get anywhere until we can take the criminality out of the drug business and the incentives for criminality out of it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2196..2363
+19
+#### Text ####
+Frankly, the only way I can think of to accomplish this is to make it possible for addicts to buy drugs at some regulated place at a price that approximates their cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2365
+20
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2196..2363
+19
+#### Text ####
+Frankly, the only way I can think of to accomplish this is to make it possible for addicts to buy drugs at some regulated place at a price that approximates their cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2365..2418
+20,0;20,1;20,2,0;20,2,1;20,2,2,0;20,2,2,1;20,3
+#### Text ####
+When you do that you wipe out the criminal incentives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2365..2369
+20,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.Hypothetical
+____Arg1____
+2382..2564
+20,1;20,2;20,3
+#### Text ####
+you wipe out the criminal incentives, including, I might say, the incentive that the drug pushers have to go around and get kids addicted, so that they create a market for themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2370..2381
+20,0,1
+#### Text ####
+you do that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2521..2528
+20,2,2,2,2,2,1,1,4,0;20,2,2,2,2,2,1,1,4,1
+#### Text ####
+so that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+2431..2442
+20,2,2,2,1
+#### Text ####
+I might say
+##############
+so that, Contingency.Cause.Result
+____Arg1____
+2485..2519
+20,2,2,2,2,2,0;20,2,2,2,2,2,1,0;20,2,2,2,2,2,1,1,0;20,2,2,2,2,2,1,1,1;20,2,2,2,2,2,1,1,2;20,2,2,2,2,2,1,1,3
+#### Text ####
+to go around and get kids addicted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2529..2564
+20,2,2,2,2,2,1,1,4,2
+#### Text ####
+they create a market for themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2566
+21
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement
+____Arg1____
+2365..2564
+20
+#### Text ####
+When you do that you wipe out the criminal incentives, including, I might say, the incentive that the drug pushers have to go around and get kids addicted, so that they create a market for themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2566..2632
+21
+#### Text ####
+They won't have that incentive because they won't have that market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2597..2604
+21,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2566..2596
+21,0;21,1,0;21,1,1;21,1,2,0;21,1,2,1;21,2
+#### Text ####
+They won't have that incentive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2605..2632
+21,1,2,2,1
+#### Text ####
+they won't have that market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2636..2638
+22,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+2639..2646
+22,1;22,2,0;22,3
+#### Text ####
+I think
+##############
+so, Contingency.Cause.Result
+____Sup1____
+1157..2632
+10;11;12;13;14;15;16;17;18;19;20;21
+#### Text ####
+The conceptual base -- a criminal-justice approach -- is the same that I have worked through before, in the Nixon administration when I was budget director and secretary of the treasury with jurisdiction over the Customs.
+We designed a comprehensive program, and we worked hard on it.
+In the Reagan administration we designed a comprehensive program; we worked very hard on it.
+Our international efforts were far greater than ever before.
+You're looking at a guy whose motorcade was attacked in Bolivia by the drug terrorists, so I'm personally a veteran of this war. 
+
+What we have before us now is essentially the same program but with more resources plowed into all of the efforts to enforce and control.
+These efforts wind up creating a market where the price vastly exceeds the cost.
+With these incentives, demand creates its own supply and a criminal network along with it.
+It seems to me we're not really going to get anywhere until we can take the criminality out of the drug business and the incentives for criminality out of it.
+Frankly, the only way I can think of to accomplish this is to make it possible for addicts to buy drugs at some regulated place at a price that approximates their cost.
+When you do that you wipe out the criminal incentives, including, I might say, the incentive that the drug pushers have to go around and get kids addicted, so that they create a market for themselves.
+They won't have that incentive because they won't have that market
+##############
+____Arg1____
+1060..1155
+9,3,1,1,1,2,1,1,2
+#### Text ####
+that the conceptual base of the current program is flawed and the program is not likely to work
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+1040..1059
+9,3,1,1,1,2,0;9,3,1,1,1,2,1,0;9,3,1,1,1,2,1,1,0;9,3,1,1,1,2,1,1,1
+#### Text ####
+that it seems to me
+##############
+____Arg2____
+2647..2709
+22,2,1
+#### Text ####
+the conceptual base needs to be thought out in a different way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2711
+23
+____Arg1____
+2636..2709
+22
+#### Text ####
+So I think the conceptual base needs to be thought out in a different way
+##############
+____Arg2____
+2711..2856
+23
+#### Text ####
+If I am catching your attention, then read a bold and informative article in this September's issue of Science by Ethan Nadelmann on this subject
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2711..2713;2744..2748
+23,0,0;23,2
+#### Text ####
+If then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if then, Contingency.Condition.Hypothetical
+____Arg1____
+2714..2742
+23,0,1
+#### Text ####
+I am catching your attention
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2749..2856
+23,1;23,3;23,4;23,5
+#### Text ####
+read a bold and informative article in this September's issue of Science by Ethan Nadelmann on this subject
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2858
+24
+____Arg1____
+2711..2856
+23
+#### Text ####
+If I am catching your attention, then read a bold and informative article in this September's issue of Science by Ethan Nadelmann on this subject
+##############
+____Arg2____
+2858..2940
+24
+#### Text ####
+We need at least to consider and examine forms of controlled legalization of drugs
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2982
+26
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for one thing, Expansion.Restatement.Specification
+____Arg1____
+2944..2980
+25
+#### Text ####
+I find it very difficult to say that
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2982..3080
+26
+#### Text ####
+Sometimes at a reception or cocktail party I advance these views and people head for somebody else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3047..3050
+26,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result, Expansion.Conjunction
+____Arg1____
+2982..3046
+26,0;26,1;26,2
+#### Text ####
+Sometimes at a reception or cocktail party I advance these views
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3051..3080
+26,4
+#### Text ####
+people head for somebody else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3082
+27
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2982..3080
+26
+#### Text ####
+Sometimes at a reception or cocktail party I advance these views and people head for somebody else
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3082..3117
+27
+#### Text ####
+They don't even want to talk to you
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3119
+28
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3082..3117
+27
+#### Text ####
+They don't even want to talk to you
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3119..3195
+28
+#### Text ####
+I know that I'm shouting into the breeze here as far as what we're doing now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3197..3200
+29,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3119..3195
+28
+#### Text ####
+I know that I'm shouting into the breeze here as far as what we're doing now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3201..3409
+29,1;29,2;29,3
+#### Text ####
+I feel that if somebody doesn't get up and start talking about this now, the next time around, when we have the next iteration of these programs, it will still be true that everyone is scared to talk about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3213..3215
+29,2,1,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, PAtt, Null, Null
+3197..3207
+29,0;29,1;29,2,0;29,3
+#### Text ####
+But I feel
+##############
+if, Contingency.Condition.Hypothetical
+____Sup1____
+3296..3345
+29,2,1,1,2,2
+#### Text ####
+when we have the next iteration of these programs
+##############
+____Arg1____
+3208..3212;3274..3294;3347..3409
+29,2,1,0;29,2,1,1,1;29,2,1,1,2,0;29,2,1,1,2,1;29,2,1,1,2,3;29,2,1,1,3;29,2,1,1,4
+#### Text ####
+that the next time around it will still be true that everyone is scared to talk about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3216..3272
+29,2,1,1,0,1
+#### Text ####
+somebody doesn't get up and start talking about this now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3411
+30
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3197..3409
+29
+#### Text ####
+But I feel that if somebody doesn't get up and start talking about this now, the next time around, when we have the next iteration of these programs, it will still be true that everyone is scared to talk about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3411..3472
+30
+#### Text ####
+No politician wants to say what I just said, not for a minute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,772 @@
+________________________________________________________
+____Implicit____
+281
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+169..279
+1,1,1
+#### Text ####
+the ministry didn't in any way suggest to Japanese banks that they stay out of the UAL Corp. leveraged buy-out
+##############
+#### Features ####
+Ot, Comm, Null, Null
+108..168
+1,0;1,1,0;1,2
+#### Text ####
+Makoto Utsumi, vice minister for international affairs, said
+##############
+____Arg2____
+281..386
+2,0
+#### Text ####
+The ministry has never even suggested that Japanese banks be cautious about leveraged buy-outs in general
+##############
+#### Features ####
+Ot, Comm, Null, Null
+388..403
+2,1;2,2;2,3;2,4
+#### Text ####
+Mr. Utsumi said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+406
+3
+#### Features ####
+Ot, Comm, Null, Null
+483..510
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+he declared in an interview
+##############
+so, Contingency.Cause.Result
+____Arg1____
+281..386
+2,0
+#### Text ####
+The ministry has never even suggested that Japanese banks be cautious about leveraged buy-outs in general
+##############
+#### Features ####
+Ot, Comm, Null, Null
+388..403
+2,1;2,2;2,3;2,4
+#### Text ####
+Mr. Utsumi said
+##############
+____Arg2____
+406..480
+3,1
+#### Text ####
+There are no facts {behind the assertions} that we sent any kind of signal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+741
+5
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Instantiation
+____Arg1____
+514..739
+4
+#### Text ####
+The comments were the ministry's first detailed public statement on the subject, and reflect the ministry's concern that foreigners will think Japan is using its tremendous financial power to control events in foreign markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+741..924
+5
+#### Text ####
+A number of accounts of the events leading to the 190 point drop in New York stock prices on Oct. 13 accused the ministry of pulling the plug on the UAL deal for one reason or another
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1085
+7
+____Arg1____
+928..1083
+6
+#### Text ####
+Mr. Utsumi said the most the ministry had ever done was ask Japanese banks about "the status of their participation" in one previous U.S. leveraged buy-out
+##############
+____Arg2____
+1085..1328
+7
+#### Text ####
+The ministry inquired about that deal -- which Mr. Utsumi declined to identify -- because the large presence of Japanese banks in the deal was "being strongly criticized in the U.S. Congress" and it was "necessary for us to grasp the situation
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1167..1174
+7,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+928..943
+6,0;6,1,0;6,2
+#### Text ####
+Mr. Utsumi said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1085..1122
+7,0;7,1,0;7,1,1,0;7,1,1,1,0;7,2;7,3
+#### Text ####
+The ministry inquired about that deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1175..1328
+7,1,2,1
+#### Text ####
+the large presence of Japanese banks in the deal was "being strongly criticized in the U.S. Congress" and it was "necessary for us to grasp the situation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1277..1280
+7,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+928..943
+6,0;6,1,0;6,2
+#### Text ####
+Mr. Utsumi said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1167..1275
+7,1,2,0;7,1,2,1,0
+#### Text ####
+because the large presence of Japanese banks in the deal was "being strongly criticized in the U.S. Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1281..1328
+7,1,2,1,2
+#### Text ####
+it was "necessary for us to grasp the situation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1339
+8
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1085..1122;1167..1275
+7,0;7,1,0;7,1,1,0;7,1,1,1,0;7,1,2,0;7,1,2,1,0;7,2;7,3
+#### Text ####
+The ministry inquired about that deal because the large presence of Japanese banks in the deal was "being strongly criticized in the U.S. Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1339..1461
+8,0,1,1
+#### Text ####
+the inquiry wasn't made in a way that the banks could have interpreted as either encouraging or discouraging participation
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1331..1338
+8,0,0;8,0,1,0
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1463..1466
+8,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1339..1461
+8,0,1,1
+#### Text ####
+the inquiry wasn't made in a way that the banks could have interpreted as either encouraging or discouraging participation
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1331..1338
+8,0,0;8,0,1,0
+#### Text ####
+He said
+##############
+____Arg2____
+1476..1568
+8,3,1,1
+#### Text ####
+that none of the Japanese banks changed their posture on the deal as a result of the inquiry
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1467..1475
+8,3,0;8,3,1,0
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1583..1587
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+928..1083
+6
+#### Text ####
+Mr. Utsumi said the most the ministry had ever done was ask Japanese banks about "the status of their participation" in one previous U.S. leveraged buy-out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1572..1582;1588..1680
+9,0;9,2,0;9,2,1,0;9,2,1,1,0;9,2,1,1,1,0;9,2,1,1,1,1;9,3
+#### Text ####
+Mr. Utsumi said some Japanese banks were willing to participate in the UAL financing up to the very end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1976
+12
+#### Features ####
+Ot, Comm, Null, Null
+1966..1973
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+he said
+##############
+indeed, Expansion.Conjunction
+____Arg1____
+1880..1963
+11,1
+#### Text ####
+Each Japanese bank has its own judgment on the profits and risks in that {UAL} deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1976..2010
+12
+#### Text ####
+They are becoming more independent
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2012
+13
+____Arg1____
+1976..2010
+12
+#### Text ####
+They are becoming more independent
+##############
+____Arg2____
+2012..2035
+13
+#### Text ####
+It's a sound phenomenon
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+2038
+14
+____Arg1____
+2012..2035
+13
+#### Text ####
+It's a sound phenomenon
+##############
+____Arg2____
+2038..2132
+14
+#### Text ####
+Sanwa Bank Ltd. is one Japanese bank that decided not to participate in the first UAL proposal
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2134
+15
+____Arg1____
+2038..2132
+14
+#### Text ####
+Sanwa Bank Ltd. is one Japanese bank that decided not to participate in the first UAL proposal
+##############
+____Arg2____
+2134..2228
+15
+#### Text ####
+A Sanwa Bank spokesman denied that the finance ministry played any part in the bank's decision
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2231
+16
+#### Features ####
+Ot, Comm, Null, Null
+2258..2265
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+he said
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+2164..2228
+15,1,1
+#### Text ####
+that the finance ministry played any part in the bank's decision
+##############
+#### Features ####
+Ot, Comm, Neg, Null
+2134..2163
+15,0;15,1,0;15,2
+#### Text ####
+A Sanwa Bank spokesman denied
+##############
+____Arg2____
+2231..2255
+16,1
+#### Text ####
+We made our own decision
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2269..2274
+17,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+2134..2228
+15
+#### Text ####
+A Sanwa Bank spokesman denied that the finance ministry played any part in the bank's decision
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2276..2451
+17,1;17,2;17,3;17,4
+#### Text ####
+Mr. Utsumi may have a hard time convincing market analysts who have rightly or wrongly believed that the ministry played a role in orchestrating recent moves by Japanese banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2453
+18
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+2269..2451
+17
+#### Text ####
+Still, Mr. Utsumi may have a hard time convincing market analysts who have rightly or wrongly believed that the ministry played a role in orchestrating recent moves by Japanese banks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2453..2569
+18
+#### Text ####
+All week there has been much speculation in financial circles in Tokyo and abroad about the ministry's real position
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2914
+21
+#### Features ####
+Ot, Comm, Null, Null
+3005..3013
+21,1;21,2;21,3;21,4
+#### Text ####
+he added
+##############
+consequently, Contingency.Cause.Result
+____Arg1____
+2731..2848
+20,1
+#### Text ####
+The {ministry} thinks the banks don't know what they are doing, that they have very little idea how to cope with risk
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2851..2880
+20,0;20,2;20,3,0;20,4
+#### Text ####
+said one foreign bank analyst
+##############
+____Arg2____
+2914..3003
+21,0
+#### Text ####
+The {ministry} wants to see the Japanese banks pull in their horns" on leveraged buy-outs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3017..3025
+22,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+3168..3251
+22,4,1
+#### Text ####
+they have a hard time believing that commercial considerations were the only reason
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3149..3167
+22,1;22,2;22,3;22,4,0;22,5
+#### Text ####
+observers here say
+##############
+____Arg2____
+3026..3147
+22,0,1
+#### Text ####
+some of the Japanese banks involved in the first proposed bid for UAL bowed out because they found the terms unattractive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3106..3113
+22,0,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3017..3105
+22,0,0;22,0,1,0;22,0,1,1,0;22,0,1,1,1
+#### Text ####
+Although some of the Japanese banks involved in the first proposed bid for UAL bowed out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3114..3147
+22,0,1,1,2,1
+#### Text ####
+they found the terms unattractive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3253
+23
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3168..3251
+22,4,1
+#### Text ####
+they have a hard time believing that commercial considerations were the only reason
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3149..3167
+22,1;22,2;22,3;22,4,0;22,5
+#### Text ####
+observers here say
+##############
+____Arg2____
+3253..3306
+23,0
+#### Text ####
+Japanese banks are under "political pressure" as well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3308..3324
+23,1;23,2;23,3;23,4
+#### Text ####
+the analyst said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3326..3334
+24,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+3253..3306
+23,0
+#### Text ####
+Japanese banks are under "political pressure" as well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3308..3324
+23,1;23,2;23,3;23,4
+#### Text ####
+the analyst said
+##############
+____Arg2____
+3355..3572
+24,3,2
+#### Text ####
+that Japanese banks have a reputation for doing deals that aren't extremely profitable if they offer the chance to build market share, cement an important business relationship or curry favor with powerful bureaucrats
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3336..3354
+24,1;24,2;24,3,0;24,3,1;24,4
+#### Text ####
+analysts point out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3442..3444
+24,3,2,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3393..3441
+24,3,2,1,1,1,1
+#### Text ####
+for doing deals that aren't extremely profitable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3445..3572
+24,3,2,1,1,2,1
+#### Text ####
+they offer the chance to build market share, cement an important business relationship or curry favor with powerful bureaucrats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3679
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3576..3677
+25
+#### Text ####
+Clearly, some financial authorities are concerned about the Japanese banks role in leveraged buy-outs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3679..3820
+26
+#### Text ####
+At a news conference this week, Bank of Japan Gov. Satoshi Sumita cautioned banks to take a "prudent" stance regarding highly leveraged deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3822
+27
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+3679..3820
+26
+#### Text ####
+At a news conference this week, Bank of Japan Gov. Satoshi Sumita cautioned banks to take a "prudent" stance regarding highly leveraged deals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3822..3932
+27
+#### Text ####
+Despite Mr. Sumita's statements, it is the Finance Ministry, not the central bank, that makes policy decisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3936..3941
+28,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+4002..4057
+28,1;28,2;28,3;28,4
+#### Text ####
+Japanese banks aren't likely to walk away from the game
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3942..4000
+28,0,1
+#### Text ####
+recent events may cool some of the leveraged buy-out fever
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4059
+29
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3936..4057
+28
+#### Text ####
+While recent events may cool some of the leveraged buy-out fever, Japanese banks aren't likely to walk away from the game
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4059..4177
+29,0
+#### Text ####
+Despite the risks, the deals can be an attractive way for Japanese banks to increase their presence in the U.S. market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4179..4196
+29,1;29,2;29,3;29,4
+#### Text ####
+bank analysts say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4198
+30
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+4059..4177
+29,0
+#### Text ####
+Despite the risks, the deals can be an attractive way for Japanese banks to increase their presence in the U.S. market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4179..4196
+29,1;29,2;29,3;29,4
+#### Text ####
+bank analysts say
+##############
+____Arg2____
+4198..4302
+30
+#### Text ####
+Flush with cash at home, but with fewer customers to lend to, leading banks are eager to expand overseas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4304
+31
+____Arg1____
+4198..4302
+30
+#### Text ####
+Flush with cash at home, but with fewer customers to lend to, leading banks are eager to expand overseas
+##############
+____Arg2____
+4304..4419
+31
+#### Text ####
+Jumping in on big deals is a high profile way to leapfrog the problem of not having a strong retail-banking network
+##############
+________________________________________________________

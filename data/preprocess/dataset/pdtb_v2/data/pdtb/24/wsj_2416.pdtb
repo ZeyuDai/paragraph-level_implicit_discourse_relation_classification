@@ -1,0 +1,411 @@
+________________________________________________________
+____Explicit____
+407..413
+2,0,0
+#### Text ####
+Though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+506..551
+2,3,3
+#### Text ####
+We're pretty proud of the employees' response
+##############
+#### Features ####
+Ot, Comm, Null, Null
+444..503
+2,1;2,2;2,3,0;2,3,1;2,3,2;2,4;2,5
+#### Text ####
+James J. Didion, chairman and chief executive officer, said
+##############
+____Arg2____
+414..442
+2,0,1
+#### Text ####
+the offering didn't sell out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+563
+3
+#### Features ####
+Ot, Comm, Null, Null
+554..562
+3,0;3,1,0;3,2
+#### Text ####
+He noted
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+506..551
+2,3,3
+#### Text ####
+We're pretty proud of the employees' response
+##############
+#### Features ####
+Ot, Comm, Null, Null
+407..503
+2,0;2,1;2,2;2,3,0;2,3,1;2,3,2;2,4;2,5
+#### Text ####
+Though the offering didn't sell out, James J. Didion, chairman and chief executive officer, said
+##############
+____Arg2____
+563..607;734..793
+3,1,1,0;3,1,1,1,0,0;3,1,1,1,0,1,0;3,1,1,1,0,1,1;3,1,1,1,0,1,3;3,1,1,1,1;3,1,1,1,2;3,1,1,1,3
+#### Text ####
+that unlike an employee stock ownership plan here employees had to fork out their own cash for the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+796
+4
+#### Features ####
+Ot, Comm, Null, Null
+858..873
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+Mr. Didion said
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+563..607;734..793
+3,1,1,0;3,1,1,1,0,0;3,1,1,1,0,1,0;3,1,1,1,0,1,1;3,1,1,1,0,1,3;3,1,1,1,1;3,1,1,1,2;3,1,1,1,3
+#### Text ####
+that unlike an employee stock ownership plan here employees had to fork out their own cash for the stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+554..562
+3,0;3,1,0;3,2
+#### Text ####
+He noted
+##############
+____Arg2____
+796..855
+4,1
+#### Text ####
+They came up with their own money instead of borrowed money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+876
+5
+#### Features ####
+Ot, Comm, Null, Null
+858..873
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+Mr. Didion said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+796..855
+4,1
+#### Text ####
+They came up with their own money instead of borrowed money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+876..898
+5
+#### Text ####
+It's totally different
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+984
+7
+#### Features ####
+Ot, Comm, Null, Null
+903..910
+6,0;6,1,0;6,2
+#### Text ####
+He said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+911..981
+6,1,1
+#### Text ####
+the offering was designed to create long-term incentives for employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+984..1129
+7
+#### Text ####
+We're in a service business, and in that context, it's vital to have your employees involved in the ownership so they have a stake in the success
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1013..1016
+7,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+903..910
+6,0;6,1,0;6,2
+#### Text ####
+He said
+##############
+and, Contingency.Cause.Result, Expansion.Conjunction
+____Arg1____
+984..1011
+7,1
+#### Text ####
+We're in a service business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1017..1093
+7,4,0;7,4,1;7,4,2;7,4,3,0;7,4,3,1;7,4,3,2,0;7,4,3,2,1,0;7,4,3,2,1,1,0;7,4,3,2,1,1,1
+#### Text ####
+in that context, it's vital to have your employees involved in the ownership
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1094..1129
+7,4,3,2,1,1,2
+#### Text ####
+so they have a stake in the success
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1094..1096
+7,4,3,2,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Comm, Null, Null
+903..910
+6,0;6,1,0;6,2
+#### Text ####
+He said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1045..1093
+7,4,3,2,0;7,4,3,2,1,0;7,4,3,2,1,1,0;7,4,3,2,1,1,1
+#### Text ####
+to have your employees involved in the ownership
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1097..1129
+7,4,3,2,1,1,2,1
+#### Text ####
+they have a stake in the success
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1132
+8
+____Arg1____
+984..1129
+7
+#### Text ####
+We're in a service business, and in that context, it's vital to have your employees involved in the ownership so they have a stake in the success
+##############
+____Arg2____
+1132..1184
+8
+#### Text ####
+The brokerage firm won't pay a dividend on the stock
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1246..1249
+9,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1188..1244
+9,0
+#### Text ####
+Employees have the right to trade stock among themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1250..1326
+9,3
+#### Text ####
+the company will establish an internal clearing house for these transactions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1337..1341
+10,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1188..1244
+9,0
+#### Text ####
+Employees have the right to trade stock among themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1328..1336;1342..1385
+10,0,0;10,0,1,0;10,0,1,2;10,0,1,3
+#### Text ####
+They may eventually sell the shares to third parties
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1387..1390
+10,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1328..1385
+10,0
+#### Text ####
+They may also eventually sell the shares to third parties
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1391..1489
+10,3
+#### Text ####
+the outside investors who own the remaining 60% of Coldwell Banker have the right to first refusal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2020
+12
+____Arg1____
+1493..2018
+11
+#### Text ####
+Those outside investors in Coldwell Banker include Carlyle Group, a closely held Washington, D.C., merchant banking firm whose co-chairman is Frank Carlucci, former secretary of defense; Frederic V. Malek, senior adviser to Carlyle Group; Mellon Family Trust of Pittsburgh; Westinghouse Credit Corp., the financial services unit of Westinghouse Electric Corp.; Bankers Trust Co., a unit of Bankers Trust New York Corp.; and a group of Japanese investors represented by the investment banking unit of Tokyo-based Sumitomo Bank
+##############
+____Arg2____
+2020..2103
+12
+#### Text ####
+Bankers Trust and Sumitomo financed the $300 million acquisition from Sears Roebuck
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2105
+13
+____Arg1____
+2020..2103
+12
+#### Text ####
+Bankers Trust and Sumitomo financed the $300 million acquisition from Sears Roebuck
+##############
+____Arg2____
+2105..2187
+13
+#### Text ####
+Coldwell Banker also named three outside director nominees for its 17 member board
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2121..2125
+13,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..114
+0,0;0,1,0;0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,1,1,1,1,2;0,1,1,1,1,3;0,1,1,1,1,4;0,2
+#### Text ####
+Coldwell Banker Commercial Group said it sold $47 million of common stock to its employees at $10 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2105..2120;2126..2187
+13,0;13,2;13,3
+#### Text ####
+Coldwell Banker named three outside director nominees for its 17 member board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2189
+14
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2105..2187
+13
+#### Text ####
+Coldwell Banker also named three outside director nominees for its 17 member board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2189..2418
+14
+#### Text ####
+The nominees are Gary Wilson, chief financial officer of Walt Disney Co.; James Montgomery, chief executive officer of Great Western Financial Corp.; and Peter Ubberroth, former commissioner of baseball and now a private investor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

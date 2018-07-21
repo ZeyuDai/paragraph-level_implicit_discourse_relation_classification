@@ -1,0 +1,718 @@
+________________________________________________________
+____Explicit____
+426..430
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+36..139
+0,1,1
+#### Text ####
+federal thrift regulators ordered it to suspend dividend payments on its two classes of preferred stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..35
+0,0;0,1,0;0,1,2;0,2
+#### Text ####
+CenTrust Savings Bank said
+##############
+____Arg2____
+415..425;431..487
+2,0;2,2;2,3
+#### Text ####
+Regulators ordered CenTrust to stop buying back the preferred stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+692
+4
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+491..690
+3
+#### Text ####
+David L. Paul, chairman and chief executive officer, criticized the federal Office of Thrift Supervision, which issued the directive, saying it was "inappropriate" and based on "insufficient" reasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+692..761
+4
+#### Text ####
+He said the thrift will try to get regulators to reverse the decision
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1045
+7
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+909..1043
+6
+#### Text ####
+In March, regulators labeled CenTrust a "troubled institution," largely because of its big junk-bond holdings and its operating losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1045..1193
+7
+#### Text ####
+In the same month, the Office of Thrift Supervision ordered the institution to stop paying common stock dividends until its operations were on track
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1159..1164
+7,3,2,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1045..1120
+7,0;7,1;7,2;7,3,0;7,3,1;7,4
+#### Text ####
+In the same month, the Office of Thrift Supervision ordered the institution
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+1121..1158
+7,3,2,0;7,3,2,1,0;7,3,2,1,1,0;7,3,2,1,1,1
+#### Text ####
+to stop paying common stock dividends
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1165..1193
+7,3,2,1,1,2,1
+#### Text ####
+its operations were on track
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1330
+9
+____Arg1____
+1197..1328
+8
+#### Text ####
+For the nine months ended June 30, CenTrust had a net loss of $21.3 million, compared with year-earlier net income of $52.8 million
+##############
+____Arg2____
+1330..1448
+9
+#### Text ####
+CenTrust, which is Florida's largest thrift, holds one of the largest junk-bond portfolios of any thrift in the nation
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1450
+10
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1330..1338;1375..1448
+9,0,0;9,0,1;9,0,3;9,1;9,2
+#### Text ####
+CenTrust holds one of the largest junk-bond portfolios of any thrift in the nation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1450..1545
+10
+#### Text ####
+Since April, it has pared its high-yield bond holdings to about $890 million from $1.35 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1561
+11
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1450..1545
+10
+#### Text ####
+Since April, it has pared its high-yield bond holdings to about $890 million from $1.35 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1561..1688
+11,1,1
+#### Text ####
+only about $150 million of the current holdings are tradeable securities registered with the Securities and Exchange Commission
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1547..1560
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Paul said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1690
+12
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+1561..1688
+11,1,1
+#### Text ####
+only about $150 million of the current holdings are tradeable securities registered with the Securities and Exchange Commission
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1547..1560
+11,0;11,1,0;11,2
+#### Text ####
+Mr. Paul said
+##############
+____Arg2____
+1690..1703;1714..1833
+12,0;12,2;12,3
+#### Text ####
+The remainder are commercial loan participations, or private placements, that aren't filed with the SEC and don't have a ready market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1705..1712
+12,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1927
+14
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1837..1925
+13
+#### Text ####
+CenTrust and regulators have been in a dispute over market valuations for the junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1927..2170
+14
+#### Text ####
+The Office of Thrift Supervision has been hounding CenTrust to provide current market values for its holdings, but CenTrust has said it can't easily obtain such values because of the relative illiquidity of the bonds and lack of a ready market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2038..2041
+14,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2042..2059
+14,3,0;14,3,1,0;14,3,1,1,0
+#### Text ####
+CenTrust has said
+##############
+but, Comparison.Contrast
+____Arg1____
+1927..2036
+14,0
+#### Text ####
+The Office of Thrift Supervision has been hounding CenTrust to provide current market values for its holdings
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+2060..2170
+14,3,1,1,1
+#### Text ####
+it can't easily obtain such values because of the relative illiquidity of the bonds and lack of a ready market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2382
+16
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2174..2380
+15
+#### Text ####
+Regulators have become increasingly antsy about CenTrust's and other thrifts' junk-bond holdings in light of the recent federal thrift bailout legislation and the recent deep decline in the junk-bond market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2382..2487
+16
+#### Text ####
+The legislation requires thrifts to divest themselves of junk bonds in the new, somber regulatory climate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2816..2820
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2669..2810
+18,4,3
+#### Text ####
+saying the thrift's operating losses and "apparent" junk-bond losses "have been substantially offset by gains in other activities of the bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2813..2815;2821..2906
+19,0;19,2;19,3
+#### Text ####
+He said substantial reserves have been set aside for possible losses from the junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2930..2942
+20,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2826..2906
+19,2,1
+#### Text ####
+substantial reserves have been set aside for possible losses from the junk bonds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2813..2825
+19,0;19,1;19,2,0;19,3
+#### Text ####
+He also said
+##############
+____Arg2____
+2908..2928;2944..2996
+20,0;20,1;20,3;20,4;20,5;20,6
+#### Text ####
+In the third quarter CenTrust added $22.5 million to its general reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3036..3043
+21,1,1,1,1,1
+#### Text ####
+instead
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3000..3013
+21,0;21,1,0;21,2
+#### Text ####
+Mr. Paul said
+##############
+instead, Expansion.Alternative.Chosen alternative
+____Sup1____
+36..139
+0,1,1
+#### Text ####
+federal thrift regulators ordered it to suspend dividend payments on its two classes of preferred stock
+##############
+____Arg1____
+2643..2667
+18,4,1;18,4,2
+#### Text ####
+the regulators' decision
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2600..2642
+18,0;18,1;18,2;18,3;18,4,0;18,4,2;18,5;18,6
+#### Text ####
+In a statement Friday, Mr. Paul challenged
+##############
+____Arg2____
+3014..3035;3044..3211
+21,1,1,0;21,1,1,1,0;21,1,1,1,1,0;21,1,1,1,1,2
+#### Text ####
+the regulators should move ahead with approving CenTrust's request to sell 63 of its 71 branches to Great Western Bank, a unit of Great Western Financial Corp. based in Beverly Hills, Calif
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3425
+23
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3215..3423
+22
+#### Text ####
+The branch sale is the centerpiece of CenTrust's strategy to transform itself into a traditional S&L from a high-flying institution that relied heavily on securities trading for profits, according to Mr. Paul
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3402..3423
+22,1,2;22,1,3;22,2
+#### Text ####
+according to Mr. Paul
+##############
+____Arg2____
+3425..3512;3543..3558
+23,0;23,1,0;23,1,1,0;23,1,1,1,0;23,1,1,1,1,0;23,1,1,1,1,1,0;23,1,1,1,1,1,1;23,1,1,2;23,1,1,3;23,2
+#### Text ####
+Most analysts and thrift executives had expected a decision on the proposed transaction long before now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3560
+24
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3425..3512;3543..3558
+23,0;23,1,0;23,1,1,0;23,1,1,1,0;23,1,1,1,1,0;23,1,1,1,1,1,0;23,1,1,1,1,1,1;23,1,1,2;23,1,1,3;23,2
+#### Text ####
+Most analysts and thrift executives had expected a decision on the proposed transaction long before now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3560..3650
+24
+#### Text ####
+Many interpret the delay as an indication that regulators are skeptical about the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3652
+25
+____Arg1____
+3560..3650
+24
+#### Text ####
+Many interpret the delay as an indication that regulators are skeptical about the proposal
+##############
+____Arg2____
+3652..3755
+25
+#### Text ####
+Branches and deposits can be sold at a premium in the event federal regulators take over an institution
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3769..3776
+26,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3560..3650
+24
+#### Text ####
+Many interpret the delay as an indication that regulators are skeptical about the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3759..3767;3778..3799
+26,0;26,1;26,3;26,4,0;26,4,1;26,4,2;26,5
+#### Text ####
+CenTrust touts the branch sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3801..3901
+26,4,3
+#### Text ####
+saying it would bring in $150 million and reduce the thrift's assets to $6.7 billion from $9 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3903
+27
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3759..3901
+26
+#### Text ####
+CenTrust, however, touts the branch sale, saying it would bring in $150 million and reduce the thrift's assets to $6.7 billion from $9 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3903..4097
+27
+#### Text ####
+It said the sale would give it positive tangible capital of $82 million, or about 1.2% of assets, from a negative $33 million as of Sept. 30, thus bringing CenTrust close to regulatory standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4045..4049
+27,1,1,1,1,1,6,0
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3903..3910
+27,0;27,1,0;27,2
+#### Text ####
+It said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+3911..4043
+27,1,1,0;27,1,1,1,0;27,1,1,1,1,0;27,1,1,1,1,1,0;27,1,1,1,1,1,1;27,1,1,1,1,1,2;27,1,1,1,1,1,3;27,1,1,1,1,1,4;27,1,1,1,1,1,5
+#### Text ####
+the sale would give it positive tangible capital of $82 million, or about 1.2% of assets, from a negative $33 million as of Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4050..4097
+27,1,1,1,1,1,6,1;27,1,1,1,1,1,6,2
+#### Text ####
+bringing CenTrust close to regulatory standards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4137..4141
+28,1,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4101..4114
+28,0;28,1,0;28,2
+#### Text ####
+CenTrust said
+##############
+also, Expansion.Conjunction
+____Arg1____
+3911..4097
+27,1,1
+#### Text ####
+the sale would give it positive tangible capital of $82 million, or about 1.2% of assets, from a negative $33 million as of Sept. 30, thus bringing CenTrust close to regulatory standards
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3903..3910
+27,0;27,1,0;27,2
+#### Text ####
+It said
+##############
+____Arg2____
+4115..4136;4142..4210
+28,1,1,0;28,1,1,1,0;28,1,1,1,1,0;28,1,1,1,1,2
+#### Text ####
+the branch sale would reduce the company's large amount of good will by about $180 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4221..4228
+29,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4101..4210
+28
+#### Text ####
+CenTrust said the branch sale would also reduce the company's large amount of good will by about $180 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4212..4219;4230..4329
+29,0;29,1;29,3;29,4;29,5
+#### Text ####
+Critics say the branch sale will make CenTrust more dependent than ever on brokered deposits and junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4477..4481
+30,1,1,1,1,1,1,2,2,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+4351..4366
+30,1,1,0;30,1,1,1,0;30,1,1,1,1,0
+#### Text ####
+that he intends
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+4404..4476
+30,1,1,1,1,1,1,2,2,0;30,1,1,1,1,1,1,2,2,1,0;30,1,1,1,1,1,1,2,2,1,1;30,1,1,1,1,1,1,2,2,1,2,0;30,1,1,1,1,1,1,2,2,1,2,1
+#### Text ####
+by not renewing more than $1 billion of brokered certificates of deposit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4482..4495
+30,1,1,1,1,1,1,2,2,1,2,2,1
+#### Text ####
+they come due
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4511..4515
+31,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4351..4495
+30,1,1
+#### Text ####
+that he intends to further pare the size of CenTrust by not renewing more than $1 billion of brokered certificates of deposit when they come due
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4333..4350
+30,0;30,1,0;30,2
+#### Text ####
+Mr. Paul counters
+##############
+____Arg2____
+4497..4510;4516..4702
+31,0,0;31,0,1,0;31,0,1,2;31,1;31,2;31,3;31,4
+#### Text ####
+The thrift is working to unload its junk-bond portfolio by continuing to sell off the bonds, and it plans to eventually place some of them in a separate affiliate, as required under the new thrift law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4595..4598
+31,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4497..4593
+31,0
+#### Text ####
+The thrift is also working to unload its junk-bond portfolio by continuing to sell off the bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4599..4664
+31,3,0;31,3,1,0;31,3,1,1,0;31,3,1,1,1,0;31,3,1,1,1,1;31,3,1,1,1,2,0;31,3,1,1,1,2,1;31,3,1,1,1,2,2;31,3,1,1,1,2,3
+#### Text ####
+it plans to eventually place some of them in a separate affiliate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4666..4702
+31,3,1,1,1,2,4
+#### Text ####
+as required under the new thrift law
+##############
+________________________________________________________

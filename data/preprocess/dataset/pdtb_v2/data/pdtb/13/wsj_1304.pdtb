@@ -1,0 +1,202 @@
+________________________________________________________
+____Explicit____
+151..155
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..127
+0
+#### Text ####
+Inco Ltd. posted a 35% decline in third-quarter net income, a performance that was in line with analysts' expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+131..150;156..286
+1,0;1,2;1,3
+#### Text ####
+The nickel producer raised its quarterly dividend to 25 cents a share from 20 cents and said it may buy back as much as 4.8% of its common outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+346
+3
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+290..330
+2
+#### Text ####
+Inco shares fell after the announcements
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+346..447
+3,1,1
+#### Text ####
+some investors were disappointed that the cash-rich company had failed to announce a special dividend
+##############
+#### Features ####
+Ot, Comm, Null, Null
+332..345
+3,0;3,1,0;3,2
+#### Text ####
+Analysts said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+449
+4
+#### Features ####
+Wr, Comm, Null, Null
+hence, Contingency.Cause.Result
+____Arg1____
+346..447
+3,1,1
+#### Text ####
+some investors were disappointed that the cash-rich company had failed to announce a special dividend
+##############
+#### Features ####
+Ot, Comm, Null, Null
+332..345
+3,0;3,1,0;3,2
+#### Text ####
+Analysts said
+##############
+____Arg2____
+449..542
+4
+#### Text ####
+Inco closed at $31.125 a share, down 62.5 cents, in New York Stock Exchange composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+691..697
+5,1,1,1,1,2,4,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+565..689
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1;5,1,1,1,1,2,0;5,1,1,1,1,2,1;5,1,1,1,1,2,2;5,1,1,1,1,2,3
+#### Text ####
+Inco, which had cash reserves of $272 million as of Sept. 30, could still announce a special dividend in the next few months
+##############
+#### Features ####
+Ot, Comm, Null, Null
+546..564
+5,0;5,1,0;5,2
+#### Text ####
+Some analysts said
+##############
+____Arg2____
+698..773
+5,1,1,1,1,2,4,1
+#### Text ####
+it would be smaller than the $10-a-share special dividend it paid last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+977
+8
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+848..975
+7
+#### Text ####
+Inco's net fell to $129.3 million, or $1.23 a share, in the third quarter from $200.3 million, or $1.88 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+977..1030
+8
+#### Text ####
+Sales rose 8.2% to $848.7 million from $784.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1506..1508
+11,1,1,1,1,1,1,1,4,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1423..1431
+11,1,1,0;11,1,1,1,0;11,1,1,1,1,0
+#### Text ####
+it plans
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1432..1505
+11,1,1,1,1,1,0;11,1,1,1,1,1,1,0;11,1,1,1,1,1,1,1,0;11,1,1,1,1,1,1,1,1;11,1,1,1,1,1,1,1,2;11,1,1,1,1,1,1,1,3
+#### Text ####
+to buy back as many as five million common shares over the next 12 months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1509..1547
+11,1,1,1,1,1,1,1,4,1
+#### Text ####
+nickel market conditions are favorable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1549
+12
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1423..1547
+11,1,1
+#### Text ####
+it plans to buy back as many as five million common shares over the next 12 months if nickel market conditions are favorable
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1413..1422
+11,0;11,1,0;11,2
+#### Text ####
+Inco said
+##############
+____Arg2____
+1549..1639
+12
+#### Text ####
+Under a previous buyback program, Inco has purchased 1.7 million of its shares since April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

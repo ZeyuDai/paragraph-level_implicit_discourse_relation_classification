@@ -1,0 +1,236 @@
+________________________________________________________
+____Explicit____
+208..215
+1,1,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+146..181
+1,0;1,1,0;1,2;1,3
+#### Text ####
+The provincially owned utility said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+182..207
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,1,1,1,1,1,0;1,1,1,1,1,1,1;1,1,1,1,1,1,2
+#### Text ####
+it is tearing up the deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+217..261
+1,1,1,1,1,1,3,2
+#### Text ####
+the contract's objectives can't be fulfilled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+282
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+208..261
+1,1,1,1,1,1,3
+#### Text ####
+because "the contract's objectives can't be fulfilled
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+282..475
+2,1,1
+#### Text ####
+Maine regulators' refusal to approve the contract earlier this year halted work on transmission lines and stopped negotiations for resale of electricity carried through Maine to other utilities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+264..281
+2,0;2,1,0;2,2
+#### Text ####
+Hydro-Quebec said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+478
+3
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+282..475
+2,1,1
+#### Text ####
+Maine regulators' refusal to approve the contract earlier this year halted work on transmission lines and stopped negotiations for resale of electricity carried through Maine to other utilities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+264..281
+2,0;2,1,0;2,2
+#### Text ####
+Hydro-Quebec said
+##############
+____Arg2____
+478..543
+3,1
+#### Text ####
+It would now be physically impossible to begin deliveries in 1992
+##############
+#### Features ####
+Ot, Comm, Null, Null
+546..574
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+a Hydro-Quebec official said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+576
+4
+____Arg1____
+478..574
+3
+#### Text ####
+It would now be physically impossible to begin deliveries in 1992," a Hydro-Quebec official said
+##############
+____Arg2____
+576..617
+4
+#### Text ####
+The contract was to run from 1992 to 2020
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+917
+7
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+812..914
+6,1,1
+#### Text ####
+Maine regulators' refusal to approve the contract means Central Maine Power has lost its place in line
+##############
+#### Features ####
+Ot, Comm, Null, Null
+794..811
+6,0;6,1,0;6,2
+#### Text ####
+Hydro-Quebec said
+##############
+____Arg2____
+917..994
+7,1
+#### Text ####
+We won't sign any new contracts {with deliveries} beginning earlier than 2000
+##############
+#### Features ####
+Ot, Comm, Null, Null
+997..1027
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+the Hydro-Quebec official said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1037
+8
+#### Features ####
+Ot, Comm, Null, Null
+1029..1036
+8,0;8,1,0;8,2
+#### Text ####
+He said
+##############
+also, Expansion.Conjunction
+____Arg1____
+917..994
+7,1
+#### Text ####
+We won't sign any new contracts {with deliveries} beginning earlier than 2000
+##############
+#### Features ####
+Ot, Comm, Null, Null
+997..1027
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+the Hydro-Quebec official said
+##############
+____Arg2____
+1037..1134
+8,1,1
+#### Text ####
+Hydro-Quebec already has some "customers in mind" for the power that was to be delivered to Maine
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1137
+9
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1029..1134
+8
+#### Text ####
+He said Hydro-Quebec already has some "customers in mind" for the power that was to be delivered to Maine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1137..1423
+9
+#### Text ####
+Nothing has happened since we signed the contract to undermine our conviction that Hydro-Quebec was the lowest-cost, most environmentally acceptable choice for meeting a part of our customers' energy needs through the year 2020," said Central Maine senior vice president Donald F. Kelly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1158..1163
+9,1,1,1,1,0
+#### Text ####
+since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1367..1423
+9,0;9,2;9,3;9,4;9,5;9,6
+#### Text ####
+said Central Maine senior vice president Donald F. Kelly
+##############
+since, Temporal.Asynchronous.Succession
+____Arg1____
+1137..1157;1187..1364
+9,1,0;9,1,1,0;9,1,1,1,0;9,1,1,1,2
+#### Text ####
+Nothing has happened to undermine our conviction that Hydro-Quebec was the lowest-cost, most environmentally acceptable choice for meeting a part of our customers' energy needs through the year 2020
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1164..1186
+9,1,1,1,1,1
+#### Text ####
+we signed the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

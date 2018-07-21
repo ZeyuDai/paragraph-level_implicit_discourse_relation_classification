@@ -1,0 +1,591 @@
+________________________________________________________
+____Implicit____
+265
+2
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+84..263
+1
+#### Text ####
+Several moves were taken following the October 1987 crash to coordinate -- and sometimes deliberately disconnect -- the stock and futures markets in times of heightened volatility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+265..358
+2
+#### Text ####
+On the Big Board, a "side car" is put into effect when the S&P futures rise or fall 12 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+315..319
+2,3,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+265..314
+2,0;2,1;2,2;2,3,0;2,3,1,0;2,3,1,1;2,3,1,2;2,4
+#### Text ####
+On the Big Board, a "side car" is put into effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+320..358
+2,3,1,3,1
+#### Text ####
+the S&P futures rise or fall 12 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+360
+3
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+265..358
+2
+#### Text ####
+On the Big Board, a "side car" is put into effect when the S&P futures rise or fall 12 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+360..472
+3
+#### Text ####
+The side car routes program trades into a special computer file that scans for imbalances of buy and sell orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+474
+4
+____Arg1____
+360..472
+3
+#### Text ####
+The side car routes program trades into a special computer file that scans for imbalances of buy and sell orders
+##############
+____Arg2____
+474..619
+4
+#### Text ####
+On the Chicago Mercantile Exchange, S&P 500 futures are not allowed to fall further than 12 points from the previous day's close for half an hour
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+621
+5
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+474..619
+4
+#### Text ####
+On the Chicago Mercantile Exchange, S&P 500 futures are not allowed to fall further than 12 points from the previous day's close for half an hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+621..745
+5
+#### Text ####
+If, when trading resumes, the S&P futures fall 30 points from the previous day's close, a one-hour trading halt takes effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+621..623
+5,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+709..745
+5,1;5,2;5,3;5,4
+#### Text ####
+a one-hour trading halt takes effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+625..707
+5,0,2
+#### Text ####
+when trading resumes, the S&P futures fall 30 points from the previous day's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+625..629
+5,0,2,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+621..623;647..707
+5,0,0;5,0,1;5,0,2,1;5,0,2,2;5,0,2,3
+#### Text ####
+If the S&P futures fall 30 points from the previous day's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+630..645
+5,0,2,0,1
+#### Text ####
+trading resumes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+747..751
+6,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+474..745
+4;5
+#### Text ####
+On the Chicago Mercantile Exchange, S&P 500 futures are not allowed to fall further than 12 points from the previous day's close for half an hour.
+If, when trading resumes, the S&P futures fall 30 points from the previous day's close, a one-hour trading halt takes effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+753..949
+6,1;6,2;6,3;6,4
+#### Text ####
+the reforms allow the Big Board to halt trading for one hour if the Dow Jones Industrial Average falls 250 points, and for two more hours if the Dow slides an additional 150 points on the same day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+814..816
+6,3,1,1,1,0,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+753..770
+6,1;6,2;6,3,0;6,4
+#### Text ####
+the reforms allow
+##############
+if, Contingency.Condition.General
+____Arg1____
+771..813
+6,3,1,0;6,3,1,1,0;6,3,1,1,1,0,0;6,3,1,1,1,0,1;6,3,1,1,1,0,2
+#### Text ####
+the Big Board to halt trading for one hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+817..866
+6,3,1,1,1,0,3,1
+#### Text ####
+the Dow Jones Industrial Average falls 250 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+891..893
+6,3,1,1,1,3,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+753..770
+6,1;6,2;6,3,0;6,4
+#### Text ####
+the reforms allow
+##############
+if, Contingency.Condition.General
+____Arg1____
+868..890
+6,3,1,1,1,2;6,3,1,1,1,3,0
+#### Text ####
+and for two more hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+894..949
+6,3,1,1,1,3,1,1
+#### Text ####
+the Dow slides an additional 150 points on the same day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1116
+8
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+967..1114
+7,2
+#### Text ####
+The "Designated Order Turnaround" System was launched by the New York Stock Exchange in March 1976, to offer automatic, high-speed order processing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1116..1168
+8
+#### Text ####
+A faster version, the SuperDot, was launched in 1984
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1170
+9
+____Arg1____
+1116..1168
+8
+#### Text ####
+A faster version, the SuperDot, was launched in 1984
+##############
+____Arg2____
+1170..1302
+9
+#### Text ####
+Used by program traders and others to zip orders into the exchange, SuperDot handles about 80% of all orders entered at the exchange
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1531
+11
+____Arg1____
+1306..1529
+10
+#### Text ####
+Futures Contracts -- Obligations to buy (for those who have purchased a contract) or deliver (for those who sold one) a quantity of the underlying commodity or financial instrument at the agreed-upon price by a certain date
+##############
+____Arg2____
+1531..1608
+11
+#### Text ####
+Most contracts are simply nullified by an opposite trade before they come due
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1588..1594
+11,1,2,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1531..1587
+11,0;11,1,0;11,1,1;11,1,2,0;11,1,2,1;11,1,2,2;11,2
+#### Text ####
+Most contracts are simply nullified by an opposite trade
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1595..1608
+11,1,2,3,1
+#### Text ####
+they come due
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1809
+13
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1624..1807
+12,2
+#### Text ####
+Many investors, mainly institutions, follow an investment strategy of buying and holding a mix of stocks to match the performance of a broad stock-market barometer such as the S&P 500
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1809..1926
+13
+#### Text ####
+Many institutional index funds are active program traders, swapping their stocks for futures when profitable to do so
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1902..1906
+13,1,3,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+1868..1901
+13,1,3,0;13,1,3,1,0;13,1,3,1,1;13,1,3,1,2
+#### Text ####
+swapping their stocks for futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1907..1926
+13,1,3,1,3,1
+#### Text ####
+profitable to do so
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2168
+16
+____Arg1____
+2080..2166
+15
+#### Text ####
+Quant -- Generally, any Wall Street analyst who employs quantitive research techniques
+##############
+____Arg2____
+2168..2368
+16
+#### Text ####
+The newest breed, also called "rocket scientists" because of their backgrounds in physics and mathematics, devise the complex hedging and trading strategies that are popularly known as program trading
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2433..2438
+17,2,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+2397..2432
+17,2,0;17,2,1,0;17,2,1,1;17,2,1,2;17,2,1,3
+#### Text ####
+Buying or selling baskets of stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2439..2517
+17,2,1,4,1
+#### Text ####
+at the same time executing offsetting trades in stock-index futures or options
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2519
+18
+____Arg1____
+2372..2517
+17
+#### Text ####
+Stock-index arbitrage -- Buying or selling baskets of stocks while at the same time executing offsetting trades in stock-index futures or options
+##############
+____Arg2____
+2519..2631
+18
+#### Text ####
+Traders profit by trying to capture fleeting price discrepancies between stocks and the index futures or options
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2633..2635
+19,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2683..2742
+19,1;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+for example, an arbitrager will buy stocks and sell futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2636..2681
+19,0,1
+#### Text ####
+stocks are temporarily "cheaper" than futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2683..2694
+19,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2519..2631
+18
+#### Text ####
+Traders profit by trying to capture fleeting price discrepancies between stocks and the index futures or options
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2633..2681;2696..2742
+19,0;19,1;19,3;19,4;19,5;19,6
+#### Text ####
+If stocks are temporarily "cheaper" than futures an arbitrager will buy stocks and sell futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2845
+21
+____Arg1____
+2746..2843
+20
+#### Text ####
+Stock-index futures -- Contracts to buy or sell the cash value of a stock index by a certain date
+##############
+____Arg2____
+2845..2927
+21
+#### Text ####
+The cash value is determined by multiplying the index number by a specified amount
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2929
+22
+____Arg1____
+2845..2927
+21
+#### Text ####
+The cash value is determined by multiplying the index number by a specified amount
+##############
+____Arg2____
+2929..3321
+22
+#### Text ####
+The most common program-trading vehicles are futures contracts on Standard & poor's 500-stock index (traded on the Chicago Mercantile Exchange); the Major Market Index, a 20-stock index that mimics the Dow Jones Industrial Average (traded on the chicago Board of Trade); and the S&P 100 options (traded on the Chicago Board Options Exchange, and based on 100 stocks selected from the S&P 500)
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3546
+24
+____Arg1____
+3348..3544
+23,2
+#### Text ####
+Options give holders the right, but not the obligation, to buy (a call) or sell (a put) a specified amount of an underlying investment by a certin date at a preset price, known as the strike price
+##############
+____Arg2____
+3546..3663
+24
+#### Text ####
+For stock indexes, the underlying investment may be a stock-index futures contract or the cash value of a stock index
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3665..3676
+25,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3546..3663
+24
+#### Text ####
+For stock indexes, the underlying investment may be a stock-index futures contract or the cash value of a stock index
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3678..3752
+25,1;25,2;25,3;25,4
+#### Text ####
+there are options on the S&P 500 futures contract and on the S&P 100 index
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

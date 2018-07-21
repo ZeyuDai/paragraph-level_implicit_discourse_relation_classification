@@ -1,0 +1,442 @@
+________________________________________________________
+____EntRel____
+338
+2
+____Arg1____
+145..336
+1
+#### Text ####
+The average seven-day compound yield of the 400 taxable funds tracked by IBC/Donoghue's Money Fund Report eased a fraction of a percentage point to 8.45% from 8.47% for the week ended Tuesday
+##############
+____Arg2____
+338..434
+2
+#### Text ####
+Compound yields assume reinvestment of dividends and that the current yield continues for a year
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+570
+4
+____Arg1____
+438..568
+3
+#### Text ####
+Average maturity of the funds' investments lengthened by a day to 41 days, the longest since early August, according to Donoghue's
+##############
+____Arg2____
+570..729
+4
+#### Text ####
+Longer maturities are thought to indicate declining interest rates because they permit portfolio managers to retain relatively higher rates for a longer period
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+637..644
+4,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+570..599
+4,0;4,1,0;4,1,1,0
+#### Text ####
+Longer maturities are thought
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+570..636
+4,0;4,1,0;4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1,0;4,1,1,1,1,1,1;4,2
+#### Text ####
+Longer maturities are thought to indicate declining interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+645..729
+4,1,1,1,1,1,2,1
+#### Text ####
+they permit portfolio managers to retain relatively higher rates for a longer period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+765
+5
+#### Features ####
+Wr, Comm, Null, Null
+on the other hand, Comparison.Contrast.Opposition
+____Arg1____
+600..636
+4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1,0;4,1,1,1,1,1,1
+#### Text ####
+to indicate declining interest rates
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+570..599
+4,0;4,1,0;4,1,1,0;4,2
+#### Text ####
+Longer maturities are thought
+##############
+____Arg2____
+765..787
+5,1,1,1
+#### Text ####
+a sign of rising rates
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+731..764
+5,0;5,1,0;5,1,1,0;5,2
+#### Text ####
+Shorter maturities are considered
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+788..795
+5,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+731..764
+5,0;5,1,0;5,1,1,0
+#### Text ####
+Shorter maturities are considered
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+731..787
+5,0;5,1,0;5,1,1,0;5,1,1,1;5,2
+#### Text ####
+Shorter maturities are considered a sign of rising rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+796..846
+5,1,1,2,1
+#### Text ####
+portfolio managers can capture higher rates sooner
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+954..961
+6,0,3,0,2,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+908..926
+6,0,3,0,0;6,0,3,0,1
+#### Text ####
+considered by some
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+927..953
+6,0,3,0,2,0;6,0,3,0,2,1,0;6,0,3,0,2,1,1,0;6,0,3,0,2,1,1,1
+#### Text ####
+to be a stronger indicator
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+962..1001
+6,0,3,0,2,1,1,2,1
+#### Text ####
+those managers watch the market closely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1051..1063
+7,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Contrast
+____Arg1____
+9..141
+0
+#### Text ####
+Yields on money-market mutual funds continued to slide, amid signs that portfolio managers expect further declines in interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1121..1222
+7,2;7,3;7,4;7,5
+#### Text ####
+yields "may blip up again before they blip down" because of recent rises in short-term interest rates
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1065..1119
+7,1
+#### Text ####
+said Brenda Malizia Negus, editor of Money Fund Report
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1147..1153
+7,4,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1065..1119
+7,1
+#### Text ####
+said Brenda Malizia Negus, editor of Money Fund Report
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1051..1063;1121..1146
+7,0;7,2;7,3;7,4,0;7,4,1,0;7,4,1,1;7,4,1,2
+#### Text ####
+Nevertheless yields "may blip up again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1154..1222
+7,4,1,3,1;7,4,1,4;7,4,1,5;7,5
+#### Text ####
+they blip down" because of recent rises in short-term interest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1288..1299
+8,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1051..1063;1121..1222
+7,0;7,2;7,3;7,4;7,5
+#### Text ####
+Nevertheless yields "may blip up again before they blip down" because of recent rises in short-term interest rates
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1065..1119
+7,1
+#### Text ####
+said Brenda Malizia Negus, editor of Money Fund Report
+##############
+____Arg2____
+1224..1286;1301..1325
+8,0;8,1;8,3;8,4;8,5
+#### Text ####
+The yield on six-month Treasury bills sold at Monday's auction rose to 8.04% from 7.90%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1414
+10
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1329..1412
+9
+#### Text ####
+Despite recent declines in yields, investors continue to pour cash into money funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1414..1508
+10
+#### Text ####
+Assets of the 400 taxable funds grew by $1.5 billion during the latest week, to $352.7 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1580..1587
+11,3,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1512..1579
+11,0;11,1;11,2;11,3,0;11,3,1;11,4
+#### Text ####
+Typically, money-fund yields beat comparable short-term investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1588..1657
+11,3,2,1
+#### Text ####
+portfolio managers can vary maturities and go after the highest rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1659
+12
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1512..1579
+11,0;11,1;11,2;11,3,0;11,3,1;11,4
+#### Text ####
+Typically, money-fund yields beat comparable short-term investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1659..1714
+12
+#### Text ####
+The top money funds are currently yielding well over 9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1716
+13
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1659..1714
+12
+#### Text ####
+The top money funds are currently yielding well over 9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1716..1860
+13
+#### Text ####
+Dreyfus World-Wide Dollar, the top-yielding fund, had a seven-day compound yield of 9.37% during the latest week, down from 9.45% a week earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1862
+14
+____Arg1____
+1716..1860
+13
+#### Text ####
+Dreyfus World-Wide Dollar, the top-yielding fund, had a seven-day compound yield of 9.37% during the latest week, down from 9.45% a week earlier
+##############
+____Arg2____
+1862..1987
+14
+#### Text ####
+It invests heavily in dollar-denominated securities overseas and is currently waiving management fees, which boosts its yield
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+1989
+15
+____Arg1____
+1862..1987
+14
+#### Text ####
+It invests heavily in dollar-denominated securities overseas and is currently waiving management fees, which boosts its yield
+##############
+____Arg2____
+1989..2067
+15
+#### Text ####
+The average seven-day simple yield of the 400 funds was 8.12%, down from 8.14%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2069
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1989..2067
+15
+#### Text ####
+The average seven-day simple yield of the 400 funds was 8.12%, down from 8.14%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2069..2128
+16,0
+#### Text ####
+The 30-day simple yield fell to an average 8.19% from 8.22%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2130
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1989..2128
+15;16,0
+#### Text ####
+The average seven-day simple yield of the 400 funds was 8.12%, down from 8.14%.
+The 30-day simple yield fell to an average 8.19% from 8.22%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2130..2191
+16,2
+#### Text ####
+the 30-day compound yield slid to an average 8.53% from 8.56%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

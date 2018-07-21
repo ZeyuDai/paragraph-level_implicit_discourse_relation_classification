@@ -1,0 +1,116 @@
+________________________________________________________
+____Implicit____
+314
+2
+#### Features ####
+Wr, Comm, Null, Null
+as, Expansion.Conjunction
+____Arg1____
+215..312
+1
+#### Text ####
+The loss compares with net income of $162.1 million, or $2.01 a share, in the year-earlier period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+314..380
+2
+#### Text ####
+Interest income rose 29% to about $1.35 billion from $1.05 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+382
+3
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+314..380
+2
+#### Text ####
+Interest income rose 29% to about $1.35 billion from $1.05 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+382..480
+3
+#### Text ####
+The New York bank holding company's assets at Sept. 30 climbed to $59.4 billion from $57.9 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+616
+5
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+484..614
+4
+#### Text ####
+Excluding the increase in loan-loss reserves, Bankers Trust said third-quarter net income would have increased 11% to $180 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+616..706
+5
+#### Text ####
+A number of major banks have posted big losses after sharply increasing loan-loss reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+663..668
+5,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+616..662
+5,0;5,1,0;5,1,1,0;5,1,1,1;5,2
+#### Text ####
+A number of major banks have posted big losses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+669..706
+5,1,1,2,1
+#### Text ####
+sharply increasing loan-loss reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+708
+6
+____Arg1____
+616..706
+5
+#### Text ####
+A number of major banks have posted big losses after sharply increasing loan-loss reserves
+##############
+____Arg2____
+708..783
+6
+#### Text ####
+Most of the loans in question are to Third World countries in South America
+##############
+________________________________________________________

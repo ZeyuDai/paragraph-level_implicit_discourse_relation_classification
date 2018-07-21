@@ -1,0 +1,100 @@
+________________________________________________________
+____Implicit____
+220
+1
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+37..138
+0,1,1
+#### Text ####
+it borrowed 215 million Dutch guilders (US$102 million) from a group of Dutch institutional investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..36
+0,0;0,1,0;0,2
+#### Text ####
+MACMILLAN BLOEDEL Ltd. said
+##############
+____Arg2____
+220..254
+1,1,1
+#### Text ####
+the 8.1% loan is due Oct. 16, 1996
+##############
+#### Features ####
+Ot, Comm, Null, Null
+140..219
+1,0;1,1,0;1,2
+#### Text ####
+MacMillan Bloedel, a Vancouver, British Columbia, forest products concern, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+256
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+37..138;220..254
+0,1,1;1,1,1
+#### Text ####
+it borrowed 215 million Dutch guilders (US$102 million) from a group of Dutch institutional investors the 8.1% loan is due Oct. 16, 1996
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..36;140..219
+0,0;0,1,0;0,2;1,0;1,1,0;1,2
+#### Text ####
+MACMILLAN BLOEDEL Ltd. said MacMillan Bloedel, a Vancouver, British Columbia, forest products concern, said
+##############
+____Arg2____
+256..340
+2,0
+#### Text ####
+Funds will be used to repay existing short-term debt and to finance capital spending
+##############
+#### Features ####
+Ot, Comm, Null, Null
+342..349
+2,1;2,2;2,3;2,4
+#### Text ####
+it said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+309..312
+2,0,1,1,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+342..349
+2,1;2,2;2,3;2,4
+#### Text ####
+it said
+##############
+and, Expansion.List
+____Arg1____
+275..308
+2,0,1,1,1,2,0
+#### Text ####
+to repay existing short-term debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+313..340
+2,0,1,1,1,2,2
+#### Text ####
+to finance capital spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,200 @@
+________________________________________________________
+____Explicit____
+87..90
+0,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+191..207
+0,1;0,2;0,3;0,4
+#### Text ####
+the company said
+##############
+and, Expansion.Conjunction
+____Arg1____
+9..86
+0,0,0
+#### Text ####
+Magna International Inc. 's chief financial officer, James McAlpine, resigned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+91..189
+0,0,2
+#### Text ####
+its chairman, Frank Stronach, is stepping in to help turn the automotive-parts manufacturer around
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+292..297
+1,0,1,1,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+363..373
+1,1;1,2;1,3;1,4;1,5
+#### Text ####
+Magna said
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+211..290
+1,0,0;1,0,1,0;1,0,1,1,0;1,0,1,1,1;1,0,1,1,2
+#### Text ####
+Mr. Stronach will direct an effort to reduce overhead and curb capital spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+298..360
+1,0,1,1,3,1
+#### Text ####
+a more satisfactory level of profit is achieved and maintained
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+540..542
+3,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+459..539
+3,0;3,1,0;3,1,1,0;3,1,1,1;3,2
+#### Text ####
+An ambitious expansion has left Magna with excess capacity and a heavy debt load
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+543..584
+3,1,1,2,1
+#### Text ####
+the automotive industry enters a downturn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+586
+4
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+459..584
+3
+#### Text ####
+An ambitious expansion has left Magna with excess capacity and a heavy debt load as the automotive industry enters a downturn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+586..700
+4
+#### Text ####
+The company has reported declines in operating profit in each of the past three years, despite steady sales growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+754..757
+5,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+704..753
+5,0
+#### Text ####
+Magna recently cut its quarterly dividend in half
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+758..867
+5,2
+#### Text ####
+the company's Class A shares are wallowing far below their 52-week high of 16.125 Canadian dollars (US$13.73)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+869
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+758..867
+5,2
+#### Text ####
+the company's Class A shares are wallowing far below their 52-week high of 16.125 Canadian dollars (US$13.73)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+869..963
+6
+#### Text ####
+On the Toronto Stock Exchange yesterday, Magna shares closed up 37.5 Canadian cents to C$9.625
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1222
+9
+____Arg1____
+1131..1220
+8
+#### Text ####
+Analysts said Mr. Stronach wants to resume a more influential role in running the company
+##############
+____Arg2____
+1222..1278
+9
+#### Text ####
+They expect him to cut costs throughout the organization
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1412
+11
+____Arg1____
+1282..1410
+10
+#### Text ####
+The company said Mr. Stronach will personally direct the restructuring, assisted by Manfred Gingl, president and chief executive
+##############
+____Arg2____
+1412..1470
+11
+#### Text ####
+Neither they nor Mr. McAlpine could be reached for comment
+##############
+________________________________________________________

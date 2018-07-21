@@ -1,0 +1,1328 @@
+________________________________________________________
+____Implicit____
+68
+1
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..66
+0
+#### Text ####
+The Bakersfield Supermarket went out of business last May
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+68..121
+1
+#### Text ####
+The reason was not high interest rates or labor costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+123..126
+2,0
+#### Text ####
+Nor
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nor, Expansion.Alternative.Conjunctive
+____Arg1____
+68..121
+1
+#### Text ####
+The reason was not high interest rates or labor costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+127..226
+2,1;2,2;2,3;2,4
+#### Text ####
+was there a shortage of customers in the area, the residential Inwood section of northern Manhattan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+228
+3
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+123..226
+2
+#### Text ####
+Nor was there a shortage of customers in the area, the residential Inwood section of northern Manhattan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+228..286
+3
+#### Text ####
+The business closed when the owner was murdered by robbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+248..252
+3,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+228..247
+3,0;3,1,0;3,2
+#### Text ####
+The business closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+253..286
+3,1,1,1
+#### Text ####
+the owner was murdered by robbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+364
+5
+____Arg1____
+290..362
+4
+#### Text ####
+The owner was Israel Ortiz, a 29-year-old entrepreneur and father of two
+##############
+____Arg2____
+364..476
+5
+#### Text ####
+In his first year of operating the store he bought for $220,000, Mr. Ortiz was robbed at least twice at gunpoint
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+478
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+364..476
+5
+#### Text ####
+In his first year of operating the store he bought for $220,000, Mr. Ortiz was robbed at least twice at gunpoint
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+478..623
+6;7
+#### Text ####
+The first time he was shot in the hand as he chased the robbers outside.
+The second time he identified two robbers, who were arrested and charged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+517..519
+6,2,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+478..516
+6,0;6,1;6,2,0;6,2,1,0;6,2,1,1;6,2,1,2;6,3
+#### Text ####
+The first time he was shot in the hand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+520..549
+6,2,1,3,1
+#### Text ####
+he chased the robbers outside
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+551
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List, Comparison.Contrast.Juxtaposition
+____Arg1____
+478..549
+6
+#### Text ####
+The first time he was shot in the hand as he chased the robbers outside
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..623
+7
+#### Text ####
+The second time he identified two robbers, who were arrested and charged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+625
+8
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+551..623
+7
+#### Text ####
+The second time he identified two robbers, who were arrested and charged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+625..770
+8
+#### Text ####
+Two weeks later -- perhaps in retaliation -- Mr. Ortiz was shot three times in the back, during what police classified as a third robbery attempt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+872
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+794..870
+9,1,1,1
+#### Text ####
+for working until 11 p.m. seven days a week to cover his $3,000 a month rent
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+872..951
+10
+#### Text ####
+For providing what his customers described as very personal and helpful service
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+953
+11
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+794..951
+9,1,1,1;10
+#### Text ####
+for working until 11 p.m. seven days a week to cover his $3,000 a month rent.
+For providing what his customers described as very personal and helpful service
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+953..995
+11
+#### Text ####
+For creating a focus for neighborhood life
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1174
+13
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+999..1126
+12
+#### Text ####
+Israel Ortiz is only one of the thousands of entrepreneurs and their employees who will be injured or killed by crime this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1174..1253
+13,1,1,0;13,1,1,1,0;13,1,1,1,1,0;13,1,1,1,1,1;13,1,1,1,1,2;13,1,1,1,1,3
+#### Text ####
+that almost 2% of all retail-sales workers suffer injuries from crime each year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1128..1173
+13,0;13,1,0;13,2
+#### Text ####
+The U.S. Bureau of Justice Statistics reports
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1394
+14
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1174..1392
+13,1,1
+#### Text ####
+that almost 2% of all retail-sales workers suffer injuries from crime each year, almost twice the national average and about four times the rate for teachers, truck drivers, medical workers and door-to-door salespeople
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1128..1173
+13,0;13,1,0;13,2
+#### Text ####
+The U.S. Bureau of Justice Statistics reports
+##############
+____Arg2____
+1394..1513
+14
+#### Text ####
+Only a few other occupations have higher reported rates of criminal injury, such as police, bartenders and taxi drivers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1517..1520
+15,0
+#### Text ####
+Yet
+##############
+#### Features ####
+Wr, Comm, Null, Null
+yet, Expansion.Conjunction, Comparison.Concession.Contra-expectation
+____Arg1____
+1174..1392
+13,1,1
+#### Text ####
+that almost 2% of all retail-sales workers suffer injuries from crime each year, almost twice the national average and about four times the rate for teachers, truck drivers, medical workers and door-to-door salespeople
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1128..1173
+13,0;13,1,0;13,2
+#### Text ####
+The U.S. Bureau of Justice Statistics reports
+##############
+____Arg2____
+1521..1581
+15,1;15,2;15,3
+#### Text ####
+these figures show only the most visible part of the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1583
+16
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition, Expansion.Conjunction
+____Arg1____
+1517..1581
+15
+#### Text ####
+Yet these figures show only the most visible part of the problem
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1583..1641
+16
+#### Text ####
+Recent data from New York City provide more of the picture
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1643
+17
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1583..1641
+16
+#### Text ####
+Recent data from New York City provide more of the picture
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1643..1791
+17
+#### Text ####
+While by no means the highest crime community in the country, New York is a prime example of a city where crime strangles small-business development
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1643..1648
+17,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison
+____Arg1____
+1705..1791
+17,1;17,2;17,3;17,4
+#### Text ####
+New York is a prime example of a city where crime strangles small-business development
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1649..1703
+17,0,1
+#### Text ####
+by no means the highest crime community in the country
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1793
+18
+____Arg1____
+1643..1791
+17
+#### Text ####
+While by no means the highest crime community in the country, New York is a prime example of a city where crime strangles small-business development
+##############
+____Arg2____
+1793..1898
+18
+#### Text ####
+A survey of small businesses there was conducted this spring by Interface, a policy research organization
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1900
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1793..1898
+18
+#### Text ####
+A survey of small businesses there was conducted this spring by Interface, a policy research organization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1900..1967
+19
+#### Text ####
+It gave 1,124 businesses a questionnaire and analyzed 353 responses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1969
+20
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1941..1967
+19,1,1;19,1,2;19,2
+#### Text ####
+and analyzed 353 responses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1969..2122
+20
+#### Text ####
+The survey found that over a three-year period 22% of the firms said employees or owners had been robbed on their way to or from work or while on the job
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2124
+21
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1969..2122
+20
+#### Text ####
+The survey found that over a three-year period 22% of the firms said employees or owners had been robbed on their way to or from work or while on the job
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2124..2179
+21
+#### Text ####
+Seventeen percent reported their customers being robbed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2181
+22
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2124..2179
+21
+#### Text ####
+Seventeen percent reported their customers being robbed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2181..2298
+22
+#### Text ####
+Crime was the reason that 26% reported difficulty recruiting personnel and that 19% said they were considering moving
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2252..2255
+22,1,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2202..2251
+22,1,1,2,0
+#### Text ####
+that 26% reported difficulty recruiting personnel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2256..2298
+22,1,1,2,2
+#### Text ####
+that 19% said they were considering moving
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2421
+24
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2302..2419
+23
+#### Text ####
+More than one-third of the responding businesses said they suffer from drug dealing and loitering near their premises
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2421..2505
+24
+#### Text ####
+In Brooklyn and the Bronx, one out of four commercial firms is burglarized each year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2507
+25
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2421..2505
+24
+#### Text ####
+In Brooklyn and the Bronx, one out of four commercial firms is burglarized each year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2507..2595
+25
+#### Text ####
+Industrial neighborhoods fare even worse, with burglary rates twice the citywide average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2684
+27
+____Arg1____
+2599..2682
+26
+#### Text ####
+Crime is clearly more deadly to small-scale entrepreneurship than to big businesses
+##############
+____Arg2____
+2684..2754;2755..2856
+27
+#### Text ####
+Two decades ago, the Small Business Administration reported Yale Prof. Albert Reiss's landmark study of crime against 2,500 small businesses drawn from national IRS records
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2858
+28
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2684..2856
+27
+#### Text ####
+Two decades ago, the Small Business Administration reported Yale Prof.
+Albert Reiss's landmark study of crime against 2,500 small businesses drawn from national IRS records
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2858..2991
+28
+#### Text ####
+He found that monetary crime losses, as a proportion of gross receipts, were 37 times higher for small businesses than for large ones
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3049
+29
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2995..3047
+29,0
+#### Text ####
+The New York study's companies averaged 27 employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3049..3148
+29,2,0;29,2,1,0;29,2,1,1;29,2,1,2;29,2,1,3,0;29,2,1,3,1,0;29,2,1,3,1,1
+#### Text ####
+their annual crime losses averaged about $15,000, with an additional $8,385 annual cost in security
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3152..3197
+29,2,1,3,1,2
+#### Text ####
+enough money to hire at least one more worker
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3222..3226
+30,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3049..3197
+29,2
+#### Text ####
+their annual crime losses averaged about $15,000, with an additional $8,385 annual cost in security -- enough money to hire at least one more worker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3199..3221;3227..3269
+30,0;30,1,0;30,1,2;30,2
+#### Text ####
+The costs of crime may be enough to destroy a struggling business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3394
+32
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+3273..3392
+31
+#### Text ####
+Whatever the monetary crime losses, they may not be nearly as important to entrepreneurs as the risk of personal injury
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3394..3493
+32
+#### Text ####
+After repeated gun robberies, some entrepreneurs may give up a business out of fear for their lives
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3495
+33
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3394..3493
+32
+#### Text ####
+After repeated gun robberies, some entrepreneurs may give up a business out of fear for their lives
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3495..3657
+33
+#### Text ####
+One Washington couple recently sold their liquor store after 34 years in business that included four robbery deaths and 16 robberies or burglaries on the premises
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3797
+35
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3687..3794
+34,1,1;34,2;34,3
+#### Text ####
+the vicious cycle that National Institute of Justice Director James K. Stewart calls "crime causing poverty
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3661..3686
+34,0;34,1,0;34,2;34,3
+#### Text ####
+These findings illustrate
+##############
+____Arg2____
+3797..4045
+35;36
+#### Text ####
+Underclass neighborhoods offer relatively few employment opportunities, contributing to the poverty of local residents.
+Small neighborhood businesses could provide more jobs, if crime were not so harmful to creating and maintaining those businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3917
+36
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+3797..3915
+35
+#### Text ####
+Underclass neighborhoods offer relatively few employment opportunities, contributing to the poverty of local residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3917..4045
+36
+#### Text ####
+Small neighborhood businesses could provide more jobs, if crime were not so harmful to creating and maintaining those businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3972..3974
+36,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Arg1____
+3917..3970
+36,0;36,1,0;36,1,1,0;36,1,1,1;36,1,1,2;36,2
+#### Text ####
+Small neighborhood businesses could provide more jobs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3975..4045
+36,1,1,3,1
+#### Text ####
+crime were not so harmful to creating and maintaining those businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4047..4072
+37,0;37,1,0;37,1,1,0;37,1,1,1,1,0;37,1,1,1,1,1,0
+#### Text ####
+This may help explain why
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+3917..4045
+36
+#### Text ####
+Small neighborhood businesses could provide more jobs, if crime were not so harmful to creating and maintaining those businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4047..4182
+37
+#### Text ####
+This may help explain why small businesses create 65% of all jobs nationally, but only 22% of jobs in a crime-ridden city like New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4282
+39
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+4186..4255
+38
+#### Text ####
+Bigger business can often better afford to minimize the cost of crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4282..4460
+39,1,1
+#### Text ####
+that the cost of security measures in firms with fewer than five employees was almost $1,000 per worker, compared with one-third that amount for firms with more than 10 employees
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4257..4281
+39,0;39,1,0;39,2
+#### Text ####
+The New York study found
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4604
+41
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4464..4602
+40
+#### Text ####
+The shift of retailing to large shopping centers has created even greater economies of scale for providing low-crime business environments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4604..4730
+41
+#### Text ####
+Private security guards and moonlighting police can invoke the law of trespass to regulate access to these quasi-public places
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4744..4751
+42,2
+#### Text ####
+in fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Sup1____
+4604..4730
+41
+#### Text ####
+Private security guards and moonlighting police can invoke the law of trespass to regulate access to these quasi-public places
+##############
+____Arg1____
+4464..4602
+40
+#### Text ####
+The shift of retailing to large shopping centers has created even greater economies of scale for providing low-crime business environments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4732..4742;4753..4864
+42,0;42,1;42,3;42,4;42,5;42,6
+#### Text ####
+Since 1984 revenues of the 10 largest guard companies, primarily serving such big businesses, have increased by almost 62%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4903..4910
+43,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+4257..4730
+39;40;41
+#### Text ####
+The New York study found that the cost of security measures in firms with fewer than five employees was almost $1,000 per worker, compared with one-third that amount for firms with more than 10 employees. 
+
+The shift of retailing to large shopping centers has created even greater economies of scale for providing low-crime business environments.
+Private security guards and moonlighting police can invoke the law of trespass to regulate access to these quasi-public places
+##############
+____Arg1____
+4186..4255
+38
+#### Text ####
+Bigger business can often better afford to minimize the cost of crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4868..4901;4912..4988
+43,0;43,1;43,3;43,4;43,5
+#### Text ####
+Few small neighborhood businesses can afford such protection, even in collaboration with other local merchants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4990
+44
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+4868..4988
+43
+#### Text ####
+Few small neighborhood businesses, however, can afford such protection, even in collaboration with other local merchants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4990..5114
+44
+#### Text ####
+In the neighborhoods with the highest crime rates, small business generally relies on the public police force for protection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5116
+45
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+4990..5114
+44
+#### Text ####
+In the neighborhoods with the highest crime rates, small business generally relies on the public police force for protection
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5116..5145
+45
+#### Text ####
+This creates several problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5147..5153
+46,0;46,1,0
+#### Text ####
+One is
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+5116..5145
+45
+#### Text ####
+This creates several problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5147..5214
+46
+#### Text ####
+One is that there are not enough police to satisfy small businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5216
+47
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+5147..5214
+46
+#### Text ####
+One is that there are not enough police to satisfy small businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5216..5384
+47
+#### Text ####
+The number one proposal for reducing crime in the New York survey was to put more police on foot or scooter patrol, suggested by more than two-thirds of the respondents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5386
+48
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+5216..5384
+47
+#### Text ####
+The number one proposal for reducing crime in the New York survey was to put more police on foot or scooter patrol, suggested by more than two-thirds of the respondents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5386..5464
+48
+#### Text ####
+Only 22% supported private security patrols funded by the merchants themselves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5632
+50
+#### Features ####
+Wr, Comm, Null, Null
+in turn, Expansion.Conjunction, Contingency.Cause.Result
+____Sup1____
+5532..5630
+49,1,1,1,1,2
+#### Text ####
+which can make urban police less than enthusiastic about responding to calls from small businesses
+##############
+____Arg1____
+5468..5530
+49,0;49,1,0;49,1,1,0;49,1,1,1,0;49,1,1,1,1,0;49,1,1,1,1,1;49,2
+#### Text ####
+A second problem is the persistent frustration of false alarms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5632..5749
+50
+#### Text ####
+Only half the New York small businesses surveyed, for their part, are satisfied with the police response they receive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5912..5915
+52,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+5753..5910
+51
+#### Text ####
+Some cities, including New York, have experimented with special tax districts for commercial areas that provide additional patrols funded by local businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5916..5973
+52,1;52,2;52,3
+#### Text ####
+this raises added cost barriers to urban entrepreneurship
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6086
+54
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5977..6084
+53
+#### Text ####
+Another solution cities might consider is giving special priority to police patrols of small-business areas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6086..6238
+54
+#### Text ####
+For cities losing business to suburban shopping centers, it may be a wise business investment to help keep those jobs and sales taxes within city limits
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6240
+55
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+6086..6238
+54
+#### Text ####
+For cities losing business to suburban shopping centers, it may be a wise business investment to help keep those jobs and sales taxes within city limits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6240..6376
+55
+#### Text ####
+Increased patrolling of business zones makes sense because urban crime is heavily concentrated in such "hot spots" of pedestrian density
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6291..6298
+55,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6240..6290
+55,0;55,1,0;55,1,1;55,2
+#### Text ####
+Increased patrolling of business zones makes sense
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6299..6376
+55,1,2,1
+#### Text ####
+urban crime is heavily concentrated in such "hot spots" of pedestrian density
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6378
+56
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion
+____Arg1____
+6240..6376
+55
+#### Text ####
+Increased patrolling of business zones makes sense because urban crime is heavily concentrated in such "hot spots" of pedestrian density
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6378..6593
+56
+#### Text ####
+With National Institute of Justice support, the Minneapolis police and the Crime Control Institute are currently testing the effects of such a strategy, comparing its deterrence value with traditional random patrols
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6743
+58
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion
+____Arg1____
+6597..6741
+57
+#### Text ####
+Small-business patrols would be an especially helpful gesture whenever a small-business person is scheduled to testify against a robbery suspect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6743..6824
+58
+#### Text ####
+While no guarantee, an increased police presence might even deter further attacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6743..6748
+58,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+6763..6824
+58,1;58,2;58,3;58,4
+#### Text ####
+an increased police presence might even deter further attacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6749..6761
+58,0,1
+#### Text ####
+no guarantee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,146 @@
+________________________________________________________
+____Implicit____
+418
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+313..416
+2
+#### Text ####
+The real estate and mortgage banking concern had hoped to use proceeds from the sale to reduce its debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+418..561
+3
+#### Text ####
+Without cash from asset sales and unable to reach a new bank-credit agreement, Lomas defaulted on $145 million in notes that became due Sept. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+563
+4
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+418..561
+3
+#### Text ####
+Without cash from asset sales and unable to reach a new bank-credit agreement, Lomas defaulted on $145 million in notes that became due Sept. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+563..751
+4
+#### Text ####
+It filed for protection from creditors under Chapter 11 of the federal Bankruptcy Code Sept. 24 to give it additional time to work on a plan to restructure its $1.45 billion in senior debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+866..873
+5,1,1,1,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+755..765
+5,0;5,1,0;5,2
+#### Text ####
+Lomas said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+766..865
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1;5,1,1,1,1,2,0;5,1,1,1,1,2,1
+#### Text ####
+Merrill Lynch, which owns bonds and equity in Lomas, couldn't continue as Lomas's investment banker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+874..895
+5,1,1,1,1,2,2,1
+#### Text ####
+it is also a creditor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+880..884
+5,1,1,1,1,2,2,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+755..765
+5,0;5,1,0;5,2
+#### Text ####
+Lomas said
+##############
+also, Expansion.Conjunction
+____Arg1____
+781..817
+5,1,1,1,0,2
+#### Text ####
+which owns bonds and equity in Lomas
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+866..879;885..895
+5,1,1,1,1,2,2,0;5,1,1,1,1,2,2,1,0;5,1,1,1,1,2,2,1,1,0;5,1,1,1,1,2,2,1,1,2
+#### Text ####
+because it is a creditor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+905
+6
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+766..779;819..895
+5,1,1,0;5,1,1,1,0,0;5,1,1,1,0,1;5,1,1,1,0,3;5,1,1,1,1
+#### Text ####
+Merrill Lynch couldn't continue as Lomas's investment banker because it is also a creditor
+##############
+#### Features ####
+Ot, Comm, Null, Null
+755..765
+5,0;5,1,0;5,2
+#### Text ####
+Lomas said
+##############
+____Arg2____
+905..1039
+6,1,1
+#### Text ####
+it chose Lazard in part because of Lazard's offices in Europe and Japan, where investors might be interested in a U.S. leasing company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+897..904
+6,0;6,1,0;6,2
+#### Text ####
+It said
+##############
+________________________________________________________

@@ -1,0 +1,579 @@
+________________________________________________________
+____Explicit____
+246..251
+1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+198..245
+1,0;1,1,0;1,1,1;1,2
+#### Text ####
+Judge Harold C. Abramson raised the possibility
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+252..373
+1,1,2,1
+#### Text ####
+talks to end a feud between two major creditors failed and all three reorganization plans in the case ran into roadblocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+307..310
+1,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+246..306
+1,1,2,0;1,1,2,1,0
+#### Text ####
+after talks to end a feud between two major creditors failed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+311..373
+1,1,2,1,2
+#### Text ####
+all three reorganization plans in the case ran into roadblocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+377..379
+2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal present
+____Sup1____
+469..523
+2,3
+#### Text ####
+now believed to have a value of less than $125 million
+##############
+____Arg1____
+416..465;527..616
+2,2;2,4,0;2,4,1,0;2,4,1,1,0;2,4,1,1,1;2,4,1,1,2;2,4,1,1,3,0;2,4,1,1,3,1,0;2,4,1,1,3,1,1,0;2,4,1,1,3,1,1,1,0;2,4,1,1,3,1,1,1,1,0;2,4,1,1,3,1,1,1,1,1
+#### Text ####
+what remains of the oil tycoon's once-vast estate would be sold off quickly with most of the proceeds going to the Internal Revenue Service
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+380..414
+2,0,1
+#### Text ####
+the case is converted to Chapter 7
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+687
+3
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+377..685
+2
+#### Text ####
+If the case is converted to Chapter 7, what remains of the oil tycoon's once-vast estate -- now believed to have a value of less than $125 million -- would be sold off quickly with most of the proceeds going to the Internal Revenue Service, whose claim for $300 million in back taxes has priority in the case
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+687..767
+3
+#### Text ####
+Hundreds of smaller creditors could get nothing, according to attorneys involved
+##############
+#### Features ####
+Ot, Comm, Null, Null
+736..767
+3,1,1,2;3,1,1,3;3,2
+#### Text ####
+according to attorneys involved
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+771..776
+4,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+841..1143
+4,1;4,2;4,3;4,4
+#### Text ####
+Judge Abramson told a courtroom filled with nearly two dozen attorneys that he was concerned about the toll mounting legal bills will take on Mr. Hunt's shrinking estate and about the fact that, following voting by creditors, none of the reorganization plans appeared to be viable in their present form
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+777..839
+4,0,1
+#### Text ####
+admitting such a move would be "devastating" to most creditors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1247
+6
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1148..1223
+5,1
+#### Text ####
+It would be a shame to have a Chapter 7 after all the progress in this case
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1226..1245
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said Judge Abramson
+##############
+____Arg2____
+1247..1411
+6
+#### Text ####
+Under Chapter 11 of the Federal Bankruptcy Code, a company continues to operate under protection from creditors' lawsuits while it works out a plan to pay its debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1369..1374
+6,3,1,1,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1247..1294
+6,0;6,1;6,4
+#### Text ####
+Under Chapter 11 of the Federal Bankruptcy Code
+##############
+while, Temporal.Synchrony
+____Arg1____
+1296..1368
+6,1;6,2;6,3,0;6,3,1,0;6,3,1,1,0;6,3,1,1,1,0;6,3,1,1,1,1;6,4
+#### Text ####
+a company continues to operate under protection from creditors' lawsuits
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1375..1411
+6,3,1,1,1,2,1
+#### Text ####
+it works out a plan to pay its debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1413
+7
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition, Expansion.Alternative
+____Arg1____
+1247..1411
+6
+#### Text ####
+Under Chapter 11 of the Federal Bankruptcy Code, a company continues to operate under protection from creditors' lawsuits while it works out a plan to pay its debts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1413..1483
+7
+#### Text ####
+Under Chapter 7, the assets of a company are sold off to pay creditors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1577..1582
+8,3,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1535..1554
+8,1;8,2;8,3,0;8,4
+#### Text ####
+the judge indicated
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1555..1576
+8,3,1,0;8,3,1,1,0;8,3,1,1,1,0;8,3,1,1,1,1,0;8,3,1,1,1,1,1
+#### Text ####
+he would move quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1583..1748
+8,3,1,1,1,1,2,1
+#### Text ####
+hearing testimony later this week in the bitter dispute between Manufacturers Hanover Trust Co. and Minpeco S.A., a minerals concern owned by the Peruvian governmemt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2103..2108
+10,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2220..2297
+10,1;10,2;10,3;10,4
+#### Text ####
+Minpeco has agreed to settle for an allowed claim of as much as $65.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2109..2218
+10,0,1
+#### Text ####
+claiming that penalties, legal fees and interest have driven the value of its claim to more than $250 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2299..2302
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2103..2297
+10
+#### Text ####
+While claiming that penalties, legal fees and interest have driven the value of its claim to more than $250 million, Minpeco has agreed to settle for an allowed claim of as much as $65.7 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2303..2507
+11,1;11,2;11,3
+#### Text ####
+even that is disputed by Manufacturers Hanover which, in alliance with the IRS, contends that Minpeco has already collected more than its actual damages from other defendants in the silver-conspiracy case
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2672
+13
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2511..2670
+12
+#### Text ####
+Under prodding from Judge Abramson, a Minpeco executive flew in from Peru last week to talk directly with executives from Manufacturers Hanover on a settlement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2672..2866
+13
+#### Text ####
+Despite long private sessions in both New York and Dallas, the two sides ended the week "6,000 miles and many dollars apart," according to attorney Hugh Ray, who represents Manufacturers Hanover
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2868..2877
+14,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+2672..2866
+13
+#### Text ####
+Despite long private sessions in both New York and Dallas, the two sides ended the week "6,000 miles and many dollars apart," according to attorney Hugh Ray, who represents Manufacturers Hanover
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2879..3040
+14,1;14,2;14,3;14,4;14,5;14,6;14,7
+#### Text ####
+inside the courtroom, the judge said he would fine attorneys for the two creditors $50 every time they referred to each other with terms such as "liar" or "slime
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3201
+16
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3045..3199
+15
+#### Text ####
+All three major creditors -- the IRS, Minpeco and Manufacturers Hanover -- voted against and effectively doomed a reorganization plan proposed by Mr. Hunt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3201..3320
+16
+#### Text ####
+A reorganization plan proposed jointly by the IRS and Manufacturers Hanover was stalled by a negative vote from Minpeco
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3322
+17
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3201..3320
+16
+#### Text ####
+A reorganization plan proposed jointly by the IRS and Manufacturers Hanover was stalled by a negative vote from Minpeco
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3322..3442
+17
+#### Text ####
+The mineral concern's own reorganization plan met a similar fate after opposition from the IRS and Manufacturers Hanover
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3466..3473
+18,0,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+3201..3442
+16;17
+#### Text ####
+A reorganization plan proposed jointly by the IRS and Manufacturers Hanover was stalled by a negative vote from Minpeco.
+The mineral concern's own reorganization plan met a similar fate after opposition from the IRS and Manufacturers Hanover
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3444..3464
+18,0,0;18,0,1;18,0,2
+#### Text ####
+Neither plan is dead
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3475..3478
+18,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3444..3473
+18,0
+#### Text ####
+Neither plan is dead, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3479..3599
+18,3
+#### Text ####
+the judge could force creditors to accept some version of them after ruling on the Minpeco-Manufacturers Hanover dispute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3542..3547
+18,3,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3475..3541
+18,2;18,3,0;18,3,1,0;18,3,1,1,0;18,3,1,1,1;18,4
+#### Text ####
+and the judge could force creditors to accept some version of them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3548..3599
+18,3,1,1,2,1
+#### Text ####
+ruling on the Minpeco-Manufacturers Hanover dispute
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3603..3612
+19,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+3444..3599
+18
+#### Text ####
+Neither plan is dead, however, and the judge could force creditors to accept some version of them after ruling on the Minpeco-Manufacturers Hanover dispute
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3614..3675
+19,1;19,2;19,3,0;19,3,1,0;19,3,1,1,0;19,3,1,1,1;19,3,1,1,2,0;19,3,1,1,2,1;19,4
+#### Text ####
+settlement negotiations continue between Mr. Hunt and the IRS
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3677..3748
+19,3,1,1,2,2
+#### Text ####
+which has already reached a tentative agreement with Nelson Bunker Hunt
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3750
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3603..3675
+19,0;19,1;19,2;19,3,0;19,3,1,0;19,3,1,1,0;19,3,1,1,1;19,3,1,1,2,0;19,3,1,1,2,1;19,4
+#### Text ####
+Meanwhile, settlement negotiations continue between Mr. Hunt and the IRS
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3750..3870
+20
+#### Text ####
+The two sides have been far apart on how much Herbert Hunt will continue to owe the government after his assets are sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3845..3850
+20,1,1,2,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+3784..3844
+20,1,1,2,0;20,1,1,2,1,0;20,1,1,2,1,1,0;20,1,1,2,1,1,1,0;20,1,1,2,1,1,1,1,0;20,1,1,2,1,1,1,1,1
+#### Text ####
+on how much Herbert Hunt will continue to owe the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3851..3870
+20,1,1,2,1,1,1,1,2,1
+#### Text ####
+his assets are sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

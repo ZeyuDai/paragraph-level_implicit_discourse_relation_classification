@@ -1,0 +1,328 @@
+________________________________________________________
+____Explicit____
+372..376
+2,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+49..177
+0,1,1
+#### Text ####
+it sent a letter to LIN Broadcasting Corp. clarifying its revised tender offer for LIN and asking LIN to conduct "a fair auction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..48
+0,0;0,1,0;0,2;0,3
+#### Text ####
+McCaw Cellular Communications Inc. said
+##############
+____Arg2____
+278..281;367..371;377..441
+2,0,0;2,0,1;2,0,3;2,1,0;2,1,2
+#### Text ####
+LIN said that it wouldn't take a position on McCaw's revised tender offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+532
+4
+____Arg1____
+445..530
+3
+#### Text ####
+Earlier this month, McCaw revised its offer to $125 a share for 22 million LIN shares
+##############
+____Arg2____
+532..595
+4,0
+#### Text ####
+McCaw is seeking 50.3% of the cellular and broadcasting concern
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+597
+4
+____Arg1____
+532..595
+4,0
+#### Text ####
+McCaw is seeking 50.3% of the cellular and broadcasting concern
+##############
+____Arg2____
+597..827
+4,2
+#### Text ####
+the revised offer includes a feature requiring McCaw to begin an auction process in July 1994 that would buy out remaining holders at a per-share price roughly equivalent to what a third party might then have to pay for all of LIN
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1023
+6
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+831..935
+5
+#### Text ####
+The letter outlines broad powers for an independent group of directors provided for in the revised offer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1023..1085
+6,3,3
+#### Text ####
+We trust LIN will take no further actions that favor BellSouth
+##############
+#### Features ####
+Ot, Comm, Null, Null
+937..1020
+6,0;6,1;6,2;6,3,0;6,3,1;6,3,2;6,4;6,5
+#### Text ####
+In a statement, Craig O. McCaw, chairman and chief executive officer of McCaw, said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1201
+8
+#### Features ####
+Ot, Comm, Null, Null
+1090..1100
+7,0;7,1,0;7,2
+#### Text ####
+McCaw said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1101..1199
+7,1,1
+#### Text ####
+the three independent directors provided for in the offer would be designated by the current board
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1201..1263
+8
+#### Text ####
+The successors would be nominated by the independent directors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1466..1472
+9,1,1,3,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1267..1464
+9,0;9,1,0;9,1,1,0;9,1,1,1;9,1,1,2;9,2
+#### Text ####
+LIN would have a priority right to pursue all opportunities to acquire U.S. cellular interests in markets other than those in which McCaw holds an interest, or which are contiguous to those markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1473..1518
+9,1,1,3,1
+#### Text ####
+LIN has an interest there or contiguous to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1520
+10
+#### Features ####
+Ot, Comm, Null, Null
+1090..1100
+7,0;7,1,0;7,2
+#### Text ####
+McCaw said
+##############
+and, Expansion.List
+____Arg1____
+1101..1518
+7,1,1;8;9
+#### Text ####
+the three independent directors provided for in the offer would be designated by the current board.
+The successors would be nominated by the independent directors. 
+
+LIN would have a priority right to pursue all opportunities to acquire U.S. cellular interests in markets other than those in which McCaw holds an interest, or which are contiguous to those markets, unless LIN has an interest there or contiguous to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1520..1642
+10
+#### Text ####
+Independent directors would have veto rights to any acquisition if they unanimously decide it isn't in LIN's best interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1584..1586
+10,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+1520..1583
+10,0;10,1,0;10,1,1,0;10,1,1,1;10,2
+#### Text ####
+Independent directors would have veto rights to any acquisition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1587..1642
+10,1,1,2,1
+#### Text ####
+they unanimously decide it isn't in LIN's best interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1831..1833
+12,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1903..2023
+12,1;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+McCaw won't submit a bid unless the independent directors request it, and the independent directors will run the bidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1834..1901
+12,0,1
+#### Text ####
+LIN is put up for sale rather than purchased by McCaw in five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1928..1934
+12,2,1,2,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1903..1927
+12,2,0;12,2,1,0;12,2,1,1;12,2,1,2,0;12,2,1,2,1
+#### Text ####
+McCaw won't submit a bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1935..2023
+12,1;12,2,1,2,2,1;12,3;12,4;12,5;12,6
+#### Text ####
+the independent directors request it, and the independent directors will run the bidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1973..1976
+12,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1928..1971
+12,2,1,2,2
+#### Text ####
+unless the independent directors request it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1977..2023
+12,5
+#### Text ####
+the independent directors will run the bidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2025
+13
+#### Features ####
+Ot, Comm, Null, Null
+1090..1100
+7,0;7,1,0;7,2
+#### Text ####
+McCaw said
+##############
+and, Expansion.List
+____Arg1____
+1101..2023
+7,1,1;8;9;10;11;12
+#### Text ####
+the three independent directors provided for in the offer would be designated by the current board.
+The successors would be nominated by the independent directors. 
+
+LIN would have a priority right to pursue all opportunities to acquire U.S. cellular interests in markets other than those in which McCaw holds an interest, or which are contiguous to those markets, unless LIN has an interest there or contiguous to it.
+Independent directors would have veto rights to any acquisition if they unanimously decide it isn't in LIN's best interest. 
+
+Independent directors would be able to block transactions they unanimously deem would be likely to depress the private market value of LIN at the time it is to be sold in five years. 
+
+If LIN is put up for sale rather than purchased by McCaw in five years, McCaw won't submit a bid unless the independent directors request it, and the independent directors will run the bidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2025..2177
+13
+#### Text ####
+The directors would be able to sell particular assets to enable such buyers as the regional Bell operating companies to purchase the company's interests
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

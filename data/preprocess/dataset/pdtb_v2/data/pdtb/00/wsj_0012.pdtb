@@ -1,0 +1,409 @@
+________________________________________________________
+____Implicit____
+321
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+173..319
+1
+#### Text ####
+The new ad plan from Newsweek, a unit of the Washington Post Co., is the second incentive plan the magazine has offered advertisers in three years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+321..452
+2,0;2,1,0;2,2
+#### Text ####
+Plans that give advertisers discounts for maintaining or increasing ad spending have become permanent fixtures at the news weeklies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+702
+4
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+652..700
+3,1,1
+#### Text ####
+Newsweek's ad rates would increase 5% in January
+##############
+#### Features ####
+Ot, Comm, Null, Null
+600..610;647..651
+3,0,0;3,0,1;3,0,3;3,1,0
+#### Text ####
+Alan Spoon said
+##############
+____Arg2____
+702..756
+4
+#### Text ####
+A full, four-color page in Newsweek will cost $100,980
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+758
+5
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+652..756
+3,1,1;4
+#### Text ####
+Newsweek's ad rates would increase 5% in January.
+A full, four-color page in Newsweek will cost $100,980
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+758..1012
+5
+#### Text ####
+In mid-October, Time magazine lowered its guaranteed circulation rate base for 1990 while not increasing ad page rates; with a lower circulation base, Time's ad rate will be effectively 7.5% higher per subscriber; a full page in Time costs about $120,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+842..847
+5,0,3,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast
+____Arg1____
+758..841
+5,0,0;5,0,1;5,0,2;5,0,3,0;5,0,3,1
+#### Text ####
+In mid-October, Time magazine lowered its guaranteed circulation rate base for 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+848..876
+5,0,3,2,1
+#### Text ####
+not increasing ad page rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+878
+5
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+758..876
+5,0
+#### Text ####
+In mid-October, Time magazine lowered its guaranteed circulation rate base for 1990 while not increasing ad page rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+878..970
+5,2
+#### Text ####
+with a lower circulation base, Time's ad rate will be effectively 7.5% higher per subscriber
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+972
+5
+____Arg1____
+878..970
+5,2
+#### Text ####
+with a lower circulation base, Time's ad rate will be effectively 7.5% higher per subscriber
+##############
+____Arg2____
+972..1012
+5,4
+#### Text ####
+a full page in Time costs about $120,000
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1014
+6
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast, Expansion.Conjunction
+____Arg1____
+652..1012
+3,1,1;4;5
+#### Text ####
+Newsweek's ad rates would increase 5% in January.
+A full, four-color page in Newsweek will cost $100,980.
+In mid-October, Time magazine lowered its guaranteed circulation rate base for 1990 while not increasing ad page rates; with a lower circulation base, Time's ad rate will be effectively 7.5% higher per subscriber; a full page in Time costs about $120,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1014..1061
+6
+#### Text ####
+U.S. News has yet to announce its 1990 ad rates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1194
+8
+#### Features ####
+Ot, Comm, Null, Null
+1065..1078
+7,0;7,1,0;7,2;7,3
+#### Text ####
+Newsweek said
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1079..1191
+7,1,1
+#### Text ####
+it will introduce the Circulation Credit Plan, which awards space credits to advertisers on "renewal advertising
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1194..1358
+8
+#### Text ####
+The magazine will reward with "page bonuses" advertisers who in 1990 meet or exceed their 1989 spending, as long as they spent $325,000 in 1989 and $340,000 in 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1299..1309
+8,1,1,4,0;8,1,1,4,1,0
+#### Text ####
+as long as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as long as, Contingency.Condition.Hypothetical
+____Arg1____
+1194..1297
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,1,1,2;8,1,1,3;8,2
+#### Text ####
+The magazine will reward with "page bonuses" advertisers who in 1990 meet or exceed their 1989 spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1310..1358
+8,1,1,4,1,1
+#### Text ####
+they spent $325,000 in 1989 and $340,000 in 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1472
+9
+____Arg1____
+1362..1470
+9,0
+#### Text ####
+Mr. Spoon said the plan is not an attempt to shore up a decline in ad pages in the first nine months of 1989
+##############
+____Arg2____
+1472..1580
+9,2
+#### Text ####
+Newsweek's ad pages totaled 1,620, a drop of 3.2% from last year, according to Publishers Information Bureau
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1583
+10
+____Arg1____
+1472..1580
+9,2
+#### Text ####
+Newsweek's ad pages totaled 1,620, a drop of 3.2% from last year, according to Publishers Information Bureau
+##############
+____Arg2____
+1583..1704
+10
+#### Text ####
+What matters is what advertisers are paying per page, and in that department we are doing fine this fall," said Mr. Spoon
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1637..1640
+10,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1690..1704
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+said Mr. Spoon
+##############
+and, Expansion.Conjunction
+____Arg1____
+1583..1635
+10,1,0
+#### Text ####
+What matters is what advertisers are paying per page
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1641..1687
+10,1,3
+#### Text ####
+in that department we are doing fine this fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1871..1878
+12,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+1708..1869
+11
+#### Text ####
+Both Newsweek and U.S. News have been gaining circulation in recent years without heavy use of electronic giveaways to subscribers, such as telephones or watches
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1880..1946
+12,1;12,2;12,3;12,4
+#### Text ####
+none of the big three weeklies recorded circulation gains recently
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1948
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1871..1946
+12
+#### Text ####
+However, none of the big three weeklies recorded circulation gains recently
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1948..2077
+13
+#### Text ####
+According to Audit Bureau of Circulations, Time, the largest newsweekly, had average circulation of 4,393,237, a decrease of 7.3%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1948..1989
+13,0;13,1
+#### Text ####
+According to Audit Bureau of Circulations
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2079
+14
+#### Features ####
+Ot, Comm, Null, Null
+1948..1989
+13,0;13,1
+#### Text ####
+According to Audit Bureau of Circulations
+##############
+and, Comparison.Contrast.Juxtaposition
+____Arg1____
+1948..2077
+13
+#### Text ####
+According to Audit Bureau of Circulations, Time, the largest newsweekly, had average circulation of 4,393,237, a decrease of 7.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2079..2185
+14
+#### Text ####
+Newsweek's circulation for the first six months of 1989 was 3,288,453, flat from the same period last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2187
+15
+#### Features ####
+Ot, Comm, Null, Null
+1948..1989
+13,0;13,1
+#### Text ####
+According to Audit Bureau of Circulations
+##############
+and, Comparison.Contrast.Juxtaposition
+____Arg1____
+1948..2185
+13;14
+#### Text ####
+According to Audit Bureau of Circulations, Time, the largest newsweekly, had average circulation of 4,393,237, a decrease of 7.3%.
+Newsweek's circulation for the first six months of 1989 was 3,288,453, flat from the same period last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2187..2251
+15
+#### Text ####
+U.S. News' circulation in the same time was 2,303,328, down 2.6%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

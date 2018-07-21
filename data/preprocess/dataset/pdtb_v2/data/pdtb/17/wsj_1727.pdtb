@@ -1,0 +1,112 @@
+________________________________________________________
+____Implicit____
+319
+2
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+167..317
+1
+#### Text ####
+Mr. Gintel, head of Gintel & Co., said he plans to conduct a proxy contest to elect a majority of Xtra's board at the next annual stockholders meeting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+319..478
+2
+#### Text ####
+Xtra, a transportation leasing company, said in a statement it would have no comment on Mr. Gintel's plans until "further information has been disclosed by him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+426..431
+2,1,2,1,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+319..378
+2,0;2,1,0;2,1,1;2,2;2,3
+#### Text ####
+Xtra, a transportation leasing company, said in a statement
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+379..425
+2,1,2,0;2,1,2,1,0;2,1,2,1,1,0;2,1,2,1,1,1,0;2,1,2,1,1,1,1
+#### Text ####
+it would have no comment on Mr. Gintel's plans
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+433..478
+2,1,2,1,1,1,2,2
+#### Text ####
+further information has been disclosed by him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+493..497
+3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+319..478
+2
+#### Text ####
+Xtra, a transportation leasing company, said in a statement it would have no comment on Mr. Gintel's plans until "further information has been disclosed by him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+481..492;498..549
+3,0;3,2;3,3
+#### Text ####
+The company said its 1990 annual meeting has not been scheduled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+643
+5
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+553..631
+4
+#### Text ####
+Mr. Gintel owns 300,000 of the company's 6.3 million common shares outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+643..777
+5,1,1
+#### Text ####
+it recently bought back approximately 55,000 of its shares pursuant to its existing authorization to acquire as many as 650,000 shares
+##############
+#### Features ####
+Ot, Comm, Null, Null
+633..642
+5,0;5,1,0;5,2
+#### Text ####
+Xtra said
+##############
+________________________________________________________

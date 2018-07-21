@@ -1,0 +1,265 @@
+________________________________________________________
+____Explicit____
+101..112
+1,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+9..97
+0
+#### Text ####
+The Internal Revenue Service plans to restructure itself more like a private corporation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+145..461
+1,3,1
+#### Text ####
+that it will take the unusual step of looking to the private sector to fill two new high-level positions to guide the 120,000-employee agency: a comptroller to oversee daily finances and a chief information officer to update the information system, which includes probably the largest computer data base in the world
+##############
+#### Features ####
+Ot, Comm, Null, Null
+114..144
+1,1;1,2;1,3,0;1,4
+#### Text ####
+the tax-collecting agency says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+473..477
+2,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+101..461
+1
+#### Text ####
+In addition, the tax-collecting agency says that it will take the unusual step of looking to the private sector to fill two new high-level positions to guide the 120,000-employee agency: a comptroller to oversee daily finances and a chief information officer to update the information system, which includes probably the largest computer data base in the world
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+465..472;478..585
+2,0;2,2;2,3
+#### Text ####
+The IRS said that it would create the position of chief financial officer, who will be hired from within the agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+970..973
+5,1
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+950..967
+4,0;4,2;4,3;4,4;4,5;4,6
+#### Text ####
+Mr. Goldberg said
+##############
+and, Expansion.Conjunction
+____Arg1____
+830..947
+4,1,1,1
+#### Text ####
+that we do not have the kinds of information that let us responsibly and effectively formulate and execute our budget
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+787..829
+4,1,0;4,1,1,0
+#### Text ####
+My assessment and everyone's assessment is
+##############
+____Arg2____
+974..1070
+5,0;5,2;5,3;5,4;5,5
+#### Text ####
+we don't have internal controls and discipline that we need to have to spend $5 billion properly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1374..1377
+8,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1269..1372
+7
+#### Text ####
+The IRS operates on a computer system designed in 1961, which it has been trying to modernize for years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1378..1512
+8,1;8,2;8,3
+#### Text ####
+the agency, which operated throughout fiscal 1989 with a $360 million budget shortfall, has been under a hiring freeze since last fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1787..1794
+10,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+in turn
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1796..1805
+10,1,1,1,1,1,1,1,1,2,1;10,1,1,1,1,1,1,1,1,2,2;10,1,1,1,1,1,1,1,1,2,3,0
+#### Text ####
+I believe
+##############
+in turn, Temporal.Asynchronous.Precedence
+____Arg1____
+1688..1779
+10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1,0;10,1,1,1,1,1,1,1,0
+#### Text ####
+that you will see a significant improvement in the budget formulation and execution process
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1680..1687
+10,1,0;10,1,1,0
+#### Text ####
+I think
+##############
+____Arg2____
+1780..1785;1806..1854
+10,1,1,1,1,1,1,1,1,0;10,1,1,1,1,1,1,1,1,1;10,1,1,1,1,1,1,1,1,2,3,1
+#### Text ####
+which will result in a significant increase in revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1914
+12
+____Arg1____
+1868..1912
+11
+#### Text ####
+The IRS hopes to fill the new positions soon
+##############
+____Arg2____
+1914..2095
+12
+#### Text ####
+Customarily, it would appoint career civil servants from within the agency, but Mr. Goldberg said he plans to "scour the world" for the chief information officer and the comptroller
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1990..1993
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1914..1988
+12,0
+#### Text ####
+Customarily, it would appoint career civil servants from within the agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2012..2095
+12,3,1,1
+#### Text ####
+he plans to "scour the world" for the chief information officer and the comptroller
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1994..2011
+12,3,0;12,3,1,0
+#### Text ####
+Mr. Goldberg said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2099..2107
+13,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+2171..2265
+13,1;13,2;13,3;13,4
+#### Text ####
+IRS officials are confident that they can attract top-notch candidates from the private sector
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2108..2169
+13,0,1
+#### Text ####
+the jobs will probably pay between $70,000 and $80,000 a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2495
+15
+#### Features ####
+Ot, Comm, Null, Null
+2475..2492
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Mr. Goldberg said
+##############
+while, Expansion.Conjunction
+____Arg1____
+2270..2472
+14,1
+#### Text ####
+You're telling someone they can spend the next three or four or five or six years of their life bringing about the most difficult and costly modernization of an information system on the civil side ever
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2495..2602
+15
+#### Text ####
+On the comptroller side, you're developing and making work financial controls governing a $6 billion budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1270 @@
+________________________________________________________
+____Explicit____
+317..321
+1,1,1,1,1,2,1,1,1,2,1,3,1,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+285..312
+1,1,1,1,1,2,1,1,1,2,1,3,0;1,1,1,1,1,2,1,1,1,2,1,3,1,0;1,1,1,1,1,2,1,1,1,2,1,3,1,1,0
+#### Text ####
+when it was considered dead
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+313..316;322..366
+1,1,1,1,1,2,1,1,1,2,1,3,1,1,1;1,1,1,1,1,2,1,1,1,2,1,3,1,1,2,1;1,1,1,1,1,2,1,1,1,2,1,3,1,1,2,2;1,1,1,1,1,2,1,1,1,2,1,3,1,1,2,3
+#### Text ####
+and suddenly revived and was passed by the House
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+370..382
+2,0
+#### Text ####
+Nevertheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison
+____Sup1____
+128..366
+1
+#### Text ####
+Their reluctance to support the proposal is another blow to the capital-gains cut, which has had a roller-coaster existence since the beginning of the year, when it was considered dead and then suddenly revived and was passed by the House
+##############
+____Arg1____
+9..124
+0
+#### Text ####
+Senate Democrats who favor cutting the capital-gains tax aren't ready to line up behind the leading Senate proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+384..589
+2,1;2,2;2,3;2,4;2,5
+#### Text ####
+Oregon Sen. Bob Packwood, the ranking GOP member on the tax-writing Senate Finance Committee, last night introduced his plan as an amendment to a pending measure authorizing U.S. aid for Poland and Hungary
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+749
+4
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction, Contingency.Pragmatic cause.Justification
+____Arg1____
+593..747
+3
+#### Text ####
+Senate Majority Leader George Mitchell (D., Maine) was confident he had enough votes to block the maneuver on procedural grounds, perhaps as soon as today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+749..854
+4
+#### Text ####
+Mr. Packwood all but conceded defeat, telling Mr. Mitchell: "I sense at this stage you may have the votes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+947
+6
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Concession.Contra-expectation
+____Arg1____
+859..945
+5
+#### Text ####
+The two lawmakers sparred in a highly personal fashion, violating usual Senate decorum
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+947..974
+6,0;6,1,0;6,1,1;6,1,2;6,2
+#### Text ####
+Their tone was good-natured
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+976..1161
+6,1,3
+#### Text ####
+with Mr. Packwood saying he intended to offer the proposal again and again on future legislation and Sen. Mitchell saying he intended to use procedural means to block it again and again
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1073..1076
+6,1,3,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+976..1072
+6,1,3,0;6,1,3,1,0
+#### Text ####
+with Mr. Packwood saying he intended to offer the proposal again and again on future legislation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1077..1161
+6,1,3,1,2
+#### Text ####
+Sen. Mitchell saying he intended to use procedural means to block it again and again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1165..1173
+7,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1295..1335
+7,1;7,2;7,3;7,4
+#### Text ####
+their votes aren't sufficient to pass it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1174..1186;1247..1293
+7,0,1,0,0;7,0,1,0,1;7,0,1,0,2,2,1,2,2;7,0,1,0,3;7,0,1,1
+#### Text ####
+the proposal appears to have general backing by Republicans
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1337..1340
+8,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+1188..1245
+7,0,1,0,1;7,0,1,0,2;7,0,1,0,3
+#### Text ####
+authored by Mr. Packwood and Sen. William Roth (R., Del.)
+##############
+____Arg1____
+1165..1186;1247..1335
+7,0,0;7,0,1,0,0;7,0,1,0,2,2,1,2,2;7,0,1,1;7,1;7,2;7,3;7,4
+#### Text ####
+Although the proposal appears to have general backing by Republicans, their votes aren't sufficient to pass it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1341..1350;1434..1481
+8,1,0;8,1,1;8,1,3;8,2;8,3
+#### Text ####
+Democrats are finding reasons to say no, at least for now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1352..1432
+8,1,2
+#### Text ####
+who are under increasing pressure from their leaders to reject the gains-tax cut
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1483
+9
+____Arg1____
+1337..1481
+8
+#### Text ####
+And Democrats, who are under increasing pressure from their leaders to reject the gains-tax cut, are finding reasons to say no, at least for now
+##############
+____Arg2____
+1483..1589
+9
+#### Text ####
+A major reason is that they believe the Packwood-Roth plan would lose buckets of revenue over the long run
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1685..1689
+11,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1593..1680
+10
+#### Text ####
+The Packwood-Roth proposal would reduce the tax depending on how long an asset was held
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1682..1684;1690..1912
+11,0;11,2;11,3
+#### Text ####
+It would create a new individual retirement account that would shield from taxation the appreciation on investments made for a wide variety of purposes, including retirement, medical expenses, first-home purchases and tuition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1992..1998
+12,1,1,2,1,1,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2037..2203
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+said Sen. Charles Robb (D., Va.), who is one of the 10 to 20 Democrats who the Bush administration believes might favor giving preferential treatment to capital gains
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1917..1991
+12,1,0;12,1,1,0;12,1,1,1;12,1,1,2,0;12,1,1,2,1,0;12,1,1,2,1,1,0;12,1,1,2,1,1,1,0;12,1,1,2,1,1,1,1
+#### Text ####
+A number of us are not going to touch capital gains, IRAs or anything else
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1999..2034
+12,1,1,2,1,1,1,2,1
+#### Text ####
+it contributes to deficit-reduction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2358..2361
+14,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2207..2356
+13
+#### Text ####
+President Bush has been hearing this kind of opposition first hand during meetings over the past two days with Democratic senators at the White House
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2362..2516
+14,1;14,2;14,3;14,4;14,5
+#### Text ####
+at a luncheon meeting Tuesday of Democratic senators, there was outspoken opposition to cutting the capital-gains tax this year, according to participants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2597
+16
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Restatement.Specification
+____Arg1____
+2540..2594
+15,1,1,1
+#### Text ####
+advocates of the tax cut less optimistic about success
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2597..2754
+16
+#### Text ####
+There is a one-out-of-three shot of getting it this year," said Sen. David Boren of Oklahoma, a leading Democratic proponent of cutting the capital-gains tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2756
+17
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2597..2754
+16
+#### Text ####
+There is a one-out-of-three shot of getting it this year," said Sen. David Boren of Oklahoma, a leading Democratic proponent of cutting the capital-gains tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2756..2784
+17
+#### Text ####
+He called the battle "uphill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2863
+19
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+2789..2860
+18
+#### Text ####
+Other Democrats who favor a capital-gains cut are even more pessimistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2863..2942
+19
+#### Text ####
+There will be no capital-gains bill this year," said Sen. Dale Bumpers (D., Ark
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2947
+20
+#### Features ####
+Ot, Comm, Null, Null
+2911..2942
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Sen. Dale Bumpers (D., Ark
+##############
+besides, Expansion.Conjunction
+____Arg1____
+2863..2908
+19,1
+#### Text ####
+There will be no capital-gains bill this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2947..3008
+20
+#### Text ####
+I'm probably not going to vote for any capital-gains proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3010
+21
+#### Features ####
+Ot, Comm, Null, Null
+2911..2942
+19,0;19,2;19,3;19,4;19,5;19,6
+#### Text ####
+said Sen. Dale Bumpers (D., Ark
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2947..3008
+20
+#### Text ####
+I'm probably not going to vote for any capital-gains proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3010..3070
+21
+#### Text ####
+The IRA portion (of the Packwood-Roth plan) is irresponsible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3252
+23
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+3143..3250
+22,1,1,1
+#### Text ####
+to which it has become a purely political battle between President Bush and Senate Majority Leader Mitchell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3252..3352
+23
+#### Text ####
+Mr. Mitchell has made clear to his wavering colleagues that the issue is important to him personally
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3577
+25
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+3356..3485
+24
+#### Text ####
+Today, Sen. Mitchell and other leading Democrats plan to turn up the heat again by holding a news conference to bash the proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3577..3741
+25,1,1
+#### Text ####
+that the richest 100 taxpayers got an average benefit from the capital-gains differential of $13 million each in 1985, the last year for which figures are available
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3487..3576
+25,0;25,1,0;25,2
+#### Text ####
+Estimates requested by Sen. Mitchell from the Congressional Joint Taxation Committee show
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3898..3905
+26,1,2,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3745..3789
+26,0;26,1,0;26,1,1;26,2
+#### Text ####
+White House officials acknowledged yesterday
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3790..3897
+26,1,2,0;26,1,2,1,0;26,1,2,1,1;26,1,2,1,2,0;26,1,2,1,2,1
+#### Text ####
+that Democrats still are reluctant to publicly express support for the Packwood-Roth capital gains proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3906..3942
+26,1,2,1,2,2,1
+#### Text ####
+they are loath to buck Sen. Mitchell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3944..3955
+27,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+3898..3942
+26,1,2,1,2,2
+#### Text ####
+because they are loath to buck Sen. Mitchell
+##############
+____Arg1____
+3790..3897
+26,1,2,0;26,1,2,1,0;26,1,2,1,1;26,1,2,1,2,0;26,1,2,1,2,1
+#### Text ####
+that Democrats still are reluctant to publicly express support for the Packwood-Roth capital gains proposal
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3745..3789
+26,0;26,1,0;26,1,1;26,2
+#### Text ####
+White House officials acknowledged yesterday
+##############
+____Arg2____
+3976..4089
+27,3,1
+#### Text ####
+they are open to making a variety of deals with Senate Democrats to win their support for a capital-gains tax cut
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3957..3975
+27,1;27,2;27,3,0;27,4
+#### Text ####
+the officials said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4319..4330
+29,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3745..3942
+26
+#### Text ####
+White House officials acknowledged yesterday that Democrats still are reluctant to publicly express support for the Packwood-Roth capital gains proposal because they are loath to buck Sen. Mitchell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4332..4604
+29,1;29,2;29,3;29,4
+#### Text ####
+White House aides think that there are numerous other important measures Democrats badly wanted passed -- such as the scaling back of a controversial catastrophic health-care plan for the elderly -- that might provide the president leverage in cutting deals with Democrats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4606
+30
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4356..4604
+29,3,1
+#### Text ####
+that there are numerous other important measures Democrats badly wanted passed -- such as the scaling back of a controversial catastrophic health-care plan for the elderly -- that might provide the president leverage in cutting deals with Democrats
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4319..4355
+29,0;29,1;29,2;29,3,0;29,4
+#### Text ####
+In addition, White House aides think
+##############
+____Arg2____
+4606..4687
+30
+#### Text ####
+A capital-gains tax cut might be paired with such measures to help ensure passage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4689
+31
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4606..4687
+30
+#### Text ####
+A capital-gains tax cut might be paired with such measures to help ensure passage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4689..4776
+31
+#### Text ####
+Other possibilities include a child-care initiative and an increase in the minimum wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4780..4782
+32,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4844..4985
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+administration officials also aren't ruling out making a deal with Congress to put off a vote until a firm date in the future, even next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4783..4842
+32,0,1
+#### Text ####
+they can't secure immediate passage of a capital-gains plan
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4869..4873
+32,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4319..4604
+29
+#### Text ####
+In addition, White House aides think that there are numerous other important measures Democrats badly wanted passed -- such as the scaling back of a controversial catastrophic health-care plan for the elderly -- that might provide the president leverage in cutting deals with Democrats
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4844..4868;4874..4985
+32,1;32,2;32,4;32,5
+#### Text ####
+administration officials aren't ruling out making a deal with Congress to put off a vote until a firm date in the future, even next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4987..4990
+33,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+4780..4985
+32
+#### Text ####
+If they can't secure immediate passage of a capital-gains plan, administration officials also aren't ruling out making a deal with Congress to put off a vote until a firm date in the future, even next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4991..5098
+33,1;33,2;33,3
+#### Text ####
+the officials insist that such a deal on a future vote would have to apply to both the House and the Senate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5476
+37
+____Arg1____
+5352..5474
+36
+#### Text ####
+Japan plans to send the Chinese back home and is negotiating with the Chinese government, a Justice Ministry official said
+##############
+____Arg2____
+5476..5625
+37
+#### Text ####
+The Chinese were among 3,372 boat people supposedly from Vietnam who arrived in Japan this year, compared with 219 for all of 1988, the official said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+6053
+41
+____Arg1____
+5905..6051
+40
+#### Text ####
+Francoise Verne, 52-year-old former deputy director of France's mint, faces prison for her theft of some 67 rare coins from the mint's collections
+##############
+____Arg2____
+6053..6196
+41
+#### Text ####
+Second in command from 1979 to 1984, Mrs. Verne told a Paris court that the "great disorder" that reigned at the agency led her into temptation
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6198
+42
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+6146..6172
+41,3,2,1,0,1
+#### Text ####
+that reigned at the agency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6198..6376
+42
+#### Text ####
+Before an inventory in 1984 that showed the "disappearance" of 944 coins valued at about 2.9 million French francs (about $465,000), there hadn't been any stock-taking since 1868
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6378
+43
+____Arg1____
+6198..6376
+42
+#### Text ####
+Before an inventory in 1984 that showed the "disappearance" of 944 coins valued at about 2.9 million French francs (about $465,000), there hadn't been any stock-taking since 1868
+##############
+____Arg2____
+6378..6498
+43
+#### Text ####
+Tony Lambert, Mrs. Verne's successor, says the mint's losses from the theft run into the hundreds of thousands of francs
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6634
+45
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+6502..6605
+44,0
+#### Text ####
+El Salvador is destroying more than 1.6 million pounds of food that had rotted in government warehouses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6607..6632
+44,1;44,2;44,3;44,4
+#### Text ####
+government officials said
+##############
+____Arg2____
+6634..6795
+45,0
+#### Text ####
+The state Supply Regulator Institute is to burn rice, corn and beans that spoiled because of neglect and corruption in the previous Christian Democrat government
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6797..6848
+45,1;45,2;45,3;45,4
+#### Text ####
+a statement from the information service SISAL said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6850
+46
+#### Features ####
+Ot, Comm, Null, Null
+7039..7057
+46,1;46,2;46,3;46,4
+#### Text ####
+the statement said
+##############
+specifically, Expansion.Restatement.Specification
+____Arg1____
+6716..6795
+45,0,1,1,1,1,1,1,1,1,1
+#### Text ####
+because of neglect and corruption in the previous Christian Democrat government
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6797..6848
+45,1;45,2;45,3;45,4
+#### Text ####
+a statement from the information service SISAL said
+##############
+____Arg2____
+6850..7037
+46,0
+#### Text ####
+During the past administration the foodstuffs were first bought by the institute, then sold at low prices to "unscrupulous businessmen" who resold them to the institute at inflated prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6932..6936
+46,0,2,1,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7039..7057
+46,1;46,2;46,3;46,4
+#### Text ####
+the statement said
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+6850..6930
+46,0,0;46,0,1;46,0,2,0;46,0,2,1,0;46,0,2,1,1
+#### Text ####
+During the past administration the foodstuffs were first bought by the institute
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6937..7037
+46,0,2,1,2,1;46,0,2,1,2,2;46,0,2,1,2,3;46,0,2,1,2,4
+#### Text ####
+sold at low prices to "unscrupulous businessmen" who resold them to the institute at inflated prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7161..7163
+47,1,3,1,1,1,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+7151..7160
+47,1,3,1,1,1,1,0
+#### Text ####
+vengeance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7164..7237
+47,1,3,1,1,1,1,1,1
+#### Text ####
+Italy refuses to pay compensation for more than 30 years of colonial rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7239
+48
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+7061..7237
+47
+#### Text ####
+A black-draped cruise liner sailed into Naples yesterday bringing 800 Libyans threatening vengeance if Italy refuses to pay compensation for more than 30 years of colonial rule
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7239..7366
+48,0;48,1,0;48,1,1;48,1,2;48,1,3,0;48,1,3,1,0;48,1,3,1,1,0;48,1,3,1,1,1,0;48,1,3,1,1,1,1,0;48,1,3,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,1,1,1;48,2
+#### Text ####
+Another 250 Libyans were already in Italy to stage a day of mourning for victims of Italy's colonial rule between 1911 and 1943
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+7368..7448
+48,1,3,1,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+when Tripoli says Rome kidnapped 5,000 Libyans and deported them as forced labor
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7450
+49
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Generalization
+____Sup1____
+7368..7448
+48,1,3,1,1,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+when Tripoli says Rome kidnapped 5,000 Libyans and deported them as forced labor
+##############
+____Arg1____
+7061..7366
+47;48,0;48,1,0;48,1,1;48,1,2;48,1,3,0;48,1,3,1,0;48,1,3,1,1,0;48,1,3,1,1,1,0;48,1,3,1,1,1,1,0;48,1,3,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,1,1,0;48,1,3,1,1,1,1,1,1,1,1,1,1,1,1;48,2
+#### Text ####
+A black-draped cruise liner sailed into Naples yesterday bringing 800 Libyans threatening vengeance if Italy refuses to pay compensation for more than 30 years of colonial rule.
+Another 250 Libyans were already in Italy to stage a day of mourning for victims of Italy's colonial rule between 1911 and 1943
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7450..7551
+49
+#### Text ####
+Libya's revolutionary Committees have threatened attacks on Italians if Rome doesn't pay compensation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7519..7521
+49,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+7499..7518
+49,1,1,1
+#### Text ####
+attacks on Italians
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7522..7551
+49,1,1,2,1
+#### Text ####
+Rome doesn't pay compensation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7553..7556
+50,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+7450..7551
+49
+#### Text ####
+Libya's revolutionary Committees have threatened attacks on Italians if Rome doesn't pay compensation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7557..7654
+50,1;50,2,0;50,2,1,0;50,2,1,1,0;50,2,1,1,1,0;50,2,1,1,1,1,0;50,2,1,1,1,1,1;50,2,1,1,1,1,2;50,2,1,1,1,1,3,0;50,2,1,1,1,1,3,1,0;50,2,1,1,1,1,3,1,1,0;50,2,1,1,1,1,3,1,1,1,0;50,2,1,1,1,1,3,1,1,1,1;50,2,1,1,1,1,3,1,1,1,2,0;50,2,1,1,1,1,3,1,1,1,2,1;50,3
+#### Text ####
+officials in Rome say the issue was legally resolved by a settlement between Italy and King Idris
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+7656..7695
+50,2,1,1,1,1,3,1,1,1,2,2
+#### Text ####
+deposed by Col. Muammar Gadhafi in 1969
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+7840
+52
+____Arg1____
+7699..7838
+51
+#### Text ####
+Canadian Indians are taking five countries to court in a bid to stop low military flights over their homes, the Dutch Defense Ministry said
+##############
+____Arg2____
+7840..8018
+52
+#### Text ####
+Representatives of the Inuit and Cree peoples living in Quebec and Labrador in northeastern Canada told the ministry of the planned action at a meeting, a ministry spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8025..8029
+53,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+7699..7805
+51,0
+#### Text ####
+Canadian Indians are taking five countries to court in a bid to stop low military flights over their homes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7807..7838
+51,1;51,2;51,3;51,4
+#### Text ####
+the Dutch Defense Ministry said
+##############
+____Arg2____
+8020..8024;8030..8094
+53,0,0;53,0,2
+#### Text ####
+They wanted to prevent a NATO training base being built in the region
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8096..8103
+53,1;53,2;53,3;53,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+8105
+54
+____Arg1____
+8020..8103
+53
+#### Text ####
+They also wanted to prevent a NATO training base being built in the region, he said
+##############
+____Arg2____
+8105..8252
+54
+#### Text ####
+The action, in the Canadian Federal Court, will be against Canada, the Netherlands, West Germany, Britain and the U.S., the ministry spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8300..8305
+55,0,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8346..8400
+55,1;55,2;55,3;55,4
+#### Text ####
+an official of the Ministry of Health and Welfare said
+##############
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+8256..8299
+55,0,0;55,0,1,0;55,0,1,1
+#### Text ####
+Japan suspended imports of French mushrooms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8306..8344
+55,0,1,2,1
+#### Text ####
+finding some contaminated by radiation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+8402
+56
+____Arg1____
+8256..8400
+55
+#### Text ####
+Japan suspended imports of French mushrooms after finding some contaminated by radiation, an official of the Ministry of Health and Welfare said
+##############
+____Arg2____
+8402..8530
+56
+#### Text ####
+Japan has been testing imported food from Europe since the April 1986 Chernobyl accident in the Soviet Union, the spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+8922
+60
+____Arg1____
+8832..8920
+59
+#### Text ####
+AGIP, the state-owned energy giant, made the announcement about the gas field last month
+##############
+____Arg2____
+8922..9047
+60
+#### Text ####
+Located six miles northeast of Venice, the field contains 875 billion cubic feet of methane gas-one-tenth of Italy's reserves
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+9219
+62
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+9074..9217
+61,1,1
+#### Text ####
+the project could jeopardize costly efforts to stop, or slow down, the subsidence that makes Venice subject to regular and destructive flooding
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9051..9073
+61,0;61,1,0;61,2
+#### Text ####
+Alarmed councilors say
+##############
+____Arg2____
+9219..9370
+62,0;62,1,0;62,1,1;62,1,2,0;62,1,2,1;62,1,2,2,0;62,1,2,2,1;62,1,2,2,2,0;62,1,2,2,2,1,0;62,1,2,2,2,1,1;62,2
+#### Text ####
+The council unanimously opposed the idea of AGIP pumping out the methane gas and swiftly appealed to the company and to Prime Minister Giulio Andreotti
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9475
+64
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+9423..9472
+63,1,1;63,1,2;63,2
+#### Text ####
+and says drilling is due to start early next year
+##############
+____Arg1____
+9396..9422
+63,0;63,1,0
+#### Text ####
+AGIP refused to reconsider
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9475..9529
+64,1
+#### Text ####
+It's unlikely extracting the gas will cause subsidence
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9532..9550
+64,0;64,2;64,3;64,4;64,5;64,6
+#### Text ####
+says a spokeswoman
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+9817
+67
+____Arg1____
+9718..9815
+66
+#### Text ####
+West Germany's BMW commissioned the Nuremberg post office to test a prototype battery-powered car
+##############
+____Arg2____
+9817..9932
+67
+#### Text ####
+The vehicle has a top speed of 65 miles an hour and requires recharging from a standard wall socket every 100 miles
+##############
+________________________________________________________

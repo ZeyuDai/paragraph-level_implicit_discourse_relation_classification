@@ -1,0 +1,153 @@
+________________________________________________________
+____Implicit____
+92
+1
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+9..90
+0
+#### Text ####
+The Environmental Protection Agency is getting a lot out of the Superfund program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+92..203
+1,0
+#### Text ####
+Of the $4.4 billion spent so far on the program, 60% is going for administrative costs, management and research
+##############
+#### Features ####
+Ot, Comm, Null, Null
+205..254
+1,1;1,2;1,3;1,4;1,5
+#### Text ####
+the Office of Technology Assessment just reported
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+256
+2
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony
+____Arg1____
+92..203
+1,0
+#### Text ####
+Of the $4.4 billion spent so far on the program, 60% is going for administrative costs, management and research
+##############
+#### Features ####
+Ot, Comm, Null, Null
+205..254
+1,1;1,2;1,3;1,4;1,5
+#### Text ####
+the Office of Technology Assessment just reported
+##############
+____Arg2____
+256..321
+2
+#### Text ####
+Only 36 of 1,200 priority cleanup sites have been "decontaminated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+324
+3
+____Arg1____
+256..321
+2
+#### Text ####
+Only 36 of 1,200 priority cleanup sites have been "decontaminated
+##############
+____Arg2____
+324..389
+3
+#### Text ####
+Over the next 50 years, $500 billion is earmarked for the program
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+415..425
+4,2;4,3,0
+#### Text ####
+that means
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+324..389
+3
+#### Text ####
+Over the next 50 years, $500 billion is earmarked for the program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+391..469
+4
+#### Text ####
+At current allocations, that means EPA will be spending $300 billion on itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+471
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+391..469
+4
+#### Text ####
+At current allocations, that means EPA will be spending $300 billion on itself
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+471..527
+5
+#### Text ####
+It may not be toxic, but we know where one waste dump is
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+492..495
+5,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Pragmatic contrast
+____Arg1____
+471..490
+5,0;5,1;5,2
+#### Text ####
+It may not be toxic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+496..527
+5,4
+#### Text ####
+we know where one waste dump is
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

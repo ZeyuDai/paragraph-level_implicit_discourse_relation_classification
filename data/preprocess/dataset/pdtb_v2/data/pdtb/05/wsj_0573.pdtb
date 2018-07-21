@@ -1,0 +1,383 @@
+________________________________________________________
+____Implicit____
+302
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+197..270
+1,0
+#### Text ####
+Personal spending grew 0.2% in September to a $3.526 trillion annual rate
+##############
+#### Features ####
+Ot, Comm, Null, Null
+272..300
+1,1;1,2;1,3;1,4
+#### Text ####
+the Commerce Department said
+##############
+____Arg2____
+302..348
+2
+#### Text ####
+It was the smallest monthly increase in a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+526
+4
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+352..432
+3,0;3,1;3,2;3,3,0;3,3,1,0;3,3,1,1;3,3,1,2;3,3,1,3,0;3,3,1,3,1,0;3,3,1,3,1,1,0;3,3,1,3,1,1,1,0;3,3,1,3,1,1,1,1;3,4
+#### Text ####
+At the same time, personal income was held down by the effects of Hurricane Hugo
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+526..648
+4,1,1
+#### Text ####
+personal income rose 0.3% in September to a $4.469 trillion rate but would have climbed 0.6% had it not been for the storm
+##############
+#### Features ####
+Ot, Comm, Null, Null
+506..525
+4,0;4,1,0;4,2
+#### Text ####
+The department said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+650
+5
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Instantiation
+____Arg1____
+526..648
+4,1,1
+#### Text ####
+personal income rose 0.3% in September to a $4.469 trillion rate but would have climbed 0.6% had it not been for the storm
+##############
+#### Features ####
+Ot, Comm, Null, Null
+506..525
+4,0;4,1,0;4,2
+#### Text ####
+The department said
+##############
+____Arg2____
+650..727
+5
+#### Text ####
+Among the economic effects of the hurricane was a sharp drop in rental income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+748..759
+6,1,1,0;6,1,1,1
+#### Text ####
+a day after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+731..747
+6,0;6,1,0;6,2
+#### Text ####
+The figures came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+760..1001
+6,1,1,2
+#### Text ####
+the government released a report showing that consumer spending propelled U.S. economic expansion in the third quarter while -- on an inflation-adjusted basis -- business investment slowed, government spending declined, and exports were flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+879..884
+6,1,1,2,1,1,1,1,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+801..878
+6,1,1,2,1,1,1,1,0;6,1,1,2,1,1,1,1,1,0;6,1,1,2,1,1,1,1,1,1,0;6,1,1,2,1,1,1,1,1,1,1;6,1,1,2,1,1,1,1,1,1,2
+#### Text ####
+that consumer spending propelled U.S. economic expansion in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+888..1001
+6,1,1,2,1,1,1,1,1,1,3,1
+#### Text ####
+on an inflation-adjusted basis -- business investment slowed, government spending declined, and exports were flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+980..983
+6,1,1,2,1,1,1,1,1,1,3,1,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+879..978
+6,1,1,2,1,1,1,1,1,1,3,0;6,1,1,2,1,1,1,1,1,1,3,1,0;6,1,1,2,1,1,1,1,1,1,3,1,1;6,1,1,2,1,1,1,1,1,1,3,1,2;6,1,1,2,1,1,1,1,1,1,3,1,3;6,1,1,2,1,1,1,1,1,1,3,1,4
+#### Text ####
+while -- on an inflation-adjusted basis -- business investment slowed, government spending declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+984..1001
+6,1,1,2,1,1,1,1,1,1,3,1,6
+#### Text ####
+exports were flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1005..1008
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+731..1001
+6
+#### Text ####
+The figures came a day after the government released a report showing that consumer spending propelled U.S. economic expansion in the third quarter while -- on an inflation-adjusted basis -- business investment slowed, government spending declined, and exports were flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1009..1099
+7,1;7,2;7,3
+#### Text ####
+the new statistics show that by September, the burst in spending seemed to be tapering off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1101..1148
+8
+#### Text ####
+Many economists expect the weakness to continue
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1101
+8
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+1005..1099
+7
+#### Text ####
+But the new statistics show that by September, the burst in spending seemed to be tapering off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1101..1148
+8
+#### Text ####
+Many economists expect the weakness to continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1402
+11
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+1294..1391
+10,1
+#### Text ####
+I don't think there's a lot in the wings" in other sectors of the economy to keep growth above 1%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1393..1400
+10,0;10,2;10,3;10,4;10,5
+#### Text ####
+he said
+##############
+____Arg2____
+1402..1471
+11
+#### Text ####
+In the third quarter, the economy grew at a moderate 2.5% annual rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1512..1515
+12,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1475..1511
+12,0;12,1;12,2
+#### Text ####
+In August, personal income rose 0.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1516..1534
+12,4
+#### Text ####
+spending grew 0.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1654
+14
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1602..1652
+13,1,1,2;13,2
+#### Text ####
+to bargain car prices at the end of the model year
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1538..1601
+13,0;13,1,0;13,1,1,0;13,1,1,1;13,2
+#### Text ####
+Analysts have attributed much of the summer's spurt in spending
+##############
+____Arg2____
+1654..1724
+14
+#### Text ####
+Car sales slackened in September after the 1990 models were introduced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1687..1692
+14,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1654..1686
+14,0;14,1,0;14,1,1;14,2
+#### Text ####
+Car sales slackened in September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1693..1724
+14,1,2,1
+#### Text ####
+the 1990 models were introduced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1726
+15
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+1654..1724
+14
+#### Text ####
+Car sales slackened in September after the 1990 models were introduced
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1726..1887
+15
+#### Text ####
+According to the Commerce Department report, spending on durable goods -- items expected to last at least three years, including cars -- declined by $6.2 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1726..1769
+15,0;15,1
+#### Text ####
+According to the Commerce Department report
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2138
+19
+____Arg1____
+2070..2136
+18
+#### Text ####
+Here is the Commerce Department's latest report on personal income
+##############
+____Arg2____
+2138..2213
+19
+#### Text ####
+The figures are at seasonally adjusted annual rates in trillions of dollars
+##############
+________________________________________________________

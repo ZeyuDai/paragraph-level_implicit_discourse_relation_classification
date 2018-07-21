@@ -1,0 +1,1017 @@
+________________________________________________________
+____EntRel____
+248
+2
+____Arg1____
+165..246
+1
+#### Text ####
+All Nasdaq industry indexes finished lower, with financial issues hit the hardest
+##############
+____Arg2____
+248..339
+2
+#### Text ####
+Despite some early computer-guided program buying, the Nasdaq composite fell 1.39 to 451.37
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+341
+3
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Conjunction
+____Arg1____
+248..339
+2
+#### Text ####
+Despite some early computer-guided program buying, the Nasdaq composite fell 1.39 to 451.37
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+341..405
+3
+#### Text ####
+The OTC market now has declined in eight of the past 11 sessions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+452..457
+4,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+409..450
+4,0;4,1,0;4,1,1;4,1,2;4,1,3;4,2
+#### Text ####
+The Nasdaq bank index fell 5.00 to 432.61
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+458..497
+4,1,4,1,0
+#### Text ####
+the insurance index fell 3.56 to 528.56
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+499..502
+4,1,4,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+409..497
+4,0;4,1,0;4,1,1;4,1,2;4,1,3;4,1,4,0;4,1,4,1,0;4,1,4,1,1;4,2
+#### Text ####
+The Nasdaq bank index fell 5.00 to 432.61, while the insurance index fell 3.56 to 528.56
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+503..551
+4,1,4,1,3
+#### Text ####
+the "other finance" index dropped 3.27 to 529.32
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+553
+5
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+409..551
+4
+#### Text ####
+The Nasdaq bank index fell 5.00 to 432.61, while the insurance index fell 3.56 to 528.56, and the "other finance" index dropped 3.27 to 529.32
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+553..641
+5
+#### Text ####
+The largest financial issues, as measured by the Nasdaq financial index, tumbled 3.23 to
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+644..653
+6,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+409..641
+4;5
+#### Text ####
+The Nasdaq bank index fell 5.00 to 432.61, while the insurance index fell 3.56 to 528.56, and the "other finance" index dropped 3.27 to 529.32.
+The largest financial issues, as measured by the Nasdaq financial index, tumbled 3.23 to
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+655..743
+6,1;6,2;6,3;6,4
+#### Text ####
+the index of the 100 biggest non-financial stocks, the Nasdaq 100, gained 0.47 to 438.15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+898
+8
+#### Features ####
+Ot, Comm, Null, Null
+890..897
+8,0;8,1,0;8,2
+#### Text ####
+He said
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+747..888
+7
+#### Text ####
+Profit-taking accounted for much of the slide in OTC stock prices, according to David Mills, senior vice president of Boston Company Advisers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+814..888
+7,1,2;7,1,3;7,2
+#### Text ####
+according to David Mills, senior vice president of Boston Company Advisers
+##############
+____Arg2____
+898..1043
+8,1,1
+#### Text ####
+many portfolio managers, whose year-end bonuses are tied to annual performance, are selling now rather than risk seeing their gains erode further
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1222..1224
+10,0,0,1,1,1,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1194..1221
+10,0,0,1,1,1,0;10,0,0,1,1,1,1,0;10,0,0,1,1,1,1,1,0;10,0,0,1,1,1,1,1,1
+#### Text ####
+who sell loss-making stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1225..1277
+10,0,0,1,1,1,1,1,2,1
+#### Text ####
+they can deduct their losses from this year's income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1283..1287
+10,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1301..1315
+10,1;10,2;10,3;10,4
+#### Text ####
+Mr. Mills said
+##############
+also, Expansion.Conjunction
+____Arg1____
+898..921;978..1043
+8,1,1,0;8,1,1,1,0,0;8,1,1,1,0,1;8,1,1,1,0,3;8,1,1,1,1
+#### Text ####
+many portfolio managers are selling now rather than risk seeing their gains erode further
+##############
+#### Features ####
+Ot, Comm, Null, Null
+890..897
+8,0;8,1,0;8,2
+#### Text ####
+He said
+##############
+____Arg2____
+1160..1282;1288..1299
+10,0,0;10,0,1,0;10,0,1,2
+#### Text ####
+Tax-loss sellers, those investors who sell loss-making stocks so they can deduct their losses from this year's income, are getting out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1317
+11
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1160..1299
+10,0
+#### Text ####
+Tax-loss sellers, those investors who sell loss-making stocks so they can deduct their losses from this year's income, are also getting out
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1301..1315
+10,1;10,2;10,3;10,4
+#### Text ####
+Mr. Mills said
+##############
+____Arg2____
+1317..1388
+11
+#### Text ####
+That's helping put pressure on both the market's winners and its losers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1454..1457
+12,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1516..1530
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Mr. Mills said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1393..1452
+12,1,0
+#### Text ####
+The stocks that have been the best are having big pullbacks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1458..1513
+12,1,3
+#### Text ####
+the ones that have been the worst are getting clobbered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1532
+13
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Conjunction
+____Arg1____
+1393..1513
+12,1
+#### Text ####
+The stocks that have been the best are having big pullbacks, and the ones that have been the worst are getting clobbered
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1516..1530
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+Mr. Mills said
+##############
+____Arg2____
+1532..1623
+13
+#### Text ####
+He expects the market to sink further and to reach a low sometime next month or in December
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1719
+15
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1627..1716
+14
+#### Text ####
+The selling by money managers and individual investors is turning traders bearish as well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1719..1952
+15
+#### Text ####
+We are advising a lot of our clients to make moves that make sense to them, rather than waiting until the last minute, because things have been so volatile," said William Sulya, head of OTC trading at A.G. Edwards & Sons in St. Louis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1838..1845
+15,1,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1877..1952
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said William Sulya, head of OTC trading at A.G. Edwards & Sons in St. Louis
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1719..1836
+15,1,0;15,1,1,0;15,1,1,1,0;15,1,1,1,1;15,1,1,1,2;15,1,1,1,3
+#### Text ####
+We are advising a lot of our clients to make moves that make sense to them, rather than waiting until the last minute
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1846..1874
+15,1,1,1,4,1
+#### Text ####
+things have been so volatile
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2041
+16
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1719..1952
+15
+#### Text ####
+We are advising a lot of our clients to make moves that make sense to them, rather than waiting until the last minute, because things have been so volatile," said William Sulya, head of OTC trading at A.G. Edwards & Sons in St. Louis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2041..2132
+16,1,1
+#### Text ####
+many market players are awaiting some resolution of the current debate over program trading
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1954..2040
+16,0;16,1,0;16,2
+#### Text ####
+Ralph Costanza, head of the OTC trading department at Smith Barney, Harris Upham, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2452..2457
+19,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2424..2451
+19,0;19,1,0;19,1,1;19,1,2;19,2
+#### Text ####
+Weisfield's surged 14 to 53
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2458..2537
+19,1,3,1
+#### Text ####
+agreeing in principle to be acquired by a unit of Ratners Group for $50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2539
+20
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2424..2537
+19
+#### Text ####
+Weisfield's surged 14 to 53 after agreeing in principle to be acquired by a unit of Ratners Group for $50 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2539..2621
+20
+#### Text ####
+The stock jumped 9 1/2 Friday, when the company announced it was in takeover talks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2623
+21
+____Arg1____
+2539..2621
+20
+#### Text ####
+The stock jumped 9 1/2 Friday, when the company announced it was in takeover talks
+##############
+____Arg2____
+2623..2744
+21
+#### Text ####
+Ratners and Weisfield's said they expect to sign definitive agreements shortly and to complete the transaction by Dec. 15
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2804..2809
+22,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2748..2803
+22,0;22,1,0;22,1,1;22,1,2;22,2
+#### Text ####
+Mid-State Federal Savings Bank advanced 1 1/2 to 20 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2810..2857
+22,1,3,1
+#### Text ####
+it said it is in talks with a possible acquirer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2859
+23
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2748..2857
+22
+#### Text ####
+Mid-State Federal Savings Bank advanced 1 1/2 to 20 1/4 after it said it is in talks with a possible acquirer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2859..2935
+23
+#### Text ####
+The bank said the talks resulted from solicitations by its financial adviser
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3011..3013
+24,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+2939..3010
+24,0;24,1,0;24,1,1;24,2
+#### Text ####
+Jaguar assumed its recently customary place on the OTC most active list
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3014..3181
+24,1,2,1
+#### Text ####
+its American depository receipts gained 1/4 to 11 7/8 on volume of 1.2 million shares and Daimler-Benz joined the list of companies interested in the British car maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3100..3103
+24,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3011..3099
+24,1,2,0;24,1,2,1,0
+#### Text ####
+as its American depository receipts gained 1/4 to 11 7/8 on volume of 1.2 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3104..3181
+24,1,2,1,2
+#### Text ####
+Daimler-Benz joined the list of companies interested in the British car maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3196
+25
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3104..3181
+24,1,2,1,2
+#### Text ####
+Daimler-Benz joined the list of companies interested in the British car maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3196..3254
+25,1,1
+#### Text ####
+it has had talks with Jaguar about possible joint ventures
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3183..3195
+25,0;25,1,0;25,2
+#### Text ####
+Daimler said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3258..3267
+26,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Sup1____
+3183..3254
+25
+#### Text ####
+Daimler said it has had talks with Jaguar about possible joint ventures
+##############
+____Arg1____
+3100..3181
+24,1,2,1,1;24,1,2,1,2
+#### Text ####
+and Daimler-Benz joined the list of companies interested in the British car maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3269..3336
+26,1;26,2;26,3;26,4
+#### Text ####
+General Motors and Ford Motor continue their pursuit of the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3338..3446
+27
+#### Text ####
+Ford has acquired more than 13% of Jaguar's shares, and GM has received U.S. regulatory clearance to buy 15%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3338
+27
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3258..3336
+26
+#### Text ####
+Meanwhile, General Motors and Ford Motor continue their pursuit of the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3338..3446
+27
+#### Text ####
+Ford has acquired more than 13% of Jaguar's shares, and GM has received U.S. regulatory clearance to buy 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3390..3393
+27,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3338..3388
+27,0
+#### Text ####
+Ford has acquired more than 13% of Jaguar's shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3394..3446
+27,3
+#### Text ####
+GM has received U.S. regulatory clearance to buy 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3489
+29
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+3450..3487
+28
+#### Text ####
+ShowBiz Pizza Time gained 1 1/2 to 13
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3489..3607
+29
+#### Text ####
+The company reported third-quarter operating profit of 37 cents a share, compared with 12 cents a share a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3609
+30
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+3489..3607
+29
+#### Text ####
+The company reported third-quarter operating profit of 37 cents a share, compared with 12 cents a share a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3609..3725
+30
+#### Text ####
+A third-quarter charge of $3.5 million related to planned restaurant closings resulted in a net loss for the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3834..3861
+32,0;32,1,0;32,1,1;32,1,2,0;32,1,2,1,0
+#### Text ####
+The loss was largely due to
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+3729..3832
+31
+#### Text ####
+Employers Casualty, which reported a $53.9 million third-quarter loss late Friday, fell 2 1/4 to 13 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3834..3898
+32
+#### Text ####
+The loss was largely due to a $55.2 million addition to reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3900
+33
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+3729..3898
+31;32
+#### Text ####
+Employers Casualty, which reported a $53.9 million third-quarter loss late Friday, fell 2 1/4 to 13 3/4.
+The loss was largely due to a $55.2 million addition to reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3900..3973
+33
+#### Text ####
+Employers Casualty had a loss of $3.6 million in the year-earlier quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4009
+35
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3977..4007
+34
+#### Text ####
+Old Stone fell 1 5/8 to 13 1/2
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4009..4129
+35
+#### Text ####
+Late Friday, the company reported a loss of $51.3 million for the third quarter after earning $9.2 million a year before
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4089..4094
+35,3,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4009..4088
+35,0;35,1;35,2;35,3,0;35,3,1;35,4
+#### Text ####
+Late Friday, the company reported a loss of $51.3 million for the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4095..4129
+35,3,2,1
+#### Text ####
+earning $9.2 million a year before
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4201
+37
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast
+____Arg1____
+4133..4199
+36
+#### Text ####
+The loss came after a $23.3 million addition to loan-loss reserves
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4201..4259
+37
+#### Text ####
+The bank made a $4.5 million provision in the 1988 quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4261
+38
+____Arg1____
+4201..4259
+37
+#### Text ####
+The bank made a $4.5 million provision in the 1988 quarter
+##############
+____Arg2____
+4261..4380
+38
+#### Text ####
+Old Stone repeated projections that it will be profitable for the fourth quarter and will about break even for the year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4438..4443
+39,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4384..4437
+39,0;39,1,0;39,1,1;39,1,2;39,2
+#### Text ####
+Abraham Lincoln Federal Savings Bank sank 4 to 13 1/2
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4444..4562
+39,1,3,1
+#### Text ####
+announcing a shakeup that will change senior management and reorganize the bank's mortgage business as a separate unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4573..4577
+40,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4438..4562
+39,1,3
+#### Text ####
+after announcing a shakeup that will change senior management and reorganize the bank's mortgage business as a separate unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4564..4572;4578..4697
+40,0;40,2;40,3
+#### Text ####
+The bank said it will establish a loan-loss reserve of $2.5 million to $4 million against a construction loan that is in default
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4717..4727
+41,0,2,1,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+4701..4709;4750..4847
+41,0,0;41,0,1;41,0,3;41,1;41,2
+#### Text ####
+The bank said it has received no offers and that its board will review whether to continue soliciting bids
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4711..4716;4728..4748
+41,0,2,0;41,0,2,1,0;41,0,2,1,2
+#### Text ####
+which said it was for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4781..4784
+41,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4701..4709;4750..4754
+41,0,0;41,0,1;41,0,3;41,1,0
+#### Text ####
+The bank said
+##############
+and, Expansion.Conjunction
+____Arg1____
+4755..4780
+41,1,1,0
+#### Text ####
+it has received no offers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4785..4847
+41,1,1,2
+#### Text ####
+that its board will review whether to continue soliciting bids
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

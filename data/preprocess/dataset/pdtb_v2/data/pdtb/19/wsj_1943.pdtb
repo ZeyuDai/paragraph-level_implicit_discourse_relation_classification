@@ -1,0 +1,215 @@
+________________________________________________________
+____AltLex____
+277..304
+2,1,1,1,0;2,1,1,1,1,0;2,1,1,1,1,1,0
+#### Text ####
+the refinancing should save
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+134..262
+1
+#### Text ####
+Proceeds from the bonds, with coupon rates in the 8% range, will be used to replace bonds with an average interest rate of 13.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+277..344
+2,1,1
+#### Text ####
+the refinancing should save $75 million a year in interest payments
+##############
+#### Features ####
+Ot, Comm, Null, Null
+264..276
+2,0;2,1,0;2,2
+#### Text ####
+The TVA said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+558
+4
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Restatement.Generalization
+____Arg1____
+9..556
+0;1;2;3
+#### Text ####
+The Tennessee Valley Authority issued $4 billion in bonds in the federal utility's first public debt offering in 15 years. 
+
+Proceeds from the bonds, with coupon rates in the 8% range, will be used to replace bonds with an average interest rate of 13.1%.
+The TVA said the refinancing should save $75 million a year in interest payments. 
+
+The refinancing is part of the TVA's strategy of dealing with what has been an intractable problem: its staggering $18.5 billion debt, most of which is owed to the Treasury Department's Federal Financing Bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+558..659
+4
+#### Text ####
+The TVA currently plans to issue a total of $6.7 billion in bonds to refinance its high-interest debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+689..693
+5,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+134..262
+1
+#### Text ####
+Proceeds from the bonds, with coupon rates in the 8% range, will be used to replace bonds with an average interest rate of 13.1%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+663..688;694..763
+5,0,0;5,0,2
+#### Text ####
+The $4 billion bond issue will help the TVA meet its goal of not raising rates for another year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+765..824
+5,1;5,2;5,3;5,4
+#### Text ####
+said William F. Malec, the agency's chief financial officer
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+950..953
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+828..948
+6
+#### Text ####
+The bond issue is TVA's first public offering since the Financing Bank was created in 1974, primarily to finance the TVA
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+954..987
+7,1;7,2;7,3;7,4
+#### Text ####
+the offering almost didn't happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+998..1005
+8,2
+#### Text ####
+in fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+950..987
+7
+#### Text ####
+But the offering almost didn't happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+989..996;1007..1215
+8,0;8,1;8,3;8,4;8,5
+#### Text ####
+The TVA decided to proceed with the bond offering following an agreement last week with the Financing Bank, which allows TVA to keep borrowing short term from the bank for two years after it goes to the public market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1181..1186
+8,4,2,1,2,1,2,1,1,1,1,1,1,4,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1120..1180
+8,4,2,1,2,1,2,1,1,1,0;8,4,2,1,2,1,2,1,1,1,1,0;8,4,2,1,2,1,2,1,1,1,1,1,0;8,4,2,1,2,1,2,1,1,1,1,1,1,0;8,4,2,1,2,1,2,1,1,1,1,1,1,1;8,4,2,1,2,1,2,1,1,1,1,1,1,2;8,4,2,1,2,1,2,1,1,1,1,1,1,3
+#### Text ####
+TVA to keep borrowing short term from the bank for two years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1187..1215
+8,4,2,1,2,1,2,1,1,1,1,1,1,4,1
+#### Text ####
+it goes to the public market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1217
+9
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+989..1105
+8,0;8,1;8,2;8,3;8,4,0;8,4,1;8,4,2,0;8,4,2,1,0;8,4,2,1,1;8,4,2,1,2,0;8,4,2,1,2,1,0;8,4,2,1,2,1,1;8,5
+#### Text ####
+The TVA, in fact, decided to proceed with the bond offering following an agreement last week with the Financing Bank
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1217..1304
+9
+#### Text ####
+The Treasury contended that TVA couldn't borrow from both it and the public debt market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1655
+11
+____Arg1____
+1308..1653
+10
+#### Text ####
+The $4 billion in bonds break down as follows: $1 billion in five-year bonds with a coupon rate of 8.25% and a yield to maturity of 8.33%; $1 billion in 10-year bonds with a coupon rate of 8.375% and a yield to maturity of 8.42%; $2 billion in 30-year bonds with five-year call protection, a coupon rate of 8.75% and a yield to maturity of 9.06%
+##############
+____Arg2____
+1655..1856
+11
+#### Text ####
+Managing the bond issue is a group of investment banks headed by First Boston Corp. and co-managed by Goldman, Sachs & Co., Merrill Lynch Capital Markets, Morgan Stanley & Co., and Salomon Brothers Inc
+##############
+________________________________________________________

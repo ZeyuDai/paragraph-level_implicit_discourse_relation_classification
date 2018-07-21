@@ -1,0 +1,392 @@
+________________________________________________________
+____Explicit____
+224..227
+1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+181..222
+1,0
+#### Text ####
+There were no immediate reports of deaths
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+243..300
+1,3,1,1
+#### Text ####
+a number of workers were still unaccounted for last night
+##############
+#### Features ####
+Ot, Comm, Null, Null
+228..242
+1,3,0;1,3,1,0
+#### Text ####
+officials said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+492
+3
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+304..490
+2
+#### Text ####
+The Bartlesville, Okla., oil company late yesterday still hadn't said officially what caused the explosions and fires, which sent columns of heavy black smoke billowing high into the air
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+492..566
+3
+#### Text ####
+One local Phillips manager said a seal blew in one of the plant's reactors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+568
+4
+____Arg1____
+492..566
+3
+#### Text ####
+One local Phillips manager said a seal blew in one of the plant's reactors
+##############
+____Arg2____
+568..752
+4
+#### Text ####
+Glenn Cox, Phillips' president and chief operating officer, and other Phillips officials flew from Bartlesville to assess the damage and determine the cause of the afternoon explosions
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+995
+7
+____Arg1____
+861..993
+6
+#### Text ####
+The plastics plant is located on an 800-acre tract in the heart of the petrochemical corridor that reaches along the U.S. Gulf Coast
+##############
+____Arg2____
+995..1153
+7
+#### Text ####
+The U.S. Coast Guard closed six miles of the Houston Ship Channel, where about 150 companies have operations, because the thick, black smoke obscured the area
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1105..1112
+7,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+1062..1103
+7,1,1,1,1,2
+#### Text ####
+where about 150 companies have operations
+##############
+____Arg1____
+995..1060
+7,0;7,1,0;7,1,1,0;7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1;7,1,1,1,1,3;7,2
+#### Text ####
+The U.S. Coast Guard closed six miles of the Houston Ship Channel
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1113..1153
+7,1,2,1
+#### Text ####
+the thick, black smoke obscured the area
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1155
+8
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+995..1153
+7
+#### Text ####
+The U.S. Coast Guard closed six miles of the Houston Ship Channel, where about 150 companies have operations, because the thick, black smoke obscured the area
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1155..1218
+8
+#### Text ####
+The Port of Houston closed its terminal for handling bulk cargo
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1287..1290
+9,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1222..1285
+9,0
+#### Text ####
+Broken water lines and gas leaks hindered firefighters' efforts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1291..1357
+9,3
+#### Text ####
+by late yesterday authorities said they had the fire under control
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1359
+10
+____Arg1____
+1222..1357
+9
+#### Text ####
+Broken water lines and gas leaks hindered firefighters' efforts, but by late yesterday authorities said they had the fire under control
+##############
+____Arg2____
+1359..1465
+10
+#### Text ####
+The blasts blew out windows, spewed debris for miles and crumpled the ceiling in an area elementary school
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1467
+11
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1359..1465
+10
+#### Text ####
+The blasts blew out windows, spewed debris for miles and crumpled the ceiling in an area elementary school
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1550
+11
+#### Text ####
+The initial fireball was caught by cameras in downtown Houston, about 10 miles away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1644..1647
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1554..1642
+12,0
+#### Text ####
+Nearby Pasadena, Texas, police reported that 104 people had been taken to area hospitals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1648..1687
+12,3
+#### Text ####
+a spokeswoman said that toll could rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1689
+13
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1594..1642
+12,0,1,1
+#### Text ####
+that 104 people had been taken to area hospitals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1554..1593
+12,0,0;12,0,1,0
+#### Text ####
+Nearby Pasadena, Texas, police reported
+##############
+____Arg2____
+1689..1810
+13,0
+#### Text ####
+The injured, including three in critical condition, were treated for burns, breathing problems and cuts from flying glass
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1812..1835
+13,1;13,2;13,3;13,4
+#### Text ####
+hospital officials said
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+1837
+14
+____Arg1____
+1689..1835
+13
+#### Text ####
+The injured, including three in critical condition, were treated for burns, breathing problems and cuts from flying glass, hospital officials said
+##############
+____Arg2____
+1837..1890
+14
+#### Text ####
+The plant employs between 800 and 900 on three shifts
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1892
+15
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1837..1890
+14
+#### Text ####
+The plant employs between 800 and 900 on three shifts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1892..1948
+15
+#### Text ####
+The number working at the time of the blast wasn't known
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2034
+17
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+1952..2032
+16
+#### Text ####
+Yesterday's explosions were the second round in two months at the plastics plant
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2034..2189
+17
+#### Text ####
+In late August, four contract workers were injured and one Phillips employee died after an explosion at a fuel supply line near the facility's boiler house
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2085..2088
+17,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2034..2084;2116..2189
+17,0;17,1;17,2;17,5;17,6
+#### Text ####
+In late August, four contract workers were injured after an explosion at a fuel supply line near the facility's boiler house
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2089..2115
+17,4
+#### Text ####
+one Phillips employee died
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2346
+19
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2193..2344
+18
+#### Text ####
+The Phillips facility manufactures polyethylene, polypropylene and K-resin, plastics used in a wide array of applications, including milk jugs and toys
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2346..2408
+19,0;19,1,0;19,1,1,0;19,1,1,1,0;19,1,1,1,1,0;19,1,1,1,1,1;19,2
+#### Text ####
+Plastics are the cornerstone of Phillips' chemicals operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

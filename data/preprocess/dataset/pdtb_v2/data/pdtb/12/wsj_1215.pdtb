@@ -1,0 +1,220 @@
+________________________________________________________
+____Explicit____
+122..125
+0,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..41
+0,0;0,1,0;0,2
+#### Text ####
+Staar Surgical Co. 's board said
+##############
+and, Expansion.Conjunction
+____Arg1____
+42..121
+0,1,1,0
+#### Text ####
+that it has removed Thomas R. Waggoner as president and chief executive officer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+126..253
+0,1,1,2
+#### Text ####
+that John R. Wolf, formerly executive vice president, sales and marketing, has been named president and chief executive officer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+364..369
+2,0
+#### Text ####
+Later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+330..362
+1,1,1,2,1,2
+#### Text ####
+when he ousted all the directors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+380..476
+2,2,1
+#### Text ####
+they fired him, and two directors attempted to place the company under bankruptcy-law protection
+##############
+#### Features ####
+Ot, Comm, Null, Null
+370..379
+2,1;2,2,0;2,3
+#### Text ####
+they said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+396..399
+2,2,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+364..369;380..394
+2,0;2,2,1,1,0;2,3
+#### Text ####
+Later they fired him
+##############
+#### Features ####
+Ot, Comm, Null, Null
+370..379
+2,1;2,2,0;2,3
+#### Text ####
+they said
+##############
+____Arg2____
+400..476
+2,2,1,1,3
+#### Text ####
+two directors attempted to place the company under bankruptcy-law protection
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+478
+3
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+396..476
+2,2,1,1,2;2,2,1,1,3
+#### Text ####
+and two directors attempted to place the company under bankruptcy-law protection
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+478..529
+3
+#### Text ####
+A federal judge turned down the Chapter 11 petition
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+666
+5
+____Arg1____
+533..664
+4
+#### Text ####
+The company's latest announcement said Mr. Waggoner will remain a director of Staar, a maker of products for small-incision surgery
+##############
+____Arg2____
+666..745
+5
+#### Text ####
+Mr. Wolf and other members of the board declined to comment on the announcement
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+747
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+666..745
+5
+#### Text ####
+Mr. Wolf and other members of the board declined to comment on the announcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+747..779
+6
+#### Text ####
+Mr. Waggoner couldn't be reached
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+799..803
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+533..664
+4
+#### Text ####
+The company's latest announcement said Mr. Waggoner will remain a director of Staar, a maker of products for small-incision surgery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+783..798;804..900
+7,0;7,2;7,3
+#### Text ####
+The Staar board said that John R. Ford resigned as a director, and that Mr. Wolf was named a member of the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+851..854
+7,2,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+783..808
+7,0;7,1;7,2,0;7,3
+#### Text ####
+The Staar board also said
+##############
+and, Expansion.Conjunction
+____Arg1____
+809..849
+7,2,1,0
+#### Text ####
+that John R. Ford resigned as a director
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+855..900
+7,2,1,3
+#### Text ####
+that Mr. Wolf was named a member of the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

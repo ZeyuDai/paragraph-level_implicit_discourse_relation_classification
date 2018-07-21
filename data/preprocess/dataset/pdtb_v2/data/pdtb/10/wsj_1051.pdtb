@@ -1,0 +1,259 @@
+________________________________________________________
+____Implicit____
+332
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+185..330
+1
+#### Text ####
+The catalog retailer reported net income of $10.8 million, or 21 cents a share, up sharply from $6.6 million, or 13 cents a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+332..382
+2
+#### Text ####
+Revenue rose to $372.1 million from $336.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+416..423
+3,1,1,1,1,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+386..398
+3,0;3,1,0;3,2
+#### Text ####
+Spiegel said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+399..415
+3,1,1,0;3,1,1,1,0;3,1,1,1,1,0
+#### Text ####
+margins improved
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+424..533
+3,1,1,1,1,1,1
+#### Text ####
+its inventory position this year didn't need the costly markdowns required to trim last year's swollen levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+554
+4
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+399..533
+3,1,1
+#### Text ####
+margins improved because its inventory position this year didn't need the costly markdowns required to trim last year's swollen levels
+##############
+#### Features ####
+Ot, Comm, Null, Null
+386..398
+3,0;3,1,0;3,2
+#### Text ####
+Spiegel said
+##############
+____Arg2____
+554..671
+4,1,1
+#### Text ####
+the apparel market troughed in the first half of 1988, then began showing improvement in the second half of last year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+535..553
+4,0;4,1,0;4,2
+#### Text ####
+A spokeswoman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+609..613
+4,1,1,1,1,2
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+535..553
+4,0;4,1,0;4,2
+#### Text ####
+A spokeswoman said
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+554..607
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1
+#### Text ####
+the apparel market troughed in the first half of 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+614..671
+4,1,1,1,1,3
+#### Text ####
+began showing improvement in the second half of last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+674
+5
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+609..671
+4,1,1,1,1,1;4,1,1,1,1,2;4,1,1,1,1,3
+#### Text ####
+then began showing improvement in the second half of last year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+535..553
+4,0;4,1,0;4,2
+#### Text ####
+A spokeswoman said
+##############
+____Arg2____
+674..714
+5,1
+#### Text ####
+We've seen continued improvement in 1989
+##############
+#### Features ####
+Ot, Comm, Null, Null
+717..725
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+she said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+897..908
+7,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+399..533
+3,1,1
+#### Text ####
+margins improved because its inventory position this year didn't need the costly markdowns required to trim last year's swollen levels
+##############
+#### Features ####
+Ot, Comm, Null, Null
+386..398
+3,0;3,1,0;3,2
+#### Text ####
+Spiegel said
+##############
+____Arg2____
+927..1006
+7,3,1
+#### Text ####
+ongoing cost-cutting efforts contributed to the latest period's earnings upturn
+##############
+#### Features ####
+Ot, Comm, Null, Null
+910..926
+7,1;7,2;7,3,0;7,4
+#### Text ####
+the company said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1072
+9
+____Arg1____
+1010..1070
+8
+#### Text ####
+Spiegel is 84%-controlled by the Otto family of West Germany
+##############
+____Arg2____
+1072..1160
+9
+#### Text ####
+In national over-the-counter trading, the company's shares climbed 37.5 cents to $20.375
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1298
+11
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1164..1296
+10
+#### Text ####
+For the latest nine months, Spiegel's net climbed a solid 47% to $23.8 million, or 46 cents a share, from $16.2 million, or 34 cents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1298..1499
+11
+#### Text ####
+Unlike the quarter's results, which were based on roughly equal shares outstanding, nine-month per-share figures reflect an increase in average common shares outstanding to 51.9 million from 47 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1501
+12
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1164..1499
+10;11
+#### Text ####
+For the latest nine months, Spiegel's net climbed a solid 47% to $23.8 million, or 46 cents a share, from $16.2 million, or 34 cents.
+Unlike the quarter's results, which were based on roughly equal shares outstanding, nine-month per-share figures reflect an increase in average common shares outstanding to 51.9 million from 47 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1501..1565
+12
+#### Text ####
+Nine-month revenue was $1.02 billion, up 22% from $841.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

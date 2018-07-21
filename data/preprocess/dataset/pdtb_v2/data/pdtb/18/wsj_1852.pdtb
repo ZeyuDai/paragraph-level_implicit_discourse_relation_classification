@@ -1,0 +1,1126 @@
+________________________________________________________
+____Explicit____
+416..423
+1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+336..390
+1,0,2
+#### Text ####
+which affects millions of dollars of trading positions
+##############
+____Arg1____
+322..334;392..415
+1,0,0;1,0,1;1,0,3;1,1,0;1,1,1,0;1,1,1,1;1,1,1,2
+#### Text ####
+The decision was made late yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+424..510
+1,1,1,3,1
+#### Text ####
+the Pacific exchange's options floor was shut down as a result of Tuesday's earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+575
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+322..510
+1
+#### Text ####
+The decision, which affects millions of dollars of trading positions, was made late yesterday because the Pacific exchange's options floor was shut down as a result of Tuesday's earthquake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+575..672
+2,4,1
+#### Text ####
+it was necessary to ensure that options listed on the exchange could be traded today and tomorrow
+##############
+#### Features ####
+Ot, Comm, Null, Null
+570..574
+2,1;2,3;2,4,0;2,5
+#### Text ####
+said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1172
+5
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+910..1079
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0;4,1,1,1,1,1,0;4,1,1,1,1,1,1;4,1,1,1,1,1,2;4,1,1,1,1,1,3,0;4,1,1,1,1,1,3,1;4,1,1,1,1,1,3,2,0;4,1,1,1,1,1,3,2,1,0;4,1,1,1,1,1,3,2,1,1
+#### Text ####
+well over 50 traders from the Pacific exchange were taking flights from San Francisco late yesterday to the American, New York and Philadelphia exchanges and to the CBOE
+##############
+#### Features ####
+Ot, Comm, Null, Null
+873..909
+4,0;4,1,0;4,2
+#### Text ####
+Officials at the four exchanges said
+##############
+____Arg2____
+1172..1269
+5,1,1
+#### Text ####
+carpenters quickly erected a new options floor to accomodate 40 traders from the Pacific exchange
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1153..1171
+5,0;5,1,0;5,2
+#### Text ####
+The Big Board said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1271..1282
+6,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1172..1269
+5,1,1
+#### Text ####
+carpenters quickly erected a new options floor to accomodate 40 traders from the Pacific exchange
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1153..1171
+5,0;5,1,0;5,2
+#### Text ####
+The Big Board said
+##############
+____Arg2____
+1284..1415
+6,1;6,2;6,3;6,4
+#### Text ####
+specialists on the exchanges agreed to provide backup capital for market-making in Pacific exchange options traded on the exchanges
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1689
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1624..1687
+8
+#### Text ####
+The most pressing problem was the suspension of options trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1689..1832
+9
+#### Text ####
+The Pacific exchange has options for 129 underlying stock issues, including highly active Hilton Hotels Corp., which is listed on the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1834
+10
+____Arg1____
+1689..1832
+9
+#### Text ####
+The Pacific exchange has options for 129 underlying stock issues, including highly active Hilton Hotels Corp., which is listed on the Big Board
+##############
+____Arg2____
+1834..1925
+10
+#### Text ####
+Investors were concerned that they might be unable to exercise options that expire tomorrow
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1929..1932
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+1834..1925
+10
+#### Text ####
+Investors were concerned that they might be unable to exercise options that expire tomorrow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1933..2062
+11,1;11,2;11,3
+#### Text ####
+professionals said throughout the day that the shutdown wouldn't be a cause for alarm even if it were to persist for several days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2019..2026
+11,2,2,1,1,2,2,0;11,2,2,1,1,2,2,1
+#### Text ####
+even if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1933..1970
+11,1;11,2,0;11,2,1;11,3
+#### Text ####
+professionals said throughout the day
+##############
+if, Comparison.Concession.Expectation
+____Arg1____
+1971..2018
+11,2,2,0;11,2,2,1,0;11,2,2,1,1,0;11,2,2,1,1,1;11,2,2,1,1,2,0;11,2,2,1,1,2,1
+#### Text ####
+that the shutdown wouldn't be a cause for alarm
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2027..2062
+11,2,2,1,1,2,2,2
+#### Text ####
+it were to persist for several days
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2096
+12
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+for instance, Expansion.Instantiation
+____Arg1____
+1971..2062
+11,2,2
+#### Text ####
+that the shutdown wouldn't be a cause for alarm even if it were to persist for several days
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1929..1970
+11,0;11,1;11,2,0;11,2,1;11,3
+#### Text ####
+But professionals said throughout the day
+##############
+____Arg2____
+2096..2212
+12,1,1,1,2
+#### Text ####
+that they still have the ability to exercise their options, because they are guaranteed by the Options Clearing Corp
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2065..2095
+12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1
+#### Text ####
+I've told my staff and clients
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2156..2163
+12,1,1,1,2,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2065..2095
+12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1
+#### Text ####
+I've told my staff and clients
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2096..2154
+12,1,1,1,2,0;12,1,1,1,2,1,0;12,1,1,1,2,1,1;12,1,1,1,2,1,2,0;12,1,1,1,2,1,2,1;12,1,1,1,2,1,2,2
+#### Text ####
+that they still have the ability to exercise their options
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2164..2212
+12,1,1,1,2,1,2,3,1
+#### Text ####
+they are guaranteed by the Options Clearing Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2344..2351
+13,1,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Sup1____
+2156..2212
+12,1,1,1,2,1,2,3
+#### Text ####
+because they are guaranteed by the Options Clearing Corp
+##############
+____Arg1____
+2096..2154
+12,1,1,1,2,0;12,1,1,1,2,1,0;12,1,1,1,2,1,1;12,1,1,1,2,1,2,0;12,1,1,1,2,1,2,1;12,1,1,1,2,1,2,2
+#### Text ####
+that they still have the ability to exercise their options
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2065..2095
+12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1
+#### Text ####
+I've told my staff and clients
+##############
+____Arg2____
+2301..2342;2353..2415
+13,0;13,1,0;13,1,1;13,1,2;13,1,4;13,1,5;13,2
+#### Text ####
+The SEC reassigned trading in the options to allow investors to do more than simply exercise the options
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2419..2424
+14,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2506..2558
+14,1;14,2;14,3;14,4
+#### Text ####
+orders were being routed and executed in Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2425..2504
+14,0,1
+#### Text ####
+the exchange's equities floor in San Francisco remained open on a limited basis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2560
+15
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2419..2558
+14
+#### Text ####
+While the exchange's equities floor in San Francisco remained open on a limited basis, orders were being routed and executed in Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2560..2625
+15
+#### Text ####
+Workers could dial out, but they couldn't receive telephone calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2584..2587
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+2560..2582
+15,0
+#### Text ####
+Workers could dial out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2588..2625
+15,3
+#### Text ####
+they couldn't receive telephone calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2628
+16
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2560..2625
+15
+#### Text ####
+Workers could dial out, but they couldn't receive telephone calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2628..2669
+16,1
+#### Text ####
+It's a very uncertain situation right now
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2672..2757
+16,0;16,2;16,3;16,4;16,5,0;16,5,1;16,5,2,0;16,5,2,1,0;16,5,2,1,1,0;16,5,2,1,1,1,0;16,5,2,1,1,1,1,0;16,5,2,1,1,1,1,1;16,6
+#### Text ####
+said Navin Vyas, administrative assistant of trading floor operations of the exchange
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2812..2819
+17,0,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2919..2939
+17,0,1;17,0,2;17,0,3;17,0,4;17,0,5
+#### Text ####
+business is as usual
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2941..2954
+17,1;17,2;17,3
+#### Text ####
+Mr. Vyas said
+##############
+____Arg2____
+2820..2916
+17,0,0,1
+#### Text ####
+the exchange's computer was rerouting orders to the exchange's trading operations in Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2957
+18
+#### Features ####
+Ot, Comm, Null, Null
+2941..2954
+17,1;17,2;17,3
+#### Text ####
+Mr. Vyas said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2812..2939
+17,0
+#### Text ####
+Because the exchange's computer was rerouting orders to the exchange's trading operations in Los Angeles, "business is as usual
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2957..3001
+18
+#### Text ####
+If one city is down, the other can take over
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2957..2959
+18,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2941..2954
+17,1;17,2;17,3
+#### Text ####
+Mr. Vyas said
+##############
+if, Contingency.Condition.General
+____Arg1____
+2978..3001
+18,0;18,2;18,3;18,4;18,5;18,6
+#### Text ####
+the other can take over
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2960..2976
+18,1,1
+#### Text ####
+one city is down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3006..3015
+19,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+2419..2558
+14
+#### Text ####
+While the exchange's equities floor in San Francisco remained open on a limited basis, orders were being routed and executed in Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3017..3073
+19,1;19,2;19,3;19,4
+#### Text ####
+the brokerage firms in San Francisco were trying to cope
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3148
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3006..3073
+19
+#### Text ####
+Meanwhile, the brokerage firms in San Francisco were trying to cope
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3148..3404
+20,1,1
+#### Text ####
+traders came to work at 5 a.m. PDT -- many on foot because of uncertain road and traffic conditions -- but learned that they would have to await a required inspection by the city in order to turn the power back on at the company's two main facilities there
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3075..3147
+20,0;20,1,0;20,2
+#### Text ####
+Charles Daggs, chairman and chief executive officer of Sutro & Co., said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3406
+21
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3263..3404
+20,1,1,1,1,2,1
+#### Text ####
+that they would have to await a required inspection by the city in order to turn the power back on at the company's two main facilities there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3406..3433
+21,0
+#### Text ####
+That should happen by today
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3435..3442
+21,1;21,2;21,3;21,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3584..3588
+23,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3446..3582
+22
+#### Text ####
+Traders worked with the help of sunlight streaming through windows, despite large cracks in the walls and a lack of incoming phone calls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3590..3638
+23,1;23,2;23,3;23,4
+#### Text ####
+most of the telecommunications equipment was out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3640
+24
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3584..3638
+23
+#### Text ####
+Also, most of the telecommunications equipment was out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3640..3753
+24,0;24,1,0;24,1,1,0;24,1,1,1;24,1,1,2,0;24,1,1,2,1,0;24,1,1,2,1,1;24,1,1,2,1,2;24,1,1,2,1,3;24,2
+#### Text ####
+The traders were executing municipal bond, mutual fund and other orders through a sister firm, Tucker Anthony Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3838
+25
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+3640..3753
+24,0;24,1,0;24,1,1,0;24,1,1,1;24,1,1,2,0;24,1,1,2,1,0;24,1,1,2,1,1;24,1,1,2,1,2;24,1,1,2,1,3;24,2
+#### Text ####
+The traders were executing municipal bond, mutual fund and other orders through a sister firm, Tucker Anthony Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3838..3865
+25
+#### Text ####
+We are having a regular day
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3945..3960
+26,1;26,2;26,3;26,4;26,5
+#### Text ####
+Mr. Daggs added
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3867
+26
+#### Features ####
+Ot, Comm, Null, Null
+3945..3960
+26,1;26,2;26,3;26,4;26,5
+#### Text ####
+Mr. Daggs added
+##############
+overall, Expansion.Restatement.Specification
+____Arg1____
+3838..3865
+25
+#### Text ####
+We are having a regular day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3867..3942
+26,0
+#### Text ####
+Volume is down out of San Francisco, but not out of the 11 outlying offices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3962
+27
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+3867..3942
+26,0
+#### Text ####
+Volume is down out of San Francisco, but not out of the 11 outlying offices
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3945..3960
+26,1;26,2;26,3;26,4;26,5
+#### Text ####
+Mr. Daggs added
+##############
+____Arg2____
+3962..4066
+27
+#### Text ####
+Sutro's Oakland office executed orders through the Sacramento office, which wasn't affected by the quake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4432
+30
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4267..4430
+29
+#### Text ####
+At Kidder, Peabody & Co. 's Sacramento branch, Manager Janet White received calls yesterday morning from workers in San Francisco who offered to work in Sacramento
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4432..4591
+30
+#### Text ####
+Then she discovered that Quotron Systems Inc. 's Sacramento lines were down, because they are normally tied in through a system that goes through San Francisco
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4432..4436
+30,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4267..4430
+29
+#### Text ####
+At Kidder, Peabody & Co. 's Sacramento branch, Manager Janet White received calls yesterday morning from workers in San Francisco who offered to work in Sacramento
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4437..4507
+30,1;30,2,0;30,2,1,0;30,2,1,1,0;30,2,1,1,1,0;30,2,1,1,1,1;30,2,1,1,1,2;30,3
+#### Text ####
+she discovered that Quotron Systems Inc. 's Sacramento lines were down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4509..4516
+30,2,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4437..4451
+30,1;30,2,0;30,3
+#### Text ####
+she discovered
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4452..4507
+30,2,1,0;30,2,1,1,0;30,2,1,1,1,0;30,2,1,1,1,1;30,2,1,1,1,2
+#### Text ####
+that Quotron Systems Inc. 's Sacramento lines were down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4517..4591
+30,2,1,1,1,3,1
+#### Text ####
+they are normally tied in through a system that goes through San Francisco
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4593..4595
+31,0
+#### Text ####
+So
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+4437..4451
+30,1;30,2,0;30,3
+#### Text ####
+she discovered
+##############
+so, Contingency.Cause.Result
+____Arg1____
+4452..4507
+30,2,1,0;30,2,1,1,0;30,2,1,1,1,0;30,2,1,1,1,1;30,2,1,1,1,2
+#### Text ####
+that Quotron Systems Inc. 's Sacramento lines were down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4596..4672
+31,1;31,2;31,3
+#### Text ####
+the Kidder brokers had to call other company offices to get quotes on stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4916
+33
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4676..4725;4801..4914
+32,0;32,1;32,2,0;32,2,1;32,2,3;32,3;32,4
+#### Text ####
+At Quotron, the company's National Call-In Center assembled a tactical team at 5 a.m. yesterday to begin rerouting lines and restore service to brokers and traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4916..5052
+33
+#### Text ####
+The company dispatched as many as 200 people in the San Francisco area to do the work, though most of the rerouting was done by computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5003..5009
+33,1,5,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast.Juxtaposition
+____Arg1____
+4916..5001
+33,0;33,1,0;33,1,1;33,1,2;33,1,3;33,1,4;33,2
+#### Text ####
+The company dispatched as many as 200 people in the San Francisco area to do the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5010..5052
+33,1,5,1
+#### Text ####
+most of the rerouting was done by computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5145..5150
+34,1,1,1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+5056..5143
+34,0;34,1,0;34,1,1,0;34,1,1,1,0;34,1,1,1,1,0;34,1,1,1,1,1;34,1,1,1,1,2;34,1,1,1,1,3;34,2
+#### Text ####
+Service appeared to be down throughout the financial district in downtown San Francisco
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5151..5202
+34,1,1,1,1,4,1
+#### Text ####
+just parts of Oakland and San Jose were knocked out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5204..5207
+35,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5056..5202
+34
+#### Text ####
+Service appeared to be down throughout the financial district in downtown San Francisco, while just parts of Oakland and San Jose were knocked out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5260..5318
+35,2,1
+#### Text ####
+service was being restored to outlying San Francisco areas
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5208..5259
+35,1;35,2,0;35,3
+#### Text ####
+Dale Irvine, director of the emergency center, said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5429..5433
+37,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5587..5643
+37,1;37,2;37,3;37,4
+#### Text ####
+said Wayne Luthringshausen, chairman of Options Clearing
+##############
+also, Expansion.Conjunction
+____Arg1____
+5371..5418
+36,4,1
+#### Text ####
+that it guarantees the Pacific exchange options
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5322..5370
+36,0;36,1;36,2;36,3;36,4,0;36,5
+#### Text ####
+In Chicago yesterday, Options Clearing confirmed
+##############
+____Arg2____
+5420..5428;5434..5585
+37,0,0;37,0,2
+#### Text ####
+The firm will permit its members and the public "to exercise their put and call options contracts traded on the Pacific exchange" even if the exchange is closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5555..5562
+37,0,2,1,2,0;37,0,2,1,2,1
+#### Text ####
+even if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+5420..5445
+37,0,0;37,0,1;37,0,2,0;37,0,2,1,0
+#### Text ####
+The firm also will permit
+##############
+if, Comparison.Concession.Expectation
+____Arg1____
+5446..5553
+37,0,2,1,1
+#### Text ####
+its members and the public "to exercise their put and call options contracts traded on the Pacific exchange
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5563..5585
+37,0,2,1,2,2
+#### Text ####
+the exchange is closed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5646
+38
+____Arg1____
+5420..5643
+37
+#### Text ####
+The firm also will permit its members and the public "to exercise their put and call options contracts traded on the Pacific exchange" even if the exchange is closed, said Wayne Luthringshausen, chairman of Options Clearing
+##############
+____Arg2____
+5646..5876
+38
+#### Text ####
+Put options give holders the right, but not the obligation, to sell a financial instrument at a specified price, while call options give holders the right, but not the obligation, to buy a financial instrument at a specified price
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5759..5764
+38,2,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+5646..5757
+38,0;38,1;38,2,0;38,2,1;38,2,2;38,2,3;38,3;38,4
+#### Text ####
+Put options give holders the right, but not the obligation, to sell a financial instrument at a specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5765..5876
+38,2,4,1
+#### Text ####
+call options give holders the right, but not the obligation, to buy a financial instrument at a specified price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6105..6112
+40,2,1,4
+#### Text ####
+in fact
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6042..6066
+39,1;39,2;39,3;39,4;39,5
+#### Text ####
+Mr. Luthringshausen said
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+5881..6039
+39,0
+#### Text ####
+Investors and traders in Pacific exchange options "are protected to the extent that they can convert their put and call options into the underlying instrument
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6069..6103
+40,0;40,1;40,2,0;40,2,1,0;40,2,1,1;40,2,1,2;40,2,1,3;40,3
+#### Text ####
+We are seeing such exercises today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

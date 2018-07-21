@@ -1,0 +1,337 @@
+________________________________________________________
+____Explicit____
+320..322
+1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+191..215
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0
+#### Text ####
+the two companies agreed
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+216..319
+1,1,1,1,1,1
+#### Text ####
+to spend 25 million Canadian dollars ($21.3 million) over 10 years on research at Canadian universities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+323..373
+1,1,1,1,1,2,1
+#### Text ####
+they are successful in acquiring the vaccine maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+383
+2
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+191..373
+1,1,1
+#### Text ####
+the two companies agreed to spend 25 million Canadian dollars ($21.3 million) over 10 years on research at Canadian universities if they are successful in acquiring the vaccine maker
+##############
+#### Features ####
+Ot, Comm, Null, Null
+171..190
+1,0;1,1,0;1,2
+#### Text ####
+The University said
+##############
+____Arg2____
+383..432
+2,1,1
+#### Text ####
+$10 million would go to the University of Toronto
+##############
+#### Features ####
+Ot, Comm, Null, Null
+375..382
+2,0;2,1,0;2,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+512..515
+3,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+436..510
+3,0
+#### Text ####
+Ciba-Geigy and Chiron have made a joint bid of C$866 million for Connaught
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+516..585
+3,3
+#### Text ####
+Institut Merieux S.A. of France has made a rival bid of C$942 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+587
+4
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+512..585
+3,2;3,3;3,4
+#### Text ####
+and Institut Merieux S.A. of France has made a rival bid of C$942 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+587..650
+4,0;4,1,0;4,1,1,0;4,1,1,1;4,1,1,2;4,2
+#### Text ####
+The University is seeking an injunction against the Merieux bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+858..860
+5,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+780..802
+5,0;5,1,0;5,2
+#### Text ####
+The university implied
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+803..857
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1,0;5,1,1,1,1,1,1
+#### Text ####
+that it would drop its opposition to foreign ownership
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+861..918
+5,1,1,1,1,1,2,1
+#### Text ####
+Ciba-Geigy and Chiron are successful with their lower bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+928
+6
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+803..918
+5,1,1
+#### Text ####
+that it would drop its opposition to foreign ownership if Ciba-Geigy and Chiron are successful with their lower bid
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+780..802
+5,0;5,1,0;5,2
+#### Text ####
+The university implied
+##############
+____Arg2____
+928..1035
+6,1,1
+#### Text ####
+the new agreement would "replace" the old one that forms the basis of its suit against the Merieux takeover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+920..927
+6,0;6,1,0;6,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1038
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+928..1035
+6,1,1
+#### Text ####
+the new agreement would "replace" the old one that forms the basis of its suit against the Merieux takeover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+920..927
+6,0;6,1,0;6,2
+#### Text ####
+It said
+##############
+____Arg2____
+1038..1146
+7,1
+#### Text ####
+Notwithstanding foreign ownership of Connaught, this accord would enhance research and development in Canada
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1149..1211
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+said James Keffer, the university's vice president of research
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1260..1263
+8,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1215..1259
+8,0
+#### Text ####
+Ciba-Geigy is a Swiss pharmaceutical company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1264..1300
+8,2
+#### Text ####
+Chiron is based in Emeryville, Calif
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1401..1406
+9,3,1,1,1,1
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1304..1378
+9,0;9,1;9,2;9,3,0;9,4
+#### Text ####
+In a statement, Jacques-Francois Martin, director general of Merieux, said
+##############
+still, Comparison.Contrast
+____Arg1____
+587..776
+4
+#### Text ####
+The University is seeking an injunction against the Merieux bid, arguing that Connaught's predecessor company agreed in 1972 that Connaught's ownership wouldn't be transferred to foreigners
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1379..1400;1407..1438
+9,3,1,0;9,3,1,1,0;9,3,1,1,1,0;9,3,1,1,1,2
+#### Text ####
+the French company is determined to acquire Connaught
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1440..1445
+10,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+1524..1740
+10,1;10,2;10,3;10,4;10,5
+#### Text ####
+he said Merieux can transfer new products and technologies to Connaught more rapidly than other companies "not currently producing and marketing vaccines {who} can only promise this for some . . . years in the future
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1446..1522
+10,0,1
+#### Text ####
+he didn't comment directly on the pact between Ciba-Geigy and the university
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1532
+10
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1379..1438
+9,3,1
+#### Text ####
+the French company is still determined to acquire Connaught
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1320..1378
+9,1;9,2;9,3,0;9,4
+#### Text ####
+Jacques-Francois Martin, director general of Merieux, said
+##############
+____Arg2____
+1532..1740
+10,3,1
+#### Text ####
+Merieux can transfer new products and technologies to Connaught more rapidly than other companies "not currently producing and marketing vaccines {who} can only promise this for some . . . years in the future
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1524..1531
+10,1;10,2;10,3,0;10,4;10,5
+#### Text ####
+he said
+##############
+________________________________________________________

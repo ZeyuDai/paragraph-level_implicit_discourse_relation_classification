@@ -1,0 +1,137 @@
+________________________________________________________
+____EntRel____
+212
+1
+____Arg1____
+9..210
+0
+#### Text ####
+The Wall Street Journal "American Way of Buying" Survey consists of two separate, door-to-door nationwide polls conducted for the Journal by Peter D. Hart Research Associates and the Roper Organization
+##############
+____Arg2____
+212..318
+1
+#### Text ####
+The two surveys, which asked different questions, were conducted using national random probability samples
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+451
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+322..449
+2
+#### Text ####
+The poll conducted by Peter D. Hart Research Associates interviewed 2,064 adults age 18 and older from June 15 to June 30, 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+451..566
+3
+#### Text ####
+The poll conducted by the Roper Organization interviewed 2,002 adults age 18 and older from July 7 to July 15, 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+568
+4
+____Arg1____
+451..566
+3
+#### Text ####
+The poll conducted by the Roper Organization interviewed 2,002 adults age 18 and older from July 7 to July 15, 1989
+##############
+____Arg2____
+568..655
+4
+#### Text ####
+Responses were weighted on the basis of age and gender to conform with U.S. Census data
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+705..707
+5,3,2,1,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Unreal past
+____Arg1____
+700..704;797..906
+5,3,2,0;5,3,2,1,1;5,3,2,1,2;5,3,2,1,3
+#### Text ####
+that the findings would differ from these poll results by no more than 2 1/2 percentage points in either direction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+708..795
+5,3,2,1,0,1
+#### Text ####
+pollsters had sought to survey every household in the U.S. using the same questionnaire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+908
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+659..906
+5
+#### Text ####
+For each poll, the odds are 19 out of 20 that if pollsters had sought to survey every household in the U.S. using the same questionnaire, the findings would differ from these poll results by no more than 2 1/2 percentage points in either direction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+908..1012
+6
+#### Text ####
+The margin of error for subgroups -- for example, married women with children at home -- would be larger
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1014..1025
+7,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+659..1012
+5;6
+#### Text ####
+For each poll, the odds are 19 out of 20 that if pollsters had sought to survey every household in the U.S. using the same questionnaire, the findings would differ from these poll results by no more than 2 1/2 percentage points in either direction.
+The margin of error for subgroups -- for example, married women with children at home -- would be larger
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1027..1153
+7,1;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+in any survey, there is always the chance that other factors such as question wording could introduce errors into the findings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

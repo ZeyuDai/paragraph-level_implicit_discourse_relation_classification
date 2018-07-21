@@ -1,0 +1,2344 @@
+________________________________________________________
+____Explicit____
+243..245
+1,3,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+131..242
+1,0;1,1;1,2;1,3,0;1,3,1,0;1,3,1,1;1,4
+#### Text ####
+Under a reform arising from the 1987 crash, trading in the Merc's stock-index futures will break for 10 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+246..369
+1,3,1,2,1
+#### Text ####
+the contract opens and stays five points from Friday's close, a move equal to 40 points on the Dow Jones Industrial Average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+265..268
+1,3,1,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+243..264
+1,3,1,2,0;1,3,1,2,1,0;1,3,1,2,1,1,0
+#### Text ####
+if the contract opens
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+269..369
+1,3,1,2,1,1,2;1,3,1,2,1,1,3
+#### Text ####
+stays five points from Friday's close, a move equal to 40 points on the Dow Jones Industrial Average
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+371..407
+2,0;2,1,0;2,1,1,0
+#### Text ####
+The aim of the interruption would be
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+131..369
+1
+#### Text ####
+Under a reform arising from the 1987 crash, trading in the Merc's stock-index futures will break for 10 minutes if the contract opens and stays five points from Friday's close, a move equal to 40 points on the Dow Jones Industrial Average
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+371..519
+2
+#### Text ####
+The aim of the interruption would be to ease the opening of the New York Stock Exchange, which would be hammered by such a volatile move on the Merc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+633..637
+4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+523..617
+3
+#### Text ####
+That early-morning breather is just one of a number of safeguards adopted after the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+619..632;638..701
+4,0;4,2;4,3
+#### Text ####
+The Big Board added computer capacity to handle huge surges in trading volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+703
+5
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+619..701
+4
+#### Text ####
+The Big Board also added computer capacity to handle huge surges in trading volume
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+703..805
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Several of those post-crash changes kicked in during Friday's one-hour collapse and worked as expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+783..786
+5,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+703..782
+5,0;5,1,0;5,2
+#### Text ####
+Several of those post-crash changes kicked in during Friday's one-hour collapse
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+787..805
+5,1,2;5,1,3
+#### Text ####
+worked as expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+807..818
+5,1,4,0;5,1,4,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+703..805
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Several of those post-crash changes kicked in during Friday's one-hour collapse and worked as expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+819..856
+5,1,4,2
+#### Text ####
+they didn't prevent a stunning plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+858..861
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+807..856
+5,1,4
+#### Text ####
+even though they didn't prevent a stunning plunge
+##############
+____Arg1____
+703..805
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Several of those post-crash changes kicked in during Friday's one-hour collapse and worked as expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+862..915
+6,1;6,2;6,3
+#### Text ####
+the major "circuit breakers" have yet to be evaluated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+917
+7
+____Arg1____
+858..915
+6
+#### Text ####
+But the major "circuit breakers" have yet to be evaluated
+##############
+____Arg2____
+917..978
+7
+#### Text ####
+A deeper market plunge today could give them their first test
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+998..1002
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+917..978
+7
+#### Text ####
+A deeper market plunge today could give them their first test
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+982..997;1003..1125
+8,0;8,2;8,3
+#### Text ####
+A further slide would resurrect debate over a host of other, more sweeping changes proposed -- but not implemented -- after the last crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1127
+9
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+982..1125
+8
+#### Text ####
+A further slide also would resurrect debate over a host of other, more sweeping changes proposed -- but not implemented -- after the last crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1127..1208;1241..1257
+9,0;9,1;9,2,0,0;9,2,0,1,0;9,2,0,1,1,0;9,2,0,1,1,1,0;9,2,0,1,1,1,1;9,2,0,1,1,1,2,0;9,2,0,1,1,1,2,1,0;9,2,0,1,1,1,2,1,1;9,2,0,1,1,1,2,1,3;9,3,0;9,3,1,0;9,3,1,1,0;9,3,1,1,1;9,3,1,1,2;9,4
+#### Text ####
+Most notably, several of the regulatory steps recommended by the Brady Task Force would be revived
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1261..1279
+9,3,1,1,3,0;9,3,1,1,3,1
+#### Text ####
+especially because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+1210..1239
+9,2,0,1,1,1,2,1,2
+#### Text ####
+which analyzed the 1987 crash
+##############
+____Arg1____
+1127..1208;1241..1257
+9,0;9,1;9,2,0,0;9,2,0,1,0;9,2,0,1,1,0;9,2,0,1,1,1,0;9,2,0,1,1,1,1;9,2,0,1,1,1,2,0;9,2,0,1,1,1,2,1,0;9,2,0,1,1,1,2,1,1;9,2,0,1,1,1,2,1,3;9,3,0;9,3,1,0;9,3,1,1,0;9,3,1,1,1;9,3,1,1,2;9,4
+#### Text ####
+Most notably, several of the regulatory steps recommended by the Brady Task Force would be revived
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1280..1331
+9,3,1,1,3,2
+#### Text ####
+that group's chairman is now the Treasury secretary
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1333
+10
+____Arg1____
+1127..1331
+9
+#### Text ####
+Most notably, several of the regulatory steps recommended by the Brady Task Force, which analyzed the 1987 crash, would be revived -- especially because that group's chairman is now the Treasury secretary
+##############
+____Arg2____
+1333..1560
+10
+#### Text ####
+The most controversial of the Brady recommendations involved establishing a single overarching regulator to handle crucial cross-market questions, such as setting consistent margin requirements for the stock and futures markets
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1564..1567
+11,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+982..1125
+8
+#### Text ####
+A further slide also would resurrect debate over a host of other, more sweeping changes proposed -- but not implemented -- after the last crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1568..1641
+11,1;11,2;11,3;11,4
+#### Text ####
+for the moment, attention focuses on the reforms that were put into place
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1643..1726
+11,5;11,6;11,7
+#### Text ####
+and market regulators and participants said the circuit breakers worked as intended
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1643..1646
+11,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1564..1641
+11,0;11,1;11,2;11,3;11,4
+#### Text ####
+But for the moment, attention focuses on the reforms that were put into place
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1647..1726
+11,6
+#### Text ####
+market regulators and participants said the circuit breakers worked as intended
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1728
+12
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1643..1726
+11,5;11,6;11,7
+#### Text ####
+and market regulators and participants said the circuit breakers worked as intended
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1728..1920
+12
+#### Text ####
+Big Board and Merc officials expressed satisfaction with the results of two limits imposed on of the Merc's Standard & Poor's 500 contract, as well as "hot-line" communications among exchanges
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1922
+13
+____Arg1____
+1728..1920
+12
+#### Text ####
+Big Board and Merc officials expressed satisfaction with the results of two limits imposed on of the Merc's Standard & Poor's 500 contract, as well as "hot-line" communications among exchanges
+##############
+____Arg2____
+1922..2125
+13
+#### Text ####
+Those pauses -- from 2:07 p.m. to 2:30 p.m. CDT and from 2:45 p.m. until the close of trading a half-hour later -- forced traders to buy and sell contracts at prices at or higher than their frozen levels
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2059..2062
+13,1,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2052..2058
+13,1,1,1,0;13,1,1,1,1,0
+#### Text ####
+to buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2063..2125
+13,1,1,1,1,2;13,1,1,1,1,3;13,1,1,1,1,4
+#### Text ####
+sell contracts at prices at or higher than their frozen levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2152..2157
+14,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2129..2150;2194..2264
+14,0;14,1;14,3;14,4;14,5;14,6;14,7
+#### Text ####
+During the first halt the Big Board's "Sidecar" computer program automatically was triggered
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2158..2192
+14,2,1
+#### Text ####
+the S&P index had fallen 12 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2266
+15
+____Arg1____
+2129..2264
+14
+#### Text ####
+During the first halt, after the S&P index had fallen 12 points, the Big Board's "Sidecar" computer program automatically was triggered
+##############
+____Arg2____
+2266..2430
+15
+#### Text ####
+That system is designed to separate computer-generated program trades from all other trades to help exchange officials resolve order imbalances in individual stocks
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2545
+17
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2434..2542
+16
+#### Text ####
+One Merc broker compared the action in the S&P pit during the two freezes to a fire at a well-drilled school
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2545..2662
+17
+#### Text ####
+You don't want the fire but you know what to do," said Howard Dubnow, an independent floor broker and a Merc governor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2569..2572
+17,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2595..2662
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said Howard Dubnow, an independent floor broker and a Merc governor
+##############
+but, Expansion.Conjunction, Comparison.Pragmatic contrast
+____Arg1____
+2545..2568
+17,1,0
+#### Text ####
+You don't want the fire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2573..2592
+17,1,2
+#### Text ####
+you know what to do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2665
+18
+#### Features ####
+Ot, Comm, Null, Null
+2595..2662
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said Howard Dubnow, an independent floor broker and a Merc governor
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+2569..2592
+17,1,1;17,1,2
+#### Text ####
+but you know what to do
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2665..2683
+18
+#### Text ####
+There was no panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2685
+19
+#### Features ####
+Ot, Comm, Null, Null
+2595..2662
+17,0;17,2;17,3;17,4;17,5;17,6
+#### Text ####
+said Howard Dubnow, an independent floor broker and a Merc governor
+##############
+in sum, Expansion.Restatement
+____Arg1____
+2665..2683
+18
+#### Text ####
+There was no panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2685..2732
+19
+#### Text ####
+The system worked the way we devised it to work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2737..2742
+20,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2775..2857
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+the S&P index tumbled to its 30-point limit and the second freeze went into effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2743..2773
+20,0,1
+#### Text ####
+reopening for about 15 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2819..2822
+20,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Contingency.Cause.Result
+____Arg1____
+2737..2818
+20,0;20,1;20,2
+#### Text ####
+After reopening for about 15 minutes, the S&P index tumbled to its 30-point limit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2823..2857
+20,4
+#### Text ####
+the second freeze went into effect
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2867..2871
+21,0,1
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2949..2965
+21,1;21,2;21,3;21,4,0;21,4,1;21,4,2;21,5
+#### Text ####
+Mr. Dubnow added
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2737..2857
+20
+#### Text ####
+After reopening for about 15 minutes, the S&P index tumbled to its 30-point limit and the second freeze went into effect
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+2859..2866;2872..2946
+21,0,0;21,0,2
+#### Text ####
+Traders spent the last half-hour "watching to see if the Dow would drop 250 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3077
+22
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2859..2946
+21,0
+#### Text ####
+Traders then spent the last half-hour "watching to see if the Dow would drop 250 points
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2949..2965
+21,1;21,2;21,3;21,4,0;21,4,1;21,4,2;21,5
+#### Text ####
+Mr. Dubnow added
+##############
+____Arg2____
+3077..3147
+22,1,1
+#### Text ####
+that 80% to 90% of the S&P traders "were just standing around watching
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+3054..3076
+22,0;22,1,0;22,2;22,3
+#### Text ####
+One observer estimated
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3152..3155
+23,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2737..2946
+20;21,0
+#### Text ####
+After reopening for about 15 minutes, the S&P index tumbled to its 30-point limit and the second freeze went into effect.
+Traders then spent the last half-hour "watching to see if the Dow would drop 250 points
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2949..2965
+21,1;21,2;21,3;21,4,0;21,4,1;21,4,2;21,5
+#### Text ####
+Mr. Dubnow added
+##############
+____Arg2____
+3156..3293
+23,0,1;23,0,2;23,0,3;23,1;23,2;23,3;23,4
+#### Text ####
+the 250-point circuit breaker never had to kick in, and freezes on the Chicago Board of Trade's Major Market Index also weren't triggered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3208..3211
+23,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3152..3206
+23,0
+#### Text ####
+But the 250-point circuit breaker never had to kick in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3212..3293
+23,3
+#### Text ####
+freezes on the Chicago Board of Trade's Major Market Index also weren't triggered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3271..3275
+23,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3152..3206
+23,0
+#### Text ####
+But the 250-point circuit breaker never had to kick in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3208..3270;3276..3293
+23,2;23,3,0;23,3,2;23,4
+#### Text ####
+and freezes on the Chicago Board of Trade's Major Market Index weren't triggered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3295
+24
+____Arg1____
+3152..3293
+23
+#### Text ####
+But the 250-point circuit breaker never had to kick in, and freezes on the Chicago Board of Trade's Major Market Index also weren't triggered
+##############
+____Arg2____
+3295..3413
+24
+#### Text ####
+The MMI and the S&P 500 are the two major indexes used by program traders to run their computerized trading strategies
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3415
+25
+____Arg1____
+3295..3413
+24
+#### Text ####
+The MMI and the S&P 500 are the two major indexes used by program traders to run their computerized trading strategies
+##############
+____Arg2____
+3415..3488
+25
+#### Text ####
+The programs are considered by many to be a major cause of the 1987 crash
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3565..3568
+26,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3492..3564
+26,0;26,1,0
+#### Text ####
+The process of post-crash reforms began with calls to remake the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3569..3636
+26,1,2;26,2
+#### Text ####
+wound up a year later with a series of rather technical adjustments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3797
+28
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3640..3795
+27
+#### Text ####
+In October 1987, just after the market drop, Washington was awash in talk of sweeping changes in the way the financial markets are structured and regulated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3797..3984
+28
+#### Text ####
+Over the next year that grand agenda was whittled down to a series of steps to soften big stock drops by interrupting trading to give market players time to pause and reconsider positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3986..3997
+29,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+3797..3984
+28
+#### Text ####
+Over the next year that grand agenda was whittled down to a series of steps to soften big stock drops by interrupting trading to give market players time to pause and reconsider positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3999..4111
+29,1;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+limits were placed on computer-driven trading, and steps were taken to better link the stock and futures markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4046..4049
+29,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3986..4044
+29,0;29,1;29,2;29,3
+#### Text ####
+In addition, limits were placed on computer-driven trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4050..4111
+29,5
+#### Text ####
+steps were taken to better link the stock and futures markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4113
+30
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4046..4111
+29,4;29,5;29,6
+#### Text ####
+and steps were taken to better link the stock and futures markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4113..4171
+30
+#### Text ####
+Few changes were made in the way the markets are regulated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4252..4255
+31,2,1,2,1,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4227..4251
+31,2,1,2,0;31,2,1,2,1,0;31,2,1,2,1,1,0;31,2,1,2,1,1,1,0
+#### Text ####
+which was much discussed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4256..4289
+31,2,1,2,1,1,1,2;31,2,1,2,1,1,1,3
+#### Text ####
+little understood on Capitol Hill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4302..4306
+32,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4175..4225
+31,0;31,1;31,2,0;31,2,1,0;31,2,1,1;31,3
+#### Text ####
+At the outset the prime target was program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4291..4301;4307..4405
+32,0;32,1,0;32,1,2,0;32,1,2,1,0;32,1,2,1,1,0;32,1,2,1,1,1,0;32,1,2,1,1,1,1,0;32,1,2,1,1,1,1,1;32,1,2,1,1,1,1,2,0;32,1,2,1,1,1,1,2,1,0;32,1,2,1,1,1,1,2,1,1;32,1,2,1,1,1,1,2,1,2,0;32,1,2,1,1,1,1,2,1,2,1;32,1,2,1,1,1,1,2,1,2,2,0;32,1,2,1,1,1,1,2,1,2,2,1;32,1,2,1,1,1,1,3;32,2;32,3
+#### Text ####
+There were calls to strip the stock markets of "derivative" products, such as stock-index futures and options
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4510..4513
+33,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4291..4405
+32,0;32,1,0;32,1,1;32,1,2,0;32,1,2,1,0;32,1,2,1,1,0;32,1,2,1,1,1,0;32,1,2,1,1,1,1,0;32,1,2,1,1,1,1,1;32,1,2,1,1,1,1,2,0;32,1,2,1,1,1,1,2,1,0;32,1,2,1,1,1,1,2,1,1;32,1,2,1,1,1,1,2,1,2,0;32,1,2,1,1,1,1,2,1,2,1;32,1,2,1,1,1,1,2,1,2,2,0;32,1,2,1,1,1,1,2,1,2,2,1;32,1,2,1,1,1,1,3;32,2;32,3
+#### Text ####
+There were also calls to strip the stock markets of "derivative" products, such as stock-index futures and options
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4514..4644
+33,1;33,2;33,3
+#### Text ####
+there was much criticism of the New York Stock Exchange's system of having stock trades flow through specialists, or market makers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4648..4652
+34,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Cause.Reason, Temporal.Asynchronous.Succession
+____Arg1____
+4737..4782
+34,1;34,2;34,3;34,4;34,5
+#### Text ####
+it immediately reshaped the reformers' agenda
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4653..4735
+34,0,1
+#### Text ####
+the Brady Task Force's powerful analysis of the crash was released in January 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4784
+35
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+4648..4782
+34
+#### Text ####
+When the Brady Task Force's powerful analysis of the crash was released in January 1988, it immediately reshaped the reformers' agenda
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4784..5144
+35
+#### Text ####
+Arguing that the separate financial marketplaces acted as one, and concluding that the crash had "raised the possibility of a full-scale financial system breakdown," the presidential task force called for establishing a super-regulator to oversee the markets, to make margins consistent across markets, to unify clearing systems and to install circuit breakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4847..4850
+35,0,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4784..4845
+35,0,0;35,0,1,0;35,0,1,1
+#### Text ####
+Arguing that the separate financial marketplaces acted as one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4851..4947
+35,0,1,3
+#### Text ####
+concluding that the crash had "raised the possibility of a full-scale financial system breakdown
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5113..5116
+35,4,1,1,1,2,5
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5020..5112
+35,4,1,1,1,2,0;35,4,1,1,1,2,1;35,4,1,1,1,2,2;35,4,1,1,1,2,3;35,4,1,1,1,2,4
+#### Text ####
+to oversee the markets, to make margins consistent across markets, to unify clearing systems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5117..5144
+35,4,1,1,1,2,6
+#### Text ####
+to install circuit breakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5209
+37
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+5148..5207
+36
+#### Text ####
+Only the last of those recommendations ever was implemented
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5209..5408
+37
+#### Text ####
+The Reagan White House held the Brady recommendations at arm's length and named a second panel -- the Working Group on the Financial Markets -- to review its analysis and those of other crash studies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5279..5282
+37,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5209..5278
+37,0;37,1,0
+#### Text ####
+The Reagan White House held the Brady recommendations at arm's length
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5283..5408
+37,1,2;37,2
+#### Text ####
+named a second panel -- the Working Group on the Financial Markets -- to review its analysis and those of other crash studies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5410
+38
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+5279..5303;5353..5408
+37,1,1;37,1,2,0;37,1,2,1,0,0;37,1,2,1,0,1,0;37,1,2,1,0,1,2;37,1,2,1,1
+#### Text ####
+and named a second panel to review its analysis and those of other crash studies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5410..5633
+38
+#### Text ####
+In May 1988, the Working Group, made up of representatives from the Federal Reserve, the Treasury, the Securities and Exchange Commission, and the Commodity Futures Trading Commission, finally endorsed only circuit breakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5871
+40
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5637..5869
+39
+#### Text ####
+After several more months of arguments among various stock exchanges and futures markets, circuit breakers were set in place, with the most notable suspending trading after 250 and 400 point drops in the Dow Jones Industrial Average
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5871..5956
+40
+#### Text ####
+Privately, some free marketeers dismissed such mechanisms as sops to interventionists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5958
+41
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5871..5956
+40
+#### Text ####
+Privately, some free marketeers dismissed such mechanisms as sops to interventionists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5958..5967;6001..6060
+41,0;41,2;41,3;41,4;41,5
+#### Text ####
+After all the Dow only dropped more than 250 points once this century
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5969..5999
+41,1
+#### Text ####
+this free-market argument went
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6113..6115
+43,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6154..6192
+43,0;43,2;43,3;43,4;43,5
+#### Text ####
+contract trading pauses for 10 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6116..6152
+43,1,1
+#### Text ####
+S&P futures fall 5 points at opening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6199..6201
+44,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6245..6283
+44,0;44,2;44,3;44,4;44,5
+#### Text ####
+contract trading pauses for 10 minutes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6202..6243
+44,1,1
+#### Text ####
+Dow Industrials fall 25 points at opening
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6290..6292
+45,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6362..6417
+45,0;45,2;45,3;45,4;45,5
+#### Text ####
+trading is frozen for half hour to that price or higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6293..6360
+45,1,1
+#### Text ####
+S&P futures fall 12 points (equivalent to about 100 points on DJIA)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6419
+46
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6290..6417
+45
+#### Text ####
+If S&P futures fall 12 points (equivalent to about 100 points on DJIA), trading is frozen for half hour to that price or higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6419..6517
+46
+#### Text ####
+On NYSE program trades are diverted into a separate computer file to determine buy and sell orders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6524..6526
+47,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6555..6612
+47,0;47,2;47,3;47,4;47,5
+#### Text ####
+trading is restricted for an hour to that price or higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6527..6553
+47,1,1
+#### Text ####
+S&P futures fall 30 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6619..6621
+48,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6655..6697
+48,0;48,2;48,3;48,4;48,5
+#### Text ####
+trading on the Big Board halts for an hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6622..6653
+48,1,1
+#### Text ####
+Dow Industrials fall 250 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6699
+49
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6619..6697
+48
+#### Text ####
+If Dow Industrials fall 250 points, trading on the Big Board halts for an hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6699..6730
+49
+#### Text ####
+S&P and MMI contracts also halt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6721..6725
+49,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+6619..6697
+48
+#### Text ####
+If Dow Industrials fall 250 points, trading on the Big Board halts for an hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6699..6720;6726..6730
+49,0;49,2;49,3
+#### Text ####
+S&P and MMI contracts halt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6737..6739
+50,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+6763..6800
+50,0;50,2;50,3;50,4;50,5
+#### Text ####
+Big Board halts trading for two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6740..6761
+50,1,1
+#### Text ####
+DJIA drops 400 points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6802
+51
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6737..6800
+50
+#### Text ####
+If DJIA drops 400 points, Big Board halts trading for two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6802..6844
+51
+#### Text ####
+Trading in MMI and S&P futures also halted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6833..6837
+51,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+6763..6800
+50,0;50,2;50,3;50,4;50,5
+#### Text ####
+Big Board halts trading for two hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6802..6832;6838..6844
+51,0;51,2;51,3
+#### Text ####
+Trading in MMI and S&P futures halted
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7370..7374
+61,2,4,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+7290..7317
+60
+#### Text ####
+Opposed by new SEC chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7375..7402
+61,2,4,0;61,2,4,1,0;61,2,4,1,2;61,2,4,2
+#### Text ####
+opposed by new SEC chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7871
+66
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+7680..7774
+65,1
+#### Text ####
+There must not be a monopoly, there must be freedom of choice for both journalists and viewers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7777..7869
+65,0;65,2;65,3;65,4;65,5;65,6
+#### Text ####
+Nikolai I. Lutsenko, the president of the Nika TV company, told the weekly newspaper Nedelya
+##############
+____Arg2____
+7871..8006
+66,0
+#### Text ####
+The company is already working on its own programming in several provincial cities and hopes to be on the air regularly in about a year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8008..8026
+66,1;66,2;66,3;66,4
+#### Text ####
+the newspaper said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7954..7957
+66,0,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8008..8026
+66,1;66,2;66,3;66,4
+#### Text ####
+the newspaper said
+##############
+and, Expansion.Conjunction
+____Arg1____
+7871..7953
+66,0,0;66,0,1,0;66,0,1,1;66,0,1,2,0
+#### Text ####
+The company is already working on its own programming in several provincial cities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7958..8006
+66,0,1,2,2
+#### Text ####
+hopes to be on the air regularly in about a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+8162
+68
+____Arg1____
+8030..8160
+67
+#### Text ####
+Mr. Lutsenko told Nedelya that he recently had been to the U.S. to pick up the rights to show 5,000 U.S. films in the Soviet Union
+##############
+____Arg2____
+8162..8268
+68
+#### Text ####
+Nedelya's article was accompanied by a picture of Mr. Lutsenko interviewing singer John Denver in Colorado
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8272..8283
+69,0,0;69,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Contrast
+____Arg1____
+8331..8420
+69,1;69,2;69,3;69,4
+#### Text ####
+Nika will have an oversight board that will include members of the Communist youth league
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8284..8329
+69,0,2
+#### Text ####
+it will be independent of official television
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8581
+71
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+8474..8565
+70,1,1
+#### Text ####
+that about 10,000 diamond miners struck for higher wages at De Beers Consolidated Mines Ltd
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8424..8473
+70,0;70,1,0
+#### Text ####
+South Africa's National Union of Mineworkers said
+##############
+____Arg2____
+8581..8637
+71,1,1,0;71,1,1,1,0;71,1,1,1,1,0;71,1,1,1,1,1,0;71,1,1,1,1,1,1,0;71,1,1,1,1,1,1,1
+#### Text ####
+that workers at five of the group's mines were on strike
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8567..8580
+71,0;71,1,0;71,2
+#### Text ####
+De Beers said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+8721
+72
+____Arg1____
+8567..8719
+71
+#### Text ####
+De Beers said that workers at five of the group's mines were on strike, which it said was peaceful, with orderly picketing occurring at one of the mines
+##############
+____Arg2____
+8721..8887
+72
+#### Text ####
+The deadlock in negotiations occurred with De Beers offering a 17% increase in the minimum-wage category while the union demanded a 37.6% increase in the minimum wage
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+8826..8831
+72,1,1,1,1,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+8759..8825
+72,1,1,0;72,1,1,1,0;72,1,1,1,1,0;72,1,1,1,1,1
+#### Text ####
+with De Beers offering a 17% increase in the minimum-wage category
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8832..8887
+72,1,1,1,1,2,1
+#### Text ####
+the union demanded a 37.6% increase in the minimum wage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+8996
+74
+____Arg1____
+8891..8994
+73
+#### Text ####
+Japan's opposition Socialist Party denied that its legislators had been bribed by pinball-parlor owners
+##############
+____Arg2____
+8996..9202
+74
+#### Text ####
+The allegation had been raised in Parliament by the governing Liberal Democratic Party following magazine reports suggesting that money from Japanese-style pinball, called pachinko, had infiltrated politics
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+9204
+75
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+8996..9202
+74
+#### Text ####
+The allegation had been raised in Parliament by the governing Liberal Democratic Party following magazine reports suggesting that money from Japanese-style pinball, called pachinko, had infiltrated politics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9204..9480
+75
+#### Text ####
+Tsuruo Yamaguchi, secretary general of the Socialist Party, acknowledged that nine party lawmakers had received donations from the pachinko association totaling 8 million yen (about $55,000) but said the donations were legal and none of its members acted to favor the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9395..9398
+75,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9399..9403
+75,1,2,0
+#### Text ####
+said
+##############
+but, Comparison.Contrast
+____Arg1____
+9277..9393
+75,1,0,1
+#### Text ####
+that nine party lawmakers had received donations from the pachinko association totaling 8 million yen (about $55,000
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+9204..9276
+75,0;75,1,0,0;75,2
+#### Text ####
+Tsuruo Yamaguchi, secretary general of the Socialist Party, acknowledged
+##############
+____Arg2____
+9404..9480
+75,1,2,1
+#### Text ####
+the donations were legal and none of its members acted to favor the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9429..9432
+75,1,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9399..9403
+75,1,2,0
+#### Text ####
+said
+##############
+and, Expansion.Conjunction
+____Arg1____
+9404..9428
+75,1,2,1,1,0
+#### Text ####
+the donations were legal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9433..9480
+75,1,2,1,1,2
+#### Text ####
+none of its members acted to favor the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9658
+77
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+9484..9656
+76
+#### Text ####
+The World Wide Fund for Nature said that Spain, Argentina, Thailand and Indonesia were doing too little to prevent illegal trade in endangered wildlife across their borders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9658..9872
+77
+#### Text ####
+A report by the conservation group presented at the U.N.-sponsored Convention on International Trade in Endangered Species in Lausanne accused the four of trading protected species ranging from parakeets to orchids
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+9874
+78
+____Arg1____
+9658..9872
+77
+#### Text ####
+A report by the conservation group presented at the U.N.-sponsored Convention on International Trade in Endangered Species in Lausanne accused the four of trading protected species ranging from parakeets to orchids
+##############
+____Arg2____
+9874..9984
+78
+#### Text ####
+Fund official Simon Lyster said world trade in wildlife was estimated to total $5 billion of business annually
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+10111
+80
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9988..10109
+79
+#### Text ####
+A NATO project to build a frigate for the 1990s was torpedoed by the pull-out of three of its eight participating nations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10111..10180
+80,0
+#### Text ####
+Britain, France and Italy announced technical reasons for withdrawing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10182..10185
+80,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+10111..10180
+80,0
+#### Text ####
+Britain, France and Italy announced technical reasons for withdrawing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10186..10348
+80,3
+#### Text ####
+some officials pointed to growing reluctance among the allies to commit themselves to big defense spending while East-West disarmament talks show signs of success
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10293..10298
+80,3,1,1,1,2,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+10248..10292
+80,3,1,1,1,2,0;80,3,1,1,1,2,1,0;80,3,1,1,1,2,1,1,0;80,3,1,1,1,2,1,1,1;80,3,1,1,1,2,1,1,2
+#### Text ####
+to commit themselves to big defense spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10299..10348
+80,3,1,1,1,2,1,1,3,1
+#### Text ####
+East-West disarmament talks show signs of success
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10415
+82
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+10352..10413
+81
+#### Text ####
+Small wonder that Britain's Labor Party wants credit controls
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10415..10550
+82
+#### Text ####
+A few hours after the party launched its own affinity credit card earlier this month, the Tories raised the nation's base interest rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10415..10432
+82,0,0;82,0,1
+#### Text ####
+A few hours after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+10501..10550
+82,1;82,2;82,3;82,4
+#### Text ####
+the Tories raised the nation's base interest rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10433..10499
+82,0,2
+#### Text ####
+the party launched its own affinity credit card earlier this month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+10552
+83
+____Arg1____
+10415..10550
+82
+#### Text ####
+A few hours after the party launched its own affinity credit card earlier this month, the Tories raised the nation's base interest rate
+##############
+____Arg2____
+10552..10633
+83
+#### Text ####
+Labor's Visa card is believed to be the first linked to a British political party
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+10635
+84
+____Arg1____
+10552..10633
+83
+#### Text ####
+Labor's Visa card is believed to be the first linked to a British political party
+##############
+____Arg2____
+10635..10724
+84
+#### Text ####
+Labor gets 25 pence (39 cents) for every 100 (about $155) that a user charges to the card
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+10726
+85
+____Arg1____
+10635..10724
+84
+#### Text ####
+Labor gets 25 pence (39 cents) for every 100 (about $155) that a user charges to the card
+##############
+____Arg2____
+10726..10915
+85
+#### Text ####
+As with other plastic in Britain's high-interest-rate environment, the Labor card, administered by Co-operative Bank, carries a stiff (in this case, 29.8%) annual rate on the unpaid balance
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+11044..11047
+86,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+10919..11043
+86,0;86,1,0
+#### Text ####
+China's year-long austerity program has achieved some successes in harnessing runaway economic growth and stabilizing prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11048..11144
+86,1,2;86,2
+#### Text ####
+has failed to eliminate serious defects in state planning and an alarming drain on state budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+11246..11249
+87,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+11148..11245
+87,0;87,1,0
+#### Text ####
+The official China Daily said retail prices of non-staple foods haven't risen since last December
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11250..11335
+87,1,2;87,2
+#### Text ####
+acknowledged that huge government subsidies were a main factor in keeping prices down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11372
+88
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+11263..11335
+87,1,2,1
+#### Text ####
+that huge government subsidies were a main factor in keeping prices down
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11246..11262
+87,1,1;87,1,2,0
+#### Text ####
+but acknowledged
+##############
+____Arg2____
+11372..11475
+88,1,1
+#### Text ####
+that more than 1 billion yuan ($270 million) was spent in the first half of the year for pork subsidies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11337..11371
+88,0;88,1,0;88,2
+#### Text ####
+The State Statistical Bureau found
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+11635..11638
+89,1,2,1,1,1,1,1,1,1,1,1,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11511..11517
+89,1,2,1,0;89,1,2,1,1,0
+#### Text ####
+saying
+##############
+and, Expansion.Conjunction
+____Arg1____
+11518..11633
+89,1,2,1,1,1,0;89,1,2,1,1,1,1,0;89,1,2,1,1,1,1,1,0;89,1,2,1,1,1,1,1,1,0;89,1,2,1,1,1,1,1,1,1,0;89,1,2,1,1,1,1,1,1,1,1,0;89,1,2,1,1,1,1,1,1,1,1,1,0;89,1,2,1,1,1,1,1,1,1,1,1,1;89,1,2,1,1,1,1,1,1,1,1,1,2
+#### Text ####
+the subsidies would cause the difference between prices and real values of commodities to "become very unreasonable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11639..11712
+89,1,2,1,1,1,1,1,1,1,1,1,4
+#### Text ####
+reduce needed funds for investment in the "already difficult state budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+11829
+91
+____Arg1____
+11717..11827
+90
+#### Text ####
+The aim of the austerity measures was to slice economic growth, which soared to 20.7% last year, to 8% in 1990
+##############
+____Arg2____
+11829..11900
+91
+#### Text ####
+Economists now predict the growth rate will be about 11.5% for the year
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+12140
+93
+____Arg1____
+11904..12132
+92
+#### Text ####
+In a sign of growing official tolerance for religion, Russian Orthodox priests were allowed to celebrate the 400th anniversary of the Moscow patriarchate in the Kremlin's 15th-century Uspensky Cathedral, where czars were crowned
+##############
+____Arg2____
+12140..12241
+93
+#### Text ####
+A 34-foot-tall, $7.7 million statue of Buddha was completed on a hill outside Hong Kong, facing China
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+12243
+94
+____Arg1____
+12140..12241
+93
+#### Text ####
+A 34-foot-tall, $7.7 million statue of Buddha was completed on a hill outside Hong Kong, facing China
+##############
+____Arg2____
+12243..12413
+94
+#### Text ####
+The statue is the brainchild of Sik Chi Wan, director of the Po Lin Monastery, who said: "Hong Kong is such a prosperous place, we also need some kind of religious symbol
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+12374..12378
+94,1,1,1,1,4,1,1,3,1,1,2,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+12322..12330
+94,1,1,1,1,4,0;94,1,1,1,1,4,1,0;94,1,1,1,1,4,1,1,0;94,1,1,1,1,4,1,1,1;94,1,1,1,1,4,1,1,2
+#### Text ####
+who said
+##############
+also, Expansion.Conjunction
+____Arg1____
+11904..12106
+92,0;92,1;92,2;92,3,0;92,3,1,0;92,3,1,1,0;92,3,1,1,1,0;92,3,1,1,1,1,0;92,3,1,1,1,1,1;92,3,1,1,1,1,2,0;92,3,1,1,1,1,2,1,0;92,3,1,1,1,1,2,1,1;92,4;92,5
+#### Text ####
+In a sign of growing official tolerance for religion, Russian Orthodox priests were allowed to celebrate the 400th anniversary of the Moscow patriarchate in the Kremlin's 15th-century Uspensky Cathedral
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+12371..12373;12379..12413
+94,1,1,1,1,4,1,1,3,1,1,2,0;94,1,1,1,1,4,1,1,3,1,1,2,1,0;94,1,1,1,1,4,1,1,3,1,1,2,1,2
+#### Text ####
+we need some kind of religious symbol
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1299 @@
+________________________________________________________
+____Explicit____
+129..131
+1,0,1,1,1,1,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+124..128
+1,0,1,1,1,1,1;1,0,1,1,1,1,2,0;1,0,1,1,1,1,2,1
+#### Text ####
+paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+132..170
+1,0,1,1,1,1,2,2,1
+#### Text ####
+it exceeds tax figured the regular way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+227..230
+2,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Sup1____
+124..170
+1,0,1,1,1,1,1;1,0,1,1,1,1,2
+#### Text ####
+paid if it exceeds tax figured the regular way
+##############
+____Arg1____
+85..122;172..225
+1,0,0;1,0,1,0;1,0,1,1,0;1,0,1,1,1,0;1,0,1,1,1,1,0;1,1;1,2;1,3
+#### Text ####
+The method of calculating the 20% tax is due for a change in 1990, thanks to 1986's tax act
+##############
+#### Features ####
+Ot, Comm, Null, Null
+201..225
+1,2,3;1,2,4;1,3
+#### Text ####
+thanks to 1986's tax act
+##############
+____Arg2____
+250..317
+2,0,2,1
+#### Text ####
+that the concept that is to be introduced drags in great complexity
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+231..249
+2,0,1;2,0,2,0
+#### Text ####
+most experts agree
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+319
+2
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+227..317
+2,0
+#### Text ####
+But most experts agree that the concept that is to be introduced drags in great complexity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+319..365
+2,2
+#### Text ####
+they have been trying to head it off this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+367
+3
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+227..365
+2
+#### Text ####
+But most experts agree that the concept that is to be introduced drags in great complexity; they have been trying to head it off this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+367..512
+3
+#### Text ####
+Ways and Means Chairman Rostenkowski backed a simplification plan in the pending House tax bill, but the plan turns out to be a big revenue loser
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+464..467
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+367..462
+3,0
+#### Text ####
+Ways and Means Chairman Rostenkowski backed a simplification plan in the pending House tax bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+468..512
+3,3
+#### Text ####
+the plan turns out to be a big revenue loser
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+603
+5
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+516..601
+4
+#### Text ####
+Now the Senate's stripped-down bill omits any proposal to deal with the corporate tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+603..698
+5
+#### Text ####
+Proponents of simplification fear that the chances of getting it into the final bill are waning
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+701
+6
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+603..698
+5
+#### Text ####
+Proponents of simplification fear that the chances of getting it into the final bill are waning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+701..793
+6
+#### Text ####
+We hear it has low priority on the House side," says Samuel Starr of Coopers & Lybrand, CPAs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+795
+7
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+701..746
+6,1
+#### Text ####
+We hear it has low priority on the House side
+##############
+#### Features ####
+Ot, Comm, Null, Null
+749..793
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+says Samuel Starr of Coopers & Lybrand, CPAs
+##############
+____Arg2____
+795..819;831..966
+7,0;7,2;7,3;7,4;7,5;7,6
+#### Text ####
+If the law isn't changed we are left staring at rules that are almost impossible to implement, because there are so many complex depreciation calculations to do
+##############
+#### Features ####
+Ot, Comm, Null, Null
+821..828
+7,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+795..797
+7,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+821..828
+7,1
+#### Text ####
+he says
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+831..899
+7,2;7,3;7,4,0;7,4,1,0;7,4,1,1,0;7,4,1,1,1,0;7,4,1,1,1,1,0;7,4,1,1,1,1,1,0;7,4,1,1,1,1,1,1,0;7,4,1,1,1,1,1,1,1,0;7,4,1,1,1,1,1,1,1,1,0;7,4,1,1,1,1,1,1,1,1,1;7,4,1,1,1,1,1,1,1,1,2;7,5;7,6
+#### Text ####
+we are left staring at rules that are almost impossible to implement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+798..819
+7,0,1
+#### Text ####
+the law isn't changed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+901..908
+7,4,1,1,1,1,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+821..828
+7,1
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+860..899
+7,4,1,1,1,1,1,1,0;7,4,1,1,1,1,1,1,1,0;7,4,1,1,1,1,1,1,1,1,0;7,4,1,1,1,1,1,1,1,1,1;7,4,1,1,1,1,1,1,1,1,2
+#### Text ####
+that are almost impossible to implement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+909..966
+7,4,1,1,1,1,1,1,1,1,3,1
+#### Text ####
+there are so many complex depreciation calculations to do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+971..974
+8,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+603..793
+5;6
+#### Text ####
+Proponents of simplification fear that the chances of getting it into the final bill are waning. "We hear it has low priority on the House side," says Samuel Starr of Coopers & Lybrand, CPAs
+##############
+____Arg1____
+516..601
+4
+#### Text ####
+Now the Senate's stripped-down bill omits any proposal to deal with the corporate tax
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+975..1054
+8,0,1;8,0,2;8,0,3
+#### Text ####
+Congress still could resolve the issue with other legislation this year or next
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1056..1066
+8,1;8,2;8,3;8,4
+#### Text ####
+Starr adds
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1281
+11
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1138..1279
+10
+#### Text ####
+This law aids hurricane-wracked locales named by the president as disaster areas, as well as regions so designated after other 1989 disasters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1281..1408
+11,0
+#### Text ####
+It lets victims elect to deduct casualty losses on either 1989 or amended 1988 returns, whichever offers the larger tax benefit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1410
+11
+____Arg1____
+1281..1408
+11,0
+#### Text ####
+It lets victims elect to deduct casualty losses on either 1989 or amended 1988 returns, whichever offers the larger tax benefit
+##############
+____Arg2____
+1410..1444
+11,2
+#### Text ####
+they have until April 16 to choose
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1446
+12
+____Arg1____
+1410..1444
+11,2
+#### Text ####
+they have until April 16 to choose
+##############
+____Arg2____
+1446..1505
+12,0,0
+#### Text ####
+Amending a 1988 return to claim a refund brings cash faster
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1507..1510
+12,0,2,0
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1569..1598
+12,1;12,2;12,3;12,4
+#### Text ####
+notes publisher Prentice Hall
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1446..1505
+12,0,0
+#### Text ####
+Amending a 1988 return to claim a refund brings cash faster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1511..1567
+12,0,2,1;12,0,2,2;12,0,2,3;12,0,2,4
+#### Text ####
+for personal losses, there are other factors to consider
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1696..1699
+13,0,2,2,2,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1675..1695
+13,0,2,2,2,2,0
+#### Text ####
+that it exceeds $100
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1700..1764
+13,0,2,2,2,2,2
+#### Text ####
+that the year's total losses exceed 10% of adjusted gross income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1766
+13
+____Arg1____
+1602..1764
+13,0
+#### Text ####
+A loss -- after insurance recoveries -- is deductible only to the extent that it exceeds $100 and that the year's total losses exceed 10% of adjusted gross income
+##############
+____Arg2____
+1766..1834
+13,2
+#### Text ####
+victims may pick the year when income is lower and deductions higher
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1836
+14
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1766..1834
+13,2
+#### Text ####
+victims may pick the year when income is lower and deductions higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1836..2001
+14,0;14,1;14,2;14,3;14,5
+#### Text ####
+In filing an original (not amended) return, a couple should consider whether damaged property is owned jointly or separately and whether one spouse has larger income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1961..1964
+14,2,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Indet
+1880..1904
+14,2,0;14,2,1,0;14,2,1,1,0
+#### Text ####
+a couple should consider
+##############
+and, Expansion.Conjunction
+____Arg1____
+1905..1960
+14,2,1,1,1,0
+#### Text ####
+whether damaged property is owned jointly or separately
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1965..2001
+14,2,1,1,1,2
+#### Text ####
+whether one spouse has larger income
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2206..2209
+16,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2127..2204
+16,0
+#### Text ####
+Returns for 1988 from people with six-month filing extensions were due Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2223..2347
+16,3,1,1
+#### Text ####
+people in the disaster areas won't be penalized for late filing if their returns are marked "Hugo" and postmarked by Jan. 16
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2210..2222
+16,3,0;16,3,1,0
+#### Text ####
+the IRS says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2287..2289
+16,3,1,1,1,1,2,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2210..2222
+16,3,0;16,3,1,0
+#### Text ####
+the IRS says
+##############
+if, Contingency.Condition.General
+____Arg1____
+2223..2286
+16,3,1,1,0;16,3,1,1,1,0;16,3,1,1,1,1,0;16,3,1,1,1,1,1;16,3,1,1,1,1,2,0;16,3,1,1,1,1,2,1,0;16,3,1,1,1,1,2,1,1;16,3,1,1,1,1,2,1,2
+#### Text ####
+people in the disaster areas won't be penalized for late filing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2290..2347
+16,3,1,1,1,1,2,1,3,1
+#### Text ####
+their returns are marked "Hugo" and postmarked by Jan. 16
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2349
+17
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+2206..2347
+16,2;16,3;16,4
+#### Text ####
+but the IRS says people in the disaster areas won't be penalized for late filing if their returns are marked "Hugo" and postmarked by Jan. 16
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2349..2389
+17,0
+#### Text ####
+Interest will be imposed on unpaid taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2391..2394
+17,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2349..2389
+17,0
+#### Text ####
+Interest will be imposed on unpaid taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2395..2507
+17,3
+#### Text ####
+late-payment penalties on the returns will be waived if the balance due and paid is 10% or less of the liability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2448..2450
+17,3,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.General
+____Arg1____
+2391..2447
+17,2;17,3,0;17,3,1;17,4
+#### Text ####
+but late-payment penalties on the returns will be waived
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2451..2507
+17,3,2,1
+#### Text ####
+the balance due and paid is 10% or less of the liability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2509
+18
+____Arg1____
+2349..2507
+17
+#### Text ####
+Interest will be imposed on unpaid taxes, but late-payment penalties on the returns will be waived if the balance due and paid is 10% or less of the liability
+##############
+____Arg2____
+2509..2586
+18
+#### Text ####
+IRS Notice 89-136 describes this and other deadline relief for Hugo's victims
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2682..2684
+19,3,2,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2590..2610
+19,0;19,1
+#### Text ####
+Among the provisions
+##############
+if, Contingency.Condition.General
+____Arg1____
+2590..2681
+19,0;19,1;19,2;19,3,0;19,3,1;19,3,2,0;19,3,2,1,0;19,3,2,1,1;19,4
+#### Text ####
+Among the provisions: Fiscal-year taxpayers with returns due last Monday won't be penalized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2685..2751
+19,3,2,1,2,1
+#### Text ####
+they file -- or request an extension -- and pay tax due by Nov. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2753
+20
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2612..2751
+19,1;19,2;19,3;19,4
+#### Text ####
+Fiscal-year taxpayers with returns due last Monday won't be penalized if they file -- or request an extension -- and pay tax due by Nov. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2753..2823
+20
+#### Text ####
+Excise-tax returns due by Oct. 31 or Nov. 30 may be delayed to Jan. 16
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2825
+21
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+2753..2823
+20
+#### Text ####
+Excise-tax returns due by Oct. 31 or Nov. 30 may be delayed to Jan. 16
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2825..2995
+21
+#### Text ####
+Extensions can't be granted for filing employment-tax returns due Oct. 31 or for depositing withheld taxes, but late penalties will be abated for deposits made by Nov. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2933..2936
+21,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2590..2610
+19,0;19,1;19,4
+#### Text ####
+Among the provisions
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2825..2931
+21,0
+#### Text ####
+Extensions can't be granted for filing employment-tax returns due Oct. 31 or for depositing withheld taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2937..2995
+21,3
+#### Text ####
+late penalties will be abated for deposits made by Nov. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3010..3014
+22,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+2223..2507
+16,3,1,1;17
+#### Text ####
+people in the disaster areas won't be penalized for late filing if their returns are marked "Hugo" and postmarked by Jan. 16.
+Interest will be imposed on unpaid taxes, but late-payment penalties on the returns will be waived if the balance due and paid is 10% or less of the liability
+##############
+____Arg1____
+2509..2586
+18
+#### Text ####
+IRS Notice 89-136 describes this and other deadline relief for Hugo's victims
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2999..3009;3015..3059
+22,0;22,2;22,3
+#### Text ####
+The notice grants relief for certain estate-tax returns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3221
+24
+____Arg1____
+3063..3219
+23
+#### Text ####
+ONE-DAY JAUNTS in a chartered boat were perks for permanent staffers of American Business Service Corp., a Costa Mesa, Calif., supplier of temporary workers
+##############
+____Arg2____
+3221..3293
+24
+#### Text ####
+The IRS denied cost deductions because few of the temps got to go aboard
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3252..3259
+24,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3221..3251
+24,0;24,1,0;24,1,1;24,2
+#### Text ####
+The IRS denied cost deductions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3260..3293
+24,1,2,1
+#### Text ####
+few of the temps got to go aboard
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3295..3298
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+3221..3293
+24
+#### Text ####
+The IRS denied cost deductions because few of the temps got to go aboard
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3299..3390
+25,1;25,2;25,3
+#### Text ####
+the Tax Court said the limitations were reasonable and realistic and allowed the deductions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3519
+27
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3394..3517
+26
+#### Text ####
+USED-CAR BUYERS who try to avoid sales tax by understating prices paid in private deals are the targets of a New York drive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3519..3661
+27
+#### Text ####
+Estimating that the state may lose $15 million a year, officials announced the filing of 15 criminal actions and "hundreds" of civil penalties
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3519..3572
+27,0
+#### Text ####
+Estimating that the state may lose $15 million a year
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3665..3669
+28,0,0
+#### Text ####
+WHEN
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+3689..3875
+28,1;28,2;28,3;28,4
+#### Text ####
+the trustee of the individual retirement account must file forms 5498 reporting market values relating to the decedent and each beneficiary, with copies to the executor and beneficiaries
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3670..3687
+28,0,1
+#### Text ####
+AN IRA OWNER dies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3877
+29
+____Arg1____
+3665..3875
+28
+#### Text ####
+WHEN AN IRA OWNER dies, the trustee of the individual retirement account must file forms 5498 reporting market values relating to the decedent and each beneficiary, with copies to the executor and beneficiaries
+##############
+____Arg2____
+3877..3941
+29
+#### Text ####
+IRS Revenue Procedure 89-52 describes the reporting requirements
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4220..4223
+33,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+4018..4101
+31
+#### Text ####
+People often cite frugality and distrust of banks to justify cash caches to the IRS
+##############
+____Arg1____
+4103..4218
+32
+#### Text ####
+Gregory Damonne Brown of Fremont, Calif., a hardworking, reclusive young bachelor, told that story to the Tax Court
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4224..4340;4379..4476
+33,0,1;33,0,2;33,0,3;33,1;33,2;33,3,0;33,3,1,0;33,3,1,1,0;33,3,1,1,1,0;33,3,1,1,1,1,0;33,3,1,1,1,1,1,0;33,3,1,1,1,1,1,1,0;33,3,1,1,1,1,1,1,1;33,3,1,1,1,1,1,1,3;33,4
+#### Text ####
+judges usually find the real aim is to escape tax on hidden income; and the IRS said Brown must have had such income because he deposited $124,732 in a bank account in 1982-84 while reporting income of only $52,012
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4344..4375
+33,3,1,1,1,1,1,1,2
+#### Text ####
+although it uncovered no source
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4292..4295
+33,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4220..4290
+33,0
+#### Text ####
+But judges usually find the real aim is to escape tax on hidden income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4296..4340;4379..4476
+33,3,0;33,3,1,0;33,3,1,1,0;33,3,1,1,1,0;33,3,1,1,1,1,0;33,3,1,1,1,1,1,0;33,3,1,1,1,1,1,1,0;33,3,1,1,1,1,1,1,1;33,3,1,1,1,1,1,1,3
+#### Text ####
+the IRS said Brown must have had such income because he deposited $124,732 in a bank account in 1982-84 while reporting income of only $52,012
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4344..4375
+33,3,1,1,1,1,1,1,2
+#### Text ####
+although it uncovered no source
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4344..4352
+33,3,1,1,1,1,1,1,2,1,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+4292..4340
+33,2;33,3,0;33,3,1,0;33,3,1,1,0;33,3,1,1,1,0;33,3,1,1,1,1,0;33,3,1,1,1,1,1,0;33,3,1,1,1,1,1,1,0;33,3,1,1,1,1,1,1,1;33,4
+#### Text ####
+and the IRS said Brown must have had such income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4353..4375
+33,3,1,1,1,1,1,1,2,1,1
+#### Text ####
+it uncovered no source
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4379..4386
+33,3,1,1,1,1,1,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4296..4308
+33,3,0;33,3,1,0
+#### Text ####
+the IRS said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4309..4340
+33,3,1,1,0;33,3,1,1,1,0;33,3,1,1,1,1,0;33,3,1,1,1,1,1,0;33,3,1,1,1,1,1,1,0;33,3,1,1,1,1,1,1,1
+#### Text ####
+Brown must have had such income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4387..4476
+33,3,1,1,1,1,1,1,3,1
+#### Text ####
+he deposited $124,732 in a bank account in 1982-84 while reporting income of only $52,012
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4438..4443
+33,3,1,1,1,1,1,1,3,1,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4296..4308
+33,3,0;33,3,1,0
+#### Text ####
+the IRS said
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+4379..4437
+33,3,1,1,1,1,1,1,3,0;33,3,1,1,1,1,1,1,3,1,0;33,3,1,1,1,1,1,1,3,1,1,0;33,3,1,1,1,1,1,1,3,1,1,1;33,3,1,1,1,1,1,1,3,1,1,2;33,3,1,1,1,1,1,1,3,1,1,3
+#### Text ####
+because he deposited $124,732 in a bank account in 1982-84
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4444..4476
+33,3,1,1,1,1,1,1,3,1,1,4,1
+#### Text ####
+reporting income of only $52,012
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4557
+35
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4495..4555
+35,0
+#### Text ####
+The deposits came from savings kept in a Tupperware breadbox
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4557..4690
+35,2,0;35,2,1,0;35,2,1,1;35,2,1,2,0,0;35,2,1,2,0,1,0;35,2,1,2,0,1,1,0;35,2,1,2,0,1,1,1,0;35,2,1,2,0,1,1,1,1,0;35,2,1,2,0,1,1,1,1,1
+#### Text ####
+he saved $47,000 in 1974-81 by living with family members and pinching pennies and $45,000 of secret gifts from his remorseful father
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4730
+36
+____Arg1____
+4480..4728
+34;35
+#### Text ####
+Brown's story: The deposits came from savings kept in a Tupperware breadbox; he saved $47,000 in 1974-81 by living with family members and pinching pennies and $45,000 of secret gifts from his remorseful father, who had abandoned the family in 1955
+##############
+____Arg2____
+4730..4748
+36,0
+#### Text ####
+Brown had no proof
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4750..4753
+36,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+4730..4748
+36,0
+#### Text ####
+Brown had no proof
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4754..4937
+36,3
+#### Text ####
+testimony of his mother and stepmother about his father and of an ex-employer about his honesty and habits satisfied a judge that Brown was truthful and his tale of gifts was possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4903..4906
+36,3,1,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+4871..4878
+36,3,1,1
+#### Text ####
+a judge
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+4879..4902
+36,3,1,2,0;36,3,1,2,1,0
+#### Text ####
+that Brown was truthful
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4907..4937
+36,3,1,2,1,2
+#### Text ####
+his tale of gifts was possible
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5006..5008
+37,2
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4941..5004
+37,0
+#### Text ####
+The IRS offered no evidence of hidden sources of taxable income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5009..5042
+37,3
+#### Text ####
+Judge Shields rejected its claims
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5228
+40
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+5046..5226
+38;39
+#### Text ####
+BRIEFS: Asked how he made charitable gifts of $26,350 out of reported two-year income of $46,892, Thomas H. McFall of Bryan, Texas, told the Tax Court he had understated his income
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5228..5325
+40
+#### Text ####
+The court rejected his incredible claims, denied his deductions, and imposed a negligence penalty
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+5333
+41
+____Arg1____
+5228..5325
+40
+#### Text ####
+The court rejected his incredible claims, denied his deductions, and imposed a negligence penalty
+##############
+____Arg2____
+5333..5452
+41
+#### Text ####
+Rep. Schaefer (R., Colo.) entered a bill to exempt from tax rewards for tips leading to the arrest of violent criminals
+##############
+________________________________________________________

@@ -1,0 +1,340 @@
+________________________________________________________
+____Explicit____
+104..110
+0,0,1,1,1,1,1,4,0
+#### Text ####
+though
+##############
+#### Features ####
+Ot, Comm, Null, Indet
+9..37
+0,0,0;0,0,1,0;0,0,1,1,0
+#### Text ####
+Rorer Group Inc. will report
+##############
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+38..102
+0,0,1,1,1,0;0,0,1,1,1,1,0;0,0,1,1,1,1,1,0;0,0,1,1,1,1,1,1;0,0,1,1,1,1,1,2;0,0,1,1,1,1,1,3
+#### Text ####
+that third-quarter profit rose more than 15% from a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+111..148
+0,0,1,1,1,1,1,4,1
+#### Text ####
+the gain is wholly due to asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+503
+3
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+425..500
+2,1,2
+#### Text ####
+that sales will show an increase from a year ago of "somewhat less than 10%
+##############
+#### Features ####
+Ot, Comm, Null, Null
+391..424
+2,0;2,1,0;2,1,1;2,2;2,3
+#### Text ####
+Mr. Cawthorn said in an interview
+##############
+____Arg2____
+503..595
+3
+#### Text ####
+Through the first six months of 1989, sales had grown about 12% from the year-earlier period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+808
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+728..806
+5,1,1
+#### Text ####
+the profit growth in the latest quarter was due to the sale of two Rorer drugs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+710..727
+5,0;5,1,0;5,2
+#### Text ####
+Mr. Cawthorn said
+##############
+____Arg2____
+808..858
+6
+#### Text ####
+Asilone, an antacid, was sold to Boots PLC, London
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+860
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+808..858
+6
+#### Text ####
+Asilone, an antacid, was sold to Boots PLC, London
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+860..956
+7
+#### Text ####
+Thrombinar, a drug used to stanch bleeding, was sold to Jones Medical Industries Inc., St. Louis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+958
+8
+____Arg1____
+860..956
+7
+#### Text ####
+Thrombinar, a drug used to stanch bleeding, was sold to Jones Medical Industries Inc., St. Louis
+##############
+____Arg2____
+958..1072
+8
+#### Text ####
+He said Rorer sold the drugs for "nice prices" and will record a combined, pretax gain on the sales of $20 million
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1200
+10
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+1076..1179
+9,0
+#### Text ####
+As the gain from the sales indicates, operating profit was "significantly" below the year-earlier level
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1181..1198
+9,1;9,2;9,3;9,4
+#### Text ####
+Mr. Cawthorn said
+##############
+____Arg2____
+1200..1264
+10,0;10,1;10,2,0;10,2,1,0;10,2,1,1,0;10,3
+#### Text ####
+Rorer in July had projected lower third-quarter operating profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1308
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1200..1298
+10
+#### Text ####
+Rorer in July had projected lower third-quarter operating profit but higher profit for all of 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1308..1420
+11,1,1
+#### Text ####
+the company is still looking for "a strong fourth quarter in all areas -- sales, operating income and net income
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1300..1307
+11,0;11,1,0;11,2;11,3
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1562..1566
+12,1,2,0,1,2,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+1519..1561
+12,1,2,0,1,2,0;12,1,2,0,1,2,1,0;12,1,2,0,1,2,1,1,0;12,1,2,0,1,2,1,1,1,0;12,1,2,0,1,2,1,1,1,1
+#### Text ####
+which reduces the value of overseas profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1567..1596
+12,1,2,0,1,2,1,1,1,2,1
+#### Text ####
+it is translated into dollars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1858
+13
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1770..1848
+12,1,2,5,1,1,1,2
+#### Text ####
+whose sales and market share in the U.S. had slipped in the first half of 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1858..1987
+13,1,1,0;13,1,1,1,0;13,1,1,1,1,0;13,1,1,1,1,1,0;13,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,1;13,1,1,1,1,1,1,1,2,0;13,1,1,1,1,1,1,1,2,1,0;13,1,1,1,1,1,1,1,2,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,3;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,1,1,1
+#### Text ####
+Rorer opted to sell Asilone and Thrombinar to raise revenue that would "kick start" its increased marketing efforts behind Maalox
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1850..1857
+13,0;13,1,0;13,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2073
+14
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1850..1987
+13,0;13,1,0;13,1,1,0;13,1,1,1,0;13,1,1,1,1,0;13,1,1,1,1,1,0;13,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,1;13,1,1,1,1,1,1,1,2,0;13,1,1,1,1,1,1,1,2,1,0;13,1,1,1,1,1,1,1,2,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,3;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,1,1,0;13,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,1,1,1;13,2
+#### Text ####
+He said Rorer opted to sell Asilone and Thrombinar to raise revenue that would "kick start" its increased marketing efforts behind Maalox
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2073..2109
+14,0;14,1;14,2,0;14,2,1,0;14,2,1,1;14,2,1,2;14,3
+#### Text ####
+We had underfunded Maalox for a year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2112..2119
+14,2,1,3
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2121..2128
+14,2,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2112..2119
+14,2,1,3
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2073..2109
+14,0;14,1;14,2,0;14,2,1,0;14,2,1,1;14,2,1,2;14,3
+#### Text ####
+We had underfunded Maalox for a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2129..2212
+14,2,1,4,1
+#### Text ####
+the company was concentrating on research and development and promoting other drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2369
+16
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2224..2367
+15,1,1
+#### Text ####
+Rorer will spend $15 million to $20 million more on Maalox advertising and promotion in the second half of 1989 than in the year-earlier period
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2216..2223
+15,0;15,1,0;15,2
+#### Text ####
+He said
+##############
+____Arg2____
+2369..2436
+16,0
+#### Text ####
+A "big chunk" of that additional spending came in the third quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2438..2445
+16,1;16,2;16,3;16,4
+#### Text ####
+he said
+##############
+________________________________________________________

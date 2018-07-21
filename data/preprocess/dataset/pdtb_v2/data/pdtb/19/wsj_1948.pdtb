@@ -1,0 +1,466 @@
+________________________________________________________
+____Explicit____
+53..56
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..51
+0,0
+#### Text ####
+Times may be tough on Wall Street for some
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+57..107
+0,3
+#### Text ####
+a few bosses are making as much as ever -- or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+133..144
+1,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+53..107
+0,2;0,3;0,4
+#### Text ####
+but a few bosses are making as much as ever -- or more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+111..131;146..340
+1,0;1,1;1,3;1,4;1,5;1,6
+#### Text ####
+At Bear Stearns Cos. the 15 executive officers led by Chairman Alan "Ace" Greenberg got a pay increase to $35.9 million for the 14-month period ended June 30 from $22.9 million for the 12 months ended April 30, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+342
+2
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+111..340
+1
+#### Text ####
+At Bear Stearns Cos., for example, the 15 executive officers led by Chairman Alan "Ace" Greenberg got a pay increase to $35.9 million for the 14-month period ended June 30 from $22.9 million for the 12 months ended April 30, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+342..423
+2
+#### Text ####
+The figures don't include substantial dividends on holdings of Bear Stearns stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+425
+3
+____Arg1____
+342..423
+2
+#### Text ####
+The figures don't include substantial dividends on holdings of Bear Stearns stock
+##############
+____Arg2____
+425..553
+3
+#### Text ####
+Mr. Greenberg himself was paid $4.5 million, before an estimated $1.5 million in dividends, up from $2.4 million the year before
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+677
+5
+____Arg1____
+557..675
+4
+#### Text ####
+The increase is noted in the brokerage firm's latest proxy statement filed with the Securities and Exchange Commission
+##############
+____Arg2____
+677..797
+5
+#### Text ####
+Because it operates on a fiscal year, Bear Stearns's yearly filings are available much earlier than those of other firms
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+677..684
+5,0,0
+#### Text ####
+Because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+715..797
+5,1;5,2;5,3;5,4
+#### Text ####
+Bear Stearns's yearly filings are available much earlier than those of other firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+685..713
+5,0,1
+#### Text ####
+it operates on a fiscal year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+799
+6
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+677..797
+5
+#### Text ####
+Because it operates on a fiscal year, Bear Stearns's yearly filings are available much earlier than those of other firms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+799..927
+6
+#### Text ####
+The latest period includes 14 months instead of 12 because Bear Stearns changed to a fiscal year ending in June instead of April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+850..857
+6,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+799..849
+6,0;6,1,0;6,1,1;6,2
+#### Text ####
+The latest period includes 14 months instead of 12
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+858..927
+6,1,2,1
+#### Text ####
+Bear Stearns changed to a fiscal year ending in June instead of April
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+931..940
+7,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Opposition
+____Sup1____
+342..423
+2
+#### Text ####
+The figures don't include substantial dividends on holdings of Bear Stearns stock
+##############
+____Arg1____
+111..340
+1
+#### Text ####
+At Bear Stearns Cos., for example, the 15 executive officers led by Chairman Alan "Ace" Greenberg got a pay increase to $35.9 million for the 14-month period ended June 30 from $22.9 million for the 12 months ended April 30, 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+942..1025
+7,1;7,2;7,3,0;7,3,1;7,3,2;7,3,3;7,4
+#### Text ####
+Bear Stearns's 650 stock and bond salesmen saw thinner paychecks over the past year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1027..1140
+7,3,4
+#### Text ####
+which the company says reflected lower commission revenue caused by a decline in investor activity in the markets
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1142..1149
+8,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+1027..1140
+7,3,4
+#### Text ####
+which the company says reflected lower commission revenue caused by a decline in investor activity in the markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1151..1222;1240..1306
+8,1;8,2;8,3;8,4,0;8,4,1,0;8,4,1,1,0;8,4,1,1,1,0;8,4,1,1,1,1;8,4,1,1,1,3;8,4,2;8,5
+#### Text ####
+Bear Stearns on Monday reported improved earnings for its first quarter partly because of a 31% increase in commissions during the quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1403
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1310..1400
+9
+#### Text ####
+William J. Montgoris, chief financial officer, defended the lofty salaries at Bear Stearns
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1403..1544
+10
+#### Text ####
+All of us are on a base salary of $200,000 if the firm makes nothing -- and that's pretty low as far as Wall Street goes," Mr. Montgoris said
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1475..1478
+10,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1526..1544
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+Mr. Montgoris said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1403..1471
+10,1,0
+#### Text ####
+All of us are on a base salary of $200,000 if the firm makes nothing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1479..1523
+10,1,3
+#### Text ####
+that's pretty low as far as Wall Street goes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1546..1553
+11,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1403..1523
+10,1
+#### Text ####
+All of us are on a base salary of $200,000 if the firm makes nothing -- and that's pretty low as far as Wall Street goes
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1526..1544
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+Mr. Montgoris said
+##############
+____Arg2____
+1555..1634
+11,1;11,2;11,3;11,4
+#### Text ####
+Bear Stearns has never had an unprofitable year since its founding 65 years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1885
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1786..1883
+13,0;13,1;13,2;13,3;13,5
+#### Text ####
+According to the proxy statement, James E. Cayne, 55, Bear Stearns's president, made $3.9 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1885..1963
+13,4
+#### Text ####
+an executive vice president, Michael L. Tarnopol, 53, made nearly $3.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1965..1968
+13,6
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1786..1819
+13,0;13,1
+#### Text ####
+According to the proxy statement,
+##############
+and, Expansion.Conjunction
+____Arg1____
+1786..1963
+13,0;13,1;13,2;13,3;13,4;13,5
+#### Text ####
+According to the proxy statement, James E. Cayne, 55, Bear Stearns's president, made $3.9 million; an executive vice president, Michael L. Tarnopol, 53, made nearly $3.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1969..2085
+13,7
+#### Text ####
+two executive vice presidents, Vincent J. Mattone, 44, and William J. Michaelcheck, 42, made about $3.3 million each
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2216
+15
+#### Features ####
+Ot, Comm, Null, Null
+2356..2363
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2108..2213
+14,1,1
+#### Text ####
+the firm has a "straight mathematical formula" for determining compensation, based on the firm's earnings
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2089..2107
+14,0;14,1,0;14,2
+#### Text ####
+Mr. Montgoris said
+##############
+____Arg2____
+2216..2353
+15,1
+#### Text ####
+Just because a particular element of the firm is down," such as stockbrokerage, "doesn't mean the executive committee should be paid less
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2216..2228
+15,1,0,0;15,1,0,1
+#### Text ####
+Just because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2356..2363
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+he said
+##############
+because, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+2297..2353
+15,1,1;15,1,2;15,1,3
+#### Text ####
+doesn't mean the executive committee should be paid less
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2229..2294
+15,1,0,2
+#### Text ####
+a particular element of the firm is down," such as stockbrokerage
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

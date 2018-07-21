@@ -1,0 +1,1803 @@
+________________________________________________________
+____Explicit____
+103..110
+0,1,1,2,1,1,2,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..56
+0,0;0,1,0;0,1,1,0;0,1,1,1;0,2
+#### Text ####
+Defense intellectuals have complained for years
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+57..102
+0,1,1,2,0;0,1,1,2,1,0;0,1,1,2,1,1,0;0,1,1,2,1,1,1;0,1,1,2,1,1,2,0;0,1,1,2,1,1,2,1
+#### Text ####
+that the Pentagon cannot determine priorities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+111..129
+0,1,1,2,1,1,2,2,1
+#### Text ####
+it has no strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+131
+1
+____Arg1____
+9..129
+0
+#### Text ####
+Defense intellectuals have complained for years that the Pentagon cannot determine priorities because it has no strategy
+##############
+____Arg2____
+131..267
+1
+#### Text ####
+Last April, the new defense secretary, Richard Cheney, acknowledged that, "given an ideal world, we'd have a nice, neat, orderly process
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+269
+2
+#### Features ####
+Ot, Comm, Null, Null
+131..198
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+Last April, the new defense secretary, Richard Cheney, acknowledged
+##############
+in other words, Expansion.Restatement.Specification
+____Arg1____
+199..267
+1,3,1
+#### Text ####
+that, "given an ideal world, we'd have a nice, neat, orderly process
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+269..333
+2
+#### Text ####
+We'd do the strategy and then we'd come around and do the budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+290..293
+2,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+131..198
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+Last April, the new defense secretary, Richard Cheney, acknowledged
+##############
+and, Expansion.Conjunction
+____Arg1____
+269..289
+2,0
+#### Text ####
+We'd do the strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+294..333
+2,2
+#### Text ####
+then we'd come around and do the budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+294..298
+2,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Ot, Comm, Null, Null
+131..198
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+Last April, the new defense secretary, Richard Cheney, acknowledged
+##############
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+269..289
+2,0
+#### Text ####
+We'd do the strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+290..293;299..333
+2,1;2,2,1;2,2,2;2,3
+#### Text ####
+and we'd come around and do the budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+335
+3
+#### Features ####
+Ot, Comm, Null, Null
+131..198
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+Last April, the new defense secretary, Richard Cheney, acknowledged
+##############
+however, Comparison.Contrast
+____Arg1____
+269..333
+2
+#### Text ####
+We'd do the strategy and then we'd come around and do the budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+335..366
+3
+#### Text ####
+This city doesn't work that way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+369
+4
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+335..366
+3
+#### Text ####
+This city doesn't work that way
+##############
+#### Features ####
+Ot, Comm, Null, Null
+131..198
+1,0;1,1;1,2;1,3,0;1,4
+#### Text ####
+Last April, the new defense secretary, Richard Cheney, acknowledged
+##############
+____Arg2____
+369..507
+4
+#### Text ####
+With a five-year defense plan costing more than $1.6 trillion, it's about time we put together a defense strategy that works in Washington
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+529..534
+5,1,2,1,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+511..528
+5,0;5,1,0;5,1,1;5,1,2,0;5,2
+#### Text ####
+This won't happen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+535..656
+5,1,2,1,1
+#### Text ####
+strategists come down from their ivory tower and learn to work in the real world of limited budgets and uncertain futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+658
+6
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+511..656
+5
+#### Text ####
+This won't happen until strategists come down from their ivory tower and learn to work in the real world of limited budgets and uncertain futures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+658..903
+6
+#### Text ####
+As it is, we identify national goals and the threats to these goals, we shape a strategy to counter these threats, we determine the forces needed to execute the strategy, before finally forging the budgets needed to build and maintain the forces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+829..835
+6,8,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+668..827
+6,1;6,2;6,3;6,4;6,5;6,6;6,7;6,9
+#### Text ####
+we identify national goals and the threats to these goals, we shape a strategy to counter these threats, we determine the forces needed to execute the strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+836..903
+6,8,1
+#### Text ####
+finally forging the budgets needed to build and maintain the forces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+836..843
+6,8,1,0
+#### Text ####
+finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence, Contingency.Cause.Result
+____Arg1____
+658..827
+6,0;6,1;6,2;6,3;6,4;6,5;6,6;6,7;6,9
+#### Text ####
+As it is, we identify national goals and the threats to these goals, we shape a strategy to counter these threats, we determine the forces needed to execute the strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+829..835;844..903
+6,8,0;6,8,1,1;6,8,1,2
+#### Text ####
+before forging the budgets needed to build and maintain the forces
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+905
+7
+#### Features ####
+Wr, Comm, Null, Null
+in sum, Expansion.Restatement.Generalization
+____Arg1____
+658..903
+6
+#### Text ####
+As it is, we identify national goals and the threats to these goals, we shape a strategy to counter these threats, we determine the forces needed to execute the strategy, before finally forging the budgets needed to build and maintain the forces
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+905..1073
+7
+#### Text ####
+These procedures consume millions of man-hours of labor and produce tons of paper, and each year, their end product -- the Five Year Defense Plan -- promptly melts away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+988..991
+7,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+905..986
+7,0
+#### Text ####
+These procedures consume millions of man-hours of labor and produce tons of paper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+992..1073
+7,3
+#### Text ####
+each year, their end product -- the Five Year Defense Plan -- promptly melts away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1176
+9
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1077..1121
+8,0;8,1,0;8,1,1;8,2
+#### Text ####
+The graph on the left shows how this happens
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1176..1241
+9
+#### Text ####
+Compare the past eight five-year plans with actual appropriations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1243
+10
+#### Features ####
+Wr, Comm, Null, Null
+in short, Expansion.Restatement.Specification
+____Arg1____
+1176..1241
+9
+#### Text ####
+Compare the past eight five-year plans with actual appropriations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1243..1389
+10
+#### Text ####
+The Pentagon's strategists produce budgets that simply cannot be executed because they assume a defense strategy depends only on goals and threats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1317..1324
+10,1,1,1,1,2,2,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1243..1316
+10,0;10,1,0;10,1,1,0;10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1;10,1,1,1,1,2,0;10,1,1,1,1,2,1;10,1,1,1,1,2,2,0;10,1,1,1,1,2,2,1,0;10,1,1,1,1,2,2,1,1;10,2
+#### Text ####
+The Pentagon's strategists produce budgets that simply cannot be executed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1325..1389
+10,1,1,1,1,2,2,1,2,1
+#### Text ####
+they assume a defense strategy depends only on goals and threats
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1401..1408
+11,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+1317..1389
+10,1,1,1,1,2,2,1,2
+#### Text ####
+because they assume a defense strategy depends only on goals and threats
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1391..1399;1410..1454
+11,0;11,1;11,3;11,4;11,5
+#### Text ####
+Strategy is about possibilities, not hopes and dreams
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1456
+12
+#### Features ####
+Wr, Comm, Null, Null
+hence, Contingency.Cause.Result
+____Arg1____
+1391..1454
+11
+#### Text ####
+Strategy, however, is about possibilities, not hopes and dreams
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1456..1540
+12
+#### Text ####
+By ignoring costs, U.S. strategists abdicate their responsibility for hard decisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1542..1551
+13,0;13,1,0
+#### Text ####
+That puts
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+1456..1540
+12
+#### Text ####
+By ignoring costs, U.S. strategists abdicate their responsibility for hard decisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1542..1650
+13
+#### Text ####
+That puts the real strategic decisions in the hands of others: bean counters, budgeteers, and pork-barrelers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1652
+14
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1542..1650
+13
+#### Text ####
+That puts the real strategic decisions in the hands of others: bean counters, budgeteers, and pork-barrelers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1652..1687
+14
+#### Text ####
+These people have different agendas
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1689..1692
+15,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+1708..1790
+15,2
+#### Text ####
+as the recent vote by the House to undo Mr. Cheney's program terminations suggests
+##############
+____Arg1____
+1652..1687
+14
+#### Text ####
+These people have different agendas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1693..1704;1794..1865
+15,1;15,3;15,4;15,5;15,6
+#### Text ####
+as a result the preservation of jobs is becoming the real goal of defense "strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1693..1704
+15,1
+#### Text ####
+as a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+1456..1540
+12
+#### Text ####
+By ignoring costs, U.S. strategists abdicate their responsibility for hard decisions
+##############
+____Arg1____
+1542..1687
+13;14
+#### Text ####
+That puts the real strategic decisions in the hands of others: bean counters, budgeteers, and pork-barrelers.
+These people have different agendas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1689..1692;1794..1865
+15,0;15,3;15,4;15,5;15,6
+#### Text ####
+And the preservation of jobs is becoming the real goal of defense "strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1708..1790
+15,2
+#### Text ####
+as the recent vote by the House to undo Mr. Cheney's program terminations suggests
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1942
+18
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Specification
+____Arg1____
+1911..1940
+17
+#### Text ####
+Reform starts in the Pentagon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1942..2045
+18
+#### Text ####
+Strategists should consider the impact of budget uncertainties at the beginning of the planning process
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2047
+19
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1942..2045
+18
+#### Text ####
+Strategists should consider the impact of budget uncertainties at the beginning of the planning process
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2047..2159
+19
+#### Text ####
+They ought to examine how a range of optimistic to pessimistic budget scenarios would change the defense program
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2172..2176
+20,1,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence, Contingency.Cause.Result
+____Arg1____
+2047..2159
+19
+#### Text ####
+They ought to examine how a range of optimistic to pessimistic budget scenarios would change the defense program
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2161..2171;2177..2284
+20,0;20,1,0;20,1,2;20,2
+#### Text ####
+They would develop priorities by identifying the least painful program cuts as they moved from higher to lower budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2242..2244
+20,1,2,2,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2196..2241
+20,1,2,2,0;20,1,2,2,1,0;20,1,2,2,1,1,0;20,1,2,2,1,1,1
+#### Text ####
+by identifying the least painful program cuts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2245..2284
+20,1,2,2,1,1,2,1
+#### Text ####
+they moved from higher to lower budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2297..2301
+21,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2161..2284
+20
+#### Text ####
+They would then develop priorities by identifying the least painful program cuts as they moved from higher to lower budgets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2286..2296;2302..2383
+21,0;21,1,0;21,1,2;21,2
+#### Text ####
+They would identify the best way to add programs, should the budget come in at higher levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2385
+22
+____Arg1____
+2286..2383
+21
+#### Text ####
+They would also identify the best way to add programs, should the budget come in at higher levels
+##############
+____Arg2____
+2385..2466
+22
+#### Text ####
+This kind of contingency analysis is common in war planning and business planning
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2468
+23
+#### Features ####
+Wr, Comm, Null, Null
+likewise, Expansion.Conjunction
+____Arg1____
+2385..2466
+22
+#### Text ####
+This kind of contingency analysis is common in war planning and business planning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2468..2531
+23
+#### Text ####
+There is no reason that it can not be done for defense planning
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2595
+25
+#### Features ####
+Wr, Comm, Null, Null
+first, Expansion.Restatement.Specification
+____Arg1____
+2535..2593
+24
+#### Text ####
+Two steps are necessary to translate this idea into action
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2595..2621
+25
+#### Text ####
+Step 1 cleans up our books
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2623
+26
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2595..2621
+25
+#### Text ####
+Step 1 cleans up our books
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2623..2859
+26
+#### Text ####
+Our five-year plan contains three accounting devices -- negative money, an above guidance management reserve and optimistic inflation estimates -- which understate the spending the Pentagon has committed itself to by almost $100 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3024
+28
+____Arg1____
+2863..3022
+27
+#### Text ####
+Negative money was invented in 1988 to make the 1990-94 Five Year Defense Plan conform to the numbers in President Reagan's final budget submission to Congress
+##############
+____Arg2____
+3024..3101
+28
+#### Text ####
+That plan exceeded the numbers contained in his budget message by $45 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3103
+29
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3024..3101
+28
+#### Text ####
+That plan exceeded the numbers contained in his budget message by $45 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3103..3228
+29
+#### Text ####
+To make the books balance, as is required by law, somebody invented a new budget line item that simply subtracted $45 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3230
+30
+____Arg1____
+3103..3228
+29
+#### Text ####
+To make the books balance, as is required by law, somebody invented a new budget line item that simply subtracted $45 billion
+##############
+____Arg2____
+3230..3280
+30
+#### Text ####
+It is known in the Pentagon as the "negative wedge
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3600..3604
+32,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2623..2859
+26
+#### Text ####
+Our five-year plan contains three accounting devices -- negative money, an above guidance management reserve and optimistic inflation estimates -- which understate the spending the Pentagon has committed itself to by almost $100 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3586..3599;3605..3651
+32,0;32,2;32,3
+#### Text ####
+The 1990 plan assumes inflation will decline to 1.7% by 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3653
+33
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+3586..3651
+32
+#### Text ####
+The 1990 plan also assumes inflation will decline to 1.7% by 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3653..3791
+33
+#### Text ####
+Most forecasters, including those in the Congressional Budget Office, assume inflation will be in excess of 4% in each of those five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3793
+34
+____Arg1____
+3653..3791
+33
+#### Text ####
+Most forecasters, including those in the Congressional Budget Office, assume inflation will be in excess of 4% in each of those five years
+##############
+____Arg2____
+3793..3853
+34
+#### Text ####
+At that rate, the defense plan is underfunded by $48 billion
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4193
+37
+____Arg1____
+4047..4191
+36
+#### Text ####
+Step 2 examines how four progressively lower budget scenarios would change the baseline and how these changes would affect our national security
+##############
+____Arg2____
+4193..4318
+37,0;37,1;37,2,0;37,2,1;37,2,2,0;37,2,2,1,0;37,2,2,1,1,0;37,2,2,1,1,1,0;37,3
+#### Text ####
+The graph on the right (which assumes a 4% rate of inflation), places these scenarios in the context of recent appropriations
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4373
+38
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+4193..4318
+37,0;37,1;37,2,0;37,2,1;37,2,2,0;37,2,2,1,0;37,2,2,1,1,0;37,2,2,1,1,1,0;37,3
+#### Text ####
+The graph on the right (which assumes a 4% rate of inflation), places these scenarios in the context of recent appropriations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4373..4452
+38
+#### Text ####
+Note how the baseline program assumes a sharp increase in future appropriations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4454
+39
+____Arg1____
+4373..4452
+38
+#### Text ####
+Note how the baseline program assumes a sharp increase in future appropriations
+##############
+____Arg2____
+4454..4537
+39
+#### Text ####
+Step 2 will answer the question: What happens if these increases do not materialize
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4500..4502
+39,1,1,1,2,1,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4487..4499
+39,1,1,1,2,0;39,1,1,1,2,1,0;39,1,1,1,2,1,1,0;39,1,1,1,2,2
+#### Text ####
+What happens
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4503..4537
+39,1,1,1,2,1,1,1,1
+#### Text ####
+these increases do not materialize
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4744
+41
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+4541..4669
+40
+#### Text ####
+Scenario 1, known as the "Constant Dollar Freeze," reimburses the Pentagon for inflation only -- it slopes upward at 4% per year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4744..4809
+41,2;41,3;41,4
+#### Text ####
+and it reduces the baseline by $106 billion between 1990 and 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4744..4747
+41,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4671..4742
+41,0
+#### Text ####
+This scenario has been the rough position of the U.S. Senate since 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4748..4809
+41,3
+#### Text ####
+it reduces the baseline by $106 billion between 1990 and 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4942
+43
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+4813..4940
+42
+#### Text ####
+Scenario 3, the "Current Dollar Freeze," has been the approximate position of the House of Representatives for about four years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4942..5052
+43
+#### Text ####
+It freezes the budget at its current level, and forces the Pentagon to eat the effects of inflation until 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5054
+44
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+4942..5052
+43
+#### Text ####
+It freezes the budget at its current level, and forces the Pentagon to eat the effects of inflation until 1994
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5054..5095
+44
+#### Text ####
+This reduces the baseline by $229 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5268
+46
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+5099..5266
+45
+#### Text ####
+Scenario 2 extends the recent compromises between the House and the Senate; it splits the difference between Scenarios 1 and 3, by increasing the budget at 2% per year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5268..5307
+46
+#### Text ####
+It reduces the baseline by $169 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5311..5318
+47,0
+#### Text ####
+Finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Expansion.List
+____Arg1____
+4541..5307
+40;41;42;43;44;45;46
+#### Text ####
+Scenario 1, known as the "Constant Dollar Freeze," reimburses the Pentagon for inflation only -- it slopes upward at 4% per year.
+This scenario has been the rough position of the U.S. Senate since 1985, and it reduces the baseline by $106 billion between 1990 and 1994. 
+
+Scenario 3, the "Current Dollar Freeze," has been the approximate position of the House of Representatives for about four years.
+It freezes the budget at its current level, and forces the Pentagon to eat the effects of inflation until 1994.
+This reduces the baseline by $229 billion. 
+
+Scenario 2 extends the recent compromises between the House and the Senate; it splits the difference between Scenarios 1 and 3, by increasing the budget at 2% per year.
+It reduces the baseline by $169 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5320..5425
+47,1;47,2;47,3;47,4
+#### Text ####
+Scenario 4 reduces the budget by 2% per year for the next five years -- a total reduction of $287 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5427
+48
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+5311..5425
+47
+#### Text ####
+Finally, Scenario 4 reduces the budget by 2% per year for the next five years -- a total reduction of $287 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5427..5622
+48
+#### Text ####
+This can be thought of as a pessimistic prediction, perhaps driven by the sequestering effects of the Gramm-Rudman deficit reduction law or possibly a relaxation of tensions with the Soviet Union
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5796
+50
+#### Features ####
+Wr, Comm, Null, Null
+finally, Temporal.Asynchronous.Precedence
+____Arg1____
+5626..5794
+49
+#### Text ####
+The strategic planners in the Joint Chiefs of Staff would construct the most effective defense program for each scenario, maximizing strengths and minimizing weaknesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5796..6063
+50
+#### Text ####
+They would conclude their efforts by producing a comprehensive net assessment for each plan -- including the assumptions made, an analysis of its deficiencies and limitations, the impact on national security, and the best strategy for working around these limitations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6183..6185
+52,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+6244..6395
+52,1;52,2;52,3;52,4
+#### Text ####
+they would have to sacrifice more and more other programs -- such as carrier battlegroups or army divisions -- as they moved toward lower budget levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6187..6242
+52,0,1;52,0,2;52,0,3;52,0,4
+#### Text ####
+for example, they choose to keep the B-2 Stealth bomber
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6187..6198
+52,0,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+6067..6181
+51
+#### Text ####
+This exercise would reveal the true cost of a particular program by forcing the strategists to make hard decisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6183..6185;6200..6395
+52,0,0;52,0,1;52,0,3;52,0,4;52,1;52,2;52,3;52,4
+#### Text ####
+If they choose to keep the B-2 Stealth bomber, they would have to sacrifice more and more other programs -- such as carrier battlegroups or army divisions -- as they moved toward lower budget levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6355..6357
+52,3,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+6244..6351
+52,1;52,2;52,3,0;52,3,1,0;52,3,1,1,0;52,3,1,1,1,0;52,3,1,1,1,1,0;52,3,1,1,1,1,1;52,4
+#### Text ####
+they would have to sacrifice more and more other programs -- such as carrier battlegroups or army divisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6358..6395
+52,3,1,1,1,1,2,1
+#### Text ####
+they moved toward lower budget levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6397
+53
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+6183..6395
+52
+#### Text ####
+If, for example, they choose to keep the B-2 Stealth bomber, they would have to sacrifice more and more other programs -- such as carrier battlegroups or army divisions -- as they moved toward lower budget levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6397..6494
+53
+#### Text ####
+These trade-offs would evolve priorities by revealing when the cost of the B-2 became prohibitive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6659..6662
+55,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+6527..6657
+54,1,1,1,1,1,1,1
+#### Text ####
+that the idea of a strategic review merely resurrects the infamous Zero-Based Budgeting (ZBB) concept of the Carter administration
+##############
+#### Features ####
+Ot, PAtt, Null, Indet
+6498..6526
+54,0;54,1,0;54,1,1,0;54,1,1,1,0;54,1,1,1,1,0;54,1,1,1,1,1,0;54,1,1,1,1,1,1,0;54,2
+#### Text ####
+Some may be tempted to argue
+##############
+____Arg2____
+6663..6814
+55,1;55,2;55,3
+#### Text ####
+ZBB did not involve the strategic planners in the Joint Chiefs of Staff, and therefore degenerated into a bean-counting drill driven by budget politics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6740..6749
+55,2,3
+#### Text ####
+therefore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+6659..6734
+55,0;55,1;55,2,0;55,2,1
+#### Text ####
+But ZBB did not involve the strategic planners in the Joint Chiefs of Staff
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6736..6739;6750..6814
+55,2,2;55,2,4;55,3
+#### Text ####
+and degenerated into a bean-counting drill driven by budget politics
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6925
+57
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+6816..6923
+56
+#### Text ####
+Anyway, ZBB's procedures were so cumbersome that everyone involved was crushed under a burden of marginalia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6925..6970
+57
+#### Text ####
+A strategic review is fundamentally different
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6972
+58
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+6925..6970
+57
+#### Text ####
+A strategic review is fundamentally different
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6972..7216
+58
+#### Text ####
+It would be run by the joint chiefs under simple directions: Produce the best possible force for each budget scenario and provide the Secretary of Defense with a comprehensive net assessment of how that force could be used to achieve U.S. goals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7306..7313
+59,1,1,1,2,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Arb, PAtt, Null, Indet
+7220..7238
+59,0;59,1,0;59,1,1,0;59,1,1,1,0;59,1,1,1,1;59,2
+#### Text ####
+It might be feared
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+7239..7305
+59,1,1,1,2,0;59,1,1,1,2,1,0;59,1,1,1,2,1,1,0;59,1,1,1,2,1,1,1,0;59,1,1,1,2,1,1,1,1
+#### Text ####
+that even thinking about lower budgets will hurt national security
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7314..7398
+59,1,1,1,2,1,1,1,2,1
+#### Text ####
+the door will be opened to opportunistic budget cutting by an irresponsible Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7400
+60
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+7220..7398
+59
+#### Text ####
+It might be feared that even thinking about lower budgets will hurt national security because the door will be opened to opportunistic budget cutting by an irresponsible Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7400..7548
+60
+#### Text ####
+This argument plays well in the atmosphere of gaming and mistrust permeating the Pentagon and Congress, and unfortunately, there is some truth to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7504..7507
+60,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+7400..7502
+60,0
+#### Text ####
+This argument plays well in the atmosphere of gaming and mistrust permeating the Pentagon and Congress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7508..7548
+60,3
+#### Text ####
+unfortunately, there is some truth to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7550..7553
+61,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+7400..7548
+60
+#### Text ####
+This argument plays well in the atmosphere of gaming and mistrust permeating the Pentagon and Congress, and unfortunately, there is some truth to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7554..7622
+61,1;61,2;61,3;61,4;61,5
+#### Text ####
+in the end, it must be rejected for logical as well as moral reasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+7624
+62
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7550..7622
+61
+#### Text ####
+But in the end, it must be rejected for logical as well as moral reasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7624..7856
+62,0;62,1,0;62,1,1,0;62,1,1,1,0;62,1,1,1,1;62,1,1,1,2,0;62,1,1,1,2,1
+#### Text ####
+To say that the Pentagon should act irresponsibly because acting responsibly will provoke Congress into acting irresponsibly leads to the conclusion that the Pentagon should deliberately exaggerate its needs in the national interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7674..7681
+62,0,1,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+7631..7673
+62,0,1,1,1,0;62,0,1,1,1,1,0;62,0,1,1,1,1,1,0;62,0,1,1,1,1,1,1,0;62,0,1,1,1,1,1,1,1
+#### Text ####
+that the Pentagon should act irresponsibly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7682..7748
+62,0,1,1,1,1,1,1,2,1
+#### Text ####
+acting responsibly will provoke Congress into acting irresponsibly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7858..7872
+62,1,1,1,2,2,0
+#### Text ####
+in other words
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement
+____Arg1____
+7773..7856
+62,1,1,1,2,0
+#### Text ####
+that the Pentagon should deliberately exaggerate its needs in the national interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7874..7971
+62,1,1,1,2,2,1;62,1,1,1,2,2,2;62,1,1,1,2,2,3
+#### Text ####
+that it is justified in committing a crime -- lying to Congress -- because it is morally superior
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7941..7948
+62,1,1,1,2,2,3,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+7920..7937
+62,1,1,1,2,2,3,1,2,1,1
+#### Text ####
+lying to Congress
+##############
+____Arg1____
+7858..7916
+62,1,1,1,2,2,0;62,1,1,1,2,2,1;62,1,1,1,2,2,2;62,1,1,1,2,2,3,0;62,1,1,1,2,2,3,1,0;62,1,1,1,2,2,3,1,1;62,1,1,1,2,2,3,1,2,0;62,1,1,1,2,2,3,1,2,1,0
+#### Text ####
+in other words, that it is justified in committing a crime
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7949..7971
+62,1,1,1,2,2,3,1,3,1
+#### Text ####
+it is morally superior
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+8157
+64
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+8033..8155
+63,2
+#### Text ####
+it is the art of the possible in a world where constraints force us to choose between unpleasant or imperfect alternatives
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8157..8262
+64
+#### Text ####
+If we want meaningful priorities, we must understand the trade-offs they imply before we make commitments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8157..8159
+64,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Pragmatic condition.Implicit assertion
+____Arg1____
+8191..8262
+64,1;64,2;64,3;64,4
+#### Text ####
+we must understand the trade-offs they imply before we make commitments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8160..8189
+64,0,1
+#### Text ####
+we want meaningful priorities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8236..8242
+64,3,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+8191..8235
+64,1;64,2;64,3,0;64,3,1,0;64,3,1,1;64,4
+#### Text ####
+we must understand the trade-offs they imply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8243..8262
+64,3,1,2,1
+#### Text ####
+we make commitments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+8264
+65
+____Arg1____
+8157..8262
+64
+#### Text ####
+If we want meaningful priorities, we must understand the trade-offs they imply before we make commitments
+##############
+____Arg2____
+8264..8340
+65,0
+#### Text ####
+Strategy is not a separate event in an idealized sequence of discrete events
+##############
+________________________________________________________
+________________________________________________________
+____NoRel____
+8534
+67
+____Arg1____
+8488..8532
+66
+#### Text ####
+Mr. Spinney is a permanent Pentagon official
+##############
+____Arg2____
+8534..8646
+67
+#### Text ####
+This is a condensed version of an essay that will appear in the January issue of the Naval Institute Proceedings
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+8648
+68
+____Arg1____
+8534..8646
+67
+#### Text ####
+This is a condensed version of an essay that will appear in the January issue of the Naval Institute Proceedings
+##############
+____Arg2____
+8648..8731
+68
+#### Text ####
+The views expressed do not reflect the official policy of the Department of Defense
+##############
+________________________________________________________

@@ -1,0 +1,1053 @@
+________________________________________________________
+____Explicit____
+285..287
+1,1,4,1,2,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+198..258
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,2;1,3
+#### Text ####
+Sir John Egan told reporters at London's Motorfair yesterday
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+259..284
+1,1,4,0;1,1,4,1,0;1,1,4,1,1;1,1,4,1,2,0;1,1,4,1,2,1,0;1,1,4,1,2,1,1
+#### Text ####
+he "would be disappointed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+288..328
+1,1,4,1,2,1,2,1
+#### Text ####
+we couldn't do {the deal} within a month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+339
+2
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+259..328
+1,1,4
+#### Text ####
+he "would be disappointed if we couldn't do {the deal} within a month
+##############
+#### Features ####
+Ot, Comm, Null, Null
+198..258
+1,0;1,1,0;1,1,1;1,1,2;1,1,3;1,2;1,3
+#### Text ####
+Sir John Egan told reporters at London's Motorfair yesterday
+##############
+____Arg2____
+339..484
+2,1,1
+#### Text ####
+the tie-up would mean Jaguar could "develop cars down range {in price} from where we are" by offering access to GM's high-volume parts production
+##############
+#### Features ####
+Ot, Comm, Null, Null
+331..338
+2,0;2,1,0;2,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+486..493
+3,0,0
+#### Text ####
+Besides
+##############
+#### Features ####
+Wr, Comm, Null, Null
+besides, Expansion.Conjunction
+____Arg1____
+556..624
+3,3,1,1
+#### Text ####
+to give GM about a 15% stake that eventually would rise to about 30%
+##############
+#### Features ####
+Arb, PAtt, Null, Null
+533..555
+3,1;3,2;3,3,0;3,3,1,0;3,4
+#### Text ####
+the accord is expected
+##############
+____Arg2____
+494..531
+3,0,1
+#### Text ####
+creating joint manufacturing ventures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+486..531
+3,0
+#### Text ####
+Besides creating joint manufacturing ventures
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Conjunction
+____Arg1____
+331..484
+2
+#### Text ####
+He said the tie-up would mean Jaguar could "develop cars down range {in price} from where we are" by offering access to GM's high-volume parts production
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..624
+3
+#### Text ####
+Besides creating joint manufacturing ventures, the accord is expected to give GM about a 15% stake that eventually would rise to about 30%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+724..727
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+628..722
+4
+#### Text ####
+Jaguar figures a friendly alliance with GM will fend off unwelcome advances from Ford Motor Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+728..849
+5,1;5,2;5,3
+#### Text ####
+Ford, Jaguar's biggest shareholder since lifting its stake to 10.4% this week, is pressing harder for talks with Sir John
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+852
+6
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+724..849
+5
+#### Text ####
+But Ford, Jaguar's biggest shareholder since lifting its stake to 10.4% this week, is pressing harder for talks with Sir John
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+852..957
+6
+#### Text ####
+We're getting to the point where we are going to have to meet" with him, one Ford official said yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+959
+7
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+852..923
+6,1
+#### Text ####
+We're getting to the point where we are going to have to meet" with him
+##############
+#### Features ####
+Ot, Comm, Null, Null
+925..957
+6,0;6,2;6,3;6,4;6,5
+#### Text ####
+one Ford official said yesterday
+##############
+____Arg2____
+959..1019
+7,0
+#### Text ####
+Ford probably will renew its request for such a meeting soon
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1021..1029
+7,1;7,2;7,3;7,4
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1070..1075
+8,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1033..1069
+8,0;8,1,0;8,1,1,0;8,1,1,1;8,2
+#### Text ####
+Sir John has spurned Ford's advances
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1076..1159
+8,1,1,2,1
+#### Text ####
+the U.S. auto giant launched a surprise bid for as much as 15% of Jaguar last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1161
+9
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1070..1159
+8,1,1,2
+#### Text ####
+since the U.S. auto giant launched a surprise bid for as much as 15% of Jaguar last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1161..1221
+9
+#### Text ####
+Ford has signaled it might acquire a majority interest later
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1216..1221
+9,1,1,1,1,1,1,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+1070..1159
+8,1,1,2
+#### Text ####
+since the U.S. auto giant launched a surprise bid for as much as 15% of Jaguar last month
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1179..1215
+9,1,1,1,0;9,1,1,1,1,0;9,1,1,1,1,1,0;9,1,1,1,1,1,1,0;9,1,1,1,1,1,1,1
+#### Text ####
+it might acquire a majority interest
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1161..1178
+9,0;9,1,0;9,1,1,0;9,2
+#### Text ####
+Ford has signaled
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1224
+10
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1161..1221
+9
+#### Text ####
+Ford has signaled it might acquire a majority interest later
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1224..1273
+10,1
+#### Text ####
+I'm not obligated to sit down and talk to anybody
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1276..1314
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+the Jaguar chairman asserted yesterday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1359..1366
+11,1,2,4
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Concession.Contra-expectation
+____Arg1____
+1224..1314
+10
+#### Text ####
+I'm not obligated to sit down and talk to anybody," the Jaguar chairman asserted yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1316..1357
+11,0;11,1,0;11,1,1;11,1,2,0;11,1,2,1;11,1,2,2;11,1,2,3;11,2
+#### Text ####
+He didn't rule out negotiations with Ford
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1368
+12
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1316..1366
+11
+#### Text ####
+He didn't rule out negotiations with Ford, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1368..1544
+12
+#### Text ####
+The fiercely proud but financially strapped British company prefers to remain independent and publicly held, despite Ford's promise of access to cash and technological know-how
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1658
+14
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1563..1647
+13,1,1
+#### Text ####
+that GM, a longtime Jaguar supplier, agrees "we should remain an independent company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1548..1562
+13,0;13,1,0;13,2;13,3
+#### Text ####
+Sir John noted
+##############
+____Arg2____
+1658..1832
+14,1,1
+#### Text ####
+Jaguar started negotiating with GM and several other car makers over a year ago, but the rest "dropped by the wayside ever since the share price went above #4 ($6.30) a share
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1650..1657
+14,0;14,1,0;14,2;14,3
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1739..1742
+14,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1650..1657
+14,0;14,1,0;14,2;14,3
+#### Text ####
+He said
+##############
+but, Comparison.Contrast.Opposition
+____Arg1____
+1658..1737
+14,1,1,1,0
+#### Text ####
+Jaguar started negotiating with GM and several other car makers over a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1743..1832
+14,1,1,1,3
+#### Text ####
+the rest "dropped by the wayside ever since the share price went above #4 ($6.30) a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1776..1786
+14,1,1,1,3,2,2,0;14,1,1,1,3,2,2,1
+#### Text ####
+ever since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1650..1657
+14,0;14,1,0;14,2;14,3
+#### Text ####
+He said
+##############
+since, Temporal.Asynchronous.Succession
+____Arg1____
+1739..1775
+14,1,1,1,2;14,1,1,1,3,0;14,1,1,1,3,1;14,1,1,1,3,2,0;14,1,1,1,3,2,1
+#### Text ####
+but the rest "dropped by the wayside
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1787..1832
+14,1,1,1,3,2,2,2
+#### Text ####
+the share price went above #4 ($6.30) a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1835
+15
+____Arg1____
+1650..1832
+14
+#### Text ####
+He said Jaguar started negotiating with GM and several other car makers over a year ago, but the rest "dropped by the wayside ever since the share price went above #4 ($6.30) a share
+##############
+____Arg2____
+1835..1957
+15
+#### Text ####
+Jaguar shares stood at 405 pence before Ford's initial announcement, but the subsequent takeover frenzy has driven them up
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1904..1907
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1835..1902
+15,0
+#### Text ####
+Jaguar shares stood at 405 pence before Ford's initial announcement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1908..1957
+15,3
+#### Text ####
+the subsequent takeover frenzy has driven them up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1959
+16
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1904..1957
+15,2;15,3;15,4
+#### Text ####
+but the subsequent takeover frenzy has driven them up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1959..2043
+16
+#### Text ####
+The stock traded late yesterday on London's stock exchange at 673 pence, up 19 pence
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2152
+18
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2047..2150
+17
+#### Text ####
+Developing an executive-model range would mark a major departure for Britain's leading luxury-car maker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2152..2230
+18
+#### Text ####
+A typical British executive car is mass produced and smaller than a luxury car
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2232
+19
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2152..2230
+18
+#### Text ####
+A typical British executive car is mass produced and smaller than a luxury car
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2232..2282
+19,0;19,1;19,2,0;19,2,1,0;19,2,1,1,0;19,2,1,1,1,0;19,2,1,1,1,1;19,2,1,1,1,2;19,3
+#### Text ####
+It generally fetches no more than #25,000 ($39,400
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2502
+21
+#### Features ####
+Ot, Comm, Null, Null
+2487..2500
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+Sir John said
+##############
+but, Comparison.Contrast
+____Arg1____
+2401..2484
+20,1
+#### Text ####
+We have designs for such {executive} cars, but have never been able to develop them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2502..2579
+21
+#### Text ####
+GM's help would "make it possible {for Jaguar} to build a wider range of cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2582
+22
+____Arg1____
+2502..2579
+21
+#### Text ####
+GM's help would "make it possible {for Jaguar} to build a wider range of cars
+##############
+____Arg2____
+2582..2664
+22
+#### Text ####
+An executive model would significantly boost Jaguar's yearly output of 50,000 cars
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2667
+23
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+2582..2664
+22
+#### Text ####
+An executive model would significantly boost Jaguar's yearly output of 50,000 cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2667..2721
+23,1
+#### Text ####
+You are talking about a couple hundred thousand a year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2724..2800
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+said Bob Barber, an auto-industry analyst at U.K. brokerage James Capel & Co
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2898
+25
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2804..2896
+24
+#### Text ####
+A pact with GM may emerge in as little as two weeks, according to sources close to the talks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2857..2896
+24,1,1,2;24,1,1,3;24,2
+#### Text ####
+according to sources close to the talks
+##############
+____Arg2____
+2898..2966
+25
+#### Text ####
+The deal would require approval by a majority of Jaguar shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2969
+26
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+2898..2966
+25
+#### Text ####
+The deal would require approval by a majority of Jaguar shareholders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2969..3036
+26,1
+#### Text ####
+We have to make it attractive enough that {holders} would accept it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3039..3052
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+Sir John said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3114..3118
+27,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3079..3111
+27,1,1,2
+#### Text ####
+the Jaguar chairman acknowledged
+##############
+when, Contingency.Condition.Factual present
+____Arg1____
+3056..3077
+27,0;27,1,0;27,1,1,0;27,1,1,1;27,2
+#### Text ####
+That may be difficult
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3119..3166
+27,1,1,3,1
+#### Text ####
+you have somebody else breathing down your neck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3169
+28
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3056..3077;3114..3166
+27,0;27,1,0;27,1,1,0;27,1,1,1;27,1,1,3;27,2
+#### Text ####
+That may be difficult when you have somebody else breathing down your neck
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3079..3111
+27,1,1,2
+#### Text ####
+the Jaguar chairman acknowledged
+##############
+____Arg2____
+3169..3326
+28,0;28,1;28,2;28,3;28,5
+#### Text ####
+Ford probably would try to kill the proposal by enlisting support from U.S. takeover-stock speculators and holding out the carrot of a larger bid later, said
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3327..3403
+28,0;28,2;28,3,1;28,4;28,5
+#### Text ####
+Stephen Reitman, European auto analyst at London brokers UBS Phillips & Drew
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3315..3320
+28,1,2,1,1,1,1,2,1,1,2,2,1,1,1
+#### Text ####
+later
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3169..3213
+28,1,0;28,1,1;28,1,2,0;28,1,2,1,0;28,1,2,1,1,0;28,1,2,1,1,1,0;28,1,2,1,1,1,1,0;28,1,2,1,1,1,1,1
+#### Text ####
+Ford probably would try to kill the proposal
+##############
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+3214..3271
+28,1,2,1,1,1,1,2,0;28,1,2,1,1,1,1,2,1,0;28,1,2,1,1,1,1,2,1,1,0
+#### Text ####
+by enlisting support from U.S. takeover-stock speculators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3272..3314
+28,1,2,1,1,1,1,2,1,1,1;28,1,2,1,1,1,1,2,1,1,2,0;28,1,2,1,1,1,1,2,1,1,2,1;28,1,2,1,1,1,1,2,1,1,2,2,0;28,1,2,1,1,1,1,2,1,1,2,2,1,0;28,1,2,1,1,1,1,2,1,1,2,2,1,1,0
+#### Text ####
+and holding out the carrot of a larger bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3453..3458
+29,1,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Contingency.Condition.Hypothetical
+____Arg1____
+3407..3452
+29,0;29,1,0;29,1,1;29,1,2,0;29,1,2,1;29,2
+#### Text ####
+Ford can't make a full-fledged bid for Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3459..3494
+29,1,2,2,1
+#### Text ####
+U.K. government restrictions expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3496
+30
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+3453..3494
+29,1,2,2
+#### Text ####
+until U.K. government restrictions expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3496..3633
+30
+#### Text ####
+The anti-takeover measure prevents any outside investor from buying more than 15% of Jaguar shares without permission until Dec. 31, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3637..3640
+31,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+3496..3633
+30
+#### Text ####
+The anti-takeover measure prevents any outside investor from buying more than 15% of Jaguar shares without permission until Dec. 31, 1990
+##############
+____Arg1____
+3407..3494
+29
+#### Text ####
+Ford can't make a full-fledged bid for Jaguar until U.K. government restrictions expire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3641..3769
+31,1;31,2;31,3;31,4;31,5
+#### Text ####
+with its 10.4% stake, Ford can convene a special Jaguar shareholders' meeting and urge them to drop the restrictions prematurely
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3772
+32
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement
+____Arg1____
+3637..3769
+31
+#### Text ####
+But with its 10.4% stake, Ford can convene a special Jaguar shareholders' meeting and urge them to drop the restrictions prematurely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3772..3866
+32,1
+#### Text ####
+It's a very valuable weapon in their armory," which could enable Ford to bid sooner for Jaguar
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3868..3902
+32,0;32,2;32,3;32,4;32,5
+#### Text ####
+observed Mr. Barber of James Capel
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3906..3915
+33,0
+#### Text ####
+Otherwise
+##############
+#### Features ####
+Wr, Comm, Null, Null
+otherwise, Expansion.Alternative.Disjunctive
+____Arg1____
+3637..3866
+31;32,1
+#### Text ####
+But with its 10.4% stake, Ford can convene a special Jaguar shareholders' meeting and urge them to drop the restrictions prematurely. "It's a very valuable weapon in their armory," which could enable Ford to bid sooner for Jaguar
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3868..3902
+32,0;32,2;32,3;32,4;32,5
+#### Text ####
+observed Mr. Barber of James Capel
+##############
+____Arg2____
+3917..4014
+33,1;33,2;33,3;33,4
+#### Text ####
+Jaguar may have to tolerate the two U.S. auto giants each owning a 15% stake for more than a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4017
+34
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3906..4014
+33
+#### Text ####
+Otherwise, Jaguar may have to tolerate the two U.S. auto giants each owning a 15% stake for more than a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4017..4092
+34,1
+#### Text ####
+It would be difficult to see how a car company can be owned by a collective
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4095..4108
+34,0;34,2;34,3;34,4;34,5;34,6
+#### Text ####
+Sir John said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4111
+35
+#### Features ####
+Ot, Comm, Null, Null
+4095..4108
+34,0;34,2;34,3;34,4;34,5;34,6
+#### Text ####
+Sir John said
+##############
+but, Comparison.Contrast
+____Arg1____
+4017..4092
+34,1
+#### Text ####
+It would be difficult to see how a car company can be owned by a collective
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4111..4168
+35
+#### Text ####
+It has never been done before, but there's always a first
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4142..4145
+35,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4095..4108
+34,0;34,2;34,3;34,4;34,5;34,6
+#### Text ####
+Sir John said
+##############
+but, Comparison.Contrast
+____Arg1____
+4111..4140
+35,1
+#### Text ####
+It has never been done before
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4146..4168
+35,4
+#### Text ####
+there's always a first
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

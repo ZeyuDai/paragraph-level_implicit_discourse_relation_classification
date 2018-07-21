@@ -1,0 +1,675 @@
+________________________________________________________
+____Implicit____
+248
+2
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+144..246
+1,1,1
+#### Text ####
+that more than $50 million of New York City general obligation bonds were put up for sale Friday alone
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+118..143
+1,0;1,1,0;1,2
+#### Text ####
+One bond trader estimated
+##############
+____Arg2____
+248..453
+2
+#### Text ####
+While that represents a small percentage of the city's public debt outstanding, Friday's selling followed a weeklong effort to unload the bonds by a broad spectrum of institutional and individual investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+248..253
+2,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+328..453
+2,1;2,2;2,3;2,4
+#### Text ####
+Friday's selling followed a weeklong effort to unload the bonds by a broad spectrum of institutional and individual investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+254..326
+2,0,1
+#### Text ####
+that represents a small percentage of the city's public debt outstanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+541
+4
+#### Features ####
+Ot, Comm, Null, Null
+519..538
+3,0;3,2;3,3;3,4;3,5;3,6
+#### Text ####
+said another trader
+##############
+in short, Expansion.Restatement
+____Arg1____
+458..516
+3,1
+#### Text ####
+I've never seen so many {New York City} G.O.'s up for sale
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+541..591
+4
+#### Text ####
+Every broker has blocks of every size and maturity
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1005
+7
+____Arg1____
+780..1002
+6
+#### Text ####
+A spokesman for the city wouldn't confirm the size of the bond issue, but did say that a general obligation offering is in the works and should be priced sometime in the next two weeks, before the November mayoral election
+##############
+____Arg2____
+1005..1082
+7
+#### Text ####
+General obligation bonds are backed by the city's overall revenues and credit
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1087..1095
+8,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1164..1219
+8,1;8,2;8,3;8,4
+#### Text ####
+many expected a much smaller amount of bonds to be sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1096..1162
+8,0,1
+#### Text ####
+many investors were aware that a bond offering was being scheduled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1221
+9
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1164..1219
+8,1;8,2;8,3;8,4
+#### Text ####
+many expected a much smaller amount of bonds to be sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1221..1383
+9
+#### Text ####
+The fact that the city will issue such a large amount of debt was interpreted as a sign that New York's budgetary problems are more serious than had been expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1385
+10
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1221..1383
+9
+#### Text ####
+The fact that the city will issue such a large amount of debt was interpreted as a sign that New York's budgetary problems are more serious than had been expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1385..1509
+10
+#### Text ####
+New York, one of the nation's largest issuers of tax-exempt bonds, sold $750 million of municipal bonds just a few weeks ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1586..1588
+11,1,1,3,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1548..1584
+11,1,1,3,0;11,1,1,3,1,0;11,1,1,3,1,1,0;11,1,1,3,1,1,1,0;11,1,1,3,1,1,1,1
+#### Text ####
+that the city's economy is weakening
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1513..1547
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,1,1,2;11,2
+#### Text ####
+There have been reports for months
+##############
+____Arg2____
+1589..1654
+11,1,1,3,1,1,1,2,1
+#### Text ####
+the October 1987 stock market crash continues to make itself felt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1656
+12
+____Arg1____
+1513..1654
+11
+#### Text ####
+There have been reports for months that the city's economy is weakening, as the October 1987 stock market crash continues to make itself felt
+##############
+____Arg2____
+1656..1720
+12
+#### Text ####
+The recent sharp stock market decline exacerbated those concerns
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1722..1731
+13,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Sup1____
+1656..1720
+12
+#### Text ####
+The recent sharp stock market decline exacerbated those concerns
+##############
+____Arg1____
+1548..1654
+11,1,1,3
+#### Text ####
+that the city's economy is weakening, as the October 1987 stock market crash continues to make itself felt
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1513..1547
+11,0;11,1,0;11,1,1,0;11,1,1,1;11,1,1,2;11,2
+#### Text ####
+There have been reports for months
+##############
+____Arg2____
+1733..1803
+13,1;13,2;13,3;13,4
+#### Text ####
+tax revenues are falling while the city's spending needs are expanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1758..1763
+13,3,1,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast.Juxtaposition
+____Arg1____
+1722..1757
+13,0;13,1;13,2;13,3,0;13,3,1,0;13,4
+#### Text ####
+Meanwhile, tax revenues are falling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1764..1803
+13,3,1,1,1
+#### Text ####
+the city's spending needs are expanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1805
+14
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1722..1803
+13
+#### Text ####
+Meanwhile, tax revenues are falling while the city's spending needs are expanding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1805..1862;1962..1973
+14,0;14,1,0;14,1,1;14,1,2,0;14,1,2,1,0,0;14,1,2,1,0,1,0;14,1,2,1,0,1,2;14,1,2,1,1;14,2
+#### Text ####
+Rumors persisted last week that New York's credit ratings are at risk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2135
+16
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1977..2133
+15
+#### Text ####
+The weakness in New York City bonds follows a warning from New York state Comptroller Edward Regan that the 1987 crash seriously weakened the city's economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2135..2200
+16
+#### Text ####
+In a study, the comptroller said, "The city's glory days are over
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2203
+17
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+2135..2200
+16
+#### Text ####
+In a study, the comptroller said, "The city's glory days are over
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2203..2427
+17
+#### Text ####
+Mr. Regan warned mayoral candidates "to be prepared for limited options and constraints on service increases to address the city's problems in the next few years, due to the now-evident weakening in the New York City economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2572
+19
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+2432..2470;2498..2570
+18,0,0;18,0,1;18,0,3;18,1;18,2
+#### Text ####
+New York City's revised financial plan is expected to include measures to balance the city's $27 billion budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2572..2699
+19,0;19,1;19,2;19,3,0;19,3,1;19,3,2;19,3,3;19,4
+#### Text ####
+At present, analysts project a budget gap on the order of $500 million to $600 million for the fiscal year ending June 30, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2701..2709
+19,3,4,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+2572..2699
+19,0;19,1;19,2;19,3,0;19,3,1;19,3,2;19,3,3;19,4
+#### Text ####
+At present, analysts project a budget gap on the order of $500 million to $600 million for the fiscal year ending June 30, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2710..2767
+19,3,4,1
+#### Text ####
+the city's own budget analysts project a narrower deficit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2949
+21
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2826..2946
+20,1,1
+#### Text ####
+that investors' concerns about the city's financial health are "unwarranted given our proven ability to manage ourselves
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2771..2825
+20,0;20,1,0;20,2;20,3
+#### Text ####
+Mark Page, New York's deputy director of finance, said
+##############
+____Arg2____
+2949..3023
+21
+#### Text ####
+He charges the city's critics with spreading "unfounded emotional rhetoric
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3038..3042
+22,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2826..2884
+20,1,1,0;20,1,1,1,0
+#### Text ####
+that investors' concerns about the city's financial health
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2771..2825
+20,0;20,1,0;20,2;20,3
+#### Text ####
+Mark Page, New York's deputy director of finance, said
+##############
+____Arg2____
+3028..3037;3043..3161
+22,0;22,1,0;22,1,2;22,2
+#### Text ####
+There are questions about whether a new and inexperienced mayor can manage the city through what could become a financial crisis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3163
+23
+____Arg1____
+3028..3161
+22
+#### Text ####
+There are also questions about whether a new and inexperienced mayor can manage the city through what could become a financial crisis
+##############
+____Arg2____
+3163..3315
+23
+#### Text ####
+The leading contender for the mayoral office, Democrat David Dinkins, has been criticized recently for the way he handled his personal financial affairs
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3317..3320
+24,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3163..3315
+23
+#### Text ####
+The leading contender for the mayoral office, Democrat David Dinkins, has been criticized recently for the way he handled his personal financial affairs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3321..3393
+24,1;24,2;24,3
+#### Text ####
+the controversy has led to uncertainty about the outcome of the election
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3395
+25
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession
+____Arg1____
+3317..3393
+24
+#### Text ####
+And the controversy has led to uncertainty about the outcome of the election
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3395..3448
+25
+#### Text ####
+Until last week, Mr. Dinkins was considered a shoo-in
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3501..3504
+26,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3538..3654
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+said Bernard B. Beal, chief executive of M.R. Beal & Co., a securities firm that specializes in the municipal market
+##############
+but, Comparison
+____Arg1____
+3453..3499
+26,1,0
+#### Text ####
+The market can adjust to good news or bad news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3505..3535
+26,1,3
+#### Text ####
+uncertainty drives people wild
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3656
+27
+____Arg1____
+3453..3654
+26
+#### Text ####
+The market can adjust to good news or bad news, but uncertainty drives people wild," said Bernard B. Beal, chief executive of M.R. Beal & Co., a securities firm that specializes in the municipal market
+##############
+____Arg2____
+3656..3733
+27
+#### Text ####
+Until last week, "Everyone felt certain they knew the outcome of the election
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3735
+28
+#### Features ####
+Ot, Comm, Null, Null
+3538..3654
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+said Bernard B. Beal, chief executive of M.R. Beal & Co., a securities firm that specializes in the municipal market
+##############
+but, Comparison
+____Arg1____
+3656..3733
+27
+#### Text ####
+Until last week, "Everyone felt certain they knew the outcome of the election
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3735..3784
+28
+#### Text ####
+Now, there have been a number of questions raised
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3926..3937
+30,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3789..3889
+29
+#### Text ####
+Last week, yields on long-term New York City general obligation bonds jumped half a percentage point
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3891..3924;3939..4018
+30,0;30,1;30,3;30,4;30,5
+#### Text ####
+New York City's 6% bonds due 2018 were quoted late Friday at a price to yield 7.80%, compared with 7.60% Thursday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4022..4024
+31,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4078..4232
+31,1;31,2;31,3;31,4
+#### Text ####
+the Bond Buyer 20-bond general obligation index, the mostly widely followed gauge of the tax-exempt market, held steady at 7.19% in the week ended Oct. 19
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4025..4076
+31,0,1
+#### Text ####
+the yield on New York general obligation bonds rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

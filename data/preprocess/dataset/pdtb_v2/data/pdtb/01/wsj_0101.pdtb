@@ -1,0 +1,757 @@
+________________________________________________________
+____Explicit____
+671..674
+2,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+575..669
+2,0
+#### Text ####
+The conference approved at least $55 million in direct cash and development assistance as well
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+704..851
+2,3,1;2,3,2;2,3,3
+#### Text ####
+both sides are committed to adding more than $200 million in economic support funds and environmental initiatives sought by the Bush administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+675..702
+2,3,0
+#### Text ####
+though no decision was made
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+675..681
+2,3,0,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+671..674;704..851
+2,2;2,3,1;2,3,2;2,3,3;2,4
+#### Text ####
+and both sides are committed to adding more than $200 million in economic support funds and environmental initiatives sought by the Bush administration
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+682..702
+2,3,0,1
+#### Text ####
+no decision was made
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1100..1104
+4,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+964..1071
+3,1,1,1,1,1,1,2
+#### Text ####
+which has already provoked veto threats by the White House and is sharply confined under this year's budget
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1073..1099;1105..1143
+4,0,0;4,0,1,0;4,0,1,2
+#### Text ####
+These fiscal pressures are a factor in shaping the Poland package
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1145..1148
+4,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1073..1143
+4,0
+#### Text ####
+These fiscal pressures are also a factor in shaping the Poland package
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1212..1301
+4,3,1;4,3,2;4,3,3
+#### Text ####
+the appropriations bill in conference will be more decisive on U.S. aid to Eastern Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1149..1210
+4,3,0
+#### Text ####
+while more ambitious authorizing legislation is still pending
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1149..1154
+4,3,0,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+1145..1148;1212..1301
+4,2;4,3,1;4,3,2;4,3,3;4,4
+#### Text ####
+and the appropriations bill in conference will be more decisive on U.S. aid to Eastern Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1155..1210
+4,3,0,1
+#### Text ####
+more ambitious authorizing legislation is still pending
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1469..1472
+6,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1352..1467
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+the House Appropriations Committee last week was required to reallocate an estimated $140 million from the Pentagon
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1547..1716
+6,2;6,3;6,4;6,5
+#### Text ####
+recent experience with a similar program in Central America indicates that it could take several years before the new Polish government can fully use the aid effectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1473..1479
+6,1,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+1469..1472;1547..1716
+6,0;6,2;6,3;6,4;6,5
+#### Text ####
+And recent experience with a similar program in Central America indicates that it could take several years before the new Polish government can fully use the aid effectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1480..1545
+6,1,1
+#### Text ####
+the size of the loan guarantees approved yesterday is significant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1650..1656
+6,4,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1547..1616
+6,2;6,3;6,4,0;6,5
+#### Text ####
+recent experience with a similar program in Central America indicates
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1617..1649
+6,4,1,0;6,4,1,1,0;6,4,1,1,1,0;6,4,1,1,1,1,0;6,4,1,1,1,1,1
+#### Text ####
+that it could take several years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1657..1716
+6,4,1,1,1,1,2,1
+#### Text ####
+the new Polish government can fully use the aid effectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1746..1748
+7,1,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1720..1745
+7,0;7,1,0;7,2
+#### Text ####
+The action on Poland came
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1749..1879
+7,1,1,1
+#### Text ####
+the conference separately approved $220 million for international population planning activities, an 11% increase over fiscal 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1764..1774
+7,1,1,1,1
+#### Text ####
+separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..125
+0,0;0,1,0;0,1,1,0;0,1,1,1,0;0,1,1,1,1,0;0,1,1,1,1,1;0,2
+#### Text ####
+A House-Senate conference approved major portions of a package for more than $500 million in economic aid for Poland
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1746..1763;1775..1879
+7,1,1,0;7,1,1,1,0;7,1,1,1,2
+#### Text ####
+as the conference approved $220 million for international population planning activities, an 11% increase over fiscal 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1881
+8
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1720..1879
+7
+#### Text ####
+The action on Poland came as the conference separately approved $220 million for international population planning activities, an 11% increase over fiscal 1989
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1881..2062
+8
+#### Text ####
+The House and Senate are divided over whether the United Nations Population Fund will receive any portion of these appropriations, but the size of the increase is itself significant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2012..2015
+8,3
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+1881..2010
+8,0;8,1;8,2
+#### Text ####
+The House and Senate are divided over whether the United Nations Population Fund will receive any portion of these appropriations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2016..2062
+8,4
+#### Text ####
+the size of the increase is itself significant
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2674..2677
+11,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2587..2672
+11,0
+#### Text ####
+Panama was stripped of this right because of U.S. differences with the Noriega regime
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2678..2801
+11,3
+#### Text ####
+the Central American country would have received a quota of 30,537 metric tons over a 21-month period ending Sept. 30, 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2803
+12
+____Arg1____
+2587..2801
+11
+#### Text ####
+Panama was stripped of this right because of U.S. differences with the Noriega regime, but the Central American country would have received a quota of 30,537 metric tons over a 21-month period ending Sept. 30, 1990
+##############
+____Arg2____
+2803..3065
+12
+#### Text ####
+About a quarter of this share has already been reallocated, according to the industry, but the remaining 23,403 tons are still a lucrative target for growers because the current U.S. price of 18 cents a pound runs as much as a nickel a pound above the world rate
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2890..2893
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2803..2888
+12,0
+#### Text ####
+About a quarter of this share has already been reallocated, according to the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2894..2960
+12,3,0;12,3,1,0;12,3,1,1;12,3,1,2
+#### Text ####
+the remaining 23,403 tons are still a lucrative target for growers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2961..2968
+12,3,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2890..2960
+12,2;12,3,0;12,3,1,0;12,3,1,1;12,3,1,2;12,4
+#### Text ####
+but the remaining 23,403 tons are still a lucrative target for growers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2969..3065
+12,3,1,3,1
+#### Text ####
+the current U.S. price of 18 cents a pound runs as much as a nickel a pound above the world rate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3114..3117
+13,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3069..3112
+13,0
+#### Text ####
+The potential sales are nearly $9.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3118..3188
+13,3,0;13,3,1,0;13,3,1,1;13,3,1,2
+#### Text ####
+House Majority Whip William Gray (D., Pa.) began the bidding this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3189..3315
+13,3,1,3
+#### Text ####
+by proposing language that the quota be allocated to English-speaking countries of the Caribbean, such as Jamaica and Barbados
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3317
+14
+#### Features ####
+Wr, Comm, Null, Null
+likewise, Expansion.Conjunction
+____Arg1____
+3118..3315
+13,3
+#### Text ####
+House Majority Whip William Gray (D., Pa.) began the bidding this year by proposing language that the quota be allocated to English-speaking countries of the Caribbean, such as Jamaica and Barbados
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3317..3418
+14,0
+#### Text ####
+Rep. Jerry Lewis, a conservative Californian, added a provision of his own intended to assist Bolivia
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3420..3423
+14,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3317..3418
+14,0
+#### Text ####
+Rep. Jerry Lewis, a conservative Californian, added a provision of his own intended to assist Bolivia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3424..3466
+14,3,0;14,3,1;14,3,2,0;14,3,2,1;14,3,2,2;14,3,2,4
+#### Text ####
+the Senate then broadened the list further
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3435..3439
+14,3,1
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3317..3418
+14,0
+#### Text ####
+Rep. Jerry Lewis, a conservative Californian, added a provision of his own intended to assist Bolivia
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3420..3434;3440..3615
+14,2;14,3,0;14,3,2;14,4
+#### Text ####
+and the Senate broadened the list further by including all countries in the U.S. Caribbean Basin initiate as well as the Philippines-backed by the powerful Hawaii Democrat Sen. Daniel Inouye
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3617
+15
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3317..3615
+14
+#### Text ####
+Rep. Jerry Lewis, a conservative Californian, added a provision of his own intended to assist Bolivia, and the Senate then broadened the list further by including all countries in the U.S. Caribbean Basin initiate as well as the Philippines-backed by the powerful Hawaii Democrat Sen. Daniel Inouye
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3617..3902
+15
+#### Text ####
+Jamaica, wary of upsetting its Caribbean Basin allies, has apparently instructed its lobbyist to abandon the provision initially drafted by Mr. Gray, but the greater question is whether Mr. Inouye, who has strong ties to the sugar industry, is able to insert a claim by the Philippines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3767..3770
+15,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3617..3765
+15,0
+#### Text ####
+Jamaica, wary of upsetting its Caribbean Basin allies, has apparently instructed its lobbyist to abandon the provision initially drafted by Mr. Gray
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3771..3902
+15,3
+#### Text ####
+the greater question is whether Mr. Inouye, who has strong ties to the sugar industry, is able to insert a claim by the Philippines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4100
+17
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3906..4098
+16
+#### Text ####
+In separate floor action, the House waived budget restrictions and gave quick approval to $3.18 billion in supplemental appropriations for law enforcement and anti-drug programs in fiscal 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4100..4302
+17
+#### Text ####
+The funding is attached to an estimated $27.1 billion transportation bill that goes next to the Senate and carries with it a proposed permanent smoking ban on virtually all U.S. domestic airline flights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4184..4188
+17,1,1,2,1,1,1,1,0,2
+#### Text ####
+next
+##############
+#### Features ####
+Wr, Comm, Null, Null
+next, Temporal.Asynchronous.Precedence
+____Arg1____
+3906..4098
+16
+#### Text ####
+In separate floor action, the House waived budget restrictions and gave quick approval to $3.18 billion in supplemental appropriations for law enforcement and anti-drug programs in fiscal 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4174..4183;4189..4302
+17,1,1,2,1,1,0;17,1,1,2,1,1,1,0;17,1,1,2,1,1,1,1,0,0;17,1,1,2,1,1,1,1,0,1;17,1,1,2,1,1,1,1,0,3;17,1,1,2,1,1,1,1,1;17,1,1,2,1,1,1,1,2
+#### Text ####
+that goes to the Senate and carries with it a proposed permanent smoking ban on virtually all U.S. domestic airline flights
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4387..4390
+18,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4306..4385
+18,0
+#### Text ####
+The leadership hopes to move the compromise measure promptly to the White House
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4391..4470
+18,3
+#### Text ####
+in recent days, the Senate has been as likely to bounce bills back to the House
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4472..4495
+19,0
+#### Text ####
+The most recent example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Instantiation
+____Arg1____
+4387..4470
+18,2;18,3;18,4
+#### Text ####
+but in recent days, the Senate has been as likely to bounce bills back to the House
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4472..4591
+19
+#### Text ####
+The most recent example was a nearly $17.3 billion fiscal 1990 bill funding the State, Justice and Commerce departments
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4593..4596
+20,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+4472..4591
+19
+#### Text ####
+The most recent example was a nearly $17.3 billion fiscal 1990 bill funding the State, Justice and Commerce departments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4597..4753
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+after losing a battle Tuesday night with the Senate Foreign Relations Committee, appropriators from both houses are expected to be forced back to conference
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4597..4602
+20,1,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+4593..4596;4678..4753
+20,0;20,2;20,3;20,4;20,5
+#### Text ####
+And appropriators from both houses are expected to be forced back to conference
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4603..4676
+20,1,1
+#### Text ####
+losing a battle Tuesday night with the Senate Foreign Relations Committee
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

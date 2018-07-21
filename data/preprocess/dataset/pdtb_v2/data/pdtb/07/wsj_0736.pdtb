@@ -1,0 +1,211 @@
+________________________________________________________
+____Explicit____
+161..165
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..144
+0
+#### Text ####
+Poughkeepsie Savings Bank said a plan to sell its South Carolina branch offices to First Citizens Bank, of Columbia, S.C., fell through
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+148..160;166..215
+1,0;1,2,0;1,2,1,0;1,2,1,1,0;1,2,1,1,1,0;1,2,1,1,1,1;1,2,1,1,1,2;1,3
+#### Text ####
+Poughkeepsie expects to post a one-time charge of $8.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+217..262
+1,2,1,1,1,3
+#### Text ####
+resulting in a net loss for the third quarter
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+264
+2
+____Arg1____
+148..262
+1
+#### Text ####
+Poughkeepsie also expects to post a one-time charge of $8.3 million, resulting in a net loss for the third quarter
+##############
+____Arg2____
+264..430
+2
+#### Text ####
+The charge represents a write-down of the goodwill associated with Poughkeepsie's investment in the banks it is trying to sell and its North Carolina branches as well
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+473
+4
+____Arg1____
+434..471
+3
+#### Text ####
+The thrift announced the plan Aug. 21
+##############
+____Arg2____
+473..675
+4
+#### Text ####
+Among other reasons, high fees regulators imposed on certain transfers of thrift deposits to commercial banks "substantially altered the economics of the transaction for both parties," Poughkeepsie said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+679..691
+5,0
+#### Text ####
+Additionally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+additionally, Expansion.Conjunction
+____Arg1____
+9..262
+0;1
+#### Text ####
+Poughkeepsie Savings Bank said a plan to sell its South Carolina branch offices to First Citizens Bank, of Columbia, S.C., fell through. 
+
+Poughkeepsie also expects to post a one-time charge of $8.3 million, resulting in a net loss for the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+693..789
+5,1;5,2;5,3;5,4
+#### Text ####
+the bank is increasing its loan-loss reserves for the third quarter by $8.5 million before taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1030..1034
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+904..1019
+7
+#### Text ####
+Poughkeepsie said it is continuing to try to sell itself, under a June agreement with a dissident-shareholder group
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1021..1029;1035..1183
+8,0;8,2;8,3
+#### Text ####
+The bank said its effort would continue past the Nov. 1 deadline set in that agreement and that the litigation between the two sides might resume as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1113..1116
+8,2,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1021..1039
+8,0;8,1;8,2,0;8,3
+#### Text ####
+The bank also said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1040..1112
+8,2,1,0
+#### Text ####
+its effort would continue past the Nov. 1 deadline set in that agreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1117..1183
+8,2,1,2
+#### Text ####
+that the litigation between the two sides might resume as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1172..1183
+8,2,1,2,1,1,1,1
+#### Text ####
+as a result
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1021..1039
+8,0;8,1;8,2,0;8,3
+#### Text ####
+The bank also said
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+1040..1112
+8,2,1,0
+#### Text ####
+its effort would continue past the Nov. 1 deadline set in that agreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1113..1171
+8,2,1,1;8,2,1,2,0;8,2,1,2,1,0;8,2,1,2,1,1,0;8,2,1,2,1,1,1,0
+#### Text ####
+and that the litigation between the two sides might resume
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1185
+9
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+1021..1183
+8
+#### Text ####
+The bank also said its effort would continue past the Nov. 1 deadline set in that agreement and that the litigation between the two sides might resume as a result
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1185..1265
+9
+#### Text ####
+The thrift and the holders had suspended their lawsuits as part of the agreement
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,551 @@
+________________________________________________________
+____Explicit____
+114..119
+0,1,6,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+9..112
+0,0;0,1,0;0,1,1;0,1,2;0,1,3;0,1,4;0,1,5;0,2
+#### Text ####
+Short interest on the New York Stock Exchange declined for the second consecutive month, this time 4.2%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+120..209
+0,1,6,1
+#### Text ####
+the American Stock Exchange reported its third consecutive record month of short interest
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+342
+2
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Opposition
+____Arg1____
+213..340
+1
+#### Text ####
+The Big Board reported that short interest dropped to 523,920,214 shares as of Oct. 13 from 547,347,585 shares in mid-September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+342..416
+2
+#### Text ####
+Amex short interest climbed 3% to 53,496,665 shares from 51,911,566 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+529..534
+3,3,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+420..527
+3,0;3,1;3,2;3,3,0;3,3,1;3,3,2;3,3,3;3,3,4;3,4
+#### Text ####
+For the year-earlier month, the Big Board reported 461,539,056 shares, indicating a 13.5% year-to-year rise
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+535..582
+3,3,5,1
+#### Text ####
+the Amex reported 36,015,194 shares, a 48% leap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+805..808
+5,1,4,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+761..768
+5,1,4,0;5,1,4,1,0
+#### Text ####
+betting
+##############
+and, Contingency.Cause.Result
+____Arg1____
+769..804
+5,1,4,1,1,0
+#### Text ####
+that the stock's price will decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+809..890
+5,1,4,1,1,2
+#### Text ####
+that they can buy the shares back later at a lower price for return to the lender
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+843..848
+5,1,4,1,1,2,1,1,1,3
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+712..759
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Traders who sell short borrow stock and sell it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+805..842;849..890
+5,1,4,1,1,1;5,1,4,1,1,2,0;5,1,4,1,1,2,1,0;5,1,4,1,1,2,1,1,0;5,1,4,1,1,2,1,1,1,0;5,1,4,1,1,2,1,1,1,1;5,1,4,1,1,2,1,1,1,2;5,1,4,1,1,2,1,1,1,4;5,1,4,1,1,2,1,1,1,5
+#### Text ####
+and that they can buy the shares back at a lower price for return to the lender
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+988
+7
+____Arg1____
+894..986
+6
+#### Text ####
+Short interest is the number of shares that haven't yet been purchased for return to lenders
+##############
+____Arg2____
+988..1208
+7
+#### Text ####
+Although a substantial short position reflects heavy speculation that a stock's price will decline, some investors consider an increase in short interest bullish because the borrowed shares eventually must be bought back
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+988..996
+7,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Sup1____
+1150..1208
+7,3,2
+#### Text ####
+because the borrowed shares eventually must be bought back
+##############
+____Arg1____
+1088..1149
+7,1;7,2;7,3,0;7,3,1;7,4
+#### Text ####
+some investors consider an increase in short interest bullish
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+997..1086
+7,0,1
+#### Text ####
+a substantial short position reflects heavy speculation that a stock's price will decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1150..1157
+7,3,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1088..1111
+7,1;7,2;7,3,0;7,4
+#### Text ####
+some investors consider
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1112..1149
+7,3,1
+#### Text ####
+an increase in short interest bullish
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1158..1208
+7,3,2,1
+#### Text ####
+the borrowed shares eventually must be bought back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1260..1264
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+988..1208
+7
+#### Text ####
+Although a substantial short position reflects heavy speculation that a stock's price will decline, some investors consider an increase in short interest bullish because the borrowed shares eventually must be bought back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1212..1259;1265..1300
+8,0;8,2;8,3
+#### Text ####
+Fluctuation in short interest of certain stocks may be caused partly by arbitraging
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1302
+9
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1212..1300
+8
+#### Text ####
+Fluctuation in short interest of certain stocks also may be caused partly by arbitraging
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1302..1378
+9
+#### Text ####
+The figures occasionally include incomplete transactions in restricted stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1501
+11
+____Arg1____
+1382..1499
+10
+#### Text ####
+The level of negative sentiment measured by the Big Board short interest ratio slipped to 3.36 from last month's 3.38
+##############
+____Arg2____
+1501..1651
+11
+#### Text ####
+The ratio is the number of trading days, at the exchange's average trading volume, that would be required to convert the total short interest position
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1678..1685
+12,1,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Sup1____
+1501..1651
+11
+#### Text ####
+The ratio is the number of trading days, at the exchange's average trading volume, that would be required to convert the total short interest position
+##############
+____Arg1____
+1382..1499
+10
+#### Text ####
+The level of negative sentiment measured by the Big Board short interest ratio slipped to 3.36 from last month's 3.38
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1687..1739
+12,1,4,0;12,1,4,1,0;12,1,4,1,1,0;12,1,4,1,1,1,0;12,1,4,1,1,1,1
+#### Text ####
+that the ratio has weakened in value as an indicator
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1655..1676
+12,0;12,1,0;12,1,1;12,1,3;12,2
+#### Text ####
+Some analysts suggest
+##############
+____Sup2____
+1740..1811
+12,1,4,1,1,1,2
+#### Text ####
+because options and other products can be used to hedge short positions
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1740..1747
+12,1,4,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1655..1676
+12,0;12,1,0;12,1,1;12,1,3;12,2
+#### Text ####
+Some analysts suggest
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1687..1739
+12,1,4,0;12,1,4,1,0;12,1,4,1,1,0;12,1,4,1,1,1,0;12,1,4,1,1,1,1
+#### Text ####
+that the ratio has weakened in value as an indicator
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1748..1811
+12,1,4,1,1,1,2,1
+#### Text ####
+options and other products can be used to hedge short positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1900
+14
+#### Features ####
+Wr, Comm, Null, Null
+since, Contingency.Cause.Reason
+____Arg1____
+1815..1898
+13
+#### Text ####
+Varity Corp. led the Big Board list of largest short volumes with 12,822,563 shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1900..2054
+14
+#### Text ####
+Varity has proposed to acquire K-H Corp., consisting of the auto parts division and some debt of Fruehauf Corp., for $577.3 million of cash and securities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2188
+16
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Juxtaposition
+____Arg1____
+2058..2186
+15
+#### Text ####
+Chemical Waste Management posted the biggest increase in short volume on the New York exchange, up 3,383,477 shares to 5,267,238
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2188..2364
+16
+#### Text ####
+Bristol-Myers Squibb Co., the entity formed from the recent acquisition of Squibb Corp. by Bristol-Myers Co., logged the largest volume decline, 7,592,988 shares, to 12,017,724
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2491..2495
+18,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2368..2489
+17
+#### Text ####
+Short interest in International Business Machines Corp. plunged to 1,425,035 shares from 2,387,226 shares a month earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2496..2588
+18,1;18,2;18,3;18,4
+#### Text ####
+closely watched is Exxon Corp., where short interest slid to 4,469,167 shares from 5,088,774
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2899
+22
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2791..2897
+21
+#### Text ####
+The Amex short interest volume leader again was Texas Air Corp., rising to 3,820,634 shares from 3,363,949
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2899..2988
+22
+#### Text ####
+Bolar Pharmaceutical Co. posted the largest volume increase, 552,302 shares, to 2,157,656
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2990
+23
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2899..2988
+22
+#### Text ####
+Bolar Pharmaceutical Co. posted the largest volume increase, 552,302 shares, to 2,157,656
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2990..3112
+23
+#### Text ####
+The company is under an investigation concerning procedures to gain Food and Drug Administration approval of generic drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3114
+24
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2990..3112
+23
+#### Text ####
+The company is under an investigation concerning procedures to gain Food and Drug Administration approval of generic drugs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3114..3145
+24
+#### Text ####
+Bolar has denied any wrongdoing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3293
+26
+____Arg1____
+3149..3291
+25
+#### Text ####
+The largest volume drop -- down 445,645 shares to 141,903 -- came in shares represented by B.A.T Industries PLC's American depositary receipts
+##############
+____Arg2____
+3293..3373
+26
+#### Text ####
+The company is facing a takeover proposal from the financier Sir James Goldsmith
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3460
+28
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+3377..3458
+27
+#### Text ####
+First Iberian Fund led the percentage increases, rising to 73,100 shares from 184
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3460..3563
+28
+#### Text ####
+Nelson Holdings International Ltd. dropped the most on a percentage basis, to 1,000 shares from 255,923
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

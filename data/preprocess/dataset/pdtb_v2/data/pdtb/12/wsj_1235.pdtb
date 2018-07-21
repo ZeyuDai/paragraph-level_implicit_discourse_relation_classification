@@ -1,0 +1,81 @@
+________________________________________________________
+____Explicit____
+187..191
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+39..171
+0,1,1
+#### Text ####
+it received a $12 million contract to provide virtual network services to Woolworth Corp. 's 5,600 corporate and retail sites in the
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..38
+0,0;0,1,0
+#### Text ####
+MCI Communications Corp. said
+##############
+____Arg2____
+174..186;192..253
+1,0;1,2;1,3
+#### Text ####
+The contract provides for advanced billing and network management services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+255
+2
+____Arg1____
+174..253
+1
+#### Text ####
+The contract also provides for advanced billing and network management services
+##############
+____Arg2____
+255..382
+2
+#### Text ####
+Woolworth said it expects to expand usage of the MCI services as it adds about 6,000 business locations over the next few years
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+317..319
+2,1,1,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+270..280
+2,1,1,0;2,1,1,1,0;2,1,1,1,1,0
+#### Text ####
+it expects
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+281..316
+2,1,1,1,1,1,0;2,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,0;2,1,1,1,1,1,1,1,1
+#### Text ####
+to expand usage of the MCI services
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+320..382
+2,1,1,1,1,1,1,1,2,1
+#### Text ####
+it adds about 6,000 business locations over the next few years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

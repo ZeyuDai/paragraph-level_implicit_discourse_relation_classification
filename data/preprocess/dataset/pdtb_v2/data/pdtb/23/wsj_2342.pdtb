@@ -1,0 +1,303 @@
+________________________________________________________
+____Explicit____
+122..129
+0,3,4,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+109..121
+0,3,4,0;0,3,4,1,0;0,3,4,1,1
+#### Text ####
+dropping 23%
+##############
+____Arg1____
+9..107
+0,0;0,1;0,2;0,3,0;0,3,1;0,3,2;0,3,3;0,4
+#### Text ####
+Amid a crowd of crashing stocks, Relational Technology Inc. 's stock fell particularly hard Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+130..223
+0,3,4,1,2,1
+#### Text ####
+its problems were compounded by disclosure of an unexpected loss for its fiscal first quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+348
+2
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Opposition
+____Arg1____
+262..338
+1,1,1
+#### Text ####
+it expects a $2 million net loss for the fiscal first quarter ended Sept. 30
+##############
+#### Features ####
+Ot, Comm, Null, Null
+227..261
+1,0;1,1,0;1,2
+#### Text ####
+The database software company said
+##############
+____Arg2____
+348..405
+2,1,1
+#### Text ####
+analysts had been expecting a small profit for the period
+##############
+#### Features ####
+Ot, Comm, Null, Null
+340..347
+2,0;2,1,0;2,2
+#### Text ####
+It said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+407
+3
+____Arg1____
+340..405
+2
+#### Text ####
+It said analysts had been expecting a small profit for the period
+##############
+____Arg2____
+407..489
+3
+#### Text ####
+Revenue is expected to be "up modestly" from the $26.5 million reported a year ago
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+491
+4
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+407..489
+3
+#### Text ####
+Revenue is expected to be "up modestly" from the $26.5 million reported a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+491..597
+4
+#### Text ####
+Relational Technology reported net income of $1.5 million, or 12 cents a share, in the year-earlier period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+602..607
+5,1,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+720..775
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said Paul Newton, president and chief executive officer
+##############
+while, Comparison.Contrast.Opposition
+____Arg1____
+659..717
+5,1,1;5,1,2;5,1,3
+#### Text ####
+our domestic business was substantially below expectations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+608..657
+5,1,0,1
+#### Text ####
+our international operations showed strong growth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+794
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+602..717
+5,1
+#### Text ####
+While our international operations showed strong growth, our domestic business was substantially below expectations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+720..775
+5,0;5,2;5,3;5,4;5,5;5,6
+#### Text ####
+said Paul Newton, president and chief executive officer
+##############
+____Arg2____
+794..907
+6,1,1
+#### Text ####
+the company's first quarter is historically soft, and computer companies in general are experiencing slower sales
+##############
+#### Features ####
+Ot, Comm, Null, Null
+777..793
+6,0;6,1,0;6,2
+#### Text ####
+A spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+844..847
+6,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+777..793
+6,0;6,1,0;6,2
+#### Text ####
+A spokesman said
+##############
+and, Expansion.Conjunction
+____Arg1____
+794..842
+6,1,1,0
+#### Text ####
+the company's first quarter is historically soft
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+848..907
+6,1,1,3
+#### Text ####
+computer companies in general are experiencing slower sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1008..1011
+7,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+911..926
+7,0;7,1,0;7,2
+#### Text ####
+Mr. Newton said
+##############
+and, Expansion.Conjunction
+____Arg1____
+927..1006
+7,1,1,0
+#### Text ####
+he accepted the resignation of Thomas Wilson, vice president of corporate sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1012..1068
+7,1,1,3
+#### Text ####
+that his marketing responsibilities have been reassigned
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1070
+8
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+911..1068
+7
+#### Text ####
+Mr. Newton said he accepted the resignation of Thomas Wilson, vice president of corporate sales, and that his marketing responsibilities have been reassigned
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1070..1149
+8
+#### Text ####
+The company said Mr. Wilson's resignation wasn't related to the sales shortfall
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1215
+10
+____Arg1____
+1153..1213
+9
+#### Text ####
+Relational Technology went public in May 1988 at $14 a share
+##############
+____Arg2____
+1215..1294
+10
+#### Text ####
+It fell $1.875 a share Friday, to $6.25, a new low, in over-the-counter trading
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1296
+11
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+1215..1294
+10
+#### Text ####
+It fell $1.875 a share Friday, to $6.25, a new low, in over-the-counter trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1296..1342
+11
+#### Text ####
+Its high for the past year was $16.375 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

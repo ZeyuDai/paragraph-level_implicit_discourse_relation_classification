@@ -1,0 +1,677 @@
+________________________________________________________
+____Explicit____
+109..113
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+72..95
+0,1,1,3
+#### Text ####
+which buoyed the dollar
+##############
+____Arg1____
+9..70
+0,0;0,1,0;0,1,1,0;0,1,1,1;0,1,1,2;0,2
+#### Text ####
+A shiny new takeover deal sparked a big rally in stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+97..108;114..126
+1,0;1,2;1,3
+#### Text ####
+Bond prices edged higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+287
+3
+____Arg1____
+130..285
+2
+#### Text ####
+Georgia-Pacific's $3.18 billion bid for Great Northern Nekoosa helped drive the Dow Jones Industrial Average up 41.60 points, to 2645.08, in active trading
+##############
+____Arg2____
+287..341
+3
+#### Text ####
+The dollar drew strength from the stock market's climb
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+343
+4
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+287..341
+3
+#### Text ####
+The dollar drew strength from the stock market's climb
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+343..438
+4
+#### Text ####
+Long-term bond prices rose despite trepidation about what a key economic report will show today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+621
+6
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+456..619
+5,1,1
+#### Text ####
+the offer for Great Northern Nekoosa broke the pall that settled over the takeover business for the past three weeks in the wake of the collapsed UAL Corp. buy-out
+##############
+#### Features ####
+Ot, Comm, Null, Null
+442..455
+5,0;5,1,0;5,2
+#### Text ####
+Analysts said
+##############
+____Arg2____
+621..743
+6
+#### Text ####
+Great Northern Nekoosa soared $20.125 a share, to $62.875, substantially above the $58 a share Georgia-Pacific is offering
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+745..759
+7,0;7,1,0
+#### Text ####
+That indicates
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+621..743
+6
+#### Text ####
+Great Northern Nekoosa soared $20.125 a share, to $62.875, substantially above the $58 a share Georgia-Pacific is offering
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+745..814
+7
+#### Text ####
+That indicates speculators are betting a higher offer is in the wings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+816
+8
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+745..814
+7
+#### Text ####
+That indicates speculators are betting a higher offer is in the wings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+816..857
+8,0;8,1,0;8,1,1;8,1,2;8,2
+#### Text ####
+Prices of other paper makers rose sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+859..867
+8,1,3,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast.Opposition
+____Arg1____
+816..857
+8,0;8,1,0;8,1,1;8,1,2;8,2
+#### Text ####
+Prices of other paper makers rose sharply
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+868..914
+8,1,3,1
+#### Text ####
+Georgia-Pacific fell $2.50 a share, to $50.875
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1041
+10
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification, Contingency.Cause.Reason
+____Arg1____
+918..1016
+9
+#### Text ####
+Despite all the furor over program trading, program trading played a big role in yesterday's rally
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1041..1213
+10,1,2
+#### Text ####
+that as the big brokerage firms back out of program trading for their own accounts or for clients, opportunities increase for others to engage in the controversial practice
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1018..1040
+10,0;10,1,0;10,1,1;10,2
+#### Text ####
+Some traders point out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1046..1048
+10,1,2,1,0,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1018..1040
+10,0;10,1,0;10,1,1;10,2
+#### Text ####
+Some traders point out
+##############
+as, Temporal.Synchrony
+____Arg1____
+1041..1045;1140..1213
+10,1,2,0;10,1,2,1,1;10,1,2,1,2;10,1,2,1,3
+#### Text ####
+that opportunities increase for others to engage in the controversial practice
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1049..1138
+10,1,2,1,0,1
+#### Text ####
+the big brokerage firms back out of program trading for their own accounts or for clients
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1215
+11
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1041..1213
+10,1,2
+#### Text ####
+that as the big brokerage firms back out of program trading for their own accounts or for clients, opportunities increase for others to engage in the controversial practice
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1018..1040
+10,0;10,1,0;10,1,1;10,2
+#### Text ####
+Some traders point out
+##############
+____Arg2____
+1215..1245
+11
+#### Text ####
+That's what happened yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1349
+13
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1249..1347
+12
+#### Text ####
+The rally notwithstanding, there are plenty of worries about the short-term course of stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1349..1456
+13
+#### Text ####
+A slowing economy and its effect on corporate earnings is the foremost concern of many traders and analysts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1458
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1349..1456
+13
+#### Text ####
+A slowing economy and its effect on corporate earnings is the foremost concern of many traders and analysts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1458..1571
+14
+#### Text ####
+Unless the Federal Reserve eases interest rates soon to stimulate the economy, profits could remain disappointing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1458..1464
+14,0,0
+#### Text ####
+Unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+1537..1571
+14,1;14,2;14,3;14,4
+#### Text ####
+profits could remain disappointing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1465..1535
+14,0,1
+#### Text ####
+the Federal Reserve eases interest rates soon to stimulate the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1719..1722
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1575..1717
+15
+#### Text ####
+Yesterday's major economic news -- a 0.2% rise in the September index of leading economic indicators -- had little impact on financial markets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1723..1899
+16,1;16,2;16,3
+#### Text ####
+the next important piece of news on the economy's health -- this morning's release of the national purchasing manager's survey for October -- could prompt investors into action
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2066
+18
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+1903..2064
+17
+#### Text ####
+A report late yesterday that the Chicago-area purchasing managers survey showed increased economic activity in that part of the country cut into bond-price gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2066..2217
+18
+#### Text ####
+If the national survey confirms a pickup in the manufacturing sector, it could further depress bond prices while bolstering stock prices and the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2066..2068
+18,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2136..2217
+18,1;18,2;18,3;18,4
+#### Text ####
+it could further depress bond prices while bolstering stock prices and the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2069..2134
+18,0,1
+#### Text ####
+the national survey confirms a pickup in the manufacturing sector
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2173..2178
+18,3,2,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Comparison.Contrast
+____Arg1____
+2136..2172
+18,1;18,2;18,3,0;18,3,1;18,3,2,0;18,3,2,1;18,4
+#### Text ####
+it could further depress bond prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2179..2217
+18,3,2,2,1
+#### Text ####
+bolstering stock prices and the dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2221..2230
+19,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction
+____Arg1____
+1249..1347
+12
+#### Text ####
+The rally notwithstanding, there are plenty of worries about the short-term course of stock prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2232..2308
+19,1;19,2;19,3;19,4
+#### Text ####
+bond investors are laboring under the onus of a national debt ceiling debate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2310
+20
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2221..2308
+19
+#### Text ####
+Meanwhile, bond investors are laboring under the onus of a national debt ceiling debate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2310..2531
+20
+#### Text ####
+Although the Treasury is expected to announce details of its November quarterly refunding operation today, the Nov. 79 schedule could be delayed unless Congress and the president act soon to lift the nation's debt ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2310..2318
+20,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2417..2531
+20,1;20,2;20,3;20,4
+#### Text ####
+the Nov. 79 schedule could be delayed unless Congress and the president act soon to lift the nation's debt ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2319..2415
+20,0,1
+#### Text ####
+the Treasury is expected to announce details of its November quarterly refunding operation today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2455..2461
+20,3,1,1,2,0
+#### Text ####
+unless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+2417..2454
+20,1;20,2;20,3,0;20,3,1,0;20,3,1,1,0;20,3,1,1,1;20,4
+#### Text ####
+the Nov. 79 schedule could be delayed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2462..2531
+20,3,1,1,2,1
+#### Text ####
+Congress and the president act soon to lift the nation's debt ceiling
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2603
+23
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Restatement.Specification
+____Arg1____
+2563..2601
+22
+#### Text ####
+Stock prices rallied in active trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2603..2669
+23
+#### Text ####
+Volume on the New York Stock Exchange totaled 176.1 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2671
+24
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2563..2669
+22;23
+#### Text ####
+Stock prices rallied in active trading.
+Volume on the New York Stock Exchange totaled 176.1 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2671..2739
+24
+#### Text ####
+Advancing issues on the Big Board surged ahead of decliners 1,111 to
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2760
+26
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2742..2758
+25
+#### Text ####
+Bond prices rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2760..2886
+26
+#### Text ####
+The Treasury's benchmark 30-year bond gained less than a quarter of a point, or less than $2.50 for each $1,000 of face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2888
+27
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2760..2886
+26
+#### Text ####
+The Treasury's benchmark 30-year bond gained less than a quarter of a point, or less than $2.50 for each $1,000 of face amount
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2888..2927
+27
+#### Text ####
+The yield on the issue slipped to 7.91%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2982
+29
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2931..2980
+28
+#### Text ####
+The dollar gained against most foreign currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2982..3117
+29
+#### Text ####
+In late afternoon New York trading, the dollar was at 1.8415 marks and 142.85 yen compared with 1.8340 marks and 141.90 yen late Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

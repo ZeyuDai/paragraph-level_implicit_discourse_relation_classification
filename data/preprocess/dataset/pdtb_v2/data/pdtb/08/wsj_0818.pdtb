@@ -1,0 +1,1211 @@
+________________________________________________________
+____Explicit____
+128..131
+0,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+9..126
+0,0
+#### Text ####
+The Big Three U.S. auto makers posted losses in their core North American automotive businesses for the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+132..233
+0,3
+#### Text ####
+expectations of continued slow vehicle sales and price wars are casting a pall over the fourth period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+394
+2
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+306..392
+1,1,1,1,2
+#### Text ####
+which said it had a loss in its U.S. automotive business for the first time since 1982
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+394..559
+2
+#### Text ####
+Ford predicted fourth-quarter net income will fall below the year-earlier level, partly because of a likely $500 million charge from the sale of its steel operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+660..665
+4,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison
+____Arg1____
+563..658
+3
+#### Text ####
+The bleak automotive results were offset by strong earnings from some non-automotive operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+667..897
+4,1;4,2;4,3;4,4
+#### Text ####
+the combined profit of Ford, Chrysler Corp. and General Motors Corp. fell 44% to $1.02 billion from $1.83 billion a year earlier, excluding a one-time gain of $309 million at Chrysler from the sale of Mitsubishi Motors Corp. stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+899
+5
+____Arg1____
+660..897
+4
+#### Text ####
+Still, the combined profit of Ford, Chrysler Corp. and General Motors Corp. fell 44% to $1.02 billion from $1.83 billion a year earlier, excluding a one-time gain of $309 million at Chrysler from the sale of Mitsubishi Motors Corp. stock
+##############
+____Arg2____
+899..1008
+5
+#### Text ####
+The last time all three companies reported North American automotive losses was in the recession year of 1982
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1105
+7
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1012..1103
+6
+#### Text ####
+Yesterday's announcements helped spark a midday wave of program selling in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1105..1287
+7
+#### Text ####
+GM's common closed at $44.375 a share, down 50 cents, Ford fell 37.5 cents to end at $47.50, and Chrysler eased 37.5 cents to $22.25, all in New York Stock Exchange composite trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1198..1201
+7,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1105..1196
+7,0;7,1;7,2;7,3
+#### Text ####
+GM's common closed at $44.375 a share, down 50 cents, Ford fell 37.5 cents to end at $47.50
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1202..1237
+7,5
+#### Text ####
+Chrysler eased 37.5 cents to $22.25
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1354
+9
+____Arg1____
+1291..1352
+8
+#### Text ####
+The market's pessimism reflects the gloomy outlook in Detroit
+##############
+____Arg2____
+1354..1508
+9
+#### Text ####
+As Japanese auto makers gained market share, the Big Three, with GM in the lead, slashed North American production and launched a retail discounting blitz
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1354..1356
+9,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1399..1508
+9,1;9,2;9,3;9,4;9,5;9,6;9,7
+#### Text ####
+the Big Three, with GM in the lead, slashed North American production and launched a retail discounting blitz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1357..1397
+9,0,1
+#### Text ####
+Japanese auto makers gained market share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1510
+10
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1354..1508
+9
+#### Text ####
+As Japanese auto makers gained market share, the Big Three, with GM in the lead, slashed North American production and launched a retail discounting blitz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1510..1653
+10
+#### Text ####
+The price war peaked in the third quarter as Big Three factory discounts climbed to more than $1,000 a vehicle, according to industry officials
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1622..1653
+10,1,3;10,1,4;10,2
+#### Text ####
+according to industry officials
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1552..1554
+10,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1510..1551;1622..1653
+10,0;10,1,0;10,1,1;10,1,3;10,1,4;10,2
+#### Text ####
+The price war peaked in the third quarter according to industry officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1555..1620
+10,1,2,1
+#### Text ####
+Big Three factory discounts climbed to more than $1,000 a vehicle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1655
+11
+____Arg1____
+1510..1653
+10
+#### Text ####
+The price war peaked in the third quarter as Big Three factory discounts climbed to more than $1,000 a vehicle, according to industry officials
+##############
+____Arg2____
+1655..1755
+11
+#### Text ####
+GM probably had the "heaviest incentives," said Robert S. Miller, Chrysler's chief financial officer
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1758
+12
+#### Features ####
+Ot, Comm, Null, Null
+1698..1755
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+said Robert S. Miller, Chrysler's chief financial officer
+##############
+but, Comparison.Contrast
+____Arg1____
+1655..1695
+11,0
+#### Text ####
+GM probably had the "heaviest incentives
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1758..1815
+12
+#### Text ####
+We all did what we had to do to stay within sight of them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1820..1823
+13,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1354..1508
+9
+#### Text ####
+As Japanese auto makers gained market share, the Big Three, with GM in the lead, slashed North American production and launched a retail discounting blitz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1824..1982
+13,0,1;13,0,2;13,1;13,2;13,3;13,4
+#### Text ####
+the costly efforts did little to slow Japanese market gains, and domestic car sales have plunged 19% since the Big Three ended many of their programs Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1885..1888
+13,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1820..1883
+13,0
+#### Text ####
+But the costly efforts did little to slow Japanese market gains
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1889..1982
+13,3
+#### Text ####
+domestic car sales have plunged 19% since the Big Three ended many of their programs Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1925..1930
+13,3,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1885..1924
+13,2;13,3,0;13,3,1,0;13,3,1,1,0;13,3,1,1,1;13,4
+#### Text ####
+and domestic car sales have plunged 19%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1931..1982
+13,3,1,1,2,1
+#### Text ####
+the Big Three ended many of their programs Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1984
+14
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1885..1982
+13,2;13,3;13,4
+#### Text ####
+and domestic car sales have plunged 19% since the Big Three ended many of their programs Sept. 30
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1984..2089
+14
+#### Text ####
+GM, Ford and Chrysler have already cut fourth-quarter U.S. output plans an estimated 15% from 1988 levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2091
+15
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1984..2089
+14
+#### Text ####
+GM, Ford and Chrysler have already cut fourth-quarter U.S. output plans an estimated 15% from 1988 levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2091..2171
+15
+#### Text ####
+If sales don't pick up, the cuts will go deeper and incentives will sprout again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2091..2093
+15,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2115..2171
+15,1;15,2;15,3;15,4;15,5
+#### Text ####
+the cuts will go deeper and incentives will sprout again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2094..2113
+15,0,1
+#### Text ####
+sales don't pick up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2139..2142
+15,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2115..2138
+15,2
+#### Text ####
+the cuts will go deeper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2143..2171
+15,4
+#### Text ####
+incentives will sprout again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2271
+17
+____Arg1____
+2175..2269
+16
+#### Text ####
+Ford, which has long boasted of its ability to weather a downturn, saw earnings take a beating
+##############
+____Arg2____
+2271..2485
+17
+#### Text ####
+The No. 2 auto maker blamed incentive costs and reduced production -- both the result of a substantially weaker U.S. market -- for a 44% drop in net to $477.1 million, or $1.03 a share, on revenue of $20.24 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2555
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2489..2553
+18
+#### Text ####
+Nearly all the decline came in Ford's U.S. automotive operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2555..2725
+19
+#### Text ####
+The Dearborn, Mich., auto maker ran a loss of $37 million on assembling and marketing cars in the U.S., a deterioration of $378 million in that line from the 1988 quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2859
+21
+____Arg1____
+2729..2857
+20
+#### Text ####
+Ford managed to show a profit for the quarter primarily because of earnings from overseas auto operations and financial services
+##############
+____Arg2____
+2859..2965
+21
+#### Text ####
+A year earlier, Ford reported record net of $856.3 million, or $1.78 a share, on revenue of $20.38 billion
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2967
+22
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2859..2965
+21
+#### Text ####
+A year earlier, Ford reported record net of $856.3 million, or $1.78 a share, on revenue of $20.38 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2967..3084
+22
+#### Text ####
+In the latest nine months, Ford earned $3.52 billion, or $7.51 a share, compared with $4.14 billion, or $8.53 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3244..3247
+24,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3088..3242
+23
+#### Text ####
+The U.S. automotive loss was a sharp reversal for a company that had reeled off 12 consecutive quarters of improved earnings until the 1989 second quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3301..3415
+24,2,1,0;24,2,1,1,0;24,2,1,1,1,0;24,2,1,1,1,1,0;24,2,1,1,1,1,1,0;24,2,1,1,1,1,1,1;24,2,1,1,1,1,1,2;24,2,1,1,1,1,1,3;24,2,1,1,1,1,1,4,0;24,2,1,1,1,1,1,4,1,0;24,2,1,1,1,1,1,4,1,1,0;24,2,1,1,1,1,1,4,1,1,1;24,2,1,1,1,1,1,4,1,1,2
+#### Text ####
+that cost-cutting and tight production capacity will make results "better in this downturn than in prior downturns
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3248..3300
+24,1;24,2,0;24,3
+#### Text ####
+David N. McCammon, vice president, finance, insisted
+##############
+____Sup2____
+3418..3442
+24,2,1,1,1,1,1,4,1,1,3
+#### Text ####
+when Ford had net losses
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3446..3451
+25,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+3301..3442
+24,2,1
+#### Text ####
+that cost-cutting and tight production capacity will make results "better in this downturn than in prior downturns," when Ford had net losses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3248..3300
+24,1;24,2,0;24,3
+#### Text ####
+David N. McCammon, vice president, finance, insisted
+##############
+____Arg2____
+3471..3571
+25,3,1
+#### Text ####
+Ford expects the U.S. economy to weaken through the end of 1990, causing weaker sales and production
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3453..3470
+25,1;25,2;25,3,0;25,4
+#### Text ####
+Mr. McCammon said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3573..3584
+26,0,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3711..3718
+26,1;26,2;26,3;26,4
+#### Text ####
+he said
+##############
+as a result, Contingency.Cause.Result
+____Arg1____
+3471..3571
+25,3,1
+#### Text ####
+Ford expects the U.S. economy to weaken through the end of 1990, causing weaker sales and production
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3453..3470
+25,1;25,2;25,3,0;25,4
+#### Text ####
+Mr. McCammon said
+##############
+____Arg2____
+3586..3639
+26,0,1;26,0,2;26,0,3,0;26,0,3,1,0;26,0,3,1,1;26,0,3,1,2;26,0,3,1,3
+#### Text ####
+fourth-quarter profit will come in below 1988 results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3641..3709
+26,0,3,1,4
+#### Text ####
+although the drop won't be as sharp as the 44% third-quarter decline
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3641..3649
+26,0,3,1,4,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3711..3718
+26,1;26,2;26,3;26,4
+#### Text ####
+he said
+##############
+although, Comparison.Concession.Contra-expectation
+____Arg1____
+3573..3639
+26,0,0;26,0,1;26,0,2;26,0,3,0;26,0,3,1,0;26,0,3,1,1;26,0,3,1,2;26,0,3,1,3
+#### Text ####
+As a result, fourth-quarter profit will come in below 1988 results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3650..3709
+26,0,3,1,4,1
+#### Text ####
+the drop won't be as sharp as the 44% third-quarter decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3851
+28
+____Arg1____
+3722..3849
+27
+#### Text ####
+Part of the drop will come from an anticipated charge of as much as $500 million from the proposed sale of its Rouge Steel unit
+##############
+____Arg2____
+3851..3926
+28
+#### Text ####
+In the 1988 fourth quarter, Ford had net of $1.16 billion, or $2.42 a share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4181
+31
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Comparison.Contrast.Juxtaposition, Temporal.Synchrony
+____Arg1____
+4053..4179
+30
+#### Text ####
+Its $309 million, or $1.32 a share, gain from the sale of 75 million Mitsubishi shares made net $331 million, or $1.42 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4181..4213
+31
+#### Text ####
+Sales were flat at $7.88 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4215
+32
+____Arg1____
+4181..4213
+31
+#### Text ####
+Sales were flat at $7.88 billion
+##############
+____Arg2____
+4215..4304
+32
+#### Text ####
+The results include record quarterly earnings of $76 million from Chrysler Financial Corp
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4306
+33
+____Arg1____
+4215..4304
+32
+#### Text ####
+The results include record quarterly earnings of $76 million from Chrysler Financial Corp
+##############
+____Arg2____
+4306..4374
+33
+#### Text ####
+A year earlier, Chrysler's net was $113 million, or 50 cents a share
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4525
+35
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+4394..4515
+34,1,1
+#### Text ####
+costs of incentives caused a "moderate" loss in the Highland Park, Mich., company's North American car and truck business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4378..4393
+34,0;34,1,0;34,2
+#### Text ####
+Mr. Miller said
+##############
+____Arg2____
+4525..4621
+35,0,1,1
+#### Text ####
+the loss wasn't "that much different" from Ford's $37 million loss on U.S. automotive operations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4517..4524
+35,0,0;35,0,1,0
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4623..4626
+35,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+4517..4621
+35,0
+#### Text ####
+He said the loss wasn't "that much different" from Ford's $37 million loss on U.S. automotive operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4627..4653
+35,3
+#### Text ####
+he declined to be specific
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4981
+38
+#### Features ####
+Ot, Comm, Null, Null
+4992..4999
+38,1
+#### Text ####
+he said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4863..4979
+37,1,1
+#### Text ####
+Chrysler "is no longer sure" of its forecast for industry car and truck sales of 14.2 million in the 1990 model year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4855..4862
+37,0;37,1,0;37,2
+#### Text ####
+He said
+##############
+____Arg2____
+4981..4990;5001..5042
+38,0;38,2,0;38,2,1,0;38,2,1,1;38,2,1,2;38,3
+#### Text ####
+Consumers are balking at higher prices on 1990 cars
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5364
+40
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5115..5362
+39
+#### Text ####
+In the nine months, net was $1.02 billion, or $4.38 a share, including the gain from the Mitsubishi stock sale, compared with $617 million, or $2.77 a share, after a charge of $93 million, or 42 cents a share, for plant closings in the 1988 period
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5364..5417
+40
+#### Text ####
+Sales rose 8.4% to $27.95 billion from $25.78 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5644..5647
+43,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+5541..5642
+42
+#### Text ####
+Detroit-based GM doesn't issue separate quarterly earnings for the North American automotive business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5648..5743
+43,1;43,2;43,3
+#### Text ####
+analysts estimated that GM had a loss of as much as $300 million on domestic vehicle operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5829..5832
+44,0,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5962..5981
+44,1;44,2;44,3;44,4
+#### Text ####
+a GM spokesman said
+##############
+and, Expansion.Conjunction
+____Arg1____
+5747..5827
+44,0,0
+#### Text ####
+An 8.5% drop in North American factory sales of cars and trucks cut into revenue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5833..5960
+44,0,3
+#### Text ####
+rebates to dealers and customers more than offset gains from price increases on 1990 model vehicles delivered during the period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5985..5988
+45,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+5541..5981
+42;43;44
+#### Text ####
+Detroit-based GM doesn't issue separate quarterly earnings for the North American automotive business.
+But analysts estimated that GM had a loss of as much as $300 million on domestic vehicle operations. 
+
+An 8.5% drop in North American factory sales of cars and trucks cut into revenue, and rebates to dealers and customers more than offset gains from price increases on 1990 model vehicles delivered during the period, a GM spokesman said
+##############
+____Arg1____
+5421..5537
+41
+#### Text ####
+Heavy losses in North American auto operations sent GM's net tumbling to $516.9 million from a record $859.2 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5989..6060
+45,1;45,2;45,3;45,4
+#### Text ####
+GM's results also illustrate the increasing diversity of its operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6002..6006
+45,2
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5747..5960
+44,0
+#### Text ####
+An 8.5% drop in North American factory sales of cars and trucks cut into revenue, and rebates to dealers and customers more than offset gains from price increases on 1990 model vehicles delivered during the period
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5962..5981
+44,1;44,2;44,3;44,4
+#### Text ####
+a GM spokesman said
+##############
+____Arg2____
+5985..6001;6007..6060
+45,0;45,1;45,3;45,4
+#### Text ####
+But GM's results illustrate the increasing diversity of its operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6062
+46
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+5985..6060
+45
+#### Text ####
+But GM's results also illustrate the increasing diversity of its operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6062..6203
+46
+#### Text ####
+In one breakdown, GM attributed half of its net to its two big technology units, Electronic Data Systems Corp. and GM Hughes Electronics Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6205..6214
+47,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+6062..6203
+46
+#### Text ####
+In one breakdown, GM attributed half of its net to its two big technology units, Electronic Data Systems Corp. and GM Hughes Electronics Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6224..6320
+47,3,1
+#### Text ####
+overseas auto operations are on track to exceed last year's record full-year net of $2.7 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6216..6223
+47,1;47,2;47,3,0;47,4
+#### Text ####
+GM said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+6493
+49
+____Arg1____
+6358..6491
+48,1,1
+#### Text ####
+GM build its cash reserves, exclusive of its financial subsidiary, to $5.5 billion as of Sept. 30, a 22% increase from a year earlier
+##############
+____Arg2____
+6493..6631
+49
+#### Text ####
+This cushion could come in handy if GM has to trim fourth-quarter North American production schedules more than the already scheduled 9.5%
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6526..6528
+49,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+6493..6525
+49,0;49,1,0;49,1,1,0;49,1,1,1;49,2
+#### Text ####
+This cushion could come in handy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6529..6631
+49,1,1,2,1
+#### Text ####
+GM has to trim fourth-quarter North American production schedules more than the already scheduled 9.5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+6774..6784
+51,0;51,1,0
+#### Text ####
+That means
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+6635..6744
+50,0
+#### Text ####
+Under the circumstances, it won't be easy for GM to exceed its record 1988 fourth-quarter net of $1.4 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6746..6772
+50,1;50,2;50,3;50,4
+#### Text ####
+the spokesman acknowledged
+##############
+____Arg2____
+6774..6865
+51,0;51,1,0;51,1,1,0;51,1,1,1,0;51,1,1,1,1,0;51,1,1,1,1,1;51,1,1,1,1,2;51,2
+#### Text ####
+That means it's unlikely the company will surpass last year's $4.9 billion full-year profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6867..6878
+51,1,1,1,1,3,0;51,1,1,1,1,3,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+6785..6865
+51,1,1,0;51,1,1,1,0;51,1,1,1,1,0;51,1,1,1,1,1;51,1,1,1,1,2
+#### Text ####
+it's unlikely the company will surpass last year's $4.9 billion full-year profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6879..6966
+51,1,1,1,1,3,2
+#### Text ####
+net for the first nine months was up 1.9% to $3.52 billion on revenue of $95.57 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6968
+52
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+6867..6966
+51,1,1,1,1,3
+#### Text ####
+even though net for the first nine months was up 1.9% to $3.52 billion on revenue of $95.57 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6968..7044
+52
+#### Text ####
+It earned $3.46 billion on revenue of $91.21 billion in the 1988 nine months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,623 @@
+________________________________________________________
+____Implicit____
+320
+2
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+178..318
+1
+#### Text ####
+The eight major domestic auto makers sold 160,510 North American-made cars in the first 10 days of October, a 12.6% drop from a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+320..417
+2
+#### Text ####
+Domestically built truck sales were down 10.4% to 86,555 pickups, vans and sport utility vehicles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+583
+4
+____Arg1____
+421..581
+3
+#### Text ####
+The heavy use of incentives to clear out 1989 models appears to have taken the steam, at least initially, out of 1990 model sales, which began officially Oct. 1
+##############
+____Arg2____
+583..764
+4
+#### Text ####
+This appears particularly true at GM, which had strong sales in August and September but saw its early October car and truck results fall 26.3% from last year's unusually high level
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+668..671
+4,1,2,1,2,0,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+621..667
+4,1,2,1,2,0,0;4,1,2,1,2,0,1,0;4,1,2,1,2,0,1,1,0
+#### Text ####
+which had strong sales in August and September
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+672..764
+4,1,2,1,2,0,1,1,2
+#### Text ####
+saw its early October car and truck results fall 26.3% from last year's unusually high level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+768..775
+5,0
+#### Text ####
+Overall
+##############
+#### Features ####
+Wr, Comm, Null, Null
+overall, Expansion.Restatement.Generalization
+____Sup1____
+421..764
+3;4
+#### Text ####
+The heavy use of incentives to clear out 1989 models appears to have taken the steam, at least initially, out of 1990 model sales, which began officially Oct. 1.
+This appears particularly true at GM, which had strong sales in August and September but saw its early October car and truck results fall 26.3% from last year's unusually high level
+##############
+____Arg1____
+178..417
+1;2
+#### Text ####
+The eight major domestic auto makers sold 160,510 North American-made cars in the first 10 days of October, a 12.6% drop from a year earlier.
+Domestically built truck sales were down 10.4% to 86,555 pickups, vans and sport utility vehicles
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+777..839
+5,1;5,2;5,3;5,4
+#### Text ####
+sales of all domestic-made vehicles fell 11.9% from a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+841
+6
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+768..839
+5
+#### Text ####
+Overall, sales of all domestic-made vehicles fell 11.9% from a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+841..932
+6
+#### Text ####
+Without GM, overall sales for the other U.S. automakers were roughly flat with 1989 results
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1018..1021
+7,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+936..1016
+7,0
+#### Text ####
+Some of the U.S. auto makers have already adopted incentives on many 1990 models
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1022..1078
+7,3
+#### Text ####
+they may have to broaden their programs to keep sales up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1081
+8
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1018..1078
+7,2;7,3;7,4
+#### Text ####
+but they may have to broaden their programs to keep sales up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1081..1153
+8,1
+#### Text ####
+We've created a condition where, without incentives, it's a tough market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1156..1227
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said Tom Kelly, sales manager for Bill Wink Chevrolet in Dearborn, Mich
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1347
+10
+____Arg1____
+1231..1345
+9
+#### Text ####
+Car sales fell to a seasonally adjusted annual selling rate of 5.8 million vehicles, the lowest since October 1987
+##############
+____Arg2____
+1347..1439
+10
+#### Text ####
+The poor performance contrasts with a robust selling rate of almost eight million last month
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1441..1452
+11,0
+#### Text ####
+Furthermore
+##############
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1231..1345
+9
+#### Text ####
+Car sales fell to a seasonally adjusted annual selling rate of 5.8 million vehicles, the lowest since October 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1454..1572
+11,1;11,2;11,3;11,4
+#### Text ####
+dealers contacted late last week said they couldn't see any immediate impact on sales of Friday's steep market decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1614..1617
+12,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1576..1613
+12,0
+#### Text ####
+GM's domestic car sales dropped 24.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1618..1701
+12,2
+#### Text ####
+its domestic trucks were down an even steeper 28.7% from the same period a year ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1703
+13
+____Arg1____
+1576..1701
+12
+#### Text ####
+GM's domestic car sales dropped 24.3% and its domestic trucks were down an even steeper 28.7% from the same period a year ago
+##############
+____Arg2____
+1703..1762
+13
+#### Text ####
+All of the GM divisions except Cadillac showed big declines
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1764
+14
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1703..1762
+13
+#### Text ####
+All of the GM divisions except Cadillac showed big declines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1764..1885
+14
+#### Text ####
+Cadillac posted a 3.2% increase despite new competition from Lexus, the fledging luxury-car division of Toyota Motor Corp
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1887
+15
+____Arg1____
+1764..1885
+14
+#### Text ####
+Cadillac posted a 3.2% increase despite new competition from Lexus, the fledging luxury-car division of Toyota Motor Corp
+##############
+____Arg2____
+1887..1916
+15,0
+#### Text ####
+Lexus sales weren't available
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1918
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1887..1916
+15,0
+#### Text ####
+Lexus sales weren't available
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1918..1988
+15,2
+#### Text ####
+the cars are imported and Toyota reports their sales only at month-end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1940..1943
+15,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1918..1939
+15,2,0
+#### Text ####
+the cars are imported
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1944..1988
+15,2,2
+#### Text ####
+Toyota reports their sales only at month-end
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2207
+17
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1992..2205
+16
+#### Text ####
+The sales drop for the No. 1 car maker may have been caused in part by the end in September of dealer incentives that GM offered in addition to consumer rebates and low-interest financing, a company spokesman said
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2207..2326
+17
+#### Text ####
+Last year, GM had a different program in place that continued rewarding dealers until all the 1989 models had been sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2287..2292
+17,3,3,1,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+2254..2286
+17,3,3,0;17,3,3,1,0;17,3,3,1,1,0;17,3,3,1,1,1
+#### Text ####
+that continued rewarding dealers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2293..2326
+17,3,3,1,1,2,1
+#### Text ####
+all the 1989 models had been sold
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2394
+19
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+2330..2392
+18
+#### Text ####
+Aside from GM, other car makers posted generally mixed results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2394..2490
+19
+#### Text ####
+Ford Motor Co. had a 1.8% drop in domestic car sales but a 2.4% increase in domestic truck sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2588..2595
+21,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Sup1____
+2539..2586
+20,1,3
+#### Text ####
+echoing its generally slow performance all year
+##############
+____Arg1____
+2494..2537
+20,0;20,1,0;20,1,1;20,1,2;20,2
+#### Text ####
+Chrysler Corp. had a 7.5% drop in car sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2597..2665
+21,1;21,2;21,3;21,4
+#### Text ####
+sales of trucks, including the company's popular minivans, rose 4.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2760
+23
+#### Features ####
+Wr, Comm, Null, Null
+nonetheless, Comparison.Concession.Contra-expectation
+____Arg1____
+2669..2758
+22
+#### Text ####
+Honda Motor Co. 's sales of domestically built vehicles plunged 21.7% from a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2760..2837
+23,0
+#### Text ####
+Honda's plant in Marysville, Ohio, was gearing up to build 1990 model Accords
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2839..2861
+23,1;23,2;23,3
+#### Text ####
+a Honda spokesman said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2864
+24
+#### Features ####
+Ot, Comm, Null, Null
+2927..2935
+24,0;24,2;24,3;24,4;24,5;24,6
+#### Text ####
+he added
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2760..2837
+23,0
+#### Text ####
+Honda's plant in Marysville, Ohio, was gearing up to build 1990 model Accords
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2839..2861
+23,1;23,2;23,3
+#### Text ####
+a Honda spokesman said
+##############
+____Arg2____
+2864..2924
+24,1
+#### Text ####
+We're really confident everything will bounce back to normal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2939..2949
+25,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+2494..2665
+20;21
+#### Text ####
+Chrysler Corp. had a 7.5% drop in car sales, echoing its generally slow performance all year.
+However, sales of trucks, including the company's popular minivans, rose 4.3%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2951..3085
+25,1;25,2;25,3;25,4
+#### Text ####
+Chrysler said firm prices on its 1990-model domestic cars and minivans will rise an average of 5% over comparably equipped 1989 models
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3087
+26
+____Arg1____
+2939..3085
+25
+#### Text ####
+Separately, Chrysler said firm prices on its 1990-model domestic cars and minivans will rise an average of 5% over comparably equipped 1989 models
+##############
+____Arg2____
+3087..3175
+26
+#### Text ####
+Firm prices were generally in line with the tentative prices announced earlier this fall
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+3177..3189
+27,0
+#### Text ####
+At that time
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+3087..3175
+26
+#### Text ####
+Firm prices were generally in line with the tentative prices announced earlier this fall
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3177..3307
+27
+#### Text ####
+At that time, Chrysler said base prices, which aren't adjusted for equipment changes, would rise between 4% and 9% on most vehicle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3506
+32
+____Arg1____
+3432..3504
+31
+#### Text ####
+There were 8 selling days in the most recent period and 8 a year earlier
+##############
+____Arg2____
+3506..3579
+32
+#### Text ####
+Percentage differences based on daily sales rate rather than sales volume
+##############
+________________________________________________________

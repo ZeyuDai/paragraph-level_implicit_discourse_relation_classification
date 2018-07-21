@@ -1,0 +1,1594 @@
+________________________________________________________
+____Explicit____
+95..98
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..93
+0,0
+#### Text ####
+Small investors matched their big institutional brethren in anxiety over the weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+99..227
+0,3
+#### Text ####
+most seemed to be taking a philosophical approach and said they were resigned to riding out the latest storm in the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+309..311
+1,6,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+232..308
+1,0;1,1;1,2;1,3;1,4;1,5;1,7
+#### Text ####
+I'm not losing faith in the market," said Boston lawyer Christopher Sullivan
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+312..385
+1,6,1
+#### Text ####
+he watched the market plunge on a big screen in front of a brokerage firm
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+387..390
+2,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+232..266
+1,1
+#### Text ####
+I'm not losing faith in the market
+##############
+#### Features ####
+Ot, Comm, Null, Null
+269..308
+1,0;1,2;1,3;1,4;1,5;1,7
+#### Text ####
+said Boston lawyer Christopher Sullivan
+##############
+____Arg2____
+391..427
+2,1;2,2;2,3
+#### Text ####
+he's not so sure about everyone else
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+615..618
+4,1
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+502..524
+3,0;3,2;3,3;3,4;3,5,0;3,5,1;3,6
+#### Text ####
+predicted Mr. Sullivan
+##############
+and, Expansion.Conjunction
+____Arg1____
+432..499
+3,1
+#### Text ####
+I think on Monday the small (investors) are going to panic and sell
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+619..668
+4,0;4,2;4,3;4,4
+#### Text ####
+I think institutions are going to come in and buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+675
+5
+#### Features ####
+Ot, Comm, Null, Null
+502..524
+3,0;3,2;3,3;3,4;3,5,0;3,5,1;3,6
+#### Text ####
+predicted Mr. Sullivan
+##############
+so, Contingency.Cause.Result
+____Arg1____
+615..668
+4
+#### Text ####
+And I think institutions are going to come in and buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+675..695
+5
+#### Text ####
+I'm going to hold on
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+697
+6
+#### Features ####
+Ot, Comm, Null, Null
+502..524
+3,0;3,2;3,3;3,4;3,5,0;3,5,1;3,6
+#### Text ####
+predicted Mr. Sullivan
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+675..695
+5
+#### Text ####
+I'm going to hold on
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+697..732
+6
+#### Text ####
+If I sell now, I'll take a big loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+697..699
+6,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+502..524
+3,0;3,2;3,3;3,4;3,5,0;3,5,1;3,6
+#### Text ####
+predicted Mr. Sullivan
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+712..732
+6,1;6,2;6,3;6,4;6,5
+#### Text ####
+I'll take a big loss
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+700..710
+6,0,1
+#### Text ####
+I sell now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+785..789
+7,1,1,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+737..749
+7,0;7,1,0;7,2
+#### Text ####
+Some evinced
+##############
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+762..784
+7,1,1,1,0;7,1,1,1,1,0;7,1,1,1,1,1,0;7,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,0;7,1,1,1,1,1,1,1,1
+#### Text ####
+that had been rewarded
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+790..825
+7,1,1,1,1,1,1,1,2,1
+#### Text ####
+they didn't flee the market in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+828
+8
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+737..825
+7
+#### Text ####
+Some evinced an optimism that had been rewarded when they didn't flee the market in 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+828..937
+8
+#### Text ####
+Oh, I bet it'll be up 50 points on Monday," said Lucy Crump, a 78-year-old retired housewife in Lexington, Ky
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+939
+9
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+828..937
+8
+#### Text ####
+Oh, I bet it'll be up 50 points on Monday," said Lucy Crump, a 78-year-old retired housewife in Lexington, Ky
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+939..1127
+9
+#### Text ####
+Mrs. Crump said her Ashwood Investment Club's portfolio lost about one-third of its value following the Black Monday crash, "but no one got discouraged, and we gained that back -- and more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1064..1067
+9,1,1,1,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+939..954
+9,0;9,1,0;9,2;9,3
+#### Text ####
+Mrs. Crump said
+##############
+but, Comparison.Contrast
+____Arg1____
+955..1061
+9,1,1,1,0
+#### Text ####
+her Ashwood Investment Club's portfolio lost about one-third of its value following the Black Monday crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1068..1127
+9,1,1,1,4;9,1,1,1,5;9,1,1,1,6;9,1,1,1,7
+#### Text ####
+no one got discouraged, and we gained that back -- and more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1092..1095
+9,1,1,1,6
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+939..954
+9,0;9,1,0;9,2;9,3
+#### Text ####
+Mrs. Crump said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1064..1090
+9,1,1,1,3;9,1,1,1,4;9,1,1,1,5
+#### Text ####
+but no one got discouraged
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1096..1127
+9,1,1,1,7
+#### Text ####
+we gained that back -- and more
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1265
+11
+____Arg1____
+1132..1263
+10
+#### Text ####
+At the annual congress of the National Association of Investors Corp. at the Hyatt Regency hotel in Minneapolis, the scene was calm
+##############
+____Arg2____
+1265..1387
+11
+#### Text ####
+Some 500 investors representing investor clubs from around the U.S. were attending when the market started to slide Friday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1348..1352
+11,1,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+1265..1347
+11,0;11,1,0;11,1,1,0;11,2
+#### Text ####
+Some 500 investors representing investor clubs from around the U.S. were attending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1353..1387
+11,1,1,1,1
+#### Text ####
+the market started to slide Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1389..1392
+12,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1393..1447
+12,1;12,2,0;12,3
+#### Text ####
+Robert Showalter, an official of the association, said
+##############
+but, Comparison.Contrast
+____Arg1____
+1265..1387
+11
+#### Text ####
+Some 500 investors representing investor clubs from around the U.S. were attending when the market started to slide Friday
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+1448..1526
+12,2,1
+#### Text ####
+no special bulletins or emergency meetings of the investors' clubs are planned
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1530..1537
+13,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1448..1526
+12,2,1
+#### Text ####
+no special bulletins or emergency meetings of the investors' clubs are planned
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1393..1447
+12,1;12,2,0;12,3
+#### Text ####
+Robert Showalter, an official of the association, said
+##############
+____Arg2____
+1539..1640
+13,1;13,2;13,3;13,4
+#### Text ####
+some of the association's members -- long-term, buy-and-hold investors -- welcomed the drop in prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1643
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1530..1572;1613..1640
+13,0;13,1;13,2,0;13,2,1,0;13,2,1,2;13,3;13,4
+#### Text ####
+In fact, some of the association's members welcomed the drop in prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1643..1674
+14,1
+#### Text ####
+We hope to take advantage of it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1677..1736
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+said John Snyder, a member of a Los Angeles investors' club
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1738
+15
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1643..1736
+14
+#### Text ####
+We hope to take advantage of it," said John Snyder, a member of a Los Angeles investors' club
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1738..1812
+15
+#### Text ####
+He has four stocks in mind to buy if the prices drop to the level he wants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1772..1774
+15,1,3,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1738..1764
+15,0;15,1,0;15,1,1;15,1,2;15,2
+#### Text ####
+He has four stocks in mind
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1765..1771
+15,1,3,0;15,1,3,1,0;15,1,3,1,1,0;15,1,3,1,1,1,0;15,1,3,1,1,1,1
+#### Text ####
+to buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1775..1812
+15,1,3,1,1,1,2,1
+#### Text ####
+the prices drop to the level he wants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1850..1857
+16,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1530..1640
+13
+#### Text ####
+In fact, some of the association's members -- long-term, buy-and-hold investors -- welcomed the drop in prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1814..1848
+16,0
+#### Text ####
+Not everyone is reacting so calmly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1859..1862
+16,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1814..1857
+16,0;16,1;16,2;16,3
+#### Text ####
+Not everyone is reacting so calmly, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1863..2059
+16,5
+#### Text ####
+many wonder about the long-term implications of what is widely viewed as the cause of Friday's slide, reluctance by banks to provide financing for a buy-out of UAL Corp., parent of United Airlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2215
+18
+#### Features ####
+Ot, Comm, Null, Null
+2063..2115
+17,0;17,1,0;17,2
+#### Text ####
+Marc Perkins, a Tampa, Fla., investment banker, said
+##############
+indeed, Expansion.Restatement.Equivalence
+____Arg1____
+2116..2213
+17,1,1
+#### Text ####
+the market drop is one of "a tremendous number of signs that the leveraged take-out era is ending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2215..2293
+18
+#### Text ####
+There's no question that there's a general distaste for leverage among lenders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2318..2325
+19,2,2
+#### Text ####
+however
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2296..2316
+19,0;19,1;19,2,0;19,2,1;19,2,3;19,3
+#### Text ####
+Mr. Perkins believes
+##############
+however, Comparison.Contrast
+____Arg1____
+2116..2213
+17,1,1
+#### Text ####
+the market drop is one of "a tremendous number of signs that the leveraged take-out era is ending
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2063..2115
+17,0;17,1,0;17,2
+#### Text ####
+Marc Perkins, a Tampa, Fla., investment banker, said
+##############
+____Arg2____
+2327..2464
+19,2,4
+#### Text ####
+that the market could be stabilized if California investor Marvin Davis steps back in to the United bidding with an offer of $275 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2363..2365
+19,2,4,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2298..2316
+19,1,1;19,2,0;19,2,1;19,2,3
+#### Text ####
+. Perkins believes
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2327..2362
+19,2,4,0;19,2,4,1,0;19,2,4,1,1,0;19,2,4,1,1,1,0;19,2,4,1,1,1,1,0;19,2,4,1,1,1,1,1
+#### Text ####
+that the market could be stabilized
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2366..2464
+19,2,4,1,1,1,1,2,1
+#### Text ####
+California investor Marvin Davis steps back in to the United bidding with an offer of $275 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2618
+21
+#### Features ####
+Ot, Comm, Null, Null
+2664..2672
+21,2,1,2,1
+#### Text ####
+she says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2520..2615
+20,1,1
+#### Text ####
+she's generally skittish about the stock market and the takeover activity that seems to fuel it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2468..2519
+20,0;20,1,0;20,2
+#### Text ####
+Sara Albert, a 34-year-old Dallas law student, says
+##############
+____Arg2____
+2618..2661
+21,0;21,1;21,2,0;21,2,1,0;21,2,1,1;21,2,1,2,0;21,3;21,4
+#### Text ####
+I have this feeling that it's built on sand
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2697..2700
+21,2,1,2,2,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2664..2672
+21,2,1,2,1
+#### Text ####
+she says
+##############
+but, Comparison.Contrast
+____Arg1____
+2674..2695
+21,2,1,2,2,0;21,2,1,2,2,1,0;21,2,1,2,2,1,1
+#### Text ####
+that the market rises
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2701..2728
+21,2,1,2,2,1,3
+#### Text ####
+there's no foundation to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2731
+22
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+2618..2661;2674..2728
+21,0;21,1;21,2,0;21,2,1,0;21,2,1,1;21,2,1,2,0;21,2,1,2,2;21,3;21,4
+#### Text ####
+I have this feeling that it's built on sand that the market rises "but there's no foundation to it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2664..2672
+21,2,1,2,1
+#### Text ####
+she says
+##############
+____Arg2____
+2731..2822
+22,0;22,1,0;22,1,1;22,1,2;22,1,3;22,1,4;22,2
+#### Text ####
+She and her husband pulled most of their investments out of the market after the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2824..2832
+22,1,5,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2731..2822
+22,0;22,1,0;22,1,1;22,1,2;22,1,3;22,1,4;22,2
+#### Text ####
+She and her husband pulled most of their investments out of the market after the 1987 crash
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2833..2865
+22,1,5,1
+#### Text ####
+she still owns some Texaco stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2867
+23
+____Arg1____
+2731..2865
+22
+#### Text ####
+She and her husband pulled most of their investments out of the market after the 1987 crash, although she still owns some Texaco stock
+##############
+____Arg2____
+2867..3048
+23
+#### Text ####
+Partly because of concern about the economy and partly because she recently quit her job as a legal assistant to go to school, "I think at this point we want to be a lot more liquid
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2915..2929
+23,0,2,0;23,0,2,1
+#### Text ####
+partly because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3003..3048
+23,1;23,2;23,4,1;23,4,2;23,5;23,6
+#### Text ####
+at this point we want to be a lot more liquid
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2995..3002
+23,1;23,2;23,3;23,4,0;23,5;23,6
+#### Text ####
+I think
+##############
+____Arg2____
+2867..2914;2930..2992
+23,0,0;23,0,1;23,0,2,2
+#### Text ####
+Partly because of concern about the economy and she recently quit her job as a legal assistant to go to school
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3128
+25
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3053..3125
+24
+#### Text ####
+Others wonder how many more of these shocks the small investor can stand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3128..3220
+25
+#### Text ####
+We all assumed October '87 was a one-time shot," said San Francisco attorney David Greenberg
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3223
+26
+#### Features ####
+Ot, Comm, Null, Null
+3177..3220
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+said San Francisco attorney David Greenberg
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3128..3174
+25,1
+#### Text ####
+We all assumed October '87 was a one-time shot
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3223..3299
+26
+#### Text ####
+We told the little guy it could only happen once in a lifetime, come on back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3301
+27
+#### Features ####
+Ot, Comm, Null, Null
+3177..3220
+25,0;25,2;25,3;25,4;25,5;25,6
+#### Text ####
+said San Francisco attorney David Greenberg
+##############
+but, Comparison.Contrast
+____Arg1____
+3223..3299
+26
+#### Text ####
+We told the little guy it could only happen once in a lifetime, come on back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3301..3325
+27
+#### Text ####
+Now it's happening again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3328
+28
+____Arg1____
+3301..3325
+27
+#### Text ####
+Now it's happening again
+##############
+____Arg2____
+3328..3438
+28
+#### Text ####
+Mr. Greenberg got out just before the 1987 crash and, to his regret, never went back even as the market soared
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3413..3420
+28,1,3,5,0;28,1,3,5,1
+#### Text ####
+even as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+3377..3412
+28,1,1;28,1,2;28,1,3,0;28,1,3,1;28,1,3,2;28,1,3,3;28,1,3,4
+#### Text ####
+and, to his regret, never went back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3421..3438
+28,1,3,5,2
+#### Text ####
+the market soared
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3440
+29
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+3328..3438
+28
+#### Text ####
+Mr. Greenberg got out just before the 1987 crash and, to his regret, never went back even as the market soared
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3440..3496
+29
+#### Text ####
+This time he's ready to buy in "when the panic wears off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3472..3476
+29,2,1,1,1,1,3,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3440..3460
+29,0;29,1;29,2,0;29,2,1,0;29,3;29,4
+#### Text ####
+This time he's ready
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+3461..3470
+29,2,1,1,0;29,2,1,1,1,0;29,2,1,1,1,1,0;29,2,1,1,1,1,1;29,2,1,1,1,1,2
+#### Text ####
+to buy in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3477..3496
+29,2,1,1,1,1,3,1
+#### Text ####
+the panic wears off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3499..3504
+30,0
+#### Text ####
+Still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3506..3513
+30,1;30,2;30,3,0;30,3,1;30,3,2;30,4
+#### Text ####
+he adds
+##############
+still, Comparison.Contrast
+____Arg1____
+3440..3496
+29
+#### Text ####
+This time he's ready to buy in "when the panic wears off
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+3516..3566
+30,3,3
+#### Text ####
+We can't have this kind of thing happen very often
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3568
+31
+#### Features ####
+Ot, Comm, Null, Null
+3499..3513
+30,0;30,1;30,2;30,3,0;30,3,1;30,3,2;30,4
+#### Text ####
+Still, he adds
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3516..3566
+30,3,3
+#### Text ####
+We can't have this kind of thing happen very often
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3568..3628
+31
+#### Text ####
+When the little guy gets frightened, the big guys hurt badly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3568..3572
+31,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+3605..3628
+31,1;31,2;31,3;31,4
+#### Text ####
+the big guys hurt badly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3573..3603
+31,0,1
+#### Text ####
+the little guy gets frightened
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3630
+32
+#### Features ####
+Ot, Comm, Null, Null
+3499..3513
+30,0;30,1;30,2;30,3,0;30,3,1;30,3,2;30,4
+#### Text ####
+Still, he adds
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3568..3628
+31
+#### Text ####
+When the little guy gets frightened, the big guys hurt badly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3630..3680
+32
+#### Text ####
+Merrill Lynch can't survive without the little guy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3792
+34
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+3685..3790
+33
+#### Text ####
+Small investors have tiptoed back into the market following Black Monday, but mostly through mutual funds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3792..3901
+34,0
+#### Text ####
+Discount brokerage customers "have been in the market somewhat but not whole hog like they were two years ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3904..3981
+34,1;34,2;34,3;34,4;34,5
+#### Text ####
+says Leslie Quick Jr., chairman of the Quick & Reilly discount brokerage firm
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4053
+35
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3792..3901
+34,0
+#### Text ####
+Discount brokerage customers "have been in the market somewhat but not whole hog like they were two years ago
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3904..3981
+34,1;34,2;34,3;34,4;34,5
+#### Text ####
+says Leslie Quick Jr., chairman of the Quick & Reilly discount brokerage firm
+##############
+____Arg2____
+4053..4122
+35,1,1
+#### Text ####
+Schwab customers "have been neutral to cautious recently about stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3983..4052
+35,0;35,1,0;35,2;35,3
+#### Text ####
+Hugo Quackenbush, senior vice president at Charles Scwhab Corp., says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4125
+36
+#### Features ####
+Ot, Comm, Null, Null
+4185..4205
+36,1;36,2;36,3;36,4
+#### Text ####
+Mr. Quackenbush says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+4053..4122
+35,1,1
+#### Text ####
+Schwab customers "have been neutral to cautious recently about stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3983..4052
+35,0;35,1,0;35,2;35,3
+#### Text ####
+Hugo Quackenbush, senior vice president at Charles Scwhab Corp., says
+##############
+____Arg2____
+4125..4183
+36,0
+#### Text ####
+Individual investors are still angry about program trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4393..4396
+38,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..93
+0,0
+#### Text ####
+Small investors matched their big institutional brethren in anxiety over the weekend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4397..4465
+38,1;38,2;38,3
+#### Text ####
+it's not only the stock market that has some small investors worried
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4467
+39
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4393..4465
+38
+#### Text ####
+But it's not only the stock market that has some small investors worried
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4467..4640
+39
+#### Text ####
+Alan Helfman, general sales manager of a Chrysler dealership in Houston, said he and his mother have some joint stock investments, but the overall economy is his chief worry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4598..4601
+39,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4467..4544
+39,0;39,1,0;39,2
+#### Text ####
+Alan Helfman, general sales manager of a Chrysler dealership in Houston, said
+##############
+but, Comparison.Contrast
+____Arg1____
+4545..4596
+39,1,1,1,0
+#### Text ####
+he and his mother have some joint stock investments
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4602..4640
+39,1,1,1,3
+#### Text ####
+the overall economy is his chief worry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4815..4818
+41,1
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4819..4833
+41,0;41,2;41,3,0;41,3,1,0;41,3,1,1;41,4;41,5
+#### Text ####
+I can tell you
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+4645..4685
+40,1
+#### Text ####
+These high rollers took a big bath today
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4688..4711
+40,0;40,2;40,3;40,4;40,5,0;40,5,1;40,5,2,0;40,5,2,1,0;40,5,2,1,1;40,6
+#### Text ####
+he said in his showroom
+##############
+____Arg2____
+4834..4918
+41,3,1,2
+#### Text ####
+that a high roller isn't going to come in tomorrow and buy a Chrysler TC by Maserati
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4921..4924
+42,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+4645..4918
+40;41
+#### Text ####
+These high rollers took a big bath today," he said in his showroom, which is within a few miles of the multi-million dollar homes of some of Houston's richest citizens. "And I can tell you that a high roller isn't going to come in tomorrow and buy a Chrysler TC by Maserati
+##############
+____Arg1____
+4393..4465
+38
+#### Text ####
+But it's not only the stock market that has some small investors worried
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4926..4958
+42,1;42,2;42,3;42,4;42,5;42,6
+#### Text ####
+finally, there were the gloaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+4961..5186
+43;44;45
+#### Text ####
+I got out in 1987.
+Everything," said Pascal Antori, an Akron, Ohio, plumbing contractor who was visiting Chicago and stopped by Fidelity Investments' LaSalle Street office. "I just stopped by to see how much I would have lost
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4926..4933
+42,2
+#### Text ####
+finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Expansion.Conjunction
+____Arg1____
+1859..2059;3053..3125
+16,4;16,5;16,6;24
+#### Text ####
+and many wonder about the long-term implications of what is widely viewed as the cause of Friday's slide, reluctance by banks to provide financing for a buy-out of UAL Corp., parent of United Airlines Others wonder how many more of these shocks the small investor can stand
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4921..4924;4935..4958
+42,0;42,1;42,3;42,4;42,5;42,6
+#### Text ####
+And there were the gloaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4961
+43
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+4921..4958
+42
+#### Text ####
+And, finally, there were the gloaters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4961..5132
+43;44
+#### Text ####
+I got out in 1987.
+Everything," said Pascal Antori, an Akron, Ohio, plumbing contractor who was visiting Chicago and stopped by Fidelity Investments' LaSalle Street office
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5135
+45
+#### Features ####
+Ot, Comm, Null, Null
+4993..5132
+44,1;44,2;44,3;44,4;44,5
+#### Text ####
+said Pascal Antori, an Akron, Ohio, plumbing contractor who was visiting Chicago and stopped by Fidelity Investments' LaSalle Street office
+##############
+in fact, Expansion.Restatement.Specification
+____Arg1____
+4961..4990
+43;44,0;44,1;44,2;44,5
+#### Text ####
+I got out in 1987.
+Everything
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5135..5186
+45
+#### Text ####
+I just stopped by to see how much I would have lost
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5244
+48
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5227..5242
+47
+#### Text ####
+Are you kidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5244..5296
+48
+#### Text ####
+When it comes to money: Once bitten, 2,000 times shy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5244..5248
+48,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5197..5207
+46,1;46,4
+#### Text ####
+Mr. Antori
+##############
+when, Contingency.Condition.General
+____Arg1____
+5268..5296
+48,1;48,2;48,3;48,4;48,5;48,6
+#### Text ####
+Once bitten, 2,000 times shy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5249..5266
+48,0,1
+#### Text ####
+it comes to money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5268..5272
+48,2,0
+#### Text ####
+Once
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5197..5207
+46,1;46,4
+#### Text ####
+Mr. Antori
+##############
+once, Temporal.Asynchronous.Succession
+____Arg1____
+5281..5296
+48,1;48,3;48,4;48,5;48,6
+#### Text ####
+2,000 times shy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5273..5279
+48,2,1;48,2,2
+#### Text ####
+bitten
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

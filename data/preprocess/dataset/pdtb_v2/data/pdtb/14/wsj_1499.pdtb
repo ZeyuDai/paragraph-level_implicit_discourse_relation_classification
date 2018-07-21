@@ -1,0 +1,1324 @@
+________________________________________________________
+____EntRel____
+16
+1
+____Arg1____
+9..14
+0
+#### Text ####
+Ducks
+##############
+____Arg2____
+16..77
+1
+#### Text ####
+If the White House spots one, it intends to fire a veto at it
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+16..18
+1,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+46..77
+1,1;1,2;1,3;1,4
+#### Text ####
+it intends to fire a veto at it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+19..44
+1,0,1
+#### Text ####
+the White House spots one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+179..181
+2,1,3,1,2,2,0,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+125..172
+2,1,2;2,1,3,0;2,1,3,1,0;2,1,3,1,1
+#### Text ####
+under OMB Director Richard Darman's formulation
+##############
+if, Contingency.Condition.General
+____Arg1____
+173..177;246..257
+2,1,3,1,2,0;2,1,3,1,2,1;2,1,3,1,2,2,1;2,1,3,1,2,2,2;2,1,3,1,2,2,3
+#### Text ####
+that it's a duck
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+182..244
+2,1,3,1,2,2,0,1
+#### Text ####
+it looks like a duck, walks like a duck and quacks like a duck
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+260
+3
+____Arg1____
+81..257
+2
+#### Text ####
+Ducks are this season's word for new taxes, under OMB Director Richard Darman's formulation that "if it looks like a duck, walks like a duck and quacks like a duck, it's a duck
+##############
+____Arg2____
+260..300
+3
+#### Text ####
+George Bush is quite clear: No new ducks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+304..307
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+81..300
+2;3
+#### Text ####
+Ducks are this season's word for new taxes, under OMB Director Richard Darman's formulation that "if it looks like a duck, walks like a duck and quacks like a duck, it's a duck." George Bush is quite clear: No new ducks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+308..368
+4,1;4,2
+#### Text ####
+what about all those non-duck ducks flapping over Washington
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+523
+6
+#### Features ####
+Ot, PAtt, Null, Null
+370..402
+5,0;5,1,0;5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,2
+#### Text ####
+We see a whole flock of programs
+##############
+for instance, Expansion.Instantiation
+____Arg1____
+403..521
+5,1,1,1,1,1
+#### Text ####
+that will impose significant costs on the American economy in the form of burdensome regulation and higher liabilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+523..619
+6;7;8
+#### Text ####
+Federal child care (quack).
+The Clean Air bill (quack).
+The disabled-workers bill (quack, quack)
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+551
+7
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+523..548
+6
+#### Text ####
+Federal child care (quack
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..576
+7
+#### Text ####
+The Clean Air bill (quack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+579
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+523..577
+6;7
+#### Text ####
+Federal child care (quack).
+The Clean Air bill (quack)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+579..618
+8
+#### Text ####
+The disabled-workers bill (quack, quack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+711
+9
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Specification
+____Arg1____
+623..709
+9,0
+#### Text ####
+The Bush White House is breeding non-duck ducks the same way the Nixon White House did
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+711..1014
+9,2;10;11
+#### Text ####
+It hops on an issue that is unopposable -- cleaner air, better treatment of the disabled, better child care.
+It comes up with a toned-down version of a Democratic proposal.
+The bill gets signed into law and then the administration watches helplessly, wondering where all the "unexpected" costs came from
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+820
+10
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+711..818
+9,2
+#### Text ####
+It hops on an issue that is unopposable -- cleaner air, better treatment of the disabled, better child care
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+820..882
+10
+#### Text ####
+It comes up with a toned-down version of a Democratic proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+884
+11
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+820..882
+10
+#### Text ####
+It comes up with a toned-down version of a Democratic proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+884..913
+11,0
+#### Text ####
+The bill gets signed into law
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+914..917
+11,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+884..913
+11,0
+#### Text ####
+The bill gets signed into law
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+918..1014
+11,2
+#### Text ####
+then the administration watches helplessly, wondering where all the "unexpected" costs came from
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+918..922
+11,2,0
+#### Text ####
+then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+884..913
+11,0
+#### Text ####
+The bill gets signed into law
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+914..917;923..960
+11,1;11,2,1;11,2,2,0;11,2,2,1;11,2,2,2;11,3
+#### Text ####
+and the administration watches helplessly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+962..1014
+11,2,2,3
+#### Text ####
+wondering where all the "unexpected" costs came from
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1028..1040
+12,1,2
+#### Text ####
+for instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Sup1____
+711..1014
+9,2;10;11
+#### Text ####
+It hops on an issue that is unopposable -- cleaner air, better treatment of the disabled, better child care.
+It comes up with a toned-down version of a Democratic proposal.
+The bill gets signed into law and then the administration watches helplessly, wondering where all the "unexpected" costs came from
+##############
+____Arg1____
+623..709
+9,0
+#### Text ####
+The Bush White House is breeding non-duck ducks the same way the Nixon White House did
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1018..1026;1042..1091
+12,0;12,1,0;12,1,1;12,1,3;12,1,4;12,2
+#### Text ####
+Consider the very fat fowl known as federalized child care
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1093..1602
+13;14;15;16;17
+#### Text ####
+The President came up with a good bill, but now may end up signing the awful bureaucratic creature hatched on Capitol Hill.
+It would create 38,000 local day-care commissions, answerable to the Department of Health and Human Services.
+They'd determine where parents could store their kids during the day, and they'd regulate the storage facilities.
+The initial costs are said to be in the $2 billion a year range, but that's only the beginning.
+New entitlements tend to grow, creating a rationale for new taxes
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1093
+13
+____Arg1____
+1018..1091
+12
+#### Text ####
+Consider, for instance, the very fat fowl known as federalized child care
+##############
+____Arg2____
+1093..1215
+13
+#### Text ####
+The President came up with a good bill, but now may end up signing the awful bureaucratic creature hatched on Capitol Hill
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1217
+14
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1133..1215
+13,1,2;13,1,3;13,2
+#### Text ####
+but now may end up signing the awful bureaucratic creature hatched on Capitol Hill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1217..1325
+14
+#### Text ####
+It would create 38,000 local day-care commissions, answerable to the Department of Health and Human Services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1327
+15
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1217..1325
+14
+#### Text ####
+It would create 38,000 local day-care commissions, answerable to the Department of Health and Human Services
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1327..1439
+15
+#### Text ####
+They'd determine where parents could store their kids during the day, and they'd regulate the storage facilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1397..1400
+15,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1327..1395
+15,0
+#### Text ####
+They'd determine where parents could store their kids during the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1401..1439
+15,3
+#### Text ####
+they'd regulate the storage facilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1441
+16
+____Arg1____
+1327..1439
+15
+#### Text ####
+They'd determine where parents could store their kids during the day, and they'd regulate the storage facilities
+##############
+____Arg2____
+1441..1535
+16
+#### Text ####
+The initial costs are said to be in the $2 billion a year range, but that's only the beginning
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1506..1509
+16,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1441..1504
+16,0
+#### Text ####
+The initial costs are said to be in the $2 billion a year range
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1510..1535
+16,3
+#### Text ####
+that's only the beginning
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1537
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1441..1535
+16
+#### Text ####
+The initial costs are said to be in the $2 billion a year range, but that's only the beginning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1537..1602
+17
+#### Text ####
+New entitlements tend to grow, creating a rationale for new taxes
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1604
+18
+____Arg1____
+1537..1602
+17
+#### Text ####
+New entitlements tend to grow, creating a rationale for new taxes
+##############
+____Arg2____
+1604..1609
+18
+#### Text ####
+Quack
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1730..1733
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1613..1728
+19,0
+#### Text ####
+The administration claims that its Clean Air bill will cost businesses between $14 billion and $19 billion annually
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1734..1841
+19,3
+#### Text ####
+economist Michael Evans estimates that the costs for firms will actually be in the $60 billion a year range
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1860..1864
+20,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1639..1841
+19,0,1,1;19,1;19,2;19,3;19,4
+#### Text ####
+that its Clean Air bill will cost businesses between $14 billion and $19 billion annually, but economist Michael Evans estimates that the costs for firms will actually be in the $60 billion a year range
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1613..1638
+19,0,0;19,0,1,0
+#### Text ####
+The administration claims
+##############
+____Arg2____
+1845..1859;1865..1923
+20,0;20,2;20,3
+#### Text ####
+The House bill distorts economic efficiency in all sorts of perverse ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1925..1936
+21,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1845..1923
+20
+#### Text ####
+The House bill also distorts economic efficiency in all sorts of perverse ways
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1938..2029
+21,1;21,2;21,3;21,4
+#### Text ####
+the administration proposal imposes extremely tough emissions standards on new power plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2031..2033
+22,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+1925..2029
+21
+#### Text ####
+For example, the administration proposal imposes extremely tough emissions standards on new power plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2034..2127
+22,1;22,2;22,3;22,4;22,5
+#### Text ####
+instead of building more efficient modern plants, utilities stick scrubbers on the old plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2129
+23
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+2031..2127
+22
+#### Text ####
+So instead of building more efficient modern plants, utilities stick scrubbers on the old plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2129..2218
+23
+#### Text ####
+The money spent on scrubbers is diverted from planned research on new, cleaner technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2231..2235
+24,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+2031..2218
+22;23
+#### Text ####
+So instead of building more efficient modern plants, utilities stick scrubbers on the old plants.
+The money spent on scrubbers is diverted from planned research on new, cleaner technology
+##############
+____Arg1____
+1925..2029
+21
+#### Text ####
+For example, the administration proposal imposes extremely tough emissions standards on new power plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2222..2230;2236..2306
+24,0;24,2,0;24,2,1;24,2,2;24,2,3;24,2,4;24,3
+#### Text ####
+The bill imposes the California auto-emissions standards on all cars nationwide
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2308..2313
+24,2,5,0;24,2,5,1
+#### Text ####
+as if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as if, Comparison.Concession.Contra-expectation
+____Arg1____
+2222..2306
+24,0;24,1;24,2,0;24,2,1;24,2,2;24,2,3;24,2,4;24,3
+#### Text ####
+The bill also imposes the California auto-emissions standards on all cars nationwide
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2314..2402
+24,2,5,2
+#### Text ####
+a car registered in Big Sky, Montana, needed to be as clean as one driven in Los Angeles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2404
+25
+____Arg1____
+2222..2402
+24
+#### Text ####
+The bill also imposes the California auto-emissions standards on all cars nationwide, as if a car registered in Big Sky, Montana, needed to be as clean as one driven in Los Angeles
+##############
+____Arg2____
+2404..2498
+25
+#### Text ####
+Proponents of the nationwide standards say the cost for car buyers would be about $500 per car
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2500
+26
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+2404..2498
+25
+#### Text ####
+Proponents of the nationwide standards say the cost for car buyers would be about $500 per car
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2500..2539
+26
+#### Text ####
+Other analysts say that estimate is low
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2541
+27
+____Arg1____
+2500..2539
+26
+#### Text ####
+Other analysts say that estimate is low
+##############
+____Arg2____
+2541..2546
+27
+#### Text ####
+Quack
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2639..2646
+28,1,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2550..2637
+28,0;28,1,0;28,1,1;28,1,2;28,2
+#### Text ####
+Nobody knows how many billions of dollars the Americans With Disabilities Act will cost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2647..2681
+28,1,3,1
+#### Text ####
+nobody knows what the bill entails
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2683
+29
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion
+____Arg1____
+2550..2681
+28
+#### Text ####
+Nobody knows how many billions of dollars the Americans With Disabilities Act will cost, because nobody knows what the bill entails
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2683..2758
+29
+#### Text ####
+It is an intentionally vague document that will create a wave of litigation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2760
+30
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2683..2758
+29
+#### Text ####
+It is an intentionally vague document that will create a wave of litigation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2760..2824
+30
+#### Text ####
+Judges will write the real bill as suits roll through the courts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2792..2794
+30,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2760..2791
+30,0;30,1,0;30,1,1,0;30,1,1,1;30,2
+#### Text ####
+Judges will write the real bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2795..2824
+30,1,1,2,1
+#### Text ####
+suits roll through the courts
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2826
+31
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+2760..2824
+30
+#### Text ####
+Judges will write the real bill as suits roll through the courts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2826..2846
+31
+#### Text ####
+Lawyers will benefit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2848
+32
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+2826..2846
+31
+#### Text ####
+Lawyers will benefit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2848..2932
+32
+#### Text ####
+Private companies, and ultimately their customers, will end up footing the huge bill
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3035
+34
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion
+____Arg1____
+2936..3033
+33
+#### Text ####
+The effect of Nixon era non-duck ducks was an economy clogged up with regulations and distortions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3035..3111
+34,0;34,1,0;34,1,1,0;34,1,1,1;34,1,1,2;34,1,1,3;34,1,1,4;34,1,1,5,0;34,1,1,5,1,0;34,1,1,5,1,1;34,2
+#### Text ####
+All this was recognized and documented in the succeeding years by economists
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3292..3296
+35,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+2936..3033
+33
+#### Text ####
+The effect of Nixon era non-duck ducks was an economy clogged up with regulations and distortions
+##############
+____Arg1____
+3035..3111
+34,0;34,1,0;34,1,1,0;34,1,1,1;34,1,1,2;34,1,1,3;34,1,1,4;34,1,1,5,0;34,1,1,5,1,0;34,1,1,5,1,1;34,2
+#### Text ####
+All this was recognized and documented in the succeeding years by economists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3240..3291;3297..3356
+35,0;35,1;35,2;35,4;35,5
+#### Text ####
+Running for President in 1980 and 1988, George Bush persuasively diagnosed the economic stagnation of the 1970s
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3358..3365
+36,0
+#### Text ####
+In fact
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion
+____Arg1____
+3280..3356
+35,1;35,2;35,3;35,4;35,5
+#### Text ####
+George Bush also persuasively diagnosed the economic stagnation of the 1970s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3367..3511
+36,1;36,2;36,3;36,4;36,5;36,6;36,7
+#### Text ####
+during last year's campaign, the entire nation constantly heard Mr. Bush tout his accomplishments as head of the Task Force on Regulatory Relief
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3671..3675
+37,5,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3516..3670
+37,0;37,1;37,2;37,3;37,4;37,5,0;37,5,1;37,6
+#### Text ####
+Government continues to inhibit the productivity of our citizenry and the international competitiveness of American business," the vice president declared
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3676..3705
+37,5,2,1
+#### Text ####
+he was head of the task force
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3709..3712
+38,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3358..3511
+36
+#### Text ####
+In fact, during last year's campaign, the entire nation constantly heard Mr. Bush tout his accomplishments as head of the Task Force on Regulatory Relief
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3713..3876
+38,1;38,2;38,3;38,4;38,5
+#### Text ####
+with the impending passage of these new programs, Mr. Bush will surely be sending many people hurtling back into the regulatory thicket that he had helped cut back
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3878
+39
+____Arg1____
+3709..3876
+38
+#### Text ####
+But with the impending passage of these new programs, Mr. Bush will surely be sending many people hurtling back into the regulatory thicket that he had helped cut back
+##############
+____Arg2____
+3878..3945
+39
+#### Text ####
+By 1986, the number of federal regulators was down to about 103,000
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3947
+40
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition, Temporal.Asynchronous.Precedence
+____Arg1____
+3878..3945
+39
+#### Text ####
+By 1986, the number of federal regulators was down to about 103,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3947..4048
+40
+#### Text ####
+Then it turned up, and by one estimate the number will be up to about 109,000 regulators by next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3947..3951
+40,0,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+3878..3945
+39
+#### Text ####
+By 1986, the number of federal regulators was down to about 103,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3952..3964
+40,0,1;40,0,2
+#### Text ####
+it turned up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3966..3969
+40,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3947..3964
+40,0
+#### Text ####
+Then it turned up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3970..4048
+40,3
+#### Text ####
+by one estimate the number will be up to about 109,000 regulators by next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4158..4164
+42,1,1,1,3
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison
+____Arg1____
+4052..4126
+41
+#### Text ####
+Holding the dam on taxes is the most important task of the Bush presidency
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4128..4156;4166..4316
+42,0;42,1,0;42,1,1,0;42,1,1,1,0;42,1,1,1,1;42,1,1,1,2;42,1,1,1,4;42,1,1,1,5;42,2
+#### Text ####
+We would have thought by now that there was a significant core of people involved in government life who understood that direct taxation isn't the only way to slow down an economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4318
+43
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+4253..4316
+42,1,1,1,5,1,1,1,1,1,2,1,1,1
+#### Text ####
+that direct taxation isn't the only way to slow down an economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4318..4347
+43
+#### Text ####
+It is merely the most obvious
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4349
+44
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion
+____Arg1____
+4318..4347
+43
+#### Text ####
+It is merely the most obvious
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4349..4474
+44
+#### Text ####
+What is even more ironic is that all over the world nations are learning that well-intentioned public programs often backfire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4476..4479
+45,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion
+____Arg1____
+4349..4474
+44
+#### Text ####
+What is even more ironic is that all over the world nations are learning that well-intentioned public programs often backfire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4480..4578
+45,1;45,2;45,3;45,4;45,5
+#### Text ####
+while they are unloading these burdens, the United States is close to creating three more big ones
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4480..4485
+45,1,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast, Temporal.Synchrony
+____Arg1____
+4476..4479;4520..4578
+45,0;45,2;45,3;45,4;45,5
+#### Text ####
+But the United States is close to creating three more big ones
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4486..4518
+45,1,1
+#### Text ####
+they are unloading these burdens
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,97 @@
+________________________________________________________
+____EntRel____
+314
+2
+____Arg1____
+206..312
+1
+#### Text ####
+The troubled disk drive maker aims with the new 3 1/2-inch disks to revive its reputation and sales growth
+##############
+____Arg2____
+314..398
+2
+#### Text ####
+MiniScribe said the disk drives have more memory capacity than other disks that size
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+533
+4
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+418..531
+3,1,1
+#### Text ####
+it expects to begin full volume production of the drives in the U.S. and Singapore in the first quarter next year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+402..417
+3,0;3,1,0;3,2
+#### Text ####
+MiniScribe said
+##############
+____Arg2____
+533..629
+4
+#### Text ####
+A drive with 120 megabytes of capacity is scheduled for release during the third quarter of 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+666..671
+5,1,1,2,0
+#### Text ####
+since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+633..665
+5,0;5,1,0;5,1,1,0;5,1,1,1;5,2
+#### Text ####
+MiniScribe has been on the rocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+672..752
+5,1,1,2,1
+#### Text ####
+it disclosed early this year that its earnings reports for 1988 weren't accurate
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+754
+6
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+633..752
+5
+#### Text ####
+MiniScribe has been on the rocks since it disclosed early this year that its earnings reports for 1988 weren't accurate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+754..947
+6
+#### Text ####
+After an internal investigation, the company found that senior officials used a variety of schemes to fabricate sales gains, including counting shipments of bricks and defective drives as sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

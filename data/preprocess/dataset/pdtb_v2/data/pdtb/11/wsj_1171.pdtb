@@ -1,0 +1,1027 @@
+________________________________________________________
+____Explicit____
+173..176
+1,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+9..169
+0
+#### Text ####
+Benjamin Jacobson & Sons has been the New York Stock Exchange specialist firm in charge of trading stock in UAL Corp. and its predecessors since the early 1930s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+177..220
+1,1;1,2;1,3
+#### Text ####
+the firm has never had a day like yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+280
+3
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+224..278
+2
+#### Text ####
+At first UAL didn't open because of an order imbalance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+280..391
+3
+#### Text ####
+When it did a half-hour into the session, it was priced at $150 a share, down more than $28 from Monday's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+280..284
+3,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+322..391
+3,1;3,2;3,3;3,4
+#### Text ####
+it was priced at $150 a share, down more than $28 from Monday's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+285..320
+3,0,1
+#### Text ####
+it did a half-hour into the session
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+393
+4
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+280..391
+3
+#### Text ####
+When it did a half-hour into the session, it was priced at $150 a share, down more than $28 from Monday's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+393..426
+4,0
+#### Text ####
+It sank further to as low as $145
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+428..431
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+393..426
+4,0
+#### Text ####
+It sank further to as low as $145
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+432..549
+4,3
+#### Text ####
+a big rally developed in the last half hour, pushing the stock back up to close at $170, down just $8.375 from Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+551..565
+5,0
+#### Text ####
+In the process
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+428..549
+4,2;4,3;4,4
+#### Text ####
+but a big rally developed in the last half hour, pushing the stock back up to close at $170, down just $8.375 from Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+551..650
+5
+#### Text ####
+In the process, 4.9 million shares traded, making UAL the second most active issue on the Big Board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+669..673
+6,0,0,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+654..668
+6,0,0,0;6,0,0,1,0;6,0,0,1,1
+#### Text ####
+Munching pizza
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+674..684
+6,0,0,1,2,1
+#### Text ####
+they could
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+697..702
+6,0,2,1,1,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+685..696
+6,0,1;6,0,2,0;6,0,2,1,0
+#### Text ####
+and yelling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+703..724
+6,0,2,1,1,1
+#### Text ####
+their voices gave out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+899..902
+8,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+944..1015
+8,1;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said 47-year-old Robert J. Jacobson Jr., grandson of the firm's founder
+##############
+but, Comparison.Contrast
+____Arg1____
+883..897
+7
+#### Text ####
+It was chaotic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+903..939
+8,0,1;8,0,2
+#### Text ####
+we like to call it 'controlled chaos
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1017
+9
+____Arg1____
+899..1015
+8
+#### Text ####
+But we like to call it 'controlled chaos, '" said 47-year-old Robert J. Jacobson Jr., grandson of the firm's founder
+##############
+____Arg2____
+1017..1147
+9
+#### Text ####
+He manned the UAL post yesterday with Christopher Bates, 33, an energetic Long Islander who's a dead ringer for actor Nicolas Cage
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1338
+12
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Conjunction
+____Arg1____
+1183..1229
+11,0;11,1;11,2;11,3;11,6;11,8
+#### Text ####
+Options traders, arbitrage traders -- everyone
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1232..1246
+11,0;11,2;11,3;11,4;11,5;11,6;11,8
+#### Text ####
+said Mr. Bates
+##############
+____Arg2____
+1338..1384
+12,4
+#### Text ####
+There were some pretty bad losses in the stock
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1317..1335
+12,0;12,1;12,2;12,3;12,5;12,6
+#### Text ####
+Added Mr. Jacobson
+##############
+________________________________________________________
+________________________________________________________
+____AltLex____
+1580..1590
+14,0,0,1
+#### Text ####
+subsequent
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Asynchronous.Precedence
+____Arg1____
+1412..1483;1525..1576
+13,1,1,0;13,1,1,1,0,0;13,1,1,1,0,1;13,1,1,1,0,2,0;13,1,1,1,0,2,1;13,1,1,1,0,2,2,0;13,1,1,1,0,2,2,1,0;13,1,1,1,0,2,2,1,1;13,1,1,1,0,2,2,1,3;13,1,1,1,1
+#### Text ####
+a 200,000-share buy order at $150 a share entered by Bear, Stearns & Co is what set off the UAL crowd in the late afternoon
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1389..1411
+13,0;13,1,0;13,2
+#### Text ####
+Big Board traders said
+##############
+____Arg2____
+1578..1738
+14
+#### Text ####
+A subsequent rally in UAL helped the staggering stock market stage an astonishing recovery from an 80-point deficit to finish only slightly below Monday's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1941
+16
+#### Features ####
+Wr, Comm, Null, Null
+therefore, Contingency.Cause.Result
+____Arg1____
+1837..1920
+15,1,1,1;15,1,2;15,1,3;15,2
+#### Text ####
+about the unraveling of UAL takeover plans on the train into work yesterday morning
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1823..1836
+15,0,1;15,0,3;15,1,0;15,1,1,0
+#### Text ####
+read the news
+##############
+____Arg2____
+1941..2049
+16,1,2
+#### Text ####
+it would be a while longer before UAL resumed trading like a regular airline stock after months of gyrations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1922..1940
+16,0;16,1,0;16,1,1;16,2
+#### Text ####
+The news told them
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1968..1974
+16,1,2,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1922..1940
+16,0;16,1,0;16,1,1;16,2
+#### Text ####
+The news told them
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+1941..1967
+16,1,2,0;16,1,2,1,0;16,1,2,1,1,0;16,1,2,1,1,1,0;16,1,2,1,1,1,1
+#### Text ####
+it would be a while longer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1975..2049
+16,1,2,1,1,1,2,1;16,1,2,1,1,1,3
+#### Text ####
+UAL resumed trading like a regular airline stock after months of gyrations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2051
+17
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+1922..2049
+16
+#### Text ####
+The news told them it would be a while longer before UAL resumed trading like a regular airline stock after months of gyrations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2051..2138
+17
+#### Text ####
+When Mr. Jacobson walked into the office at 7:30 a.m. EDT, he announced: "OK, buckle up
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2051..2055
+17,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+2110..2138
+17,1;17,2;17,3;17,4;17,5
+#### Text ####
+he announced: "OK, buckle up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2056..2108
+17,0,1
+#### Text ####
+Mr. Jacobson walked into the office at 7:30 a.m. EDT
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2262
+19
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+2229..2260
+18,1,1;18,1,2;18,2
+#### Text ####
+and immediately spotted trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2262..2375
+19
+#### Text ####
+Already entered in the Big Board's computers and transmitted to their post were sell orders for 65,000 UAL shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2522
+21
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2379..2456
+20,0;20,1,0;20,1,1;20,1,2,0;20,1,2,1;20,1,2,2,0;20,1,2,2,1,0;20,1,2,2,1,1;20,2
+#### Text ####
+The UAL news had already caused a selling furor in the so-called third market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2522..2644
+21
+#### Text ####
+UAL, which closed on the Big Board Monday at $178.375 a share, traded in the third market afterward as low as $158 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2612..2621
+21,1,2
+#### Text ####
+afterward
+##############
+#### Features ####
+Wr, Comm, Null, Null
+afterward, Temporal.Asynchronous.Precedence
+____Arg1____
+2527..2583
+21,0,2
+#### Text ####
+which closed on the Big Board Monday at $178.375 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2522..2525;2585..2611;2622..2644
+21,0,0;21,0,1;21,0,3;21,1,0;21,1,1;21,1,3;21,2
+#### Text ####
+UAL traded in the third market as low as $158 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2646
+22
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+2522..2644
+21
+#### Text ####
+UAL, which closed on the Big Board Monday at $178.375 a share, traded in the third market afterward as low as $158 a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2646..2686
+22
+#### Text ####
+There were rumors of $148-a-share trades
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2817..2820
+24,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2690..2815
+23
+#### Text ####
+In the 45 minutes before the 9:30 opening bell, the Jacobson specialists kept getting sell orders, heavier than they imagined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2821..2934
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+at 9:15, they posted a $135 to $155 "first indication," or the price range in which the stock would probably open
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2936
+25
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2817..2874
+24,0;24,1;24,2;24,3;24,4,0;24,4,1,0;24,4,1,1;24,4,1,2;24,5
+#### Text ####
+And at 9:15, they posted a $135 to $155 "first indication
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2936..2983
+25,0;25,1,0;25,1,1,0;25,1,1,1;25,1,1,2;25,1,1,3;25,1,1,4;25,2
+#### Text ####
+That range was quickly narrowed to $145 to $155
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2985..2993
+25,1,1,5,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+2936..2983
+25,0;25,1,0;25,1,1,0;25,1,1,1;25,1,1,2;25,1,1,3;25,1,1,4;25,2
+#### Text ####
+That range was quickly narrowed to $145 to $155
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2994..3077
+25,1,1,5,1
+#### Text ####
+traders surrounding the post were told that $148 to $150 would be the likely target
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3081..3085
+26,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+3123..3157
+26,1;26,2;26,3;26,4
+#### Text ####
+some 400,000 shares traded at $150
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3086..3121
+26,0,1
+#### Text ####
+UAL finally opened a half hour late
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3159
+27
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+3081..3157
+26
+#### Text ####
+When UAL finally opened a half hour late, some 400,000 shares traded at $150
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3159..3200
+27,0
+#### Text ####
+There was "selling pressure from everyone
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3203..3218
+27,1;27,2;27,3;27,4;27,5
+#### Text ####
+said one trader
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3351
+29
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3222..3349
+28
+#### Text ####
+This month's Friday-the-13th market plunge spurred by UAL news wasn't as bad for the Jacobson specialists as yesterday's action
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3351..3465
+29
+#### Text ####
+On that earlier day, the stock's trading was halted at a critical time so the specialists could catch their breath
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3422..3424
+29,3,1,3,0
+#### Text ####
+so
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3351..3421
+29,0;29,1;29,2;29,3,0;29,3,1,0;29,3,1,1;29,3,1,2;29,4
+#### Text ####
+On that earlier day, the stock's trading was halted at a critical time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3425..3465
+29,3,1,3,1
+#### Text ####
+the specialists could catch their breath
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3467
+30
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+3351..3465
+29
+#### Text ####
+On that earlier day, the stock's trading was halted at a critical time so the specialists could catch their breath
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3467..3480
+30
+#### Text ####
+Not yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3569..3572
+31,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3484..3567
+31,0
+#### Text ####
+Mr. Jacobson, his gray hair flying, didn't wear out his red-white-and-blue sneakers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3573..3631
+31,3
+#### Text ####
+he sweat so much he considered sending out for a new shirt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3696..3699
+33,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+3635..3694
+32
+#### Text ####
+Mr. Bates usually handles day-to-day UAL trading on his own
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3700..3947
+33,1;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+yesterday, the heavy trading action eventually consumed not only Messrs.
+Jacobson and Bates but four other Jacobson partners, all doing their specialist-firm job of tugging buyers and sellers together and adjusting prices to accommodate the market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3949
+34
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3696..3824
+33,0;33,1;33,2;33,3;33,4;33,5,0;33,5,1,0;33,5,1,1;33,5,1,2;33,5,1,3,0;33,5,1,3,1;33,6
+#### Text ####
+But yesterday, the heavy trading action eventually consumed not only Messrs.
+Jacobson and Bates but four other Jacobson partners
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3949..4013
+34,0
+#### Text ####
+About 30 floor traders crammed near the UAL post most of the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4015..4018
+34,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3949..4013
+34,0
+#### Text ####
+About 30 floor traders crammed near the UAL post most of the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4019..4104
+34,3;34,4;34,5
+#### Text ####
+probably hundreds more came and went -- a "seething mass," as one trader described it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4106
+35
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3949..4104
+34
+#### Text ####
+About 30 floor traders crammed near the UAL post most of the day, and probably hundreds more came and went -- a "seething mass," as one trader described it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4106..4226
+35
+#### Text ####
+The 4.9 million-share volume flowing through the Jacobson specialist operation was about five times normal for the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4406..4408
+37,0,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4463..4477
+37,1;37,2;37,3;37,4
+#### Text ####
+said Mr. Bates
+##############
+as, Temporal.Synchrony
+____Arg1____
+4314..4404
+37,0,0;37,0,1,0;37,0,1,1
+#### Text ####
+The Bear Stearns order that marked the late-day turnaround caused a "massive buying effort
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4409..4461
+37,0,1,2,1
+#### Text ####
+UAL jumped $20 a share to $170 in the last half hour
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4479
+38
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4314..4461
+37,0
+#### Text ####
+The Bear Stearns order that marked the late-day turnaround caused a "massive buying effort" as UAL jumped $20 a share to $170 in the last half hour
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4463..4477
+37,1;37,2;37,3;37,4
+#### Text ####
+said Mr. Bates
+##############
+____Arg2____
+4479..4525;4556..4629
+38,0;38,1;38,2;38,3;38,5;38,6;38,7;38,8
+#### Text ####
+With 15 seconds of trading to go, Mr. Jacobson announced to the trading mob: "We're going to trade one price on the bell
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+4632..4642
+39,0;39,1,0
+#### Text ####
+That meant
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Equivalence
+____Arg1____
+4587..4629
+38,6,4
+#### Text ####
+We're going to trade one price on the bell
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4556..4584
+38,1;38,3;38,5;38,6,0;38,6,1;38,6,2;38,6,3;38,7;38,8
+#### Text ####
+announced to the trading mob
+##############
+____Arg2____
+4632..4686
+39,0;39,1,0;39,1,1,0;39,1,1,1,0;39,1,1,1,1,0;39,1,1,1,1,1,0;39,1,1,1,1,1,1;39,1,1,1,1,1,2;39,2
+#### Text ####
+That meant no trading would occur in the final seconds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5030
+42
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+4925..5028
+41
+#### Text ####
+Big Board traders praised the Jacobson specialists for getting through yesterday without a trading halt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5030..5153
+42
+#### Text ####
+In Chicago, a UAL spokesman, "by way of policy," declined to comment on the company's stock or the specialists' performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5347
+44
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason, Expansion.Restatement.Specification
+____Arg1____
+5195..5272
+43,1;43,2;43,3;43,4
+#### Text ####
+the Jacobson specialists made no predictions about how trading might go today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5347..5382
+44,4
+#### Text ####
+It all starts all over again" today
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5274..5344
+44,0;44,1;44,2;44,3;44,5
+#### Text ####
+Said Earl Ellis, a Jacobson partner who got involved in the UAL action
+##############
+________________________________________________________

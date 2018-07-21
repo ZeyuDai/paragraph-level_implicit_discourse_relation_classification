@@ -1,0 +1,630 @@
+________________________________________________________
+____Explicit____
+9..11
+0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Pragmatic condition.Relevance
+____Arg1____
+67..97
+0,1;0,2;0,3;0,4
+#### Text ####
+there's good news and bad news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12..65
+0,0,1
+#### Text ####
+you think you have stress-related problems on the job
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+99
+1
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+9..97
+0
+#### Text ####
+If you think you have stress-related problems on the job, there's good news and bad news
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+99..142
+1
+#### Text ####
+You're probably right, and you aren't alone
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+122..125
+1,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+99..120
+1,0
+#### Text ####
+You're probably right
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+126..142
+1,3
+#### Text ####
+you aren't alone
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+566
+4
+____Arg1____
+385..564
+3
+#### Text ####
+The study surveyed a national group of medical directors, personnel managers and employee assistance program directors about their perceptions of these problems in their companies
+##############
+____Arg2____
+566..702
+4
+#### Text ####
+It is one of a series of studies on health commissioned by the New York Business Group, a non-profit organization with about 300 members
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+704
+5
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+566..702
+4
+#### Text ####
+It is one of a series of studies on health commissioned by the New York Business Group, a non-profit organization with about 300 members
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+704..810
+5,0
+#### Text ####
+The stress study was undertaken because problems related to stress "are much more prevalent than they seem
+##############
+#### Features ####
+Ot, Comm, Null, Null
+813..875
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+said Leon J. Warshaw, executive director of the business group
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+736..743
+5,0,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+813..875
+5,1;5,2;5,3;5,4;5,5
+#### Text ####
+said Leon J. Warshaw, executive director of the business group
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+704..735
+5,0,0;5,0,1,0;5,0,1,1,0;5,0,1,1,1
+#### Text ####
+The stress study was undertaken
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+744..810
+5,0,1,1,2,1
+#### Text ####
+problems related to stress "are much more prevalent than they seem
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1006
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+specifically, Expansion.Restatement.Specification
+____Arg1____
+879..1004
+6
+#### Text ####
+In presenting the study late last week, Dr. Warshaw estimated the cost of these types of disorders to business is substantial
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1006..1131
+7
+#### Text ####
+Occupational disability related to anxiety, depression and stress costs about $8,000 a case in terms of worker's compensation
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1133
+8
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1006..1131
+7
+#### Text ####
+Occupational disability related to anxiety, depression and stress costs about $8,000 a case in terms of worker's compensation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1133..1287
+8
+#### Text ####
+In terms of days lost on the job, the study estimated that each affected employee loses about 16 work days a year because of stress, anxiety or depression
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1464..1466
+10,1,1,1,1,1,2,0
+#### Text ####
+so
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1406..1413
+10,1,0;10,1,1,0
+#### Text ####
+We hope
+##############
+so, Contingency.Cause.Result
+____Arg1____
+1414..1463
+10,1,1,1,0;10,1,1,1,1,0;10,1,1,1,1,1,0;10,1,1,1,1,1,1
+#### Text ####
+to sensitize employers" to recognize the problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1467..1499
+10,1,1,1,1,1,2,1
+#### Text ####
+they can do something about them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1519
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1406..1499
+10,1
+#### Text ####
+We hope to sensitize employers" to recognize the problems so they can do something about them
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1501..1517
+10,0;10,2;10,3;10,4;10,5
+#### Text ####
+Dr. Warshaw said
+##############
+____Arg2____
+1519..1647
+11,0;11,1,0;11,1,1;11,1,2,0;11,1,2,1;11,1,2,2,0;11,1,2,2,1,0;11,1,2,2,1,1;11,1,2,2,1,2,0;11,1,2,2,1,2,1,0;11,1,2,2,1,2,1,1;11,2
+#### Text ####
+Early intervention into these types of problems can apparently save businesses long-term expense associated with hospitalization
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1673..1677
+11,1,2,2,1,2,1,2,1,2,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Cause.Reason, Temporal.Asynchronous.Succession
+____Arg1____
+1649..1672
+11,1,2,2,1,2,1,2,0;11,1,2,2,1,2,1,2,1,0;11,1,2,2,1,2,1,2,1,1;11,1,2,2,1,2,1,2,1,2,0
+#### Text ####
+which sometimes results
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1678..1718
+11,1,2,2,1,2,1,2,1,2,1,1
+#### Text ####
+these problems go untreated for too long
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1914..1917
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1722..1910
+12
+#### Text ####
+Even the courts are beginning to recognize the link between jobs and stress-related disorders in compensation cases, according to a survey by the National Council on Compensation Insurance
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1918..2107
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+although 56% of the respondents in the study indicated that mental-health problems were fairly pervasive in the workplace, there is still a social stigma associated with people seeking help
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1918..1926
+13,1,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1914..1917;2041..2107
+13,0;13,2;13,3;13,4;13,5
+#### Text ####
+But there is still a social stigma associated with people seeking help
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1927..2039
+13,1,1
+#### Text ####
+56% of the respondents in the study indicated that mental-health problems were fairly pervasive in the workplace
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2562..2565
+15,1,3,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2362..2377
+15,0;15,1,0;15,1,2;15,2
+#### Text ####
+The poll showed
+##############
+and, Expansion.List
+____Arg1____
+2446..2560
+15,1,3,0;15,1,3,1,0
+#### Text ####
+with 65% of those in companies of more than 15,000 employees saying stress-related problems were "fairly pervasive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2566..2632
+15,1,3,1,2
+#### Text ####
+55% of those in companies with fewer than 4,000 employees agreeing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2645..2649
+16,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2362..2632
+15
+#### Text ####
+The poll showed that company size had a bearing on a manager's view of the problem, with 65% of those in companies of more than 15,000 employees saying stress-related problems were "fairly pervasive" and 55% of those in companies with fewer than 4,000 employees agreeing
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2636..2644;2650..2722
+16,0;16,2;16,3
+#### Text ####
+The poll noted fear of a takeover as a stress-producing event in larger companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2724
+17
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Restatement.Specification
+____Arg1____
+2636..2722
+16
+#### Text ####
+The poll also noted fear of a takeover as a stress-producing event in larger companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2724..2817
+17
+#### Text ####
+More than eight in 10 respondents reported such a stress-provoking situation in their company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2819
+18
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+2724..2817
+17
+#### Text ####
+More than eight in 10 respondents reported such a stress-provoking situation in their company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2819..2894
+18
+#### Text ####
+Mid-sized companies were most affected by talk of layoffs or plant closings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3010..3014
+19,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2636..2722
+16
+#### Text ####
+The poll also noted fear of a takeover as a stress-producing event in larger companies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2898..2907;3015..3111
+19,0,0;19,0,1;19,0,3;19,2;19,3
+#### Text ####
+The study found 47% of the managers said stress, anxiety and depression contribute to decreased production
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3113
+20
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3021..3111
+19,2,1
+#### Text ####
+47% of the managers said stress, anxiety and depression contribute to decreased production
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3113..3212
+20
+#### Text ####
+Alcohol and substance abuse as a result of stress-related problems was cited by 30% of those polled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3216..3224
+21,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3225..3247
+21,0,1,0;21,0,1,1,0;21,0,1,1,1
+#### Text ####
+Dr. Warshaw points out
+##############
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+3299..3404
+21,1;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+stress perceived to be threatening implies a component of fear and anxiety that may contribute to burnout
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3248..3296
+21,0,1,1,2
+#### Text ####
+that stress and anxiety have their positive uses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3410..3414
+22,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3216..3404
+21
+#### Text ####
+Although Dr. Warshaw points out that stress and anxiety have their positive uses, "stress perceived to be threatening implies a component of fear and anxiety that may contribute to burnout
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3407..3409;3415..3498
+22,0;22,2;22,3;22,4
+#### Text ####
+He noted that various work environments, such as night work, have their own "stressors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3524..3527
+23,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3546..3647
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+says Paul D'Arcy, of Rohrer, Hibler & Replogle, a corporate psychology and management consulting firm
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3504..3522
+23,1,0
+#### Text ####
+We all like stress
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3528..3543
+23,1,3
+#### Text ####
+there's a limit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3649
+24
+#### Features ####
+Ot, Comm, Null, Null
+3662..3693
+24,1
+#### Text ####
+says Mr. D'Arcy, a psychologist
+##############
+however, Comparison.Contrast.Juxtaposition
+____Arg1____
+3504..3543
+23,1
+#### Text ####
+We all like stress, but there's a limit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3546..3647
+23,0;23,2;23,3;23,4;23,5;23,6
+#### Text ####
+says Paul D'Arcy, of Rohrer, Hibler & Replogle, a corporate psychology and management consulting firm
+##############
+____Arg2____
+3649..3660;3695..3781
+24,0;24,2;24,3
+#### Text ####
+The problem is that "it's very hard to get any hard measures on how stress affects job performance
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

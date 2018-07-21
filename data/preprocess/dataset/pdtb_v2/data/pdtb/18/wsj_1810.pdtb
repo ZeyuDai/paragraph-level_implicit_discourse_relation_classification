@@ -1,0 +1,805 @@
+________________________________________________________
+____Explicit____
+57..60
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+9..55
+0,0
+#### Text ####
+The frenetic stock and bond markets cooled off
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+61..79
+0,3
+#### Text ####
+the dollar slumped
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+104..106
+1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+83..103
+1,0;1,1,0;1,1,1;1,2
+#### Text ####
+Stocks rose slightly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+107..171
+1,1,2,1
+#### Text ####
+trading activity slowed from the frenzied pace earlier this week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+173
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+83..171
+1
+#### Text ####
+Stocks rose slightly as trading activity slowed from the frenzied pace earlier this week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+173..248
+2,0;2,1,0;2,1,1;2,1,2;2,1,3;2,2
+#### Text ####
+Prices of long-term Treasury bonds hovered in a narrow band most of the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+482..485
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+367..480
+3
+#### Text ####
+Helped by futures-related program buying, the Dow Jones Industrial Average gained 4.92 points to close at 2643.65
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..599
+4,1;4,2;4,3
+#### Text ####
+the Dow Jones Transportation Average fell for the seventh-consecutive session as more investors dumped UAL shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+564..566
+4,2,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+482..563
+4,0;4,1;4,2,0;4,2,1;4,3
+#### Text ####
+But the Dow Jones Transportation Average fell for the seventh-consecutive session
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+567..599
+4,2,2,1
+#### Text ####
+more investors dumped UAL shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+647..649
+5,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+603..646
+5,0;5,1,0;5,1,1;5,2
+#### Text ####
+Bond prices rallied early yesterday morning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+650..776
+5,1,2,1
+#### Text ####
+traders scrambled to buy Treasury issues on fears that the Northern California earthquake might lead to a stock-market debacle
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+778..781
+6,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+603..776
+5
+#### Text ####
+Bond prices rallied early yesterday morning as traders scrambled to buy Treasury issues on fears that the Northern California earthquake might lead to a stock-market debacle
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+782..837
+6,1;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+when stocks held steady, Treasury bonds later retreated
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+782..786
+6,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+778..781;807..837
+6,0;6,2;6,3;6,4;6,5;6,6
+#### Text ####
+But Treasury bonds later retreated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+787..805
+6,1,1
+#### Text ####
+stocks held steady
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+822..827
+6,4
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Sup1____
+647..776
+5,1,2
+#### Text ####
+as traders scrambled to buy Treasury issues on fears that the Northern California earthquake might lead to a stock-market debacle
+##############
+____Arg1____
+603..646
+5,0;5,1,0;5,1,1;5,2
+#### Text ####
+Bond prices rallied early yesterday morning
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+778..781;807..821;828..837
+6,0;6,2;6,3;6,5;6,6
+#### Text ####
+But Treasury bonds retreated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+782..805
+6,1
+#### Text ####
+when stocks held steady
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+948..953
+7,0,1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..983
+7,1;7,2;7,3;7,4
+#### Text ####
+traders said
+##############
+while, Comparison.Contrast.Opposition
+____Arg1____
+841..947
+7,0,0;7,0,1,0;7,0,1,1,0;7,0,1,1,1;7,0,1,1,2
+#### Text ####
+Speculation that the Federal Reserve will lower interest rates in coming weeks helped push the dollar down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+954..969
+7,0,1,1,3,1
+#### Text ####
+boosting stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+985..988
+8,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+971..983
+7,1;7,2;7,3;7,4
+#### Text ####
+traders said
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+841..969
+7,0
+#### Text ####
+Speculation that the Federal Reserve will lower interest rates in coming weeks helped push the dollar down while boosting stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+989..1028
+8,1;8,2,0;8,2,1;8,2,2;8,3
+#### Text ####
+many investors remain wary about stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+1030..1166
+8,2,3
+#### Text ####
+partly because they expect continued turbulence in the junk-bond market that would make it more difficult to finance corporate takeovers
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1030..1044
+8,2,3,0;8,2,3,1
+#### Text ####
+partly because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+985..1028
+8,0;8,1;8,2,0;8,2,1;8,2,2;8,3
+#### Text ####
+But many investors remain wary about stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1045..1166
+8,2,3,2
+#### Text ####
+they expect continued turbulence in the junk-bond market that would make it more difficult to finance corporate takeovers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1300
+10
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1171..1225
+9,1
+#### Text ####
+I'm surprised we didn't see more volatility" in stocks
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1227..1297
+9,0;9,2;9,3;9,4;9,5
+#### Text ####
+said Raymond F. DeVoe Jr., market strategist at Legg Mason Wood Walker
+##############
+____Arg2____
+1300..1437
+10
+#### Text ####
+I think the problems in the junk-bond area are just beginning, and this will be very unsettling for companies that have issued junk bonds
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1482..1497
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+Mr. DeVoe added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1363..1366
+10,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1227..1297
+9,0;9,2;9,3;9,4;9,5
+#### Text ####
+said Raymond F. DeVoe Jr., market strategist at Legg Mason Wood Walker
+##############
+and, Expansion.Conjunction
+____Arg1____
+1308..1361
+10,1,1,1
+#### Text ####
+the problems in the junk-bond area are just beginning
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1300..1307
+10,1,0;10,1,1,0
+#### Text ####
+I think
+##############
+____Arg2____
+1367..1437
+10,4
+#### Text ####
+this will be very unsettling for companies that have issued junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1439
+11
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1300..1437
+10
+#### Text ####
+I think the problems in the junk-bond area are just beginning, and this will be very unsettling for companies that have issued junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1439..1479;1500..1562
+11,0;12
+#### Text ####
+In a bull market, credit does not matter But when it does matter, then it's the only thing that matters
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1482..1497
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+Mr. DeVoe added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1500..1503
+12,1
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1482..1497
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+Mr. DeVoe added
+##############
+but, Comparison
+____Arg1____
+1439..1479
+11,0
+#### Text ####
+In a bull market, credit does not matter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1504..1562
+12,0;12,2;12,3;12,4;12,5;12,6;12,7;12,8
+#### Text ####
+when it does matter, then it's the only thing that matters
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1504..1508
+12,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1482..1497
+11,1;11,2;11,3;11,4;11,5
+#### Text ####
+Mr. DeVoe added
+##############
+when, Contingency.Condition.General
+____Arg1____
+1500..1503;1525..1562
+12,0;12,1;12,3;12,4;12,5;12,6;12,7;12,8
+#### Text ####
+But then it's the only thing that matters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1509..1523
+12,2,1
+#### Text ####
+it does matter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1567..1574
+13,0,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+985..1028
+8,0;8,1;8,2,0;8,2,1;8,2,2;8,3
+#### Text ####
+But many investors remain wary about stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1576..1677
+13,0,1;13,0,2;13,0,3
+#### Text ####
+many institutional investors are reacting to the stock market's plunge as "a great buying opportunity
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1680..1764
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Charles I. Clough, chief investment strategist at Merrill Lynch Capital Markets
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1767
+14
+#### Features ####
+Ot, Comm, Null, Null
+1680..1764
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Charles I. Clough, chief investment strategist at Merrill Lynch Capital Markets
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1567..1677
+13,0
+#### Text ####
+However, many institutional investors are reacting to the stock market's plunge as "a great buying opportunity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1767..1802
+14
+#### Text ####
+Things are beginning to settle down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1804
+15
+#### Features ####
+Ot, Comm, Null, Null
+1680..1764
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Charles I. Clough, chief investment strategist at Merrill Lynch Capital Markets
+##############
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+1767..1802
+14
+#### Text ####
+Things are beginning to settle down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1804..1841
+15
+#### Text ####
+The markets are returning to normalcy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1958..1961
+17,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+1846..1956
+16
+#### Text ####
+Oil prices initially rose on fears that the massive earthquake in Northern California would disrupt production
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1962..2135
+17,1;17,2;17,3;17,4
+#### Text ####
+prices later reversed course, finishing slightly lower, as investors concluded that any cuts wouldn't be large and that foreign oil producers would quickly pick up the slack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1969..1974
+17,2
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+1846..1956
+16
+#### Text ####
+Oil prices initially rose on fears that the massive earthquake in Northern California would disrupt production
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1958..1968;1975..2016
+17,0;17,1;17,3,0;17,3,1;17,3,2;17,3,3;17,3,4;17,4
+#### Text ####
+But prices reversed course, finishing slightly lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2018..2020
+17,3,5,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1958..2016
+17,0;17,1;17,2;17,3,0;17,3,1;17,3,2;17,3,3;17,3,4;17,4
+#### Text ####
+But prices later reversed course, finishing slightly lower
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2021..2135
+17,3,5,1
+#### Text ####
+investors concluded that any cuts wouldn't be large and that foreign oil producers would quickly pick up the slack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2073..2076
+17,3,5,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2018..2040
+17,3,5,0;17,3,5,1,0;17,3,5,1,1,0
+#### Text ####
+as investors concluded
+##############
+and, Expansion.Conjunction
+____Arg1____
+2041..2072
+17,3,5,1,1,1,0
+#### Text ####
+that any cuts wouldn't be large
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2077..2135
+17,3,5,1,1,1,2
+#### Text ####
+that foreign oil producers would quickly pick up the slack
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2186
+20
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2167..2184
+19
+#### Text ####
+Stock prices rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2186..2274
+20
+#### Text ####
+New York Stock Exchange volume shrank to 166.9 million shares from 224.1 million Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2276
+21
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2186..2274
+20
+#### Text ####
+New York Stock Exchange volume shrank to 166.9 million shares from 224.1 million Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2276..2335
+21
+#### Text ####
+Advancers on the Big Board outpaced decliners by 822 to 668
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2393
+23
+____Arg1____
+2339..2391
+22
+#### Text ####
+Bond prices were little changed in sluggish activity
+##############
+____Arg2____
+2393..2457
+23
+#### Text ####
+The yield on the Treasury's 30-year issue fell slightly to 8.03%
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2481
+25
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2461..2479
+24
+#### Text ####
+The dollar dropped
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2481..2608
+25
+#### Text ####
+In New York late yesterday, the currency was at 141.45 yen and 1.8485 marks, down from 142.75 yen and 1.8667 marks late Tuesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1998 @@
+________________________________________________________
+____Implicit____
+54
+1
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+32..52
+1,0
+#### Text ####
+Walk around the room
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+54..75
+1,2
+#### Text ####
+take two deep breaths
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+77
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+32..75
+1
+#### Text ####
+Walk around the room; take two deep breaths
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+77..137
+2
+#### Text ####
+Resist the urge to call your broker and sell all your stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+113..116
+2,1,1,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+93..112
+2,1,1,2,0;2,1,1,2,1,0;2,1,1,2,1,1,0
+#### Text ####
+to call your broker
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+117..137
+2,1,1,2,1,1,2
+#### Text ####
+sell all your stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+309..312
+5,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+261..307
+4
+#### Text ####
+No one can say for sure what will happen today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+313..408
+5,1;5,2;5,3
+#### Text ####
+investment pros are divided on whether stocks will perform well or badly in the next six months
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+410..413
+6,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Sup1____
+261..307
+4
+#### Text ####
+No one can say for sure what will happen today
+##############
+____Arg1____
+309..408
+5
+#### Text ####
+And investment pros are divided on whether stocks will perform well or badly in the next six months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+414..476
+6,0,1;6,0,2;6,1;6,2;6,3
+#### Text ####
+they're nearly unanimous on one point: Don't sell into a panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+554
+8
+#### Features ####
+Wr, Comm, Null, Null
+further, Expansion.Conjunction
+____Arg1____
+480..552
+7
+#### Text ####
+Investors who sold everything after the crash of 1987 lived to regret it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+554..669
+8
+#### Text ####
+Even after Friday's plunge, the Dow Jones Industrial Average was 48% above where it landed on Oct. 19 two years ago
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+687..691
+9,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+480..552
+7
+#### Text ####
+Investors who sold everything after the crash of 1987 lived to regret it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+673..686;692..740
+9,0;9,2;9,3
+#### Text ####
+Panic selling was unwise during other big declines in the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+742
+10
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+673..740
+9
+#### Text ####
+Panic selling also was unwise during other big declines in the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+742..867
+10
+#### Text ####
+The crash of 1929 was followed by a substantial recovery before the great Depression and awful bear market of the 1930s began
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+799..805
+10,1,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+742..798
+10,0;10,1,0;10,1,1,0;10,1,1,1;10,1,1,2;10,2
+#### Text ####
+The crash of 1929 was followed by a substantial recovery
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+806..867
+10,1,1,3,1
+#### Text ####
+the great Depression and awful bear market of the 1930s began
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+869
+11
+#### Features ####
+Wr, Comm, Null, Null
+similarly, Expansion.Conjunction
+____Arg1____
+742..867
+10
+#### Text ####
+The crash of 1929 was followed by a substantial recovery before the great Depression and awful bear market of the 1930s began
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+869..970
+11
+#### Text ####
+The "October massacres" of 1978 and 1979 were scary, but didn't lead to severe or sustained downturns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+922..925
+11,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+869..920
+11,0;11,1,0;11,1,1
+#### Text ####
+The "October massacres" of 1978 and 1979 were scary
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+926..970
+11,1,3;11,2
+#### Text ####
+didn't lead to severe or sustained downturns
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+974..980
+12,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction
+____Arg1____
+673..740
+9
+#### Text ####
+Panic selling also was unwise during other big declines in the past
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+982..1102
+12,1;12,2;12,3;12,4
+#### Text ####
+some pros see Friday's plunge, plus any further damage that might occur early this week, as a chance for bargain hunting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1105
+13
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+974..1011;1071..1102
+12,0;12,1;12,2;12,3,0;12,3,1,0;12,3,1,1;12,3,1,4;12,3,2;12,4
+#### Text ####
+Indeed, some pros see Friday's plunge as a chance for bargain hunting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1105..1308
+13
+#### Text ####
+There has been a lot of emotional selling that presents a nice buying opportunity if you've got the cash," says Stephen B. Timbers, chief investment officer of Chicago-based Kemper Financial Services Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1187..1189
+13,1,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1212..1308
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+says Stephen B. Timbers, chief investment officer of Chicago-based Kemper Financial Services Inc
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1147..1186
+13,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,1,1,0;13,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that presents a nice buying opportunity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1190..1209
+13,1,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+you've got the cash
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1312..1315
+14,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1147..1209
+13,1,1,1,1,1,1,1
+#### Text ####
+that presents a nice buying opportunity if you've got the cash
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1212..1308
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+says Stephen B. Timbers, chief investment officer of Chicago-based Kemper Financial Services Inc
+##############
+____Arg2____
+1316..1404
+14,1;14,2;14,3
+#### Text ####
+most advisers think the immediate course for individual investors should be to stand pat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1407
+15
+#### Features ####
+Ot, Comm, Null, Null
+1438..1537
+15,2
+#### Text ####
+says Steve Janachowski, partner in the San Francisco investment advisory firm Brouwer & Janachowski
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1312..1404
+14
+#### Text ####
+But most advisers think the immediate course for individual investors should be to stand pat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1407..1435;1540..1570
+15,0;15,1;15,3;15,4;15,5;15,6;15,7
+#### Text ####
+When you see a runaway train you wait for the train to stop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1407..1411
+15,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1438..1537
+15,2
+#### Text ####
+says Steve Janachowski, partner in the San Francisco investment advisory firm Brouwer & Janachowski
+##############
+when, Temporal.Synchrony
+____Arg1____
+1540..1570
+15,0;15,3;15,4;15,5;15,6;15,7
+#### Text ####
+you wait for the train to stop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1412..1435
+15,1,1
+#### Text ####
+you see a runaway train
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1636..1639
+16,0,2,1,1,1,2,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1591..1632
+16,0,2,1,0;16,0,2,1,1,0;16,0,2,1,1,1,0;16,0,2,1,1,1,1
+#### Text ####
+who expect a bear market in coming months
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1640..1696
+16,0,2,1,1,1,2,2
+#### Text ####
+a sizable number of money managers and market pundits do
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1751..1754
+16,2,2,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1700..1713
+16,1;16,2,0;16,2,1;16,3
+#### Text ####
+the advice is
+##############
+and, Temporal.Asynchronous.Precedence, Expansion.Conjunction
+____Arg1____
+1715..1749
+16,2,2,0;16,2,2,1,0;16,2,2,1,1
+#### Text ####
+Wait for the market to bounce back
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1755..1791
+16,2,2,1,3
+#### Text ####
+sell shares gradually during rallies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1793
+17
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Generalization
+____Arg1____
+1715..1791
+16,2,2
+#### Text ####
+Wait for the market to bounce back, and sell shares gradually during rallies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1793..1854
+17,0
+#### Text ####
+The best thing individual investors can do is "just sit tight
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1857..2042
+17,1;17,2;17,3;17,4;17,5
+#### Text ####
+says Marshall B. Front, executive vice president and head of investment counseling at Stein Roe & Farnham Inc., a Chicago-based investment counseling firm that manages about $18 billion
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2046..2061;2133..2150
+18,0;19,0
+#### Text ####
+On the one hand On the other hand
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2063..2077
+18,1
+#### Text ####
+Mr. Front says
+##############
+on the one hand on the other hand, Comparison.Contrast
+____Arg1____
+2079..2130
+18,2;18,3;18,4;18,5
+#### Text ####
+it would be misguided to sell into "a classic panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2152..2203
+19,1;19,2;19,3;19,4
+#### Text ####
+it's not necessarily a good time to jump in and buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2196..2199
+19,3,2,1,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2063..2077
+18,1
+#### Text ####
+Mr. Front says
+##############
+and, Expansion.Conjunction
+____Arg1____
+2185..2195
+19,3,2,1,0;19,3,2,1,1,0;19,3,2,1,1,1,0;19,3,2,1,1,1,1,0
+#### Text ####
+to jump in
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2200..2203
+19,3,2,1,1,1,1,2;19,3,2,1,1,1,1,3
+#### Text ####
+buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2206
+20
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2133..2203
+19
+#### Text ####
+On the other hand, it's not necessarily a good time to jump in and buy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2206..2311
+20,1
+#### Text ####
+This is all emotion right now, and when emotion starts to run, it can run further than anyone anticipates
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2321
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2237..2240
+20,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2321
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2206..2235
+20,1,0
+#### Text ####
+This is all emotion right now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2241..2311
+20,1,3
+#### Text ####
+when emotion starts to run, it can run further than anyone anticipates
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2241..2245
+20,1,3,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2321
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+when, Contingency.Condition.General
+____Arg1____
+2237..2240;2269..2311
+20,1,2;20,1,3,1;20,1,3,2;20,1,3,3
+#### Text ####
+and it can run further than anyone anticipates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2246..2267
+20,1,3,0,1
+#### Text ####
+emotion starts to run
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2324..2326
+21,1
+#### Text ####
+So
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2321
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+so, Contingency.Cause.Result
+____Arg1____
+2206..2311
+20,1
+#### Text ####
+This is all emotion right now, and when emotion starts to run, it can run further than anyone anticipates
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2327..2381
+21,0;21,2;21,3;21,4;21,5
+#### Text ####
+it's more prudent to wait and see how things stabilize
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2353..2356
+21,3,2,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2314..2321
+20,0;20,2;20,3;20,4;20,5;20,6
+#### Text ####
+he said
+##############
+and, Expansion.Conjunction
+____Arg1____
+2345..2352
+21,3,2,0;21,3,2,1,0;21,3,2,1,1,0
+#### Text ####
+to wait
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2357..2381
+21,3,2,1,1,2
+#### Text ####
+see how things stabilize
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2564
+23
+#### Features ####
+Ot, Comm, Null, Null
+2386..2512
+22,0;22,1,0;22,1,1;22,1,2;22,2
+#### Text ####
+Roger Ibbotson, professor of finance at Yale University and head of the market information firm Ibbotson Associates Inc., says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2515..2562
+22,1,3
+#### Text ####
+My real advice would be to just ride through it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2564..2626
+23
+#### Text ####
+Generally, it isn't wise to be in and out" of the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2705..2708
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2630..2702
+24
+#### Text ####
+Mr. Ibbotson thinks that this week is "going to be a roller-coaster week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2709..2761
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+he also thinks it is "a good week to consider buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2712..2716
+25,2
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2630..2702
+24
+#### Text ####
+Mr. Ibbotson thinks that this week is "going to be a roller-coaster week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2705..2711;2717..2761
+25,0;25,1;25,3;25,4;25,5
+#### Text ####
+But he thinks it is "a good week to consider buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2996..2999
+26,1,1,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2766..2937
+26,0;26,1,0;26,2
+#### Text ####
+John Snyder, former president of the Los Angeles chapter of the National Association of Investors Corp., an organization of investment clubs and individual investors, says
+##############
+and, Expansion.Conjunction
+____Arg1____
+2938..2994
+26,1,1,0;26,1,1,1,0;26,1,1,1,1,0;26,1,1,1,1,1
+#### Text ####
+his fellow club members didn't sell in the crash of 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3000..3025
+26,1,1,1,1,3
+#### Text ####
+see no reason to sell now
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3028
+27
+#### Features ####
+Ot, Comm, Null, Null
+3079..3086
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2938..3025
+26,1,1
+#### Text ####
+his fellow club members didn't sell in the crash of 1987, and see no reason to sell now
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2933..2937
+26,0,1;26,0,3;26,1,0
+#### Text ####
+says
+##############
+____Arg2____
+3028..3076
+27,1
+#### Text ####
+We're dedicated long-term investors, not traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3089
+28
+#### Features ####
+Ot, Comm, Null, Null
+3079..3086
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+he says
+##############
+that is, Expansion.Restatement
+____Arg1____
+3028..3076
+27,1
+#### Text ####
+We're dedicated long-term investors, not traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3089..3122
+28
+#### Text ####
+We understand panics and euphoria
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3124..3127
+29,0
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3079..3086
+27,0;27,2;27,3;27,4;27,5;27,6
+#### Text ####
+he says
+##############
+and, Contingency.Cause.Result, Expansion.Conjunction
+____Arg1____
+3089..3122
+28
+#### Text ####
+We understand panics and euphoria
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3128..3195
+29,1;29,2;29,3;29,4
+#### Text ####
+we hope to take advantage of panics and buy stocks when they plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3164..3167
+29,2,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3128..3135
+29,1;29,2,0;29,3;29,4
+#### Text ####
+we hope
+##############
+and, Expansion.Conjunction
+____Arg1____
+3136..3163
+29,2,1,0;29,2,1,1,0;29,2,1,1,1,0
+#### Text ####
+to take advantage of panics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3168..3195
+29,2,1,1,1,2
+#### Text ####
+buy stocks when they plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3179..3183
+29,2,1,1,1,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+3128..3135
+29,1;29,2,0;29,3;29,4
+#### Text ####
+we hope
+##############
+when, Temporal.Asynchronous.Succession
+____Arg1____
+3164..3178
+29,2,1,1,1,1;29,2,1,1,1,2,0;29,2,1,1,1,2,1
+#### Text ####
+and buy stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3184..3195
+29,2,1,1,1,2,2,1
+#### Text ####
+they plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3273
+31
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+3200..3271
+30
+#### Text ####
+One camp of investment pros sees what happened Friday as an opportunity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3273..3301;3313..3352
+31,0;31,2;31,3;31,4
+#### Text ####
+Over the next days and weeks investors should look for stocks to buy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3303..3311
+31,1
+#### Text ####
+they say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3500
+33
+#### Features ####
+Ot, Comm, Null, Null
+3402..3497
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+says Alfred Goldman, director of technical market analysis for A.G. Edwards & Sons in St. Louis
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+3356..3399
+32,0
+#### Text ####
+Friday's action "was an old-fashioned panic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3500..3552
+33
+#### Text ####
+Stocks were being thrown out of windows at any price
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3568
+34
+#### Features ####
+Ot, Comm, Null, Null
+3555..3565
+34,0;34,1;34,2;34,4;34,5
+#### Text ####
+His advice
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3500..3552
+33
+#### Text ####
+Stocks were being thrown out of windows at any price
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3568..3617
+34,3
+#### Text ####
+You ought to be there with a basket catching them
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3783
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3622..3684;3740..3781
+35,0,0;35,0,1;35,0,2,0;35,0,2,1,0;35,0,2,1,1,0;35,0,2,1,1,1;35,0,2,1,1,3;35,1;35,2
+#### Text ####
+James Craig, portfolio manager for the Denver-based Janus Fund started his buying during Friday's plunge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3783..3966
+36,0
+#### Text ####
+Stocks such as Hershey Foods Corp., Wal-Mart Stores Inc., American International Group Inc. and Federal National Mortgage Association became such bargains that he couldn't resist them
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3968..3975
+36,1;36,2;36,3;36,4
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3979..3982
+37,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3783..3966
+36,0
+#### Text ####
+Stocks such as Hershey Foods Corp., Wal-Mart Stores Inc., American International Group Inc. and Federal National Mortgage Association became such bargains that he couldn't resist them
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3968..3975
+36,1;36,2;36,3;36,4
+#### Text ####
+he says
+##############
+____Arg2____
+3983..4029
+37,1;37,2;37,3
+#### Text ####
+Mr. Craig expects to pick up more shares today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4032
+38
+____Arg1____
+3979..4029
+37
+#### Text ####
+And Mr. Craig expects to pick up more shares today
+##############
+____Arg2____
+4032..4141
+38
+#### Text ####
+It will be chaotic at first, but I would not be buying if I thought we were headed for real trouble," he says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4061..4064
+38,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4134..4141
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he says
+##############
+but, Comparison.Contrast
+____Arg1____
+4032..4059
+38,1,0
+#### Text ####
+It will be chaotic at first
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4065..4131
+38,1,3
+#### Text ####
+I would not be buying if I thought we were headed for real trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4087..4089
+38,1,3,1,2,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4134..4141
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he says
+##############
+if, Contingency.Condition.Unreal present
+____Arg1____
+4061..4086
+38,1,2;38,1,3,0;38,1,3,1,0;38,1,3,1,1;38,1,3,1,2,0;38,1,3,1,2,1,0
+#### Text ####
+but I would not be buying
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4090..4131
+38,1,3,1,2,1,1,1
+#### Text ####
+I thought we were headed for real trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4153
+39
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4061..4131
+38,1,2;38,1,3
+#### Text ####
+but I would not be buying if I thought we were headed for real trouble
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4134..4141
+38,0;38,2;38,3;38,4;38,5;38,6
+#### Text ####
+he says
+##############
+____Arg2____
+4153..4190
+39,1,1,0
+#### Text ####
+that stocks are reasonably valued now
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4143..4152
+39,0;39,1,0;39,2
+#### Text ####
+He argues
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4192..4195
+39,1,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4143..4152
+39,0;39,1,0;39,2
+#### Text ####
+He argues
+##############
+and, Expansion.Conjunction
+____Arg1____
+4153..4190
+39,1,1,0
+#### Text ####
+that stocks are reasonably valued now
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4196..4254
+39,1,1,3
+#### Text ####
+that interest rates are lower now than in the fall of 1987
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4465
+41
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+4258..4462
+40
+#### Text ####
+Mr. Front of Stein Roe suggests that any buying should "concentrate in stocks that have lagged the market on the up side, or stocks that have been beaten down a lot more than the market in this correction
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4465..4533
+41
+#### Text ####
+His firm favors selected computer, drug and pollution-control stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4581
+43
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement
+____Arg1____
+4537..4579
+42
+#### Text ####
+Other investment pros are more pessimistic
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4581..4652
+43
+#### Text ####
+They say investors should sell stocks -- but not necessarily right away
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4674
+44
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+4590..4652
+43,1,1
+#### Text ####
+investors should sell stocks -- but not necessarily right away
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4581..4589
+43,0;43,1,0;43,2
+#### Text ####
+They say
+##############
+____Arg2____
+4674..4755
+44,1,1
+#### Text ####
+that the selling can be orderly, gradual, and done when stock prices are rallying
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4654..4673
+44,0;44,1,0;44,2
+#### Text ####
+Many of them stress
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4725..4729
+44,1,1,1,1,1,1,5,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4654..4673
+44,0;44,1,0;44,2
+#### Text ####
+Many of them stress
+##############
+when, Temporal.Synchrony
+____Arg1____
+4716..4724
+44,1,1,1,1,1,1,4;44,1,1,1,1,1,1,5,0
+#### Text ####
+and done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4730..4755
+44,1,1,1,1,1,1,5,1,1
+#### Text ####
+stock prices are rallying
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4927
+46
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4759..4925
+45
+#### Text ####
+On Thursday, William Fleckenstein, a Seattle money manager, used futures contracts in his personal account to place a bet that the broad market averages would decline
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4927..5022
+46
+#### Text ####
+He thinks the underlying inflation rate is around 5% to 6%, far higher than most people suppose
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5105..5108
+47,3,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+5026..5104
+47,0;47,1;47,2;47,3,0;47,3,1,0;47,4
+#### Text ####
+In the pension accounts he manages, Mr. Fleckenstein has raised cash positions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5109..5148
+47,3,1,2,0,0;47,3,1,2,0,1;47,3,1,2,0,2
+#### Text ####
+invested in gold and natural gas stocks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5180
+48
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5026..5178
+47
+#### Text ####
+In the pension accounts he manages, Mr. Fleckenstein has raised cash positions and invested in gold and natural gas stocks, partly as an inflation hedge
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5180..5313
+48
+#### Text ####
+He thinks government officials are terrified to let a recession start when government, corporate and personal debt levels are so high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5250..5254
+48,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5180..5189
+48,0;48,1,0;48,2
+#### Text ####
+He thinks
+##############
+when, Temporal.Synchrony
+____Arg1____
+5225..5249
+48,1,1,1,1,1,1,0;48,1,1,1,1,1,1,1,0;48,1,1,1,1,1,1,1,1,0;48,1,1,1,1,1,1,1,1,1
+#### Text ####
+to let a recession start
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5255..5313
+48,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+government, corporate and personal debt levels are so high
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5315..5317
+49,0
+#### Text ####
+So
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Sup1____
+5250..5313
+48,1,1,1,1,1,1,1,1,2
+#### Text ####
+when government, corporate and personal debt levels are so high
+##############
+____Arg1____
+5190..5249
+48,1,1,0;48,1,1,1,0;48,1,1,1,1,0;48,1,1,1,1,1,0;48,1,1,1,1,1,1,0;48,1,1,1,1,1,1,1,0;48,1,1,1,1,1,1,1,1,0;48,1,1,1,1,1,1,1,1,1
+#### Text ####
+government officials are terrified to let a recession start
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5180..5189
+48,0;48,1,0;48,2
+#### Text ####
+He thinks
+##############
+____Arg2____
+5328..5386
+49,2,1
+#### Text ####
+the government will err on the side of rekindled inflation
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5318..5327
+49,1;49,2,0;49,3
+#### Text ####
+he thinks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5390..5401
+50,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+5315..5386
+49
+#### Text ####
+So he thinks the government will err on the side of rekindled inflation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5403..5503
+50,1;50,2;50,3;50,4;50,5;50,6;50,7;50,8
+#### Text ####
+Mr. Fleckenstein says, "I think the ball game's over," and investors are about to face a bear market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5458..5461
+50,6
+#### Text ####
+and
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5427..5434
+50,3,0;50,3,1,0
+#### Text ####
+I think
+##############
+and, Expansion.Conjunction
+____Arg1____
+5435..5455
+50,3,1,1
+#### Text ####
+the ball game's over
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5462..5503
+50,7
+#### Text ####
+investors are about to face a bear market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5638
+52
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+5507..5627
+51
+#### Text ####
+David M. Jones, vice president at Aubrey G. Lanston & Co., recommends Treasury securities (of up to five years' maturity
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5638..5781
+52,1,1
+#### Text ####
+the Oct. 6 employment report, showing slower economic growth and a severe weakening in the manufacturing sector, is a warning sign to investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5630..5637
+52,0;52,1,0;52,2
+#### Text ####
+He says
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5947
+54
+____Arg1____
+5785..5945
+53
+#### Text ####
+One strategy for investors who want to stay in but hedge their bets is to buy "put" options, either on the individual stocks they own or on a broad market index
+##############
+____Arg2____
+5947..6110
+54
+#### Text ####
+A put option gives its holder the right (but not the obligation) to sell a stock (or stock index) for a specified price (the strike price) until the option expires
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6086..6091
+54,1,2,0,3,1,1,3,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+5947..6085
+54,0;54,1,0;54,1,1;54,1,2,0,0;54,1,2,0,1;54,1,2,0,2;54,1,2,0,3,0;54,1,2,0,3,1,0;54,1,2,0,3,1,1,0;54,1,2,0,3,1,1,1;54,1,2,0,3,1,1,2;54,2
+#### Text ####
+A put option gives its holder the right (but not the obligation) to sell a stock (or stock index) for a specified price (the strike price)
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6092..6110
+54,1,2,0,3,1,1,3,1
+#### Text ####
+the option expires
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6185
+56
+____Arg1____
+6114..6183
+55
+#### Text ####
+Whether this insurance is worthwhile depends on the cost of an option
+##############
+____Arg2____
+6185..6242
+56
+#### Text ####
+The cost, or premium, tends to get fat in times of crisis
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6244..6248
+57,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Sup1____
+6114..6183
+55
+#### Text ####
+Whether this insurance is worthwhile depends on the cost of an option
+##############
+____Arg1____
+6185..6242
+56
+#### Text ####
+The cost, or premium, tends to get fat in times of crisis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6250..6332
+57,1;57,2;57,3;57,4
+#### Text ####
+buying puts after a big market slide can be an expensive way to hedge against risk
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6385..6396
+59,0
+#### Text ####
+For example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+6336..6383
+58
+#### Text ####
+The prices of puts generally didn't soar Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6398..6596
+59,1;59,2;59,3;59,4
+#### Text ####
+the premium as a percentage of the stock price for certain puts on Eli Lilly & Co. moved up from 3% at Thursday's close to only 3.3% at Friday's close, even though the shares dropped more than $5.50
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6550..6561
+59,3,5,0;59,3,5,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Contra-expectation
+____Arg1____
+6385..6548
+59,0;59,1;59,2;59,3,0;59,3,1;59,3,2;59,3,3;59,3,4;59,4
+#### Text ####
+For example, the premium as a percentage of the stock price for certain puts on Eli Lilly & Co. moved up from 3% at Thursday's close to only 3.3% at Friday's close
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6562..6596
+59,3,5,2
+#### Text ####
+the shares dropped more than $5.50
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6598..6601
+60,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+6336..6383
+58
+#### Text ####
+The prices of puts generally didn't soar Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6602..6655
+60,1;60,2;60,3
+#### Text ####
+put-option prices may zoom when trading resumes today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6629..6633
+60,2,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+6598..6628
+60,0;60,1;60,2,0;60,2,1,0;60,3
+#### Text ####
+But put-option prices may zoom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6634..6655
+60,2,1,1,1
+#### Text ####
+trading resumes today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6718..6721
+62,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+6659..6716
+61
+#### Text ####
+It's hard to generalize about a reasonable price for puts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6777..6902
+62,0,2,1,2;62,0,2,1,4;62,0,2,1,5;62,1;62,2;62,3
+#### Text ####
+that the average annual return for stock holdings, long-term, is 9% to 10% a year; a return of 15% is considered praiseworthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6753..6759
+62,0,2,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+6718..6751;6777..6858
+62,0,0;62,0,1;62,0,2,0;62,0,2,1,0;62,0,2,1,1;62,0,2,1,2;62,0,2,1,4;62,0,2,1,5
+#### Text ####
+But investors should keep in mind that the average annual return for stock holdings, long-term, is 9% to 10% a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6760..6775
+62,0,2,1,3,1
+#### Text ####
+paying too much
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6860
+62
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+6777..6858
+62,0,2,1,5
+#### Text ####
+that the average annual return for stock holdings, long-term, is 9% to 10% a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6860..6902
+62,2
+#### Text ####
+a return of 15% is considered praiseworthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6904
+63
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+6777..6902
+62,0,2,1,2;62,0,2,1,4;62,0,2,1,5;62,1;62,2;62,3
+#### Text ####
+that the average annual return for stock holdings, long-term, is 9% to 10% a year; a return of 15% is considered praiseworthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6904..6985
+63
+#### Text ####
+Paying, say, 10% for insurance against losses takes a deep bite out of the return
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,1455 @@
+________________________________________________________
+____Implicit____
+351
+2
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for example, Expansion.Conjunction
+____Arg1____
+199..349
+1
+#### Text ####
+The National Institutes of Health policy would require researchers to cut financial ties with health-care businesses -- or lose their government money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+351..371;389..482
+2,0;2,1;2,3,1;2,4
+#### Text ####
+Among other concerns researchers with business ties are more likely to falsify findings in order to tout new drugs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+373..388
+2,1;2,2;2,3,0;2,4
+#### Text ####
+the agency says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+484
+3
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+389..482
+2,3,1
+#### Text ####
+researchers with business ties are more likely to falsify findings in order to tout new drugs
+##############
+#### Features ####
+Ot, Comm, Null, Null
+351..388
+2,0;2,1;2,2;2,3,0;2,4
+#### Text ####
+Among other concerns, the agency says
+##############
+____Arg2____
+484..597
+3
+#### Text ####
+As ties between academia and venture capital have blossomed in recent years, governmental fear of abuse has risen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+484..486
+3,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+561..597
+3,1;3,2;3,3;3,4
+#### Text ####
+governmental fear of abuse has risen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+487..559
+3,0,1
+#### Text ####
+ties between academia and venture capital have blossomed in recent years
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+601..604
+4,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Sup1____
+319..349
+1,1,1,1,1,1,2;1,1,1,1,1,1,3
+#### Text ####
+or lose their government money
+##############
+____Arg1____
+199..315
+1,0;1,1,0;1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,1,1,1,1,1,0;1,1,1,1,1,1,1;1,2
+#### Text ####
+The National Institutes of Health policy would require researchers to cut financial ties with health-care businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+605..671
+4,0,1;4,0,2
+#### Text ####
+the guidelines could "make it impossible to commercialize research
+##############
+#### Features ####
+Ot, Comm, Null, Null
+674..784
+4,1;4,2;4,3;4,4;4,5
+#### Text ####
+says Kenneth Smith, associate provost and vice president for research at Massachusetts Institute of Technology
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+889
+6
+#### Features ####
+Wr, Comm, Null, Null
+and, Temporal.Asynchronous.Precedence
+____Arg1____
+788..887
+5
+#### Text ####
+The NIH is asking grant recipients and others for comments on the proposed guidelines until Dec. 15
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+889..944
+6
+#### Text ####
+After that, it will make a final decision on the policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1139
+8
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+948..1058
+7,0
+#### Text ####
+The guidelines could foil future arrangements similar to the deal behind Lithox Inc., a Salem, Mass., start-up
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1060..1137
+7,1;7,2;7,3;7,4
+#### Text ####
+says Robert Daly, a managing partner of TA Associates, a venture-capital firm
+##############
+____Arg2____
+1139..1309;1313..1653
+8;9;10,0
+#### Text ####
+With $2.3 million, he and other investors launched Lithox last year to market a gallstone cure being developed by researchers of the University of California at San Diego The researchers, who are being financed by the Lithox funds, will receive a royalty, or percentage of sales, if their research yields a commercial product.
+But because the University of California, like many other universities, shares its royalties with researchers, it may disqualify itself from federal funds under the proposed guidelines
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1655..1668
+10,1;10,2;10,3
+#### Text ####
+Mr. Daly says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1422..1424
+9,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Sup1____
+1330..1372
+9,0,2
+#### Text ####
+who are being financed by the Lithox funds
+##############
+____Arg1____
+1313..1328;1374..1420
+9,0,0;9,0,1;9,0,3;9,1,0;9,1,1,0;9,1,1,1
+#### Text ####
+The researchers will receive a royalty, or percentage of sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1425..1467
+9,1,1,2,1
+#### Text ####
+their research yields a commercial product
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1469..1472
+10,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1655..1668
+10,1;10,2;10,3
+#### Text ####
+Mr. Daly says
+##############
+but, Comparison
+____Arg1____
+1313..1467
+9
+#### Text ####
+The researchers, who are being financed by the Lithox funds, will receive a royalty, or percentage of sales, if their research yields a commercial product
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1473..1653
+10,0,1;10,0,2;10,0,3;10,0,4;10,0,5
+#### Text ####
+because the University of California, like many other universities, shares its royalties with researchers, it may disqualify itself from federal funds under the proposed guidelines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1473..1480
+10,0,1,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1655..1668
+10,1;10,2;10,3
+#### Text ####
+Mr. Daly says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1469..1472;1580..1653
+10,0,0;10,0,2;10,0,3;10,0,4;10,0,5
+#### Text ####
+But it may disqualify itself from federal funds under the proposed guidelines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1481..1578
+10,0,1,1
+#### Text ####
+the University of California, like many other universities, shares its royalties with researchers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1768..1780
+12,0
+#### Text ####
+For instance
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+1672..1766
+11
+#### Text ####
+The high-tech industry is full of the kind of arrangement that the new guidelines would affect
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1782..1952
+12,1;12,2;12,3;12,4;12,5
+#### Text ####
+Commonwealth BioVentures Inc., a venture-capital concern, last month invested $600,000 to launch Amira Inc., a Worcester, Mass., concern that will produce pharmaceuticals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1954
+13
+#### Features ####
+Wr, Comm, Null, Null
+earlier, Temporal.Asynchronous.Succession
+____Arg1____
+1768..1952
+12
+#### Text ####
+For instance, Commonwealth BioVentures Inc., a venture-capital concern, last month invested $600,000 to launch Amira Inc., a Worcester, Mass., concern that will produce pharmaceuticals
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1954..2078
+13
+#### Text ####
+Scientists Rima Kaddurah-Daouk and Paul Schimmel conducted the initial research at the Massachusetts Institute of Technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2080
+14
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1954..2078
+13
+#### Text ####
+Scientists Rima Kaddurah-Daouk and Paul Schimmel conducted the initial research at the Massachusetts Institute of Technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2080..2240
+14
+#### Text ####
+While Ms. Kaddurah-Daouk left MIT to head Amira, Prof.
+Schimmel will continue to work at MIT, serve on Amira's board and own a small equity stake in the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2080..2085
+14,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2129..2240
+14,1;14,2;14,3;14,4
+#### Text ####
+Prof.
+Schimmel will continue to work at MIT, serve on Amira's board and own a small equity stake in the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2086..2127
+14,0,1
+#### Text ####
+Ms. Kaddurah-Daouk left MIT to head Amira
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2378
+16
+#### Features ####
+Ot, Comm, Null, Null
+2510..2550
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+says Gloria W. Doubleday of Commonwealth
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2244..2376
+15
+#### Text ####
+The Amira transaction is typical of the way venture-capital firms are approaching the task of commercializing biotechnology research
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2378..2507
+16,0
+#### Text ####
+While universities develop the basic research, "venture capitalists are the ones best positioned to finance its commercialization
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2378..2383
+16,0,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2510..2550
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+says Gloria W. Doubleday of Commonwealth
+##############
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2426..2507
+16,0,1;16,0,2;16,0,3;16,0,4
+#### Text ####
+venture capitalists are the ones best positioned to finance its commercialization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2384..2423
+16,0,0,1
+#### Text ####
+universities develop the basic research
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2553
+17
+#### Features ####
+Ot, Comm, Null, Null
+2510..2550
+16,1;16,2;16,3;16,4;16,5
+#### Text ####
+says Gloria W. Doubleday of Commonwealth
+##############
+indeed, Expansion.Conjunction
+____Arg1____
+2378..2507
+16,0
+#### Text ####
+While universities develop the basic research, "venture capitalists are the ones best positioned to finance its commercialization
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2553..2638
+17
+#### Text ####
+This is the best way to transfer technology straight off the campuses of universities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2643..2646
+18,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2129..2240
+14,1;14,2;14,3;14,4
+#### Text ####
+Prof.
+Schimmel will continue to work at MIT, serve on Amira's board and own a small equity stake in the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2647..2759
+18,0,1;18,0,2;18,0,3
+#### Text ####
+the new guidelines could prevent scientists like Prof.
+Schimmel from being involved with start-ups such as Amira
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2761..2790
+18,1;18,2;18,3
+#### Text ####
+venture capitalists point out
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2792..2795
+19,0,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2643..2759
+18,0
+#### Text ####
+But the new guidelines could prevent scientists like Prof.
+Schimmel from being involved with start-ups such as Amira
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2761..2790
+18,1;18,2;18,3
+#### Text ####
+venture capitalists point out
+##############
+____Arg2____
+2796..2893
+19,0,1;19,0,2;19,0,3;19,0,4;19,0,5
+#### Text ####
+if that happens, the entire process of transferring technology to the marketplace could be harmed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2895..2903
+19,1;19,2;19,3
+#### Text ####
+they say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2796..2798
+19,0,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2895..2903
+19,1;19,2;19,3
+#### Text ####
+they say
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2792..2795;2813..2893
+19,0,0;19,0,2;19,0,3;19,0,4;19,0,5
+#### Text ####
+And the entire process of transferring technology to the marketplace could be harmed
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2799..2811
+19,0,1,1
+#### Text ####
+that happens
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2948
+21
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for example, Expansion.Restatement.Specification
+____Arg1____
+2907..2946
+20
+#### Text ####
+The stakes in the controversy are large
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2948..3150
+21
+#### Text ####
+Last year, venture capitalists spent an estimated $600 million to finance start-up companies in medical and biotechnology businesses, according to the National Venture Capital Association, a trade group
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3082..3150
+21,3,3;21,3,4;21,4
+#### Text ####
+according to the National Venture Capital Association, a trade group
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3152
+22
+#### Features ####
+Ot, Comm, Null, Null
+3082..3150
+21,3,3;21,3,4;21,4
+#### Text ####
+according to the National Venture Capital Association, a trade group
+##############
+also, Expansion.Conjunction
+____Arg1____
+2948..3150
+21
+#### Text ####
+Last year, venture capitalists spent an estimated $600 million to finance start-up companies in medical and biotechnology businesses, according to the National Venture Capital Association, a trade group
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3152..3317
+22
+#### Text ####
+Many of the deals involved transactions in which scientific institutions or researchers agreed to commercialize their work in return for an equity stake or royalties
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3445
+24
+#### Features ####
+Ot, Comm, Null, Null
+3555..3562
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+he adds
+##############
+consequently, Contingency.Cause.Result
+____Arg1____
+3321..3386
+23,0
+#### Text ####
+In many of these deals, "venture capitalists had the inside track
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3389..3443
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+says Lawrence Bock of Avalon Ventures, La Jolla, Calif
+##############
+____Arg2____
+3445..3552
+24,0
+#### Text ####
+Investors were willing to gamble on new technologies because "we had exclusive rights to those technologies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3498..3505
+24,0,1,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3555..3562
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+he adds
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3445..3497
+24,0,0;24,0,1,0;24,0,1,1,0;24,0,1,1,1,0;24,0,1,1,1,1,0;24,0,1,1,1,1,1,0;24,0,1,1,1,1,1,1
+#### Text ####
+Investors were willing to gamble on new technologies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3507..3552
+24,0,1,1,1,1,1,2,2
+#### Text ####
+we had exclusive rights to those technologies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3566..3569
+25,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+3321..3386
+23,0
+#### Text ####
+In many of these deals, "venture capitalists had the inside track
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3389..3443
+23,1;23,2;23,3;23,4;23,5
+#### Text ####
+says Lawrence Bock of Avalon Ventures, La Jolla, Calif
+##############
+____Arg2____
+3570..3706
+25,1;25,2;25,3;25,4;25,5
+#### Text ####
+under the proposed guidelines, all federally funded research will have to be reported publicly so that anyone can capitalize on the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3665..3672
+25,4,1,1,1,1,1,3,0;25,4,1,1,1,1,1,3,1
+#### Text ####
+so that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so that, Contingency.Cause.Result
+____Arg1____
+3566..3664
+25,0;25,1;25,2;25,3;25,4,0;25,4,1,0;25,4,1,1,0;25,4,1,1,1,0;25,4,1,1,1,1,0;25,4,1,1,1,1,1,0;25,4,1,1,1,1,1,1;25,4,1,1,1,1,1,2;25,5
+#### Text ####
+But under the proposed guidelines, all federally funded research will have to be reported publicly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3673..3706
+25,4,1,1,1,1,1,3,2
+#### Text ####
+anyone can capitalize on the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3709
+26
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3566..3706
+25
+#### Text ####
+But under the proposed guidelines, all federally funded research will have to be reported publicly so that anyone can capitalize on the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3709..3807
+26,1
+#### Text ####
+Without the exclusivity, most venture capitalists won't have the incentive to invest in such deals
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3810..3823
+26,0;26,2;26,3;26,4;26,5;26,6
+#### Text ####
+Mr. Bock says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3838..3849
+27,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3566..3706
+25
+#### Text ####
+But under the proposed guidelines, all federally funded research will have to be reported publicly so that anyone can capitalize on the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3827..3836;3851..4017
+27,0;27,1;27,3;27,4;27,5;27,6
+#### Text ####
+Last year Avalon and others invested $14 million in Athena Neurosciences Inc., South San Francisco, Calif., to license and develop technology for delivery of drugs to the brain
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4019..4022
+28,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4221..4234
+28,1;28,2;28,3;28,4;28,5
+#### Text ####
+Mr. Bock says
+##############
+but, Comparison
+____Arg1____
+3827..4017
+27
+#### Text ####
+Last year, for example, Avalon and others invested $14 million in Athena Neurosciences Inc., South San Francisco, Calif., to license and develop technology for delivery of drugs to the brain
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4023..4218
+28,0,1;28,0,2;28,0,3;28,0,4
+#### Text ####
+before Athena was able to get an exclusive license to the technology, the Federal Register published most of the details, "giving all of the company's potential competitors a chance to exploit it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4023..4029
+28,0,1,0
+#### Text ####
+before
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4221..4234
+28,1;28,2;28,3;28,4;28,5
+#### Text ####
+Mr. Bock says
+##############
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+4019..4022;4093..4218
+28,0,0;28,0,2;28,0,3;28,0,4
+#### Text ####
+But the Federal Register published most of the details, "giving all of the company's potential competitors a chance to exploit it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4030..4091
+28,0,1,1
+#### Text ####
+Athena was able to get an exclusive license to the technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4236
+29
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison
+____Arg1____
+4019..4218
+28,0
+#### Text ####
+But before Athena was able to get an exclusive license to the technology, the Federal Register published most of the details, "giving all of the company's potential competitors a chance to exploit it
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4221..4234
+28,1;28,2;28,3;28,4;28,5
+#### Text ####
+Mr. Bock says
+##############
+____Arg2____
+4236..4297
+29,0;29,1,0;29,2
+#### Text ####
+Athena eventually acquired exclusive rights to the technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4330..4333
+30,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4335..4348
+30,1;30,2;30,3;30,4;30,5;30,7;30,8
+#### Text ####
+says Mr. Bock
+##############
+but, Comparison.Contrast
+____Arg1____
+4236..4328
+29
+#### Text ####
+Athena eventually acquired exclusive rights to the technology and currently is developing it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4351..4370
+30,6
+#### Text ####
+It was a close call
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4405..4409
+31,0,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3566..3706
+25
+#### Text ####
+But under the proposed guidelines, all federally funded research will have to be reported publicly so that anyone can capitalize on the work
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4375..4404;4410..4486
+31,0,0;31,0,1,0;31,0,1,2
+#### Text ####
+The proposed guidelines could delay commercialization -- and force small companies to waste scarce capital
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4488..4505
+31,1;31,2;31,3;31,4
+#### Text ####
+entrepreneurs say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4507
+32
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4375..4486
+31,0
+#### Text ####
+The proposed guidelines could also delay commercialization -- and force small companies to waste scarce capital
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4488..4505
+31,1;31,2;31,3;31,4
+#### Text ####
+entrepreneurs say
+##############
+____Arg2____
+4507..4650
+32,0
+#### Text ####
+If start-ups can't have early access to research being conducted at institutions, "we have to replicate it ourselves or do without the research
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4653..4765
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+says Ruth Emyanitoff, manager of business development at Applied bioTechnology Inc., a Cambridge, Mass., concern
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4507..4509
+32,0,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4653..4765
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+says Ruth Emyanitoff, manager of business development at Applied bioTechnology Inc., a Cambridge, Mass., concern
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+4590..4650
+32,0,1;32,0,2;32,0,3;32,0,4
+#### Text ####
+we have to replicate it ourselves or do without the research
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4510..4587
+32,0,0,1
+#### Text ####
+start-ups can't have early access to research being conducted at institutions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4767
+33
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4507..4650
+32,0
+#### Text ####
+If start-ups can't have early access to research being conducted at institutions, "we have to replicate it ourselves or do without the research
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4653..4765
+32,1;32,2;32,3;32,4;32,5
+#### Text ####
+says Ruth Emyanitoff, manager of business development at Applied bioTechnology Inc., a Cambridge, Mass., concern
+##############
+____Arg2____
+4767..4836
+33,0
+#### Text ####
+Duplicating research is both costly and time-consuming for a start-up
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4838..4857
+33,1;33,2;33,3;33,4
+#### Text ####
+Ms. Emyanitoff says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5018
+35
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4887..5015
+34,3,1
+#### Text ####
+that its guidelines "should not stifle research creativity or technology transfer from the research laboratory to commercial use
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4861..4886
+34,0;34,1;34,2;34,3,0;34,4;34,5
+#### Text ####
+For its part, NIH insists
+##############
+____Arg2____
+5018..5134
+35,0
+#### Text ####
+Universities such as Harvard and MIT should be able to develop a way to act as brokers for the individual scientists
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5136..5155
+35,1;35,2;35,3,0;35,3,1;35,4
+#### Text ####
+says Katherine Bick
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+5400
+37
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+5341..5398
+36,1,1,1,1,1,1,1,1,1,1,1,1
+#### Text ####
+that have already begun to surface in scientific ventures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5400..5533
+37
+#### Text ####
+Not long ago, scientists holding stock in Spectra Pharmaceutical Services Inc. were accused of falsifying research to boost the stock
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5554..5558
+38,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5274..5398
+36,1,1
+#### Text ####
+the guidelines are essential to prevent the escalation of problems that have already begun to surface in scientific ventures
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+5248..5273
+36,0;36,1,0;36,2
+#### Text ####
+NIH staff members believe
+##############
+____Arg2____
+5535..5553;5559..5639
+38,0;38,1,0;38,1,2;38,2
+#### Text ####
+Many officials are concerned about companies getting a "free ride" on government-sponsored research
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5641
+39
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+5535..5639
+38
+#### Text ####
+Many officials are also concerned about companies getting a "free ride" on government-sponsored research
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5641..5781
+39
+#### Text ####
+A congressional subcommitee has been investigating the potential abuse from researchers holding stock in companies exploiting their research
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6136
+42
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Equivalence
+____Arg1____
+6020..6133
+41,1,1
+#### Text ####
+the business and scientific community is overreacting to what the agency merely meant to be "ideas for discussion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5982..6019
+41,0;41,1,0;41,2;41,3
+#### Text ####
+Ms. Bick, the NIH administrator, says
+##############
+____Arg2____
+6136..6174
+42,0
+#### Text ####
+The predictions of doom are "premature
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6177..6185
+42,1;42,2;42,3;42,4;42,5
+#### Text ####
+she says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6189..6192
+43,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+6020..6133
+41,1,1
+#### Text ####
+the business and scientific community is overreacting to what the agency merely meant to be "ideas for discussion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5982..6019
+41,0;41,1,0;41,2;41,3
+#### Text ####
+Ms. Bick, the NIH administrator, says
+##############
+____Arg2____
+6193..6281
+43,0,1;43,0,2;43,0,3;43,0,4
+#### Text ####
+when agencies like the NIH circulate guidelines, they've often already formulated policy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6283..6305
+43,1;43,2;43,3;43,4
+#### Text ####
+veteran scientists say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6193..6197
+43,0,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6283..6305
+43,1;43,2;43,3;43,4
+#### Text ####
+veteran scientists say
+##############
+when, Contingency.Condition.General
+____Arg1____
+6189..6192;6242..6281
+43,0,0;43,0,2;43,0,3;43,0,4
+#### Text ####
+But they've often already formulated policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6198..6240
+43,0,1,1
+#### Text ####
+agencies like the NIH circulate guidelines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6307..6313
+44,0
+#### Text ####
+Indeed
+##############
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+6189..6281
+43,0
+#### Text ####
+But when agencies like the NIH circulate guidelines, they've often already formulated policy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6283..6305
+43,1;43,2;43,3;43,4
+#### Text ####
+veteran scientists say
+##############
+____Arg2____
+6315..6351
+44,1;44,2;44,3;44,4;44,5
+#### Text ####
+institutions already are taking note
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6353
+45
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+6307..6351
+44
+#### Text ####
+Indeed, institutions already are taking note
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6353..6491
+45
+#### Text ####
+On Sept. 14, Harvard began circulating a conflict-of-interest policy statement that, in effect, would follow the NIH guidelines faithfully
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6544..6548
+46,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.List
+____Arg1____
+6353..6491
+45
+#### Text ####
+On Sept. 14, Harvard began circulating a conflict-of-interest policy statement that, in effect, would follow the NIH guidelines faithfully
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6495..6543;6549..6650
+46,0;46,1,0;46,1,2;46,2
+#### Text ####
+The University of California at San Francisco is circulating a memo among its scientific faculty that will restrict contact with the world of business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6652
+47
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+6495..6650
+46
+#### Text ####
+The University of California at San Francisco is also circulating a memo among its scientific faculty that will restrict contact with the world of business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6652..6767
+47
+#### Text ####
+In many other institutions, scientists are shunning contacts with venture investors until the NIH policy is settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6736..6741
+47,3,1,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+6652..6735
+47,0;47,1;47,2;47,3,0;47,3,1,0;47,3,1,1;47,4
+#### Text ####
+In many other institutions, scientists are shunning contacts with venture investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6742..6767
+47,3,1,2,1
+#### Text ####
+the NIH policy is settled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+6872
+49
+#### Features ####
+Ot, Comm, Null, Null
+6771..6808
+48,0;48,1;48,2;48,3;48,5
+#### Text ####
+Says Mr. Daly, the venture capitalist
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+6811..6870
+48,4
+#### Text ####
+It doesn't matter whether they call it guidelines or policy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6872..6898
+49
+#### Text ####
+The damage is already done
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,985 @@
+________________________________________________________
+____Explicit____
+121..125
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..103
+0
+#### Text ####
+Tokyo stocks rebounded Tuesday from two consecutive daily losses in relatively active dealings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+107..120;126..186
+1,0;1,2;1,3
+#### Text ####
+London shares rose, while trading in Frankfurt, West Germany, ended higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+132..137
+1,2,2,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony
+____Arg1____
+107..130
+1,0;1,1;1,2,0;1,2,1;1,3
+#### Text ####
+London shares also rose
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+138..186
+1,2,2,1
+#### Text ####
+trading in Frankfurt, West Germany, ended higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+274
+3
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+190..272
+2
+#### Text ####
+In Tokyo, the Nikkei index of 225 selected issues was up 132.00 points to 35549.44
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+274..302
+3
+#### Text ####
+The index fell 109.85 Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+406
+5
+____Arg1____
+306..404
+4
+#### Text ####
+Volume on the First Section was estimated at 900 million shares, up from 582 million shares Monday
+##############
+____Arg2____
+406..488
+5
+#### Text ####
+Advancing issues outnumbered decliners 542 to 362, while 208 issues were unchanged
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+457..462
+5,1,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+406..455
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,2
+#### Text ####
+Advancing issues outnumbered decliners 542 to 362
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+463..488
+5,1,4,1
+#### Text ####
+208 issues were unchanged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+567..570
+7,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Opposition
+____Arg1____
+492..565
+6
+#### Text ####
+Small-lot buying targeted at incentive-backed issues pushed up the Nikkei
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+571..642
+7,1;7,2,0;7,2,1;7,2,2;7,2,3;7,3
+#### Text ####
+other sectors failed to attract investor interest and remained sluggish
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+644..679
+7,2,4
+#### Text ####
+making overall trading appear mixed
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1335
+12
+____Arg1____
+1226..1333
+11
+#### Text ####
+The Second Section index, which fell 21.44 points Monday, was up 6.84 points, or 0.19%, to close at 3642.90
+##############
+____Arg2____
+1335..1414
+12
+#### Text ####
+Second Section volume was estimated at 14 million shares, unchanged from Monday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1668..1670
+15,3,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1599..1606
+15,1
+#### Text ####
+he said
+##############
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+1592..1597;1608..1667
+15,0;15,1,0;15,1,1,0;15,1,2;15,2;15,3,0;15,3,1;15,4
+#### Text ####
+First domestic interest rates are likely to stay at higher levels
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1671..1757
+15,3,2,1
+#### Text ####
+increased anticipation of inflation followed rising consumer prices reported last week
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1915..1923
+17,3,2,1,0
+#### Text ####
+although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1599..1606
+15,1
+#### Text ####
+he said
+##############
+although, Comparison.Concession.Expectation
+____Arg1____
+1880..1914
+17,0;17,1;17,2;17,3,0;17,3,1;17,3,2,0;17,4
+#### Text ####
+Third, oil prices haven't declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1924..1950
+17,3,2,1,1
+#### Text ####
+supply has been increasing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2112
+19
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1954..2110
+18
+#### Text ####
+The topic that attracted participants' attention was Mitsubishi Estate's purchase of 51% of Rockefeller Center Properties, announced late Monday in New York
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2112..2159
+19
+#### Text ####
+Mitsubishi Estate ended the day at 2680, up 150
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2171..2175
+20,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+1954..2110
+18
+#### Text ####
+The topic that attracted participants' attention was Mitsubishi Estate's purchase of 51% of Rockefeller Center Properties, announced late Monday in New York
+##############
+____Arg1____
+2112..2159
+19
+#### Text ####
+Mitsubishi Estate ended the day at 2680, up 150
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2161..2170;2176..2230
+20,0,0;20,0,2
+#### Text ####
+The gains sparked buying interest in other real-estate companies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2232..2244
+20,1;20,2;20,3;20,4
+#### Text ####
+traders said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2246
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2161..2230
+20,0
+#### Text ####
+The gains also sparked buying interest in other real-estate companies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2232..2244
+20,1;20,2;20,3;20,4
+#### Text ####
+traders said
+##############
+____Arg2____
+2246..2291
+21
+#### Text ####
+Sumitomo Realty & Development rose 40 to 2170
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2293
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+2246..2291
+21
+#### Text ####
+Sumitomo Realty & Development rose 40 to 2170
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2293..2328
+22
+#### Text ####
+Heiwa Real Estate gained 40 to 2210
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2378
+24
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+2332..2362
+23,0
+#### Text ####
+Investor focus shifted quickly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2364..2376
+23,1;23,2;23,3;23,4
+#### Text ####
+traders said
+##############
+____Arg2____
+2378..2450
+24
+#### Text ####
+Many of the morning-session winners turned out to be losers by afternoon
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2653
+26
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition
+____Arg1____
+2512..2650
+25,3,1
+#### Text ####
+that for the week ended Friday, the balance of margin buying rose 189.8 billion yen ($1.34 billion), to 7.160 trillion yen ($50.46 billion
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2454..2511
+25,0;25,1;25,2;25,3,0;25,4
+#### Text ####
+In other stock-market news, the Tokyo Stock Exchange said
+##############
+____Arg2____
+2653..2740
+26
+#### Text ####
+The balance of short positions outstanding fell 159.7 billion yen, to 779.8 billion yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2938..2941
+28,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2744..2936
+27
+#### Text ####
+In London, prices finished at intraday peaks, comforted by a reassuring early performance on Wall Street and news that the British government will waive its "golden share" in auto maker Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2942..2966
+28,1;28,2,0;28,2,1;28,2,2;28,3
+#### Text ####
+trading was very sketchy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2968..3051
+28,2,3
+#### Text ####
+as investment decision makers remain wary from gyrations and upsets of recent weeks
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2968..2970
+28,2,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+2938..2966
+28,0;28,1;28,2,0;28,2,1;28,2,2;28,3
+#### Text ####
+But trading was very sketchy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2971..3051
+28,2,3,1
+#### Text ####
+investment decision makers remain wary from gyrations and upsets of recent weeks
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3131
+30
+#### Features ####
+Ot, Comm, Null, Null
+3084..3128
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+said a dealer at a British brokerage concern
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+3056..3081
+29,1
+#### Text ####
+Volume has been appalling
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3131..3239
+30
+#### Text ####
+The market was dragged up by the scruff of its neck by Wall Street and by market makers getting caught short
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3241
+31
+#### Features ####
+Ot, Comm, Null, Null
+3084..3128
+29,0;29,2;29,3;29,4;29,5;29,6
+#### Text ####
+said a dealer at a British brokerage concern
+##############
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3131..3239
+30
+#### Text ####
+The market was dragged up by the scruff of its neck by Wall Street and by market makers getting caught short
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3241..3274
+31
+#### Text ####
+No one wants stock on their books
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3279..3288
+32,0
+#### Text ####
+Meanwhile
+##############
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+190..272;2744..2788
+2;27,0;27,1;27,2;27,3,0;27,3,1;27,3,2;27,4
+#### Text ####
+In Tokyo, the Nikkei index of 225 selected issues was up 132.00 points to 35549.44 In London, prices finished at intraday peaks
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3290..3439
+32,1;32,2;32,3;32,4
+#### Text ####
+the broad-based Financial Times 100-share index added 30.4 points to end at 2142.6, while reaching its minimum of 2120.5 a half hour into the session
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3374..3379
+32,3,4,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+3279..3372
+32,0;32,1;32,2;32,3,0;32,3,1;32,3,2;32,3,3;32,4
+#### Text ####
+Meanwhile, the broad-based Financial Times 100-share index added 30.4 points to end at 2142.6
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3380..3439
+32,3,4,1
+#### Text ####
+reaching its minimum of 2120.5 a half hour into the session
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3515
+34
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3443..3513
+33
+#### Text ####
+At the close, the narrower 30-share index was up 19.7 points to 1721.4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3515..3596
+34
+#### Text ####
+Volume totaled a modest 334.5 million shares, up from 257.8 million shares Monday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3611..3615
+35,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2744..2936
+27
+#### Text ####
+In London, prices finished at intraday peaks, comforted by a reassuring early performance on Wall Street and news that the British government will waive its "golden share" in auto maker Jaguar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3600..3610;3616..3727
+35,0;35,2;35,3
+#### Text ####
+The market moved at early afternoon on news that Jaguar shares were being temporarily suspended at 746 pence ($11.80) each
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3809
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3649..3727
+35,2,2,1,1
+#### Text ####
+that Jaguar shares were being temporarily suspended at 746 pence ($11.80) each
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+3641..3648
+35,2,2,0;35,2,2,1,0
+#### Text ####
+on news
+##############
+____Arg2____
+3809..3869
+36,1,2,0;36,1,2,1,0;36,1,2,1,1,0;36,1,2,1,1,1,0;36,1,2,1,1,1,1,0;36,1,2,1,1,1,1,1,0;36,1,2,1,1,1,1,1,1,0;36,1,2,1,1,1,1,1,1,1
+#### Text ####
+that the government would abolish its golden share in Jaguar
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3729..3808
+36,0;36,1,0;36,1,1;36,2
+#### Text ####
+Secretary of State for Trade and Industry Nicholas Ridley said later in the day
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+4059
+38
+____Arg1____
+3943..4057
+37
+#### Text ####
+The golden share dates from Jaguar's public offering in 1984 and was designed to protect the company from takeover
+##############
+____Arg2____
+4059..4119
+38
+#### Text ####
+The golden share was scheduled to expire at the beginning of
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4122..4125
+39,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4059..4119
+38
+#### Text ####
+The golden share was scheduled to expire at the beginning of
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4126..4309
+39,1;39,2;39,3;39,4;39,5
+#### Text ####
+although the golden share has been waived, a hostile bidder for Jaguar would still have to alter the British concern's articles of association which ban shareholdings of more than 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4126..4134
+39,1,0
+#### Text ####
+although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+4122..4125;4169..4309
+39,0;39,2;39,3;39,4;39,5
+#### Text ####
+But a hostile bidder for Jaguar would still have to alter the British concern's articles of association which ban shareholdings of more than 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4135..4167
+39,1,1
+#### Text ####
+the golden share has been waived
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4311
+40
+#### Features ####
+Wr, Comm, Null, Null
+meanwhile, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+4122..4309
+39
+#### Text ####
+But although the golden share has been waived, a hostile bidder for Jaguar would still have to alter the British concern's articles of association which ban shareholdings of more than 15%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4311..4399
+40
+#### Text ####
+Jaguar shares closed at 869 pence, up 122 pence, on hefty turnover of 9.7 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4403..4405
+41,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+4450..4523
+41,1;41,2;41,3,0;41,3,1;41,3,2,0;41,3,2,1;41,3,2,2;41,4
+#### Text ####
+the market was still listening to the parliamentary debate on the economy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4406..4448
+41,0,1
+#### Text ####
+the London trading session drew to a close
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4736..4738
+42,3,4,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4652..4734
+42,0;42,1;42,2;42,3,0;42,3,1;42,3,2;42,3,3;42,4
+#### Text ####
+On the Frankfurt Stock Exchange, share prices closed higher in fairly thin trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4739..4790
+42,3,4,1
+#### Text ####
+selective buying by foreigners helped propel prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4792
+43
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion
+____Arg1____
+4652..4790
+42
+#### Text ####
+On the Frankfurt Stock Exchange, share prices closed higher in fairly thin trading, as selective buying by foreigners helped propel prices
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4792..4840
+43
+#### Text ####
+The DAX index closed at 1472.76, up from 1466.29
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5142..5154
+46,0,0
+#### Text ####
+Additionally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+additionally, Expansion.Conjunction
+____Arg1____
+4964..5140
+45
+#### Text ####
+Contributing to the market's reserved stance was the release later in the day of new data on the health of the U.S. economy, in the form of the U.S. index of leading indicators
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5156..5230
+46,0,1;46,0,2;46,0,3
+#### Text ####
+the end of the month position-squaring might have also played a minor role
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5232..5244
+46,1;46,2;46,3;46,4
+#### Text ####
+traders said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+5206..5210
+46,0,3,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5232..5244
+46,1;46,2;46,3;46,4
+#### Text ####
+traders said
+##############
+also, Expansion.Conjunction
+____Arg1____
+4964..5140
+45
+#### Text ####
+Contributing to the market's reserved stance was the release later in the day of new data on the health of the U.S. economy, in the form of the U.S. index of leading indicators
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+5142..5205;5211..5230
+46,0,0;46,0,1;46,0,2;46,0,3,0;46,0,3,1,0;46,0,3,1,2
+#### Text ####
+Additionally, the end of the month position-squaring might have played a minor role
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5327
+48
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal.Synchrony, Expansion.Conjunction
+____Arg1____
+5248..5325
+47
+#### Text ####
+Elsewhere, share prices closed higher in Amsterdam, Brussels, Milan and Paris
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5327..5377
+48
+#### Text ####
+Prices were mixed in Zurich and lower in Stockholm
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5483
+50
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+5381..5481
+49
+#### Text ####
+Stocks closed higher in Hong Kong, Manila, Singapore, Sydney and Wellington, but were lower in Seoul
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5483..5514
+50
+#### Text ####
+Taipei was closed for a holiday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5651
+52
+____Arg1____
+5518..5649
+51
+#### Text ####
+Here are price trends on the world's major stock markets, as calculated by Morgan Stanley Capital International Perspective, Geneva
+##############
+____Arg2____
+5651..5738
+52
+#### Text ####
+To make them directly comparable, each index is based on the close of 1969 equaling 100
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+5740
+53
+____Arg1____
+5651..5738
+52
+#### Text ####
+To make them directly comparable, each index is based on the close of 1969 equaling 100
+##############
+____Arg2____
+5740..5779
+53
+#### Text ####
+The percentage change is since year-end
+##############
+________________________________________________________

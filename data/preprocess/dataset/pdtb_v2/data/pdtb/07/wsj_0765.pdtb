@@ -1,0 +1,3376 @@
+________________________________________________________
+____Implicit____
+56
+1
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+9..54
+0
+#### Text ####
+It has more drug users than Boston has people
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+56..158
+1
+#### Text ####
+Thirty-four thousand of its children live in foster homes, while 50,000 residents have no homes at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+115..120
+1,1,3,0
+#### Text ####
+while
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.List, Comparison.Contrast.Juxtaposition
+____Arg1____
+56..113
+1,0;1,1,0;1,1,1;1,1,2;1,2
+#### Text ####
+Thirty-four thousand of its children live in foster homes
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+121..158
+1,1,3,1
+#### Text ####
+50,000 residents have no homes at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+160
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+9..158
+0;1
+#### Text ####
+It has more drug users than Boston has people.
+Thirty-four thousand of its children live in foster homes, while 50,000 residents have no homes at all
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+160..185
+2,0
+#### Text ####
+Its tax base is shrinking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+222..225
+2,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+160..220
+2,0;2,1;2,2;2,3
+#### Text ####
+Its tax base is shrinking, a $1 billion budget deficit looms
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+226..304
+2,5
+#### Text ####
+the city faces contract negotiations with all major municipal unions next year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+331
+4
+____Arg1____
+308..329
+3
+#### Text ####
+This is New York City
+##############
+____Arg2____
+331..483
+4
+#### Text ####
+When the dust and dirt settle in an extra-nasty mayoral race, the man most likely to gain custody of all this is a career politician named David Dinkins
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+331..335
+4,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession
+____Arg1____
+393..483
+4,1;4,2;4,3;4,4
+#### Text ####
+the man most likely to gain custody of all this is a career politician named David Dinkins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+336..391
+4,0,1
+#### Text ####
+the dust and dirt settle in an extra-nasty mayoral race
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+485
+5
+____Arg1____
+331..483
+4
+#### Text ####
+When the dust and dirt settle in an extra-nasty mayoral race, the man most likely to gain custody of all this is a career politician named David Dinkins
+##############
+____Arg2____
+485..605
+5
+#### Text ####
+Running the nation's largest and most ornery city may be no treat, but at least Mr. Dinkins knows what to expect from it
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+552..555
+5,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+485..550
+5,0
+#### Text ####
+Running the nation's largest and most ornery city may be no treat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+556..605
+5,3
+#### Text ####
+at least Mr. Dinkins knows what to expect from it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+607..609
+6,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+646..719
+6,1;6,2;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+however, voters still have very little idea what they can expect from him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+610..644
+6,0,1
+#### Text ####
+the campaign hits the home stretch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+646..653
+6,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+552..605
+5,2;5,3;5,4
+#### Text ####
+but at least Mr. Dinkins knows what to expect from it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+607..644;655..719
+6,0;6,1;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+As the campaign hits the home stretch voters still have very little idea what they can expect from him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+721
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+655..719
+6,1;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+voters still have very little idea what they can expect from him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+721..785
+7
+#### Text ####
+After 25 years in city politics, David Dinkins remains an enigma
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+971
+9
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+789..969
+8
+#### Text ####
+The soft-spoken, silver-haired Manhattan borough president -- the first black man to win the Democratic nomination for mayor here -- doesn't have a single prominent political enemy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+971..1092
+9
+#### Text ####
+While he is widely described as a man with deep convictions, he has few major political programs that he can call his own
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+971..976
+9,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+1032..1092
+9,1;9,2;9,3;9,4
+#### Text ####
+he has few major political programs that he can call his own
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+977..1030
+9,0,1
+#### Text ####
+he is widely described as a man with deep convictions
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1094
+10
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+for instance, Expansion.Restatement.Specification
+____Arg1____
+971..1092
+9
+#### Text ####
+While he is widely described as a man with deep convictions, he has few major political programs that he can call his own
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1094..1193
+10
+#### Text ####
+Asked about his greatest achievement in public life, he first speaks about the quality of his staff
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1202..1204
+11,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+1197..1200;1225..1303
+11,0;11,1;11,3;11,4;11,5;11,6
+#### Text ####
+Now even some supporters wonder what he will do if he wins the mayoralty on Nov. 7
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1205..1223
+11,2,1
+#### Text ####
+election day nears
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1269..1271
+11,5,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+1225..1252
+11,1;11,3;11,4;11,5,0;11,6
+#### Text ####
+even some supporters wonder
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1253..1268
+11,5,1,0;11,5,1,1,0;11,5,1,1,1,0;11,5,1,1,1,1,0;11,5,1,1,1,1,1
+#### Text ####
+what he will do
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1272..1303
+11,5,1,1,1,1,2,1
+#### Text ####
+he wins the mayoralty on Nov. 7
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1305
+12
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1197..1303
+11
+#### Text ####
+Now, as election day nears, even some supporters wonder what he will do if he wins the mayoralty on Nov. 7
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1305..1364
+12,0;12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1,0;12,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,1;12,2
+#### Text ####
+They wonder whether he can be firm with his longtime allies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1448
+13
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.List
+____Arg1____
+1305..1364
+12,0;12,1,0;12,1,1,0;12,1,1,1,0;12,1,1,1,1,0;12,1,1,1,1,1,0;12,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,0;12,1,1,1,1,1,1,1,1,1;12,2
+#### Text ####
+They wonder whether he can be firm with his longtime allies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1448..1547
+13,0
+#### Text ####
+They wonder whether he has the economic know-how to steer the city through a possible fiscal crisis
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1549..1552
+13,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1448..1547
+13,0
+#### Text ####
+They wonder whether he has the economic know-how to steer the city through a possible fiscal crisis
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1553..1589
+13,3
+#### Text ####
+they wonder who will be advising him
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1591
+14
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+1549..1589
+13,2;13,3;13,4
+#### Text ####
+and they wonder who will be advising him
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1591..1824
+14
+#### Text ####
+Will he, if he wins, be in the thrall of the most liberal of his allies, who advocate such policies as rent control for commercial buildings, or will he tilt toward the real-estate interests that have funneled money into his campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1600..1602
+14,0,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Sup1____
+1664..1731
+14,0,5,1,1,1,1,3
+#### Text ####
+who advocate such policies as rent control for commercial buildings
+##############
+____Arg1____
+1591..1598;1612..1662;1733..1824
+14,0,0;14,0,1;14,0,2;14,0,4;14,0,5,0;14,0,5,1,0;14,0,5,1,1,0;14,0,5,1,1,1,0;14,0,5,1,1,1,1,0;14,0,5,1,1,1,1,1;14,0,5,1,1,1,1,2;14,2;14,3;14,4
+#### Text ####
+Will he be in the thrall of the most liberal of his allies or will he tilt toward the real-estate interests that have funneled money into his campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1603..1610
+14,0,3,1
+#### Text ####
+he wins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1733..1735
+14,2
+#### Text ####
+or
+##############
+#### Features ####
+Wr, Comm, Null, Null
+or, Expansion.Alternative
+____Arg1____
+1591..1731
+14,0
+#### Text ####
+Will he, if he wins, be in the thrall of the most liberal of his allies, who advocate such policies as rent control for commercial buildings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1736..1824
+14,3
+#### Text ####
+will he tilt toward the real-estate interests that have funneled money into his campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2095..2098
+16,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+1828..2091
+15
+#### Text ####
+After his decisive primary victory over Mayor Edward I. Koch in September, Mr. Dinkins coasted, until recently, on a quite-comfortable lead over his Republican opponent, Rudolph Giuliani, the former crime buster who has proved a something of a bust as a candidate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2099..2273
+16,1;16,2;16,3
+#### Text ####
+Mr. Dinkins has stumbled in the past two weeks over his campaign's payments to a black activist who is a convicted kidnapper, and over his handling of a stock sale to his son
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2281..2285
+17,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2095..2273
+16
+#### Text ####
+But Mr. Dinkins has stumbled in the past two weeks over his campaign's payments to a black activist who is a convicted kidnapper, and over his handling of a stock sale to his son
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2275..2280;2286..2442
+17,0,0;17,0,2;17,1;17,2;17,3;17,4
+#### Text ####
+Polls have recorded some slippage in Mr. Dinkins's support among Jewish voters, and citywide projections now put his lead at between four and 20 percentage points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2360..2363
+17,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2275..2358
+17,0
+#### Text ####
+Polls also have recorded some slippage in Mr. Dinkins's support among Jewish voters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2364..2442
+17,3
+#### Text ####
+citywide projections now put his lead at between four and 20 percentage points
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2609
+19
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2446..2606
+18
+#### Text ####
+In an interview with reporters and editors of The Wall Street Journal, Mr. Dinkins appears quite confident of victory and of his ability to handle the mayoralty
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2609..2700
+19
+#### Text ####
+A lot of people think I will give away the store, but I can assure you I will not," he says
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2659..2662
+19,0,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2693..2700
+19,1;19,2;19,3
+#### Text ####
+he says
+##############
+but, Comparison.Contrast
+____Arg1____
+2609..2657
+19,0,1
+#### Text ####
+A lot of people think I will give away the store
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2663..2690
+19,0,4
+#### Text ####
+I can assure you I will not
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2703
+20
+#### Features ####
+Ot, Comm, Null, Null
+2693..2700
+19,1;19,2;19,3
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2659..2690
+19,0,3;19,0,4;19,0,5;19,0,6
+#### Text ####
+but I can assure you I will not
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2703..2745
+20
+#### Text ####
+I am aware we have real budgetary problems
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2867
+22
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2750..2865
+21
+#### Text ####
+The city is full of aging bridges, water mains and roadways that are in need of billions of dollars worth of repair
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2867..2922
+22
+#### Text ####
+Renewed efforts to fight drugs and crime will be costly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2924..2927
+23,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+2750..2922
+21;22
+#### Text ####
+The city is full of aging bridges, water mains and roadways that are in need of billions of dollars worth of repair.
+Renewed efforts to fight drugs and crime will be costly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2947..2971
+23,2,1
+#### Text ####
+tax revenues are lagging
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2928..2946
+23,1;23,2,0;23,3
+#### Text ####
+city officials say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2973..2976
+24,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2947..2971
+23,2,1
+#### Text ####
+tax revenues are lagging
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2928..2946
+23,1;23,2,0;23,3
+#### Text ####
+city officials say
+##############
+____Arg2____
+2977..3068
+24,1;24,2;24,3;24,4;24,5
+#### Text ####
+after a decade of explosive job growth on Wall Street, a period of contraction is under way
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3150..3153
+25,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+3103..3148
+25,0,2,1,1
+#### Text ####
+he will drop 3,200 jobs from the city payroll
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3072..3102
+25,0,0;25,0,1;25,0,2,0;25,0,2,1,0
+#### Text ####
+Mr. Koch already has announced
+##############
+____Arg2____
+3154..3174
+25,3
+#### Text ####
+that won't be enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3176
+26
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3150..3174
+25,2;25,3;25,4
+#### Text ####
+but that won't be enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3176..3282
+26,0;26,1,0;26,1,1,0;26,1,1,1;26,2
+#### Text ####
+New York State Comptroller Edward Regan predicts a $1.3 billion budget gap for the city's next fiscal year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3306..3308
+26,1,1,2,1,1,1,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3290..3305
+26,1,1,2,1,0;26,1,1,2,1,1,0;26,1,1,2,1,1,1,0;26,1,1,2,1,1,1,1,0
+#### Text ####
+that could grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3309..3329
+26,1,1,2,1,1,1,1,1,1
+#### Text ####
+there is a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3331
+27
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+3176..3329
+26
+#### Text ####
+New York State Comptroller Edward Regan predicts a $1.3 billion budget gap for the city's next fiscal year, a gap that could grow if there is a recession
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3331..3485
+27
+#### Text ####
+If elected, Mr. Dinkins will probably have no choice but to raise taxes on overburdened businesses or cut spending in already under-serviced neighborhoods
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3331..3333
+27,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+3343..3485
+27,1;27,2;27,3;27,4
+#### Text ####
+Mr. Dinkins will probably have no choice but to raise taxes on overburdened businesses or cut spending in already under-serviced neighborhoods
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3334..3341
+27,0,1
+#### Text ####
+elected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3562
+29
+#### Features ####
+Ot, Comm, Null, Null
+3519..3559
+28,1;28,2;28,3
+#### Text ####
+says City Council President Andrew Stein
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+3490..3516
+28,0
+#### Text ####
+He is going to face a mess
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3562..3681
+29
+#### Text ####
+His supporters are not venal, but their solution to everything will be to spend more money, and he won't have any money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3592..3595
+29,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3519..3559
+28,1;28,2;28,3
+#### Text ####
+says City Council President Andrew Stein
+##############
+but, Comparison.Contrast
+____Arg1____
+3562..3590
+29,1
+#### Text ####
+His supporters are not venal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3596..3681
+29,4
+#### Text ####
+their solution to everything will be to spend more money, and he won't have any money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3654..3657
+29,4,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3519..3559
+28,1;28,2;28,3
+#### Text ####
+says City Council President Andrew Stein
+##############
+and, Expansion.Conjunction
+____Arg1____
+3592..3652
+29,3;29,4,0;29,4,1;29,5;29,6
+#### Text ####
+but their solution to everything will be to spend more money
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3658..3681
+29,4,3
+#### Text ####
+he won't have any money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3772
+31
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+3686..3770
+30
+#### Text ####
+By and large, Mr. Dinkins has finessed the touchy question of whose ox he would gore
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3772..3981
+31
+#### Text ####
+Instead of focusing on the financial future, Mr. Dinkins has sold himself as a unifier for a city recently touched by racial violence and as a soothing antidote to 12 years of commotion generated by Mayor Koch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3984
+32
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+3772..3981
+31
+#### Text ####
+Instead of focusing on the financial future, Mr. Dinkins has sold himself as a unifier for a city recently touched by racial violence and as a soothing antidote to 12 years of commotion generated by Mayor Koch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3984..4071
+32,0
+#### Text ####
+The thing about the Dinkins candidacy is that it offers hope to a broad range of people
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4074..4153
+32,1;32,2;32,3
+#### Text ####
+says Meyer Frucher, a real-estate executive and former aide to Gov. Mario Cuomo
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+4156
+33
+#### Features ####
+Ot, Comm, Null, Null
+4074..4153
+32,1;32,2;32,3
+#### Text ####
+says Meyer Frucher, a real-estate executive and former aide to Gov. Mario Cuomo
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+3984..4071
+32,0
+#### Text ####
+The thing about the Dinkins candidacy is that it offers hope to a broad range of people
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4156..4183
+33
+#### Text ####
+It is a feel-good candidacy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4240
+35
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+4188..4238
+34
+#### Text ####
+No doubt, Mr. Dinkins has been a calming influence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4240..4394
+35
+#### Text ####
+He is an avuncular figure who remembers the birthdays of colleagues' children, opens doors for women, and almost never has a bad word to say about anybody
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4396
+36
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+4240..4394
+35
+#### Text ####
+He is an avuncular figure who remembers the birthdays of colleagues' children, opens doors for women, and almost never has a bad word to say about anybody
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4396..4496;4548..4640
+36,0;36,1;36,2;36,3,0;36,3,1;36,3,2;36,3,3,0;36,3,3,1,0,0;36,3,3,1,1;36,3,3,1,2;36,4
+#### Text ####
+More important, he emerged as a peacemaker last summer after the Central Park rape of a white jogger and the racial murder of a black teen-ager in the white Brooklyn neighborhood of Bensonhurst
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4642
+37
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+4396..4496;4548..4640
+36,0;36,1;36,2;36,3,0;36,3,1;36,3,2;36,3,3,0;36,3,3,1,0,0;36,3,3,1,1;36,3,3,1,2;36,4
+#### Text ####
+More important, he emerged as a peacemaker last summer after the Central Park rape of a white jogger and the racial murder of a black teen-ager in the white Brooklyn neighborhood of Bensonhurst
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4642..4800
+37
+#### Text ####
+Rather than scaring off white voters, as many predicted he would, Mr. Dinkins attracted many whites precisely because of his reputation for having a cool head
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4803
+38
+____Arg1____
+4642..4800
+37
+#### Text ####
+Rather than scaring off white voters, as many predicted he would, Mr. Dinkins attracted many whites precisely because of his reputation for having a cool head
+##############
+____Arg2____
+4803..4942
+38
+#### Text ####
+Keeping cool is a Dinkins priority: On humid days this summer, he was known to change his double-breasted suits as many as four times a day
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4947..4950
+39,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+4188..4238
+34
+#### Text ####
+No doubt, Mr. Dinkins has been a calming influence
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4951..5040
+39,1;39,2;39,3;39,4,0;39,4,1,0;39,4,1,1,0;39,4,1,1,1,0;39,4,1,1,1,1,0;39,5
+#### Text ####
+even in his front-runner campaign, he has shown signs of the indecisiveness and confusion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5143
+40
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+4947..5141
+39
+#### Text ####
+But even in his front-runner campaign, he has shown signs of the indecisiveness and confusion that some say has plagued his tenure as Manhattan borough president -- and might hinder him as mayor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5143..5266
+40
+#### Text ####
+Over the last few weeks, he has frittered away roughly half of what was once a 33-point lead in the polls over Mr. Giuliani
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5268
+41
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+5143..5266
+40
+#### Text ####
+Over the last few weeks, he has frittered away roughly half of what was once a 33-point lead in the polls over Mr. Giuliani
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5268..5468
+41
+#### Text ####
+A story about how he mishandled the sale to his son of his stock in a media company controlled by his political patron Percy Sutton was allowed to fester a full week before Mr. Dinkins faced the media
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5434..5440
+41,1,1,1,1,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+5412..5433
+41,1,1,1,0;41,1,1,1,1,0;41,1,1,1,1,1,0;41,1,1,1,1,1,1
+#### Text ####
+to fester a full week
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5441..5468
+41,1,1,1,1,1,2,1
+#### Text ####
+Mr. Dinkins faced the media
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5470
+42
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5268..5468
+41
+#### Text ####
+A story about how he mishandled the sale to his son of his stock in a media company controlled by his political patron Percy Sutton was allowed to fester a full week before Mr. Dinkins faced the media
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5470..5586
+42
+#### Text ####
+He has canceled numerous campaign appointments and was largely inaccessible to the media until the stock story broke
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5559..5564
+42,1,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Wr, Comm, Null, Null
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+5517..5558
+42,1,1;42,1,2,0;42,1,2,1
+#### Text ####
+and was largely inaccessible to the media
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5565..5586
+42,1,2,2,1
+#### Text ####
+the stock story broke
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5818
+44
+____Arg1____
+5590..5815
+43
+#### Text ####
+His campaign was caught flat-footed amid allegations it paid almost $10,000 for what it said was a "get-out-the-vote" effort by black activist Sonny Carson, a convicted kidnapper who later said publicly that he is "anti-white
+##############
+____Arg2____
+5818..5989
+44,0;44,1,0;44,1,1,0;44,1,1,1,0;44,1,1,1,1,0;44,1,1,1,1,1,0;44,1,1,1,1,1,1,0;44,1,1,1,1,1,1,1,0;44,1,1,1,1,1,1,1,1;44,1,1,1,1,1,1,1,2,0;44,1,1,1,1,1,1,1,2,1,0;44,1,1,1,1,1,1,1,2,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,1,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,0;44,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1;44,2
+#### Text ####
+Critics have said the payment looked like an attempt by the Dinkins camp to get Mr. Carson to stop leading confrontational demonstrations protesting the Bensonhurst murder
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6107..6111
+45,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5268..5468;5590..5815
+41;43
+#### Text ####
+A story about how he mishandled the sale to his son of his stock in a media company controlled by his political patron Percy Sutton was allowed to fester a full week before Mr. Dinkins faced the media His campaign was caught flat-footed amid allegations it paid almost $10,000 for what it said was a "get-out-the-vote" effort by black activist Sonny Carson, a convicted kidnapper who later said publicly that he is "anti-white
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6095..6106;6112..6335
+45,0;45,2;45,3
+#### Text ####
+Mr. Dinkins has failed to allay Jewish voters' fears about his association with the Rev. Jesse Jackson, despite the fact that few local non-Jewish politicians have been as vocal for Jewish causes in the past 20 years as Mr. Dinkins has
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6421
+47
+____Arg1____
+6339..6419
+46
+#### Text ####
+These campaign problems have echoed difficulties Mr. Dinkins has run into before
+##############
+____Arg2____
+6421..6697
+47
+#### Text ####
+A former U.S. Marine, Mr. Dinkins got off to a quick start in politics, joining a local Democratic political club in the 1950s, linking up with black urban leaders such as Charles Rangel, Basil Paterson and Mr. Sutton, and getting himself elected to the state assembly in 1965
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+6699..6702
+48,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+6421..6697
+47
+#### Text ####
+A former U.S. Marine, Mr. Dinkins got off to a quick start in politics, joining a local Democratic political club in the 1950s, linking up with black urban leaders such as Charles Rangel, Basil Paterson and Mr. Sutton, and getting himself elected to the state assembly in 1965
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6703..6923
+48,1;48,2;48,3
+#### Text ####
+his chance to become deputy mayor under Mayor Abraham Beame, a plan boosted by Mr. Sutton, was squandered because of Mr. Dinkins's failure -- still largely unexplained -- to file income tax returns for four years running
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+6926
+49
+____Arg1____
+6699..6762;6794..6841;6874..6923
+48,0;48,1,0;48,1,1;48,1,3;48,2,0;48,2,1,0;48,2,1,1;48,2,1,2,0;48,2,1,2,1;48,2,1,2,2,0;48,2,1,2,2,1;48,2,1,2,2,2,0;48,2,1,2,2,2,2;48,2,1,2,2,3;48,3
+#### Text ####
+But his chance to become deputy mayor under Mayor Abraham Beame was squandered because of Mr. Dinkins's failure to file income tax returns for four years running
+##############
+____Arg2____
+6926..7018
+49
+#### Text ####
+I always thought of this as a thing that could always be done tomorrow," he said at the time
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+7022..7027
+50,0
+#### Text ####
+Later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+6493..6697
+47,1,4
+#### Text ####
+joining a local Democratic political club in the 1950s, linking up with black urban leaders such as Charles Rangel, Basil Paterson and Mr. Sutton, and getting himself elected to the state assembly in 1965
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7029..7291
+50,1;50,2;50,3;50,4
+#### Text ####
+Mr. Dinkins became more deeply indebted to Mr. Sutton and other city pols, including then-City Council President Paul O'Dwyer, when they helped him get appointed city clerk, a largely ceremonial post responsible for the city's marriage bureau, among other things
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7156..7160
+50,3,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+7022..7154
+50,0;50,1;50,2;50,3,0;50,3,1;50,4
+#### Text ####
+Later, Mr. Dinkins became more deeply indebted to Mr. Sutton and other city pols, including then-City Council President Paul O'Dwyer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7161..7291
+50,3,2,1
+#### Text ####
+they helped him get appointed city clerk, a largely ceremonial post responsible for the city's marriage bureau, among other things
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+7294
+51
+____Arg1____
+7022..7291
+50
+#### Text ####
+Later, Mr. Dinkins became more deeply indebted to Mr. Sutton and other city pols, including then-City Council President Paul O'Dwyer, when they helped him get appointed city clerk, a largely ceremonial post responsible for the city's marriage bureau, among other things
+##############
+____Arg2____
+7294..7362
+51
+#### Text ####
+Mr.
+O'Dwyer is now one of the lawyers for Mr. Sutton's media company
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+7484
+53
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+7367..7482
+52
+#### Text ####
+The debt rose further in 1977 when Mr. Sutton resigned his position as Manhattan borough president to run for mayor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7484..7631
+53,0;53,1,0;53,1,1;53,1,2,0;53,1,2,1;53,1,2,2;53,1,2,3;53,1,2,4;53,1,2,5;53,2;53,3;53,4
+#### Text ####
+Mr. Sutton recalls: "When I left, I sat down with Charlie {Rangel}, Basil {Paterson} and David, and David said, 'Who will run for borough president
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7505..7509
+53,1,2,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7484..7502
+53,0;53,1,0;53,1,1;53,2;53,3;53,4
+#### Text ####
+Mr. Sutton recalls
+##############
+when, Temporal.Asynchronous.Succession
+____Sup1____
+7580..7656
+53,1,2,4;53,1,2,5;53,1,2,6;53,1,2,7
+#### Text ####
+and David said, 'Who will run for borough president? ' And I said, 'You will
+##############
+____Arg1____
+7518..7578
+53,1,2,3
+#### Text ####
+I sat down with Charlie {Rangel}, Basil {Paterson} and David
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7510..7516
+53,1,2,1,1
+#### Text ####
+I left
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7580..7583
+53,1,2,4
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7484..7502
+53,0;53,1,0;53,1,1;53,2;53,3;53,4
+#### Text ####
+Mr. Sutton recalls
+##############
+and, Expansion.Conjunction
+____Arg1____
+7505..7578
+53,1,2,0;53,1,2,1;53,1,2,2;53,1,2,3
+#### Text ####
+When I left, I sat down with Charlie {Rangel}, Basil {Paterson} and David
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7584..7631
+53,1,2,5
+#### Text ####
+David said, 'Who will run for borough president
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7635..7638
+53,1,2,6
+#### Text ####
+And
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7484..7502
+53,0;53,1,0;53,1,1;53,2;53,3;53,4
+#### Text ####
+Mr. Sutton recalls
+##############
+and, Expansion.Conjunction
+____Arg1____
+7505..7631
+53,1,2,0;53,1,2,1;53,1,2,2;53,1,2,3;53,1,2,4;53,1,2,5
+#### Text ####
+When I left, I sat down with Charlie {Rangel}, Basil {Paterson} and David, and David said, 'Who will run for borough president
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7639..7656
+53,1,2,7
+#### Text ####
+I said, 'You will
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7793..7796
+55,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7663..7732
+54,0;54,1,0;54,1,1;54,1,2;54,2
+#### Text ####
+David Garth, Mayor Koch's longtime media adviser, says of Mr. Dinkins
+##############
+but, Comparison.Contrast
+____Arg1____
+7735..7791
+54,1,3
+#### Text ####
+He really is the personification of the patronage system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7797..7856
+55,1;55,2;55,3;55,4
+#### Text ####
+the guy is so personally decent, people tend to forget that
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7900..7906
+56,1,3,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+7861..7899
+56,0;56,1,0;56,1,1;56,1,2;56,2
+#### Text ####
+Mr. Dinkins lost twice by wide margins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7907..7956
+56,1,3,1
+#### Text ####
+finally getting elected borough president in 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7907..7914
+56,1,3,1,1,0
+#### Text ####
+finally
+##############
+#### Features ####
+Wr, Comm, Null, Null
+finally, Expansion.Conjunction, Temporal.Asynchronous.Precedence
+____Arg1____
+7861..7899
+56,0;56,1,0;56,1,1;56,1,2;56,2
+#### Text ####
+Mr. Dinkins lost twice by wide margins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7900..7906;7915..7956
+56,1,3,0;56,1,3,1,1,1;56,1,3,1,1,2
+#### Text ####
+before getting elected borough president in 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+7958..7961
+57,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+7861..7956
+56
+#### Text ####
+Mr. Dinkins lost twice by wide margins before finally getting elected borough president in 1985
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+7980..8191
+57,2;57,3;57,4;57,5
+#### Text ####
+he made little of the post and was best known among city politicians for his problems making up his mind on matters before the city's Board of Estimate, the body that votes on crucial budget and land-use matters
+##############
+#### Features ####
+Ot, Comm, Null, Null
+7962..7978
+57,1;57,2;57,5
+#### Text ####
+by most accounts
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+8193
+58
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+8007..8131
+57,4,1;57,4,2,0;57,4,2,1,0;57,4,2,1,1;57,4,2,1,2;57,4,2,1,3,0;57,4,2,1,3,1,0;57,4,2,1,3,1,1,0;57,4,2,1,3,1,1,1;57,4,2,1,3,1,1,2;57,4,2,1,3,1,1,3,0;57,4,2,1,3,1,1,3,1,0;57,4,2,1,3,1,1,3,1,1,0;57,4,2,1,3,1,1,3,1,1,1,0;57,4,2,1,3,1,1,3,1,1,1,1
+#### Text ####
+and was best known among city politicians for his problems making up his mind on matters before the city's Board of Estimate
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8193..8427
+58
+#### Text ####
+Colleagues today recall with some humor how meetings would crawl into the early morning hours as Mr. Dinkins would march his staff out of board meetings and into his private office to discuss, en masse, certain controversial proposals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8287..8289
+58,2,2,1,1,1,3,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8193..8232
+58,0;58,1;58,2,0;58,2,1;58,3
+#### Text ####
+Colleagues today recall with some humor
+##############
+as, Temporal.Synchrony
+____Arg1____
+8233..8286
+58,2,2,0;58,2,2,1,0;58,2,2,1,1,0;58,2,2,1,1,1,0;58,2,2,1,1,1,1;58,2,2,1,1,1,2
+#### Text ####
+how meetings would crawl into the early morning hours
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+8290..8427
+58,2,2,1,1,1,3,1
+#### Text ####
+Mr. Dinkins would march his staff out of board meetings and into his private office to discuss, en masse, certain controversial proposals
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+8430
+59
+____Arg1____
+8193..8427
+58
+#### Text ####
+Colleagues today recall with some humor how meetings would crawl into the early morning hours as Mr. Dinkins would march his staff out of board meetings and into his private office to discuss, en masse, certain controversial proposals
+##############
+____Arg2____
+8430..8548
+59
+#### Text ####
+He taught me how to drink herbal tea instead of coffee at 3 a.m., I'll give him that," says Deputy Mayor Robert Esnard
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+8666
+61
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+8552..8649
+60,0
+#### Text ####
+Often, Mr. Dinkins's procrastination prevented him from having a say in the way things turned out
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8651..8664
+60,1;60,2;60,3;60,4
+#### Text ####
+critics claim
+##############
+____Arg2____
+8666..8988
+61;62
+#### Text ####
+On the campaign stump, he often points out that he was the only Board of Estimate member to vote against a controversial real-estate project at Manhattan's Columbus Circle.
+But board members say he took so long to decide how to vote that by the time he decided, it was too late to try to draw other members to his position
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+8839..8842
+62,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+8709..8837
+61,4,2
+#### Text ####
+that he was the only Board of Estimate member to vote against a controversial real-estate project at Manhattan's Columbus Circle
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8666..8708
+61,0;61,1;61,2;61,3;61,4,0;61,4,1;61,5
+#### Text ####
+On the campaign stump, he often points out
+##############
+____Arg2____
+8861..8988
+62,2,1
+#### Text ####
+he took so long to decide how to vote that by the time he decided, it was too late to try to draw other members to his position
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8843..8860
+62,1;62,2,0;62,3
+#### Text ####
+board members say
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+9015
+63
+#### Features ####
+Wr, Comm, Null, Null
+in other words, Expansion.Restatement.Equivalence
+____Arg1____
+8861..8988
+62,2,1
+#### Text ####
+he took so long to decide how to vote that by the time he decided, it was too late to try to draw other members to his position
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8839..8860
+62,0;62,1;62,2,0;62,3
+#### Text ####
+But board members say
+##############
+____Arg2____
+9015..9140
+63,3;64
+#### Text ####
+Everybody else had brought in the wagons and made their deal.
+He would have got a lot more done if he made up his mind faster
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8990..9012
+63,0;63,1;63,2;63,4
+#### Text ####
+Says one city official
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+9077
+64
+#### Features ####
+Ot, Comm, Null, Null
+8990..9012
+63,0;63,1;63,2;63,4
+#### Text ####
+Says one city official
+##############
+so, Contingency.Cause.Result
+____Arg1____
+9015..9075
+63,3
+#### Text ####
+Everybody else had brought in the wagons and made their deal
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9077..9140
+64
+#### Text ####
+He would have got a lot more done if he made up his mind faster
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+9111..9113
+64,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+8990..9012
+63,0;63,1;63,2;63,4
+#### Text ####
+Says one city official
+##############
+if, Contingency.Condition.Unreal past
+____Arg1____
+9077..9110
+64,0;64,1,0;64,1,1,0;64,1,1,1,0;64,1,1,1,1;64,2;64,3
+#### Text ####
+He would have got a lot more done
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9114..9140
+64,1,1,1,2,1
+#### Text ####
+he made up his mind faster
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9377
+66
+#### Features ####
+Wr, Comm, Null, Null
+indeed, Contingency.Cause.Reason, Expansion
+____Arg1____
+9145..9374
+65
+#### Text ####
+One Board member, Bronx Borough President Ferdinand Ferrer, was said to be so impatient with Mr. Dinkins's behavior at many meetings that he withheld his support for Mr. Dinkins's mayoral effort until late in the primary campaign
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9377..9469
+66,0,0
+#### Text ####
+I had some problem from time to time on the length of time he would take to make up his mind
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+9472..9489
+66,0,1;66,0,2
+#### Text ####
+Mr. Ferrer admits
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+9491..9494
+66,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9377..9469
+66,0,0
+#### Text ####
+I had some problem from time to time on the length of time he would take to make up his mind
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9472..9489
+66,0,1;66,0,2
+#### Text ####
+Mr. Ferrer admits
+##############
+____Arg2____
+9508..9615
+66,3,1,1
+#### Text ####
+that he didn't delay his support of Mr. Dinkins and that he backs the Democratic candidate enthusiastically
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9495..9507
+66,3,0;66,3,1,0
+#### Text ####
+he maintains
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+9556..9559
+66,3,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9495..9507
+66,3,0;66,3,1,0
+#### Text ####
+he maintains
+##############
+and, Expansion.Conjunction
+____Arg1____
+9508..9555
+66,3,1,1,0
+#### Text ####
+that he didn't delay his support of Mr. Dinkins
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9560..9615
+66,3,1,1,2
+#### Text ####
+that he backs the Democratic candidate enthusiastically
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+9781
+68
+#### Features ####
+Wr, Comm, Null, Null
+rather, Expansion.Alternative.Chosen alternative
+____Arg1____
+9696..9778
+67,1,1
+#### Text ####
+that the Manhattan borough president has taken too long to decide important issues
+##############
+#### Features ####
+Ot, Comm, Neg, Null
+9619..9695
+67,0;67,1,0;67,2
+#### Text ####
+Mr. Dinkins's campaign manager and former chief of staff, Bill Lynch, denies
+##############
+____Arg2____
+9781..9830
+68,0
+#### Text ####
+We didn't rubber-stamp everything that came to us
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9833..9847
+68,1;68,2;68,3
+#### Text ####
+Mr. Lynch says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+9976
+70
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+9851..9974
+69
+#### Text ####
+On some occasions when Mr. Dinkins has discussed the issues during the campaign, he has run into a familiar kind of trouble
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+9976..10105
+70
+#### Text ####
+Some supporters were stunned this summer when Mr. Dinkins suggested weakening the law forbidding public employees to go on strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10107
+71
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+9976..10105
+70
+#### Text ####
+Some supporters were stunned this summer when Mr. Dinkins suggested weakening the law forbidding public employees to go on strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10107..10129
+71
+#### Text ####
+He withdrew the remark
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10131
+72
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+10107..10129
+71
+#### Text ####
+He withdrew the remark
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10131..10324
+72
+#### Text ####
+When he later sided with striking hospital workers, some allies cringed a little more, concerned that Mr. Dinkins was setting the wrong tone for coming contract negotiations with city employees
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10131..10135
+72,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Sup1____
+10218..10324
+72,3,2;72,3,3;72,4
+#### Text ####
+concerned that Mr. Dinkins was setting the wrong tone for coming contract negotiations with city employees
+##############
+____Arg1____
+10183..10216
+72,1;72,2;72,3,0;72,3,1
+#### Text ####
+some allies cringed a little more
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10136..10181
+72,0,1
+#### Text ####
+he later sided with striking hospital workers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10139..10144
+72,0,1,1
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+10017..10105
+70,1,2,1
+#### Text ####
+when Mr. Dinkins suggested weakening the law forbidding public employees to go on strike
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10131..10138;10145..10181
+72,0,0;72,0,1,0;72,0,1,2
+#### Text ####
+When he sided with striking hospital workers
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10328..10332
+73,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+10131..10181
+72,0
+#### Text ####
+When he later sided with striking hospital workers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10402..10507
+73,1;73,3;73,4;73,5;73,6
+#### Text ####
+Mr. Dinkins promised he would issue a three-year moratorium on construction of garbage-incinerator plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+10334..10400
+73,2
+#### Text ####
+two days before receiving an endorsement from environmental groups
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+10334..10349
+73,2,0;73,2,1
+#### Text ####
+two days before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+10328..10332;10402..10507
+73,0;73,1;73,3;73,4;73,5;73,6
+#### Text ####
+Then Mr. Dinkins promised he would issue a three-year moratorium on construction of garbage-incinerator plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10350..10400
+73,2,2
+#### Text ####
+receiving an endorsement from environmental groups
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10509
+74
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+10328..10507
+73
+#### Text ####
+Then, two days before receiving an endorsement from environmental groups, Mr. Dinkins promised he would issue a three-year moratorium on construction of garbage-incinerator plants
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10509..10751
+74
+#### Text ####
+That announcement was roundly criticized by Mayor Koch -- who has endorsed Mr. Dinkins -- because the city faces a garbage crisis and has already spent $5 million planning for an incinerator that would be scrapped under Mr. Dinkins's proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10599..10606
+74,1,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+10567..10595
+74,1,1,3,1,1
+#### Text ####
+who has endorsed Mr. Dinkins
+##############
+____Arg1____
+10509..10563
+74,0;74,1,0;74,1,1,0;74,1,1,1;74,1,1,2;74,1,1,3,0;74,1,1,3,1,0;74,2
+#### Text ####
+That announcement was roundly criticized by Mayor Koch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10607..10751
+74,1,1,4,1
+#### Text ####
+the city faces a garbage crisis and has already spent $5 million planning for an incinerator that would be scrapped under Mr. Dinkins's proposal
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+10755..10760
+75,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+10813..10902
+75,1;75,2;75,3;75,4
+#### Text ####
+Mr. Dinkins's position papers have more consistently reflected anti-development sentiment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10761..10811
+75,0,1
+#### Text ####
+his public statements have at times been confusing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+10904
+76
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+10813..10902
+75,1;75,2;75,3;75,4
+#### Text ####
+Mr. Dinkins's position papers have more consistently reflected anti-development sentiment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+10904..11050
+76
+#### Text ####
+He favors a form of commercial rent control, which the financial community believes would make it more difficult to attract investment in the city
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11052
+77
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+10904..11050
+76
+#### Text ####
+He favors a form of commercial rent control, which the financial community believes would make it more difficult to attract investment in the city
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11052..11184
+77
+#### Text ####
+In the midst of a labor shortage, he proposes linking city subsidies to businesses to their record of hiring New York City residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11186
+78
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+11052..11184
+77
+#### Text ####
+In the midst of a labor shortage, he proposes linking city subsidies to businesses to their record of hiring New York City residents
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11186..11220;11244..11292
+78,0;78,2;78,3;78,4
+#### Text ####
+With an untrained local labor pool that policy could drive businesses from the city
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+11222..11242
+78,1
+#### Text ####
+many experts believe
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+11296..11299
+79,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+10755..10902
+75
+#### Text ####
+While his public statements have at times been confusing, Mr. Dinkins's position papers have more consistently reflected anti-development sentiment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11300..11476
+79,1;79,2;79,3
+#### Text ####
+he favors a more cooperative approach toward the neighboring states of New Jersey and Connecticut in the battle over companies thinking of moving employees out of New York City
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11518
+80
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast
+____Arg1____
+11296..11476
+79
+#### Text ####
+And he favors a more cooperative approach toward the neighboring states of New Jersey and Connecticut in the battle over companies thinking of moving employees out of New York City
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11518..11637
+80,1,1
+#### Text ####
+the Koch administration's aggressive approach helped save 5,000 Chase Manhattan Bank jobs from moving across the Hudson
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11478..11517
+80,0;80,1,0;80,2
+#### Text ####
+Many economic-development officials say
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+11641..11644
+81,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+11296..11476
+79
+#### Text ####
+And he favors a more cooperative approach toward the neighboring states of New Jersey and Connecticut in the battle over companies thinking of moving employees out of New York City
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11645..11754
+81,1;81,2;81,3
+#### Text ####
+Mr. Dinkins's economic planks don't seem to bother the business community, where he draws significant support
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+11756
+82
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+11641..11718
+81,0;81,1;81,2,0;81,2,1;81,2,2,0;81,2,2,1,0;81,2,2,1,1,0;81,2,2,1,1,1,0;81,2,2,1,1,1,1,0;81,2,2,1,1,1,1,1;81,3
+#### Text ####
+But Mr. Dinkins's economic planks don't seem to bother the business community
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11756..11962
+82
+#### Text ####
+Steven Spinola, president of the Real Estate Board of New York, an industry organization, says Mr. Dinkins's "economic development program is shortsighted, but when it comes down to it, he can be reasonable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+11912..11915
+82,1,1,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11756..11850
+82,0;82,1,0;82,2;82,3
+#### Text ####
+Steven Spinola, president of the Real Estate Board of New York, an industry organization, says
+##############
+but, Comparison
+____Arg1____
+11851..11910
+82,1,1,1,0
+#### Text ####
+Mr. Dinkins's "economic development program is shortsighted
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11916..11962
+82,1,1,1,3
+#### Text ####
+when it comes down to it, he can be reasonable
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+11916..11920
+82,1,1,1,3,0,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Comm, Null, Null
+11756..11850
+82,0;82,1,0;82,2;82,3
+#### Text ####
+Steven Spinola, president of the Real Estate Board of New York, an industry organization, says
+##############
+when, Temporal.Synchrony
+____Arg1____
+11912..11915;11942..11962
+82,1,1,1,2;82,1,1,1,3,1;82,1,1,1,3,2;82,1,1,1,3,3
+#### Text ####
+but he can be reasonable
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+11921..11940
+82,1,1,1,3,0,1
+#### Text ####
+it comes down to it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+12126
+84
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+11967..12056
+83,0;83,1,0;83,1,1,0;83,1,1,1,0;83,1,1,1,1,0;83,1,1,1,1,1;83,1,1,1,1,2;83,2
+#### Text ####
+Mr. Dinkins's inner circle of advisers appears to include both ideologues and pragmatists
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12126..12181
+84
+#### Text ####
+The key man seems to be the campaign manager, Mr. Lynch
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+12183
+85
+____Arg1____
+12126..12181
+84
+#### Text ####
+The key man seems to be the campaign manager, Mr. Lynch
+##############
+____Arg2____
+12183..12361
+85
+#### Text ####
+A disheveled, roly-poly son of a Long Island potato farmer, Mr. Lynch is a veteran union organizer who worked on the presidential campaigns of Sen. Edward Kennedy and Mr. Jackson
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+12363..12366
+86,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+12126..12181
+84
+#### Text ####
+The key man seems to be the campaign manager, Mr. Lynch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12367..12545
+86,1;86,2;86,3;86,4;86,5
+#### Text ####
+as the Dinkins campaign hit tough times this month, Andrew Cuomo, the politically seasoned son of the New York governor, is also said to have taken a more active role on strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+12367..12369
+86,1,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+12363..12366;12419..12545
+86,0;86,2;86,3;86,4;86,5
+#### Text ####
+But Andrew Cuomo, the politically seasoned son of the New York governor, is also said to have taken a more active role on strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12370..12417
+86,1,1
+#### Text ####
+the Dinkins campaign hit tough times this month
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+12491..12495
+86,4,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+12183..12361
+85
+#### Text ####
+A disheveled, roly-poly son of a Long Island potato farmer, Mr. Lynch is a veteran union organizer who worked on the presidential campaigns of Sen. Edward Kennedy and Mr. Jackson
+##############
+____Arg1____
+12126..12181
+84
+#### Text ####
+The key man seems to be the campaign manager, Mr. Lynch
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12363..12490;12496..12545
+86,0;86,1;86,2;86,3;86,4,0;86,4,2;86,5
+#### Text ####
+But as the Dinkins campaign hit tough times this month, Andrew Cuomo, the politically seasoned son of the New York governor, is said to have taken a more active role on strategy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+12731
+88
+____Arg1____
+12549..12729
+87
+#### Text ####
+Another close ally is Ruth Messinger, a Manhattan city councilwoman, some of whose programs, such as commercial rent control, have made their way into Mr. Dinkins's position papers
+##############
+____Arg2____
+12731..12858
+88
+#### Text ####
+If she remains influential with Mr. Dinkins, as some suggest she will, his mayoralty may take on a more anti-development flavor
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+12731..12733
+88,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+12802..12858
+88,1;88,2;88,3
+#### Text ####
+his mayoralty may take on a more anti-development flavor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12734..12774
+88,0,1,0;88,0,1,1,0;88,0,1,1,1;88,0,1,1,2;88,0,1,2
+#### Text ####
+she remains influential with Mr. Dinkins
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+12862..12865
+89,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+12731..12858
+88
+#### Text ####
+If she remains influential with Mr. Dinkins, as some suggest she will, his mayoralty may take on a more anti-development flavor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+12866..13032
+89,1;89,2;89,3
+#### Text ####
+Lincoln Center President Nathan Leventhal, who would head a Dinkins transition team, is more mainstream, as is real-estate executive Anthony Gliedman, another insider
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+13046..13050
+90,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+12862..13032
+89
+#### Text ####
+But Lincoln Center President Nathan Leventhal, who would head a Dinkins transition team, is more mainstream, as is real-estate executive Anthony Gliedman, another insider
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+13034..13045;13051..13279
+90,0;90,2;90,3
+#### Text ####
+Mr. Dinkins has said he would receive economic advice from a board that would include American Express Co. chairman James D. Robinson III, investment banker Felix Rohatyn, leveraged-buy-out specialist Reginald Lewis and attorney Joseph Flom
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+13316..13320
+91,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+13034..13279
+90
+#### Text ####
+Mr. Dinkins also has said he would receive economic advice from a board that would include American Express Co. chairman James D. Robinson III, investment banker Felix Rohatyn, leveraged-buy-out specialist Reginald Lewis and attorney Joseph Flom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+13283..13315;13321..13455
+91,0;91,2;91,3
+#### Text ####
+Some business leaders and others believe that Mr. Dinkins would place significant responsibility in the hands of a deputy mayor with a strong administrative background
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+13457
+92
+____Arg1____
+13283..13455
+91
+#### Text ####
+Some business leaders and others also believe that Mr. Dinkins would place significant responsibility in the hands of a deputy mayor with a strong administrative background
+##############
+____Arg2____
+13457..13631
+92
+#### Text ####
+Names of possible deputies that have surfaced include former mayoral candidate Richard Ravitch, former schools chancellor Frank Macchiarola and Messrs.
+Leventhal and Gliedman
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+13635..13639
+93,0
+#### Text ####
+Then
+##############
+#### Features ####
+Wr, Comm, Null, Null
+then, Expansion.Conjunction
+____Arg1____
+13457..13631
+92
+#### Text ####
+Names of possible deputies that have surfaced include former mayoral candidate Richard Ravitch, former schools chancellor Frank Macchiarola and Messrs.
+Leventhal and Gliedman
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+13640..13761
+93,1;93,2;93,3
+#### Text ####
+there are Mr. Dinkins's old-time Harlem colleagues, such as U.S. Rep. Rangel, former Deputy Mayor Paterson and Mr. Sutton
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+13763
+94
+____Arg1____
+13635..13761
+93
+#### Text ####
+Then there are Mr. Dinkins's old-time Harlem colleagues, such as U.S. Rep. Rangel, former Deputy Mayor Paterson and Mr. Sutton
+##############
+____Arg2____
+13763..13884
+94,0
+#### Text ####
+Having attained positions of real influence or wealth, these men constitute the Old Guard of New York City black politics
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+13886
+94
+____Arg1____
+13763..13884
+94,0
+#### Text ####
+Having attained positions of real influence or wealth, these men constitute the Old Guard of New York City black politics
+##############
+____Arg2____
+13886..14013
+94,2
+#### Text ####
+they are less confrontational than the younger, more activist black political community that has been based largely in Brooklyn
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+14016
+95
+____Arg1____
+13886..14013
+94,2
+#### Text ####
+they are less confrontational than the younger, more activist black political community that has been based largely in Brooklyn
+##############
+____Arg2____
+14016..14121
+95
+#### Text ####
+Part of Mr. Dinkins's strength is his ability to win the support of both the Brooklyn and Harlem factions
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+14233
+97
+#### Features ####
+Ot, Comm, Null, Null
+14179..14230
+96,1;96,2;96,3
+#### Text ####
+says Mr. Paterson, Mr. Dinkins's former law partner
+##############
+but, Comparison.Contrast
+____Arg1____
+14127..14176
+96,0
+#### Text ####
+We know there are potholes for the city out there
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14233..14390
+97
+#### Text ####
+If any of us think we're going to sidetrack David's determination to be the best possible mayor because of his obligations to us, we are making a sad mistake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+14233..14235
+97,1,0
+#### Text ####
+If
+##############
+#### Features ####
+Ot, Comm, Null, Null
+14179..14230
+96,1;96,2;96,3
+#### Text ####
+says Mr. Paterson, Mr. Dinkins's former law partner
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+14363..14390
+97,0;97,2;97,3;97,4;97,5;97,6
+#### Text ####
+we are making a sad mistake
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14236..14361
+97,1,1
+#### Text ####
+any of us think we're going to sidetrack David's determination to be the best possible mayor because of his obligations to us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+14490
+98
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+14233..14390
+97
+#### Text ####
+If any of us think we're going to sidetrack David's determination to be the best possible mayor because of his obligations to us, we are making a sad mistake
+##############
+#### Features ####
+Ot, Comm, Null, Null
+14179..14230
+96,1;96,2;96,3
+#### Text ####
+says Mr. Paterson, Mr. Dinkins's former law partner
+##############
+____Arg2____
+14490..14532
+98,2
+#### Text ####
+You have to remember David is a pragmatist
+##############
+#### Features ####
+Ot, Comm, Null, Null
+14393..14487
+98,0;98,1;98,3;98,4
+#### Text ####
+Adds Ms. Messinger, who is expected to win the borough president's job Mr. Dinkins is vacating
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+14537..14540
+99,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation, Expansion.Conjunction
+____Arg1____
+14511..14532
+98,2,2,1,1,1,1
+#### Text ####
+David is a pragmatist
+##############
+#### Features ####
+Ot, Comm, Null, Null
+14393..14411
+98,0;98,1,0;98,1,1;98,1,3;98,3;98,4
+#### Text ####
+Adds Ms. Messinger
+##############
+____Arg2____
+14541..14666
+99,1;99,2;99,3;99,4
+#### Text ####
+Mr. Dinkins's sense of pragmatism often comes across more as an insider's determination not to upset the political apple cart
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+14668
+100
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+14537..14666
+99
+#### Text ####
+But Mr. Dinkins's sense of pragmatism often comes across more as an insider's determination not to upset the political apple cart
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14668..14853
+100
+#### Text ####
+He is taken aback in an interview when asked whether, as mayor, he plans on reforming the political "fiefdoms" that perpetuate the monumental ineffectiveness of New York's school system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+14702..14706
+100,1,1,4,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+14668..14701
+100,0;100,1,0;100,1,1,0;100,1,1,1;100,1,1,2;100,1,1,3;100,2
+#### Text ####
+He is taken aback in an interview
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14707..14853
+100,1,1,4,1
+#### Text ####
+asked whether, as mayor, he plans on reforming the political "fiefdoms" that perpetuate the monumental ineffectiveness of New York's school system
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+14856
+101
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+14668..14853
+100
+#### Text ####
+He is taken aback in an interview when asked whether, as mayor, he plans on reforming the political "fiefdoms" that perpetuate the monumental ineffectiveness of New York's school system
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+14856..14981
+101
+#### Text ####
+I will sit down and talk some of the problems out, but take on the political system?
+Uh-uh," he says with a shake of the head
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+15191
+103
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+14985..15043;15105..15189
+102,0;102,1;102,2,0;102,3;102,4
+#### Text ####
+Despite many doubts about his candidacy, white New Yorkers aren't expected to desert in sufficient numbers to turn the election to Mr. Giuliani
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+15191..15433
+103
+#### Text ####
+The former U.S. attorney, who prosecuted targets ranging from Mafia dons to Wall Street executives, has succeeded in raising questions about Mr. Dinkins's ethical standards, but so far has failed to generate excitement about his own candidacy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+15435
+104
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+15365..15433
+103,1,2;103,1,3;103,2
+#### Text ####
+but so far has failed to generate excitement about his own candidacy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+15435..15526
+104
+#### Text ####
+As a Republican in an overwhelmingly Democratic city, Mr. Giuliani has an inherent handicap
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+15528
+105
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+15435..15526
+104
+#### Text ####
+As a Republican in an overwhelmingly Democratic city, Mr. Giuliani has an inherent handicap
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+15528..15621
+105
+#### Text ####
+As a first-time candidate, he has been slow to learn the nuances of New York City politicking
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+15800..15823
+107,0,1;107,0,2,0;107,0,2,1,0
+#### Text ####
+The bottom line is that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Expansion.Restatement.Generalization
+____Arg1____
+15649..15797
+106,1,1,1
+#### Text ####
+that Mr. Dinkins, in his many years in public life, has built up considerable good will that so far has led many voters to overlook certain failings
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+15625..15648
+106,0;106,1,0;106,1,1,0;106,2
+#### Text ####
+Mr. Giuliani is finding
+##############
+____Arg2____
+15800..15859
+107,0
+#### Text ####
+The bottom line is that he is a very genuine and decent guy
+##############
+#### Features ####
+Ot, Comm, Null, Null
+15862..15910
+107,1;107,2;107,3
+#### Text ####
+says Malcolm Hoenlein, a Jewish community leader
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+15913..15923
+108,1
+#### Text ####
+In the end
+##############
+#### Features ####
+Ot, Comm, Null, Null
+15862..15910
+107,1;107,2;107,3
+#### Text ####
+says Malcolm Hoenlein, a Jewish community leader
+##############
+in the end, Expansion
+____Arg1____
+15800..15859
+107,0
+#### Text ####
+The bottom line is that he is a very genuine and decent guy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+15925..15969
+108,0;108,2;108,3;108,4;108,5
+#### Text ####
+I think David will be judged for being David
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

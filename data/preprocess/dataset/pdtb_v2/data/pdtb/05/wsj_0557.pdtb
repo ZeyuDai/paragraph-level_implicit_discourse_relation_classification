@@ -1,0 +1,343 @@
+________________________________________________________
+____Implicit____
+830
+5
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+706..828
+4
+#### Text ####
+The sale, which had been expected, is part of KKR's program to pay down $5 billion of a $6 billion bridge loan by February
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+830..1016
+5
+#### Text ####
+Roughly $2 billion of that debt has already been repaid from previous asset sales, and RJR expects to use another $2 billion from the pending, two-part sale of most of its Del Monte unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+913..916
+5,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+830..911
+5,0
+#### Text ####
+Roughly $2 billion of that debt has already been repaid from previous asset sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+917..1016
+5,3
+#### Text ####
+RJR expects to use another $2 billion from the pending, two-part sale of most of its Del Monte unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1029..1036
+6,2
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+913..1016
+5,2;5,3;5,4
+#### Text ####
+and RJR expects to use another $2 billion from the pending, two-part sale of most of its Del Monte unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1018..1027;1038..1092
+6,0;6,1;6,3;6,4;6,5
+#### Text ####
+That sale could still fall through if financing problems develop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1063..1065
+6,4,2,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+1018..1062
+6,0;6,1;6,2;6,3;6,4,0;6,4,1;6,4,2,0;6,4,2,1;6,5
+#### Text ####
+That sale, however, could still fall through
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1066..1092
+6,4,2,2,1
+#### Text ####
+financing problems develop
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1094..1098
+7,0
+#### Text ####
+Thus
+##############
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1018..1092
+6
+#### Text ####
+That sale, however, could still fall through if financing problems develop
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1100..1192
+7,1;7,2;7,3;7,4
+#### Text ####
+it remains crucial for RJR to obtain top dollar for its smaller assets like the candy brands
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1391
+9
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Restatement.Specification
+____Arg1____
+1196..1388
+8
+#### Text ####
+Louis Gerstner Jr., chairman and chief executive officer of New York-based RJR, called the sale a "significant step" in the company's divestiture program, as well as a "a strategic divestiture
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1391..1502
+9
+#### Text ####
+Since KKR bought RJR in February for $25 billion of debt, it has agreed to sell nearly $5 billion of RJR assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1391..1396
+9,0,0
+#### Text ####
+Since
+##############
+#### Features ####
+Wr, Comm, Null, Null
+since, Temporal.Asynchronous.Succession
+____Arg1____
+1449..1502
+9,1;9,2;9,3;9,4
+#### Text ####
+it has agreed to sell nearly $5 billion of RJR assets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1397..1447
+9,0,1
+#### Text ####
+KKR bought RJR in February for $25 billion of debt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1625
+11
+#### Features ####
+Wr, Comm, Null, Null
+instead, Expansion.Alternative.Chosen alternative
+____Arg1____
+1531..1622
+10,1,1,1
+#### Text ####
+they will dispense with certain brands, in particular, that aren't leaders in their markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1504..1530
+10,0;10,1,0;10,1,1,0;10,2
+#### Text ####
+RJR's executives have said
+##############
+____Arg2____
+1625..1709
+11,1
+#### Text ####
+RJR Nabisco and Planters LifeSavers will concentrate more on our own core businesses
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1712..1736
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+Mr. Gerstner said Friday
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1829..1832
+12,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+1740..1826
+12,0
+#### Text ####
+Baby Ruth and Butterfinger are both among the top-selling 15 chocolate bars in the U.S
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1833..1903
+12,3
+#### Text ####
+RJR's overall share of the roughly $5.1 billion market is less than 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1905
+13
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+1740..1903
+12
+#### Text ####
+Baby Ruth and Butterfinger are both among the top-selling 15 chocolate bars in the U.S., but RJR's overall share of the roughly $5.1 billion market is less than 5%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1905..2085
+13
+#### Text ####
+Nestle's share of 7% before Friday's purchases is far below the shares of market leaders Hershey Foods Corp. and Mars Inc., which have about 40% and 36% of the market, respectively
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2236
+15
+#### Features ####
+Ot, Comm, Null, Null
+2155..2233
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+said Lisbeth Echeandia, publisher of Orlando, Fla.-based Confectioner Magazine
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+2090..2152
+14,1
+#### Text ####
+This means Nestle is now in the candybar business in a big way
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2236..2273
+15
+#### Text ####
+For them, it makes all kinds of sense
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2275
+16
+#### Features ####
+Ot, Comm, Null, Null
+2155..2233
+14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+said Lisbeth Echeandia, publisher of Orlando, Fla.-based Confectioner Magazine
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2236..2273
+15
+#### Text ####
+For them, it makes all kinds of sense
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2275..2363
+16
+#### Text ####
+They've been given a mandate from Switzerland" to expand their U.S. chocolate operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2365
+17
+____Arg1____
+2275..2363
+16
+#### Text ####
+They've been given a mandate from Switzerland" to expand their U.S. chocolate operations
+##############
+____Arg2____
+2365..2407
+17
+#### Text ####
+Nestle S.A. is based in Vevey, Switzerland
+##############
+________________________________________________________

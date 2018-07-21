@@ -1,0 +1,462 @@
+________________________________________________________
+____Explicit____
+195..199
+1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..166
+0
+#### Text ####
+Arthur Price abruptly quit as president and chief executive officer of MTM Entertainment Inc., a Los Angeles production company that has fallen on hard times
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+170..194;200..386
+1,0;1,2;1,3;1,4
+#### Text ####
+Mr. Price, 61 years old, stepped down from the board of TVS Entertainment PLC, the British TV company that last year bought MTM, producer of such TV programs as "Hill Street Blues" and "The Mary Tyler Moore Show
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+446
+3
+____Arg1____
+391..444
+2
+#### Text ####
+A TVS spokesman said he didn't know Mr. Price's plans
+##############
+____Arg2____
+446..596
+3
+#### Text ####
+James Gatward, TVS's chief executive, said in a statement that he will "assume overall responsibility" for MTM's operations until a successor is named
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+570..575
+3,1,2,1,1,2,2,0
+#### Text ####
+until
+##############
+#### Features ####
+Ot, Comm, Null, Null
+446..503
+3,0;3,1,0;3,1,1;3,2
+#### Text ####
+James Gatward, TVS's chief executive, said in a statement
+##############
+until, Temporal.Asynchronous.Precedence
+____Arg1____
+504..569
+3,1,2,0;3,1,2,1,0;3,1,2,1,1,0;3,1,2,1,1,1;3,1,2,1,1,2,0;3,1,2,1,1,2,1
+#### Text ####
+that he will "assume overall responsibility" for MTM's operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+576..596
+3,1,2,1,1,2,2,1
+#### Text ####
+a successor is named
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+963..966
+6,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+930..961
+6,0
+#### Text ####
+Mr. Gatward declined to comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+967..1006
+6,3
+#### Text ####
+Mr. Price couldn't be reached on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1008
+7
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Contrast
+____Arg1____
+963..1006
+6,2;6,3;6,4
+#### Text ####
+and Mr. Price couldn't be reached on Friday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1008..1139
+7
+#### Text ####
+In the TVS statement, Mr. Price said "leaving MTM was a very difficult decision," but added that "it is now time for a change. . . 
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1090..1093
+7,3,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1094..1099
+7,3,4,0
+#### Text ####
+added
+##############
+but, Comparison.Contrast
+____Arg1____
+1046..1087
+7,3,0,1
+#### Text ####
+leaving MTM was a very difficult decision
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1008..1044
+7,0;7,1;7,2;7,3,0,0;7,4;7,5;7,6
+#### Text ####
+In the TVS statement, Mr. Price said
+##############
+____Arg2____
+1100..1133
+7,3,4,1
+#### Text ####
+that "it is now time for a change
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+1281..1292
+9,0
+#### Text ####
+At the time
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Temporal.Synchrony
+____Arg1____
+1144..1279
+8
+#### Text ####
+The $320 million purchase of MTM represented an audacious international move for TVS, which then was about half the U.S. concern's size
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1281..1405
+9
+#### Text ####
+At the time, Mr. Gatward said his friendship with Mr. Price had smoothed the way for its link with the small British company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1407..1410
+10,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Sup1____
+1230..1279
+8,1,1,1,1,2
+#### Text ####
+which then was about half the U.S. concern's size
+##############
+____Arg1____
+1144..1228
+8,0;8,1,0;8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1;8,2
+#### Text ####
+The $320 million purchase of MTM represented an audacious international move for TVS
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1411..1526
+10,1;10,2;10,3
+#### Text ####
+TVS stunned industry analysts last month by disclosing that it expected MTM to post an operating loss for this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1556..1560
+11,3
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1407..1526
+10
+#### Text ####
+But TVS stunned industry analysts last month by disclosing that it expected MTM to post an operating loss for this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1530..1555;1561..1636
+11,0;11,1;11,2;11,4;11,5
+#### Text ####
+In that announcement, TVS said it was trimming production finance and hiring a new U.S. sales manager
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1638
+12
+____Arg1____
+1530..1636
+11
+#### Text ####
+In that announcement, TVS also said it was trimming production finance and hiring a new U.S. sales manager
+##############
+____Arg2____
+1638..1716
+12,0
+#### Text ####
+Mr. Gatward has spent a lot of time since late September at MTM's headquarters
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1718
+12
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1638..1716
+12,0
+#### Text ####
+Mr. Gatward has spent a lot of time since late September at MTM's headquarters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1718..1806
+12,2
+#### Text ####
+he eliminated three departments and fired six executives, according to the TVS spokesman
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1776..1806
+12,2,1,3;12,2,1,4
+#### Text ####
+according to the TVS spokesman
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1808
+13
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1718..1806
+12,2
+#### Text ####
+he eliminated three departments and fired six executives, according to the TVS spokesman
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1776..1806
+12,2,1,3;12,2,1,4
+#### Text ####
+according to the TVS spokesman
+##############
+____Arg2____
+1808..1837
+13,0
+#### Text ####
+Further staff cuts are likely
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1839..1862
+13,1;13,2;13,3;13,4
+#### Text ####
+the spokesman indicated
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1865
+14
+#### Features ####
+Ot, Comm, Null, Null
+1839..1862
+13,1;13,2;13,3;13,4
+#### Text ####
+the spokesman indicated
+##############
+because, Contingency.Pragmatic cause.Justification
+____Arg1____
+1808..1837
+13,0
+#### Text ####
+Further staff cuts are likely
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1865..1927
+14
+#### Text ####
+Obviously, we are looking at making economies across the board
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2034
+16
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1932..2032
+15
+#### Text ####
+TVS blames difficulties in peddling reruns of MTM shows to U.S. broadcasters for the problems at MTM
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2034..2136
+16
+#### Text ####
+The market for reruns sold to local U.S. broadcasters has been weak for the past three or four seasons
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2244
+18
+____Arg1____
+2140..2242
+17
+#### Text ####
+Mr. Price co-founded MTM in 1969 with U.S. actress Mary Tyler Moore and Grant Tinker, her then-husband
+##############
+____Arg2____
+2244..2312
+18
+#### Text ####
+Mr. Tinker later left to become chairman of National Broadcasting Co
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2255..2260
+18,1
+#### Text ####
+later
+##############
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+2140..2242
+17
+#### Text ####
+Mr. Price co-founded MTM in 1969 with U.S. actress Mary Tyler Moore and Grant Tinker, her then-husband
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2244..2254;2261..2312
+18,0;18,2;18,3
+#### Text ####
+Mr. Tinker left to become chairman of National Broadcasting Co
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2314
+19
+____Arg1____
+2244..2312
+18
+#### Text ####
+Mr. Tinker later left to become chairman of National Broadcasting Co
+##############
+____Arg2____
+2314..2421
+19
+#### Text ####
+The TVS spokesman said Mr. Price still holds about an 8% TVS stake, acquired as part of the MTM acquisition
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+2423
+20
+____Arg1____
+2314..2421
+19
+#### Text ####
+The TVS spokesman said Mr. Price still holds about an 8% TVS stake, acquired as part of the MTM acquisition
+##############
+____Arg2____
+2423..2521
+20
+#### Text ####
+In late trading on London's Stock Exchange Friday, TVS shares rose four pence to 195 pence a share
+##############
+________________________________________________________

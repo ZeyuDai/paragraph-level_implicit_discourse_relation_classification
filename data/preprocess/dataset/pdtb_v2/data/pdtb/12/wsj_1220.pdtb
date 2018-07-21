@@ -1,0 +1,234 @@
+________________________________________________________
+____Implicit____
+347
+2
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast
+____Arg1____
+169..345
+1
+#### Text ####
+Underwriting syndicates at Lloyd's, the world's largest insurance market, generally don't close their accounts for three years, to allow for the filing of claims and litigation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+347..457
+2
+#### Text ####
+When such claims and litigation extend beyond the period, the syndicates can extend their accounting deadlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+347..351
+2,0,0
+#### Text ####
+When
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Condition.General
+____Arg1____
+405..457
+2,1;2,2;2,3;2,4
+#### Text ####
+the syndicates can extend their accounting deadlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+352..403
+2,0,1
+#### Text ####
+such claims and litigation extend beyond the period
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+472
+3
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+347..457
+2
+#### Text ####
+When such claims and litigation extend beyond the period, the syndicates can extend their accounting deadlines
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+472..566
+3,1,1
+#### Text ####
+there are currently 115 open account years involving 68 of the market's roughly 360 syndicates
+##############
+#### Features ####
+Ot, Comm, Null, Null
+459..471
+3,0;3,1,0;3,2
+#### Text ####
+Lloyd's said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+791
+5
+#### Features ####
+Ot, Comm, Null, Null
+902..914
+5,1;5,2;5,3;5,4
+#### Text ####
+Lloyd's said
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+570..694
+4,0,0;4,0,1;4,0,2,0;4,0,2,1,0;4,0,2,1,1;4,0,2,1,2;4,0,2,1,3;4,0,2,1,4,0;4,0,2,1,4,1,0;4,0,2,1,4,1,1,0;4,0,2,1,4,1,1,1;4,0,2,1,4,1,1,2,0;4,0,2,1,4,1,1,2,1,0;4,0,2,1,4,1,1,2,1,1
+#### Text ####
+The open-year accounting practice "is widely recognized within Lloyd's as of serious concern" to the 31,329 member investors
+##############
+#### Features ####
+Ot, Comm, Null, Null
+777..789
+4,1;4,2;4,3;4,4
+#### Text ####
+Lloyd's said
+##############
+____Arg2____
+791..900
+5,0
+#### Text ####
+The procedure causes "great uncertainty" because an investor can't be sure of his or her individual liability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+832..839
+5,0,1,4,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+902..914
+5,1;5,2;5,3;5,4
+#### Text ####
+Lloyd's said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+791..830
+5,0,0;5,0,1,0;5,0,1,1;5,0,1,2;5,0,1,3
+#### Text ####
+The procedure causes "great uncertainty
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+840..900
+5,0,1,4,1
+#### Text ####
+an investor can't be sure of his or her individual liability
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+918..929
+6,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+570..775;791..900
+4,0;5,0
+#### Text ####
+The open-year accounting practice "is widely recognized within Lloyd's as of serious concern" to the 31,329 member investors, who underwrite insurance at Lloyd's in return for premium and investment income The procedure causes "great uncertainty" because an investor can't be sure of his or her individual liability
+##############
+#### Features ####
+Ot, Comm, Null, Null
+777..789
+4,1;4,2;4,3;4,4
+#### Text ####
+Lloyd's said
+##############
+____Arg2____
+931..1037
+6,1;6,2;6,3;6,4
+#### Text ####
+the insurance market plans new measures to restrict the ability of syndicate officials to leave years open
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1052
+7
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Restatement.Specification
+____Arg1____
+918..1037
+6
+#### Text ####
+As a result, the insurance market plans new measures to restrict the ability of syndicate officials to leave years open
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1052..1115
+7,1,1
+#### Text ####
+it expects to enact new rules mandating the changes by year end
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1039..1051
+7,0;7,1,0;7,2
+#### Text ####
+Lloyd's said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1293..1304
+9,0
+#### Text ####
+In addition
+##############
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+1119..1291
+8
+#### Text ####
+Under the new rules, the officials will have to secure additional information and reports from actuaries, including an assessment of whether officials have acted reasonably
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1306..1425
+9,1;9,2;9,3;9,4
+#### Text ####
+officials will have to get quotes for certain reinsurance contracts and obtain approvals from other syndicate directors
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

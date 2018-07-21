@@ -1,0 +1,694 @@
+________________________________________________________
+____Explicit____
+239..249
+1,1,1,4,0;1,1,1,4,1
+#### Text ####
+soon after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+173..237
+1,0;1,1,0;1,1,1,0;1,1,1,1;1,1,1,2;1,1,1,3;1,2
+#### Text ####
+Mr. Schwarz, 52 years old, will succeed Daniel P. Davison Feb. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+250..314
+1,1,1,4,2
+#### Text ####
+Mr. Davison reaches the company's mandatory retirement age of 65
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+316
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+173..237
+1,0;1,1,0;1,1,1,0;1,1,1,1;1,1,1,2;1,1,1,3;1,2
+#### Text ####
+Mr. Schwarz, 52 years old, will succeed Daniel P. Davison Feb. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+316..416
+2,0;2,1,0;2,1,1,0;2,1,1,1,0;2,1,1,1,1;2,1,1,1,2;2,1,1,1,3,0;2,1,1,1,3,1,0;2,1,1,1,3,1,1;2,1,1,1,3,1,2;2,1,1,1,3,1,3;2,2
+#### Text ####
+Mr. Schwarz, who is president of U.S. Trust, will be succeeded in that post by Jeffrey S. Maurer, 42
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+742..753
+4,0
+#### Text ####
+As a result
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+503..740
+3
+#### Text ####
+U.S. Trust, a 136-year-old institution that is one of the earliest high-net worth banks in the U.S., has faced intensifying competition from other firms that have established, and heavily promoted, private-banking businesses of their own
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+755..791
+4,1;4,2;4,3;4,4
+#### Text ####
+U.S. Trust's earnings have been hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+795..798
+5,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+742..791
+4
+#### Text ####
+As a result, U.S. Trust's earnings have been hurt
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+799..893
+5,1;5,2;5,3;5,4
+#### Text ####
+Mr. Schwarz welcomes the competition in U.S. Trust's flagship businesses, calling it "flattery
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+913
+6
+#### Features ####
+Ot, Comm, Null, Null
+896..912
+6,0;6,1,0;6,2;6,3
+#### Text ####
+Mr. Schwarz says
+##############
+because, Contingency.Cause.Reason
+____Sup1____
+873..893
+5,2,3
+#### Text ####
+calling it "flattery
+##############
+____Arg1____
+795..871
+5,0;5,1;5,2,0;5,2,1;5,2,2;5,3;5,4
+#### Text ####
+But Mr. Schwarz welcomes the competition in U.S. Trust's flagship businesses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+913..969
+6,1,1
+#### Text ####
+the competition "broadens the base of opportunity for us
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+972
+7
+#### Features ####
+Ot, Comm, Null, Null
+896..912
+6,0;6,1,0;6,2;6,3
+#### Text ####
+Mr. Schwarz says
+##############
+moreover, Expansion.Conjunction
+____Arg1____
+913..969
+6,1,1
+#### Text ####
+the competition "broadens the base of opportunity for us
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+972..1012
+7
+#### Text ####
+Other firms "are dealing with the masses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1030
+8
+#### Features ####
+Ot, Comm, Null, Null
+1103..1110
+8,1;8,2;8,3;8,4
+#### Text ####
+he adds
+##############
+so, Contingency.Cause.Result
+____Arg1____
+972..1012
+7
+#### Text ####
+Other firms "are dealing with the masses
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1030..1101
+8,0,1,2,1
+#### Text ####
+they have the culture" to adequately service high-net-worth individuals
+##############
+#### Features ####
+Ot, PAtt, Neg, Null
+1014..1029
+8,0,0;8,0,1,0;8,0,1,1;8,0,1,2,0
+#### Text ####
+I don't believe
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1112
+9
+____Arg1____
+1014..1110
+8
+#### Text ####
+I don't believe they have the culture" to adequately service high-net-worth individuals, he adds
+##############
+____Arg2____
+1112..1240
+9
+#### Text ####
+U.S. Trust recently introduced certain mutual-fund products, which allow it to serve customers with minimum deposits of $250,000
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1242..1252
+10,0
+#### Text ####
+Previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Comparison.Contrast.Juxtaposition, Temporal.Asynchronous.Succession
+____Arg1____
+1112..1240
+9
+#### Text ####
+U.S. Trust recently introduced certain mutual-fund products, which allow it to serve customers with minimum deposits of $250,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1254..1300
+10,1;10,2;10,3;10,4
+#### Text ####
+the company advertised at the $2 million level
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1344..1347
+11,1,2
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1405..1421
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+Mr. Schwarz says
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1305..1342
+11,1,0
+#### Text ####
+We have always taken smaller accounts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1348..1402
+11,1,3
+#### Text ####
+now we are looking for smaller accounts that will grow
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1424
+12
+#### Features ####
+Ot, Comm, Null, Null
+1494..1501
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he says
+##############
+however, Comparison.Contrast
+____Arg1____
+1344..1402
+11,1,2;11,1,3
+#### Text ####
+but now we are looking for smaller accounts that will grow
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1405..1421
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+Mr. Schwarz says
+##############
+____Arg2____
+1424..1491
+12,1
+#### Text ####
+Our bread and butter is still the $2 million to $20 million account
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1503
+13
+#### Features ####
+Ot, Comm, Null, Null
+1567..1583
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+Mr. Schwarz says
+##############
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+1424..1491
+12,1
+#### Text ####
+Our bread and butter is still the $2 million to $20 million account
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1494..1501
+12,0;12,2;12,3;12,4;12,5;12,6
+#### Text ####
+he says
+##############
+____Arg2____
+1503..1564
+13,0
+#### Text ####
+The new services allow U.S. Trust to cater to the "new wealth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1740..1751
+15,2
+#### Text ####
+for example
+##############
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1587..1708
+14
+#### Text ####
+Quarterly net income this year has risen just over comparable periods in 1988, when year-end net was below the 1987 level
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1710..1738;1753..1855
+15,0;15,1;15,3;15,4;15,5;15,6
+#### Text ####
+In this year's third quarter net was $10.5 million, or $1.05 a share, compared with $10.3 million, or $1.02 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1857
+16
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Opposition
+____Arg1____
+1710..1855
+15
+#### Text ####
+In this year's third quarter, for example, net was $10.5 million, or $1.05 a share, compared with $10.3 million, or $1.02 a share, a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1857..1925
+16
+#### Text ####
+Assets as of Sept. 30 fell to $2.46 billion from about $2.77 billion
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1928
+17
+____Arg1____
+1857..1925
+16
+#### Text ####
+Assets as of Sept. 30 fell to $2.46 billion from about $2.77 billion
+##############
+____Arg2____
+1928..1992
+17
+#### Text ####
+We will have a reasonably flat year this year," Mr. Schwarz says
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2006..2010
+18,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1928..1992
+17
+#### Text ####
+We will have a reasonably flat year this year," Mr. Schwarz says
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1994..2005;2011..2153
+18,0;18,2;18,3
+#### Text ####
+Mr. Schwarz said costs associated with U.S. Trust's planned move to midtown Manhattan from Wall Street will continue to be a drag on earnings through 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2236..2239
+19,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+2157..2234
+19,0
+#### Text ####
+Mr. Schwarz's great-grandfather founded the New York toy store F.A.O. Schwarz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2240..2284
+19,3
+#### Text ####
+his family no longer has ties to the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2286
+20
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+2157..2234
+19,0
+#### Text ####
+Mr. Schwarz's great-grandfather founded the New York toy store F.A.O. Schwarz
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2286..2342
+20
+#### Text ####
+Mr. Schwarz's father was a U.S. Trust trustee until 1974
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2357..2361
+21,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..169;316..499
+0;2
+#### Text ####
+H. Marshall Schwarz was named chairman and chief executive officer of U.S. Trust Corp., a private-banking firm with assets under management of about $17 billion Mr. Schwarz, who is president of U.S. Trust, will be succeeded in that post by Jeffrey S. Maurer, 42, who is executive vice president in charge of the company's asset-management group
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2346..2356;2362..2424
+21,0;21,2;21,3
+#### Text ####
+U.S. Trust created a four-member office of the chairman, effective Feb. 1
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2426
+22
+____Arg1____
+2346..2424
+21
+#### Text ####
+U.S. Trust also created a four-member office of the chairman, effective Feb. 1
+##############
+____Arg2____
+2426..2448;2450..2468;2470..2656
+22;23
+#### Text ####
+It will include Messrs Schwarz and Maurer Donald M. Roberts, 54, treasurer, and Frederick S. Wonham, 58, who takes responsibility for the funds-service group, were named vice chairmen and will serve in the office of the chairman
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2612
+23
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2426..2468
+22
+#### Text ####
+It will include Messrs.
+Schwarz and Maurer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2612..2656
+23,1,1;23,1,2;23,2
+#### Text ####
+and will serve in the office of the chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2658
+24
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2470..2656
+23
+#### Text ####
+Donald M. Roberts, 54, treasurer, and Frederick S. Wonham, 58, who takes responsibility for the funds-service group, were named vice chairmen and will serve in the office of the chairman
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2658..2801
+24
+#### Text ####
+Mr. Roberts continues as treasurer, and Mr. Wonham remains responsible for the offices of comptroller, planning, marketing and general services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2694..2697
+24,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2658..2692
+24,0
+#### Text ####
+Mr. Roberts continues as treasurer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2698..2801
+24,3
+#### Text ####
+Mr. Wonham remains responsible for the offices of comptroller, planning, marketing and general services
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2830..2834
+25,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2470..2531;2587..2611
+23,0,0;23,0,1;23,0,2,0;23,0,2,1;23,0,2,2;23,0,2,3;23,0,2,5;23,1,0
+#### Text ####
+Donald M. Roberts, 54, treasurer, and Frederick S. Wonham, 58 were named vice chairmen
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2805..2829;2835..2901
+25,0;25,2;25,3
+#### Text ####
+Frederick B. Taylor, 48, was named a vice chairman and chief investment officer, a new post
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2906..2916
+26,1
+#### Text ####
+previously
+##############
+#### Features ####
+Wr, Comm, Null, Null
+previously, Temporal.Asynchronous.Succession
+____Arg1____
+2805..2901
+25
+#### Text ####
+Frederick B. Taylor, 48, also was named a vice chairman and chief investment officer, a new post
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2903..2905;2917..2946
+26,0;26,2;26,3
+#### Text ####
+He held similar responsibilities
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2959..2963
+27,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction, Temporal.Synchrony
+____Arg1____
+2805..2901
+25
+#### Text ####
+Frederick B. Taylor, 48, also was named a vice chairman and chief investment officer, a new post
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2948..2958;2964..2984
+27,0;27,2,0,0;27,2,0,1,0;27,2,0,1,1;27,2,0,1,2;27,3
+#### Text ####
+Mr. Taylor was named a director
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

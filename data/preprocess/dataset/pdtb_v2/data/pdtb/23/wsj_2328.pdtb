@@ -1,0 +1,257 @@
+________________________________________________________
+____Explicit____
+201..205
+0,1,4,1,1,1,1,2,1,1,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+133..141
+0,1,4,0;0,1,4,1,0
+#### Text ####
+charging
+##############
+when, Temporal.Synchrony
+____Arg1____
+168..200
+0,1,4,1,1,1,1,2,0;0,1,4,1,1,1,1,2,1,0;0,1,4,1,1,1,1,2,1,1,0;0,1,4,1,1,1,1,2,1,1,1
+#### Text ####
+by concealing their relationship
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+206..275
+0,1,4,1,1,1,1,2,1,1,2,1
+#### Text ####
+persuading it to buy $284 million in high-yield, high-risk junk bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+424
+2
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+279..422
+1
+#### Text ####
+In a suit filed in federal court Thursday, the S&L alleged that a "disproportionate number" of the bonds it purchased in 1984 declined in value
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+424..610
+2
+#### Text ####
+Financial Corp. purchased the bonds, the suit alleged, after Mr. Boesky and Drexel negotiated an agreement for Vagabond Hotels to purchase a 51% stake in the thrift for about $34 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+479..484
+2,1,3,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+461..477
+2,1,2
+#### Text ####
+the suit alleged
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+424..459
+2,0;2,1,0;2,1,1;2,2
+#### Text ####
+Financial Corp. purchased the bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+485..610
+2,1,3,1
+#### Text ####
+Mr. Boesky and Drexel negotiated an agreement for Vagabond Hotels to purchase a 51% stake in the thrift for about $34 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+726
+4
+____Arg1____
+614..724
+3
+#### Text ####
+Vagabond Hotels was controlled by Mr. Boesky, who currently is serving a prison term for securities violations
+##############
+____Arg2____
+726..802
+4
+#### Text ####
+Officials at Drexel said they hadn't seen the suit and thus couldn't comment
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+781..785
+4,1,1,1,1,2
+#### Text ####
+thus
+##############
+#### Features ####
+Ot, Comm, Null, Null
+726..750
+4,0;4,1,0;4,2
+#### Text ####
+Officials at Drexel said
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+751..776
+4,1,1,0;4,1,1,1,0;4,1,1,1,1,0
+#### Text ####
+they hadn't seen the suit
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+777..780;786..802
+4,1,1,1,1,1;4,1,1,1,1,3
+#### Text ####
+and couldn't comment
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+906..910
+6,0
+#### Text ####
+Also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..130
+0,0;0,1,0;0,1,1;0,1,2;0,1,3;0,2
+#### Text ####
+Financial Corp. of Santa Barbara filed suit against former stock speculator Ivan F. Boesky and Drexel Burnham Lambert Inc
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+911..1015
+6,1;6,2;6,3;6,4
+#### Text ####
+named in the suit is Ivan F. Boesky Corp. and Northview Corp., the successor company to Vagabonds Hotels
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1017
+7
+____Arg1____
+906..1015
+6
+#### Text ####
+Also named in the suit is Ivan F. Boesky Corp. and Northview Corp., the successor company to Vagabonds Hotels
+##############
+____Arg2____
+1017..1056
+7
+#### Text ####
+Northview officials couldn't be located
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1108..1113
+8,1,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1060..1080
+8,0;8,1,0;8,2
+#### Text ####
+Financial Corp. said
+##############
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+1081..1107
+8,1,1,0;8,1,1,1,0;8,1,1,1,1,0;8,1,1,1,1,1
+#### Text ####
+it agreed to buy the bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1114..1269
+8,1,1,1,1,2,1
+#### Text ####
+a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1271
+9
+____Arg1____
+1060..1269
+8
+#### Text ####
+Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds
+##############
+____Arg2____
+1271..1445
+9
+#### Text ####
+Shortly before the visit, Mr. Boesky and Drexel representives had met with Financial Corp. officials and had signed a letter of intent to acquire the 51% stake in the company
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1447..1454
+10,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1372..1445
+9,1;9,3,1;9,3,2;9,4
+#### Text ####
+and had signed a letter of intent to acquire the 51% stake in the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1456..1495
+10,1;10,2;10,3;10,4
+#### Text ####
+the agreement was canceled in June 1984
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

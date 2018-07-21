@@ -1,0 +1,1136 @@
+________________________________________________________
+____EntRel____
+215
+2
+____Arg1____
+114..213
+1
+#### Text ####
+The McLean, Va., company modifies computers to keep sensitive military data out of unfriendly hands
+##############
+____Arg2____
+215..334
+2
+#### Text ####
+From 1984 to 1987, its earnings soared six-fold, to $3.8 million, on a seven-fold increase in revenue, to $44.1 million
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+338..341
+3,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+215..334
+2
+#### Text ####
+From 1984 to 1987, its earnings soared six-fold, to $3.8 million, on a seven-fold increase in revenue, to $44.1 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+342..411
+3,1;3,2;3,3;3,4;3,5
+#### Text ####
+in 1988, it ran into a buzz saw: a Defense Department spending freeze
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+413
+4
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+338..411
+3
+#### Text ####
+But in 1988, it ran into a buzz saw: a Defense Department spending freeze
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+413..459
+4
+#### Text ####
+Iverson's earnings plunged 70% to $1.2 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+461
+5
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+413..459
+4
+#### Text ####
+Iverson's earnings plunged 70% to $1.2 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+461..546
+5
+#### Text ####
+The troubles continued in this year's first half, when profit plunged 81% to $302,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+656
+7
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+550..654
+6
+#### Text ####
+Iverson Technology is one of many small defense contractors besieged by the slowdown in defense spending
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+656..880
+7
+#### Text ####
+Unlike larger contractors with a broad enough base to weather the downturn easily, these companies are suffering big drops in business as once-lucrative specialty niches in the massive military market erode or even disappear
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+791..793
+7,3,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony, Contingency.Cause.Reason
+____Arg1____
+656..790
+7,0;7,1;7,2;7,3,0;7,3,1,0;7,3,1,1;7,4
+#### Text ####
+Unlike larger contractors with a broad enough base to weather the downturn easily, these companies are suffering big drops in business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+794..880
+7,3,1,2,1
+#### Text ####
+once-lucrative specialty niches in the massive military market erode or even disappear
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+966
+9
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison
+____Arg1____
+884..964
+8
+#### Text ####
+Companies that only recently were thriving find themselves scrambling to survive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+966..1053
+9,0;9,1;9,2;9,3,0;9,3,1;9,3,2;9,4
+#### Text ####
+As their varied strategies suggest, there is more than one way to respond to a disaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1057..1063
+9,3,3,0
+#### Text ####
+though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison
+____Arg1____
+966..1053
+9,0;9,1;9,2;9,3,0;9,3,1;9,3,2;9,4
+#### Text ####
+As their varied strategies suggest, there is more than one way to respond to a disaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1064..1118
+9,3,3,1
+#### Text ####
+it's too soon to tell whether the changes will pay off
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1120
+10
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1002..1053
+9,1;9,2;9,3,0;9,3,1;9,3,2;9,4
+#### Text ####
+there is more than one way to respond to a disaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1120..1186
+10
+#### Text ####
+For many companies, the instinctive first response is to cut costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1188
+11
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition, Expansion.Conjunction
+____Arg1____
+1120..1186
+10
+#### Text ####
+For many companies, the instinctive first response is to cut costs
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1188..1299
+11
+#### Text ####
+Others are trying to find specialty defense work spared by the slowdown or new niches created by budget-cutting
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1301
+12
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast.Juxtaposition, Expansion.Conjunction
+____Arg1____
+1188..1299
+11
+#### Text ####
+Others are trying to find specialty defense work spared by the slowdown or new niches created by budget-cutting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1301..1375
+12
+#### Text ####
+More venturesome businesses are applying their skills in commercial fields
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1526
+14
+____Arg1____
+1379..1524
+13
+#### Text ####
+ERC International Inc., which provides professional and technical services to the military, is refining its defense niche, not retreating from it
+##############
+____Arg2____
+1526..1684
+14
+#### Text ####
+After quadrupling annual earnings over four years to $6.8 million in 1988, the Fairfax, Va., company, posted a 23% drop in earnings for this year's first half
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1526..1531
+14,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1601..1684
+14,1;14,2;14,3;14,4;14,5
+#### Text ####
+the Fairfax, Va., company, posted a 23% drop in earnings for this year's first half
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1532..1599
+14,0,1
+#### Text ####
+quadrupling annual earnings over four years to $6.8 million in 1988
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1945
+16
+#### Features ####
+Wr, Comm, Null, Null
+thus, Contingency.Cause.Result
+____Arg1____
+1688..1943
+15
+#### Text ####
+In the belief that development of advanced military technology will remain a top Defense Department priority, ERC last year acquired W.J. Schafer Associates, a technical and scientific analysis company with contracts under the Strategic Defense Initiative
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1945..2159
+16
+#### Text ####
+While the SDI anti-missile program recently awarded W.J. Schafer two contracts totaling $13.4 million, ERC's chairman and founder, Jack Aalseth, says he bought the company "more for its technology than its customer
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1945..1950
+16,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison
+____Arg1____
+2095..2159
+16,3,1
+#### Text ####
+he bought the company "more for its technology than its customer
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2048..2094
+16,1;16,2;16,3,0;16,4;16,5
+#### Text ####
+ERC's chairman and founder, Jack Aalseth, says
+##############
+____Arg2____
+1951..2046
+16,0,1
+#### Text ####
+the SDI anti-missile program recently awarded W.J. Schafer two contracts totaling $13.4 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+2327
+18
+____Arg1____
+2164..2325
+17
+#### Text ####
+UNC Inc., an Annapolis, Md., contractor that earned $23.8 million on revenue of $400.4 million in 1988, has gone even further in realigning its military business
+##############
+____Arg2____
+2327..2470
+18
+#### Text ####
+As orders for its aircraft and submarine parts dwindled, three years of steady growth ended with a 69% drop in income in this year's first half
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2327..2329
+18,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+2384..2470
+18,1;18,2;18,3;18,4
+#### Text ####
+three years of steady growth ended with a 69% drop in income in this year's first half
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2330..2382
+18,0,1
+#### Text ####
+orders for its aircraft and submarine parts dwindled
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2472
+19
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+2327..2470
+18
+#### Text ####
+As orders for its aircraft and submarine parts dwindled, three years of steady growth ended with a 69% drop in income in this year's first half
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2472..2596
+19
+#### Text ####
+The company hit on a new strategy: If the Defense Department is so intent on saving money, why not make money off that trend
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2507..2509
+19,2,0,0
+#### Text ####
+If
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Factual present
+____Arg1____
+2563..2596
+19,2,1;19,2,2;19,2,3;19,2,4
+#### Text ####
+why not make money off that trend
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2510..2561
+19,2,0,1
+#### Text ####
+the Defense Department is so intent on saving money
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2699..2703
+21,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2600..2693
+20
+#### Text ####
+Among the company's current efforts: repairing old parts at 25% of the cost of replacing them
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2695..2698;2704..2799
+21,0;21,2;21,3
+#### Text ####
+UNC is selling new parts, if needed, directly to the military instead of through a prime contractor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2726..2728
+21,2,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2695..2724;2737..2799
+21,0;21,1;21,2,0;21,2,1,0;21,2,1,1;21,2,1,2;21,2,1,4;21,2,1,5;21,2,1,6;21,2,1,7;21,3
+#### Text ####
+UNC also is selling new parts directly to the military instead of through a prime contractor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2729..2735
+21,2,1,3,1
+#### Text ####
+needed
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2801
+22
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2695..2799
+21
+#### Text ####
+UNC also is selling new parts, if needed, directly to the military instead of through a prime contractor
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2801..2917
+22
+#### Text ####
+At as little as one-third of the government's cost, the company is running a program to train Army helicopter pilots
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2925..2929
+23,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+2801..2917
+22
+#### Text ####
+At as little as one-third of the government's cost, the company is running a program to train Army helicopter pilots
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2919..2924;2930..3027
+23,0;23,1,0;23,1,2;23,2
+#### Text ####
+It is taking over the maintenance of certain Navy aircraft with 40% fewer people than the military used
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3187
+25
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+3031..3154
+24
+#### Text ####
+In another approach, tiny Iverson Technology is trying to resume its growth by braving the new world of commercial products
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3187..3276
+25,1,1
+#### Text ####
+he hopes the company can eventually get up to half of its revenue from commercial markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3156..3186
+25,0;25,1,0;25,2
+#### Text ####
+Donald Iverson, chairman, says
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3278
+26
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison
+____Arg1____
+3187..3276
+25,1,1
+#### Text ####
+he hopes the company can eventually get up to half of its revenue from commercial markets
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3156..3186
+25,0;25,1,0;25,2
+#### Text ####
+Donald Iverson, chairman, says
+##############
+____Arg2____
+3278..3285;3297..3394
+26,0;26,2;26,3;26,4;26,5
+#### Text ####
+For now we're looking at buying some small companies with niche markets in the personal-computer business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3287..3294
+26,1
+#### Text ####
+he says
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3533
+28
+____Arg1____
+3399..3531
+27
+#### Text ####
+Earlier this month, Mr. Iverson agreed to buy exclusive rights to a software system developed by Visher Systems Inc., Salt Lake City
+##############
+____Arg2____
+3533..3629
+28
+#### Text ####
+The product automates an array of functions performed at small to medium-size printing companies
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3631
+29
+____Arg1____
+3533..3629
+28
+#### Text ####
+The product automates an array of functions performed at small to medium-size printing companies
+##############
+____Arg2____
+3631..3736
+29
+#### Text ####
+Mr. Iverson says there are 5,000 potential customers for the software in the Washington, D.C., area alone
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3774..3778
+30,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3031..3154
+24
+#### Text ####
+In another approach, tiny Iverson Technology is trying to resume its growth by braving the new world of commercial products
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3740..3772;3779..3834
+30,0;30,2;30,3
+#### Text ####
+QuesTech Inc., Falls Church, Va. has acquired some companies outside the military market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3836..3844
+31,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Wr, Comm, Null, Null
+moreover, Expansion.Conjunction
+____Arg1____
+3740..3834
+30
+#### Text ####
+QuesTech Inc., Falls Church, Va., also has acquired some companies outside the military market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3846..3934
+31,1;31,2;31,3;31,4
+#### Text ####
+it's trying to transfer its skill at designing military equipment to commercial ventures
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3936
+32
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+3836..3934
+31
+#### Text ####
+Moreover, it's trying to transfer its skill at designing military equipment to commercial ventures
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3936..4098
+32
+#### Text ####
+A partnership with a Williamsburg, Va., unit of Shell Oil Co. recently patented a process for producing plastic food containers that won't melt in microwave ovens
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4267
+34
+#### Features ####
+Ot, Comm, Null, Null
+4214..4264
+33,0;33,2;33,3;33,4;33,5;33,6
+#### Text ####
+says Vincent Salvatori, QuesTech's chief executive
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+4103..4211
+33,1
+#### Text ####
+We're trying to take the imagination and talent of our engineers and come up with new processes for industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4267..4316
+34,0;34,1;34,2,0;34,2,1,0;34,2,1,1;34,3;34,4
+#### Text ####
+It is an effort to branch out from the government
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4398
+36
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4371..4396
+35
+#### Text ####
+Mr. Salvatori should know
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4398..4648
+36
+#### Text ####
+Instead of helping his company in the defense spending slowdown, Dynamic Engineering Inc., a troubled subsidiary that makes wind tunnels for the space industry, contributed to much of QuesTech's $3.3 million loss on $55.6 million in revenue last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4650
+37
+#### Features ####
+Wr, Comm, Null, Null
+consequently, Contingency.Cause.Result
+____Arg1____
+4398..4648
+36
+#### Text ####
+Instead of helping his company in the defense spending slowdown, Dynamic Engineering Inc., a troubled subsidiary that makes wind tunnels for the space industry, contributed to much of QuesTech's $3.3 million loss on $55.6 million in revenue last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4650..4689
+37
+#### Text ####
+In January, Mr. Salvatori sold the unit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+4692
+38
+____Arg1____
+4650..4689
+37
+#### Text ####
+In January, Mr. Salvatori sold the unit
+##############
+____Arg2____
+4692..4753
+38
+#### Text ####
+It was our first acquisition," he says, "and it was a mistake
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4733..4736
+38,7
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4723..4730
+38,4
+#### Text ####
+he says
+##############
+and, Expansion.Conjunction
+____Arg1____
+4692..4720
+38,1
+#### Text ####
+It was our first acquisition
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4737..4753
+38,8
+#### Text ####
+it was a mistake
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4816
+40
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Restatement.Specification
+____Arg1____
+4758..4814
+39
+#### Text ####
+Some companies are cutting costs and hoping for the best
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4816..5551
+40;41;42;43
+#### Text ####
+Telos Corp., a Santa Monica, Calif., provider of software-development and hardware-maintenance services to the military, enjoyed steady growth until this year.
+Following a tripling of earnings, to $3.9 million, on a doubling of revenue, to $116 million, over four years, earnings in the company's fiscal first quarter, which ended June 30, plunged 90% to $45,000.
+A one-time write-off for booking nonexistent revenue was partly to blame, but so were lower profits from a stingier contract with the Army and delays in getting paid. 
+
+Telos responded by combining three of its five divisions to reduce expenses and "bring more focus to potentially fewer bidding opportunities," says Lin Conger, Telos chairman and controlling shareholder
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4976
+41
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+4816..4974
+40
+#### Text ####
+Telos Corp., a Santa Monica, Calif., provider of software-development and hardware-maintenance services to the military, enjoyed steady growth until this year
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4976..5178
+41
+#### Text ####
+Following a tripling of earnings, to $3.9 million, on a doubling of revenue, to $116 million, over four years, earnings in the company's fiscal first quarter, which ended June 30, plunged 90% to $45,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+5233..5252
+42,0,1
+#### Text ####
+was partly to blame
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Reason
+____Arg1____
+4976..5178
+41
+#### Text ####
+Following a tripling of earnings, to $3.9 million, on a doubling of revenue, to $116 million, over four years, earnings in the company's fiscal first quarter, which ended June 30, plunged 90% to $45,000
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5180..5252
+42,0
+#### Text ####
+A one-time write-off for booking nonexistent revenue was partly to blame
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5254..5257
+42,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction
+____Arg1____
+5180..5252
+42,0
+#### Text ####
+A one-time write-off for booking nonexistent revenue was partly to blame
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5258..5345
+42,3
+#### Text ####
+so were lower profits from a stingier contract with the Army and delays in getting paid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5554
+44
+#### Features ####
+Ot, Comm, Null, Null
+5607..5614
+44,0;44,2;44,3;44,4;44,5;44,6
+#### Text ####
+he says
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+5349..5489
+43,0
+#### Text ####
+Telos responded by combining three of its five divisions to reduce expenses and "bring more focus to potentially fewer bidding opportunities
+##############
+#### Features ####
+Ot, Comm, Null, Null
+5492..5551
+43,1;43,2;43,3;43,4;43,5
+#### Text ####
+says Lin Conger, Telos chairman and controlling shareholder
+##############
+____Arg2____
+5554..5604
+44,1
+#### Text ####
+It's evident we're entering a more competitive era
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+5797
+46
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+5618..5638;5747..5795
+45,0,0;45,0,1;45,0,3;45,1;45,2
+#### Text ####
+TransTechnology Corp provides a more dramatic example of cost-cutting
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5797..5976
+46
+#### Text ####
+The company not only merged three military-electronics manufacturing operations, but also closed an unrelated plant that makes ordnance devices used in fighter planes and missiles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+5882..5886
+46,1,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+5797..5876
+46,0;46,1,0;46,1,1;46,1,2
+#### Text ####
+The company not only merged three military-electronics manufacturing operations
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+5878..5881;5887..5976
+46,1,3,0;46,1,4;46,2
+#### Text ####
+but closed an unrelated plant that makes ordnance devices used in fighter planes and missiles
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+5978
+47
+____Arg1____
+5797..5976
+46
+#### Text ####
+The company not only merged three military-electronics manufacturing operations, but also closed an unrelated plant that makes ordnance devices used in fighter planes and missiles
+##############
+____Arg2____
+5978..6105
+47
+#### Text ####
+The closing contributed to a $3.4 million loss in the fiscal first quarter ended July 31 -- its first quarterly loss since 1974
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+6224
+49
+#### Features ####
+Ot, Comm, Null, Null
+6175..6221
+48,0;48,2;48,3;48,4;48,5;48,6
+#### Text ####
+says Arch Scurlock, TransTechnology's chairman
+##############
+although, Comparison
+____Arg1____
+6110..6172
+48,1
+#### Text ####
+Our ordnance business has been hurt very badly by the slowdown
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6224..6264
+49
+#### Text ####
+I wouldn't say we're out of the business
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+6266..6269
+50,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+6175..6221
+48,0;48,2;48,3;48,4;48,5;48,6
+#### Text ####
+says Arch Scurlock, TransTechnology's chairman
+##############
+but, Comparison
+____Arg1____
+6224..6264
+49
+#### Text ####
+I wouldn't say we're out of the business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+6270..6330
+50,1;50,2;50,3
+#### Text ####
+we're not making as many {pyrotechnic devices} as we used to
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

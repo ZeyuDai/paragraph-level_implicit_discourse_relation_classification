@@ -1,0 +1,107 @@
+________________________________________________________
+____Implicit____
+221
+2
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+17..219
+1
+#### Text ####
+Management and unions representing 2,400 employees at Torstar Corp. 's Toronto Star reached a tentative contract agreement Friday, averting a strike by most employees of Canada's largest daily newspaper
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+221..315
+2
+#### Text ####
+Members of the largest union, representing 1,700 workers, voted in favor of the pact yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+353..356
+3,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+317..351
+3,0
+#### Text ####
+Four other unions have yet to vote
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+357..399
+3,3
+#### Text ####
+their leadership also recommended approval
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+374..378
+3,3,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Sup1____
+251..277
+2,0,1,1,1;2,0,1,1,2;2,0,1,1,3
+#### Text ####
+representing 1,700 workers
+##############
+____Arg1____
+221..249;279..315
+2,0,0;2,0,1,0;2,0,1,1,0;2,1;2,2
+#### Text ####
+Members of the largest union voted in favor of the pact yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+353..373;379..399
+3,2;3,3,0;3,3,2;3,4
+#### Text ####
+but their leadership recommended approval
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+317..351
+3,0
+#### Text ####
+Four other unions have yet to vote
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+401
+4
+____Arg1____
+317..399
+3
+#### Text ####
+Four other unions have yet to vote, but their leadership also recommended approval
+##############
+____Arg2____
+401..527
+4
+#### Text ####
+The pact proposes a 2 1/2-year contract with a raise of 8% in the first year, 7% in the second and 4% for the final six months
+##############
+________________________________________________________

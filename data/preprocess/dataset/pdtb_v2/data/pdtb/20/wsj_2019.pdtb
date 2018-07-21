@@ -1,0 +1,1133 @@
+________________________________________________________
+____Explicit____
+172..177
+1,0,0
+#### Text ####
+After
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+237..295
+1,1;1,2;1,3;1,4
+#### Text ####
+the Nasdaq Composite Index weakened under selling pressure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+178..235
+1,0,1
+#### Text ####
+gaining strength during a brief run-up when trading began
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+217..221
+1,0,1,1,2,1,1,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Temporal.Synchrony
+____Arg1____
+172..216
+1,0,0;1,0,1,0;1,0,1,1,0;1,0,1,1,1;1,0,1,1,2,0;1,0,1,1,2,1,0
+#### Text ####
+After gaining strength during a brief run-up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+222..235
+1,0,1,1,2,1,1,1
+#### Text ####
+trading began
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+297
+2
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+172..295
+1
+#### Text ####
+After gaining strength during a brief run-up when trading began, the Nasdaq Composite Index weakened under selling pressure
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+297..479
+2
+#### Text ####
+The forces at work included computer-guided trading, as well as profit-driven market makers and institutional investors who had bought stock on the cheap during the recent correction
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+481
+3
+____Arg1____
+297..479
+2
+#### Text ####
+The forces at work included computer-guided trading, as well as profit-driven market makers and institutional investors who had bought stock on the cheap during the recent correction
+##############
+____Arg2____
+481..582
+3
+#### Text ####
+During the last two hours of trading, the composite almost drew even on the day before slipping again
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+561..567
+3,3,4,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+481..560
+3,0;3,1;3,2;3,3,0;3,3,1;3,3,2;3,3,3;3,4
+#### Text ####
+During the last two hours of trading, the composite almost drew even on the day
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+568..582
+3,3,4,1
+#### Text ####
+slipping again
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+584
+4
+#### Features ####
+Wr, Comm, Null, Null
+in the end, Expansion.Restatement.Specification
+____Arg1____
+481..582
+3
+#### Text ####
+During the last two hours of trading, the composite almost drew even on the day before slipping again
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+584..641
+4
+#### Text ####
+The Nasdaq Composite closed down 1.05, or 0.2%, to 459.93
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+727
+6
+____Arg1____
+645..725
+5
+#### Text ####
+The action was confined to Nasdaq's biggest and most liquid stocks, traders said
+##############
+____Arg2____
+727..821
+6
+#### Text ####
+The Nasdaq 100 Index began the day at 449.89, lost 2% at one point, and was up 0.4% at another
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+823
+7
+#### Features ####
+Wr, Comm, Null, Null
+while, Expansion.Conjunction
+____Arg1____
+727..821
+6
+#### Text ####
+The Nasdaq 100 Index began the day at 449.89, lost 2% at one point, and was up 0.4% at another
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+823..899
+7
+#### Text ####
+The barometer of the biggest nonfinancial stocks settled at 448.49, off 1.40
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1068
+10
+#### Features ####
+Wr, Comm, Null, Null
+as, Contingency.Cause.Reason
+____Arg1____
+1026..1065
+9
+#### Text ####
+The volatility was dizzying for traders
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1068..1126
+10,1
+#### Text ####
+The market must have turned up and down 15 different times
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1129..1190
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+commented Lance Zipper, head of OTC trading at Kidder Peabody
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1193
+11
+#### Features ####
+Ot, Comm, Null, Null
+1129..1190
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+commented Lance Zipper, head of OTC trading at Kidder Peabody
+##############
+in short, Expansion.Restatement.Generalization
+____Arg1____
+1068..1126
+10,1
+#### Text ####
+The market must have turned up and down 15 different times
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1193..1308
+11
+#### Text ####
+Every time you thought it was going into a rally it gave up, and every time you thought it would rally it came down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1254..1257
+11,3
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1129..1190
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+commented Lance Zipper, head of OTC trading at Kidder Peabody
+##############
+and, Comparison.Contrast.Juxtaposition
+____Arg1____
+1193..1252
+11,1
+#### Text ####
+Every time you thought it was going into a rally it gave up
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1258..1308
+11,4
+#### Text ####
+every time you thought it would rally it came down
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1310
+12
+#### Features ####
+Ot, Comm, Null, Null
+1129..1190
+10,0;10,2;10,3;10,4;10,5;10,6
+#### Text ####
+commented Lance Zipper, head of OTC trading at Kidder Peabody
+##############
+indeed, Expansion.Restatement.Generalization
+____Arg1____
+1193..1308
+11
+#### Text ####
+Every time you thought it was going into a rally it gave up, and every time you thought it would rally it came down
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1310..1332
+12
+#### Text ####
+This is a tough market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1416
+14
+#### Features ####
+Wr, Comm, Null, Null
+accordingly, Contingency.Cause.Result
+____Arg1____
+1353..1414
+13,1,1
+#### Text ####
+the market is still settling down after the recent correction
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1337..1352
+13,0;13,1,0;13,2
+#### Text ####
+Mr. Zipper said
+##############
+____Arg2____
+1416..1547
+14,0
+#### Text ####
+Most of trading action now is from professional traders who are trying to take advantage of the price swings to turn a quick profit
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1549..1574
+14,1;14,2;14,3;14,4
+#### Text ####
+he and other traders said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1577
+15
+____Arg1____
+1416..1574
+14
+#### Text ####
+Most of trading action now is from professional traders who are trying to take advantage of the price swings to turn a quick profit, he and other traders said
+##############
+____Arg2____
+1577..1675
+15
+#### Text ####
+Everybody's confused and no one has an opinion that lasts longer than 30 seconds," said Mr. Zipper
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1598..1601
+15,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1660..1675
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said Mr. Zipper
+##############
+and, Expansion.Conjunction
+____Arg1____
+1577..1597
+15,1,0
+#### Text ####
+Everybody's confused
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1602..1657
+15,1,2
+#### Text ####
+no one has an opinion that lasts longer than 30 seconds
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1678
+16
+#### Features ####
+Ot, Comm, Null, Null
+1660..1675
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said Mr. Zipper
+##############
+in fact, Expansion.Conjunction
+____Arg1____
+1577..1657
+15,1
+#### Text ####
+Everybody's confused and no one has an opinion that lasts longer than 30 seconds
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1678..1741
+16
+#### Text ####
+A lot of the professional traders are just going back and forth
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1743
+17
+#### Features ####
+Ot, Comm, Null, Null
+1660..1675
+15,0;15,2;15,3;15,4;15,5;15,6
+#### Text ####
+said Mr. Zipper
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1678..1741
+16
+#### Text ####
+A lot of the professional traders are just going back and forth
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1743..1767
+17
+#### Text ####
+They're just as confused
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1911
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1849..1897
+18,1,1
+#### Text ####
+program trading is keeping the markets unsettled
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1772..1848
+18,0;18,1,0;18,2
+#### Text ####
+William Rothe, head of OTC trading at Alex.
+Brown & Sons, in Baltimore, said
+##############
+____Arg2____
+1911..2035
+19,1,1
+#### Text ####
+that the volatile conditions created by program trading has "thoroughly confused" investors about where the market is headed
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1899..1910
+19,0;19,1,0;19,2
+#### Text ####
+He believes
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2037
+20
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement
+____Arg1____
+1911..2035
+19,1,1
+#### Text ####
+that the volatile conditions created by program trading has "thoroughly confused" investors about where the market is headed
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1899..1910
+19,0;19,1,0;19,2
+#### Text ####
+He believes
+##############
+____Arg2____
+2037..2098
+20,0,0
+#### Text ####
+Program trading is "benefiting a few to the detriment of many
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2148..2161
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+he complained
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2099..2102
+20,0,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2148..2161
+20,1;20,2;20,3;20,4;20,5
+#### Text ####
+he complained
+##############
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+2037..2098
+20,0,0
+#### Text ####
+Program trading is "benefiting a few to the detriment of many
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2103..2145
+20,0,2
+#### Text ####
+I wish someone would do something about it
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2222
+22
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2165..2220
+21
+#### Text ####
+Trading activity cooled off from Monday's sizzling pace
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2222..2262
+22
+#### Text ####
+Share turnover subsided to 161.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2264
+23
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2222..2262
+22
+#### Text ####
+Share turnover subsided to 161.5 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2264..2314
+23
+#### Text ####
+Advancing and declining issues finished about even
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2316
+24
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2264..2314
+23
+#### Text ####
+Advancing and declining issues finished about even
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2316..2389
+24
+#### Text ####
+Of the 4,345 stocks that changed hands, 1,174 declined and 1,040 advanced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2371..2374
+24,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2316..2370
+24,0;24,1;24,2
+#### Text ####
+Of the 4,345 stocks that changed hands, 1,174 declined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2375..2389
+24,4
+#### Text ####
+1,040 advanced
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2452
+26
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2393..2450
+25
+#### Text ####
+One big technology issue, Novell, rode the roller coaster
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2452..2576
+26
+#### Text ####
+The stock, which finished Monday at 29 1/2, traded as high as 29 3/4 and as low as 28 3/4 before closing at 29 1/4, down 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2542..2548
+26,1,2,0
+#### Text ####
+before
+##############
+#### Features ####
+Wr, Comm, Null, Null
+before, Temporal.Asynchronous.Precedence
+____Arg1____
+2452..2461;2496..2541
+26,0,0;26,0,1;26,0,3;26,1,0;26,1,1
+#### Text ####
+The stock traded as high as 29 3/4 and as low as 28 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2549..2576
+26,1,2,1
+#### Text ####
+closing at 29 1/4, down 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2638
+28
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2580..2636
+27
+#### Text ####
+It was a jarring day for investors in Genetics Institute
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2638..2845
+28
+#### Text ####
+The stock tumbled 2 3/4 on news that it might have to take a charge against earnings if it can't successfully resolve a dispute with its European licensee, Boehringer Mannheim, over its anti-anemia drug, EPO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2723..2725
+28,1,2,1,1,1,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Wr, Comm, Null, Null
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2670..2722
+28,1,2,1,1,0;28,1,2,1,1,1,0;28,1,2,1,1,1,1,0;28,1,2,1,1,1,1,1,0;28,1,2,1,1,1,1,1,1
+#### Text ####
+that it might have to take a charge against earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2726..2845
+28,1,2,1,1,1,1,1,2,1
+#### Text ####
+it can't successfully resolve a dispute with its European licensee, Boehringer Mannheim, over its anti-anemia drug, EPO
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2847
+29
+#### Features ####
+Wr, Comm, Null, Null
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+2638..2845
+28
+#### Text ####
+The stock tumbled 2 3/4 on news that it might have to take a charge against earnings if it can't successfully resolve a dispute with its European licensee, Boehringer Mannheim, over its anti-anemia drug, EPO
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2847..2907
+29
+#### Text ####
+The stock recovered somewhat to finish 1 1/4 lower at 26 1/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3077
+31
+____Arg1____
+2911..3075
+30
+#### Text ####
+In a statement, Genetics Institute said the dispute with Boehringer centers on questions of the usability of certain batches of EPO material valued at $13.6 million
+##############
+____Arg2____
+3077..3178
+31
+#### Text ####
+Earlier this week, Genetics Institute reported wider losses in its fiscal third quarter ended Aug. 31
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3234
+33
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3182..3232
+32
+#### Text ####
+Price Co. jumped 2 1/4 to 44 on 1.7 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3234..3361
+33
+#### Text ####
+The wholesaler of cash and carry merchandise reported fiscal fourthquarter earnings that were better than analysts had expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3375..3379
+34,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3234..3361
+33
+#### Text ####
+The wholesaler of cash and carry merchandise reported fiscal fourthquarter earnings that were better than analysts had expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3363..3374;3380..3458
+34,0;34,2,0;34,2,1;34,2,2,0;34,2,2,1,0;34,2,2,1,1,0;34,2,2,1,1,1,0;34,2,2,1,1,1,1,0;34,2,2,1,1,1,1,1;34,2,2,1,1,1,1,2,0;34,2,2,1,1,1,1,2,1,0;34,2,2,1,1,1,1,2,1,1;34,3
+#### Text ####
+The company pleased analysts by announcing four new store openings planned for fiscal 1990
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+3480
+35
+____Arg1____
+3363..3478
+34
+#### Text ####
+The company also pleased analysts by announcing four new store openings planned for fiscal 1990, ending next August
+##############
+____Arg2____
+3480..3554
+35
+#### Text ####
+That will bring the total for the year to 10, from five during fiscal 1989
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3632
+37
+#### Features ####
+Ot, Comm, Null, Null
+3669..3740
+37,1;37,2;37,3;37,4;37,5;37,6
+#### Text ####
+said Linda Kristiansen, a Dean Witter Reynolds analyst, in an interview
+##############
+so, Contingency.Cause.Result
+____Arg1____
+3559..3630
+36
+#### Text ####
+Every year we've been waiting for stepped-up expansion from the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3632..3666
+37,0
+#### Text ####
+The news couldn't have been better
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3804..3808
+38,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+3234..3361
+33
+#### Text ####
+The wholesaler of cash and carry merchandise reported fiscal fourthquarter earnings that were better than analysts had expected
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3744..3802;3809..3847
+38,0;38,2;38,3
+#### Text ####
+Intermec, a maker of optical character-recognition devices reported higher third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3849
+39
+#### Features ####
+Wr, Comm, Null, Null
+subsequently, Temporal.Asynchronous.Precedence
+____Arg1____
+3744..3847
+38
+#### Text ####
+Intermec, a maker of optical character-recognition devices, also reported higher third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3849..3879
+39
+#### Text ####
+Its shares added 3/4 to 30 3/4
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3883..3886
+40,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+3849..3879
+39
+#### Text ####
+Its shares added 3/4 to 30 3/4
+##############
+____Arg1____
+3744..3847
+38
+#### Text ####
+Intermec, a maker of optical character-recognition devices, also reported higher third-quarter earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3887..3969
+40,1;40,2;40,3
+#### Text ####
+favorable earnings wasn't a guarantee that a stock's price would improve yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+3971..4124
+41
+#### Text ####
+MCI Communications tumbled 2 5/8 to 42 3/8 on 4.7 million shares even though the telecommunications giant reported a 63% increase in third-quarter profit
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3971
+41
+#### Features ####
+Wr, Comm, Null, Null
+for instance, Expansion.Instantiation
+____Arg1____
+3883..3969
+40
+#### Text ####
+But favorable earnings wasn't a guarantee that a stock's price would improve yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3971..4124
+41
+#### Text ####
+MCI Communications tumbled 2 5/8 to 42 3/8 on 4.7 million shares even though the telecommunications giant reported a 63% increase in third-quarter profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4036..4047
+41,1,4,0;41,1,4,1
+#### Text ####
+even though
+##############
+#### Features ####
+Wr, Comm, Null, Null
+though, Comparison.Concession.Expectation
+____Arg1____
+3971..4035
+41,0;41,1,0;41,1,1;41,1,2;41,1,3;41,2
+#### Text ####
+MCI Communications tumbled 2 5/8 to 42 3/8 on 4.7 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4048..4124
+41,1,4,2
+#### Text ####
+the telecommunications giant reported a 63% increase in third-quarter profit
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4189..4194
+42,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession, Contingency.Cause.Reason
+____Arg1____
+4128..4188
+42,0;42,1;42,3
+#### Text ####
+CoreStates Financial slipped 3/8 to 43 1/8 in active trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4195..4292
+42,2,1
+#### Text ####
+reporting that third-quarter earnings improved to $1.27 a share from $1.15 a share a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4294..4301
+43,0
+#### Text ####
+However
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast.Opposition
+____Arg1____
+4128..4292
+42
+#### Text ####
+CoreStates Financial slipped 3/8 to 43 1/8 in active trading after reporting that third-quarter earnings improved to $1.27 a share from $1.15 a share a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4303..4404
+43,1;43,2;43,3;43,4
+#### Text ####
+the bank holding company's loan-loss reserves rose to $177.3 million from $154 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+4435..4438
+45,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Expectation
+____Arg1____
+4408..4433
+44
+#### Text ####
+A&W Brands lost 1/4 to 27
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4439..4521
+45,1;45,2;45,3
+#### Text ####
+its thirdquarter earnings rose to 26 cents a share from 18 cents a share last year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4564
+47
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+4525..4562
+46
+#### Text ####
+Capital Associates dropped 1 to 5 3/8
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4564..4575;4612..4680
+47,0,0;47,0,1;47,0,3;47,1,0;47,1,1,0;47,1,1,1,0;47,1,1,1,1,0;47,1,1,1,1,1
+#### Text ####
+The company reported substantially lower net income for its fiscal first quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

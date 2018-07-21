@@ -1,0 +1,687 @@
+________________________________________________________
+____Explicit____
+139..142
+0,1,4,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+103..114
+0,1,4,0;0,1,4,1,0;0,1,4,1,1,0
+#### Text ####
+saying that
+##############
+and, Expansion.Conjunction
+____Arg1____
+115..138
+0,1,4,1,1,1,0
+#### Text ####
+the risks were too high
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+143..185
+0,1,4,1,1,1,2
+#### Text ####
+the potential payoff too far in the future
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+718
+3
+____Arg1____
+484..716
+2
+#### Text ####
+New England Electric, based in Westborough, Mass., had offered $2 billion to acquire PS of New Hampshire, well below the $2.29 billion value United Illuminating places on its bid and the $2.25 billion Northeast says its bid is worth
+##############
+____Arg2____
+718..808
+3
+#### Text ####
+United Illuminating is based in New Haven, Conn., and Northeast is based in Hartford, Conn
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+768..771
+3,1
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+718..765
+3,0
+#### Text ####
+United Illuminating is based in New Haven, Conn
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+772..808
+3,2
+#### Text ####
+Northeast is based in Hartford, Conn
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____NoRel____
+810
+4
+____Arg1____
+718..808
+3
+#### Text ####
+United Illuminating is based in New Haven, Conn., and Northeast is based in Hartford, Conn
+##############
+____Arg2____
+810..910
+4
+#### Text ####
+PS of New Hampshire, Manchester, N.H., values its internal reorganization plan at about $2.2 billion
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1037..1039
+5,1,1,1,1,1,1,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+914..992
+5,0;5,1,0;5,2
+#### Text ####
+John Rowe, president and chief executive officer of New England Electric, said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+993..1036
+5,1,1,0;5,1,1,1,0;5,1,1,1,1,0;5,1,1,1,1,1,0
+#### Text ####
+the company's return on equity could suffer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1040..1205
+5,1,1,1,1,1,1,1
+#### Text ####
+it made a higher bid and its forecasts related to PS of New Hampshire -- such as growth in electricity demand and improved operating efficiencies -- didn't come true
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1061..1064
+5,1,1,1,1,1,1,1,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+914..992
+5,0;5,1,0;5,2
+#### Text ####
+John Rowe, president and chief executive officer of New England Electric, said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1037..1060
+5,1,1,1,1,1,1,0;5,1,1,1,1,1,1,1,0
+#### Text ####
+if it made a higher bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1065..1205
+5,1,1,1,1,1,1,1,2
+#### Text ####
+its forecasts related to PS of New Hampshire -- such as growth in electricity demand and improved operating efficiencies -- didn't come true
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1208
+6
+#### Features ####
+Ot, Comm, Null, Null
+1376..1384
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+he added
+##############
+in other words, Expansion.Restatement.Generalization
+____Arg1____
+993..1205
+5,1,1
+#### Text ####
+the company's return on equity could suffer if it made a higher bid and its forecasts related to PS of New Hampshire -- such as growth in electricity demand and improved operating efficiencies -- didn't come true
+##############
+#### Features ####
+Ot, Comm, Null, Null
+914..992
+5,0;5,1,0;5,2
+#### Text ####
+John Rowe, president and chief executive officer of New England Electric, said
+##############
+____Arg2____
+1208..1350
+6
+#### Text ####
+When we evaluated raising our bid, the risks seemed substantial and persistent over the next five years, and the rewards seemed a long way out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1208..1212
+6,1,0
+#### Text ####
+When
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1376..1384
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+he added
+##############
+when, Temporal.Synchrony
+____Arg1____
+1243..1350
+6,0;6,2;6,3;6,4;6,5;6,6;6,7
+#### Text ####
+the risks seemed substantial and persistent over the next five years, and the rewards seemed a long way out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1213..1241
+6,1,1
+#### Text ####
+we evaluated raising our bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1313..1316
+6,5
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1376..1384
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+he added
+##############
+and, Expansion.Conjunction
+____Arg1____
+1243..1311
+6,3
+#### Text ####
+the risks seemed substantial and persistent over the next five years
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1317..1350
+6,6
+#### Text ####
+the rewards seemed a long way out
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1352
+7
+#### Features ####
+Ot, Comm, Null, Null
+1376..1384
+7,1;7,2;7,3;7,4;7,5
+#### Text ####
+he added
+##############
+in the end, Contingency.Cause.Result
+____Arg1____
+1208..1350
+6
+#### Text ####
+When we evaluated raising our bid, the risks seemed substantial and persistent over the next five years, and the rewards seemed a long way out
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1373
+7,0
+#### Text ####
+That got hard to take
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1397..1401
+8,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1208..1384
+6;7
+#### Text ####
+When we evaluated raising our bid, the risks seemed substantial and persistent over the next five years, and the rewards seemed a long way out.
+That got hard to take," he added
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1388..1396;1402..1465
+8,0;8,2;8,3
+#### Text ####
+Mr. Rowe noted that political concerns also worried New England Electric
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1432..1436
+8,2,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1388..1407
+8,0;8,1;8,2,0;8,3
+#### Text ####
+Mr. Rowe also noted
+##############
+also, Expansion.Conjunction
+____Arg1____
+993..1205
+5,1,1
+#### Text ####
+the company's return on equity could suffer if it made a higher bid and its forecasts related to PS of New Hampshire -- such as growth in electricity demand and improved operating efficiencies -- didn't come true
+##############
+#### Features ####
+Ot, Comm, Null, Null
+914..992
+5,0;5,1,0;5,2
+#### Text ####
+John Rowe, president and chief executive officer of New England Electric, said
+##############
+____Arg2____
+1408..1431;1437..1465
+8,2,1,0;8,2,1,1,0;8,2,1,1,2
+#### Text ####
+that political concerns worried New England Electric
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1467
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1408..1465
+8,2,1
+#### Text ####
+that political concerns also worried New England Electric
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1388..1407
+8,0;8,1;8,2,0;8,3
+#### Text ####
+Mr. Rowe also noted
+##############
+____Arg2____
+1467..1601
+9,0
+#### Text ####
+No matter who owns PS of New Hampshire, after it emerges from bankruptcy proceedings its rates will be among the highest in the nation
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1603..1610
+9,1;9,2;9,3;9,4
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1507..1512
+9,0,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1603..1610
+9,1;9,2;9,3;9,4
+#### Text ####
+he said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+1552..1601
+9,0,1;9,0,3;9,0,4
+#### Text ####
+its rates will be among the highest in the nation
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1513..1551
+9,0,2,1
+#### Text ####
+it emerges from bankruptcy proceedings
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1613
+10
+____Arg1____
+1467..1601
+9,0
+#### Text ####
+No matter who owns PS of New Hampshire, after it emerges from bankruptcy proceedings its rates will be among the highest in the nation
+##############
+____Arg2____
+1613..1636
+10
+#### Text ####
+That attracts attention
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1643
+11
+#### Features ####
+Ot, Comm, Null, Null
+1753..1761
+11,1;11,2;11,3;11,4
+#### Text ####
+he added
+##############
+but, Contingency.Cause.Result
+____Arg1____
+1613..1636
+10
+#### Text ####
+That attracts attention
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1643..1751
+11,0
+#### Text ####
+it was just another one of the risk factors" that led to the company's decision to withdraw from the bidding
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1952
+13
+#### Features ####
+Ot, Comm, Null, Null
+2152..2169
+13,1;13,2;13,3;13,4
+#### Text ####
+Mr. Ross asserted
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1870..1950
+12,2,1
+#### Text ####
+the withdrawal of New England Electric might speed up the reorganization process
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1765..1869
+12,0;12,1;12,2,0;12,3
+#### Text ####
+Wilbur Ross Jr. of Rothschild Inc., the financial adviser to the troubled company's equity holders, said
+##############
+____Arg2____
+1952..2150
+13,0
+#### Text ####
+The fact that New England proposed lower rate increases -- 4.8% over seven years against around 5.5% boosts proposed by the other two outside bidders -- complicated negotiations with state officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2172
+14
+#### Features ####
+Ot, Comm, Null, Null
+2152..2169;2206..2214
+13,1;13,2;13,3;13,4;14,0;14,2;14,3;14,4;14,5;14,6
+#### Text ####
+Mr. Ross asserted he added
+##############
+but, Comparison.Contrast
+____Arg1____
+1952..2150
+13,0
+#### Text ####
+The fact that New England proposed lower rate increases -- 4.8% over seven years against around 5.5% boosts proposed by the other two outside bidders -- complicated negotiations with state officials
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2172..2203
+14,1
+#### Text ####
+Now the field is less cluttered
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2218..2228
+15,0
+#### Text ####
+Separately
+##############
+#### Features ####
+Wr, Comm, Null, Null
+separately, Expansion.Conjunction
+____Arg1____
+9..101
+0,0;0,1,0;0,1,1;0,1,2;0,1,3;0,2
+#### Text ####
+New England Electric System bowed out of the bidding for Public Service Co. of New Hampshire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2230..2378
+15,1;15,2;15,3;15,4
+#### Text ####
+the Federal Energy Regulatory Commission turned down for now a request by Northeast seeking approval of its possible purchase of PS of New Hampshire
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2395
+16
+#### Features ####
+Wr, Comm, Null, Null
+nevertheless, Comparison.Contrast
+____Arg1____
+2218..2378
+15
+#### Text ####
+Separately, the Federal Energy Regulatory Commission turned down for now a request by Northeast seeking approval of its possible purchase of PS of New Hampshire
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2395..2474
+16,1,1,0;16,1,1,1,0;16,1,1,1,1,0;16,1,1,1,1,1;16,1,1,1,1,2
+#### Text ####
+it would refile its request and still hopes for an expedited review by the FERC
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2380..2394
+16,0;16,1,0;16,2
+#### Text ####
+Northeast said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2427..2432
+16,1,1,1,1,2,0
+#### Text ####
+still
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2380..2394
+16,0;16,1,0;16,2
+#### Text ####
+Northeast said
+##############
+still, Comparison.Concession.Contra-expectation
+____Arg1____
+2218..2378
+15
+#### Text ####
+Separately, the Federal Energy Regulatory Commission turned down for now a request by Northeast seeking approval of its possible purchase of PS of New Hampshire
+##############
+#### Features ####
+Wr, Comm, Null, Null
+____Arg2____
+2423..2426;2433..2474
+16,1,1,1,1,1;16,1,1,1,1,2,1;16,1,1,1,1,2,2
+#### Text ####
+and hopes for an expedited review by the FERC
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2475..2583
+16,1,1,1,1,3
+#### Text ####
+so that it could complete the purchase by next summer if its bid is the one approved by the bankruptcy court
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2475..2482
+16,1,1,1,1,3,0;16,1,1,1,1,3,1
+#### Text ####
+so that
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2380..2394
+16,0;16,1,0;16,2
+#### Text ####
+Northeast said
+##############
+so that, Contingency.Cause.Result
+____Arg1____
+2439..2474
+16,1,1,1,1,2,2
+#### Text ####
+for an expedited review by the FERC
+##############
+#### Features ####
+Ot, Ctrl, Null, Null
+2423..2438
+16,1,1,1,1,1;16,1,1,1,1,2,0;16,1,1,1,1,2,1
+#### Text ####
+and still hopes
+##############
+____Arg2____
+2483..2583
+16,1,1,1,1,3,2
+#### Text ####
+it could complete the purchase by next summer if its bid is the one approved by the bankruptcy court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2529..2531
+16,1,1,1,1,3,2,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2380..2394
+16,0;16,1,0;16,2
+#### Text ####
+Northeast said
+##############
+if, Contingency.Condition.Hypothetical
+____Arg1____
+2475..2528
+16,1,1,1,1,3,0;16,1,1,1,1,3,1;16,1,1,1,1,3,2,0;16,1,1,1,1,3,2,1,0;16,1,1,1,1,3,2,1,1,0;16,1,1,1,1,3,2,1,1,1;16,1,1,1,1,3,2,1,1,2
+#### Text ####
+so that it could complete the purchase by next summer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2532..2583
+16,1,1,1,1,3,2,1,1,3,1
+#### Text ####
+its bid is the one approved by the bankruptcy court
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

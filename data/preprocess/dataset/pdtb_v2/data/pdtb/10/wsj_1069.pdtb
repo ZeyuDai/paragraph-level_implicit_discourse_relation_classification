@@ -1,0 +1,364 @@
+________________________________________________________
+____Implicit____
+249
+2
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+196..247
+1
+#### Text ####
+Revenue rose 23% to $100 million from $81.6 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+249..330
+2
+#### Text ####
+Net product sales accounted for $76 million, up from $57.5 million a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+483..486
+4,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+334..481
+3
+#### Text ####
+Sales of the heart drug TPA were $43.6 million, better than last year's depressed third period when the company sold just $29.1 million of the drug
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+487..576
+4,1;4,2,0;4,2,1;4,2,2;4,3
+#### Text ####
+TPA sales fell below levels for this year's first and second quarter sales of $48 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+578..595
+4,2,3
+#### Text ####
+cooling investors
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+597
+5
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Sup1____
+483..576
+4,0;4,1;4,2,0;4,2,1;4,2,2;4,3
+#### Text ####
+But TPA sales fell below levels for this year's first and second quarter sales of $48 million
+##############
+____Arg1____
+578..595
+4,2,3
+#### Text ####
+cooling investors
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+597..691
+5
+#### Text ####
+Genentech stock fell 12.5 cents in trading yesterday on the New York Stock Exchange to $20.125
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+813
+7
+#### Features ####
+Wr, Comm, Null, Null
+whereas, Comparison.Contrast.Opposition
+____Arg1____
+695..811
+6
+#### Text ####
+In the nine months, net income slid 21% to $28.4 million, or 33 cents a share, from $36 million, or 42 cents a share
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+813..869
+7
+#### Text ####
+Revenues climbed 18% to $289 million from $245.3 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1015..1018
+9,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+874..955
+8,1
+#### Text ####
+We continue to be on target for . . . increasing ÕTPAå sales 20% to 25% this year
+##############
+#### Features ####
+Ot, Comm, Null, Null
+958..1013
+8,0;8,2;8,3;8,4;8,5;8,6
+#### Text ####
+said founder and Chief Executive Officer Robert Swanson
+##############
+____Arg2____
+1019..1059
+9,1;9,2;9,3
+#### Text ####
+some analysts remain sour on the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1103
+11
+#### Features ####
+Ot, Comm, Null, Null
+1270..1345
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Denise Gilbert, an analyst with Montgomery Securities in San Francisco
+##############
+although, Comparison.Contrast.Juxtaposition
+____Arg1____
+1064..1101
+10
+#### Text ####
+TPA sales are down quarter to quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1103..1120
+11,0
+#### Text ####
+Expenses are flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1121..1124
+11,1
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1270..1345
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Denise Gilbert, an analyst with Montgomery Securities in San Francisco
+##############
+and, Expansion.Conjunction
+____Arg1____
+1103..1120
+11,0
+#### Text ####
+Expenses are flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1125..1143
+11,2
+#### Text ####
+that's a good sign
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1145
+12
+#### Features ####
+Ot, Comm, Null, Null
+1270..1345
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Denise Gilbert, an analyst with Montgomery Securities in San Francisco
+##############
+also, Expansion.Conjunction
+____Arg1____
+1103..1120
+11,0
+#### Text ####
+Expenses are flat
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1145..1222
+12
+#### Text ####
+There's contract revenue from {limited research and development} partnerships
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1224..1227
+13,0,0
+#### Text ####
+But
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1270..1345
+13,1;13,2;13,3;13,4;13,5
+#### Text ####
+said Denise Gilbert, an analyst with Montgomery Securities in San Francisco
+##############
+but, Comparison.Contrast
+____Arg1____
+1145..1222
+12
+#### Text ####
+There's contract revenue from {limited research and development} partnerships
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1228..1267
+13,0,1;13,0,2;13,0,3
+#### Text ####
+I still think the fundamentals are poor
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1499..1502
+15,0,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+1349..1497
+14
+#### Text ####
+Genentech faces competition in the cardiac-drug market from SmithKline Beecham PLC's heart drug Eminase, expected to receive market approval shortly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1503..1587
+15,0,1;15,0,2
+#### Text ####
+Genentech isn't likely to have any new products ready for market until at least 1992
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1589..1606
+15,1;15,2;15,3;15,4
+#### Text ####
+Ms. Gilbert added
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1609
+16
+#### Features ####
+Wr, Comm, Null, Null
+furthermore, Expansion.Conjunction
+____Arg1____
+1349..1587
+14;15,0
+#### Text ####
+Genentech faces competition in the cardiac-drug market from SmithKline Beecham PLC's heart drug Eminase, expected to receive market approval shortly.
+And Genentech isn't likely to have any new products ready for market until at least 1992
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1589..1606
+15,1;15,2;15,3;15,4
+#### Text ####
+Ms. Gilbert added
+##############
+____Arg2____
+1609..1692
+16,1
+#### Text ####
+The company's stock is trading at 40 times next year's numbers, and that's too much
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1695..1703
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+she said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1673..1676
+16,1,2
+#### Text ####
+and
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1695..1703
+16,0;16,2;16,3;16,4;16,5;16,6
+#### Text ####
+she said
+##############
+and, Expansion.Conjunction
+____Arg1____
+1609..1671
+16,1,0
+#### Text ####
+The company's stock is trading at 40 times next year's numbers
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1677..1692
+16,1,3
+#### Text ####
+that's too much
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

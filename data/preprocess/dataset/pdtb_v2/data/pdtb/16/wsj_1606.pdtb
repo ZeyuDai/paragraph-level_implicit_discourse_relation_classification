@@ -1,0 +1,767 @@
+________________________________________________________
+____Implicit____
+346
+2
+#### Features ####
+Wr, Comm, Null, Null
+by comparison, Comparison.Contrast.Juxtaposition
+____Arg1____
+320..344
+1,1;1,3,2;1,3,3;1,4
+#### Text ####
+on sales of $247 million
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+346..404
+2,0
+#### Text ####
+Sales for the just-ended period fell to about $225 million
+##############
+#### Features ####
+Ot, Comm, Null, Null
+406..438
+2,1;2,2;2,3;2,4
+#### Text ####
+the maker of computer parts said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+442..453
+3,0
+#### Text ####
+Nonetheless
+##############
+#### Features ####
+Wr, Comm, Null, Null
+nonetheless, Comparison.Concession.Contra-expectation
+____Sup1____
+346..404
+2,0
+#### Text ####
+Sales for the just-ended period fell to about $225 million
+##############
+____Arg1____
+9..237
+0
+#### Text ####
+Western Digital Corp. reported a net loss of $2.7 million, or nine cents a share, for its first quarter ended Sept. 30, citing factors as varied as hurricane damage, an advance in graphics technology and the strengthening dollar
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+486..548
+3,3,1
+#### Text ####
+he expects the company to be profitable in the current quarter
+##############
+#### Features ####
+Ot, Comm, Null, Null
+455..485
+3,1;3,2;3,3,0;3,4
+#### Text ####
+Chairman Roger W. Johnson said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+551
+4
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement
+____Arg1____
+497..548
+3,3,1,1,1,1
+#### Text ####
+the company to be profitable in the current quarter
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+486..496
+3,3,1,0;3,3,1,1,0;3,3,1,1,1,0
+#### Text ####
+he expects
+##############
+____Arg2____
+551..584
+4,1
+#### Text ####
+We are positioned to come through
+##############
+#### Features ####
+Ot, Comm, Null, Null
+587..594
+4,0;4,2;4,3;4,4;4,5,0;4,5,1;4,5,2;4,6
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+664
+5
+____Arg1____
+551..662
+4
+#### Text ####
+We are positioned to come through," he said, noting that the company's backlog was up from the previous quarter
+##############
+____Arg2____
+664..782
+5
+#### Text ####
+In its second quarter last year, Western Digital earned $12.7 million, or 44 cents a share, on sales of $258.4 million
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+987..995
+7,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1029..1045
+7,1;7,2;7,3,0;7,4
+#### Text ####
+Mr. Johnson said
+##############
+although, Comparison.Contrast
+____Arg1____
+1046..1100
+7,3,1
+#### Text ####
+millions of dollars in first-quarter revenue were lost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+996..1027
+7,0,1
+#### Text ####
+the plant itself wasn't damaged
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1046
+7
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+803..924
+6,1,1;6,2;6,3,0;6,3,1;6,3,2,0;6,3,2,1;6,3,2,2,0;6,3,2,2,1;6,4
+#### Text ####
+Western Digital's plant in Puerto Rico was affected by Hurricane Hugo, losing three days' production because of the storm
+##############
+#### Features ####
+Ot, Comm, Null, Null
+786..802
+6,0;6,1,0;6,2;6,4
+#### Text ####
+Mr. Johnson said
+##############
+____Arg2____
+1046..1100
+7,3,1
+#### Text ####
+millions of dollars in first-quarter revenue were lost
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1029..1045
+7,1;7,2;7,3,0;7,4
+#### Text ####
+Mr. Johnson said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1102
+8
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+1046..1100
+7,3,1
+#### Text ####
+millions of dollars in first-quarter revenue were lost
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1029..1045
+7,1;7,2;7,3,0;7,4
+#### Text ####
+Mr. Johnson said
+##############
+____Arg2____
+1102..1152
+8,0
+#### Text ####
+The revenue will be regained in the current period
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1154..1162
+8,1;8,2;8,3;8,4
+#### Text ####
+he added
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1386..1390
+10,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1346..1362
+10,0;10,1,0;10,2
+#### Text ####
+Mr. Johnson said
+##############
+also, Expansion.Conjunction
+____Arg1____
+803..924;1046..1100
+6,1,1;6,2;6,3,0;6,3,1;6,3,2,0;6,3,2,1;6,3,2,2,0;6,3,2,2,1;6,4;7,3,1
+#### Text ####
+Western Digital's plant in Puerto Rico was affected by Hurricane Hugo, losing three days' production because of the storm millions of dollars in first-quarter revenue were lost
+##############
+#### Features ####
+Ot, Comm, Null, Null
+786..802
+6,0;6,1,0;6,2;6,4
+#### Text ####
+Mr. Johnson said
+##############
+____Arg2____
+1363..1385;1391..1589
+10,1,1,0;10,1,1,1,0;10,1,1,1,2
+#### Text ####
+the first-quarter loss heavily reflected a rapid change in graphics technology that left reseller channels with too many of the old computer graphics boards and too few new monitors compatible with the new graphics boards
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1591
+11
+____Arg1____
+1346..1589
+10
+#### Text ####
+Mr. Johnson said the first-quarter loss also heavily reflected a rapid change in graphics technology that left reseller channels with too many of the old computer graphics boards and too few new monitors compatible with the new graphics boards
+##############
+____Arg2____
+1591..1632
+11
+#### Text ####
+Western Digital doesn't make the monitors
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1936
+14
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+1828..1907
+13,1
+#### Text ####
+The other areas of the business -- storage and microcomputers -- were very good
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1910..1926
+13,0;13,2;13,3;13,4;13,5;13,6
+#### Text ####
+Mr. Johnson said
+##############
+____Arg2____
+1936..2193
+14,1,1
+#### Text ####
+Western Digital has reacted swiftly to the movement to video graphics array, VGA, graphics technology from the old enhanced graphics adapter, EGA, which has a lower resolution standard, technology and now is one of the leading producers of these newer units
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1928..1935
+14,0;14,1,0;14,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2195
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2133..2193
+14,1,1,1,1,1,1;14,1,1,1,1,1,2
+#### Text ####
+and now is one of the leading producers of these newer units
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2195..2275;2287..2332
+15,0;15,3;15,4;15,5;15,6
+#### Text ####
+Other makers of video controller equipment also were caught in the EGA-VGA shift but we were able to respond much more quickly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2277..2284
+15,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2238..2242
+15,0,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2277..2284
+15,1
+#### Text ####
+he said
+##############
+also, Expansion.Conjunction
+____Sup1____
+2083..2193
+14,1,1,1,1,1,0,2,1,2,1,5,1,1;14,1,1,1,1,1,0,2,1,2,1,5,1,2;14,1,1,1,1,1,0,2,1,2,1,5,1,3;14,1,1,1,1,1,0,2,1,2,1,6;14,1,1,1,1,1,1;14,1,1,1,1,1,2
+#### Text ####
+which has a lower resolution standard, technology and now is one of the leading producers of these newer units
+##############
+____Arg1____
+1936..2081
+14,1,1,0;14,1,1,1,0;14,1,1,1,1,0;14,1,1,1,1,1,0,0;14,1,1,1,1,1,0,1;14,1,1,1,1,1,0,2,0;14,1,1,1,1,1,0,2,1,0;14,1,1,1,1,1,0,2,1,1;14,1,1,1,1,1,0,2,1,2,0;14,1,1,1,1,1,0,2,1,2,1,0;14,1,1,1,1,1,0,2,1,2,1,1;14,1,1,1,1,1,0,2,1,2,1,2;14,1,1,1,1,1,0,2,1,2,1,3;14,1,1,1,1,1,0,2,1,2,1,4;14,1,1,1,1,1,0,2,1,2,1,5,0;14,1,1,1,1,1,0,2,1,2,1,5,1,0
+#### Text ####
+Western Digital has reacted swiftly to the movement to video graphics array, VGA, graphics technology from the old enhanced graphics adapter, EGA
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1928..1935
+14,0;14,1,0;14,2
+#### Text ####
+He said
+##############
+____Arg2____
+2195..2237;2243..2275
+15,0,0;15,0,2
+#### Text ####
+Other makers of video controller equipment were caught in the EGA-VGA shift
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2287..2290
+15,3
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2277..2284
+15,1
+#### Text ####
+he said
+##############
+but, Comparison.Contrast
+____Arg1____
+2195..2275
+15,0
+#### Text ####
+Other makers of video controller equipment also were caught in the EGA-VGA shift
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2291..2332
+15,4
+#### Text ####
+we were able to respond much more quickly
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2337..2342
+16,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+2195..2275;2287..2332
+15,0;15,3;15,4;15,5;15,6
+#### Text ####
+Other makers of video controller equipment also were caught in the EGA-VGA shift but we were able to respond much more quickly
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2277..2284
+15,1
+#### Text ####
+he said
+##############
+____Arg2____
+2363..2395
+16,2;16,3;16,4;16,5;16,6
+#### Text ####
+our stock is grossly undervalued
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2344..2360
+16,1
+#### Text ####
+Mr. Johnson said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2406
+17
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2363..2395
+16,2;16,3;16,4;16,5;16,6
+#### Text ####
+our stock is grossly undervalued
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2344..2360
+16,1
+#### Text ####
+Mr. Johnson said
+##############
+____Arg2____
+2406..2555
+17,1,1
+#### Text ####
+the company has cut operating expenses by about 10% over the last few quarters, while maintaining research and development at about 8% to 9% of sales
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2398..2405
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2486..2491
+17,1,1,1,1,1,5,0
+#### Text ####
+while
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2398..2405
+17,0;17,1,0;17,2
+#### Text ####
+He said
+##############
+while, Temporal.Synchrony
+____Arg1____
+2406..2484
+17,1,1,0;17,1,1,1,0;17,1,1,1,1,0;17,1,1,1,1,1,0;17,1,1,1,1,1,1;17,1,1,1,1,1,2;17,1,1,1,1,1,3;17,1,1,1,1,1,4
+#### Text ####
+the company has cut operating expenses by about 10% over the last few quarters
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2492..2555
+17,1,1,1,1,1,5,1
+#### Text ####
+maintaining research and development at about 8% to 9% of sales
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2886..2893
+19,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+2818..2885
+19,0;19,1,0;19,1,1,0;19,1,1,1;19,2
+#### Text ####
+Graphics, communications and peripheral control chips were combined
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2895..2963
+19,1,1,2,2
+#### Text ####
+increasingly, multiple functions are being governed by a single chip
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+3094
+21
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2967..3092
+20
+#### Text ####
+Storage, which includes computer controllers and 3.5-inch disk drives, represents nearly two-thirds of the company's business
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3094..3105;3152..3258
+21,0,0;21,0,1;21,0,3;21,1;21,2
+#### Text ####
+Disk drives generated 38% more revenue in the most recent period compared with the fiscal first quarter a year earlier
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3431..3433
+23,0,0
+#### Text ####
+As
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3512..3519
+23,1
+#### Text ####
+he said
+##############
+as, Contingency.Cause.Reason
+____Arg1____
+3521..3581
+23,2;23,3;23,4
+#### Text ####
+Western Digital is strengthening development of laptop parts
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3434..3510
+23,0,1
+#### Text ####
+smaller and more powerful computers continue to be the focus of the industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____AltLex____
+3431..3510
+23,0
+#### Text ####
+As smaller and more powerful computers continue to be the focus of the industry
+##############
+#### Features ####
+Wr, Comm, Null, Null
+Contingency.Cause.Result
+____Arg1____
+3262..3301;3321..3359;3352..3429
+22,0;22,1,0;22,1,1,0;22,1,1,2;22,1,1,3;22,2
+#### Text ####
+Computer parts are getting ever smaller a shrinking that has propelled laptops laptops into position as the fastest-growing segment of the computer business
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3303..3319
+22,1,1,1
+#### Text ####
+Mr. Johnson said
+##############
+____Arg2____
+3431..3510;3521..3581
+23,0;23,2;23,3;23,4
+#### Text ####
+As smaller and more powerful computers continue to be the focus of the industry Western Digital is strengthening development of laptop parts
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3512..3519
+23,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3803
+25
+____Arg1____
+3585..3801
+24
+#### Text ####
+Next year Western Digital plans to consolidate its operations from 11 buildings in Irvine into two buildings in the same citya new headquarters and, a block away, a modern $100 million silicon wafer fabrication plant
+##############
+____Arg2____
+3803..3889
+25
+#### Text ####
+The plan will help the company in its existing joint manufacturing agreement with AT&T
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3947..3950
+26,2
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+3893..3945
+26,0
+#### Text ####
+About half of Western Digital's business is overseas
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3951..3998
+26,3
+#### Text ####
+Mr. Johnson expects that proportion to continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4000
+27
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3951..3998
+26,3
+#### Text ####
+Mr. Johnson expects that proportion to continue
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4000..4116
+27,0;27,1,0;27,1,1;27,2
+#### Text ####
+Plans to dissolve many of the trade barriers within Europe in 1992 creates significant opportunities for the company
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4118..4125
+27,1,2
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+4127..4145
+27,1,3,0;27,1,3,1
+#### Text ####
+particularly since
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4118..4125
+27,1,2
+#### Text ####
+he said
+##############
+since, Contingency.Cause.Reason
+____Arg1____
+4000..4116
+27,0;27,1,0;27,1,1;27,2
+#### Text ####
+Plans to dissolve many of the trade barriers within Europe in 1992 creates significant opportunities for the company
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+4146..4188
+27,1,3,2
+#### Text ####
+Western Digital already manufactures there
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+4190
+28
+#### Features ####
+Wr, Comm, Null, Null
+so, Contingency.Cause.Result
+____Arg1____
+4000..4116;4127..4188
+27,0;27,1,0;27,1,1;27,1,3;27,2
+#### Text ####
+Plans to dissolve many of the trade barriers within Europe in 1992 creates significant opportunities for the company particularly since Western Digital already manufactures there
+##############
+#### Features ####
+Ot, Comm, Null, Null
+4118..4125
+27,1,2
+#### Text ####
+he said
+##############
+____Arg2____
+4190..4315
+28
+#### Text ####
+Capitalizing on that presence, Western Digital is launching a major effort to develop the embryonic reseller market in Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

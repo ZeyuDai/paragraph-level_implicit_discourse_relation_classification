@@ -1,0 +1,561 @@
+________________________________________________________
+____Explicit____
+63..66
+0,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+9..61
+0,0
+#### Text ####
+Some lousy earnings reports whacked the stock market
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+67..156
+0,3;0,4;0,5;0,6
+#### Text ####
+bond prices fell only slightly and the dollar rose a little against most major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+98..101
+0,4
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+63..97
+0,2;0,3
+#### Text ####
+but bond prices fell only slightly
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+102..156
+0,5
+#### Text ####
+the dollar rose a little against most major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+246
+2
+#### Features ####
+Wr, Comm, Null, Null
+while, Temporal, Comparison.Contrast
+____Arg1____
+160..244
+1
+#### Text ####
+The Dow Jones Industrial Average tumbled 39.55 points, to 2613.73, in active trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+246..292
+2
+#### Text ####
+Long-term Treasury bonds ended slightly higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+294
+3
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+246..292
+2
+#### Text ####
+Long-term Treasury bonds ended slightly higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+294..347
+3,0;3,1,0;3,1,1;3,2
+#### Text ####
+The dollar rose modestly against the mark and the yen
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+549..552
+4,2
+#### Text ####
+but
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Expansion.Conjunction, Comparison.Pragmatic contrast
+____Arg1____
+487..547
+4,0,1,1,1
+#### Text ####
+that third-quarter corporate earnings haven't been very good
+##############
+#### Features ####
+Ot, Comm, Null, Null
+462..486
+4,0,0;4,0,1,0;4,0,1,1,0
+#### Text ####
+Analysts have complained
+##############
+____Arg2____
+553..600
+4,3
+#### Text ####
+the effect hit home particularly hard yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+602
+5
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Sup1____
+487..547
+4,0,1,1,1
+#### Text ####
+that third-quarter corporate earnings haven't been very good
+##############
+____Arg1____
+549..600
+4,2;4,3;4,4
+#### Text ####
+but the effect hit home particularly hard yesterday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+602..779
+5
+#### Text ####
+Compaq Computer nose-dived $8.625 a share, to $100, and pulled other technology issues lower after reporting lower-than-expected earnings after the stock market closed Wednesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+740..745
+5,1,4,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Wr, Comm, Null, Null
+after, Temporal.Asynchronous.Succession
+____Arg1____
+602..739
+5,0;5,1,0;5,1,1;5,1,2;5,1,3;5,1,4,0;5,1,4,1,0;5,1,4,1,1,0;5,1,4,1,1,1;5,2
+#### Text ####
+Compaq Computer nose-dived $8.625 a share, to $100, and pulled other technology issues lower after reporting lower-than-expected earnings
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+746..779
+5,1,4,1,1,2,1
+#### Text ####
+the stock market closed Wednesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+781
+6
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+602..779
+5
+#### Text ####
+Compaq Computer nose-dived $8.625 a share, to $100, and pulled other technology issues lower after reporting lower-than-expected earnings after the stock market closed Wednesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+781..934
+6
+#### Text ####
+Later yesterday the nation's major auto makers added to the gloom when they each reported their core auto operations were net losers in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+847..851
+6,2,2,0
+#### Text ####
+when
+##############
+#### Features ####
+Wr, Comm, Null, Null
+when, Contingency.Cause.Reason
+____Arg1____
+781..846
+6,0;6,1;6,2,0;6,2,1;6,3
+#### Text ####
+Later yesterday the nation's major auto makers added to the gloom
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+852..934
+6,2,2,1
+#### Text ####
+they each reported their core auto operations were net losers in the third quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____EntRel____
+1092
+8
+____Arg1____
+938..1090
+7
+#### Text ####
+The less-than-robust third-quarter results came amid renewed concern about the volatility of stock prices and the role of computer-aided program trading
+##############
+____Arg2____
+1092..1155
+8
+#### Text ####
+Taken together, the worries prompted a broad sell-off of stocks
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+1157
+9
+____Arg1____
+1092..1155
+8
+#### Text ####
+Taken together, the worries prompted a broad sell-off of stocks
+##############
+____Arg2____
+1157..1316
+9
+#### Text ####
+The number of stocks on the New York Stock Exchange that fell in price yesterday exceeded 1,000, a key measure of underlying sentiment among technical analysts
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1320..1328
+10,0,0
+#### Text ####
+Although
+##############
+#### Features ####
+Wr, Comm, Null, Null
+although, Comparison.Concession.Expectation
+____Arg1____
+1433..1578
+10,3;10,4;10,5;10,6
+#### Text ####
+analysts are increasingly predicting much more sluggish growth -- and therefore more corporate earnings disappointments -- for the fourth quarter
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1349..1431
+10,0,1,1,1;10,1;10,2
+#### Text ####
+the economy grew an estimated 2.5% in the third quarter, in line with expectations
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1329..1348
+10,0,1,0;10,0,1,1,0
+#### Text ####
+the government said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1741
+12
+#### Features ####
+Ot, Comm, Null, Null
+1669..1738
+11,0;11,2;11,3;11,4;11,5;11,6
+#### Text ####
+said Abby Joseph Cohen, a market strategist at Drexel Burnham Lambert
+##############
+thus, Contingency.Cause.Result
+____Arg1____
+1583..1666
+11,1
+#### Text ####
+There are a lot more downward revisions of earnings forecasts than upward revisions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1741..1826
+12
+#### Text ####
+People are questioning corporate profits as a pillar of support for the equity market
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1887
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1831..1885
+13
+#### Text ####
+The bond market was unmoved by the economic statistics
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1887..2068
+14
+#### Text ####
+While bond investors would have preferred growth to be a little slower, they were cheered by inflation measures in the data that showed prices rising at a modest annual rate of 2.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1887..1892
+14,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Contrast
+____Arg1____
+1959..2068
+14,1;14,2;14,3;14,4
+#### Text ####
+they were cheered by inflation measures in the data that showed prices rising at a modest annual rate of 2.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1893..1957
+14,0,1
+#### Text ####
+bond investors would have preferred growth to be a little slower
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2070
+15
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1959..2068
+14,1;14,2;14,3;14,4
+#### Text ####
+they were cheered by inflation measures in the data that showed prices rising at a modest annual rate of 2.9%
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2070..2169
+15,0
+#### Text ####
+That is another small encouragement for the Federal Reserve to lower interest rates in coming weeks
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+2171..2184
+15,1;15,2;15,3;15,4
+#### Text ####
+they reasoned
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2261
+18
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Arg1____
+2216..2259
+17
+#### Text ####
+Stock prices fell sharply in active trading
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2261..2327
+18
+#### Text ####
+Volume on the New York Stock Exchange totaled 175.2 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2329
+19
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2261..2327
+18
+#### Text ####
+Volume on the New York Stock Exchange totaled 175.2 million shares
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2329..2395
+19
+#### Text ####
+Declining issues on the Big Board outstripped gainers 1,141 to 406
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2431
+21
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2399..2429
+20
+#### Text ####
+Bond prices were barely higher
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2431..2481
+21
+#### Text ####
+The Treasury's benchmark 30-year rose fractionally
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2483
+22
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+2431..2481
+21
+#### Text ####
+The Treasury's benchmark 30-year rose fractionally
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2483..2511
+22
+#### Text ####
+Yield on the issue was 7.88%
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2571
+24
+#### Features ####
+Wr, Comm, Null, Null
+in particular, Expansion.Restatement.Specification
+____Arg1____
+2515..2569
+23
+#### Text ####
+The dollar rose modestly against most major currencies
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2571..2693
+24
+#### Text ####
+In late New York trading the dollar was at 1.8400 marks and 142.10 yen compared with 1.8353 marks and 141.52 yen Wednesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2695
+25
+#### Features ####
+Wr, Comm, Null, Null
+in addition, Expansion.Conjunction
+____Arg1____
+2571..2693
+24
+#### Text ####
+In late New York trading the dollar was at 1.8400 marks and 142.10 yen compared with 1.8353 marks and 141.52 yen Wednesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2695..2784
+25
+#### Text ####
+The dollar soared against the pound, which was at $1.5765 compared with $1.6145 Wednesday
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

@@ -1,0 +1,730 @@
+________________________________________________________
+____Implicit____
+311
+2
+#### Features ####
+Wr, Comm, Null, Null
+that is, Expansion.Restatement.Specification
+____Arg1____
+176..308
+1
+#### Text ####
+That was the message delivered by government and private security experts at an all-day conference on corporate electronic espionage
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+311..430
+2,1
+#### Text ####
+Hostile and even friendly nations routinely steal information from U.S. companies and share it with their own companies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+433..578
+2,0;2,2;2,3;2,4;2,5;2,6
+#### Text ####
+said Noel D. Matchett, a former staffer at the federal National Security Agency and now president of Information Security Inc., Silver Spring, Md
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1090..1092
+5,1,1,1,3,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1072..1088
+5,1,1,1,2
+#### Text ####
+the experts said
+##############
+if, Contingency.Condition.General
+____Arg1____
+1045..1070
+5,0;5,1,0;5,1,1,0;5,1,1,1,0;5,1,1,1,1;5,2
+#### Text ####
+Any secret can be pirated
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1093..1123
+5,1,1,1,3,1
+#### Text ####
+it is transmitted over the air
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1125
+6
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1045..1070;1090..1123
+5,0;5,1,0;5,1,1,0;5,1,1,1,0;5,1,1,1,1;5,1,1,1,3;5,2
+#### Text ####
+Any secret can be pirated if it is transmitted over the air
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1072..1088
+5,1,1,1,2
+#### Text ####
+the experts said
+##############
+____Arg2____
+1125..1272
+6
+#### Text ####
+Even rank amateurs can do it if they spend a few thousand dollars for a commercially available microwave receiver with amplifier and a VCR recorder
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1154..1156
+6,1,1,2,0
+#### Text ####
+if
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1072..1088
+5,1,1,1,2
+#### Text ####
+the experts said
+##############
+if, Contingency.Condition.General
+____Arg1____
+1125..1153
+6,0;6,1,0;6,1,1,0;6,1,1,1;6,2
+#### Text ####
+Even rank amateurs can do it
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1157..1272
+6,1,1,2,1
+#### Text ####
+they spend a few thousand dollars for a commercially available microwave receiver with amplifier and a VCR recorder
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1274
+7
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+1154..1272
+6,1,1,2
+#### Text ####
+if they spend a few thousand dollars for a commercially available microwave receiver with amplifier and a VCR recorder
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1274..1349
+7
+#### Text ####
+They need only position themselves near a company's satellite dish and wait
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1352
+8
+#### Features ####
+Wr, Comm, Null, Null
+as a result, Contingency.Cause.Result
+____Arg1____
+1274..1349
+7
+#### Text ####
+They need only position themselves near a company's satellite dish and wait
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1352..1423
+8,1
+#### Text ####
+You can have a dozen competitors stealing your secrets at the same time
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1426..1443
+8,0;8,2;8,3;8,4;8,5,0;8,5,1;8,5,2;8,6;8,7
+#### Text ####
+Mr. Matchett said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+1454
+8
+#### Features ####
+Ot, Comm, Null, Null
+1426..1451
+8,0;8,2;8,3;8,4;8,5,0;8,5,1;8,5,2;8,5,3,0;8,5,3,1,0;8,5,3,1,1;8,5,3,1,2;8,6;8,7
+#### Text ####
+Mr. Matchett said, adding
+##############
+furthermore, Expansion.Conjunction
+____Arg1____
+1352..1423
+8,1
+#### Text ####
+You can have a dozen competitors stealing your secrets at the same time
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1454..1498
+8,5,3,1,3
+#### Text ####
+It's a pretty good bet they won't get caught
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1501
+9
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+1454..1498
+8,5,3,1,3
+#### Text ####
+It's a pretty good bet they won't get caught
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1445..1451
+8,5,3,0;8,5,3,1,0;8,5,3,1,1;8,5,3,1,2
+#### Text ####
+adding
+##############
+____Arg2____
+1501..1542;1553..1596
+9,0;9,2;9,3
+#### Text ####
+The only way to catch an electronic thief is to set him up with erroneous information
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1544..1551
+9,1
+#### Text ####
+he said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1600..1611
+10,0,0,0;10,0,0,1
+#### Text ####
+Even though
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1717..1733
+10,1;10,2;10,3;10,4
+#### Text ####
+the experts said
+##############
+though, Comparison.Concession.Expectation
+____Arg1____
+1681..1715
+10,0,1;10,0,2;10,0,3
+#### Text ####
+most aren't yet taking precautions
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1612..1679
+10,0,0,2
+#### Text ####
+electronic espionage may cost U.S. firms billions of dollars a year
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1735..1746
+11,0
+#### Text ####
+By contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+1600..1715
+10,0
+#### Text ####
+Even though electronic espionage may cost U.S. firms billions of dollars a year, most aren't yet taking precautions
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1717..1733
+10,1;10,2;10,3;10,4
+#### Text ####
+the experts said
+##############
+____Arg2____
+1748..1865
+11,1;11,2;11,3;11,4
+#### Text ####
+European firms will spend $150 million this year on electronic security, and are expected to spend $1 billion by 1992
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1867
+12
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+1735..1819
+11,0;11,1;11,2;11,3,0;11,3,1;11,4
+#### Text ####
+By contrast, European firms will spend $150 million this year on electronic security
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1867..1942
+12,0
+#### Text ####
+Already many foreign firms, especially banks, have their own cryptographers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1944..1972
+12,1;12,2;12,3;12,4
+#### Text ####
+conference speakers reported
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1974..1979
+13,0
+#### Text ####
+Still
+##############
+#### Features ####
+Wr, Comm, Null, Null
+still, Comparison.Contrast
+____Arg1____
+1867..1942
+12,0
+#### Text ####
+Already many foreign firms, especially banks, have their own cryptographers
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1944..1972
+12,1;12,2;12,3;12,4
+#### Text ####
+conference speakers reported
+##############
+____Arg2____
+1981..2041
+13,1;13,2;13,3;13,4
+#### Text ####
+encrypting corporate communications is only a partial remedy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2162
+14
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+for example, Expansion.Restatement.Specification
+____Arg1____
+1974..2041
+13
+#### Text ####
+Still, encrypting corporate communications is only a partial remedy
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2162..2337
+14,1,1
+#### Text ####
+the expected influx of East European refugees over the next few years will greatly increase the chances of computer-maintenance workers, for example, doubling as foreign spies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2157..2161
+14,0,1;14,0,3;14,1,0
+#### Text ####
+said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2341..2349
+15,0
+#### Text ####
+Moreover
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2351..2358
+15,2
+#### Text ####
+he said
+##############
+moreover, Expansion.Conjunction
+____Arg1____
+2162..2337
+14,1,1
+#### Text ####
+the expected influx of East European refugees over the next few years will greatly increase the chances of computer-maintenance workers, for example, doubling as foreign spies
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2043..2053;2157..2161
+14,0,0;14,0,1;14,0,3;14,1,0
+#### Text ####
+One expert said
+##############
+____Arg2____
+2360..2465
+15,1;15,3;15,4;15,5;15,6;15,7
+#### Text ####
+technology now exists for stealing corporate secrets after they've been "erased" from a computer's memory
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2413..2418
+15,6,1,1,1,2,0
+#### Text ####
+after
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2351..2358
+15,2
+#### Text ####
+he said
+##############
+after, Temporal.Asynchronous.Succession
+____Arg1____
+2382..2412
+15,6,1,0;15,6,1,1,0;15,6,1,1,1,0;15,6,1,1,1,1
+#### Text ####
+for stealing corporate secrets
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2419..2465
+15,6,1,1,1,2,1
+#### Text ####
+they've been "erased" from a computer's memory
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2475
+16
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2341..2349;2360..2465
+15,0;15,1;15,3;15,4;15,5;15,6;15,7
+#### Text ####
+Moreover technology now exists for stealing corporate secrets after they've been "erased" from a computer's memory
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2351..2358
+15,2
+#### Text ####
+he said
+##############
+____Arg2____
+2475..2634
+16,1,1
+#### Text ####
+that Oliver North of Iran-Contra notoriety thought he had erased his computer but that the information was later retrieved for congressional committees to read
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2467..2474
+16,0;16,1,0;16,2
+#### Text ####
+He said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2553..2556
+16,1,1,1
+#### Text ####
+but
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2467..2474
+16,0;16,1,0;16,2
+#### Text ####
+He said
+##############
+but, Comparison.Contrast
+____Arg1____
+2475..2552
+16,1,1,0
+#### Text ####
+that Oliver North of Iran-Contra notoriety thought he had erased his computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2557..2634
+16,1,1,2
+#### Text ####
+that the information was later retrieved for congressional committees to read
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2582..2587
+16,1,1,2,1,1,1
+#### Text ####
+later
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2467..2474
+16,0;16,1,0;16,2
+#### Text ####
+He said
+##############
+later, Temporal.Asynchronous.Precedence
+____Arg1____
+2475..2552
+16,1,1,0
+#### Text ####
+that Oliver North of Iran-Contra notoriety thought he had erased his computer
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2553..2581;2588..2634
+16,1,1,1;16,1,1,2,0;16,1,1,2,1,0;16,1,1,2,1,1,0;16,1,1,2,1,1,2
+#### Text ####
+but that the information was retrieved for congressional committees to read
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2636
+17
+#### Features ####
+Wr, Comm, Null, Null
+on the whole, Expansion.Restatement
+____Arg1____
+2475..2634
+16,1,1
+#### Text ####
+that Oliver North of Iran-Contra notoriety thought he had erased his computer but that the information was later retrieved for congressional committees to read
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2467..2474
+16,0;16,1,0;16,2
+#### Text ####
+He said
+##############
+____Arg2____
+2636..2711
+17,0
+#### Text ####
+No personal computer, not even the one on a chief executive's desk, is safe
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2713..2731
+17,1;17,2;17,3;17,4
+#### Text ####
+this speaker noted
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+2952
+19
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+2735..2775;2843..2950
+18,0,0;18,0,1;18,0,2,0;18,0,2,1,0;18,0,2,1,1,0;18,0,2,1,1,1;18,0,3;18,1;18,2
+#### Text ####
+W. Mark Goode, president of Micronyx Inc provided a new definition for Mikhail Gorbachev's campaign for greater openness, known commonly as glasnost
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2952..2971;2989..3053
+19,0;19,1;19,3;19,4;19,5
+#### Text ####
+Under Mr. Gorbachev the Soviets are openly stealing Western corporate communications
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2973..2987
+19,2
+#### Text ####
+Mr. Goode said
+##############
+________________________________________________________
+________________________________________________________
+____Implicit____
+3064
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Instantiation
+____Arg1____
+2952..2971;2989..3053
+19,0;19,1;19,3;19,4;19,5
+#### Text ####
+Under Mr. Gorbachev the Soviets are openly stealing Western corporate communications
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2973..2987
+19,2
+#### Text ####
+Mr. Goode said
+##############
+____Arg2____
+3064..3195
+20,1,1;20,2
+#### Text ####
+the case of a Swiss oil trader who recently put out bids via telex for an oil tanker to pick up a cargo of crude in the Middle East
+##############
+#### Features ####
+Ot, Comm, Null, Null
+3055..3063
+20,0;20,1,0;20,2
+#### Text ####
+He cited
+##############
+________________________________________________________
+________________________________________________________
+____EntRel____
+3197
+21
+____Arg1____
+3055..3195
+20
+#### Text ####
+He cited the case of a Swiss oil trader who recently put out bids via telex for an oil tanker to pick up a cargo of crude in the Middle East
+##############
+____Arg2____
+3197..3330
+21
+#### Text ####
+Among the responses the Swiss trader got was one from the Soviet national shipping company, which hadn't been invited to submit a bid
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+3369..3376
+22,1,3
+#### Text ####
+however
+##############
+#### Features ####
+Wr, Comm, Null, Null
+however, Comparison.Contrast
+____Arg1____
+2952..3330
+19;20;21
+#### Text ####
+Under Mr. Gorbachev, Mr. Goode said, the Soviets are openly stealing Western corporate communications.
+He cited the case of a Swiss oil trader who recently put out bids via telex for an oil tanker to pick up a cargo of crude in the Middle East.
+Among the responses the Swiss trader got was one from the Soviet national shipping company, which hadn't been invited to submit a bid
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3332..3367;3378..3407
+22,0;22,1,0;22,1,1;22,1,2;22,1,4;22,1,5;22,2
+#### Text ####
+The Soviets' eavesdropping paid off because they got the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+3378..3385
+22,1,5,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Arg1____
+3332..3376
+22,0;22,1,0;22,1,1;22,1,2;22,1,3;22,1,4;22,2
+#### Text ####
+The Soviets' eavesdropping paid off, however
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+3386..3407
+22,1,5,1
+#### Text ####
+they got the contract
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________

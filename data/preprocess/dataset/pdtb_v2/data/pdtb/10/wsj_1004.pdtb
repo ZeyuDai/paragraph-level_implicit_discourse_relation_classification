@@ -1,0 +1,722 @@
+________________________________________________________
+____Explicit____
+329..336
+1,1,1,1,1,3
+#### Text ####
+as well
+##############
+#### Features ####
+Ot, Comm, Null, Null
+277..281
+1,0,1;1,0,3;1,1,0
+#### Text ####
+said
+##############
+as well, Expansion.Conjunction
+____Arg1____
+52..195
+0,1,1
+#### Text ####
+it agreed to let Motorola Inc. participate in a semiconductor research project as part of its effort to bolster the U.S. semiconductor industry
+##############
+#### Features ####
+Ot, Comm, Null, Null
+9..51
+0,0;0,1,0;0,2
+#### Text ####
+International Business Machines Corp. said
+##############
+____Arg2____
+282..328;338..364
+1,1,1,0;1,1,1,1,0;1,1,1,1,1,0;1,1,1,1,1,1;1,1,1,1,1,2;1,1,1,1,1,4;1,1,1,1,1,5
+#### Text ####
+it invited many other companies to participate including some from Europe
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+409..413
+2,1,0,1,1,1,1
+#### Text ####
+also
+##############
+#### Features ####
+Ot, Comm, Null, Null
+366..401
+2,0;2,1,0,0;2,2
+#### Text ####
+Jack Kuehler, IBM's president, said
+##############
+also, Expansion.Conjunction
+____Arg1____
+282..364
+1,1,1
+#### Text ####
+it invited many other companies to participate as well, including some from Europe
+##############
+#### Features ####
+Ot, Comm, Null, Null
+277..281
+1,0,1;1,0,3;1,1,0
+#### Text ####
+said
+##############
+____Arg2____
+402..408;414..527
+2,1,0,1,0;2,1,0,1,1,0;2,1,0,1,1,1,0;2,1,0,1,1,1,2;2,1,1;2,1,2;2,2
+#### Text ####
+IBM is considering letting other companies participate in additional semiconductor work but declined to be more specific
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+673..675
+3,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Wr, Comm, Null, Null
+as, Temporal.Synchrony
+____Sup1____
+536..625
+3,0,2
+#### Text ####
+which said a year ago it was inviting companies to participate in some semiconductor work
+##############
+____Arg1____
+531..534;627..672
+3,0,0;3,0,1;3,0,3;3,1,0;3,1,1,0;3,1,1,1
+#### Text ####
+IBM has become far more open about its technology
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+676..736
+3,1,1,2,1,0;3,1,1,2,1,1,0;3,1,1,2,1,1,1,0;3,1,1,2,1,1,1,1,0;3,1,1,2,1,1,1,1,1,0;3,1,1,2,1,1,1,1,1,1,0;3,1,1,2,1,1,1,1,1,1,1;3,1,1,2,1,1,1,1,1,1,2,0;3,1,1,2,1,1,1,1,1,1,2,1,0;3,1,1,2,1,1,1,1,1,1,2,1,1,0;3,1,1,2,1,1,1,1,1,1,2,1,1,1;3,1,1,2,1,1,1,1,1,1,2,1,1,2,0;3,1,1,2,1,1,1,1,1,1,2,1,1,2,1
+#### Text ####
+it has tried to rally U.S. industry to head off the Japanese
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+738..804
+3,1,1,2,1,1,1,1,1,1,2,1,1,2,2
+#### Text ####
+who now dominate the market for dynamic random access memory chips
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+808..813
+4,0,0
+#### Text ####
+While
+##############
+#### Features ####
+Wr, Comm, Null, Null
+while, Comparison.Concession.Expectation
+____Arg1____
+870..929
+4,1;4,2;4,3;4,4
+#### Text ####
+it doesn't make the equipment needed to produce those chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+814..868
+4,0,1
+#### Text ####
+IBM, Armonk, N.Y., makes the bulk of the DRAMs it uses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+931..934
+5,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Arg1____
+808..929
+4
+#### Text ####
+While IBM, Armonk, N.Y., makes the bulk of the DRAMs it uses, it doesn't make the equipment needed to produce those chips
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+935..1114
+5,1;5,2;5,3
+#### Text ####
+IBM worries that the Japanese will take over that equipment market, too, unless U.S. semiconductor companies produce enough memory chips here to keep U.S. equipment makers healthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1008..1014
+5,2,1,1,1,1,6,0
+#### Text ####
+unless
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+931..946
+5,0;5,1;5,2,0;5,3
+#### Text ####
+And IBM worries
+##############
+unless, Expansion.Alternative.Disjunctive
+____Arg1____
+947..1006
+5,2,1,0;5,2,1,1,0;5,2,1,1,1,0;5,2,1,1,1,1,0;5,2,1,1,1,1,1;5,2,1,1,1,1,2;5,2,1,1,1,1,3;5,2,1,1,1,1,4;5,2,1,1,1,1,5
+#### Text ####
+that the Japanese will take over that equipment market, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1015..1114
+5,2,1,1,1,1,6,1
+#### Text ####
+U.S. semiconductor companies produce enough memory chips here to keep U.S. equipment makers healthy
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1116
+6
+#### Features ####
+Wr, Comm, Null, Null
+then, Temporal.Asynchronous.Precedence
+____Arg1____
+947..1114
+5,2,1
+#### Text ####
+that the Japanese will take over that equipment market, too, unless U.S. semiconductor companies produce enough memory chips here to keep U.S. equipment makers healthy
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+931..946
+5,0;5,1;5,2,0;5,3
+#### Text ####
+And IBM worries
+##############
+____Arg2____
+1116..1148;1161..1269
+6,0;6,2;6,3
+#### Text ####
+Failure of U.S. equipment makers would leave it dependent on many of the Japanese companies that compete with it in other parts of the market
+##############
+#### Features ####
+Ot, PAtt, Null, Null
+1150..1159
+6,1
+#### Text ####
+IBM fears
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+1277..1281
+7,1
+#### Text ####
+also
+##############
+#### Features ####
+Wr, Comm, Null, Null
+also, Expansion.Conjunction
+____Arg1____
+9..195
+0
+#### Text ####
+International Business Machines Corp. said it agreed to let Motorola Inc. participate in a semiconductor research project as part of its effort to bolster the U.S. semiconductor industry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1273..1276;1282..1445
+7,0;7,2;7,3
+#### Text ####
+IBM said it expects to benefit from the expertise that Motorola and other companies can bring to bear on the difficult problems involved in semiconductor manufacturing
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1447
+8
+#### Features ####
+Wr, Comm, Null, Null
+in fact, Expansion.Conjunction
+____Arg1____
+1287..1445
+7,2,1
+#### Text ####
+it expects to benefit from the expertise that Motorola and other companies can bring to bear on the difficult problems involved in semiconductor manufacturing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1273..1286
+7,0;7,1;7,2,0;7,3
+#### Text ####
+IBM also said
+##############
+____Arg2____
+1447..1548
+8
+#### Text ####
+IBM already participates in one industrywide effort to improve semiconductor-manufacturing techniques
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1613..1620
+9,1,1,1,1,2,0
+#### Text ####
+because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1552..1560
+9,0;9,1,0;9,2
+#### Text ####
+IBM said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+1561..1612
+9,1,1,0;9,1,1,1,0;9,1,1,1,1,0;9,1,1,1,1,1
+#### Text ####
+it expects industrywide efforts to become prevalent
+##############
+#### Features ####
+Ot, Comm, Null, Null
+____Arg2____
+1621..1672
+9,1,1,1,1,2,1
+#### Text ####
+semiconductor manufacturing has become so expensive
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+1674
+10
+#### Features ####
+Wr, Comm, Null, Null
+specifically, Expansion.Restatement.Specification
+____Arg1____
+1613..1672
+9,1,1,1,1,2
+#### Text ####
+because semiconductor manufacturing has become so expensive
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1674..1761
+10,0;10,1,0;10,1,1;10,1,2,0;10,1,2,1;10,1,2,2;10,2
+#### Text ####
+A state-of-the-art plant cost $40 million in the mid-1970s but costs $500 million today
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1762..1769
+10,1,2,3,0
+#### Text ####
+because
+##############
+#### Features ####
+Wr, Comm, Null, Null
+because, Contingency.Cause.Reason
+____Sup1____
+1674..1732
+10,0;10,1,0;10,2
+#### Text ####
+A state-of-the-art plant cost $40 million in the mid-1970s
+##############
+____Arg1____
+1733..1761
+10,1,1;10,1,2,0;10,1,2,1;10,1,2,2
+#### Text ####
+but costs $500 million today
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+1770..1798
+10,1,2,3,1
+#### Text ####
+the technology is so complex
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+1800..1803
+11,0
+#### Text ####
+And
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction
+____Sup1____
+1674..1798
+10
+#### Text ####
+A state-of-the-art plant cost $40 million in the mid-1970s but costs $500 million today because the technology is so complex
+##############
+____Arg1____
+1561..1672
+9,1,1
+#### Text ####
+it expects industrywide efforts to become prevalent because semiconductor manufacturing has become so expensive
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1552..1560
+9,0;9,1,0;9,2
+#### Text ####
+IBM said
+##############
+____Arg2____
+1813..1854
+11,2,1
+#### Text ####
+it expects the costs to continue climbing
+##############
+#### Features ####
+Ot, Comm, Null, Null
+1804..1812
+11,1;11,2,0;11,3
+#### Text ####
+IBM said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2016..2019
+13,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Arg1____
+1958..2014
+12,1,1
+#### Text ####
+some companies had turned down its invitation to join in
+##############
+#### Features ####
+Ot, Ftv, Null, Null
+1945..1957
+12,0,1;12,0,3;12,1,0
+#### Text ####
+acknowledged
+##############
+____Arg2____
+2028..2102
+13,2,1
+#### Text ####
+that was mainly because the project may not bear fruit until the mid-1990s
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2020..2027
+13,1;13,2,0;13,3
+#### Text ####
+it said
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2037..2051
+13,2,1,1,1,1,0;13,2,1,1,1,1,1
+#### Text ####
+mainly because
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2016..2027
+13,0;13,1;13,2,0;13,3
+#### Text ####
+But it said
+##############
+because, Contingency.Cause.Reason
+____Arg1____
+2028..2036
+13,2,1,0;13,2,1,1,0;13,2,1,1,1,0
+#### Text ####
+that was
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2052..2102
+13,2,1,1,1,1,2
+#### Text ####
+the project may not bear fruit until the mid-1990s
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2124
+14
+#### Features ####
+Ot, PAtt, Null, Null
+2113..2123
+14,1,1,0;14,1,1,1,0;14,1,1,1,1,0
+#### Text ####
+it thought
+##############
+however, Comparison
+____Arg1____
+2028..2102
+13,2,1
+#### Text ####
+that was mainly because the project may not bear fruit until the mid-1990s
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2124..2188
+14,1,1,1,1,1
+#### Text ####
+more companies would become interested as the project progresses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2163..2165
+14,1,1,1,1,1,1,1,1,2,0
+#### Text ####
+as
+##############
+#### Features ####
+Ot, Comm, Null, Null
+2113..2123
+14,1,1,0;14,1,1,1,0;14,1,1,1,1,0
+#### Text ####
+it thought
+##############
+as, Temporal.Synchrony
+____Arg1____
+2124..2162
+14,1,1,1,1,1,0;14,1,1,1,1,1,1,0;14,1,1,1,1,1,1,1,0;14,1,1,1,1,1,1,1,1,0;14,1,1,1,1,1,1,1,1,1
+#### Text ####
+more companies would become interested
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2166..2188
+14,1,1,1,1,1,1,1,1,2,1
+#### Text ####
+the project progresses
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2478..2481
+17,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Contrast.Juxtaposition
+____Arg1____
+2339..2476
+16
+#### Text ####
+Currently, chips are produced by shining light through a mask to produce an image on the chip, much as a camera produces an image on film
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2482..2641
+17,1;17,2;17,3;17,4,0;17,4,1,0;17,4,1,1;17,4,1,2;17,5
+#### Text ####
+details on chips must now be extraordinarily fine, and the wavelengths of even ultraviolet light are long enough so that the images they draw may be too blurry
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Sup2____
+2645..2754
+17,4,1,3
+#### Text ####
+much as someone using a wide paintbrush could produce a broad line but would have trouble painting a thin one
+##############
+________________________________________________________
+________________________________________________________
+____Explicit____
+2533..2536
+17,3
+#### Text ####
+and
+##############
+#### Features ####
+Wr, Comm, Null, Null
+and, Expansion.Conjunction, Contingency.Cause.Result
+____Arg1____
+2478..2531
+17,0;17,1;17,2
+#### Text ####
+But details on chips must now be extraordinarily fine
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2537..2641
+17,4,0;17,4,1,0;17,4,1,1;17,4,1,2
+#### Text ####
+the wavelengths of even ultraviolet light are long enough so that the images they draw may be too blurry
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2595..2602
+17,4,1,1,2,0;17,4,1,1,2,1
+#### Text ####
+so that
+##############
+#### Features ####
+Wr, Comm, Null, Null
+so that, Contingency.Cause.Result
+____Arg1____
+2533..2594
+17,3;17,4,0;17,4,1,0;17,4,1,1,0;17,4,1,1,1;17,5
+#### Text ####
+and the wavelengths of even ultraviolet light are long enough
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2603..2754
+17,4,1,1,2,2;17,4,1,2;17,4,1,3
+#### Text ####
+the images they draw may be too blurry -- much as someone using a wide paintbrush could produce a broad line but would have trouble painting a thin one
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2764..2775
+18,2
+#### Text ####
+by contrast
+##############
+#### Features ####
+Wr, Comm, Null, Null
+by contrast, Comparison.Contrast.Juxtaposition
+____Arg1____
+2533..2754
+17,3;17,4;17,5
+#### Text ####
+and the wavelengths of even ultraviolet light are long enough so that the images they draw may be too blurry -- much as someone using a wide paintbrush could produce a broad line but would have trouble painting a thin one
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2756..2762;2777..2837
+18,0;18,1;18,3;18,4;18,5
+#### Text ####
+X-rays travel straighter and can be focused more tightly than light
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Implicit____
+2868
+20
+#### Features ####
+Wr, Comm, Null, Null
+for example, Expansion.Restatement.Specification
+____Arg1____
+2841..2866
+19
+#### Text ####
+X-rays have problems, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2868..2953
+20
+#### Text ####
+They can make the masks brittle and can pass through material they're not supposed to
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
+________________________________________________________
+____Explicit____
+2955..2958
+21,0
+#### Text ####
+But
+##############
+#### Features ####
+Wr, Comm, Null, Null
+but, Comparison.Concession.Contra-expectation
+____Sup1____
+2868..2953
+20
+#### Text ####
+They can make the masks brittle and can pass through material they're not supposed to
+##############
+____Arg1____
+2841..2866
+19
+#### Text ####
+X-rays have problems, too
+##############
+#### Features ####
+Inh, Null, Null, Null
+____Arg2____
+2960..3239
+21,1;21,2;21,3;21,4;21,5;21,6
+#### Text ####
+assuming those problems can be overcome, they should allow for memory chips that could approach one billion bits of information -- 250 times as much as is contained in the four-megabit chips that are just reaching the market and a million times what was possible in the mid-1970s
+##############
+#### Features ####
+Inh, Null, Null, Null
+________________________________________________________
