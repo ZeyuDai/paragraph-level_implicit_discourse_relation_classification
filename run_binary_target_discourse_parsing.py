@@ -7,7 +7,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 from torch import optim
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from model import BaseSequenceLabelingSplitImpExp,BaseSeq2SeqSplitImpExp
+from model import BaseSequenceLabelingSplitImpExp
 
 from sklearn import metrics
 import numpy as np
@@ -377,7 +377,7 @@ l2_reg_list = [0]   # fixed 0
 nb_epoch_list = [50]
 encoder_sentence_embedding_type_list = ['max'] # max > last
 sentence_zero_inithidden_list = [False]
-decoder_type_list = ['tensor']
+#decoder_type_list = ['tensor']
 optimizer_type_list = ['adam']  # adam > adagrad
 num_layers_list = [1] # 1 > 2
 
@@ -389,7 +389,7 @@ for num_layers in num_layers_list:
                 for optimizer_type in optimizer_type_list:
                     for hidden_size in hidden_size_list:
                         for nb_epoch in nb_epoch_list:
-                            for decoder_type in decoder_type_list:
+                            #for decoder_type in decoder_type_list:
                                 for weight_decay in l2_reg_list:
                                     for dropout in dropout_list:
                                         parameters = {}
@@ -399,7 +399,7 @@ for num_layers in num_layers_list:
                                         parameters['num_layers'] = num_layers
                                         parameters['batch_size'] = batch_size
                                         parameters['hidden_size'] = hidden_size
-                                        parameters['decoder_type'] = decoder_type
+                                        #parameters['decoder_type'] = decoder_type
                                         parameters['optimizer_type'] = optimizer_type
                                         parameters['dropout'] = dropout * 0.1
                                         parameters['weight_decay'] = weight_decay
@@ -436,13 +436,10 @@ if __name__ == "__main__":
             each_iteration_result_list = []
             each_iteration_macro_Fscore_list = []
 
-            for iteration in range(5):
+            for iteration in range(10):
                 model = BaseSequenceLabelingSplitImpExp(word_embedding_dimension, number_class, hidden_size=parameters['hidden_size'], sentence_embedding_type = parameters['sentence_embedding_type'], 
                         sentence_zero_inithidden = parameters['sentence_zero_inithidden'], cross_attention = False, attention_function = 'dot', NTN_flag = False, num_layers = parameters['num_layers'], dropout = parameters['dropout'])
-
-                #model = BaseSeq2SeqSplitImpExp(word_embedding_dimension, number_class, hidden_size=parameters['hidden_size'], sentence_embedding_type = parameters['sentence_embedding_type'], 
-                #        sentence_zero_inithidden = parameters['sentence_zero_inithidden'], decoder_input_type = parameters['decoder_type'], num_layers = parameters['num_layers'], dropout = parameters['dropout'])
-
+                
                 if use_cuda:
                     model = model.cuda()
 
