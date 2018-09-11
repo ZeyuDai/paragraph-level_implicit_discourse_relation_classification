@@ -188,7 +188,7 @@ def evaluate(model_list,X,Y, discourse = 'implicit'):
 
 
 batch_size_list = [128]  # fixed 128
-hidden_size_list = [600] # fixed 300>100>600
+hidden_size_list = [300] # fixed 300>100>600
 dropout_list = [5]  # 3>2>0>5
 l2_reg_list = [0]   # fixed 0
 nb_epoch_list = [40]
@@ -238,7 +238,7 @@ if __name__ == "__main__":
     #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabeling_alpha0_eachiterationmodel_hidden600_dropout0.5_addoutputdropout.pt'),'r')
     #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabeling_eachiterationmodel_hidden300_dropout0.5_addoutputdropout_exp3.pt'),'r')
     #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabelingSplitImpExp_eachiterationmodel_hidden300_dropout0.5_addoutputdropout_exp2.pt'),'r')
-    stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BiLSTMCRFSplitImpExp_rand_viterbi_eachiterationmodel_hidden600_addoutputdropout_exp2.pt'),'r')
+    stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BiLSTMCRFSplitImpExp_rand_viterbi_eachiterationmodel_hidden300_addoutputdropout_exp2.pt'),'r')
 
     stored_bilstm_model_list = torch.load(stored_bilstm_model_file)
     stored_bilstm_model_list = [stored_bilstm_model_list] if type(stored_bilstm_model_list) != type([]) else stored_bilstm_model_list
