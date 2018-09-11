@@ -7,7 +7,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 from torch import optim
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from model import BaseSequenceLabeling,BaseSequenceLabelingSplitImpExp,BaseSeq2SeqSplitImpExp,BiLSTMCRFSplitImpExp
+from model import BaseSequenceLabeling,BaseSequenceLabelingSplitImpExp,BiLSTMCRFSplitImpExp
 
 from sklearn import metrics
 import numpy as np
