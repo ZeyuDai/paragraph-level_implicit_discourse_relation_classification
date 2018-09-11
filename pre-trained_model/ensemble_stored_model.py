@@ -235,7 +235,7 @@ if __name__ == "__main__":
     number_class = test_Y[0].size(-1)
 
     parameters = parameters_list[0]
-    #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabeling_alpha0_eachiterationmodel_hidden600_dropout0.5_addoutputdropout.pt'),'r')
+    #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabeling_alpha0_eachiterationmodel_hidden300_dropout0.5_addoutputdropout.pt'),'r')
     #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabeling_eachiterationmodel_hidden300_dropout0.5_addoutputdropout_exp3.pt'),'r')
     #stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabelingSplitImpExp_eachiterationmodel_hidden300_dropout0.5_addoutputdropout_exp2.pt'),'r')
     stored_bilstm_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BiLSTMCRFSplitImpExp_rand_viterbi_eachiterationmodel_hidden300_addoutputdropout_exp2.pt'),'r')
