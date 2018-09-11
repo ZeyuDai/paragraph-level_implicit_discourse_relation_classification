@@ -197,7 +197,7 @@ def average_result(each_iteration_result_list):
     return [average_result_list(implicit_result_list)]'''
 
 batch_size_list = [128]  # fixed 128
-hidden_size_list = [600] # fixed 300>100>600
+hidden_size_list = [300] # fixed 300>100>600
 dropout_list = [5]  # 3>2>0>5
 l2_reg_list = [0]   # fixed 0
 nb_epoch_list = [50]
@@ -248,7 +248,7 @@ if __name__ == "__main__":
 
     #stored_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabeling_eachiterationmodel_hidden300_dropout0.5_addoutputdropout_exp3.pt'),'r')
     #stored_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BaseSequenceLabelingSplitImpExp_eachiterationmodel_hidden300_dropout0.5_addoutputdropout_exp2.pt'),'r')
-    stored_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BiLSTMCRFSplitImpExp_rand_viterbi_eachiterationmodel_hidden600_addoutputdropout_exp2.pt'),'r')
+    stored_model_file = open(os.path.join(os.getcwd(),'result/model/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BiLSTMCRFSplitImpExp_rand_viterbi_eachiterationmodel_hidden300_addoutputdropout_exp2.pt'),'r')
 
     stored_model_list = torch.load(stored_model_file)
     stored_model_list = [stored_model_list] if type(stored_model_list) != type([]) else stored_model_list
