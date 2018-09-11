@@ -303,10 +303,6 @@ if __name__ == "__main__":
             overall_best_macro = best_macro_Fscore
             overall_best_result = best_result
 
-    with open( './result/predict/pdtb_implicit_moreexplicit_discourse_withoutAltLex_paragraph_multilabel_addposnerembedding_BiLSTMCRFSplitImpExp_rand_viterbi_bestpredcitedlabels_hidden600_addoutputdropout_exp2_devset.pkl','w') as f:
-        cPickle.dump(overall_best_result,f)
-        f.close()
-
     overall_average_result = average_result(each_iteration_result_list)
     print '-------------------------------------------------------------------------'
     print 'Overall Average Result:'
