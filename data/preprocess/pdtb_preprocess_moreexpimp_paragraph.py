@@ -819,9 +819,9 @@ print 'double label count: ' + str(double_label_count)
 print 'average para length: ' + str(sum(para_length_list) / float(len(para_length_list)))
 print 'para length distribution: ' + str(np.unique(para_length_list, return_counts=True))
 
-'''with open('../resource/pdtb_sentence_pos_ner_dict.pkl','w') as f:
+with open('../resource/pdtb_sentence_pos_ner_dict.pkl','w') as f:
 	cPickle.dump(sentence_pos_ner_dict,f)
-	f.close()'''
+	f.close()
 
 pdtb_data = {}
 pdtb_data['dev_X'] = dev_X
