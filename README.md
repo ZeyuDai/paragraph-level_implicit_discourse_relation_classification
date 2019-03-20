@@ -22,7 +22,7 @@ To run the code:
 5. You can change the hyperparameters in .py file before the main() function (I am sorry that I didn't write code for config). Feel free to contact me if you need pretrained model file.<br/>
 
 --------------------------------------------------------------------
-About Preprocessing:
+About preprocessing:
 1. Download both Google [word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) and preprocessed [POS/NER file](https://drive.google.com/open?id=1_X7DZhxw4GKaCZ8_sfgrJcoPrSVe4DLq) (You can also generate them by yourself by downloading Standford [CoreNLP toolkit](https://stanfordnlp.github.io/CoreNLP/) and put them in ./data/resource) <br/>
 2. The PDTB v2.0 dataset raw files are already in the ./data/preprocess/dataset/ <br/>
 3. run ```python pdtb_preprocess_moreexpimp_paragraph.py``` <br/> 
