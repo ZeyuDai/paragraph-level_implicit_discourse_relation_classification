@@ -1,5 +1,5 @@
 # paragraph_implicit_discourse_relations
-Note: I am working on upgrading the Pytorch version and using more user-friendly I/O files. I expect to release new version of code by end of May.
+Note: I am working on upgrading the Pytorch version and using more user-friendly I/O files. I expect to release [new version of code](https://github.com/ZeyuDai/easy-to-use_discourse_parser) by end of May.
 
 Code for the NAACL 2018 paper ["Improving Implicit Discourse Relation Classification by Modeling Inter-dependencies of Discourse Units in a Paragraph"](http://www.aclweb.org/anthology/N18-1013)
 
