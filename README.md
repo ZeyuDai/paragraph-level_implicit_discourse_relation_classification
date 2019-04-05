@@ -28,7 +28,7 @@ About preprocessing:
 3. run ```python pdtb_preprocess_moreexpimp_paragraph.py``` <br/> 
 
 --------------------------------------------------------------------
-Package Version:<br/>
+Package version:<br/>
 python == 2.7.10<br/>
 torch == 0.3.0<br/>
 nltk >= 3.2.2<br/>
