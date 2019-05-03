@@ -65,14 +65,14 @@ class SoftAttention(nn.Module):
 		input:   si  batch x input_size
 		context: h   batch x sourceL x input_size
 		"""
-		si = input
+		si = input.clone()
 		if self.attention_function == 'feedforward':
 			si = self.linear_W1(si)			# batch x hidden_size
 
 			h = context.view(-1,self.input_size) # (batch*sourceL) x input_size
 			h = self.linear_W2(h)			# (batch*sourceL) x hidden_size
 
-			attn = self.linear_v(self.tanh(h + torch.cat([si]*context.size(1),0))) # (batch*sourceL) x 1
+			attn = self.linear_v(self.tanh(h + si.repeat(1,context.size(1)).view(-1,h.size(-1)))) # (batch*sourceL) x 1
 			attn = attn.view(context.size(0),context.size(1)) # batch x sourceL
 
 		elif self.attention_function == 'dot':
@@ -87,7 +87,7 @@ class SoftAttention(nn.Module):
 		elif self.attention_function == 'concat':
 			h = context.view(-1,self.input_size) # (batch*sourceL) x input_size
 
-			attn = self.linear_v(self.tanh(self.linear_W(torch.cat([torch.cat([si]*context.size(1),0),h], dim=-1)))) # (batch*sourceL) x 1
+			attn = self.linear_v(self.tanh(self.linear_W(torch.cat([si.repeat(1,context.size(1)).view(-1,self.input_size),h], dim=-1)))) # (batch*sourceL) x 1
 			attn = attn.view(context.size(0),context.size(1)) # batch x sourceL
 
 		if self.temporal:
